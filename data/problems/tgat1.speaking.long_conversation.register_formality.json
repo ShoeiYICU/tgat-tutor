@@ -1,0 +1,603 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tgat1.speaking.long_conversation.register_formality",
+  "problems": [
+    {
+      "id": "prob.tgat1.speaking.long_conversation.register_formality.0001",
+      "topic_ids": [
+        "tgat1.speaking.long_conversation.register_formality"
+      ],
+      "primary_topic_id": "tgat1.speaking.long_conversation.register_formality",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 30,
+      "stem_md": "**Student:** Excuse me, Professor Wilson. ______  \n**Professor:** Of course. Come in and have a seat.",
+      "figures": [],
+      "choices": [
+        {
+          "md": "May I ask you a few questions about the assignment?",
+          "is_answer": true
+        },
+        {
+          "md": "Hey, got a sec? I really need to ask you some stuff about the homework.",
+          "is_answer": false
+        },
+        {
+          "md": "I wanna talk about my grade right now.",
+          "is_answer": false
+        },
+        {
+          "md": "You have to explain the assignment to me again.",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ความสัมพันธ์: นักศึกษากับอาจารย์",
+          "why_md": "ต้องใช้ภาษาสุภาพ"
+        },
+        {
+          "do_md": "May I ask...? = ขออนุญาตแบบสุภาพ",
+          "why_md": "เหมาะกับคำตอบ Of course. Come in."
+        }
+      ],
+      "answer_explanation_md": "ตอบ May I ask you a few questions about the assignment? เพราะเป็นการขออนุญาตแบบสุภาพที่เหมาะกับการพูดกับอาจารย์",
+      "hints": [
+        "นักศึกษาพูดกับใคร",
+        "ตัวเลือกไหนความหมายถูกแต่ภาษาห้วนเกินไป",
+        "May I... เป็นภาษาระดับไหน"
+      ],
+      "distractor_reasons": {
+        "1": "ความหมายคล้ายกัน แต่ภาษาไม่ทางการเกินไปสำหรับการพูดกับอาจารย์",
+        "2": "ใช้ wanna และน้ำเสียงเรียกร้อง ไม่สุภาพกับอาจารย์",
+        "3": "เป็นประโยคสั่ง ไม่เหมาะกับการพูดกับอาจารย์"
+      },
+      "misconception_tags": [
+        "register_mismatch"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.long_conversation.register_formality.0002",
+      "topic_ids": [
+        "tgat1.speaking.long_conversation.register_formality"
+      ],
+      "primary_topic_id": "tgat1.speaking.long_conversation.register_formality",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 30,
+      "stem_md": "**A:** Yo, Ton! Wanna grab some food after the game?  \n**B:** ______",
+      "figures": [],
+      "choices": [
+        {
+          "md": "Certainly, Sir. What time would suit you?",
+          "is_answer": false
+        },
+        {
+          "md": "I would be delighted to accept your kind invitation.",
+          "is_answer": false
+        },
+        {
+          "md": "Sure, sounds good!",
+          "is_answer": true
+        },
+        {
+          "md": "I'm afraid I must decline your offer at this time.",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ความสัมพันธ์: เพื่อน (Yo, Wanna)",
+          "why_md": "ภาษาไม่ทางการ"
+        },
+        {
+          "do_md": "ตอบรับแบบไม่ทางการ",
+          "why_md": "Sure, sounds good!"
+        }
+      ],
+      "answer_explanation_md": "ตอบ Sure, sounds good! เพราะ A เป็นเพื่อนและใช้ภาษาไม่ทางการ คำตอบที่เป็นธรรมชาติจึงต้องไม่ทางการเช่นกัน",
+      "hints": [
+        "A พูดด้วยภาษาระดับไหน",
+        "B ควรตอบด้วยภาษาระดับเดียวกันไหม",
+        "ตัดตัวเลือกที่ทางการเกินไปสำหรับเพื่อน"
+      ],
+      "distractor_reasons": {
+        "0": "ใช้ Sir กับเพื่อน ไม่เป็นธรรมชาติ",
+        "1": "ความหมายถูก แต่ทางการเกินไปสำหรับเพื่อนที่พูดว่า Yo",
+        "3": "ทางการมากเกินไป และเป็นการปฏิเสธ"
+      },
+      "misconception_tags": [
+        "register_mismatch"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.long_conversation.register_formality.0003",
+      "topic_ids": [
+        "tgat1.speaking.long_conversation.register_formality"
+      ],
+      "primary_topic_id": "tgat1.speaking.long_conversation.register_formality",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 35,
+      "stem_md": "**Receptionist:** Good afternoon, Grand Hotel. How may I help you?  \n**Caller:** Hi, I'd like to cancel my booking for next week.  \n**Receptionist:** ______",
+      "figures": [],
+      "choices": [
+        {
+          "md": "OK, just tell me your booking number quickly because I'm really busy.",
+          "is_answer": false
+        },
+        {
+          "md": "Certainly. May I have your booking number, please?",
+          "is_answer": true
+        },
+        {
+          "md": "Why? Didn't you like our hotel?",
+          "is_answer": false
+        },
+        {
+          "md": "Nah, you can't cancel. It's too late.",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ความสัมพันธ์: พนักงานโรงแรมกับลูกค้า",
+          "why_md": "ต้องสุภาพ"
+        },
+        {
+          "do_md": "ขั้นต่อไป: ขอหมายเลขการจอง",
+          "why_md": "Certainly. May I have your booking number, please?"
+        }
+      ],
+      "answer_explanation_md": "ตอบ Certainly. May I have your booking number, please? เพราะสุภาพเหมาะกับการพูดกับลูกค้า และขอข้อมูลที่ต้องใช้ในการยกเลิก",
+      "hints": [
+        "พนักงานคุยกับใคร",
+        "ก่อนยกเลิกการจอง พนักงานต้องใช้ข้อมูลอะไร",
+        "หาตัวเลือกที่สุภาพและขอข้อมูลที่จำเป็น"
+      ],
+      "distractor_reasons": {
+        "0": "ความหมายถูก แต่ห้วนและเร่ง ไม่เหมาะกับพนักงานโรงแรม",
+        "2": "ถามเหตุผลแบบไม่สุภาพ",
+        "3": "ใช้ภาษาไม่ทางการและปฏิเสธโดยไม่ตรวจสอบ"
+      },
+      "misconception_tags": [
+        "register_mismatch"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.long_conversation.register_formality.0004",
+      "topic_ids": [
+        "tgat1.speaking.long_conversation.register_formality"
+      ],
+      "primary_topic_id": "tgat1.speaking.long_conversation.register_formality",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 40,
+      "stem_md": "**Employee:** Mr. Park, ______  \n**Manager:** Of course. What's the reason?  \n**Employee:** My mother is having surgery.",
+      "figures": [],
+      "choices": [
+        {
+          "md": "you must let me have Friday off.",
+          "is_answer": false
+        },
+        {
+          "md": "I'm not coming in on Friday because I have something important to do, OK?",
+          "is_answer": false
+        },
+        {
+          "md": "would it be possible for me to take Friday off?",
+          "is_answer": true
+        },
+        {
+          "md": "gimme Friday off, will ya?",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ความสัมพันธ์: พนักงานกับผู้จัดการ",
+          "why_md": "ต้องขออนุญาตอย่างสุภาพ"
+        },
+        {
+          "do_md": "หลังช่อง: ผู้จัดการถามเหตุผล",
+          "why_md": "แปลว่าพนักงานขออนุญาต"
+        },
+        {
+          "do_md": "would it be possible... = ขออย่างสุภาพมาก",
+          "why_md": "เหมาะที่สุด"
+        }
+      ],
+      "answer_explanation_md": "ตอบ would it be possible for me to take Friday off? เพราะเป็นการขอลาอย่างสุภาพเหมาะกับการพูดกับผู้จัดการ",
+      "hints": [
+        "พนักงานพูดกับใคร",
+        "ผู้จัดการถามเหตุผลหลังช่องว่าง แปลว่าพนักงานกำลังทำอะไร",
+        "ตัวเลือกไหนเป็นการขออนุญาตที่สุภาพ"
+      ],
+      "distractor_reasons": {
+        "0": "เป็นการสั่งหัวหน้า ไม่สุภาพ",
+        "1": "แจ้งแบบตัดสินใจเองแล้ว ไม่ได้ขออนุญาต",
+        "3": "ภาษาไม่ทางการเกินไปสำหรับการพูดกับหัวหน้า"
+      },
+      "misconception_tags": [
+        "register_mismatch"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.long_conversation.register_formality.0005",
+      "topic_ids": [
+        "tgat1.speaking.long_conversation.register_formality"
+      ],
+      "primary_topic_id": "tgat1.speaking.long_conversation.register_formality",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 30,
+      "stem_md": "**A:** Thank you very much for speaking at our seminar, Dr. Chan.  \n**B:** ______",
+      "figures": [],
+      "choices": [
+        {
+          "md": "No prob. Catch you later!",
+          "is_answer": false
+        },
+        {
+          "md": "It was my pleasure. Thank you for inviting me.",
+          "is_answer": true
+        },
+        {
+          "md": "You're welcome. Give me the money now.",
+          "is_answer": false
+        },
+        {
+          "md": "Yeah, whatever. It was OK, I guess. Your audience was kind of quiet, though.",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "บริบท: การขอบคุณวิทยากรในสัมมนา",
+          "why_md": "ภาษาทางการ"
+        },
+        {
+          "do_md": "ตอบคำขอบคุณแบบทางการ",
+          "why_md": "It was my pleasure. Thank you for inviting me."
+        }
+      ],
+      "answer_explanation_md": "ตอบ It was my pleasure. Thank you for inviting me. เพราะเป็นการตอบคำขอบคุณแบบทางการที่เหมาะกับงานสัมมนา",
+      "hints": [
+        "บริบทนี้เป็นทางการหรือไม่ทางการ",
+        "ตอบคำขอบคุณแบบทางการใช้วลีอะไร",
+        "ตัดตัวเลือกที่ภาษาไม่ทางการเกินไป"
+      ],
+      "distractor_reasons": {
+        "0": "ภาษาไม่ทางการเกินไปสำหรับการตอบในงานสัมมนา",
+        "2": "ขอเงินตรง ๆ ไม่เหมาะกับบริบท",
+        "3": "ฟังไม่ใส่ใจและตำหนิผู้ฟัง ไม่สุภาพ"
+      },
+      "misconception_tags": [
+        "register_mismatch"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.long_conversation.register_formality.0006",
+      "topic_ids": [
+        "tgat1.speaking.long_conversation.register_formality"
+      ],
+      "primary_topic_id": "tgat1.speaking.long_conversation.register_formality",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 35,
+      "stem_md": "**Customer:** Excuse me, I've been waiting for my food for 40 minutes.  \n**Waiter:** ______",
+      "figures": [],
+      "choices": [
+        {
+          "md": "Chill out. It's coming soon.",
+          "is_answer": false
+        },
+        {
+          "md": "That's not my fault. The kitchen is slow.",
+          "is_answer": false
+        },
+        {
+          "md": "Yeah, we're super busy today, sorry. Everybody has to wait a long time, not just you.",
+          "is_answer": false
+        },
+        {
+          "md": "I sincerely apologize. Let me check on it right away.",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ความสัมพันธ์: พนักงานกับลูกค้าที่ไม่พอใจ",
+          "why_md": "ต้องใช้ภาษาสุภาพและแก้ปัญหา"
+        },
+        {
+          "do_md": "ขอโทษแบบทางการ + ลงมือแก้",
+          "why_md": "I sincerely apologize. Let me check on it right away."
+        }
+      ],
+      "answer_explanation_md": "ตอบ I sincerely apologize. Let me check on it right away. เพราะขอโทษอย่างเป็นทางการและลงมือแก้ปัญหา เหมาะกับการพูดกับลูกค้า",
+      "hints": [
+        "พนักงานคุยกับใคร และลูกค้ารู้สึกอย่างไร",
+        "ตัวเลือกไหนทั้งสุภาพและแก้ปัญหา",
+        "ตัดตัวเลือกที่ห้วนหรือโยนความผิด"
+      ],
+      "distractor_reasons": {
+        "0": "ห้วนและไม่สุภาพกับลูกค้าที่กำลังไม่พอใจ",
+        "1": "โยนความผิด ไม่เป็นมืออาชีพ",
+        "2": "ภาษาไม่ทางการเกินไป และไม่ได้เสนอการแก้ไข"
+      },
+      "misconception_tags": [
+        "register_mismatch"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.long_conversation.register_formality.0007",
+      "topic_ids": [
+        "tgat1.speaking.long_conversation.register_formality"
+      ],
+      "primary_topic_id": "tgat1.speaking.long_conversation.register_formality",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 45,
+      "stem_md": "**Student:** ______  \n**Professor:** Certainly. Send the draft by Friday.",
+      "figures": [],
+      "choices": [
+        {
+          "md": "Hey, wanna see this thing?",
+          "is_answer": false
+        },
+        {
+          "md": "Check this for me, okay?",
+          "is_answer": false
+        },
+        {
+          "md": "You will read it, won't you?",
+          "is_answer": false
+        },
+        {
+          "md": "Would you be willing to give me feedback on my draft?",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ติดตามบริบทและผู้พูด",
+          "why_md": "นักศึกษาขอความช่วยเหลืออาจารย์"
+        },
+        {
+          "do_md": "ทดลองเติมแล้วอ่านต่อ",
+          "why_md": "คำตอบต้องทำให้บทสนทนาต่อเนื่อง ไม่ใช่แค่มีคำซ้ำ"
+        }
+      ],
+      "answer_explanation_md": "Would you be willing สุภาพและเปิดทางปฏิเสธ",
+      "hints": [
+        "ดูว่าใครพูดกับใครและต้องการอะไร",
+        "ใช้ประโยคก่อนและหลังช่องว่างร่วมกัน",
+        "ตัดตัวเลือกที่มีคำซ้ำแต่ทำหน้าที่ผิด"
+      ],
+      "distractor_reasons": {
+        "0": "ไม่เป็นทางการ",
+        "1": "ตรงเกินกับอาจารย์",
+        "2": "กดดัน"
+      },
+      "misconception_tags": [
+        "register_mismatch"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.long_conversation.register_formality.0008",
+      "topic_ids": [
+        "tgat1.speaking.long_conversation.register_formality"
+      ],
+      "primary_topic_id": "tgat1.speaking.long_conversation.register_formality",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 5,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": true,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 60,
+      "stem_md": "**Employee:** ______  \n**Director:** Thanks. I'll check the figures.",
+      "figures": [],
+      "choices": [
+        {
+          "md": "I wanted to flag a possible error in the quarterly totals.",
+          "is_answer": true
+        },
+        {
+          "md": "Those figures are totally wrong.",
+          "is_answer": false
+        },
+        {
+          "md": "Your numbers are messed up.",
+          "is_answer": false
+        },
+        {
+          "md": "I accuse these totals.",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ติดตามบริบทและผู้พูด",
+          "why_md": "ลูกน้องแจ้งข้อผิดพลาดที่ยังไม่ยืนยัน"
+        },
+        {
+          "do_md": "ทดลองเติมแล้วอ่านต่อ",
+          "why_md": "คำตอบต้องทำให้บทสนทนาต่อเนื่อง ไม่ใช่แค่มีคำซ้ำ"
+        }
+      ],
+      "answer_explanation_md": "flag a possible error ชัด สุภาพ และไม่กล่าวหา",
+      "hints": [
+        "ดูว่าใครพูดกับใครและต้องการอะไร",
+        "ใช้ประโยคก่อนและหลังช่องว่างร่วมกัน",
+        "ตัดตัวเลือกที่มีคำซ้ำแต่ทำหน้าที่ผิด"
+      ],
+      "distractor_reasons": {
+        "1": "สรุปเกินหลักฐาน",
+        "2": "กล่าวหาและไม่เป็นทางการ",
+        "3": "แข็งและประหลาด"
+      },
+      "misconception_tags": [
+        "register_mismatch"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    }
+  ],
+  "generated_from": "content/tgat1/speaking_conv.py"
+}

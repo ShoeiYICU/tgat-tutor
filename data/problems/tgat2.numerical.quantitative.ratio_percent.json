@@ -1,0 +1,485 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tgat2.numerical.quantitative.ratio_percent",
+  "problems": [
+    {
+      "id": "prob.tgat2.numerical.quantitative.ratio_percent.0001",
+      "topic_ids": [
+        "tgat2.numerical.quantitative.ratio_percent"
+      ],
+      "primary_topic_id": "tgat2.numerical.quantitative.ratio_percent",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 30,
+      "stem_md": "**(ก)** $35\\%$ ของ $60$\n\n**(ข)** $60\\%$ ของ $35$\n\nข้อใดถูกต้อง",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ปริมาณ (ก) มากกว่า (ข)",
+          "is_answer": false
+        },
+        {
+          "md": "ปริมาณ (ก) น้อยกว่า (ข)",
+          "is_answer": false
+        },
+        {
+          "md": "ปริมาณ (ก) เท่ากับ (ข)",
+          "is_answer": true
+        },
+        {
+          "md": "ปริมาณ (ก) มากกว่าหรือเท่ากับ (ข) แต่บอกไม่ได้ว่าเท่ากันหรือไม่",
+          "is_answer": false
+        },
+        {
+          "md": "สรุปความสัมพันธ์ไม่ได้",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "(ก) $= \\frac{35 \\times 60}{100}$ และ (ข) $= \\frac{60 \\times 35}{100}$",
+          "why_md": "ทั้งสองเป็นตัวเลขชุดเดียวกัน"
+        },
+        {
+          "do_md": "เท่ากัน $= 21$",
+          "why_md": "สลับที่การคูณได้"
+        }
+      ],
+      "answer_explanation_md": "(ก) เท่ากับ (ข) เพราะทั้งคู่เท่ากับ $\\frac{35 \\times 60}{100} = 21$",
+      "hints": [
+        "เขียนร้อยละเป็นเศษส่วนของ 100",
+        "สังเกตว่าตัวเลขที่คูณกันเป็นชุดเดียวกัน",
+        "x% ของ y เทียบกับ y% ของ x"
+      ],
+      "distractor_reasons": {
+        "0": "คำนวณแล้ว (ก) ไม่ได้มากกว่า (ข) ในทุกกรณี",
+        "1": "คำนวณแล้ว (ก) ไม่ได้น้อยกว่า (ข) ในทุกกรณี",
+        "3": "ใช้ได้เมื่อมีบางกรณีที่เท่ากันและบางกรณีที่มากกว่า ซึ่งไม่ใช่ข้อนี้",
+        "4": "ข้อมูลพอที่จะเปรียบเทียบได้แน่นอน"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.numerical.quantitative.ratio_percent.0002",
+      "topic_ids": [
+        "tgat2.numerical.quantitative.ratio_percent"
+      ],
+      "primary_topic_id": "tgat2.numerical.quantitative.ratio_percent",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 45,
+      "stem_md": "**(ก)** $30\\%$ ของ $60$\n\n**(ข)** $20\\%$ ของ $100$\n\nข้อใดถูกต้อง",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ปริมาณ (ก) มากกว่า (ข)",
+          "is_answer": false
+        },
+        {
+          "md": "ปริมาณ (ก) น้อยกว่า (ข)",
+          "is_answer": true
+        },
+        {
+          "md": "ปริมาณ (ก) เท่ากับ (ข)",
+          "is_answer": false
+        },
+        {
+          "md": "ปริมาณ (ก) มากกว่าหรือเท่ากับ (ข) แต่บอกไม่ได้ว่าเท่ากันหรือไม่",
+          "is_answer": false
+        },
+        {
+          "md": "สรุปความสัมพันธ์ไม่ได้",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "(ก) $= 18$",
+          "why_md": "10% ของ 60 คือ 6 คูณ 3"
+        },
+        {
+          "do_md": "(ข) $= 20$",
+          "why_md": "10% ของ 100 คือ 10 คูณ 2"
+        },
+        {
+          "do_md": "$18 < 20$",
+          "why_md": "(ก) น้อยกว่า"
+        }
+      ],
+      "answer_explanation_md": "(ก) น้อยกว่า (ข) เพราะ (ก) $= 18$ แต่ (ข) $= 20$ แม้ (ก) จะมีเปอร์เซ็นต์สูงกว่า",
+      "hints": [
+        "เปอร์เซ็นต์คิดจากฐานเดียวกันไหม",
+        "คำนวณเป็นค่าจริงทั้งสองฝั่ง",
+        "เริ่มจาก 10% ของแต่ละฐาน"
+      ],
+      "distractor_reasons": {
+        "0": "เทียบแค่เปอร์เซ็นต์ 30% กับ 20% โดยไม่คิดว่าฐานต่างกัน",
+        "2": "ค่าทั้งสองไม่เท่ากัน",
+        "3": "ใช้ได้เมื่อมีบางกรณีที่เท่ากันและบางกรณีที่มากกว่า ซึ่งไม่ใช่ข้อนี้",
+        "4": "ข้อมูลพอที่จะเปรียบเทียบได้แน่นอน"
+      },
+      "misconception_tags": [
+        "compare_percent_only"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.numerical.quantitative.ratio_percent.0003",
+      "topic_ids": [
+        "tgat2.numerical.quantitative.ratio_percent"
+      ],
+      "primary_topic_id": "tgat2.numerical.quantitative.ratio_percent",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 45,
+      "stem_md": "**(ก)** อัตราส่วน $5 : 8$\n\n**(ข)** อัตราส่วน $3 : 5$\n\nข้อใดถูกต้อง",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ปริมาณ (ก) มากกว่า (ข)",
+          "is_answer": true
+        },
+        {
+          "md": "ปริมาณ (ก) น้อยกว่า (ข)",
+          "is_answer": false
+        },
+        {
+          "md": "ปริมาณ (ก) เท่ากับ (ข)",
+          "is_answer": false
+        },
+        {
+          "md": "ปริมาณ (ก) มากกว่าหรือเท่ากับ (ข) แต่บอกไม่ได้ว่าเท่ากันหรือไม่",
+          "is_answer": false
+        },
+        {
+          "md": "สรุปความสัมพันธ์ไม่ได้",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "คูณไขว้: $5 \\times 5 = 25$ และ $8 \\times 3 = 24$",
+          "why_md": "เทียบ $\\frac{5}{8}$ กับ $\\frac{3}{5}$"
+        },
+        {
+          "do_md": "$25 > 24$ ดังนั้น $\\frac{5}{8} > \\frac{3}{5}$",
+          "why_md": "(ก) มากกว่า"
+        }
+      ],
+      "answer_explanation_md": "(ก) มากกว่า (ข) เพราะ $\\frac{5}{8} = 0.625$ มากกว่า $\\frac{3}{5} = 0.6$",
+      "hints": [
+        "เขียนอัตราส่วนเป็นเศษส่วน",
+        "เทียบเศษส่วนด้วยการคูณไขว้",
+        "เทียบ $5 \\times 5$ กับ $8 \\times 3$"
+      ],
+      "distractor_reasons": {
+        "1": "คำนวณแล้ว (ก) ไม่ได้น้อยกว่า (ข) ในทุกกรณี",
+        "2": "ค่าทั้งสองไม่เท่ากัน",
+        "3": "ใช้ได้เมื่อมีบางกรณีที่เท่ากันและบางกรณีที่มากกว่า ซึ่งไม่ใช่ข้อนี้",
+        "4": "ข้อมูลพอที่จะเปรียบเทียบได้แน่นอน"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.numerical.quantitative.ratio_percent.0004",
+      "topic_ids": [
+        "tgat2.numerical.quantitative.ratio_percent"
+      ],
+      "primary_topic_id": "tgat2.numerical.quantitative.ratio_percent",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 45,
+      "stem_md": "**(ก)** ราคาหลังลด $20\\%$ แล้วเพิ่ม $20\\%$ จากราคา $500$ บาท\n\n**(ข)** $500$ บาท\n\nข้อใดถูกต้อง",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ปริมาณ (ก) มากกว่า (ข)",
+          "is_answer": false
+        },
+        {
+          "md": "ปริมาณ (ก) น้อยกว่า (ข)",
+          "is_answer": true
+        },
+        {
+          "md": "ปริมาณ (ก) เท่ากับ (ข)",
+          "is_answer": false
+        },
+        {
+          "md": "ปริมาณ (ก) มากกว่าหรือเท่ากับ (ข) แต่บอกไม่ได้ว่าเท่ากันหรือไม่",
+          "is_answer": false
+        },
+        {
+          "md": "สรุปความสัมพันธ์ไม่ได้",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ลด 20%: $500 \\times 0.8 = 400$",
+          "why_md": "ครั้งแรกคิดจากราคาเดิม"
+        },
+        {
+          "do_md": "เพิ่ม 20%: $400 \\times 1.2 = 480$",
+          "why_md": "ครั้งที่สองคิดจากราคาที่ลดแล้ว"
+        },
+        {
+          "do_md": "$480 < 500$",
+          "why_md": "(ก) น้อยกว่า"
+        }
+      ],
+      "answer_explanation_md": "(ก) น้อยกว่า (ข) เพราะเพิ่ม 20% คิดจากราคาที่ลดแล้ว จึงได้ 480 บาท",
+      "hints": [
+        "การลดแล้วเพิ่มด้วยเปอร์เซ็นต์เท่ากัน กลับไปที่ราคาเดิมไหม",
+        "คำนวณทีละขั้น",
+        "เพิ่ม 20% คิดจาก 400 ไม่ใช่ 500"
+      ],
+      "distractor_reasons": {
+        "0": "คำนวณแล้ว (ก) ไม่ได้มากกว่า (ข) ในทุกกรณี",
+        "2": "คิดว่าลดแล้วเพิ่มด้วยเปอร์เซ็นต์เท่ากันจะกลับที่เดิม",
+        "3": "ใช้ได้เมื่อมีบางกรณีที่เท่ากันและบางกรณีที่มากกว่า ซึ่งไม่ใช่ข้อนี้",
+        "4": "ข้อมูลพอที่จะเปรียบเทียบได้แน่นอน"
+      },
+      "misconception_tags": [
+        "add_successive_percents"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.numerical.quantitative.ratio_percent.0005",
+      "topic_ids": [
+        "tgat2.numerical.quantitative.ratio_percent"
+      ],
+      "primary_topic_id": "tgat2.numerical.quantitative.ratio_percent",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 45,
+      "stem_md": "**(ก)** $12.5\\%$ ของ $64$\n\n**(ข)** $\\frac{1}{8}$ ของ $64$\n\nข้อใดถูกต้อง",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ปริมาณ (ก) มากกว่า (ข)",
+          "is_answer": false
+        },
+        {
+          "md": "ปริมาณ (ก) น้อยกว่า (ข)",
+          "is_answer": false
+        },
+        {
+          "md": "ปริมาณ (ก) เท่ากับ (ข)",
+          "is_answer": true
+        },
+        {
+          "md": "ปริมาณ (ก) มากกว่าหรือเท่ากับ (ข) แต่บอกไม่ได้ว่าเท่ากันหรือไม่",
+          "is_answer": false
+        },
+        {
+          "md": "สรุปความสัมพันธ์ไม่ได้",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "$12.5\\% = \\frac{1}{8}$",
+          "why_md": "จำคู่ร้อยละกับเศษส่วนที่ใช้บ่อย"
+        },
+        {
+          "do_md": "ทั้งสองจึงเท่ากับ $8$",
+          "why_md": "เท่ากัน"
+        }
+      ],
+      "answer_explanation_md": "(ก) เท่ากับ (ข) เพราะ $12.5\\% = \\frac{1}{8}$",
+      "hints": [
+        "แปลง $12.5\\%$ เป็นเศษส่วน",
+        "$12.5\\%$ เท่ากับเศษส่วนที่คุ้นเคยตัวไหน",
+        "เทียบกับ $\\frac{1}{8}$"
+      ],
+      "distractor_reasons": {
+        "0": "คำนวณแล้ว (ก) ไม่ได้มากกว่า (ข) ในทุกกรณี",
+        "1": "คำนวณแล้ว (ก) ไม่ได้น้อยกว่า (ข) ในทุกกรณี",
+        "3": "ใช้ได้เมื่อมีบางกรณีที่เท่ากันและบางกรณีที่มากกว่า ซึ่งไม่ใช่ข้อนี้",
+        "4": "ข้อมูลพอที่จะเปรียบเทียบได้แน่นอน"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.numerical.quantitative.ratio_percent.0006",
+      "topic_ids": [
+        "tgat2.numerical.quantitative.ratio_percent"
+      ],
+      "primary_topic_id": "tgat2.numerical.quantitative.ratio_percent",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 4,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 2,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 55,
+      "stem_md": "**(ก)** ร้อยละของนักเรียนชายในห้องที่มีชาย 12 คน จากทั้งหมด 30 คน\n\n**(ข)** ร้อยละของนักเรียนชายในห้องที่มีชาย 14 คน จากทั้งหมด 40 คน\n\nข้อใดถูกต้อง",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ปริมาณ (ก) มากกว่า (ข)",
+          "is_answer": true
+        },
+        {
+          "md": "ปริมาณ (ก) น้อยกว่า (ข)",
+          "is_answer": false
+        },
+        {
+          "md": "ปริมาณ (ก) เท่ากับ (ข)",
+          "is_answer": false
+        },
+        {
+          "md": "ปริมาณ (ก) มากกว่าหรือเท่ากับ (ข) แต่บอกไม่ได้ว่าเท่ากันหรือไม่",
+          "is_answer": false
+        },
+        {
+          "md": "สรุปความสัมพันธ์ไม่ได้",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "(ก) $= \\frac{12}{30} = 40\\%$",
+          "why_md": "คิดเป็นร้อยละของแต่ละห้อง"
+        },
+        {
+          "do_md": "(ข) $= \\frac{14}{40} = 35\\%$",
+          "why_md": "ห้องใหญ่กว่า จำนวนชายมากกว่าแต่สัดส่วนน้อยกว่า"
+        },
+        {
+          "do_md": "$40\\% > 35\\%$",
+          "why_md": "(ก) มากกว่า"
+        }
+      ],
+      "answer_explanation_md": "(ก) มากกว่า (ข) เพราะ 40% มากกว่า 35% แม้ห้อง (ข) จะมีจำนวนชายมากกว่า",
+      "hints": [
+        "เทียบจำนวนชาย หรือเทียบสัดส่วน",
+        "คำนวณ $\\frac{12}{30}$ และ $\\frac{14}{40}$",
+        "แปลงเป็นร้อยละทั้งสองห้อง"
+      ],
+      "distractor_reasons": {
+        "1": "เทียบจำนวนชาย 12 กับ 14 แทนสัดส่วน",
+        "2": "ค่าทั้งสองไม่เท่ากัน",
+        "3": "ใช้ได้เมื่อมีบางกรณีที่เท่ากันและบางกรณีที่มากกว่า ซึ่งไม่ใช่ข้อนี้",
+        "4": "ข้อมูลพอที่จะเปรียบเทียบได้แน่นอน"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    }
+  ],
+  "generated_from": "content/tgat2/numerical_apply.py"
+}

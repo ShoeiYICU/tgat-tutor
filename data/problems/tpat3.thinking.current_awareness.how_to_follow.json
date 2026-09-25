@@ -1,0 +1,483 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tpat3.thinking.current_awareness.how_to_follow",
+  "problems": [
+    {
+      "id": "prob.tpat3.thinking.current_awareness.how_to_follow.0001",
+      "topic_ids": [
+        "tpat3.thinking.current_awareness.how_to_follow"
+      ],
+      "primary_topic_id": "tpat3.thinking.current_awareness.how_to_follow",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 110,
+      "stem_md": "พาดหัวว่า 'เครื่องดื่ม X ลดความเครียดได้แน่นอน' แต่เนื้อข่าวบอกว่าผู้ดื่ม X รายงานความเครียดต่ำกว่าโดยไม่ได้สุ่มกลุ่ม ข้อใดเหมาะสม",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ไม่ต้องอ่านวิธีศึกษาเมื่อผลต่างชัด",
+          "is_answer": false
+        },
+        {
+          "md": "ข่าวเท็จทั้งหมดเพราะไม่สุ่ม",
+          "is_answer": false
+        },
+        {
+          "md": "คนเครียดต่ำทำให้ X ถูกผลิต",
+          "is_answer": false
+        },
+        {
+          "md": "X รักษาความเครียดได้ทุกคน",
+          "is_answer": false
+        },
+        {
+          "md": "ยังสรุปเหตุไม่ได้",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "เทียบพาดหัวกับวิธี",
+          "why_md": "ไม่ได้สุ่ม"
+        },
+        {
+          "do_md": "จำกัดข้อสรุป",
+          "why_md": "พูดได้เพียงสัมพันธ์"
+        }
+      ],
+      "answer_explanation_md": "ตอบว่ายังพิสูจน์เหตุไม่ได้",
+      "hints": [
+        "ผู้เข้าร่วมเลือกดื่มเองหรือไม่",
+        "มีตัวแปรร่วมได้ไหม",
+        "คำว่าแน่นอนแรงกว่าหลักฐานหรือไม่"
+      ],
+      "distractor_reasons": {
+        "0": "ขนาดผลไม่ลบอคติออกแบบ",
+        "1": "ผลสหสัมพันธ์ยังเป็นข้อมูลได้",
+        "2": "กลับเหตุโดยไม่มีข้อมูล",
+        "3": "เหมารวมและอ้างเหตุ"
+      },
+      "misconception_tags": [
+        "headline_overclaim"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.thinking.current_awareness.how_to_follow.0002",
+      "topic_ids": [
+        "tpat3.thinking.current_awareness.how_to_follow"
+      ],
+      "primary_topic_id": "tpat3.thinking.current_awareness.how_to_follow",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 4,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "high"
+      },
+      "est_seconds": 130,
+      "stem_md": "ข่าววิทยาศาสตร์อ้าง 'เพิ่มความเสี่ยง 50%' จาก 2 คนต่อ 10,000 เป็น 3 คนต่อ 10,000 ควรตีความอย่างไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ความเสี่ยงสัมพัทธ์เพิ่ม 50% แต่ความเสี่ยงสัมบูรณ์เพิ่ม 1 ต่อ 10,000",
+          "is_answer": true
+        },
+        {
+          "md": "ความเสี่ยงใหม่คือ 50 ต่อ 10,000",
+          "is_answer": false
+        },
+        {
+          "md": "ความเสี่ยงลดลง 50%",
+          "is_answer": false
+        },
+        {
+          "md": "ผลไม่มีความสำคัญแน่นอน",
+          "is_answer": false
+        },
+        {
+          "md": "มีผู้ป่วยเพิ่มครึ่งหนึ่งของประชากร",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "คำนวณต่างสัมบูรณ์",
+          "why_md": "3-2=1 ต่อ 10,000"
+        },
+        {
+          "do_md": "คำนวณสัมพัทธ์",
+          "why_md": "1/2=50%"
+        }
+      ],
+      "answer_explanation_md": "ตอบเพิ่มสัมพัทธ์ 50% แต่สัมบูรณ์เพียง 1 ต่อ 10,000",
+      "hints": [
+        "ฐานเดิมเท่าไร",
+        "เปอร์เซ็นต์เทียบกับฐาน",
+        "รายงานทั้งสองแบบให้เห็นขนาดจริง"
+      ],
+      "distractor_reasons": {
+        "1": "ใช้เปอร์เซ็นต์เป็นจำนวน",
+        "2": "ทิศทางผิด",
+        "3": "ความสำคัญต้องดูบริบทและความรุนแรง",
+        "4": "สับสน relative risk"
+      },
+      "misconception_tags": [
+        "relative_absolute_risk"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.thinking.current_awareness.how_to_follow.0003",
+      "topic_ids": [
+        "tpat3.thinking.current_awareness.how_to_follow"
+      ],
+      "primary_topic_id": "tpat3.thinking.current_awareness.how_to_follow",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 4,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "high"
+      },
+      "est_seconds": 120,
+      "stem_md": "บทความหนึ่งยังเป็น preprint และยังไม่ผ่าน peer review ข้อใดเหมาะสมที่สุด",
+      "figures": [],
+      "choices": [
+        {
+          "md": "แชร์เป็นข้อสรุปยุติแล้ว",
+          "is_answer": false
+        },
+        {
+          "md": "เชื่อได้เท่างานทบทวนแล้ว",
+          "is_answer": false
+        },
+        {
+          "md": "อ่านได้แต่ควรถือเป็นหลักฐานเบื้องต้นและตรวจวิธีศึกษาอย่างระวัง",
+          "is_answer": true
+        },
+        {
+          "md": "peer review รับรองว่าจริงตลอดไป",
+          "is_answer": false
+        },
+        {
+          "md": "ห้ามอ่านเพราะผิดแน่นอน",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ระบุสถานะ",
+          "why_md": "ยังไม่ peer reviewed"
+        },
+        {
+          "do_md": "ปรับระดับความเชื่อ",
+          "why_md": "ใช้แบบชั่วคราวพร้อมตรวจวิธี"
+        }
+      ],
+      "answer_explanation_md": "ตอบใช้เป็นหลักฐานเบื้องต้นอย่างระวัง",
+      "hints": [
+        "preprint หมายถึงอะไร",
+        "การยังไม่ตรวจเท่ากับผิดหรือไม่",
+        "ถ้อยคำควรสะท้อนความไม่แน่นอน"
+      ],
+      "distractor_reasons": {
+        "0": "เกินระดับหลักฐาน",
+        "1": "สถานะตรวจต่างกัน",
+        "3": "แม้งานผ่านทบทวนก็อาจมีข้อจำกัด",
+        "4": "preprint อาจถูกแต่ยังไม่ผ่านตรวจ"
+      },
+      "misconception_tags": [
+        "publication_status_confusion"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.thinking.current_awareness.how_to_follow.0004",
+      "topic_ids": [
+        "tpat3.thinking.current_awareness.how_to_follow"
+      ],
+      "primary_topic_id": "tpat3.thinking.current_awareness.how_to_follow",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 105,
+      "stem_md": "สองข่าวรายงานผลทดลองเดียวกัน ข่าว A บอกเฉพาะค่าเฉลี่ยดีขึ้น ข่าว B ให้ค่าเฉลี่ย ช่วงความเชื่อมั่น และผลข้างเคียง ข่าวใดช่วยประเมินได้ดีกว่า",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ประเมินไม่ได้จนรู้ชื่อผู้วิจัย",
+          "is_answer": false
+        },
+        {
+          "md": "ข่าว B เพราะให้ข้อมูลครบกว่า",
+          "is_answer": true
+        },
+        {
+          "md": "ทั้งสองเท่ากันเพราะอ้างงานเดียวกัน",
+          "is_answer": false
+        },
+        {
+          "md": "ข่าว A เพราะสั้นจึงเป็นกลางกว่า",
+          "is_answer": false
+        },
+        {
+          "md": "ข่าว A เพราะค่าเฉลี่ยพอเสมอ",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ดูข้อมูลที่ใช้ตัดสิน",
+          "why_md": "ผลดี ความไม่แน่นอน ผลเสีย"
+        },
+        {
+          "do_md": "เทียบความครบ",
+          "why_md": "B ครบกว่า"
+        }
+      ],
+      "answer_explanation_md": "ตอบข่าว B",
+      "hints": [
+        "ค่าเฉลี่ยบอกการกระจายไหม",
+        "มีข้อมูลผลข้างเคียงหรือไม่",
+        "ช่วงความเชื่อมั่นช่วยอะไร"
+      ],
+      "distractor_reasons": {
+        "0": "ชื่อไม่สำคัญกว่าวิธีและผล",
+        "2": "รายละเอียดที่ให้มีผลต่อการประเมิน",
+        "3": "ความสั้นไม่รับรองความครบ",
+        "4": "ค่าเฉลี่ยซ่อนความไม่แน่นอนและผลเสีย"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.thinking.current_awareness.how_to_follow.0005",
+      "topic_ids": [
+        "tpat3.thinking.current_awareness.how_to_follow"
+      ],
+      "primary_topic_id": "tpat3.thinking.current_awareness.how_to_follow",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 5,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": true,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 135,
+      "stem_md": "การศึกษาพบผลเฉพาะในหนูทดลอง ข่าวพาดหัวว่า 'วิธีใหม่ใช้ได้กับมนุษย์แล้ว' ปัญหาคืออะไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ยังอ้างผลในมนุษย์ไม่ได้",
+          "is_answer": true
+        },
+        {
+          "md": "ผลในสัตว์ไม่มีคุณค่าเลย",
+          "is_answer": false
+        },
+        {
+          "md": "ข่าวควรระบุเพียงชื่อสายพันธุ์หนู",
+          "is_answer": false
+        },
+        {
+          "md": "หนูใช้ในการวิจัยไม่ได้",
+          "is_answer": false
+        },
+        {
+          "md": "มนุษย์กับหนูเหมือนกันทุกด้าน",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ระบุประชากรที่ศึกษา",
+          "why_md": "หนู"
+        },
+        {
+          "do_md": "เทียบกับข้อสรุป",
+          "why_md": "มนุษย์"
+        },
+        {
+          "do_md": "ชี้ช่องว่าง",
+          "why_md": "ต้องมีการทดลองมนุษย์"
+        }
+      ],
+      "answer_explanation_md": "ตอบว่าพาดหัวข้ามระดับหลักฐาน",
+      "hints": [
+        "ผู้เข้าร่วมเป็นใคร",
+        "ผลถ่ายโอนไปมนุษย์โดยอัตโนมัติไหม",
+        "ต้องมีหลักฐานขั้นใดต่อ"
+      ],
+      "distractor_reasons": {
+        "1": "ช่วยศึกษากลไกและความปลอดภัยเบื้องต้น",
+        "2": "ยังไม่แก้การอ้างเกิน",
+        "3": "ใช้ได้แต่มีข้อจำกัด",
+        "4": "ไม่จริง"
+      },
+      "misconception_tags": [
+        "animal_to_human_leap"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.thinking.current_awareness.how_to_follow.0006",
+      "topic_ids": [
+        "tpat3.thinking.current_awareness.how_to_follow"
+      ],
+      "primary_topic_id": "tpat3.thinking.current_awareness.how_to_follow",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 5,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": true,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 140,
+      "stem_md": "แหล่งข่าวสองแห่งให้ตัวเลขต่างกันเล็กน้อย วิธีตรวจที่ดีที่สุดคืออะไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "เฉลี่ยสองตัวเลขทันที",
+          "is_answer": false
+        },
+        {
+          "md": "สรุปว่าทั้งสองแหล่งโกหก",
+          "is_answer": false
+        },
+        {
+          "md": "เลือกแหล่งที่มีผู้ติดตามมากกว่า",
+          "is_answer": false
+        },
+        {
+          "md": "ย้อนดูรายงานต้นทาง นิยามตัวชี้วัด ช่วงเวลา และวิธีเก็บข้อมูลของทั้งสองแห่ง",
+          "is_answer": true
+        },
+        {
+          "md": "เลือกตัวเลขที่มากกว่าเพื่อความปลอดภัย",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "หาสาเหตุความต่าง",
+          "why_md": "นิยาม เวลา ตัวอย่าง"
+        },
+        {
+          "do_md": "เทียบฐานเดียวกัน",
+          "why_md": "จึงค่อยตัดสิน"
+        }
+      ],
+      "answer_explanation_md": "ตอบตรวจนิยามและวิธีจากต้นทาง",
+      "hints": [
+        "ตัวเลขวัดสิ่งเดียวกันจริงไหม",
+        "ช่วงเวลาตรงกันไหม",
+        "แหล่งต้นทางคืออะไร"
+      ],
+      "distractor_reasons": {
+        "0": "อาจวัดคนละนิยาม",
+        "1": "ความต่างอาจมาจากนิยามหรือเวลา",
+        "2": "ความนิยมไม่ใช่วิธีวิทยา",
+        "4": "มากกว่าไม่เท่ากับถูก"
+      },
+      "misconception_tags": [
+        "average_conflicting_sources"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    }
+  ],
+  "generated_from": "content/tpat3/thinking.py"
+}

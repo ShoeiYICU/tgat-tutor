@@ -1,0 +1,591 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tgat1.reading.text_completion.connector",
+  "problems": [
+    {
+      "id": "prob.tgat1.reading.text_completion.connector.0001",
+      "topic_ids": [
+        "tgat1.reading.text_completion.connector"
+      ],
+      "primary_topic_id": "tgat1.reading.text_completion.connector",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 25,
+      "stem_md": "Sleep helps the brain store information. ______, students who sleep well often remember more.",
+      "figures": [],
+      "choices": [
+        {
+          "md": "Therefore",
+          "is_answer": true
+        },
+        {
+          "md": "However",
+          "is_answer": false
+        },
+        {
+          "md": "For example",
+          "is_answer": false
+        },
+        {
+          "md": "Although",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ประโยคแรก: การนอนช่วยเก็บข้อมูล / ประโยคที่สอง: คนนอนดีจำได้มากกว่า",
+          "why_md": "ประโยคที่สองเป็นผล"
+        },
+        {
+          "do_md": "กลุ่มผล",
+          "why_md": "Therefore"
+        }
+      ],
+      "answer_explanation_md": "ตอบ Therefore เพราะประโยคที่สองเป็นผลที่ตามมาจากประโยคแรก",
+      "hints": [
+        "ประโยคที่สองสัมพันธ์กับประโยคแรกแบบไหน",
+        "ประโยคที่สองเป็นผลที่ตามมาหรือขัดกัน",
+        "หาตัวเชื่อมกลุ่มผล"
+      ],
+      "distractor_reasons": {
+        "1": "ประโยคที่สองไม่ได้ขัดกับประโยคแรก",
+        "2": "ประโยคที่สองเป็นผล ไม่ใช่ตัวอย่าง",
+        "3": "ต้องเชื่อมสองประโยคในประโยคเดียว และเป็นการแย้ง"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.reading.text_completion.connector.0002",
+      "topic_ids": [
+        "tgat1.reading.text_completion.connector"
+      ],
+      "primary_topic_id": "tgat1.reading.text_completion.connector",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 30,
+      "stem_md": "______ the heavy rain, the students still worked in the garden.",
+      "figures": [],
+      "choices": [
+        {
+          "md": "Although",
+          "is_answer": false
+        },
+        {
+          "md": "Despite",
+          "is_answer": true
+        },
+        {
+          "md": "However",
+          "is_answer": false
+        },
+        {
+          "md": "Because of",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ความสัมพันธ์: ฝนตกหนัก แต่ยังทำงาน",
+          "why_md": "แย้ง"
+        },
+        {
+          "do_md": "ตามด้วยคำนาม the heavy rain",
+          "why_md": "Despite + คำนาม"
+        }
+      ],
+      "answer_explanation_md": "ตอบ Despite เพราะเป็นความสัมพันธ์แบบแย้ง และตามด้วยคำนาม the heavy rain",
+      "hints": [
+        "ความสัมพันธ์เป็นแบบเหตุผลหรือแย้ง",
+        "หลังช่องว่างเป็นประโยคหรือคำนาม",
+        "ตัวเชื่อมแย้งที่ตามด้วยคำนามคืออะไร"
+      ],
+      "distractor_reasons": {
+        "0": "although ต้องตามด้วยประโยค แต่ the heavy rain เป็นคำนาม",
+        "2": "ใช้ขึ้นประโยคใหม่และตามด้วย , ไม่ใช่นำหน้าคำนาม",
+        "3": "ความหมายผิด ฝนตกไม่ได้เป็นเหตุให้ทำงาน"
+      },
+      "misconception_tags": [
+        "connector_grammar"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.reading.text_completion.connector.0003",
+      "topic_ids": [
+        "tgat1.reading.text_completion.connector"
+      ],
+      "primary_topic_id": "tgat1.reading.text_completion.connector",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 30,
+      "stem_md": "The market became famous after the TV program. ______, the number of visitors increased quickly.",
+      "figures": [],
+      "choices": [
+        {
+          "md": "For instance",
+          "is_answer": false
+        },
+        {
+          "md": "Nevertheless",
+          "is_answer": false
+        },
+        {
+          "md": "As a result",
+          "is_answer": true
+        },
+        {
+          "md": "On the other hand",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "เหตุ: ตลาดมีชื่อเสียง / ผล: คนมาเพิ่ม",
+          "why_md": "ความสัมพันธ์เหตุ-ผล"
+        },
+        {
+          "do_md": "กลุ่มผล",
+          "why_md": "As a result"
+        }
+      ],
+      "answer_explanation_md": "ตอบ As a result เพราะจำนวนนักท่องเที่ยวที่เพิ่มขึ้นเป็นผลจากการที่ตลาดมีชื่อเสียง",
+      "hints": [
+        "ประโยคแรกเป็นเหตุหรือผล",
+        "ประโยคที่สองเกิดขึ้นเพราะประโยคแรกไหม",
+        "หาตัวเชื่อมกลุ่มผล"
+      ],
+      "distractor_reasons": {
+        "0": "ประโยคที่สองไม่ใช่ตัวอย่าง",
+        "1": "ใช้แย้ง แต่ประโยคที่สองเป็นผล",
+        "3": "ใช้เปรียบเทียบอีกด้าน ไม่ใช่ผล"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.reading.text_completion.connector.0004",
+      "topic_ids": [
+        "tgat1.reading.text_completion.connector"
+      ],
+      "primary_topic_id": "tgat1.reading.text_completion.connector",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 35,
+      "stem_md": "Some vendors were happy with the extra income. ______, others complained about the noise and traffic.",
+      "figures": [],
+      "choices": [
+        {
+          "md": "Because",
+          "is_answer": false
+        },
+        {
+          "md": "On the other hand",
+          "is_answer": true
+        },
+        {
+          "md": "In addition",
+          "is_answer": false
+        },
+        {
+          "md": "Therefore",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ประโยคแรก: บางคนพอใจ / ประโยคที่สอง: อีกกลุ่มบ่น",
+          "why_md": "เปรียบเทียบสองด้าน"
+        },
+        {
+          "do_md": "กลุ่มแย้ง/เปรียบต่าง",
+          "why_md": "On the other hand"
+        }
+      ],
+      "answer_explanation_md": "ตอบ On the other hand เพราะเป็นการเปรียบเทียบความรู้สึกของผู้ค้าสองกลุ่มที่ต่างกัน",
+      "hints": [
+        "ประโยคทั้งสองพูดถึงคนกลุ่มเดียวกันไหม",
+        "ความรู้สึกของสองกลุ่มเหมือนหรือต่างกัน",
+        "หาตัวเชื่อมที่ใช้เปรียบเทียบอีกด้าน"
+      ],
+      "distractor_reasons": {
+        "0": "because ใช้บอกเหตุผล และไม่ขึ้นต้นประโยคแบบนี้พร้อม ,",
+        "2": "ประโยคที่สองขัดกับประโยคแรก ไม่ใช่การเพิ่มในทิศเดียวกัน",
+        "3": "ประโยคที่สองไม่ใช่ผลของประโยคแรก"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.reading.text_completion.connector.0005",
+      "topic_ids": [
+        "tgat1.reading.text_completion.connector"
+      ],
+      "primary_topic_id": "tgat1.reading.text_completion.connector",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 35,
+      "stem_md": "The students sold vegetables at the school market. ______, they asked a local farmer to teach them how to make compost.",
+      "figures": [],
+      "choices": [
+        {
+          "md": "In addition",
+          "is_answer": true
+        },
+        {
+          "md": "As a result",
+          "is_answer": false
+        },
+        {
+          "md": "However",
+          "is_answer": false
+        },
+        {
+          "md": "Instead",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ประโยคแรก: ขายผัก / ประโยคที่สอง: ขอให้สอนทำปุ๋ย",
+          "why_md": "เป็นกิจกรรมเพิ่มเติมในทิศเดียวกัน"
+        },
+        {
+          "do_md": "กลุ่มเพิ่ม",
+          "why_md": "In addition"
+        }
+      ],
+      "answer_explanation_md": "ตอบ In addition เพราะประโยคที่สองเพิ่มกิจกรรมอีกอย่างของนักเรียนในทิศเดียวกัน",
+      "hints": [
+        "ประโยคที่สองขัด เป็นผล หรือเพิ่มเติม",
+        "นักเรียนทำทั้งสองอย่างหรือทำอย่างหนึ่งแทนอีกอย่าง",
+        "หาตัวเชื่อมกลุ่มเพิ่ม"
+      ],
+      "distractor_reasons": {
+        "1": "การขอให้เกษตรกรสอนไม่ได้เป็นผลของการขายผัก",
+        "2": "ประโยคที่สองไม่ได้ขัดกับประโยคแรก",
+        "3": "ใช้เมื่อทำอย่างหนึ่งแทนอีกอย่าง แต่นักเรียนทำทั้งสองอย่าง"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.reading.text_completion.connector.0006",
+      "topic_ids": [
+        "tgat1.reading.text_completion.connector"
+      ],
+      "primary_topic_id": "tgat1.reading.text_completion.connector",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 4,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 2,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 40,
+      "stem_md": "I contacted your customer service on 3 March. ______ I was promised a solution within two days, nothing has changed.",
+      "figures": [],
+      "choices": [
+        {
+          "md": "Therefore",
+          "is_answer": false
+        },
+        {
+          "md": "Because",
+          "is_answer": false
+        },
+        {
+          "md": "Although",
+          "is_answer": true
+        },
+        {
+          "md": "Despite",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ความสัมพันธ์: ได้รับสัญญา แต่ไม่มีอะไรเปลี่ยน",
+          "why_md": "แย้ง"
+        },
+        {
+          "do_md": "หลังช่องว่างเป็นประโยค (I was promised...)",
+          "why_md": "Although + ประโยค"
+        }
+      ],
+      "answer_explanation_md": "ตอบ Although เพราะเป็นความสัมพันธ์แบบแย้ง และตามด้วยประโยค",
+      "hints": [
+        "ความสัมพันธ์เป็นแบบเหตุผลหรือแย้ง",
+        "หลังช่องว่างเป็นประโยคหรือคำนาม",
+        "ตัวเชื่อมแย้งที่ตามด้วยประโยคคืออะไร"
+      ],
+      "distractor_reasons": {
+        "0": "ความหมายผิด และไม่ใช้เชื่อมแบบนี้",
+        "1": "ความหมายผิด การได้รับสัญญาไม่ได้เป็นเหตุที่ไม่มีอะไรเปลี่ยน",
+        "3": "despite ต้องตามด้วยคำนามหรือ V-ing แต่หลังช่องว่างเป็นประโยค"
+      },
+      "misconception_tags": [
+        "connector_grammar"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.reading.text_completion.connector.0007",
+      "topic_ids": [
+        "tgat1.reading.text_completion.connector"
+      ],
+      "primary_topic_id": "tgat1.reading.text_completion.connector",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 55,
+      "stem_md": "The path was steep; ______, the youngest hikers reached the camp first.",
+      "figures": [],
+      "choices": [
+        {
+          "md": "for example",
+          "is_answer": false
+        },
+        {
+          "md": "in addition",
+          "is_answer": false
+        },
+        {
+          "md": "therefore",
+          "is_answer": false
+        },
+        {
+          "md": "nevertheless",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ระบุสิ่งที่โจทย์ถาม",
+          "why_md": "ความชันทำให้คาดว่าจะช้า แต่ผลกลับถึงก่อน"
+        },
+        {
+          "do_md": "ตรวจด้วยบริบทรอบจุดสำคัญ",
+          "why_md": "เลือกคำตอบที่มีหลักฐานรองรับครบ ไม่เติมข้อมูลเอง"
+        }
+      ],
+      "answer_explanation_md": "nevertheless เชื่อมความแย้ง",
+      "hints": [
+        "ขีดเส้นคำหรือประโยคที่เป็นหลักฐาน",
+        "ตัดตัวเลือกที่จริงบางส่วนแต่ตอบคนละคำถาม",
+        "ตรวจว่าคำตอบไม่กว้างหรือแคบเกินข้อความ"
+      ],
+      "distractor_reasons": {
+        "0": "ไม่ได้ยกตัวอย่างของความชัน",
+        "1": "ไม่ใช่เพียงข้อมูลทิศเดียวกัน",
+        "2": "บอกผล แต่การถึงก่อนขัดความคาดหมาย"
+      },
+      "misconception_tags": [
+        "connector_grammar"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.reading.text_completion.connector.0008",
+      "topic_ids": [
+        "tgat1.reading.text_completion.connector"
+      ],
+      "primary_topic_id": "tgat1.reading.text_completion.connector",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 5,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": true,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 75,
+      "stem_md": "______ the app records fewer errors, the trial is too small to prove that it works better.",
+      "figures": [],
+      "choices": [
+        {
+          "md": "Therefore",
+          "is_answer": false
+        },
+        {
+          "md": "Despite",
+          "is_answer": false
+        },
+        {
+          "md": "Because",
+          "is_answer": false
+        },
+        {
+          "md": "Although",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ระบุสิ่งที่โจทย์ถาม",
+          "why_md": "สองอนุประโยคขัดกันและช่องตามด้วยประธาน+กริยา"
+        },
+        {
+          "do_md": "ตรวจด้วยบริบทรอบจุดสำคัญ",
+          "why_md": "เลือกคำตอบที่มีหลักฐานรองรับครบ ไม่เติมข้อมูลเอง"
+        }
+      ],
+      "answer_explanation_md": "Although แสดงความแย้งและนำอนุประโยคได้",
+      "hints": [
+        "ขีดเส้นคำหรือประโยคที่เป็นหลักฐาน",
+        "ตัดตัวเลือกที่จริงบางส่วนแต่ตอบคนละคำถาม",
+        "ตรวจว่าคำตอบไม่กว้างหรือแคบเกินข้อความ"
+      ],
+      "distractor_reasons": {
+        "0": "เป็น adverb และเชื่อมโครงสร้างนี้ไม่ได้",
+        "1": "ต้องตามด้วยคำนามหรือ V-ing ไม่ใช่ประโยค",
+        "2": "ทำให้เหตุผลไม่ตรงกับข้อจำกัดหลัง comma"
+      },
+      "misconception_tags": [
+        "connector_grammar"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    }
+  ],
+  "generated_from": "content/tgat1/reading.py"
+}

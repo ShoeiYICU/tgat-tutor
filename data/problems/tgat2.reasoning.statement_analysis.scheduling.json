@@ -1,0 +1,475 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tgat2.reasoning.statement_analysis.scheduling",
+  "problems": [
+    {
+      "id": "prob.tgat2.reasoning.statement_analysis.scheduling.0001",
+      "topic_ids": [
+        "tgat2.reasoning.statement_analysis.scheduling"
+      ],
+      "primary_topic_id": "tgat2.reasoning.statement_analysis.scheduling",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 70,
+      "stem_md": "สอบ 5 วิชา คณิตศาสตร์ ภาษาไทย ภาษาอังกฤษ วิทยาศาสตร์ สังคมศึกษา วันละ 1 วิชา ตั้งแต่วันจันทร์ถึงวันศุกร์\n\n- สอบวิทยาศาสตร์วันพุธ\n- สอบคณิตศาสตร์ก่อนภาษาอังกฤษ 1 วันพอดี\n- ไม่สอบภาษาไทยวันจันทร์\n- สอบสังคมศึกษาหลังภาษาอังกฤษ\n- สอบภาษาไทยก่อนสังคมศึกษา\n\nวันศุกร์สอบวิชาใด",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ภาษาอังกฤษ",
+          "is_answer": false
+        },
+        {
+          "md": "วิทยาศาสตร์",
+          "is_answer": false
+        },
+        {
+          "md": "คณิตศาสตร์",
+          "is_answer": false
+        },
+        {
+          "md": "ภาษาไทย",
+          "is_answer": false
+        },
+        {
+          "md": "สังคมศึกษา",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "วิทย์ = พุธ บล็อก คณิต-อังกฤษ วางได้ (จ,อ) หรือ (พฤ,ศ)",
+          "why_md": "แตกกรณี"
+        },
+        {
+          "do_md": "ถ้า (พฤ,ศ) สังคมไม่มีวันหลังอังกฤษ",
+          "why_md": "ตัดทิ้ง จึงได้ คณิต จ อังกฤษ อ"
+        },
+        {
+          "do_md": "ไทยก่อนสังคม: ไทย พฤ สังคม ศ",
+          "why_md": "ใช้เงื่อนไขสุดท้าย"
+        }
+      ],
+      "answer_explanation_md": "ตอบ สังคมศึกษา เพราะตารางคือ คณิต อังกฤษ วิทย์ ไทย สังคม",
+      "hints": [
+        "ใส่วิทยาศาสตร์วันพุธก่อน",
+        "คณิตกับอังกฤษเป็นบล็อก 2 วันติดกัน วางได้ที่ไหน",
+        "สองวันที่เหลือเป็นของไทยกับสังคม ดูว่าวิชาใดมาก่อน"
+      ],
+      "distractor_reasons": {
+        "0": "สอบวันอังคาร",
+        "1": "สอบวันพุธ",
+        "2": "สอบวันจันทร์",
+        "3": "สอบวันพฤหัสบดี"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.reasoning.statement_analysis.scheduling.0002",
+      "topic_ids": [
+        "tgat2.reasoning.statement_analysis.scheduling"
+      ],
+      "primary_topic_id": "tgat2.reasoning.statement_analysis.scheduling",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 70,
+      "stem_md": "สอบ 5 วิชา คณิตศาสตร์ ภาษาไทย ภาษาอังกฤษ วิทยาศาสตร์ สังคมศึกษา วันละ 1 วิชา ตั้งแต่วันจันทร์ถึงวันศุกร์\n\n- สอบวิทยาศาสตร์วันพุธ\n- สอบคณิตศาสตร์ก่อนภาษาอังกฤษ 1 วันพอดี\n- ไม่สอบภาษาไทยวันจันทร์\n- สอบสังคมศึกษาหลังภาษาอังกฤษ\n\nข้อใดถูกต้องแน่นอน",
+      "figures": [],
+      "choices": [
+        {
+          "md": "สอบสังคมศึกษาวันศุกร์",
+          "is_answer": false
+        },
+        {
+          "md": "สอบคณิตศาสตร์วันพฤหัสบดี",
+          "is_answer": false
+        },
+        {
+          "md": "สอบภาษาไทยวันพฤหัสบดี",
+          "is_answer": false
+        },
+        {
+          "md": "สอบภาษาอังกฤษวันอังคาร",
+          "is_answer": true
+        },
+        {
+          "md": "สอบภาษาไทยก่อนภาษาอังกฤษ",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "บล็อก คณิต-อังกฤษ ต้องเป็น (จ,อ)",
+          "why_md": "ถ้าเป็น (พฤ,ศ) สังคมไม่มีที่"
+        },
+        {
+          "do_md": "ไทยกับสังคมสลับกันได้ใน พฤ และ ศ",
+          "why_md": "มี 2 กรณี"
+        }
+      ],
+      "answer_explanation_md": "ตอบ สอบภาษาอังกฤษวันอังคาร เพราะบล็อกคณิต-อังกฤษต้องอยู่วันจันทร์กับอังคารเท่านั้น",
+      "hints": [
+        "ใส่วิทยาศาสตร์วันพุธ",
+        "บล็อกคณิต-อังกฤษวางได้กี่แบบที่ไม่ขัดเงื่อนไขสังคม",
+        "อะไรคงที่ในทุกกรณี"
+      ],
+      "distractor_reasons": {
+        "0": "สังคมอาจสอบวันพฤหัสบดี",
+        "1": "ถ้าคณิตวันพฤหัส สังคมจะไม่มีวันหลังอังกฤษ",
+        "2": "ภาษาไทยอาจสอบวันศุกร์",
+        "4": "ภาษาไทยสอบหลังวันพุธเสมอ"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.reasoning.statement_analysis.scheduling.0003",
+      "topic_ids": [
+        "tgat2.reasoning.statement_analysis.scheduling"
+      ],
+      "primary_topic_id": "tgat2.reasoning.statement_analysis.scheduling",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 60,
+      "stem_md": "สอบ 5 วิชา คณิตศาสตร์ ภาษาไทย ภาษาอังกฤษ วิทยาศาสตร์ สังคมศึกษา วันละ 1 วิชา ตั้งแต่วันจันทร์ถึงวันศุกร์\n\n- สอบวิทยาศาสตร์วันพุธ\n- สอบคณิตศาสตร์ก่อนภาษาอังกฤษ 1 วันพอดี\n- ไม่สอบภาษาไทยวันจันทร์\n- สอบสังคมศึกษาหลังภาษาอังกฤษ\n\nถ้าสอบสังคมศึกษาวันพฤหัสบดี จะสอบภาษาไทยวันใด",
+      "figures": [],
+      "choices": [
+        {
+          "md": "วันศุกร์",
+          "is_answer": true
+        },
+        {
+          "md": "วันพฤหัสบดี",
+          "is_answer": false
+        },
+        {
+          "md": "วันจันทร์",
+          "is_answer": false
+        },
+        {
+          "md": "วันพุธ",
+          "is_answer": false
+        },
+        {
+          "md": "วันอังคาร",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "จากเงื่อนไขเดิม คณิต จ อังกฤษ อ วิทย์ พ",
+          "why_md": "ส่วนที่แน่นอน"
+        },
+        {
+          "do_md": "สังคม พฤ จึงเหลือวันศุกร์ให้ภาษาไทย",
+          "why_md": "ใช้เงื่อนไขใหม่"
+        }
+      ],
+      "answer_explanation_md": "ตอบ วันศุกร์ เพราะวันจันทร์ถึงพุธเป็นของคณิต อังกฤษ วิทย์ และวันพฤหัสเป็นของสังคม",
+      "hints": [
+        "หาส่วนที่แน่นอนจากเงื่อนไขเดิมก่อน",
+        "เหลือวันไหนว่างบ้าง",
+        "ใส่สังคมวันพฤหัสแล้วดูวันที่เหลือ"
+      ],
+      "distractor_reasons": {
+        "1": "สอบสังคมศึกษาแล้ว",
+        "2": "โจทย์ห้ามสอบภาษาไทยวันจันทร์",
+        "3": "วันพุธสอบวิทยาศาสตร์",
+        "4": "วันอังคารสอบภาษาอังกฤษ"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.reasoning.statement_analysis.scheduling.0004",
+      "topic_ids": [
+        "tgat2.reasoning.statement_analysis.scheduling"
+      ],
+      "primary_topic_id": "tgat2.reasoning.statement_analysis.scheduling",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 60,
+      "stem_md": "ประชุม 4 เรื่อง A B C D จัดเรื่องละ 1 ช่วง รวม 4 ช่วงต่อกัน\n\n- เรื่อง B ต้องจัดก่อนเรื่อง D\n- เรื่อง A ไม่ใช่ช่วงแรกและไม่ใช่ช่วงสุดท้าย\n- เรื่อง C จัดต่อจากเรื่อง A ทันที\n\nข้อใดต้องเป็นจริง",
+      "figures": [],
+      "choices": [
+        {
+          "md": "เรื่อง B จัดเป็นช่วงแรก",
+          "is_answer": true
+        },
+        {
+          "md": "เรื่อง C จัดเป็นช่วงสุดท้าย",
+          "is_answer": false
+        },
+        {
+          "md": "เรื่อง D จัดเป็นช่วงที่ 3",
+          "is_answer": false
+        },
+        {
+          "md": "เรื่อง D จัดเป็นช่วงสุดท้าย",
+          "is_answer": false
+        },
+        {
+          "md": "เรื่อง A จัดเป็นช่วงที่ 3",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "บล็อก A-C วางได้ (2,3) หรือ (3,4)",
+          "why_md": "A ห้ามช่วงแรกและสุดท้าย"
+        },
+        {
+          "do_md": "ทั้งสองกรณีช่วง 1 ว่าง และ B ต้องก่อน D",
+          "why_md": "B = ช่วงแรกเสมอ"
+        }
+      ],
+      "answer_explanation_md": "ตอบ เรื่อง B จัดเป็นช่วงแรก เพราะทั้งสองกรณีที่เป็นไปได้ ช่วงแรกว่างและ B ต้องมาก่อน D",
+      "hints": [
+        "มอง A-C เป็นบล็อก",
+        "A อยู่ได้ช่วงไหนบ้าง",
+        "ช่วงที่เหลือให้ B กับ D โดย B มาก่อน"
+      ],
+      "distractor_reasons": {
+        "1": "มีกรณี C ช่วง 3",
+        "2": "ช่วง 3 เป็นของ A หรือ C เสมอ",
+        "3": "มีกรณี D ช่วง 2",
+        "4": "มีกรณี A ช่วง 2"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.reasoning.statement_analysis.scheduling.0005",
+      "topic_ids": [
+        "tgat2.reasoning.statement_analysis.scheduling"
+      ],
+      "primary_topic_id": "tgat2.reasoning.statement_analysis.scheduling",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 60,
+      "stem_md": "ประชุม 4 เรื่อง A B C D จัดเรื่องละ 1 ช่วง รวม 4 ช่วงต่อกัน\n\n- เรื่อง B ต้องจัดก่อนเรื่อง D\n- เรื่อง A ไม่ใช่ช่วงแรกและไม่ใช่ช่วงสุดท้าย\n- เรื่อง C จัดต่อจากเรื่อง A ทันที\n\nข้อใดเป็นไปได้",
+      "figures": [],
+      "choices": [
+        {
+          "md": "เรื่อง A จัดเป็นช่วงแรก",
+          "is_answer": false
+        },
+        {
+          "md": "เรื่อง D จัดเป็นช่วงแรก",
+          "is_answer": false
+        },
+        {
+          "md": "เรื่อง D จัดเป็นช่วงที่ 2",
+          "is_answer": true
+        },
+        {
+          "md": "เรื่อง C จัดเป็นช่วงที่ 2",
+          "is_answer": false
+        },
+        {
+          "md": "เรื่อง B จัดเป็นช่วงสุดท้าย",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "บล็อก A-C วางได้ (2,3) หรือ (3,4)",
+          "why_md": "A ห้ามช่วงแรกและสุดท้าย"
+        },
+        {
+          "do_md": "กรณี A-C อยู่ (3,4): B ช่วง 1 D ช่วง 2",
+          "why_md": "ผ่านทุกเงื่อนไข"
+        }
+      ],
+      "answer_explanation_md": "ตอบ เรื่อง D จัดเป็นช่วงที่ 2 ซึ่งเกิดได้เมื่อจัดเป็น B D A C",
+      "hints": [
+        "ลองวางบล็อก A-C ที่ช่วง 3 กับ 4",
+        "ช่วงที่เหลือเป็นของใคร",
+        "ตรวจตัวเลือกกับกรณีนี้"
+      ],
+      "distractor_reasons": {
+        "0": "ขัดเงื่อนไขของ A",
+        "1": "D ต้องอยู่หลัง B",
+        "3": "C ต่อจาก A ซึ่งอยู่ช่วง 2 หรือ 3 จึงได้ช่วง 3 หรือ 4",
+        "4": "B ต้องมาก่อน D"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.reasoning.statement_analysis.scheduling.0006",
+      "topic_ids": [
+        "tgat2.reasoning.statement_analysis.scheduling"
+      ],
+      "primary_topic_id": "tgat2.reasoning.statement_analysis.scheduling",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 55,
+      "stem_md": "ชมรม 3 ชมรม ดนตรี กีฬา ศิลปะ นัดประชุมวันละชมรมในวันจันทร์ถึงวันศุกร์\n\n- ไม่มีสองชมรมนัดวันติดกัน\n- ชมรมดนตรีนัดวันจันทร์\n- ชมรมศิลปะนัดหลังชมรมกีฬา\n\nชมรมศิลปะนัดวันใด",
+      "figures": [],
+      "choices": [
+        {
+          "md": "วันจันทร์",
+          "is_answer": false
+        },
+        {
+          "md": "วันศุกร์",
+          "is_answer": true
+        },
+        {
+          "md": "วันพฤหัสบดี",
+          "is_answer": false
+        },
+        {
+          "md": "วันพุธ",
+          "is_answer": false
+        },
+        {
+          "md": "วันอังคาร",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ดนตรี = จันทร์ วันที่เหลือต้องไม่ติดวันจันทร์",
+          "why_md": "ใช้ได้ พ พฤ ศ"
+        },
+        {
+          "do_md": "สองวันที่ไม่ติดกันจาก พ พฤ ศ มีแค่ พ กับ ศ",
+          "why_md": "กีฬา พ ศิลปะ ศ"
+        }
+      ],
+      "answer_explanation_md": "ตอบ วันศุกร์ เพราะวันที่ไม่ติดกันที่เหลือมีแค่วันพุธกับวันศุกร์ และศิลปะต้องอยู่หลัง",
+      "hints": [
+        "ใส่ดนตรีวันจันทร์ วันไหนใช้ไม่ได้อีก",
+        "จากวันที่เหลือ เลือกสองวันที่ไม่ติดกัน",
+        "ศิลปะต้องอยู่หลังกีฬา"
+      ],
+      "distractor_reasons": {
+        "0": "วันจันทร์เป็นของชมรมดนตรี",
+        "2": "ติดกับวันพุธที่กีฬานัด",
+        "3": "วันพุธเป็นของชมรมกีฬา",
+        "4": "ติดกับวันจันทร์"
+      },
+      "misconception_tags": [
+        "wrong_constraint_order"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    }
+  ],
+  "generated_from": "content/tgat2/reasoning_analysis.py"
+}

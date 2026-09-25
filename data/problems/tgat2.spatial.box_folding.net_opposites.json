@@ -1,0 +1,1360 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tgat2.spatial.box_folding.net_opposites",
+  "problems": [
+    {
+      "id": "prob.tgat2.spatial.box_folding.net_opposites.0001",
+      "topic_ids": [
+        "tgat2.spatial.box_folding.net_opposites"
+      ],
+      "primary_topic_id": "tgat2.spatial.box_folding.net_opposites",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 มิติสัมพันธ์ หัวข้อพับกล่อง ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 1,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 25,
+      "stem_md": "จากแผ่นคลี่ลูกบาศก์ที่กำหนด หน้าใดอยู่ตรงข้ามกับหน้า ค\n\n[[fig1]]",
+      "figures": [
+        {
+          "id": "fig1",
+          "type": "svg",
+          "alt": "แผ่นคลี่ลูกบาศก์หกช่อง แถวที่ 1 มีช่อง ก / แถวที่ 2 มีช่อง ข ค ง จ / แถวที่ 3 มีช่อง ฉ",
+          "svg": "<svg viewBox=\"0 0 196 152\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"54\" y=\"10\" width=\"44\" height=\"44\"/><rect x=\"10\" y=\"54\" width=\"44\" height=\"44\"/><rect x=\"54\" y=\"54\" width=\"44\" height=\"44\"/><rect x=\"98\" y=\"54\" width=\"44\" height=\"44\"/><rect x=\"142\" y=\"54\" width=\"44\" height=\"44\"/><rect x=\"54\" y=\"98\" width=\"44\" height=\"44\"/></g><g fill=\"currentColor\" font-size=\"20\" text-anchor=\"middle\" font-family=\"system-ui, sans-serif\"><text x=\"76\" y=\"39\">ก</text><text x=\"32\" y=\"83\">ข</text><text x=\"76\" y=\"83\">ค</text><text x=\"120\" y=\"83\">ง</text><text x=\"164\" y=\"83\">จ</text><text x=\"76\" y=\"127\">ฉ</text></g></svg>",
+          "caption": null
+        }
+      ],
+      "choices": [
+        {
+          "md": "หน้า ก",
+          "is_answer": false
+        },
+        {
+          "md": "หน้า ข",
+          "is_answer": false
+        },
+        {
+          "md": "หน้า ง",
+          "is_answer": false
+        },
+        {
+          "md": "หน้า จ",
+          "is_answer": true
+        },
+        {
+          "md": "หน้า ฉ",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ตัดหน้าที่แชร์ขอบกับหน้า ค ในแผ่นคลี่ออกก่อน ได้ ก, ข, ง, ฉ",
+          "why_md": "หน้าที่แชร์ขอบกันพับแล้วทำมุม 90 องศา คือติดกัน จึงไม่ตรงข้ามกันแน่นอน"
+        },
+        {
+          "do_md": "เหลือ จ ตัวเดียว จึงตอบ จ",
+          "why_md": "เมื่อตัดจนเหลือหน้าเดียวก็สรุปได้เลย ไม่ต้องใช้กฎอื่น"
+        },
+        {
+          "do_md": "ตรวจ: คู่ทั้งสามคือ ก-ฉ , ค-จ , ง-ข ทุกหน้าโผล่ครั้งเดียว",
+          "why_md": "ถ้ามีหน้าใดโผล่สองคู่หรือมีหน้าที่ไม่มีคู่ แปลว่าคิดผิด ขั้นนี้ใช้เวลา 3 วินาที"
+        }
+      ],
+      "answer_explanation_md": "ตอบหน้า จ คู่ตรงข้ามของแผ่นคลี่นี้คือ ก-ฉ , ค-จ , ง-ข ซึ่งครบหกหน้าและแต่ละหน้าอยู่คู่เดียว",
+      "hints": [
+        "เริ่มจากตัดหน้าที่แชร์ขอบกับหน้า ค ในแผ่นคลี่ออก เพราะหน้าที่ติดกันไม่ตรงข้ามกัน",
+        "ถ้ายังเหลือหลายตัว ให้ใช้กฎเว้นหนึ่งช่องกับแถวและคอลัมน์ที่มีหน้า ค อยู่",
+        "ถ้ากฎเว้นหนึ่งช่องใช้ไม่ได้ ให้หาคู่อื่นให้ครบก่อน แล้วสองหน้าที่เหลือคือคู่กัน"
+      ],
+      "distractor_reasons": {
+        "0": "หน้า ก แชร์ขอบกับหน้า ค ในแผ่นคลี่ จึงเป็นหน้าที่ติดกัน ไม่ใช่ตรงข้าม",
+        "1": "หน้า ข แชร์ขอบกับหน้า ค ในแผ่นคลี่ จึงเป็นหน้าที่ติดกัน ไม่ใช่ตรงข้าม",
+        "2": "หน้า ง แชร์ขอบกับหน้า ค ในแผ่นคลี่ จึงเป็นหน้าที่ติดกัน ไม่ใช่ตรงข้าม",
+        "4": "หน้า ฉ แชร์ขอบกับหน้า ค ในแผ่นคลี่ จึงเป็นหน้าที่ติดกัน ไม่ใช่ตรงข้าม"
+      },
+      "misconception_tags": [
+        "adjacent_mistaken_for_opposite"
+      ],
+      "template": {
+        "provider": "cube_net.opposite_face",
+        "answer_kind": "label",
+        "params": {
+          "nets": [
+            "cross",
+            "cross_c",
+            "tee_col"
+          ],
+          "orient": true,
+          "skip_rule_applies": true,
+          "touching_count": 4
+        },
+        "stem_tpl": "จากแผ่นคลี่ลูกบาศก์ที่กำหนด หน้าใดอยู่ตรงข้ามกับหน้า {asked}\n\n[[fig1]]",
+        "quality_rules": [
+          "เฉลยต้องมาจากการพับแผ่นคลี่ด้วยโค้ด ไม่ใช่การพับในหัว",
+          "ตัวเลือกลวงต้องเป็นหน้าที่ติดกับหน้าที่ถามบนลูกบาศก์ทุกตัว จึงมีตัวถูกตัวเดียวแน่นอน",
+          "ทุกตัวเลือกลวงต้องมีเหตุผลว่านักเรียนคิดผิดแบบไหนจึงเลือกตัวนั้น"
+        ]
+      },
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.spatial.box_folding.net_opposites.0002",
+      "topic_ids": [
+        "tgat2.spatial.box_folding.net_opposites"
+      ],
+      "primary_topic_id": "tgat2.spatial.box_folding.net_opposites",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 มิติสัมพันธ์ หัวข้อพับกล่อง ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 1,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 25,
+      "stem_md": "จากแผ่นคลี่ลูกบาศก์ที่กำหนด หน้าใดอยู่ตรงข้ามกับหน้า ข\n\n[[fig1]]",
+      "figures": [
+        {
+          "id": "fig1",
+          "type": "svg",
+          "alt": "แผ่นคลี่ลูกบาศก์หกช่อง แถวที่ 1 มีช่อง ก / แถวที่ 2 มีช่อง ค ข ง / แถวที่ 3 มีช่อง จ / แถวที่ 4 มีช่อง ฉ",
+          "svg": "<svg viewBox=\"0 0 152 196\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"54\" y=\"10\" width=\"44\" height=\"44\"/><rect x=\"54\" y=\"54\" width=\"44\" height=\"44\"/><rect x=\"10\" y=\"54\" width=\"44\" height=\"44\"/><rect x=\"98\" y=\"54\" width=\"44\" height=\"44\"/><rect x=\"54\" y=\"98\" width=\"44\" height=\"44\"/><rect x=\"54\" y=\"142\" width=\"44\" height=\"44\"/></g><g fill=\"currentColor\" font-size=\"20\" text-anchor=\"middle\" font-family=\"system-ui, sans-serif\"><text x=\"76\" y=\"39\">ก</text><text x=\"76\" y=\"83\">ข</text><text x=\"32\" y=\"83\">ค</text><text x=\"120\" y=\"83\">ง</text><text x=\"76\" y=\"127\">จ</text><text x=\"76\" y=\"171\">ฉ</text></g></svg>",
+          "caption": null
+        }
+      ],
+      "choices": [
+        {
+          "md": "หน้า ก",
+          "is_answer": false
+        },
+        {
+          "md": "หน้า ค",
+          "is_answer": false
+        },
+        {
+          "md": "หน้า ง",
+          "is_answer": false
+        },
+        {
+          "md": "หน้า จ",
+          "is_answer": false
+        },
+        {
+          "md": "หน้า ฉ",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ตัดหน้าที่แชร์ขอบกับหน้า ข ในแผ่นคลี่ออกก่อน ได้ ก, ค, ง, จ",
+          "why_md": "หน้าที่แชร์ขอบกันพับแล้วทำมุม 90 องศา คือติดกัน จึงไม่ตรงข้ามกันแน่นอน"
+        },
+        {
+          "do_md": "เหลือ ฉ ตัวเดียว จึงตอบ ฉ",
+          "why_md": "เมื่อตัดจนเหลือหน้าเดียวก็สรุปได้เลย ไม่ต้องใช้กฎอื่น"
+        },
+        {
+          "do_md": "ตรวจ: คู่ทั้งสามคือ ก-จ , ข-ฉ , ง-ค ทุกหน้าโผล่ครั้งเดียว",
+          "why_md": "ถ้ามีหน้าใดโผล่สองคู่หรือมีหน้าที่ไม่มีคู่ แปลว่าคิดผิด ขั้นนี้ใช้เวลา 3 วินาที"
+        }
+      ],
+      "answer_explanation_md": "ตอบหน้า ฉ คู่ตรงข้ามของแผ่นคลี่นี้คือ ก-จ , ข-ฉ , ง-ค ซึ่งครบหกหน้าและแต่ละหน้าอยู่คู่เดียว",
+      "hints": [
+        "เริ่มจากตัดหน้าที่แชร์ขอบกับหน้า ข ในแผ่นคลี่ออก เพราะหน้าที่ติดกันไม่ตรงข้ามกัน",
+        "ถ้ายังเหลือหลายตัว ให้ใช้กฎเว้นหนึ่งช่องกับแถวและคอลัมน์ที่มีหน้า ข อยู่",
+        "ถ้ากฎเว้นหนึ่งช่องใช้ไม่ได้ ให้หาคู่อื่นให้ครบก่อน แล้วสองหน้าที่เหลือคือคู่กัน"
+      ],
+      "distractor_reasons": {
+        "0": "หน้า ก แชร์ขอบกับหน้า ข ในแผ่นคลี่ จึงเป็นหน้าที่ติดกัน ไม่ใช่ตรงข้าม",
+        "1": "หน้า ค แชร์ขอบกับหน้า ข ในแผ่นคลี่ จึงเป็นหน้าที่ติดกัน ไม่ใช่ตรงข้าม",
+        "2": "หน้า ง แชร์ขอบกับหน้า ข ในแผ่นคลี่ จึงเป็นหน้าที่ติดกัน ไม่ใช่ตรงข้าม",
+        "3": "หน้า จ แชร์ขอบกับหน้า ข ในแผ่นคลี่ จึงเป็นหน้าที่ติดกัน ไม่ใช่ตรงข้าม"
+      },
+      "misconception_tags": [
+        "adjacent_mistaken_for_opposite"
+      ],
+      "template": {
+        "provider": "cube_net.opposite_face",
+        "answer_kind": "label",
+        "params": {
+          "nets": [
+            "cross",
+            "cross_c",
+            "tee_col"
+          ],
+          "orient": true,
+          "skip_rule_applies": true,
+          "touching_count": 4
+        },
+        "stem_tpl": "จากแผ่นคลี่ลูกบาศก์ที่กำหนด หน้าใดอยู่ตรงข้ามกับหน้า {asked}\n\n[[fig1]]",
+        "quality_rules": [
+          "เฉลยต้องมาจากการพับแผ่นคลี่ด้วยโค้ด ไม่ใช่การพับในหัว",
+          "ตัวเลือกลวงต้องเป็นหน้าที่ติดกับหน้าที่ถามบนลูกบาศก์ทุกตัว จึงมีตัวถูกตัวเดียวแน่นอน",
+          "ทุกตัวเลือกลวงต้องมีเหตุผลว่านักเรียนคิดผิดแบบไหนจึงเลือกตัวนั้น"
+        ]
+      },
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.spatial.box_folding.net_opposites.0003",
+      "topic_ids": [
+        "tgat2.spatial.box_folding.net_opposites"
+      ],
+      "primary_topic_id": "tgat2.spatial.box_folding.net_opposites",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 มิติสัมพันธ์ หัวข้อพับกล่อง ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 35,
+      "stem_md": "จากแผ่นคลี่ลูกบาศก์ที่กำหนด หน้าใดอยู่ตรงข้ามกับหน้า ข\n\n[[fig1]]",
+      "figures": [
+        {
+          "id": "fig1",
+          "type": "svg",
+          "alt": "แผ่นคลี่ลูกบาศก์หกช่อง แถวที่ 1 มีช่อง ก / แถวที่ 2 มีช่อง ข ค ง จ / แถวที่ 3 มีช่อง ฉ",
+          "svg": "<svg viewBox=\"0 0 196 152\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"54\" y=\"10\" width=\"44\" height=\"44\"/><rect x=\"10\" y=\"54\" width=\"44\" height=\"44\"/><rect x=\"54\" y=\"54\" width=\"44\" height=\"44\"/><rect x=\"98\" y=\"54\" width=\"44\" height=\"44\"/><rect x=\"142\" y=\"54\" width=\"44\" height=\"44\"/><rect x=\"54\" y=\"98\" width=\"44\" height=\"44\"/></g><g fill=\"currentColor\" font-size=\"20\" text-anchor=\"middle\" font-family=\"system-ui, sans-serif\"><text x=\"76\" y=\"39\">ก</text><text x=\"32\" y=\"83\">ข</text><text x=\"76\" y=\"83\">ค</text><text x=\"120\" y=\"83\">ง</text><text x=\"164\" y=\"83\">จ</text><text x=\"76\" y=\"127\">ฉ</text></g></svg>",
+          "caption": null
+        }
+      ],
+      "choices": [
+        {
+          "md": "หน้า ก",
+          "is_answer": false
+        },
+        {
+          "md": "หน้า ค",
+          "is_answer": false
+        },
+        {
+          "md": "หน้า ง",
+          "is_answer": true
+        },
+        {
+          "md": "หน้า จ",
+          "is_answer": false
+        },
+        {
+          "md": "หน้า ฉ",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ตัดหน้าที่แชร์ขอบกับหน้า ข ในแผ่นคลี่ออกก่อน ได้ ค",
+          "why_md": "หน้าที่แชร์ขอบกันพับแล้วทำมุม 90 องศา คือติดกัน จึงไม่ตรงข้ามกันแน่นอน"
+        },
+        {
+          "do_md": "ใช้กฎเว้นหนึ่งช่อง: ข กับ ง อยู่แถวเดียวกัน มี ค คั่นอยู่ 1 ช่อง",
+          "why_md": "แนวที่มีช่องคั่น 1 ช่องคือคนละฝั่งของกล่องพอดี จึงเป็นคู่ตรงข้าม"
+        },
+        {
+          "do_md": "ตรวจ: คู่ทั้งสามคือ ก-ฉ , ค-จ , ง-ข ทุกหน้าโผล่ครั้งเดียว",
+          "why_md": "ถ้ามีหน้าใดโผล่สองคู่หรือมีหน้าที่ไม่มีคู่ แปลว่าคิดผิด ขั้นนี้ใช้เวลา 3 วินาที"
+        }
+      ],
+      "answer_explanation_md": "ตอบหน้า ง คู่ตรงข้ามของแผ่นคลี่นี้คือ ก-ฉ , ค-จ , ง-ข ซึ่งครบหกหน้าและแต่ละหน้าอยู่คู่เดียว",
+      "hints": [
+        "เริ่มจากตัดหน้าที่แชร์ขอบกับหน้า ข ในแผ่นคลี่ออก เพราะหน้าที่ติดกันไม่ตรงข้ามกัน",
+        "ถ้ายังเหลือหลายตัว ให้ใช้กฎเว้นหนึ่งช่องกับแถวและคอลัมน์ที่มีหน้า ข อยู่",
+        "ถ้ากฎเว้นหนึ่งช่องใช้ไม่ได้ ให้หาคู่อื่นให้ครบก่อน แล้วสองหน้าที่เหลือคือคู่กัน"
+      ],
+      "distractor_reasons": {
+        "0": "หน้า ก อยู่เฉียงกับหน้า ข เป็นรูปตัวแอล พับแล้วมาชนกันที่มุม จึงติดกัน",
+        "1": "หน้า ค แชร์ขอบกับหน้า ข ในแผ่นคลี่ จึงเป็นหน้าที่ติดกัน ไม่ใช่ตรงข้าม",
+        "3": "หน้า จ อยู่แถวเดียวกับหน้า ข แต่ห่างกัน 3 ช่อง ซึ่งพับแล้วมาบรรจบกันเป็นหน้าติดกัน ไม่ใช่ตรงข้าม",
+        "4": "หน้า ฉ อยู่เฉียงกับหน้า ข เป็นรูปตัวแอล พับแล้วมาชนกันที่มุม จึงติดกัน"
+      },
+      "misconception_tags": [
+        "distance_means_opposite"
+      ],
+      "template": {
+        "provider": "cube_net.opposite_face",
+        "answer_kind": "label",
+        "params": {
+          "nets": [
+            "cross",
+            "cross_c",
+            "tee_col"
+          ],
+          "orient": true,
+          "skip_rule_applies": true,
+          "touching_count": 1
+        },
+        "stem_tpl": "จากแผ่นคลี่ลูกบาศก์ที่กำหนด หน้าใดอยู่ตรงข้ามกับหน้า {asked}\n\n[[fig1]]",
+        "quality_rules": [
+          "เฉลยต้องมาจากการพับแผ่นคลี่ด้วยโค้ด ไม่ใช่การพับในหัว",
+          "ตัวเลือกลวงต้องเป็นหน้าที่ติดกับหน้าที่ถามบนลูกบาศก์ทุกตัว จึงมีตัวถูกตัวเดียวแน่นอน",
+          "ทุกตัวเลือกลวงต้องมีเหตุผลว่านักเรียนคิดผิดแบบไหนจึงเลือกตัวนั้น"
+        ]
+      },
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.spatial.box_folding.net_opposites.0004",
+      "topic_ids": [
+        "tgat2.spatial.box_folding.net_opposites"
+      ],
+      "primary_topic_id": "tgat2.spatial.box_folding.net_opposites",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 มิติสัมพันธ์ หัวข้อพับกล่อง ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 35,
+      "stem_md": "จากแผ่นคลี่ลูกบาศก์ที่กำหนด เมื่อพับเป็นกล่องแล้วหน้า ก อยู่ด้านบน หน้าใดอยู่ด้านล่าง\n\n[[fig1]]",
+      "figures": [
+        {
+          "id": "fig1",
+          "type": "svg",
+          "alt": "แผ่นคลี่ลูกบาศก์หกช่อง แถวที่ 1 มีช่อง ก / แถวที่ 2 มีช่อง ค ข ง / แถวที่ 3 มีช่อง จ / แถวที่ 4 มีช่อง ฉ",
+          "svg": "<svg viewBox=\"0 0 152 196\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"54\" y=\"10\" width=\"44\" height=\"44\"/><rect x=\"54\" y=\"54\" width=\"44\" height=\"44\"/><rect x=\"10\" y=\"54\" width=\"44\" height=\"44\"/><rect x=\"98\" y=\"54\" width=\"44\" height=\"44\"/><rect x=\"54\" y=\"98\" width=\"44\" height=\"44\"/><rect x=\"54\" y=\"142\" width=\"44\" height=\"44\"/></g><g fill=\"currentColor\" font-size=\"20\" text-anchor=\"middle\" font-family=\"system-ui, sans-serif\"><text x=\"76\" y=\"39\">ก</text><text x=\"76\" y=\"83\">ข</text><text x=\"32\" y=\"83\">ค</text><text x=\"120\" y=\"83\">ง</text><text x=\"76\" y=\"127\">จ</text><text x=\"76\" y=\"171\">ฉ</text></g></svg>",
+          "caption": null
+        }
+      ],
+      "choices": [
+        {
+          "md": "หน้า ข",
+          "is_answer": false
+        },
+        {
+          "md": "หน้า ค",
+          "is_answer": false
+        },
+        {
+          "md": "หน้า ง",
+          "is_answer": false
+        },
+        {
+          "md": "หน้า จ",
+          "is_answer": true
+        },
+        {
+          "md": "หน้า ฉ",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ตัดหน้าที่แชร์ขอบกับหน้า ก ในแผ่นคลี่ออกก่อน ได้ ข",
+          "why_md": "หน้าที่แชร์ขอบกันพับแล้วทำมุม 90 องศา คือติดกัน จึงไม่ตรงข้ามกันแน่นอน"
+        },
+        {
+          "do_md": "ใช้กฎเว้นหนึ่งช่อง: ก กับ จ อยู่คอลัมน์เดียวกัน มี ข คั่นอยู่ 1 ช่อง",
+          "why_md": "แนวที่มีช่องคั่น 1 ช่องคือคนละฝั่งของกล่องพอดี จึงเป็นคู่ตรงข้าม"
+        },
+        {
+          "do_md": "ตรวจ: คู่ทั้งสามคือ ก-จ , ข-ฉ , ง-ค ทุกหน้าโผล่ครั้งเดียว",
+          "why_md": "ถ้ามีหน้าใดโผล่สองคู่หรือมีหน้าที่ไม่มีคู่ แปลว่าคิดผิด ขั้นนี้ใช้เวลา 3 วินาที"
+        }
+      ],
+      "answer_explanation_md": "ตอบหน้า จ คู่ตรงข้ามของแผ่นคลี่นี้คือ ก-จ , ข-ฉ , ง-ค ซึ่งครบหกหน้าและแต่ละหน้าอยู่คู่เดียว",
+      "hints": [
+        "หน้าด้านล่างคือหน้าที่อยู่ตรงข้ามกับหน้าด้านบน โจทย์นี้จึงถามคู่ตรงข้ามนั่นเอง",
+        "ตัดหน้าที่แชร์ขอบกับหน้า ก ออกก่อน",
+        "ใช้กฎเว้นหนึ่งช่องหรือกฎที่เหลือจับคู่กัน เพื่อหาคู่ของหน้า ก"
+      ],
+      "distractor_reasons": {
+        "0": "หน้า ข แชร์ขอบกับหน้า ก ในแผ่นคลี่ จึงเป็นหน้าที่ติดกัน ไม่ใช่ตรงข้าม",
+        "1": "หน้า ค อยู่เฉียงกับหน้า ก เป็นรูปตัวแอล พับแล้วมาชนกันที่มุม จึงติดกัน",
+        "2": "หน้า ง อยู่เฉียงกับหน้า ก เป็นรูปตัวแอล พับแล้วมาชนกันที่มุม จึงติดกัน",
+        "4": "หน้า ฉ อยู่คอลัมน์เดียวกับหน้า ก แต่ห่างกัน 3 ช่อง ซึ่งพับแล้วมาบรรจบกันเป็นหน้าติดกัน ไม่ใช่ตรงข้าม"
+      },
+      "misconception_tags": [
+        "adjacent_mistaken_for_opposite"
+      ],
+      "template": {
+        "provider": "cube_net.opposite_face",
+        "answer_kind": "label",
+        "params": {
+          "nets": [
+            "cross",
+            "cross_c",
+            "tee_col"
+          ],
+          "orient": true,
+          "skip_rule_applies": true,
+          "touching_count": 1
+        },
+        "stem_tpl": "จากแผ่นคลี่ลูกบาศก์ที่กำหนด เมื่อพับเป็นกล่องแล้วหน้า {asked} อยู่ด้านบน หน้าใดอยู่ด้านล่าง\n\n[[fig1]]",
+        "quality_rules": [
+          "เฉลยต้องมาจากการพับแผ่นคลี่ด้วยโค้ด ไม่ใช่การพับในหัว",
+          "ตัวเลือกลวงต้องเป็นหน้าที่ติดกับหน้าที่ถามบนลูกบาศก์ทุกตัว จึงมีตัวถูกตัวเดียวแน่นอน",
+          "ทุกตัวเลือกลวงต้องมีเหตุผลว่านักเรียนคิดผิดแบบไหนจึงเลือกตัวนั้น"
+        ]
+      },
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.spatial.box_folding.net_opposites.0005",
+      "topic_ids": [
+        "tgat2.spatial.box_folding.net_opposites"
+      ],
+      "primary_topic_id": "tgat2.spatial.box_folding.net_opposites",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 มิติสัมพันธ์ หัวข้อพับกล่อง ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 35,
+      "stem_md": "จากแผ่นคลี่ลูกบาศก์ที่กำหนด หน้าใดอยู่ตรงข้ามกับหน้า ง\n\n[[fig1]]",
+      "figures": [
+        {
+          "id": "fig1",
+          "type": "svg",
+          "alt": "แผ่นคลี่ลูกบาศก์หกช่อง แถวที่ 1 มีช่อง ก / แถวที่ 2 มีช่อง ข ค ง ฉ / แถวที่ 3 มีช่อง จ",
+          "svg": "<svg viewBox=\"0 0 196 152\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"54\" y=\"10\" width=\"44\" height=\"44\"/><rect x=\"10\" y=\"54\" width=\"44\" height=\"44\"/><rect x=\"54\" y=\"54\" width=\"44\" height=\"44\"/><rect x=\"98\" y=\"54\" width=\"44\" height=\"44\"/><rect x=\"98\" y=\"98\" width=\"44\" height=\"44\"/><rect x=\"142\" y=\"54\" width=\"44\" height=\"44\"/></g><g fill=\"currentColor\" font-size=\"20\" text-anchor=\"middle\" font-family=\"system-ui, sans-serif\"><text x=\"76\" y=\"39\">ก</text><text x=\"32\" y=\"83\">ข</text><text x=\"76\" y=\"83\">ค</text><text x=\"120\" y=\"83\">ง</text><text x=\"120\" y=\"127\">จ</text><text x=\"164\" y=\"83\">ฉ</text></g></svg>",
+          "caption": null
+        }
+      ],
+      "choices": [
+        {
+          "md": "หน้า ก",
+          "is_answer": false
+        },
+        {
+          "md": "หน้า ข",
+          "is_answer": true
+        },
+        {
+          "md": "หน้า ค",
+          "is_answer": false
+        },
+        {
+          "md": "หน้า จ",
+          "is_answer": false
+        },
+        {
+          "md": "หน้า ฉ",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ตัดหน้าที่แชร์ขอบกับหน้า ง ในแผ่นคลี่ออกก่อน ได้ ค, จ, ฉ",
+          "why_md": "หน้าที่แชร์ขอบกันพับแล้วทำมุม 90 องศา คือติดกัน จึงไม่ตรงข้ามกันแน่นอน"
+        },
+        {
+          "do_md": "ใช้กฎเว้นหนึ่งช่อง: ง กับ ข อยู่แถวเดียวกัน มี ค คั่นอยู่ 1 ช่อง",
+          "why_md": "แนวที่มีช่องคั่น 1 ช่องคือคนละฝั่งของกล่องพอดี จึงเป็นคู่ตรงข้าม"
+        },
+        {
+          "do_md": "ตรวจ: คู่ทั้งสามคือ ก-จ , ค-ฉ , ง-ข ทุกหน้าโผล่ครั้งเดียว",
+          "why_md": "ถ้ามีหน้าใดโผล่สองคู่หรือมีหน้าที่ไม่มีคู่ แปลว่าคิดผิด ขั้นนี้ใช้เวลา 3 วินาที"
+        }
+      ],
+      "answer_explanation_md": "ตอบหน้า ข คู่ตรงข้ามของแผ่นคลี่นี้คือ ก-จ , ค-ฉ , ง-ข ซึ่งครบหกหน้าและแต่ละหน้าอยู่คู่เดียว",
+      "hints": [
+        "เริ่มจากตัดหน้าที่แชร์ขอบกับหน้า ง ในแผ่นคลี่ออก เพราะหน้าที่ติดกันไม่ตรงข้ามกัน",
+        "ถ้ายังเหลือหลายตัว ให้ใช้กฎเว้นหนึ่งช่องกับแถวและคอลัมน์ที่มีหน้า ง อยู่",
+        "ถ้ากฎเว้นหนึ่งช่องใช้ไม่ได้ ให้หาคู่อื่นให้ครบก่อน แล้วสองหน้าที่เหลือคือคู่กัน"
+      ],
+      "distractor_reasons": {
+        "0": "หน้า ก อยู่เฉียงกับหน้า ง เป็นรูปตัวแอล พับแล้วมาชนกันที่มุม จึงติดกัน",
+        "2": "หน้า ค แชร์ขอบกับหน้า ง ในแผ่นคลี่ จึงเป็นหน้าที่ติดกัน ไม่ใช่ตรงข้าม",
+        "3": "หน้า จ แชร์ขอบกับหน้า ง ในแผ่นคลี่ จึงเป็นหน้าที่ติดกัน ไม่ใช่ตรงข้าม",
+        "4": "หน้า ฉ แชร์ขอบกับหน้า ง ในแผ่นคลี่ จึงเป็นหน้าที่ติดกัน ไม่ใช่ตรงข้าม"
+      },
+      "misconception_tags": [
+        "distance_means_opposite"
+      ],
+      "template": {
+        "provider": "cube_net.opposite_face",
+        "answer_kind": "label",
+        "params": {
+          "nets": [
+            "col4",
+            "cross_b",
+            "cross_stem",
+            "plus_right",
+            "row4_ends",
+            "stair5",
+            "tee",
+            "zig_cross",
+            "zshape_long"
+          ],
+          "orient": true,
+          "skip_rule_applies": true,
+          "touching_count": 3
+        },
+        "stem_tpl": "จากแผ่นคลี่ลูกบาศก์ที่กำหนด หน้าใดอยู่ตรงข้ามกับหน้า {asked}\n\n[[fig1]]",
+        "quality_rules": [
+          "เฉลยต้องมาจากการพับแผ่นคลี่ด้วยโค้ด ไม่ใช่การพับในหัว",
+          "ตัวเลือกลวงต้องเป็นหน้าที่ติดกับหน้าที่ถามบนลูกบาศก์ทุกตัว จึงมีตัวถูกตัวเดียวแน่นอน",
+          "ทุกตัวเลือกลวงต้องมีเหตุผลว่านักเรียนคิดผิดแบบไหนจึงเลือกตัวนั้น"
+        ]
+      },
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.spatial.box_folding.net_opposites.0006",
+      "topic_ids": [
+        "tgat2.spatial.box_folding.net_opposites"
+      ],
+      "primary_topic_id": "tgat2.spatial.box_folding.net_opposites",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 มิติสัมพันธ์ หัวข้อพับกล่อง ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 50,
+      "stem_md": "จากแผ่นคลี่ลูกบาศก์ที่กำหนด หน้าใดอยู่ตรงข้ามกับหน้า ก\n\n[[fig1]]",
+      "figures": [
+        {
+          "id": "fig1",
+          "type": "svg",
+          "alt": "แผ่นคลี่ลูกบาศก์หกช่อง แถวที่ 1 มีช่อง ก / แถวที่ 2 มีช่อง ข ค ง จ / แถวที่ 3 มีช่อง ฉ",
+          "svg": "<svg viewBox=\"0 0 196 152\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"98\" y=\"10\" width=\"44\" height=\"44\"/><rect x=\"10\" y=\"54\" width=\"44\" height=\"44\"/><rect x=\"54\" y=\"54\" width=\"44\" height=\"44\"/><rect x=\"98\" y=\"54\" width=\"44\" height=\"44\"/><rect x=\"142\" y=\"54\" width=\"44\" height=\"44\"/><rect x=\"54\" y=\"98\" width=\"44\" height=\"44\"/></g><g fill=\"currentColor\" font-size=\"20\" text-anchor=\"middle\" font-family=\"system-ui, sans-serif\"><text x=\"120\" y=\"39\">ก</text><text x=\"32\" y=\"83\">ข</text><text x=\"76\" y=\"83\">ค</text><text x=\"120\" y=\"83\">ง</text><text x=\"164\" y=\"83\">จ</text><text x=\"76\" y=\"127\">ฉ</text></g></svg>",
+          "caption": null
+        }
+      ],
+      "choices": [
+        {
+          "md": "หน้า ข",
+          "is_answer": false
+        },
+        {
+          "md": "หน้า ค",
+          "is_answer": false
+        },
+        {
+          "md": "หน้า ง",
+          "is_answer": false
+        },
+        {
+          "md": "หน้า จ",
+          "is_answer": false
+        },
+        {
+          "md": "หน้า ฉ",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ตัดหน้าที่แชร์ขอบกับหน้า ก ในแผ่นคลี่ออกก่อน ได้ ง",
+          "why_md": "หน้าที่แชร์ขอบกันพับแล้วทำมุม 90 องศา คือติดกัน จึงไม่ตรงข้ามกันแน่นอน"
+        },
+        {
+          "do_md": "กฎเว้นหนึ่งช่องใช้กับ ก ไม่ได้ จึงหาคู่อื่นให้ครบก่อน ได้ ง-ข และ จ-ค",
+          "why_md": "เก็บคู่ที่หาได้ด้วยกฎเว้นหนึ่งช่องก่อน เพื่อลดจำนวนหน้าที่เหลือ"
+        },
+        {
+          "do_md": "เหลือ ก กับ ฉ ที่ยังไม่มีคู่ จึงต้องเป็นคู่กัน",
+          "why_md": "ลูกบาศก์มีคู่ตรงข้าม 3 คู่พอดี สี่หน้าถูกจับไปแล้ว สองหน้าที่เหลือไม่มีทางเลือกอื่น"
+        },
+        {
+          "do_md": "ตรวจ: คู่ทั้งสามคือ ก-ฉ , ง-ข , จ-ค ทุกหน้าโผล่ครั้งเดียว",
+          "why_md": "ถ้ามีหน้าใดโผล่สองคู่หรือมีหน้าที่ไม่มีคู่ แปลว่าคิดผิด ขั้นนี้ใช้เวลา 3 วินาที"
+        }
+      ],
+      "answer_explanation_md": "ตอบหน้า ฉ คู่ตรงข้ามของแผ่นคลี่นี้คือ ก-ฉ , ง-ข , จ-ค ซึ่งครบหกหน้าและแต่ละหน้าอยู่คู่เดียว",
+      "hints": [
+        "เริ่มจากตัดหน้าที่แชร์ขอบกับหน้า ก ในแผ่นคลี่ออก เพราะหน้าที่ติดกันไม่ตรงข้ามกัน",
+        "ถ้ายังเหลือหลายตัว ให้ใช้กฎเว้นหนึ่งช่องกับแถวและคอลัมน์ที่มีหน้า ก อยู่",
+        "ถ้ากฎเว้นหนึ่งช่องใช้ไม่ได้ ให้หาคู่อื่นให้ครบก่อน แล้วสองหน้าที่เหลือคือคู่กัน"
+      ],
+      "distractor_reasons": {
+        "0": "หน้า ข พับแล้วติดกับหน้า ก ที่มุมของกล่อง จึงไม่ใช่หน้าตรงข้าม",
+        "1": "หน้า ค อยู่เฉียงกับหน้า ก เป็นรูปตัวแอล พับแล้วมาชนกันที่มุม จึงติดกัน",
+        "2": "หน้า ง แชร์ขอบกับหน้า ก ในแผ่นคลี่ จึงเป็นหน้าที่ติดกัน ไม่ใช่ตรงข้าม",
+        "3": "หน้า จ อยู่เฉียงกับหน้า ก เป็นรูปตัวแอล พับแล้วมาชนกันที่มุม จึงติดกัน"
+      },
+      "misconception_tags": [
+        "diagonal_skip_misuse",
+        "face_in_two_pairs"
+      ],
+      "template": {
+        "provider": "cube_net.opposite_face",
+        "answer_kind": "label",
+        "params": {
+          "nets": [
+            "col4",
+            "cross_b",
+            "cross_stem",
+            "plus_right",
+            "row4_ends",
+            "stair5",
+            "tee",
+            "zig_cross",
+            "zshape_long"
+          ],
+          "orient": true,
+          "skip_rule_applies": false,
+          "touching_count": 1
+        },
+        "stem_tpl": "จากแผ่นคลี่ลูกบาศก์ที่กำหนด หน้าใดอยู่ตรงข้ามกับหน้า {asked}\n\n[[fig1]]",
+        "quality_rules": [
+          "เฉลยต้องมาจากการพับแผ่นคลี่ด้วยโค้ด ไม่ใช่การพับในหัว",
+          "ตัวเลือกลวงต้องเป็นหน้าที่ติดกับหน้าที่ถามบนลูกบาศก์ทุกตัว จึงมีตัวถูกตัวเดียวแน่นอน",
+          "ทุกตัวเลือกลวงต้องมีเหตุผลว่านักเรียนคิดผิดแบบไหนจึงเลือกตัวนั้น"
+        ]
+      },
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.spatial.box_folding.net_opposites.0007",
+      "topic_ids": [
+        "tgat2.spatial.box_folding.net_opposites"
+      ],
+      "primary_topic_id": "tgat2.spatial.box_folding.net_opposites",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 มิติสัมพันธ์ หัวข้อพับกล่อง ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 50,
+      "stem_md": "จากแผ่นคลี่ลูกบาศก์ที่กำหนด ข้อใดเป็นคู่หน้าที่อยู่ตรงข้ามกัน\n\n[[fig1]]",
+      "figures": [
+        {
+          "id": "fig1",
+          "type": "svg",
+          "alt": "แผ่นคลี่ลูกบาศก์หกช่อง แถวที่ 1 มีช่อง ก / แถวที่ 2 มีช่อง ข ค ง จ / แถวที่ 3 มีช่อง ฉ",
+          "svg": "<svg viewBox=\"0 0 196 152\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"54\" y=\"10\" width=\"44\" height=\"44\"/><rect x=\"10\" y=\"54\" width=\"44\" height=\"44\"/><rect x=\"54\" y=\"54\" width=\"44\" height=\"44\"/><rect x=\"98\" y=\"54\" width=\"44\" height=\"44\"/><rect x=\"142\" y=\"54\" width=\"44\" height=\"44\"/><rect x=\"54\" y=\"98\" width=\"44\" height=\"44\"/></g><g fill=\"currentColor\" font-size=\"20\" text-anchor=\"middle\" font-family=\"system-ui, sans-serif\"><text x=\"76\" y=\"39\">ก</text><text x=\"32\" y=\"83\">ข</text><text x=\"76\" y=\"83\">ค</text><text x=\"120\" y=\"83\">ง</text><text x=\"164\" y=\"83\">จ</text><text x=\"76\" y=\"127\">ฉ</text></g></svg>",
+          "caption": null
+        }
+      ],
+      "choices": [
+        {
+          "md": "ก กับ ค",
+          "is_answer": false
+        },
+        {
+          "md": "ก กับ ฉ",
+          "is_answer": true
+        },
+        {
+          "md": "ข กับ ค",
+          "is_answer": false
+        },
+        {
+          "md": "ค กับ ฉ",
+          "is_answer": false
+        },
+        {
+          "md": "ง กับ จ",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ตัดตัวเลือกที่เป็นคู่แชร์ขอบกันในแผ่นคลี่ออกก่อน",
+          "why_md": "หน้าที่แชร์ขอบกันติดกันแน่นอน ด่านนี้ตัดได้เร็วที่สุด"
+        },
+        {
+          "do_md": "หาคู่ตรงข้ามทั้งสามคู่ของแผ่นคลี่นี้ ได้ ก-ฉ , ค-จ , ง-ข",
+          "why_md": "หาให้ครบทั้งสามคู่แล้วเทียบกับตัวเลือก ปลอดภัยกว่าเดาทีละตัวเลือก"
+        },
+        {
+          "do_md": "ตัวเลือกที่ตรงกับคู่จริงคือ ก กับ ฉ — ใช้กฎเว้นหนึ่งช่อง: ก กับ ฉ อยู่คอลัมน์เดียวกัน มี ค คั่น 1 ช่อง",
+          "why_md": "ยืนยันด้วยกฎ ไม่ใช่เพราะตัดตัวอื่นหมดแล้ว"
+        }
+      ],
+      "answer_explanation_md": "ตอบ ก กับ ฉ คู่ตรงข้ามของแผ่นคลี่นี้คือ ก-ฉ , ค-จ , ง-ข",
+      "hints": [
+        "ตัดตัวเลือกที่เป็นคู่แชร์ขอบกันในแผ่นคลี่ออกก่อน",
+        "หาคู่ตรงข้ามให้ครบทั้งสามคู่ แล้วค่อยเทียบกับตัวเลือก",
+        "ถ้ากฎเว้นหนึ่งช่องหาไม่ครบ ให้ใช้กฎที่เหลือจับคู่กันปิดท้าย"
+      ],
+      "distractor_reasons": {
+        "0": "หน้า ค แชร์ขอบกับหน้า ก ในแผ่นคลี่ จึงเป็นหน้าที่ติดกัน ไม่ใช่ตรงข้าม",
+        "2": "หน้า ค แชร์ขอบกับหน้า ข ในแผ่นคลี่ จึงเป็นหน้าที่ติดกัน ไม่ใช่ตรงข้าม",
+        "3": "หน้า ฉ แชร์ขอบกับหน้า ค ในแผ่นคลี่ จึงเป็นหน้าที่ติดกัน ไม่ใช่ตรงข้าม",
+        "4": "หน้า จ แชร์ขอบกับหน้า ง ในแผ่นคลี่ จึงเป็นหน้าที่ติดกัน ไม่ใช่ตรงข้าม"
+      },
+      "misconception_tags": [
+        "adjacent_mistaken_for_opposite",
+        "distance_means_opposite"
+      ],
+      "template": {
+        "provider": "cube_net.opposite_pair",
+        "answer_kind": "text",
+        "params": {
+          "nets": [
+            "cross",
+            "cross_c",
+            "tee_col"
+          ],
+          "orient": true,
+          "skip_rule_applies": true
+        },
+        "stem_tpl": "จากแผ่นคลี่ลูกบาศก์ที่กำหนด ข้อใดเป็นคู่หน้าที่อยู่ตรงข้ามกัน\n\n[[fig1]]",
+        "quality_rules": [
+          "เฉลยต้องมาจากการพับแผ่นคลี่ด้วยโค้ด ไม่ใช่การพับในหัว",
+          "ตัวเลือกลวงต้องเป็นหน้าที่ติดกับหน้าที่ถามบนลูกบาศก์ทุกตัว จึงมีตัวถูกตัวเดียวแน่นอน",
+          "ทุกตัวเลือกลวงต้องมีเหตุผลว่านักเรียนคิดผิดแบบไหนจึงเลือกตัวนั้น"
+        ]
+      },
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.spatial.box_folding.net_opposites.0008",
+      "topic_ids": [
+        "tgat2.spatial.box_folding.net_opposites"
+      ],
+      "primary_topic_id": "tgat2.spatial.box_folding.net_opposites",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 มิติสัมพันธ์ หัวข้อพับกล่อง ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 50,
+      "stem_md": "จากแผ่นคลี่ลูกบาศก์ที่กำหนด หน้าใดอยู่ตรงข้ามกับหน้า ข\n\n[[fig1]]",
+      "figures": [
+        {
+          "id": "fig1",
+          "type": "svg",
+          "alt": "แผ่นคลี่ลูกบาศก์หกช่อง แถวที่ 1 มีช่อง ก / แถวที่ 2 มีช่อง ข ค / แถวที่ 3 มีช่อง ง จ / แถวที่ 4 มีช่อง ฉ",
+          "svg": "<svg viewBox=\"0 0 152 196\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"54\" y=\"10\" width=\"44\" height=\"44\"/><rect x=\"10\" y=\"54\" width=\"44\" height=\"44\"/><rect x=\"54\" y=\"54\" width=\"44\" height=\"44\"/><rect x=\"54\" y=\"98\" width=\"44\" height=\"44\"/><rect x=\"98\" y=\"98\" width=\"44\" height=\"44\"/><rect x=\"54\" y=\"142\" width=\"44\" height=\"44\"/></g><g fill=\"currentColor\" font-size=\"20\" text-anchor=\"middle\" font-family=\"system-ui, sans-serif\"><text x=\"76\" y=\"39\">ก</text><text x=\"32\" y=\"83\">ข</text><text x=\"76\" y=\"83\">ค</text><text x=\"76\" y=\"127\">ง</text><text x=\"120\" y=\"127\">จ</text><text x=\"76\" y=\"171\">ฉ</text></g></svg>",
+          "caption": null
+        }
+      ],
+      "choices": [
+        {
+          "md": "หน้า ก",
+          "is_answer": false
+        },
+        {
+          "md": "หน้า ค",
+          "is_answer": false
+        },
+        {
+          "md": "หน้า ง",
+          "is_answer": false
+        },
+        {
+          "md": "หน้า จ",
+          "is_answer": true
+        },
+        {
+          "md": "หน้า ฉ",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ตัดหน้าที่แชร์ขอบกับหน้า ข ในแผ่นคลี่ออกก่อน ได้ ค",
+          "why_md": "หน้าที่แชร์ขอบกันพับแล้วทำมุม 90 องศา คือติดกัน จึงไม่ตรงข้ามกันแน่นอน"
+        },
+        {
+          "do_md": "กฎเว้นหนึ่งช่องใช้กับ ข ไม่ได้ จึงหาคู่อื่นให้ครบก่อน ได้ ก-ง และ ค-ฉ",
+          "why_md": "เก็บคู่ที่หาได้ด้วยกฎเว้นหนึ่งช่องก่อน เพื่อลดจำนวนหน้าที่เหลือ"
+        },
+        {
+          "do_md": "เหลือ ข กับ จ ที่ยังไม่มีคู่ จึงต้องเป็นคู่กัน",
+          "why_md": "ลูกบาศก์มีคู่ตรงข้าม 3 คู่พอดี สี่หน้าถูกจับไปแล้ว สองหน้าที่เหลือไม่มีทางเลือกอื่น"
+        },
+        {
+          "do_md": "ตรวจ: คู่ทั้งสามคือ ก-ง , ค-ฉ , ข-จ ทุกหน้าโผล่ครั้งเดียว",
+          "why_md": "ถ้ามีหน้าใดโผล่สองคู่หรือมีหน้าที่ไม่มีคู่ แปลว่าคิดผิด ขั้นนี้ใช้เวลา 3 วินาที"
+        }
+      ],
+      "answer_explanation_md": "ตอบหน้า จ คู่ตรงข้ามของแผ่นคลี่นี้คือ ก-ง , ค-ฉ , ข-จ ซึ่งครบหกหน้าและแต่ละหน้าอยู่คู่เดียว",
+      "hints": [
+        "เริ่มจากตัดหน้าที่แชร์ขอบกับหน้า ข ในแผ่นคลี่ออก เพราะหน้าที่ติดกันไม่ตรงข้ามกัน",
+        "ถ้ายังเหลือหลายตัว ให้ใช้กฎเว้นหนึ่งช่องกับแถวและคอลัมน์ที่มีหน้า ข อยู่",
+        "ถ้ากฎเว้นหนึ่งช่องใช้ไม่ได้ ให้หาคู่อื่นให้ครบก่อน แล้วสองหน้าที่เหลือคือคู่กัน"
+      ],
+      "distractor_reasons": {
+        "0": "หน้า ก อยู่เฉียงกับหน้า ข เป็นรูปตัวแอล พับแล้วมาชนกันที่มุม จึงติดกัน",
+        "1": "หน้า ค แชร์ขอบกับหน้า ข ในแผ่นคลี่ จึงเป็นหน้าที่ติดกัน ไม่ใช่ตรงข้าม",
+        "2": "หน้า ง อยู่เฉียงกับหน้า ข เป็นรูปตัวแอล พับแล้วมาชนกันที่มุม จึงติดกัน",
+        "4": "หน้า ฉ พับแล้วติดกับหน้า ข ที่มุมของกล่อง จึงไม่ใช่หน้าตรงข้าม"
+      },
+      "misconception_tags": [
+        "diagonal_skip_misuse"
+      ],
+      "template": {
+        "provider": "cube_net.opposite_face",
+        "answer_kind": "label",
+        "params": {
+          "nets": [
+            "col4",
+            "cross_b",
+            "cross_stem",
+            "plus_right",
+            "row4_ends",
+            "stair5",
+            "tee",
+            "zig_cross",
+            "zshape_long"
+          ],
+          "orient": true,
+          "skip_rule_applies": false,
+          "touching_count": 1
+        },
+        "stem_tpl": "จากแผ่นคลี่ลูกบาศก์ที่กำหนด หน้าใดอยู่ตรงข้ามกับหน้า {asked}\n\n[[fig1]]",
+        "quality_rules": [
+          "เฉลยต้องมาจากการพับแผ่นคลี่ด้วยโค้ด ไม่ใช่การพับในหัว",
+          "ตัวเลือกลวงต้องเป็นหน้าที่ติดกับหน้าที่ถามบนลูกบาศก์ทุกตัว จึงมีตัวถูกตัวเดียวแน่นอน",
+          "ทุกตัวเลือกลวงต้องมีเหตุผลว่านักเรียนคิดผิดแบบไหนจึงเลือกตัวนั้น"
+        ]
+      },
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.spatial.box_folding.net_opposites.0009",
+      "topic_ids": [
+        "tgat2.spatial.box_folding.net_opposites"
+      ],
+      "primary_topic_id": "tgat2.spatial.box_folding.net_opposites",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 มิติสัมพันธ์ หัวข้อพับกล่อง ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 50,
+      "stem_md": "จากแผ่นคลี่ลูกบาศก์ที่กำหนด หน้าใดอยู่ตรงข้ามกับหน้า ก\n\n[[fig1]]",
+      "figures": [
+        {
+          "id": "fig1",
+          "type": "svg",
+          "alt": "แผ่นคลี่ลูกบาศก์หกช่อง แถวที่ 1 มีช่อง ก / แถวที่ 2 มีช่อง ข ค ง จ / แถวที่ 3 มีช่อง ฉ",
+          "svg": "<svg viewBox=\"0 0 196 152\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"54\" y=\"10\" width=\"44\" height=\"44\"/><rect x=\"10\" y=\"54\" width=\"44\" height=\"44\"/><rect x=\"54\" y=\"54\" width=\"44\" height=\"44\"/><rect x=\"98\" y=\"54\" width=\"44\" height=\"44\"/><rect x=\"142\" y=\"54\" width=\"44\" height=\"44\"/><rect x=\"98\" y=\"98\" width=\"44\" height=\"44\"/></g><g fill=\"currentColor\" font-size=\"20\" text-anchor=\"middle\" font-family=\"system-ui, sans-serif\"><text x=\"76\" y=\"39\">ก</text><text x=\"32\" y=\"83\">ข</text><text x=\"76\" y=\"83\">ค</text><text x=\"120\" y=\"83\">ง</text><text x=\"164\" y=\"83\">จ</text><text x=\"120\" y=\"127\">ฉ</text></g></svg>",
+          "caption": null
+        }
+      ],
+      "choices": [
+        {
+          "md": "หน้า ข",
+          "is_answer": false
+        },
+        {
+          "md": "หน้า ค",
+          "is_answer": false
+        },
+        {
+          "md": "หน้า ง",
+          "is_answer": false
+        },
+        {
+          "md": "หน้า จ",
+          "is_answer": false
+        },
+        {
+          "md": "หน้า ฉ",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ตัดหน้าที่แชร์ขอบกับหน้า ก ในแผ่นคลี่ออกก่อน ได้ ค",
+          "why_md": "หน้าที่แชร์ขอบกันพับแล้วทำมุม 90 องศา คือติดกัน จึงไม่ตรงข้ามกันแน่นอน"
+        },
+        {
+          "do_md": "กฎเว้นหนึ่งช่องใช้กับ ก ไม่ได้ จึงหาคู่อื่นให้ครบก่อน ได้ ค-จ และ ง-ข",
+          "why_md": "เก็บคู่ที่หาได้ด้วยกฎเว้นหนึ่งช่องก่อน เพื่อลดจำนวนหน้าที่เหลือ"
+        },
+        {
+          "do_md": "เหลือ ก กับ ฉ ที่ยังไม่มีคู่ จึงต้องเป็นคู่กัน",
+          "why_md": "ลูกบาศก์มีคู่ตรงข้าม 3 คู่พอดี สี่หน้าถูกจับไปแล้ว สองหน้าที่เหลือไม่มีทางเลือกอื่น"
+        },
+        {
+          "do_md": "ตรวจ: คู่ทั้งสามคือ ก-ฉ , ค-จ , ง-ข ทุกหน้าโผล่ครั้งเดียว",
+          "why_md": "ถ้ามีหน้าใดโผล่สองคู่หรือมีหน้าที่ไม่มีคู่ แปลว่าคิดผิด ขั้นนี้ใช้เวลา 3 วินาที"
+        }
+      ],
+      "answer_explanation_md": "ตอบหน้า ฉ คู่ตรงข้ามของแผ่นคลี่นี้คือ ก-ฉ , ค-จ , ง-ข ซึ่งครบหกหน้าและแต่ละหน้าอยู่คู่เดียว",
+      "hints": [
+        "เริ่มจากตัดหน้าที่แชร์ขอบกับหน้า ก ในแผ่นคลี่ออก เพราะหน้าที่ติดกันไม่ตรงข้ามกัน",
+        "ถ้ายังเหลือหลายตัว ให้ใช้กฎเว้นหนึ่งช่องกับแถวและคอลัมน์ที่มีหน้า ก อยู่",
+        "ถ้ากฎเว้นหนึ่งช่องใช้ไม่ได้ ให้หาคู่อื่นให้ครบก่อน แล้วสองหน้าที่เหลือคือคู่กัน"
+      ],
+      "distractor_reasons": {
+        "0": "หน้า ข อยู่เฉียงกับหน้า ก เป็นรูปตัวแอล พับแล้วมาชนกันที่มุม จึงติดกัน",
+        "1": "หน้า ค แชร์ขอบกับหน้า ก ในแผ่นคลี่ จึงเป็นหน้าที่ติดกัน ไม่ใช่ตรงข้าม",
+        "2": "หน้า ง อยู่เฉียงกับหน้า ก เป็นรูปตัวแอล พับแล้วมาชนกันที่มุม จึงติดกัน",
+        "3": "หน้า จ พับแล้วติดกับหน้า ก ที่มุมของกล่อง จึงไม่ใช่หน้าตรงข้าม"
+      },
+      "misconception_tags": [
+        "diagonal_skip_misuse",
+        "face_in_two_pairs"
+      ],
+      "template": {
+        "provider": "cube_net.opposite_face",
+        "answer_kind": "label",
+        "params": {
+          "nets": [
+            "col4",
+            "cross_b",
+            "cross_stem",
+            "plus_right",
+            "row4_ends",
+            "stair5",
+            "tee",
+            "zig_cross",
+            "zshape_long"
+          ],
+          "orient": true,
+          "skip_rule_applies": false,
+          "touching_count": 1
+        },
+        "stem_tpl": "จากแผ่นคลี่ลูกบาศก์ที่กำหนด หน้าใดอยู่ตรงข้ามกับหน้า {asked}\n\n[[fig1]]",
+        "quality_rules": [
+          "เฉลยต้องมาจากการพับแผ่นคลี่ด้วยโค้ด ไม่ใช่การพับในหัว",
+          "ตัวเลือกลวงต้องเป็นหน้าที่ติดกับหน้าที่ถามบนลูกบาศก์ทุกตัว จึงมีตัวถูกตัวเดียวแน่นอน",
+          "ทุกตัวเลือกลวงต้องมีเหตุผลว่านักเรียนคิดผิดแบบไหนจึงเลือกตัวนั้น"
+        ]
+      },
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.spatial.box_folding.net_opposites.0010",
+      "topic_ids": [
+        "tgat2.spatial.box_folding.net_opposites",
+        "tgat2.spatial.box_folding.cube_face_relations"
+      ],
+      "primary_topic_id": "tgat2.spatial.box_folding.net_opposites",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 มิติสัมพันธ์ หัวข้อพับกล่อง ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 4,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 2,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 65,
+      "stem_md": "จากแผ่นคลี่ลูกบาศก์ที่กำหนด หน้าใดอยู่ตรงข้ามกับหน้า ก\n\n[[fig1]]",
+      "figures": [
+        {
+          "id": "fig1",
+          "type": "svg",
+          "alt": "แผ่นคลี่ลูกบาศก์หกช่อง แถวที่ 1 มีช่อง ก ข / แถวที่ 2 มีช่อง ค ง / แถวที่ 3 มีช่อง จ ฉ",
+          "svg": "<svg viewBox=\"0 0 196 152\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"10\" y=\"10\" width=\"44\" height=\"44\"/><rect x=\"54\" y=\"10\" width=\"44\" height=\"44\"/><rect x=\"54\" y=\"54\" width=\"44\" height=\"44\"/><rect x=\"98\" y=\"54\" width=\"44\" height=\"44\"/><rect x=\"98\" y=\"98\" width=\"44\" height=\"44\"/><rect x=\"142\" y=\"98\" width=\"44\" height=\"44\"/></g><g fill=\"currentColor\" font-size=\"20\" text-anchor=\"middle\" font-family=\"system-ui, sans-serif\"><text x=\"32\" y=\"39\">ก</text><text x=\"76\" y=\"39\">ข</text><text x=\"76\" y=\"83\">ค</text><text x=\"120\" y=\"83\">ง</text><text x=\"120\" y=\"127\">จ</text><text x=\"164\" y=\"127\">ฉ</text></g></svg>",
+          "caption": null
+        }
+      ],
+      "choices": [
+        {
+          "md": "หน้า ข",
+          "is_answer": false
+        },
+        {
+          "md": "หน้า ค",
+          "is_answer": false
+        },
+        {
+          "md": "หน้า ง",
+          "is_answer": true
+        },
+        {
+          "md": "หน้า จ",
+          "is_answer": false
+        },
+        {
+          "md": "หน้า ฉ",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ตัดหน้าที่แชร์ขอบกับหน้า ก ในแผ่นคลี่ออกก่อน ได้ ข",
+          "why_md": "หน้าที่แชร์ขอบกันพับแล้วทำมุม 90 องศา คือติดกัน จึงไม่ตรงข้ามกันแน่นอน"
+        },
+        {
+          "do_md": "กฎเว้นหนึ่งช่องใช้กับ ก ไม่ได้ จึงหาคู่อื่นให้ครบก่อน ได้ ข-จ และ ค-ฉ",
+          "why_md": "เก็บคู่ที่หาได้ด้วยกฎเว้นหนึ่งช่องก่อน เพื่อลดจำนวนหน้าที่เหลือ"
+        },
+        {
+          "do_md": "เหลือ ก กับ ง ที่ยังไม่มีคู่ จึงต้องเป็นคู่กัน",
+          "why_md": "ลูกบาศก์มีคู่ตรงข้าม 3 คู่พอดี สี่หน้าถูกจับไปแล้ว สองหน้าที่เหลือไม่มีทางเลือกอื่น"
+        },
+        {
+          "do_md": "ตรวจ: คู่ทั้งสามคือ ก-ง , ข-จ , ค-ฉ ทุกหน้าโผล่ครั้งเดียว",
+          "why_md": "ถ้ามีหน้าใดโผล่สองคู่หรือมีหน้าที่ไม่มีคู่ แปลว่าคิดผิด ขั้นนี้ใช้เวลา 3 วินาที"
+        }
+      ],
+      "answer_explanation_md": "ตอบหน้า ง คู่ตรงข้ามของแผ่นคลี่นี้คือ ก-ง , ข-จ , ค-ฉ ซึ่งครบหกหน้าและแต่ละหน้าอยู่คู่เดียว",
+      "hints": [
+        "เริ่มจากตัดหน้าที่แชร์ขอบกับหน้า ก ในแผ่นคลี่ออก เพราะหน้าที่ติดกันไม่ตรงข้ามกัน",
+        "ถ้ายังเหลือหลายตัว ให้ใช้กฎเว้นหนึ่งช่องกับแถวและคอลัมน์ที่มีหน้า ก อยู่",
+        "ถ้ากฎเว้นหนึ่งช่องใช้ไม่ได้ ให้หาคู่อื่นให้ครบก่อน แล้วสองหน้าที่เหลือคือคู่กัน"
+      ],
+      "distractor_reasons": {
+        "0": "หน้า ข แชร์ขอบกับหน้า ก ในแผ่นคลี่ จึงเป็นหน้าที่ติดกัน ไม่ใช่ตรงข้าม",
+        "1": "หน้า ค อยู่เฉียงกับหน้า ก เป็นรูปตัวแอล พับแล้วมาชนกันที่มุม จึงติดกัน",
+        "3": "หน้า จ พับแล้วติดกับหน้า ก ที่มุมของกล่อง จึงไม่ใช่หน้าตรงข้าม",
+        "4": "หน้า ฉ พับแล้วติดกับหน้า ก ที่มุมของกล่อง จึงไม่ใช่หน้าตรงข้าม"
+      },
+      "misconception_tags": [
+        "diagonal_skip_misuse",
+        "distance_means_opposite"
+      ],
+      "template": {
+        "provider": "cube_net.opposite_face",
+        "answer_kind": "label",
+        "params": {
+          "nets": [
+            "zig_b",
+            "zigzag"
+          ],
+          "orient": true,
+          "skip_rule_applies": false,
+          "touching_count": 1
+        },
+        "stem_tpl": "จากแผ่นคลี่ลูกบาศก์ที่กำหนด หน้าใดอยู่ตรงข้ามกับหน้า {asked}\n\n[[fig1]]",
+        "quality_rules": [
+          "เฉลยต้องมาจากการพับแผ่นคลี่ด้วยโค้ด ไม่ใช่การพับในหัว",
+          "ตัวเลือกลวงต้องเป็นหน้าที่ติดกับหน้าที่ถามบนลูกบาศก์ทุกตัว จึงมีตัวถูกตัวเดียวแน่นอน",
+          "ทุกตัวเลือกลวงต้องมีเหตุผลว่านักเรียนคิดผิดแบบไหนจึงเลือกตัวนั้น"
+        ]
+      },
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.spatial.box_folding.net_opposites.0011",
+      "topic_ids": [
+        "tgat2.spatial.box_folding.net_opposites",
+        "tgat2.spatial.box_folding.cube_face_relations"
+      ],
+      "primary_topic_id": "tgat2.spatial.box_folding.net_opposites",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 มิติสัมพันธ์ หัวข้อพับกล่อง ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 4,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 2,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 65,
+      "stem_md": "จากแผ่นคลี่ลูกบาศก์ที่กำหนด หน้าใดอยู่ตรงข้ามกับหน้า ค\n\n[[fig1]]",
+      "figures": [
+        {
+          "id": "fig1",
+          "type": "svg",
+          "alt": "แผ่นคลี่ลูกบาศก์หกช่อง แถวที่ 1 มีช่อง ก / แถวที่ 2 มีช่อง ข ค / แถวที่ 3 มีช่อง ง จ / แถวที่ 4 มีช่อง ฉ",
+          "svg": "<svg viewBox=\"0 0 152 196\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"10\" y=\"10\" width=\"44\" height=\"44\"/><rect x=\"10\" y=\"54\" width=\"44\" height=\"44\"/><rect x=\"54\" y=\"54\" width=\"44\" height=\"44\"/><rect x=\"54\" y=\"98\" width=\"44\" height=\"44\"/><rect x=\"98\" y=\"98\" width=\"44\" height=\"44\"/><rect x=\"98\" y=\"142\" width=\"44\" height=\"44\"/></g><g fill=\"currentColor\" font-size=\"20\" text-anchor=\"middle\" font-family=\"system-ui, sans-serif\"><text x=\"32\" y=\"39\">ก</text><text x=\"32\" y=\"83\">ข</text><text x=\"76\" y=\"83\">ค</text><text x=\"76\" y=\"127\">ง</text><text x=\"120\" y=\"127\">จ</text><text x=\"120\" y=\"171\">ฉ</text></g></svg>",
+          "caption": null
+        }
+      ],
+      "choices": [
+        {
+          "md": "หน้า ก",
+          "is_answer": false
+        },
+        {
+          "md": "หน้า ข",
+          "is_answer": false
+        },
+        {
+          "md": "หน้า ง",
+          "is_answer": false
+        },
+        {
+          "md": "หน้า จ",
+          "is_answer": false
+        },
+        {
+          "md": "หน้า ฉ",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ตัดหน้าที่แชร์ขอบกับหน้า ค ในแผ่นคลี่ออกก่อน ได้ ข, ง",
+          "why_md": "หน้าที่แชร์ขอบกันพับแล้วทำมุม 90 องศา คือติดกัน จึงไม่ตรงข้ามกันแน่นอน"
+        },
+        {
+          "do_md": "กฎเว้นหนึ่งช่องใช้กับ ค ไม่ได้ จึงหาคู่อื่นให้ครบก่อน ได้ ก-ง และ ข-จ",
+          "why_md": "เก็บคู่ที่หาได้ด้วยกฎเว้นหนึ่งช่องก่อน เพื่อลดจำนวนหน้าที่เหลือ"
+        },
+        {
+          "do_md": "เหลือ ค กับ ฉ ที่ยังไม่มีคู่ จึงต้องเป็นคู่กัน",
+          "why_md": "ลูกบาศก์มีคู่ตรงข้าม 3 คู่พอดี สี่หน้าถูกจับไปแล้ว สองหน้าที่เหลือไม่มีทางเลือกอื่น"
+        },
+        {
+          "do_md": "ตรวจ: คู่ทั้งสามคือ ก-ง , ข-จ , ค-ฉ ทุกหน้าโผล่ครั้งเดียว",
+          "why_md": "ถ้ามีหน้าใดโผล่สองคู่หรือมีหน้าที่ไม่มีคู่ แปลว่าคิดผิด ขั้นนี้ใช้เวลา 3 วินาที"
+        }
+      ],
+      "answer_explanation_md": "ตอบหน้า ฉ คู่ตรงข้ามของแผ่นคลี่นี้คือ ก-ง , ข-จ , ค-ฉ ซึ่งครบหกหน้าและแต่ละหน้าอยู่คู่เดียว",
+      "hints": [
+        "เริ่มจากตัดหน้าที่แชร์ขอบกับหน้า ค ในแผ่นคลี่ออก เพราะหน้าที่ติดกันไม่ตรงข้ามกัน",
+        "ถ้ายังเหลือหลายตัว ให้ใช้กฎเว้นหนึ่งช่องกับแถวและคอลัมน์ที่มีหน้า ค อยู่",
+        "ถ้ากฎเว้นหนึ่งช่องใช้ไม่ได้ ให้หาคู่อื่นให้ครบก่อน แล้วสองหน้าที่เหลือคือคู่กัน"
+      ],
+      "distractor_reasons": {
+        "0": "หน้า ก อยู่เฉียงกับหน้า ค เป็นรูปตัวแอล พับแล้วมาชนกันที่มุม จึงติดกัน",
+        "1": "หน้า ข แชร์ขอบกับหน้า ค ในแผ่นคลี่ จึงเป็นหน้าที่ติดกัน ไม่ใช่ตรงข้าม",
+        "2": "หน้า ง แชร์ขอบกับหน้า ค ในแผ่นคลี่ จึงเป็นหน้าที่ติดกัน ไม่ใช่ตรงข้าม",
+        "3": "หน้า จ อยู่เฉียงกับหน้า ค เป็นรูปตัวแอล พับแล้วมาชนกันที่มุม จึงติดกัน"
+      },
+      "misconception_tags": [
+        "diagonal_skip_misuse"
+      ],
+      "template": {
+        "provider": "cube_net.opposite_face",
+        "answer_kind": "label",
+        "params": {
+          "nets": [
+            "zig_b",
+            "zigzag"
+          ],
+          "orient": true,
+          "skip_rule_applies": false,
+          "touching_count": 2
+        },
+        "stem_tpl": "จากแผ่นคลี่ลูกบาศก์ที่กำหนด หน้าใดอยู่ตรงข้ามกับหน้า {asked}\n\n[[fig1]]",
+        "quality_rules": [
+          "เฉลยต้องมาจากการพับแผ่นคลี่ด้วยโค้ด ไม่ใช่การพับในหัว",
+          "ตัวเลือกลวงต้องเป็นหน้าที่ติดกับหน้าที่ถามบนลูกบาศก์ทุกตัว จึงมีตัวถูกตัวเดียวแน่นอน",
+          "ทุกตัวเลือกลวงต้องมีเหตุผลว่านักเรียนคิดผิดแบบไหนจึงเลือกตัวนั้น"
+        ]
+      },
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.spatial.box_folding.net_opposites.0012",
+      "topic_ids": [
+        "tgat2.spatial.box_folding.net_opposites"
+      ],
+      "primary_topic_id": "tgat2.spatial.box_folding.net_opposites",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 มิติสัมพันธ์ หัวข้อพับกล่อง ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 5,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": true,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 90,
+      "stem_md": "จากแผ่นคลี่ลูกบาศก์ที่กำหนด ข้อใดเป็นคู่หน้าที่อยู่ตรงข้ามกัน\n\n[[fig1]]",
+      "figures": [
+        {
+          "id": "fig1",
+          "type": "svg",
+          "alt": "แผ่นคลี่ลูกบาศก์หกช่อง แถวที่ 1 มีช่อง ก ข / แถวที่ 2 มีช่อง ค ง / แถวที่ 3 มีช่อง จ ฉ",
+          "svg": "<svg viewBox=\"0 0 196 152\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"10\" y=\"10\" width=\"44\" height=\"44\"/><rect x=\"54\" y=\"10\" width=\"44\" height=\"44\"/><rect x=\"54\" y=\"54\" width=\"44\" height=\"44\"/><rect x=\"98\" y=\"54\" width=\"44\" height=\"44\"/><rect x=\"98\" y=\"98\" width=\"44\" height=\"44\"/><rect x=\"142\" y=\"98\" width=\"44\" height=\"44\"/></g><g fill=\"currentColor\" font-size=\"20\" text-anchor=\"middle\" font-family=\"system-ui, sans-serif\"><text x=\"32\" y=\"39\">ก</text><text x=\"76\" y=\"39\">ข</text><text x=\"76\" y=\"83\">ค</text><text x=\"120\" y=\"83\">ง</text><text x=\"120\" y=\"127\">จ</text><text x=\"164\" y=\"127\">ฉ</text></g></svg>",
+          "caption": null
+        }
+      ],
+      "choices": [
+        {
+          "md": "ก กับ ข",
+          "is_answer": false
+        },
+        {
+          "md": "ก กับ ง",
+          "is_answer": true
+        },
+        {
+          "md": "ข กับ ค",
+          "is_answer": false
+        },
+        {
+          "md": "ค กับ ง",
+          "is_answer": false
+        },
+        {
+          "md": "ง กับ จ",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ตัดตัวเลือกที่เป็นคู่แชร์ขอบกันในแผ่นคลี่ออกก่อน",
+          "why_md": "หน้าที่แชร์ขอบกันติดกันแน่นอน ด่านนี้ตัดได้เร็วที่สุด"
+        },
+        {
+          "do_md": "หาคู่ตรงข้ามทั้งสามคู่ของแผ่นคลี่นี้ ได้ ก-ง , ข-จ , ค-ฉ",
+          "why_md": "หาให้ครบทั้งสามคู่แล้วเทียบกับตัวเลือก ปลอดภัยกว่าเดาทีละตัวเลือก"
+        },
+        {
+          "do_md": "ตัวเลือกที่ตรงกับคู่จริงคือ ก กับ ง — ก กับ ง เป็นสองหน้าที่เหลือหลังจับคู่หน้าอื่นครบแล้ว จึงเป็นคู่กัน",
+          "why_md": "ยืนยันด้วยกฎ ไม่ใช่เพราะตัดตัวอื่นหมดแล้ว"
+        }
+      ],
+      "answer_explanation_md": "ตอบ ก กับ ง คู่ตรงข้ามของแผ่นคลี่นี้คือ ก-ง , ข-จ , ค-ฉ",
+      "hints": [
+        "ตัดตัวเลือกที่เป็นคู่แชร์ขอบกันในแผ่นคลี่ออกก่อน",
+        "หาคู่ตรงข้ามให้ครบทั้งสามคู่ แล้วค่อยเทียบกับตัวเลือก",
+        "ถ้ากฎเว้นหนึ่งช่องหาไม่ครบ ให้ใช้กฎที่เหลือจับคู่กันปิดท้าย"
+      ],
+      "distractor_reasons": {
+        "0": "หน้า ข แชร์ขอบกับหน้า ก ในแผ่นคลี่ จึงเป็นหน้าที่ติดกัน ไม่ใช่ตรงข้าม",
+        "2": "หน้า ค แชร์ขอบกับหน้า ข ในแผ่นคลี่ จึงเป็นหน้าที่ติดกัน ไม่ใช่ตรงข้าม",
+        "3": "หน้า ง แชร์ขอบกับหน้า ค ในแผ่นคลี่ จึงเป็นหน้าที่ติดกัน ไม่ใช่ตรงข้าม",
+        "4": "หน้า จ แชร์ขอบกับหน้า ง ในแผ่นคลี่ จึงเป็นหน้าที่ติดกัน ไม่ใช่ตรงข้าม"
+      },
+      "misconception_tags": [
+        "diagonal_skip_misuse",
+        "face_in_two_pairs"
+      ],
+      "template": {
+        "provider": "cube_net.opposite_pair",
+        "answer_kind": "text",
+        "params": {
+          "nets": [
+            "zig_b",
+            "zigzag"
+          ],
+          "orient": true,
+          "skip_rule_applies": false
+        },
+        "stem_tpl": "จากแผ่นคลี่ลูกบาศก์ที่กำหนด ข้อใดเป็นคู่หน้าที่อยู่ตรงข้ามกัน\n\n[[fig1]]",
+        "quality_rules": [
+          "เฉลยต้องมาจากการพับแผ่นคลี่ด้วยโค้ด ไม่ใช่การพับในหัว",
+          "ตัวเลือกลวงต้องเป็นหน้าที่ติดกับหน้าที่ถามบนลูกบาศก์ทุกตัว จึงมีตัวถูกตัวเดียวแน่นอน",
+          "ทุกตัวเลือกลวงต้องมีเหตุผลว่านักเรียนคิดผิดแบบไหนจึงเลือกตัวนั้น"
+        ]
+      },
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    }
+  ]
+}

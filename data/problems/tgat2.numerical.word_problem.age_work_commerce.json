@@ -1,0 +1,1093 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tgat2.numerical.word_problem.age_work_commerce",
+  "problems": [
+    {
+      "id": "prob.tgat2.numerical.word_problem.age_work_commerce.0001",
+      "topic_ids": [
+        "tgat2.numerical.word_problem.age_work_commerce"
+      ],
+      "primary_topic_id": "tgat2.numerical.word_problem.age_work_commerce",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 50,
+      "stem_md": "A ทำงานชิ้นหนึ่งเสร็จใน $6$ วัน B ทำงานเดียวกันเสร็จใน $12$ วัน ถ้าช่วยกันทำจะเสร็จในกี่วัน",
+      "figures": [],
+      "choices": [
+        {
+          "md": "$9$",
+          "is_answer": false
+        },
+        {
+          "md": "$4$",
+          "is_answer": true
+        },
+        {
+          "md": "$6$",
+          "is_answer": false
+        },
+        {
+          "md": "$5$",
+          "is_answer": false
+        },
+        {
+          "md": "$18$",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "อัตรา: A ทำได้ $\\frac{1}{6}$ B ทำได้ $\\frac{1}{12}$ ของงานต่อวัน",
+          "why_md": "แปลงเป็นงานต่อวันก่อน"
+        },
+        {
+          "do_md": "รวมกันได้ $\\frac{1}{6} + \\frac{1}{12} = \\frac{1}{4}$ ของงานต่อวัน",
+          "why_md": "ทำพร้อมกัน อัตราบวกกัน"
+        },
+        {
+          "do_md": "ใช้เวลา $4$ วัน ตรวจ: น้อยกว่า $6$ วันของคนที่เร็วกว่า",
+          "why_md": "ช่วยกันต้องเร็วกว่าคนที่เร็วที่สุด"
+        }
+      ],
+      "answer_explanation_md": "ตอบ $4$ วัน เพราะอัตรารวมคือ $\\frac{1}{4}$ ของงานต่อวัน",
+      "hints": [
+        "ทำพร้อมกันต้องบวกอะไร เวลาหรืออัตรา",
+        "แต่ละคนทำงานได้กี่ส่วนต่อวัน",
+        "บวก $\\frac{1}{6} + \\frac{1}{12}$ แล้วกลับเป็นจำนวนวัน"
+      ],
+      "distractor_reasons": {
+        "0": "เฉลี่ยจำนวนวันของสองคน",
+        "2": "ใช้เวลาของ A คนเดียว",
+        "3": "คำนวณอัตรารวมผิดเล็กน้อย",
+        "4": "บวกจำนวนวัน"
+      },
+      "misconception_tags": [
+        "average_work_days"
+      ],
+      "template": {
+        "vars": [
+          {
+            "name": "pair",
+            "type": "choice",
+            "options": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ]
+          }
+        ],
+        "constraints": [
+          "(a*b//(a + b)) > 0",
+          "((a + b)//2) > 0",
+          "(a + b) > 0",
+          "(a) > 0",
+          "(a*b//(a + b) + 1) > 0",
+          "(a*b//(a + b)) != ((a + b)//2)",
+          "(a*b//(a + b)) != (a + b)",
+          "(a*b//(a + b)) != (a)",
+          "(a*b//(a + b)) != (a*b//(a + b) + 1)",
+          "((a + b)//2) != (a + b)",
+          "((a + b)//2) != (a)",
+          "((a + b)//2) != (a*b//(a + b) + 1)",
+          "(a + b) != (a)",
+          "(a + b) != (a*b//(a + b) + 1)",
+          "(a) != (a*b//(a + b) + 1)",
+          "((a + b)//2) <= 5*(a*b//(a + b))",
+          "(a + b) <= 5*(a*b//(a + b))",
+          "(a) <= 5*(a*b//(a + b))",
+          "(a*b//(a + b) + 1) <= 5*(a*b//(a + b))",
+          "5*((a + b)//2) >= (a*b//(a + b))",
+          "5*(a + b) >= (a*b//(a + b))",
+          "5*(a) >= (a*b//(a + b))",
+          "5*(a*b//(a + b) + 1) >= (a*b//(a + b))",
+          "(a) != (a*b//(a + b))",
+          "(b) != (a*b//(a + b))"
+        ],
+        "display": {
+          "a": "3*(pair == 1) + 4*(pair == 2) + 6*(pair == 3) + 10*(pair == 4) + 12*(pair == 5) + 20*(pair == 6)",
+          "b": "6*(pair == 1) + 12*(pair == 2) + 12*(pair == 3) + 15*(pair == 4) + 24*(pair == 5) + 30*(pair == 6)"
+        },
+        "stem_tpl": "A ทำงานชิ้นหนึ่งเสร็จใน ${a}$ วัน B ทำงานเดียวกันเสร็จใน ${b}$ วัน ถ้าช่วยกันทำจะเสร็จในกี่วัน",
+        "answer_expr": "a*b//(a + b)",
+        "answer_round": null,
+        "answer_unit": null,
+        "distractors": [
+          {
+            "expr": "(a + b)//2",
+            "reason": "เฉลี่ยจำนวนวันของสองคน"
+          },
+          {
+            "expr": "a + b",
+            "reason": "บวกจำนวนวัน"
+          },
+          {
+            "expr": "a",
+            "reason": "ใช้เวลาของ A คนเดียว"
+          },
+          {
+            "expr": "a*b//(a + b) + 1",
+            "reason": "คำนวณอัตรารวมผิดเล็กน้อย"
+          }
+        ],
+        "quality_rules": [
+          "ตัวเลือกทุกตัวต้องเป็นจำนวนบวกและไม่ซ้ำกัน",
+          "คำตอบคำนวณจากนิพจน์ ไม่ได้ใส่มือ"
+        ],
+        "quality_exprs": [
+          "answer > 0"
+        ],
+        "steps_tpl": [
+          {
+            "do_md": "อัตรา: A ทำได้ $\\frac{1}{{a}}$ B ทำได้ $\\frac{1}{{b}}$ ของงานต่อวัน",
+            "why_md": "แปลงเป็นงานต่อวันก่อน"
+          },
+          {
+            "do_md": "รวมกันได้ $\\frac{1}{{a}} + \\frac{1}{{b}} = \\frac{1}{{answer}}$ ของงานต่อวัน",
+            "why_md": "ทำพร้อมกัน อัตราบวกกัน"
+          },
+          {
+            "do_md": "ใช้เวลา ${answer}$ วัน ตรวจ: น้อยกว่า ${a}$ วันของคนที่เร็วกว่า",
+            "why_md": "ช่วยกันต้องเร็วกว่าคนที่เร็วที่สุด"
+          }
+        ],
+        "hints_tpl": [
+          "ทำพร้อมกันต้องบวกอะไร เวลาหรืออัตรา",
+          "แต่ละคนทำงานได้กี่ส่วนต่อวัน",
+          "บวก $\\frac{1}{{a}} + \\frac{1}{{b}}$ แล้วกลับเป็นจำนวนวัน"
+        ],
+        "explanation_tpl": "ตอบ ${answer}$ วัน เพราะอัตรารวมคือ $\\frac{1}{{answer}}$ ของงานต่อวัน"
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.numerical.word_problem.age_work_commerce.0002",
+      "topic_ids": [
+        "tgat2.numerical.word_problem.age_work_commerce"
+      ],
+      "primary_topic_id": "tgat2.numerical.word_problem.age_work_commerce",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 55,
+      "stem_md": "A ทำงานชิ้นหนึ่งเสร็จใน $20$ วัน B ทำงานเดียวกันเสร็จใน $30$ วัน ถ้าช่วยกันทำจะเสร็จในกี่วัน",
+      "figures": [],
+      "choices": [
+        {
+          "md": "$25$",
+          "is_answer": false
+        },
+        {
+          "md": "$20$",
+          "is_answer": false
+        },
+        {
+          "md": "$13$",
+          "is_answer": false
+        },
+        {
+          "md": "$12$",
+          "is_answer": true
+        },
+        {
+          "md": "$50$",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "อัตรา: A ทำได้ $\\frac{1}{20}$ B ทำได้ $\\frac{1}{30}$ ของงานต่อวัน",
+          "why_md": "แปลงเป็นงานต่อวันก่อน"
+        },
+        {
+          "do_md": "รวมกันได้ $\\frac{1}{20} + \\frac{1}{30} = \\frac{1}{12}$ ของงานต่อวัน",
+          "why_md": "ทำพร้อมกัน อัตราบวกกัน"
+        },
+        {
+          "do_md": "ใช้เวลา $12$ วัน ตรวจ: น้อยกว่า $20$ วันของคนที่เร็วกว่า",
+          "why_md": "ช่วยกันต้องเร็วกว่าคนที่เร็วที่สุด"
+        }
+      ],
+      "answer_explanation_md": "ตอบ $12$ วัน เพราะอัตรารวมคือ $\\frac{1}{12}$ ของงานต่อวัน",
+      "hints": [
+        "ทำพร้อมกันต้องบวกอะไร เวลาหรืออัตรา",
+        "แต่ละคนทำงานได้กี่ส่วนต่อวัน",
+        "บวก $\\frac{1}{20} + \\frac{1}{30}$ แล้วกลับเป็นจำนวนวัน"
+      ],
+      "distractor_reasons": {
+        "0": "เฉลี่ยจำนวนวันของสองคน",
+        "1": "ใช้เวลาของ A คนเดียว",
+        "2": "คำนวณอัตรารวมผิดเล็กน้อย",
+        "4": "บวกจำนวนวัน"
+      },
+      "misconception_tags": [
+        "average_work_days"
+      ],
+      "template": {
+        "vars": [
+          {
+            "name": "pair",
+            "type": "choice",
+            "options": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ]
+          }
+        ],
+        "constraints": [
+          "(a*b//(a + b)) > 0",
+          "((a + b)//2) > 0",
+          "(a + b) > 0",
+          "(a) > 0",
+          "(a*b//(a + b) + 1) > 0",
+          "(a*b//(a + b)) != ((a + b)//2)",
+          "(a*b//(a + b)) != (a + b)",
+          "(a*b//(a + b)) != (a)",
+          "(a*b//(a + b)) != (a*b//(a + b) + 1)",
+          "((a + b)//2) != (a + b)",
+          "((a + b)//2) != (a)",
+          "((a + b)//2) != (a*b//(a + b) + 1)",
+          "(a + b) != (a)",
+          "(a + b) != (a*b//(a + b) + 1)",
+          "(a) != (a*b//(a + b) + 1)",
+          "((a + b)//2) <= 5*(a*b//(a + b))",
+          "(a + b) <= 5*(a*b//(a + b))",
+          "(a) <= 5*(a*b//(a + b))",
+          "(a*b//(a + b) + 1) <= 5*(a*b//(a + b))",
+          "5*((a + b)//2) >= (a*b//(a + b))",
+          "5*(a + b) >= (a*b//(a + b))",
+          "5*(a) >= (a*b//(a + b))",
+          "5*(a*b//(a + b) + 1) >= (a*b//(a + b))",
+          "(a) != (a*b//(a + b))",
+          "(b) != (a*b//(a + b))"
+        ],
+        "display": {
+          "a": "3*(pair == 1) + 4*(pair == 2) + 6*(pair == 3) + 10*(pair == 4) + 12*(pair == 5) + 20*(pair == 6)",
+          "b": "6*(pair == 1) + 12*(pair == 2) + 12*(pair == 3) + 15*(pair == 4) + 24*(pair == 5) + 30*(pair == 6)"
+        },
+        "stem_tpl": "A ทำงานชิ้นหนึ่งเสร็จใน ${a}$ วัน B ทำงานเดียวกันเสร็จใน ${b}$ วัน ถ้าช่วยกันทำจะเสร็จในกี่วัน",
+        "answer_expr": "a*b//(a + b)",
+        "answer_round": null,
+        "answer_unit": null,
+        "distractors": [
+          {
+            "expr": "(a + b)//2",
+            "reason": "เฉลี่ยจำนวนวันของสองคน"
+          },
+          {
+            "expr": "a + b",
+            "reason": "บวกจำนวนวัน"
+          },
+          {
+            "expr": "a",
+            "reason": "ใช้เวลาของ A คนเดียว"
+          },
+          {
+            "expr": "a*b//(a + b) + 1",
+            "reason": "คำนวณอัตรารวมผิดเล็กน้อย"
+          }
+        ],
+        "quality_rules": [
+          "ตัวเลือกทุกตัวต้องเป็นจำนวนบวกและไม่ซ้ำกัน",
+          "คำตอบคำนวณจากนิพจน์ ไม่ได้ใส่มือ"
+        ],
+        "quality_exprs": [
+          "answer > 0"
+        ],
+        "steps_tpl": [
+          {
+            "do_md": "อัตรา: A ทำได้ $\\frac{1}{{a}}$ B ทำได้ $\\frac{1}{{b}}$ ของงานต่อวัน",
+            "why_md": "แปลงเป็นงานต่อวันก่อน"
+          },
+          {
+            "do_md": "รวมกันได้ $\\frac{1}{{a}} + \\frac{1}{{b}} = \\frac{1}{{answer}}$ ของงานต่อวัน",
+            "why_md": "ทำพร้อมกัน อัตราบวกกัน"
+          },
+          {
+            "do_md": "ใช้เวลา ${answer}$ วัน ตรวจ: น้อยกว่า ${a}$ วันของคนที่เร็วกว่า",
+            "why_md": "ช่วยกันต้องเร็วกว่าคนที่เร็วที่สุด"
+          }
+        ],
+        "hints_tpl": [
+          "ทำพร้อมกันต้องบวกอะไร เวลาหรืออัตรา",
+          "แต่ละคนทำงานได้กี่ส่วนต่อวัน",
+          "บวก $\\frac{1}{{a}} + \\frac{1}{{b}}$ แล้วกลับเป็นจำนวนวัน"
+        ],
+        "explanation_tpl": "ตอบ ${answer}$ วัน เพราะอัตรารวมคือ $\\frac{1}{{answer}}$ ของงานต่อวัน"
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.numerical.word_problem.age_work_commerce.0003",
+      "topic_ids": [
+        "tgat2.numerical.word_problem.age_work_commerce"
+      ],
+      "primary_topic_id": "tgat2.numerical.word_problem.age_work_commerce",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 55,
+      "stem_md": "A ทำงานชิ้นหนึ่งเสร็จใน $10$ วัน B ทำงานเดียวกันเสร็จใน $15$ วัน ถ้าช่วยกันทำจะเสร็จในกี่วัน",
+      "figures": [],
+      "choices": [
+        {
+          "md": "$6$",
+          "is_answer": true
+        },
+        {
+          "md": "$12$",
+          "is_answer": false
+        },
+        {
+          "md": "$10$",
+          "is_answer": false
+        },
+        {
+          "md": "$7$",
+          "is_answer": false
+        },
+        {
+          "md": "$25$",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "อัตรา: A ทำได้ $\\frac{1}{10}$ B ทำได้ $\\frac{1}{15}$ ของงานต่อวัน",
+          "why_md": "แปลงเป็นงานต่อวันก่อน"
+        },
+        {
+          "do_md": "รวมกันได้ $\\frac{1}{10} + \\frac{1}{15} = \\frac{1}{6}$ ของงานต่อวัน",
+          "why_md": "ทำพร้อมกัน อัตราบวกกัน"
+        },
+        {
+          "do_md": "ใช้เวลา $6$ วัน ตรวจ: น้อยกว่า $10$ วันของคนที่เร็วกว่า",
+          "why_md": "ช่วยกันต้องเร็วกว่าคนที่เร็วที่สุด"
+        }
+      ],
+      "answer_explanation_md": "ตอบ $6$ วัน เพราะอัตรารวมคือ $\\frac{1}{6}$ ของงานต่อวัน",
+      "hints": [
+        "ทำพร้อมกันต้องบวกอะไร เวลาหรืออัตรา",
+        "แต่ละคนทำงานได้กี่ส่วนต่อวัน",
+        "บวก $\\frac{1}{10} + \\frac{1}{15}$ แล้วกลับเป็นจำนวนวัน"
+      ],
+      "distractor_reasons": {
+        "1": "เฉลี่ยจำนวนวันของสองคน",
+        "2": "ใช้เวลาของ A คนเดียว",
+        "3": "คำนวณอัตรารวมผิดเล็กน้อย",
+        "4": "บวกจำนวนวัน"
+      },
+      "misconception_tags": [
+        "average_work_days"
+      ],
+      "template": {
+        "vars": [
+          {
+            "name": "pair",
+            "type": "choice",
+            "options": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ]
+          }
+        ],
+        "constraints": [
+          "(a*b//(a + b)) > 0",
+          "((a + b)//2) > 0",
+          "(a + b) > 0",
+          "(a) > 0",
+          "(a*b//(a + b) + 1) > 0",
+          "(a*b//(a + b)) != ((a + b)//2)",
+          "(a*b//(a + b)) != (a + b)",
+          "(a*b//(a + b)) != (a)",
+          "(a*b//(a + b)) != (a*b//(a + b) + 1)",
+          "((a + b)//2) != (a + b)",
+          "((a + b)//2) != (a)",
+          "((a + b)//2) != (a*b//(a + b) + 1)",
+          "(a + b) != (a)",
+          "(a + b) != (a*b//(a + b) + 1)",
+          "(a) != (a*b//(a + b) + 1)",
+          "((a + b)//2) <= 5*(a*b//(a + b))",
+          "(a + b) <= 5*(a*b//(a + b))",
+          "(a) <= 5*(a*b//(a + b))",
+          "(a*b//(a + b) + 1) <= 5*(a*b//(a + b))",
+          "5*((a + b)//2) >= (a*b//(a + b))",
+          "5*(a + b) >= (a*b//(a + b))",
+          "5*(a) >= (a*b//(a + b))",
+          "5*(a*b//(a + b) + 1) >= (a*b//(a + b))",
+          "(a) != (a*b//(a + b))",
+          "(b) != (a*b//(a + b))"
+        ],
+        "display": {
+          "a": "3*(pair == 1) + 4*(pair == 2) + 6*(pair == 3) + 10*(pair == 4) + 12*(pair == 5) + 20*(pair == 6)",
+          "b": "6*(pair == 1) + 12*(pair == 2) + 12*(pair == 3) + 15*(pair == 4) + 24*(pair == 5) + 30*(pair == 6)"
+        },
+        "stem_tpl": "A ทำงานชิ้นหนึ่งเสร็จใน ${a}$ วัน B ทำงานเดียวกันเสร็จใน ${b}$ วัน ถ้าช่วยกันทำจะเสร็จในกี่วัน",
+        "answer_expr": "a*b//(a + b)",
+        "answer_round": null,
+        "answer_unit": null,
+        "distractors": [
+          {
+            "expr": "(a + b)//2",
+            "reason": "เฉลี่ยจำนวนวันของสองคน"
+          },
+          {
+            "expr": "a + b",
+            "reason": "บวกจำนวนวัน"
+          },
+          {
+            "expr": "a",
+            "reason": "ใช้เวลาของ A คนเดียว"
+          },
+          {
+            "expr": "a*b//(a + b) + 1",
+            "reason": "คำนวณอัตรารวมผิดเล็กน้อย"
+          }
+        ],
+        "quality_rules": [
+          "ตัวเลือกทุกตัวต้องเป็นจำนวนบวกและไม่ซ้ำกัน",
+          "คำตอบคำนวณจากนิพจน์ ไม่ได้ใส่มือ"
+        ],
+        "quality_exprs": [
+          "answer > 0"
+        ],
+        "steps_tpl": [
+          {
+            "do_md": "อัตรา: A ทำได้ $\\frac{1}{{a}}$ B ทำได้ $\\frac{1}{{b}}$ ของงานต่อวัน",
+            "why_md": "แปลงเป็นงานต่อวันก่อน"
+          },
+          {
+            "do_md": "รวมกันได้ $\\frac{1}{{a}} + \\frac{1}{{b}} = \\frac{1}{{answer}}$ ของงานต่อวัน",
+            "why_md": "ทำพร้อมกัน อัตราบวกกัน"
+          },
+          {
+            "do_md": "ใช้เวลา ${answer}$ วัน ตรวจ: น้อยกว่า ${a}$ วันของคนที่เร็วกว่า",
+            "why_md": "ช่วยกันต้องเร็วกว่าคนที่เร็วที่สุด"
+          }
+        ],
+        "hints_tpl": [
+          "ทำพร้อมกันต้องบวกอะไร เวลาหรืออัตรา",
+          "แต่ละคนทำงานได้กี่ส่วนต่อวัน",
+          "บวก $\\frac{1}{{a}} + \\frac{1}{{b}}$ แล้วกลับเป็นจำนวนวัน"
+        ],
+        "explanation_tpl": "ตอบ ${answer}$ วัน เพราะอัตรารวมคือ $\\frac{1}{{answer}}$ ของงานต่อวัน"
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.numerical.word_problem.age_work_commerce.0004",
+      "topic_ids": [
+        "tgat2.numerical.word_problem.age_work_commerce"
+      ],
+      "primary_topic_id": "tgat2.numerical.word_problem.age_work_commerce",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 50,
+      "stem_md": "ปีนี้แม่อายุ $33$ ปี ลูกอายุ $13$ ปี อีกกี่ปีแม่จะมีอายุเป็นสองเท่าของลูก",
+      "figures": [],
+      "choices": [
+        {
+          "md": "$20$",
+          "is_answer": false
+        },
+        {
+          "md": "$10$",
+          "is_answer": false
+        },
+        {
+          "md": "$7$",
+          "is_answer": true
+        },
+        {
+          "md": "$9$",
+          "is_answer": false
+        },
+        {
+          "md": "$8$",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ให้อีก $x$ ปี: $33 + x = 2(13 + x)$",
+          "why_md": "ทั้งสองคนแก่ขึ้นเท่ากัน"
+        },
+        {
+          "do_md": "$33 + x = 26 + 2x$ ได้ $x = 33 - 26 = 7$",
+          "why_md": "แก้สมการ"
+        },
+        {
+          "do_md": "ตรวจ: แม่ $40$ ปี ลูก $20$ ปี เป็นสองเท่าพอดี",
+          "why_md": "แทนกลับ"
+        }
+      ],
+      "answer_explanation_md": "ตอบ $7$ ปี ตรวจได้โดยแทนกลับ ตอนนั้นแม่อายุ $40$ ปี ลูก $20$ ปี",
+      "hints": [
+        "ให้ตัวแปรแทนจำนวนปีที่ผ่านไป",
+        "อีก $x$ ปี แม่อายุ $33 + x$ ลูกอายุ $13 + x$",
+        "ตั้งสมการโดยให้อายุแม่เท่ากับสองเท่าของอายุลูก"
+      ],
+      "distractor_reasons": {
+        "0": "ตอบส่วนต่างอายุ",
+        "1": "หารส่วนต่างอายุด้วยสอง",
+        "3": "คำนวณเกินไปสองปี",
+        "4": "คำนวณเกินไปหนึ่งปี"
+      },
+      "misconception_tags": [],
+      "template": {
+        "vars": [
+          {
+            "name": "C",
+            "type": "int",
+            "range": [
+              5,
+              15
+            ],
+            "step": 1
+          },
+          {
+            "name": "n",
+            "type": "int",
+            "range": [
+              3,
+              12
+            ],
+            "step": 1
+          }
+        ],
+        "constraints": [
+          "(n) > 0",
+          "(M - C) > 0",
+          "((M - C)//2) > 0",
+          "(n + 1) > 0",
+          "(n + 2) > 0",
+          "(n) != (M - C)",
+          "(n) != ((M - C)//2)",
+          "(n) != (n + 1)",
+          "(n) != (n + 2)",
+          "(M - C) != ((M - C)//2)",
+          "(M - C) != (n + 1)",
+          "(M - C) != (n + 2)",
+          "((M - C)//2) != (n + 1)",
+          "((M - C)//2) != (n + 2)",
+          "(n + 1) != (n + 2)",
+          "(M - C) <= 5*(n)",
+          "((M - C)//2) <= 5*(n)",
+          "(n + 1) <= 5*(n)",
+          "(n + 2) <= 5*(n)",
+          "5*(M - C) >= (n)",
+          "5*((M - C)//2) >= (n)",
+          "5*(n + 1) >= (n)",
+          "5*(n + 2) >= (n)",
+          "(C) != (n)",
+          "(M) != (n)"
+        ],
+        "display": {
+          "M": "2*C + n",
+          "C2": "2*C",
+          "Mn": "2*C + 2*n",
+          "Cn": "C + n"
+        },
+        "stem_tpl": "ปีนี้แม่อายุ ${M}$ ปี ลูกอายุ ${C}$ ปี อีกกี่ปีแม่จะมีอายุเป็นสองเท่าของลูก",
+        "answer_expr": "n",
+        "answer_round": null,
+        "answer_unit": null,
+        "distractors": [
+          {
+            "expr": "M - C",
+            "reason": "ตอบส่วนต่างอายุ"
+          },
+          {
+            "expr": "(M - C)//2",
+            "reason": "หารส่วนต่างอายุด้วยสอง"
+          },
+          {
+            "expr": "n + 1",
+            "reason": "คำนวณเกินไปหนึ่งปี"
+          },
+          {
+            "expr": "n + 2",
+            "reason": "คำนวณเกินไปสองปี"
+          }
+        ],
+        "quality_rules": [
+          "ตัวเลือกทุกตัวต้องเป็นจำนวนบวกและไม่ซ้ำกัน",
+          "คำตอบคำนวณจากนิพจน์ ไม่ได้ใส่มือ"
+        ],
+        "quality_exprs": [
+          "answer > 0"
+        ],
+        "steps_tpl": [
+          {
+            "do_md": "ให้อีก $x$ ปี: ${M} + x = 2({C} + x)$",
+            "why_md": "ทั้งสองคนแก่ขึ้นเท่ากัน"
+          },
+          {
+            "do_md": "${M} + x = {C2} + 2x$ ได้ $x = {M} - {C2} = {answer}$",
+            "why_md": "แก้สมการ"
+          },
+          {
+            "do_md": "ตรวจ: แม่ ${Mn}$ ปี ลูก ${Cn}$ ปี เป็นสองเท่าพอดี",
+            "why_md": "แทนกลับ"
+          }
+        ],
+        "hints_tpl": [
+          "ให้ตัวแปรแทนจำนวนปีที่ผ่านไป",
+          "อีก $x$ ปี แม่อายุ ${M} + x$ ลูกอายุ ${C} + x$",
+          "ตั้งสมการโดยให้อายุแม่เท่ากับสองเท่าของอายุลูก"
+        ],
+        "explanation_tpl": "ตอบ ${answer}$ ปี ตรวจได้โดยแทนกลับ ตอนนั้นแม่อายุ ${Mn}$ ปี ลูก ${Cn}$ ปี"
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.numerical.word_problem.age_work_commerce.0005",
+      "topic_ids": [
+        "tgat2.numerical.word_problem.age_work_commerce"
+      ],
+      "primary_topic_id": "tgat2.numerical.word_problem.age_work_commerce",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 55,
+      "stem_md": "ปีนี้แม่อายุ $22$ ปี ลูกอายุ $5$ ปี อีกกี่ปีแม่จะมีอายุเป็นสองเท่าของลูก",
+      "figures": [],
+      "choices": [
+        {
+          "md": "$12$",
+          "is_answer": true
+        },
+        {
+          "md": "$17$",
+          "is_answer": false
+        },
+        {
+          "md": "$8$",
+          "is_answer": false
+        },
+        {
+          "md": "$13$",
+          "is_answer": false
+        },
+        {
+          "md": "$14$",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ให้อีก $x$ ปี: $22 + x = 2(5 + x)$",
+          "why_md": "ทั้งสองคนแก่ขึ้นเท่ากัน"
+        },
+        {
+          "do_md": "$22 + x = 10 + 2x$ ได้ $x = 22 - 10 = 12$",
+          "why_md": "แก้สมการ"
+        },
+        {
+          "do_md": "ตรวจ: แม่ $34$ ปี ลูก $17$ ปี เป็นสองเท่าพอดี",
+          "why_md": "แทนกลับ"
+        }
+      ],
+      "answer_explanation_md": "ตอบ $12$ ปี ตรวจได้โดยแทนกลับ ตอนนั้นแม่อายุ $34$ ปี ลูก $17$ ปี",
+      "hints": [
+        "ให้ตัวแปรแทนจำนวนปีที่ผ่านไป",
+        "อีก $x$ ปี แม่อายุ $22 + x$ ลูกอายุ $5 + x$",
+        "ตั้งสมการโดยให้อายุแม่เท่ากับสองเท่าของอายุลูก"
+      ],
+      "distractor_reasons": {
+        "1": "ตอบส่วนต่างอายุ",
+        "2": "หารส่วนต่างอายุด้วยสอง",
+        "3": "คำนวณเกินไปหนึ่งปี",
+        "4": "คำนวณเกินไปสองปี"
+      },
+      "misconception_tags": [],
+      "template": {
+        "vars": [
+          {
+            "name": "C",
+            "type": "int",
+            "range": [
+              5,
+              15
+            ],
+            "step": 1
+          },
+          {
+            "name": "n",
+            "type": "int",
+            "range": [
+              3,
+              12
+            ],
+            "step": 1
+          }
+        ],
+        "constraints": [
+          "(n) > 0",
+          "(M - C) > 0",
+          "((M - C)//2) > 0",
+          "(n + 1) > 0",
+          "(n + 2) > 0",
+          "(n) != (M - C)",
+          "(n) != ((M - C)//2)",
+          "(n) != (n + 1)",
+          "(n) != (n + 2)",
+          "(M - C) != ((M - C)//2)",
+          "(M - C) != (n + 1)",
+          "(M - C) != (n + 2)",
+          "((M - C)//2) != (n + 1)",
+          "((M - C)//2) != (n + 2)",
+          "(n + 1) != (n + 2)",
+          "(M - C) <= 5*(n)",
+          "((M - C)//2) <= 5*(n)",
+          "(n + 1) <= 5*(n)",
+          "(n + 2) <= 5*(n)",
+          "5*(M - C) >= (n)",
+          "5*((M - C)//2) >= (n)",
+          "5*(n + 1) >= (n)",
+          "5*(n + 2) >= (n)",
+          "(C) != (n)",
+          "(M) != (n)"
+        ],
+        "display": {
+          "M": "2*C + n",
+          "C2": "2*C",
+          "Mn": "2*C + 2*n",
+          "Cn": "C + n"
+        },
+        "stem_tpl": "ปีนี้แม่อายุ ${M}$ ปี ลูกอายุ ${C}$ ปี อีกกี่ปีแม่จะมีอายุเป็นสองเท่าของลูก",
+        "answer_expr": "n",
+        "answer_round": null,
+        "answer_unit": null,
+        "distractors": [
+          {
+            "expr": "M - C",
+            "reason": "ตอบส่วนต่างอายุ"
+          },
+          {
+            "expr": "(M - C)//2",
+            "reason": "หารส่วนต่างอายุด้วยสอง"
+          },
+          {
+            "expr": "n + 1",
+            "reason": "คำนวณเกินไปหนึ่งปี"
+          },
+          {
+            "expr": "n + 2",
+            "reason": "คำนวณเกินไปสองปี"
+          }
+        ],
+        "quality_rules": [
+          "ตัวเลือกทุกตัวต้องเป็นจำนวนบวกและไม่ซ้ำกัน",
+          "คำตอบคำนวณจากนิพจน์ ไม่ได้ใส่มือ"
+        ],
+        "quality_exprs": [
+          "answer > 0"
+        ],
+        "steps_tpl": [
+          {
+            "do_md": "ให้อีก $x$ ปี: ${M} + x = 2({C} + x)$",
+            "why_md": "ทั้งสองคนแก่ขึ้นเท่ากัน"
+          },
+          {
+            "do_md": "${M} + x = {C2} + 2x$ ได้ $x = {M} - {C2} = {answer}$",
+            "why_md": "แก้สมการ"
+          },
+          {
+            "do_md": "ตรวจ: แม่ ${Mn}$ ปี ลูก ${Cn}$ ปี เป็นสองเท่าพอดี",
+            "why_md": "แทนกลับ"
+          }
+        ],
+        "hints_tpl": [
+          "ให้ตัวแปรแทนจำนวนปีที่ผ่านไป",
+          "อีก $x$ ปี แม่อายุ ${M} + x$ ลูกอายุ ${C} + x$",
+          "ตั้งสมการโดยให้อายุแม่เท่ากับสองเท่าของอายุลูก"
+        ],
+        "explanation_tpl": "ตอบ ${answer}$ ปี ตรวจได้โดยแทนกลับ ตอนนั้นแม่อายุ ${Mn}$ ปี ลูก ${Cn}$ ปี"
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.numerical.word_problem.age_work_commerce.0006",
+      "topic_ids": [
+        "tgat2.numerical.word_problem.age_work_commerce"
+      ],
+      "primary_topic_id": "tgat2.numerical.word_problem.age_work_commerce",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 4,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 2,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 60,
+      "stem_md": "ปีนี้แม่อายุ $25$ ปี ลูกอายุ $7$ ปี อีกกี่ปีแม่จะมีอายุเป็นสองเท่าของลูก",
+      "figures": [],
+      "choices": [
+        {
+          "md": "$18$",
+          "is_answer": false
+        },
+        {
+          "md": "$13$",
+          "is_answer": false
+        },
+        {
+          "md": "$12$",
+          "is_answer": false
+        },
+        {
+          "md": "$9$",
+          "is_answer": false
+        },
+        {
+          "md": "$11$",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ให้อีก $x$ ปี: $25 + x = 2(7 + x)$",
+          "why_md": "ทั้งสองคนแก่ขึ้นเท่ากัน"
+        },
+        {
+          "do_md": "$25 + x = 14 + 2x$ ได้ $x = 25 - 14 = 11$",
+          "why_md": "แก้สมการ"
+        },
+        {
+          "do_md": "ตรวจ: แม่ $36$ ปี ลูก $18$ ปี เป็นสองเท่าพอดี",
+          "why_md": "แทนกลับ"
+        }
+      ],
+      "answer_explanation_md": "ตอบ $11$ ปี ตรวจได้โดยแทนกลับ ตอนนั้นแม่อายุ $36$ ปี ลูก $18$ ปี",
+      "hints": [
+        "ให้ตัวแปรแทนจำนวนปีที่ผ่านไป",
+        "อีก $x$ ปี แม่อายุ $25 + x$ ลูกอายุ $7 + x$",
+        "ตั้งสมการโดยให้อายุแม่เท่ากับสองเท่าของอายุลูก"
+      ],
+      "distractor_reasons": {
+        "0": "ตอบส่วนต่างอายุ",
+        "1": "คำนวณเกินไปสองปี",
+        "2": "คำนวณเกินไปหนึ่งปี",
+        "3": "หารส่วนต่างอายุด้วยสอง"
+      },
+      "misconception_tags": [],
+      "template": {
+        "vars": [
+          {
+            "name": "C",
+            "type": "int",
+            "range": [
+              5,
+              15
+            ],
+            "step": 1
+          },
+          {
+            "name": "n",
+            "type": "int",
+            "range": [
+              3,
+              12
+            ],
+            "step": 1
+          }
+        ],
+        "constraints": [
+          "(n) > 0",
+          "(M - C) > 0",
+          "((M - C)//2) > 0",
+          "(n + 1) > 0",
+          "(n + 2) > 0",
+          "(n) != (M - C)",
+          "(n) != ((M - C)//2)",
+          "(n) != (n + 1)",
+          "(n) != (n + 2)",
+          "(M - C) != ((M - C)//2)",
+          "(M - C) != (n + 1)",
+          "(M - C) != (n + 2)",
+          "((M - C)//2) != (n + 1)",
+          "((M - C)//2) != (n + 2)",
+          "(n + 1) != (n + 2)",
+          "(M - C) <= 5*(n)",
+          "((M - C)//2) <= 5*(n)",
+          "(n + 1) <= 5*(n)",
+          "(n + 2) <= 5*(n)",
+          "5*(M - C) >= (n)",
+          "5*((M - C)//2) >= (n)",
+          "5*(n + 1) >= (n)",
+          "5*(n + 2) >= (n)",
+          "(C) != (n)",
+          "(M) != (n)"
+        ],
+        "display": {
+          "M": "2*C + n",
+          "C2": "2*C",
+          "Mn": "2*C + 2*n",
+          "Cn": "C + n"
+        },
+        "stem_tpl": "ปีนี้แม่อายุ ${M}$ ปี ลูกอายุ ${C}$ ปี อีกกี่ปีแม่จะมีอายุเป็นสองเท่าของลูก",
+        "answer_expr": "n",
+        "answer_round": null,
+        "answer_unit": null,
+        "distractors": [
+          {
+            "expr": "M - C",
+            "reason": "ตอบส่วนต่างอายุ"
+          },
+          {
+            "expr": "(M - C)//2",
+            "reason": "หารส่วนต่างอายุด้วยสอง"
+          },
+          {
+            "expr": "n + 1",
+            "reason": "คำนวณเกินไปหนึ่งปี"
+          },
+          {
+            "expr": "n + 2",
+            "reason": "คำนวณเกินไปสองปี"
+          }
+        ],
+        "quality_rules": [
+          "ตัวเลือกทุกตัวต้องเป็นจำนวนบวกและไม่ซ้ำกัน",
+          "คำตอบคำนวณจากนิพจน์ ไม่ได้ใส่มือ"
+        ],
+        "quality_exprs": [
+          "answer > 0"
+        ],
+        "steps_tpl": [
+          {
+            "do_md": "ให้อีก $x$ ปี: ${M} + x = 2({C} + x)$",
+            "why_md": "ทั้งสองคนแก่ขึ้นเท่ากัน"
+          },
+          {
+            "do_md": "${M} + x = {C2} + 2x$ ได้ $x = {M} - {C2} = {answer}$",
+            "why_md": "แก้สมการ"
+          },
+          {
+            "do_md": "ตรวจ: แม่ ${Mn}$ ปี ลูก ${Cn}$ ปี เป็นสองเท่าพอดี",
+            "why_md": "แทนกลับ"
+          }
+        ],
+        "hints_tpl": [
+          "ให้ตัวแปรแทนจำนวนปีที่ผ่านไป",
+          "อีก $x$ ปี แม่อายุ ${M} + x$ ลูกอายุ ${C} + x$",
+          "ตั้งสมการโดยให้อายุแม่เท่ากับสองเท่าของอายุลูก"
+        ],
+        "explanation_tpl": "ตอบ ${answer}$ ปี ตรวจได้โดยแทนกลับ ตอนนั้นแม่อายุ ${Mn}$ ปี ลูก ${Cn}$ ปี"
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    }
+  ],
+  "generated_from": "content/tgat2/numerical_word.py"
+}

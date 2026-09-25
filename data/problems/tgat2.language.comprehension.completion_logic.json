@@ -1,0 +1,477 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tgat2.language.comprehension.completion_logic",
+  "problems": [
+    {
+      "id": "prob.tgat2.language.comprehension.completion_logic.0001",
+      "topic_ids": [
+        "tgat2.language.comprehension.completion_logic"
+      ],
+      "primary_topic_id": "tgat2.language.comprehension.completion_logic",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 40,
+      "stem_md": "\"ร้านกาแฟเล็ก ๆ แห่งนี้ไม่มีป้ายหน้าร้านและไม่ได้โฆษณาใด ๆ ทั้งที่ ___\" ข้อความใดเหมาะสมที่สุด",
+      "figures": [],
+      "choices": [
+        {
+          "md": "มีลูกค้าน้อยมากในแต่ละวัน",
+          "is_answer": false
+        },
+        {
+          "md": "ร้านตั้งอยู่ในซอยเล็กที่คนไม่ค่อยรู้จักและหาทางเข้าได้ยาก",
+          "is_answer": false
+        },
+        {
+          "md": "ค่าเช่าร้านในย่านนี้แพงมาก",
+          "is_answer": false
+        },
+        {
+          "md": "มีลูกค้าต่อคิวทุกวัน",
+          "is_answer": true
+        },
+        {
+          "md": "เจ้าของร้านไม่อยากลงทุนเพิ่ม",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ทั้งที่ เป็นสัญญาณสวนทาง",
+          "why_md": "ทิศทาง"
+        },
+        {
+          "do_md": "ไม่มีป้ายไม่โฆษณา คาดว่าคนน้อย จึงต้องเติมสิ่งตรงข้าม คนมาก",
+          "why_md": "คาดคำตอบ"
+        }
+      ],
+      "answer_explanation_md": "ตอบ มีลูกค้าต่อคิวทุกวัน เพราะ ทั้งที่ ต้องตามด้วยสิ่งที่ขัดกับความคาดหมาย",
+      "hints": [
+        "ทั้งที่ บอกความสัมพันธ์แบบใด",
+        "ไม่มีป้ายและไม่โฆษณา ปกติจะมีลูกค้ามากหรือน้อย",
+        "ช่องว่างต้องสวนทางกับสิ่งที่คาด"
+      ],
+      "distractor_reasons": {
+        "0": "ไปทางเดียวกับข้อความแรก ไม่ขัดแย้ง",
+        "1": "ไปทางเดียวกับข้อความแรก",
+        "2": "ไม่เกี่ยวกับความขัดแย้ง",
+        "4": "เป็นเหตุผล ไม่ใช่สิ่งที่ขัดแย้ง"
+      },
+      "misconception_tags": [
+        "ignore_signal_word"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.language.comprehension.completion_logic.0002",
+      "topic_ids": [
+        "tgat2.language.comprehension.completion_logic"
+      ],
+      "primary_topic_id": "tgat2.language.comprehension.completion_logic",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 30,
+      "stem_md": "\"ยิ่งเราใช้โทรศัพท์ก่อนนอนนานเท่าไร ___\" ข้อความใดเหมาะสมที่สุด",
+      "figures": [],
+      "choices": [
+        {
+          "md": "โทรศัพท์ก็จะใช้แบตเตอรี่มากขึ้นทุกครั้งที่เปิด",
+          "is_answer": false
+        },
+        {
+          "md": "จึงควรปิดเสียงแจ้งเตือนก่อนนอนทุกคืน",
+          "is_answer": false
+        },
+        {
+          "md": "ยิ่งหลับยากขึ้นเท่านั้น",
+          "is_answer": true
+        },
+        {
+          "md": "ยิ่งหลับได้เร็วขึ้นเท่านั้น",
+          "is_answer": false
+        },
+        {
+          "md": "ก็ยังหลับได้ตามปกติ",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ยิ่ง...ยิ่ง... ต้องมีสองส่วนที่เปลี่ยนตามกัน",
+          "why_md": "รูปแบบ"
+        },
+        {
+          "do_md": "ใช้โทรศัพท์นาน สัมพันธ์กับหลับยาก",
+          "why_md": "เนื้อหาสมเหตุสมผล"
+        }
+      ],
+      "answer_explanation_md": "ตอบ ยิ่งหลับยากขึ้นเท่านั้น เพราะตรงรูปแบบ ยิ่ง...ยิ่ง และสอดคล้องกับเนื้อหา",
+      "hints": [
+        "ขึ้นต้นด้วย ยิ่ง ส่วนหลังควรขึ้นต้นด้วยอะไร",
+        "ใช้โทรศัพท์ก่อนนอนนาน ส่งผลต่อการนอนอย่างไร",
+        "ตัดข้อที่ไม่ตรงรูปแบบก่อน"
+      ],
+      "distractor_reasons": {
+        "0": "ไม่ตรงรูปแบบ ยิ่ง...ยิ่ง",
+        "1": "ไม่ใช่ข้อความที่คู่กับ ยิ่ง",
+        "3": "ทิศทางถูกรูปแบบแต่เนื้อหาขัดกับความรู้ทั่วไปเรื่องแสงหน้าจอ",
+        "4": "ไม่ตรงรูปแบบ ยิ่ง...ยิ่ง"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.language.comprehension.completion_logic.0003",
+      "topic_ids": [
+        "tgat2.language.comprehension.completion_logic"
+      ],
+      "primary_topic_id": "tgat2.language.comprehension.completion_logic",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 40,
+      "stem_md": "\"นักวิทยาศาสตร์เตือนว่าอุณหภูมิน้ำทะเลที่สูงขึ้นทำให้ปะการังฟอกขาว ___ ปลาหลายชนิดที่อาศัยปะการังเป็นที่หลบภัยก็ลดจำนวนลงด้วย\" คำใดเหมาะสมที่สุด",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ส่งผลให้",
+          "is_answer": true
+        },
+        {
+          "md": "กล่าวอีกนัยหนึ่ง",
+          "is_answer": false
+        },
+        {
+          "md": "เว้นเสียแต่ว่า",
+          "is_answer": false
+        },
+        {
+          "md": "ในทางกลับกัน",
+          "is_answer": false
+        },
+        {
+          "md": "ถึงแม้ว่า",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ปะการังฟอกขาว → ปลาไม่มีที่หลบภัย → ปลาลดลง",
+          "why_md": "เหตุ-ผล"
+        },
+        {
+          "do_md": "ใช้คำเชื่อมนำหน้าผล",
+          "why_md": "ส่งผลให้"
+        }
+      ],
+      "answer_explanation_md": "ตอบ ส่งผลให้ เพราะการที่ปะการังฟอกขาวเป็นเหตุให้ปลาลดลง",
+      "hints": [
+        "ปะการังฟอกขาวกับปลาลดลง เกี่ยวข้องกันอย่างไร",
+        "ข้อความหลังเป็นผลหรือขัดแย้ง",
+        "คำใดนำหน้าผล"
+      ],
+      "distractor_reasons": {
+        "1": "ข้อความหลังไม่ใช่การพูดซ้ำความหมายเดิม",
+        "2": "ไม่ใช่ข้อยกเว้น",
+        "3": "ข้อความหลังไม่ได้สวนทาง",
+        "4": "ไม่ใช่การยอมรับแล้วค้าน"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.language.comprehension.completion_logic.0004",
+      "topic_ids": [
+        "tgat2.language.comprehension.completion_logic"
+      ],
+      "primary_topic_id": "tgat2.language.comprehension.completion_logic",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 45,
+      "stem_md": "\"แม้แผนที่ในโทรศัพท์จะบอกว่าใช้เวลาเดินทางเพียง 20 นาที แต่เขากลับออกจากบ้านก่อนนัดหนึ่งชั่วโมง เพราะ ___\" ข้อความใดเหมาะสมที่สุด",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ถนนสายนั้นมักติดหนักช่วงเย็น",
+          "is_answer": true
+        },
+        {
+          "md": "เพื่อนของเขามักมาช้ากว่าเวลานัดทุกครั้ง",
+          "is_answer": false
+        },
+        {
+          "md": "เขาชอบไปถึงที่นัดสายเสมอ",
+          "is_answer": false
+        },
+        {
+          "md": "แผนที่ในโทรศัพท์แม่นยำเสมอ",
+          "is_answer": false
+        },
+        {
+          "md": "ระยะทางใกล้มากจนเดินไปได้ภายในไม่กี่นาที",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ช่องว่างต้องเป็นเหตุที่ทำให้ออกเร็วเกินปกติ",
+          "why_md": "เพราะ นำหน้าเหตุ"
+        },
+        {
+          "do_md": "รถติดหนัก ทำให้ต้องเผื่อเวลา",
+          "why_md": "สมเหตุสมผล"
+        }
+      ],
+      "answer_explanation_md": "ตอบ ถนนสายนั้นมักติดหนักช่วงเย็น เพราะเป็นเหตุที่อธิบายได้ว่าทำไมต้องเผื่อเวลามาก",
+      "hints": [
+        "เพราะ ต้องตามด้วยอะไร",
+        "ทำไมคนจึงออกจากบ้านเร็วกว่าที่แผนที่บอกมาก",
+        "ตัดข้อที่ทำให้ไม่ต้องออกเร็ว"
+      ],
+      "distractor_reasons": {
+        "1": "ถ้าเพื่อนมาช้า ยิ่งไม่ต้องออกเร็ว",
+        "2": "ขัดกับการออกเร็ว",
+        "3": "ถ้าแม่นยำ ไม่ต้องเผื่อเวลามาก",
+        "4": "ขัดกับการเผื่อเวลามาก"
+      },
+      "misconception_tags": [
+        "ignore_signal_word"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.language.comprehension.completion_logic.0005",
+      "topic_ids": [
+        "tgat2.language.comprehension.completion_logic"
+      ],
+      "primary_topic_id": "tgat2.language.comprehension.completion_logic",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 30,
+      "stem_md": "\"โครงการนี้ได้รับงบประมาณมากกว่าปีก่อนเกือบเท่าตัว ___ ผลงานที่ออกมากลับน้อยกว่าเดิม\" คำใดเหมาะสมที่สุด",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ดังนั้น",
+          "is_answer": false
+        },
+        {
+          "md": "อีกทั้ง",
+          "is_answer": false
+        },
+        {
+          "md": "เพราะฉะนั้น",
+          "is_answer": false
+        },
+        {
+          "md": "กล่าวคือ",
+          "is_answer": false
+        },
+        {
+          "md": "ทว่า",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "งบมากขึ้น ควรได้ผลงานมากขึ้น",
+          "why_md": "สิ่งที่คาด"
+        },
+        {
+          "do_md": "ผลงานกลับน้อยลง เป็นการสวนทาง",
+          "why_md": "ใช้ ทว่า"
+        }
+      ],
+      "answer_explanation_md": "ตอบ ทว่า เพราะผลงานน้อยลงขัดกับสิ่งที่คาดจากงบที่เพิ่มขึ้น",
+      "hints": [
+        "งบประมาณเพิ่มขึ้น ปกติผลงานควรเป็นอย่างไร",
+        "ผลที่เกิดจริงตรงหรือสวนกับที่คาด",
+        "สังเกตคำว่า กลับ ในประโยค"
+      ],
+      "distractor_reasons": {
+        "0": "ผลงานน้อยลงไม่ใช่ผลที่คาดได้จากงบมากขึ้น",
+        "1": "ไม่ใช่การเพิ่มข้อมูลไปทางเดียวกัน",
+        "2": "ไม่ใช่ความสัมพันธ์เหตุผล",
+        "3": "ไม่ใช่การขยายความ"
+      },
+      "misconception_tags": [
+        "ignore_signal_word"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.language.comprehension.completion_logic.0006",
+      "topic_ids": [
+        "tgat2.language.comprehension.completion_logic"
+      ],
+      "primary_topic_id": "tgat2.language.comprehension.completion_logic",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 40,
+      "stem_md": "\"ทีมนักวิจัยเก็บข้อมูลมานานถึงห้าปี แต่เมื่อนำมาวิเคราะห์กลับ ___\" ข้อความใดเหมาะสมที่สุด",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ใช้เวลาเก็บข้อมูลนานถึงห้าปี",
+          "is_answer": false
+        },
+        {
+          "md": "พบว่าข้อมูลบางส่วนใช้ไม่ได้",
+          "is_answer": true
+        },
+        {
+          "md": "ทีมวิจัยมีสมาชิกทั้งหมดสิบคน",
+          "is_answer": false
+        },
+        {
+          "md": "ได้ผลตรงตามที่คาดไว้ทุกประการ",
+          "is_answer": false
+        },
+        {
+          "md": "ตีพิมพ์ผลงานได้อย่างราบรื่น",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "คำว่า แต่ และ กลับ เป็นสัญญาณสวนทาง",
+          "why_md": "ทิศทาง"
+        },
+        {
+          "do_md": "เก็บข้อมูลนานควรได้ผลดี จึงต้องเติมสิ่งที่ตรงข้าม",
+          "why_md": "คาดคำตอบ"
+        }
+      ],
+      "answer_explanation_md": "ตอบ พบว่าข้อมูลบางส่วนใช้ไม่ได้ เพราะ แต่...กลับ ต้องตามด้วยผลที่ขัดกับความคาดหมาย",
+      "hints": [
+        "หาคำสัญญาณในประโยค",
+        "เก็บข้อมูลนานห้าปี ปกติควรได้ผลอย่างไร",
+        "ช่องว่างต้องสวนทางกับสิ่งที่คาด"
+      ],
+      "distractor_reasons": {
+        "0": "พูดซ้ำข้อความแรก",
+        "2": "ไม่เกี่ยวกับทิศทางของประโยค",
+        "3": "ขัดกับคำว่า แต่ และ กลับ ซึ่งเป็นสัญญาณสวนทาง",
+        "4": "ไปทางเดียวกับข้อความแรก ไม่ขัดแย้ง"
+      },
+      "misconception_tags": [
+        "ignore_signal_word"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    }
+  ],
+  "generated_from": "content/tgat2/language_core.py"
+}

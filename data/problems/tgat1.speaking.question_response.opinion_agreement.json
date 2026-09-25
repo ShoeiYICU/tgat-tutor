@@ -1,0 +1,603 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tgat1.speaking.question_response.opinion_agreement",
+  "problems": [
+    {
+      "id": "prob.tgat1.speaking.question_response.opinion_agreement.0001",
+      "topic_ids": [
+        "tgat1.speaking.question_response.opinion_agreement"
+      ],
+      "primary_topic_id": "tgat1.speaking.question_response.opinion_agreement",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 30,
+      "stem_md": "**A:** I really enjoyed the concert last night.  \n**B:** ______ The band was amazing.",
+      "figures": [],
+      "choices": [
+        {
+          "md": "I did too not.",
+          "is_answer": false
+        },
+        {
+          "md": "So do I.",
+          "is_answer": false
+        },
+        {
+          "md": "So did I.",
+          "is_answer": true
+        },
+        {
+          "md": "Neither did I.",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ประโยคของ A บอกเล่า และเป็นอดีต",
+          "why_md": "enjoyed → กริยาช่วย did"
+        },
+        {
+          "do_md": "เห็นด้วยกับประโยคบอกเล่า",
+          "why_md": "So did I."
+        }
+      ],
+      "answer_explanation_md": "ตอบ So did I. เพราะเห็นด้วยกับประโยคบอกเล่าในอดีต ต้องใช้ so และกริยาช่วย did",
+      "hints": [
+        "ประโยคของ A บอกเล่าหรือปฏิเสธ",
+        "กริยาของ A เป็นกาลอะไร ต้องใช้กริยาช่วยตัวไหน",
+        "เห็นด้วยกับประโยคบอกเล่าใช้ so หรือ neither"
+      ],
+      "distractor_reasons": {
+        "0": "ไวยากรณ์ผิด",
+        "1": "ใช้กริยาช่วยผิดกาล A พูดอดีต (enjoyed) ต้องใช้ did",
+        "3": "ใช้กับประโยคปฏิเสธ แต่ A พูดประโยคบอกเล่า"
+      },
+      "misconception_tags": [
+        "too_neither_confusion"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.question_response.opinion_agreement.0002",
+      "topic_ids": [
+        "tgat1.speaking.question_response.opinion_agreement"
+      ],
+      "primary_topic_id": "tgat1.speaking.question_response.opinion_agreement",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 30,
+      "stem_md": "**A:** I don't think the test was very difficult.  \n**B:** ______ I finished early.",
+      "figures": [],
+      "choices": [
+        {
+          "md": "I do too.",
+          "is_answer": false
+        },
+        {
+          "md": "Me too. It was quite easy.",
+          "is_answer": false
+        },
+        {
+          "md": "So do I.",
+          "is_answer": false
+        },
+        {
+          "md": "Neither do I.",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ประโยคของ A ปฏิเสธ (don't think)",
+          "why_md": "เห็นด้วยต้องใช้ either/neither"
+        },
+        {
+          "do_md": "ข้อความต่อท้าย I finished early. ยืนยันว่าเห็นด้วยว่าไม่ยาก",
+          "why_md": "Neither do I. เป็นรูปตอบรับที่เป็นธรรมชาติ"
+        }
+      ],
+      "answer_explanation_md": "ตอบ Neither do I. เพราะ A พูดประโยคปฏิเสธ การเห็นด้วยจึงใช้ neither และสอดคล้องกับ I finished early",
+      "hints": [
+        "ประโยคของ A มีคำปฏิเสธไหม",
+        "รูปตอบรับประโยคปฏิเสธสามารถขึ้นต้นด้วย neither ได้",
+        "ประโยค I finished early บอกว่า B คิดว่าข้อสอบยากหรือง่าย"
+      ],
+      "distractor_reasons": {
+        "0": "ใช้กับประโยคบอกเล่า แต่ A พูดประโยคปฏิเสธ",
+        "1": "ใช้กับประโยคบอกเล่า แต่ A พูดประโยคปฏิเสธ",
+        "2": "ใช้กับประโยคบอกเล่า ความหมายจะกลับเป็นคิดว่ายาก ขัดกับ I finished early"
+      },
+      "misconception_tags": [
+        "too_neither_confusion"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.question_response.opinion_agreement.0003",
+      "topic_ids": [
+        "tgat1.speaking.question_response.opinion_agreement"
+      ],
+      "primary_topic_id": "tgat1.speaking.question_response.opinion_agreement",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 35,
+      "stem_md": "**A:** What do you think of the new school uniform?  \n**B:** ______",
+      "figures": [],
+      "choices": [
+        {
+          "md": "Yes, I do.",
+          "is_answer": false
+        },
+        {
+          "md": "I think of it every day when I get dressed for school.",
+          "is_answer": false
+        },
+        {
+          "md": "Me too. I think so.",
+          "is_answer": false
+        },
+        {
+          "md": "I like the color, but it's too thick.",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ระบุ: What do you think of...? = ถามความเห็น",
+          "why_md": "ต้องตอบด้วยความเห็นของ B"
+        },
+        {
+          "do_md": "คำตอบที่ให้ความเห็นจริง",
+          "why_md": "I like the color, but the fabric is too thick..."
+        }
+      ],
+      "answer_explanation_md": "ตอบ I like the color, but it's too thick. เพราะ A ถามความเห็น B จึงต้องตอบด้วยความเห็นของตัวเอง",
+      "hints": [
+        "A บอกความเห็นหรือถามความเห็น",
+        "What do you think of...? ต้องตอบด้วยอะไร",
+        "ตัดตัวเลือกที่ตอบเหมือนคำถาม yes/no"
+      ],
+      "distractor_reasons": {
+        "0": "ตอบเหมือนคำถาม yes/no แต่ A ถามด้วย What",
+        "1": "ตีความ think of ว่าคิดถึง ไม่ได้ให้ความเห็น",
+        "2": "A ถามความเห็น ไม่ได้บอกความเห็นให้เห็นด้วย"
+      },
+      "misconception_tags": [
+        "literal_translation"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.question_response.opinion_agreement.0004",
+      "topic_ids": [
+        "tgat1.speaking.question_response.opinion_agreement"
+      ],
+      "primary_topic_id": "tgat1.speaking.question_response.opinion_agreement",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 40,
+      "stem_md": "**A:** I think we should cancel the sports day because of the heat.  \n**B:** ______",
+      "figures": [],
+      "choices": [
+        {
+          "md": "Me neither. It's far too hot to do any sports outside.",
+          "is_answer": false
+        },
+        {
+          "md": "I see your point, but we could move it to the morning.",
+          "is_answer": true
+        },
+        {
+          "md": "You're completely wrong. Sports day is the best day of the whole year.",
+          "is_answer": false
+        },
+        {
+          "md": "Yes, the sports day is hot.",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ระบุ: A เสนอความเห็น",
+          "why_md": "B ตอบเห็นด้วยหรือไม่เห็นด้วยก็ได้"
+        },
+        {
+          "do_md": "ตัวเลือกที่ดีที่สุด: ไม่เห็นด้วยอย่างสุภาพพร้อมเสนอทางเลือก",
+          "why_md": "I see your point, but..."
+        },
+        {
+          "do_md": "ตัดตัวที่ห้วนหรือผิดไวยากรณ์",
+          "why_md": "เหลือตัวที่สุภาพและสมเหตุผล"
+        }
+      ],
+      "answer_explanation_md": "ตอบ I see your point, but we could move it to the morning. เพราะไม่เห็นด้วยอย่างสุภาพและเสนอทางเลือกที่สมเหตุผล",
+      "hints": [
+        "A เสนออะไร",
+        "ถ้า B ไม่เห็นด้วย ควรพูดอย่างไรให้สุภาพ",
+        "I see your point, but... ใช้ทำอะไร"
+      ],
+      "distractor_reasons": {
+        "0": "ใช้ Me neither กับประโยคบอกเล่า และความหมายไม่ชัด",
+        "2": "ไม่เห็นด้วยแบบห้วนเกินไป ไม่สุภาพ",
+        "3": "ทวนคำว่า hot ไม่ได้ให้ความเห็นว่าควรยกเลิกไหม"
+      },
+      "misconception_tags": [
+        "rude_disagreement"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.question_response.opinion_agreement.0005",
+      "topic_ids": [
+        "tgat1.speaking.question_response.opinion_agreement"
+      ],
+      "primary_topic_id": "tgat1.speaking.question_response.opinion_agreement",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 4,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 2,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 45,
+      "stem_md": "**A:** I can't believe how expensive concert tickets are these days.  \n**B:** ______ I paid almost two thousand baht for mine.",
+      "figures": [],
+      "choices": [
+        {
+          "md": "I know! The prices are ridiculous.",
+          "is_answer": true
+        },
+        {
+          "md": "So can I.",
+          "is_answer": false
+        },
+        {
+          "md": "Me neither. They're cheap.",
+          "is_answer": false
+        },
+        {
+          "md": "Yes, I can believe.",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "I can't believe how expensive... = สำนวนบ่นว่าแพงมาก",
+          "why_md": "ไม่ได้ปฏิเสธความเชื่อจริง ๆ"
+        },
+        {
+          "do_md": "ประโยคถัดไปของ B ยืนยันว่าเห็นด้วยว่าแพง",
+          "why_md": "I know! The prices are ridiculous. เป็นการเห็นด้วยแบบภาษาพูดที่ชัดเจน"
+        }
+      ],
+      "answer_explanation_md": "ตอบ I know! The prices are ridiculous. เพราะ A บ่นว่าตั๋วแพง และ B เห็นด้วยตามที่ยืนยันในประโยคถัดไป",
+      "hints": [
+        "I can't believe how expensive... ใช้บ่นหรือบอกว่าไม่เชื่อจริง ๆ",
+        "ประโยคที่ B พูดต่อบอกว่า B คิดว่าแพงหรือถูก",
+        "ภาษาพูดเห็นด้วยแบบกระตือรือร้นพูดว่าอะไรได้บ้าง"
+      ],
+      "distractor_reasons": {
+        "1": "ใช้ so กับประโยคปฏิเสธ can't",
+        "2": "ใช้ neither ได้ แต่ต่อด้วย They're cheap ขัดกับประโยคถัดไปที่บอกว่าจ่ายแพง",
+        "3": "ตีความ can't believe ตรงตัว ทั้งที่เป็นสำนวนแสดงความประหลาดใจ"
+      },
+      "misconception_tags": [
+        "literal_translation"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.question_response.opinion_agreement.0006",
+      "topic_ids": [
+        "tgat1.speaking.question_response.opinion_agreement"
+      ],
+      "primary_topic_id": "tgat1.speaking.question_response.opinion_agreement",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 30,
+      "stem_md": "**A:** How do you feel about having homework on weekends?  \n**B:** ______",
+      "figures": [],
+      "choices": [
+        {
+          "md": "Honestly, I'd prefer to keep my weekends free.",
+          "is_answer": true
+        },
+        {
+          "md": "I feel fine, thank you.",
+          "is_answer": false
+        },
+        {
+          "md": "On weekends I usually have a lot of homework from every subject.",
+          "is_answer": false
+        },
+        {
+          "md": "Me too. I agree with you.",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ระบุ: How do you feel about...? = ถามความรู้สึก/ความเห็น",
+          "why_md": "ไม่ใช่ถามสุขภาพ"
+        },
+        {
+          "do_md": "ตอบด้วยความเห็นของตัวเอง",
+          "why_md": "I'd prefer to keep my weekends free."
+        }
+      ],
+      "answer_explanation_md": "ตอบ Honestly, I'd prefer to keep my weekends free. เพราะ A ถามความรู้สึกต่อเรื่องการบ้านวันหยุด B จึงต้องให้ความเห็น",
+      "hints": [
+        "How do you feel about... ถามสุขภาพหรือถามความเห็น",
+        "A บอกความเห็นของตัวเองแล้วหรือยัง",
+        "หาตัวเลือกที่ให้ความเห็นจริง"
+      ],
+      "distractor_reasons": {
+        "1": "ตอบเหมือนถูกถามว่าสบายดีไหม",
+        "2": "บอกข้อเท็จจริง ไม่ได้ให้ความรู้สึกหรือความเห็น",
+        "3": "A ถามความเห็น ยังไม่ได้บอกความเห็นให้เห็นด้วย"
+      },
+      "misconception_tags": [
+        "literal_translation"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.question_response.opinion_agreement.0007",
+      "topic_ids": [
+        "tgat1.speaking.question_response.opinion_agreement"
+      ],
+      "primary_topic_id": "tgat1.speaking.question_response.opinion_agreement",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 45,
+      "stem_md": "**A:** I think the workshop should include more practice time.  \n**B:** ______",
+      "figures": [],
+      "choices": [
+        {
+          "md": "Neither is the practice.",
+          "is_answer": false
+        },
+        {
+          "md": "So do the workshop.",
+          "is_answer": false
+        },
+        {
+          "md": "I agree. The last activity felt rushed.",
+          "is_answer": true
+        },
+        {
+          "md": "Yes, time includes workshops.",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ระบุหน้าที่ของประโยค",
+          "why_md": "เป็นการขอความเห็นต่อข้อเสนอ"
+        },
+        {
+          "do_md": "ตรวจคำตอบกับบริบทและระดับภาษา",
+          "why_md": "คำตอบต้องทำหน้าที่ต่อบทสนทนา ไม่ใช่แค่มีคำซ้ำ"
+        }
+      ],
+      "answer_explanation_md": "แสดงความเห็นด้วยและให้เหตุผลที่ตรงประเด็น",
+      "hints": [
+        "ดูว่าผู้พูดกำลังถาม ขอ เชิญ หรือแสดงความรู้สึก",
+        "ตัดตัวเลือกที่ไวยากรณ์ได้แต่ตอบคนละหน้าที่",
+        "เลือกคำตอบที่ทำให้บทสนทนาดำเนินต่ออย่างเป็นธรรมชาติ"
+      ],
+      "distractor_reasons": {
+        "0": "ใช้ neither กับข้อความบอกเล่าเชิงบวก",
+        "1": "ใช้ so do ผิดโครงสร้างและความหมาย",
+        "3": "สลับความสัมพันธ์ของคำ"
+      },
+      "misconception_tags": [
+        "too_neither_confusion"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.question_response.opinion_agreement.0008",
+      "topic_ids": [
+        "tgat1.speaking.question_response.opinion_agreement"
+      ],
+      "primary_topic_id": "tgat1.speaking.question_response.opinion_agreement",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 5,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": true,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 55,
+      "stem_md": "**A:** The new schedule is more efficient, but it leaves no break between labs.  \n**B:** ______",
+      "figures": [],
+      "choices": [
+        {
+          "md": "Me too, the schedule left yesterday.",
+          "is_answer": false
+        },
+        {
+          "md": "That's true. It saves time overall, though the lack of a break may be a problem.",
+          "is_answer": true
+        },
+        {
+          "md": "I completely disagree; efficiency is always bad.",
+          "is_answer": false
+        },
+        {
+          "md": "Neither do I have a laboratory schedule.",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ระบุหน้าที่ของประโยค",
+          "why_md": "ข้อความมีทั้งข้อดีและข้อกังวล"
+        },
+        {
+          "do_md": "ตรวจคำตอบกับบริบทและระดับภาษา",
+          "why_md": "คำตอบต้องทำหน้าที่ต่อบทสนทนา ไม่ใช่แค่มีคำซ้ำ"
+        }
+      ],
+      "answer_explanation_md": "คำตอบยอมรับสองด้านแทนเลือกเห็นด้วยหรือคัดค้านทั้งหมด",
+      "hints": [
+        "ดูว่าผู้พูดกำลังถาม ขอ เชิญ หรือแสดงความรู้สึก",
+        "ตัดตัวเลือกที่ไวยากรณ์ได้แต่ตอบคนละหน้าที่",
+        "เลือกคำตอบที่ทำให้บทสนทนาดำเนินต่ออย่างเป็นธรรมชาติ"
+      ],
+      "distractor_reasons": {
+        "0": "ใช้ me too กับข้อสังเกตและจับ leaves เป็นออกไป",
+        "2": "ปฏิเสธสุดโต่งและบิดประเด็น",
+        "3": "เปลี่ยนเป็นการครอบครองตาราง ไม่ตอบการประเมิน"
+      },
+      "misconception_tags": [
+        "rude_disagreement"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    }
+  ],
+  "generated_from": "content/tgat1/speaking_qr.py"
+}

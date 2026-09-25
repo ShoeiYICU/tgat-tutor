@@ -1,0 +1,481 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tgat2.reasoning.conclusion.all_some_none",
+  "problems": [
+    {
+      "id": "prob.tgat2.reasoning.conclusion.all_some_none.0001",
+      "topic_ids": [
+        "tgat2.reasoning.conclusion.all_some_none"
+      ],
+      "primary_topic_id": "tgat2.reasoning.conclusion.all_some_none",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 40,
+      "stem_md": "ข้อความ: นักดนตรีทุกคนอ่านโน้ตเป็น คนที่อ่านโน้ตเป็นทุกคนเคยเรียนดนตรี\n\nข้อใดสรุปได้แน่นอน",
+      "figures": [],
+      "choices": [
+        {
+          "md": "คนที่อ่านโน้ตเป็นทุกคนเป็นนักดนตรี",
+          "is_answer": false
+        },
+        {
+          "md": "ไม่มีใครที่อ่านโน้ตเป็นแต่ไม่ใช่นักดนตรี",
+          "is_answer": false
+        },
+        {
+          "md": "นักดนตรีบางคนไม่เคยเรียนดนตรี",
+          "is_answer": false
+        },
+        {
+          "md": "คนที่เคยเรียนดนตรีทุกคนเป็นนักดนตรี",
+          "is_answer": false
+        },
+        {
+          "md": "นักดนตรีทุกคนเคยเรียนดนตรี",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "นักดนตรี ⊂ อ่านโน้ตเป็น ⊂ เคยเรียนดนตรี",
+          "why_md": "วงซ้อนเป็นชั้น"
+        },
+        {
+          "do_md": "วงในสุดอยู่ในวงนอกสุด",
+          "why_md": "นักดนตรีทุกคนเคยเรียนดนตรี"
+        }
+      ],
+      "answer_explanation_md": "ตอบ นักดนตรีทุกคนเคยเรียนดนตรี เพราะวงนักดนตรีอยู่ในวงอ่านโน้ตเป็น ซึ่งอยู่ในวงเคยเรียนดนตรีอีกที",
+      "hints": [
+        "วาดวงกลมแทนแต่ละกลุ่ม",
+        "ทุก A เป็น B คือวง A อยู่ในวง B",
+        "นักดนตรีอยู่ในวงไหนบ้าง"
+      ],
+      "distractor_reasons": {
+        "0": "กลับเงื่อนไขของข้อความแรก",
+        "1": "ข้อมูลไม่ได้บอก",
+        "2": "ขัดกับข้อสรุปที่ได้",
+        "3": "กลับเงื่อนไข วงนอกไม่ได้อยู่ในวงใน"
+      },
+      "misconception_tags": [
+        "reverse_all"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.reasoning.conclusion.all_some_none.0002",
+      "topic_ids": [
+        "tgat2.reasoning.conclusion.all_some_none"
+      ],
+      "primary_topic_id": "tgat2.reasoning.conclusion.all_some_none",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 40,
+      "stem_md": "ข้อความ: ผลไม้บางชนิดมีรสเปรี้ยว ผลไม้บางชนิดมีสีเหลือง\n\nข้อใดสรุปได้แน่นอน",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ไม่มีผลไม้ที่ทั้งเปรี้ยวและเหลือง",
+          "is_answer": false
+        },
+        {
+          "md": "ผลไม้บางชนิดมีรสเปรี้ยวและสีเหลือง",
+          "is_answer": false
+        },
+        {
+          "md": "ไม่มีข้อใดสรุปได้แน่นอนจากข้อความที่ให้",
+          "is_answer": true
+        },
+        {
+          "md": "ผลไม้สีเหลืองทุกชนิดมีรสเปรี้ยว",
+          "is_answer": false
+        },
+        {
+          "md": "ผลไม้ทุกชนิดมีรสเปรี้ยวหรือสีเหลือง",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ผลไม้บางชนิดเปรี้ยว บางชนิดเหลือง",
+          "why_md": "บาง + บาง"
+        },
+        {
+          "do_md": "วาดได้ทั้งแบบซ้อนและไม่ซ้อน",
+          "why_md": "จึงสรุปความสัมพันธ์ระหว่างเปรี้ยวกับเหลืองไม่ได้"
+        }
+      ],
+      "answer_explanation_md": "ตอบ ไม่มีข้อใดสรุปได้แน่นอน เพราะบาง + บาง วาดได้ทั้งแบบซ้อนและไม่ซ้อน",
+      "hints": [
+        "ข้อความทั้งสองเป็นแบบ บาง ทั้งคู่",
+        "ลองวาดให้ส่วนที่เปรี้ยวกับส่วนที่เหลืองไม่ซ้อนกัน",
+        "บาง + บาง สรุปอะไรได้"
+      ],
+      "distractor_reasons": {
+        "0": "ข้อมูลไม่ได้ห้ามการซ้อนกัน",
+        "1": "ส่วนที่เปรี้ยวกับส่วนที่เหลืองอาจไม่ซ้อนกัน",
+        "3": "ข้อมูลไม่ได้บอก",
+        "4": "ข้อมูลไม่ได้บอกว่าครอบคลุมทุกชนิด"
+      },
+      "misconception_tags": [
+        "chain_some_some"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.reasoning.conclusion.all_some_none.0003",
+      "topic_ids": [
+        "tgat2.reasoning.conclusion.all_some_none"
+      ],
+      "primary_topic_id": "tgat2.reasoning.conclusion.all_some_none",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 40,
+      "stem_md": "ข้อความ: นักกีฬาทุกคนแข็งแรง ไม่มีคนแข็งแรงคนใดสูบบุหรี่\n\nข้อใดสรุปได้แน่นอน",
+      "figures": [],
+      "choices": [
+        {
+          "md": "คนที่ไม่สูบบุหรี่ทุกคนเป็นนักกีฬา",
+          "is_answer": false
+        },
+        {
+          "md": "คนแข็งแรงทุกคนเป็นนักกีฬา",
+          "is_answer": false
+        },
+        {
+          "md": "คนที่สูบบุหรี่บางคนแข็งแรง",
+          "is_answer": false
+        },
+        {
+          "md": "ไม่มีนักกีฬาคนใดสูบบุหรี่",
+          "is_answer": true
+        },
+        {
+          "md": "นักกีฬาบางคนสูบบุหรี่",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "นักกีฬา ⊂ แข็งแรง และ แข็งแรง แยกจาก สูบบุหรี่",
+          "why_md": "วาดสองความสัมพันธ์"
+        },
+        {
+          "do_md": "วงนักกีฬาอยู่ในวงที่แยกจากสูบบุหรี่",
+          "why_md": "จึงแยกจากสูบบุหรี่ด้วย"
+        }
+      ],
+      "answer_explanation_md": "ตอบ ไม่มีนักกีฬาคนใดสูบบุหรี่ เพราะนักกีฬาอยู่ในกลุ่มคนแข็งแรง ซึ่งไม่มีใครสูบบุหรี่",
+      "hints": [
+        "วาดวงนักกีฬาในวงคนแข็งแรง",
+        "วงคนแข็งแรงกับวงคนสูบบุหรี่สัมพันธ์กันอย่างไร",
+        "วงนักกีฬาซ้อนกับวงคนสูบบุหรี่ได้ไหม"
+      ],
+      "distractor_reasons": {
+        "0": "กลับเงื่อนไข",
+        "1": "กลับเงื่อนไขของข้อความแรก",
+        "2": "ขัดกับข้อความที่สอง",
+        "4": "ขัดกับข้อสรุปที่ได้"
+      },
+      "misconception_tags": [
+        "reverse_all"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.reasoning.conclusion.all_some_none.0004",
+      "topic_ids": [
+        "tgat2.reasoning.conclusion.all_some_none"
+      ],
+      "primary_topic_id": "tgat2.reasoning.conclusion.all_some_none",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 45,
+      "stem_md": "ข้อความ: หนังสือบางเล่มในห้องสมุดเป็นนิยาย นิยายทุกเล่มพิมพ์ด้วยกระดาษรีไซเคิล\n\nข้อใดสรุปได้แน่นอน",
+      "figures": [],
+      "choices": [
+        {
+          "md": "หนังสือบางเล่มในห้องสมุดพิมพ์ด้วยกระดาษรีไซเคิล",
+          "is_answer": true
+        },
+        {
+          "md": "หนังสือทุกเล่มในห้องสมุดพิมพ์ด้วยกระดาษรีไซเคิล",
+          "is_answer": false
+        },
+        {
+          "md": "หนังสือในห้องสมุดที่ไม่ใช่นิยายไม่ได้ใช้กระดาษรีไซเคิล",
+          "is_answer": false
+        },
+        {
+          "md": "นิยายบางเล่มไม่ได้อยู่ในห้องสมุด",
+          "is_answer": false
+        },
+        {
+          "md": "หนังสือที่พิมพ์ด้วยกระดาษรีไซเคิลทุกเล่มเป็นนิยาย",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "มีหนังสือบางเล่มในห้องสมุดที่เป็นนิยาย",
+          "why_md": "มีอย่างน้อยหนึ่งเล่ม"
+        },
+        {
+          "do_md": "เล่มนั้นเป็นนิยาย จึงพิมพ์ด้วยกระดาษรีไซเคิล",
+          "why_md": "ใช้ข้อความที่สอง"
+        }
+      ],
+      "answer_explanation_md": "ตอบ หนังสือบางเล่มในห้องสมุดพิมพ์ด้วยกระดาษรีไซเคิล เพราะมีเล่มที่เป็นนิยาย และนิยายทุกเล่มใช้กระดาษรีไซเคิล",
+      "hints": [
+        "มีหนังสือในห้องสมุดอย่างน้อยหนึ่งเล่มที่เป็นนิยายไหม",
+        "นิยายทุกเล่มมีคุณสมบัติอะไร",
+        "หนังสือเล่มนั้นจึงมีคุณสมบัติอะไร"
+      ],
+      "distractor_reasons": {
+        "1": "มีแค่บางเล่มที่เป็นนิยาย เล่มอื่นไม่รู้",
+        "2": "ข้อมูลไม่ได้บอกเรื่องหนังสือที่ไม่ใช่นิยาย",
+        "3": "ข้อมูลไม่ได้บอก",
+        "4": "กลับเงื่อนไข"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.reasoning.conclusion.all_some_none.0005",
+      "topic_ids": [
+        "tgat2.reasoning.conclusion.all_some_none"
+      ],
+      "primary_topic_id": "tgat2.reasoning.conclusion.all_some_none",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 4,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 2,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 55,
+      "stem_md": "ข้อความ: นักเรียนห้อง 5/1 ทุกคนเป็นสมาชิกชมรมวิทยาศาสตร์ สมาชิกชมรมวิทยาศาสตร์บางคนเป็นนักกีฬา\n\nข้อใดสรุปได้แน่นอน",
+      "figures": [],
+      "choices": [
+        {
+          "md": "สมาชิกชมรมวิทยาศาสตร์ทุกคนอยู่ห้อง 5/1",
+          "is_answer": false
+        },
+        {
+          "md": "นักเรียนห้อง 5/1 ทุกคนเป็นสมาชิกชมรมวิทยาศาสตร์",
+          "is_answer": true
+        },
+        {
+          "md": "ไม่มีนักเรียนห้อง 5/1 ที่เป็นนักกีฬา",
+          "is_answer": false
+        },
+        {
+          "md": "นักเรียนห้อง 5/1 บางคนเป็นนักกีฬา",
+          "is_answer": false
+        },
+        {
+          "md": "นักกีฬาทุกคนเป็นสมาชิกชมรมวิทยาศาสตร์",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ห้อง 5/1 ⊂ ชมรม และ ชมรม ซ้อนบางส่วนกับ นักกีฬา",
+          "why_md": "วาดวง"
+        },
+        {
+          "do_md": "ส่วนที่ซ้อนกับนักกีฬาอาจอยู่นอกห้อง 5/1",
+          "why_md": "จึงสรุปเรื่องห้อง 5/1 กับนักกีฬาไม่ได้"
+        },
+        {
+          "do_md": "ข้อที่สรุปได้แน่นอนคือข้อที่ทวนข้อความแรก",
+          "why_md": "ตัวเลือกอื่นเกินข้อมูล"
+        }
+      ],
+      "answer_explanation_md": "ตอบ นักเรียนห้อง 5/1 ทุกคนเป็นสมาชิกชมรมวิทยาศาสตร์ ซึ่งเป็นข้อเดียวที่จริงแน่นอน ข้อที่ว่าห้อง 5/1 บางคนเป็นนักกีฬาเป็นกับดัก เพราะนักกีฬาอาจอยู่นอกห้อง",
+      "hints": [
+        "วาดวงห้อง 5/1 ในวงชมรม",
+        "นักกีฬาซ้อนกับชมรมตรงส่วนไหนได้บ้าง",
+        "ลองวาดให้นักกีฬาไม่ซ้อนกับห้อง 5/1 เลย"
+      ],
+      "distractor_reasons": {
+        "0": "กลับเงื่อนไข",
+        "2": "อาจมีได้ ข้อมูลไม่ได้ห้าม",
+        "3": "นักกีฬาอาจอยู่ในส่วนของชมรมที่ไม่ใช่ห้อง 5/1",
+        "4": "ข้อมูลบอกแค่บางคน"
+      },
+      "misconception_tags": [
+        "chain_some_some"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.reasoning.conclusion.all_some_none.0006",
+      "topic_ids": [
+        "tgat2.reasoning.conclusion.all_some_none"
+      ],
+      "primary_topic_id": "tgat2.reasoning.conclusion.all_some_none",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 30,
+      "stem_md": "ข้อความ: ไม่มีปลาชนิดใดหายใจด้วยปอด วาฬหายใจด้วยปอด\n\nข้อใดสรุปได้แน่นอน",
+      "figures": [],
+      "choices": [
+        {
+          "md": "วาฬไม่ใช่ปลา",
+          "is_answer": true
+        },
+        {
+          "md": "สัตว์ที่หายใจด้วยปอดทุกชนิดเป็นวาฬ",
+          "is_answer": false
+        },
+        {
+          "md": "สรุปไม่ได้",
+          "is_answer": false
+        },
+        {
+          "md": "วาฬเป็นปลา",
+          "is_answer": false
+        },
+        {
+          "md": "ปลาบางชนิดเป็นวาฬ",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ปลา แยกจาก หายใจด้วยปอด",
+          "why_md": "ไม่มี...ใด"
+        },
+        {
+          "do_md": "วาฬอยู่ในกลุ่มหายใจด้วยปอด จึงอยู่นอกกลุ่มปลา",
+          "why_md": "สรุปได้"
+        }
+      ],
+      "answer_explanation_md": "ตอบ วาฬไม่ใช่ปลา เพราะวาฬหายใจด้วยปอด และไม่มีปลาชนิดใดหายใจด้วยปอด",
+      "hints": [
+        "วาดวงปลากับวงหายใจด้วยปอดแยกกัน",
+        "วาฬอยู่ในวงไหน",
+        "วาฬอยู่ในวงปลาได้ไหม"
+      ],
+      "distractor_reasons": {
+        "1": "เกินข้อมูล",
+        "2": "ข้อมูลพอจะสรุปได้",
+        "3": "ขัดกับข้อความ",
+        "4": "ขัดกับข้อสรุปที่ได้"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    }
+  ],
+  "generated_from": "content/tgat2/reasoning_text.py"
+}

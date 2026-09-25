@@ -1,0 +1,659 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tgat3.complex_problem.implement.action_sequence",
+  "problems": [
+    {
+      "id": "prob.tgat3.complex_problem.implement.action_sequence.0001",
+      "topic_ids": [
+        "tgat3.complex_problem.implement.action_sequence"
+      ],
+      "primary_topic_id": "tgat3.complex_problem.implement.action_sequence",
+      "exam_code": "TGAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT3 สมรรถนะการทำงาน แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4_tiered",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 60,
+      "stem_md": "คุณได้รับมอบหมายให้จัดงานวันเกิดเซอร์ไพรส์ให้ครูประจำชั้น มีงานต้องทำ: เก็บเงินเพื่อน ซื้อเค้ก ขออนุญาตใช้ห้องช่วงพักกลางวัน และนัดเพื่อน คุณควรเริ่มจากอะไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "เก็บเงินเพื่อนก่อนเพื่อจะได้รู้งบ",
+          "is_answer": false,
+          "score": 0.75
+        },
+        {
+          "md": "ขออนุญาตใช้ห้องช่วงพักกลางวันก่อน",
+          "is_answer": true,
+          "score": 1
+        },
+        {
+          "md": "นัดเพื่อนทุกคนในห้องให้มาพร้อมกันช่วงพักกลางวัน และบอกให้เก็บเป็นความลับไม่ให้ครูรู้",
+          "is_answer": false,
+          "score": 0.5
+        },
+        {
+          "md": "ซื้อเค้กล่วงหน้าเพื่อให้ได้ร้านที่อร่อยและทันแน่นอน แล้วค่อยเก็บเงินเพื่อนมาคืนทีหลัง",
+          "is_answer": false,
+          "score": 0.25
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ถามว่าถ้ายังไม่ได้ห้อง งานอื่นทำได้ไหม",
+          "why_md": "ถ้าไม่ได้ห้อง ต้องเปลี่ยนแผนทั้งหมด"
+        },
+        {
+          "do_md": "ขออนุญาตก่อน",
+          "why_md": "เป็นขั้นที่งานอื่นต้องรอ"
+        },
+        {
+          "do_md": "จากนั้นเก็บเงิน ซื้อเค้ก นัดเพื่อน",
+          "why_md": "ลงเงินเมื่อแผนยืนยันแล้ว"
+        }
+      ],
+      "answer_explanation_md": "ขออนุญาตใช้ห้องก่อนดีที่สุด เพราะเป็นขั้นที่งานอื่นทั้งหมดต้องรอ และป้องกันการลงเงินก่อนแผนยืนยัน",
+      "hints": [
+        "งานไหนที่ถ้าไม่ได้ งานอื่นทั้งหมดต้องเปลี่ยน",
+        "ควรลงเงินก่อนหรือหลังยืนยันว่าจัดได้",
+        "เรียงงานตามว่างานไหนต้องรองานไหน"
+      ],
+      "distractor_reasons": {
+        "0": "เป็นขั้นที่สำคัญ แต่ถ้าไม่ได้รับอนุญาตใช้ห้อง อาจต้องคืนเงินหรือเปลี่ยนแผน",
+        "2": "เตรียมคนได้ แต่ยังไม่รู้ว่าจะใช้ห้องได้หรือไม่",
+        "3": "ลงเงินก่อนรู้ว่าจัดได้หรือไม่และได้เงินเท่าไร"
+      },
+      "misconception_tags": [
+        "commit_before_confirm"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat3.complex_problem.implement.action_sequence.0002",
+      "topic_ids": [
+        "tgat3.complex_problem.implement.action_sequence"
+      ],
+      "primary_topic_id": "tgat3.complex_problem.implement.action_sequence",
+      "exam_code": "TGAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT3 สมรรถนะการทำงาน แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4_tiered",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 60,
+      "stem_md": "ชั้นเรียนของคุณจะไปทัศนศึกษาที่พิพิธภัณฑ์ในอีก 1 เดือน คุณเป็นหัวหน้าห้อง ควรจัดลำดับงานอย่างไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "สำรวจจำนวนเพื่อนที่จะไปก่อน แล้วจองรถให้พอดีกับจำนวนคน แล้วค่อยยืนยันวันกับพิพิธภัณฑ์",
+          "is_answer": false,
+          "score": 0.75
+        },
+        {
+          "md": "จองรถบัสก่อนเพราะช่วงนี้รถมักเต็ม แล้วค่อยยืนยันวันกับพิพิธภัณฑ์และสำรวจจำนวนเพื่อนที่จะไปทีหลัง",
+          "is_answer": false,
+          "score": 0.5
+        },
+        {
+          "md": "ยืนยันวันกับพิพิธภัณฑ์และครู → สำรวจจำนวนคน → จองรถ → แจ้งรายละเอียด",
+          "is_answer": true,
+          "score": 1
+        },
+        {
+          "md": "แจ้งผู้ปกครองทันทีว่าจะไปทัศนศึกษา",
+          "is_answer": false,
+          "score": 0.25
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ยืนยันวันกับพิพิธภัณฑ์และครูก่อน",
+          "why_md": "ทุกงานขึ้นกับวันที่ยืนยันแล้ว"
+        },
+        {
+          "do_md": "สำรวจจำนวนคน",
+          "why_md": "จำนวนคนกำหนดขนาดรถ"
+        },
+        {
+          "do_md": "จองรถแล้วแจ้งรายละเอียด",
+          "why_md": "แจ้งเมื่อข้อมูลครบและแน่นอน"
+        }
+      ],
+      "answer_explanation_md": "ยืนยันวัน สำรวจคน จองรถ แล้วแจ้งรายละเอียดดีที่สุด เพราะเรียงตามสิ่งที่แต่ละงานต้องรอ ไม่ลงเงินหรือแจ้งข้อมูลก่อนยืนยัน",
+      "hints": [
+        "ข้อมูลอะไรที่งานอื่นทั้งหมดต้องใช้",
+        "จำนวนรถขึ้นกับอะไร",
+        "ควรแจ้งผู้ปกครองเมื่อข้อมูลแน่นอนหรือยังไม่แน่นอน"
+      ],
+      "distractor_reasons": {
+        "0": "ลำดับเรื่องคนกับรถถูก แต่ยังไม่ได้ยืนยันวันซึ่งเป็นสิ่งที่ทุกงานต้องรอ",
+        "1": "เห็นความเร่งของการจองรถ แต่ลงเงินก่อนยืนยันวันและจำนวนคน",
+        "3": "แจ้งก่อนมีรายละเอียดยืนยัน ข้อมูลอาจเปลี่ยนและสร้างความสับสน"
+      },
+      "misconception_tags": [
+        "commit_before_confirm"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat3.complex_problem.implement.action_sequence.0003",
+      "topic_ids": [
+        "tgat3.complex_problem.implement.action_sequence"
+      ],
+      "primary_topic_id": "tgat3.complex_problem.implement.action_sequence",
+      "exam_code": "TGAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT3 สมรรถนะการทำงาน แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4_tiered",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 60,
+      "stem_md": "ท่อน้ำในห้องน้ำชั้นสองของอาคารเรียนแตก น้ำไหลลงบันไดและใกล้ปลั๊กไฟ คุณเป็นนักเรียนที่พบเหตุการณ์ ควรทำอะไรก่อน",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ถ่ายรูปเหตุการณ์ไว้เป็นหลักฐาน เพื่อให้ฝ่ายอาคารนำไปใช้ประกอบการซ่อมและเบิกงบประมาณได้",
+          "is_answer": false,
+          "score": 0.25
+        },
+        {
+          "md": "แจ้งครูหรือภารโรงทันทีว่าท่อน้ำแตก ให้มาดูแลและซ่อมโดยเร็ว",
+          "is_answer": false,
+          "score": 0.75
+        },
+        {
+          "md": "หาผ้ามาซับน้ำบนบันไดเอง",
+          "is_answer": false,
+          "score": 0.5
+        },
+        {
+          "md": "กันไม่ให้คนเข้าใกล้ แล้วแจ้งครูหรือภารโรงให้ปิดวาล์วน้ำและตัดไฟ",
+          "is_answer": true,
+          "score": 1
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "หยุดความเสียหายก่อน: กันคนออกจากจุดอันตราย",
+          "why_md": "น้ำใกล้ปลั๊กไฟเสี่ยงไฟดูด"
+        },
+        {
+          "do_md": "แจ้งคนที่ปิดวาล์วและตัดไฟได้",
+          "why_md": "หยุดต้นทางของอันตราย"
+        },
+        {
+          "do_md": "หลักฐานและการซ่อมทำทีหลัง",
+          "why_md": "เมื่อปลอดภัยแล้ว"
+        }
+      ],
+      "answer_explanation_md": "กันคนออกจากจุดอันตรายแล้วแจ้งให้ปิดวาล์วและตัดไฟดีที่สุด เพราะหยุดอันตรายก่อน และส่งต่อให้คนที่แก้ต้นทางได้",
+      "hints": [
+        "อันตรายที่สุดในสถานการณ์นี้คืออะไร",
+        "นักเรียนควรเข้าไปใกล้จุดที่มีน้ำกับไฟฟ้าไหม",
+        "เรียงลำดับ: หยุดอันตราย แล้วค่อยแก้และบันทึก"
+      ],
+      "distractor_reasons": {
+        "0": "ไม่ได้หยุดความเสียหายหรืออันตรายที่กำลังเกิด",
+        "1": "แจ้งผู้มีหน้าที่ถูกต้อง แต่ไม่ได้กันคนที่เดินผ่านจากอันตรายระหว่างรอ",
+        "2": "ตั้งใจดี แต่เข้าใกล้จุดที่มีน้ำกับไฟฟ้า ซึ่งอันตราย และไม่หยุดต้นทางของน้ำ"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat3.complex_problem.implement.action_sequence.0004",
+      "topic_ids": [
+        "tgat3.complex_problem.implement.action_sequence"
+      ],
+      "primary_topic_id": "tgat3.complex_problem.implement.action_sequence",
+      "exam_code": "TGAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT3 สมรรถนะการทำงาน แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4_tiered",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 60,
+      "stem_md": "คุณเป็นหัวหน้าทีมที่จะเปิดร้านขายของออนไลน์เป็นโครงงานวิชาธุรกิจ มีงาน: ทำเพจ ถ่ายรูปสินค้า สั่งสินค้ามาขาย สำรวจว่าลูกค้าต้องการอะไร คุณควรเรียงลำดับอย่างไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "สั่งสินค้ามาหลายแบบที่คิดว่าน่าจะขายได้ก่อน เพื่อให้ร้านมีสินค้าพร้อมวันเปิด",
+          "is_answer": false,
+          "score": 0.5
+        },
+        {
+          "md": "ถ่ายรูปสินค้าตัวอย่างจากอินเทอร์เน็ตมาใส่เพจก่อน",
+          "is_answer": false,
+          "score": 0.25
+        },
+        {
+          "md": "ทำเพจก่อนเพื่อสร้างฐานผู้ติดตาม → สำรวจลูกค้าจากผู้ติดตาม → สั่งสินค้า → ถ่ายรูป",
+          "is_answer": false,
+          "score": 0.75
+        },
+        {
+          "md": "สำรวจความต้องการลูกค้า → สั่งสินค้าจำนวนน้อย → ถ่ายรูปและทำเพจพร้อมกัน",
+          "is_answer": true,
+          "score": 1
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "สำรวจลูกค้าก่อน",
+          "why_md": "รู้ว่าจะขายอะไร ซึ่งทุกงานต้องใช้ข้อมูลนี้"
+        },
+        {
+          "do_md": "สั่งสินค้าจำนวนน้อย",
+          "why_md": "ลดความเสี่ยงของการลงเงิน"
+        },
+        {
+          "do_md": "ถ่ายรูปกับทำเพจทำพร้อมกันได้",
+          "why_md": "ไม่ต้องรอกัน"
+        }
+      ],
+      "answer_explanation_md": "สำรวจลูกค้าก่อน สั่งสินค้าจำนวนน้อย แล้วถ่ายรูปกับทำเพจพร้อมกันดีที่สุด เพราะเรียงตามข้อมูลที่ต้องใช้ ลดความเสี่ยง และประหยัดเวลา",
+      "hints": [
+        "ถ้ายังไม่รู้ว่าลูกค้าต้องการอะไร จะสั่งสินค้าถูกไหม",
+        "งานไหนทำพร้อมกันได้โดยไม่ต้องรอกัน",
+        "ควรลงเงินก่อนหรือหลังรู้ความต้องการ"
+      ],
+      "distractor_reasons": {
+        "0": "ทำให้เริ่มขายได้ แต่ลงเงินก่อนรู้ความต้องการและเสี่ยงมีสินค้าค้าง",
+        "1": "ใช้รูปที่ไม่ใช่ของตัวเองซึ่งอาจละเมิดลิขสิทธิ์และทำให้ลูกค้าเข้าใจผิด",
+        "2": "ใช้เพจเป็นช่องทางสำรวจได้ แต่ลำดับช้ากว่าและเพจยังไม่รู้ว่าจะขายอะไร"
+      },
+      "misconception_tags": [
+        "commit_before_confirm"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat3.complex_problem.implement.action_sequence.0005",
+      "topic_ids": [
+        "tgat3.complex_problem.implement.action_sequence"
+      ],
+      "primary_topic_id": "tgat3.complex_problem.implement.action_sequence",
+      "exam_code": "TGAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT3 สมรรถนะการทำงาน แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4_tiered",
+      "difficulty": 4,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "high"
+      },
+      "est_seconds": 60,
+      "stem_md": "ร้านอาหารที่คุณทำงานพิเศษได้รับแจ้งว่าลูกค้าหลายคนท้องเสียหลังกินเมนูหนึ่งเมื่อวาน ผู้จัดการไม่อยู่ร้าน คุณเป็นพนักงานอาวุโสที่สุดในกะ คุณควรทำอะไรตามลำดับ",
+      "figures": [],
+      "choices": [
+        {
+          "md": "หยุดขายเมนูนั้น แยกวัตถุดิบไว้ โทรแจ้งผู้จัดการ แล้วบันทึกข้อมูลลูกค้าที่แจ้งเข้ามา",
+          "is_answer": true,
+          "score": 1
+        },
+        {
+          "md": "โทรแจ้งผู้จัดการก่อนเป็นอย่างแรก แล้วรอให้ผู้จัดการตัดสินใจว่าจะหยุดขายเมนูนั้นหรือไม่",
+          "is_answer": false,
+          "score": 0.75
+        },
+        {
+          "md": "ขายต่อไปก่อนจนกว่าจะรู้แน่ชัดว่าเป็นเพราะเมนูนี้จริง เพื่อไม่ให้ร้านเสียรายได้โดยไม่จำเป็น",
+          "is_answer": false,
+          "score": 0.25
+        },
+        {
+          "md": "ทิ้งวัตถุดิบของเมนูนั้นทั้งหมดทันทีเพื่อความปลอดภัย",
+          "is_answer": false,
+          "score": 0.5
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "หยุดความเสียหายก่อน: หยุดขายเมนูนั้น",
+          "why_md": "ป้องกันลูกค้ารายใหม่ได้รับอันตราย"
+        },
+        {
+          "do_md": "เก็บหลักฐาน: แยกวัตถุดิบไว้ ไม่ทิ้ง",
+          "why_md": "ใช้ตรวจหาสาเหตุ"
+        },
+        {
+          "do_md": "แจ้งผู้มีอำนาจและบันทึกข้อมูล",
+          "why_md": "ผู้จัดการตัดสินใจขั้นต่อไปได้จากข้อมูลครบ"
+        }
+      ],
+      "answer_explanation_md": "หยุดขาย แยกวัตถุดิบ แจ้งผู้จัดการ และบันทึกข้อมูลดีที่สุด เพราะหยุดความเสียหายก่อน เก็บหลักฐาน และส่งต่อให้ผู้มีอำนาจอย่างครบถ้วน",
+      "hints": [
+        "ถ้ายังขายต่อ ใครจะได้รับอันตราย",
+        "การทิ้งวัตถุดิบทันทีมีข้อเสียอะไร",
+        "เรียง: หยุดความเสียหาย → เก็บหลักฐาน → แจ้งและบันทึก"
+      ],
+      "distractor_reasons": {
+        "1": "แจ้งผู้มีอำนาจถูกต้อง แต่ระหว่างรออาจมีลูกค้าสั่งเมนูนั้นเพิ่มและได้รับอันตราย",
+        "2": "เสี่ยงให้ลูกค้าคนอื่นได้รับอันตรายเพิ่ม",
+        "3": "หยุดความเสี่ยงได้ แต่ทำลายหลักฐานที่ใช้ตรวจหาสาเหตุ"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat3.complex_problem.implement.action_sequence.0006",
+      "topic_ids": [
+        "tgat3.complex_problem.implement.action_sequence"
+      ],
+      "primary_topic_id": "tgat3.complex_problem.implement.action_sequence",
+      "exam_code": "TGAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT3 สมรรถนะการทำงาน แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4_tiered",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 60,
+      "stem_md": "ชุมชนของคุณจะปลูกต้นไม้ริมถนนเข้าหมู่บ้าน คุณเป็นแกนนำเยาวชน งานที่ต้องทำ: ซื้อกล้าไม้ ชวนคนมาร่วมปลูก สอบถามหน่วยงานว่าปลูกตรงไหนได้ และวางแผนการรดน้ำหลังปลูก คุณควรเริ่มจากอะไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "วางแผนการรดน้ำหลังปลูกให้ละเอียดก่อน เพราะต้นไม้ส่วนใหญ่ตายเพราะไม่มีคนดูแลหลังปลูก",
+          "is_answer": false,
+          "score": 0.75
+        },
+        {
+          "md": "ชวนคนในหมู่บ้านมาร่วมปลูกให้ได้มากที่สุด",
+          "is_answer": false,
+          "score": 0.5
+        },
+        {
+          "md": "สอบถามหน่วยงานว่าปลูกตรงไหนได้",
+          "is_answer": true,
+          "score": 1
+        },
+        {
+          "md": "ซื้อกล้าไม้ก่อนเพราะช่วงนี้ราคาถูก ถ้ารอนานอาจแพงขึ้นหรือหาพันธุ์ที่ต้องการไม่ได้",
+          "is_answer": false,
+          "score": 0.25
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ถ้ายังไม่รู้ว่าปลูกได้ตรงไหน งานอื่นทำได้ไหม",
+          "why_md": "ไม่ได้ เพราะจำนวนกล้าไม้ คนที่ต้องชวน และแผนรดน้ำขึ้นกับพื้นที่"
+        },
+        {
+          "do_md": "สอบถามหน่วยงานก่อน",
+          "why_md": "อาจมีสายไฟ ท่อ หรือเขตทางที่ห้ามปลูก"
+        },
+        {
+          "do_md": "จากนั้นซื้อกล้าไม้ ชวนคน และวางแผนดูแล",
+          "why_md": "ทำเมื่อข้อมูลพื้นที่ยืนยันแล้ว"
+        }
+      ],
+      "answer_explanation_md": "สอบถามหน่วยงานว่าปลูกตรงไหนได้ก่อนดีที่สุด เพราะเป็นข้อมูลที่ทุกงานต้องใช้ และป้องกันการลงเงินหรือแรงก่อนยืนยัน",
+      "hints": [
+        "ข้อมูลอะไรที่งานอื่นทั้งหมดต้องใช้",
+        "ถ้าปลูกในที่ที่หน่วยงานไม่อนุญาต จะเกิดอะไรขึ้น",
+        "หางานที่ต้องทำก่อนงานอื่นทั้งหมด"
+      ],
+      "distractor_reasons": {
+        "0": "คิดถึงความยั่งยืนได้ดี แต่ยังไม่ได้ยืนยันพื้นที่ซึ่งทุกงานต้องใช้",
+        "1": "สร้างการมีส่วนร่วม แต่ยังไม่รู้ว่าจะปลูกได้หรือไม่",
+        "3": "ลงเงินก่อนรู้ว่าปลูกได้ที่ไหนและต้องใช้กี่ต้น"
+      },
+      "misconception_tags": [
+        "commit_before_confirm"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat3.complex_problem.implement.action_sequence.0007",
+      "topic_ids": [
+        "tgat3.complex_problem.implement.action_sequence"
+      ],
+      "primary_topic_id": "tgat3.complex_problem.implement.action_sequence",
+      "exam_code": "TGAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT3 สมรรถนะการทำงาน แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4_tiered",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 60,
+      "stem_md": "ทีมจะเปิดรับบริจาคหนังสือ ขั้นตอนแรกที่เหมาะสมคืออะไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "กำหนดประเภทและสภาพหนังสือที่ต้องการ ยืนยันที่จัดเก็บ แล้วจึงประกาศรับ",
+          "is_answer": true,
+          "score": 1
+        },
+        {
+          "md": "โพสต์รับบริจาคทันที",
+          "is_answer": false,
+          "score": 0.25
+        },
+        {
+          "md": "ถามจำนวนอาสาสมัครที่ว่าง",
+          "is_answer": false,
+          "score": 0.75
+        },
+        {
+          "md": "เตรียมงานแจกหนังสือก่อน",
+          "is_answer": false,
+          "score": 0.5
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "เริ่มจากเป้าหมายและเงื่อนไข",
+          "why_md": "หนังสือแบบใดใช้ได้"
+        },
+        {
+          "do_md": "ตรวจทรัพยากรสำคัญ",
+          "why_md": "ที่เก็บ"
+        },
+        {
+          "do_md": "ค่อยสื่อสาร",
+          "why_md": "ประกาศให้ผู้บริจาครู้เกณฑ์"
+        }
+      ],
+      "answer_explanation_md": "กำหนดความต้องการและที่เก็บก่อนประกาศ ป้องกันภาระจากของที่ไม่ตรงเป้า",
+      "hints": [
+        "ถ้าประกาศก่อนอาจเกิดอะไร",
+        "ต้องกำหนดคุณสมบัติใด",
+        "อะไรต้องพร้อมก่อนของมาถึง"
+      ],
+      "distractor_reasons": {
+        "1": "อาจได้ของที่ใช้ไม่ได้และไม่มีที่เก็บ",
+        "2": "เป็นทรัพยากรสำคัญแต่ยังไม่ชัดว่ารับอะไรและเก็บที่ไหน",
+        "3": "ข้ามการกำหนดสิ่งที่จะรับ"
+      },
+      "misconception_tags": [
+        "commit_before_confirm"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat3.complex_problem.implement.action_sequence.0008",
+      "topic_ids": [
+        "tgat3.complex_problem.implement.action_sequence"
+      ],
+      "primary_topic_id": "tgat3.complex_problem.implement.action_sequence",
+      "exam_code": "TGAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT3 สมรรถนะการทำงาน แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4_tiered",
+      "difficulty": 5,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": true,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 60,
+      "stem_md": "ต้องย้ายข้อมูลสมาชิกไประบบใหม่ภายในสัปดาห์ ระบบเก่ายังใช้งานอยู่และมีข้อมูลส่วนบุคคล คุณควรวางลำดับอย่างไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ให้สมาชิกสมัครใหม่เพื่อตัดปัญหาการย้าย",
+          "is_answer": false,
+          "score": 0.25
+        },
+        {
+          "md": "กำหนดผู้รับผิดชอบและสิทธิ สำรองข้อมูล ทดลองย้ายชุดเล็กตรวจความครบ แล้วจึงย้ายจริงพร้อมแผนย้อนกลับ",
+          "is_answer": true,
+          "score": 1
+        },
+        {
+          "md": "สำรองข้อมูลแล้วเริ่มย้ายทั้งหมด",
+          "is_answer": false,
+          "score": 0.75
+        },
+        {
+          "md": "ส่งออกข้อมูลทั้งหมดแล้วย้ายคืนเดียวเพื่อลดช่วงซ้ำซ้อน",
+          "is_answer": false,
+          "score": 0.5
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "จัดการสิทธิและความลับ",
+          "why_md": "ข้อมูลส่วนบุคคล"
+        },
+        {
+          "do_md": "ทำขั้นย้อนกลับได้",
+          "why_md": "สำรองและแผนคืน"
+        },
+        {
+          "do_md": "ทดลองก่อนขยาย",
+          "why_md": "ตรวจความครบชุดเล็ก"
+        }
+      ],
+      "answer_explanation_md": "ลำดับที่กำหนดสิทธิ สำรอง ทดลอง ตรวจ และมีแผนย้อนกลับ ควบคุมความเสี่ยงได้ครบ",
+      "hints": [
+        "ความผิดพลาดใดย้อนคืนยาก",
+        "ควรทดสอบกับข้อมูลขนาดใด",
+        "ถ้าย้ายล้มเหลวจะกลับอย่างไร"
+      ],
+      "distractor_reasons": {
+        "0": "ผลักภาระและเสี่ยงสูญข้อมูลสำคัญ",
+        "2": "ลดความเสียหายได้ส่วนหนึ่ง แต่ยังไม่ทดสอบความครบและแผนย้อนกลับ",
+        "3": "เร็วแต่เสี่ยงเสียข้อมูลและไม่มีการทดสอบ"
+      },
+      "misconception_tags": [
+        "commit_before_confirm"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    }
+  ],
+  "generated_from": "content/tgat3/complex_problem.py"
+}

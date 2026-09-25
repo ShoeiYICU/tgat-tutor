@@ -1,0 +1,2293 @@
+{
+  "schema_version": "1.0",
+  "subject": "sci",
+  "subject_name_th": "A-Level วิทยาศาสตร์ประยุกต์",
+  "exam_codes": [
+    "ALEVEL_63"
+  ],
+  "source_note": "ยืนยันโครงสอบแล้วจาก mytcas.com/blueprint/a-level-63-sci/ (ตรวจ 21 กันยายน 2569): 30 ข้อ 100 คะแนน 90 นาที แบ่งเป็น ปรนัย 5 ตัวเลือก 26 ข้อ 83.2 คะแนน และ **เลือกตอบเชิงซ้อน 4 ข้อ 16.8 คะแนน** | 3 ส่วน คือ วิทยาศาสตร์ชีวภาพ 7-9 ข้อ (6 หัวข้อ) / วิทยาศาสตร์กายภาพ 14-16 ข้อ (14 หัวข้อ) / วิทยาศาสตร์โลกและอวกาศ 6-8 ข้อ (10 หัวข้อ) | ผังสอบให้ชื่อหัวข้อทางการครบ 30 หัวข้อ แต่ไม่ได้ซอยย่อยกว่านั้น หัวข้อระดับ leaf จึงเป็นการซอยของเราเอง | ผังสอบไม่ได้ระบุ: จำนวนข้อของแต่ละหัวข้อ และเกณฑ์การให้คะแนนข้อเลือกตอบเชิงซ้อน",
+  "topics": [
+    {
+      "id": "sci",
+      "name_th": "A-Level วิทยาศาสตร์ประยุกต์",
+      "name_en": "",
+      "kind": "subject",
+      "parent": null,
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ALEVEL_63",
+        "วิทยาศาสตร์ประยุกต์"
+      ],
+      "curriculum_ref": null,
+      "notes": "วิชาเนื้อหาตามหลักสูตร สำหรับสายที่ไม่ได้เรียนวิทยาศาสตร์เข้ม | โครงสอบยืนยันแล้ว: 30 ข้อ 100 คะแนน 90 นาที | **มีข้อเลือกตอบเชิงซ้อน 4 ข้อ 16.8 คะแนน** เหมือนชีววิทยา ใกล้ format multi_select ที่สุด แต่ **ผังสอบไม่ได้ระบุเกณฑ์การให้คะแนน** ห้ามเดาว่าให้คะแนนบางส่วนหรือไม่ | **30 หัวข้อ แต่มีแค่ 30 ข้อ** เฉลี่ยหัวข้อละ 1 ข้อ จึงถามกว้างแต่ไม่ลึก บทเรียนควรเน้นภาพรวมและหลักการ ไม่ใช่การคำนวณละเอียดเหมือน phy/chem/bio | **หลายหัวข้อทับกับ phy chem bio — ใช้บทเรียนร่วมกันผ่าน requires ไม่สร้างซ้ำ** แต่ระดับความลึกต่างกัน ที่นี่ตื้นกว่า | ส่วนวิทยาศาสตร์โลกและอวกาศเป็นส่วนเดียวที่ไม่ทับกับวิชาอื่นเลย ต้องทำใหม่ทั้งหมด"
+    },
+    {
+      "id": "sci.biological",
+      "name_th": "วิทยาศาสตร์ชีวภาพ",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "sci",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_63",
+          "typical_items": "7-9 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "วิทยาศาสตร์ชีวภาพ"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (ส่วนทางการ) · ผังสอบระบุ 7-9 ข้อ"
+    },
+    {
+      "id": "sci.biological.ecosystem",
+      "name_th": "ระบบนิเวศและสิ่งแวดล้อม",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "sci.biological",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ระบบนิเวศและสิ่งแวดล้อม"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "sci.biological.ecosystem.components",
+      "name_th": "องค์ประกอบและความสัมพันธ์ในระบบนิเวศ",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "sci.biological.ecosystem",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [
+        "bio.diversity_env.ecosystem.components"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_63",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "easy",
+      "keywords": [
+        "ระบบนิเวศ"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ | ทับกับวิชาวิทยาศาสตร์เข้ม ใช้บทเรียนร่วมกัน แต่ที่นี่ถามตื้นกว่า"
+    },
+    {
+      "id": "sci.biological.ecosystem.problem",
+      "name_th": "ปัญหาสิ่งแวดล้อมและการอนุรักษ์",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "sci.biological.ecosystem",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "sci.biological.ecosystem.components"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_63",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "easy",
+      "keywords": [
+        "สิ่งแวดล้อม",
+        "อนุรักษ์"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "sci.biological.cell_transport",
+      "name_th": "การลำเลียงสารเข้าและออกจากเซลล์",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "sci.biological",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "การลำเลียงสารเข้าและออกจากเซลล์"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "sci.biological.cell_transport.passive",
+      "name_th": "การแพร่และออสโมซิส",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "sci.biological.cell_transport",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [
+        "bio.basic_unit.cell.membrane"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_63",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "การแพร่",
+        "ออสโมซิส"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ | ทับกับวิชาวิทยาศาสตร์เข้ม ใช้บทเรียนร่วมกัน แต่ที่นี่ถามตื้นกว่า"
+    },
+    {
+      "id": "sci.biological.cell_transport.active",
+      "name_th": "การลำเลียงแบบใช้พลังงาน",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "sci.biological.cell_transport",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "sci.biological.cell_transport.passive"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_63",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ลำเลียงแบบใช้พลังงาน"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "sci.biological.homeostasis",
+      "name_th": "การรักษาดุลยภาพของร่างกายมนุษย์",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "sci.biological",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "การรักษาดุลยภาพของร่างกายมนุษย์"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "sci.biological.homeostasis.water_salt",
+      "name_th": "ดุลยภาพของน้ำและเกลือแร่",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "sci.biological.homeostasis",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [
+        "bio.animal_system.excretion.balance"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_63",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ดุลยภาพน้ำ"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ | ทับกับวิชาวิทยาศาสตร์เข้ม ใช้บทเรียนร่วมกัน แต่ที่นี่ถามตื้นกว่า"
+    },
+    {
+      "id": "sci.biological.homeostasis.temperature",
+      "name_th": "ดุลยภาพของอุณหภูมิและสารเคมีในร่างกาย",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "sci.biological.homeostasis",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "sci.biological.homeostasis.water_salt"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_63",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ดุลยภาพอุณหภูมิ"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "sci.biological.immune",
+      "name_th": "ระบบภูมิคุ้มกันของมนุษย์",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "sci.biological",
+      "order": 4,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ระบบภูมิคุ้มกันของมนุษย์"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "sci.biological.immune.mechanism",
+      "name_th": "กลไกภูมิคุ้มกันแบบไม่จำเพาะและจำเพาะ",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "sci.biological.immune",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [
+        "bio.animal_system.lymph_immune.immunity"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_63",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ภูมิคุ้มกัน"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ | ทับกับวิชาวิทยาศาสตร์เข้ม ใช้บทเรียนร่วมกัน แต่ที่นี่ถามตื้นกว่า"
+    },
+    {
+      "id": "sci.biological.immune.vaccine",
+      "name_th": "วัคซีนและการสร้างเสริมภูมิคุ้มกัน",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "sci.biological.immune",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "sci.biological.immune.mechanism"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_63",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "easy",
+      "keywords": [
+        "วัคซีน"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ | เนื้อหาการแพทย์ ห้ามเขียนเป็นคำแนะนำทางการแพทย์ ตั้ง ai_draft_needs_fact_check"
+    },
+    {
+      "id": "sci.biological.plant_life",
+      "name_th": "การดำรงชีวิตของพืช",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "sci.biological",
+      "order": 5,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "การดำรงชีวิตของพืช"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "sci.biological.plant_life.photosynthesis",
+      "name_th": "การสังเคราะห์ด้วยแสงโดยภาพรวม",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "sci.biological.plant_life",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [
+        "bio.plant.photosynthesis.factors"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_63",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "สังเคราะห์ด้วยแสง"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ | ทับกับวิชาวิทยาศาสตร์เข้ม ใช้บทเรียนร่วมกัน แต่ที่นี่ถามตื้นกว่า"
+    },
+    {
+      "id": "sci.biological.plant_life.transport_growth",
+      "name_th": "การลำเลียงและการตอบสนองของพืช",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "sci.biological.plant_life",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "sci.biological.plant_life.photosynthesis"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_63",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ลำเลียง",
+        "ตอบสนอง"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "sci.biological.genetics_evolution",
+      "name_th": "พันธุกรรมและวิวัฒนาการ",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "sci.biological",
+      "order": 6,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "พันธุกรรมและวิวัฒนาการ"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "sci.biological.genetics_evolution.inheritance",
+      "name_th": "การถ่ายทอดลักษณะทางพันธุกรรม",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "sci.biological.genetics_evolution",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [
+        "bio.genetics.inheritance.mendel"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_63",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "พันธุกรรม"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ | ทับกับวิชาวิทยาศาสตร์เข้ม ใช้บทเรียนร่วมกัน แต่ที่นี่ถามตื้นกว่า"
+    },
+    {
+      "id": "sci.biological.genetics_evolution.dna_tech",
+      "name_th": "เทคโนโลยีทางดีเอ็นเอและการใช้ประโยชน์",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "sci.biological.genetics_evolution",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "sci.biological.genetics_evolution.inheritance"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_63",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "easy",
+      "keywords": [
+        "ดีเอ็นเอ",
+        "เทคโนโลยี"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "sci.biological.genetics_evolution.evolution",
+      "name_th": "วิวัฒนาการโดยภาพรวม",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "sci.biological.genetics_evolution",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "bio.genetics.evolution.evidence",
+        "sci.biological.genetics_evolution.dna_tech"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_63",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "วิวัฒนาการ"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ | ทับกับวิชาวิทยาศาสตร์เข้ม ใช้บทเรียนร่วมกัน แต่ที่นี่ถามตื้นกว่า"
+    },
+    {
+      "id": "sci.physical",
+      "name_th": "วิทยาศาสตร์กายภาพ",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "sci",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_63",
+          "typical_items": "14-16 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "วิทยาศาสตร์กายภาพ"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (ส่วนทางการ) · ผังสอบระบุ 14-16 ข้อ · ส่วนที่ใหญ่ที่สุดของวิชา"
+    },
+    {
+      "id": "sci.physical.atom",
+      "name_th": "อะตอมและสมบัติของธาตุ",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "sci.physical",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "อะตอมและสมบัติของธาตุ"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "sci.physical.atom.structure",
+      "name_th": "โครงสร้างอะตอมและตารางธาตุ",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "sci.physical.atom",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [
+        "chem.properties.atom.structure"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_63",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "easy",
+      "keywords": [
+        "อะตอม",
+        "ตารางธาตุ"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ | ทับกับวิชาวิทยาศาสตร์เข้ม ใช้บทเรียนร่วมกัน แต่ที่นี่ถามตื้นกว่า"
+    },
+    {
+      "id": "sci.physical.atom.trend",
+      "name_th": "แนวโน้มสมบัติของธาตุ",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "sci.physical.atom",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "sci.physical.atom.structure"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_63",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "แนวโน้มสมบัติ"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "sci.physical.covalent",
+      "name_th": "สารโคเวเลนต์",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "sci.physical",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "สารโคเวเลนต์"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "sci.physical.covalent.bond",
+      "name_th": "การเกิดพันธะโคเวเลนต์",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "sci.physical.covalent",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [
+        "chem.properties.bonding.covalent"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_63",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "พันธะโคเวเลนต์"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ | ทับกับวิชาวิทยาศาสตร์เข้ม ใช้บทเรียนร่วมกัน แต่ที่นี่ถามตื้นกว่า"
+    },
+    {
+      "id": "sci.physical.covalent.properties",
+      "name_th": "สมบัติและการใช้ประโยชน์ของสารโคเวเลนต์",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "sci.physical.covalent",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "sci.physical.covalent.bond"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_63",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "easy",
+      "keywords": [
+        "สมบัติสารโคเวเลนต์"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "sci.physical.ionic",
+      "name_th": "สารประกอบไอออนิก",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "sci.physical",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "สารประกอบไอออนิก"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "sci.physical.ionic.bond",
+      "name_th": "การเกิดพันธะไอออนิก",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "sci.physical.ionic",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [
+        "chem.properties.bonding.ionic"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_63",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "พันธะไอออนิก"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ | ทับกับวิชาวิทยาศาสตร์เข้ม ใช้บทเรียนร่วมกัน แต่ที่นี่ถามตื้นกว่า"
+    },
+    {
+      "id": "sci.physical.ionic.properties",
+      "name_th": "สมบัติและการใช้ประโยชน์",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "sci.physical.ionic",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "sci.physical.ionic.bond"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_63",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "easy",
+      "keywords": [
+        "สมบัติไอออนิก"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "sci.physical.hydrocarbon",
+      "name_th": "สารประกอบไฮโดรคาร์บอน",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "sci.physical",
+      "order": 4,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "สารประกอบไฮโดรคาร์บอน"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "sci.physical.hydrocarbon.types",
+      "name_th": "ประเภทของไฮโดรคาร์บอน",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "sci.physical.hydrocarbon",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [
+        "chem.properties.organic.hydrocarbon"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_63",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ไฮโดรคาร์บอน"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ | ทับกับวิชาวิทยาศาสตร์เข้ม ใช้บทเรียนร่วมกัน แต่ที่นี่ถามตื้นกว่า"
+    },
+    {
+      "id": "sci.physical.hydrocarbon.fuel",
+      "name_th": "เชื้อเพลิงและปฏิกิริยาการเผาไหม้",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "sci.physical.hydrocarbon",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "sci.physical.hydrocarbon.types"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_63",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "easy",
+      "keywords": [
+        "เชื้อเพลิง",
+        "เผาไหม้"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "sci.physical.polymer",
+      "name_th": "พอลิเมอร์",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "sci.physical",
+      "order": 5,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "พอลิเมอร์"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "sci.physical.polymer.types",
+      "name_th": "ชนิดและการเกิดพอลิเมอร์",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "sci.physical.polymer",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [
+        "chem.properties.polymer.types"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_63",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "easy",
+      "keywords": [
+        "พอลิเมอร์"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ | ทับกับวิชาวิทยาศาสตร์เข้ม ใช้บทเรียนร่วมกัน แต่ที่นี่ถามตื้นกว่า"
+    },
+    {
+      "id": "sci.physical.polymer.environment",
+      "name_th": "พลาสติกและผลกระทบต่อสิ่งแวดล้อม",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "sci.physical.polymer",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "sci.physical.polymer.types"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_63",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "easy",
+      "keywords": [
+        "พลาสติก",
+        "สิ่งแวดล้อม"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "sci.physical.chemical_reaction",
+      "name_th": "ปฏิกิริยาเคมี",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "sci.physical",
+      "order": 6,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ปฏิกิริยาเคมี"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "sci.physical.chemical_reaction.types",
+      "name_th": "ประเภทของปฏิกิริยาเคมีและสมการ",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "sci.physical.chemical_reaction",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [
+        "chem.reaction.stoichiometry.balance"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_63",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ปฏิกิริยาเคมี",
+        "สมการเคมี"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ | ทับกับวิชาวิทยาศาสตร์เข้ม ใช้บทเรียนร่วมกัน แต่ที่นี่ถามตื้นกว่า"
+    },
+    {
+      "id": "sci.physical.chemical_reaction.rate_factor",
+      "name_th": "ปัจจัยที่มีผลต่อการเกิดปฏิกิริยา",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "sci.physical.chemical_reaction",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "chem.reaction.rate.factors",
+        "sci.physical.chemical_reaction.types"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_63",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ปัจจัย",
+        "อัตรา"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ | ทับกับวิชาวิทยาศาสตร์เข้ม ใช้บทเรียนร่วมกัน แต่ที่นี่ถามตื้นกว่า"
+    },
+    {
+      "id": "sci.physical.chemical_reaction.daily_life",
+      "name_th": "ปฏิกิริยาเคมีในชีวิตประจำวันและอุตสาหกรรม",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "sci.physical.chemical_reaction",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "sci.physical.chemical_reaction.rate_factor"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_63",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "easy",
+      "keywords": [
+        "ชีวิตประจำวัน"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "sci.physical.radioactive",
+      "name_th": "สารกัมมันตรังสี",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "sci.physical",
+      "order": 7,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "สารกัมมันตรังสี"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "sci.physical.radioactive.decay",
+      "name_th": "การสลายตัวและครึ่งชีวิต",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "sci.physical.radioactive",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [
+        "phy.modern.nuclear.radioactive"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_63",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "กัมมันตรังสี",
+        "ครึ่งชีวิต"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ | ทับกับวิชาวิทยาศาสตร์เข้ม ใช้บทเรียนร่วมกัน แต่ที่นี่ถามตื้นกว่า"
+    },
+    {
+      "id": "sci.physical.radioactive.use_safety",
+      "name_th": "การใช้ประโยชน์และความปลอดภัย",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "sci.physical.radioactive",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "sci.physical.radioactive.decay"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_63",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "easy",
+      "keywords": [
+        "ใช้ประโยชน์",
+        "ความปลอดภัย"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ | มีข้อกำหนดความปลอดภัยที่ต้องถูกต้อง ตั้ง ai_draft_needs_fact_check"
+    },
+    {
+      "id": "sci.physical.motion_force",
+      "name_th": "การเคลื่อนที่และแรง",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "sci.physical",
+      "order": 8,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "การเคลื่อนที่และแรง"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "sci.physical.motion_force.motion",
+      "name_th": "การเคลื่อนที่แนวตรงและกราฟ",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "sci.physical.motion_force",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [
+        "phy.mechanics.linear_motion.kinematics"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_63",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "การเคลื่อนที่"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ | ทับกับวิชาวิทยาศาสตร์เข้ม ใช้บทเรียนร่วมกัน แต่ที่นี่ถามตื้นกว่า"
+    },
+    {
+      "id": "sci.physical.motion_force.newton",
+      "name_th": "แรงและกฎการเคลื่อนที่",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "sci.physical.motion_force",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "phy.mechanics.force_laws.newton_laws",
+        "sci.physical.motion_force.motion"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_63",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "แรง",
+        "กฎนิวตัน"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ | ทับกับวิชาวิทยาศาสตร์เข้ม ใช้บทเรียนร่วมกัน แต่ที่นี่ถามตื้นกว่า"
+    },
+    {
+      "id": "sci.physical.natural_force",
+      "name_th": "แรงในธรรมชาติ",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "sci.physical",
+      "order": 9,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "แรงในธรรมชาติ"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "sci.physical.natural_force.gravity",
+      "name_th": "แรงโน้มถ่วง",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "sci.physical.natural_force",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_63",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "easy",
+      "keywords": [
+        "แรงโน้มถ่วง"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "sci.physical.natural_force.em_nuclear",
+      "name_th": "แรงไฟฟ้า แรงแม่เหล็ก และแรงนิวเคลียร์",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "sci.physical.natural_force",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "sci.physical.natural_force.gravity"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_63",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "แรงไฟฟ้า",
+        "แรงนิวเคลียร์"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "sci.physical.renewable",
+      "name_th": "พลังงานทดแทน",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "sci.physical",
+      "order": 10,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "พลังงานทดแทน"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "sci.physical.renewable.types",
+      "name_th": "ประเภทของพลังงานทดแทน",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "sci.physical.renewable",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_63",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "easy",
+      "keywords": [
+        "พลังงานทดแทน"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "sci.physical.renewable.compare",
+      "name_th": "ข้อดีข้อเสียและการเลือกใช้",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "sci.physical.renewable",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat3.civic.environment.tradeoff_economy",
+        "sci.physical.renewable.types"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_63",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ข้อดีข้อเสีย",
+        "เลือกใช้"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "sci.physical.mech_wave",
+      "name_th": "คลื่นกล",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "sci.physical",
+      "order": 11,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "คลื่นกล"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "sci.physical.mech_wave.properties",
+      "name_th": "สมบัติและส่วนประกอบของคลื่น",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "sci.physical.mech_wave",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [
+        "phy.wave_light.wave.properties"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_63",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "easy",
+      "keywords": [
+        "คลื่น"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ | ทับกับวิชาวิทยาศาสตร์เข้ม ใช้บทเรียนร่วมกัน แต่ที่นี่ถามตื้นกว่า"
+    },
+    {
+      "id": "sci.physical.mech_wave.behavior",
+      "name_th": "พฤติกรรมของคลื่น",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "sci.physical.mech_wave",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "phy.wave_light.wave.behavior",
+        "sci.physical.mech_wave.properties"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_63",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "สะท้อน",
+        "หักเห"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ | ทับกับวิชาวิทยาศาสตร์เข้ม ใช้บทเรียนร่วมกัน แต่ที่นี่ถามตื้นกว่า"
+    },
+    {
+      "id": "sci.physical.sound",
+      "name_th": "เสียง",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "sci.physical",
+      "order": 12,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "เสียง"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "sci.physical.sound.nature",
+      "name_th": "ธรรมชาติของเสียงและการได้ยิน",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "sci.physical.sound",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [
+        "phy.wave_light.sound.nature"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_63",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "easy",
+      "keywords": [
+        "เสียง",
+        "การได้ยิน"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ | ทับกับวิชาวิทยาศาสตร์เข้ม ใช้บทเรียนร่วมกัน แต่ที่นี่ถามตื้นกว่า"
+    },
+    {
+      "id": "sci.physical.sound.noise",
+      "name_th": "มลพิษทางเสียงและการป้องกัน",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "sci.physical.sound",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "sci.physical.sound.nature"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_63",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "easy",
+      "keywords": [
+        "มลพิษทางเสียง"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "sci.physical.light_color",
+      "name_th": "แสงสี",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "sci.physical",
+      "order": 13,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "แสงสี"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "sci.physical.light_color.color",
+      "name_th": "การเกิดสีและการมองเห็นสี",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "sci.physical.light_color",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_63",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "แสงสี",
+        "การมองเห็น"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "sci.physical.light_color.optics",
+      "name_th": "การสะท้อน หักเห และการใช้ประโยชน์",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "sci.physical.light_color",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "phy.wave_light.light.reflection_refraction",
+        "sci.physical.light_color.color"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_63",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "สะท้อนแสง",
+        "หักเหแสง"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ | ทับกับวิชาวิทยาศาสตร์เข้ม ใช้บทเรียนร่วมกัน แต่ที่นี่ถามตื้นกว่า"
+    },
+    {
+      "id": "sci.physical.em_wave",
+      "name_th": "คลื่นแม่เหล็กไฟฟ้า",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "sci.physical",
+      "order": 14,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "คลื่นแม่เหล็กไฟฟ้า"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "sci.physical.em_wave.spectrum",
+      "name_th": "สเปกตรัมคลื่นแม่เหล็กไฟฟ้า",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "sci.physical.em_wave",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [
+        "phy.electricity.em_wave.spectrum"
+      ],
+      "est_minutes": 20,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_63",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "easy",
+      "keywords": [
+        "สเปกตรัม"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ | ทับกับวิชาวิทยาศาสตร์เข้ม ใช้บทเรียนร่วมกัน แต่ที่นี่ถามตื้นกว่า"
+    },
+    {
+      "id": "sci.physical.em_wave.use_risk",
+      "name_th": "การใช้ประโยชน์และผลต่อสุขภาพ",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "sci.physical.em_wave",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "sci.physical.em_wave.spectrum"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_63",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "easy",
+      "keywords": [
+        "ใช้ประโยชน์",
+        "สุขภาพ"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ | อ้างผลต่อสุขภาพ ต้องตั้ง ai_draft_needs_fact_check และห้ามเขียนเป็นคำแนะนำทางการแพทย์"
+    },
+    {
+      "id": "sci.earth_space",
+      "name_th": "วิทยาศาสตร์โลกและอวกาศ",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "sci",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_63",
+          "typical_items": "6-8 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "วิทยาศาสตร์โลกและอวกาศ"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (ส่วนทางการ) · ผังสอบระบุ 6-8 ข้อ · ส่วนเดียวที่ไม่ทับกับวิชาอื่นเลย ต้องทำบทเรียนใหม่ทั้งหมด"
+    },
+    {
+      "id": "sci.earth_space.universe",
+      "name_th": "เอกภพและกาแล็กซี",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "sci.earth_space",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "เอกภพและกาแล็กซี"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "sci.earth_space.universe.bigbang",
+      "name_th": "การกำเนิดเอกภพและหลักฐาน",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "sci.earth_space.universe",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_63",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "เอกภพ",
+        "บิกแบง"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "sci.earth_space.universe.galaxy",
+      "name_th": "กาแล็กซีและโครงสร้างของเอกภพ",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "sci.earth_space.universe",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "sci.earth_space.universe.bigbang"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_63",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "easy",
+      "keywords": [
+        "กาแล็กซี"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "sci.earth_space.star",
+      "name_th": "ดาวฤกษ์",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "sci.earth_space",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ดาวฤกษ์"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "sci.earth_space.star.property",
+      "name_th": "สมบัติและการจำแนกดาวฤกษ์",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "sci.earth_space.star",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_63",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ดาวฤกษ์",
+        "จำแนก"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "sci.earth_space.star.lifecycle",
+      "name_th": "วิวัฒนาการของดาวฤกษ์",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "sci.earth_space.star",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "sci.earth_space.star.property"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_63",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "วิวัฒนาการดาว"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "sci.earth_space.solar_system",
+      "name_th": "ระบบสุริยะ",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "sci.earth_space",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ระบบสุริยะ"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "sci.earth_space.solar_system.members",
+      "name_th": "สมาชิกของระบบสุริยะ",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "sci.earth_space.solar_system",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 20,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_63",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "easy",
+      "keywords": [
+        "ระบบสุริยะ",
+        "ดาวเคราะห์"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "sci.earth_space.solar_system.motion",
+      "name_th": "การโคจรและปรากฏการณ์ที่เกี่ยวข้อง",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "sci.earth_space.solar_system",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "sci.earth_space.solar_system.members"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_63",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "โคจร",
+        "ปรากฏการณ์"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "sci.earth_space.space_tech",
+      "name_th": "เทคโนโลยีอวกาศ",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "sci.earth_space",
+      "order": 4,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "เทคโนโลยีอวกาศ"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "sci.earth_space.space_tech.tools",
+      "name_th": "กล้องโทรทรรศน์และยานอวกาศ",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "sci.earth_space.space_tech",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 20,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_63",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "easy",
+      "keywords": [
+        "กล้องโทรทรรศน์",
+        "ยานอวกาศ"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "sci.earth_space.space_tech.satellite",
+      "name_th": "ดาวเทียมและการใช้ประโยชน์",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "sci.earth_space.space_tech",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "sci.earth_space.space_tech.tools"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_63",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "easy",
+      "keywords": [
+        "ดาวเทียม"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "sci.earth_space.earth_structure",
+      "name_th": "โครงสร้างโลก",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "sci.earth_space",
+      "order": 5,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "โครงสร้างโลก"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "sci.earth_space.earth_structure.layers",
+      "name_th": "ชั้นโครงสร้างภายในโลก",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "sci.earth_space.earth_structure",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 20,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_63",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "easy",
+      "keywords": [
+        "โครงสร้างโลก"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "sci.earth_space.earth_structure.evidence",
+      "name_th": "หลักฐานที่ใช้ศึกษาโครงสร้างโลก",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "sci.earth_space.earth_structure",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "sci.earth_space.earth_structure.layers"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_63",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "หลักฐาน",
+        "คลื่นไหวสะเทือน"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "sci.earth_space.plate_tectonic",
+      "name_th": "การแปรสัณฐานของแผ่นธรณี",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "sci.earth_space",
+      "order": 6,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "การแปรสัณฐานของแผ่นธรณี"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "sci.earth_space.plate_tectonic.theory",
+      "name_th": "ทฤษฎีการแปรสัณฐานและหลักฐาน",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "sci.earth_space.plate_tectonic",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_63",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "แปรสัณฐาน",
+        "แผ่นธรณี"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "sci.earth_space.plate_tectonic.boundary",
+      "name_th": "ขอบแผ่นธรณีและผลที่เกิดขึ้น",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "sci.earth_space.plate_tectonic",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "sci.earth_space.plate_tectonic.theory"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_63",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ขอบแผ่นธรณี"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "sci.earth_space.geohazard",
+      "name_th": "ธรณีพิบัติภัย",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "sci.earth_space",
+      "order": 7,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ธรณีพิบัติภัย"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "sci.earth_space.geohazard.earthquake",
+      "name_th": "แผ่นดินไหวและสึนามิ",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "sci.earth_space.geohazard",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_63",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "แผ่นดินไหว",
+        "สึนามิ"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "sci.earth_space.geohazard.volcano_landslide",
+      "name_th": "ภูเขาไฟระเบิดและดินถล่ม",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "sci.earth_space.geohazard",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "sci.earth_space.geohazard.earthquake"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_63",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ภูเขาไฟ",
+        "ดินถล่ม"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "sci.earth_space.geohazard.prepare",
+      "name_th": "การเตรียมพร้อมและการรับมือ",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "sci.earth_space.geohazard",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "sci.earth_space.geohazard.volcano_landslide"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_63",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "easy",
+      "keywords": [
+        "เตรียมพร้อม",
+        "รับมือ"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ | มีแนวปฏิบัติที่ต้องถูกต้องตามหน่วยงานราชการ ตั้ง ai_draft_needs_fact_check"
+    },
+    {
+      "id": "sci.earth_space.weather",
+      "name_th": "การเกิดลมฟ้าอากาศและภูมิอากาศ",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "sci.earth_space",
+      "order": 8,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "การเกิดลมฟ้าอากาศและภูมิอากาศ"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "sci.earth_space.weather.element",
+      "name_th": "องค์ประกอบของลมฟ้าอากาศ",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "sci.earth_space.weather",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_63",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "easy",
+      "keywords": [
+        "ลมฟ้าอากาศ"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "sci.earth_space.weather.phenomena",
+      "name_th": "ปรากฏการณ์ลมฟ้าอากาศและพายุ",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "sci.earth_space.weather",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "sci.earth_space.weather.element"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_63",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "พายุ",
+        "ปรากฏการณ์"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "sci.earth_space.climate_change",
+      "name_th": "การเปลี่ยนแปลงภูมิอากาศ",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "sci.earth_space",
+      "order": 9,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "การเปลี่ยนแปลงภูมิอากาศ"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "sci.earth_space.climate_change.cause",
+      "name_th": "สาเหตุและกลไกการเปลี่ยนแปลงภูมิอากาศ",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "sci.earth_space.climate_change",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_63",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ภูมิอากาศ",
+        "ก๊าซเรือนกระจก"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ | อ้างสถิติและข้อตกลงระหว่างประเทศได้ ตั้ง ai_draft_needs_fact_check"
+    },
+    {
+      "id": "sci.earth_space.climate_change.impact",
+      "name_th": "ผลกระทบและการปรับตัว",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "sci.earth_space.climate_change",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "sci.earth_space.climate_change.cause"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_63",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ผลกระทบ",
+        "ปรับตัว"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "sci.earth_space.meteorology",
+      "name_th": "ข้อมูลสารสนเทศทางอุตุนิยมวิทยา",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "sci.earth_space",
+      "order": 10,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ข้อมูลสารสนเทศทางอุตุนิยมวิทยา"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "sci.earth_space.meteorology.read_map",
+      "name_th": "อ่านแผนที่อากาศและสัญลักษณ์",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "sci.earth_space.meteorology",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_63",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "แผนที่อากาศ",
+        "สัญลักษณ์"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "sci.earth_space.meteorology.forecast",
+      "name_th": "การพยากรณ์อากาศและการใช้ข้อมูล",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "sci.earth_space.meteorology",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "sci.earth_space.meteorology.read_map"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_63",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "พยากรณ์อากาศ"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    }
+  ]
+}

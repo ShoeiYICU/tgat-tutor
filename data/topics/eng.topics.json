@@ -1,0 +1,817 @@
+{
+  "schema_version": "1.0",
+  "subject": "eng",
+  "subject_name_th": "A-Level ภาษาอังกฤษ",
+  "exam_codes": [
+    "ALEVEL_82"
+  ],
+  "source_note": "ยืนยันโครงสอบแล้วจาก mytcas.com/blueprint/a-level-82-eng/ (ตรวจ 21 กันยายน 2569): 80 ข้อ 100 คะแนน 90 นาที ประเภทข้อสอบ 'ปรนัย (4 ตัวเลือก)' | 3 ส่วน คือ ทักษะการฟังและการพูด 20 ข้อ 25 คะแนน (เติมบทสนทนาแบบสั้น 3 บทสนทนา / เติมบทสนทนาแบบยาว 1 บทสนทนา) · ทักษะการอ่าน 40 ข้อ 50 คะแนน (โฆษณา 2 บทความ / บทวิจารณ์สินค้าหรือบริการ 1 บทความ / รายงานข่าว 1 บทความ / ภาพประกอบบทความ 2 เรื่อง / บทความทั่วไป 2 บทความ) · ทักษะการเขียน 20 ข้อ 25 คะแนน (เติมบทความให้สมบูรณ์ 3 บทความ / เรียงประโยคให้เป็นย่อหน้าที่สมบูรณ์ 5 ย่อหน้า) | ผังสอบไม่ได้ระบุ: จำนวนข้อของแต่ละประเภทบทอ่าน และระดับ CEFR ของภาษาที่ใช้ | ชื่อหัวข้อทางการคัดมาตรงตัว ส่วน leaf เป็นการซอยของเราเอง",
+  "topics": [
+    {
+      "id": "eng",
+      "name_th": "A-Level ภาษาอังกฤษ",
+      "name_en": "",
+      "kind": "subject",
+      "parent": null,
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ALEVEL_82",
+        "ภาษาอังกฤษ"
+      ],
+      "curriculum_ref": null,
+      "notes": "วิชาเนื้อหาตามหลักสูตร | โครงสอบยืนยันแล้ว: 80 ข้อ 100 คะแนน 90 นาที | **ปรนัย 4 ตัวเลือก** ใช้ format mcq4 (ต่างจากวิชาวิทยาศาสตร์ A-Level ที่เป็น mcq5) | **ทักษะการอ่านคือครึ่งหนึ่งของวิชา** (40 จาก 80 ข้อ 50 คะแนน) ควรลงแรงมากที่สุด | ทับกับ TGAT1 การสื่อสารภาษาอังกฤษ ใช้บทเรียนร่วมกันได้หลายหัวข้อ ที่ต่างคือ A-Level มีประเภทบทอ่านเฉพาะที่ TGAT1 ไม่มี (โฆษณา บทวิจารณ์ รายงานข่าว ภาพประกอบบทความ) และมีส่วนการเขียนที่ TGAT1 ไม่มี | **วิชานี้ template ไม่ได้** ต้องแต่งโจทย์มือ 20 ข้อต่อหัวข้อตามสเปค | ผังสอบไม่ได้ระบุระดับ CEFR ห้ามอ้างระดับเองในบทเรียน"
+    },
+    {
+      "id": "eng.listen_speak",
+      "name_th": "ทักษะการฟังและการพูด",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "eng",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_82",
+          "typical_items": "20 ข้อ 25 คะแนน",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ทักษะการฟังและการพูด"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (ส่วนทางการ) · ผังสอบระบุ 20 ข้อ 25 คะแนน"
+    },
+    {
+      "id": "eng.listen_speak.short_conv",
+      "name_th": "เติมบทสนทนาแบบสั้น",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "eng.listen_speak",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "เติมบทสนทนาแบบสั้น"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ) · ผังสอบระบุ 3 บทสนทนา"
+    },
+    {
+      "id": "eng.listen_speak.short_conv.function",
+      "name_th": "วลีสื่อสารที่ออกบ่อยในบทสนทนาสั้น",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "eng.listen_speak.short_conv",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat1.speaking.foundation.function_bank"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_82",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "วลีสื่อสาร"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ | ทับกับ TGAT1 ใช้บทเรียนร่วมกันได้"
+    },
+    {
+      "id": "eng.listen_speak.short_conv.context",
+      "name_th": "อ่านบริบทก่อนและหลังช่องว่าง",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "eng.listen_speak.short_conv",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat1.speaking.short_conversation.turn_taking",
+        "eng.listen_speak.short_conv.function"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_82",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "บริบท",
+        "เติมช่องว่าง"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "eng.listen_speak.long_conv",
+      "name_th": "เติมบทสนทนาแบบยาว",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "eng.listen_speak",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "เติมบทสนทนาแบบยาว"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ) · ผังสอบระบุ 1 บทสนทนา"
+    },
+    {
+      "id": "eng.listen_speak.long_conv.track",
+      "name_th": "ติดตามเนื้อความข้ามหลายบทพูด",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "eng.listen_speak.long_conv",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat1.speaking.long_conversation.tracking_speakers"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_82",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "ติดตามบทสนทนา"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "eng.listen_speak.long_conv.implied",
+      "name_th": "ความหมายแฝงและการตอบเลี่ยง",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "eng.listen_speak.long_conv",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat1.speaking.long_conversation.implied_meaning",
+        "eng.listen_speak.long_conv.track"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_82",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "ความหมายแฝง"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "eng.reading",
+      "name_th": "ทักษะการอ่าน",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "eng",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_82",
+          "typical_items": "40 ข้อ 50 คะแนน",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ทักษะการอ่าน"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (ส่วนทางการ) · ผังสอบระบุ 40 ข้อ 50 คะแนน · ครึ่งหนึ่งของวิชา ควรลงแรงมากที่สุด"
+    },
+    {
+      "id": "eng.reading.advertisement",
+      "name_th": "โฆษณา",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "eng.reading",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "โฆษณา"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ) · ผังสอบระบุ 2 บทความ"
+    },
+    {
+      "id": "eng.reading.advertisement.structure",
+      "name_th": "โครงของโฆษณาและการหาข้อมูลสำคัญ",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "eng.reading.advertisement",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_82",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "easy",
+      "keywords": [
+        "โฆษณา"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "eng.reading.advertisement.persuasive_language",
+      "name_th": "ภาษาโน้มน้าวและคำที่ต้องอ่านให้ละเอียด",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "eng.reading.advertisement",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "eng.reading.advertisement.structure"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_82",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "โน้มน้าว",
+        "เงื่อนไข"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "eng.reading.review",
+      "name_th": "บทวิจารณ์สินค้าหรือบริการ",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "eng.reading",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "บทวิจารณ์สินค้าหรือบริการ"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ) · ผังสอบระบุ 1 บทความ"
+    },
+    {
+      "id": "eng.reading.review.opinion",
+      "name_th": "แยกข้อเท็จจริงจากความเห็นในบทวิจารณ์",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "eng.reading.review",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_82",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "บทวิจารณ์",
+        "ความเห็น"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "eng.reading.review.rating",
+      "name_th": "สรุปข้อดีข้อเสียและคำแนะนำของผู้เขียน",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "eng.reading.review",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "eng.reading.review.opinion"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_82",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ข้อดีข้อเสีย"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "eng.reading.news",
+      "name_th": "รายงานข่าว",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "eng.reading",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "รายงานข่าว"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ) · ผังสอบระบุ 1 บทความ"
+    },
+    {
+      "id": "eng.reading.news.five_w",
+      "name_th": "หาใคร ทำอะไร ที่ไหน เมื่อไร อย่างไร",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "eng.reading.news",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_82",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "easy",
+      "keywords": [
+        "รายงานข่าว",
+        "5W1H"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "eng.reading.news.source_bias",
+      "name_th": "น้ำเสียงและความเอนเอียงของข่าว",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "eng.reading.news",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "eng.reading.news.five_w"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_82",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "น้ำเสียง",
+        "เอนเอียง"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "eng.reading.graphic",
+      "name_th": "ภาพประกอบบทความ",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "eng.reading",
+      "order": 4,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ภาพประกอบบทความ"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ) · ผังสอบระบุ 2 เรื่อง"
+    },
+    {
+      "id": "eng.reading.graphic.read_chart",
+      "name_th": "อ่านกราฟ ตาราง และแผนภูมิในบทความ",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "eng.reading.graphic",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat2.numerical.word_problem.table_graph"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_82",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "กราฟ",
+        "ตาราง"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "eng.reading.graphic.text_graphic",
+      "name_th": "เชื่อมข้อมูลในภาพกับเนื้อความ",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "eng.reading.graphic",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "eng.reading.graphic.read_chart"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_82",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "เชื่อมข้อมูล"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "eng.reading.general_article",
+      "name_th": "บทความทั่วไป",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "eng.reading",
+      "order": 5,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "บทความทั่วไป"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ) · ผังสอบระบุ 2 บทความ"
+    },
+    {
+      "id": "eng.reading.general_article.main_idea",
+      "name_th": "ใจความหลักและการตั้งชื่อเรื่อง",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "eng.reading.general_article",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat1.reading.comprehension.main_idea"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_82",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ใจความหลัก"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "eng.reading.general_article.vocab_context",
+      "name_th": "เดาความหมายคำจากบริบท",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "eng.reading.general_article",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat1.reading.comprehension.vocabulary_in_passage",
+        "eng.reading.general_article.main_idea"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_82",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "เดาศัพท์"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "eng.reading.general_article.inference",
+      "name_th": "อนุมานจากบทอ่าน",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "eng.reading.general_article",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat1.reading.comprehension.inference",
+        "eng.reading.general_article.vocab_context"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_82",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "อนุมาน"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "eng.reading.general_article.organization",
+      "name_th": "โครงเรื่องและหน้าที่ของย่อหน้า",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "eng.reading.general_article",
+      "order": 4,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat1.reading.comprehension.text_organization",
+        "eng.reading.general_article.inference"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_82",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "โครงเรื่อง"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "eng.writing",
+      "name_th": "ทักษะการเขียน",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "eng",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_82",
+          "typical_items": "20 ข้อ 25 คะแนน",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ทักษะการเขียน"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (ส่วนทางการ) · ผังสอบระบุ 20 ข้อ 25 คะแนน"
+    },
+    {
+      "id": "eng.writing.complete_article",
+      "name_th": "เติมบทความให้สมบูรณ์",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "eng.writing",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "เติมบทความให้สมบูรณ์"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ) · ผังสอบระบุ 3 บทความ"
+    },
+    {
+      "id": "eng.writing.complete_article.grammar_context",
+      "name_th": "เลือกรูปคำให้ถูกไวยากรณ์ตามบริบท",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "eng.writing.complete_article",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat1.reading.text_completion.grammar_in_context"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_82",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ไวยากรณ์ตามบริบท"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "eng.writing.complete_article.connector",
+      "name_th": "ตัวเชื่อมความและความสัมพันธ์ระหว่างประโยค",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "eng.writing.complete_article",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat1.reading.text_completion.connector",
+        "eng.writing.complete_article.grammar_context"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_82",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ตัวเชื่อม"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "eng.writing.complete_article.collocation",
+      "name_th": "คำที่ใช้คู่กันและการเลือกคำ",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "eng.writing.complete_article",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat1.reading.text_completion.collocation",
+        "eng.writing.complete_article.connector"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_82",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "collocation"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "eng.writing.paragraph_order",
+      "name_th": "เรียงประโยคให้เป็นย่อหน้าที่สมบูรณ์",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "eng.writing",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "เรียงประโยคให้เป็นย่อหน้าที่สมบูรณ์"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ) · ผังสอบระบุ 5 ย่อหน้า"
+    },
+    {
+      "id": "eng.writing.paragraph_order.topic_sentence",
+      "name_th": "หาประโยคใจความหลักของย่อหน้า",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "eng.writing.paragraph_order",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_82",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "topic sentence"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "eng.writing.paragraph_order.cohesion",
+      "name_th": "ใช้คำอ้างถึงและตัวเชื่อมเพื่อจัดลำดับ",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "eng.writing.paragraph_order",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat1.reading.text_completion.reference_word",
+        "eng.writing.paragraph_order.topic_sentence"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_82",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "คำอ้างถึง",
+        "ลำดับ"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    }
+  ]
+}

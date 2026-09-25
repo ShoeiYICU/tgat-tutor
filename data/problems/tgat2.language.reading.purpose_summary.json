@@ -1,0 +1,552 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tgat2.language.reading.purpose_summary",
+  "problems": [
+    {
+      "id": "prob.tgat2.language.reading.purpose_summary.0001",
+      "topic_ids": [
+        "tgat2.language.reading.purpose_summary"
+      ],
+      "primary_topic_id": "tgat2.language.reading.purpose_summary",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 55,
+      "stem_md": "เมืองแห่งหนึ่งทดลองทำเลนจักรยานแยกจากถนนเป็นระยะทางห้ากิโลเมตร ผ่านไปหนึ่งปี จำนวนคนปั่นจักรยานไปทำงานในย่านนั้นเพิ่มขึ้นจากวันละประมาณสองร้อยคนเป็นเกือบพันคน ร้านค้าริมเลนบางร้านซึ่งเคยกังวลว่าที่จอดรถหายไป กลับพบว่ามีลูกค้าเดินเข้าร้านมากขึ้น เพราะคนปั่นจักรยานแวะซื้อของได้ง่ายกว่าคนขับรถ ถึงกระนั้น ผู้ขับรถจำนวนไม่น้อยยังบ่นว่าถนนแคบลงและรถติดกว่าเดิมในชั่วโมงเร่งด่วน\n\nผู้เขียนมีจุดประสงค์ใดเป็นหลัก",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ตำหนิผู้ขับรถที่ไม่ยอมรับการเปลี่ยนแปลงของเมือง",
+          "is_answer": false
+        },
+        {
+          "md": "โฆษณาร้านค้าริมเลนจักรยานให้คนรู้จักมากขึ้น",
+          "is_answer": false
+        },
+        {
+          "md": "เรียกร้องให้ยกเลิกเลนจักรยาน",
+          "is_answer": false
+        },
+        {
+          "md": "นำเสนอผลที่เกิดขึ้นหลังทำเลนจักรยาน",
+          "is_answer": true
+        },
+        {
+          "md": "ชักชวนให้คนหันมาปั่นจักรยานไปทำงาน",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "บทอ่านเสนอทั้งผลดีและผลเสีย",
+          "why_md": "เป็นกลาง"
+        },
+        {
+          "do_md": "ไม่มีคำชวน ตำหนิ หรือเรียกร้อง",
+          "why_md": "เจตนาให้ข้อมูล"
+        }
+      ],
+      "answer_explanation_md": "ตอบ นำเสนอผลที่เกิดขึ้นหลังทำเลนจักรยาน เพราะบทอ่านเล่าทั้งผลดีและผลเสียโดยไม่ชวนหรือตำหนิ",
+      "hints": [
+        "บทอ่านมีคำอย่าง ควร ขอเชิญ ไหม",
+        "ผู้เขียนเสนอข้อมูลกี่ด้าน",
+        "เสนอสองด้านเท่ากัน แปลว่าอะไร"
+      ],
+      "distractor_reasons": {
+        "0": "ไม่มีคำตำหนิ",
+        "1": "ไม่มีชื่อร้านหรือคำเชิญชวน",
+        "2": "ไม่มีการเรียกร้อง",
+        "4": "ไม่มีคำชวน"
+      },
+      "misconception_tags": [
+        "topic_as_purpose"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.language.reading.purpose_summary.0002",
+      "topic_ids": [
+        "tgat2.language.reading.purpose_summary"
+      ],
+      "primary_topic_id": "tgat2.language.reading.purpose_summary",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 40,
+      "stem_md": "\"ทุกปีมีสัตว์ทะเลนับพันตัวตายเพราะกินถุงพลาสติกเข้าไป ถุงหนึ่งใบที่เราใช้เพียงไม่กี่นาทีอาจอยู่ในทะเลนานหลายร้อยปี วันนี้เราทุกคนเริ่มต้นได้ง่าย ๆ ด้วยการพกถุงผ้าติดตัว\"\n\nผู้เขียนมีจุดประสงค์ใด",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ตำหนิบริษัทผู้ผลิตถุงพลาสติกที่ไม่รับผิดชอบต่อสิ่งแวดล้อม",
+          "is_answer": false
+        },
+        {
+          "md": "อธิบายวิธีผลิตถุงผ้าอย่างละเอียด",
+          "is_answer": false
+        },
+        {
+          "md": "ให้ความรู้เรื่องชนิดของสัตว์ทะเล",
+          "is_answer": false
+        },
+        {
+          "md": "เล่าประสบการณ์การดำน้ำของผู้เขียน",
+          "is_answer": false
+        },
+        {
+          "md": "โน้มน้าวให้ลดการใช้ถุงพลาสติก",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ประโยคปิดชวนผู้อ่าน: เราทุกคนเริ่มต้นได้...พกถุงผ้า",
+          "why_md": "คำชวน"
+        },
+        {
+          "do_md": "ข้อมูลก่อนหน้าใช้สนับสนุนการชวน",
+          "why_md": "โน้มน้าว"
+        }
+      ],
+      "answer_explanation_md": "ตอบ โน้มน้าวให้ลดการใช้ถุงพลาสติก เพราะประโยคปิดชวนให้ผู้อ่านพกถุงผ้า",
+      "hints": [
+        "ประโยคปิดต้องการให้ผู้อ่านทำอะไร",
+        "ข้อมูลเรื่องสัตว์ทะเลใช้เพื่ออะไร",
+        "มีคำชวนหรือไม่"
+      ],
+      "distractor_reasons": {
+        "0": "ไม่ได้พูดถึงผู้ผลิต",
+        "1": "ไม่มีขั้นตอนการผลิต",
+        "2": "ไม่ได้บอกชนิดสัตว์",
+        "3": "ไม่มีเรื่องเล่าส่วนตัว"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.language.reading.purpose_summary.0003",
+      "topic_ids": [
+        "tgat2.language.reading.purpose_summary"
+      ],
+      "primary_topic_id": "tgat2.language.reading.purpose_summary",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 40,
+      "stem_md": "\"น่าเสียดายที่อาคารไม้เก่าอายุร้อยปีหลังนี้ถูกรื้อทิ้งเพื่อสร้างลานจอดรถ ทั้งที่ชุมชนเคยเสนอให้ปรับเป็นพิพิธภัณฑ์ท้องถิ่นมาแล้วหลายครั้ง\"\n\nน้ำเสียงของผู้เขียนเป็นอย่างไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ยินดีและชื่นชม",
+          "is_answer": false
+        },
+        {
+          "md": "เสียดายและไม่เห็นด้วย",
+          "is_answer": true
+        },
+        {
+          "md": "ตื่นเต้นและคาดหวังกับลานจอดรถแห่งใหม่",
+          "is_answer": false
+        },
+        {
+          "md": "หวาดกลัว",
+          "is_answer": false
+        },
+        {
+          "md": "เป็นกลาง ไม่แสดงความรู้สึก",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "คำว่า น่าเสียดาย แสดงความเสียดาย",
+          "why_md": "คำแสดงท่าที"
+        },
+        {
+          "do_md": "ทั้งที่ชุมชนเคยเสนอ... แสดงว่าไม่เห็นด้วยกับการรื้อ",
+          "why_md": "ท่าทีวิจารณ์"
+        }
+      ],
+      "answer_explanation_md": "ตอบ เสียดายและไม่เห็นด้วย เพราะมีคำว่า น่าเสียดาย และ ทั้งที่ ซึ่งแสดงการวิจารณ์",
+      "hints": [
+        "หาคำที่แสดงความรู้สึกในข้อความ",
+        "คำว่า ทั้งที่ บอกท่าทีอะไร",
+        "ผู้เขียนเห็นด้วยกับการรื้อไหม"
+      ],
+      "distractor_reasons": {
+        "0": "ขัดกับคำว่า น่าเสียดาย",
+        "2": "ไม่มีคำแสดงความคาดหวัง",
+        "3": "ไม่มีสิ่งที่น่ากลัว",
+        "4": "มีคำแสดงท่าทีชัดเจน"
+      },
+      "misconception_tags": [
+        "topic_as_purpose"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.language.reading.purpose_summary.0004",
+      "topic_ids": [
+        "tgat2.language.reading.purpose_summary"
+      ],
+      "primary_topic_id": "tgat2.language.reading.purpose_summary",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 60,
+      "stem_md": "ร้านชานมหลายแห่งเริ่มให้ลูกค้าเลือกระดับความหวานเองตั้งแต่ 0 ถึง 100 เปอร์เซ็นต์ เจ้าของร้านรายหนึ่งเล่าว่า ช่วงแรกลูกค้าเกือบทั้งหมดเลือกหวานปกติ แต่หลังจากร้านติดป้ายบอกปริมาณน้ำตาลในแต่ละระดับ ลูกค้าที่เลือกหวานน้อยเพิ่มขึ้นเกือบครึ่ง อย่างไรก็ตาม ยอดขายโดยรวมของร้านไม่ได้ลดลง ร้านจึงวางแผนจะเพิ่มเมนูไม่ใส่น้ำตาลในเดือนหน้า\n\nข้อใดเป็นบทสรุปที่เหมาะสมที่สุด",
+      "figures": [],
+      "choices": [
+        {
+          "md": "การบอกปริมาณน้ำตาลช่วยให้ลูกค้าเลือกหวานน้อยลงโดยร้านไม่เสียยอดขาย",
+          "is_answer": true
+        },
+        {
+          "md": "ร้านชานมควรเลิกขายเครื่องดื่มหวานทั้งหมด",
+          "is_answer": false
+        },
+        {
+          "md": "ป้ายบอกปริมาณน้ำตาลทำให้ร้านมีกำไรเพิ่มขึ้นมาก",
+          "is_answer": false
+        },
+        {
+          "md": "ลูกค้าส่วนใหญ่ยังชอบหวานปกติเหมือนเดิม",
+          "is_answer": false
+        },
+        {
+          "md": "ร้านจะเพิ่มเมนูใหม่ในเดือนหน้า",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "บทสรุปต้องครอบคลุมทั้งการเปลี่ยนแปลงของลูกค้าและยอดขาย",
+          "why_md": "ครอบคลุม"
+        },
+        {
+          "do_md": "ไม่เพิ่มความเห็นหรือบิดข้อมูล",
+          "why_md": "เป็นกลาง"
+        }
+      ],
+      "answer_explanation_md": "ตอบ การบอกปริมาณน้ำตาลช่วยให้ลูกค้าเลือกหวานน้อยลงโดยร้านไม่เสียยอดขาย เพราะครอบคลุมประเด็นหลักทั้งสองโดยไม่เพิ่มความเห็น",
+      "hints": [
+        "ประเด็นหลักของบทอ่านมีอะไรบ้าง",
+        "ตัวเลือกใดครอบคลุมประเด็นหลักทั้งหมด",
+        "ตัดข้อที่เพิ่มความเห็นหรือเปลี่ยนตัวเลข"
+      ],
+      "distractor_reasons": {
+        "1": "เพิ่มความเห็นที่บทอ่านไม่ได้เสนอ",
+        "2": "บทอ่านบอกแค่ยอดขายไม่ลดลง",
+        "3": "ขัดกับข้อมูลหลังติดป้าย",
+        "4": "เป็นรายละเอียดท้ายบท"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.language.reading.purpose_summary.0005",
+      "topic_ids": [
+        "tgat2.language.reading.purpose_summary"
+      ],
+      "primary_topic_id": "tgat2.language.reading.purpose_summary",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 40,
+      "stem_md": "\"ก่อนซื้ออาหารเสริมทางออนไลน์ ควรตรวจเลขทะเบียนกับหน่วยงานที่ดูแลเสมอ สินค้าที่อ้างว่าลดน้ำหนักได้เร็วเกินจริงมักแฝงสารอันตราย และอาจส่งผลร้ายต่อตับและหัวใจ\"\n\nข้อความนี้มีเจตนาใดเป็นหลัก",
+      "figures": [],
+      "choices": [
+        {
+          "md": "อธิบายการทำงานของตับและหัวใจ",
+          "is_answer": false
+        },
+        {
+          "md": "เล่าประสบการณ์ลดน้ำหนักของผู้เขียน",
+          "is_answer": false
+        },
+        {
+          "md": "เตือนให้ระวังอันตรายของอาหารเสริม",
+          "is_answer": true
+        },
+        {
+          "md": "ชื่นชมหน่วยงานที่ดูแลเรื่องอาหารและยาที่ทำงานได้อย่างมีประสิทธิภาพ",
+          "is_answer": false
+        },
+        {
+          "md": "โฆษณาขายอาหารเสริมลดน้ำหนัก",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "คำว่า ควรตรวจ... สารอันตราย... ผลร้าย",
+          "why_md": "คำแสดงการเตือน"
+        },
+        {
+          "do_md": "เจตนาหลักคือให้ผู้อ่านระวัง",
+          "why_md": "เตือน"
+        }
+      ],
+      "answer_explanation_md": "ตอบ เตือนให้ระวังอันตรายของอาหารเสริม เพราะมีคำแนะนำให้ตรวจสอบและบอกผลร้ายที่อาจเกิด",
+      "hints": [
+        "หาคำที่บอกท่าทีของผู้เขียน",
+        "ผู้เขียนอยากให้ผู้อ่านทำอะไร",
+        "ข้อมูลเรื่องตับและหัวใจใช้เพื่ออะไร"
+      ],
+      "distractor_reasons": {
+        "0": "พูดถึงตับและหัวใจเพียงเป็นผลเสีย",
+        "1": "ไม่มีเรื่องเล่าส่วนตัว",
+        "3": "ไม่มีคำชื่นชม",
+        "4": "ไม่มีชื่อสินค้าและชวนให้ระวัง ไม่ใช่ชวนซื้อ"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.language.reading.purpose_summary.0006",
+      "topic_ids": [
+        "tgat2.language.reading.purpose_summary"
+      ],
+      "primary_topic_id": "tgat2.language.reading.purpose_summary",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 40,
+      "stem_md": "\"ก่อนออกจากบ้าน ควรถอดปลั๊กเครื่องใช้ไฟฟ้าที่ไม่จำเป็นทุกครั้ง เพราะอุปกรณ์บางชนิดยังกินไฟแม้ปิดสวิตช์แล้ว และในบางกรณีอาจเกิดความร้อนสะสมจนเป็นอันตราย\"\n\nผู้เขียนมีเจตนาใดเป็นหลัก",
+      "figures": [],
+      "choices": [
+        {
+          "md": "เล่าประสบการณ์ไฟไหม้ของผู้เขียน",
+          "is_answer": false
+        },
+        {
+          "md": "แนะนำและเตือนให้ถอดปลั๊กก่อนออกจากบ้าน",
+          "is_answer": true
+        },
+        {
+          "md": "อธิบายหลักการทำงานของวงจรไฟฟ้า",
+          "is_answer": false
+        },
+        {
+          "md": "โฆษณาอุปกรณ์ประหยัดไฟรุ่นใหม่",
+          "is_answer": false
+        },
+        {
+          "md": "วิจารณ์ผู้ผลิตเครื่องใช้ไฟฟ้าที่ออกแบบไม่ปลอดภัย",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "คำว่า ควร...ทุกครั้ง เป็นคำแนะนำ",
+          "why_md": "คำแสดงท่าที"
+        },
+        {
+          "do_md": "เหตุผลที่ตามมาเป็นการเตือนถึงอันตราย",
+          "why_md": "เจตนารวม"
+        }
+      ],
+      "answer_explanation_md": "ตอบ แนะนำและเตือนให้ถอดปลั๊กก่อนออกจากบ้าน เพราะใช้คำว่า ควร และบอกอันตรายที่อาจเกิด",
+      "hints": [
+        "หาคำที่บอกท่าทีของผู้เขียน",
+        "ผู้เขียนอยากให้ผู้อ่านทำอะไร",
+        "ข้อมูลเรื่องความร้อนสะสมใช้เพื่ออะไร"
+      ],
+      "distractor_reasons": {
+        "0": "ไม่มีเรื่องเล่าส่วนตัว",
+        "2": "ไม่มีการอธิบายหลักการ",
+        "3": "ไม่มีการเชิญชวนให้ซื้อสินค้า",
+        "4": "ไม่มีการตำหนิผู้ผลิต"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.language.reading.purpose_summary.0007",
+      "topic_ids": [
+        "tgat2.language.reading.purpose_summary"
+      ],
+      "primary_topic_id": "tgat2.language.reading.purpose_summary",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 40,
+      "stem_md": "\"เป็นเรื่องน่าชื่นชมที่ชาวบ้านรวมตัวกันดูแลป่าชุมชนมากว่ายี่สิบปี ทั้งที่ไม่มีงบประมาณสนับสนุนและต้องสละเวลาของตนเอง\"\n\nน้ำเสียงของผู้เขียนเป็นอย่างไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ชื่นชมและให้กำลังใจ",
+          "is_answer": true
+        },
+        {
+          "md": "เสียดายที่ทำได้ไม่นานพอ",
+          "is_answer": false
+        },
+        {
+          "md": "กังวลว่าป่าจะถูกทำลาย",
+          "is_answer": false
+        },
+        {
+          "md": "เป็นกลาง ไม่แสดงความรู้สึก",
+          "is_answer": false
+        },
+        {
+          "md": "ตำหนิและผิดหวัง",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "คำว่า น่าชื่นชม แสดงท่าทีเชิงบวก",
+          "why_md": "คำแสดงท่าที"
+        },
+        {
+          "do_md": "ส่วน ทั้งที่... ยิ่งเน้นว่าสิ่งที่ทำนั้นยากและควรยกย่อง",
+          "why_md": "ท่าทีรวม"
+        }
+      ],
+      "answer_explanation_md": "ตอบ ชื่นชมและให้กำลังใจ เพราะใช้คำว่า น่าชื่นชม และเน้นความยากที่ชาวบ้านฝ่าฟัน",
+      "hints": [
+        "หาคำที่แสดงความรู้สึกในข้อความ",
+        "คำว่า ทั้งที่ ใช้เน้นอะไร",
+        "ผู้เขียนมองสิ่งที่ชาวบ้านทำในแง่ใด"
+      ],
+      "distractor_reasons": {
+        "1": "ข้อความบอกว่าทำมากว่ายี่สิบปี",
+        "2": "ไม่มีข้อความแสดงความกังวล",
+        "3": "มีคำแสดงความรู้สึกชัดเจน",
+        "4": "ขัดกับคำว่า น่าชื่นชม"
+      },
+      "misconception_tags": [
+        "topic_as_purpose"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    }
+  ],
+  "generated_from": "content/tgat2/language_comm_reading.py"
+}

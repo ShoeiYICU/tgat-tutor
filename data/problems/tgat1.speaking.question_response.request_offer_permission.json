@@ -1,0 +1,601 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tgat1.speaking.question_response.request_offer_permission",
+  "problems": [
+    {
+      "id": "prob.tgat1.speaking.question_response.request_offer_permission.0001",
+      "topic_ids": [
+        "tgat1.speaking.question_response.request_offer_permission"
+      ],
+      "primary_topic_id": "tgat1.speaking.question_response.request_offer_permission",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 25,
+      "stem_md": "**A:** Can I borrow your ruler for a moment?  \n**B:** ______",
+      "figures": [],
+      "choices": [
+        {
+          "md": "Sure, go ahead.",
+          "is_answer": true
+        },
+        {
+          "md": "Yes, I can borrow it.",
+          "is_answer": false
+        },
+        {
+          "md": "Sure, lend me yours.",
+          "is_answer": false
+        },
+        {
+          "md": "No, it's a moment.",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ระบุหน้าที่: A ขออนุญาตยืมของ",
+          "why_md": "ต้องตอบอนุญาตหรือปฏิเสธ"
+        },
+        {
+          "do_md": "Sure, go ahead. = เชิญเลย",
+          "why_md": "เป็นคำตอบอนุญาตที่เป็นธรรมชาติ"
+        }
+      ],
+      "answer_explanation_md": "ตอบ Sure, go ahead. เพราะ A ขออนุญาตยืมไม้บรรทัด คำตอบที่เหมาะคืออนุญาต",
+      "hints": [
+        "A กำลังขออะไรจาก B",
+        "ใครเป็นคนยืม ใครเป็นคนให้ยืม",
+        "คำตอบอนุญาตแบบสั้น ๆ ที่ใช้บ่อยคืออะไร"
+      ],
+      "distractor_reasons": {
+        "1": "ตอบว่าตัวเองจะยืม ทั้งที่ A เป็นคนขอยืม",
+        "2": "ขอยืมกลับ สลับบทบาทผู้ยืม",
+        "3": "ทวนคำว่า moment โดยไม่มีความหมาย"
+      },
+      "misconception_tags": [
+        "offer_request_confusion"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.question_response.request_offer_permission.0002",
+      "topic_ids": [
+        "tgat1.speaking.question_response.request_offer_permission"
+      ],
+      "primary_topic_id": "tgat1.speaking.question_response.request_offer_permission",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 30,
+      "stem_md": "**A:** Would you mind closing the door? It's a bit cold in here.  \n**B:** ______",
+      "figures": [],
+      "choices": [
+        {
+          "md": "Yes, I would. I'll close it now.",
+          "is_answer": false
+        },
+        {
+          "md": "Not at all.",
+          "is_answer": true
+        },
+        {
+          "md": "No, I don't mind the cold.",
+          "is_answer": false
+        },
+        {
+          "md": "Yes, it's cold.",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ระบุ: Would you mind + V-ing = ขอร้องสุภาพ",
+          "why_md": "ถามว่ารังเกียจไหมที่จะปิดประตู"
+        },
+        {
+          "do_md": "ยอมทำ ต้องตอบปฏิเสธ",
+          "why_md": "Not at all. = ไม่รังเกียจเลย"
+        }
+      ],
+      "answer_explanation_md": "ตอบ Not at all. เพราะ Would you mind ถามว่ารังเกียจไหม ถ้ายินดีทำให้ต้องตอบปฏิเสธว่าไม่รังเกียจ",
+      "hints": [
+        "Would you mind closing... ถามว่าอะไร",
+        "ถ้ายินดีปิดประตูให้ ต้องตอบว่ารังเกียจหรือไม่รังเกียจ",
+        "ระวังตัวเลือกที่ขึ้นต้นด้วย Yes"
+      ],
+      "distractor_reasons": {
+        "0": "ตอบ Yes I would แปลว่ารังเกียจ แต่ต่อด้วยจะปิดให้ ข้อความขัดกัน",
+        "2": "มีคำว่า mind แต่ตอบเรื่องความหนาว ไม่ได้ตอบว่าจะปิดประตูไหม",
+        "3": "เห็นด้วยเรื่องอากาศแต่ไม่ได้ตอบคำขอร้อง"
+      },
+      "misconception_tags": [
+        "would_you_mind_yes"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.question_response.request_offer_permission.0003",
+      "topic_ids": [
+        "tgat1.speaking.question_response.request_offer_permission"
+      ],
+      "primary_topic_id": "tgat1.speaking.question_response.request_offer_permission",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 30,
+      "stem_md": "**A:** You look lost. Would you like me to show you the way to the library?  \n**B:** ______",
+      "figures": [],
+      "choices": [
+        {
+          "md": "No, I don't really like going to the library very much.",
+          "is_answer": false
+        },
+        {
+          "md": "Yes, please. That would be great.",
+          "is_answer": true
+        },
+        {
+          "md": "Not at all, it's far.",
+          "is_answer": false
+        },
+        {
+          "md": "Sure, I'll show you the way to the library right now.",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ระบุ: Would you like me to...? = เสนอความช่วยเหลือ",
+          "why_md": "A จะเป็นคนนำทาง"
+        },
+        {
+          "do_md": "ตอบรับข้อเสนอ",
+          "why_md": "Yes, please. That would be great."
+        }
+      ],
+      "answer_explanation_md": "ตอบ Yes, please. That would be great. เพราะ A เสนอจะพาไปห้องสมุด B ควรตอบรับข้อเสนอ",
+      "hints": [
+        "ใครจะเป็นคนพาไปห้องสมุด A หรือ B",
+        "Would you like me to... เป็นการขอร้องหรือเสนอช่วย",
+        "คำตอบรับข้อเสนอความช่วยเหลือที่สุภาพคืออะไร"
+      ],
+      "distractor_reasons": {
+        "0": "ตีความ Would you like ว่าชอบไหม ทั้งที่เป็นการเสนอความช่วยเหลือ",
+        "2": "ใช้คำตอบของ Would you mind ผิดที่",
+        "3": "ตอบเหมือนตัวเองจะเป็นคนนำทาง สลับบทบาทกับ A"
+      },
+      "misconception_tags": [
+        "offer_request_confusion"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.question_response.request_offer_permission.0004",
+      "topic_ids": [
+        "tgat1.speaking.question_response.request_offer_permission"
+      ],
+      "primary_topic_id": "tgat1.speaking.question_response.request_offer_permission",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 40,
+      "stem_md": "**A:** Could you cover my shift on Saturday? I have a family event.  \n**B:** ______",
+      "figures": [],
+      "choices": [
+        {
+          "md": "Sure, you can cover mine.",
+          "is_answer": false
+        },
+        {
+          "md": "No, I won't cover it at all.",
+          "is_answer": false
+        },
+        {
+          "md": "Sorry, I can't. I'm away that day.",
+          "is_answer": true
+        },
+        {
+          "md": "Yes, I have a big family event on Saturday, too.",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ระบุ: A ขอร้องให้ทำงานแทน",
+          "why_md": "ต้องตอบรับหรือปฏิเสธคำขอ"
+        },
+        {
+          "do_md": "ปฏิเสธสุภาพ: ขอโทษ + บอกว่าทำไม่ได้ + เหตุผล",
+          "why_md": "เป็นรูปแบบที่ข้อสอบถือว่าเหมาะสมที่สุดเมื่อปฏิเสธ"
+        }
+      ],
+      "answer_explanation_md": "ตอบ Sorry, I can't. I'm away that day. เพราะเป็นการปฏิเสธคำขอร้องอย่างสุภาพพร้อมเหตุผล",
+      "hints": [
+        "A ขออะไรจาก B",
+        "ตัวเลือกไหนตอบคำขอโดยตรง",
+        "การปฏิเสธที่สุภาพควรมีส่วนประกอบอะไรบ้าง"
+      ],
+      "distractor_reasons": {
+        "0": "สลับบทบาท เสนอให้ A ทำแทนตัวเองแทน",
+        "1": "ปฏิเสธห้วน ๆ ไม่สุภาพ และ at all ทำให้ฟังรุนแรง",
+        "3": "ทวนคำว่า family event แต่ไม่ได้ตอบว่าจะทำงานแทนไหม"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.question_response.request_offer_permission.0005",
+      "topic_ids": [
+        "tgat1.speaking.question_response.request_offer_permission"
+      ],
+      "primary_topic_id": "tgat1.speaking.question_response.request_offer_permission",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 4,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 2,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 50,
+      "stem_md": "**A:** Would you mind if I opened the window?  \n**B:** ______",
+      "figures": [],
+      "choices": [
+        {
+          "md": "Not at all. But I'd rather you didn't, because I have a cold.",
+          "is_answer": false
+        },
+        {
+          "md": "No, I would mind it.",
+          "is_answer": false
+        },
+        {
+          "md": "Yes, please open it.",
+          "is_answer": false
+        },
+        {
+          "md": "Actually, I'd rather you didn't. I have a cold.",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ระบุ: ขออนุญาตแบบ Would you mind if...",
+          "why_md": "ถามว่ารังเกียจไหม"
+        },
+        {
+          "do_md": "ตรวจความสอดคล้องของทุกตัวเลือก",
+          "why_md": "สามตัวเลือกขัดกันเองระหว่างคำตอบกับการกระทำ"
+        },
+        {
+          "do_md": "ปฏิเสธสุภาพ: I'd rather you didn't + เหตุผล",
+          "why_md": "เป็นคำตอบเดียวที่สอดคล้องตลอดประโยค"
+        }
+      ],
+      "answer_explanation_md": "ตอบ Actually, I'd rather you didn't. I have a cold. เพราะเป็นการปฏิเสธที่สุภาพและสอดคล้องกันทั้งประโยค ตัวเลือกอื่นขัดกันเอง",
+      "hints": [
+        "Would you mind if I opened... ถามว่าอะไร",
+        "ตรวจว่าแต่ละตัวเลือกความหมายช่วงแรกกับช่วงหลังไปทางเดียวกันไหม",
+        "I'd rather you didn't แปลว่ายอมหรือไม่ยอม"
+      ],
+      "distractor_reasons": {
+        "0": "Not at all คือยอม แต่ I'd rather you didn't คือไม่ยอม ขัดกันเอง",
+        "1": "No แปลว่าไม่รังเกียจ แต่ต่อด้วย I would mind ขัดกันเอง",
+        "2": "Yes ในที่นี้แปลว่ารังเกียจ แต่ต่อด้วยให้เปิด ข้อความขัดกัน"
+      },
+      "misconception_tags": [
+        "would_you_mind_yes"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.question_response.request_offer_permission.0006",
+      "topic_ids": [
+        "tgat1.speaking.question_response.request_offer_permission"
+      ],
+      "primary_topic_id": "tgat1.speaking.question_response.request_offer_permission",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 30,
+      "stem_md": "**A:** Let me carry that bag for you.  \n**B:** ______",
+      "figures": [],
+      "choices": [
+        {
+          "md": "Thanks, but I can manage.",
+          "is_answer": true
+        },
+        {
+          "md": "OK, let me carry it.",
+          "is_answer": false
+        },
+        {
+          "md": "Sorry, I can't carry your bag.",
+          "is_answer": false
+        },
+        {
+          "md": "Yes, you can't.",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ระบุ: Let me... = เสนอความช่วยเหลือ",
+          "why_md": "A จะถือกระเป๋าให้ B"
+        },
+        {
+          "do_md": "ปฏิเสธข้อเสนออย่างสุภาพ",
+          "why_md": "Thanks, but I can manage. = ขอบคุณ แต่ถือเองได้"
+        }
+      ],
+      "answer_explanation_md": "ตอบ Thanks, but I can manage. เพราะ A เสนอจะถือกระเป๋าให้ และนี่คือการปฏิเสธข้อเสนออย่างสุภาพ",
+      "hints": [
+        "Let me... ใครจะเป็นคนทำ",
+        "กระเป๋าเป็นของใคร",
+        "การปฏิเสธข้อเสนอความช่วยเหลือแบบสุภาพพูดว่าอย่างไร"
+      ],
+      "distractor_reasons": {
+        "1": "ทวนประโยคของ A ทำให้ไม่รู้ว่าใครจะถือ",
+        "2": "ตีความเหมือน A ขอให้ช่วยถือกระเป๋าของ A",
+        "3": "ไวยากรณ์และความหมายขัดกัน"
+      },
+      "misconception_tags": [
+        "offer_request_confusion"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.question_response.request_offer_permission.0007",
+      "topic_ids": [
+        "tgat1.speaking.question_response.request_offer_permission"
+      ],
+      "primary_topic_id": "tgat1.speaking.question_response.request_offer_permission",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 45,
+      "stem_md": "**A:** Could you keep an eye on my bag while I order?  \n**B:** ______",
+      "figures": [],
+      "choices": [
+        {
+          "md": "No, I couldn't order it.",
+          "is_answer": false
+        },
+        {
+          "md": "The counter is over there.",
+          "is_answer": false
+        },
+        {
+          "md": "Of course. I'll watch it for you.",
+          "is_answer": true
+        },
+        {
+          "md": "Yes, your bag has two eyes.",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ระบุหน้าที่ของประโยค",
+          "why_md": "เป็นคำขอให้ช่วยดูแลของชั่วคราว"
+        },
+        {
+          "do_md": "ตรวจคำตอบกับบริบทและระดับภาษา",
+          "why_md": "คำตอบต้องทำหน้าที่ต่อบทสนทนา ไม่ใช่แค่มีคำซ้ำ"
+        }
+      ],
+      "answer_explanation_md": "ตอบรับและทวนสิ่งที่จะช่วยได้ตรงหน้าที่",
+      "hints": [
+        "ดูว่าผู้พูดกำลังถาม ขอ เชิญ หรือแสดงความรู้สึก",
+        "ตัดตัวเลือกที่ไวยากรณ์ได้แต่ตอบคนละหน้าที่",
+        "เลือกคำตอบที่ทำให้บทสนทนาดำเนินต่ออย่างเป็นธรรมชาติ"
+      ],
+      "distractor_reasons": {
+        "0": "สลับผู้ขอและสิ่งที่ขอ",
+        "1": "บอกทางแต่ไม่ตอบคำขอเฝ้ากระเป๋า",
+        "3": "แปลสำนวน keep an eye on ตรงตัว"
+      },
+      "misconception_tags": [
+        "literal_translation"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.question_response.request_offer_permission.0008",
+      "topic_ids": [
+        "tgat1.speaking.question_response.request_offer_permission"
+      ],
+      "primary_topic_id": "tgat1.speaking.question_response.request_offer_permission",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 5,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": true,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 55,
+      "stem_md": "**A:** Would you mind if I moved your notes to this shelf?  \n**B:** ______",
+      "figures": [],
+      "choices": [
+        {
+          "md": "Yes, I would move them yesterday.",
+          "is_answer": false
+        },
+        {
+          "md": "The shelf has already moved.",
+          "is_answer": false
+        },
+        {
+          "md": "No, you wouldn't mind.",
+          "is_answer": false
+        },
+        {
+          "md": "Not at all. I need the desk space too.",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ระบุหน้าที่ของประโยค",
+          "why_md": "Would you mind if I ... ถามว่าขัดข้องหรือไม่"
+        },
+        {
+          "do_md": "ตรวจคำตอบกับบริบทและระดับภาษา",
+          "why_md": "คำตอบต้องทำหน้าที่ต่อบทสนทนา ไม่ใช่แค่มีคำซ้ำ"
+        }
+      ],
+      "answer_explanation_md": "Not at all แปลว่าไม่ขัดข้องและเหตุผลถัดมาสอดคล้องกัน",
+      "hints": [
+        "ดูว่าผู้พูดกำลังถาม ขอ เชิญ หรือแสดงความรู้สึก",
+        "ตัดตัวเลือกที่ไวยากรณ์ได้แต่ตอบคนละหน้าที่",
+        "เลือกคำตอบที่ทำให้บทสนทนาดำเนินต่ออย่างเป็นธรรมชาติ"
+      ],
+      "distractor_reasons": {
+        "0": "yes ทำให้ความหมายเป็นขัดข้องและกาลผิด",
+        "1": "สลับผู้กระทำและจับคำ move",
+        "2": "ตอบแทนความรู้สึกของผู้ถาม"
+      },
+      "misconception_tags": [
+        "would_you_mind_yes"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    }
+  ],
+  "generated_from": "content/tgat1/speaking_qr.py"
+}

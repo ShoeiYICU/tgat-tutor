@@ -1,0 +1,1406 @@
+{
+  "schema_version": "1.0",
+  "subject": "soc",
+  "subject_name_th": "A-Level สังคมศึกษา",
+  "exam_codes": [
+    "ALEVEL_70"
+  ],
+  "source_note": "ยืนยันโครงสอบแล้วจาก mytcas.com/blueprint/a-level-70-soc/ (ตรวจ 21 กันยายน 2569): 50 ข้อ 100 คะแนน 90 นาที ปรนัย 5 ตัวเลือก แบ่งเป็น 5 สาระ **สาระละ 10 ข้อเท่ากัน** คือ ศาสนา ศีลธรรม จริยธรรม / หน้าที่พลเมือง วัฒนธรรมและการดำเนินชีวิตในสังคม / เศรษฐศาสตร์ / ประวัติศาสตร์ / ภูมิศาสตร์ | ผังสอบระบุว่าระดับการวัดมีตั้งแต่ความเข้าใจ การนำไปใช้ ไปจนถึงการวิเคราะห์ | **ผังสอบไม่ได้ให้รายการหัวข้อย่อยของแต่ละสาระเลย** ให้แต่ชื่อสาระ ชั้นหัวข้อและ leaf ในผังนี้จึงเป็นการจัดกลุ่มและซอยของเราเองทั้งหมด อ้างอิงขอบเขตตามหลักสูตรแกนกลางกลุ่มสาระสังคมศึกษา ไม่ใช่รายการทางการจากผังสอบ",
+  "topics": [
+    {
+      "id": "soc",
+      "name_th": "A-Level สังคมศึกษา",
+      "name_en": "",
+      "kind": "subject",
+      "parent": null,
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ALEVEL_70",
+        "สังคมศึกษา"
+      ],
+      "curriculum_ref": null,
+      "notes": "วิชาเนื้อหาตามหลักสูตร | โครงสอบยืนยันแล้ว: 50 ข้อ 100 คะแนน 90 นาที ปรนัย 5 ตัวเลือก 5 สาระ สาระละ 10 ข้อเท่ากัน — น้ำหนักเท่ากันทุกสาระ ไม่มีสาระไหนสำคัญกว่า | **วิชานี้ template ได้น้อยมาก** เนื้อหาเป็นข้อเท็จจริงและการตีความ ไม่ใช่การคำนวณ ยกเว้นเศรษฐศาสตร์บางหัวข้อที่คำนวณได้ หัวข้อที่ template ไม่ได้ให้แต่งโจทย์ 20 ข้อตามสเปค | **ทุกไฟล์ในวิชานี้ต้องตั้ง review_status เป็น ai_draft_needs_fact_check** เพราะเนื้อหามีปี พ.ศ. ชื่อบุคคล เลขมาตรากฎหมาย ชื่อสถานที่ และหลักคำสอน ซึ่งเป็นความเสียหายอันดับสูงถ้าผิด และเครื่องตรวจไม่ได้เลย | สังคมศึกษาอยู่ในกลุ่มที่ต้องให้คนตรวจ 100% ตามตารางใน spec/07"
+    },
+    {
+      "id": "soc.religion",
+      "name_th": "ศาสนา ศีลธรรม จริยธรรม",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "soc",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_70",
+          "typical_items": "10 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ศาสนา ศีลธรรม จริยธรรม"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (ส่วนทางการ) · ผังสอบระบุ 10 ข้อ"
+    },
+    {
+      "id": "soc.religion.buddhism",
+      "name_th": "พระพุทธศาสนา",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "soc.religion",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "พระพุทธศาสนา"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชั้นนี้เราจัดกลุ่มเอง เพราะผังสอบให้แต่ชื่อสาระ ไม่ได้ให้ชื่อหัวข้อย่อย"
+    },
+    {
+      "id": "soc.religion.buddhism.history",
+      "name_th": "ประวัติและการเผยแผ่พระพุทธศาสนา",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "soc.religion.buddhism",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_70",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "พระพุทธศาสนา",
+        "ประวัติ"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ | มีข้อเท็จจริงที่ต้องตรวจ (ปี พ.ศ. ชื่อบุคคล เลขมาตรา ชื่อสถานที่) ตั้ง review_status เป็น ai_draft_needs_fact_check"
+    },
+    {
+      "id": "soc.religion.buddhism.doctrine",
+      "name_th": "หลักธรรมสำคัญ",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "soc.religion.buddhism",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "soc.religion.buddhism.history"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_70",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "หลักธรรม",
+        "อริยสัจ"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ | มีข้อเท็จจริงที่ต้องตรวจ (ปี พ.ศ. ชื่อบุคคล เลขมาตรา ชื่อสถานที่) ตั้ง review_status เป็น ai_draft_needs_fact_check"
+    },
+    {
+      "id": "soc.religion.buddhism.practice",
+      "name_th": "การปฏิบัติและพิธีกรรม",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "soc.religion.buddhism",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "soc.religion.buddhism.doctrine"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_70",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "easy",
+      "keywords": [
+        "พิธีกรรม",
+        "ศาสนพิธี"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ | มีข้อเท็จจริงที่ต้องตรวจ (ปี พ.ศ. ชื่อบุคคล เลขมาตรา ชื่อสถานที่) ตั้ง review_status เป็น ai_draft_needs_fact_check"
+    },
+    {
+      "id": "soc.religion.world_religion",
+      "name_th": "ศาสนาสำคัญของโลก",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "soc.religion",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ศาสนาสำคัญของโลก"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชั้นนี้เราจัดกลุ่มเอง เพราะผังสอบให้แต่ชื่อสาระ ไม่ได้ให้ชื่อหัวข้อย่อย"
+    },
+    {
+      "id": "soc.religion.world_religion.compare",
+      "name_th": "ความเชื่อและหลักคำสอนของศาสนาสำคัญ",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "soc.religion.world_religion",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_70",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ศาสนาสากล"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ | มีข้อเท็จจริงที่ต้องตรวจ (ปี พ.ศ. ชื่อบุคคล เลขมาตรา ชื่อสถานที่) ตั้ง review_status เป็น ai_draft_needs_fact_check | ต้องเขียนอย่างเป็นกลาง ไม่ตัดสินว่าศาสนาใดถูกหรือดีกว่า"
+    },
+    {
+      "id": "soc.religion.world_religion.coexistence",
+      "name_th": "การอยู่ร่วมกันของศาสนาในสังคมไทย",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "soc.religion.world_religion",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "soc.religion.world_religion.compare"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_70",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "อยู่ร่วมกัน"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ | มีข้อเท็จจริงที่ต้องตรวจ (ปี พ.ศ. ชื่อบุคคล เลขมาตรา ชื่อสถานที่) ตั้ง review_status เป็น ai_draft_needs_fact_check"
+    },
+    {
+      "id": "soc.religion.ethics",
+      "name_th": "ศีลธรรมและจริยธรรม",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "soc.religion",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ศีลธรรมและจริยธรรม"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชั้นนี้เราจัดกลุ่มเอง เพราะผังสอบให้แต่ชื่อสาระ ไม่ได้ให้ชื่อหัวข้อย่อย"
+    },
+    {
+      "id": "soc.religion.ethics.concept",
+      "name_th": "แนวคิดพื้นฐานทางจริยธรรม",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "soc.religion.ethics",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_70",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "จริยธรรม",
+        "ศีลธรรม"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "soc.religion.ethics.dilemma",
+      "name_th": "การตัดสินใจเชิงจริยธรรมในสถานการณ์จริง",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "soc.religion.ethics",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat3.foundation.judgement_criteria",
+        "soc.religion.ethics.concept"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_70",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "ตัดสินใจ",
+        "จริยธรรม"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ | ใช้เกณฑ์ตัดสินร่วมกับ TGAT3 ได้"
+    },
+    {
+      "id": "soc.civics",
+      "name_th": "หน้าที่พลเมือง วัฒนธรรมและการดำเนินชีวิตในสังคม",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "soc",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_70",
+          "typical_items": "10 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "หน้าที่พลเมือง วัฒนธรรมและการดำเนินชีวิตในสังคม"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (ส่วนทางการ) · ผังสอบระบุ 10 ข้อ"
+    },
+    {
+      "id": "soc.civics.social_structure",
+      "name_th": "โครงสร้างและการเปลี่ยนแปลงทางสังคม",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "soc.civics",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "โครงสร้างและการเปลี่ยนแปลงทางสังคม"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชั้นนี้เราจัดกลุ่มเอง เพราะผังสอบให้แต่ชื่อสาระ ไม่ได้ให้ชื่อหัวข้อย่อย"
+    },
+    {
+      "id": "soc.civics.social_structure.institution",
+      "name_th": "สถาบันทางสังคมและหน้าที่",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "soc.civics.social_structure",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_70",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "easy",
+      "keywords": [
+        "สถาบันสังคม"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "soc.civics.social_structure.change",
+      "name_th": "การเปลี่ยนแปลงทางสังคมและวัฒนธรรม",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "soc.civics.social_structure",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "soc.civics.social_structure.institution"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_70",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "การเปลี่ยนแปลงสังคม"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "soc.civics.culture",
+      "name_th": "วัฒนธรรมไทยและวัฒนธรรมสากล",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "soc.civics",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "วัฒนธรรมไทยและวัฒนธรรมสากล"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชั้นนี้เราจัดกลุ่มเอง เพราะผังสอบให้แต่ชื่อสาระ ไม่ได้ให้ชื่อหัวข้อย่อย"
+    },
+    {
+      "id": "soc.civics.culture.thai_culture",
+      "name_th": "ลักษณะและคุณค่าของวัฒนธรรมไทย",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "soc.civics.culture",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_70",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "easy",
+      "keywords": [
+        "วัฒนธรรมไทย"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ | มีข้อเท็จจริงที่ต้องตรวจ (ปี พ.ศ. ชื่อบุคคล เลขมาตรา ชื่อสถานที่) ตั้ง review_status เป็น ai_draft_needs_fact_check"
+    },
+    {
+      "id": "soc.civics.culture.global",
+      "name_th": "วัฒนธรรมสากลและการรับวัฒนธรรมต่างชาติ",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "soc.civics.culture",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "soc.civics.culture.thai_culture"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_70",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "วัฒนธรรมสากล"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "soc.civics.law_politics",
+      "name_th": "กฎหมายและการเมืองการปกครอง",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "soc.civics",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "กฎหมายและการเมืองการปกครอง"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชั้นนี้เราจัดกลุ่มเอง เพราะผังสอบให้แต่ชื่อสาระ ไม่ได้ให้ชื่อหัวข้อย่อย"
+    },
+    {
+      "id": "soc.civics.law_politics.law_basics",
+      "name_th": "กฎหมายที่เกี่ยวข้องกับชีวิตประจำวัน",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "soc.civics.law_politics",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_70",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "กฎหมาย",
+        "สิทธิ"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ | มีข้อเท็จจริงที่ต้องตรวจ (ปี พ.ศ. ชื่อบุคคล เลขมาตรา ชื่อสถานที่) ตั้ง review_status เป็น ai_draft_needs_fact_check | **ห้ามเขียนเป็นคำแนะนำทางกฎหมาย** ให้เขียนเชิงความรู้เท่านั้น"
+    },
+    {
+      "id": "soc.civics.law_politics.constitution",
+      "name_th": "รัฐธรรมนูญและสิทธิเสรีภาพของพลเมือง",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "soc.civics.law_politics",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "soc.civics.law_politics.law_basics"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_70",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "รัฐธรรมนูญ"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ | มีข้อเท็จจริงที่ต้องตรวจ (ปี พ.ศ. ชื่อบุคคล เลขมาตรา ชื่อสถานที่) ตั้ง review_status เป็น ai_draft_needs_fact_check"
+    },
+    {
+      "id": "soc.civics.law_politics.government",
+      "name_th": "รูปแบบการปกครองและสถาบันทางการเมือง",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "soc.civics.law_politics",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "soc.civics.law_politics.constitution"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_70",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "การปกครอง"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ | มีข้อเท็จจริงที่ต้องตรวจ (ปี พ.ศ. ชื่อบุคคล เลขมาตรา ชื่อสถานที่) ตั้ง review_status เป็น ai_draft_needs_fact_check"
+    },
+    {
+      "id": "soc.civics.law_politics.citizen_role",
+      "name_th": "การมีส่วนร่วมทางการเมืองของพลเมือง",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "soc.civics.law_politics",
+      "order": 4,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat3.civic.service.help_without_harm",
+        "soc.civics.law_politics.government"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_70",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "มีส่วนร่วม"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "soc.economics",
+      "name_th": "เศรษฐศาสตร์",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "soc",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_70",
+          "typical_items": "10 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "เศรษฐศาสตร์"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (ส่วนทางการ) · ผังสอบระบุ 10 ข้อ"
+    },
+    {
+      "id": "soc.economics.micro",
+      "name_th": "เศรษฐศาสตร์จุลภาค",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "soc.economics",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "เศรษฐศาสตร์จุลภาค"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชั้นนี้เราจัดกลุ่มเอง เพราะผังสอบให้แต่ชื่อสาระ ไม่ได้ให้ชื่อหัวข้อย่อย"
+    },
+    {
+      "id": "soc.economics.micro.scarcity",
+      "name_th": "ความขาดแคลนและการเลือก",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "soc.economics.micro",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_70",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "easy",
+      "keywords": [
+        "ความขาดแคลน",
+        "ต้นทุนค่าเสียโอกาส"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "soc.economics.micro.demand_supply",
+      "name_th": "อุปสงค์ อุปทาน และกลไกราคา",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "soc.economics.micro",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "soc.economics.micro.scarcity"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_70",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "อุปสงค์",
+        "อุปทาน",
+        "ราคา"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ | หัวข้อนี้ทำแม่แบบได้ เพราะคำนวณจุดดุลยภาพด้วยโค้ดได้"
+    },
+    {
+      "id": "soc.economics.micro.market",
+      "name_th": "ประเภทของตลาดและการแข่งขัน",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "soc.economics.micro",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "soc.economics.micro.demand_supply"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_70",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ตลาด",
+        "การแข่งขัน"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "soc.economics.macro",
+      "name_th": "เศรษฐศาสตร์มหภาค",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "soc.economics",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "เศรษฐศาสตร์มหภาค"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชั้นนี้เราจัดกลุ่มเอง เพราะผังสอบให้แต่ชื่อสาระ ไม่ได้ให้ชื่อหัวข้อย่อย"
+    },
+    {
+      "id": "soc.economics.macro.indicator",
+      "name_th": "ตัวชี้วัดทางเศรษฐกิจและรายได้ประชาชาติ",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "soc.economics.macro",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_70",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "GDP",
+        "รายได้ประชาชาติ"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ | หัวข้อนี้ทำแม่แบบได้บางส่วน เพราะคำนวณตัวเลขได้ | มีข้อเท็จจริงที่ต้องตรวจ (ปี พ.ศ. ชื่อบุคคล เลขมาตรา ชื่อสถานที่) ตั้ง review_status เป็น ai_draft_needs_fact_check"
+    },
+    {
+      "id": "soc.economics.macro.money_inflation",
+      "name_th": "เงิน สถาบันการเงิน และเงินเฟ้อ",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "soc.economics.macro",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "soc.economics.macro.indicator"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_70",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "เงินเฟ้อ",
+        "ธนาคาร"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "soc.economics.macro.policy",
+      "name_th": "นโยบายการเงินและการคลัง",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "soc.economics.macro",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "soc.economics.macro.money_inflation"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_70",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "นโยบายการเงิน",
+        "นโยบายการคลัง"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "soc.economics.thai_economy",
+      "name_th": "เศรษฐกิจไทยและเศรษฐกิจโลก",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "soc.economics",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "เศรษฐกิจไทยและเศรษฐกิจโลก"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชั้นนี้เราจัดกลุ่มเอง เพราะผังสอบให้แต่ชื่อสาระ ไม่ได้ให้ชื่อหัวข้อย่อย"
+    },
+    {
+      "id": "soc.economics.thai_economy.sufficiency",
+      "name_th": "เศรษฐกิจพอเพียงและการพัฒนาที่ยั่งยืน",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "soc.economics.thai_economy",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_70",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "easy",
+      "keywords": [
+        "เศรษฐกิจพอเพียง"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ | มีข้อเท็จจริงที่ต้องตรวจ (ปี พ.ศ. ชื่อบุคคล เลขมาตรา ชื่อสถานที่) ตั้ง review_status เป็น ai_draft_needs_fact_check"
+    },
+    {
+      "id": "soc.economics.thai_economy.international",
+      "name_th": "การค้าระหว่างประเทศและการรวมกลุ่มทางเศรษฐกิจ",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "soc.economics.thai_economy",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "soc.economics.thai_economy.sufficiency"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_70",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "การค้าระหว่างประเทศ",
+        "อาเซียน"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ | มีข้อเท็จจริงที่ต้องตรวจ (ปี พ.ศ. ชื่อบุคคล เลขมาตรา ชื่อสถานที่) ตั้ง review_status เป็น ai_draft_needs_fact_check"
+    },
+    {
+      "id": "soc.history",
+      "name_th": "ประวัติศาสตร์",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "soc",
+      "order": 4,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_70",
+          "typical_items": "10 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ประวัติศาสตร์"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (ส่วนทางการ) · ผังสอบระบุ 10 ข้อ"
+    },
+    {
+      "id": "soc.history.method",
+      "name_th": "วิธีการทางประวัติศาสตร์",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "soc.history",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "วิธีการทางประวัติศาสตร์"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชั้นนี้เราจัดกลุ่มเอง เพราะผังสอบให้แต่ชื่อสาระ ไม่ได้ให้ชื่อหัวข้อย่อย"
+    },
+    {
+      "id": "soc.history.method.source",
+      "name_th": "หลักฐานทางประวัติศาสตร์และการตรวจสอบ",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "soc.history.method",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_70",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "หลักฐาน",
+        "ตรวจสอบ"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "soc.history.method.interpretation",
+      "name_th": "การตีความและมุมมองทางประวัติศาสตร์",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "soc.history.method",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat3.value_innovation.analytical.fact_vs_opinion",
+        "soc.history.method.source"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_70",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "ตีความ",
+        "มุมมอง"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "soc.history.thai_history",
+      "name_th": "ประวัติศาสตร์ไทย",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "soc.history",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ประวัติศาสตร์ไทย"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชั้นนี้เราจัดกลุ่มเอง เพราะผังสอบให้แต่ชื่อสาระ ไม่ได้ให้ชื่อหัวข้อย่อย"
+    },
+    {
+      "id": "soc.history.thai_history.pre_ayutthaya",
+      "name_th": "รัฐโบราณและสุโขทัย",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "soc.history.thai_history",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_70",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "สุโขทัย"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ | มีข้อเท็จจริงที่ต้องตรวจ (ปี พ.ศ. ชื่อบุคคล เลขมาตรา ชื่อสถานที่) ตั้ง review_status เป็น ai_draft_needs_fact_check"
+    },
+    {
+      "id": "soc.history.thai_history.ayutthaya",
+      "name_th": "อยุธยาและธนบุรี",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "soc.history.thai_history",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "soc.history.thai_history.pre_ayutthaya"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_70",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "อยุธยา",
+        "ธนบุรี"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ | มีข้อเท็จจริงที่ต้องตรวจ (ปี พ.ศ. ชื่อบุคคล เลขมาตรา ชื่อสถานที่) ตั้ง review_status เป็น ai_draft_needs_fact_check"
+    },
+    {
+      "id": "soc.history.thai_history.rattanakosin",
+      "name_th": "รัตนโกสินทร์และการปฏิรูปประเทศ",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "soc.history.thai_history",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "soc.history.thai_history.ayutthaya"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_70",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "รัตนโกสินทร์",
+        "ปฏิรูป"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ | มีข้อเท็จจริงที่ต้องตรวจ (ปี พ.ศ. ชื่อบุคคล เลขมาตรา ชื่อสถานที่) ตั้ง review_status เป็น ai_draft_needs_fact_check"
+    },
+    {
+      "id": "soc.history.thai_history.modern_thai",
+      "name_th": "ไทยสมัยใหม่และการเปลี่ยนแปลงการปกครอง",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "soc.history.thai_history",
+      "order": 4,
+      "grade_band": "mixed",
+      "requires": [
+        "soc.history.thai_history.rattanakosin"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_70",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ไทยสมัยใหม่"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ | มีข้อเท็จจริงที่ต้องตรวจ (ปี พ.ศ. ชื่อบุคคล เลขมาตรา ชื่อสถานที่) ตั้ง review_status เป็น ai_draft_needs_fact_check"
+    },
+    {
+      "id": "soc.history.world_history",
+      "name_th": "ประวัติศาสตร์สากล",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "soc.history",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ประวัติศาสตร์สากล"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชั้นนี้เราจัดกลุ่มเอง เพราะผังสอบให้แต่ชื่อสาระ ไม่ได้ให้ชื่อหัวข้อย่อย"
+    },
+    {
+      "id": "soc.history.world_history.ancient",
+      "name_th": "อารยธรรมโบราณ",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "soc.history.world_history",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_70",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "อารยธรรม"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ | มีข้อเท็จจริงที่ต้องตรวจ (ปี พ.ศ. ชื่อบุคคล เลขมาตรา ชื่อสถานที่) ตั้ง review_status เป็น ai_draft_needs_fact_check"
+    },
+    {
+      "id": "soc.history.world_history.modern",
+      "name_th": "การเปลี่ยนแปลงสำคัญของโลกสมัยใหม่",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "soc.history.world_history",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "soc.history.world_history.ancient"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_70",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "โลกสมัยใหม่"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ | มีข้อเท็จจริงที่ต้องตรวจ (ปี พ.ศ. ชื่อบุคคล เลขมาตรา ชื่อสถานที่) ตั้ง review_status เป็น ai_draft_needs_fact_check"
+    },
+    {
+      "id": "soc.geography",
+      "name_th": "ภูมิศาสตร์",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "soc",
+      "order": 5,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_70",
+          "typical_items": "10 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ภูมิศาสตร์"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (ส่วนทางการ) · ผังสอบระบุ 10 ข้อ"
+    },
+    {
+      "id": "soc.geography.tools",
+      "name_th": "เครื่องมือทางภูมิศาสตร์",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "soc.geography",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "เครื่องมือทางภูมิศาสตร์"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชั้นนี้เราจัดกลุ่มเอง เพราะผังสอบให้แต่ชื่อสาระ ไม่ได้ให้ชื่อหัวข้อย่อย"
+    },
+    {
+      "id": "soc.geography.tools.map",
+      "name_th": "แผนที่ มาตราส่วน และการอ่านแผนที่",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "soc.geography.tools",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat2.numerical.foundation.ratio_proportion"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_70",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "แผนที่",
+        "มาตราส่วน"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ | หัวข้อนี้ทำแม่แบบได้ เพราะคำนวณมาตราส่วนด้วยโค้ดได้"
+    },
+    {
+      "id": "soc.geography.tools.gis",
+      "name_th": "เทคโนโลยีภูมิสารสนเทศเบื้องต้น",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "soc.geography.tools",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "soc.geography.tools.map"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_70",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "GIS",
+        "ภูมิสารสนเทศ"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "soc.geography.physical",
+      "name_th": "ภูมิศาสตร์กายภาพ",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "soc.geography",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ภูมิศาสตร์กายภาพ"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชั้นนี้เราจัดกลุ่มเอง เพราะผังสอบให้แต่ชื่อสาระ ไม่ได้ให้ชื่อหัวข้อย่อย"
+    },
+    {
+      "id": "soc.geography.physical.landform",
+      "name_th": "ลักษณะภูมิประเทศและการเกิด",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "soc.geography.physical",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_70",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ภูมิประเทศ"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "soc.geography.physical.climate",
+      "name_th": "ภูมิอากาศและปัจจัยที่มีผล",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "soc.geography.physical",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "soc.geography.physical.landform"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_70",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ภูมิอากาศ"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "soc.geography.physical.disaster",
+      "name_th": "ภัยธรรมชาติและการรับมือ",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "soc.geography.physical",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "soc.geography.physical.climate"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_70",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ภัยธรรมชาติ"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ | มีข้อเท็จจริงที่ต้องตรวจ (ปี พ.ศ. ชื่อบุคคล เลขมาตรา ชื่อสถานที่) ตั้ง review_status เป็น ai_draft_needs_fact_check"
+    },
+    {
+      "id": "soc.geography.human_env",
+      "name_th": "มนุษย์กับสิ่งแวดล้อม",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "soc.geography",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "มนุษย์กับสิ่งแวดล้อม"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชั้นนี้เราจัดกลุ่มเอง เพราะผังสอบให้แต่ชื่อสาระ ไม่ได้ให้ชื่อหัวข้อย่อย"
+    },
+    {
+      "id": "soc.geography.human_env.resource_use",
+      "name_th": "การใช้ทรัพยากรและผลกระทบ",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "soc.geography.human_env",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat3.civic.environment.decide_with_impact"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_70",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ทรัพยากร",
+        "ผลกระทบ"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "soc.geography.human_env.sustainable",
+      "name_th": "การจัดการสิ่งแวดล้อมอย่างยั่งยืน",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "soc.geography.human_env",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "soc.geography.human_env.resource_use"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_70",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ยั่งยืน"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ | มีข้อเท็จจริงที่ต้องตรวจ (ปี พ.ศ. ชื่อบุคคล เลขมาตรา ชื่อสถานที่) ตั้ง review_status เป็น ai_draft_needs_fact_check"
+    }
+  ]
+}

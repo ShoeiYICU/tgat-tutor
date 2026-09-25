@@ -1,0 +1,657 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tgat3.value_innovation.innovation.opportunity_from_problem",
+  "problems": [
+    {
+      "id": "prob.tgat3.value_innovation.innovation.opportunity_from_problem.0001",
+      "topic_ids": [
+        "tgat3.value_innovation.innovation.opportunity_from_problem"
+      ],
+      "primary_topic_id": "tgat3.value_innovation.innovation.opportunity_from_problem",
+      "exam_code": "TGAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT3 สมรรถนะการทำงาน แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4_tiered",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 60,
+      "stem_md": "นักเรียนในโรงเรียนของคุณมักทิ้งขวดน้ำพลาสติกไว้ตามโต๊ะหลังเลิกเรียน คุณเป็นสมาชิกชมรมสิ่งแวดล้อม ควรเสนออะไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ทดลองตั้งจุดรับขวดไปขายเป็นทุนชมรมหนึ่งเดือน",
+          "is_answer": true,
+          "score": 1
+        },
+        {
+          "md": "โพสต์รูปขยะในกลุ่มโรงเรียนเพื่อประจาน",
+          "is_answer": false,
+          "score": 0.25
+        },
+        {
+          "md": "อาสาเดินเก็บขวดพลาสติกเองทุกวันหลังเลิกเรียน แล้วนำไปทิ้งในถังรีไซเคิลให้ถูกประเภท เพื่อเป็นตัวอย่างให้เพื่อน",
+          "is_answer": false,
+          "score": 0.5
+        },
+        {
+          "md": "ขอให้ครูประกาศห้ามนำขวดพลาสติกเข้าโรงเรียน",
+          "is_answer": false,
+          "score": 0.75
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "มองปัญหาเป็นโอกาส: ขวดพลาสติกขายได้",
+          "why_md": "เปลี่ยนขยะเป็นทุน"
+        },
+        {
+          "do_md": "สร้างแรงจูงใจและระบบ",
+          "why_md": "นักเรียนมีที่ทิ้งและรู้ว่าช่วยชมรม"
+        },
+        {
+          "do_md": "ทดลองหนึ่งเดือนก่อน",
+          "why_md": "วัดผลได้ก่อนทำถาวร"
+        }
+      ],
+      "answer_explanation_md": "ตั้งจุดรับขวดเพื่อหาทุนชมรมแบบทดลองดีที่สุด เพราะเปลี่ยนปัญหาเป็นคุณค่า สร้างแรงจูงใจ และวัดผลได้ก่อนขยาย",
+      "hints": [
+        "ขวดพลาสติกที่ถูกทิ้งมีคุณค่าอะไรไหม",
+        "ทางแก้แบบไหนที่ทำให้คนอยากร่วมมือ",
+        "หาตัวเลือกที่สร้างระบบและทดลองก่อน"
+      ],
+      "distractor_reasons": {
+        "1": "สร้างความขัดแย้ง และไม่ได้เสนอทางแก้",
+        "2": "แก้ขยะเฉพาะหน้าได้ แต่ผลักภาระไว้ที่คนคนเดียวและไม่ได้สร้างระบบหรือคุณค่าเพิ่ม",
+        "3": "แก้ในระดับระบบและลดขยะใหม่ได้ แต่เป็นการห้ามที่กระทบทุกคนและยังไม่ได้ใช้ประโยชน์จากขยะที่มีอยู่"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat3.value_innovation.innovation.opportunity_from_problem.0002",
+      "topic_ids": [
+        "tgat3.value_innovation.innovation.opportunity_from_problem"
+      ],
+      "primary_topic_id": "tgat3.value_innovation.innovation.opportunity_from_problem",
+      "exam_code": "TGAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT3 สมรรถนะการทำงาน แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4_tiered",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 60,
+      "stem_md": "ร้านอาหารของครอบครัวคุณมีลูกค้าน้อยช่วงบ่าย 14.00-17.00 น. ทุกวัน แต่ช่วงนี้มีพนักงานบริษัทแถวนั้นหลายคนบ่นว่าหาของว่างดี ๆ กินตอนบ่ายไม่ได้ คุณควรเสนออะไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ปิดร้านช่วงบ่ายเพื่อประหยัดค่าไฟ",
+          "is_answer": false,
+          "score": 0.5
+        },
+        {
+          "md": "ทดลองขายชุดของว่างช่วงบ่ายสองสัปดาห์แล้วดูยอดขาย",
+          "is_answer": true,
+          "score": 1
+        },
+        {
+          "md": "ปรับเมนูทั้งร้านเป็นร้านของว่างทันที",
+          "is_answer": false,
+          "score": 0.25
+        },
+        {
+          "md": "ทำโปรโมชันลดราคาอาหารจานหลักทุกเมนู 20% ในช่วงบ่าย เพื่อดึงลูกค้าให้เข้าร้านในช่วงเวลาที่ร้านว่าง",
+          "is_answer": false,
+          "score": 0.75
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ปัญหา: ร้านว่างช่วงบ่าย / คำบ่น: หาของว่างไม่ได้",
+          "why_md": "สองเรื่องนี้เชื่อมกันเป็นโอกาส"
+        },
+        {
+          "do_md": "ไอเดียตอบความต้องการของคนที่บ่นจริง",
+          "why_md": "ชุดของว่างช่วงบ่าย"
+        },
+        {
+          "do_md": "ทดลองสองสัปดาห์ก่อน",
+          "why_md": "เสี่ยงน้อยและมีข้อมูลตัดสินใจ"
+        }
+      ],
+      "answer_explanation_md": "ทดลองขายชุดของว่างช่วงบ่ายดีที่สุด เพราะใช้เวลาว่างของร้านตอบความต้องการจริง และเสี่ยงน้อยเพราะทดลองก่อน",
+      "hints": [
+        "ปัญหาของร้านกับคำบ่นของพนักงานบริษัทเชื่อมกันได้ไหม",
+        "ไอเดียไหนตรงกับสิ่งที่คนบ่นมากที่สุด",
+        "ควรลงทุนใหญ่ทันทีหรือทดลองก่อน"
+      ],
+      "distractor_reasons": {
+        "0": "ลดต้นทุนได้ แต่ทิ้งโอกาสจากความต้องการที่มีอยู่จริง",
+        "2": "ตอบความต้องการใหม่ แต่เสี่ยงเสียลูกค้าเดิมและลงทุนใหญ่โดยยังไม่ได้ทดลอง",
+        "3": "ใช้ช่วงเวลาว่างให้เกิดรายได้ แต่ไม่ตรงกับสิ่งที่คนบ่นว่าอยากได้ คือของว่าง"
+      },
+      "misconception_tags": [
+        "solution_for_self_not_user"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat3.value_innovation.innovation.opportunity_from_problem.0003",
+      "topic_ids": [
+        "tgat3.value_innovation.innovation.opportunity_from_problem"
+      ],
+      "primary_topic_id": "tgat3.value_innovation.innovation.opportunity_from_problem",
+      "exam_code": "TGAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT3 สมรรถนะการทำงาน แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4_tiered",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 60,
+      "stem_md": "ในหมู่บ้านของคุณมีผลไม้ตามฤดูกาลล้นตลาดทุกปีจนต้องขายราคาถูกมาก คุณเป็นเยาวชนที่เรียนเรื่องการแปรรูปอาหารมา คุณควรทำอย่างไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "กู้เงินซื้อเครื่องจักรแปรรูปขนาดใหญ่ทันที",
+          "is_answer": false,
+          "score": 0.25
+        },
+        {
+          "md": "เขียนบทความเล่าปัญหาผลไม้ล้นตลาดของหมู่บ้านพร้อมรูปสวย ๆ ลงโซเชียลมีเดีย เพื่อชวนคนทั่วประเทศช่วยสั่งซื้อ",
+          "is_answer": false,
+          "score": 0.75
+        },
+        {
+          "md": "ชวนกลุ่มแม่บ้านทดลองแปรรูปจำนวนน้อยแล้วลองขาย",
+          "is_answer": true,
+          "score": 1
+        },
+        {
+          "md": "แนะนำให้ชาวบ้านลดการปลูกผลไม้ชนิดนั้น",
+          "is_answer": false,
+          "score": 0.5
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ปัญหาซ้ำทุกปี = โอกาส",
+          "why_md": "ผลไม้ล้นตลาดคือวัตถุดิบราคาถูก"
+        },
+        {
+          "do_md": "ใช้ความรู้ที่มีสร้างคุณค่าเพิ่ม",
+          "why_md": "การแปรรูปยืดอายุและเพิ่มราคา"
+        },
+        {
+          "do_md": "ทดลองเล็กกับคนในชุมชน",
+          "why_md": "เสี่ยงน้อยและชุมชนมีส่วนร่วม"
+        }
+      ],
+      "answer_explanation_md": "ชวนกลุ่มแม่บ้านทดลองแปรรูปจำนวนน้อยก่อนขยายดีที่สุด เพราะเปลี่ยนปัญหาที่ซ้ำทุกปีเป็นรายได้ เสี่ยงน้อย และชุมชนมีส่วนร่วม",
+      "hints": [
+        "ปัญหานี้เกิดครั้งเดียวหรือซ้ำทุกปี",
+        "ความรู้ที่เรามีช่วยเพิ่มมูลค่าผลไม้ได้อย่างไร",
+        "จะเริ่มแบบไหนให้เสี่ยงน้อยที่สุด"
+      ],
+      "distractor_reasons": {
+        "0": "เห็นโอกาสถูก แต่ลงทุนใหญ่โดยยังไม่รู้ว่าขายได้หรือไม่",
+        "1": "ช่วยระบายผลผลิตได้บ้าง แต่เป็นทางแก้ครั้งเดียว ปีหน้าปัญหากลับมา",
+        "3": "ลดปัญหาล้นตลาดได้ แต่ทิ้งโอกาสและรายได้ของชาวบ้าน"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat3.value_innovation.innovation.opportunity_from_problem.0004",
+      "topic_ids": [
+        "tgat3.value_innovation.innovation.opportunity_from_problem"
+      ],
+      "primary_topic_id": "tgat3.value_innovation.innovation.opportunity_from_problem",
+      "exam_code": "TGAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT3 สมรรถนะการทำงาน แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4_tiered",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 60,
+      "stem_md": "ห้องเรียนของคุณมีปัญหาเพื่อนหลายคนไม่เข้าใจการบ้านคณิตศาสตร์ แต่ไม่กล้าถามครู คุณเป็นคนที่เรียนคณิตได้ดี คุณควรทำอย่างไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "บอกเพื่อนให้กล้าถามครูมากขึ้น",
+          "is_answer": false,
+          "score": 0.5
+        },
+        {
+          "md": "อัดคลิปอธิบายทุกข้อยาว ๆ ลงกลุ่มห้อง",
+          "is_answer": false,
+          "score": 0.75
+        },
+        {
+          "md": "ถามเพื่อนว่าติดเรื่องไหน แล้วจัดกลุ่มติวโดยแจ้งครู",
+          "is_answer": true,
+          "score": 1
+        },
+        {
+          "md": "ส่งเฉลยการบ้านให้เพื่อนในกลุ่มแชต",
+          "is_answer": false,
+          "score": 0.25
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ปัญหา: ไม่เข้าใจ + ไม่กล้าถามครู",
+          "why_md": "ความต้องการคือพื้นที่ถามที่รู้สึกปลอดภัย"
+        },
+        {
+          "do_md": "ถามก่อนว่าเพื่อนติดเรื่องไหน",
+          "why_md": "ไอเดียจะตรงความต้องการ"
+        },
+        {
+          "do_md": "แจ้งครู",
+          "why_md": "ครูรู้ว่าเนื้อหาส่วนไหนที่นักเรียนติด และช่วยสนับสนุนได้"
+        }
+      ],
+      "answer_explanation_md": "จัดกลุ่มติวโดยถามเพื่อนก่อนและแจ้งครูดีที่สุด เพราะตอบความต้องการจริง สร้างพื้นที่ถามที่ปลอดภัย และครูรู้ปัญหาด้วย",
+      "hints": [
+        "ความต้องการที่แท้จริงของเพื่อนคืออะไร",
+        "ทำไมเพื่อนถึงไม่ถามครู",
+        "หาตัวเลือกที่ตรงความต้องการและไม่ผิดหลัก"
+      ],
+      "distractor_reasons": {
+        "0": "ถูกต้องแต่เป็นคำแนะนำที่ไม่ได้แก้ความกลัวของเพื่อน",
+        "1": "ช่วยได้จริงและทุกคนดูซ้ำได้ แต่ยังไม่รู้ว่าเพื่อนติดเรื่องไหน อาจยาวและไม่ตรงจุด",
+        "3": "เพื่อนส่งการบ้านได้แต่ไม่เข้าใจ และเป็นการช่วยที่ผิดหลัก"
+      },
+      "misconception_tags": [
+        "solution_for_self_not_user"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat3.value_innovation.innovation.opportunity_from_problem.0005",
+      "topic_ids": [
+        "tgat3.value_innovation.innovation.opportunity_from_problem"
+      ],
+      "primary_topic_id": "tgat3.value_innovation.innovation.opportunity_from_problem",
+      "exam_code": "TGAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT3 สมรรถนะการทำงาน แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4_tiered",
+      "difficulty": 4,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "high"
+      },
+      "est_seconds": 60,
+      "stem_md": "บริษัทที่คุณฝึกงานมีกล่องกระดาษจากการรับสินค้าเหลือทิ้งจำนวนมากทุกสัปดาห์ ขณะเดียวกันฝ่ายส่งของต้องซื้อกล่องใหม่มาใช้ส่งสินค้าให้ลูกค้า คุณควรทำอย่างไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "นำกล่องไปให้ฝ่ายส่งของใช้ทันทีโดยไม่ต้องบอกหัวหน้า",
+          "is_answer": false,
+          "score": 0.5
+        },
+        {
+          "md": "ไม่ต้องทำอะไร เพราะไม่ใช่หน้าที่ของนักศึกษาฝึกงาน",
+          "is_answer": false,
+          "score": 0.25
+        },
+        {
+          "md": "รวบรวมกล่องที่เหลือทุกสัปดาห์ไปขายเป็นกระดาษรีไซเคิล แล้วนำเงินเข้ากองทุนสวัสดิการพนักงานของบริษัท",
+          "is_answer": false,
+          "score": 0.75
+        },
+        {
+          "md": "เสนอหัวหน้าให้ทดลองคัดกล่องที่ยังใช้ได้มาใช้ส่งสินค้าหนึ่งเดือน พร้อมคำนวณค่ากล่องที่ประหยัดได้",
+          "is_answer": true,
+          "score": 1
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "เชื่อมสองปัญหา: กล่องเหลือทิ้ง + ต้องซื้อกล่องใหม่",
+          "why_md": "เป็นโอกาสลดต้นทุนและขยะ"
+        },
+        {
+          "do_md": "นักศึกษาฝึกงานเสนอผ่านหัวหน้า",
+          "why_md": "เปลี่ยนวิธีทำงานต้องมีคนอนุมัติ"
+        },
+        {
+          "do_md": "ทดลองพร้อมตัวเลขที่ประหยัดได้",
+          "why_md": "ช่วยให้ตัดสินใจง่าย"
+        }
+      ],
+      "answer_explanation_md": "เสนอหัวหน้าให้ทดลองใช้กล่องซ้ำพร้อมตัวเลขที่ประหยัดได้ดีที่สุด เพราะเชื่อมสองปัญหาเป็นโอกาส อยู่ในบทบาท และมีข้อมูลประกอบการตัดสินใจ",
+      "hints": [
+        "มีสองปัญหาในโจทย์ที่เชื่อมกันได้หรือไม่",
+        "การเปลี่ยนวิธีทำงานของฝ่ายอื่นต้องผ่านใคร",
+        "หาตัวเลือกที่เสนออย่างมีข้อมูลและทดลองก่อน"
+      ],
+      "distractor_reasons": {
+        "0": "เห็นโอกาสถูก แต่เปลี่ยนวิธีทำงานของอีกฝ่ายโดยไม่มีคนอนุมัติ และไม่ได้ตรวจว่ากล่องเหมาะกับสินค้าหรือไม่",
+        "1": "เห็นโอกาสแต่ปล่อยผ่าน",
+        "2": "ได้เงินกลับมาบ้าง แต่ไม่ได้เชื่อมโยงกับความต้องการกล่องของฝ่ายส่งของ"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat3.value_innovation.innovation.opportunity_from_problem.0006",
+      "topic_ids": [
+        "tgat3.value_innovation.innovation.opportunity_from_problem"
+      ],
+      "primary_topic_id": "tgat3.value_innovation.innovation.opportunity_from_problem",
+      "exam_code": "TGAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT3 สมรรถนะการทำงาน แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4_tiered",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 60,
+      "stem_md": "คุณสังเกตว่าผู้สูงอายุในชุมชนหลายคนไปโรงพยาบาลตามนัดไม่ได้ เพราะลูกหลานทำงานในเมืองและไม่มีรถ คุณเป็นสมาชิกกลุ่มเยาวชนของชุมชน คุณควรทำอย่างไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "สำรวจความต้องการ แล้วจัดเวรรับส่งร่วมกับ อสม. และคนที่มีรถ",
+          "is_answer": true,
+          "score": 1
+        },
+        {
+          "md": "แจ้งลูกหลานของผู้สูงอายุให้กลับมาพาไปโรงพยาบาล",
+          "is_answer": false,
+          "score": 0.5
+        },
+        {
+          "md": "ทำแอปพลิเคชันเรียกรถสำหรับผู้สูงอายุ",
+          "is_answer": false,
+          "score": 0.25
+        },
+        {
+          "md": "นำปัญหาไปปรึกษา อสม. และขอให้ช่วยประสานคนในชุมชนที่มีรถ",
+          "is_answer": false,
+          "score": 0.75
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ปัญหาซ้ำ: ผู้สูงอายุไปตามนัดไม่ได้",
+          "why_md": "ความต้องการคือการเดินทางไปโรงพยาบาลตามนัด"
+        },
+        {
+          "do_md": "ใช้ทรัพยากรในชุมชน: อสม. และคนที่มีรถ",
+          "why_md": "ทำได้จริงไม่ต้องลงทุน"
+        },
+        {
+          "do_md": "สำรวจก่อนและทดลองเป็นเวร",
+          "why_md": "ตรงความต้องการและไม่พึ่งคนคนเดียว"
+        }
+      ],
+      "answer_explanation_md": "สำรวจความต้องการแล้วจัดเวรรับส่งร่วมกับ อสม. และชุมชนดีที่สุด เพราะตรงความต้องการ ใช้ทรัพยากรที่มี และยั่งยืนกว่าการพึ่งคนคนเดียว",
+      "hints": [
+        "ความต้องการของผู้สูงอายุคืออะไร และทำไมเกิดขึ้นซ้ำ",
+        "ในชุมชนมีคนหรือทรัพยากรอะไรช่วยได้บ้าง",
+        "หาตัวเลือกที่ทำได้จริงและไม่พึ่งคนคนเดียว"
+      ],
+      "distractor_reasons": {
+        "1": "โยนปัญหากลับไปหาคนที่ติดข้อจำกัดอยู่แล้ว",
+        "2": "ใช้เวลาและเงินมาก และผู้สูงอายุหลายคนอาจใช้แอปไม่ได้",
+        "3": "ไปในทิศทางที่ถูกและไม่พึ่งคนเดียว แต่ยังไม่ได้สำรวจวันนัดและจัดเวรรับส่งให้ชัดเจน"
+      },
+      "misconception_tags": [
+        "solution_for_self_not_user"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat3.value_innovation.innovation.opportunity_from_problem.0007",
+      "topic_ids": [
+        "tgat3.value_innovation.innovation.opportunity_from_problem"
+      ],
+      "primary_topic_id": "tgat3.value_innovation.innovation.opportunity_from_problem",
+      "exam_code": "TGAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT3 สมรรถนะการทำงาน แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4_tiered",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 60,
+      "stem_md": "คนในหอพักบ่นว่ารับพัสดุไม่ทันเพราะจุดรับปิดเร็ว คุณควรเปลี่ยนปัญหานี้เป็นโอกาสอย่างไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "เปิดจุดรับตลอดคืนทันที",
+          "is_answer": false,
+          "score": 0.75
+        },
+        {
+          "md": "บอกให้ผู้พักเลือกส่งที่ทำงาน",
+          "is_answer": false,
+          "score": 0.25
+        },
+        {
+          "md": "ขอให้บริษัทขนส่งมาส่งใหม่ทุกครั้ง",
+          "is_answer": false,
+          "score": 0.5
+        },
+        {
+          "md": "สำรวจช่วงเวลาที่ต้องการ แล้วทดลองตู้รับพัสดุหรือเวรรับช่วงเย็นกับกลุ่มเล็ก",
+          "is_answer": true,
+          "score": 1
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ฟังความต้องการจริง",
+          "why_md": "เวลาใดเป็นช่องว่าง"
+        },
+        {
+          "do_md": "สร้างทางเลือก",
+          "why_md": "ตู้หรือเวรเย็น"
+        },
+        {
+          "do_md": "ทดลองเล็ก",
+          "why_md": "เรียนรู้ต้นทุนและความปลอดภัย"
+        }
+      ],
+      "answer_explanation_md": "สำรวจและทดลองบริการรับนอกเวลาเปลี่ยนปัญหาเป็นคุณค่าใหม่โดยควบคุมความเสี่ยง",
+      "hints": [
+        "ความไม่สะดวกชี้ความต้องการใด",
+        "มีบริการใหม่แบบใดได้บ้าง",
+        "ควรทดลองก่อนขยายอย่างไร"
+      ],
+      "distractor_reasons": {
+        "0": "ตอบปัญหาแต่ยังไม่ตรวจความต้องการ ต้นทุน และความปลอดภัย",
+        "1": "ผลักภาระให้ผู้ใช้",
+        "2": "แก้รายครั้งและเพิ่มภาระผู้อื่น"
+      },
+      "misconception_tags": [
+        "solution_for_self_not_user"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat3.value_innovation.innovation.opportunity_from_problem.0008",
+      "topic_ids": [
+        "tgat3.value_innovation.innovation.opportunity_from_problem"
+      ],
+      "primary_topic_id": "tgat3.value_innovation.innovation.opportunity_from_problem",
+      "exam_code": "TGAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT3 สมรรถนะการทำงาน แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4_tiered",
+      "difficulty": 5,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": true,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 60,
+      "stem_md": "ศูนย์อาหารมีอาหารเหลือมาก แต่ข้อมูลพบว่าร้านต้องเตรียมล่วงหน้าและองค์กรรับบริจาครับได้เฉพาะอาหารที่เก็บไม่เกินสองชั่วโมง แนวทางใดสร้างคุณค่าได้ดีที่สุด",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ตั้งจุดแจกอาหารเหลือทั้งหมดหลังปิด",
+          "is_answer": false,
+          "score": 0.25
+        },
+        {
+          "md": "ใช้ยอดขายช่วยร้านปรับปริมาณ พร้อมติดเวลาปรุงและทดลองส่งส่วนเกินที่ผ่านเกณฑ์ให้องค์กร",
+          "is_answer": true,
+          "score": 1
+        },
+        {
+          "md": "ให้แต่ละร้านจัดการของเหลือเอง",
+          "is_answer": false,
+          "score": 0.5
+        },
+        {
+          "md": "ลดราคาอาหารทุกเมนูหนึ่งชั่วโมงก่อนปิด",
+          "is_answer": false,
+          "score": 0.75
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "จับคู่สองปัญหา",
+          "why_md": "ผลิตเกินและการใช้ส่วนเกิน"
+        },
+        {
+          "do_md": "เคารพข้อจำกัดความปลอดภัย",
+          "why_md": "เวลาเก็บไม่เกินสองชั่วโมง"
+        },
+        {
+          "do_md": "ทำทั้งป้องกันและสร้างประโยชน์",
+          "why_md": "ปรับผลิตและบริจาคส่วนที่เหมาะ"
+        }
+      ],
+      "answer_explanation_md": "ใช้ข้อมูลลดการผลิตเกินและส่งต่อเฉพาะอาหารปลอดภัย สร้างคุณค่าครบกว่าแก้ปลายทางอย่างเดียว",
+      "hints": [
+        "ทางใดลดของเหลือตั้งแต่ต้น",
+        "ส่วนเกินแบบใดนำไปใช้ได้",
+        "ตัวเลือกใดทำสองส่วนเชื่อมกัน"
+      ],
+      "distractor_reasons": {
+        "0": "ละเลยความปลอดภัย",
+        "2": "เคารพเจ้าของร้านแต่พลาดโอกาสแก้ร่วมกัน",
+        "3": "อาจลดของเหลือแต่ยังไม่แก้การผลิตเกินหรืออาหารที่ขายไม่หมด"
+      },
+      "misconception_tags": [
+        "solution_for_self_not_user"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    }
+  ],
+  "generated_from": "content/tgat3/value_innovation.py"
+}

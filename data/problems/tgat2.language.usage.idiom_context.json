@@ -1,0 +1,477 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tgat2.language.usage.idiom_context",
+  "problems": [
+    {
+      "id": "prob.tgat2.language.usage.idiom_context.0001",
+      "topic_ids": [
+        "tgat2.language.usage.idiom_context"
+      ],
+      "primary_topic_id": "tgat2.language.usage.idiom_context",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 35,
+      "stem_md": "บริษัทจ้างทีมงานยี่สิบคนและเช่าห้องจัดเลี้ยงขนาดใหญ่ เพียงเพื่อจัดประชุมสั้น ๆ ที่มีผู้เข้าร่วมห้าคน สถานการณ์นี้ตรงกับสำนวนใด",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ปิดทองหลังพระ",
+          "is_answer": false
+        },
+        {
+          "md": "วัวหายล้อมคอก",
+          "is_answer": false
+        },
+        {
+          "md": "หนีเสือปะจระเข้",
+          "is_answer": false
+        },
+        {
+          "md": "ขี่ช้างจับตั๊กแตน",
+          "is_answer": true
+        },
+        {
+          "md": "น้ำขึ้นให้รีบตัก",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "สรุป: ลงทุนมากเกินงานเล็ก",
+          "why_md": "ประโยคเดียว"
+        },
+        {
+          "do_md": "ขี่ช้าง (ใหญ่) จับตั๊กแตน (เล็ก)",
+          "why_md": "ตรงความหมาย"
+        }
+      ],
+      "answer_explanation_md": "ตอบ ขี่ช้างจับตั๊กแตน เพราะหมายถึงลงทุนมากเกินกว่าผลที่ได้",
+      "hints": [
+        "สรุปสถานการณ์ให้เหลือประโยคเดียว",
+        "สิ่งที่ลงทุนกับงานที่ได้ ขนาดต่างกันอย่างไร",
+        "สำนวนใดเปรียบของใหญ่กับงานเล็ก"
+      ],
+      "distractor_reasons": {
+        "0": "หมายถึงทำดีโดยไม่มีใครเห็น",
+        "1": "หมายถึงป้องกันหลังเสียหาย",
+        "2": "หมายถึงหนีภัยหนึ่งไปพบอีกภัยหนึ่ง",
+        "4": "หมายถึงรีบใช้โอกาส ไม่เกี่ยวกับการลงทุนเกินจำเป็น"
+      },
+      "misconception_tags": [
+        "idiom_confusion"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.language.usage.idiom_context.0002",
+      "topic_ids": [
+        "tgat2.language.usage.idiom_context"
+      ],
+      "primary_topic_id": "tgat2.language.usage.idiom_context",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 30,
+      "stem_md": "ภารโรงของโรงเรียนซ่อมโต๊ะเก้าอี้ที่ชำรุดทุกเย็นหลังเลิกเรียน โดยไม่เคยบอกใครและไม่มีใครรู้ สถานการณ์นี้ตรงกับสำนวนใด",
+      "figures": [],
+      "choices": [
+        {
+          "md": "น้ำขึ้นให้รีบตัก",
+          "is_answer": false
+        },
+        {
+          "md": "ผักชีโรยหน้า",
+          "is_answer": false
+        },
+        {
+          "md": "ปิดทองหลังพระ",
+          "is_answer": true
+        },
+        {
+          "md": "ขี่ช้างจับตั๊กแตน",
+          "is_answer": false
+        },
+        {
+          "md": "สีซอให้ควายฟัง",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "สรุป: ทำความดีโดยไม่มีใครเห็น",
+          "why_md": "ประโยคเดียว"
+        },
+        {
+          "do_md": "ปิดทองด้านหลังองค์พระ คนจึงมองไม่เห็นทอง",
+          "why_md": "ตรงความหมาย"
+        }
+      ],
+      "answer_explanation_md": "ตอบ ปิดทองหลังพระ เพราะหมายถึงทำความดีโดยไม่มีใครเห็นหรือรู้",
+      "hints": [
+        "ภารโรงทำความดีแบบไหน",
+        "มีคนเห็นหรือรู้ไหม",
+        "ระวังสำนวนที่ความหมายตรงข้าม"
+      ],
+      "distractor_reasons": {
+        "0": "หมายถึงรีบใช้โอกาส",
+        "1": "ทำดีแค่ผิวเผินให้คนเห็น ตรงข้ามกับสถานการณ์",
+        "3": "หมายถึงลงทุนมากเกินงาน",
+        "4": "หมายถึงพูดกับคนที่ไม่เข้าใจ"
+      },
+      "misconception_tags": [
+        "idiom_confusion"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.language.usage.idiom_context.0003",
+      "topic_ids": [
+        "tgat2.language.usage.idiom_context"
+      ],
+      "primary_topic_id": "tgat2.language.usage.idiom_context",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 40,
+      "stem_md": "สำนวน วัวหายล้อมคอก เหมาะกับสถานการณ์ใดมากที่สุด",
+      "figures": [],
+      "choices": [
+        {
+          "md": "โรงเรียนติดตั้งราวกันตกหลังจากมีนักเรียนพลัดตกบันได",
+          "is_answer": true
+        },
+        {
+          "md": "ครูอธิบายบทเรียนซ้ำหลายรอบให้นักเรียนที่ไม่สนใจฟัง",
+          "is_answer": false
+        },
+        {
+          "md": "นักเรียนรีบสมัครทุนทันทีที่ประกาศรับสมัคร",
+          "is_answer": false
+        },
+        {
+          "md": "ร้านค้าตกแต่งหน้าร้านสวยงามแต่ของในร้านคุณภาพต่ำ",
+          "is_answer": false
+        },
+        {
+          "md": "โรงเรียนติดตั้งราวกันตกตั้งแต่สร้างอาคารใหม่",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "วัวหายล้อมคอก = เสียหายแล้วจึงป้องกัน",
+          "why_md": "ความหมาย"
+        },
+        {
+          "do_md": "หาสถานการณ์ที่เกิดความเสียหายก่อน แล้วจึงป้องกัน",
+          "why_md": "ตรงเงื่อนไข"
+        }
+      ],
+      "answer_explanation_md": "ตอบ โรงเรียนติดตั้งราวกันตกหลังจากมีนักเรียนพลัดตกบันได เพราะเป็นการป้องกันหลังเกิดความเสียหาย",
+      "hints": [
+        "แปลสำนวนเป็นภาษาธรรมดา",
+        "ลำดับเหตุการณ์ในสำนวนเป็นอย่างไร",
+        "หาตัวเลือกที่มีความเสียหายเกิดก่อนการป้องกัน"
+      ],
+      "distractor_reasons": {
+        "1": "ตรงกับ สีซอให้ควายฟัง",
+        "2": "ตรงกับ น้ำขึ้นให้รีบตัก",
+        "3": "ตรงกับ ผักชีโรยหน้า",
+        "4": "ป้องกันก่อนเกิดเหตุ ไม่ใช่หลังเสียหาย"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.language.usage.idiom_context.0004",
+      "topic_ids": [
+        "tgat2.language.usage.idiom_context"
+      ],
+      "primary_topic_id": "tgat2.language.usage.idiom_context",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 35,
+      "stem_md": "ร้านอาหารแห่งหนึ่งทำความสะอาดเฉพาะหน้าร้านเมื่อมีเจ้าหน้าที่มาตรวจ แต่ในครัวยังสกปรกเหมือนเดิม สถานการณ์นี้ตรงกับสำนวนใด",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ผักชีโรยหน้า",
+          "is_answer": true
+        },
+        {
+          "md": "หนีเสือปะจระเข้",
+          "is_answer": false
+        },
+        {
+          "md": "ปิดทองหลังพระ",
+          "is_answer": false
+        },
+        {
+          "md": "น้ำขึ้นให้รีบตัก",
+          "is_answer": false
+        },
+        {
+          "md": "วัวหายล้อมคอก",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "สรุป: ทำดีแค่ภายนอกให้คนเห็น",
+          "why_md": "ประโยคเดียว"
+        },
+        {
+          "do_md": "ผักชีโรยหน้าอาหาร ทำให้ดูดีแค่ผิว",
+          "why_md": "ตรงความหมาย"
+        }
+      ],
+      "answer_explanation_md": "ตอบ ผักชีโรยหน้า เพราะหมายถึงทำดีเพียงผิวเผินเพื่อให้คนเห็น",
+      "hints": [
+        "ร้านทำความสะอาดส่วนไหนและเมื่อไร",
+        "ความดีที่ทำเป็นของจริงหรือแค่ภายนอก",
+        "สำนวนใดหมายถึงทำดีแค่ผิวเผิน"
+      ],
+      "distractor_reasons": {
+        "1": "หมายถึงหนีภัยหนึ่งไปพบอีกภัย",
+        "2": "หมายถึงทำดีโดยไม่มีใครเห็น",
+        "3": "หมายถึงรีบใช้โอกาส",
+        "4": "หมายถึงป้องกันหลังเสียหาย"
+      },
+      "misconception_tags": [
+        "idiom_confusion"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.language.usage.idiom_context.0005",
+      "topic_ids": [
+        "tgat2.language.usage.idiom_context"
+      ],
+      "primary_topic_id": "tgat2.language.usage.idiom_context",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 40,
+      "stem_md": "นักเรียนย้ายจากโรงเรียนที่เดินทางไกลเพราะเหนื่อยกับการเดินทาง แต่โรงเรียนใหม่กลับมีการบ้านมากจนต้องนอนดึกทุกคืน สถานการณ์นี้ตรงกับสำนวนใด",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ขี่ช้างจับตั๊กแตน",
+          "is_answer": false
+        },
+        {
+          "md": "สีซอให้ควายฟัง",
+          "is_answer": false
+        },
+        {
+          "md": "ปิดทองหลังพระ",
+          "is_answer": false
+        },
+        {
+          "md": "ผักชีโรยหน้า",
+          "is_answer": false
+        },
+        {
+          "md": "หนีเสือปะจระเข้",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "สรุป: หนีปัญหาหนึ่งไปเจออีกปัญหาหนึ่ง",
+          "why_md": "ประโยคเดียว"
+        },
+        {
+          "do_md": "หนีเสือแล้วไปพบจระเข้",
+          "why_md": "ตรงความหมาย"
+        }
+      ],
+      "answer_explanation_md": "ตอบ หนีเสือปะจระเข้ เพราะหนีปัญหาการเดินทางไปพบปัญหาการบ้านมาก",
+      "hints": [
+        "นักเรียนหนีปัญหาอะไร",
+        "แล้วพบปัญหาอะไรใหม่",
+        "สำนวนใดหมายถึงหนีภัยหนึ่งไปพบอีกภัย"
+      ],
+      "distractor_reasons": {
+        "0": "หมายถึงลงทุนมากเกินงาน",
+        "1": "หมายถึงพูดกับคนที่ไม่เข้าใจ",
+        "2": "หมายถึงทำดีโดยไม่มีใครเห็น",
+        "3": "หมายถึงทำดีแค่ผิวเผิน"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.language.usage.idiom_context.0006",
+      "topic_ids": [
+        "tgat2.language.usage.idiom_context"
+      ],
+      "primary_topic_id": "tgat2.language.usage.idiom_context",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 35,
+      "stem_md": "ร้านขายของที่ระลึกเปิดขายเพิ่มรอบดึกเฉพาะช่วงเทศกาลที่มีนักท่องเที่ยวมาก สถานการณ์นี้ตรงกับสำนวนใด",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ปิดทองหลังพระ",
+          "is_answer": false
+        },
+        {
+          "md": "น้ำขึ้นให้รีบตัก",
+          "is_answer": true
+        },
+        {
+          "md": "สีซอให้ควายฟัง",
+          "is_answer": false
+        },
+        {
+          "md": "วัวหายล้อมคอก",
+          "is_answer": false
+        },
+        {
+          "md": "ขี่ช้างจับตั๊กแตน",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "สรุป: มีโอกาสเข้ามาจึงรีบใช้โอกาสนั้น",
+          "why_md": "ประโยคเดียว"
+        },
+        {
+          "do_md": "น้ำขึ้นให้รีบตัก = มีโอกาสให้รีบทำ",
+          "why_md": "ตรงความหมาย"
+        }
+      ],
+      "answer_explanation_md": "ตอบ น้ำขึ้นให้รีบตัก เพราะร้านรีบใช้โอกาสช่วงที่มีนักท่องเที่ยวมาก",
+      "hints": [
+        "สรุปสถานการณ์เป็นประโยคเดียว",
+        "ร้านทำแบบนี้เพราะอะไร",
+        "สำนวนใดหมายถึงการรีบใช้โอกาส"
+      ],
+      "distractor_reasons": {
+        "0": "หมายถึงทำดีโดยไม่มีใครเห็น",
+        "2": "หมายถึงพูดกับคนที่ไม่เข้าใจ",
+        "3": "หมายถึงป้องกันหลังเกิดความเสียหาย",
+        "4": "หมายถึงลงทุนมากเกินผลที่ได้"
+      },
+      "misconception_tags": [
+        "idiom_confusion"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    }
+  ],
+  "generated_from": "content/tgat2/language_core.py"
+}

@@ -1,0 +1,96 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tgat1.reading.comprehension.vocabulary_in_passage",
+  "title": "เดาความหมายคำจากบริบทในบทอ่าน",
+  "subtitle": "ไม่ต้องรู้ทุกคำ ใช้คำอธิบาย คำตรงข้าม ตัวอย่าง และน้ำเสียงรอบ ๆ คำนั้นเดาความหมาย แล้วแทนค่ากลับเพื่อตรวจ",
+  "prereq_topic_ids": [
+    "tgat1.reading.comprehension.specific_detail"
+  ],
+  "objectives": [
+    "ใช้เบาะแสในบริบทเดาความหมายคำ",
+    "แทนค่าตัวเลือกกลับในประโยคเพื่อตรวจ",
+    "ระวังความหมายทั่วไปที่ไม่ตรงบริบท"
+  ],
+  "est_minutes": 25,
+  "blocks": [
+    {
+      "type": "hook",
+      "body_md": "ข้อศัพท์ในบทอ่านไม่ได้วัดว่าเรา **จำ** คำได้ แต่วัดว่าเรา **ใช้บริบทเดา** ได้ไหม คำที่ถามมักมีหลายความหมาย และตัวลวงคือ **ความหมายที่พบบ่อยแต่ไม่ตรงบริบท**"
+    },
+    {
+      "type": "concept",
+      "heading": "เบาะแส 4 แบบ",
+      "body_md": "| เบาะแส | ตัวอย่าง |\n|---|---|\n| **คำอธิบาย** | The market was **featured**, or shown, on a TV program. |\n| **คำตรงข้าม** | Some vendors were **delighted**, but others were less happy. |\n| **ตัวอย่าง** | Small tasks, **such as** replying to messages... |\n| **ผลหรือเหตุ** | He was **exhausted**, so he went to bed at 8. |"
+    },
+    {
+      "type": "formula",
+      "name": "แทนค่ากลับทุกตัวเลือก",
+      "formula_tex": "",
+      "variables": [],
+      "use_when": "ข้อถาม The word X is closest in meaning to...",
+      "avoid_when": "อย่าเลือกความหมายที่คุ้นเคยโดยไม่แทนค่า เพราะคำเดียวกันมีหลายความหมาย",
+      "derivation_md": "เอาแต่ละตัวเลือกแทนคำนั้นในประโยค ตัวที่ประโยคยังมีความหมายเหมือนเดิมและเข้ากับเบาะแสคือคำตอบ",
+      "memory_tip": "เบาะแสรอบคำ + แทนค่ากลับ"
+    },
+    {
+      "type": "example",
+      "label": "ตัวอย่างที่ 1",
+      "difficulty": 2,
+      "stem_md": "Some vendors were **delighted** because their income doubled. Others were less happy.",
+      "steps": [
+        {
+          "do_md": "เบาะแส: รายได้เพิ่มสองเท่า + Others were less happy (ตรงข้าม)",
+          "why_md": "delighted = ดีใจมาก"
+        },
+        {
+          "do_md": "แทนค่า: very pleased",
+          "why_md": "ความหมายตรง"
+        }
+      ],
+      "answer_md": "very pleased",
+      "figures": []
+    },
+    {
+      "type": "pitfall",
+      "title": "เลือกความหมายที่คุ้นเคย",
+      "wrong_md": "\"The rule **features** strict limits.\" → เลือก 'ลักษณะหน้าตา'",
+      "why_wrong_md": "feature เป็นกริยาในที่นี้ แปลว่ามี/นำเสนอ ไม่ใช่คำนามลักษณะหน้าตา",
+      "correct_md": "ดูหน้าที่ของคำในประโยคก่อน แล้วค่อยใช้บริบท",
+      "misconception_tag": "common_meaning_trap"
+    },
+    {
+      "type": "summary",
+      "bullets_md": [
+        "เบาะแส: คำอธิบาย คำตรงข้าม ตัวอย่าง เหตุผล",
+        "แทนค่ากลับทุกตัวเลือก",
+        "ตัวลวงคือความหมายที่พบบ่อยแต่ไม่ตรงบริบท"
+      ]
+    },
+    {
+      "type": "check",
+      "question_md": "The instructions were so **vague** that nobody knew what to do. Vague means...",
+      "choices": [
+        "very clear",
+        "not clear",
+        "very long",
+        "written in English"
+      ],
+      "answer_index": 1,
+      "explain_md": "เบาะแสผล: ไม่มีใครรู้ว่าต้องทำอะไร แปลว่าคำสั่งไม่ชัด"
+    }
+  ],
+  "glossary": [],
+  "common_exam_patterns": [
+    "The word ... is closest in meaning to",
+    "คำที่มีหลายความหมาย"
+  ],
+  "next_topic_ids": [
+    "tgat1.reading.comprehension.inference"
+  ],
+  "sources": [
+    "ผังการสอบ TGAT1 จาก mytcas.com (พาร์ทการอ่าน)",
+    "บทอ่านแต่งขึ้นใหม่เพื่อการฝึก"
+  ],
+  "review_status": "ai_draft",
+  "generated_from": "content/tgat1/reading.py"
+}

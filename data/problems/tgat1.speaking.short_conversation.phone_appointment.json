@@ -1,0 +1,597 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tgat1.speaking.short_conversation.phone_appointment",
+  "problems": [
+    {
+      "id": "prob.tgat1.speaking.short_conversation.phone_appointment.0001",
+      "topic_ids": [
+        "tgat1.speaking.short_conversation.phone_appointment"
+      ],
+      "primary_topic_id": "tgat1.speaking.short_conversation.phone_appointment",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 30,
+      "stem_md": "**A:** Hello, could I speak to Mr. Somchai, please?  \n**B:** ______  \n**A:** Hi, Mr. Somchai. This is Mint from ABC Company.",
+      "figures": [],
+      "choices": [
+        {
+          "md": "Hold on, I'll get him for you.",
+          "is_answer": false
+        },
+        {
+          "md": "Can I take a message for him?",
+          "is_answer": false
+        },
+        {
+          "md": "Speaking.",
+          "is_answer": true
+        },
+        {
+          "md": "I'm afraid he's out at the moment.",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "หลังช่อง: A ทักทาย Mr. Somchai โดยตรง",
+          "why_md": "แปลว่าคนรับสายคือคุณสมชายเอง"
+        },
+        {
+          "do_md": "วลีเมื่อเป็นคนที่ถูกขอ",
+          "why_md": "Speaking."
+        }
+      ],
+      "answer_explanation_md": "ตอบ Speaking. เพราะ A ทักทายคุณสมชายทันทีหลังช่องว่าง แปลว่าคนรับสายคือคุณสมชายเอง",
+      "hints": [
+        "A ทักทายใครหลังช่องว่าง",
+        "คนรับสายคือคุณสมชายเองหรือคนอื่น",
+        "เมื่อตัวเองคือคนที่ถูกขอสาย ภาษาอังกฤษพูดว่าอะไร"
+      ],
+      "distractor_reasons": {
+        "0": "ใช้เมื่อคนรับสายไม่ใช่คุณสมชาย แต่ A ทักทายคุณสมชายทันที",
+        "1": "เสนอรับฝากข้อความ ขัดกับที่ A คุยกับคุณสมชายเลย",
+        "3": "บอกว่าไม่อยู่ ขัดกับที่ A ทักทายคุณสมชายต่อ"
+      },
+      "misconception_tags": [
+        "phone_phrase_misuse"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.short_conversation.phone_appointment.0002",
+      "topic_ids": [
+        "tgat1.speaking.short_conversation.phone_appointment"
+      ],
+      "primary_topic_id": "tgat1.speaking.short_conversation.phone_appointment",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 35,
+      "stem_md": "**A:** Hi, I'd like to make an appointment with the dentist.  \n**B:** Sure. Is Thursday at 2 p.m. OK?  \n**A:** ______  \n**B:** No problem. How about Friday at 10 a.m.?",
+      "figures": [],
+      "choices": [
+        {
+          "md": "How much does a check-up cost?",
+          "is_answer": false
+        },
+        {
+          "md": "I'm afraid I have class then.",
+          "is_answer": true
+        },
+        {
+          "md": "Thank you. See you on Thursday.",
+          "is_answer": false
+        },
+        {
+          "md": "Yes, Thursday at 2 is perfect for me.",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "หลังช่อง: B เสนอเวลาใหม่",
+          "why_md": "แปลว่า A ปฏิเสธเวลาเดิม"
+        },
+        {
+          "do_md": "ปฏิเสธพร้อมเหตุผล",
+          "why_md": "I'm afraid I have class then."
+        }
+      ],
+      "answer_explanation_md": "ตอบ I'm afraid I have class then. เพราะ B เสนอเวลาใหม่หลังช่องว่าง แปลว่า A ปฏิเสธเวลาเดิม",
+      "hints": [
+        "ทำไม B ถึงเสนอเวลาใหม่",
+        "A ตอบรับหรือปฏิเสธวันพฤหัสบดี",
+        "หาตัวเลือกที่ปฏิเสธเวลาเดิม"
+      ],
+      "distractor_reasons": {
+        "0": "ถามราคา B ไม่ได้ตอบเรื่องราคา",
+        "2": "ยืนยันวันพฤหัส ขัดกับที่ B เสนอวันศุกร์",
+        "3": "ตอบรับ แต่ B เสนอเวลาใหม่ ซึ่งแปลว่า A ปฏิเสธ"
+      },
+      "misconception_tags": [
+        "ignore_next_line"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.short_conversation.phone_appointment.0003",
+      "topic_ids": [
+        "tgat1.speaking.short_conversation.phone_appointment"
+      ],
+      "primary_topic_id": "tgat1.speaking.short_conversation.phone_appointment",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 40,
+      "stem_md": "**A:** Good morning, Green Travel. How may I help you?  \n**B:** Hi, could I speak to Ms. Parn?  \n**A:** ______  \n**B:** Yes, please ask her to call me back. My number is 081-234-5678.",
+      "figures": [],
+      "choices": [
+        {
+          "md": "She's in a meeting. Can I take a message?",
+          "is_answer": true
+        },
+        {
+          "md": "Hold on, please. I'll put you through.",
+          "is_answer": false
+        },
+        {
+          "md": "Sorry, you have the wrong number.",
+          "is_answer": false
+        },
+        {
+          "md": "Speaking. How can I help you today?",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "หลังช่อง: B ขอให้คุณปานโทรกลับ",
+          "why_md": "แปลว่าคุณปานไม่ว่างรับสาย และ A เสนอรับฝากข้อความ"
+        },
+        {
+          "do_md": "เลือก",
+          "why_md": "She's in a meeting. Can I take a message?"
+        }
+      ],
+      "answer_explanation_md": "ตอบ She's in a meeting. Can I take a message? เพราะ B ฝากข้อความให้โทรกลับ แปลว่า A บอกว่าคุณปานไม่ว่างและเสนอรับฝากข้อความ",
+      "hints": [
+        "B ฝากข้อความหลังช่องว่าง เพราะ A พูดอะไร",
+        "คุณปานรับสายได้ตอนนี้ไหม",
+        "หาตัวเลือกที่บอกว่าไม่ว่างและเสนอรับฝากข้อความ"
+      ],
+      "distractor_reasons": {
+        "1": "จะโอนสายให้ แต่ B ฝากข้อความ ซึ่งแปลว่าคุยไม่ได้",
+        "2": "บอกว่าโทรผิด แต่ B ฝากข้อความต่อ",
+        "3": "A บอกว่าเป็นคุณปานเอง แต่ B ฝากข้อความให้โทรกลับ"
+      },
+      "misconception_tags": [
+        "phone_phrase_misuse"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.short_conversation.phone_appointment.0004",
+      "topic_ids": [
+        "tgat1.speaking.short_conversation.phone_appointment"
+      ],
+      "primary_topic_id": "tgat1.speaking.short_conversation.phone_appointment",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 40,
+      "stem_md": "**A:** Hi Beam, about our meeting tomorrow at 3...  \n**B:** Yes?  \n**A:** ______  \n**B:** Sure. Wednesday at 3 works for me.",
+      "figures": [],
+      "choices": [
+        {
+          "md": "Why did you want to meet me tomorrow?",
+          "is_answer": false
+        },
+        {
+          "md": "Could we meet a little earlier, at 1?",
+          "is_answer": false
+        },
+        {
+          "md": "I'll see you tomorrow at 3 in the café.",
+          "is_answer": false
+        },
+        {
+          "md": "I'm sorry, but something came up. Could we move it to Wednesday?",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "หลังช่อง: B ตกลงวันพุธเวลาบ่ายสาม",
+          "why_md": "A ขอเลื่อนเป็นวันพุธ เวลาเดิม"
+        },
+        {
+          "do_md": "เลื่อนนัดสุภาพ: ขอโทษ + เหตุผล + เสนอวันใหม่",
+          "why_md": "I'm sorry, but something came up. Could we move it to Wednesday?"
+        }
+      ],
+      "answer_explanation_md": "ตอบ I'm sorry, but something came up. Could we move it to Wednesday? เพราะ A ขอโทษ อธิบายเหตุผลสั้น ๆ และขอเลื่อนไปวันพุธ ซึ่ง B ตอบรับ",
+      "hints": [
+        "เวลาเดิมคืออะไร และ B ตกลงเวลาอะไร",
+        "สิ่งที่เปลี่ยนคือวันหรือเวลา",
+        "หาตัวเลือกที่ขอเลื่อนเป็นวันพุธ"
+      ],
+      "distractor_reasons": {
+        "0": "ถามเหตุผล ไม่เข้ากับการตกลงวันพุธ",
+        "1": "ขอเลื่อนเวลาในวันเดิม แต่ B ตกลงวันพุธเวลาเดิม",
+        "2": "ยืนยันนัดเดิม แต่ B ตกลงวันพุธ"
+      },
+      "misconception_tags": [
+        "ignore_next_line"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.short_conversation.phone_appointment.0005",
+      "topic_ids": [
+        "tgat1.speaking.short_conversation.phone_appointment"
+      ],
+      "primary_topic_id": "tgat1.speaking.short_conversation.phone_appointment",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 40,
+      "stem_md": "**A:** Could you tell Mr. Wong that the delivery will arrive on Monday instead of Friday?  \n**B:** ______  \n**A:** That's right. Thank you.",
+      "figures": [],
+      "choices": [
+        {
+          "md": "OK. I'll tell him it's arriving on Friday.",
+          "is_answer": false
+        },
+        {
+          "md": "Who is Mr. Wong? I don't know him.",
+          "is_answer": false
+        },
+        {
+          "md": "Could you spell your name, please?",
+          "is_answer": false
+        },
+        {
+          "md": "Sure. So it's Monday, not Friday?",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "หลังช่อง: That's right. = ยืนยันข้อมูลที่ B ทวน",
+          "why_md": "B ต้องทวนข้อมูลเพื่อยืนยัน"
+        },
+        {
+          "do_md": "ทวนข้อมูลถูก: Monday ไม่ใช่ Friday",
+          "why_md": "Sure. So it's Monday, not Friday?"
+        }
+      ],
+      "answer_explanation_md": "ตอบ Sure. So it's Monday, not Friday? เพราะ B ทวนข้อมูลเพื่อยืนยัน และ A ตอบว่า That's right",
+      "hints": [
+        "That's right ใช้ตอบอะไร",
+        "ข้อมูลวันเดิมกับวันใหม่คืออะไร",
+        "หาตัวเลือกที่ทวนข้อมูลถูกต้อง"
+      ],
+      "distractor_reasons": {
+        "0": "ใช้วันเดิม (Friday) ทั้งที่ถูกเปลี่ยนเป็น Monday",
+        "1": "ถามว่าคุณหว่องคือใคร ไม่เข้ากับ That's right",
+        "2": "ถามการสะกดชื่อ ไม่เข้ากับ That's right. Thank you."
+      },
+      "misconception_tags": [
+        "ignore_next_line"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.short_conversation.phone_appointment.0006",
+      "topic_ids": [
+        "tgat1.speaking.short_conversation.phone_appointment"
+      ],
+      "primary_topic_id": "tgat1.speaking.short_conversation.phone_appointment",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 30,
+      "stem_md": "**A:** Hello, is this the Sunshine Clinic?  \n**B:** ______  \n**A:** Oh, I'm so sorry to bother you.",
+      "figures": [],
+      "choices": [
+        {
+          "md": "Yes, it is. How can I help you?",
+          "is_answer": false
+        },
+        {
+          "md": "No, I'm afraid you have the wrong number.",
+          "is_answer": true
+        },
+        {
+          "md": "Speaking. This is Dr. Pat.",
+          "is_answer": false
+        },
+        {
+          "md": "Hold on, I'll check the appointment list for you.",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "หลังช่อง: I'm so sorry to bother you.",
+          "why_md": "ใช้เมื่อโทรผิดหรือรบกวนคนที่ไม่เกี่ยวข้อง"
+        },
+        {
+          "do_md": "เลือก",
+          "why_md": "No, I'm afraid you have the wrong number."
+        }
+      ],
+      "answer_explanation_md": "ตอบ No, I'm afraid you have the wrong number. เพราะ A ขอโทษที่รบกวน แปลว่าโทรผิดเบอร์",
+      "hints": [
+        "A ขอโทษที่รบกวน เพราะเกิดอะไรขึ้น",
+        "ถ้าเป็นคลินิกจริง A จะขอโทษไหม",
+        "หาตัวเลือกที่บอกว่าโทรผิด"
+      ],
+      "distractor_reasons": {
+        "0": "ยืนยันว่าเป็นคลินิก แต่ A ขอโทษที่รบกวน ซึ่งแปลว่าโทรผิด",
+        "2": "บอกว่าเป็นหมอเอง ไม่เข้ากับการขอโทษ",
+        "3": "จะตรวจรายการนัด ไม่เข้ากับการขอโทษที่รบกวน"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.short_conversation.phone_appointment.0007",
+      "topic_ids": [
+        "tgat1.speaking.short_conversation.phone_appointment"
+      ],
+      "primary_topic_id": "tgat1.speaking.short_conversation.phone_appointment",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 45,
+      "stem_md": "**Caller:** May I speak to Dr. Patel?  \n**Assistant:** She's with a patient. ______  \n**Caller:** Yes, tell her Sam called.",
+      "figures": [],
+      "choices": [
+        {
+          "md": "Would you like to leave a message?",
+          "is_answer": true
+        },
+        {
+          "md": "Could she call a patient?",
+          "is_answer": false
+        },
+        {
+          "md": "Please leave now.",
+          "is_answer": false
+        },
+        {
+          "md": "Did Sam speak?",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ติดตามบริบทและผู้พูด",
+          "why_md": "ผู้โทรฝากข้อความในบรรทัดถัดไป"
+        },
+        {
+          "do_md": "ทดลองเติมแล้วอ่านต่อ",
+          "why_md": "คำตอบต้องทำให้บทสนทนาต่อเนื่อง ไม่ใช่แค่มีคำซ้ำ"
+        }
+      ],
+      "answer_explanation_md": "คำเสนอรับข้อความตรงบทบาทผู้ช่วย",
+      "hints": [
+        "ดูว่าใครพูดกับใครและต้องการอะไร",
+        "ใช้ประโยคก่อนและหลังช่องว่างร่วมกัน",
+        "ตัดตัวเลือกที่มีคำซ้ำแต่ทำหน้าที่ผิด"
+      ],
+      "distractor_reasons": {
+        "1": "ผิดเป้าหมาย",
+        "2": "leave คนละความหมาย",
+        "3": "รู้ชื่อก่อนถูกบอก"
+      },
+      "misconception_tags": [
+        "phone_phrase_misuse"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.short_conversation.phone_appointment.0008",
+      "topic_ids": [
+        "tgat1.speaking.short_conversation.phone_appointment"
+      ],
+      "primary_topic_id": "tgat1.speaking.short_conversation.phone_appointment",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 5,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": true,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 60,
+      "stem_md": "**Caller:** Move my appointment only if Tuesday is free.  \n**Receptionist:** ______  \n**Caller:** Thursday is fine; keep the same time.",
+      "figures": [],
+      "choices": [
+        {
+          "md": "The time moved itself.",
+          "is_answer": false
+        },
+        {
+          "md": "I've moved it to Thursday.",
+          "is_answer": false
+        },
+        {
+          "md": "Tuesday is full. Would Thursday at the same time work?",
+          "is_answer": true
+        },
+        {
+          "md": "Tuesday is free; Thursday is cancelled.",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ติดตามบริบทและผู้พูด",
+          "why_md": "ผู้โทรตอบรับ Thursday เวลาเดิม"
+        },
+        {
+          "do_md": "ทดลองเติมแล้วอ่านต่อ",
+          "why_md": "คำตอบต้องทำให้บทสนทนาต่อเนื่อง ไม่ใช่แค่มีคำซ้ำ"
+        }
+      ],
+      "answer_explanation_md": "พนักงานแจ้งข้อจำกัดและเสนอทางเลือกโดยยังไม่เปลี่ยนนัด",
+      "hints": [
+        "ดูว่าใครพูดกับใครและต้องการอะไร",
+        "ใช้ประโยคก่อนและหลังช่องว่างร่วมกัน",
+        "ตัดตัวเลือกที่มีคำซ้ำแต่ทำหน้าที่ผิด"
+      ],
+      "distractor_reasons": {
+        "0": "ผู้กระทำผิด",
+        "1": "เปลี่ยนก่อนยินยอม",
+        "3": "ขัดคำตอบถัดไป"
+      },
+      "misconception_tags": [
+        "ignore_next_line"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    }
+  ],
+  "generated_from": "content/tgat1/speaking_conv.py"
+}

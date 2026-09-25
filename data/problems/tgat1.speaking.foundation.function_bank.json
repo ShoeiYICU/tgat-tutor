@@ -1,0 +1,597 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tgat1.speaking.foundation.function_bank",
+  "problems": [
+    {
+      "id": "prob.tgat1.speaking.foundation.function_bank.0001",
+      "topic_ids": [
+        "tgat1.speaking.foundation.function_bank"
+      ],
+      "primary_topic_id": "tgat1.speaking.foundation.function_bank",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 25,
+      "stem_md": "**A:** You look pale. Why don't you see a doctor?  \n**B:** ______",
+      "figures": [],
+      "choices": [
+        {
+          "md": "No, not at all.",
+          "is_answer": false
+        },
+        {
+          "md": "Because the doctor is very busy.",
+          "is_answer": false
+        },
+        {
+          "md": "I don't know why.",
+          "is_answer": false
+        },
+        {
+          "md": "You're right. I'll go this afternoon.",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "หน้าที่: แนะนำ",
+          "why_md": "Why don't you...? = ทำไมไม่ลอง... (คำแนะนำ)"
+        },
+        {
+          "do_md": "คำตอบคู่: รับคำแนะนำ",
+          "why_md": "You're right. I'll go this afternoon."
+        }
+      ],
+      "answer_explanation_md": "ตอบ You're right. I'll go this afternoon. เพราะ Why don't you... เป็นคำแนะนำ คำตอบที่เหมาะคือรับคำแนะนำ",
+      "hints": [
+        "Why don't you see a doctor? ถามเหตุผลจริงไหม",
+        "ประโยคนี้ทำหน้าที่อะไร",
+        "คำตอบที่คู่กับคำแนะนำคืออะไร"
+      ],
+      "distractor_reasons": {
+        "0": "เป็นคำตอบของ Would you mind",
+        "1": "ตอบด้วย Because เหมือนถูกถามเหตุผล ทั้งที่เป็นคำแนะนำ",
+        "2": "ตีความ Why don't you ว่าถามเหตุผล"
+      },
+      "misconception_tags": [
+        "literal_translation"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.foundation.function_bank.0002",
+      "topic_ids": [
+        "tgat1.speaking.foundation.function_bank"
+      ],
+      "primary_topic_id": "tgat1.speaking.foundation.function_bank",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 30,
+      "stem_md": "**A:** Would you mind if I left a bit early today?  \n**B:** ______",
+      "figures": [],
+      "choices": [
+        {
+          "md": "No, that's fine.",
+          "is_answer": true
+        },
+        {
+          "md": "Yes, of course. Go ahead.",
+          "is_answer": false
+        },
+        {
+          "md": "Thanks, that's very kind.",
+          "is_answer": false
+        },
+        {
+          "md": "Sure, I'll leave early too.",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "หน้าที่: ขออนุญาต (Would you mind if I...)",
+          "why_md": "ยอม = ตอบปฏิเสธ"
+        },
+        {
+          "do_md": "คำตอบคู่",
+          "why_md": "No, that's fine."
+        }
+      ],
+      "answer_explanation_md": "ตอบ No, that's fine. เพราะ Would you mind ถ้ายอมต้องตอบปฏิเสธว่าไม่รังเกียจ",
+      "hints": [
+        "ประโยคนี้ทำหน้าที่อะไร",
+        "Would you mind ถามว่ารังเกียจไหม ถ้ายอมต้องตอบอย่างไร",
+        "ระวังตัวเลือกที่ขึ้นต้นด้วย Yes"
+      ],
+      "distractor_reasons": {
+        "1": "Yes แปลว่ารังเกียจ ขัดกับ Go ahead",
+        "2": "ตอบเหมือนได้รับความช่วยเหลือ",
+        "3": "ตีความว่าชวนกลับด้วยกัน"
+      },
+      "misconception_tags": [
+        "would_you_mind_yes"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.foundation.function_bank.0003",
+      "topic_ids": [
+        "tgat1.speaking.foundation.function_bank"
+      ],
+      "primary_topic_id": "tgat1.speaking.foundation.function_bank",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 25,
+      "stem_md": "**A:** I got the scholarship!  \n**B:** ______",
+      "figures": [],
+      "choices": [
+        {
+          "md": "That's OK. Don't worry.",
+          "is_answer": false
+        },
+        {
+          "md": "Congratulations! You deserve it.",
+          "is_answer": true
+        },
+        {
+          "md": "I'm sorry to hear that.",
+          "is_answer": false
+        },
+        {
+          "md": "You're welcome.",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "หน้าที่: แจ้งข่าวดี",
+          "why_md": "คำตอบคู่: แสดงความยินดี"
+        },
+        {
+          "do_md": "เลือก",
+          "why_md": "Congratulations! You deserve it."
+        }
+      ],
+      "answer_explanation_md": "ตอบ Congratulations! You deserve it. เพราะ A แจ้งข่าวดี คำตอบที่คู่กันคือแสดงความยินดี",
+      "hints": [
+        "A แจ้งข่าวดีหรือข่าวร้าย",
+        "คำตอบของข่าวดีคืออะไร",
+        "ตัดตัวเลือกที่ใช้กับข่าวร้ายหรือคำขอบคุณ"
+      ],
+      "distractor_reasons": {
+        "0": "ใช้ปลอบหรือตอบคำขอโทษ",
+        "2": "ใช้กับข่าวร้าย แต่นี่เป็นข่าวดี",
+        "3": "ใช้ตอบคำขอบคุณ"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.foundation.function_bank.0004",
+      "topic_ids": [
+        "tgat1.speaking.foundation.function_bank"
+      ],
+      "primary_topic_id": "tgat1.speaking.foundation.function_bank",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 30,
+      "stem_md": "**A:** What do you think of the new canteen menu?  \n**B:** ______",
+      "figures": [],
+      "choices": [
+        {
+          "md": "I think of it every lunchtime at school.",
+          "is_answer": false
+        },
+        {
+          "md": "The canteen opens at 11 a.m.",
+          "is_answer": false
+        },
+        {
+          "md": "I think it's healthier.",
+          "is_answer": true
+        },
+        {
+          "md": "Yes, I think so, too.",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "หน้าที่: ถามความเห็น",
+          "why_md": "คำตอบคู่: ให้ความเห็น"
+        },
+        {
+          "do_md": "เลือก",
+          "why_md": "I think it's healthier."
+        }
+      ],
+      "answer_explanation_md": "ตอบ I think it's healthier. เพราะ A ถามความเห็น B จึงต้องให้ความเห็นของตัวเอง",
+      "hints": [
+        "A ถามอะไร",
+        "A บอกความเห็นของตัวเองแล้วหรือยัง",
+        "คำตอบคู่กับการถามความเห็นคืออะไร"
+      ],
+      "distractor_reasons": {
+        "0": "ตีความ think of ว่าคิดถึง",
+        "1": "ให้ข้อมูลเวลา ไม่ได้ให้ความเห็น",
+        "3": "ตอบเหมือนเห็นด้วยกับความเห็น แต่ A ยังไม่ได้ให้ความเห็น"
+      },
+      "misconception_tags": [
+        "literal_translation"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.foundation.function_bank.0005",
+      "topic_ids": [
+        "tgat1.speaking.foundation.function_bank"
+      ],
+      "primary_topic_id": "tgat1.speaking.foundation.function_bank",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 30,
+      "stem_md": "**A:** Let me help you with those bags.  \n**B:** ______",
+      "figures": [],
+      "choices": [
+        {
+          "md": "Sure, I'll help you.",
+          "is_answer": false
+        },
+        {
+          "md": "Oh, thanks! That's kind of you.",
+          "is_answer": true
+        },
+        {
+          "md": "No, not at all.",
+          "is_answer": false
+        },
+        {
+          "md": "Sorry, I can't help you.",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "หน้าที่: เสนอความช่วยเหลือ (Let me...)",
+          "why_md": "A จะเป็นคนช่วย"
+        },
+        {
+          "do_md": "คำตอบคู่: ตอบรับพร้อมขอบคุณ",
+          "why_md": "Oh, thanks! That's kind of you."
+        }
+      ],
+      "answer_explanation_md": "ตอบ Oh, thanks! That's kind of you. เพราะ Let me... เป็นการเสนอความช่วยเหลือ คำตอบที่คู่กันคือตอบรับและขอบคุณ",
+      "hints": [
+        "Let me... ใครจะเป็นคนทำ",
+        "ประโยคนี้ทำหน้าที่อะไร",
+        "ตอบรับข้อเสนอความช่วยเหลืออย่างไร"
+      ],
+      "distractor_reasons": {
+        "0": "ตอบเหมือนตัวเองจะช่วย สลับบทบาท",
+        "2": "เป็นคำตอบของ Would you mind",
+        "3": "ตีความว่า A ขอความช่วยเหลือ"
+      },
+      "misconception_tags": [
+        "offer_request_confusion"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.foundation.function_bank.0006",
+      "topic_ids": [
+        "tgat1.speaking.foundation.function_bank"
+      ],
+      "primary_topic_id": "tgat1.speaking.foundation.function_bank",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 35,
+      "stem_md": "**A:** I'm sorry to hear you've been sick.  \n**B:** ______",
+      "figures": [],
+      "choices": [
+        {
+          "md": "Thanks. I'm feeling better now.",
+          "is_answer": true
+        },
+        {
+          "md": "You're welcome.",
+          "is_answer": false
+        },
+        {
+          "md": "That's OK. It wasn't your fault.",
+          "is_answer": false
+        },
+        {
+          "md": "Yes, I'm sorry, too.",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "หน้าที่: แสดงความเห็นใจ",
+          "why_md": "sorry to hear ไม่ใช่การขอโทษ"
+        },
+        {
+          "do_md": "คำตอบคู่: ขอบคุณ",
+          "why_md": "Thanks. I'm feeling better now."
+        }
+      ],
+      "answer_explanation_md": "ตอบ Thanks. I'm feeling better now. เพราะ A แสดงความเห็นใจ ไม่ได้ขอโทษ คำตอบที่คู่กันคือขอบคุณ",
+      "hints": [
+        "A ทำอะไรผิดไหม ทำไมถึงพูด sorry",
+        "sorry to hear ทำหน้าที่อะไร",
+        "คำตอบของการแสดงความเห็นใจคืออะไร"
+      ],
+      "distractor_reasons": {
+        "1": "ใช้ตอบคำขอบคุณ",
+        "2": "ตีความว่า A ขอโทษ ทั้งที่ A แสดงความเห็นใจ",
+        "3": "ขอโทษกลับโดยไม่มีเหตุผล"
+      },
+      "misconception_tags": [
+        "sorry_to_hear_as_apology"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.foundation.function_bank.0007",
+      "topic_ids": [
+        "tgat1.speaking.foundation.function_bank"
+      ],
+      "primary_topic_id": "tgat1.speaking.foundation.function_bank",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 45,
+      "stem_md": "**A:** This box is heavy.  \n**B:** Shall I give you a hand?  \n**What is B doing?:** ",
+      "figures": [],
+      "choices": [
+        {
+          "md": "Requesting help from A",
+          "is_answer": false
+        },
+        {
+          "md": "Asking to leave",
+          "is_answer": false
+        },
+        {
+          "md": "Offering help",
+          "is_answer": true
+        },
+        {
+          "md": "Warning about an injury",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ติดตามบริบทและผู้พูด",
+          "why_md": "Shall I และ give you a hand"
+        },
+        {
+          "do_md": "ทดลองเติมแล้วอ่านต่อ",
+          "why_md": "คำตอบต้องทำให้บทสนทนาต่อเนื่อง ไม่ใช่แค่มีคำซ้ำ"
+        }
+      ],
+      "answer_explanation_md": "B เสนอช่วย A",
+      "hints": [
+        "ดูว่าใครพูดกับใครและต้องการอะไร",
+        "ใช้ประโยคก่อนและหลังช่องว่างร่วมกัน",
+        "ตัดตัวเลือกที่มีคำซ้ำแต่ทำหน้าที่ผิด"
+      ],
+      "distractor_reasons": {
+        "0": "สลับผู้ให้",
+        "1": "ไม่มีเรื่องออก",
+        "3": "แปล hand ตรงตัว"
+      },
+      "misconception_tags": [
+        "literal_translation"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.foundation.function_bank.0008",
+      "topic_ids": [
+        "tgat1.speaking.foundation.function_bank"
+      ],
+      "primary_topic_id": "tgat1.speaking.foundation.function_bank",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 5,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": true,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 60,
+      "stem_md": "**A:** Would it be possible to extend the deadline?  \n**B:** I'm afraid the system closes tonight.  \n**What are their functions?:** ",
+      "figures": [],
+      "choices": [
+        {
+          "md": "A offers to finish the work; B accepts and adds an unrelated closing comment.",
+          "is_answer": false
+        },
+        {
+          "md": "A asks permission; B changes topic.",
+          "is_answer": false
+        },
+        {
+          "md": "A complains; B apologizes.",
+          "is_answer": false
+        },
+        {
+          "md": "A requests politely; B refuses politely with a reason.",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ติดตามบริบทและผู้พูด",
+          "why_md": "วิเคราะห์หน้าที่ทีละบรรทัด"
+        },
+        {
+          "do_md": "ทดลองเติมแล้วอ่านต่อ",
+          "why_md": "คำตอบต้องทำให้บทสนทนาต่อเนื่อง ไม่ใช่แค่มีคำซ้ำ"
+        }
+      ],
+      "answer_explanation_md": "Would it be possible เป็นคำขอ และ I'm afraid นำการปฏิเสธ",
+      "hints": [
+        "ดูว่าใครพูดกับใครและต้องการอะไร",
+        "ใช้ประโยคก่อนและหลังช่องว่างร่วมกัน",
+        "ตัดตัวเลือกที่มีคำซ้ำแต่ทำหน้าที่ผิด"
+      ],
+      "distractor_reasons": {
+        "0": "สลับหน้าที่",
+        "1": "B ตอบตรงข้อจำกัด",
+        "2": "ไม่ใช่การร้องเรียนหรือขอโทษ"
+      },
+      "misconception_tags": [
+        "offer_request_confusion"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    }
+  ],
+  "generated_from": "content/tgat1/speaking_conv.py"
+}

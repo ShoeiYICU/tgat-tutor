@@ -1,0 +1,97 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tgat1.reading.text_completion.reference_word",
+  "title": "คำอ้างถึงชี้กลับไปหาอะไร",
+  "subtitle": "it, they, this, these, such, the former/the latter ชี้กลับไปหาคำนามก่อนหน้า ต้องตรวจทั้งเอกพจน์พหูพจน์และความหมาย",
+  "prereq_topic_ids": [
+    "tgat1.reading.text_completion.connector"
+  ],
+  "objectives": [
+    "หาคำนามที่คำอ้างถึงชี้กลับไป",
+    "ใช้เอกพจน์พหูพจน์ตัดตัวเลือก",
+    "เข้าใจ this/that ที่ชี้กลับไปทั้งประโยค"
+  ],
+  "est_minutes": 20,
+  "blocks": [
+    {
+      "type": "hook",
+      "body_md": "ข้อสอบชอบถาม \"The word **it** in line 5 refers to...\" คำตอบมักเป็นคำนามที่อยู่ **ใกล้ที่สุดที่เข้ากันได้** ไม่ใช่คำนามที่ใกล้ที่สุดเสมอไป"
+    },
+    {
+      "type": "concept",
+      "heading": "วิธีหาสิ่งที่ถูกอ้างถึง",
+      "body_md": "1. **ดูรูป** — it/this = เอกพจน์ · they/these = พหูพจน์\n2. **ย้อนหาคำนามที่รูปตรงกัน** — เริ่มจากใกล้ที่สุด\n3. **แทนค่ากลับ** — เอาคำนามนั้นใส่แทนคำอ้างถึง ประโยคต้องมีความหมาย\n\n**this / that** อาจชี้กลับไปหา **ทั้งความคิดในประโยคก่อนหน้า** ไม่ใช่คำนามคำเดียว"
+    },
+    {
+      "type": "formula",
+      "name": "แทนค่ากลับเสมอ",
+      "formula_tex": "",
+      "variables": [],
+      "use_when": "ทุกข้อที่ถามว่าคำอ้างถึงหมายถึงอะไร",
+      "avoid_when": "อย่าเลือกคำนามที่ใกล้ที่สุดโดยไม่แทนค่า เพราะตัวลวงมักเป็นคำนามที่อยู่ใกล้แต่ความหมายไม่เข้า",
+      "derivation_md": "แทนตัวเลือกลงในตำแหน่งของคำอ้างถึง แล้วอ่านประโยคใหม่ ตัวที่ความหมายสมเหตุผลคือคำตอบ",
+      "memory_tip": "ตรงรูป + แทนค่าแล้วสมเหตุผล"
+    },
+    {
+      "type": "example",
+      "label": "ตัวอย่างที่ 1",
+      "difficulty": 2,
+      "stem_md": "The students sold vegetables at the market. **They** used the money to buy seeds.\n\nThey refers to...",
+      "steps": [
+        {
+          "do_md": "They = พหูพจน์",
+          "why_md": "ตัวเลือกพหูพจน์: the students, vegetables"
+        },
+        {
+          "do_md": "แทนค่า: vegetables used the money? ไม่สมเหตุผล",
+          "why_md": "The students used the money สมเหตุผล"
+        }
+      ],
+      "answer_md": "the students",
+      "figures": []
+    },
+    {
+      "type": "pitfall",
+      "title": "เลือกคำนามที่ใกล้ที่สุด",
+      "wrong_md": "\"The council introduced a rule for the boats. **It** was strongly supported by residents.\" → เลือก the boats",
+      "why_wrong_md": "the boats เป็นพหูพจน์ ไม่ตรงกับ it และเรือไม่ได้รับการสนับสนุน",
+      "correct_md": "It = the rule",
+      "misconception_tag": "nearest_noun_trap"
+    },
+    {
+      "type": "summary",
+      "bullets_md": [
+        "ตรวจรูปเอกพจน์พหูพจน์",
+        "ย้อนหาคำนามที่ตรงรูป",
+        "แทนค่ากลับเพื่อตรวจความหมาย",
+        "this/that อาจหมายถึงทั้งความคิด"
+      ]
+    },
+    {
+      "type": "check",
+      "question_md": "Maya lost her phone, but her brother found **it** in the car. It refers to...",
+      "choices": [
+        "Maya",
+        "her brother",
+        "her phone",
+        "the car"
+      ],
+      "answer_index": 2,
+      "explain_md": "แทนค่า: her brother found her phone in the car สมเหตุผล"
+    }
+  ],
+  "glossary": [],
+  "common_exam_patterns": [
+    "คำอ้างถึง it / they / this ในบทอ่าน",
+    "ตัวลวงเป็นคำนามที่อยู่ใกล้ที่สุด"
+  ],
+  "next_topic_ids": [
+    "tgat1.reading.text_completion.tense_consistency"
+  ],
+  "sources": [
+    "ผังการสอบ TGAT1 จาก mytcas.com (พาร์ทการอ่าน)",
+    "บทอ่านแต่งขึ้นใหม่เพื่อการฝึก"
+  ],
+  "review_status": "ai_draft",
+  "generated_from": "content/tgat1/reading.py"
+}

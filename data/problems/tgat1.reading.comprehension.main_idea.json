@@ -1,0 +1,597 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tgat1.reading.comprehension.main_idea",
+  "problems": [
+    {
+      "id": "prob.tgat1.reading.comprehension.main_idea.0001",
+      "topic_ids": [
+        "tgat1.reading.comprehension.main_idea"
+      ],
+      "primary_topic_id": "tgat1.reading.comprehension.main_idea",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 75,
+      "stem_md": "**Community Garden**\n\nThree years ago, the empty land behind Suan Mai School was full of rubbish. Today, it is a community garden where students and neighbors grow vegetables together. The idea came from a group of Grade 10 students who were tired of seeing plastic bags blowing across the field. At first, many adults doubted that teenagers could keep the project going. However, the students organized a weekly schedule, asked a local farmer for advice, and sold their vegetables at the school market. The money they earned was used to buy seeds and tools. Now, more than forty families take part, and the garden has become a place where older and younger people share knowledge. Several other schools in the province have visited to learn how to start similar projects.\n\n---\n\nWhat is the main idea of the passage?",
+      "figures": [],
+      "choices": [
+        {
+          "md": "Students created a garden that unites the community.",
+          "is_answer": true
+        },
+        {
+          "md": "Students sold the vegetables they grew at the school market every week to earn money for the project.",
+          "is_answer": false
+        },
+        {
+          "md": "All schools in Thailand should start community gardens.",
+          "is_answer": false
+        },
+        {
+          "md": "Adults did not trust teenagers to do anything useful.",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ประโยคแรก-สุดท้าย: จากที่ทิ้งขยะเป็นสวนชุมชน มีโรงเรียนอื่นมาดูงาน",
+          "why_md": "ประเด็นหลักคือความสำเร็จของโครงการ"
+        },
+        {
+          "do_md": "ตัดตัวแคบและกว้างเกิน",
+          "why_md": "เหลือตัวที่ครอบคลุมทั้งเรื่อง"
+        }
+      ],
+      "answer_explanation_md": "ตอบ Students created a garden that unites the community. เพราะครอบคลุมทั้งบท ตั้งแต่จุดเริ่มต้นจนถึงผลที่เกิดกับชุมชน",
+      "hints": [
+        "อ่านประโยคแรกและประโยคสุดท้ายของบท",
+        "ตัวเลือกไหนเป็นแค่รายละเอียดหนึ่ง",
+        "ตัวเลือกไหนพูดเกินกว่าที่บทอ่านพูด"
+      ],
+      "distractor_reasons": {
+        "1": "จริง แต่เป็นรายละเอียดเดียว แคบเกินไป",
+        "2": "กว้างเกินไป บทอ่านไม่ได้แนะนำทุกโรงเรียน",
+        "3": "เป็นรายละเอียดตอนต้น และพูดเกินกว่าบทอ่าน"
+      },
+      "misconception_tags": [
+        "detail_as_main_idea"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.reading.comprehension.main_idea.0002",
+      "topic_ids": [
+        "tgat1.reading.comprehension.main_idea"
+      ],
+      "primary_topic_id": "tgat1.reading.comprehension.main_idea",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 75,
+      "stem_md": "**Sleep and Learning**\n\nMany teenagers believe that staying up late to study will help them get better grades. Sleep researchers, however, suggest the opposite. When we sleep, the brain sorts and stores the information we learned during the day. Students who sleep less than six hours a night often find it harder to concentrate and remember facts. In one classroom activity, two groups of students learned the same list of words. One group was tested after eight hours of sleep, while the other was tested after spending the same amount of time awake. The sleeping group remembered more words. This does not mean that studying is unimportant. Rather, it shows that sleep is part of learning, not a break from it. Experts recommend that teenagers get eight to ten hours of sleep and avoid using phones for at least an hour before bed.\n\n---\n\nWhich is the best title for the passage?",
+      "figures": [],
+      "choices": [
+        {
+          "md": "A Study About Remembering Words",
+          "is_answer": false
+        },
+        {
+          "md": "How to Get Better Grades in Every Subject",
+          "is_answer": false
+        },
+        {
+          "md": "Why Sleep Matters for Learning",
+          "is_answer": true
+        },
+        {
+          "md": "The Dangers of Using Phones",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ประเด็นหลัก: การนอนเป็นส่วนหนึ่งของการเรียนรู้",
+          "why_md": "ทุกส่วนของบทสนับสนุนเรื่องนี้"
+        },
+        {
+          "do_md": "ชื่อเรื่องต้องครอบคลุม",
+          "why_md": "Why Sleep Matters for Learning"
+        }
+      ],
+      "answer_explanation_md": "ตอบ Why Sleep Matters for Learning เพราะครอบคลุมประเด็นหลักทั้งบท ส่วนตัวเลือกอื่นแคบหรือกว้างเกิน",
+      "hints": [
+        "บทอ่านพยายามบอกผู้อ่านเรื่องอะไร",
+        "การทดลองเรื่องคำศัพท์เป็นประเด็นหลักหรือหลักฐาน",
+        "ชื่อเรื่องไหนครอบคลุมทั้งบท"
+      ],
+      "distractor_reasons": {
+        "0": "เป็นแค่รายละเอียดหนึ่ง แคบเกินไป",
+        "1": "กว้างเกินไป บทอ่านพูดเฉพาะเรื่องการนอน",
+        "3": "เป็นแค่คำแนะนำท้ายบท ไม่ใช่ประเด็นหลัก"
+      },
+      "misconception_tags": [
+        "detail_as_main_idea"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.reading.comprehension.main_idea.0003",
+      "topic_ids": [
+        "tgat1.reading.comprehension.main_idea"
+      ],
+      "primary_topic_id": "tgat1.reading.comprehension.main_idea",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 75,
+      "stem_md": "**Floating Market**\n\nFor more than sixty years, Riverside Floating Market was mainly a place where farmers sold fruit to local families. When a popular travel program featured the market in 2015, everything changed. Within a few months, weekend visitors increased from a few hundred to several thousand. Some vendors were delighted because their income doubled. Others were less happy. They complained that parking spaces were always full and that traditional wooden boats were being replaced by larger, noisier ones. The local council eventually introduced a rule limiting the number of motorboats. Today, the market tries to balance its new popularity with its old way of life.\n\n---\n\nWhat is the passage mainly about?",
+      "figures": [],
+      "choices": [
+        {
+          "md": "Why vendors earn more money from tourists",
+          "is_answer": false
+        },
+        {
+          "md": "How sudden popularity changed a traditional market",
+          "is_answer": true
+        },
+        {
+          "md": "The history of Thai floating markets over sixty years",
+          "is_answer": false
+        },
+        {
+          "md": "Problems with parking in tourist areas",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ประเด็น: รายการท่องเที่ยวทำให้ตลาดเปลี่ยน ทั้งผลดีและผลเสีย",
+          "why_md": "และตลาดพยายามหาสมดุล"
+        },
+        {
+          "do_md": "ตัวเลือกที่ครอบคลุม",
+          "why_md": "How sudden popularity changed a traditional market"
+        }
+      ],
+      "answer_explanation_md": "ตอบ How sudden popularity changed a traditional market เพราะครอบคลุมจุดเปลี่ยน ผลที่ตามมา และการปรับตัวของตลาด",
+      "hints": [
+        "อะไรเป็นจุดเปลี่ยนของเรื่อง",
+        "บทอ่านพูดถึงผลดีหรือผลเสีย หรือทั้งสองอย่าง",
+        "หาตัวเลือกที่ครอบคลุมตั้งแต่จุดเปลี่ยนถึงตอนจบ"
+      ],
+      "distractor_reasons": {
+        "0": "เป็นรายละเอียดของผู้ค้ากลุ่มหนึ่ง แคบเกินไป",
+        "2": "บทอ่านไม่ได้เล่าประวัติทั้งหกสิบปี กว้างเกินไป",
+        "3": "เป็นรายละเอียดหนึ่งของปัญหา แคบเกินไป"
+      },
+      "misconception_tags": [
+        "detail_as_main_idea"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.reading.comprehension.main_idea.0004",
+      "topic_ids": [
+        "tgat1.reading.comprehension.main_idea"
+      ],
+      "primary_topic_id": "tgat1.reading.comprehension.main_idea",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 60,
+      "stem_md": "**Complaint Letter**\n\nDear Mr. Hansen,\n\nI am writing to complain about the fitness app I subscribed to last month. Your advertisement promised personalized workout plans and weekly progress reports. Unfortunately, I have received the same basic plan every week, and I have not received a single progress report. When I contacted your customer service on 3 March, I was told that the problem would be fixed within two days. It has now been two weeks, and nothing has changed. I would therefore like to request a full refund of my subscription fee. I look forward to your prompt reply.\n\nYours sincerely,\nPimchanok S.\n\n---\n\nWhat is the main purpose of the letter?",
+      "figures": [],
+      "choices": [
+        {
+          "md": "To report that customer service was rude",
+          "is_answer": false
+        },
+        {
+          "md": "To request a refund",
+          "is_answer": true
+        },
+        {
+          "md": "To thank the company for its quick and helpful customer service team",
+          "is_answer": false
+        },
+        {
+          "md": "To ask how to use the fitness app",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ผู้เขียนบ่นว่าแอปไม่ทำตามที่โฆษณา",
+          "why_md": "และขอคืนเงินในตอนท้าย"
+        },
+        {
+          "do_md": "จุดประสงค์หลักอยู่ที่คำขอท้ายจดหมาย",
+          "why_md": "I would therefore like to request a full refund"
+        }
+      ],
+      "answer_explanation_md": "ตอบ To request a refund เพราะผู้เขียนบ่นเรื่องแอปไม่ทำตามโฆษณาและขอคืนเงินในตอนท้าย",
+      "hints": [
+        "จดหมายนี้มีน้ำเสียงพอใจหรือไม่พอใจ",
+        "ผู้เขียนขออะไรในตอนท้าย",
+        "จุดประสงค์ของจดหมายร้องเรียนมักอยู่ที่คำขอ"
+      ],
+      "distractor_reasons": {
+        "0": "ไม่มีข้อมูลว่าพนักงานหยาบคาย",
+        "2": "ผู้เขียนไม่พอใจ ไม่ได้ขอบคุณ",
+        "3": "ผู้เขียนไม่ได้ถามวิธีใช้"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.reading.comprehension.main_idea.0005",
+      "topic_ids": [
+        "tgat1.reading.comprehension.main_idea"
+      ],
+      "primary_topic_id": "tgat1.reading.comprehension.main_idea",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 75,
+      "stem_md": "**Robot Teachers?**\n\nA pilot program at Riverdale School has started using robots in English classes. The robots can repeat words patiently, play games with students, and never get tired. Supporters say that shy students feel more comfortable practicing with a robot because they are not afraid of making mistakes. However, critics point out that robots cannot understand students' feelings or explain difficult ideas in different ways. Teachers in the program say that robots work best as assistants, not as replacements for human teachers.\n\n---\n\nWhat is the main idea of the passage?",
+      "figures": [],
+      "choices": [
+        {
+          "md": "Shy students like practicing English with robots.",
+          "is_answer": false
+        },
+        {
+          "md": "Robots are better than human teachers.",
+          "is_answer": false
+        },
+        {
+          "md": "All schools should replace human teachers with robots.",
+          "is_answer": false
+        },
+        {
+          "md": "Robots can help in language classes, but they cannot replace teachers.",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "บทอ่านเสนอทั้งข้อดีและข้อจำกัดของหุ่นยนต์",
+          "why_md": "แล้วสรุปว่าเป็นผู้ช่วย ไม่ใช่ตัวแทนครู"
+        },
+        {
+          "do_md": "ใจความหลักอยู่ที่ประโยคสุดท้าย",
+          "why_md": "Robots can help... but cannot replace teachers."
+        }
+      ],
+      "answer_explanation_md": "ตอบ Robots can help in language classes, but they cannot replace teachers. เพราะครอบคลุมทั้งข้อดี ข้อจำกัด และข้อสรุปของบท",
+      "hints": [
+        "บทอ่านมีทั้งฝ่ายสนับสนุนและฝ่ายวิจารณ์ไหม",
+        "ประโยคสุดท้ายสรุปว่าอย่างไร",
+        "ตัวเลือกไหนครอบคลุมทั้งสองฝ่ายและข้อสรุป"
+      ],
+      "distractor_reasons": {
+        "0": "จริง แต่เป็นรายละเอียดของฝ่ายสนับสนุน แคบเกินไป",
+        "1": "ขัดกับข้อสรุปท้ายบท",
+        "2": "กว้างเกินไปและขัดกับข้อสรุปของบทอ่าน"
+      },
+      "misconception_tags": [
+        "detail_as_main_idea"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.reading.comprehension.main_idea.0006",
+      "topic_ids": [
+        "tgat1.reading.comprehension.main_idea"
+      ],
+      "primary_topic_id": "tgat1.reading.comprehension.main_idea",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 60,
+      "stem_md": "**The Two-Minute Rule**\n\nMany people feel overwhelmed by long to-do lists. One simple technique that can help is the two-minute rule. The idea is that if a task takes less than two minutes, such as replying to a short message or putting a book back on the shelf, you should do it immediately instead of writing it down. This prevents small tasks from piling up and makes your list look less frightening. For bigger tasks, the rule suggests starting with just two minutes of work, because getting started is often the hardest part.\n\n---\n\nWhich is the best title?",
+      "figures": [],
+      "choices": [
+        {
+          "md": "How to Reply to Messages Quickly",
+          "is_answer": false
+        },
+        {
+          "md": "Why People Hate To-Do Lists",
+          "is_answer": false
+        },
+        {
+          "md": "A Simple Rule for Getting Things Done",
+          "is_answer": true
+        },
+        {
+          "md": "The Long History of Time Management Around the World",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ประเด็นหลัก: กฎสองนาทีช่วยจัดการงาน",
+          "why_md": "ทั้งงานเล็กและงานใหญ่"
+        },
+        {
+          "do_md": "ชื่อเรื่องที่ครอบคลุม",
+          "why_md": "A Simple Rule for Getting Things Done"
+        }
+      ],
+      "answer_explanation_md": "ตอบ A Simple Rule for Getting Things Done เพราะครอบคลุมเทคนิคกฎสองนาทีทั้งกับงานเล็กและงานใหญ่",
+      "hints": [
+        "บทอ่านแนะนำเทคนิคอะไร",
+        "ตัวอย่างการตอบข้อความเป็นประเด็นหลักหรือตัวอย่าง",
+        "ชื่อเรื่องไหนครอบคลุมทั้งงานเล็กและงานใหญ่"
+      ],
+      "distractor_reasons": {
+        "0": "เป็นแค่ตัวอย่างหนึ่ง",
+        "1": "บทอ่านพูดถึงความรู้สึกท่วมท้นแค่ตอนต้น แคบเกินไป",
+        "3": "กว้างเกินไป บทอ่านไม่ได้เล่าประวัติ"
+      },
+      "misconception_tags": [
+        "detail_as_main_idea"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.reading.comprehension.main_idea.0007",
+      "topic_ids": [
+        "tgat1.reading.comprehension.main_idea"
+      ],
+      "primary_topic_id": "tgat1.reading.comprehension.main_idea",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 55,
+      "stem_md": "A neighborhood library removed late fees. Returns were briefly slower, but membership rose and most books still came back within a month. Staff kept reminders for popular titles. What is the main idea?",
+      "figures": [],
+      "choices": [
+        {
+          "md": "Staff replaced fees with daily phone calls.",
+          "is_answer": false
+        },
+        {
+          "md": "Membership always rises when rules disappear.",
+          "is_answer": false
+        },
+        {
+          "md": "Popular books should never leave libraries.",
+          "is_answer": false
+        },
+        {
+          "md": "Removing fines improved access without seriously harming returns.",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ระบุสิ่งที่โจทย์ถาม",
+          "why_md": "สรุปผลดีและข้อกังวลหลักของนโยบาย"
+        },
+        {
+          "do_md": "ตรวจด้วยบริบทรอบจุดสำคัญ",
+          "why_md": "เลือกคำตอบที่มีหลักฐานรองรับครบ ไม่เติมข้อมูลเอง"
+        }
+      ],
+      "answer_explanation_md": "คำตอบครอบคลุมการเข้าถึงและผลต่อการคืนหนังสือ",
+      "hints": [
+        "ขีดเส้นคำหรือประโยคที่เป็นหลักฐาน",
+        "ตัดตัวเลือกที่จริงบางส่วนแต่ตอบคนละคำถาม",
+        "ตรวจว่าคำตอบไม่กว้างหรือแคบเกินข้อความ"
+      ],
+      "distractor_reasons": {
+        "0": "ไม่มีข้อมูล daily phone calls",
+        "1": "เหมารวมเกินบท",
+        "2": "สุดโต่งและไม่ใช่ประเด็นรวม"
+      },
+      "misconception_tags": [
+        "detail_as_main_idea"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.reading.comprehension.main_idea.0008",
+      "topic_ids": [
+        "tgat1.reading.comprehension.main_idea"
+      ],
+      "primary_topic_id": "tgat1.reading.comprehension.main_idea",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 5,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": true,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 75,
+      "stem_md": "A school planted shade trees to cool classrooms. Temperatures fell only slightly in year one because the trees were young. The project also created outdoor science lessons, and planners expect greater cooling later. What is the main idea?",
+      "figures": [],
+      "choices": [
+        {
+          "md": "The tree project has limited immediate cooling but offers present and future benefits.",
+          "is_answer": true
+        },
+        {
+          "md": "Young trees cannot reduce temperature.",
+          "is_answer": false
+        },
+        {
+          "md": "The school chose the wrong trees.",
+          "is_answer": false
+        },
+        {
+          "md": "Outdoor lessons matter more than classroom heat.",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ระบุสิ่งที่โจทย์ถาม",
+          "why_md": "รวมผลปัจจุบัน ข้อจำกัด และผลอนาคต"
+        },
+        {
+          "do_md": "ตรวจด้วยบริบทรอบจุดสำคัญ",
+          "why_md": "เลือกคำตอบที่มีหลักฐานรองรับครบ ไม่เติมข้อมูลเอง"
+        }
+      ],
+      "answer_explanation_md": "คำตอบที่ถูกไม่ตัดสินโครงการจากผลปีแรกด้านเดียว",
+      "hints": [
+        "ขีดเส้นคำหรือประโยคที่เป็นหลักฐาน",
+        "ตัดตัวเลือกที่จริงบางส่วนแต่ตอบคนละคำถาม",
+        "ตรวจว่าคำตอบไม่กว้างหรือแคบเกินข้อความ"
+      ],
+      "distractor_reasons": {
+        "1": "บทบอกลดเล็กน้อย ไม่ใช่ไม่ได้เลย",
+        "2": "ไม่มีหลักฐานว่าเลือกผิด",
+        "3": "บทไม่ได้จัดอันดับ"
+      },
+      "misconception_tags": [
+        "detail_as_main_idea"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    }
+  ],
+  "generated_from": "content/tgat1/reading.py"
+}

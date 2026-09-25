@@ -1,0 +1,1117 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tgat2.numerical.foundation.simple_equation",
+  "problems": [
+    {
+      "id": "prob.tgat2.numerical.foundation.simple_equation.0001",
+      "topic_ids": [
+        "tgat2.numerical.foundation.simple_equation"
+      ],
+      "primary_topic_id": "tgat2.numerical.foundation.simple_equation",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 30,
+      "stem_md": "ถ้า $5x + 19 = 59$ แล้ว $x$ เท่ากับเท่าไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "$8$",
+          "is_answer": true
+        },
+        {
+          "md": "$15$",
+          "is_answer": false
+        },
+        {
+          "md": "$9$",
+          "is_answer": false
+        },
+        {
+          "md": "$40$",
+          "is_answer": false
+        },
+        {
+          "md": "$11$",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ลบ $19$ ทั้งสองข้าง: $5x = 59 - 19 = 40$",
+          "why_md": "ย้ายค่าคงที่ก่อน"
+        },
+        {
+          "do_md": "หาร $5$ ทั้งสองข้าง: $x = 40 \\div 5 = 8$",
+          "why_md": "ให้ x อยู่ตัวเดียว"
+        }
+      ],
+      "answer_explanation_md": "ตอบ $x = 8$ ตรวจได้โดยแทนกลับ: $5 \\times 8 + 19 = 59$",
+      "hints": [
+        "ย้ายค่าคงที่ไปอีกข้างก่อน",
+        "หลังลบ $19$ จะได้ $5x = 40$",
+        "หารทั้งสองข้างด้วย $5$"
+      ],
+      "distractor_reasons": {
+        "1": "บวก ${b}$ แทนการลบเมื่อย้ายข้าง",
+        "2": "คำนวณเกินไปหนึ่ง",
+        "3": "ลืมหารด้วย ${a}$",
+        "4": "ลืมย้าย ${b}$ ไปอีกข้าง"
+      },
+      "misconception_tags": [
+        "equation_order"
+      ],
+      "template": {
+        "vars": [
+          {
+            "name": "a",
+            "type": "int",
+            "range": [
+              2,
+              9
+            ],
+            "step": 1
+          },
+          {
+            "name": "x0",
+            "type": "int",
+            "range": [
+              3,
+              15
+            ],
+            "step": 1
+          },
+          {
+            "name": "b",
+            "type": "int",
+            "range": [
+              4,
+              30
+            ],
+            "step": 1
+          }
+        ],
+        "constraints": [
+          "a > 1",
+          "(x0) > 0",
+          "((c + b)//a) > 0",
+          "(c//a) > 0",
+          "(x0 + 1) > 0",
+          "(c - b) > 0",
+          "(x0) != ((c + b)//a)",
+          "(x0) != (c//a)",
+          "(x0) != (x0 + 1)",
+          "(x0) != (c - b)",
+          "((c + b)//a) != (c//a)",
+          "((c + b)//a) != (x0 + 1)",
+          "((c + b)//a) != (c - b)",
+          "(c//a) != (x0 + 1)",
+          "(c//a) != (c - b)",
+          "(x0 + 1) != (c - b)",
+          "((c + b)//a) <= 5*(x0)",
+          "(c//a) <= 5*(x0)",
+          "(x0 + 1) <= 5*(x0)",
+          "(c - b) <= 5*(x0)",
+          "5*((c + b)//a) >= (x0)",
+          "5*(c//a) >= (x0)",
+          "5*(x0 + 1) >= (x0)",
+          "5*(c - b) >= (x0)",
+          "(a) != (x0)",
+          "(b) != (x0)",
+          "(r) != (x0)"
+        ],
+        "display": {
+          "c": "a*x0 + b",
+          "r": "a*x0"
+        },
+        "stem_tpl": "ถ้า ${a}x + {b} = {c}$ แล้ว $x$ เท่ากับเท่าไร",
+        "answer_expr": "x0",
+        "answer_round": null,
+        "answer_unit": null,
+        "distractors": [
+          {
+            "expr": "(c + b)//a",
+            "reason": "บวก ${b}$ แทนการลบเมื่อย้ายข้าง"
+          },
+          {
+            "expr": "c//a",
+            "reason": "ลืมย้าย ${b}$ ไปอีกข้าง"
+          },
+          {
+            "expr": "x0 + 1",
+            "reason": "คำนวณเกินไปหนึ่ง"
+          },
+          {
+            "expr": "c - b",
+            "reason": "ลืมหารด้วย ${a}$"
+          }
+        ],
+        "quality_rules": [
+          "ตัวเลือกทุกตัวต้องเป็นจำนวนบวกและไม่ซ้ำกัน",
+          "คำตอบคำนวณจากนิพจน์ ไม่ได้ใส่มือ"
+        ],
+        "quality_exprs": [
+          "answer > 0"
+        ],
+        "steps_tpl": [
+          {
+            "do_md": "ลบ ${b}$ ทั้งสองข้าง: ${a}x = {c} - {b} = {r}$",
+            "why_md": "ย้ายค่าคงที่ก่อน"
+          },
+          {
+            "do_md": "หาร ${a}$ ทั้งสองข้าง: $x = {r} \\div {a} = {answer}$",
+            "why_md": "ให้ x อยู่ตัวเดียว"
+          }
+        ],
+        "hints_tpl": [
+          "ย้ายค่าคงที่ไปอีกข้างก่อน",
+          "หลังลบ ${b}$ จะได้ ${a}x = {r}$",
+          "หารทั้งสองข้างด้วย ${a}$"
+        ],
+        "explanation_tpl": "ตอบ $x = {answer}$ ตรวจได้โดยแทนกลับ: ${a} \\times {answer} + {b} = {c}$"
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.numerical.foundation.simple_equation.0002",
+      "topic_ids": [
+        "tgat2.numerical.foundation.simple_equation"
+      ],
+      "primary_topic_id": "tgat2.numerical.foundation.simple_equation",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 35,
+      "stem_md": "ถ้า $2x + 4 = 30$ แล้ว $x$ เท่ากับเท่าไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "$15$",
+          "is_answer": false
+        },
+        {
+          "md": "$26$",
+          "is_answer": false
+        },
+        {
+          "md": "$14$",
+          "is_answer": false
+        },
+        {
+          "md": "$13$",
+          "is_answer": true
+        },
+        {
+          "md": "$17$",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ลบ $4$ ทั้งสองข้าง: $2x = 30 - 4 = 26$",
+          "why_md": "ย้ายค่าคงที่ก่อน"
+        },
+        {
+          "do_md": "หาร $2$ ทั้งสองข้าง: $x = 26 \\div 2 = 13$",
+          "why_md": "ให้ x อยู่ตัวเดียว"
+        }
+      ],
+      "answer_explanation_md": "ตอบ $x = 13$ ตรวจได้โดยแทนกลับ: $2 \\times 13 + 4 = 30$",
+      "hints": [
+        "ย้ายค่าคงที่ไปอีกข้างก่อน",
+        "หลังลบ $4$ จะได้ $2x = 26$",
+        "หารทั้งสองข้างด้วย $2$"
+      ],
+      "distractor_reasons": {
+        "0": "ลืมย้าย ${b}$ ไปอีกข้าง",
+        "1": "ลืมหารด้วย ${a}$",
+        "2": "คำนวณเกินไปหนึ่ง",
+        "4": "บวก ${b}$ แทนการลบเมื่อย้ายข้าง"
+      },
+      "misconception_tags": [
+        "equation_order"
+      ],
+      "template": {
+        "vars": [
+          {
+            "name": "a",
+            "type": "int",
+            "range": [
+              2,
+              9
+            ],
+            "step": 1
+          },
+          {
+            "name": "x0",
+            "type": "int",
+            "range": [
+              3,
+              15
+            ],
+            "step": 1
+          },
+          {
+            "name": "b",
+            "type": "int",
+            "range": [
+              4,
+              30
+            ],
+            "step": 1
+          }
+        ],
+        "constraints": [
+          "a > 1",
+          "(x0) > 0",
+          "((c + b)//a) > 0",
+          "(c//a) > 0",
+          "(x0 + 1) > 0",
+          "(c - b) > 0",
+          "(x0) != ((c + b)//a)",
+          "(x0) != (c//a)",
+          "(x0) != (x0 + 1)",
+          "(x0) != (c - b)",
+          "((c + b)//a) != (c//a)",
+          "((c + b)//a) != (x0 + 1)",
+          "((c + b)//a) != (c - b)",
+          "(c//a) != (x0 + 1)",
+          "(c//a) != (c - b)",
+          "(x0 + 1) != (c - b)",
+          "((c + b)//a) <= 5*(x0)",
+          "(c//a) <= 5*(x0)",
+          "(x0 + 1) <= 5*(x0)",
+          "(c - b) <= 5*(x0)",
+          "5*((c + b)//a) >= (x0)",
+          "5*(c//a) >= (x0)",
+          "5*(x0 + 1) >= (x0)",
+          "5*(c - b) >= (x0)",
+          "(a) != (x0)",
+          "(b) != (x0)",
+          "(r) != (x0)"
+        ],
+        "display": {
+          "c": "a*x0 + b",
+          "r": "a*x0"
+        },
+        "stem_tpl": "ถ้า ${a}x + {b} = {c}$ แล้ว $x$ เท่ากับเท่าไร",
+        "answer_expr": "x0",
+        "answer_round": null,
+        "answer_unit": null,
+        "distractors": [
+          {
+            "expr": "(c + b)//a",
+            "reason": "บวก ${b}$ แทนการลบเมื่อย้ายข้าง"
+          },
+          {
+            "expr": "c//a",
+            "reason": "ลืมย้าย ${b}$ ไปอีกข้าง"
+          },
+          {
+            "expr": "x0 + 1",
+            "reason": "คำนวณเกินไปหนึ่ง"
+          },
+          {
+            "expr": "c - b",
+            "reason": "ลืมหารด้วย ${a}$"
+          }
+        ],
+        "quality_rules": [
+          "ตัวเลือกทุกตัวต้องเป็นจำนวนบวกและไม่ซ้ำกัน",
+          "คำตอบคำนวณจากนิพจน์ ไม่ได้ใส่มือ"
+        ],
+        "quality_exprs": [
+          "answer > 0"
+        ],
+        "steps_tpl": [
+          {
+            "do_md": "ลบ ${b}$ ทั้งสองข้าง: ${a}x = {c} - {b} = {r}$",
+            "why_md": "ย้ายค่าคงที่ก่อน"
+          },
+          {
+            "do_md": "หาร ${a}$ ทั้งสองข้าง: $x = {r} \\div {a} = {answer}$",
+            "why_md": "ให้ x อยู่ตัวเดียว"
+          }
+        ],
+        "hints_tpl": [
+          "ย้ายค่าคงที่ไปอีกข้างก่อน",
+          "หลังลบ ${b}$ จะได้ ${a}x = {r}$",
+          "หารทั้งสองข้างด้วย ${a}$"
+        ],
+        "explanation_tpl": "ตอบ $x = {answer}$ ตรวจได้โดยแทนกลับ: ${a} \\times {answer} + {b} = {c}$"
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.numerical.foundation.simple_equation.0003",
+      "topic_ids": [
+        "tgat2.numerical.foundation.simple_equation"
+      ],
+      "primary_topic_id": "tgat2.numerical.foundation.simple_equation",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 35,
+      "stem_md": "ถ้า $4x + 21 = 73$ แล้ว $x$ เท่ากับเท่าไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "$14$",
+          "is_answer": false
+        },
+        {
+          "md": "$13$",
+          "is_answer": true
+        },
+        {
+          "md": "$23$",
+          "is_answer": false
+        },
+        {
+          "md": "$18$",
+          "is_answer": false
+        },
+        {
+          "md": "$52$",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ลบ $21$ ทั้งสองข้าง: $4x = 73 - 21 = 52$",
+          "why_md": "ย้ายค่าคงที่ก่อน"
+        },
+        {
+          "do_md": "หาร $4$ ทั้งสองข้าง: $x = 52 \\div 4 = 13$",
+          "why_md": "ให้ x อยู่ตัวเดียว"
+        }
+      ],
+      "answer_explanation_md": "ตอบ $x = 13$ ตรวจได้โดยแทนกลับ: $4 \\times 13 + 21 = 73$",
+      "hints": [
+        "ย้ายค่าคงที่ไปอีกข้างก่อน",
+        "หลังลบ $21$ จะได้ $4x = 52$",
+        "หารทั้งสองข้างด้วย $4$"
+      ],
+      "distractor_reasons": {
+        "0": "คำนวณเกินไปหนึ่ง",
+        "2": "บวก ${b}$ แทนการลบเมื่อย้ายข้าง",
+        "3": "ลืมย้าย ${b}$ ไปอีกข้าง",
+        "4": "ลืมหารด้วย ${a}$"
+      },
+      "misconception_tags": [
+        "equation_order"
+      ],
+      "template": {
+        "vars": [
+          {
+            "name": "a",
+            "type": "int",
+            "range": [
+              2,
+              9
+            ],
+            "step": 1
+          },
+          {
+            "name": "x0",
+            "type": "int",
+            "range": [
+              3,
+              15
+            ],
+            "step": 1
+          },
+          {
+            "name": "b",
+            "type": "int",
+            "range": [
+              4,
+              30
+            ],
+            "step": 1
+          }
+        ],
+        "constraints": [
+          "a > 1",
+          "(x0) > 0",
+          "((c + b)//a) > 0",
+          "(c//a) > 0",
+          "(x0 + 1) > 0",
+          "(c - b) > 0",
+          "(x0) != ((c + b)//a)",
+          "(x0) != (c//a)",
+          "(x0) != (x0 + 1)",
+          "(x0) != (c - b)",
+          "((c + b)//a) != (c//a)",
+          "((c + b)//a) != (x0 + 1)",
+          "((c + b)//a) != (c - b)",
+          "(c//a) != (x0 + 1)",
+          "(c//a) != (c - b)",
+          "(x0 + 1) != (c - b)",
+          "((c + b)//a) <= 5*(x0)",
+          "(c//a) <= 5*(x0)",
+          "(x0 + 1) <= 5*(x0)",
+          "(c - b) <= 5*(x0)",
+          "5*((c + b)//a) >= (x0)",
+          "5*(c//a) >= (x0)",
+          "5*(x0 + 1) >= (x0)",
+          "5*(c - b) >= (x0)",
+          "(a) != (x0)",
+          "(b) != (x0)",
+          "(r) != (x0)"
+        ],
+        "display": {
+          "c": "a*x0 + b",
+          "r": "a*x0"
+        },
+        "stem_tpl": "ถ้า ${a}x + {b} = {c}$ แล้ว $x$ เท่ากับเท่าไร",
+        "answer_expr": "x0",
+        "answer_round": null,
+        "answer_unit": null,
+        "distractors": [
+          {
+            "expr": "(c + b)//a",
+            "reason": "บวก ${b}$ แทนการลบเมื่อย้ายข้าง"
+          },
+          {
+            "expr": "c//a",
+            "reason": "ลืมย้าย ${b}$ ไปอีกข้าง"
+          },
+          {
+            "expr": "x0 + 1",
+            "reason": "คำนวณเกินไปหนึ่ง"
+          },
+          {
+            "expr": "c - b",
+            "reason": "ลืมหารด้วย ${a}$"
+          }
+        ],
+        "quality_rules": [
+          "ตัวเลือกทุกตัวต้องเป็นจำนวนบวกและไม่ซ้ำกัน",
+          "คำตอบคำนวณจากนิพจน์ ไม่ได้ใส่มือ"
+        ],
+        "quality_exprs": [
+          "answer > 0"
+        ],
+        "steps_tpl": [
+          {
+            "do_md": "ลบ ${b}$ ทั้งสองข้าง: ${a}x = {c} - {b} = {r}$",
+            "why_md": "ย้ายค่าคงที่ก่อน"
+          },
+          {
+            "do_md": "หาร ${a}$ ทั้งสองข้าง: $x = {r} \\div {a} = {answer}$",
+            "why_md": "ให้ x อยู่ตัวเดียว"
+          }
+        ],
+        "hints_tpl": [
+          "ย้ายค่าคงที่ไปอีกข้างก่อน",
+          "หลังลบ ${b}$ จะได้ ${a}x = {r}$",
+          "หารทั้งสองข้างด้วย ${a}$"
+        ],
+        "explanation_tpl": "ตอบ $x = {answer}$ ตรวจได้โดยแทนกลับ: ${a} \\times {answer} + {b} = {c}$"
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.numerical.foundation.simple_equation.0004",
+      "topic_ids": [
+        "tgat2.numerical.foundation.simple_equation"
+      ],
+      "primary_topic_id": "tgat2.numerical.foundation.simple_equation",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 50,
+      "stem_md": "สามเท่าของจำนวนหนึ่ง ลบด้วย $11$ ได้เท่ากับสองเท่าของจำนวนนั้น บวกด้วย $24$ จำนวนนั้นคือเท่าไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "$7$",
+          "is_answer": false
+        },
+        {
+          "md": "$57$",
+          "is_answer": false
+        },
+        {
+          "md": "$33$",
+          "is_answer": false
+        },
+        {
+          "md": "$13$",
+          "is_answer": false
+        },
+        {
+          "md": "$35$",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ตั้งสมการ: $3x - 11 = 2x + 24$",
+          "why_md": "แปลทีละวลี"
+        },
+        {
+          "do_md": "ย้าย $2x$ มาซ้าย และ $11$ ไปขวา: $x = 24 + 11 = 35$",
+          "why_md": "รวมพจน์ที่มี x ไว้ข้างเดียว"
+        },
+        {
+          "do_md": "ตรวจ: $3 \\times 35 - 11 = 94$ และ $2 \\times 35 + 24 = 94$",
+          "why_md": "แทนกลับทั้งสองข้าง ได้เท่ากัน"
+        }
+      ],
+      "answer_explanation_md": "ตอบ $35$ เพราะ $3x - 2x = 24 + 11$",
+      "hints": [
+        "ตั้งสมการโดยให้จำนวนนั้นเป็น $x$",
+        "สมการคือ $3x - 11 = 2x + 24$",
+        "ย้ายพจน์ที่มี $x$ ไว้ข้างเดียวกัน"
+      ],
+      "distractor_reasons": {
+        "0": "บวกสัมประสิทธิ์ทั้งสองข้างแทนลบ",
+        "1": "ย้ายข้าง ${b}$ ผิดเครื่องหมาย",
+        "2": "ย้ายข้างค่าคงที่ผิดตัว",
+        "3": "ลบค่าคงที่แทนบวก"
+      },
+      "misconception_tags": [],
+      "template": {
+        "vars": [
+          {
+            "name": "x0",
+            "type": "int",
+            "range": [
+              8,
+              40
+            ],
+            "step": 1
+          },
+          {
+            "name": "b",
+            "type": "int",
+            "range": [
+              3,
+              15
+            ],
+            "step": 1
+          }
+        ],
+        "constraints": [
+          "x0 - b > 2",
+          "(x0) > 0",
+          "(x0 + 2*b) > 0",
+          "(x0 - 2) > 0",
+          "((c + b)//5) > 0",
+          "(c - b) > 0",
+          "(x0) != (x0 + 2*b)",
+          "(x0) != (x0 - 2)",
+          "(x0) != ((c + b)//5)",
+          "(x0) != (c - b)",
+          "(x0 + 2*b) != (x0 - 2)",
+          "(x0 + 2*b) != ((c + b)//5)",
+          "(x0 + 2*b) != (c - b)",
+          "(x0 - 2) != ((c + b)//5)",
+          "(x0 - 2) != (c - b)",
+          "((c + b)//5) != (c - b)",
+          "(x0 + 2*b) <= 5*(x0)",
+          "(x0 - 2) <= 5*(x0)",
+          "((c + b)//5) <= 5*(x0)",
+          "(c - b) <= 5*(x0)",
+          "5*(x0 + 2*b) >= (x0)",
+          "5*(x0 - 2) >= (x0)",
+          "5*((c + b)//5) >= (x0)",
+          "5*(c - b) >= (x0)",
+          "(b) != (x0)",
+          "(c) != (x0)"
+        ],
+        "display": {
+          "c": "x0 - b",
+          "lhs": "3*x0 - b"
+        },
+        "stem_tpl": "สามเท่าของจำนวนหนึ่ง ลบด้วย ${b}$ ได้เท่ากับสองเท่าของจำนวนนั้น บวกด้วย ${c}$ จำนวนนั้นคือเท่าไร",
+        "answer_expr": "x0",
+        "answer_round": null,
+        "answer_unit": null,
+        "distractors": [
+          {
+            "expr": "x0 + 2*b",
+            "reason": "ย้ายข้าง ${b}$ ผิดเครื่องหมาย"
+          },
+          {
+            "expr": "x0 - 2",
+            "reason": "ย้ายข้างค่าคงที่ผิดตัว"
+          },
+          {
+            "expr": "(c + b)//5",
+            "reason": "บวกสัมประสิทธิ์ทั้งสองข้างแทนลบ"
+          },
+          {
+            "expr": "c - b",
+            "reason": "ลบค่าคงที่แทนบวก"
+          }
+        ],
+        "quality_rules": [
+          "ตัวเลือกทุกตัวต้องเป็นจำนวนบวกและไม่ซ้ำกัน",
+          "คำตอบคำนวณจากนิพจน์ ไม่ได้ใส่มือ"
+        ],
+        "quality_exprs": [
+          "answer > 0"
+        ],
+        "steps_tpl": [
+          {
+            "do_md": "ตั้งสมการ: $3x - {b} = 2x + {c}$",
+            "why_md": "แปลทีละวลี"
+          },
+          {
+            "do_md": "ย้าย $2x$ มาซ้าย และ ${b}$ ไปขวา: $x = {c} + {b} = {answer}$",
+            "why_md": "รวมพจน์ที่มี x ไว้ข้างเดียว"
+          },
+          {
+            "do_md": "ตรวจ: $3 \\times {answer} - {b} = {lhs}$ และ $2 \\times {answer} + {c} = {lhs}$",
+            "why_md": "แทนกลับทั้งสองข้าง ได้เท่ากัน"
+          }
+        ],
+        "hints_tpl": [
+          "ตั้งสมการโดยให้จำนวนนั้นเป็น $x$",
+          "สมการคือ $3x - {b} = 2x + {c}$",
+          "ย้ายพจน์ที่มี $x$ ไว้ข้างเดียวกัน"
+        ],
+        "explanation_tpl": "ตอบ ${answer}$ เพราะ $3x - 2x = {c} + {b}$"
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.numerical.foundation.simple_equation.0005",
+      "topic_ids": [
+        "tgat2.numerical.foundation.simple_equation"
+      ],
+      "primary_topic_id": "tgat2.numerical.foundation.simple_equation",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 50,
+      "stem_md": "สามเท่าของจำนวนหนึ่ง ลบด้วย $5$ ได้เท่ากับสองเท่าของจำนวนนั้น บวกด้วย $25$ จำนวนนั้นคือเท่าไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "$30$",
+          "is_answer": true
+        },
+        {
+          "md": "$28$",
+          "is_answer": false
+        },
+        {
+          "md": "$6$",
+          "is_answer": false
+        },
+        {
+          "md": "$40$",
+          "is_answer": false
+        },
+        {
+          "md": "$20$",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ตั้งสมการ: $3x - 5 = 2x + 25$",
+          "why_md": "แปลทีละวลี"
+        },
+        {
+          "do_md": "ย้าย $2x$ มาซ้าย และ $5$ ไปขวา: $x = 25 + 5 = 30$",
+          "why_md": "รวมพจน์ที่มี x ไว้ข้างเดียว"
+        },
+        {
+          "do_md": "ตรวจ: $3 \\times 30 - 5 = 85$ และ $2 \\times 30 + 25 = 85$",
+          "why_md": "แทนกลับทั้งสองข้าง ได้เท่ากัน"
+        }
+      ],
+      "answer_explanation_md": "ตอบ $30$ เพราะ $3x - 2x = 25 + 5$",
+      "hints": [
+        "ตั้งสมการโดยให้จำนวนนั้นเป็น $x$",
+        "สมการคือ $3x - 5 = 2x + 25$",
+        "ย้ายพจน์ที่มี $x$ ไว้ข้างเดียวกัน"
+      ],
+      "distractor_reasons": {
+        "1": "ย้ายข้างค่าคงที่ผิดตัว",
+        "2": "บวกสัมประสิทธิ์ทั้งสองข้างแทนลบ",
+        "3": "ย้ายข้าง ${b}$ ผิดเครื่องหมาย",
+        "4": "ลบค่าคงที่แทนบวก"
+      },
+      "misconception_tags": [],
+      "template": {
+        "vars": [
+          {
+            "name": "x0",
+            "type": "int",
+            "range": [
+              8,
+              40
+            ],
+            "step": 1
+          },
+          {
+            "name": "b",
+            "type": "int",
+            "range": [
+              3,
+              15
+            ],
+            "step": 1
+          }
+        ],
+        "constraints": [
+          "x0 - b > 2",
+          "(x0) > 0",
+          "(x0 + 2*b) > 0",
+          "(x0 - 2) > 0",
+          "((c + b)//5) > 0",
+          "(c - b) > 0",
+          "(x0) != (x0 + 2*b)",
+          "(x0) != (x0 - 2)",
+          "(x0) != ((c + b)//5)",
+          "(x0) != (c - b)",
+          "(x0 + 2*b) != (x0 - 2)",
+          "(x0 + 2*b) != ((c + b)//5)",
+          "(x0 + 2*b) != (c - b)",
+          "(x0 - 2) != ((c + b)//5)",
+          "(x0 - 2) != (c - b)",
+          "((c + b)//5) != (c - b)",
+          "(x0 + 2*b) <= 5*(x0)",
+          "(x0 - 2) <= 5*(x0)",
+          "((c + b)//5) <= 5*(x0)",
+          "(c - b) <= 5*(x0)",
+          "5*(x0 + 2*b) >= (x0)",
+          "5*(x0 - 2) >= (x0)",
+          "5*((c + b)//5) >= (x0)",
+          "5*(c - b) >= (x0)",
+          "(b) != (x0)",
+          "(c) != (x0)"
+        ],
+        "display": {
+          "c": "x0 - b",
+          "lhs": "3*x0 - b"
+        },
+        "stem_tpl": "สามเท่าของจำนวนหนึ่ง ลบด้วย ${b}$ ได้เท่ากับสองเท่าของจำนวนนั้น บวกด้วย ${c}$ จำนวนนั้นคือเท่าไร",
+        "answer_expr": "x0",
+        "answer_round": null,
+        "answer_unit": null,
+        "distractors": [
+          {
+            "expr": "x0 + 2*b",
+            "reason": "ย้ายข้าง ${b}$ ผิดเครื่องหมาย"
+          },
+          {
+            "expr": "x0 - 2",
+            "reason": "ย้ายข้างค่าคงที่ผิดตัว"
+          },
+          {
+            "expr": "(c + b)//5",
+            "reason": "บวกสัมประสิทธิ์ทั้งสองข้างแทนลบ"
+          },
+          {
+            "expr": "c - b",
+            "reason": "ลบค่าคงที่แทนบวก"
+          }
+        ],
+        "quality_rules": [
+          "ตัวเลือกทุกตัวต้องเป็นจำนวนบวกและไม่ซ้ำกัน",
+          "คำตอบคำนวณจากนิพจน์ ไม่ได้ใส่มือ"
+        ],
+        "quality_exprs": [
+          "answer > 0"
+        ],
+        "steps_tpl": [
+          {
+            "do_md": "ตั้งสมการ: $3x - {b} = 2x + {c}$",
+            "why_md": "แปลทีละวลี"
+          },
+          {
+            "do_md": "ย้าย $2x$ มาซ้าย และ ${b}$ ไปขวา: $x = {c} + {b} = {answer}$",
+            "why_md": "รวมพจน์ที่มี x ไว้ข้างเดียว"
+          },
+          {
+            "do_md": "ตรวจ: $3 \\times {answer} - {b} = {lhs}$ และ $2 \\times {answer} + {c} = {lhs}$",
+            "why_md": "แทนกลับทั้งสองข้าง ได้เท่ากัน"
+          }
+        ],
+        "hints_tpl": [
+          "ตั้งสมการโดยให้จำนวนนั้นเป็น $x$",
+          "สมการคือ $3x - {b} = 2x + {c}$",
+          "ย้ายพจน์ที่มี $x$ ไว้ข้างเดียวกัน"
+        ],
+        "explanation_tpl": "ตอบ ${answer}$ เพราะ $3x - 2x = {c} + {b}$"
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.numerical.foundation.simple_equation.0006",
+      "topic_ids": [
+        "tgat2.numerical.foundation.simple_equation"
+      ],
+      "primary_topic_id": "tgat2.numerical.foundation.simple_equation",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 4,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 2,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 55,
+      "stem_md": "สามเท่าของจำนวนหนึ่ง ลบด้วย $7$ ได้เท่ากับสองเท่าของจำนวนนั้น บวกด้วย $23$ จำนวนนั้นคือเท่าไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "$28$",
+          "is_answer": false
+        },
+        {
+          "md": "$16$",
+          "is_answer": false
+        },
+        {
+          "md": "$30$",
+          "is_answer": true
+        },
+        {
+          "md": "$6$",
+          "is_answer": false
+        },
+        {
+          "md": "$44$",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ตั้งสมการ: $3x - 7 = 2x + 23$",
+          "why_md": "แปลทีละวลี"
+        },
+        {
+          "do_md": "ย้าย $2x$ มาซ้าย และ $7$ ไปขวา: $x = 23 + 7 = 30$",
+          "why_md": "รวมพจน์ที่มี x ไว้ข้างเดียว"
+        },
+        {
+          "do_md": "ตรวจ: $3 \\times 30 - 7 = 83$ และ $2 \\times 30 + 23 = 83$",
+          "why_md": "แทนกลับทั้งสองข้าง ได้เท่ากัน"
+        }
+      ],
+      "answer_explanation_md": "ตอบ $30$ เพราะ $3x - 2x = 23 + 7$",
+      "hints": [
+        "ตั้งสมการโดยให้จำนวนนั้นเป็น $x$",
+        "สมการคือ $3x - 7 = 2x + 23$",
+        "ย้ายพจน์ที่มี $x$ ไว้ข้างเดียวกัน"
+      ],
+      "distractor_reasons": {
+        "0": "ย้ายข้างค่าคงที่ผิดตัว",
+        "1": "ลบค่าคงที่แทนบวก",
+        "3": "บวกสัมประสิทธิ์ทั้งสองข้างแทนลบ",
+        "4": "ย้ายข้าง ${b}$ ผิดเครื่องหมาย"
+      },
+      "misconception_tags": [],
+      "template": {
+        "vars": [
+          {
+            "name": "x0",
+            "type": "int",
+            "range": [
+              8,
+              40
+            ],
+            "step": 1
+          },
+          {
+            "name": "b",
+            "type": "int",
+            "range": [
+              3,
+              15
+            ],
+            "step": 1
+          }
+        ],
+        "constraints": [
+          "x0 - b > 2",
+          "(x0) > 0",
+          "(x0 + 2*b) > 0",
+          "(x0 - 2) > 0",
+          "((c + b)//5) > 0",
+          "(c - b) > 0",
+          "(x0) != (x0 + 2*b)",
+          "(x0) != (x0 - 2)",
+          "(x0) != ((c + b)//5)",
+          "(x0) != (c - b)",
+          "(x0 + 2*b) != (x0 - 2)",
+          "(x0 + 2*b) != ((c + b)//5)",
+          "(x0 + 2*b) != (c - b)",
+          "(x0 - 2) != ((c + b)//5)",
+          "(x0 - 2) != (c - b)",
+          "((c + b)//5) != (c - b)",
+          "(x0 + 2*b) <= 5*(x0)",
+          "(x0 - 2) <= 5*(x0)",
+          "((c + b)//5) <= 5*(x0)",
+          "(c - b) <= 5*(x0)",
+          "5*(x0 + 2*b) >= (x0)",
+          "5*(x0 - 2) >= (x0)",
+          "5*((c + b)//5) >= (x0)",
+          "5*(c - b) >= (x0)",
+          "(b) != (x0)",
+          "(c) != (x0)"
+        ],
+        "display": {
+          "c": "x0 - b",
+          "lhs": "3*x0 - b"
+        },
+        "stem_tpl": "สามเท่าของจำนวนหนึ่ง ลบด้วย ${b}$ ได้เท่ากับสองเท่าของจำนวนนั้น บวกด้วย ${c}$ จำนวนนั้นคือเท่าไร",
+        "answer_expr": "x0",
+        "answer_round": null,
+        "answer_unit": null,
+        "distractors": [
+          {
+            "expr": "x0 + 2*b",
+            "reason": "ย้ายข้าง ${b}$ ผิดเครื่องหมาย"
+          },
+          {
+            "expr": "x0 - 2",
+            "reason": "ย้ายข้างค่าคงที่ผิดตัว"
+          },
+          {
+            "expr": "(c + b)//5",
+            "reason": "บวกสัมประสิทธิ์ทั้งสองข้างแทนลบ"
+          },
+          {
+            "expr": "c - b",
+            "reason": "ลบค่าคงที่แทนบวก"
+          }
+        ],
+        "quality_rules": [
+          "ตัวเลือกทุกตัวต้องเป็นจำนวนบวกและไม่ซ้ำกัน",
+          "คำตอบคำนวณจากนิพจน์ ไม่ได้ใส่มือ"
+        ],
+        "quality_exprs": [
+          "answer > 0"
+        ],
+        "steps_tpl": [
+          {
+            "do_md": "ตั้งสมการ: $3x - {b} = 2x + {c}$",
+            "why_md": "แปลทีละวลี"
+          },
+          {
+            "do_md": "ย้าย $2x$ มาซ้าย และ ${b}$ ไปขวา: $x = {c} + {b} = {answer}$",
+            "why_md": "รวมพจน์ที่มี x ไว้ข้างเดียว"
+          },
+          {
+            "do_md": "ตรวจ: $3 \\times {answer} - {b} = {lhs}$ และ $2 \\times {answer} + {c} = {lhs}$",
+            "why_md": "แทนกลับทั้งสองข้าง ได้เท่ากัน"
+          }
+        ],
+        "hints_tpl": [
+          "ตั้งสมการโดยให้จำนวนนั้นเป็น $x$",
+          "สมการคือ $3x - {b} = 2x + {c}$",
+          "ย้ายพจน์ที่มี $x$ ไว้ข้างเดียวกัน"
+        ],
+        "explanation_tpl": "ตอบ ${answer}$ เพราะ $3x - 2x = {c} + {b}$"
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    }
+  ],
+  "generated_from": "content/tgat2/numerical_foundation2.py"
+}

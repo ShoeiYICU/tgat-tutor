@@ -1,0 +1,657 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tgat3.emotion.self_awareness.notice_own_emotion",
+  "problems": [
+    {
+      "id": "prob.tgat3.emotion.self_awareness.notice_own_emotion.0001",
+      "topic_ids": [
+        "tgat3.emotion.self_awareness.notice_own_emotion"
+      ],
+      "primary_topic_id": "tgat3.emotion.self_awareness.notice_own_emotion",
+      "exam_code": "TGAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT3 สมรรถนะการทำงาน แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4_tiered",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 60,
+      "stem_md": "เพื่อนในกลุ่มโพสต์ในแชตว่างานที่คุณทำ \"ใช้ไม่ได้เลย\" ต่อหน้าเพื่อนทั้งกลุ่ม คุณรู้สึกโกรธมาก คุณควรทำอย่างไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "รอให้ใจเย็นลงก่อน แล้วถามเพื่อนว่าส่วนไหนที่ต้องแก้",
+          "is_answer": true,
+          "score": 1
+        },
+        {
+          "md": "ไม่ตอบอะไรเลย และเก็บความรู้สึกไว้คนเดียว เพื่อไม่ให้เกิดความขัดแย้งในกลุ่มมากไปกว่านี้",
+          "is_answer": false,
+          "score": 0.5
+        },
+        {
+          "md": "ตอบกลับทันทีว่าเพื่อนเองก็ทำงานไม่ดีเหมือนกัน เพื่อให้ทุกคนในกลุ่มเห็นว่าไม่ใช่ความผิดของเราคนเดียว",
+          "is_answer": false,
+          "score": 0.25
+        },
+        {
+          "md": "บอกในกลุ่มว่าขอเวลาสงบสติก่อน แล้วจะกลับมาคุยเรื่องงาน",
+          "is_answer": false,
+          "score": 0.75
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "สังเกตอารมณ์: กำลังโกรธมาก",
+          "why_md": "ไม่ควรตอบตอนนี้"
+        },
+        {
+          "do_md": "หยุดและรอให้ใจเย็น",
+          "why_md": "ลดโอกาสพูดสิ่งที่เสียใจทีหลัง"
+        },
+        {
+          "do_md": "เลือก: เป้าหมายคืองานที่ดีขึ้น",
+          "why_md": "ถามว่าต้องแก้ส่วนไหน เปลี่ยนคำวิจารณ์เป็นข้อมูล"
+        }
+      ],
+      "answer_explanation_md": "รอให้ใจเย็นแล้วถามว่าต้องแก้ส่วนไหนดีที่สุด เพราะไม่ตัดสินใจตอนอารมณ์แรง และยังจัดการเรื่องงานต่อ",
+      "hints": [
+        "ตอนนี้เรากำลังรู้สึกอะไร และเหมาะที่จะตอบทันทีไหม",
+        "การตอบโต้กลับจะทำให้งานดีขึ้นไหม",
+        "หาตัวเลือกที่จัดการอารมณ์ก่อน แล้วจัดการเรื่องงานต่อ"
+      ],
+      "distractor_reasons": {
+        "1": "ไม่ทำให้บานปลาย แต่ไม่ได้จัดการเรื่องงานที่ต้องแก้",
+        "2": "ตอบโต้ด้วยอารมณ์ ทำให้ความขัดแย้งบานปลายในที่สาธารณะ",
+        "3": "รู้ทันอารมณ์และสื่อสารให้ทีมรู้ แต่ยังไม่ได้ถามให้ชัดว่างานต้องแก้ส่วนไหน"
+      },
+      "misconception_tags": [
+        "suppress_not_manage"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat3.emotion.self_awareness.notice_own_emotion.0002",
+      "topic_ids": [
+        "tgat3.emotion.self_awareness.notice_own_emotion"
+      ],
+      "primary_topic_id": "tgat3.emotion.self_awareness.notice_own_emotion",
+      "exam_code": "TGAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT3 สมรรถนะการทำงาน แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4_tiered",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 60,
+      "stem_md": "คุณกำลังจะนำเสนองานหน้าชั้น แต่รู้สึกตื่นเต้นจนมือสั่นและลืมสิ่งที่เตรียมไว้ คุณควรทำอย่างไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ขอครูเลื่อนการนำเสนอไปวันอื่น เพราะวันนี้ร่างกายไม่พร้อม และกลัวว่าจะนำเสนอได้ไม่ดีเท่าที่ควร",
+          "is_answer": false,
+          "score": 0.5
+        },
+        {
+          "md": "บอกผู้ฟังตรง ๆ ว่ากำลังตื่นเต้น แล้วขอเวลาสักครู่เพื่อตั้งสติก่อนเริ่มนำเสนอใหม่",
+          "is_answer": false,
+          "score": 0.75
+        },
+        {
+          "md": "พยายามทำเหมือนไม่ตื่นเต้นแล้วพูดเร็ว ๆ ให้จบ",
+          "is_answer": false,
+          "score": 0.25
+        },
+        {
+          "md": "หายใจลึก ๆ บอกตัวเองว่ากำลังตื่นเต้น แล้วเปิดโน้ตหัวข้อที่เตรียมไว้",
+          "is_answer": true,
+          "score": 1
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "สังเกตอารมณ์: ตื่นเต้นจนมือสั่น",
+          "why_md": "รู้ตัวว่าอารมณ์กำลังกระทบการทำงาน"
+        },
+        {
+          "do_md": "หยุดด้วยการหายใจ",
+          "why_md": "ลดอาการทางร่างกาย"
+        },
+        {
+          "do_md": "เลือกใช้โน้ตที่เตรียมไว้",
+          "why_md": "ช่วยให้กลับมาทำสิ่งที่ตั้งใจได้"
+        }
+      ],
+      "answer_explanation_md": "หายใจลึก เรียกชื่ออารมณ์ แล้วใช้โน้ตช่วยดีที่สุด เพราะจัดการอารมณ์ได้ทันทีและยังทำหน้าที่นำเสนอต่อได้",
+      "hints": [
+        "เรากำลังรู้สึกอะไร และส่งผลต่อร่างกายอย่างไร",
+        "มีวิธีลดอาการตื่นเต้นแบบเร็ว ๆ ไหม",
+        "สิ่งที่เตรียมไว้ช่วยอะไรได้บ้าง"
+      ],
+      "distractor_reasons": {
+        "0": "ลดความกดดันได้ แต่หลีกเลี่ยงสถานการณ์แทนการจัดการอารมณ์ และกระทบทีม",
+        "1": "ซื่อตรงและรู้ทันอารมณ์ แต่ยังไม่ได้ใช้เครื่องมือที่เตรียมไว้ช่วยให้กลับมาได้",
+        "2": "กดอารมณ์ไว้โดยไม่จัดการ มักทำให้นำเสนอได้แย่ลง"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat3.emotion.self_awareness.notice_own_emotion.0003",
+      "topic_ids": [
+        "tgat3.emotion.self_awareness.notice_own_emotion"
+      ],
+      "primary_topic_id": "tgat3.emotion.self_awareness.notice_own_emotion",
+      "exam_code": "TGAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT3 สมรรถนะการทำงาน แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4_tiered",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 60,
+      "stem_md": "คุณทำงานพิเศษที่ร้านค้า วันนี้คุณเครียดเรื่องที่บ้านมาก แล้วลูกค้าคนหนึ่งถามคำถามเดิมซ้ำหลายรอบ คุณเริ่มรู้สึกหงุดหงิดและอยากพูดแรง ๆ คุณควรทำอย่างไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "บอกลูกค้าตรง ๆ ว่าตอบไปแล้ว ให้ฟังดี ๆ เพราะมีลูกค้าคนอื่นรอคิวอยู่และต้องดูแลให้ทั่วถึง",
+          "is_answer": false,
+          "score": 0.25
+        },
+        {
+          "md": "รู้ตัวว่าหงุดหงิดจากเรื่องที่บ้าน หายใจลึก ๆ แล้วตอบลูกค้าอย่างสุภาพ",
+          "is_answer": true,
+          "score": 1
+        },
+        {
+          "md": "ขอให้เพื่อนร่วมงานช่วยดูแลลูกค้าคนนี้แทน แล้วไปพักสักครู่เพื่อสงบสติอารมณ์ก่อนกลับมาทำงานต่อ",
+          "is_answer": false,
+          "score": 0.75
+        },
+        {
+          "md": "ตอบสั้น ๆ ห้วน ๆ ให้จบเร็ว",
+          "is_answer": false,
+          "score": 0.5
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "สังเกตและเรียกชื่ออารมณ์: หงุดหงิดจากเรื่องที่บ้าน",
+          "why_md": "แยกได้ว่าลูกค้าไม่ใช่ต้นเหตุ"
+        },
+        {
+          "do_md": "หยุดด้วยการหายใจ",
+          "why_md": "ลดความแรงของอารมณ์"
+        },
+        {
+          "do_md": "เลือกการกระทำตามหน้าที่: บริการอย่างสุภาพ",
+          "why_md": "ลูกค้าไม่ได้รับผลจากเรื่องที่ไม่เกี่ยวกับเขา"
+        }
+      ],
+      "answer_explanation_md": "รู้ตัวว่าหงุดหงิดจากเรื่องที่บ้านแล้วตอบลูกค้าอย่างสุภาพดีที่สุด เพราะแยกอารมณ์ออกจากสถานการณ์ตรงหน้าและยังทำหน้าที่ได้ดี",
+      "hints": [
+        "ความหงุดหงิดนี้มาจากลูกค้าจริง หรือมาจากเรื่องอื่น",
+        "ถ้าปล่อยอารมณ์ออกไป ใครได้รับผลกระทบ",
+        "หาตัวเลือกที่รู้ทันอารมณ์และยังทำหน้าที่ได้ดี"
+      ],
+      "distractor_reasons": {
+        "0": "ปล่อยให้อารมณ์ที่ไม่เกี่ยวกับลูกค้าส่งผลต่อการบริการ",
+        "2": "รู้ทันอารมณ์และป้องกันไม่ให้กระทบลูกค้า แต่ถ้าจัดการได้เองก็ไม่จำเป็นต้องย้ายงานให้คนอื่น",
+        "3": "ไม่ได้พูดแรง แต่ความหงุดหงิดยังออกมาในการบริการ"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat3.emotion.self_awareness.notice_own_emotion.0004",
+      "topic_ids": [
+        "tgat3.emotion.self_awareness.notice_own_emotion"
+      ],
+      "primary_topic_id": "tgat3.emotion.self_awareness.notice_own_emotion",
+      "exam_code": "TGAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT3 สมรรถนะการทำงาน แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4_tiered",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 60,
+      "stem_md": "คุณเพิ่งรู้ว่าไม่ผ่านการคัดเลือกเข้าทีมบาสเกตบอลของโรงเรียน ทั้งที่ซ้อมหนักมาทั้งปี เย็นนั้นครูโค้ชถามว่ามีอะไรอยากคุยไหม คุณควรทำอย่างไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ขอเวลาไปคิดก่อน แล้วค่อยกลับมาคุยกับโค้ชเมื่อพร้อม พร้อมเตรียมคำถามเรื่องสิ่งที่ต้องพัฒนาไว้",
+          "is_answer": false,
+          "score": 0.75
+        },
+        {
+          "md": "บอกโค้ชตรง ๆ ว่ายังเสียใจอยู่ และขอคำแนะนำว่าต้องพัฒนาอะไร",
+          "is_answer": true,
+          "score": 1
+        },
+        {
+          "md": "บอกโค้ชว่าไม่เป็นไร ไม่ได้รู้สึกอะไร",
+          "is_answer": false,
+          "score": 0.5
+        },
+        {
+          "md": "ถามโค้ชว่าทำไมคนที่ซ้อมน้อยกว่าถึงได้เข้าทีม ทั้งที่เราซ้อมหนักกว่าทุกคนมาตลอดทั้งปี",
+          "is_answer": false,
+          "score": 0.25
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "รู้ทันอารมณ์: ยังเสียใจอยู่",
+          "why_md": "ยอมรับอารมณ์ได้ ไม่ต้องปฏิเสธ"
+        },
+        {
+          "do_md": "บอกอย่างตรงไปตรงมา",
+          "why_md": "โค้ชเข้าใจสถานการณ์"
+        },
+        {
+          "do_md": "เลือกเป้าหมาย: พัฒนาตัวเอง",
+          "why_md": "ขอคำแนะนำที่ใช้ได้จริง"
+        }
+      ],
+      "answer_explanation_md": "บอกโค้ชว่ายังเสียใจและขอคำแนะนำดีที่สุด เพราะรู้ทันและยอมรับอารมณ์ พร้อมเปลี่ยนความเสียใจเป็นโอกาสพัฒนา",
+      "hints": [
+        "การบอกว่า 'ไม่เป็นไร' ทั้งที่เสียใจ ตรงกับความรู้สึกไหม",
+        "เราอยากได้อะไรจากการคุยกับโค้ช",
+        "หาตัวเลือกที่ยอมรับอารมณ์และได้ประโยชน์จากการคุย"
+      ],
+      "distractor_reasons": {
+        "0": "รู้ทันอารมณ์ดีมาก แต่พลาดโอกาสที่โค้ชเปิดให้ตอนนี้ ซึ่งยังคุยได้อย่างสุภาพ",
+        "2": "ดูสุภาพ แต่ปฏิเสธอารมณ์ของตัวเองและเสียโอกาสได้คำแนะนำ",
+        "3": "ปล่อยให้ความเสียใจกลายเป็นการกล่าวหา"
+      },
+      "misconception_tags": [
+        "suppress_not_manage"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat3.emotion.self_awareness.notice_own_emotion.0005",
+      "topic_ids": [
+        "tgat3.emotion.self_awareness.notice_own_emotion"
+      ],
+      "primary_topic_id": "tgat3.emotion.self_awareness.notice_own_emotion",
+      "exam_code": "TGAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT3 สมรรถนะการทำงาน แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4_tiered",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 60,
+      "stem_md": "คุณเป็นหัวหน้าทีมทำโครงงาน เพื่อนในทีมส่งงานช้าเป็นครั้งที่สาม คุณรู้สึกโกรธมาก และกำลังพิมพ์ข้อความยาวต่อว่าในกลุ่มแชตของทีม คุณควรทำอย่างไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ทำงานส่วนของเพื่อนเองให้เสร็จ เพื่อไม่ให้งานของทั้งทีมล่าช้าไปมากกว่านี้ และไม่ต้องทะเลาะกัน",
+          "is_answer": false,
+          "score": 0.5
+        },
+        {
+          "md": "ส่งข้อความนั้นไป เพราะเพื่อนสมควรได้รับรู้ว่าทีมไม่พอใจ และทุกคนในทีมก็คิดแบบเดียวกัน",
+          "is_answer": false,
+          "score": 0.25
+        },
+        {
+          "md": "หยุดพิมพ์ ลบข้อความ แล้วนัดคุยกับเพื่อนเป็นการส่วนตัวเมื่อใจเย็นลง",
+          "is_answer": true,
+          "score": 1
+        },
+        {
+          "md": "หยุดส่งข้อความ แล้วบอกสั้น ๆ ว่าจะขอคุยกับเพื่อนเป็นการส่วนตัวภายหลัง",
+          "is_answer": false,
+          "score": 0.75
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "สังเกตสัญญาณ: โกรธมาก กำลังพิมพ์ข้อความยาว",
+          "why_md": "เป็นเวลาที่ไม่ควรตัดสินใจ"
+        },
+        {
+          "do_md": "หยุด: ลบข้อความ",
+          "why_md": "ป้องกันการกระทำที่เสียใจทีหลัง"
+        },
+        {
+          "do_md": "เลือก: คุยส่วนตัวเมื่อพร้อม",
+          "why_md": "เป้าหมายคือแก้ปัญหาที่เกิดซ้ำ ไม่ใช่ระบายอารมณ์"
+        }
+      ],
+      "answer_explanation_md": "หยุดพิมพ์แล้วนัดคุยส่วนตัวเมื่อใจเย็นดีที่สุด เพราะไม่ตัดสินใจตอนอารมณ์แรง และยังจัดการปัญหาที่เกิดซ้ำอย่างเหมาะสม",
+      "hints": [
+        "สัญญาณอะไรบอกว่าอารมณ์กำลังคุมเรา",
+        "ข้อความที่พิมพ์ตอนโกรธจะช่วยแก้ปัญหาหรือสร้างปัญหาใหม่",
+        "หาตัวเลือกที่หยุดก่อน แล้วจัดการปัญหาที่เกิดซ้ำ"
+      ],
+      "distractor_reasons": {
+        "0": "เลี่ยงความขัดแย้ง แต่ไม่ได้แก้ปัญหาที่เกิดซ้ำเป็นครั้งที่สาม",
+        "1": "ตัดสินใจตอนอารมณ์แรง ทำให้เพื่อนเสียหน้าต่อหน้าทีม",
+        "3": "หยุดการตอบโต้ในที่สาธารณะและเลือกช่องทางที่ดีขึ้น แต่ยังไม่ได้รอให้ใจเย็นและคุยหาสาเหตุจริง"
+      },
+      "misconception_tags": [
+        "suppress_not_manage"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat3.emotion.self_awareness.notice_own_emotion.0006",
+      "topic_ids": [
+        "tgat3.emotion.self_awareness.notice_own_emotion"
+      ],
+      "primary_topic_id": "tgat3.emotion.self_awareness.notice_own_emotion",
+      "exam_code": "TGAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT3 สมรรถนะการทำงาน แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4_tiered",
+      "difficulty": 4,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "high"
+      },
+      "est_seconds": 60,
+      "stem_md": "คุณกำลังจะสอบ TGAT ในอีก 3 วัน แต่รู้สึกกังวลจนนอนไม่หลับติดต่อกัน 2 คืน และเริ่มคิดว่า \"ทำยังไงก็สอบไม่ติดแน่\" คุณควรทำอย่างไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "อ่านหนังสือให้หนักขึ้นทั้งคืนเพื่อให้หายกังวล เพราะถ้าเตรียมตัวมากขึ้นความมั่นใจจะเพิ่มขึ้นเอง",
+          "is_answer": false,
+          "score": 0.25
+        },
+        {
+          "md": "ไม่คิดเรื่องสอบเลยจนถึงวันสอบ",
+          "is_answer": false,
+          "score": 0.5
+        },
+        {
+          "md": "บอกตัวเองว่าความคิดว่าสอบไม่ติดแน่ ๆ เป็นแค่ความกังวล ไม่ใช่ความจริง แล้วทบทวนเนื้อหาตามแผนเดิม",
+          "is_answer": false,
+          "score": 0.75
+        },
+        {
+          "md": "รู้ตัวว่ากังวลเกินปกติ จัดตารางพักให้พอ และคุยกับคนที่ไว้ใจหรือครูแนะแนว",
+          "is_answer": true,
+          "score": 1
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "สังเกตสัญญาณ: นอนไม่หลับ ความคิดสุดโต่ง",
+          "why_md": "ความกังวลแรงเกินกว่าปกติ"
+        },
+        {
+          "do_md": "เรียกชื่ออารมณ์และแยกจากความจริง",
+          "why_md": "ความกังวลไม่ใช่ผลสอบ"
+        },
+        {
+          "do_md": "เลือก: ดูแลร่างกายและหาคนช่วย",
+          "why_md": "เป็นสิ่งที่ช่วยให้สอบได้ดีที่สุด"
+        }
+      ],
+      "answer_explanation_md": "รู้ทันความกังวล พักให้พอ และคุยกับคนที่ไว้ใจดีที่สุด เพราะจัดการทั้งอารมณ์และร่างกาย และไม่ปล่อยให้ความกังวลตัดสินใจแทน",
+      "hints": [
+        "สัญญาณอะไรบอกว่าความกังวลแรงเกินไป",
+        "ความคิดว่าสอบไม่ติดแน่ ๆ เป็นข้อเท็จจริงหรือความรู้สึก",
+        "อะไรช่วยให้ทั้งใจและร่างกายพร้อมสอบ"
+      ],
+      "distractor_reasons": {
+        "0": "ความกังวลกำลังตัดสินใจแทน และการอดนอนจะทำให้สอบแย่ลง",
+        "1": "ลดความกังวลชั่วคราว แต่หลีกเลี่ยงแทนการจัดการ",
+        "2": "รู้ทันความคิดสุดโต่งได้ดี แต่ยังไม่ได้จัดการเรื่องการนอนที่กระทบร่างกาย"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat3.emotion.self_awareness.notice_own_emotion.0007",
+      "topic_ids": [
+        "tgat3.emotion.self_awareness.notice_own_emotion"
+      ],
+      "primary_topic_id": "tgat3.emotion.self_awareness.notice_own_emotion",
+      "exam_code": "TGAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT3 สมรรถนะการทำงาน แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4_tiered",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 60,
+      "stem_md": "ก่อนนำเสนอ คุณใจเต้นเร็วและพูดกับเพื่อนห้วน คุณควรทำอย่างไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ยอมรับว่ากังวล หายใจช้า ๆ แล้วขอโทษเพื่อนก่อนทบทวนประเด็นหลัก",
+          "is_answer": true,
+          "score": 1
+        },
+        {
+          "md": "ฝืนซ้อมต่อโดยไม่สนใจอาการ",
+          "is_answer": false,
+          "score": 0.5
+        },
+        {
+          "md": "หยุดพักและหายใจให้สงบ",
+          "is_answer": false,
+          "score": 0.75
+        },
+        {
+          "md": "บอกเพื่อนว่าอย่ามากวน",
+          "is_answer": false,
+          "score": 0.25
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "สังเกตร่างกาย",
+          "why_md": "ใจเต้นเร็ว"
+        },
+        {
+          "do_md": "ตั้งชื่ออารมณ์",
+          "why_md": "ความกังวล"
+        },
+        {
+          "do_md": "จัดการตนและผลต่อคน",
+          "why_md": "สงบและขอโทษ"
+        }
+      ],
+      "answer_explanation_md": "รู้ทันความกังวล จัดการ และรับผิดชอบคำพูด ครบกว่าการสงบคนเดียว",
+      "hints": [
+        "ร่างกายกำลังบอกอะไร",
+        "อารมณ์ส่งผลต่อใครแล้ว",
+        "ต้องทำทั้งสองส่วนอย่างไร"
+      ],
+      "distractor_reasons": {
+        "1": "ทำงานต่อแต่ไม่จัดการอารมณ์",
+        "2": "ดูแลอารมณ์ได้แต่ยังไม่ซ่อมผลที่เกิดกับเพื่อน",
+        "3": "โยนอารมณ์ให้ผู้อื่น"
+      },
+      "misconception_tags": [
+        "suppress_not_manage"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat3.emotion.self_awareness.notice_own_emotion.0008",
+      "topic_ids": [
+        "tgat3.emotion.self_awareness.notice_own_emotion"
+      ],
+      "primary_topic_id": "tgat3.emotion.self_awareness.notice_own_emotion",
+      "exam_code": "TGAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT3 สมรรถนะการทำงาน แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4_tiered",
+      "difficulty": 5,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": true,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 60,
+      "stem_md": "คุณหงุดหงิดเพื่อนที่ถามซ้ำ แต่สังเกตว่าความหงุดหงิดเกิดหลังอดนอนหลายคืน ควรทำอย่างไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ขอโทษที่หงุดหงิดแล้วอธิบายต่อทันที",
+          "is_answer": false,
+          "score": 0.75
+        },
+        {
+          "md": "ตอบให้จบแม้จะเสียงแข็ง",
+          "is_answer": false,
+          "score": 0.5
+        },
+        {
+          "md": "บอกเพื่อนอย่างสุภาพว่าตอนนี้ล้า ขอพักสั้น ๆ แล้วนัดอธิบายเมื่อพร้อม",
+          "is_answer": true,
+          "score": 1
+        },
+        {
+          "md": "หลีกเลี่ยงเพื่อนทั้งวันโดยไม่บอก",
+          "is_answer": false,
+          "score": 0.25
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "แยกตัวกระตุ้นจากสาเหตุ",
+          "why_md": "คำถามกระตุ้น แต่ความล้าเพิ่มอารมณ์"
+        },
+        {
+          "do_md": "สื่อสารขอบเขต",
+          "why_md": "ขอพักโดยไม่โทษเพื่อน"
+        },
+        {
+          "do_md": "กลับมาทำหน้าที่",
+          "why_md": "นัดเวลาชัด"
+        }
+      ],
+      "answer_explanation_md": "สื่อสารสภาพตน ขอพัก และนัดกลับมา ช่วยทั้งการกำกับอารมณ์และความรับผิดชอบ",
+      "hints": [
+        "อารมณ์มาจากเพื่อนทั้งหมดหรือไม่",
+        "จะพักโดยไม่ทิ้งเพื่อนได้อย่างไร",
+        "อะไรทำให้คำขอพักน่าเชื่อถือ"
+      ],
+      "distractor_reasons": {
+        "0": "รับผิดชอบดีแต่ยังฝืนเกินสภาพที่รู้ว่าไม่พร้อม",
+        "1": "ช่วยงานแต่เสี่ยงทำร้ายความสัมพันธ์",
+        "3": "ไม่สื่อสารและไม่แก้เหตุ"
+      },
+      "misconception_tags": [
+        "suppress_not_manage"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    }
+  ],
+  "generated_from": "content/tgat3/emotion_civic.py"
+}

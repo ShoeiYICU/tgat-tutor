@@ -1,0 +1,591 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tgat1.reading.text_completion.tense_consistency",
+  "problems": [
+    {
+      "id": "prob.tgat1.reading.text_completion.tense_consistency.0001",
+      "topic_ids": [
+        "tgat1.reading.text_completion.tense_consistency"
+      ],
+      "primary_topic_id": "tgat1.reading.text_completion.tense_consistency",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 25,
+      "stem_md": "Three years ago, the land behind the school ______ full of rubbish.",
+      "figures": [],
+      "choices": [
+        {
+          "md": "will be",
+          "is_answer": false
+        },
+        {
+          "md": "has been",
+          "is_answer": false
+        },
+        {
+          "md": "was",
+          "is_answer": true
+        },
+        {
+          "md": "is",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "คำบอกเวลา: Three years ago",
+          "why_md": "อดีตที่จบแล้ว"
+        },
+        {
+          "do_md": "past simple",
+          "why_md": "was"
+        }
+      ],
+      "answer_explanation_md": "ตอบ was เพราะ Three years ago บอกเหตุการณ์ในอดีตที่จบแล้ว",
+      "hints": [
+        "หาคำบอกเวลาในประโยค",
+        "ago ใช้กับกาลอะไร",
+        "ประธาน the land เป็นเอกพจน์"
+      ],
+      "distractor_reasons": {
+        "0": "เป็นอนาคต ขัดกับ ago",
+        "1": "present perfect ใช้กับ ago ไม่ได้",
+        "3": "Three years ago บอกว่าเป็นอดีต"
+      },
+      "misconception_tags": [
+        "perfect_with_past_time"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.reading.text_completion.tense_consistency.0002",
+      "topic_ids": [
+        "tgat1.reading.text_completion.tense_consistency"
+      ],
+      "primary_topic_id": "tgat1.reading.text_completion.tense_consistency",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 30,
+      "stem_md": "Since the garden opened, more than forty families ______ part in the project.",
+      "figures": [],
+      "choices": [
+        {
+          "md": "took",
+          "is_answer": false
+        },
+        {
+          "md": "take",
+          "is_answer": false
+        },
+        {
+          "md": "have taken",
+          "is_answer": true
+        },
+        {
+          "md": "had taken",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "คำบอกเวลา: Since the garden opened",
+          "why_md": "ต่อเนื่องจากอดีตถึงปัจจุบัน"
+        },
+        {
+          "do_md": "present perfect + ประธานพหูพจน์",
+          "why_md": "have taken"
+        }
+      ],
+      "answer_explanation_md": "ตอบ have taken เพราะ since บอกช่วงเวลาจากอดีตถึงปัจจุบัน ต้องใช้ present perfect",
+      "hints": [
+        "หาคำบอกเวลาในประโยค",
+        "since ใช้กับกาลอะไร",
+        "ประธาน families เป็นพหูพจน์"
+      ],
+      "distractor_reasons": {
+        "0": "since + จุดเริ่ม ถึงปัจจุบัน ใช้ present perfect",
+        "1": "ไม่สื่อความต่อเนื่องจากอดีตถึงปัจจุบัน",
+        "3": "past perfect ใช้กับเหตุการณ์ก่อนอีกเหตุการณ์ในอดีต"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.reading.text_completion.tense_consistency.0003",
+      "topic_ids": [
+        "tgat1.reading.text_completion.tense_consistency"
+      ],
+      "primary_topic_id": "tgat1.reading.text_completion.tense_consistency",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 35,
+      "stem_md": "In one classroom activity, the group that slept for eight hours ______ more words the next day.",
+      "figures": [],
+      "choices": [
+        {
+          "md": "has remembered",
+          "is_answer": false
+        },
+        {
+          "md": "remembered",
+          "is_answer": true
+        },
+        {
+          "md": "will remember",
+          "is_answer": false
+        },
+        {
+          "md": "remembers",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "บริบท: เล่าผลกิจกรรมที่ทำไปแล้ว",
+          "why_md": "ประโยคในบทใช้อดีต (learned, slept)"
+        },
+        {
+          "do_md": "past simple",
+          "why_md": "remembered"
+        }
+      ],
+      "answer_explanation_md": "ตอบ remembered เพราะเป็นการเล่าผลกิจกรรมที่เกิดขึ้นแล้ว สอดคล้องกับกาลอดีตของประโยครอบ ๆ",
+      "hints": [
+        "เรื่องนี้เป็นการเล่าผลกิจกรรมในอดีตหรือกฎทั่วไป",
+        "the next day บอกเวลาแบบไหน",
+        "ใช้กาลเดียวกับประโยครอบ ๆ"
+      ],
+      "distractor_reasons": {
+        "0": "the next day เป็นเวลาที่ระบุในอดีต",
+        "2": "ไม่ใช่การคาดการณ์อนาคต",
+        "3": "เป็นการเล่าผลกิจกรรมที่เกิดขึ้นแล้ว ใช้อดีต"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.reading.text_completion.tense_consistency.0004",
+      "topic_ids": [
+        "tgat1.reading.text_completion.tense_consistency"
+      ],
+      "primary_topic_id": "tgat1.reading.text_completion.tense_consistency",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 4,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 2,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 40,
+      "stem_md": "By the time the council introduced the new rule, many traditional boats ______ already disappeared.",
+      "figures": [],
+      "choices": [
+        {
+          "md": "had",
+          "is_answer": true
+        },
+        {
+          "md": "have",
+          "is_answer": false
+        },
+        {
+          "md": "were",
+          "is_answer": false
+        },
+        {
+          "md": "has",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "By the time + อดีต (introduced)",
+          "why_md": "เหตุการณ์ในช่องว่างเกิดก่อน"
+        },
+        {
+          "do_md": "past perfect: had + V3",
+          "why_md": "had disappeared"
+        }
+      ],
+      "answer_explanation_md": "ตอบ had เพราะเรือหายไปก่อนที่สภาจะออกกฎ เหตุการณ์ที่เกิดก่อนในอดีตใช้ past perfect",
+      "hints": [
+        "มีเหตุการณ์ในอดีตกี่เหตุการณ์",
+        "เหตุการณ์ไหนเกิดก่อน",
+        "เหตุการณ์ที่เกิดก่อนอีกเหตุการณ์ในอดีตใช้กาลอะไร"
+      ],
+      "distractor_reasons": {
+        "1": "เหตุการณ์เกิดก่อนอีกเหตุการณ์ในอดีต ต้องใช้ past perfect",
+        "2": "were disappeared ไม่ใช่รูปที่ถูกต้อง disappear ไม่ใช้ passive",
+        "3": "ประธานพหูพจน์และกาลไม่ถูก"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.reading.text_completion.tense_consistency.0005",
+      "topic_ids": [
+        "tgat1.reading.text_completion.tense_consistency"
+      ],
+      "primary_topic_id": "tgat1.reading.text_completion.tense_consistency",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 25,
+      "stem_md": "Today, the market ______ to balance its new popularity with its old way of life.",
+      "figures": [],
+      "choices": [
+        {
+          "md": "try",
+          "is_answer": false
+        },
+        {
+          "md": "tries",
+          "is_answer": true
+        },
+        {
+          "md": "had tried",
+          "is_answer": false
+        },
+        {
+          "md": "tried",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "คำบอกเวลา: Today",
+          "why_md": "ปัจจุบัน"
+        },
+        {
+          "do_md": "present simple + ประธานเอกพจน์",
+          "why_md": "tries"
+        }
+      ],
+      "answer_explanation_md": "ตอบ tries เพราะ Today บอกปัจจุบัน และประธานเอกพจน์ต้องใช้ tries",
+      "hints": [
+        "หาคำบอกเวลา",
+        "ประธาน the market เป็นเอกพจน์หรือพหูพจน์",
+        "present simple เอกพจน์ต้องเติมอะไร"
+      ],
+      "distractor_reasons": {
+        "0": "ประธานเอกพจน์ต้องเติม -s",
+        "2": "past perfect ขัดกับ Today",
+        "3": "Today บอกว่าเป็นปัจจุบัน"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.reading.text_completion.tense_consistency.0006",
+      "topic_ids": [
+        "tgat1.reading.text_completion.tense_consistency"
+      ],
+      "primary_topic_id": "tgat1.reading.text_completion.tense_consistency",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 35,
+      "stem_md": "When I contacted customer service on 3 March, they ______ me that the problem would be fixed within two days.",
+      "figures": [],
+      "choices": [
+        {
+          "md": "told",
+          "is_answer": true
+        },
+        {
+          "md": "have told",
+          "is_answer": false
+        },
+        {
+          "md": "tell",
+          "is_answer": false
+        },
+        {
+          "md": "are telling",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "เวลา: on 3 March / contacted",
+          "why_md": "อดีตที่ระบุชัด"
+        },
+        {
+          "do_md": "past simple",
+          "why_md": "told"
+        }
+      ],
+      "answer_explanation_md": "ตอบ told เพราะเหตุการณ์เกิดในวันที่ระบุในอดีต (3 March) จึงใช้ past simple",
+      "hints": [
+        "หาคำบอกเวลาในประโยค",
+        "on 3 March ใช้กับ present perfect ได้ไหม",
+        "would be fixed บอกว่าประโยคหลักเป็นอดีต"
+      ],
+      "distractor_reasons": {
+        "1": "on 3 March เป็นเวลาที่ระบุในอดีต",
+        "2": "When I contacted... เป็นอดีต",
+        "3": "ปัจจุบันกำลังทำ ขัดกับเวลาในอดีต"
+      },
+      "misconception_tags": [
+        "perfect_with_past_time"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.reading.text_completion.tense_consistency.0007",
+      "topic_ids": [
+        "tgat1.reading.text_completion.tense_consistency"
+      ],
+      "primary_topic_id": "tgat1.reading.text_completion.tense_consistency",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 55,
+      "stem_md": "By the time the inspectors arrived, the workers ______ the leak but had not tested the repair.",
+      "figures": [],
+      "choices": [
+        {
+          "md": "have sealed",
+          "is_answer": false
+        },
+        {
+          "md": "were sealing",
+          "is_answer": false
+        },
+        {
+          "md": "sealed",
+          "is_answer": false
+        },
+        {
+          "md": "had sealed",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ระบุสิ่งที่โจทย์ถาม",
+          "why_md": "การปิดรอยรั่วเสร็จก่อนอีกเหตุในอดีต"
+        },
+        {
+          "do_md": "ตรวจด้วยบริบทรอบจุดสำคัญ",
+          "why_md": "เลือกคำตอบที่มีหลักฐานรองรับครบ ไม่เติมข้อมูลเอง"
+        }
+      ],
+      "answer_explanation_md": "past perfect แสดงเหตุที่เกิดก่อน inspectors arrived",
+      "hints": [
+        "ขีดเส้นคำหรือประโยคที่เป็นหลักฐาน",
+        "ตัดตัวเลือกที่จริงบางส่วนแต่ตอบคนละคำถาม",
+        "ตรวจว่าคำตอบไม่กว้างหรือแคบเกินข้อความ"
+      ],
+      "distractor_reasons": {
+        "0": "present perfect ใช้กับจุดเวลาอดีตไม่ได้",
+        "1": "สื่อว่ายังทำอยู่ ขัดกับ but had not tested",
+        "2": "ไม่แสดงชัดว่าเสร็จก่อน inspectors arrived"
+      },
+      "misconception_tags": [
+        "perfect_with_past_time"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.reading.text_completion.tense_consistency.0008",
+      "topic_ids": [
+        "tgat1.reading.text_completion.tense_consistency"
+      ],
+      "primary_topic_id": "tgat1.reading.text_completion.tense_consistency",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 5,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": true,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 75,
+      "stem_md": "The archive ______ to the public since 2019, but it closed for repairs last month.",
+      "figures": [],
+      "choices": [
+        {
+          "md": "had opened",
+          "is_answer": false
+        },
+        {
+          "md": "is opening",
+          "is_answer": false
+        },
+        {
+          "md": "was open",
+          "is_answer": false
+        },
+        {
+          "md": "has been open",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ระบุสิ่งที่โจทย์ถาม",
+          "why_md": "since 2019 เชื่อมอดีตถึงปัจจุบัน ส่วน last month เป็นเหตุแทรกชั่วคราว"
+        },
+        {
+          "do_md": "ตรวจด้วยบริบทรอบจุดสำคัญ",
+          "why_md": "เลือกคำตอบที่มีหลักฐานรองรับครบ ไม่เติมข้อมูลเอง"
+        }
+      ],
+      "answer_explanation_md": "present perfect ของสถานะเหมาะกับช่วงต่อเนื่อง",
+      "hints": [
+        "ขีดเส้นคำหรือประโยคที่เป็นหลักฐาน",
+        "ตัดตัวเลือกที่จริงบางส่วนแต่ตอบคนละคำถาม",
+        "ตรวจว่าคำตอบไม่กว้างหรือแคบเกินข้อความ"
+      ],
+      "distractor_reasons": {
+        "0": "ต้องมีจุดอ้างอิงอดีตและความหมายเป็นการกระทำเปิด",
+        "1": "สื่อกำลังเปิด ไม่ใช่สถานะต่อเนื่อง",
+        "2": "ไม่ครอบคลุมจาก 2019 ถึงปัจจุบันตาม since"
+      },
+      "misconception_tags": [
+        "perfect_with_past_time"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    }
+  ],
+  "generated_from": "content/tgat1/reading.py"
+}

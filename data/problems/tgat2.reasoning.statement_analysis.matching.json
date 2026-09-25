@@ -1,0 +1,481 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tgat2.reasoning.statement_analysis.matching",
+  "problems": [
+    {
+      "id": "prob.tgat2.reasoning.statement_analysis.matching.0001",
+      "topic_ids": [
+        "tgat2.reasoning.statement_analysis.matching"
+      ],
+      "primary_topic_id": "tgat2.reasoning.statement_analysis.matching",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 45,
+      "stem_md": "4 คน ต้น ฝน ปอ มด เลี้ยงสัตว์คนละ 1 ชนิด ได้แก่ แมว สุนัข ปลา กระต่าย ไม่ซ้ำกัน\n\n- ต้นไม่ได้เลี้ยงแมวและไม่ได้เลี้ยงสุนัข\n- ฝนเลี้ยงปลา\n- มดไม่ได้เลี้ยงแมว\n\nใครเลี้ยงแมว",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ปอ",
+          "is_answer": true
+        },
+        {
+          "md": "สรุปไม่ได้",
+          "is_answer": false
+        },
+        {
+          "md": "ฝน",
+          "is_answer": false
+        },
+        {
+          "md": "มด",
+          "is_answer": false
+        },
+        {
+          "md": "ต้น",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ฝน = ปลา",
+          "why_md": "✓ แล้ว ✗ ปลาของคนอื่น"
+        },
+        {
+          "do_md": "ต้น ไม่ใช่แมว สุนัข ปลา จึงเป็นกระต่าย",
+          "why_md": "เหลือช่องเดียว"
+        },
+        {
+          "do_md": "มด ไม่ใช่แมว จึงเป็นสุนัข ปอ = แมว",
+          "why_md": "เหลือช่องเดียว"
+        }
+      ],
+      "answer_explanation_md": "ตอบ ปอ เพราะต้นเลี้ยงกระต่าย ฝนเลี้ยงปลา มดเลี้ยงสุนัข จึงเหลือแมวให้ปอ",
+      "hints": [
+        "ใส่ ✓ ของฝนก่อน",
+        "ต้นเหลือสัตว์อะไรได้บ้าง",
+        "มดเหลืออะไร แล้วปอเหลืออะไร"
+      ],
+      "distractor_reasons": {
+        "1": "เงื่อนไขพอจะจับคู่ได้ครบ",
+        "2": "ฝนเลี้ยงปลา",
+        "3": "มดเลี้ยงสุนัข",
+        "4": "ต้นเลี้ยงกระต่าย"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.reasoning.statement_analysis.matching.0002",
+      "topic_ids": [
+        "tgat2.reasoning.statement_analysis.matching"
+      ],
+      "primary_topic_id": "tgat2.reasoning.statement_analysis.matching",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 60,
+      "stem_md": "4 คน เอ บี ซี ดี มีอาชีพ หมอ ครู วิศวกร ทนายความ คนละอาชีพ\n\n- เอไม่ได้เป็นหมอและไม่ได้เป็นครู\n- บีเป็นทนายความหรือวิศวกร\n- ซีไม่ได้เป็นหมอ\n\nข้อใดถูกต้องแน่นอน",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ซีเป็นทนายความ",
+          "is_answer": false
+        },
+        {
+          "md": "ดีเป็นหมอ",
+          "is_answer": true
+        },
+        {
+          "md": "เอเป็นครู",
+          "is_answer": false
+        },
+        {
+          "md": "บีเป็นทนายความ",
+          "is_answer": false
+        },
+        {
+          "md": "เอเป็นวิศวกร",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "เอกับบีต่างเหลือได้แค่วิศวกรกับทนายความ",
+          "why_md": "สองคนแบ่งสองอาชีพนี้กัน"
+        },
+        {
+          "do_md": "ซีไม่ใช่หมอ จึงเป็นครู ดีจึงเป็นหมอ",
+          "why_md": "เหลือช่องเดียว"
+        }
+      ],
+      "answer_explanation_md": "ตอบ ดีเป็นหมอ เพราะเอกับบีใช้วิศวกรและทนายความไปแล้ว ซีเป็นหมอไม่ได้จึงเป็นครู",
+      "hints": [
+        "เอเหลืออาชีพใดได้บ้าง บีเหลืออาชีพใดได้บ้าง",
+        "ถ้าสองคนแบ่งสองอาชีพกัน อาชีพที่เหลือเป็นของใคร",
+        "ซีเป็นหมอไม่ได้"
+      ],
+      "distractor_reasons": {
+        "0": "ทนายความเป็นของเอหรือบี",
+        "2": "ขัดเงื่อนไขข้อแรก",
+        "3": "บีเป็นวิศวกรก็ได้",
+        "4": "เอเป็นทนายความก็ได้"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.reasoning.statement_analysis.matching.0003",
+      "topic_ids": [
+        "tgat2.reasoning.statement_analysis.matching"
+      ],
+      "primary_topic_id": "tgat2.reasoning.statement_analysis.matching",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 75,
+      "stem_md": "3 คน แก้ว ขิม คิม อยู่บ้านสีแดง เขียว ฟ้า คนละหลัง และดื่ม ชา กาแฟ นม คนละอย่าง\n\n- แก้วอยู่บ้านสีแดง\n- คนที่ดื่มนมอยู่บ้านสีฟ้า\n- ขิมไม่ดื่มชา\n- คิมไม่ได้อยู่บ้านสีฟ้า\n\nข้อใดถูกต้องแน่นอน",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ขิมดื่มนม",
+          "is_answer": true
+        },
+        {
+          "md": "คิมอยู่บ้านสีฟ้า",
+          "is_answer": false
+        },
+        {
+          "md": "คิมดื่มกาแฟ",
+          "is_answer": false
+        },
+        {
+          "md": "แก้วดื่มชา",
+          "is_answer": false
+        },
+        {
+          "md": "แก้วดื่มนม",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "แก้ว = แดง คิมไม่ใช่ฟ้า จึงเป็นเขียว ขิม = ฟ้า",
+          "why_md": "จับคู่สีบ้าน"
+        },
+        {
+          "do_md": "คนดื่มนมอยู่บ้านสีฟ้า จึงเป็นขิม",
+          "why_md": "เชื่อมสองตาราง"
+        }
+      ],
+      "answer_explanation_md": "ตอบ ขิมดื่มนม เพราะขิมอยู่บ้านสีฟ้า และคนดื่มนมอยู่บ้านสีฟ้า ส่วนชากับกาแฟยังสลับกันได้",
+      "hints": [
+        "จับคู่สีบ้านให้ครบก่อน",
+        "ใครอยู่บ้านสีฟ้า",
+        "คนดื่มนมอยู่บ้านสีอะไร"
+      ],
+      "distractor_reasons": {
+        "1": "ขัดเงื่อนไขข้อสุดท้าย",
+        "2": "คิมอาจดื่มชา",
+        "3": "แก้วอาจดื่มกาแฟ",
+        "4": "คนดื่มนมอยู่บ้านสีฟ้า แต่แก้วอยู่บ้านสีแดง"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.reasoning.statement_analysis.matching.0004",
+      "topic_ids": [
+        "tgat2.reasoning.statement_analysis.matching"
+      ],
+      "primary_topic_id": "tgat2.reasoning.statement_analysis.matching",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 70,
+      "stem_md": "3 คน แก้ว ขิม คิม อยู่บ้านสีแดง เขียว ฟ้า คนละหลัง และดื่ม ชา กาแฟ นม คนละอย่าง\n\n- แก้วอยู่บ้านสีแดง\n- คนที่ดื่มนมอยู่บ้านสีฟ้า\n- ขิมไม่ดื่มชา\n- คิมไม่ได้อยู่บ้านสีฟ้า\n- คนที่อยู่บ้านสีเขียวดื่มกาแฟ\n\nข้อใดถูกต้อง",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ขิมดื่มกาแฟ",
+          "is_answer": false
+        },
+        {
+          "md": "แก้วอยู่บ้านสีเขียว",
+          "is_answer": false
+        },
+        {
+          "md": "คิมอยู่บ้านสีแดง",
+          "is_answer": false
+        },
+        {
+          "md": "แก้วดื่มชา",
+          "is_answer": true
+        },
+        {
+          "md": "คิมดื่มชา",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "สีบ้าน: แก้ว แดง ขิม ฟ้า คิม เขียว",
+          "why_md": "จากเงื่อนไขเดิม"
+        },
+        {
+          "do_md": "ขิม นม คิม กาแฟ",
+          "why_md": "บ้านฟ้าดื่มนม บ้านเขียวดื่มกาแฟ"
+        },
+        {
+          "do_md": "แก้วจึงดื่มชา",
+          "why_md": "เหลือช่องเดียว"
+        }
+      ],
+      "answer_explanation_md": "ตอบ แก้วดื่มชา เพราะขิมบ้านฟ้าดื่มนม คิมบ้านเขียวดื่มกาแฟ จึงเหลือชาให้แก้ว",
+      "hints": [
+        "จับคู่สีบ้านให้ครบก่อน",
+        "บ้านสีฟ้าและสีเขียวดื่มอะไร",
+        "เครื่องดื่มที่เหลือเป็นของใคร"
+      ],
+      "distractor_reasons": {
+        "0": "ขิมดื่มนม",
+        "1": "แก้วอยู่บ้านสีแดง",
+        "2": "บ้านสีแดงเป็นของแก้ว",
+        "4": "คิมอยู่บ้านสีเขียวจึงดื่มกาแฟ"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.reasoning.statement_analysis.matching.0005",
+      "topic_ids": [
+        "tgat2.reasoning.statement_analysis.matching"
+      ],
+      "primary_topic_id": "tgat2.reasoning.statement_analysis.matching",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 50,
+      "stem_md": "ครู 4 คน ก ข ค ง สอนวิชา ไทย คณิตศาสตร์ วิทยาศาสตร์ อังกฤษ คนละวิชา\n\n- ก ไม่ได้สอนคณิตศาสตร์หรือวิทยาศาสตร์\n- ข สอนอังกฤษ\n- ค ไม่ได้สอนไทย\n- ง ไม่ได้สอนวิทยาศาสตร์\n\nใครสอนวิทยาศาสตร์",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ง",
+          "is_answer": false
+        },
+        {
+          "md": "สรุปไม่ได้",
+          "is_answer": false
+        },
+        {
+          "md": "ก",
+          "is_answer": false
+        },
+        {
+          "md": "ข",
+          "is_answer": false
+        },
+        {
+          "md": "ค",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ข = อังกฤษ ก เหลือไทยวิชาเดียว",
+          "why_md": "ตัดตัวเลือก"
+        },
+        {
+          "do_md": "ง ไม่ใช่วิทย์ และไทยถูกใช้แล้ว ง = คณิต",
+          "why_md": "เหลือช่องเดียว"
+        },
+        {
+          "do_md": "ค = วิทยาศาสตร์",
+          "why_md": "วิชาสุดท้าย"
+        }
+      ],
+      "answer_explanation_md": "ตอบ ค เพราะ ก สอนไทย ข สอนอังกฤษ ง สอนคณิต จึงเหลือวิทยาศาสตร์ให้ ค",
+      "hints": [
+        "ใส่ ✓ ของ ข ก่อน",
+        "ก เหลือวิชาใดได้บ้าง",
+        "ง เหลือวิชาใด แล้ว ค ได้วิชาใด"
+      ],
+      "distractor_reasons": {
+        "0": "ง สอนคณิตศาสตร์",
+        "1": "เงื่อนไขพอจะจับคู่ได้ครบ",
+        "2": "ก สอนไทย",
+        "3": "ข สอนอังกฤษ"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.reasoning.statement_analysis.matching.0006",
+      "topic_ids": [
+        "tgat2.reasoning.statement_analysis.matching"
+      ],
+      "primary_topic_id": "tgat2.reasoning.statement_analysis.matching",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 60,
+      "stem_md": "4 คน เอ บี ซี ดี มีอาชีพ หมอ ครู วิศวกร ทนายความ คนละอาชีพ\n\n- เอไม่ได้เป็นหมอและไม่ได้เป็นครู\n- บีเป็นทนายความหรือวิศวกร\n- ซีไม่ได้เป็นหมอ\n\nข้อใดเป็นไปไม่ได้",
+      "figures": [],
+      "choices": [
+        {
+          "md": "เอเป็นทนายความ",
+          "is_answer": false
+        },
+        {
+          "md": "บีเป็นทนายความ",
+          "is_answer": false
+        },
+        {
+          "md": "ซีเป็นวิศวกร",
+          "is_answer": true
+        },
+        {
+          "md": "บีเป็นวิศวกร",
+          "is_answer": false
+        },
+        {
+          "md": "เอเป็นวิศวกร",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "เอกับบีต้องแบ่งวิศวกรกับทนายความกัน",
+          "why_md": "ทั้งคู่เหลือได้แค่สองอาชีพนี้"
+        },
+        {
+          "do_md": "วิศวกรจึงไม่เหลือให้ซี",
+          "why_md": "ซีเป็นได้แค่ครู"
+        }
+      ],
+      "answer_explanation_md": "ตอบ ซีเป็นวิศวกร เพราะวิศวกรกับทนายความต้องเป็นของเอกับบีเสมอ",
+      "hints": [
+        "เอเหลืออาชีพใดได้บ้าง",
+        "บีเหลืออาชีพใดได้บ้าง",
+        "อาชีพที่สองคนนี้แบ่งกันไป คนอื่นเป็นได้ไหม"
+      ],
+      "distractor_reasons": {
+        "0": "เป็นไปได้ถ้าบีเป็นวิศวกร",
+        "1": "เป็นไปได้",
+        "3": "เป็นไปได้",
+        "4": "เป็นไปได้ถ้าบีเป็นทนายความ"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    }
+  ],
+  "generated_from": "content/tgat2/reasoning_analysis.py"
+}

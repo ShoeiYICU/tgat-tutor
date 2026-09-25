@@ -1,0 +1,477 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tpat3.foundation.physics_quantities",
+  "problems": [
+    {
+      "id": "prob.tpat3.foundation.physics_quantities.0001",
+      "topic_ids": [
+        "tpat3.foundation.physics_quantities"
+      ],
+      "primary_topic_id": "tpat3.foundation.physics_quantities",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 70,
+      "stem_md": "รถยนต์วิ่งด้วยความเร็ว $90$ กิโลเมตรต่อชั่วโมง คิดเป็นกี่เมตรต่อวินาที",
+      "figures": [],
+      "choices": [
+        {
+          "md": "$15$ เมตรต่อวินาที",
+          "is_answer": false
+        },
+        {
+          "md": "$25$ เมตรต่อวินาที",
+          "is_answer": true
+        },
+        {
+          "md": "$32.4$ เมตรต่อวินาที",
+          "is_answer": false
+        },
+        {
+          "md": "$250$ เมตรต่อวินาที",
+          "is_answer": false
+        },
+        {
+          "md": "$1.5$ เมตรต่อวินาที",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "แปลง กม./ชม. เป็น m/s ให้หารด้วย $3.6$",
+          "why_md": "เพราะ $1$ กม./ชม. $= \\frac{1000}{3600}$ m/s"
+        },
+        {
+          "do_md": "$90 \\div 3.6 = 25$",
+          "why_md": "ได้ $25$ เมตรต่อวินาที"
+        }
+      ],
+      "answer_explanation_md": "ตอบ $25$ เมตรต่อวินาที เพราะ $90 \\div 3.6 = 25$",
+      "hints": [
+        "1 กิโลเมตรเท่ากับกี่เมตร และ 1 ชั่วโมงเท่ากับกี่วินาที",
+        "ตัวเลขที่ใช้หารคือเท่าไร",
+        "ลองตรวจกลับด้วยการคูณ 3.6"
+      ],
+      "distractor_reasons": {
+        "0": "หารด้วย 6 แทนที่จะหารด้วย 3.6",
+        "2": "คูณด้วย 0.36 แทนการหารด้วย 3.6",
+        "3": "ลืมแปลงหน่วยเวลา",
+        "4": "หารด้วย 60 เหมือนแปลงเป็นนาที"
+      },
+      "misconception_tags": [
+        "area_volume_conversion"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.foundation.physics_quantities.0002",
+      "topic_ids": [
+        "tpat3.foundation.physics_quantities"
+      ],
+      "primary_topic_id": "tpat3.foundation.physics_quantities",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 90,
+      "stem_md": "กล่องลูกบาศก์ยาวด้านละ $2$ เมตร มีปริมาตรกี่ลูกบาศก์เซนติเมตร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "$8{,}000{,}000$ ลูกบาศก์เซนติเมตร",
+          "is_answer": true
+        },
+        {
+          "md": "$200$ ลูกบาศก์เซนติเมตร",
+          "is_answer": false
+        },
+        {
+          "md": "$80{,}000$ ลูกบาศก์เซนติเมตร",
+          "is_answer": false
+        },
+        {
+          "md": "$8{,}000$ ลูกบาศก์เซนติเมตร",
+          "is_answer": false
+        },
+        {
+          "md": "$800$ ลูกบาศก์เซนติเมตร",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ปริมาตร $= 2^3 = 8$ ลูกบาศก์เมตร",
+          "why_md": "หาปริมาตรในหน่วยเดิมก่อน"
+        },
+        {
+          "do_md": "$1$ m³ $= 100^3 = 1{,}000{,}000$ cm³",
+          "why_md": "ด้านคูณ 100 ปริมาตรจึงคูณ $100^3$"
+        },
+        {
+          "do_md": "$8 \\times 1{,}000{,}000 = 8{,}000{,}000$ cm³",
+          "why_md": "ได้คำตอบ"
+        }
+      ],
+      "answer_explanation_md": "ตอบ $8{,}000{,}000$ ลูกบาศก์เซนติเมตร เพราะ $8$ m³ และ $1$ m³ $= 10^6$ cm³",
+      "hints": [
+        "หาปริมาตรในหน่วยเมตรก่อน",
+        "1 เมตรเท่ากับกี่เซนติเมตร",
+        "ปริมาตรต้องยกกำลังสามหรือสอง"
+      ],
+      "distractor_reasons": {
+        "1": "แปลงความยาวแล้วลืมยกกำลังสาม",
+        "2": "คูณด้วย $100^2$ ซึ่งใช้กับพื้นที่",
+        "3": "คิดว่า $1$ m³ $= 1{,}000$ cm³",
+        "4": "คูณด้วย 100 ครั้งเดียว"
+      },
+      "misconception_tags": [
+        "area_volume_conversion"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.foundation.physics_quantities.0003",
+      "topic_ids": [
+        "tpat3.foundation.physics_quantities"
+      ],
+      "primary_topic_id": "tpat3.foundation.physics_quantities",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 75,
+      "stem_md": "ปริมาณใดมีหน่วยเป็น $\\text{kg} \\cdot \\text{m/s}^2$",
+      "figures": [],
+      "choices": [
+        {
+          "md": "โมเมนตัม",
+          "is_answer": false
+        },
+        {
+          "md": "งาน",
+          "is_answer": false
+        },
+        {
+          "md": "กำลัง",
+          "is_answer": false
+        },
+        {
+          "md": "ความดัน",
+          "is_answer": false
+        },
+        {
+          "md": "แรง",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "แรง $=$ มวล $\\times$ ความเร่ง",
+          "why_md": "สูตรพื้นฐาน"
+        },
+        {
+          "do_md": "แทนหน่วย: $\\text{kg} \\times \\text{m/s}^2$",
+          "why_md": "ตรงกับที่โจทย์ให้"
+        }
+      ],
+      "answer_explanation_md": "ตอบ แรง เพราะแรงเท่ากับมวลคูณความเร่ง จึงมีหน่วย $\\text{kg} \\cdot \\text{m/s}^2$ ซึ่งเรียกว่านิวตัน",
+      "hints": [
+        "เขียนสูตรที่เชื่อมมวลกับความเร่ง",
+        "แทนหน่วยลงในสูตร",
+        "เทียบกับหน่วยที่โจทย์ให้"
+      ],
+      "distractor_reasons": {
+        "0": "โมเมนตัมคือมวลคูณความเร็ว มีหน่วย $\\text{kg} \\cdot \\text{m/s}$",
+        "1": "งานมีหน่วยจูล ซึ่งเท่ากับ $\\text{kg} \\cdot \\text{m}^2/\\text{s}^2$",
+        "2": "กำลังมีหน่วยวัตต์ คือจูลต่อวินาที",
+        "3": "ความดันคือแรงต่อพื้นที่ จึงเป็น $\\text{kg}/(\\text{m} \\cdot \\text{s}^2)$"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.foundation.physics_quantities.0004",
+      "topic_ids": [
+        "tpat3.foundation.physics_quantities"
+      ],
+      "primary_topic_id": "tpat3.foundation.physics_quantities",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 70,
+      "stem_md": "เครื่องจักรทำงาน $6{,}000$ จูล ในเวลา $30$ วินาที กำลังของเครื่องจักรเป็นเท่าใด",
+      "figures": [],
+      "choices": [
+        {
+          "md": "$0.005$ วัตต์",
+          "is_answer": false
+        },
+        {
+          "md": "$6{,}000$ วัตต์",
+          "is_answer": false
+        },
+        {
+          "md": "$180{,}000$ วัตต์",
+          "is_answer": false
+        },
+        {
+          "md": "$200$ วัตต์",
+          "is_answer": true
+        },
+        {
+          "md": "$20$ วัตต์",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "กำลัง $=$ งาน $\\div$ เวลา",
+          "why_md": "นิยามของกำลัง"
+        },
+        {
+          "do_md": "$6{,}000 \\div 30 = 200$ วัตต์",
+          "why_md": "ตรวจหน่วย: จูลต่อวินาที = วัตต์"
+        }
+      ],
+      "answer_explanation_md": "ตอบ $200$ วัตต์ เพราะกำลังคืองานต่อเวลา $= 6{,}000 \\div 30$",
+      "hints": [
+        "กำลังนิยามว่าอย่างไร",
+        "หน่วยของกำลังคืออะไร",
+        "เอางานหารด้วยเวลา"
+      ],
+      "distractor_reasons": {
+        "0": "กลับเศษกับส่วน",
+        "1": "ตอบค่างานแทนกำลัง",
+        "2": "คูณแทนที่จะหาร",
+        "4": "หารด้วย 300"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.foundation.physics_quantities.0005",
+      "topic_ids": [
+        "tpat3.foundation.physics_quantities"
+      ],
+      "primary_topic_id": "tpat3.foundation.physics_quantities",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 75,
+      "stem_md": "แรง $500$ นิวตัน กดลงบนพื้นที่ $0.25$ ตารางเมตร ความดันที่เกิดขึ้นเป็นเท่าใด",
+      "figures": [],
+      "choices": [
+        {
+          "md": "$500$ ปาสกาล",
+          "is_answer": false
+        },
+        {
+          "md": "$0.0005$ ปาสกาล",
+          "is_answer": false
+        },
+        {
+          "md": "$2{,}000$ ปาสกาล",
+          "is_answer": true
+        },
+        {
+          "md": "$200$ ปาสกาล",
+          "is_answer": false
+        },
+        {
+          "md": "$125$ ปาสกาล",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ความดัน $=$ แรง $\\div$ พื้นที่",
+          "why_md": "นิยามของความดัน"
+        },
+        {
+          "do_md": "$500 \\div 0.25 = 2{,}000$",
+          "why_md": "หน่วยเป็นนิวตันต่อตารางเมตร คือปาสกาล"
+        }
+      ],
+      "answer_explanation_md": "ตอบ $2{,}000$ ปาสกาล เพราะความดันคือแรงต่อพื้นที่ $= 500 \\div 0.25$",
+      "hints": [
+        "ความดันนิยามว่าอย่างไร",
+        "หารด้วยเลขที่น้อยกว่า 1 ผลลัพธ์จะมากขึ้นหรือน้อยลง",
+        "ตรวจหน่วยของคำตอบ"
+      ],
+      "distractor_reasons": {
+        "0": "ตอบค่าแรงแทนความดัน",
+        "1": "กลับเศษกับส่วน",
+        "3": "หารด้วย 2.5",
+        "4": "คูณแทนที่จะหาร"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.foundation.physics_quantities.0006",
+      "topic_ids": [
+        "tpat3.foundation.physics_quantities"
+      ],
+      "primary_topic_id": "tpat3.foundation.physics_quantities",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 90,
+      "stem_md": "นักเรียนจำสูตรได้ว่า \"กำลัง $=$ แรง $\\times$ ระยะทาง\" จะตรวจว่าสูตรนี้ถูกหรือผิดได้อย่างไรเร็วที่สุด",
+      "figures": [],
+      "choices": [
+        {
+          "md": "แทนหน่วยแล้วพบว่าได้จูล ซึ่งเป็นหน่วยของงาน ไม่ใช่กำลัง",
+          "is_answer": true
+        },
+        {
+          "md": "เทียบกับสูตรอื่นที่จำได้ว่ามีคำว่ากำลังอยู่ด้วย",
+          "is_answer": false
+        },
+        {
+          "md": "ลองแทนตัวเลขแล้วดูว่าได้ค่ามากหรือน้อยเกินไป",
+          "is_answer": false
+        },
+        {
+          "md": "จำใหม่ว่ากำลังต้องมีคำว่าเวลาอยู่ในสูตรเสมอ",
+          "is_answer": false
+        },
+        {
+          "md": "ดูว่าสูตรนี้ใช้ได้กับโจทย์ตัวอย่างในหนังสือหรือไม่",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "แทนหน่วย: นิวตัน $\\times$ เมตร $=$ จูล",
+          "why_md": "จูลคือหน่วยของงาน"
+        },
+        {
+          "do_md": "กำลังมีหน่วยวัตต์ คือจูลต่อวินาที",
+          "why_md": "หน่วยไม่ตรง สูตรจึงผิด สูตรที่ถูกคือ งานต่อเวลา"
+        }
+      ],
+      "answer_explanation_md": "ตอบ แทนหน่วยแล้วพบว่าได้จูล ซึ่งเป็นหน่วยของงาน การตรวจด้วยหน่วยจึงจับสูตรผิดได้ทันที",
+      "hints": [
+        "หน่วยของกำลังคืออะไร",
+        "แรงคูณระยะทางให้หน่วยอะไร",
+        "ถ้าหน่วยไม่ตรงแปลว่าอะไร"
+      ],
+      "distractor_reasons": {
+        "1": "การจำชื่อสูตรไม่ยืนยันความถูกต้อง",
+        "2": "ค่ามากน้อยไม่ได้บอกว่าสูตรผิด",
+        "3": "เป็นการจำเพิ่ม ไม่ใช่การตรวจสอบ",
+        "4": "ช้ากว่าและไม่ได้ตรวจที่ตัวสูตรเอง"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    }
+  ],
+  "generated_from": "content/tpat3/foundation_physics.py"
+}

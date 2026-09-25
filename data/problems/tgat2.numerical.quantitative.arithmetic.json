@@ -1,0 +1,479 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tgat2.numerical.quantitative.arithmetic",
+  "problems": [
+    {
+      "id": "prob.tgat2.numerical.quantitative.arithmetic.0001",
+      "topic_ids": [
+        "tgat2.numerical.quantitative.arithmetic"
+      ],
+      "primary_topic_id": "tgat2.numerical.quantitative.arithmetic",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 45,
+      "stem_md": "**(ก)** $48 \\times 52$\n\n**(ข)** $50 \\times 50$\n\nข้อใดถูกต้อง",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ปริมาณ (ก) มากกว่า (ข)",
+          "is_answer": false
+        },
+        {
+          "md": "ปริมาณ (ก) น้อยกว่า (ข)",
+          "is_answer": true
+        },
+        {
+          "md": "ปริมาณ (ก) เท่ากับ (ข)",
+          "is_answer": false
+        },
+        {
+          "md": "ปริมาณ (ก) มากกว่าหรือเท่ากับ (ข) แต่บอกไม่ได้ว่าเท่ากันหรือไม่",
+          "is_answer": false
+        },
+        {
+          "md": "สรุปความสัมพันธ์ไม่ได้",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "$48 \\times 52 = (50 - 2)(50 + 2) = 2500 - 4 = 2496$",
+          "why_md": "ใช้ผลต่างกำลังสอง คำนวณเร็ว"
+        },
+        {
+          "do_md": "$2496 < 2500$",
+          "why_md": "(ก) น้อยกว่า"
+        }
+      ],
+      "answer_explanation_md": "(ก) น้อยกว่า (ข) เพราะ $48 \\times 52 = 2496$ ซึ่งน้อยกว่า $2500$",
+      "hints": [
+        "ผลบวกของสองจำนวนในแต่ละฝั่งเท่ากันไหม",
+        "ตัวเลขที่ใกล้กันกว่าให้ผลคูณมากกว่า",
+        "ลองเขียน $48 \\times 52$ เป็น $(50 - 2)(50 + 2)$"
+      ],
+      "distractor_reasons": {
+        "0": "คำนวณแล้ว (ก) ไม่ได้มากกว่า (ข) ในทุกกรณี",
+        "2": "ผลบวกเท่ากัน (100) แต่ผลคูณไม่เท่ากัน",
+        "3": "ใช้ได้เมื่อมีบางกรณีที่เท่ากันและบางกรณีที่มากกว่า ซึ่งไม่ใช่ข้อนี้",
+        "4": "ข้อมูลพอที่จะเปรียบเทียบได้แน่นอน"
+      },
+      "misconception_tags": [
+        "sum_equals_product"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.numerical.quantitative.arithmetic.0002",
+      "topic_ids": [
+        "tgat2.numerical.quantitative.arithmetic"
+      ],
+      "primary_topic_id": "tgat2.numerical.quantitative.arithmetic",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 35,
+      "stem_md": "**(ก)** $\\frac{2}{3}$ ของ $90$\n\n**(ข)** $\\frac{3}{5}$ ของ $100$\n\nข้อใดถูกต้อง",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ปริมาณ (ก) มากกว่า (ข)",
+          "is_answer": false
+        },
+        {
+          "md": "ปริมาณ (ก) น้อยกว่า (ข)",
+          "is_answer": false
+        },
+        {
+          "md": "ปริมาณ (ก) เท่ากับ (ข)",
+          "is_answer": true
+        },
+        {
+          "md": "ปริมาณ (ก) มากกว่าหรือเท่ากับ (ข) แต่บอกไม่ได้ว่าเท่ากันหรือไม่",
+          "is_answer": false
+        },
+        {
+          "md": "สรุปความสัมพันธ์ไม่ได้",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "(ก) $= 90 \\div 3 \\times 2 = 60$",
+          "why_md": "หารด้วยส่วนแล้วคูณด้วยเศษ"
+        },
+        {
+          "do_md": "(ข) $= 100 \\div 5 \\times 3 = 60$",
+          "why_md": "คิดแบบเดียวกัน"
+        },
+        {
+          "do_md": "$60 = 60$",
+          "why_md": "เท่ากัน"
+        }
+      ],
+      "answer_explanation_md": "(ก) เท่ากับ (ข) เพราะทั้งสองได้ $60$",
+      "hints": [
+        "คำนวณเศษส่วนของจำนวนแต่ละฝั่ง",
+        "หารด้วยส่วนก่อนแล้วคูณด้วยเศษ",
+        "(ก) คือ $90 \\div 3 \\times 2$"
+      ],
+      "distractor_reasons": {
+        "0": "คำนวณแล้ว (ก) ไม่ได้มากกว่า (ข) ในทุกกรณี",
+        "1": "คำนวณแล้ว (ก) ไม่ได้น้อยกว่า (ข) ในทุกกรณี",
+        "3": "ใช้ได้เมื่อมีบางกรณีที่เท่ากันและบางกรณีที่มากกว่า ซึ่งไม่ใช่ข้อนี้",
+        "4": "ข้อมูลพอที่จะเปรียบเทียบได้แน่นอน"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.numerical.quantitative.arithmetic.0003",
+      "topic_ids": [
+        "tgat2.numerical.quantitative.arithmetic"
+      ],
+      "primary_topic_id": "tgat2.numerical.quantitative.arithmetic",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 45,
+      "stem_md": "**(ก)** $37 \\times 49$\n\n**(ข)** $37 \\times 51 - 37$\n\nข้อใดถูกต้อง",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ปริมาณ (ก) มากกว่า (ข)",
+          "is_answer": false
+        },
+        {
+          "md": "ปริมาณ (ก) น้อยกว่า (ข)",
+          "is_answer": true
+        },
+        {
+          "md": "ปริมาณ (ก) เท่ากับ (ข)",
+          "is_answer": false
+        },
+        {
+          "md": "ปริมาณ (ก) มากกว่าหรือเท่ากับ (ข) แต่บอกไม่ได้ว่าเท่ากันหรือไม่",
+          "is_answer": false
+        },
+        {
+          "md": "สรุปความสัมพันธ์ไม่ได้",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ตัด $37$ ร่วม: (ก) $= 37 \\times 49$ และ (ข) $= 37 \\times (51 - 1) = 37 \\times 50$",
+          "why_md": "ดึงตัวร่วมออก"
+        },
+        {
+          "do_md": "$49 < 50$",
+          "why_md": "(ก) น้อยกว่า"
+        }
+      ],
+      "answer_explanation_md": "(ก) น้อยกว่า (ข) เพราะ (ข) เท่ากับ $37 \\times 50$ ซึ่งมากกว่า $37 \\times 49$",
+      "hints": [
+        "ทั้งสองฝั่งมีตัวคูณที่เหมือนกันไหม",
+        "(ข) เขียนเป็น $37 \\times (51 - 1)$ ได้",
+        "เทียบ $49$ กับ $50$"
+      ],
+      "distractor_reasons": {
+        "0": "คำนวณแล้ว (ก) ไม่ได้มากกว่า (ข) ในทุกกรณี",
+        "2": "ค่าทั้งสองไม่เท่ากัน",
+        "3": "ใช้ได้เมื่อมีบางกรณีที่เท่ากันและบางกรณีที่มากกว่า ซึ่งไม่ใช่ข้อนี้",
+        "4": "ข้อมูลพอที่จะเปรียบเทียบได้แน่นอน"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.numerical.quantitative.arithmetic.0004",
+      "topic_ids": [
+        "tgat2.numerical.quantitative.arithmetic"
+      ],
+      "primary_topic_id": "tgat2.numerical.quantitative.arithmetic",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 30,
+      "stem_md": "**(ก)** $0.35$\n\n**(ข)** $\\frac{7}{20}$\n\nข้อใดถูกต้อง",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ปริมาณ (ก) มากกว่า (ข)",
+          "is_answer": false
+        },
+        {
+          "md": "ปริมาณ (ก) น้อยกว่า (ข)",
+          "is_answer": false
+        },
+        {
+          "md": "ปริมาณ (ก) เท่ากับ (ข)",
+          "is_answer": true
+        },
+        {
+          "md": "ปริมาณ (ก) มากกว่าหรือเท่ากับ (ข) แต่บอกไม่ได้ว่าเท่ากันหรือไม่",
+          "is_answer": false
+        },
+        {
+          "md": "สรุปความสัมพันธ์ไม่ได้",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "แปลง $\\frac{7}{20} = \\frac{35}{100} = 0.35$",
+          "why_md": "คูณเศษและส่วนด้วย 5"
+        },
+        {
+          "do_md": "$0.35 = 0.35$",
+          "why_md": "เท่ากัน"
+        }
+      ],
+      "answer_explanation_md": "(ก) เท่ากับ (ข) เพราะ $\\frac{7}{20} = 0.35$",
+      "hints": [
+        "แปลงให้อยู่ในรูปเดียวกัน",
+        "$\\frac{7}{20}$ ทำส่วนเป็น 100 ได้อย่างไร",
+        "คูณเศษและส่วนด้วย 5"
+      ],
+      "distractor_reasons": {
+        "0": "คำนวณแล้ว (ก) ไม่ได้มากกว่า (ข) ในทุกกรณี",
+        "1": "คำนวณแล้ว (ก) ไม่ได้น้อยกว่า (ข) ในทุกกรณี",
+        "3": "ใช้ได้เมื่อมีบางกรณีที่เท่ากันและบางกรณีที่มากกว่า ซึ่งไม่ใช่ข้อนี้",
+        "4": "ข้อมูลพอที่จะเปรียบเทียบได้แน่นอน"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.numerical.quantitative.arithmetic.0005",
+      "topic_ids": [
+        "tgat2.numerical.quantitative.arithmetic"
+      ],
+      "primary_topic_id": "tgat2.numerical.quantitative.arithmetic",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 35,
+      "stem_md": "**(ก)** $2^{10}$\n\n**(ข)** $1000$\n\nข้อใดถูกต้อง",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ปริมาณ (ก) มากกว่า (ข)",
+          "is_answer": true
+        },
+        {
+          "md": "ปริมาณ (ก) น้อยกว่า (ข)",
+          "is_answer": false
+        },
+        {
+          "md": "ปริมาณ (ก) เท่ากับ (ข)",
+          "is_answer": false
+        },
+        {
+          "md": "ปริมาณ (ก) มากกว่าหรือเท่ากับ (ข) แต่บอกไม่ได้ว่าเท่ากันหรือไม่",
+          "is_answer": false
+        },
+        {
+          "md": "สรุปความสัมพันธ์ไม่ได้",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "$2^{10} = 1024$",
+          "why_md": "จำกำลังของ 2 ที่ใช้บ่อย"
+        },
+        {
+          "do_md": "$1024 > 1000$",
+          "why_md": "(ก) มากกว่า"
+        }
+      ],
+      "answer_explanation_md": "(ก) มากกว่า (ข) เพราะ $2^{10} = 1024$",
+      "hints": [
+        "คำนวณ $2^{10}$",
+        "$2^5 = 32$ แล้ว $2^{10} = 32 \\times 32$",
+        "เทียบผลลัพธ์กับ $1000$"
+      ],
+      "distractor_reasons": {
+        "1": "คำนวณแล้ว (ก) ไม่ได้น้อยกว่า (ข) ในทุกกรณี",
+        "2": "ค่าทั้งสองไม่เท่ากัน",
+        "3": "ใช้ได้เมื่อมีบางกรณีที่เท่ากันและบางกรณีที่มากกว่า ซึ่งไม่ใช่ข้อนี้",
+        "4": "ข้อมูลพอที่จะเปรียบเทียบได้แน่นอน"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.numerical.quantitative.arithmetic.0006",
+      "topic_ids": [
+        "tgat2.numerical.quantitative.arithmetic"
+      ],
+      "primary_topic_id": "tgat2.numerical.quantitative.arithmetic",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 5,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": true,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 60,
+      "stem_md": "**(ก)** $\\frac{101}{103}$\n\n**(ข)** $\\frac{102}{104}$\n\nข้อใดถูกต้อง",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ปริมาณ (ก) มากกว่า (ข)",
+          "is_answer": false
+        },
+        {
+          "md": "ปริมาณ (ก) น้อยกว่า (ข)",
+          "is_answer": true
+        },
+        {
+          "md": "ปริมาณ (ก) เท่ากับ (ข)",
+          "is_answer": false
+        },
+        {
+          "md": "ปริมาณ (ก) มากกว่าหรือเท่ากับ (ข) แต่บอกไม่ได้ว่าเท่ากันหรือไม่",
+          "is_answer": false
+        },
+        {
+          "md": "สรุปความสัมพันธ์ไม่ได้",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "เขียน (ก) $= 1 - \\frac{2}{103}$ และ (ข) $= 1 - \\frac{2}{104}$",
+          "why_md": "ทั้งสองขาดจาก 1 ด้วย 2 ส่วน"
+        },
+        {
+          "do_md": "$\\frac{2}{103} > \\frac{2}{104}$ ดังนั้น (ก) ขาดจาก 1 มากกว่า",
+          "why_md": "ส่วนที่เล็กกว่าให้เศษส่วนใหญ่กว่า"
+        },
+        {
+          "do_md": "(ก) น้อยกว่า (ข)",
+          "why_md": "สรุป"
+        }
+      ],
+      "answer_explanation_md": "(ก) น้อยกว่า (ข) เพราะ (ก) ขาดจาก 1 อยู่ $\\frac{2}{103}$ ซึ่งมากกว่าที่ (ข) ขาดอยู่ $\\frac{2}{104}$",
+      "hints": [
+        "ทั้งสองเศษส่วนใกล้กับ 1 มาก",
+        "เขียนแต่ละตัวเป็น 1 ลบด้วยเศษส่วนเล็ก ๆ",
+        "เทียบ $\\frac{2}{103}$ กับ $\\frac{2}{104}$"
+      ],
+      "distractor_reasons": {
+        "0": "คำนวณแล้ว (ก) ไม่ได้มากกว่า (ข) ในทุกกรณี",
+        "2": "ค่าทั้งสองไม่เท่ากัน",
+        "3": "ใช้ได้เมื่อมีบางกรณีที่เท่ากันและบางกรณีที่มากกว่า ซึ่งไม่ใช่ข้อนี้",
+        "4": "ข้อมูลพอที่จะเปรียบเทียบได้แน่นอน"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    }
+  ],
+  "generated_from": "content/tgat2/numerical_apply.py"
+}

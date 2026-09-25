@@ -1,0 +1,1131 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tgat2.numerical.foundation.ratio_proportion",
+  "problems": [
+    {
+      "id": "prob.tgat2.numerical.foundation.ratio_proportion.0001",
+      "topic_ids": [
+        "tgat2.numerical.foundation.ratio_proportion"
+      ],
+      "primary_topic_id": "tgat2.numerical.foundation.ratio_proportion",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 35,
+      "stem_md": "แบ่งเงิน $960$ บาท ให้ A และ B ในอัตราส่วน $5 : 7$ B ได้เงินกี่บาท",
+      "figures": [],
+      "choices": [
+        {
+          "md": "$960$",
+          "is_answer": false
+        },
+        {
+          "md": "$480$",
+          "is_answer": false
+        },
+        {
+          "md": "$400$",
+          "is_answer": false
+        },
+        {
+          "md": "$640$",
+          "is_answer": false
+        },
+        {
+          "md": "$560$",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "จำนวนส่วนรวม $= 5 + 7 = 12$ ส่วน",
+          "why_md": "แบ่งตามอัตราส่วนต้องรู้ว่ามีกี่ส่วน"
+        },
+        {
+          "do_md": "หนึ่งส่วน $= 960 \\div 12 = 80$ บาท",
+          "why_md": "หาค่าหนึ่งส่วนก่อน"
+        },
+        {
+          "do_md": "B ได้ $7 \\times 80 = 560$ บาท",
+          "why_md": "B มี $7$ ส่วน"
+        }
+      ],
+      "answer_explanation_md": "ตอบ $560$ บาท เพราะหนึ่งส่วนเท่ากับ $80$ บาท และ B ได้ $7$ ส่วน",
+      "hints": [
+        "อัตราส่วน $5 : 7$ แบ่งเงินเป็นกี่ส่วน",
+        "หาค่าของหนึ่งส่วนจาก $960 \\div 12$",
+        "B มีกี่ส่วน แล้วคูณด้วยค่าหนึ่งส่วน"
+      ],
+      "distractor_reasons": {
+        "0": "ตอบเงินทั้งหมดแทนส่วนของ B",
+        "1": "นับส่วนขาดไปหนึ่ง",
+        "2": "ตอบส่วนของ A แทน B",
+        "3": "นับส่วนเกินไปหนึ่ง"
+      },
+      "misconception_tags": [],
+      "template": {
+        "vars": [
+          {
+            "name": "a",
+            "type": "int",
+            "range": [
+              1,
+              6
+            ],
+            "step": 1
+          },
+          {
+            "name": "b",
+            "type": "int",
+            "range": [
+              2,
+              7
+            ],
+            "step": 1
+          },
+          {
+            "name": "u",
+            "type": "int",
+            "range": [
+              20,
+              90
+            ],
+            "step": 10
+          }
+        ],
+        "constraints": [
+          "a < b",
+          "(b*u) > 0",
+          "(a*u) > 0",
+          "((a + b)*u) > 0",
+          "((b + 1)*u) > 0",
+          "((b - 1)*u) > 0",
+          "(b*u) != (a*u)",
+          "(b*u) != ((a + b)*u)",
+          "(b*u) != ((b + 1)*u)",
+          "(b*u) != ((b - 1)*u)",
+          "(a*u) != ((a + b)*u)",
+          "(a*u) != ((b + 1)*u)",
+          "(a*u) != ((b - 1)*u)",
+          "((a + b)*u) != ((b + 1)*u)",
+          "((a + b)*u) != ((b - 1)*u)",
+          "((b + 1)*u) != ((b - 1)*u)",
+          "(a*u) <= 5*(b*u)",
+          "((a + b)*u) <= 5*(b*u)",
+          "((b + 1)*u) <= 5*(b*u)",
+          "((b - 1)*u) <= 5*(b*u)",
+          "5*(a*u) >= (b*u)",
+          "5*((a + b)*u) >= (b*u)",
+          "5*((b + 1)*u) >= (b*u)",
+          "5*((b - 1)*u) >= (b*u)",
+          "(a) != (b*u)",
+          "(b) != (b*u)",
+          "(n) != (b*u)",
+          "(s) != (b*u)"
+        ],
+        "display": {
+          "s": "a + b",
+          "n": "(a + b)*u"
+        },
+        "stem_tpl": "แบ่งเงิน ${n}$ บาท ให้ A และ B ในอัตราส่วน ${a} : {b}$ B ได้เงินกี่บาท",
+        "answer_expr": "b*u",
+        "answer_round": null,
+        "answer_unit": null,
+        "distractors": [
+          {
+            "expr": "a*u",
+            "reason": "ตอบส่วนของ A แทน B"
+          },
+          {
+            "expr": "(a + b)*u",
+            "reason": "ตอบเงินทั้งหมดแทนส่วนของ B"
+          },
+          {
+            "expr": "(b + 1)*u",
+            "reason": "นับส่วนเกินไปหนึ่ง"
+          },
+          {
+            "expr": "(b - 1)*u",
+            "reason": "นับส่วนขาดไปหนึ่ง"
+          }
+        ],
+        "quality_rules": [
+          "ตัวเลือกทุกตัวต้องเป็นจำนวนบวกและไม่ซ้ำกัน",
+          "คำตอบคำนวณจากนิพจน์ ไม่ได้ใส่มือ"
+        ],
+        "quality_exprs": [
+          "answer > 0"
+        ],
+        "steps_tpl": [
+          {
+            "do_md": "จำนวนส่วนรวม $= {a} + {b} = {s}$ ส่วน",
+            "why_md": "แบ่งตามอัตราส่วนต้องรู้ว่ามีกี่ส่วน"
+          },
+          {
+            "do_md": "หนึ่งส่วน $= {n} \\div {s} = {u}$ บาท",
+            "why_md": "หาค่าหนึ่งส่วนก่อน"
+          },
+          {
+            "do_md": "B ได้ ${b} \\times {u} = {answer}$ บาท",
+            "why_md": "B มี ${b}$ ส่วน"
+          }
+        ],
+        "hints_tpl": [
+          "อัตราส่วน ${a} : {b}$ แบ่งเงินเป็นกี่ส่วน",
+          "หาค่าของหนึ่งส่วนจาก ${n} \\div {s}$",
+          "B มีกี่ส่วน แล้วคูณด้วยค่าหนึ่งส่วน"
+        ],
+        "explanation_tpl": "ตอบ ${answer}$ บาท เพราะหนึ่งส่วนเท่ากับ ${u}$ บาท และ B ได้ ${b}$ ส่วน"
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.numerical.foundation.ratio_proportion.0002",
+      "topic_ids": [
+        "tgat2.numerical.foundation.ratio_proportion"
+      ],
+      "primary_topic_id": "tgat2.numerical.foundation.ratio_proportion",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 35,
+      "stem_md": "แบ่งเงิน $300$ บาท ให้ A และ B ในอัตราส่วน $3 : 7$ B ได้เงินกี่บาท",
+      "figures": [],
+      "choices": [
+        {
+          "md": "$210$",
+          "is_answer": true
+        },
+        {
+          "md": "$180$",
+          "is_answer": false
+        },
+        {
+          "md": "$300$",
+          "is_answer": false
+        },
+        {
+          "md": "$90$",
+          "is_answer": false
+        },
+        {
+          "md": "$240$",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "จำนวนส่วนรวม $= 3 + 7 = 10$ ส่วน",
+          "why_md": "แบ่งตามอัตราส่วนต้องรู้ว่ามีกี่ส่วน"
+        },
+        {
+          "do_md": "หนึ่งส่วน $= 300 \\div 10 = 30$ บาท",
+          "why_md": "หาค่าหนึ่งส่วนก่อน"
+        },
+        {
+          "do_md": "B ได้ $7 \\times 30 = 210$ บาท",
+          "why_md": "B มี $7$ ส่วน"
+        }
+      ],
+      "answer_explanation_md": "ตอบ $210$ บาท เพราะหนึ่งส่วนเท่ากับ $30$ บาท และ B ได้ $7$ ส่วน",
+      "hints": [
+        "อัตราส่วน $3 : 7$ แบ่งเงินเป็นกี่ส่วน",
+        "หาค่าของหนึ่งส่วนจาก $300 \\div 10$",
+        "B มีกี่ส่วน แล้วคูณด้วยค่าหนึ่งส่วน"
+      ],
+      "distractor_reasons": {
+        "1": "นับส่วนขาดไปหนึ่ง",
+        "2": "ตอบเงินทั้งหมดแทนส่วนของ B",
+        "3": "ตอบส่วนของ A แทน B",
+        "4": "นับส่วนเกินไปหนึ่ง"
+      },
+      "misconception_tags": [],
+      "template": {
+        "vars": [
+          {
+            "name": "a",
+            "type": "int",
+            "range": [
+              1,
+              6
+            ],
+            "step": 1
+          },
+          {
+            "name": "b",
+            "type": "int",
+            "range": [
+              2,
+              7
+            ],
+            "step": 1
+          },
+          {
+            "name": "u",
+            "type": "int",
+            "range": [
+              20,
+              90
+            ],
+            "step": 10
+          }
+        ],
+        "constraints": [
+          "a < b",
+          "(b*u) > 0",
+          "(a*u) > 0",
+          "((a + b)*u) > 0",
+          "((b + 1)*u) > 0",
+          "((b - 1)*u) > 0",
+          "(b*u) != (a*u)",
+          "(b*u) != ((a + b)*u)",
+          "(b*u) != ((b + 1)*u)",
+          "(b*u) != ((b - 1)*u)",
+          "(a*u) != ((a + b)*u)",
+          "(a*u) != ((b + 1)*u)",
+          "(a*u) != ((b - 1)*u)",
+          "((a + b)*u) != ((b + 1)*u)",
+          "((a + b)*u) != ((b - 1)*u)",
+          "((b + 1)*u) != ((b - 1)*u)",
+          "(a*u) <= 5*(b*u)",
+          "((a + b)*u) <= 5*(b*u)",
+          "((b + 1)*u) <= 5*(b*u)",
+          "((b - 1)*u) <= 5*(b*u)",
+          "5*(a*u) >= (b*u)",
+          "5*((a + b)*u) >= (b*u)",
+          "5*((b + 1)*u) >= (b*u)",
+          "5*((b - 1)*u) >= (b*u)",
+          "(a) != (b*u)",
+          "(b) != (b*u)",
+          "(n) != (b*u)",
+          "(s) != (b*u)"
+        ],
+        "display": {
+          "s": "a + b",
+          "n": "(a + b)*u"
+        },
+        "stem_tpl": "แบ่งเงิน ${n}$ บาท ให้ A และ B ในอัตราส่วน ${a} : {b}$ B ได้เงินกี่บาท",
+        "answer_expr": "b*u",
+        "answer_round": null,
+        "answer_unit": null,
+        "distractors": [
+          {
+            "expr": "a*u",
+            "reason": "ตอบส่วนของ A แทน B"
+          },
+          {
+            "expr": "(a + b)*u",
+            "reason": "ตอบเงินทั้งหมดแทนส่วนของ B"
+          },
+          {
+            "expr": "(b + 1)*u",
+            "reason": "นับส่วนเกินไปหนึ่ง"
+          },
+          {
+            "expr": "(b - 1)*u",
+            "reason": "นับส่วนขาดไปหนึ่ง"
+          }
+        ],
+        "quality_rules": [
+          "ตัวเลือกทุกตัวต้องเป็นจำนวนบวกและไม่ซ้ำกัน",
+          "คำตอบคำนวณจากนิพจน์ ไม่ได้ใส่มือ"
+        ],
+        "quality_exprs": [
+          "answer > 0"
+        ],
+        "steps_tpl": [
+          {
+            "do_md": "จำนวนส่วนรวม $= {a} + {b} = {s}$ ส่วน",
+            "why_md": "แบ่งตามอัตราส่วนต้องรู้ว่ามีกี่ส่วน"
+          },
+          {
+            "do_md": "หนึ่งส่วน $= {n} \\div {s} = {u}$ บาท",
+            "why_md": "หาค่าหนึ่งส่วนก่อน"
+          },
+          {
+            "do_md": "B ได้ ${b} \\times {u} = {answer}$ บาท",
+            "why_md": "B มี ${b}$ ส่วน"
+          }
+        ],
+        "hints_tpl": [
+          "อัตราส่วน ${a} : {b}$ แบ่งเงินเป็นกี่ส่วน",
+          "หาค่าของหนึ่งส่วนจาก ${n} \\div {s}$",
+          "B มีกี่ส่วน แล้วคูณด้วยค่าหนึ่งส่วน"
+        ],
+        "explanation_tpl": "ตอบ ${answer}$ บาท เพราะหนึ่งส่วนเท่ากับ ${u}$ บาท และ B ได้ ${b}$ ส่วน"
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.numerical.foundation.ratio_proportion.0003",
+      "topic_ids": [
+        "tgat2.numerical.foundation.ratio_proportion"
+      ],
+      "primary_topic_id": "tgat2.numerical.foundation.ratio_proportion",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 40,
+      "stem_md": "ห้องเรียนมีนักเรียนชาย : หญิง $= 7 : 3$ ถ้ามีนักเรียนหญิง $12$ คน ห้องนี้มีนักเรียนทั้งหมดกี่คน",
+      "figures": [],
+      "choices": [
+        {
+          "md": "$40$",
+          "is_answer": true
+        },
+        {
+          "md": "$36$",
+          "is_answer": false
+        },
+        {
+          "md": "$24$",
+          "is_answer": false
+        },
+        {
+          "md": "$19$",
+          "is_answer": false
+        },
+        {
+          "md": "$28$",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "หนึ่งส่วน $= 12 \\div 3 = 4$ คน",
+          "why_md": "จำนวนหญิงจริงต้องหารด้วยส่วนของหญิง"
+        },
+        {
+          "do_md": "ทั้งหมด $= (7 + 3) \\times 4 = 40$ คน",
+          "why_md": "ถามทั้งห้อง จึงใช้จำนวนส่วนรวม"
+        }
+      ],
+      "answer_explanation_md": "ตอบ $40$ คน เพราะหนึ่งส่วนเท่ากับ $4$ คน และทั้งห้องมี $7 + 3$ ส่วน",
+      "hints": [
+        "เริ่มจากหาค่าหนึ่งส่วนจากจำนวนหญิง",
+        "หาร $12$ ด้วยจำนวนส่วนของหญิง",
+        "ทั้งห้องมีกี่ส่วน"
+      ],
+      "distractor_reasons": {
+        "1": "นับรวมขาดไปหนึ่งส่วน",
+        "2": "นับจำนวนหญิงซ้ำสองครั้ง",
+        "3": "บวกจำนวนส่วนของชายเข้ากับจำนวนหญิงจริง",
+        "4": "ตอบเฉพาะจำนวนชาย"
+      },
+      "misconception_tags": [
+        "wrong_part_divisor"
+      ],
+      "template": {
+        "vars": [
+          {
+            "name": "a",
+            "type": "int",
+            "range": [
+              2,
+              7
+            ],
+            "step": 1
+          },
+          {
+            "name": "b",
+            "type": "int",
+            "range": [
+              3,
+              8
+            ],
+            "step": 1
+          },
+          {
+            "name": "u",
+            "type": "int",
+            "range": [
+              2,
+              6
+            ],
+            "step": 1
+          }
+        ],
+        "constraints": [
+          "a != b",
+          "((a + b)*u) > 0",
+          "(a*u) > 0",
+          "(g + a) > 0",
+          "((a + b)*u - u) > 0",
+          "(g + b*u) > 0",
+          "((a + b)*u) != (a*u)",
+          "((a + b)*u) != (g + a)",
+          "((a + b)*u) != ((a + b)*u - u)",
+          "((a + b)*u) != (g + b*u)",
+          "(a*u) != (g + a)",
+          "(a*u) != ((a + b)*u - u)",
+          "(a*u) != (g + b*u)",
+          "(g + a) != ((a + b)*u - u)",
+          "(g + a) != (g + b*u)",
+          "((a + b)*u - u) != (g + b*u)",
+          "(a*u) <= 5*((a + b)*u)",
+          "(g + a) <= 5*((a + b)*u)",
+          "((a + b)*u - u) <= 5*((a + b)*u)",
+          "(g + b*u) <= 5*((a + b)*u)",
+          "5*(a*u) >= ((a + b)*u)",
+          "5*(g + a) >= ((a + b)*u)",
+          "5*((a + b)*u - u) >= ((a + b)*u)",
+          "5*(g + b*u) >= ((a + b)*u)",
+          "(g) != ((a + b)*u)"
+        ],
+        "display": {
+          "g": "b*u"
+        },
+        "stem_tpl": "ห้องเรียนมีนักเรียนชาย : หญิง $= {a} : {b}$ ถ้ามีนักเรียนหญิง ${g}$ คน ห้องนี้มีนักเรียนทั้งหมดกี่คน",
+        "answer_expr": "(a + b)*u",
+        "answer_round": null,
+        "answer_unit": null,
+        "distractors": [
+          {
+            "expr": "a*u",
+            "reason": "ตอบเฉพาะจำนวนชาย"
+          },
+          {
+            "expr": "g + a",
+            "reason": "บวกจำนวนส่วนของชายเข้ากับจำนวนหญิงจริง"
+          },
+          {
+            "expr": "(a + b)*u - u",
+            "reason": "นับรวมขาดไปหนึ่งส่วน"
+          },
+          {
+            "expr": "g + b*u",
+            "reason": "นับจำนวนหญิงซ้ำสองครั้ง"
+          }
+        ],
+        "quality_rules": [
+          "ตัวเลือกทุกตัวต้องเป็นจำนวนบวกและไม่ซ้ำกัน",
+          "คำตอบคำนวณจากนิพจน์ ไม่ได้ใส่มือ"
+        ],
+        "quality_exprs": [
+          "answer > 0"
+        ],
+        "steps_tpl": [
+          {
+            "do_md": "หนึ่งส่วน $= {g} \\div {b} = {u}$ คน",
+            "why_md": "จำนวนหญิงจริงต้องหารด้วยส่วนของหญิง"
+          },
+          {
+            "do_md": "ทั้งหมด $= ({a} + {b}) \\times {u} = {answer}$ คน",
+            "why_md": "ถามทั้งห้อง จึงใช้จำนวนส่วนรวม"
+          }
+        ],
+        "hints_tpl": [
+          "เริ่มจากหาค่าหนึ่งส่วนจากจำนวนหญิง",
+          "หาร ${g}$ ด้วยจำนวนส่วนของหญิง",
+          "ทั้งห้องมีกี่ส่วน"
+        ],
+        "explanation_tpl": "ตอบ ${answer}$ คน เพราะหนึ่งส่วนเท่ากับ ${u}$ คน และทั้งห้องมี ${a} + {b}$ ส่วน"
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.numerical.foundation.ratio_proportion.0004",
+      "topic_ids": [
+        "tgat2.numerical.foundation.ratio_proportion"
+      ],
+      "primary_topic_id": "tgat2.numerical.foundation.ratio_proportion",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 45,
+      "stem_md": "ห้องเรียนมีนักเรียนชาย : หญิง $= 5 : 6$ ถ้ามีนักเรียนหญิง $30$ คน ห้องนี้มีนักเรียนทั้งหมดกี่คน",
+      "figures": [],
+      "choices": [
+        {
+          "md": "$50$",
+          "is_answer": false
+        },
+        {
+          "md": "$25$",
+          "is_answer": false
+        },
+        {
+          "md": "$35$",
+          "is_answer": false
+        },
+        {
+          "md": "$55$",
+          "is_answer": true
+        },
+        {
+          "md": "$60$",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "หนึ่งส่วน $= 30 \\div 6 = 5$ คน",
+          "why_md": "จำนวนหญิงจริงต้องหารด้วยส่วนของหญิง"
+        },
+        {
+          "do_md": "ทั้งหมด $= (5 + 6) \\times 5 = 55$ คน",
+          "why_md": "ถามทั้งห้อง จึงใช้จำนวนส่วนรวม"
+        }
+      ],
+      "answer_explanation_md": "ตอบ $55$ คน เพราะหนึ่งส่วนเท่ากับ $5$ คน และทั้งห้องมี $5 + 6$ ส่วน",
+      "hints": [
+        "เริ่มจากหาค่าหนึ่งส่วนจากจำนวนหญิง",
+        "หาร $30$ ด้วยจำนวนส่วนของหญิง",
+        "ทั้งห้องมีกี่ส่วน"
+      ],
+      "distractor_reasons": {
+        "0": "นับรวมขาดไปหนึ่งส่วน",
+        "1": "ตอบเฉพาะจำนวนชาย",
+        "2": "บวกจำนวนส่วนของชายเข้ากับจำนวนหญิงจริง",
+        "4": "นับจำนวนหญิงซ้ำสองครั้ง"
+      },
+      "misconception_tags": [
+        "wrong_part_divisor"
+      ],
+      "template": {
+        "vars": [
+          {
+            "name": "a",
+            "type": "int",
+            "range": [
+              2,
+              7
+            ],
+            "step": 1
+          },
+          {
+            "name": "b",
+            "type": "int",
+            "range": [
+              3,
+              8
+            ],
+            "step": 1
+          },
+          {
+            "name": "u",
+            "type": "int",
+            "range": [
+              2,
+              6
+            ],
+            "step": 1
+          }
+        ],
+        "constraints": [
+          "a != b",
+          "((a + b)*u) > 0",
+          "(a*u) > 0",
+          "(g + a) > 0",
+          "((a + b)*u - u) > 0",
+          "(g + b*u) > 0",
+          "((a + b)*u) != (a*u)",
+          "((a + b)*u) != (g + a)",
+          "((a + b)*u) != ((a + b)*u - u)",
+          "((a + b)*u) != (g + b*u)",
+          "(a*u) != (g + a)",
+          "(a*u) != ((a + b)*u - u)",
+          "(a*u) != (g + b*u)",
+          "(g + a) != ((a + b)*u - u)",
+          "(g + a) != (g + b*u)",
+          "((a + b)*u - u) != (g + b*u)",
+          "(a*u) <= 5*((a + b)*u)",
+          "(g + a) <= 5*((a + b)*u)",
+          "((a + b)*u - u) <= 5*((a + b)*u)",
+          "(g + b*u) <= 5*((a + b)*u)",
+          "5*(a*u) >= ((a + b)*u)",
+          "5*(g + a) >= ((a + b)*u)",
+          "5*((a + b)*u - u) >= ((a + b)*u)",
+          "5*(g + b*u) >= ((a + b)*u)",
+          "(g) != ((a + b)*u)"
+        ],
+        "display": {
+          "g": "b*u"
+        },
+        "stem_tpl": "ห้องเรียนมีนักเรียนชาย : หญิง $= {a} : {b}$ ถ้ามีนักเรียนหญิง ${g}$ คน ห้องนี้มีนักเรียนทั้งหมดกี่คน",
+        "answer_expr": "(a + b)*u",
+        "answer_round": null,
+        "answer_unit": null,
+        "distractors": [
+          {
+            "expr": "a*u",
+            "reason": "ตอบเฉพาะจำนวนชาย"
+          },
+          {
+            "expr": "g + a",
+            "reason": "บวกจำนวนส่วนของชายเข้ากับจำนวนหญิงจริง"
+          },
+          {
+            "expr": "(a + b)*u - u",
+            "reason": "นับรวมขาดไปหนึ่งส่วน"
+          },
+          {
+            "expr": "g + b*u",
+            "reason": "นับจำนวนหญิงซ้ำสองครั้ง"
+          }
+        ],
+        "quality_rules": [
+          "ตัวเลือกทุกตัวต้องเป็นจำนวนบวกและไม่ซ้ำกัน",
+          "คำตอบคำนวณจากนิพจน์ ไม่ได้ใส่มือ"
+        ],
+        "quality_exprs": [
+          "answer > 0"
+        ],
+        "steps_tpl": [
+          {
+            "do_md": "หนึ่งส่วน $= {g} \\div {b} = {u}$ คน",
+            "why_md": "จำนวนหญิงจริงต้องหารด้วยส่วนของหญิง"
+          },
+          {
+            "do_md": "ทั้งหมด $= ({a} + {b}) \\times {u} = {answer}$ คน",
+            "why_md": "ถามทั้งห้อง จึงใช้จำนวนส่วนรวม"
+          }
+        ],
+        "hints_tpl": [
+          "เริ่มจากหาค่าหนึ่งส่วนจากจำนวนหญิง",
+          "หาร ${g}$ ด้วยจำนวนส่วนของหญิง",
+          "ทั้งห้องมีกี่ส่วน"
+        ],
+        "explanation_tpl": "ตอบ ${answer}$ คน เพราะหนึ่งส่วนเท่ากับ ${u}$ คน และทั้งห้องมี ${a} + {b}$ ส่วน"
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.numerical.foundation.ratio_proportion.0005",
+      "topic_ids": [
+        "tgat2.numerical.foundation.ratio_proportion"
+      ],
+      "primary_topic_id": "tgat2.numerical.foundation.ratio_proportion",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 30,
+      "stem_md": "ผลไม้ $3$ กิโลกรัม ราคา $60$ บาท ถ้าซื้อ $7$ กิโลกรัม ต้องจ่ายกี่บาท",
+      "figures": [],
+      "choices": [
+        {
+          "md": "$160$",
+          "is_answer": false
+        },
+        {
+          "md": "$120$",
+          "is_answer": false
+        },
+        {
+          "md": "$140$",
+          "is_answer": true
+        },
+        {
+          "md": "$60$",
+          "is_answer": false
+        },
+        {
+          "md": "$67$",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ราคาต่อกิโลกรัม $= 60 \\div 3 = 20$ บาท",
+          "why_md": "หาราคาต่อหนึ่งหน่วยก่อน"
+        },
+        {
+          "do_md": "$7$ กิโลกรัม $= 7 \\times 20 = 140$ บาท",
+          "why_md": "คูณด้วยปริมาณที่ต้องการ"
+        }
+      ],
+      "answer_explanation_md": "ตอบ $140$ บาท เพราะราคาต่อกิโลกรัมคือ $20$ บาท คูณด้วย $7$ กิโลกรัม",
+      "hints": [
+        "หาราคาต่อหนึ่งกิโลกรัมก่อน",
+        "ราคาต่อกิโลกรัมคือ $60 \\div 3$",
+        "นำราคาต่อกิโลกรัมไปคูณกับ $7$"
+      ],
+      "distractor_reasons": {
+        "0": "คูณเกินไปหนึ่งกิโลกรัม",
+        "1": "คูณขาดไปหนึ่งกิโลกรัม",
+        "3": "ใช้ปริมาณเดิมแทนปริมาณใหม่",
+        "4": "บวกแทนการคิดตามสัดส่วน"
+      },
+      "misconception_tags": [],
+      "template": {
+        "vars": [
+          {
+            "name": "x",
+            "type": "int",
+            "range": [
+              2,
+              5
+            ],
+            "step": 1
+          },
+          {
+            "name": "r",
+            "type": "int",
+            "range": [
+              15,
+              40
+            ],
+            "step": 5
+          },
+          {
+            "name": "y",
+            "type": "int",
+            "range": [
+              3,
+              9
+            ],
+            "step": 1
+          }
+        ],
+        "constraints": [
+          "x != y",
+          "(r*y) > 0",
+          "(p + y) > 0",
+          "(r*x) > 0",
+          "(r*(y + 1)) > 0",
+          "(r*(y - 1)) > 0",
+          "(r*y) != (p + y)",
+          "(r*y) != (r*x)",
+          "(r*y) != (r*(y + 1))",
+          "(r*y) != (r*(y - 1))",
+          "(p + y) != (r*x)",
+          "(p + y) != (r*(y + 1))",
+          "(p + y) != (r*(y - 1))",
+          "(r*x) != (r*(y + 1))",
+          "(r*x) != (r*(y - 1))",
+          "(r*(y + 1)) != (r*(y - 1))",
+          "(p + y) <= 5*(r*y)",
+          "(r*x) <= 5*(r*y)",
+          "(r*(y + 1)) <= 5*(r*y)",
+          "(r*(y - 1)) <= 5*(r*y)",
+          "5*(p + y) >= (r*y)",
+          "5*(r*x) >= (r*y)",
+          "5*(r*(y + 1)) >= (r*y)",
+          "5*(r*(y - 1)) >= (r*y)",
+          "(p) != (r*y)",
+          "(x) != (r*y)",
+          "(y) != (r*y)"
+        ],
+        "display": {
+          "p": "r*x"
+        },
+        "stem_tpl": "ผลไม้ ${x}$ กิโลกรัม ราคา ${p}$ บาท ถ้าซื้อ ${y}$ กิโลกรัม ต้องจ่ายกี่บาท",
+        "answer_expr": "r*y",
+        "answer_round": null,
+        "answer_unit": null,
+        "distractors": [
+          {
+            "expr": "p + y",
+            "reason": "บวกแทนการคิดตามสัดส่วน"
+          },
+          {
+            "expr": "r*x",
+            "reason": "ใช้ปริมาณเดิมแทนปริมาณใหม่"
+          },
+          {
+            "expr": "r*(y + 1)",
+            "reason": "คูณเกินไปหนึ่งกิโลกรัม"
+          },
+          {
+            "expr": "r*(y - 1)",
+            "reason": "คูณขาดไปหนึ่งกิโลกรัม"
+          }
+        ],
+        "quality_rules": [
+          "ตัวเลือกทุกตัวต้องเป็นจำนวนบวกและไม่ซ้ำกัน",
+          "คำตอบคำนวณจากนิพจน์ ไม่ได้ใส่มือ"
+        ],
+        "quality_exprs": [
+          "answer > 0"
+        ],
+        "steps_tpl": [
+          {
+            "do_md": "ราคาต่อกิโลกรัม $= {p} \\div {x} = {r}$ บาท",
+            "why_md": "หาราคาต่อหนึ่งหน่วยก่อน"
+          },
+          {
+            "do_md": "${y}$ กิโลกรัม $= {y} \\times {r} = {answer}$ บาท",
+            "why_md": "คูณด้วยปริมาณที่ต้องการ"
+          }
+        ],
+        "hints_tpl": [
+          "หาราคาต่อหนึ่งกิโลกรัมก่อน",
+          "ราคาต่อกิโลกรัมคือ ${p} \\div {x}$",
+          "นำราคาต่อกิโลกรัมไปคูณกับ ${y}$"
+        ],
+        "explanation_tpl": "ตอบ ${answer}$ บาท เพราะราคาต่อกิโลกรัมคือ ${r}$ บาท คูณด้วย ${y}$ กิโลกรัม"
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.numerical.foundation.ratio_proportion.0006",
+      "topic_ids": [
+        "tgat2.numerical.foundation.ratio_proportion"
+      ],
+      "primary_topic_id": "tgat2.numerical.foundation.ratio_proportion",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 30,
+      "stem_md": "ผลไม้ $3$ กิโลกรัม ราคา $120$ บาท ถ้าซื้อ $7$ กิโลกรัม ต้องจ่ายกี่บาท",
+      "figures": [],
+      "choices": [
+        {
+          "md": "$240$",
+          "is_answer": false
+        },
+        {
+          "md": "$280$",
+          "is_answer": true
+        },
+        {
+          "md": "$127$",
+          "is_answer": false
+        },
+        {
+          "md": "$320$",
+          "is_answer": false
+        },
+        {
+          "md": "$120$",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ราคาต่อกิโลกรัม $= 120 \\div 3 = 40$ บาท",
+          "why_md": "หาราคาต่อหนึ่งหน่วยก่อน"
+        },
+        {
+          "do_md": "$7$ กิโลกรัม $= 7 \\times 40 = 280$ บาท",
+          "why_md": "คูณด้วยปริมาณที่ต้องการ"
+        }
+      ],
+      "answer_explanation_md": "ตอบ $280$ บาท เพราะราคาต่อกิโลกรัมคือ $40$ บาท คูณด้วย $7$ กิโลกรัม",
+      "hints": [
+        "หาราคาต่อหนึ่งกิโลกรัมก่อน",
+        "ราคาต่อกิโลกรัมคือ $120 \\div 3$",
+        "นำราคาต่อกิโลกรัมไปคูณกับ $7$"
+      ],
+      "distractor_reasons": {
+        "0": "คูณขาดไปหนึ่งกิโลกรัม",
+        "2": "บวกแทนการคิดตามสัดส่วน",
+        "3": "คูณเกินไปหนึ่งกิโลกรัม",
+        "4": "ใช้ปริมาณเดิมแทนปริมาณใหม่"
+      },
+      "misconception_tags": [],
+      "template": {
+        "vars": [
+          {
+            "name": "x",
+            "type": "int",
+            "range": [
+              2,
+              5
+            ],
+            "step": 1
+          },
+          {
+            "name": "r",
+            "type": "int",
+            "range": [
+              15,
+              40
+            ],
+            "step": 5
+          },
+          {
+            "name": "y",
+            "type": "int",
+            "range": [
+              3,
+              9
+            ],
+            "step": 1
+          }
+        ],
+        "constraints": [
+          "x != y",
+          "(r*y) > 0",
+          "(p + y) > 0",
+          "(r*x) > 0",
+          "(r*(y + 1)) > 0",
+          "(r*(y - 1)) > 0",
+          "(r*y) != (p + y)",
+          "(r*y) != (r*x)",
+          "(r*y) != (r*(y + 1))",
+          "(r*y) != (r*(y - 1))",
+          "(p + y) != (r*x)",
+          "(p + y) != (r*(y + 1))",
+          "(p + y) != (r*(y - 1))",
+          "(r*x) != (r*(y + 1))",
+          "(r*x) != (r*(y - 1))",
+          "(r*(y + 1)) != (r*(y - 1))",
+          "(p + y) <= 5*(r*y)",
+          "(r*x) <= 5*(r*y)",
+          "(r*(y + 1)) <= 5*(r*y)",
+          "(r*(y - 1)) <= 5*(r*y)",
+          "5*(p + y) >= (r*y)",
+          "5*(r*x) >= (r*y)",
+          "5*(r*(y + 1)) >= (r*y)",
+          "5*(r*(y - 1)) >= (r*y)",
+          "(p) != (r*y)",
+          "(x) != (r*y)",
+          "(y) != (r*y)"
+        ],
+        "display": {
+          "p": "r*x"
+        },
+        "stem_tpl": "ผลไม้ ${x}$ กิโลกรัม ราคา ${p}$ บาท ถ้าซื้อ ${y}$ กิโลกรัม ต้องจ่ายกี่บาท",
+        "answer_expr": "r*y",
+        "answer_round": null,
+        "answer_unit": null,
+        "distractors": [
+          {
+            "expr": "p + y",
+            "reason": "บวกแทนการคิดตามสัดส่วน"
+          },
+          {
+            "expr": "r*x",
+            "reason": "ใช้ปริมาณเดิมแทนปริมาณใหม่"
+          },
+          {
+            "expr": "r*(y + 1)",
+            "reason": "คูณเกินไปหนึ่งกิโลกรัม"
+          },
+          {
+            "expr": "r*(y - 1)",
+            "reason": "คูณขาดไปหนึ่งกิโลกรัม"
+          }
+        ],
+        "quality_rules": [
+          "ตัวเลือกทุกตัวต้องเป็นจำนวนบวกและไม่ซ้ำกัน",
+          "คำตอบคำนวณจากนิพจน์ ไม่ได้ใส่มือ"
+        ],
+        "quality_exprs": [
+          "answer > 0"
+        ],
+        "steps_tpl": [
+          {
+            "do_md": "ราคาต่อกิโลกรัม $= {p} \\div {x} = {r}$ บาท",
+            "why_md": "หาราคาต่อหนึ่งหน่วยก่อน"
+          },
+          {
+            "do_md": "${y}$ กิโลกรัม $= {y} \\times {r} = {answer}$ บาท",
+            "why_md": "คูณด้วยปริมาณที่ต้องการ"
+          }
+        ],
+        "hints_tpl": [
+          "หาราคาต่อหนึ่งกิโลกรัมก่อน",
+          "ราคาต่อกิโลกรัมคือ ${p} \\div {x}$",
+          "นำราคาต่อกิโลกรัมไปคูณกับ ${y}$"
+        ],
+        "explanation_tpl": "ตอบ ${answer}$ บาท เพราะราคาต่อกิโลกรัมคือ ${r}$ บาท คูณด้วย ${y}$ กิโลกรัม"
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    }
+  ],
+  "generated_from": "content/tgat2/numerical_foundation2.py"
+}

@@ -1,0 +1,659 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tgat3.civic.environment.decide_with_impact",
+  "problems": [
+    {
+      "id": "prob.tgat3.civic.environment.decide_with_impact.0001",
+      "topic_ids": [
+        "tgat3.civic.environment.decide_with_impact"
+      ],
+      "primary_topic_id": "tgat3.civic.environment.decide_with_impact",
+      "exam_code": "TGAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT3 สมรรถนะการทำงาน แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4_tiered",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 60,
+      "stem_md": "ห้องเรียนของคุณจะสั่งเสื้อรุ่น เพื่อนเสนอให้สั่งคนละ 2 ตัวเผื่อไว้ คุณเป็นเหรัญญิก ควรทำอย่างไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "สั่งคนละ 1 ตัวเท่ากันทุกคน",
+          "is_answer": false,
+          "score": 0.75
+        },
+        {
+          "md": "ไม่สั่งเสื้อรุ่นเลยเพื่อลดขยะ",
+          "is_answer": false,
+          "score": 0.25
+        },
+        {
+          "md": "สั่งคนละ 2 ตัวตามที่เสนอ เพราะถ้าสั่งเยอะจะได้ราคาถูกลงต่อตัว และทุกคนจะมีไว้เปลี่ยนใส่",
+          "is_answer": false,
+          "score": 0.5
+        },
+        {
+          "md": "สำรวจว่าแต่ละคนต้องการกี่ตัวจริง แล้วสั่งตามจำนวนนั้น",
+          "is_answer": true,
+          "score": 1
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ก่อนใช้: สั่งตามความต้องการจริง",
+          "why_md": "ไม่มีเสื้อเหลือไม่ได้ใช้"
+        },
+        {
+          "do_md": "ยังได้เป้าหมายของห้อง",
+          "why_md": "ทุกคนที่ต้องการได้เสื้อ"
+        },
+        {
+          "do_md": "ถามแต่ละคน",
+          "why_md": "ตรงความต้องการและไม่บังคับ"
+        }
+      ],
+      "answer_explanation_md": "สำรวจความต้องการจริงแล้วสั่งตามนั้นดีที่สุด เพราะได้เป้าหมายของห้องและลดการสิ้นเปลืองทรัพยากร",
+      "hints": [
+        "ทุกคนต้องการเสื้อ 2 ตัวจริงไหม",
+        "เสื้อที่ไม่ได้ใช้ส่งผลอย่างไร",
+        "หาทางที่ได้เป้าหมายและไม่สิ้นเปลือง"
+      ],
+      "distractor_reasons": {
+        "0": "ลดความสิ้นเปลืองได้ แต่ไม่ได้ถามความต้องการ บางคนอาจต้องการมากกว่าหรือไม่ต้องการเลย",
+        "1": "ทิ้งเป้าหมายของห้องทั้งหมด",
+        "2": "ได้ราคาดี แต่อาจเกิดเสื้อที่ไม่ได้ใช้ ซึ่งสิ้นเปลืองทั้งเงินและทรัพยากร"
+      },
+      "misconception_tags": [
+        "environment_extreme"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat3.civic.environment.decide_with_impact.0002",
+      "topic_ids": [
+        "tgat3.civic.environment.decide_with_impact"
+      ],
+      "primary_topic_id": "tgat3.civic.environment.decide_with_impact",
+      "exam_code": "TGAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT3 สมรรถนะการทำงาน แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4_tiered",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 60,
+      "stem_md": "คุณเป็นฝ่ายสวัสดิการที่ต้องจัดอาหารว่างให้ผู้ร่วมงานสัมมนา 100 คน คุณควรเลือกอย่างไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "สั่งตามจำนวนที่ลงทะเบียนในกล่องกระดาษ",
+          "is_answer": false,
+          "score": 0.75
+        },
+        {
+          "md": "ไม่จัดอาหารว่างเพื่อลดขยะ",
+          "is_answer": false,
+          "score": 0.25
+        },
+        {
+          "md": "สั่งตามจำนวนที่ลงทะเบียน ใช้ภาชนะที่ล้างได้หรือย่อยสลายได้ และตั้งจุดแยกขยะ",
+          "is_answer": true,
+          "score": 1
+        },
+        {
+          "md": "สั่งอาหารเผื่อ 150 ชุดในกล่องโฟม เพราะสะดวกที่สุดและกลัวอาหารไม่พอสำหรับแขกที่มาโดยไม่ได้ลงทะเบียน",
+          "is_answer": false,
+          "score": 0.5
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ก่อนใช้: สั่งพอดีจำนวน",
+          "why_md": "ลดอาหารเหลือ"
+        },
+        {
+          "do_md": "ระหว่างใช้: ภาชนะที่ล้างได้หรือย่อยสลายได้",
+          "why_md": "ลดขยะที่ย่อยยาก"
+        },
+        {
+          "do_md": "หลังใช้: แยกขยะ",
+          "why_md": "ครบทั้งวงจร"
+        }
+      ],
+      "answer_explanation_md": "สั่งพอดี ใช้ภาชนะที่ล้างได้หรือย่อยสลายได้ และแยกขยะดีที่สุด เพราะทำหน้าที่ได้ครบและลดผลกระทบตลอดวงจร",
+      "hints": [
+        "ควรสั่งอาหารกี่ชุด",
+        "ภาชนะแบบไหนสร้างขยะน้อยที่สุด",
+        "หลังกินเสร็จ ขยะจะไปที่ไหน"
+      ],
+      "distractor_reasons": {
+        "0": "ลดอาหารเหลือและใช้วัสดุที่ดีกว่าโฟม แต่ยังไม่ได้วางแผนเรื่องขยะหลังใช้",
+        "1": "ทิ้งหน้าที่ของฝ่ายสวัสดิการ",
+        "3": "ทำหน้าที่ดูแลอาหารได้ แต่เผื่อเกินข้อมูลและสร้างทั้งอาหารเหลือกับขยะโฟมจำนวนมาก"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat3.civic.environment.decide_with_impact.0003",
+      "topic_ids": [
+        "tgat3.civic.environment.decide_with_impact"
+      ],
+      "primary_topic_id": "tgat3.civic.environment.decide_with_impact",
+      "exam_code": "TGAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT3 สมรรถนะการทำงาน แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4_tiered",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 60,
+      "stem_md": "บริษัทที่คุณฝึกงานพิมพ์เอกสารประชุมให้พนักงานทุกคนทุกสัปดาห์ คนละ 20 หน้า ส่วนใหญ่ถูกทิ้งหลังประชุม คุณควรเสนออะไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "พิมพ์ต่อไปเหมือนเดิม เพราะเป็นวิธีที่ทุกคนคุ้นเคย",
+          "is_answer": false,
+          "score": 0.25
+        },
+        {
+          "md": "เสนอหัวหน้าให้ส่งเอกสารทางออนไลน์ และพิมพ์เฉพาะคนที่ขอ",
+          "is_answer": true,
+          "score": 1
+        },
+        {
+          "md": "หยุดพิมพ์เอกสารทั้งหมดตั้งแต่สัปดาห์หน้า แล้วแจ้งให้ทุกคนอ่านจากหน้าจอแทนโดยไม่มีข้อยกเว้น",
+          "is_answer": false,
+          "score": 0.5
+        },
+        {
+          "md": "พิมพ์สองหน้าและลดขนาดตัวอักษรให้ใช้กระดาษน้อยลง",
+          "is_answer": false,
+          "score": 0.75
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "สังเกต: เอกสารส่วนใหญ่ถูกทิ้ง",
+          "why_md": "มีทางที่ได้ผลเท่ากันแต่กระทบน้อยกว่า"
+        },
+        {
+          "do_md": "เสนอผ่านหัวหน้า",
+          "why_md": "นักศึกษาฝึกงานไม่มีอำนาจเปลี่ยนเอง"
+        },
+        {
+          "do_md": "ส่งออนไลน์และพิมพ์เฉพาะคนที่ขอ",
+          "why_md": "ลดกระดาษโดยไม่บังคับ"
+        }
+      ],
+      "answer_explanation_md": "เสนอส่งเอกสารออนไลน์และพิมพ์เฉพาะคนที่ขอดีที่สุด เพราะได้ผลเท่าเดิม ลดกระดาษมาก และไม่บังคับใคร",
+      "hints": [
+        "เอกสารที่พิมพ์ได้ใช้จริงแค่ไหน",
+        "มีวิธีส่งข้อมูลที่ได้ผลเท่ากันไหม",
+        "หาทางที่ลดกระดาษโดยยังรองรับคนที่ต้องใช้กระดาษ"
+      ],
+      "distractor_reasons": {
+        "0": "ไม่ได้คิดถึงผลต่อสิ่งแวดล้อมและต้นทุน",
+        "2": "ลดกระดาษได้มาก แต่บังคับทุกคน บางคนอาจจำเป็นต้องใช้กระดาษ",
+        "3": "ลดกระดาษได้บ้าง แต่ยังพิมพ์ให้ทุกคนแม้คนที่ไม่ได้ใช้"
+      },
+      "misconception_tags": [
+        "environment_extreme"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat3.civic.environment.decide_with_impact.0004",
+      "topic_ids": [
+        "tgat3.civic.environment.decide_with_impact"
+      ],
+      "primary_topic_id": "tgat3.civic.environment.decide_with_impact",
+      "exam_code": "TGAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT3 สมรรถนะการทำงาน แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4_tiered",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 60,
+      "stem_md": "ครอบครัวของคุณจะไปเที่ยวทะเล พ่อแม่เสนอให้ซื้อน้ำดื่มขวดเล็ก 2 แพ็กติดรถไป คุณควรเสนออะไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ซื้อน้ำขวดใหญ่ 1 ขวดแทนขวดเล็กหลายขวด แล้วแบ่งกันใส่แก้วที่ติดรถไว้",
+          "is_answer": false,
+          "score": 0.75
+        },
+        {
+          "md": "ไม่ต้องพกน้ำไปเลย ไปซื้อเอาข้างหน้า",
+          "is_answer": false,
+          "score": 0.25
+        },
+        {
+          "md": "ซื้อน้ำขวดเล็กตามที่พ่อแม่เสนอ เพราะสะดวกที่สุดสำหรับการเดินทาง และแต่ละคนถือขวดของตัวเองได้",
+          "is_answer": false,
+          "score": 0.5
+        },
+        {
+          "md": "เสนอเติมน้ำใส่กระติกหรือขวดใหญ่ที่ใช้ซ้ำได้จากบ้าน และพกแก้วส่วนตัว",
+          "is_answer": true,
+          "score": 1
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "เป้าหมาย: มีน้ำดื่มพอระหว่างเดินทาง",
+          "why_md": "ต้องยังได้เป้าหมายนี้"
+        },
+        {
+          "do_md": "ทางเลือกที่ได้ผลเท่ากัน: กระติกหรือขวดที่ใช้ซ้ำได้",
+          "why_md": "ลดขยะพลาสติก"
+        },
+        {
+          "do_md": "สะดวกพอ ๆ กัน",
+          "why_md": "ครอบครัวยอมรับได้ง่าย"
+        }
+      ],
+      "answer_explanation_md": "เติมน้ำใส่กระติกหรือขวดที่ใช้ซ้ำได้และพกแก้วดีที่สุด เพราะได้น้ำดื่มพอเหมือนเดิมและลดขยะพลาสติกโดยไม่ลำบากขึ้น",
+      "hints": [
+        "เป้าหมายหลักคืออะไร",
+        "มีวิธีที่ได้น้ำดื่มพอ ๆ กันแต่สร้างขยะน้อยกว่าไหม",
+        "วิธีไหนสะดวกและทำได้จริง"
+      ],
+      "distractor_reasons": {
+        "0": "ลดขยะได้มาก แต่ยังมีขวดพลาสติกใช้ครั้งเดียว",
+        "1": "ไม่ได้ลดขยะ และเสี่ยงไม่มีน้ำดื่มระหว่างทาง",
+        "2": "สะดวก แต่สร้างขยะพลาสติกจำนวนมากในการเดินทางครั้งเดียว"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat3.civic.environment.decide_with_impact.0005",
+      "topic_ids": [
+        "tgat3.civic.environment.decide_with_impact"
+      ],
+      "primary_topic_id": "tgat3.civic.environment.decide_with_impact",
+      "exam_code": "TGAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT3 สมรรถนะการทำงาน แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4_tiered",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 60,
+      "stem_md": "โรงเรียนของคุณมีงบปรับปรุงสนาม ฝ่ายอาคารเสนอให้เปลี่ยนสนามหญ้าจริงเป็นหญ้าเทียมเพื่อลดค่าดูแล คุณเป็นตัวแทนนักเรียนในที่ประชุม ควรเสนออะไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "เสนอให้เทียบทั้งค่าใช้จ่าย ความร้อน การระบายน้ำ ขยะเมื่อหมดอายุ และการใช้งานของนักเรียน ก่อนตัดสินใจ",
+          "is_answer": true,
+          "score": 1
+        },
+        {
+          "md": "สนับสนุนหญ้าเทียมเพราะประหยัดค่าดูแลและใช้ได้ทุกฤดูกาล ไม่มีปัญหาโคลนหรือหญ้าตายในหน้าแล้ง",
+          "is_answer": false,
+          "score": 0.5
+        },
+        {
+          "md": "เสนอให้สำรวจความเห็นนักเรียนทั้งโรงเรียนว่าชอบหญ้าจริงหรือหญ้าเทียมมากกว่า แล้วตัดสินตามเสียงข้างมาก",
+          "is_answer": false,
+          "score": 0.75
+        },
+        {
+          "md": "คัดค้านหญ้าเทียมทุกกรณีเพราะเป็นพลาสติก",
+          "is_answer": false,
+          "score": 0.25
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ตั้งเกณฑ์หลายด้าน รวมถึงสิ่งแวดล้อม",
+          "why_md": "ความร้อน การระบายน้ำ ขยะเมื่อหมดอายุ"
+        },
+        {
+          "do_md": "ไม่ตัดสินจากด้านเดียว",
+          "why_md": "ทั้งค่าใช้จ่ายและผลกระทบ"
+        },
+        {
+          "do_md": "คิดถึงผู้ใช้",
+          "why_md": "นักเรียนต้องใช้สนามได้จริง"
+        }
+      ],
+      "answer_explanation_md": "เสนอให้เทียบทั้งค่าใช้จ่าย ผลต่อสิ่งแวดล้อม และการใช้งานก่อนตัดสินใจดีที่สุด เพราะรวมสิ่งแวดล้อมเป็นเกณฑ์หนึ่งโดยไม่มองด้านเดียว",
+      "hints": [
+        "การตัดสินใจนี้มีผลกระทบด้านไหนบ้าง",
+        "การมองแค่ค่าดูแลหรือแค่วัสดุพอไหม",
+        "หาตัวเลือกที่เทียบหลายด้านก่อนตัดสิน"
+      ],
+      "distractor_reasons": {
+        "1": "มีเหตุผลด้านการใช้งาน แต่ไม่ได้คิดถึงผลต่อสิ่งแวดล้อมและความร้อน",
+        "2": "ให้ผู้ใช้มีส่วนร่วม แต่ความชอบยังไม่ใช่ข้อมูลผลกระทบที่ครบถ้วน",
+        "3": "ยึดด้านสิ่งแวดล้อมเพียงด้านเดียวและปฏิเสธก่อนเปรียบเทียบการใช้งาน ต้นทุน และทางเลือกอื่น"
+      },
+      "misconception_tags": [
+        "environment_extreme"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat3.civic.environment.decide_with_impact.0006",
+      "topic_ids": [
+        "tgat3.civic.environment.decide_with_impact"
+      ],
+      "primary_topic_id": "tgat3.civic.environment.decide_with_impact",
+      "exam_code": "TGAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT3 สมรรถนะการทำงาน แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4_tiered",
+      "difficulty": 4,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "high"
+      },
+      "est_seconds": 60,
+      "stem_md": "ชมรมของคุณได้รับการสนับสนุนจากบริษัทให้จัดกิจกรรมแจกลูกโป่งฮีเลียม 1,000 ลูกเพื่อปล่อยขึ้นฟ้าในงานวันเด็กของชุมชน คุณเป็นประธานชมรม ควรทำอย่างไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "แจกลูกโป่งให้เด็กถือกลับบ้าน แทนการปล่อยขึ้นฟ้า",
+          "is_answer": false,
+          "score": 0.75
+        },
+        {
+          "md": "คุยกับบริษัทเรื่องผลกระทบของลูกโป่งที่ตกลงสู่ธรรมชาติ และเสนอกิจกรรมอื่นที่สนุกเท่ากัน เช่น ปลูกต้นไม้ติดชื่อเด็ก",
+          "is_answer": true,
+          "score": 1
+        },
+        {
+          "md": "ปฏิเสธการสนับสนุนจากบริษัท",
+          "is_answer": false,
+          "score": 0.5
+        },
+        {
+          "md": "จัดตามที่บริษัทสนับสนุน เพราะเด็กจะชอบและบริษัทเป็นผู้ให้ทุน ชมรมไม่ควรขัดความต้องการของผู้สนับสนุน",
+          "is_answer": false,
+          "score": 0.25
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ผลกระทบ: ลูกโป่งตกลงสู่ธรรมชาติ",
+          "why_md": "เป็นขยะที่อันตรายต่อสัตว์"
+        },
+        {
+          "do_md": "รักษาเป้าหมาย: งานสนุกและบริษัทได้ประชาสัมพันธ์",
+          "why_md": "เสนอกิจกรรมที่ได้ผลเท่ากัน"
+        },
+        {
+          "do_md": "คุยกับผู้สนับสนุน",
+          "why_md": "ไม่เสียทุนและไม่สร้างผลกระทบ"
+        }
+      ],
+      "answer_explanation_md": "คุยกับบริษัทและเสนอกิจกรรมที่สนุกเท่ากันแต่ไม่สร้างขยะดีที่สุด เพราะรักษาเป้าหมายของงาน ไม่เสียทุน และลดผลกระทบต่อธรรมชาติ",
+      "hints": [
+        "ลูกโป่ง 1,000 ลูกที่ปล่อยขึ้นฟ้าจะไปอยู่ที่ไหน",
+        "มีกิจกรรมที่เด็กสนุกเท่ากันและบริษัทยังได้ประชาสัมพันธ์ไหม",
+        "หาทางที่ไม่เสียทุนและไม่สร้างผลกระทบ"
+      ],
+      "distractor_reasons": {
+        "0": "ลดขยะที่ตกลงสู่ธรรมชาติได้มาก แต่ยังเป็นลูกโป่งใช้ครั้งเดียวจำนวนมาก",
+        "2": "หลีกเลี่ยงผลกระทบได้ แต่เสียทุนสำหรับงานวันเด็กโดยไม่ได้ลองหาทางอื่น",
+        "3": "ไม่คิดถึงขยะลูกโป่งที่ตกลงในแหล่งน้ำและเป็นอันตรายต่อสัตว์"
+      },
+      "misconception_tags": [
+        "environment_extreme"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat3.civic.environment.decide_with_impact.0007",
+      "topic_ids": [
+        "tgat3.civic.environment.decide_with_impact"
+      ],
+      "primary_topic_id": "tgat3.civic.environment.decide_with_impact",
+      "exam_code": "TGAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT3 สมรรถนะการทำงาน แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4_tiered",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 60,
+      "stem_md": "โรงเรียนใช้แก้วใช้ครั้งเดียวจำนวนมาก ควรเริ่มลดผลกระทบอย่างไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ห้ามใช้แก้วทันที",
+          "is_answer": false,
+          "score": 0.5
+        },
+        {
+          "md": "รณรงค์ให้พกแก้วส่วนตัว",
+          "is_answer": false,
+          "score": 0.75
+        },
+        {
+          "md": "วัดจุดที่ใช้มาก ทดลองแก้วคืนได้ในกิจกรรมหนึ่ง และติดตามอัตราคืนกับขยะ",
+          "is_answer": true,
+          "score": 1
+        },
+        {
+          "md": "เปลี่ยนเป็นแก้วที่ติดป้ายว่าย่อยสลายได้",
+          "is_answer": false,
+          "score": 0.25
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "หาขนาดและจุดปัญหา",
+          "why_md": "วัดการใช้"
+        },
+        {
+          "do_md": "ทดลองทางเลือก",
+          "why_md": "ระบบคืน"
+        },
+        {
+          "do_md": "ดูผลจริง",
+          "why_md": "คืนและขยะ"
+        }
+      ],
+      "answer_explanation_md": "ทดลองระบบใช้ซ้ำพร้อมวัดพฤติกรรมและขยะ ลดผลกระทบโดยไม่ผลักภาระ",
+      "hints": [
+        "ควรเริ่มที่จุดใด",
+        "ผู้ไม่มีแก้วส่วนตัวใช้อะไร",
+        "ตัวชี้วัดใดบอกว่าระบบดีขึ้น"
+      ],
+      "distractor_reasons": {
+        "0": "ลดขยะแต่ยังไม่มีทางรองรับผู้ไม่มีแก้ว",
+        "1": "ทิศทางดีแต่ยังไม่แก้อุปสรรคและวัดผล",
+        "3": "อาจย้ายปัญหาและไม่ลดการใช้"
+      },
+      "misconception_tags": [
+        "environment_extreme"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat3.civic.environment.decide_with_impact.0008",
+      "topic_ids": [
+        "tgat3.civic.environment.decide_with_impact"
+      ],
+      "primary_topic_id": "tgat3.civic.environment.decide_with_impact",
+      "exam_code": "TGAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT3 สมรรถนะการทำงาน แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4_tiered",
+      "difficulty": 5,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": true,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 60,
+      "stem_md": "ชุมชนต้องลดการเผาเศษพืช แต่เกษตรกรบอกว่าการขนไปทำปุ๋ยมีค่าใช้จ่ายสูง คุณควรเสนออะไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ทดลองจุดรวบรวมใกล้แปลง แบ่งค่าขน และหาผู้ใช้ปุ๋ย พร้อมวัดต้นทุนกับควัน",
+          "is_answer": true,
+          "score": 1
+        },
+        {
+          "md": "ให้เงินชดเชยค่าขนทั้งหมดถาวร",
+          "is_answer": false,
+          "score": 0.5
+        },
+        {
+          "md": "สาธิตทำปุ๋ยในแปลงให้เกษตรกรที่สมัครใจ",
+          "is_answer": false,
+          "score": 0.75
+        },
+        {
+          "md": "สั่งห้ามเผาและปรับทันที",
+          "is_answer": false,
+          "score": 0.25
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "รับฟังข้อจำกัดเศรษฐกิจ",
+          "why_md": "ค่าขน"
+        },
+        {
+          "do_md": "ออกแบบห่วงโซ่",
+          "why_md": "รวบรวม ขน ใช้ปุ๋ย"
+        },
+        {
+          "do_md": "ทดลองและวัดสองด้าน",
+          "why_md": "ต้นทุนกับควัน"
+        }
+      ],
+      "answer_explanation_md": "ระบบรวบรวมและตลาดปุ๋ยทดลองแก้ทั้งควันและต้นทุน จึงมีโอกาสยั่งยืน",
+      "hints": [
+        "เหตุใดคนยังเผา",
+        "จะลดต้นทุนด้วยความร่วมมืออย่างไร",
+        "เศษพืชสร้างมูลค่าให้ใครได้"
+      ],
+      "distractor_reasons": {
+        "1": "ช่วยช่วงแรกแต่ไม่ยั่งยืนและยังไม่สร้างมูลค่า",
+        "2": "ลดต้นทุนบางราย แต่ยังไม่รองรับปริมาณและผู้ที่ทำเองไม่ได้",
+        "3": "ลดควันแต่ไม่ให้ทางที่ทำได้จริง"
+      },
+      "misconception_tags": [
+        "environment_extreme"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    }
+  ],
+  "generated_from": "content/tgat3/emotion_civic.py"
+}

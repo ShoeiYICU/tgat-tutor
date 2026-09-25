@@ -1,0 +1,827 @@
+{
+  "schema_version": "1.0",
+  "subject": "jpn",
+  "subject_name_th": "A-Level ภาษาญี่ปุ่น",
+  "exam_codes": [
+    "ALEVEL_85"
+  ],
+  "source_note": "ยืนยันโครงสอบแล้วจาก mytcas.com/blueprint/a-level-85-jpn/ (ตรวจ 21 กันยายน 2569): 50 ข้อ 100 คะแนน 90 นาที ปรนัย 4 ตัวเลือก | 4 ด้าน คือ ไวยากรณ์พื้นฐาน / การสื่อสาร / การเขียน / การอ่าน **ผังสอบไม่ได้ระบุจำนวนข้อของแต่ละด้าน** | ผังสอบไม่ได้ให้รายการหัวข้อย่อยของแต่ละด้าน ชั้นหัวข้อและ leaf ในผังนี้จึงเป็นการจัดกลุ่มและซอยของเราเอง ไม่ใช่รายการทางการ",
+  "topics": [
+    {
+      "id": "jpn",
+      "name_th": "A-Level ภาษาญี่ปุ่น",
+      "name_en": "",
+      "kind": "subject",
+      "parent": null,
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ALEVEL_85",
+        "ภาษาญี่ปุ่น"
+      ],
+      "curriculum_ref": null,
+      "notes": "วิชาภาษาที่สาม | โครงสอบยืนยันแล้ว: 50 ข้อ 100 คะแนน 90 นาที **ปรนัย 4 ตัวเลือก** ใช้ format mcq4 | **วิชานี้ template ไม่ได้** ต้องแต่งโจทย์มือ 20 ข้อต่อหัวข้อตามสเปค | เนื้อหาต้องมีเจ้าของภาษาหรือผู้สอนภาษานั้นตรวจ เพราะความถูกต้องทางภาษา และความเหมาะสมทางวัฒนธรรมเครื่องตรวจไม่ได้ ตั้ง review_status เป็น ai_draft_needs_fact_check ทุกไฟล์ | ผังสอบไม่ได้ระบุระดับ CEFR หรือระดับความสามารถอ้างอิง ห้ามอ้างระดับเองในบทเรียน | คนสอบน้อยที่สุดในกลุ่ม A-Level จึงอยู่ท้ายลำดับการผลิต | ผังสอบระบุว่าวัด 'ความสามารถในการใช้ภาษาญี่ปุ่นในการสื่อสาร' แบ่ง 4 ด้าน แต่ **ไม่ได้ระบุจำนวนข้อของแต่ละด้าน** ห้ามเดาสัดส่วน | ตัวอย่างที่ผังสอบให้: ไวยากรณ์เรื่องอกรรมกริยา สกรรมกริยา และคำช่วย · การสื่อสารเรื่องสำนวนทักทายทั่วไป · การเขียนเรื่องประโยคขัดแย้งที่ใช้คำสันธาน"
+    },
+    {
+      "id": "jpn.grammar",
+      "name_th": "ไวยากรณ์พื้นฐาน",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "jpn",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_85",
+          "typical_items": "ผังสอบไม่ระบุจำนวนข้อรายด้าน",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ไวยากรณ์พื้นฐาน"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (ส่วนทางการ) · ผังสอบระบุ ผังสอบไม่ระบุจำนวนข้อรายด้าน"
+    },
+    {
+      "id": "jpn.grammar.particle",
+      "name_th": "คำช่วย",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "jpn.grammar",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "คำช่วย"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชั้นนี้เราจัดกลุ่มเอง เพราะผังสอบให้แต่ชื่อสาระ ไม่ได้ให้ชื่อหัวข้อย่อย | ผังสอบยกตัวอย่างเรื่องคำช่วยไว้ จึงเป็นหัวข้อที่ยืนยันว่าออกสอบ"
+    },
+    {
+      "id": "jpn.grammar.particle.case_particle",
+      "name_th": "คำช่วยชี้หน้าที่ของคำในประโยค",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "jpn.grammar.particle",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_85",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "คำช่วย"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "jpn.grammar.particle.topic_particle",
+      "name_th": "คำช่วยชี้หัวเรื่องและการเน้น",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "jpn.grammar.particle",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "jpn.grammar.particle.case_particle"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_85",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "หัวเรื่อง"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "jpn.grammar.verb",
+      "name_th": "คำกริยา",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "jpn.grammar",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "คำกริยา"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชั้นนี้เราจัดกลุ่มเอง เพราะผังสอบให้แต่ชื่อสาระ ไม่ได้ให้ชื่อหัวข้อย่อย | ผังสอบยกตัวอย่างเรื่องอกรรมกริยาและสกรรมกริยาไว้"
+    },
+    {
+      "id": "jpn.grammar.verb.transitive",
+      "name_th": "อกรรมกริยาและสกรรมกริยา",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "jpn.grammar.verb",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_85",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "อกรรมกริยา",
+        "สกรรมกริยา"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "jpn.grammar.verb.form",
+      "name_th": "รูปกริยาและการผัน",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "jpn.grammar.verb",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "jpn.grammar.verb.transitive"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_85",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "รูปกริยา",
+        "ผันกริยา"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "jpn.grammar.verb.tense_polite",
+      "name_th": "กาลและระดับความสุภาพของกริยา",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "jpn.grammar.verb",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "jpn.grammar.verb.form"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_85",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "กาล",
+        "ความสุภาพ"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "jpn.grammar.sentence_pattern",
+      "name_th": "รูปประโยคพื้นฐาน",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "jpn.grammar",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "รูปประโยคพื้นฐาน"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชั้นนี้เราจัดกลุ่มเอง เพราะผังสอบให้แต่ชื่อสาระ ไม่ได้ให้ชื่อหัวข้อย่อย"
+    },
+    {
+      "id": "jpn.grammar.sentence_pattern.basic",
+      "name_th": "รูปประโยคบอกเล่า ปฏิเสธ และคำถาม",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "jpn.grammar.sentence_pattern",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_85",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "รูปประโยค"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "jpn.grammar.sentence_pattern.modifier",
+      "name_th": "การขยายคำนามและคำคุณศัพท์",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "jpn.grammar.sentence_pattern",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "jpn.grammar.sentence_pattern.basic"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_85",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ขยายคำนาม"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "jpn.communication",
+      "name_th": "การสื่อสาร",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "jpn",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_85",
+          "typical_items": "ผังสอบไม่ระบุจำนวนข้อรายด้าน",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "การสื่อสาร"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (ส่วนทางการ) · ผังสอบระบุ ผังสอบไม่ระบุจำนวนข้อรายด้าน"
+    },
+    {
+      "id": "jpn.communication.greeting_function",
+      "name_th": "สำนวนทักทายและวลีสื่อสาร",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "jpn.communication",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "สำนวนทักทายและวลีสื่อสาร"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชั้นนี้เราจัดกลุ่มเอง เพราะผังสอบให้แต่ชื่อสาระ ไม่ได้ให้ชื่อหัวข้อย่อย | ผังสอบยกตัวอย่างเรื่องสำนวนทักทายทั่วไปไว้"
+    },
+    {
+      "id": "jpn.communication.greeting_function.greeting",
+      "name_th": "สำนวนทักทายในสถานการณ์ต่าง ๆ",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "jpn.communication.greeting_function",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_85",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "easy",
+      "keywords": [
+        "ทักทาย",
+        "สำนวน"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "jpn.communication.greeting_function.daily_function",
+      "name_th": "ขอร้อง ขออนุญาต ขอบคุณ และขอโทษ",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "jpn.communication.greeting_function",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "jpn.communication.greeting_function.greeting"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_85",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ขอร้อง",
+        "ขอบคุณ"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "jpn.communication.situation",
+      "name_th": "บทสนทนาตามสถานการณ์",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "jpn.communication",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "บทสนทนาตามสถานการณ์"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชั้นนี้เราจัดกลุ่มเอง เพราะผังสอบให้แต่ชื่อสาระ ไม่ได้ให้ชื่อหัวข้อย่อย"
+    },
+    {
+      "id": "jpn.communication.situation.service",
+      "name_th": "ร้านค้า ร้านอาหาร และการเดินทาง",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "jpn.communication.situation",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_85",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ร้านอาหาร",
+        "เดินทาง"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "jpn.communication.situation.school_work",
+      "name_th": "โรงเรียนและที่ทำงาน",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "jpn.communication.situation",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "jpn.communication.situation.service"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_85",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "โรงเรียน"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "jpn.communication.situation.honorific",
+      "name_th": "ระดับภาษาและคำยกย่องถ่อมตน",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "jpn.communication.situation",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "jpn.communication.situation.school_work"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_85",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "คำยกย่อง",
+        "ถ่อมตน"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "jpn.writing",
+      "name_th": "การเขียน",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "jpn",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_85",
+          "typical_items": "ผังสอบไม่ระบุจำนวนข้อรายด้าน",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "การเขียน"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (ส่วนทางการ) · ผังสอบระบุ ผังสอบไม่ระบุจำนวนข้อรายด้าน"
+    },
+    {
+      "id": "jpn.writing.conjunction",
+      "name_th": "คำสันธานและการเชื่อมความ",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "jpn.writing",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "คำสันธานและการเชื่อมความ"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชั้นนี้เราจัดกลุ่มเอง เพราะผังสอบให้แต่ชื่อสาระ ไม่ได้ให้ชื่อหัวข้อย่อย | ผังสอบยกตัวอย่างเรื่องประโยคขัดแย้งที่ใช้คำสันธานไว้"
+    },
+    {
+      "id": "jpn.writing.conjunction.contrast",
+      "name_th": "ประโยคขัดแย้งและการใช้คำสันธาน",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "jpn.writing.conjunction",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_85",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "ประโยคขัดแย้ง",
+        "คำสันธาน"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "jpn.writing.conjunction.sequence_cause",
+      "name_th": "การลำดับความและการบอกเหตุผล",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "jpn.writing.conjunction",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "jpn.writing.conjunction.contrast"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_85",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ลำดับความ",
+        "เหตุผล"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "jpn.writing.compose",
+      "name_th": "การเรียบเรียงข้อความ",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "jpn.writing",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "การเรียบเรียงข้อความ"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชั้นนี้เราจัดกลุ่มเอง เพราะผังสอบให้แต่ชื่อสาระ ไม่ได้ให้ชื่อหัวข้อย่อย"
+    },
+    {
+      "id": "jpn.writing.compose.fill",
+      "name_th": "เติมข้อความให้สมบูรณ์",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "jpn.writing.compose",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_85",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "เติมข้อความ"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "jpn.writing.compose.order",
+      "name_th": "เรียงประโยคให้เป็นย่อหน้า",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "jpn.writing.compose",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "jpn.writing.compose.fill"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_85",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "เรียงประโยค"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "jpn.reading",
+      "name_th": "การอ่าน",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "jpn",
+      "order": 4,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_85",
+          "typical_items": "ผังสอบไม่ระบุจำนวนข้อรายด้าน",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "การอ่าน"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (ส่วนทางการ) · ผังสอบระบุ ผังสอบไม่ระบุจำนวนข้อรายด้าน"
+    },
+    {
+      "id": "jpn.reading.script",
+      "name_th": "ระบบตัวเขียน",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "jpn.reading",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ระบบตัวเขียน"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชั้นนี้เราจัดกลุ่มเอง เพราะผังสอบให้แต่ชื่อสาระ ไม่ได้ให้ชื่อหัวข้อย่อย"
+    },
+    {
+      "id": "jpn.reading.script.kana",
+      "name_th": "ฮิรางานะและคาตาคานะ",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "jpn.reading.script",
+      "order": 1,
+      "grade_band": "m_early",
+      "requires": [],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_85",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "easy",
+      "keywords": [
+        "ฮิรางานะ",
+        "คาตาคานะ"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "jpn.reading.script.kanji",
+      "name_th": "คันจิที่ใช้บ่อยและการอ่าน",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "jpn.reading.script",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "jpn.reading.script.kana"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_85",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "คันจิ"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "jpn.reading.comprehension",
+      "name_th": "การอ่านจับใจความ",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "jpn.reading",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "การอ่านจับใจความ"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชั้นนี้เราจัดกลุ่มเอง เพราะผังสอบให้แต่ชื่อสาระ ไม่ได้ให้ชื่อหัวข้อย่อย"
+    },
+    {
+      "id": "jpn.reading.comprehension.short_text",
+      "name_th": "ข้อความสั้นและป้ายประกาศ",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "jpn.reading.comprehension",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_85",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "easy",
+      "keywords": [
+        "ข้อความสั้น",
+        "ป้าย"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "jpn.reading.comprehension.passage",
+      "name_th": "บทอ่านและการจับใจความ",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "jpn.reading.comprehension",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "jpn.reading.comprehension.short_text"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_85",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "จับใจความ"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "jpn.reading.comprehension.infer",
+      "name_th": "อนุมานและความหมายแฝง",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "jpn.reading.comprehension",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "jpn.reading.comprehension.passage"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_85",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "อนุมาน"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    }
+  ]
+}

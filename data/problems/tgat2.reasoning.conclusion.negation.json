@@ -1,0 +1,475 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tgat2.reasoning.conclusion.negation",
+  "problems": [
+    {
+      "id": "prob.tgat2.reasoning.conclusion.negation.0001",
+      "topic_ids": [
+        "tgat2.reasoning.conclusion.negation"
+      ],
+      "primary_topic_id": "tgat2.reasoning.conclusion.negation",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 35,
+      "stem_md": "นิเสธของข้อความ \"นักกีฬาทุกคนในทีมนี้สูงกว่า 180 ซม.\" คือข้อใด",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ไม่มีนักกีฬาคนใดในทีมนี้สูงกว่า 180 ซม.",
+          "is_answer": false
+        },
+        {
+          "md": "นักกีฬาส่วนใหญ่สูงไม่ถึง 180 ซม.",
+          "is_answer": false
+        },
+        {
+          "md": "นักกีฬาบางคนในทีมนี้สูงกว่า 180 ซม.",
+          "is_answer": false
+        },
+        {
+          "md": "นักกีฬาทุกคนในทีมนี้เตี้ยกว่า 180 ซม.",
+          "is_answer": false
+        },
+        {
+          "md": "มีนักกีฬาบางคนในทีมนี้ที่ไม่ได้สูงกว่า 180 ซม.",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ทุก A เป็น B → นิเสธคือ มีบาง A ที่ไม่เป็น B",
+          "why_md": "ใช้ตารางนิเสธ"
+        },
+        {
+          "do_md": "ไม่ได้สูงกว่า 180 รวมสูงพอดี 180 ด้วย",
+          "why_md": "จึงใช้คำว่าไม่ได้สูงกว่า"
+        }
+      ],
+      "answer_explanation_md": "ตอบ มีนักกีฬาบางคนในทีมนี้ที่ไม่ได้สูงกว่า 180 ซม. เพราะแค่คนเดียวที่ไม่สูงกว่าก็ทำให้ข้อความเดิมเป็นเท็จ",
+      "hints": [
+        "นิเสธของ ทุก คืออะไร",
+        "ต้องมีกี่คนที่ไม่สูงกว่า 180 ข้อความเดิมจึงผิด",
+        "ระวังตัวเลือกที่แข็งเกินไป"
+      ],
+      "distractor_reasons": {
+        "0": "แข็งเกินไป",
+        "1": "แข็งเกินไป",
+        "2": "ไม่ได้ทำให้ข้อความเดิมเป็นเท็จ",
+        "3": "เป็นตรงข้ามสุดขั้ว ไม่ใช่นิเสธ"
+      },
+      "misconception_tags": [
+        "negation_as_opposite"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.reasoning.conclusion.negation.0002",
+      "topic_ids": [
+        "tgat2.reasoning.conclusion.negation"
+      ],
+      "primary_topic_id": "tgat2.reasoning.conclusion.negation",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 40,
+      "stem_md": "นิเสธของข้อความ \"ต้นชอบฟุตบอลหรือบาสเกตบอล\" คือข้อใด",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ต้นไม่ชอบฟุตบอลหรือไม่ชอบบาสเกตบอล",
+          "is_answer": false
+        },
+        {
+          "md": "ต้นชอบฟุตบอลแต่ไม่ชอบบาสเกตบอล",
+          "is_answer": false
+        },
+        {
+          "md": "ต้นไม่ชอบทั้งฟุตบอลและบาสเกตบอล",
+          "is_answer": true
+        },
+        {
+          "md": "ต้นชอบกีฬาอื่น",
+          "is_answer": false
+        },
+        {
+          "md": "ต้นชอบทั้งฟุตบอลและบาสเกตบอล",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "A หรือ B → นิเสธคือ ไม่ A และ ไม่ B",
+          "why_md": "กฎของเดอมอร์แกน"
+        },
+        {
+          "do_md": "ต้องไม่ชอบทั้งสองอย่าง ข้อความเดิมจึงผิด",
+          "why_md": "ตรวจความหมาย"
+        }
+      ],
+      "answer_explanation_md": "ตอบ ต้นไม่ชอบทั้งฟุตบอลและบาสเกตบอล เพราะข้อความ หรือ จะเป็นเท็จเมื่อไม่มีส่วนใดเป็นจริงเลย",
+      "hints": [
+        "นิเสธของ หรือ ต้องเปลี่ยนคำเชื่อมเป็นอะไร",
+        "ต้นต้องไม่ชอบกี่อย่าง ข้อความเดิมจึงผิด",
+        "ลองดูว่าแต่ละตัวเลือกทำให้ข้อความเดิมเป็นเท็จไหม"
+      ],
+      "distractor_reasons": {
+        "0": "ใช้ หรือ ซึ่งผิด ต้องเปลี่ยนเป็น และ",
+        "1": "ข้อความเดิมยังจริง",
+        "3": "ไม่เกี่ยวกับการปฏิเสธ",
+        "4": "ไม่ได้ทำให้ข้อความเดิมเป็นเท็จ"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.reasoning.conclusion.negation.0003",
+      "topic_ids": [
+        "tgat2.reasoning.conclusion.negation"
+      ],
+      "primary_topic_id": "tgat2.reasoning.conclusion.negation",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 35,
+      "stem_md": "นิเสธของข้อความ \"มีร้านอาหารบางร้านในซอยนี้เปิด 24 ชั่วโมง\" คือข้อใด",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ร้านอาหารบางร้านในซอยนี้ไม่เปิด 24 ชั่วโมง",
+          "is_answer": false
+        },
+        {
+          "md": "ไม่มีร้านอาหารร้านใดในซอยนี้เปิด 24 ชั่วโมง",
+          "is_answer": true
+        },
+        {
+          "md": "ร้านอาหารทุกร้านในซอยนี้เปิด 24 ชั่วโมง",
+          "is_answer": false
+        },
+        {
+          "md": "มีร้านอาหารบางร้านในซอยอื่นเปิด 24 ชั่วโมง",
+          "is_answer": false
+        },
+        {
+          "md": "ร้านอาหารส่วนใหญ่ปิดตอนกลางคืน",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "มีบาง → นิเสธคือ ไม่มีเลย",
+          "why_md": "ใช้ตารางนิเสธ"
+        },
+        {
+          "do_md": "ข้อความเดิมเป็นเท็จเมื่อไม่มีร้านใดเปิด 24 ชั่วโมงเลย",
+          "why_md": "ตรวจความหมาย"
+        }
+      ],
+      "answer_explanation_md": "ตอบ ไม่มีร้านอาหารร้านใดในซอยนี้เปิด 24 ชั่วโมง เพราะข้อความ มีบาง จะผิดก็ต่อเมื่อไม่มีเลยแม้แต่ร้านเดียว",
+      "hints": [
+        "นิเสธของ มีบาง คืออะไร",
+        "ต้องเกิดอะไรขึ้นข้อความเดิมจึงผิด",
+        "ระวังตัวเลือกที่ใช้ บาง ไม่"
+      ],
+      "distractor_reasons": {
+        "0": "ไม่ได้ทำให้ข้อความเดิมเป็นเท็จ",
+        "2": "ข้อความเดิมยังจริง",
+        "3": "พูดถึงซอยอื่น",
+        "4": "ไม่ใช่นิเสธ"
+      },
+      "misconception_tags": [
+        "negation_as_opposite"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.reasoning.conclusion.negation.0004",
+      "topic_ids": [
+        "tgat2.reasoning.conclusion.negation"
+      ],
+      "primary_topic_id": "tgat2.reasoning.conclusion.negation",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 4,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 2,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 45,
+      "stem_md": "นิเสธของข้อความ \"ถ้าฝนตก แล้วการแข่งขันจะเลื่อน\" คือข้อใด",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ฝนไม่ตก และการแข่งขันเลื่อน",
+          "is_answer": false
+        },
+        {
+          "md": "ถ้าฝนไม่ตก การแข่งขันจะไม่เลื่อน",
+          "is_answer": false
+        },
+        {
+          "md": "ถ้าการแข่งขันเลื่อน แล้วฝนตก",
+          "is_answer": false
+        },
+        {
+          "md": "ฝนตก และการแข่งขันไม่เลื่อน",
+          "is_answer": true
+        },
+        {
+          "md": "ถ้าฝนตก การแข่งขันจะไม่เลื่อน",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ถ้า P แล้ว Q เป็นเท็จ เมื่อ P จริงแต่ Q ไม่จริง",
+          "why_md": "กรณีเดียวที่เงื่อนไขผิด"
+        },
+        {
+          "do_md": "นิเสธ = P และ ไม่ Q",
+          "why_md": "ฝนตก และไม่เลื่อน"
+        }
+      ],
+      "answer_explanation_md": "ตอบ ฝนตก และการแข่งขันไม่เลื่อน เพราะเงื่อนไขจะผิดก็ต่อเมื่อเหตุเกิดแต่ผลไม่เกิด",
+      "hints": [
+        "เงื่อนไข ถ้า...แล้ว ผิดในกรณีไหน",
+        "ต้องเกิดส่วนหน้า แต่ไม่เกิดส่วนหลัง",
+        "นิเสธของเงื่อนไขไม่ใช่เงื่อนไขอีกข้อ"
+      ],
+      "distractor_reasons": {
+        "0": "ไม่ขัดกับเงื่อนไขเดิม",
+        "1": "เป็นการปฏิเสธหน้า ไม่ใช่นิเสธ",
+        "2": "เป็นการกลับทิศ",
+        "4": "เปลี่ยนเงื่อนไข ไม่ใช่นิเสธ"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.reasoning.conclusion.negation.0005",
+      "topic_ids": [
+        "tgat2.reasoning.conclusion.negation"
+      ],
+      "primary_topic_id": "tgat2.reasoning.conclusion.negation",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 40,
+      "stem_md": "ข้อความ \"นักเรียนทุกคนส่งการบ้านและมาเรียนตรงเวลา\" จะเป็นเท็จในกรณีใด",
+      "figures": [],
+      "choices": [
+        {
+          "md": "มีนักเรียนหนึ่งคนส่งการบ้านแต่มาสาย",
+          "is_answer": true
+        },
+        {
+          "md": "นักเรียนทุกคนส่งการบ้านและมาเรียนตรงเวลา",
+          "is_answer": false
+        },
+        {
+          "md": "ครูมาสาย",
+          "is_answer": false
+        },
+        {
+          "md": "ไม่มีกรณีใดทำให้ข้อความเป็นเท็จ",
+          "is_answer": false
+        },
+        {
+          "md": "นักเรียนส่วนใหญ่ส่งการบ้าน",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ทุกคน (A และ B) เป็นเท็จเมื่อ มีบางคนที่ ไม่ A หรือ ไม่ B",
+          "why_md": "รวมนิเสธของทุกกับของและ"
+        },
+        {
+          "do_md": "หนึ่งคนมาสายก็พอให้ข้อความผิด",
+          "why_md": "ตรวจตัวเลือก"
+        }
+      ],
+      "answer_explanation_md": "ตอบ มีนักเรียนหนึ่งคนส่งการบ้านแต่มาสาย เพราะแค่คนเดียวที่ผิดเงื่อนไขข้อใดข้อหนึ่งก็ทำให้ข้อความเป็นเท็จ",
+      "hints": [
+        "ข้อความมีทั้ง ทุก และ และ",
+        "ต้องมีกี่คนที่ผิดเงื่อนไข ข้อความจึงเป็นเท็จ",
+        "ผิดเงื่อนไขส่วนไหนก็ได้ไหม"
+      ],
+      "distractor_reasons": {
+        "1": "ข้อความเดิมจริง",
+        "2": "ข้อความพูดถึงนักเรียน ไม่ใช่ครู",
+        "3": "มีกรณีที่ทำให้เท็จ",
+        "4": "ไม่ได้ขัดกับข้อความโดยตรง"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.reasoning.conclusion.negation.0006",
+      "topic_ids": [
+        "tgat2.reasoning.conclusion.negation"
+      ],
+      "primary_topic_id": "tgat2.reasoning.conclusion.negation",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 30,
+      "stem_md": "นิเสธของข้อความ \"ไม่มีนักเรียนคนใดลืมบัตร\" คือข้อใด",
+      "figures": [],
+      "choices": [
+        {
+          "md": "มีนักเรียนอย่างน้อยหนึ่งคนลืมบัตร",
+          "is_answer": true
+        },
+        {
+          "md": "ครูลืมบัตร",
+          "is_answer": false
+        },
+        {
+          "md": "นักเรียนทุกคนลืมบัตร",
+          "is_answer": false
+        },
+        {
+          "md": "นักเรียนบางคนนำบัตรมา",
+          "is_answer": false
+        },
+        {
+          "md": "นักเรียนทุกคนนำบัตรมา",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ไม่มี A ใด → นิเสธคือ มีบาง A",
+          "why_md": "ใช้ตารางนิเสธ"
+        },
+        {
+          "do_md": "อย่างน้อยหนึ่งคน = มีบางคน",
+          "why_md": "ตรวจความหมาย"
+        }
+      ],
+      "answer_explanation_md": "ตอบ มีนักเรียนอย่างน้อยหนึ่งคนลืมบัตร เพราะแค่คนเดียวลืมบัตรก็ทำให้ ไม่มีคนใด เป็นเท็จ",
+      "hints": [
+        "นิเสธของ ไม่มี...ใด คืออะไร",
+        "ต้องมีกี่คนลืมบัตร ข้อความเดิมจึงผิด",
+        "ระวังตัวเลือกที่ความหมายเท่ากับข้อความเดิม"
+      ],
+      "distractor_reasons": {
+        "1": "พูดถึงคนอื่น",
+        "2": "แข็งเกินไป",
+        "3": "ไม่ได้ทำให้ข้อความเดิมเป็นเท็จ",
+        "4": "เป็นความหมายเดียวกับข้อความเดิม"
+      },
+      "misconception_tags": [
+        "negation_as_opposite"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    }
+  ],
+  "generated_from": "content/tgat2/reasoning_text.py"
+}

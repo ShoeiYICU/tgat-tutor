@@ -1,0 +1,552 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tgat2.language.communication.analogy_part_whole",
+  "problems": [
+    {
+      "id": "prob.tgat2.language.communication.analogy_part_whole.0001",
+      "topic_ids": [
+        "tgat2.language.communication.analogy_part_whole"
+      ],
+      "primary_topic_id": "tgat2.language.communication.analogy_part_whole",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 30,
+      "stem_md": "ใบ : ต้นไม้  ::  ขนนก : ?",
+      "figures": [],
+      "choices": [
+        {
+          "md": "นก",
+          "is_answer": true
+        },
+        {
+          "md": "หมอน",
+          "is_answer": false
+        },
+        {
+          "md": "ปากกาขนนก",
+          "is_answer": false
+        },
+        {
+          "md": "ความเบา",
+          "is_answer": false
+        },
+        {
+          "md": "ท้องฟ้า",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ใบเป็นส่วนหนึ่งของต้นไม้",
+          "why_md": "ส่วน : ทั้งหมด"
+        },
+        {
+          "do_md": "ขนนกเป็นส่วนหนึ่งของนก",
+          "why_md": "แทนคู่ที่สอง"
+        }
+      ],
+      "answer_explanation_md": "ตอบ นก เพราะขนนกเป็นส่วนหนึ่งของนก เหมือนใบเป็นส่วนหนึ่งของต้นไม้",
+      "hints": [
+        "แต่งประโยคเชื่อม ใบ กับ ต้นไม้",
+        "ขนนกเป็นส่วนหนึ่งของอะไรตามธรรมชาติ",
+        "ระวังสิ่งที่ทำจากขนนก"
+      ],
+      "distractor_reasons": {
+        "1": "อาจใส่ขนนกแต่ขนนกไม่ใช่ส่วนของหมอนตามธรรมชาติ",
+        "2": "เป็นสิ่งที่ทำจากขนนก ไม่ใช่ทั้งหมด",
+        "3": "เป็นคุณสมบัติ",
+        "4": "เป็นที่อยู่ของนก"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.language.communication.analogy_part_whole.0002",
+      "topic_ids": [
+        "tgat2.language.communication.analogy_part_whole"
+      ],
+      "primary_topic_id": "tgat2.language.communication.analogy_part_whole",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 35,
+      "stem_md": "ผู้เล่น : ทีม  ::  นักร้องประสานเสียง : ?",
+      "figures": [],
+      "choices": [
+        {
+          "md": "เสียงสูง",
+          "is_answer": false
+        },
+        {
+          "md": "ไมโครโฟน",
+          "is_answer": false
+        },
+        {
+          "md": "เพลง",
+          "is_answer": false
+        },
+        {
+          "md": "คณะนักร้อง",
+          "is_answer": true
+        },
+        {
+          "md": "ผู้ชม",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ผู้เล่นเป็นหนึ่งในสมาชิกของทีม",
+          "why_md": "สมาชิก : กลุ่ม"
+        },
+        {
+          "do_md": "นักร้องประสานเสียงเป็นหนึ่งในคณะนักร้อง",
+          "why_md": "แทนคู่ที่สอง"
+        }
+      ],
+      "answer_explanation_md": "ตอบ คณะนักร้อง เพราะนักร้องหนึ่งคนเป็นส่วนหนึ่งของคณะ เหมือนผู้เล่นเป็นส่วนหนึ่งของทีม",
+      "hints": [
+        "ผู้เล่นกับทีมสัมพันธ์กันอย่างไร",
+        "นักร้องประสานเสียงรวมกันเป็นอะไร",
+        "เลือกกลุ่มที่มีนักร้องเป็นสมาชิก"
+      ],
+      "distractor_reasons": {
+        "0": "เป็นลักษณะเสียง",
+        "1": "เป็นอุปกรณ์",
+        "2": "นักร้องร้องเพลง ไม่ใช่ส่วนของเพลง",
+        "4": "เป็นอีกกลุ่มหนึ่ง"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.language.communication.analogy_part_whole.0003",
+      "topic_ids": [
+        "tgat2.language.communication.analogy_part_whole"
+      ],
+      "primary_topic_id": "tgat2.language.communication.analogy_part_whole",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 35,
+      "stem_md": "คู่ใดมีความสัมพันธ์แบบเดียวกับ ล้อ : จักรยาน",
+      "figures": [],
+      "choices": [
+        {
+          "md": "คนขับ : รถยนต์",
+          "is_answer": false
+        },
+        {
+          "md": "เข็มนาฬิกา : นาฬิกา",
+          "is_answer": true
+        },
+        {
+          "md": "จักรยาน : ล้อ",
+          "is_answer": false
+        },
+        {
+          "md": "ถนน : รถยนต์",
+          "is_answer": false
+        },
+        {
+          "md": "มะม่วง : ผลไม้",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ล้อเป็นส่วนประกอบของจักรยาน",
+          "why_md": "ส่วน : ทั้งหมด"
+        },
+        {
+          "do_md": "เข็มนาฬิกาเป็นส่วนประกอบของนาฬิกา",
+          "why_md": "ทิศเดียวกัน"
+        }
+      ],
+      "answer_explanation_md": "ตอบ เข็มนาฬิกา : นาฬิกา เพราะเป็นส่วนประกอบ : สิ่งทั้งหมด เหมือนล้อ : จักรยาน",
+      "hints": [
+        "ล้อเป็นชนิดหนึ่งของจักรยาน หรือส่วนหนึ่งของจักรยาน",
+        "หาคู่ที่คำแรกเป็นส่วนประกอบของคำหลัง",
+        "ระวังคู่ที่กลับทิศ"
+      ],
+      "distractor_reasons": {
+        "0": "คนขับไม่ใช่ส่วนประกอบของรถ",
+        "2": "เรียงกลับทิศ",
+        "3": "เป็นสถานที่ใช้งาน",
+        "4": "เป็นสมาชิก : ประเภท"
+      },
+      "misconception_tags": [
+        "part_vs_kind"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.language.communication.analogy_part_whole.0004",
+      "topic_ids": [
+        "tgat2.language.communication.analogy_part_whole"
+      ],
+      "primary_topic_id": "tgat2.language.communication.analogy_part_whole",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 35,
+      "stem_md": "บรรทัด : ย่อหน้า  ::  ขั้นบันได : ?",
+      "figures": [],
+      "choices": [
+        {
+          "md": "บันได",
+          "is_answer": true
+        },
+        {
+          "md": "ชั้นสอง",
+          "is_answer": false
+        },
+        {
+          "md": "การเดินขึ้น",
+          "is_answer": false
+        },
+        {
+          "md": "ราวจับ",
+          "is_answer": false
+        },
+        {
+          "md": "ความสูง",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "บรรทัดหลายบรรทัดรวมกันเป็นย่อหน้า",
+          "why_md": "หน่วยย่อย : หน่วยใหญ่"
+        },
+        {
+          "do_md": "ขั้นหลายขั้นรวมกันเป็นบันได",
+          "why_md": "แทนคู่ที่สอง"
+        }
+      ],
+      "answer_explanation_md": "ตอบ บันได เพราะขั้นบันไดหลายขั้นรวมกันเป็นบันได เหมือนบรรทัดหลายบรรทัดรวมกันเป็นย่อหน้า",
+      "hints": [
+        "บรรทัดรวมกันหลายอันกลายเป็นอะไร",
+        "ขั้นบันไดหลายขั้นรวมกันเป็นอะไร",
+        "ระวังตัวเลือกที่เป็นส่วนอื่น ไม่ใช่สิ่งทั้งหมด"
+      ],
+      "distractor_reasons": {
+        "1": "เป็นจุดหมายของบันได",
+        "2": "เป็นการกระทำ",
+        "3": "เป็นส่วนอื่นของบันได ไม่ใช่สิ่งทั้งหมด",
+        "4": "เป็นคุณสมบัติ"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.language.communication.analogy_part_whole.0005",
+      "topic_ids": [
+        "tgat2.language.communication.analogy_part_whole"
+      ],
+      "primary_topic_id": "tgat2.language.communication.analogy_part_whole",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 40,
+      "stem_md": "จังหวัด : ประเทศ  ::  ห้องเรียน : ?",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ครูประจำชั้น",
+          "is_answer": false
+        },
+        {
+          "md": "นักเรียน",
+          "is_answer": false
+        },
+        {
+          "md": "โรงเรียน",
+          "is_answer": true
+        },
+        {
+          "md": "ห้องสมุด",
+          "is_answer": false
+        },
+        {
+          "md": "กระดานดำ",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "จังหวัดเป็นหน่วยย่อยของประเทศ",
+          "why_md": "ส่วน : ทั้งหมด"
+        },
+        {
+          "do_md": "ห้องเรียนเป็นหน่วยย่อยของโรงเรียน",
+          "why_md": "แทนคู่ที่สอง"
+        }
+      ],
+      "answer_explanation_md": "ตอบ โรงเรียน เพราะห้องเรียนเป็นส่วนหนึ่งของโรงเรียน เหมือนจังหวัดเป็นส่วนหนึ่งของประเทศ",
+      "hints": [
+        "จังหวัดกับประเทศเกี่ยวข้องกันอย่างไร",
+        "ห้องเรียนเป็นส่วนย่อยของอะไร",
+        "ระวังตัวเลือกที่อยู่ระดับเดียวกับห้องเรียน"
+      ],
+      "distractor_reasons": {
+        "0": "เป็นบุคคล",
+        "1": "เป็นสมาชิกในห้อง ทิศกลับ",
+        "3": "เป็นส่วนอีกส่วนหนึ่งในระดับเดียวกับห้องเรียน",
+        "4": "เป็นส่วนของห้องเรียน"
+      },
+      "misconception_tags": [
+        "part_vs_kind"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.language.communication.analogy_part_whole.0006",
+      "topic_ids": [
+        "tgat2.language.communication.analogy_part_whole"
+      ],
+      "primary_topic_id": "tgat2.language.communication.analogy_part_whole",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 30,
+      "stem_md": "แป้นพิมพ์ : คอมพิวเตอร์  ::  พวงมาลัย : ?",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ยางรถ",
+          "is_answer": false
+        },
+        {
+          "md": "รถยนต์",
+          "is_answer": true
+        },
+        {
+          "md": "ถนน",
+          "is_answer": false
+        },
+        {
+          "md": "การขับขี่",
+          "is_answer": false
+        },
+        {
+          "md": "คนขับ",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "แป้นพิมพ์เป็นส่วนประกอบของคอมพิวเตอร์",
+          "why_md": "ส่วน : ทั้งหมด"
+        },
+        {
+          "do_md": "พวงมาลัยเป็นส่วนประกอบของรถยนต์",
+          "why_md": "แทนคู่ที่สอง"
+        }
+      ],
+      "answer_explanation_md": "ตอบ รถยนต์ เพราะพวงมาลัยเป็นส่วนประกอบของรถยนต์ เหมือนแป้นพิมพ์เป็นส่วนประกอบของคอมพิวเตอร์",
+      "hints": [
+        "แต่งประโยคเชื่อมคู่แรก",
+        "พวงมาลัยเป็นส่วนหนึ่งของอะไร",
+        "ระวังตัวเลือกที่อยู่ระดับเดียวกับพวงมาลัย"
+      ],
+      "distractor_reasons": {
+        "0": "เป็นส่วนประกอบอีกชิ้นในระดับเดียวกัน",
+        "2": "เป็นสถานที่ใช้งาน",
+        "3": "เป็นการกระทำ",
+        "4": "เป็นผู้ใช้ ไม่ใช่สิ่งที่พวงมาลัยเป็นส่วนประกอบ"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.language.communication.analogy_part_whole.0007",
+      "topic_ids": [
+        "tgat2.language.communication.analogy_part_whole"
+      ],
+      "primary_topic_id": "tgat2.language.communication.analogy_part_whole",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 35,
+      "stem_md": "ตอน : ละคร  ::  บท : ?",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ผู้แต่ง",
+          "is_answer": false
+        },
+        {
+          "md": "ปกหนังสือ",
+          "is_answer": false
+        },
+        {
+          "md": "ร้านหนังสือ",
+          "is_answer": false
+        },
+        {
+          "md": "การอ่าน",
+          "is_answer": false
+        },
+        {
+          "md": "หนังสือ",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ตอนหลายตอนรวมกันเป็นละครหนึ่งเรื่อง",
+          "why_md": "หน่วยย่อย : หน่วยใหญ่"
+        },
+        {
+          "do_md": "บทหลายบทรวมกันเป็นหนังสือหนึ่งเล่ม",
+          "why_md": "แทนคู่ที่สอง"
+        }
+      ],
+      "answer_explanation_md": "ตอบ หนังสือ เพราะบทเป็นหน่วยย่อยของหนังสือ เหมือนตอนเป็นหน่วยย่อยของละคร",
+      "hints": [
+        "ตอนกับละครสัมพันธ์กันอย่างไร",
+        "บทหลายบทรวมกันเป็นอะไร",
+        "ระวังตัวเลือกที่เป็นคนหรือสถานที่"
+      ],
+      "distractor_reasons": {
+        "0": "เป็นผู้สร้าง ไม่ใช่สิ่งที่บทเป็นส่วนหนึ่ง",
+        "1": "เป็นส่วนประกอบอีกส่วนในระดับเดียวกัน",
+        "2": "เป็นสถานที่ขาย",
+        "3": "เป็นการกระทำ"
+      },
+      "misconception_tags": [
+        "part_vs_kind"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    }
+  ],
+  "generated_from": "content/tgat2/language_comm_reading.py"
+}

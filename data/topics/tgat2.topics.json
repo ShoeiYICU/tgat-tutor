@@ -1,0 +1,2115 @@
+{
+  "schema_version": "1.0",
+  "subject": "tgat2",
+  "subject_name_th": "TGAT2 การคิดอย่างมีเหตุผล",
+  "exam_codes": [
+    "TGAT2"
+  ],
+  "source_note": "ยืนยันโครงสอบแล้วจาก mytcas.com/blueprint/tgat2-92/ (ตรวจเมื่อ 19 กันยายน 2569): 80 ข้อ 100 คะแนน 60 นาที ปรนัย 5 ตัวเลือก แบ่ง 4 ด้าน ด้านละ 4 ส่วนย่อย ภาษา (การสื่อความหมาย การใช้ภาษา การอ่าน การเข้าใจภาษา) ตัวเลข (อนุกรม การเปรียบเทียบเชิงปริมาณ ความเพียงพอของข้อมูล โจทย์ปัญหา) มิติสัมพันธ์ (พับกล่อง หาภาพต่าง หมุนภาพสามมิติ ประกอบภาพ) เหตุผล (อนุกรมภาพ อุปมาอุปไมยภาพ สรุปความ วิเคราะห์ข้อความ) ยังไม่ยืนยัน: สัดส่วนจำนวนข้อของแต่ละส่วนย่อย | โครงผังจัดเป็น 4 ด้าน x 4 ส่วนย่อยตามผังสอบทางการ บวกกลุ่ม foundation ต่อด้านสำหรับทักษะพื้นฐานที่ไม่ได้อยู่ในส่วนย่อยทางการ",
+  "topics": [
+    {
+      "id": "tgat2",
+      "name_th": "TGAT2 การคิดอย่างมีเหตุผล",
+      "name_en": "TGAT2 Critical and Logical Thinking",
+      "kind": "subject",
+      "parent": null,
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "TGAT2",
+        "การคิดอย่างมีเหตุผล",
+        "critical thinking",
+        "logical thinking"
+      ],
+      "curriculum_ref": null,
+      "notes": "ข้อสอบวัดสมรรถนะ ไม่ใช่วิชาเนื้อหาตามหลักสูตร leaf จึงเป็นทักษะหรือรูปแบบโจทย์ที่ฝึกแยกได้ | โครงสอบยืนยันแล้ว: 80 ข้อ 100 คะแนน 60 นาที ปรนัย 5 ตัวเลือก 4 ด้านคะแนนเท่ากัน (ด้านละ 20 ข้อ 25 คะแนน โดยประมาณ ยังไม่ยืนยันสัดส่วนรายส่วนย่อย) | ตอนแต่งโจทย์วิชานี้ต้องใช้ format mcq5 ไม่ใช่ mcq4"
+    },
+    {
+      "id": "tgat2.language",
+      "name_th": "ความสามารถทางภาษา",
+      "name_en": "Verbal Ability",
+      "kind": "branch",
+      "parent": "tgat2",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ภาษาไทย",
+        "verbal ability",
+        "การอ่าน",
+        "การใช้ภาษา"
+      ],
+      "curriculum_ref": null,
+      "notes": "อ้างอิงกรอบทางการ 4 ด้าน ได้แก่ การสื่อความหมาย การใช้ภาษา การอ่าน และการเข้าใจภาษา ยังไม่กำหนดสัดส่วนข้อของแต่ละด้าน"
+    },
+    {
+      "id": "tgat2.numerical",
+      "name_th": "ความสามารถทางตัวเลข",
+      "name_en": "Numerical Ability",
+      "kind": "branch",
+      "parent": "tgat2",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ตัวเลข",
+        "numerical ability",
+        "อนุกรม",
+        "โจทย์ปัญหา"
+      ],
+      "curriculum_ref": null,
+      "notes": "อ้างอิงกรอบทางการ 4 ด้าน ได้แก่ อนุกรมมิติ การเปรียบเทียบเชิงปริมาณ ความเพียงพอของข้อมูล และโจทย์ปัญหา ยังไม่กำหนดสัดส่วนข้อของแต่ละด้าน"
+    },
+    {
+      "id": "tgat2.spatial",
+      "name_th": "ความสามารถทางมิติสัมพันธ์",
+      "name_en": "Spatial Relations Ability",
+      "kind": "branch",
+      "parent": "tgat2",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "มิติสัมพันธ์",
+        "spatial reasoning",
+        "พับกล่อง",
+        "หมุนภาพ"
+      ],
+      "curriculum_ref": null,
+      "notes": "อ้างอิงกรอบทางการ 4 ด้าน ได้แก่ แบบพับกล่อง แบบหาภาพต่าง แบบหมุนภาพสามมิติ และแบบประกอบภาพ ยังไม่กำหนดสัดส่วนข้อของแต่ละด้าน"
+    },
+    {
+      "id": "tgat2.reasoning",
+      "name_th": "ความสามารถทางเหตุผล",
+      "name_en": "Logical Reasoning Ability",
+      "kind": "branch",
+      "parent": "tgat2",
+      "order": 4,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "เหตุผล",
+        "logical reasoning",
+        "อนุกรมภาพ",
+        "วิเคราะห์เงื่อนไข"
+      ],
+      "curriculum_ref": null,
+      "notes": "อ้างอิงกรอบทางการ 4 ด้าน ได้แก่ อนุกรมภาพ อุปมาอุปไมยภาพ สรุปความ และวิเคราะห์ข้อความ ยังไม่กำหนดสัดส่วนข้อของแต่ละด้าน"
+    },
+    {
+      "id": "tgat2.language.communication",
+      "name_th": "การสื่อความหมาย",
+      "name_en": "Communication of Meaning",
+      "kind": "branch",
+      "parent": "tgat2.language",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "การสื่อความหมาย",
+        "Communication of Meaning"
+      ],
+      "curriculum_ref": null,
+      "notes": "ส่วนย่อยตามผังสอบทางการของ mytcas.com/blueprint/tgat2-92/"
+    },
+    {
+      "id": "tgat2.language.usage",
+      "name_th": "การใช้ภาษา",
+      "name_en": "Language Usage",
+      "kind": "branch",
+      "parent": "tgat2.language",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "การใช้ภาษา",
+        "Language Usage"
+      ],
+      "curriculum_ref": null,
+      "notes": "ส่วนย่อยตามผังสอบทางการของ mytcas.com/blueprint/tgat2-92/ | การจัดกลุ่มบางหัวข้อในส่วนนี้ยังไม่ยืนยัน ดู notes ของหัวข้อนั้น"
+    },
+    {
+      "id": "tgat2.language.reading",
+      "name_th": "การอ่าน",
+      "name_en": "Reading Comprehension",
+      "kind": "branch",
+      "parent": "tgat2.language",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "การอ่าน",
+        "Reading Comprehension"
+      ],
+      "curriculum_ref": null,
+      "notes": "ส่วนย่อยตามผังสอบทางการของ mytcas.com/blueprint/tgat2-92/ | การจัดกลุ่มบางหัวข้อในส่วนนี้ยังไม่ยืนยัน ดู notes ของหัวข้อนั้น"
+    },
+    {
+      "id": "tgat2.language.comprehension",
+      "name_th": "การเข้าใจภาษา",
+      "name_en": "Language Understanding",
+      "kind": "branch",
+      "parent": "tgat2.language",
+      "order": 4,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "การเข้าใจภาษา",
+        "Language Understanding"
+      ],
+      "curriculum_ref": null,
+      "notes": "ส่วนย่อยตามผังสอบทางการของ mytcas.com/blueprint/tgat2-92/ | การจัดกลุ่มบางหัวข้อในส่วนนี้ยังไม่ยืนยัน ดู notes ของหัวข้อนั้น"
+    },
+    {
+      "id": "tgat2.language.foundation",
+      "name_th": "พื้นฐานภาษาก่อนเข้าข้อสอบ",
+      "name_en": "Language Foundation",
+      "kind": "branch",
+      "parent": "tgat2.language",
+      "order": 5,
+      "grade_band": "m_early",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "พื้นฐานภาษาก่อนเข้าข้อสอบ",
+        "Language Foundation"
+      ],
+      "curriculum_ref": null,
+      "notes": "กลุ่มทักษะพื้นฐานที่ต้องมีก่อนทำข้อสอบส่วนย่อยอื่นได้ ไม่ใช่ส่วนย่อยที่ปรากฏในผังสอบทางการ"
+    },
+    {
+      "id": "tgat2.numerical.series",
+      "name_th": "อนุกรม",
+      "name_en": "Series Patterns",
+      "kind": "branch",
+      "parent": "tgat2.numerical",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "อนุกรม",
+        "Series Patterns"
+      ],
+      "curriculum_ref": null,
+      "notes": "ส่วนย่อยตามผังสอบทางการของ mytcas.com/blueprint/tgat2-92/"
+    },
+    {
+      "id": "tgat2.numerical.quantitative",
+      "name_th": "การเปรียบเทียบเชิงปริมาณ",
+      "name_en": "Quantitative Comparison",
+      "kind": "branch",
+      "parent": "tgat2.numerical",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "การเปรียบเทียบเชิงปริมาณ",
+        "Quantitative Comparison"
+      ],
+      "curriculum_ref": null,
+      "notes": "ส่วนย่อยตามผังสอบทางการของ mytcas.com/blueprint/tgat2-92/"
+    },
+    {
+      "id": "tgat2.numerical.data_sufficiency",
+      "name_th": "ความเพียงพอของข้อมูล",
+      "name_en": "Data Sufficiency",
+      "kind": "branch",
+      "parent": "tgat2.numerical",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ความเพียงพอของข้อมูล",
+        "Data Sufficiency"
+      ],
+      "curriculum_ref": null,
+      "notes": "ส่วนย่อยตามผังสอบทางการของ mytcas.com/blueprint/tgat2-92/"
+    },
+    {
+      "id": "tgat2.numerical.word_problem",
+      "name_th": "โจทย์ปัญหา",
+      "name_en": "Problem Solving",
+      "kind": "branch",
+      "parent": "tgat2.numerical",
+      "order": 4,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "โจทย์ปัญหา",
+        "Problem Solving"
+      ],
+      "curriculum_ref": null,
+      "notes": "ส่วนย่อยตามผังสอบทางการของ mytcas.com/blueprint/tgat2-92/ | การจัดกลุ่มบางหัวข้อในส่วนนี้ยังไม่ยืนยัน ดู notes ของหัวข้อนั้น"
+    },
+    {
+      "id": "tgat2.numerical.foundation",
+      "name_th": "พื้นฐานตัวเลขก่อนเข้าข้อสอบ",
+      "name_en": "Numerical Foundation",
+      "kind": "branch",
+      "parent": "tgat2.numerical",
+      "order": 5,
+      "grade_band": "m_early",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "พื้นฐานตัวเลขก่อนเข้าข้อสอบ",
+        "Numerical Foundation"
+      ],
+      "curriculum_ref": null,
+      "notes": "กลุ่มทักษะพื้นฐานที่ต้องมีก่อนทำข้อสอบส่วนย่อยอื่นได้ ไม่ใช่ส่วนย่อยที่ปรากฏในผังสอบทางการ"
+    },
+    {
+      "id": "tgat2.spatial.box_folding",
+      "name_th": "พับกล่อง",
+      "name_en": "Box Folding",
+      "kind": "branch",
+      "parent": "tgat2.spatial",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "พับกล่อง",
+        "Box Folding"
+      ],
+      "curriculum_ref": null,
+      "notes": "ส่วนย่อยตามผังสอบทางการของ mytcas.com/blueprint/tgat2-92/"
+    },
+    {
+      "id": "tgat2.spatial.find_difference",
+      "name_th": "หาภาพต่าง",
+      "name_en": "Finding Differences",
+      "kind": "branch",
+      "parent": "tgat2.spatial",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "หาภาพต่าง",
+        "Finding Differences"
+      ],
+      "curriculum_ref": null,
+      "notes": "ส่วนย่อยตามผังสอบทางการของ mytcas.com/blueprint/tgat2-92/"
+    },
+    {
+      "id": "tgat2.spatial.rotation_3d",
+      "name_th": "หมุนภาพสามมิติ",
+      "name_en": "3D Image Rotation",
+      "kind": "branch",
+      "parent": "tgat2.spatial",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "หมุนภาพสามมิติ",
+        "3D Image Rotation"
+      ],
+      "curriculum_ref": null,
+      "notes": "ส่วนย่อยตามผังสอบทางการของ mytcas.com/blueprint/tgat2-92/"
+    },
+    {
+      "id": "tgat2.spatial.assembly",
+      "name_th": "ประกอบภาพ",
+      "name_en": "Image Assembly",
+      "kind": "branch",
+      "parent": "tgat2.spatial",
+      "order": 4,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ประกอบภาพ",
+        "Image Assembly"
+      ],
+      "curriculum_ref": null,
+      "notes": "ส่วนย่อยตามผังสอบทางการของ mytcas.com/blueprint/tgat2-92/"
+    },
+    {
+      "id": "tgat2.spatial.foundation",
+      "name_th": "พื้นฐานมิติสัมพันธ์ก่อนเข้าข้อสอบ",
+      "name_en": "Spatial Foundation",
+      "kind": "branch",
+      "parent": "tgat2.spatial",
+      "order": 5,
+      "grade_band": "m_early",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "พื้นฐานมิติสัมพันธ์ก่อนเข้าข้อสอบ",
+        "Spatial Foundation"
+      ],
+      "curriculum_ref": null,
+      "notes": "กลุ่มทักษะพื้นฐานที่ต้องมีก่อนทำข้อสอบส่วนย่อยอื่นได้ ไม่ใช่ส่วนย่อยที่ปรากฏในผังสอบทางการ | การจัดกลุ่มบางหัวข้อในส่วนนี้ยังไม่ยืนยัน ดู notes ของหัวข้อนั้น"
+    },
+    {
+      "id": "tgat2.reasoning.picture_series",
+      "name_th": "อนุกรมภาพ",
+      "name_en": "Image Series",
+      "kind": "branch",
+      "parent": "tgat2.reasoning",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "อนุกรมภาพ",
+        "Image Series"
+      ],
+      "curriculum_ref": null,
+      "notes": "ส่วนย่อยตามผังสอบทางการของ mytcas.com/blueprint/tgat2-92/"
+    },
+    {
+      "id": "tgat2.reasoning.visual_analogy",
+      "name_th": "อุปมาอุปไมยภาพ",
+      "name_en": "Visual Analogy",
+      "kind": "branch",
+      "parent": "tgat2.reasoning",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "อุปมาอุปไมยภาพ",
+        "Visual Analogy"
+      ],
+      "curriculum_ref": null,
+      "notes": "ส่วนย่อยตามผังสอบทางการของ mytcas.com/blueprint/tgat2-92/"
+    },
+    {
+      "id": "tgat2.reasoning.conclusion",
+      "name_th": "สรุปความ",
+      "name_en": "Conclusion Drawing",
+      "kind": "branch",
+      "parent": "tgat2.reasoning",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "สรุปความ",
+        "Conclusion Drawing"
+      ],
+      "curriculum_ref": null,
+      "notes": "ส่วนย่อยตามผังสอบทางการของ mytcas.com/blueprint/tgat2-92/"
+    },
+    {
+      "id": "tgat2.reasoning.statement_analysis",
+      "name_th": "วิเคราะห์ข้อความ",
+      "name_en": "Statement Analysis",
+      "kind": "branch",
+      "parent": "tgat2.reasoning",
+      "order": 4,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "วิเคราะห์ข้อความ",
+        "Statement Analysis"
+      ],
+      "curriculum_ref": null,
+      "notes": "ส่วนย่อยตามผังสอบทางการของ mytcas.com/blueprint/tgat2-92/"
+    },
+    {
+      "id": "tgat2.reasoning.foundation",
+      "name_th": "พื้นฐานการให้เหตุผลก่อนเข้าข้อสอบ",
+      "name_en": "Reasoning Foundation",
+      "kind": "branch",
+      "parent": "tgat2.reasoning",
+      "order": 5,
+      "grade_band": "m_early",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "พื้นฐานการให้เหตุผลก่อนเข้าข้อสอบ",
+        "Reasoning Foundation"
+      ],
+      "curriculum_ref": null,
+      "notes": "กลุ่มทักษะพื้นฐานที่ต้องมีก่อนทำข้อสอบส่วนย่อยอื่นได้ ไม่ใช่ส่วนย่อยที่ปรากฏในผังสอบทางการ"
+    },
+    {
+      "id": "tgat2.language.foundation.context_meaning",
+      "name_th": "ตีความความหมายคำจากบริบท",
+      "name_en": "Word Meaning from Context",
+      "kind": "leaf",
+      "parent": "tgat2.language.foundation",
+      "order": 1,
+      "grade_band": "m_early",
+      "requires": [],
+      "est_minutes": 20,
+      "exam_weight": [],
+      "difficulty_band": "easy",
+      "keywords": [
+        "ความหมายคำ",
+        "บริบท",
+        "context clue"
+      ],
+      "curriculum_ref": null,
+      "notes": "ทักษะพื้นฐานสำหรับผู้เริ่มจากศูนย์"
+    },
+    {
+      "id": "tgat2.language.foundation.sentence_structure",
+      "name_th": "แยกส่วนประกอบและใจความหลักของประโยค",
+      "name_en": "Sentence Structure and Core Meaning",
+      "kind": "leaf",
+      "parent": "tgat2.language.foundation",
+      "order": 2,
+      "grade_band": "m_early",
+      "requires": [],
+      "est_minutes": 20,
+      "exam_weight": [],
+      "difficulty_band": "easy",
+      "keywords": [
+        "โครงสร้างประโยค",
+        "ประธานกริยา",
+        "ใจความประโยค"
+      ],
+      "curriculum_ref": null,
+      "notes": "ทักษะพื้นฐานสำหรับการอ่านและเรียงข้อความ"
+    },
+    {
+      "id": "tgat2.language.foundation.connectives",
+      "name_th": "ตีความคำเชื่อมและความสัมพันธ์ระหว่างข้อความ",
+      "name_en": "Logical Connectives in Text",
+      "kind": "leaf",
+      "parent": "tgat2.language.foundation",
+      "order": 3,
+      "grade_band": "m_early",
+      "requires": [
+        "tgat2.language.foundation.sentence_structure"
+      ],
+      "est_minutes": 20,
+      "exam_weight": [],
+      "difficulty_band": "easy",
+      "keywords": [
+        "คำเชื่อม",
+        "เหตุผล",
+        "ขัดแย้ง",
+        "connectives"
+      ],
+      "curriculum_ref": null,
+      "notes": null
+    },
+    {
+      "id": "tgat2.language.foundation.reference_words",
+      "name_th": "ติดตามคำอ้างอิงและคำแทนในข้อความ",
+      "name_en": "Reference Word Tracking",
+      "kind": "leaf",
+      "parent": "tgat2.language.foundation",
+      "order": 4,
+      "grade_band": "m_early",
+      "requires": [
+        "tgat2.language.foundation.sentence_structure"
+      ],
+      "est_minutes": 15,
+      "exam_weight": [],
+      "difficulty_band": "easy",
+      "keywords": [
+        "คำอ้างอิง",
+        "คำแทน",
+        "สรรพนาม",
+        "reference"
+      ],
+      "curriculum_ref": null,
+      "notes": null
+    },
+    {
+      "id": "tgat2.language.comprehension.meaning_scope",
+      "name_th": "เปรียบเทียบความหมายกว้าง แคบ และเฉพาะเจาะจง",
+      "name_en": "Broad Narrow and Specific Meaning",
+      "kind": "leaf",
+      "parent": "tgat2.language.comprehension",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat2.language.foundation.context_meaning"
+      ],
+      "est_minutes": 20,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ความหมายกว้าง",
+        "ความหมายแคบ",
+        "เฉพาะเจาะจง"
+      ],
+      "curriculum_ref": null,
+      "notes": "การจัดหัวข้อนี้ไว้ในส่วนย่อยนี้ยังไม่ยืนยัน ต้องเทียบกับนิยามส่วนย่อยในผังสอบทางการอีกครั้ง"
+    },
+    {
+      "id": "tgat2.language.usage.register",
+      "name_th": "เลือกระดับภาษาให้เหมาะกับสถานการณ์",
+      "name_en": "Language Register Selection",
+      "kind": "leaf",
+      "parent": "tgat2.language.usage",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat2.language.foundation.context_meaning",
+        "tgat2.language.foundation.sentence_structure"
+      ],
+      "est_minutes": 20,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ระดับภาษา",
+        "ภาษาทางการ",
+        "ภาษาพูด",
+        "register"
+      ],
+      "curriculum_ref": null,
+      "notes": null
+    },
+    {
+      "id": "tgat2.language.usage.correct_usage",
+      "name_th": "เลือกประโยคที่ใช้คำถูกความหมายและไม่กำกวม",
+      "name_en": "Correct and Unambiguous Word Usage",
+      "kind": "leaf",
+      "parent": "tgat2.language.usage",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat2.language.foundation.context_meaning",
+        "tgat2.language.foundation.sentence_structure"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ใช้คำถูกต้อง",
+        "คำกำกวม",
+        "ความกระชับ"
+      ],
+      "curriculum_ref": null,
+      "notes": null
+    },
+    {
+      "id": "tgat2.language.usage.idiom_context",
+      "name_th": "เลือกสำนวนให้ตรงความหมายของบริบท",
+      "name_en": "Idiom Selection by Context",
+      "kind": "leaf",
+      "parent": "tgat2.language.usage",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat2.language.foundation.context_meaning"
+      ],
+      "est_minutes": 20,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "สำนวนไทย",
+        "บริบท",
+        "ความหมายสำนวน"
+      ],
+      "curriculum_ref": null,
+      "notes": null
+    },
+    {
+      "id": "tgat2.language.usage.completion_vocabulary",
+      "name_th": "เติมคำในประโยคจากความหมายและชนิดของคำ",
+      "name_en": "Vocabulary-Based Sentence Completion",
+      "kind": "leaf",
+      "parent": "tgat2.language.usage",
+      "order": 4,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat2.language.foundation.context_meaning",
+        "tgat2.language.foundation.sentence_structure"
+      ],
+      "est_minutes": 20,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "เติมคำ",
+        "คำศัพท์",
+        "sentence completion"
+      ],
+      "curriculum_ref": null,
+      "notes": "การจัดหัวข้อนี้ไว้ในส่วนย่อยนี้ยังไม่ยืนยัน ต้องเทียบกับนิยามส่วนย่อยในผังสอบทางการอีกครั้ง"
+    },
+    {
+      "id": "tgat2.language.comprehension.completion_logic",
+      "name_th": "เติมคำหรือข้อความจากตรรกะของประโยค",
+      "name_en": "Logic-Based Sentence Completion",
+      "kind": "leaf",
+      "parent": "tgat2.language.comprehension",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat2.language.foundation.connectives",
+        "tgat2.language.usage.completion_vocabulary"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "เติมข้อความ",
+        "ตรรกะประโยค",
+        "คำเชื่อม"
+      ],
+      "curriculum_ref": null,
+      "notes": "การจัดหัวข้อนี้ไว้ในส่วนย่อยนี้ยังไม่ยืนยัน ต้องเทียบกับนิยามส่วนย่อยในผังสอบทางการอีกครั้ง"
+    },
+    {
+      "id": "tgat2.language.communication.analogy_semantic",
+      "name_th": "อุปมาอุปไมยคำแบบความหมายเหมือนและตรงข้าม",
+      "name_en": "Synonym and Antonym Verbal Analogies",
+      "kind": "leaf",
+      "parent": "tgat2.language.communication",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat2.language.foundation.context_meaning"
+      ],
+      "est_minutes": 20,
+      "exam_weight": [],
+      "difficulty_band": "easy",
+      "keywords": [
+        "อุปมาอุปไมย",
+        "คำเหมือน",
+        "คำตรงข้าม"
+      ],
+      "curriculum_ref": null,
+      "notes": null
+    },
+    {
+      "id": "tgat2.language.communication.analogy_category",
+      "name_th": "อุปมาอุปไมยคำแบบประเภทและสมาชิก",
+      "name_en": "Category and Member Verbal Analogies",
+      "kind": "leaf",
+      "parent": "tgat2.language.communication",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat2.language.foundation.context_meaning"
+      ],
+      "est_minutes": 20,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "อุปมาอุปไมย",
+        "ประเภท",
+        "สมาชิก"
+      ],
+      "curriculum_ref": null,
+      "notes": null
+    },
+    {
+      "id": "tgat2.language.communication.analogy_part_whole",
+      "name_th": "อุปมาอุปไมยคำแบบส่วนประกอบและสิ่งรวม",
+      "name_en": "Part and Whole Verbal Analogies",
+      "kind": "leaf",
+      "parent": "tgat2.language.communication",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat2.language.foundation.context_meaning"
+      ],
+      "est_minutes": 20,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "อุปมาอุปไมย",
+        "ส่วนประกอบ",
+        "part whole"
+      ],
+      "curriculum_ref": null,
+      "notes": null
+    },
+    {
+      "id": "tgat2.language.communication.analogy_function",
+      "name_th": "อุปมาอุปไมยคำแบบสิ่งของกับหน้าที่",
+      "name_en": "Object and Function Verbal Analogies",
+      "kind": "leaf",
+      "parent": "tgat2.language.communication",
+      "order": 4,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat2.language.foundation.context_meaning"
+      ],
+      "est_minutes": 20,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "อุปมาอุปไมย",
+        "หน้าที่",
+        "ความสัมพันธ์คำ"
+      ],
+      "curriculum_ref": null,
+      "notes": null
+    },
+    {
+      "id": "tgat2.language.reading.paragraph_order",
+      "name_th": "เรียงลำดับข้อความด้วยคำเชื่อมและคำอ้างอิง",
+      "name_en": "Paragraph Ordering by Connectives and References",
+      "kind": "leaf",
+      "parent": "tgat2.language.reading",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat2.language.foundation.connectives",
+        "tgat2.language.foundation.reference_words"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "เรียงข้อความ",
+        "ลำดับย่อหน้า",
+        "คำเชื่อม"
+      ],
+      "curriculum_ref": null,
+      "notes": "การจัดหัวข้อนี้ไว้ในส่วนย่อยนี้ยังไม่ยืนยัน ต้องเทียบกับนิยามส่วนย่อยในผังสอบทางการอีกครั้ง"
+    },
+    {
+      "id": "tgat2.language.reading.main_idea",
+      "name_th": "หาใจความสำคัญและตั้งชื่อเรื่อง",
+      "name_en": "Main Idea and Best Title",
+      "kind": "leaf",
+      "parent": "tgat2.language.reading",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat2.language.foundation.sentence_structure",
+        "tgat2.language.foundation.connectives"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ใจความสำคัญ",
+        "ชื่อเรื่อง",
+        "main idea"
+      ],
+      "curriculum_ref": null,
+      "notes": null
+    },
+    {
+      "id": "tgat2.language.reading.inference",
+      "name_th": "อนุมานข้อสรุปจากบทอ่านโดยไม่เติมข้อมูลเอง",
+      "name_en": "Reading Inference",
+      "kind": "leaf",
+      "parent": "tgat2.language.reading",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat2.language.reading.main_idea",
+        "tgat2.language.foundation.reference_words"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [],
+      "difficulty_band": "hard",
+      "keywords": [
+        "อนุมาน",
+        "ข้อสรุป",
+        "reading inference"
+      ],
+      "curriculum_ref": null,
+      "notes": null
+    },
+    {
+      "id": "tgat2.language.reading.purpose_summary",
+      "name_th": "ระบุเจตนา น้ำเสียง และบทสรุปที่เหมาะสม",
+      "name_en": "Purpose Tone and Appropriate Summary",
+      "kind": "leaf",
+      "parent": "tgat2.language.reading",
+      "order": 4,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat2.language.reading.main_idea",
+        "tgat2.language.reading.inference",
+        "tgat2.language.usage.register"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [],
+      "difficulty_band": "hard",
+      "keywords": [
+        "เจตนาผู้เขียน",
+        "น้ำเสียง",
+        "บทสรุป"
+      ],
+      "curriculum_ref": null,
+      "notes": null
+    },
+    {
+      "id": "tgat2.numerical.foundation.integer_arithmetic",
+      "name_th": "คำนวณจำนวนเต็มและลำดับการดำเนินการ",
+      "name_en": "Integer Arithmetic and Order of Operations",
+      "kind": "leaf",
+      "parent": "tgat2.numerical.foundation",
+      "order": 1,
+      "grade_band": "m_early",
+      "requires": [],
+      "est_minutes": 20,
+      "exam_weight": [],
+      "difficulty_band": "easy",
+      "keywords": [
+        "จำนวนเต็ม",
+        "บวกลบคูณหาร",
+        "order of operations"
+      ],
+      "curriculum_ref": null,
+      "notes": "ทักษะพื้นฐานสำหรับผู้เริ่มจากศูนย์"
+    },
+    {
+      "id": "tgat2.numerical.foundation.fraction_decimal",
+      "name_th": "คำนวณเศษส่วนและทศนิยม",
+      "name_en": "Fraction and Decimal Arithmetic",
+      "kind": "leaf",
+      "parent": "tgat2.numerical.foundation",
+      "order": 2,
+      "grade_band": "m_early",
+      "requires": [
+        "tgat2.numerical.foundation.integer_arithmetic"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [],
+      "difficulty_band": "easy",
+      "keywords": [
+        "เศษส่วน",
+        "ทศนิยม",
+        "fraction"
+      ],
+      "curriculum_ref": null,
+      "notes": "ทักษะพื้นฐานสำหรับผู้เริ่มจากศูนย์"
+    },
+    {
+      "id": "tgat2.numerical.foundation.ratio_proportion",
+      "name_th": "ตั้งอัตราส่วนและสัดส่วน",
+      "name_en": "Ratios and Proportions",
+      "kind": "leaf",
+      "parent": "tgat2.numerical.foundation",
+      "order": 3,
+      "grade_band": "m_early",
+      "requires": [
+        "tgat2.numerical.foundation.fraction_decimal"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [],
+      "difficulty_band": "easy",
+      "keywords": [
+        "อัตราส่วน",
+        "สัดส่วน",
+        "ratio"
+      ],
+      "curriculum_ref": null,
+      "notes": "ทักษะพื้นฐานสำหรับผู้เริ่มจากศูนย์"
+    },
+    {
+      "id": "tgat2.numerical.foundation.percent",
+      "name_th": "แปลงและคำนวณร้อยละ",
+      "name_en": "Percentage Calculation",
+      "kind": "leaf",
+      "parent": "tgat2.numerical.foundation",
+      "order": 4,
+      "grade_band": "m_early",
+      "requires": [
+        "tgat2.numerical.foundation.fraction_decimal",
+        "tgat2.numerical.foundation.ratio_proportion"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [],
+      "difficulty_band": "easy",
+      "keywords": [
+        "ร้อยละ",
+        "เปอร์เซ็นต์",
+        "percentage"
+      ],
+      "curriculum_ref": null,
+      "notes": "ทักษะพื้นฐานสำหรับผู้เริ่มจากศูนย์"
+    },
+    {
+      "id": "tgat2.numerical.foundation.average",
+      "name_th": "คำนวณค่าเฉลี่ยและผลรวมย้อนกลับ",
+      "name_en": "Averages and Reverse Totals",
+      "kind": "leaf",
+      "parent": "tgat2.numerical.foundation",
+      "order": 5,
+      "grade_band": "m_early",
+      "requires": [
+        "tgat2.numerical.foundation.fraction_decimal"
+      ],
+      "est_minutes": 20,
+      "exam_weight": [],
+      "difficulty_band": "easy",
+      "keywords": [
+        "ค่าเฉลี่ย",
+        "ผลรวม",
+        "average"
+      ],
+      "curriculum_ref": null,
+      "notes": "ทักษะพื้นฐานสำหรับผู้เริ่มจากศูนย์"
+    },
+    {
+      "id": "tgat2.numerical.foundation.simple_equation",
+      "name_th": "ตั้งและแก้สมการหนึ่งตัวแปรอย่างง่าย",
+      "name_en": "Simple One-Variable Equations",
+      "kind": "leaf",
+      "parent": "tgat2.numerical.foundation",
+      "order": 6,
+      "grade_band": "m_early",
+      "requires": [
+        "tgat2.numerical.foundation.integer_arithmetic"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [],
+      "difficulty_band": "easy",
+      "keywords": [
+        "สมการ",
+        "ตัวแปร",
+        "equation"
+      ],
+      "curriculum_ref": null,
+      "notes": "ทักษะพื้นฐานสำหรับโจทย์ปัญหาและความเพียงพอของข้อมูล"
+    },
+    {
+      "id": "tgat2.numerical.foundation.unit_conversion",
+      "name_th": "แปลงหน่วยและตรวจความสอดคล้องของหน่วย",
+      "name_en": "Unit Conversion and Dimensional Consistency",
+      "kind": "leaf",
+      "parent": "tgat2.numerical.foundation",
+      "order": 7,
+      "grade_band": "m_early",
+      "requires": [
+        "tgat2.numerical.foundation.fraction_decimal"
+      ],
+      "est_minutes": 20,
+      "exam_weight": [],
+      "difficulty_band": "easy",
+      "keywords": [
+        "แปลงหน่วย",
+        "หน่วยวัด",
+        "unit conversion"
+      ],
+      "curriculum_ref": null,
+      "notes": "ทักษะพื้นฐานสำหรับโจทย์อัตราเร็ว เวลา และระยะทาง"
+    },
+    {
+      "id": "tgat2.numerical.series.constant_difference",
+      "name_th": "อนุกรมเลขแบบผลต่างคงที่",
+      "name_en": "Constant-Difference Number Series",
+      "kind": "leaf",
+      "parent": "tgat2.numerical.series",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat2.numerical.foundation.integer_arithmetic"
+      ],
+      "est_minutes": 15,
+      "exam_weight": [],
+      "difficulty_band": "easy",
+      "keywords": [
+        "อนุกรมเลข",
+        "ผลต่างคงที่",
+        "arithmetic sequence"
+      ],
+      "curriculum_ref": null,
+      "notes": null
+    },
+    {
+      "id": "tgat2.numerical.series.second_difference",
+      "name_th": "อนุกรมเลขแบบผลต่างชั้นที่สอง",
+      "name_en": "Second-Difference Number Series",
+      "kind": "leaf",
+      "parent": "tgat2.numerical.series",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat2.numerical.series.constant_difference"
+      ],
+      "est_minutes": 20,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "อนุกรมเลข",
+        "ผลต่างชั้นสอง",
+        "second difference"
+      ],
+      "curriculum_ref": null,
+      "notes": null
+    },
+    {
+      "id": "tgat2.numerical.series.alternating_difference",
+      "name_th": "อนุกรมเลขแบบผลต่างสลับ",
+      "name_en": "Alternating-Difference Number Series",
+      "kind": "leaf",
+      "parent": "tgat2.numerical.series",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat2.numerical.series.constant_difference"
+      ],
+      "est_minutes": 20,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "อนุกรมเลข",
+        "ผลต่างสลับ",
+        "alternating sequence"
+      ],
+      "curriculum_ref": null,
+      "notes": null
+    },
+    {
+      "id": "tgat2.numerical.series.multiply_divide",
+      "name_th": "อนุกรมเลขแบบคูณหรือหาร",
+      "name_en": "Multiplicative Number Series",
+      "kind": "leaf",
+      "parent": "tgat2.numerical.series",
+      "order": 4,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat2.numerical.foundation.integer_arithmetic"
+      ],
+      "est_minutes": 20,
+      "exam_weight": [],
+      "difficulty_band": "easy",
+      "keywords": [
+        "อนุกรมเลข",
+        "คูณหาร",
+        "geometric pattern"
+      ],
+      "curriculum_ref": null,
+      "notes": null
+    },
+    {
+      "id": "tgat2.numerical.series.mixed_operations",
+      "name_th": "อนุกรมเลขแบบคูณแล้วบวกหรือลบ",
+      "name_en": "Mixed-Operation Number Series",
+      "kind": "leaf",
+      "parent": "tgat2.numerical.series",
+      "order": 5,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat2.numerical.series.constant_difference",
+        "tgat2.numerical.series.multiply_divide"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "อนุกรมเลข",
+        "คูณแล้วบวก",
+        "mixed operation"
+      ],
+      "curriculum_ref": null,
+      "notes": null
+    },
+    {
+      "id": "tgat2.numerical.series.interleaved",
+      "name_th": "อนุกรมเลขแบบแยกชุดสลับตำแหน่ง",
+      "name_en": "Interleaved Number Series",
+      "kind": "leaf",
+      "parent": "tgat2.numerical.series",
+      "order": 6,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat2.numerical.series.constant_difference",
+        "tgat2.numerical.series.multiply_divide"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "อนุกรมสลับชุด",
+        "เลขตำแหน่งคี่คู่",
+        "interleaved series"
+      ],
+      "curriculum_ref": null,
+      "notes": null
+    },
+    {
+      "id": "tgat2.numerical.series.recurrence",
+      "name_th": "อนุกรมเลขแบบพจน์ถัดไปเกิดจากพจน์ก่อนหน้า",
+      "name_en": "Recurrence Number Series",
+      "kind": "leaf",
+      "parent": "tgat2.numerical.series",
+      "order": 7,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat2.numerical.foundation.integer_arithmetic",
+        "tgat2.numerical.series.constant_difference"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [],
+      "difficulty_band": "hard",
+      "keywords": [
+        "อนุกรมเวียนเกิด",
+        "พจน์ก่อนหน้า",
+        "recurrence"
+      ],
+      "curriculum_ref": null,
+      "notes": null
+    },
+    {
+      "id": "tgat2.numerical.series.special_numbers",
+      "name_th": "อนุกรมเลขจากกำลัง จำนวนเฉพาะ และรูปแบบจำนวนพิเศษ",
+      "name_en": "Power Prime and Special-Number Series",
+      "kind": "leaf",
+      "parent": "tgat2.numerical.series",
+      "order": 8,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat2.numerical.foundation.integer_arithmetic"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [],
+      "difficulty_band": "hard",
+      "keywords": [
+        "เลขยกกำลัง",
+        "จำนวนเฉพาะ",
+        "อนุกรมพิเศษ"
+      ],
+      "curriculum_ref": null,
+      "notes": null
+    },
+    {
+      "id": "tgat2.numerical.quantitative.arithmetic",
+      "name_th": "เปรียบเทียบเชิงปริมาณจากการคำนวณตรง",
+      "name_en": "Arithmetic Quantitative Comparison",
+      "kind": "leaf",
+      "parent": "tgat2.numerical.quantitative",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat2.numerical.foundation.integer_arithmetic",
+        "tgat2.numerical.foundation.fraction_decimal"
+      ],
+      "est_minutes": 20,
+      "exam_weight": [],
+      "difficulty_band": "easy",
+      "keywords": [
+        "เปรียบเทียบปริมาณ",
+        "สดมภ์",
+        "quantitative comparison"
+      ],
+      "curriculum_ref": null,
+      "notes": null
+    },
+    {
+      "id": "tgat2.numerical.quantitative.ratio_percent",
+      "name_th": "เปรียบเทียบเชิงปริมาณจากอัตราส่วนและร้อยละ",
+      "name_en": "Ratio and Percentage Quantitative Comparison",
+      "kind": "leaf",
+      "parent": "tgat2.numerical.quantitative",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat2.numerical.foundation.ratio_proportion",
+        "tgat2.numerical.foundation.percent"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "เปรียบเทียบปริมาณ",
+        "อัตราส่วน",
+        "ร้อยละ"
+      ],
+      "curriculum_ref": null,
+      "notes": null
+    },
+    {
+      "id": "tgat2.numerical.quantitative.algebra",
+      "name_th": "เปรียบเทียบเชิงปริมาณจากเงื่อนไขตัวแปร",
+      "name_en": "Algebraic Quantitative Comparison",
+      "kind": "leaf",
+      "parent": "tgat2.numerical.quantitative",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat2.numerical.foundation.simple_equation"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [],
+      "difficulty_band": "hard",
+      "keywords": [
+        "เปรียบเทียบตัวแปร",
+        "เงื่อนไข",
+        "algebra comparison"
+      ],
+      "curriculum_ref": null,
+      "notes": null
+    },
+    {
+      "id": "tgat2.numerical.data_sufficiency.single_statement",
+      "name_th": "ความเพียงพอของข้อมูลเมื่อพิจารณาทีละข้อความ",
+      "name_en": "Single-Statement Data Sufficiency",
+      "kind": "leaf",
+      "parent": "tgat2.numerical.data_sufficiency",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat2.numerical.foundation.simple_equation"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ความเพียงพอของข้อมูล",
+        "พิจารณาทีละข้อ",
+        "data sufficiency"
+      ],
+      "curriculum_ref": null,
+      "notes": null
+    },
+    {
+      "id": "tgat2.numerical.data_sufficiency.combined_statements",
+      "name_th": "ความเพียงพอของข้อมูลเมื่อใช้สองข้อความร่วมกัน",
+      "name_en": "Combined-Statement Data Sufficiency",
+      "kind": "leaf",
+      "parent": "tgat2.numerical.data_sufficiency",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat2.numerical.data_sufficiency.single_statement"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [],
+      "difficulty_band": "hard",
+      "keywords": [
+        "ความเพียงพอของข้อมูล",
+        "ข้อมูลร่วมกัน",
+        "data sufficiency"
+      ],
+      "curriculum_ref": null,
+      "notes": null
+    },
+    {
+      "id": "tgat2.numerical.word_problem.ratio_percent",
+      "name_th": "โจทย์ปัญหาอัตราส่วนและร้อยละ",
+      "name_en": "Ratio and Percentage Word Problems",
+      "kind": "leaf",
+      "parent": "tgat2.numerical.word_problem",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat2.numerical.foundation.ratio_proportion",
+        "tgat2.numerical.foundation.percent",
+        "tgat2.numerical.foundation.simple_equation"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "โจทย์ปัญหา",
+        "อัตราส่วน",
+        "ร้อยละ"
+      ],
+      "curriculum_ref": null,
+      "notes": null
+    },
+    {
+      "id": "tgat2.numerical.word_problem.average_rate",
+      "name_th": "โจทย์ปัญหาค่าเฉลี่ย อัตราเร็ว เวลา และระยะทาง",
+      "name_en": "Average Rate Time and Distance Problems",
+      "kind": "leaf",
+      "parent": "tgat2.numerical.word_problem",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat2.numerical.foundation.average",
+        "tgat2.numerical.foundation.ratio_proportion",
+        "tgat2.numerical.foundation.unit_conversion"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ค่าเฉลี่ย",
+        "อัตราเร็ว",
+        "เวลาและระยะทาง"
+      ],
+      "curriculum_ref": null,
+      "notes": null
+    },
+    {
+      "id": "tgat2.numerical.word_problem.age_work_commerce",
+      "name_th": "โจทย์ปัญหาอายุ งาน และการค้า",
+      "name_en": "Age Work and Commercial Problems",
+      "kind": "leaf",
+      "parent": "tgat2.numerical.word_problem",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat2.numerical.foundation.simple_equation",
+        "tgat2.numerical.foundation.ratio_proportion",
+        "tgat2.numerical.foundation.percent"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [],
+      "difficulty_band": "hard",
+      "keywords": [
+        "โจทย์อายุ",
+        "โจทย์งาน",
+        "กำไรขาดทุน"
+      ],
+      "curriculum_ref": null,
+      "notes": null
+    },
+    {
+      "id": "tgat2.numerical.word_problem.table_graph",
+      "name_th": "อ่านและคำนวณจากตาราง แผนภูมิ และกราฟ",
+      "name_en": "Table Chart and Graph Interpretation",
+      "kind": "leaf",
+      "parent": "tgat2.numerical.word_problem",
+      "order": 4,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat2.numerical.foundation.percent",
+        "tgat2.numerical.foundation.average"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ตาราง",
+        "แผนภูมิ",
+        "กราฟ",
+        "data interpretation"
+      ],
+      "curriculum_ref": null,
+      "notes": "การจัดหัวข้อนี้ไว้ในส่วนย่อยนี้ยังไม่ยืนยัน ต้องเทียบกับนิยามส่วนย่อยในผังสอบทางการอีกครั้ง"
+    },
+    {
+      "id": "tgat2.spatial.foundation.orientation_2d",
+      "name_th": "ระบุตำแหน่งและทิศทางของรูปสองมิติ",
+      "name_en": "Two-Dimensional Position and Direction",
+      "kind": "leaf",
+      "parent": "tgat2.spatial.foundation",
+      "order": 1,
+      "grade_band": "m_early",
+      "requires": [],
+      "est_minutes": 15,
+      "exam_weight": [],
+      "difficulty_band": "easy",
+      "keywords": [
+        "ตำแหน่ง",
+        "ทิศทาง",
+        "รูปสองมิติ"
+      ],
+      "curriculum_ref": null,
+      "notes": "ทักษะพื้นฐานสำหรับผู้เริ่มจากศูนย์"
+    },
+    {
+      "id": "tgat2.spatial.foundation.symmetry_reflection",
+      "name_th": "แยกการหมุนออกจากการสะท้อนและภาพสมมาตร",
+      "name_en": "Rotation Reflection and Symmetry",
+      "kind": "leaf",
+      "parent": "tgat2.spatial.foundation",
+      "order": 2,
+      "grade_band": "m_early",
+      "requires": [
+        "tgat2.spatial.foundation.orientation_2d"
+      ],
+      "est_minutes": 20,
+      "exam_weight": [],
+      "difficulty_band": "easy",
+      "keywords": [
+        "สมมาตร",
+        "ภาพสะท้อน",
+        "rotation reflection"
+      ],
+      "curriculum_ref": null,
+      "notes": "ทักษะพื้นฐานที่ช่วยป้องกันการเลือกภาพกระจกแทนภาพหมุน"
+    },
+    {
+      "id": "tgat2.spatial.foundation.rotation_2d",
+      "name_th": "หมุนภาพสองมิติรอบจุดศูนย์กลาง",
+      "name_en": "Two-Dimensional Mental Rotation",
+      "kind": "leaf",
+      "parent": "tgat2.spatial.foundation",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat2.spatial.foundation.orientation_2d",
+        "tgat2.spatial.foundation.symmetry_reflection"
+      ],
+      "est_minutes": 20,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "หมุนภาพ",
+        "mental rotation",
+        "จุดศูนย์กลาง"
+      ],
+      "curriculum_ref": null,
+      "notes": "การจัดหัวข้อนี้ไว้ในส่วนย่อยนี้ยังไม่ยืนยัน ต้องเทียบกับนิยามส่วนย่อยในผังสอบทางการอีกครั้ง"
+    },
+    {
+      "id": "tgat2.spatial.box_folding.cube_face_relations",
+      "name_th": "ระบุหน้าติดกันและหน้าตรงข้ามของลูกบาศก์",
+      "name_en": "Cube Face Adjacency and Opposition",
+      "kind": "leaf",
+      "parent": "tgat2.spatial.box_folding",
+      "order": 1,
+      "grade_band": "m_early",
+      "requires": [
+        "tgat2.spatial.foundation.orientation_2d"
+      ],
+      "est_minutes": 20,
+      "exam_weight": [],
+      "difficulty_band": "easy",
+      "keywords": [
+        "ลูกบาศก์",
+        "หน้าติดกัน",
+        "หน้าตรงข้าม"
+      ],
+      "curriculum_ref": null,
+      "notes": "ทักษะพื้นฐานสำหรับโจทย์พับกล่อง"
+    },
+    {
+      "id": "tgat2.spatial.box_folding.net_opposites",
+      "name_th": "หาคู่หน้าตรงข้ามจากแผ่นคลี่ลูกบาศก์",
+      "name_en": "Opposite Faces from Cube Nets",
+      "kind": "leaf",
+      "parent": "tgat2.spatial.box_folding",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat2.spatial.box_folding.cube_face_relations"
+      ],
+      "est_minutes": 20,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "แผ่นคลี่",
+        "หน้าตรงข้าม",
+        "cube net"
+      ],
+      "curriculum_ref": null,
+      "notes": null
+    },
+    {
+      "id": "tgat2.spatial.box_folding.net_markings",
+      "name_th": "พับแผ่นคลี่ลูกบาศก์ที่มีสัญลักษณ์กำกับ",
+      "name_en": "Folding Marked Cube Nets",
+      "kind": "leaf",
+      "parent": "tgat2.spatial.box_folding",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat2.spatial.box_folding.net_opposites",
+        "tgat2.spatial.foundation.rotation_2d"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [],
+      "difficulty_band": "hard",
+      "keywords": [
+        "พับกล่อง",
+        "สัญลักษณ์บนหน้า",
+        "marked cube"
+      ],
+      "curriculum_ref": null,
+      "notes": null
+    },
+    {
+      "id": "tgat2.spatial.find_difference.by_rotation",
+      "name_th": "หาภาพต่างโดยตรวจความเป็นภาพหมุน",
+      "name_en": "Odd-One-Out by Rotation",
+      "kind": "leaf",
+      "parent": "tgat2.spatial.find_difference",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat2.spatial.foundation.rotation_2d"
+      ],
+      "est_minutes": 20,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "หาภาพต่าง",
+        "ภาพหมุน",
+        "odd one out"
+      ],
+      "curriculum_ref": null,
+      "notes": null
+    },
+    {
+      "id": "tgat2.spatial.find_difference.by_reflection",
+      "name_th": "หาภาพต่างโดยตรวจภาพสะท้อนและตำแหน่งรายละเอียด",
+      "name_en": "Odd-One-Out by Reflection and Detail",
+      "kind": "leaf",
+      "parent": "tgat2.spatial.find_difference",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat2.spatial.foundation.symmetry_reflection",
+        "tgat2.spatial.foundation.rotation_2d"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [],
+      "difficulty_band": "hard",
+      "keywords": [
+        "หาภาพต่าง",
+        "ภาพสะท้อน",
+        "รายละเอียดภาพ"
+      ],
+      "curriculum_ref": null,
+      "notes": null
+    },
+    {
+      "id": "tgat2.spatial.rotation_3d.vertical_axis",
+      "name_th": "หมุนภาพสามมิติรอบแกนตั้ง",
+      "name_en": "Three-Dimensional Rotation around a Vertical Axis",
+      "kind": "leaf",
+      "parent": "tgat2.spatial.rotation_3d",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat2.spatial.box_folding.cube_face_relations",
+        "tgat2.spatial.foundation.rotation_2d"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "หมุนสามมิติ",
+        "แกนตั้ง",
+        "3D rotation"
+      ],
+      "curriculum_ref": null,
+      "notes": null
+    },
+    {
+      "id": "tgat2.spatial.rotation_3d.horizontal_axis",
+      "name_th": "หมุนภาพสามมิติรอบแกนนอน",
+      "name_en": "Three-Dimensional Rotation around a Horizontal Axis",
+      "kind": "leaf",
+      "parent": "tgat2.spatial.rotation_3d",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat2.spatial.box_folding.cube_face_relations",
+        "tgat2.spatial.rotation_3d.vertical_axis"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [],
+      "difficulty_band": "hard",
+      "keywords": [
+        "หมุนสามมิติ",
+        "แกนนอน",
+        "3D rotation"
+      ],
+      "curriculum_ref": null,
+      "notes": null
+    },
+    {
+      "id": "tgat2.spatial.assembly.silhouette",
+      "name_th": "ประกอบชิ้นส่วนให้ตรงกับโครงร่างเป้าหมาย",
+      "name_en": "Shape Assembly by Target Silhouette",
+      "kind": "leaf",
+      "parent": "tgat2.spatial.assembly",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat2.spatial.foundation.orientation_2d"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ประกอบภาพ",
+        "ชิ้นส่วน",
+        "silhouette"
+      ],
+      "curriculum_ref": null,
+      "notes": null
+    },
+    {
+      "id": "tgat2.spatial.assembly.with_rotation",
+      "name_th": "ประกอบภาพโดยหมุนและจับคู่ขอบของชิ้นส่วน",
+      "name_en": "Shape Assembly with Rotation and Edge Matching",
+      "kind": "leaf",
+      "parent": "tgat2.spatial.assembly",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat2.spatial.assembly.silhouette",
+        "tgat2.spatial.foundation.rotation_2d"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [],
+      "difficulty_band": "hard",
+      "keywords": [
+        "ประกอบภาพ",
+        "หมุนชิ้นส่วน",
+        "จับคู่ขอบ"
+      ],
+      "curriculum_ref": null,
+      "notes": null
+    },
+    {
+      "id": "tgat2.reasoning.foundation.visual_attributes",
+      "name_th": "แยกคุณลักษณะของภาพเพื่อค้นหากฎ",
+      "name_en": "Visual Attribute Decomposition",
+      "kind": "leaf",
+      "parent": "tgat2.reasoning.foundation",
+      "order": 1,
+      "grade_band": "m_early",
+      "requires": [],
+      "est_minutes": 20,
+      "exam_weight": [],
+      "difficulty_band": "easy",
+      "keywords": [
+        "คุณลักษณะภาพ",
+        "จำนวน",
+        "ตำแหน่ง",
+        "สี"
+      ],
+      "curriculum_ref": null,
+      "notes": "ฝึกแยกรูปร่าง จำนวน สี ขนาด ทิศทาง และตำแหน่งก่อนหาแบบรูป"
+    },
+    {
+      "id": "tgat2.reasoning.picture_series.count_change",
+      "name_th": "อนุกรมภาพแบบเพิ่มหรือลดจำนวนองค์ประกอบ",
+      "name_en": "Count-Change Picture Series",
+      "kind": "leaf",
+      "parent": "tgat2.reasoning.picture_series",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat2.reasoning.foundation.visual_attributes"
+      ],
+      "est_minutes": 20,
+      "exam_weight": [],
+      "difficulty_band": "easy",
+      "keywords": [
+        "อนุกรมภาพ",
+        "เพิ่มลดจำนวน",
+        "count pattern"
+      ],
+      "curriculum_ref": null,
+      "notes": null
+    },
+    {
+      "id": "tgat2.reasoning.picture_series.rotation",
+      "name_th": "อนุกรมภาพแบบหมุนตามมุมหรือทิศทาง",
+      "name_en": "Rotation Picture Series",
+      "kind": "leaf",
+      "parent": "tgat2.reasoning.picture_series",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat2.reasoning.foundation.visual_attributes",
+        "tgat2.spatial.foundation.rotation_2d"
+      ],
+      "est_minutes": 20,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "อนุกรมภาพ",
+        "การหมุน",
+        "rotation pattern"
+      ],
+      "curriculum_ref": null,
+      "notes": null
+    },
+    {
+      "id": "tgat2.reasoning.picture_series.alternating_rule",
+      "name_th": "อนุกรมภาพแบบกฎสลับตำแหน่ง",
+      "name_en": "Alternating Picture Series",
+      "kind": "leaf",
+      "parent": "tgat2.reasoning.picture_series",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat2.reasoning.picture_series.count_change",
+        "tgat2.reasoning.picture_series.rotation"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "อนุกรมภาพ",
+        "กฎสลับ",
+        "alternating pattern"
+      ],
+      "curriculum_ref": null,
+      "notes": null
+    },
+    {
+      "id": "tgat2.reasoning.picture_series.combined_rules",
+      "name_th": "อนุกรมภาพที่เปลี่ยนหลายคุณลักษณะพร้อมกัน",
+      "name_en": "Combined-Rule Picture Series",
+      "kind": "leaf",
+      "parent": "tgat2.reasoning.picture_series",
+      "order": 4,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat2.reasoning.picture_series.count_change",
+        "tgat2.reasoning.picture_series.rotation",
+        "tgat2.reasoning.picture_series.alternating_rule"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [],
+      "difficulty_band": "hard",
+      "keywords": [
+        "อนุกรมภาพ",
+        "หลายกฎ",
+        "combined pattern"
+      ],
+      "curriculum_ref": null,
+      "notes": null
+    },
+    {
+      "id": "tgat2.reasoning.visual_analogy.transformation_transfer",
+      "name_th": "อุปมาอุปไมยภาพแบบถ่ายทอดการเปลี่ยนแปลง",
+      "name_en": "Transformation-Based Visual Analogies",
+      "kind": "leaf",
+      "parent": "tgat2.reasoning.visual_analogy",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat2.reasoning.foundation.visual_attributes",
+        "tgat2.spatial.foundation.rotation_2d"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "อุปมาอุปไมยภาพ",
+        "การเปลี่ยนแปลง",
+        "visual analogy"
+      ],
+      "curriculum_ref": null,
+      "notes": null
+    },
+    {
+      "id": "tgat2.reasoning.foundation.statement_logic",
+      "name_th": "แปลงข้อความเป็นข้อเท็จจริงและเงื่อนไข",
+      "name_en": "Translating Statements into Logical Conditions",
+      "kind": "leaf",
+      "parent": "tgat2.reasoning.foundation",
+      "order": 2,
+      "grade_band": "m_early",
+      "requires": [
+        "tgat2.language.foundation.sentence_structure",
+        "tgat2.language.foundation.connectives"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [],
+      "difficulty_band": "easy",
+      "keywords": [
+        "เงื่อนไข",
+        "ข้อเท็จจริง",
+        "logical statement"
+      ],
+      "curriculum_ref": null,
+      "notes": "ทักษะพื้นฐานสำหรับโจทย์สรุปความและวิเคราะห์ข้อความ"
+    },
+    {
+      "id": "tgat2.reasoning.conclusion.all_some_none",
+      "name_th": "สรุปเหตุผลจากข้อความ ทุก บาง และไม่มี",
+      "name_en": "All Some and None Reasoning",
+      "kind": "leaf",
+      "parent": "tgat2.reasoning.conclusion",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat2.reasoning.foundation.statement_logic"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ทุก",
+        "บาง",
+        "ไม่มี",
+        "quantifier logic"
+      ],
+      "curriculum_ref": null,
+      "notes": null
+    },
+    {
+      "id": "tgat2.reasoning.conclusion.conditional",
+      "name_th": "เหตุผลแบบถ้าแล้วและเงื่อนไขจำเป็นเพียงพอ",
+      "name_en": "If-Then Necessary and Sufficient Conditions",
+      "kind": "leaf",
+      "parent": "tgat2.reasoning.conclusion",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat2.reasoning.foundation.statement_logic"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ถ้าแล้ว",
+        "เงื่อนไขจำเป็น",
+        "เงื่อนไขเพียงพอ"
+      ],
+      "curriculum_ref": null,
+      "notes": null
+    },
+    {
+      "id": "tgat2.reasoning.conclusion.negation",
+      "name_th": "ปฏิเสธข้อความและหลีกเลี่ยงการกลับเงื่อนไขผิด",
+      "name_en": "Negation and Invalid Reversal",
+      "kind": "leaf",
+      "parent": "tgat2.reasoning.conclusion",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat2.reasoning.conclusion.all_some_none",
+        "tgat2.reasoning.conclusion.conditional"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [],
+      "difficulty_band": "hard",
+      "keywords": [
+        "ปฏิเสธข้อความ",
+        "กลับเงื่อนไข",
+        "negation"
+      ],
+      "curriculum_ref": null,
+      "notes": null
+    },
+    {
+      "id": "tgat2.reasoning.conclusion.venn_sets",
+      "name_th": "ใช้แผนภาพเซตตรวจความสัมพันธ์ของกลุ่ม",
+      "name_en": "Set Relationships with Venn Diagrams",
+      "kind": "leaf",
+      "parent": "tgat2.reasoning.conclusion",
+      "order": 4,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat2.reasoning.conclusion.all_some_none"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "แผนภาพเวนน์",
+        "เซต",
+        "ความสัมพันธ์กลุ่ม"
+      ],
+      "curriculum_ref": null,
+      "notes": null
+    },
+    {
+      "id": "tgat2.reasoning.conclusion.true_false_undecidable",
+      "name_th": "ตัดสินข้อสรุปว่าจริง เท็จ หรือยังสรุปไม่ได้",
+      "name_en": "True False or Undetermined Conclusions",
+      "kind": "leaf",
+      "parent": "tgat2.reasoning.conclusion",
+      "order": 5,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat2.reasoning.conclusion.all_some_none",
+        "tgat2.reasoning.conclusion.conditional"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [],
+      "difficulty_band": "hard",
+      "keywords": [
+        "สรุปความ",
+        "จริงเท็จ",
+        "สรุปไม่ได้"
+      ],
+      "curriculum_ref": null,
+      "notes": null
+    },
+    {
+      "id": "tgat2.reasoning.statement_analysis.ordering",
+      "name_th": "วิเคราะห์เงื่อนไขลำดับก่อนหลังและอันดับ",
+      "name_en": "Ordering and Ranking Constraints",
+      "kind": "leaf",
+      "parent": "tgat2.reasoning.statement_analysis",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat2.reasoning.foundation.statement_logic"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ลำดับก่อนหลัง",
+        "อันดับ",
+        "ordering puzzle"
+      ],
+      "curriculum_ref": null,
+      "notes": null
+    },
+    {
+      "id": "tgat2.reasoning.statement_analysis.grouping",
+      "name_th": "วิเคราะห์เงื่อนไขการจัดกลุ่มและการเลือกสมาชิก",
+      "name_en": "Grouping and Selection Constraints",
+      "kind": "leaf",
+      "parent": "tgat2.reasoning.statement_analysis",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat2.reasoning.foundation.statement_logic",
+        "tgat2.reasoning.conclusion.venn_sets"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [],
+      "difficulty_band": "hard",
+      "keywords": [
+        "จัดกลุ่ม",
+        "เลือกสมาชิก",
+        "grouping puzzle"
+      ],
+      "curriculum_ref": null,
+      "notes": null
+    },
+    {
+      "id": "tgat2.reasoning.statement_analysis.matching",
+      "name_th": "จับคู่บุคคล สิ่งของ และคุณสมบัติจากเงื่อนไข",
+      "name_en": "Matching People Items and Attributes",
+      "kind": "leaf",
+      "parent": "tgat2.reasoning.statement_analysis",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat2.reasoning.foundation.statement_logic"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "จับคู่",
+        "ตารางเงื่อนไข",
+        "logic grid"
+      ],
+      "curriculum_ref": null,
+      "notes": null
+    },
+    {
+      "id": "tgat2.reasoning.statement_analysis.scheduling",
+      "name_th": "จัดตารางเวลาและตำแหน่งภายใต้หลายเงื่อนไข",
+      "name_en": "Scheduling and Placement Constraints",
+      "kind": "leaf",
+      "parent": "tgat2.reasoning.statement_analysis",
+      "order": 4,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat2.reasoning.statement_analysis.ordering",
+        "tgat2.reasoning.statement_analysis.grouping"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [],
+      "difficulty_band": "hard",
+      "keywords": [
+        "จัดตาราง",
+        "จัดตำแหน่ง",
+        "scheduling puzzle"
+      ],
+      "curriculum_ref": null,
+      "notes": null
+    },
+    {
+      "id": "tgat2.reasoning.statement_analysis.family_relations",
+      "name_th": "สรุปความสัมพันธ์เครือญาติและลำดับอายุ",
+      "name_en": "Family Relations and Age Ordering",
+      "kind": "leaf",
+      "parent": "tgat2.reasoning.statement_analysis",
+      "order": 5,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat2.reasoning.statement_analysis.ordering"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "เครือญาติ",
+        "ลำดับอายุ",
+        "family relations"
+      ],
+      "curriculum_ref": null,
+      "notes": null
+    },
+    {
+      "id": "tgat2.reasoning.statement_analysis.possible_necessary",
+      "name_th": "แยกข้อที่เป็นไปได้ ต้องเป็นจริง และเป็นไปไม่ได้",
+      "name_en": "Could Must and Cannot Be True",
+      "kind": "leaf",
+      "parent": "tgat2.reasoning.statement_analysis",
+      "order": 6,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat2.reasoning.conclusion.true_false_undecidable",
+        "tgat2.reasoning.statement_analysis.ordering"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [],
+      "difficulty_band": "hard",
+      "keywords": [
+        "เป็นไปได้",
+        "ต้องเป็นจริง",
+        "เป็นไปไม่ได้"
+      ],
+      "curriculum_ref": null,
+      "notes": null
+    }
+  ]
+}

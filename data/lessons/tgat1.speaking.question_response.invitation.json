@@ -1,0 +1,103 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tgat1.speaking.question_response.invitation",
+  "title": "ชวน ตอบรับ และปฏิเสธอย่างสุภาพ",
+  "subtitle": "ตอบรับให้กระตือรือร้น ปฏิเสธให้มีขอบคุณ ขอโทษ เหตุผล และถ้าเป็นไปได้ เสนอทางอื่น",
+  "prereq_topic_ids": [
+    "tgat1.speaking.foundation.function_bank"
+  ],
+  "objectives": [
+    "จำรูปประโยคชวนที่ใช้บ่อย",
+    "ตอบรับคำชวนอย่างเป็นธรรมชาติ",
+    "ปฏิเสธคำชวนอย่างสุภาพครบองค์ประกอบ"
+  ],
+  "est_minutes": 15,
+  "blocks": [
+    {
+      "type": "hook",
+      "body_md": "การปฏิเสธคำชวนในภาษาอังกฤษมีสูตร ถ้าตอบแค่ \"No.\" จะฟังห้วนมาก ข้อสอบมักวางตัวเลือกปฏิเสธที่ **ถูกความหมาย แต่ไม่สุภาพ** ไว้เป็นตัวลวง"
+    },
+    {
+      "type": "concept",
+      "heading": "รูปประโยคชวน",
+      "body_md": "- **Would you like to** + V? — สุภาพ ทางการได้\n- **Do you want to** + V? — ทั่วไป\n- **How about / What about** + V-ing? — เสนอทางเลือก\n- **Why don't we** + V? / **Let's** + V. — ชวนทำด้วยกัน\n- **Are you free** + เวลา? — ถามก่อนชวน"
+    },
+    {
+      "type": "concept",
+      "heading": "แนวทางตอบ",
+      "body_md": "**ตอบรับ:** I'd love to! / That sounds great. / Sure, what time?\n\n**ปฏิเสธอย่างสุภาพ:** เลือกใช้ ขอบคุณ/แสดงว่าอยากไป → ขอโทษ → เหตุผล → เสนอทางอื่น ตามความเหมาะสม ไม่จำเป็นต้องมีครบทุกส่วนในคำตอบสั้น แต่ควรมีเหตุผลและไม่ห้วน\n> \"Thanks for asking! I'd love to, but I'm afraid I have to work that day. How about next weekend?\""
+    },
+    {
+      "type": "formula",
+      "name": "ดูทั้งความหมายและน้ำเสียง",
+      "formula_tex": "",
+      "variables": [],
+      "use_when": "เมื่อมีตัวเลือกที่ความหมายถูกมากกว่าหนึ่งตัว",
+      "avoid_when": "อย่าตัดตัวเลือกที่ยาวทิ้งเพราะคิดว่าเยิ่นเย้อ ในข้อนี้ความสุภาพมักต้องใช้คำเพิ่ม",
+      "derivation_md": "ขั้นแรกตัดตัวที่ความหมายผิด (ตอบไม่ตรงคำชวน) ขั้นที่สองเลือกตัวที่ **สุภาพกว่า** ระหว่างตัวที่เหลือ",
+      "memory_tip": "ปฏิเสธ = ขอบคุณ + ขอโทษ + เหตุผล (+ ทางอื่น)"
+    },
+    {
+      "type": "example",
+      "label": "ตัวอย่างที่ 1",
+      "difficulty": 2,
+      "stem_md": "**A:** Would you like to join us for dinner on Friday?  \n**B:** ______",
+      "steps": [
+        {
+          "do_md": "ระบุ: คำชวนแบบสุภาพ",
+          "why_md": "B ตอบรับหรือปฏิเสธก็ได้ แต่ต้องสุภาพ"
+        },
+        {
+          "do_md": "ถ้าปฏิเสธ ใช้สูตร",
+          "why_md": "\"Thank you, I'd love to, but I already have plans on Friday.\""
+        }
+      ],
+      "answer_md": "\"Thank you, I'd love to, but I already have plans on Friday.\"",
+      "figures": []
+    },
+    {
+      "type": "pitfall",
+      "title": "ตอบรับด้วย Yes, I like.",
+      "wrong_md": "A: Would you like to come? → B: \"Yes, I like.\"",
+      "why_wrong_md": "Would you like เป็นคำชวน ไม่ได้ถามว่าชอบไหม และ like ต้องมีกรรม",
+      "correct_md": "\"Yes, I'd love to.\"",
+      "misconception_tag": "would_like_as_like"
+    },
+    {
+      "type": "summary",
+      "bullets_md": [
+        "รูปชวน: Would you like to / Do you want to / How about V-ing / Why don't we / Let's",
+        "ตอบรับ: I'd love to / That sounds great",
+        "ปฏิเสธ: ขอบคุณ + ขอโทษ + เหตุผล + (ทางอื่น)",
+        "ระวังตัวเลือกที่ความหมายถูกแต่ไม่สุภาพ"
+      ]
+    },
+    {
+      "type": "check",
+      "question_md": "**A:** How about going to the new café after class?  \n**B:** ______",
+      "choices": [
+        "Yes, I go.",
+        "That sounds great! What time?",
+        "About the café is new.",
+        "No."
+      ],
+      "answer_index": 1,
+      "explain_md": "ตอบรับคำชวนอย่างกระตือรือร้นและถามรายละเอียด"
+    }
+  ],
+  "glossary": [],
+  "common_exam_patterns": [
+    "ให้คำชวนแล้วเลือกคำตอบรับที่เป็นธรรมชาติ",
+    "ให้เลือกคำปฏิเสธที่สุภาพที่สุด",
+    "ตัวลวงเป็นคำปฏิเสธที่ห้วนเกินไป"
+  ],
+  "next_topic_ids": [
+    "tgat1.speaking.question_response.apology_thanks"
+  ],
+  "sources": [
+    "ผังการสอบ TGAT1 จาก mytcas.com (พาร์ทการพูด ส่วนการถาม-ตอบ)",
+    "ประโยคและบทสนทนาแต่งขึ้นใหม่เพื่อการฝึก"
+  ],
+  "review_status": "ai_draft",
+  "generated_from": "content/tgat1/speaking_qr.py"
+}

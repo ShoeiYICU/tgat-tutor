@@ -1,0 +1,477 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tgat2.language.usage.completion_vocabulary",
+  "problems": [
+    {
+      "id": "prob.tgat2.language.usage.completion_vocabulary.0001",
+      "topic_ids": [
+        "tgat2.language.usage.completion_vocabulary"
+      ],
+      "primary_topic_id": "tgat2.language.usage.completion_vocabulary",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 30,
+      "stem_md": "\"หลังฝึกซ้อมอย่างหนักมาสามปี ในที่สุดเธอก็ ___ ความสำเร็จในการแข่งขันระดับชาติ\" คำใดเหมาะสมที่สุด",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ประสม",
+          "is_answer": false
+        },
+        {
+          "md": "ประสงค์",
+          "is_answer": false
+        },
+        {
+          "md": "ประสาท",
+          "is_answer": false
+        },
+        {
+          "md": "ประสบ",
+          "is_answer": true
+        },
+        {
+          "md": "ประสาน",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ช่องว่างเป็นกริยาที่มีกรรม ความสำเร็จ",
+          "why_md": "ชนิดคำ"
+        },
+        {
+          "do_md": "ความสำเร็จ ใช้คู่กับ ประสบ",
+          "why_md": "คู่คำ"
+        }
+      ],
+      "answer_explanation_md": "ตอบ ประสบ เพราะ ประสบความสำเร็จ เป็นคู่คำที่ถูกต้อง",
+      "hints": [
+        "ช่องว่างต้องเป็นคำชนิดใด",
+        "คำใดใช้คู่กับ ความสำเร็จ",
+        "ตัดตัวเลือกที่ความหมายไม่ใช่การได้รับ"
+      ],
+      "distractor_reasons": {
+        "0": "ประสม แปลว่าผสม",
+        "1": "ประสงค์ แปลว่าต้องการ ไม่ใช่ได้รับ",
+        "2": "เป็นคำนาม ไม่ใช่กริยา",
+        "4": "ประสาน ใช้กับการเชื่อมหรือร่วมมือ"
+      },
+      "misconception_tags": [
+        "collocation"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.language.usage.completion_vocabulary.0002",
+      "topic_ids": [
+        "tgat2.language.usage.completion_vocabulary"
+      ],
+      "primary_topic_id": "tgat2.language.usage.completion_vocabulary",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 35,
+      "stem_md": "\"รัฐบาลมีนโยบาย ___ อาชีพให้ชุมชนที่ได้รับผลกระทบจากน้ำท่วม\" คำใดเหมาะสมที่สุด",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ส่งเสริม",
+          "is_answer": true
+        },
+        {
+          "md": "ส่งต่อ",
+          "is_answer": false
+        },
+        {
+          "md": "ส่งออก",
+          "is_answer": false
+        },
+        {
+          "md": "ส่งคืน",
+          "is_answer": false
+        },
+        {
+          "md": "ส่งเสีย",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ช่องว่างเป็นกริยาที่มีกรรม อาชีพ",
+          "why_md": "ชนิดคำ"
+        },
+        {
+          "do_md": "ส่งเสริมอาชีพ = สนับสนุนให้มีอาชีพ",
+          "why_md": "คู่คำ"
+        }
+      ],
+      "answer_explanation_md": "ตอบ ส่งเสริม เพราะ ส่งเสริมอาชีพ หมายถึงสนับสนุนให้ชุมชนมีอาชีพ",
+      "hints": [
+        "ช่องว่างต้องเป็นคำชนิดใด",
+        "คำใดใช้คู่กับ อาชีพ ได้เป็นธรรมชาติ",
+        "ระวังคำที่ขึ้นต้นเหมือนกันแต่ความหมายต่าง"
+      ],
+      "distractor_reasons": {
+        "1": "ส่งต่อไม่เข้ากับ อาชีพ ในบริบทนี้",
+        "2": "ใช้กับสินค้า",
+        "3": "อาชีพไม่ใช่สิ่งที่ส่งคืนได้",
+        "4": "ส่งเสีย ใช้กับการส่งเงินเลี้ยงดูคน เช่น ส่งเสียลูกเรียน"
+      },
+      "misconception_tags": [
+        "collocation"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.language.usage.completion_vocabulary.0003",
+      "topic_ids": [
+        "tgat2.language.usage.completion_vocabulary"
+      ],
+      "primary_topic_id": "tgat2.language.usage.completion_vocabulary",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 35,
+      "stem_md": "\"นักวิจัยต้อง ___ ข้อมูลอย่างรอบคอบก่อนสรุปผลการทดลอง\" คำใดเหมาะสมที่สุด",
+      "figures": [],
+      "choices": [
+        {
+          "md": "วิเคราะห์",
+          "is_answer": true
+        },
+        {
+          "md": "วิตก",
+          "is_answer": false
+        },
+        {
+          "md": "วิจารณ์",
+          "is_answer": false
+        },
+        {
+          "md": "วิวาท",
+          "is_answer": false
+        },
+        {
+          "md": "วิเศษ",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ช่องว่างเป็นกริยาที่มีกรรม ข้อมูล",
+          "why_md": "ชนิดคำ"
+        },
+        {
+          "do_md": "ก่อนสรุปผลต้องแยกแยะข้อมูล = วิเคราะห์",
+          "why_md": "คู่คำ"
+        }
+      ],
+      "answer_explanation_md": "ตอบ วิเคราะห์ เพราะ วิเคราะห์ข้อมูล คือการแยกแยะตรวจสอบก่อนสรุปผล",
+      "hints": [
+        "ช่องว่างต้องเป็นคำชนิดใด",
+        "ก่อนสรุปผล นักวิจัยต้องทำอะไรกับข้อมูล",
+        "คำใดใช้คู่กับ ข้อมูล"
+      ],
+      "distractor_reasons": {
+        "1": "วิตกแปลว่ากังวล ไม่มีกรรม",
+        "2": "วิจารณ์ใช้กับผลงานหรือความคิดเห็น",
+        "3": "วิวาทแปลว่าทะเลาะ",
+        "4": "เป็นคำขยาย ไม่ใช่กริยา"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.language.usage.completion_vocabulary.0004",
+      "topic_ids": [
+        "tgat2.language.usage.completion_vocabulary"
+      ],
+      "primary_topic_id": "tgat2.language.usage.completion_vocabulary",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 40,
+      "stem_md": "\"ถนนสายนี้ ___ ไปด้วยรถในช่วงเย็น ___ ควรเผื่อเวลาเดินทาง\" คำใดเติมได้เหมาะสมที่สุด",
+      "figures": [],
+      "choices": [
+        {
+          "md": "โล่ง · ดังนั้น",
+          "is_answer": false
+        },
+        {
+          "md": "คับคั่ง · จึง",
+          "is_answer": true
+        },
+        {
+          "md": "บางตา · จึง",
+          "is_answer": false
+        },
+        {
+          "md": "เงียบเหงา · เพราะ",
+          "is_answer": false
+        },
+        {
+          "md": "คับคั่ง · แต่",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ช่องแรก: ถนน...ไปด้วยรถ ต้องเป็นคำบอกความหนาแน่น",
+          "why_md": "คับคั่ง"
+        },
+        {
+          "do_md": "ช่องที่สอง: รถแน่นเป็นเหตุ เผื่อเวลาเป็นผล",
+          "why_md": "จึง"
+        }
+      ],
+      "answer_explanation_md": "ตอบ คับคั่ง · จึง เพราะรถแน่นเป็นเหตุให้ต้องเผื่อเวลา",
+      "hints": [
+        "ช่องแรก ถนนเป็นอย่างไรจึงต้องเผื่อเวลา",
+        "สองข้อความเป็นเหตุ-ผลหรือขัดแย้ง",
+        "ตรวจให้ทั้งสองช่องถูกพร้อมกัน"
+      ],
+      "distractor_reasons": {
+        "0": "ถนนโล่งไม่ทำให้ต้องเผื่อเวลา",
+        "2": "รถบางตาไม่ทำให้ต้องเผื่อเวลา",
+        "3": "ความหมายและคำเชื่อมไม่เข้ากัน",
+        "4": "รถมากกับการเผื่อเวลาไปทางเดียวกัน ไม่ขัดแย้ง"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.language.usage.completion_vocabulary.0005",
+      "topic_ids": [
+        "tgat2.language.usage.completion_vocabulary"
+      ],
+      "primary_topic_id": "tgat2.language.usage.completion_vocabulary",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 35,
+      "stem_md": "\"โครงการนี้ช่วยให้นักเรียนในชนบท ___ แหล่งเรียนรู้ออนไลน์ได้สะดวกขึ้น\" คำใดเหมาะสมที่สุด",
+      "figures": [],
+      "choices": [
+        {
+          "md": "เข้าเฝ้า",
+          "is_answer": false
+        },
+        {
+          "md": "เข้าข้าง",
+          "is_answer": false
+        },
+        {
+          "md": "เข้าใจ",
+          "is_answer": false
+        },
+        {
+          "md": "เข้าร่วม",
+          "is_answer": false
+        },
+        {
+          "md": "เข้าถึง",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ช่องว่างเป็นกริยาที่มีกรรม แหล่งเรียนรู้",
+          "why_md": "ชนิดคำ"
+        },
+        {
+          "do_md": "ได้สะดวกขึ้น บ่งบอกการไปถึงหรือใช้งานได้ = เข้าถึง",
+          "why_md": "คู่คำ"
+        }
+      ],
+      "answer_explanation_md": "ตอบ เข้าถึง เพราะ เข้าถึงแหล่งเรียนรู้ หมายถึงสามารถไปใช้แหล่งเรียนรู้ได้",
+      "hints": [
+        "คำใดใช้คู่กับ แหล่งเรียนรู้",
+        "ได้สะดวกขึ้น สื่อถึงอะไร",
+        "ตัดคำที่ใช้กับกิจกรรมหรือบุคคล"
+      ],
+      "distractor_reasons": {
+        "0": "ใช้กับการพบเจ้านายหรือผู้สูงศักดิ์",
+        "1": "หมายถึงเห็นด้วยหรือเลือกฝ่าย",
+        "2": "เข้าใจ ใช้กับเนื้อหาหรือความคิด ไม่ใช่แหล่งเรียนรู้",
+        "3": "ใช้กับกิจกรรมหรือการประชุม"
+      },
+      "misconception_tags": [
+        "collocation"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.language.usage.completion_vocabulary.0006",
+      "topic_ids": [
+        "tgat2.language.usage.completion_vocabulary"
+      ],
+      "primary_topic_id": "tgat2.language.usage.completion_vocabulary",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 30,
+      "stem_md": "\"หลังจากทำงานร่วมกันมาสองปี ทีมนี้ก็ ___ เป้าหมายที่ตั้งไว้ตั้งแต่ต้น\" คำใดเหมาะสมที่สุด",
+      "figures": [],
+      "choices": [
+        {
+          "md": "บรรยาย",
+          "is_answer": false
+        },
+        {
+          "md": "บรรเทา",
+          "is_answer": false
+        },
+        {
+          "md": "บรรลุ",
+          "is_answer": true
+        },
+        {
+          "md": "บรรจุ",
+          "is_answer": false
+        },
+        {
+          "md": "ประสบ",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ช่องว่างเป็นกริยาที่มีกรรมคือ เป้าหมาย",
+          "why_md": "ชนิดคำ"
+        },
+        {
+          "do_md": "คำที่ใช้คู่กับ เป้าหมาย คือ บรรลุ",
+          "why_md": "คู่คำ"
+        }
+      ],
+      "answer_explanation_md": "ตอบ บรรลุ เพราะ บรรลุเป้าหมาย เป็นคู่คำที่ถูกต้อง",
+      "hints": [
+        "ช่องว่างต้องเป็นคำชนิดใด",
+        "คำใดใช้คู่กับ เป้าหมาย",
+        "ระวังคำที่ขึ้นต้นคล้ายกันแต่ความหมายต่าง"
+      ],
+      "distractor_reasons": {
+        "0": "บรรยายคือเล่าหรืออธิบาย",
+        "1": "บรรเทาคือทำให้เบาลง",
+        "3": "บรรจุคือใส่ลงในภาชนะหรือรับเข้าทำงาน",
+        "4": "ประสบใช้คู่กับความสำเร็จหรือเหตุการณ์ ไม่ใช้กับเป้าหมาย"
+      },
+      "misconception_tags": [
+        "collocation"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    }
+  ],
+  "generated_from": "content/tgat2/language_core.py"
+}

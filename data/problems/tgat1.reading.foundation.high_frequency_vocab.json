@@ -1,0 +1,591 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tgat1.reading.foundation.high_frequency_vocab",
+  "problems": [
+    {
+      "id": "prob.tgat1.reading.foundation.high_frequency_vocab.0001",
+      "topic_ids": [
+        "tgat1.reading.foundation.high_frequency_vocab"
+      ],
+      "primary_topic_id": "tgat1.reading.foundation.high_frequency_vocab",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 20,
+      "stem_md": "Regular exercise has many **benefits** for mental health. The word *benefits* is closest in meaning to...",
+      "figures": [],
+      "choices": [
+        {
+          "md": "advantages",
+          "is_answer": true
+        },
+        {
+          "md": "rules",
+          "is_answer": false
+        },
+        {
+          "md": "costs",
+          "is_answer": false
+        },
+        {
+          "md": "problems",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "benefit = ประโยชน์",
+          "why_md": "คำพ้อง advantage"
+        },
+        {
+          "do_md": "เลือก",
+          "why_md": "advantages"
+        }
+      ],
+      "answer_explanation_md": "ตอบ advantages เพราะ benefits แปลว่าประโยชน์ ซึ่งมีความหมายเดียวกับ advantages",
+      "hints": [
+        "benefit แปลว่าอะไร",
+        "การออกกำลังกายให้ผลดีหรือผลเสียต่อสุขภาพจิต",
+        "หาคำที่มีความหมายด้านบวกเหมือนกัน"
+      ],
+      "distractor_reasons": {
+        "1": "ไม่ใช่ความหมายของ benefit",
+        "2": "ไม่ใช่ความหมายของ benefit",
+        "3": "ตรงข้ามความหมาย"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.reading.foundation.high_frequency_vocab.0002",
+      "topic_ids": [
+        "tgat1.reading.foundation.high_frequency_vocab"
+      ],
+      "primary_topic_id": "tgat1.reading.foundation.high_frequency_vocab",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 30,
+      "stem_md": "The price of vegetables usually ______ during the rainy season.",
+      "figures": [],
+      "choices": [
+        {
+          "md": "rise",
+          "is_answer": false
+        },
+        {
+          "md": "rises",
+          "is_answer": true
+        },
+        {
+          "md": "raises",
+          "is_answer": false
+        },
+        {
+          "md": "arose",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ราคาสูงขึ้นเอง ไม่มีกรรม",
+          "why_md": "ใช้ rise"
+        },
+        {
+          "do_md": "ประธานเอกพจน์ present simple",
+          "why_md": "rises"
+        }
+      ],
+      "answer_explanation_md": "ตอบ rises เพราะราคาสูงขึ้นเองโดยไม่มีกรรม ใช้ rise และประธานเอกพจน์ต้องเติม -s",
+      "hints": [
+        "หลังช่องว่างมีกรรมไหม",
+        "rise กับ raise ต่างกันอย่างไร",
+        "ประธาน The price เป็นเอกพจน์"
+      ],
+      "distractor_reasons": {
+        "0": "ประธานเอกพจน์ต้องเติม -s",
+        "2": "raise ต้องมีกรรม แต่ประโยคนี้ไม่มีกรรม",
+        "3": "arise แปลว่าเกิดขึ้น ความหมายไม่ตรง"
+      },
+      "misconception_tags": [
+        "affect_effect"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.reading.foundation.high_frequency_vocab.0003",
+      "topic_ids": [
+        "tgat1.reading.foundation.high_frequency_vocab"
+      ],
+      "primary_topic_id": "tgat1.reading.foundation.high_frequency_vocab",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 25,
+      "stem_md": "Too much screen time can have a negative ______ on children's sleep.",
+      "figures": [],
+      "choices": [
+        {
+          "md": "effectively",
+          "is_answer": false
+        },
+        {
+          "md": "effect",
+          "is_answer": true
+        },
+        {
+          "md": "affect",
+          "is_answer": false
+        },
+        {
+          "md": "effective",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "หลัง a negative ต้องเป็นคำนาม",
+          "why_md": "effect"
+        },
+        {
+          "do_md": "have an effect on",
+          "why_md": "คู่คำมาตรฐาน"
+        }
+      ],
+      "answer_explanation_md": "ตอบ effect เพราะตำแหน่งหลัง a negative ต้องเป็นคำนาม และ have an effect on เป็นคู่คำมาตรฐาน",
+      "hints": [
+        "ช่องว่างอยู่หลังคำอะไร",
+        "ต้องการคำนามหรือกริยา",
+        "affect กับ effect อันไหนเป็นคำนาม"
+      ],
+      "distractor_reasons": {
+        "0": "เป็นกริยาวิเศษณ์",
+        "2": "ตำแหน่งหลัง a negative ต้องเป็นคำนาม affect เป็นกริยา",
+        "3": "เป็นคุณศัพท์"
+      },
+      "misconception_tags": [
+        "affect_effect"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.reading.foundation.high_frequency_vocab.0004",
+      "topic_ids": [
+        "tgat1.reading.foundation.high_frequency_vocab"
+      ],
+      "primary_topic_id": "tgat1.reading.foundation.high_frequency_vocab",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 30,
+      "stem_md": "The number of visitors to the museum **declined** after the ticket price increased. *declined* means...",
+      "figures": [],
+      "choices": [
+        {
+          "md": "stayed the same",
+          "is_answer": false
+        },
+        {
+          "md": "refused politely",
+          "is_answer": false
+        },
+        {
+          "md": "went down",
+          "is_answer": true
+        },
+        {
+          "md": "went up",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "บริบท: จำนวนคนหลังราคาตั๋วสูงขึ้น",
+          "why_md": "คนมาน้อยลง"
+        },
+        {
+          "do_md": "decline ในบริบทจำนวน = ลดลง",
+          "why_md": "went down"
+        }
+      ],
+      "answer_explanation_md": "ตอบ went down เพราะในบริบทจำนวน decline แปลว่าลดลง ซึ่งสอดคล้องกับราคาตั๋วที่สูงขึ้น",
+      "hints": [
+        "คำนี้ใช้กับจำนวนคน",
+        "ราคาตั๋วสูงขึ้น คนจะมามากขึ้นหรือน้อยลง",
+        "decline มีสองความหมาย ความหมายไหนเข้ากับบริบท"
+      ],
+      "distractor_reasons": {
+        "0": "ไม่ใช่ความหมายของ decline",
+        "1": "decline แปลว่าปฏิเสธได้ แต่ในบริบทจำนวนคนต้องแปลว่าลดลง",
+        "3": "ตรงข้ามความหมาย"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.reading.foundation.high_frequency_vocab.0005",
+      "topic_ids": [
+        "tgat1.reading.foundation.high_frequency_vocab"
+      ],
+      "primary_topic_id": "tgat1.reading.foundation.high_frequency_vocab",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 30,
+      "stem_md": "Buying a bicycle is more ______ than taking a taxi every day. It saves a lot of money.",
+      "figures": [],
+      "choices": [
+        {
+          "md": "economical",
+          "is_answer": true
+        },
+        {
+          "md": "economic",
+          "is_answer": false
+        },
+        {
+          "md": "economy",
+          "is_answer": false
+        },
+        {
+          "md": "economist",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "บริบท: It saves a lot of money.",
+          "why_md": "ต้องการคำที่แปลว่าประหยัด"
+        },
+        {
+          "do_md": "economical = ประหยัด",
+          "why_md": "เลือก"
+        }
+      ],
+      "answer_explanation_md": "ตอบ economical เพราะประโยคถัดไปบอกว่าประหยัดเงิน และ economical แปลว่าประหยัด",
+      "hints": [
+        "ประโยคถัดไปบอกอะไร",
+        "คำกลุ่มนี้ต่างกันที่ชนิดของคำและความหมาย ลองแยกว่าคำใดเป็นคำนาม",
+        "ช่องว่างต้องการคุณศัพท์ที่แปลว่าอะไร"
+      ],
+      "distractor_reasons": {
+        "1": "economic แปลว่าเกี่ยวกับเศรษฐกิจ ไม่ใช่ประหยัด",
+        "2": "เป็นคำนาม",
+        "3": "เป็นคำนามที่หมายถึงนักเศรษฐศาสตร์"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.reading.foundation.high_frequency_vocab.0006",
+      "topic_ids": [
+        "tgat1.reading.foundation.high_frequency_vocab"
+      ],
+      "primary_topic_id": "tgat1.reading.foundation.high_frequency_vocab",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 25,
+      "stem_md": "The school **encourages** students to join at least one club. *encourages* is closest in meaning to...",
+      "figures": [],
+      "choices": [
+        {
+          "md": "does not allow",
+          "is_answer": false
+        },
+        {
+          "md": "pays for",
+          "is_answer": false
+        },
+        {
+          "md": "forces with punishment",
+          "is_answer": false
+        },
+        {
+          "md": "supports and motivates",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "encourage = สนับสนุน ส่งเสริม",
+          "why_md": "supports and motivates"
+        },
+        {
+          "do_md": "ตัดตัวที่บังคับหรือห้าม",
+          "why_md": "ไม่ตรงความหมาย"
+        }
+      ],
+      "answer_explanation_md": "ตอบ supports and motivates เพราะ encourage แปลว่าส่งเสริมและสนับสนุนให้ทำ",
+      "hints": [
+        "encourage แปลว่าอะไร",
+        "เป็นการบังคับ ห้าม หรือส่งเสริม",
+        "หาตัวเลือกที่ความหมายใกล้ที่สุด"
+      ],
+      "distractor_reasons": {
+        "0": "ตรงข้ามความหมาย",
+        "1": "ไม่ใช่ความหมายของ encourage",
+        "2": "encourage ไม่ใช่การบังคับด้วยการลงโทษ"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.reading.foundation.high_frequency_vocab.0007",
+      "topic_ids": [
+        "tgat1.reading.foundation.high_frequency_vocab"
+      ],
+      "primary_topic_id": "tgat1.reading.foundation.high_frequency_vocab",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 55,
+      "stem_md": "The museum introduced flexible ticket prices to make visits more ______ for low-income families.",
+      "figures": [],
+      "choices": [
+        {
+          "md": "effective",
+          "is_answer": false
+        },
+        {
+          "md": "available",
+          "is_answer": false
+        },
+        {
+          "md": "affordable",
+          "is_answer": true
+        },
+        {
+          "md": "economic",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ระบุสิ่งที่โจทย์ถาม",
+          "why_md": "flexible prices มีเป้าหมายช่วยครอบครัวรายได้น้อย"
+        },
+        {
+          "do_md": "ตรวจด้วยบริบทรอบจุดสำคัญ",
+          "why_md": "เลือกคำตอบที่มีหลักฐานรองรับครบ ไม่เติมข้อมูลเอง"
+        }
+      ],
+      "answer_explanation_md": "affordable หมายถึงราคาเอื้อมถึง",
+      "hints": [
+        "ขีดเส้นคำหรือประโยคที่เป็นหลักฐาน",
+        "ตัดตัวเลือกที่จริงบางส่วนแต่ตอบคนละคำถาม",
+        "ตรวจว่าคำตอบไม่กว้างหรือแคบเกินข้อความ"
+      ],
+      "distractor_reasons": {
+        "0": "แปลว่าได้ผล ไม่ใช่ราคาพอจ่าย",
+        "1": "แปลว่ามีให้ใช้ ไม่เน้นราคา",
+        "3": "เกี่ยวกับเศรษฐกิจโดยรวม ไม่แปลว่าราคาเอื้อมถึง"
+      },
+      "misconception_tags": [
+        "common_meaning_trap"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.reading.foundation.high_frequency_vocab.0008",
+      "topic_ids": [
+        "tgat1.reading.foundation.high_frequency_vocab"
+      ],
+      "primary_topic_id": "tgat1.reading.foundation.high_frequency_vocab",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 5,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": true,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 75,
+      "stem_md": "The new rule may ______ small vendors, but its long-term ______ is still uncertain.",
+      "figures": [],
+      "choices": [
+        {
+          "md": "effect; effect",
+          "is_answer": false
+        },
+        {
+          "md": "effect; affect",
+          "is_answer": false
+        },
+        {
+          "md": "affect; affect",
+          "is_answer": false
+        },
+        {
+          "md": "affect; effect",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ระบุสิ่งที่โจทย์ถาม",
+          "why_md": "หลัง may ใช้กริยา ส่วนหลัง its long-term ใช้คำนาม"
+        },
+        {
+          "do_md": "ตรวจด้วยบริบทรอบจุดสำคัญ",
+          "why_md": "เลือกคำตอบที่มีหลักฐานรองรับครบ ไม่เติมข้อมูลเอง"
+        }
+      ],
+      "answer_explanation_md": "affect เป็นกริยา และ effect เป็นคำนาม",
+      "hints": [
+        "ขีดเส้นคำหรือประโยคที่เป็นหลักฐาน",
+        "ตัดตัวเลือกที่จริงบางส่วนแต่ตอบคนละคำถาม",
+        "ตรวจว่าคำตอบไม่กว้างหรือแคบเกินข้อความ"
+      ],
+      "distractor_reasons": {
+        "0": "ช่องแรก after may ต้องกริยาความหมายกระทบ",
+        "1": "สลับชนิดคำ: ช่องแรกต้องกริยา ช่องสองคำนาม",
+        "2": "ช่องหลัง long-term ต้องคำนาม"
+      },
+      "misconception_tags": [
+        "affect_effect"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    }
+  ],
+  "generated_from": "content/tgat1/reading.py"
+}

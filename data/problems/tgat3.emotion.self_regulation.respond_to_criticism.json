@@ -1,0 +1,661 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tgat3.emotion.self_regulation.respond_to_criticism",
+  "problems": [
+    {
+      "id": "prob.tgat3.emotion.self_regulation.respond_to_criticism.0001",
+      "topic_ids": [
+        "tgat3.emotion.self_regulation.respond_to_criticism"
+      ],
+      "primary_topic_id": "tgat3.emotion.self_regulation.respond_to_criticism",
+      "exam_code": "TGAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT3 สมรรถนะการทำงาน แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4_tiered",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 60,
+      "stem_md": "ครูสอนศิลปะวิจารณ์ผลงานของคุณว่า \"สีดูหม่นเกินไป\" ต่อหน้าเพื่อนในห้อง คุณรู้สึกเสียหน้า คุณควรทำอย่างไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "อธิบายกับครูทันทีว่าตั้งใจใช้สีหม่นเพื่อสื่ออารมณ์เศร้า และคิดว่าเป็นทางเลือกที่เหมาะกับงานชิ้นนี้แล้ว",
+          "is_answer": false,
+          "score": 0.75
+        },
+        {
+          "md": "เงียบแล้วไม่แก้อะไรเลย",
+          "is_answer": false,
+          "score": 0.5
+        },
+        {
+          "md": "บอกเพื่อนหลังเลิกเรียนว่าครูไม่เข้าใจงานศิลปะ",
+          "is_answer": false,
+          "score": 0.25
+        },
+        {
+          "md": "ขอบคุณครู แล้วถามว่าถ้าจะให้สีสดขึ้นควรปรับอย่างไร",
+          "is_answer": true,
+          "score": 1
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "แยกงานออกจากตัวตน",
+          "why_md": "ครูวิจารณ์สีในงาน ไม่ได้วิจารณ์ตัวเรา"
+        },
+        {
+          "do_md": "ขอบคุณและถามให้ชัด",
+          "why_md": "ได้คำแนะนำที่นำไปใช้ได้"
+        },
+        {
+          "do_md": "ถ้ามีเจตนาพิเศษ ค่อยอธิบายหลังฟังจบ",
+          "why_md": "รักษาความน่าเชื่อถือ"
+        }
+      ],
+      "answer_explanation_md": "ขอบคุณและถามว่าจะปรับอย่างไรดีที่สุด เพราะแยกงานออกจากตัวตน และเปลี่ยนคำวิจารณ์เป็นคำแนะนำที่ใช้ได้จริง",
+      "hints": [
+        "ครูวิจารณ์อะไร ตัวเราหรืองาน",
+        "เราจะได้อะไรถ้าถามครูต่อ",
+        "หาตัวเลือกที่รับฟังและเปลี่ยนคำวิจารณ์เป็นสิ่งที่นำไปใช้ได้"
+      ],
+      "distractor_reasons": {
+        "0": "ชี้แจงเจตนาได้ดี แต่ถ้ารีบแก้ตัวทันทีอาจดูเหมือนไม่ฟัง ควรฟังก่อนแล้วค่อยอธิบาย",
+        "1": "ไม่ตอบโต้หรือทำให้สถานการณ์แย่ลง แต่ไม่ได้ถามให้ชัดหรือใช้ประโยชน์จากคำวิจารณ์",
+        "2": "ระบายอารมณ์ลับหลัง ไม่ได้แก้อะไรและทำให้ดูไม่น่าเชื่อถือ"
+      },
+      "misconception_tags": [
+        "defensive_response"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat3.emotion.self_regulation.respond_to_criticism.0002",
+      "topic_ids": [
+        "tgat3.emotion.self_regulation.respond_to_criticism"
+      ],
+      "primary_topic_id": "tgat3.emotion.self_regulation.respond_to_criticism",
+      "exam_code": "TGAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT3 สมรรถนะการทำงาน แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4_tiered",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 60,
+      "stem_md": "ในที่ประชุมชมรม เพื่อนคนหนึ่งบอกว่าคุณในฐานะเหรัญญิก \"ใช้เงินชมรมไม่โปร่งใส\" ซึ่งไม่เป็นความจริง คุณมีใบเสร็จครบทุกรายการ คุณควรทำอย่างไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ขอบคุณที่ถาม แล้วเสนอเปิดบัญชีและใบเสร็จให้ทุกคนดู และตั้งระบบรายงานทุกเดือน",
+          "is_answer": true,
+          "score": 1
+        },
+        {
+          "md": "บอกว่าจะนำใบเสร็จมาให้ดูในการประชุมครั้งหน้า",
+          "is_answer": false,
+          "score": 0.75
+        },
+        {
+          "md": "ลาออกจากตำแหน่งเหรัญญิกเพราะเสียใจที่ไม่มีคนไว้ใจ",
+          "is_answer": false,
+          "score": 0.5
+        },
+        {
+          "md": "โต้กลับว่าเพื่อนกล่าวหาโดยไม่มีหลักฐาน และขอให้เพื่อนขอโทษต่อหน้าที่ประชุมทันที",
+          "is_answer": false,
+          "score": 0.25
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ไม่ตอบโต้ด้วยอารมณ์",
+          "why_md": "ความใจเย็นช่วยรักษาความน่าเชื่อถือ"
+        },
+        {
+          "do_md": "ชี้แจงด้วยข้อเท็จจริงทันที",
+          "why_md": "ใบเสร็จและบัญชีเป็นหลักฐาน"
+        },
+        {
+          "do_md": "ตั้งระบบรายงานประจำ",
+          "why_md": "ป้องกันข้อสงสัยในอนาคต"
+        }
+      ],
+      "answer_explanation_md": "เปิดบัญชีและใบเสร็จให้ดูพร้อมตั้งระบบรายงานดีที่สุด เพราะชี้แจงด้วยข้อเท็จจริงอย่างใจเย็น และสร้างความโปร่งใสระยะยาว",
+      "hints": [
+        "คำวิจารณ์นี้ถูกต้องไหม และเรามีหลักฐานอะไร",
+        "การโต้กลับด้วยอารมณ์ทำให้คนอื่นมองเราอย่างไร",
+        "หาตัวเลือกที่ชี้แจงด้วยข้อเท็จจริงและป้องกันปัญหาซ้ำ"
+      ],
+      "distractor_reasons": {
+        "1": "ชี้แจงด้วยข้อเท็จจริง แต่ปล่อยให้ข้อสงสัยค้างไว้ และไม่ได้สร้างระบบป้องกันข้อสงสัยในอนาคต",
+        "2": "หลีกเลี่ยงความขัดแย้ง แต่ไม่ได้ชี้แจงข้อเท็จจริงหรือแก้ข้อสงสัยเรื่องเงินส่วนรวม",
+        "3": "ตอบด้วยอารมณ์ ทำให้ดูเหมือนมีอะไรต้องปกป้อง"
+      },
+      "misconception_tags": [
+        "defensive_response"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat3.emotion.self_regulation.respond_to_criticism.0003",
+      "topic_ids": [
+        "tgat3.emotion.self_regulation.respond_to_criticism"
+      ],
+      "primary_topic_id": "tgat3.emotion.self_regulation.respond_to_criticism",
+      "exam_code": "TGAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT3 สมรรถนะการทำงาน แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4_tiered",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 60,
+      "stem_md": "คุณเป็นนักศึกษาฝึกงาน หัวหน้าส่งอีเมลตอบกลับรายงานของคุณว่ามีข้อผิดพลาดหลายจุด และเขียนว่า \"ควรระวังมากกว่านี้\" คุณควรทำอย่างไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ตอบกลับอธิบายว่าแต่ละจุดผิดเพราะอะไร เช่น ข้อมูลที่ได้รับมาไม่ครบ และมีเวลาทำน้อยกว่าที่ควร",
+          "is_answer": false,
+          "score": 0.5
+        },
+        {
+          "md": "รู้สึกเสียใจจนไม่กล้าส่งงานใหม่",
+          "is_answer": false,
+          "score": 0.25
+        },
+        {
+          "md": "แก้ทุกจุดที่ระบุ แล้วตอบกลับสั้น ๆ ว่าแก้แล้ว และจะใช้วิธีตรวจทานก่อนส่ง",
+          "is_answer": true,
+          "score": 1
+        },
+        {
+          "md": "แก้งานแล้วส่งกลับโดยไม่พูดอะไร",
+          "is_answer": false,
+          "score": 0.75
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "แยกงานออกจากตัวตน",
+          "why_md": "หัวหน้าวิจารณ์ข้อผิดพลาดในรายงาน"
+        },
+        {
+          "do_md": "แก้ทุกจุด",
+          "why_md": "ตอบสนองต่อคำวิจารณ์ด้วยการกระทำ"
+        },
+        {
+          "do_md": "บอกวิธีป้องกัน",
+          "why_md": "แสดงว่ารับฟังจริงและรักษาความน่าเชื่อถือ"
+        }
+      ],
+      "answer_explanation_md": "แก้ทุกจุดและบอกวิธีตรวจทานที่จะใช้ดีที่สุด เพราะตอบสนองด้วยการกระทำ และแสดงความรับผิดชอบที่ป้องกันไม่ให้เกิดซ้ำ",
+      "hints": [
+        "คำวิจารณ์ของหัวหน้ามีประโยชน์อะไร",
+        "การอธิบายเหตุผลของความผิดพลาดแต่ละจุดจำเป็นไหม",
+        "หาตัวเลือกที่แก้งานและแสดงว่าจะไม่พลาดซ้ำ"
+      ],
+      "distractor_reasons": {
+        "0": "ให้ข้อมูลบางส่วน แต่เน้นแก้ตัวมากกว่าแก้งาน",
+        "1": "ให้อารมณ์หยุดการทำงาน",
+        "3": "แก้งานถูกต้อง แต่ไม่ได้แสดงว่ารับฟังและมีแผนป้องกันไม่ให้เกิดซ้ำ"
+      },
+      "misconception_tags": [
+        "defensive_response"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat3.emotion.self_regulation.respond_to_criticism.0004",
+      "topic_ids": [
+        "tgat3.emotion.self_regulation.respond_to_criticism"
+      ],
+      "primary_topic_id": "tgat3.emotion.self_regulation.respond_to_criticism",
+      "exam_code": "TGAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT3 สมรรถนะการทำงาน แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4_tiered",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 60,
+      "stem_md": "คุณโพสต์ผลงานวาดภาพลงโซเชียลมีเดีย มีคนแปลกหน้าคอมเมนต์ว่า \"วาดแย่มาก เลิกวาดไปเถอะ\" คุณรู้สึกแย่ คุณควรทำอย่างไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ลบโพสต์และพักวาดรูปไปก่อน",
+          "is_answer": false,
+          "score": 0.5
+        },
+        {
+          "md": "ไม่ตอบโต้ แยกคำดูถูกออกจากคำติชมที่มีประโยชน์ แล้ววาดต่อไป",
+          "is_answer": true,
+          "score": 1
+        },
+        {
+          "md": "ตอบกลับอย่างสุภาพถามว่าส่วนไหนที่ควรปรับ เผื่อจะได้คำแนะนำที่เป็นประโยชน์ในการพัฒนางานต่อไป",
+          "is_answer": false,
+          "score": 0.75
+        },
+        {
+          "md": "ตอบกลับด้วยคำพูดแรง ๆ เพื่อให้คนนั้นรู้ว่าทำร้ายความรู้สึก และให้คนอื่นที่เข้ามาอ่านเห็นว่าเขาผิด",
+          "is_answer": false,
+          "score": 0.25
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "แยกแยะ: คำดูถูกตัวบุคคล กับคำวิจารณ์งาน",
+          "why_md": "คอมเมนต์นี้ไม่ได้ให้ข้อมูลเรื่องงาน"
+        },
+        {
+          "do_md": "ไม่ตอบโต้",
+          "why_md": "ป้องกันการบานปลาย"
+        },
+        {
+          "do_md": "ฟังคำติชมที่มีประโยชน์และทำต่อ",
+          "why_md": "ใช้คำวิจารณ์ที่ดีพัฒนางาน"
+        }
+      ],
+      "answer_explanation_md": "ไม่ตอบโต้ แยกคำดูถูกออกจากคำติชมที่มีประโยชน์ แล้วทำต่อดีที่สุด เพราะรักษาอารมณ์และความน่าเชื่อถือ และยังเปิดรับคำวิจารณ์ที่ดี",
+      "hints": [
+        "คอมเมนต์นี้บอกอะไรเกี่ยวกับงานไหม หรือเป็นแค่การดูถูก",
+        "การตอบโต้ในที่สาธารณะได้ประโยชน์อะไร",
+        "หาตัวเลือกที่แยกคำดูถูกออกจากคำวิจารณ์ที่ใช้ได้"
+      ],
+      "distractor_reasons": {
+        "0": "ลดการเผชิญกับคำดูถูกได้ชั่วคราว แต่ให้อารมณ์หยุดสิ่งที่ตัวเองรักและไม่ได้แยกคำดูถูกออกจากคำติชม",
+        "2": "รับฟังอย่างเปิดใจ แต่คอมเมนต์นี้เป็นการดูถูก ไม่ใช่คำวิจารณ์งาน การตอบอาจไม่ได้ประโยชน์",
+        "3": "ตอบโต้ด้วยอารมณ์ในที่สาธารณะ ทำให้ความขัดแย้งบานปลาย"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat3.emotion.self_regulation.respond_to_criticism.0005",
+      "topic_ids": [
+        "tgat3.emotion.self_regulation.respond_to_criticism"
+      ],
+      "primary_topic_id": "tgat3.emotion.self_regulation.respond_to_criticism",
+      "exam_code": "TGAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT3 สมรรถนะการทำงาน แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4_tiered",
+      "difficulty": 4,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "high"
+      },
+      "est_seconds": 60,
+      "stem_md": "คุณเป็นหัวหน้าโครงการของสภานักเรียน หลังจบงาน ครูที่ปรึกษาสรุปในที่ประชุมว่างานมีปัญหาด้านการประสานงานหลายจุด ทีมงานบางคนมองมาที่คุณ คุณควรทำอย่างไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ยอมรับในฐานะหัวหน้า ถามครูว่าจุดไหนสำคัญที่สุด และเสนอให้ทีมสรุปบทเรียน",
+          "is_answer": true,
+          "score": 1
+        },
+        {
+          "md": "รับฟังเงียบ ๆ แล้วเขียนสรุปข้อผิดพลาดด้วยตัวเองส่งให้ครูในภายหลัง พร้อมแนวทางแก้ไขที่คิดไว้",
+          "is_answer": false,
+          "score": 0.75
+        },
+        {
+          "md": "ชี้แจงว่าปัญหาการประสานงานส่วนใหญ่เกิดจากฝ่ายต่าง ๆ ที่ไม่ส่งข้อมูลตามเวลา ไม่ใช่เพราะหัวหน้า",
+          "is_answer": false,
+          "score": 0.25
+        },
+        {
+          "md": "ขอโทษครูและทีม แล้วบอกว่าคราวหน้าจะไม่รับเป็นหัวหน้าอีก",
+          "is_answer": false,
+          "score": 0.5
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ยอมรับในฐานะผู้รับผิดชอบโครงการ",
+          "why_md": "ไม่โยนความผิด"
+        },
+        {
+          "do_md": "ถามให้ชัดว่าจุดไหนสำคัญ",
+          "why_md": "เปลี่ยนคำวิจารณ์เป็นสิ่งที่แก้ได้"
+        },
+        {
+          "do_md": "ชวนทีมสรุปบทเรียน",
+          "why_md": "ทุกคนได้พัฒนา และความสัมพันธ์ในทีมดีขึ้น"
+        }
+      ],
+      "answer_explanation_md": "ยอมรับ ถามจุดที่สำคัญ และชวนทีมสรุปบทเรียนดีที่สุด เพราะรักษาความน่าเชื่อถือของหัวหน้าและเปลี่ยนคำวิจารณ์เป็นการพัฒนาของทั้งทีม",
+      "hints": [
+        "ในฐานะหัวหน้า เรามีส่วนรับผิดชอบกับผลของทีมไหม",
+        "การชี้ว่าเป็นความผิดของคนอื่นทำให้ทีมรู้สึกอย่างไร",
+        "หาตัวเลือกที่ยอมรับ ถามให้ชัด และพาทีมพัฒนา"
+      ],
+      "distractor_reasons": {
+        "1": "รับฟังและนำไปแก้ แต่ไม่ได้ให้ทีมมีส่วนร่วมในการสรุปบทเรียน",
+        "2": "โยนความผิดให้ทีม ทำลายความน่าเชื่อถือของหัวหน้าและความสัมพันธ์ในทีม",
+        "3": "รับผิดชอบ แต่หนีจากการเรียนรู้และพัฒนา"
+      },
+      "misconception_tags": [
+        "defensive_response"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat3.emotion.self_regulation.respond_to_criticism.0006",
+      "topic_ids": [
+        "tgat3.emotion.self_regulation.respond_to_criticism"
+      ],
+      "primary_topic_id": "tgat3.emotion.self_regulation.respond_to_criticism",
+      "exam_code": "TGAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT3 สมรรถนะการทำงาน แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4_tiered",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 60,
+      "stem_md": "เพื่อนร่วมทีมบอกคุณเป็นการส่วนตัวว่า \"เวลาประชุม เธอพูดแทรกคนอื่นบ่อยนะ\" คุณไม่เคยรู้ตัวมาก่อน คุณควรทำอย่างไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ขอบคุณเพื่อนที่กล้าบอกตรง ๆ",
+          "is_answer": false,
+          "score": 0.75
+        },
+        {
+          "md": "ตั้งใจไม่พูดอะไรเลยในการประชุมครั้งต่อไป",
+          "is_answer": false,
+          "score": 0.5
+        },
+        {
+          "md": "บอกเพื่อนว่าไม่จริง ตัวเองแค่อยากช่วยให้การประชุมเร็วขึ้น และคนอื่นก็ไม่เคยมีใครบ่นเรื่องนี้เลย",
+          "is_answer": false,
+          "score": 0.25
+        },
+        {
+          "md": "ขอบคุณเพื่อนที่บอก ถามตัวอย่างสถานการณ์ แล้วลองสังเกตตัวเองในการประชุมครั้งต่อไป",
+          "is_answer": true,
+          "score": 1
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ฟังและขอบคุณ",
+          "why_md": "เพื่อนกล้าบอกเป็นการส่วนตัว ถือเป็นความหวังดี"
+        },
+        {
+          "do_md": "ถามตัวอย่าง",
+          "why_md": "เข้าใจว่าเกิดในสถานการณ์แบบไหน"
+        },
+        {
+          "do_md": "สังเกตและปรับ",
+          "why_md": "เปลี่ยนคำติชมเป็นการพัฒนาจริง"
+        }
+      ],
+      "answer_explanation_md": "ขอบคุณ ถามตัวอย่าง และสังเกตตัวเองดีที่สุด เพราะรับคำวิจารณ์อย่างเปิดใจและนำไปพัฒนาจริง",
+      "hints": [
+        "เราเคยรู้ตัวเรื่องนี้ไหม และเพื่อนน่าจะเห็นอะไรที่เราไม่เห็น",
+        "ถ้าปฏิเสธทันที จะได้อะไร เสียอะไร",
+        "หาตัวเลือกที่รับฟังและนำไปปรับจริง"
+      ],
+      "distractor_reasons": {
+        "0": "รับฟังได้ดี แต่ยังไม่ได้ทำอะไรเพื่อปรับปรุงต่อ",
+        "1": "ตอบสนองต่อคำติ แต่เกินพอดี ทีมเสียความคิดเห็นของเราไป",
+        "2": "ปฏิเสธโดยไม่ฟัง ทั้งที่ยังไม่เคยรู้ตัวมาก่อน"
+      },
+      "misconception_tags": [
+        "defensive_response"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat3.emotion.self_regulation.respond_to_criticism.0007",
+      "topic_ids": [
+        "tgat3.emotion.self_regulation.respond_to_criticism"
+      ],
+      "primary_topic_id": "tgat3.emotion.self_regulation.respond_to_criticism",
+      "exam_code": "TGAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT3 สมรรถนะการทำงาน แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4_tiered",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 60,
+      "stem_md": "ครูบอกว่างานคุณอ่านยากเพราะโครงสร้างสับสน คุณควรตอบอย่างไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "รับฟังแล้วแก้ทุกประโยค",
+          "is_answer": false,
+          "score": 0.5
+        },
+        {
+          "md": "อธิบายว่าคุณมีเวลาน้อย",
+          "is_answer": false,
+          "score": 0.25
+        },
+        {
+          "md": "ขอตัวอย่างจุดที่สับสน สรุปสิ่งที่จะปรับ แล้วแก้โครงสร้างก่อนรายละเอียด",
+          "is_answer": true,
+          "score": 1
+        },
+        {
+          "md": "ขอบคุณและขอเวลานำไปแก้",
+          "is_answer": false,
+          "score": 0.75
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ไม่รีบแก้ตัว",
+          "why_md": "ฟังสาระ"
+        },
+        {
+          "do_md": "ขอข้อมูลเฉพาะ",
+          "why_md": "จุดที่สับสน"
+        },
+        {
+          "do_md": "จัดลำดับการแก้",
+          "why_md": "โครงสร้างก่อนภาษา"
+        }
+      ],
+      "answer_explanation_md": "ขอตัวอย่างและยืนยันแผนแก้ ทำให้ใช้คำวิจารณ์ได้ตรงจุด",
+      "hints": [
+        "คำวิจารณ์ชี้ระดับใดของงาน",
+        "ควรถามอะไรให้ลงมือได้",
+        "แก้ส่วนใดก่อน"
+      ],
+      "distractor_reasons": {
+        "0": "ลงแรงมากแต่ยังไม่จับปัญหาโครงสร้าง",
+        "1": "ป้องกันตัวแทนการใช้ข้อเสนอแนะ",
+        "3": "เปิดรับดีแต่ยังไม่ทำให้ข้อเสนอแนะชัด"
+      },
+      "misconception_tags": [
+        "defensive_response"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat3.emotion.self_regulation.respond_to_criticism.0008",
+      "topic_ids": [
+        "tgat3.emotion.self_regulation.respond_to_criticism"
+      ],
+      "primary_topic_id": "tgat3.emotion.self_regulation.respond_to_criticism",
+      "exam_code": "TGAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT3 สมรรถนะการทำงาน แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4_tiered",
+      "difficulty": 5,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": true,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 60,
+      "stem_md": "เพื่อนร่วมงานวิจารณ์ว่าคุณตัดสินใจช้า แต่ตัวอย่างที่ยกมามีทั้งงานฉุกเฉินและงานที่ต้องขออนุมัติ คุณควรทำอย่างไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ขอตัวอย่างเพิ่มแล้วนำไปคิดเอง",
+          "is_answer": false,
+          "score": 0.75
+        },
+        {
+          "md": "ขอแยกตัวอย่างตามชนิดงาน ตรวจเวลาที่ควบคุมได้ แล้วตกลงเกณฑ์ว่าเมื่อใดควรเร็วหรือรออนุมัติ",
+          "is_answer": true,
+          "score": 1
+        },
+        {
+          "md": "ยอมรับและสัญญาว่าจะตัดสินใจเร็วขึ้นทุกงาน",
+          "is_answer": false,
+          "score": 0.5
+        },
+        {
+          "md": "ชี้แจงว่างานล่าช้าเพราะระบบทั้งหมด",
+          "is_answer": false,
+          "score": 0.25
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "แยกอารมณ์จากข้อมูล",
+          "why_md": "คำวิจารณ์มีตัวอย่างต่างชนิด"
+        },
+        {
+          "do_md": "หาส่วนที่ควบคุมได้",
+          "why_md": "เวลาตอบสนองของตน"
+        },
+        {
+          "do_md": "ตกลงมาตรฐานร่วม",
+          "why_md": "เร็วเมื่อใด รอเมื่อใด"
+        }
+      ],
+      "answer_explanation_md": "แยกบริบท ตรวจส่วนที่ควบคุมได้ และตกลงเกณฑ์ร่วม เปลี่ยนคำวิจารณ์กว้างให้เป็นการปรับที่ปลอดภัย",
+      "hints": [
+        "ตัวอย่างทั้งหมดควรใช้เกณฑ์เดียวกันไหม",
+        "ส่วนไหนเป็นหน้าที่คุณ",
+        "จะทำให้คำว่าเร็วชัดได้อย่างไร"
+      ],
+      "distractor_reasons": {
+        "0": "รับฟังและเก็บข้อมูล แต่ยังไม่ร่วมกำหนดความคาดหวัง",
+        "2": "เปิดรับแต่เหมารวมจนเสี่ยงข้ามขั้น",
+        "3": "ปัดความรับผิดชอบและไม่ตรวจส่วนของตน"
+      },
+      "misconception_tags": [
+        "defensive_response"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    }
+  ],
+  "generated_from": "content/tgat3/emotion_civic.py"
+}

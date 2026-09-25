@@ -1,0 +1,1834 @@
+{
+  "schema_version": "1.0",
+  "subject": "phy",
+  "subject_name_th": "A-Level ฟิสิกส์",
+  "exam_codes": [
+    "ALEVEL_64"
+  ],
+  "source_note": "ยืนยันโครงสอบแล้วจาก mytcas.com/blueprint/a-level-64-phy/ (ตรวจ 21 กันยายน 2569): 30 ข้อ 100 คะแนน 90 นาที ปรนัย 5 ตัวเลือก 25 ข้อ 75 คะแนน และ ระบายคำตอบที่เป็นตัวเลข 5 ข้อ 25 คะแนน | 5 ส่วน คือ กลศาสตร์ 8-10 ข้อ / คลื่นกล และแสง 5-7 ข้อ / ไฟฟ้า แม่เหล็ก และคลื่นแม่เหล็กไฟฟ้า 6-8 ข้อ / อุณหพลศาสตร์ และสมบัติเชิงกลของสาร 3-5 ข้อ / ฟิสิกส์แผนใหม่ 3-5 ข้อ | ผังสอบให้ชื่อหัวข้อทางการ 19 หัวข้อ แต่ไม่ได้ซอยย่อยกว่านั้น หัวข้อระดับ leaf จึงเป็นการซอยของเราเอง | ผังสอบไม่ได้ระบุ: จำนวนข้อของแต่ละหัวข้อ และการใช้เครื่องคิดเลข",
+  "topics": [
+    {
+      "id": "phy",
+      "name_th": "A-Level ฟิสิกส์",
+      "name_en": "",
+      "kind": "subject",
+      "parent": null,
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ALEVEL_64",
+        "ฟิสิกส์"
+      ],
+      "curriculum_ref": null,
+      "notes": "วิชาเนื้อหาตามหลักสูตร | โครงสอบยืนยันแล้ว: 30 ข้อ 100 คะแนน 90 นาที | **มี 2 รูปแบบข้อสอบ** ปรนัย 5 ตัวเลือก 25 ข้อ (format mcq5) และ ระบายคำตอบที่เป็นตัวเลข 5 ข้อ (format numeric) ข้อแบบหลังข้อละ 5 คะแนน | วิชานี้ทำแม่แบบได้เกือบทุกหัวข้อ เพราะคำตอบเป็นตัวเลขและมีสูตรชัดเจน ควรบังคับให้ทุกข้อมี template | ส่วนกลศาสตร์ใหญ่ที่สุด (8-10 ข้อ) และเป็นฐานของส่วนอื่น ควรทำก่อน | ทับกับ TPAT3 ด้านเชิงกลและฟิสิกส์ ใช้บทเรียนร่วมกันได้บางหัวข้อ"
+    },
+    {
+      "id": "phy.mechanics",
+      "name_th": "กลศาสตร์",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "phy",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_64",
+          "typical_items": "8-10 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "กลศาสตร์"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (ส่วนทางการ) · ผังสอบระบุ 8-10 ข้อ · ส่วนที่ใหญ่ที่สุดและเป็นฐานของส่วนอื่น"
+    },
+    {
+      "id": "phy.mechanics.nature",
+      "name_th": "ธรรมชาติและพัฒนาการทางฟิสิกส์",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "phy.mechanics",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ธรรมชาติและพัฒนาการทางฟิสิกส์"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "phy.mechanics.nature.units",
+      "name_th": "ปริมาณ หน่วย และเลขนัยสำคัญ",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "phy.mechanics.nature",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [
+        "tpat3.foundation.physics_quantities"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_64",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "easy",
+      "keywords": [
+        "หน่วย",
+        "เลขนัยสำคัญ"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ | ทับกับ TPAT3 ใช้บทเรียนร่วมกันได้"
+    },
+    {
+      "id": "phy.mechanics.nature.measurement",
+      "name_th": "การวัดและความคลาดเคลื่อน",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "phy.mechanics.nature",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_64",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "easy",
+      "keywords": [
+        "การวัด",
+        "ความคลาดเคลื่อน"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "phy.mechanics.linear_motion",
+      "name_th": "การเคลื่อนที่แนวตรง",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "phy.mechanics",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "การเคลื่อนที่แนวตรง"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "phy.mechanics.linear_motion.kinematics",
+      "name_th": "ระยะทาง การกระจัด ความเร็ว และความเร่ง",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "phy.mechanics.linear_motion",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_64",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "easy",
+      "keywords": [
+        "ความเร็ว",
+        "ความเร่ง"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "phy.mechanics.linear_motion.equations",
+      "name_th": "สมการการเคลื่อนที่ด้วยความเร่งคงที่",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "phy.mechanics.linear_motion",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "phy.mechanics.linear_motion.kinematics"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_64",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "สมการการเคลื่อนที่"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "phy.mechanics.linear_motion.free_fall",
+      "name_th": "การตกอย่างอิสระและการเคลื่อนที่ในแนวดิ่ง",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "phy.mechanics.linear_motion",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "phy.mechanics.linear_motion.equations"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_64",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ตกอิสระ"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "phy.mechanics.linear_motion.graph",
+      "name_th": "กราฟการเคลื่อนที่และการอ่านความชันกับพื้นที่",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "phy.mechanics.linear_motion",
+      "order": 4,
+      "grade_band": "mixed",
+      "requires": [
+        "phy.mechanics.linear_motion.free_fall"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_64",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "กราฟการเคลื่อนที่"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "phy.mechanics.force_laws",
+      "name_th": "แรงและกฎการเคลื่อนที่",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "phy.mechanics",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "แรงและกฎการเคลื่อนที่"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "phy.mechanics.force_laws.newton_laws",
+      "name_th": "กฎการเคลื่อนที่ของนิวตันทั้งสามข้อ",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "phy.mechanics.force_laws",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [
+        "tpat3.foundation.force_vector_basics"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_64",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "กฎนิวตัน"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "phy.mechanics.force_laws.friction",
+      "name_th": "แรงเสียดทาน",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "phy.mechanics.force_laws",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "phy.mechanics.force_laws.newton_laws"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_64",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "แรงเสียดทาน"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "phy.mechanics.force_laws.connected",
+      "name_th": "ระบบวัตถุที่ผูกติดกันและรอก",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "phy.mechanics.force_laws",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "phy.mechanics.force_laws.friction"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_64",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "ระบบวัตถุ",
+        "รอก"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "phy.mechanics.equilibrium",
+      "name_th": "สมดุลกลของวัตถุ",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "phy.mechanics",
+      "order": 4,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "สมดุลกลของวัตถุ"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "phy.mechanics.equilibrium.force_balance",
+      "name_th": "สมดุลต่อการเลื่อนตำแหน่ง",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "phy.mechanics.equilibrium",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [
+        "tpat3.aptitude.mechanical.force_equilibrium"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_64",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "สมดุลแรง"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "phy.mechanics.equilibrium.moment",
+      "name_th": "โมเมนต์และสมดุลต่อการหมุน",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "phy.mechanics.equilibrium",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "phy.mechanics.equilibrium.force_balance"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_64",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "โมเมนต์",
+        "สมดุลการหมุน"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "phy.mechanics.equilibrium.center_gravity",
+      "name_th": "จุดศูนย์ถ่วงและเสถียรภาพ",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "phy.mechanics.equilibrium",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "phy.mechanics.equilibrium.moment"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_64",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "จุดศูนย์ถ่วง"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "phy.mechanics.work_energy",
+      "name_th": "งานและกฎการอนุรักษ์พลังงานกล",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "phy.mechanics",
+      "order": 5,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "งานและกฎการอนุรักษ์พลังงานกล"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "phy.mechanics.work_energy.work_power",
+      "name_th": "งานและกำลัง",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "phy.mechanics.work_energy",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_64",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "easy",
+      "keywords": [
+        "งาน",
+        "กำลัง"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "phy.mechanics.work_energy.energy",
+      "name_th": "พลังงานจลน์และพลังงานศักย์",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "phy.mechanics.work_energy",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "phy.mechanics.work_energy.work_power"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_64",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "พลังงานจลน์",
+        "พลังงานศักย์"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "phy.mechanics.work_energy.conservation",
+      "name_th": "กฎการอนุรักษ์พลังงานกลและการประยุกต์",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "phy.mechanics.work_energy",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "phy.mechanics.work_energy.energy"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_64",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "อนุรักษ์พลังงาน"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "phy.mechanics.momentum",
+      "name_th": "โมเมนตัมและการชน",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "phy.mechanics",
+      "order": 6,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "โมเมนตัมและการชน"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "phy.mechanics.momentum.impulse",
+      "name_th": "โมเมนตัมและการดล",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "phy.mechanics.momentum",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_64",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "โมเมนตัม",
+        "การดล"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "phy.mechanics.momentum.collision",
+      "name_th": "การชนแบบยืดหยุ่นและไม่ยืดหยุ่น",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "phy.mechanics.momentum",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "phy.mechanics.momentum.impulse"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_64",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "การชน"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "phy.mechanics.curved_motion",
+      "name_th": "การเคลื่อนที่แนวโค้ง",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "phy.mechanics",
+      "order": 7,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "การเคลื่อนที่แนวโค้ง"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "phy.mechanics.curved_motion.projectile",
+      "name_th": "การเคลื่อนที่แบบโพรเจกไทล์",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "phy.mechanics.curved_motion",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_64",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "โพรเจกไทล์"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "phy.mechanics.curved_motion.circular",
+      "name_th": "การเคลื่อนที่แบบวงกลมและแรงสู่ศูนย์กลาง",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "phy.mechanics.curved_motion",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_64",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "การเคลื่อนที่วงกลม",
+        "แรงสู่ศูนย์กลาง"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "phy.mechanics.shm",
+      "name_th": "การเคลื่อนที่แบบฮาร์มอนิกส์อย่างง่าย",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "phy.mechanics",
+      "order": 8,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "การเคลื่อนที่แบบฮาร์มอนิกส์อย่างง่าย"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "phy.mechanics.shm.basics",
+      "name_th": "ลักษณะและสมการของการเคลื่อนที่แบบฮาร์มอนิก",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "phy.mechanics.shm",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_64",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "ฮาร์มอนิก"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "phy.mechanics.shm.pendulum_spring",
+      "name_th": "ลูกตุ้มอย่างง่ายและสปริง",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "phy.mechanics.shm",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "phy.mechanics.shm.basics"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_64",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ลูกตุ้ม",
+        "สปริง"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "phy.wave_light",
+      "name_th": "คลื่นกล และแสง",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "phy",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_64",
+          "typical_items": "5-7 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "คลื่นกล และแสง"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (ส่วนทางการ) · ผังสอบระบุ 5-7 ข้อ"
+    },
+    {
+      "id": "phy.wave_light.wave",
+      "name_th": "คลื่น",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "phy.wave_light",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "คลื่น"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "phy.wave_light.wave.properties",
+      "name_th": "สมบัติและส่วนประกอบของคลื่น",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "phy.wave_light.wave",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_64",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "easy",
+      "keywords": [
+        "คลื่น",
+        "ความถี่"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "phy.wave_light.wave.behavior",
+      "name_th": "การสะท้อน หักเห แทรกสอด และเลี้ยวเบน",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "phy.wave_light.wave",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "phy.wave_light.wave.properties"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_64",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "แทรกสอด",
+        "เลี้ยวเบน"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "phy.wave_light.wave.standing",
+      "name_th": "คลื่นนิ่งและการสั่นพ้อง",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "phy.wave_light.wave",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "phy.wave_light.wave.behavior"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_64",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "คลื่นนิ่ง",
+        "สั่นพ้อง"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "phy.wave_light.sound",
+      "name_th": "เสียง",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "phy.wave_light",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "เสียง"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "phy.wave_light.sound.nature",
+      "name_th": "ธรรมชาติของเสียงและอัตราเร็วเสียง",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "phy.wave_light.sound",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_64",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "easy",
+      "keywords": [
+        "เสียง",
+        "อัตราเร็วเสียง"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "phy.wave_light.sound.intensity",
+      "name_th": "ความเข้มเสียงและระดับเสียง",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "phy.wave_light.sound",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "phy.wave_light.sound.nature"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_64",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ความเข้มเสียง",
+        "เดซิเบล"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "phy.wave_light.sound.beat_doppler",
+      "name_th": "บีตส์และปรากฏการณ์ดอปเพลอร์",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "phy.wave_light.sound",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "phy.wave_light.sound.intensity"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_64",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "บีตส์",
+        "ดอปเพลอร์"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "phy.wave_light.light",
+      "name_th": "แสง",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "phy.wave_light",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "แสง"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "phy.wave_light.light.reflection_refraction",
+      "name_th": "การสะท้อนและการหักเหของแสง",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "phy.wave_light.light",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_64",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "สะท้อน",
+        "หักเห"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "phy.wave_light.light.lens_mirror",
+      "name_th": "เลนส์และกระจก",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "phy.wave_light.light",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "phy.wave_light.light.reflection_refraction"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_64",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "เลนส์",
+        "กระจก"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "phy.wave_light.light.wave_optics",
+      "name_th": "การแทรกสอดและเลี้ยวเบนของแสง",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "phy.wave_light.light",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "phy.wave_light.light.lens_mirror"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_64",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "แทรกสอดแสง"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "phy.electricity",
+      "name_th": "ไฟฟ้า แม่เหล็ก และคลื่นแม่เหล็กไฟฟ้า",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "phy",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_64",
+          "typical_items": "6-8 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ไฟฟ้า แม่เหล็ก และคลื่นแม่เหล็กไฟฟ้า"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (ส่วนทางการ) · ผังสอบระบุ 6-8 ข้อ"
+    },
+    {
+      "id": "phy.electricity.electrostatic",
+      "name_th": "ไฟฟ้าสถิต",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "phy.electricity",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ไฟฟ้าสถิต"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "phy.electricity.electrostatic.charge_force",
+      "name_th": "ประจุไฟฟ้าและกฎของคูลอมบ์",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "phy.electricity.electrostatic",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_64",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ประจุ",
+        "คูลอมบ์"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "phy.electricity.electrostatic.field_potential",
+      "name_th": "สนามไฟฟ้าและศักย์ไฟฟ้า",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "phy.electricity.electrostatic",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "phy.electricity.electrostatic.charge_force"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_64",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "สนามไฟฟ้า",
+        "ศักย์ไฟฟ้า"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "phy.electricity.electrostatic.capacitor",
+      "name_th": "ตัวเก็บประจุ",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "phy.electricity.electrostatic",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "phy.electricity.electrostatic.field_potential"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_64",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ตัวเก็บประจุ"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "phy.electricity.current",
+      "name_th": "ไฟฟ้ากระแส",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "phy.electricity",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ไฟฟ้ากระแส"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "phy.electricity.current.ohm",
+      "name_th": "กระแส ความต่างศักย์ และกฎของโอห์ม",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "phy.electricity.current",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_64",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "easy",
+      "keywords": [
+        "กระแสไฟฟ้า",
+        "กฎของโอห์ม"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "phy.electricity.current.circuit",
+      "name_th": "วงจรอนุกรมและขนาน",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "phy.electricity.current",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "phy.electricity.current.ohm"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_64",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "วงจรไฟฟ้า"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "phy.electricity.current.power_energy",
+      "name_th": "กำลังไฟฟ้าและพลังงานไฟฟ้า",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "phy.electricity.current",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "phy.electricity.current.circuit"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_64",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "กำลังไฟฟ้า"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "phy.electricity.magnetism",
+      "name_th": "แม่เหล็กและไฟฟ้า",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "phy.electricity",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "แม่เหล็กและไฟฟ้า"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "phy.electricity.magnetism.field_force",
+      "name_th": "สนามแม่เหล็กและแรงกระทำต่อประจุและกระแส",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "phy.electricity.magnetism",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_64",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "สนามแม่เหล็ก"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "phy.electricity.magnetism.induction",
+      "name_th": "การเหนี่ยวนำแม่เหล็กไฟฟ้า",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "phy.electricity.magnetism",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "phy.electricity.magnetism.field_force"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_64",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "เหนี่ยวนำ"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "phy.electricity.magnetism.ac",
+      "name_th": "ไฟฟ้ากระแสสลับเบื้องต้น",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "phy.electricity.magnetism",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "phy.electricity.magnetism.induction"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_64",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "กระแสสลับ"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "phy.electricity.em_wave",
+      "name_th": "คลื่นแม่เหล็กไฟฟ้า",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "phy.electricity",
+      "order": 4,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "คลื่นแม่เหล็กไฟฟ้า"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "phy.electricity.em_wave.spectrum",
+      "name_th": "สเปกตรัมคลื่นแม่เหล็กไฟฟ้า",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "phy.electricity.em_wave",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 20,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_64",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "easy",
+      "keywords": [
+        "สเปกตรัม"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "phy.electricity.em_wave.properties",
+      "name_th": "สมบัติและการใช้ประโยชน์",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "phy.electricity.em_wave",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_64",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "คลื่นแม่เหล็กไฟฟ้า"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "phy.thermo_matter",
+      "name_th": "อุณหพลศาสตร์ และสมบัติเชิงกลของสาร",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "phy",
+      "order": 4,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_64",
+          "typical_items": "3-5 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "อุณหพลศาสตร์ และสมบัติเชิงกลของสาร"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (ส่วนทางการ) · ผังสอบระบุ 3-5 ข้อ"
+    },
+    {
+      "id": "phy.thermo_matter.heat_gas",
+      "name_th": "ความร้อนและแก๊ส",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "phy.thermo_matter",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ความร้อนและแก๊ส"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "phy.thermo_matter.heat_gas.heat",
+      "name_th": "ความร้อน อุณหภูมิ และการเปลี่ยนสถานะ",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "phy.thermo_matter.heat_gas",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_64",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ความร้อน",
+        "เปลี่ยนสถานะ"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "phy.thermo_matter.heat_gas.gas_law",
+      "name_th": "กฎของแก๊สและทฤษฎีจลน์",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "phy.thermo_matter.heat_gas",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "phy.thermo_matter.heat_gas.heat"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_64",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "กฎของแก๊ส",
+        "ทฤษฎีจลน์"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "phy.thermo_matter.heat_gas.thermo_law",
+      "name_th": "กฎข้อที่หนึ่งของอุณหพลศาสตร์",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "phy.thermo_matter.heat_gas",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "phy.thermo_matter.heat_gas.gas_law"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_64",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "อุณหพลศาสตร์"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "phy.thermo_matter.solid_fluid",
+      "name_th": "ของแข็งและของไหล",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "phy.thermo_matter",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ของแข็งและของไหล"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "phy.thermo_matter.solid_fluid.solid",
+      "name_th": "ความเค้น ความเครียด และมอดุลัสของยัง",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "phy.thermo_matter.solid_fluid",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_64",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ความเค้น",
+        "ความเครียด"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "phy.thermo_matter.solid_fluid.fluid_static",
+      "name_th": "ความดันและแรงลอยตัว",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "phy.thermo_matter.solid_fluid",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "tpat3.aptitude.mechanical.fluid_pressure",
+        "phy.thermo_matter.solid_fluid.solid"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_64",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ความดัน",
+        "แรงลอยตัว"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "phy.thermo_matter.solid_fluid.fluid_dynamic",
+      "name_th": "ของไหลอุดมคติและสมการแบร์นูลลี",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "phy.thermo_matter.solid_fluid",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "phy.thermo_matter.solid_fluid.fluid_static"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_64",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "แบร์นูลลี"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "phy.modern",
+      "name_th": "ฟิสิกส์แผนใหม่",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "phy",
+      "order": 5,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_64",
+          "typical_items": "3-5 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ฟิสิกส์แผนใหม่"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (ส่วนทางการ) · ผังสอบระบุ 3-5 ข้อ"
+    },
+    {
+      "id": "phy.modern.atomic",
+      "name_th": "ฟิสิกส์อะตอม",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "phy.modern",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ฟิสิกส์อะตอม"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "phy.modern.atomic.model",
+      "name_th": "แบบจำลองอะตอมและสเปกตรัมของอะตอม",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "phy.modern.atomic",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_64",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "แบบจำลองอะตอม"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "phy.modern.atomic.photoelectric",
+      "name_th": "ปรากฏการณ์โฟโตอิเล็กทริกและทวิภาวะ",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "phy.modern.atomic",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "phy.modern.atomic.model"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_64",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "โฟโตอิเล็กทริก",
+        "ทวิภาวะ"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "phy.modern.nuclear",
+      "name_th": "ฟิสิกส์นิวเคลียร์และฟิสิกส์อนุภาค",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "phy.modern",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ฟิสิกส์นิวเคลียร์และฟิสิกส์อนุภาค"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "phy.modern.nuclear.radioactive",
+      "name_th": "กัมมันตภาพรังสีและครึ่งชีวิต",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "phy.modern.nuclear",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_64",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "กัมมันตภาพรังสี",
+        "ครึ่งชีวิต"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "phy.modern.nuclear.reaction",
+      "name_th": "ปฏิกิริยานิวเคลียร์และพลังงานยึดเหนี่ยว",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "phy.modern.nuclear",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "phy.modern.nuclear.radioactive"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_64",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "ปฏิกิริยานิวเคลียร์"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "phy.modern.nuclear.particle",
+      "name_th": "อนุภาคมูลฐานเบื้องต้น",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "phy.modern.nuclear",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "phy.modern.nuclear.reaction"
+      ],
+      "est_minutes": 20,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_64",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "อนุภาคมูลฐาน"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    }
+  ]
+}

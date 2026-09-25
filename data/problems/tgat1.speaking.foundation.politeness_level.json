@@ -1,0 +1,595 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tgat1.speaking.foundation.politeness_level",
+  "problems": [
+    {
+      "id": "prob.tgat1.speaking.foundation.politeness_level.0001",
+      "topic_ids": [
+        "tgat1.speaking.foundation.politeness_level"
+      ],
+      "primary_topic_id": "tgat1.speaking.foundation.politeness_level",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 25,
+      "stem_md": "You want your teacher to explain a question again. Which is the **most polite**?",
+      "figures": [],
+      "choices": [
+        {
+          "md": "Explain that question again.",
+          "is_answer": false
+        },
+        {
+          "md": "Explain that question to me again right now, please, because I don't get it.",
+          "is_answer": false
+        },
+        {
+          "md": "Can you do it again?",
+          "is_answer": false
+        },
+        {
+          "md": "Could you explain that question again, please?",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "เรียงความสุภาพ: คำสั่ง < คำสั่ง + please < Can you < Could you + please",
+          "why_md": "ตัวที่มี could และ please สุภาพที่สุด"
+        },
+        {
+          "do_md": "บริบท: พูดกับครู",
+          "why_md": "ควรใช้ระดับสุภาพสูง"
+        }
+      ],
+      "answer_explanation_md": "ตอบ Could you explain that question again, please? เพราะใช้ could และ please ซึ่งสุภาพที่สุดในตัวเลือก",
+      "hints": [
+        "ตัวเลือกไหนเป็นประโยคคำสั่ง",
+        "can กับ could อย่างไหนสุภาพกว่า",
+        "หาตัวเลือกที่มีเครื่องมือเพิ่มความสุภาพมากที่สุด"
+      ],
+      "distractor_reasons": {
+        "0": "เป็นคำสั่ง ไม่สุภาพ",
+        "1": "มี please แต่ยังเป็นประโยคคำสั่ง และคำว่า right now ฟังเร่งรัด",
+        "2": "ใช้ can และไม่ชัดว่าขออะไร สุภาพน้อยกว่า"
+      },
+      "misconception_tags": [
+        "please_is_enough"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.foundation.politeness_level.0002",
+      "topic_ids": [
+        "tgat1.speaking.foundation.politeness_level"
+      ],
+      "primary_topic_id": "tgat1.speaking.foundation.politeness_level",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 30,
+      "stem_md": "A customer wants to ask a hotel receptionist for a late check-out. Which is the **most appropriate**?",
+      "figures": [],
+      "choices": [
+        {
+          "md": "I want to check out late tomorrow because I have a late flight home.",
+          "is_answer": false
+        },
+        {
+          "md": "Late check-out. Tomorrow.",
+          "is_answer": false
+        },
+        {
+          "md": "You have to let me check out late.",
+          "is_answer": false
+        },
+        {
+          "md": "I was wondering if I could check out a bit later.",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "I was wondering if... = ขออย่างสุภาพมาก",
+          "why_md": "อ้อมและไม่กดดันผู้ฟัง"
+        },
+        {
+          "do_md": "a bit later ลดน้ำหนักของคำขอ",
+          "why_md": "ยิ่งสุภาพขึ้น"
+        }
+      ],
+      "answer_explanation_md": "ตอบ I was wondering if I could check out a bit later. เพราะเป็นการขอแบบอ้อมและสุภาพที่สุด",
+      "hints": [
+        "ตัวเลือกไหนเป็นการขอ ตัวไหนเป็นการบอกหรือสั่ง",
+        "I was wondering if... สุภาพระดับไหน",
+        "คำว่า a bit ช่วยอะไร"
+      ],
+      "distractor_reasons": {
+        "0": "บอกความต้องการตรง ๆ พร้อมเหตุผล แต่ไม่ได้ขออนุญาต",
+        "1": "ห้วนเกินไป ไม่เป็นประโยค",
+        "2": "เป็นการสั่ง ไม่สุภาพ"
+      },
+      "misconception_tags": [
+        "please_is_enough"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.foundation.politeness_level.0003",
+      "topic_ids": [
+        "tgat1.speaking.foundation.politeness_level"
+      ],
+      "primary_topic_id": "tgat1.speaking.foundation.politeness_level",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 30,
+      "stem_md": "**A:** Hey, pass me the salt.  \n**B:** Sure, here you go.\n\nThe relationship between A and B is most likely...",
+      "figures": [],
+      "choices": [
+        {
+          "md": "A job applicant and an interviewer.",
+          "is_answer": false
+        },
+        {
+          "md": "Family members at dinner.",
+          "is_answer": true
+        },
+        {
+          "md": "A student and a school principal.",
+          "is_answer": false
+        },
+        {
+          "md": "A customer and a waiter at a formal restaurant.",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "A ใช้ Hey และประโยคคำสั่ง",
+          "why_md": "ภาษาไม่ทางการ"
+        },
+        {
+          "do_md": "B ตอบสบาย ๆ",
+          "why_md": "ความสัมพันธ์ใกล้ชิด"
+        }
+      ],
+      "answer_explanation_md": "ตอบ Family members at dinner. เพราะภาษาไม่ทางการแบบนี้ใช้ได้กับคนใกล้ชิด ตัวเลือกอื่นเป็นความสัมพันธ์ที่ต้องใช้ภาษาสุภาพ",
+      "hints": [
+        "A ใช้ภาษาระดับไหน",
+        "B ตอบแบบทางการหรือไม่ทางการ",
+        "ความสัมพันธ์แบบไหนใช้ภาษาแบบนี้ได้"
+      ],
+      "distractor_reasons": {
+        "0": "ผู้สมัครงานต้องพูดสุภาพกับผู้สัมภาษณ์",
+        "2": "นักเรียนไม่พูด Hey และสั่งผู้อำนวยการ",
+        "3": "A ใช้ Hey และคำสั่ง ไม่เหมาะกับลูกค้าในร้านทางการ"
+      },
+      "misconception_tags": [
+        "register_mismatch"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.foundation.politeness_level.0004",
+      "topic_ids": [
+        "tgat1.speaking.foundation.politeness_level"
+      ],
+      "primary_topic_id": "tgat1.speaking.foundation.politeness_level",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 25,
+      "stem_md": "Which request is the **least polite**?",
+      "figures": [],
+      "choices": [
+        {
+          "md": "Could I borrow your notes?",
+          "is_answer": false
+        },
+        {
+          "md": "Can I have a look at your notes?",
+          "is_answer": false
+        },
+        {
+          "md": "Give me your notes.",
+          "is_answer": true
+        },
+        {
+          "md": "Would you mind lending me your notes?",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "หาตัวที่เป็นคำสั่ง",
+          "why_md": "Give me your notes. เป็นคำสั่งตรง"
+        },
+        {
+          "do_md": "ตัวอื่นเป็นการขอทั้งหมด",
+          "why_md": "จึงสุภาพกว่า"
+        }
+      ],
+      "answer_explanation_md": "ตอบ Give me your notes. เพราะเป็นประโยคคำสั่งตรง ๆ ไม่มีเครื่องมือเพิ่มความสุภาพเลย",
+      "hints": [
+        "โจทย์ถามสุภาพมากที่สุดหรือน้อยที่สุด",
+        "ตัวเลือกไหนไม่ได้ขอ แต่สั่ง",
+        "ประโยคคำสั่งสุภาพน้อยที่สุด"
+      ],
+      "distractor_reasons": {
+        "0": "ใช้ could และขอยืม สุภาพ",
+        "1": "ใช้ can สุภาพปานกลาง",
+        "3": "สุภาพมาก"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.foundation.politeness_level.0005",
+      "topic_ids": [
+        "tgat1.speaking.foundation.politeness_level"
+      ],
+      "primary_topic_id": "tgat1.speaking.foundation.politeness_level",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 35,
+      "stem_md": "You need to ask your manager for a day off. Which is the **most appropriate**?",
+      "figures": [],
+      "choices": [
+        {
+          "md": "Give me next Friday off, please.",
+          "is_answer": false
+        },
+        {
+          "md": "Would it be possible for me to take next Friday off?",
+          "is_answer": true
+        },
+        {
+          "md": "I need next Friday off because I have some important family business to do.",
+          "is_answer": false
+        },
+        {
+          "md": "I'm taking next Friday off.",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "บริบท: ขอลากับผู้จัดการ",
+          "why_md": "ต้องสุภาพและเป็นการขออนุญาตจริง"
+        },
+        {
+          "do_md": "Would it be possible... = ขออย่างสุภาพมาก",
+          "why_md": "เหมาะที่สุด"
+        }
+      ],
+      "answer_explanation_md": "ตอบ Would it be possible for me to take next Friday off? เพราะเป็นการขออนุญาตที่สุภาพที่สุด เหมาะกับการพูดกับผู้จัดการ",
+      "hints": [
+        "ตัวเลือกไหนเป็นการบอก ตัวไหนเป็นการขอ",
+        "Would it be possible... สุภาพระดับไหน",
+        "ในบริบทที่ทำงาน ควรเลือกระดับความสุภาพแบบไหน"
+      ],
+      "distractor_reasons": {
+        "0": "เป็นคำสั่งแม้มี please",
+        "2": "บอกความต้องการพร้อมเหตุผล แต่ไม่ได้ขออนุญาต สุภาพน้อยกว่า",
+        "3": "บอกว่าตัดสินใจแล้ว ไม่ได้ขออนุญาต"
+      },
+      "misconception_tags": [
+        "please_is_enough"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.foundation.politeness_level.0006",
+      "topic_ids": [
+        "tgat1.speaking.foundation.politeness_level"
+      ],
+      "primary_topic_id": "tgat1.speaking.foundation.politeness_level",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 30,
+      "stem_md": "**A:** ______  \n**B:** Not at all. Here you are.\n\nWhich sentence would make B's reply most natural in a formal meeting?",
+      "figures": [],
+      "choices": [
+        {
+          "md": "I need that document on your side of the table for my presentation.",
+          "is_answer": false
+        },
+        {
+          "md": "That document. Now.",
+          "is_answer": false
+        },
+        {
+          "md": "Would you mind passing me that document?",
+          "is_answer": true
+        },
+        {
+          "md": "Pass me that thing.",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "B ตอบ Not at all. Here you are.",
+          "why_md": "A ต้องขอสิ่งของด้วย Would you mind และ B ตอบว่าไม่รังเกียจ"
+        },
+        {
+          "do_md": "บริบทการประชุมทางการ",
+          "why_md": "Would you mind... เหมาะที่สุด"
+        }
+      ],
+      "answer_explanation_md": "ตอบ Would you mind passing me that document? เพราะเป็นคำขอสุภาพที่เหมาะกับการประชุม และ B ตอบว่าไม่รังเกียจก่อนยื่นเอกสารให้",
+      "hints": [
+        "B ตอบว่า Here you are แปลว่า A ขออะไร",
+        "บริบทเป็นการประชุมทางการ ต้องใช้ภาษาระดับไหน",
+        "หาตัวเลือกที่เป็นคำขอสุภาพ"
+      ],
+      "distractor_reasons": {
+        "0": "บอกความต้องการแต่ไม่ได้ขออย่างสุภาพ ฟังเหมือนสั่ง",
+        "1": "ห้วนและเป็นคำสั่ง ไม่เหมาะกับการประชุมทางการ",
+        "3": "ไม่ทางการและไม่ระบุสิ่งของ"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.foundation.politeness_level.0007",
+      "topic_ids": [
+        "tgat1.speaking.foundation.politeness_level"
+      ],
+      "primary_topic_id": "tgat1.speaking.foundation.politeness_level",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 45,
+      "stem_md": "**Intern:** ______  \n**Manager:** Sure, but return it before lunch.",
+      "figures": [],
+      "choices": [
+        {
+          "md": "Could I borrow the department camera for an hour?",
+          "is_answer": true
+        },
+        {
+          "md": "Can the camera borrow me?",
+          "is_answer": false
+        },
+        {
+          "md": "Give me the camera now, please.",
+          "is_answer": false
+        },
+        {
+          "md": "I want your camera.",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ติดตามบริบทและผู้พูด",
+          "why_md": "ผู้ฝึกงานขอใช้ของหน่วยงาน"
+        },
+        {
+          "do_md": "ทดลองเติมแล้วอ่านต่อ",
+          "why_md": "คำตอบต้องทำให้บทสนทนาต่อเนื่อง ไม่ใช่แค่มีคำซ้ำ"
+        }
+      ],
+      "answer_explanation_md": "Could I borrow สุภาพและตรงกับเงื่อนไขคืน",
+      "hints": [
+        "ดูว่าใครพูดกับใครและต้องการอะไร",
+        "ใช้ประโยคก่อนและหลังช่องว่างร่วมกัน",
+        "ตัดตัวเลือกที่มีคำซ้ำแต่ทำหน้าที่ผิด"
+      ],
+      "distractor_reasons": {
+        "1": "สลับผู้ยืม",
+        "2": "please ไม่ทำให้คำสั่งสุภาพพอ",
+        "3": "บอกความต้องการแต่ไม่ขอ"
+      },
+      "misconception_tags": [
+        "please_is_enough"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.foundation.politeness_level.0008",
+      "topic_ids": [
+        "tgat1.speaking.foundation.politeness_level"
+      ],
+      "primary_topic_id": "tgat1.speaking.foundation.politeness_level",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 5,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": true,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 60,
+      "stem_md": "**Resident:** ______  \n**Officer:** I'll check the construction schedule.",
+      "figures": [],
+      "choices": [
+        {
+          "md": "Could you tell me whether the drilling will continue after six?",
+          "is_answer": true
+        },
+        {
+          "md": "Do you know will it continue?",
+          "is_answer": false
+        },
+        {
+          "md": "Tell me when that noise stops.",
+          "is_answer": false
+        },
+        {
+          "md": "Why are you people always noisy?",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ติดตามบริบทและผู้พูด",
+          "why_md": "ประชาชนขอข้อมูลเฉพาะจากเจ้าหน้าที่"
+        },
+        {
+          "do_md": "ทดลองเติมแล้วอ่านต่อ",
+          "why_md": "คำตอบต้องทำให้บทสนทนาต่อเนื่อง ไม่ใช่แค่มีคำซ้ำ"
+        }
+      ],
+      "answer_explanation_md": "คำถามอ้อมสุภาพและระบุช่วงเวลาที่ต้องการ",
+      "hints": [
+        "ดูว่าใครพูดกับใครและต้องการอะไร",
+        "ใช้ประโยคก่อนและหลังช่องว่างร่วมกัน",
+        "ตัดตัวเลือกที่มีคำซ้ำแต่ทำหน้าที่ผิด"
+      ],
+      "distractor_reasons": {
+        "1": "กลับคำในคำถามอ้อม",
+        "2": "เป็นคำสั่ง",
+        "3": "เหมารวมและกล่าวหา"
+      },
+      "misconception_tags": [
+        "register_mismatch"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    }
+  ],
+  "generated_from": "content/tgat1/speaking_conv.py"
+}

@@ -1,0 +1,554 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tgat2.language.communication.analogy_category",
+  "problems": [
+    {
+      "id": "prob.tgat2.language.communication.analogy_category.0001",
+      "topic_ids": [
+        "tgat2.language.communication.analogy_category"
+      ],
+      "primary_topic_id": "tgat2.language.communication.analogy_category",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 30,
+      "stem_md": "กุหลาบ : ดอกไม้  ::  จระเข้ : ?",
+      "figures": [],
+      "choices": [
+        {
+          "md": "สัตว์เลื้อยคลาน",
+          "is_answer": true
+        },
+        {
+          "md": "สัตว์ดุร้าย",
+          "is_answer": false
+        },
+        {
+          "md": "แม่น้ำ",
+          "is_answer": false
+        },
+        {
+          "md": "ตะกวด",
+          "is_answer": false
+        },
+        {
+          "md": "หนังจระเข้",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ประโยค: กุหลาบเป็นดอกไม้ชนิดหนึ่ง",
+          "why_md": "สมาชิก : ประเภท"
+        },
+        {
+          "do_md": "จระเข้เป็นสัตว์เลื้อยคลานชนิดหนึ่ง",
+          "why_md": "แทนคู่ที่สอง"
+        }
+      ],
+      "answer_explanation_md": "ตอบ สัตว์เลื้อยคลาน เพราะจระเข้เป็นสัตว์เลื้อยคลานชนิดหนึ่ง เหมือนกุหลาบเป็นดอกไม้ชนิดหนึ่ง",
+      "hints": [
+        "แต่งประโยคเชื่อม กุหลาบ กับ ดอกไม้",
+        "จระเข้เป็น ___ ชนิดหนึ่ง",
+        "ระวังคำที่เกี่ยวข้องแต่ไม่ใช่ประเภท"
+      ],
+      "distractor_reasons": {
+        "1": "เป็นลักษณะ ไม่ใช่การจัดประเภททางชีววิทยา",
+        "2": "เป็นที่อยู่ ไม่ใช่ประเภท",
+        "3": "เป็นสมาชิกอีกตัว ไม่ใช่ประเภท",
+        "4": "เป็นส่วนหรือผลผลิต ไม่ใช่ประเภท"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.language.communication.analogy_category.0002",
+      "topic_ids": [
+        "tgat2.language.communication.analogy_category"
+      ],
+      "primary_topic_id": "tgat2.language.communication.analogy_category",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 35,
+      "stem_md": "ผลไม้ : ทุเรียน  ::  เครื่องเขียน : ?",
+      "figures": [],
+      "choices": [
+        {
+          "md": "การเขียนหนังสือ",
+          "is_answer": false
+        },
+        {
+          "md": "กระดาษสา",
+          "is_answer": false
+        },
+        {
+          "md": "ยางลบ",
+          "is_answer": true
+        },
+        {
+          "md": "โต๊ะเรียน",
+          "is_answer": false
+        },
+        {
+          "md": "ห้องเรียน",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ประโยค: ทุเรียนเป็นผลไม้ชนิดหนึ่ง (คู่แรกเรียง ประเภท : สมาชิก)",
+          "why_md": "ระวังทิศ"
+        },
+        {
+          "do_md": "ยางลบเป็นเครื่องเขียนชนิดหนึ่ง",
+          "why_md": "สมาชิกของเครื่องเขียน"
+        }
+      ],
+      "answer_explanation_md": "ตอบ ยางลบ เพราะคู่แรกเรียงเป็น ประเภท : สมาชิก และยางลบเป็นเครื่องเขียนชนิดหนึ่ง",
+      "hints": [
+        "คำใดในคู่แรกเป็นประเภท คำใดเป็นสมาชิก",
+        "คู่ที่สองต้องเรียงทิศเดียวกัน",
+        "หาสมาชิกของเครื่องเขียน"
+      ],
+      "distractor_reasons": {
+        "0": "เป็นกิจกรรม ไม่ใช่สมาชิก",
+        "1": "กระดาษสาใช้ทำงานฝีมือเป็นหลัก ไม่ใช่เครื่องเขียนโดยตรง",
+        "3": "เป็นเครื่องเรือน",
+        "4": "เป็นสถานที่"
+      },
+      "misconception_tags": [
+        "reversed_relation"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.language.communication.analogy_category.0003",
+      "topic_ids": [
+        "tgat2.language.communication.analogy_category"
+      ],
+      "primary_topic_id": "tgat2.language.communication.analogy_category",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 35,
+      "stem_md": "ระนาด : ฆ้องวง  ::  ฟุตบอล : ?",
+      "figures": [],
+      "choices": [
+        {
+          "md": "กีฬา",
+          "is_answer": false
+        },
+        {
+          "md": "ลูกฟุตบอล",
+          "is_answer": false
+        },
+        {
+          "md": "นักฟุตบอล",
+          "is_answer": false
+        },
+        {
+          "md": "สนามหญ้า",
+          "is_answer": false
+        },
+        {
+          "md": "บาสเกตบอล",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ระนาดกับฆ้องวงเป็นเครื่องดนตรีไทยเหมือนกัน",
+          "why_md": "สมาชิกกลุ่มเดียวกัน"
+        },
+        {
+          "do_md": "ฟุตบอลกับบาสเกตบอลเป็นกีฬาประเภททีมเหมือนกัน",
+          "why_md": "แทนคู่ที่สอง"
+        }
+      ],
+      "answer_explanation_md": "ตอบ บาสเกตบอล เพราะคู่แรกเป็นสมาชิกกลุ่มเดียวกัน (เครื่องดนตรีไทย) ฟุตบอลกับบาสเกตบอลก็เป็นกีฬาทีมเหมือนกัน",
+      "hints": [
+        "ระนาดกับฆ้องวงเกี่ยวข้องกันอย่างไร",
+        "ทั้งคู่เป็นสมาชิกของกลุ่มใด",
+        "หาสมาชิกอีกตัวในกลุ่มเดียวกับฟุตบอล"
+      ],
+      "distractor_reasons": {
+        "0": "เป็นประเภท ไม่ใช่สมาชิกกลุ่มเดียวกัน",
+        "1": "เป็นอุปกรณ์",
+        "2": "เป็นผู้เล่น",
+        "3": "เป็นสถานที่"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.language.communication.analogy_category.0004",
+      "topic_ids": [
+        "tgat2.language.communication.analogy_category"
+      ],
+      "primary_topic_id": "tgat2.language.communication.analogy_category",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 35,
+      "stem_md": "คู่ใดมีความสัมพันธ์แบบเดียวกับ ลำไย : ผลไม้",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ต้นไม้ : ใบไม้",
+          "is_answer": false
+        },
+        {
+          "md": "สิงโต : สัตว์กินเนื้อ",
+          "is_answer": true
+        },
+        {
+          "md": "ไข่ : ไก่",
+          "is_answer": false
+        },
+        {
+          "md": "สัตว์ : แมว",
+          "is_answer": false
+        },
+        {
+          "md": "หมอ : โรงพยาบาล",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ลำไยเป็นผลไม้ชนิดหนึ่ง",
+          "why_md": "สมาชิก : ประเภท"
+        },
+        {
+          "do_md": "สิงโตเป็นสัตว์กินเนื้อชนิดหนึ่ง",
+          "why_md": "ทิศเดียวกัน"
+        }
+      ],
+      "answer_explanation_md": "ตอบ สิงโต : สัตว์กินเนื้อ เพราะเป็นสมาชิก : ประเภท เรียงทิศเดียวกับ ลำไย : ผลไม้",
+      "hints": [
+        "แต่งประโยคเชื่อม ลำไย กับ ผลไม้",
+        "ใช้ประโยคเดียวกันกับทุกตัวเลือก",
+        "ระวังตัวเลือกที่กลับทิศ"
+      ],
+      "distractor_reasons": {
+        "0": "เป็นส่วนกับทั้งหมด",
+        "2": "เป็นผลผลิตกับผู้ผลิต",
+        "3": "เรียงกลับทิศเป็น ประเภท : สมาชิก",
+        "4": "เป็นบุคคลกับสถานที่ทำงาน"
+      },
+      "misconception_tags": [
+        "reversed_relation"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.language.communication.analogy_category.0005",
+      "topic_ids": [
+        "tgat2.language.communication.analogy_category"
+      ],
+      "primary_topic_id": "tgat2.language.communication.analogy_category",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 40,
+      "stem_md": "โคลง : คำประพันธ์  ::  สามเหลี่ยม : ?",
+      "figures": [],
+      "choices": [
+        {
+          "md": "มุมฉาก",
+          "is_answer": false
+        },
+        {
+          "md": "รูปหลายเหลี่ยม",
+          "is_answer": true
+        },
+        {
+          "md": "ด้านสามด้าน",
+          "is_answer": false
+        },
+        {
+          "md": "สามเหลี่ยมด้านเท่า",
+          "is_answer": false
+        },
+        {
+          "md": "รูปวงกลม",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "โคลงเป็นคำประพันธ์ชนิดหนึ่ง",
+          "why_md": "สมาชิก : ประเภท"
+        },
+        {
+          "do_md": "สามเหลี่ยมเป็นรูปหลายเหลี่ยมชนิดหนึ่ง",
+          "why_md": "แทนคู่ที่สอง"
+        }
+      ],
+      "answer_explanation_md": "ตอบ รูปหลายเหลี่ยม เพราะสามเหลี่ยมเป็นรูปหลายเหลี่ยมชนิดหนึ่ง เหมือนโคลงเป็นคำประพันธ์ชนิดหนึ่ง",
+      "hints": [
+        "โคลงเป็นอะไร",
+        "สามเหลี่ยมเป็นรูปชนิดหนึ่งของกลุ่มใด",
+        "ระวังตัวเลือกที่เป็นส่วนประกอบหรือเป็นสมาชิกย่อย"
+      ],
+      "distractor_reasons": {
+        "0": "เป็นส่วนประกอบหรือลักษณะ ไม่ใช่ประเภท",
+        "2": "เป็นส่วนประกอบ",
+        "3": "เป็นสมาชิกของสามเหลี่ยม ทิศกลับ",
+        "4": "ไม่ใช่รูปหลายเหลี่ยม และไม่ใช่ประเภทของสามเหลี่ยม"
+      },
+      "misconception_tags": [
+        "reversed_relation"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.language.communication.analogy_category.0006",
+      "topic_ids": [
+        "tgat2.language.communication.analogy_category"
+      ],
+      "primary_topic_id": "tgat2.language.communication.analogy_category",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 30,
+      "stem_md": "รถเมล์ : ยานพาหนะ  ::  ทุเรียน : ?",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ผลไม้",
+          "is_answer": true
+        },
+        {
+          "md": "หมอนทอง",
+          "is_answer": false
+        },
+        {
+          "md": "เปลือกหนาม",
+          "is_answer": false
+        },
+        {
+          "md": "กลิ่นแรง",
+          "is_answer": false
+        },
+        {
+          "md": "สวนผลไม้",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ประโยค: รถเมล์เป็นยานพาหนะชนิดหนึ่ง",
+          "why_md": "สมาชิก : ประเภท"
+        },
+        {
+          "do_md": "ทุเรียนเป็นผลไม้ชนิดหนึ่ง",
+          "why_md": "แทนคู่ที่สอง"
+        }
+      ],
+      "answer_explanation_md": "ตอบ ผลไม้ เพราะทุเรียนเป็นผลไม้ชนิดหนึ่ง เหมือนรถเมล์เป็นยานพาหนะชนิดหนึ่ง",
+      "hints": [
+        "แต่งประโยคเชื่อมคู่แรก",
+        "ทุเรียนเป็น ___ ชนิดหนึ่ง",
+        "ระวังตัวเลือกที่เป็นพันธุ์ย่อยหรือส่วนประกอบ"
+      ],
+      "distractor_reasons": {
+        "1": "เป็นพันธุ์ย่อยของทุเรียน ทิศกลับ",
+        "2": "เป็นส่วนประกอบ",
+        "3": "เป็นลักษณะ",
+        "4": "เป็นสถานที่ปลูก"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.language.communication.analogy_category.0007",
+      "topic_ids": [
+        "tgat2.language.communication.analogy_category"
+      ],
+      "primary_topic_id": "tgat2.language.communication.analogy_category",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 35,
+      "stem_md": "กีฬา : แบดมินตัน  ::  เครื่องดื่ม : ?",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ร้านสะดวกซื้อ",
+          "is_answer": false
+        },
+        {
+          "md": "การดื่ม",
+          "is_answer": false
+        },
+        {
+          "md": "ความกระหาย",
+          "is_answer": false
+        },
+        {
+          "md": "น้ำอัดลม",
+          "is_answer": true
+        },
+        {
+          "md": "แก้วน้ำ",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "คู่แรกเรียงเป็น ประเภท : สมาชิก",
+          "why_md": "ระวังทิศ"
+        },
+        {
+          "do_md": "น้ำอัดลมเป็นเครื่องดื่มชนิดหนึ่ง",
+          "why_md": "สมาชิกของเครื่องดื่ม"
+        }
+      ],
+      "answer_explanation_md": "ตอบ น้ำอัดลม เพราะคู่แรกเป็น ประเภท : สมาชิก และน้ำอัดลมเป็นเครื่องดื่มชนิดหนึ่ง",
+      "hints": [
+        "คำใดเป็นประเภท คำใดเป็นสมาชิก",
+        "คู่ที่สองต้องเรียงทิศเดียวกัน",
+        "หาสมาชิกของเครื่องดื่ม"
+      ],
+      "distractor_reasons": {
+        "0": "เป็นสถานที่ขาย",
+        "1": "เป็นการกระทำ",
+        "2": "เป็นความรู้สึก",
+        "4": "เป็นภาชนะ"
+      },
+      "misconception_tags": [
+        "reversed_relation"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    }
+  ],
+  "generated_from": "content/tgat2/language_comm_reading.py"
+}

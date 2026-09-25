@@ -1,0 +1,1374 @@
+{
+  "schema_version": "1.0",
+  "subject": "tgat3",
+  "subject_name_th": "TGAT3 สมรรถนะการทำงาน",
+  "exam_codes": [
+    "TGAT3"
+  ],
+  "source_note": "ยืนยันโครงสอบแล้วจาก mytcas.com/blueprint/tgat3-93/ (ตรวจเมื่อ 20 กันยายน 2569): 60 ข้อ 100 คะแนน 60 นาที ปรนัย 4 ตัวเลือก 4 ส่วน ส่วนละ 15 ข้อ 25 คะแนนเท่ากัน คือ (1) การสร้างคุณค่าและนวัตกรรม สมรรถนะย่อย 3 ตัว (การคิดเชิงวิเคราะห์ การแก้ไขปัญหาอย่างมืออาชีพ ความคิดเชิงนวัตกรรม) (2) การแก้ไขปัญหาที่ซับซ้อน สมรรถนะย่อย 4 ตัว (การระบุปัญหา การแสวงหาทางออก การนำทางออกไปแก้ปัญหา การประเมินทางออก) (3) การบริหารจัดการอารมณ์ สมรรถนะย่อย 3 ตัว (ความตระหนักรู้ตนเอง การควบคุมอารมณ์และบุคลิกภาพ ความเข้าใจผู้อื่น) (4) การเป็นพลเมืองที่มีส่วนร่วมของสังคม สมรรถนะย่อย 3 ตัว (การมุ่งเน้นการบริการสังคม จิตสำนึกและรับผิดชอบต่อสิ่งแวดล้อม การสร้างสรรค์เพื่อประโยชน์ของท้องถิ่น) | การให้คะแนนไม่ใช่ถูกหรือผิด: ส่วนที่ 1 มีรูปแบบข้อสอบ 3 แบบ คือเลือกตอบตัวเดียว (0-1 คะแนน) เลือกได้หลายข้อ (ตัวเลือกละ 0.25 คะแนน) และข้อสอบ 2 ข้อที่สัมพันธ์กัน (คะแนนผูกกัน รวม 2 คะแนน) ส่วนที่ 2 มีข้อเลือกได้หลายข้อที่ได้คะแนนต่อเมื่อฝนตรงตามรูปแบบเฉลยเท่านั้น และข้อเลือกตัวเดียวที่ให้คะแนนแบบลดหลั่น ส่วนที่ 3 และ 4 ให้ 1 คะแนนต่อข้อเลือกตัวเดียว บางข้อให้คะแนนลดหลั่น 0.25 ถึง 1.00 | ผังสอบไม่ได้ระบุ: จำนวนข้อของแต่ละสมรรถนะย่อย และจำนวนข้อของแต่ละรูปแบบ | โครงผังจัดเป็น 4 ส่วน x สมรรถนะย่อยทางการ (รวม 13 ตัว) บวกกลุ่ม foundation หนึ่งกลุ่มที่ใช้ร่วมกันทุกส่วน",
+  "topics": [
+    {
+      "id": "tgat3",
+      "name_th": "TGAT3 สมรรถนะการทำงาน",
+      "name_en": "TGAT3 Work Competency",
+      "kind": "subject",
+      "parent": null,
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "TGAT3",
+        "สมรรถนะการทำงาน",
+        "work competency",
+        "situational judgement"
+      ],
+      "curriculum_ref": null,
+      "notes": "ข้อสอบสถานการณ์ (situational judgement) ไม่มีเฉลยแบบคำนวณ ตัวเลือกหลายตัวเป็นคำตอบที่ยอมรับได้ ต่างกันที่ดีกว่าหรือด้อยกว่า | โครงสอบยืนยันแล้ว: 60 ข้อ 100 คะแนน 60 นาที ปรนัย 4 ตัวเลือก 4 ส่วน ส่วนละ 15 ข้อ 25 คะแนนเท่ากัน | ตอนแต่งโจทย์ให้ใช้ format mcq4_tiered เป็นหลัก ไม่ใช่ mcq4 เพราะการให้คะแนนลดหลั่นคือตัวสอนเองว่าอะไรดีกว่าอะไร ถ้าทำเป็นถูก/ผิดจะสอนผิดไปเลย | solution_steps ต้องอธิบาย **เกณฑ์การตัดสิน** ว่าทำไมตัวเลือกนี้ดีกว่า ห้ามเขียนว่าถูกเพราะถูก | วิชานี้อยู่ในกลุ่มที่ต้องให้คนตรวจ 100% ตามตารางใน spec/07 เพราะเกณฑ์ความเหมาะสมขึ้นกับบริบทสังคมไทย ซึ่งเครื่องตรวจไม่ได้"
+    },
+    {
+      "id": "tgat3.foundation",
+      "name_th": "พื้นฐานก่อนฝึกข้อสอบสถานการณ์",
+      "name_en": "Foundations for Situational Items",
+      "kind": "branch",
+      "parent": "tgat3",
+      "order": 1,
+      "grade_band": "m_early",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "easy",
+      "keywords": [
+        "พื้นฐาน",
+        "foundation",
+        "ข้อสอบสถานการณ์"
+      ],
+      "curriculum_ref": null,
+      "notes": "ไม่ใช่ส่วนทางการ เป็นกลุ่มที่เพิ่มเองเพราะข้อสอบแบบนี้ต่างจากที่เด็กไทยคุ้นเคย ต้องสอนวิธีอ่านและวิธีตัดสินก่อน ไม่งั้นฝึกเท่าไรก็ไม่ขึ้น"
+    },
+    {
+      "id": "tgat3.foundation.how_to_read",
+      "name_th": "วิธีอ่านโจทย์สถานการณ์",
+      "name_en": "Reading a Situational Item",
+      "kind": "leaf",
+      "parent": "tgat3.foundation",
+      "order": 1,
+      "grade_band": "m_early",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [],
+      "difficulty_band": "easy",
+      "keywords": [
+        "อ่านโจทย์",
+        "สถานการณ์",
+        "บทบาท",
+        "ข้อจำกัด"
+      ],
+      "curriculum_ref": null,
+      "notes": "สอนให้จับ 4 อย่างก่อนดูตัวเลือก: เราเป็นใครในเรื่อง เป้าหมายคืออะไร มีข้อจำกัดอะไร และใครได้รับผลกระทบบ้าง"
+    },
+    {
+      "id": "tgat3.foundation.judgement_criteria",
+      "name_th": "เกณฑ์ตัดสินว่าตัวเลือกไหนดีที่สุด",
+      "name_en": "Criteria for the Best Response",
+      "kind": "leaf",
+      "parent": "tgat3.foundation",
+      "order": 2,
+      "grade_band": "m_early",
+      "requires": [
+        "tgat3.foundation.how_to_read"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "เกณฑ์ตัดสิน",
+        "ดีที่สุด",
+        "judgement"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวใจของทั้งวิชา เกณฑ์ที่ใช้บ่อยคือ แก้ที่ต้นเหตุไหม อยู่ในอำนาจหน้าที่เราไหม เคารพคนอื่นไหม และทำได้จริงในเวลาที่มีไหม"
+    },
+    {
+      "id": "tgat3.foundation.attractive_wrong",
+      "name_th": "กับดักตัวเลือกที่ฟังดูดีแต่ไม่ใช่",
+      "name_en": "Attractive but Wrong Options",
+      "kind": "leaf",
+      "parent": "tgat3.foundation",
+      "order": 3,
+      "grade_band": "m_early",
+      "requires": [
+        "tgat3.foundation.judgement_criteria"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "กับดัก",
+        "ตัวลวง",
+        "ฟังดูดี"
+      ],
+      "curriculum_ref": null,
+      "notes": "รูปแบบที่เจอบ่อย: ตัวเลือกที่ถูกศีลธรรมแต่ไม่แก้ปัญหา ตัวเลือกที่แก้ได้แต่ข้ามหัวคนอื่น และตัวเลือกที่ผลักภาระให้คนอื่นทั้งหมด"
+    },
+    {
+      "id": "tgat3.foundation.formats_and_scoring",
+      "name_th": "รูปแบบข้อสอบและการให้คะแนนของ TGAT3",
+      "name_en": "Item Formats and Scoring in TGAT3",
+      "kind": "leaf",
+      "parent": "tgat3.foundation",
+      "order": 4,
+      "grade_band": "m_early",
+      "requires": [],
+      "est_minutes": 20,
+      "exam_weight": [],
+      "difficulty_band": "easy",
+      "keywords": [
+        "รูปแบบข้อสอบ",
+        "การให้คะแนน",
+        "ลดหลั่น",
+        "เลือกหลายข้อ"
+      ],
+      "curriculum_ref": null,
+      "notes": "ต้องรู้ก่อนลงสนามจริง เพราะการฝนคำตอบต่างรูปแบบกันคิดคะแนนคนละแบบ โดยเฉพาะข้อเลือกได้หลายข้อที่ได้คะแนนต่อเมื่อตรงรูปแบบเฉลยเท่านั้น | เนื้อหาต้องอ้างผังสอบทางการเท่านั้น ห้ามเดาเกณฑ์เอง"
+    },
+    {
+      "id": "tgat3.foundation.time_management",
+      "name_th": "บริหารเวลา 60 ข้อใน 60 นาที",
+      "name_en": "Time Management for TGAT3",
+      "kind": "leaf",
+      "parent": "tgat3.foundation",
+      "order": 5,
+      "grade_band": "m_early",
+      "requires": [
+        "tgat3.foundation.how_to_read"
+      ],
+      "est_minutes": 20,
+      "exam_weight": [],
+      "difficulty_band": "easy",
+      "keywords": [
+        "บริหารเวลา",
+        "time management"
+      ],
+      "curriculum_ref": null,
+      "notes": "เฉลี่ยข้อละ 1 นาที แต่โจทย์สถานการณ์ยาว จึงต้องฝึกอ่านเร็วและตัดสินใจเร็ว"
+    },
+    {
+      "id": "tgat3.value_innovation",
+      "name_th": "การสร้างคุณค่าและนวัตกรรม",
+      "name_en": "Creating Value and Innovation",
+      "kind": "branch",
+      "parent": "tgat3",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "TGAT3",
+          "typical_items": "15 ข้อ 25 คะแนน",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "สร้างคุณค่า",
+        "นวัตกรรม",
+        "innovation"
+      ],
+      "curriculum_ref": null,
+      "notes": "ส่วนทางการที่ 1 มีสมรรถนะย่อย 3 ตัวตามผังสอบ | ส่วนนี้มีรูปแบบข้อสอบ 3 แบบ รวมถึงแบบ 'ข้อสอบ 2 ข้อที่สัมพันธ์กัน' ซึ่งคะแนนผูกกันและรวมได้ 2 คะแนน — สเปคยังไม่รองรับรูปแบบนี้ ดูข้อจำกัดที่บันทึกไว้ใน สรุป.md"
+    },
+    {
+      "id": "tgat3.value_innovation.analytical",
+      "name_th": "การคิดเชิงวิเคราะห์",
+      "name_en": "Analytical Thinking",
+      "kind": "branch",
+      "parent": "tgat3.value_innovation",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "TGAT3",
+          "typical_items": "อยู่ในส่วนที่ 1 รวม 15 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "คิดวิเคราะห์",
+        "analytical thinking"
+      ],
+      "curriculum_ref": null,
+      "notes": "สมรรถนะย่อยทางการ"
+    },
+    {
+      "id": "tgat3.value_innovation.analytical.fact_vs_opinion",
+      "name_th": "แยกข้อเท็จจริงออกจากความคิดเห็น",
+      "name_en": "Separating Fact from Opinion",
+      "kind": "leaf",
+      "parent": "tgat3.value_innovation.analytical",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat3.foundation.how_to_read"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "TGAT3",
+          "typical_items": "อยู่ในส่วนที่ 1 รวม 15 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ข้อเท็จจริง",
+        "ความคิดเห็น",
+        "fact",
+        "opinion"
+      ],
+      "curriculum_ref": null,
+      "notes": "ในโจทย์สถานการณ์ ข้อมูลที่ตัวละครพูดมักเป็นความเห็น ไม่ใช่ข้อเท็จจริงที่ยืนยันแล้ว"
+    },
+    {
+      "id": "tgat3.value_innovation.analytical.root_cause",
+      "name_th": "หาสาเหตุที่แท้จริงของปัญหา",
+      "name_en": "Finding the Root Cause",
+      "kind": "leaf",
+      "parent": "tgat3.value_innovation.analytical",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat3.foundation.judgement_criteria"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "TGAT3",
+          "typical_items": "อยู่ในส่วนที่ 1 รวม 15 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "ต้นเหตุ",
+        "root cause",
+        "สาเหตุ"
+      ],
+      "curriculum_ref": null,
+      "notes": "เกณฑ์ที่ใช้บ่อยที่สุดของทั้งวิชา: ตัวเลือกที่แก้ต้นเหตุมักดีกว่าตัวเลือกที่แก้อาการ"
+    },
+    {
+      "id": "tgat3.value_innovation.analytical.enough_information",
+      "name_th": "ตัดสินว่าข้อมูลที่มีพอจะสรุปหรือยัง",
+      "name_en": "Judging Whether Information Is Sufficient",
+      "kind": "leaf",
+      "parent": "tgat3.value_innovation.analytical",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat3.value_innovation.analytical.fact_vs_opinion"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "TGAT3",
+          "typical_items": "อยู่ในส่วนที่ 1 รวม 15 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ข้อมูลเพียงพอ",
+        "สรุป",
+        "sufficiency"
+      ],
+      "curriculum_ref": null,
+      "notes": "ตัวเลือก 'หาข้อมูลเพิ่มก่อน' ดีเมื่อข้อมูลไม่พอจริง แต่เป็นการผัดวันเมื่อข้อมูลพอแล้ว"
+    },
+    {
+      "id": "tgat3.value_innovation.problem_solving",
+      "name_th": "การแก้ไขปัญหาอย่างมืออาชีพ",
+      "name_en": "Professional Problem Solving",
+      "kind": "branch",
+      "parent": "tgat3.value_innovation",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "TGAT3",
+          "typical_items": "อยู่ในส่วนที่ 1 รวม 15 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "แก้ปัญหา",
+        "มืออาชีพ"
+      ],
+      "curriculum_ref": null,
+      "notes": "สมรรถนะย่อยทางการ"
+    },
+    {
+      "id": "tgat3.value_innovation.problem_solving.prioritise",
+      "name_th": "จัดลำดับความสำคัญเมื่องานชนกัน",
+      "name_en": "Prioritising Conflicting Tasks",
+      "kind": "leaf",
+      "parent": "tgat3.value_innovation.problem_solving",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat3.foundation.judgement_criteria"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "TGAT3",
+          "typical_items": "อยู่ในส่วนที่ 1 รวม 15 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "จัดลำดับความสำคัญ",
+        "priority",
+        "งานชนกัน"
+      ],
+      "curriculum_ref": null,
+      "notes": "เกณฑ์คือความเร่งด่วนคู่กับผลกระทบ ไม่ใช่ทำสิ่งที่ง่ายก่อน"
+    },
+    {
+      "id": "tgat3.value_innovation.problem_solving.feasible_solution",
+      "name_th": "เลือกทางแก้ที่ทำได้จริงในเงื่อนไขที่มี",
+      "name_en": "Choosing a Feasible Solution",
+      "kind": "leaf",
+      "parent": "tgat3.value_innovation.problem_solving",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat3.foundation.judgement_criteria"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "TGAT3",
+          "typical_items": "อยู่ในส่วนที่ 1 รวม 15 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ทำได้จริง",
+        "ข้อจำกัด",
+        "feasible"
+      ],
+      "curriculum_ref": null,
+      "notes": "ตัวเลือกที่ดีในอุดมคติแต่เกินงบหรือเกินเวลาที่โจทย์ให้ ถือว่าด้อยกว่า"
+    },
+    {
+      "id": "tgat3.value_innovation.problem_solving.communicate_solution",
+      "name_th": "สื่อสารกับผู้เกี่ยวข้องระหว่างแก้ปัญหา",
+      "name_en": "Communicating While Solving",
+      "kind": "leaf",
+      "parent": "tgat3.value_innovation.problem_solving",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat3.foundation.attractive_wrong"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "TGAT3",
+          "typical_items": "อยู่ในส่วนที่ 1 รวม 15 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "สื่อสาร",
+        "ผู้เกี่ยวข้อง",
+        "แจ้งให้ทราบ"
+      ],
+      "curriculum_ref": null,
+      "notes": "ตัวเลือกที่ลงมือแก้เองเงียบ ๆ มักด้อยกว่า เพราะคนอื่นวางแผนต่อไม่ได้"
+    },
+    {
+      "id": "tgat3.value_innovation.innovation",
+      "name_th": "ความคิดเชิงนวัตกรรม",
+      "name_en": "Innovative Thinking",
+      "kind": "branch",
+      "parent": "tgat3.value_innovation",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "TGAT3",
+          "typical_items": "อยู่ในส่วนที่ 1 รวม 15 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "นวัตกรรม",
+        "ความคิดใหม่"
+      ],
+      "curriculum_ref": null,
+      "notes": "สมรรถนะย่อยทางการ"
+    },
+    {
+      "id": "tgat3.value_innovation.innovation.opportunity_from_problem",
+      "name_th": "มองเห็นโอกาสจากปัญหาเดิม",
+      "name_en": "Seeing Opportunity in a Problem",
+      "kind": "leaf",
+      "parent": "tgat3.value_innovation.innovation",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat3.value_innovation.analytical.root_cause"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "TGAT3",
+          "typical_items": "อยู่ในส่วนที่ 1 รวม 15 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "โอกาส",
+        "ปัญหา",
+        "opportunity"
+      ],
+      "curriculum_ref": null,
+      "notes": "ต่างจากการแก้ปัญหาตรงที่ถามว่าจะทำให้ดีขึ้นกว่าเดิมได้อย่างไร ไม่ใช่แค่กลับสู่ปกติ"
+    },
+    {
+      "id": "tgat3.value_innovation.innovation.evaluate_new_idea",
+      "name_th": "ประเมินว่าไอเดียใหม่คุ้มความเสี่ยงหรือไม่",
+      "name_en": "Weighing a New Idea Against Its Risk",
+      "kind": "leaf",
+      "parent": "tgat3.value_innovation.innovation",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat3.value_innovation.problem_solving.feasible_solution"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "TGAT3",
+          "typical_items": "อยู่ในส่วนที่ 1 รวม 15 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "ประเมินไอเดีย",
+        "ความเสี่ยง",
+        "คุ้มค่า"
+      ],
+      "curriculum_ref": null,
+      "notes": "ของใหม่ไม่ได้ดีกว่าเสมอ ตัวเลือกที่เสี่ยงสูงโดยไม่มีแผนสำรองมักด้อยกว่า"
+    },
+    {
+      "id": "tgat3.complex_problem",
+      "name_th": "การแก้ไขปัญหาที่ซับซ้อน",
+      "name_en": "Solving Complex Problems",
+      "kind": "branch",
+      "parent": "tgat3",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "TGAT3",
+          "typical_items": "15 ข้อ 25 คะแนน",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ปัญหาซับซ้อน",
+        "complex problem"
+      ],
+      "curriculum_ref": null,
+      "notes": "ส่วนทางการที่ 2 มีสมรรถนะย่อย 4 ตัวตามผังสอบ เรียงตามขั้นตอนการแก้ปัญหา | ส่วนนี้มีข้อแบบเลือกได้หลายข้อ ตัวเลือกละ 0.25 คะแนน และได้คะแนนต่อเมื่อฝนตรงตามรูปแบบเฉลยเท่านั้น"
+    },
+    {
+      "id": "tgat3.complex_problem.identify",
+      "name_th": "การระบุปัญหา",
+      "name_en": "Identifying Problems",
+      "kind": "branch",
+      "parent": "tgat3.complex_problem",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "TGAT3",
+          "typical_items": "อยู่ในส่วนที่ 2 รวม 15 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ระบุปัญหา",
+        "identify problem"
+      ],
+      "curriculum_ref": null,
+      "notes": "สมรรถนะย่อยทางการ"
+    },
+    {
+      "id": "tgat3.complex_problem.identify.symptom_vs_problem",
+      "name_th": "แยกอาการออกจากตัวปัญหา",
+      "name_en": "Symptom versus Problem",
+      "kind": "leaf",
+      "parent": "tgat3.complex_problem.identify",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat3.value_innovation.analytical.root_cause"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "TGAT3",
+          "typical_items": "อยู่ในส่วนที่ 2 รวม 15 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "อาการ",
+        "ปัญหา",
+        "symptom"
+      ],
+      "curriculum_ref": null,
+      "notes": "ทักษะเดียวกับการหาต้นเหตุ แต่ใช้กับสถานการณ์ที่มีหลายอาการพร้อมกัน"
+    },
+    {
+      "id": "tgat3.complex_problem.identify.stakeholders",
+      "name_th": "ระบุผู้มีส่วนได้ส่วนเสียให้ครบ",
+      "name_en": "Identifying Stakeholders",
+      "kind": "leaf",
+      "parent": "tgat3.complex_problem.identify",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat3.foundation.how_to_read"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "TGAT3",
+          "typical_items": "อยู่ในส่วนที่ 2 รวม 15 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ผู้มีส่วนได้ส่วนเสีย",
+        "stakeholder"
+      ],
+      "curriculum_ref": null,
+      "notes": "ข้อแบบเลือกหลายข้อในส่วนนี้มักถามว่าใครบ้างที่ต้องนับ จึงต้องไล่ให้ครบไม่ขาดไม่เกิน"
+    },
+    {
+      "id": "tgat3.complex_problem.generate",
+      "name_th": "การแสวงหาทางออก",
+      "name_en": "Generating and Selecting Solutions",
+      "kind": "branch",
+      "parent": "tgat3.complex_problem",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "TGAT3",
+          "typical_items": "อยู่ในส่วนที่ 2 รวม 15 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ทางออก",
+        "ทางเลือก",
+        "solution"
+      ],
+      "curriculum_ref": null,
+      "notes": "สมรรถนะย่อยทางการ"
+    },
+    {
+      "id": "tgat3.complex_problem.generate.multiple_options",
+      "name_th": "สร้างทางเลือกหลายทางก่อนตัดสินใจ",
+      "name_en": "Generating Multiple Options First",
+      "kind": "leaf",
+      "parent": "tgat3.complex_problem.generate",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat3.complex_problem.identify.symptom_vs_problem"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "TGAT3",
+          "typical_items": "อยู่ในส่วนที่ 2 รวม 15 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ทางเลือก",
+        "ระดมความคิด",
+        "options"
+      ],
+      "curriculum_ref": null,
+      "notes": "ตัวเลือกที่รีบลงมือด้วยทางแรกที่นึกออก มักด้อยกว่าตัวเลือกที่เทียบหลายทางก่อน"
+    },
+    {
+      "id": "tgat3.complex_problem.generate.compare_criteria",
+      "name_th": "ตั้งเกณฑ์เปรียบเทียบทางเลือก",
+      "name_en": "Setting Criteria to Compare Options",
+      "kind": "leaf",
+      "parent": "tgat3.complex_problem.generate",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat3.complex_problem.generate.multiple_options"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "TGAT3",
+          "typical_items": "อยู่ในส่วนที่ 2 รวม 15 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "เกณฑ์เปรียบเทียบ",
+        "ตัดสินใจ",
+        "criteria"
+      ],
+      "curriculum_ref": null,
+      "notes": "ต้องตั้งเกณฑ์ก่อนดูทางเลือก ไม่ใช่เลือกก่อนแล้วหาเหตุผลมารองรับภายหลัง"
+    },
+    {
+      "id": "tgat3.complex_problem.implement",
+      "name_th": "การนำทางออกไปแก้ปัญหา",
+      "name_en": "Implementing the Solution",
+      "kind": "branch",
+      "parent": "tgat3.complex_problem",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "TGAT3",
+          "typical_items": "อยู่ในส่วนที่ 2 รวม 15 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ลงมือทำ",
+        "implement"
+      ],
+      "curriculum_ref": null,
+      "notes": "สมรรถนะย่อยทางการ"
+    },
+    {
+      "id": "tgat3.complex_problem.implement.action_sequence",
+      "name_th": "วางลำดับขั้นการลงมือให้ถูกจังหวะ",
+      "name_en": "Sequencing the Actions",
+      "kind": "leaf",
+      "parent": "tgat3.complex_problem.implement",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat3.complex_problem.generate.compare_criteria"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "TGAT3",
+          "typical_items": "อยู่ในส่วนที่ 2 รวม 15 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ลำดับขั้น",
+        "แผนปฏิบัติ",
+        "sequence"
+      ],
+      "curriculum_ref": null,
+      "notes": "ข้อแบบเรียงลำดับในส่วนนี้ เกณฑ์คือขั้นไหนต้องเสร็จก่อนขั้นอื่นจึงทำได้"
+    },
+    {
+      "id": "tgat3.complex_problem.implement.handle_obstacle",
+      "name_th": "รับมืออุปสรรคที่โผล่ระหว่างทำ",
+      "name_en": "Handling Obstacles Mid-Implementation",
+      "kind": "leaf",
+      "parent": "tgat3.complex_problem.implement",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat3.complex_problem.implement.action_sequence"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "TGAT3",
+          "typical_items": "อยู่ในส่วนที่ 2 รวม 15 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "อุปสรรค",
+        "ปรับแผน",
+        "obstacle"
+      ],
+      "curriculum_ref": null,
+      "notes": "ตัวเลือกที่ล้มแผนทั้งหมดเพราะเจออุปสรรคเดียว มักด้อยกว่าการปรับเฉพาะส่วนที่ติด"
+    },
+    {
+      "id": "tgat3.complex_problem.evaluate",
+      "name_th": "การประเมินทางออก",
+      "name_en": "Evaluating the Solution",
+      "kind": "branch",
+      "parent": "tgat3.complex_problem",
+      "order": 4,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "TGAT3",
+          "typical_items": "อยู่ในส่วนที่ 2 รวม 15 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ประเมินผล",
+        "evaluate"
+      ],
+      "curriculum_ref": null,
+      "notes": "สมรรถนะย่อยทางการ"
+    },
+    {
+      "id": "tgat3.complex_problem.evaluate.success_measure",
+      "name_th": "ตั้งตัวชี้วัดว่าสำเร็จหรือไม่",
+      "name_en": "Defining Success Measures",
+      "kind": "leaf",
+      "parent": "tgat3.complex_problem.evaluate",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat3.complex_problem.generate.compare_criteria"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "TGAT3",
+          "typical_items": "อยู่ในส่วนที่ 2 รวม 15 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ตัวชี้วัด",
+        "วัดผล",
+        "success measure"
+      ],
+      "curriculum_ref": null,
+      "notes": "ตัวชี้วัดต้องวัดได้จริงและวัดสิ่งที่ตรงกับปัญหา ไม่ใช่วัดสิ่งที่วัดง่าย"
+    },
+    {
+      "id": "tgat3.complex_problem.evaluate.adjust_after_result",
+      "name_th": "ปรับแผนเมื่อผลไม่เป็นไปตามคาด",
+      "name_en": "Adjusting After Results Come In",
+      "kind": "leaf",
+      "parent": "tgat3.complex_problem.evaluate",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat3.complex_problem.evaluate.success_measure"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "TGAT3",
+          "typical_items": "อยู่ในส่วนที่ 2 รวม 15 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ปรับแผน",
+        "ทบทวน",
+        "adjust"
+      ],
+      "curriculum_ref": null,
+      "notes": "เกณฑ์คือกลับไปดูว่าสมมติฐานไหนผิด ไม่ใช่โทษคนหรือทำแบบเดิมให้หนักขึ้น"
+    },
+    {
+      "id": "tgat3.emotion",
+      "name_th": "การบริหารจัดการอารมณ์",
+      "name_en": "Managing Emotions",
+      "kind": "branch",
+      "parent": "tgat3",
+      "order": 4,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "TGAT3",
+          "typical_items": "15 ข้อ 25 คะแนน",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "อารมณ์",
+        "emotion",
+        "EQ"
+      ],
+      "curriculum_ref": null,
+      "notes": "ส่วนทางการที่ 3 มีสมรรถนะย่อย 3 ตัวตามผังสอบ"
+    },
+    {
+      "id": "tgat3.emotion.self_awareness",
+      "name_th": "ความตระหนักรู้ตนเอง",
+      "name_en": "Self Awareness",
+      "kind": "branch",
+      "parent": "tgat3.emotion",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "TGAT3",
+          "typical_items": "อยู่ในส่วนที่ 3 รวม 15 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "รู้จักตนเอง",
+        "self awareness"
+      ],
+      "curriculum_ref": null,
+      "notes": "สมรรถนะย่อยทางการ"
+    },
+    {
+      "id": "tgat3.emotion.self_awareness.notice_own_emotion",
+      "name_th": "รู้ทันอารมณ์ตัวเองขณะกำลังเกิด",
+      "name_en": "Noticing Your Own Emotion as It Happens",
+      "kind": "leaf",
+      "parent": "tgat3.emotion.self_awareness",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat3.foundation.how_to_read"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "TGAT3",
+          "typical_items": "อยู่ในส่วนที่ 3 รวม 15 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "รู้ทันอารมณ์",
+        "อารมณ์ตนเอง"
+      ],
+      "curriculum_ref": null,
+      "notes": "ตัวเลือกที่ดีมักเริ่มจากการยอมรับว่ากำลังรู้สึกอะไร ก่อนตัดสินใจทำอะไรต่อ"
+    },
+    {
+      "id": "tgat3.emotion.self_awareness.know_limits",
+      "name_th": "รู้จุดแข็ง จุดอ่อน และขีดจำกัดของตัวเอง",
+      "name_en": "Knowing Your Strengths and Limits",
+      "kind": "leaf",
+      "parent": "tgat3.emotion.self_awareness",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat3.emotion.self_awareness.notice_own_emotion"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "TGAT3",
+          "typical_items": "อยู่ในส่วนที่ 3 รวม 15 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "จุดแข็ง",
+        "จุดอ่อน",
+        "ขีดจำกัด"
+      ],
+      "curriculum_ref": null,
+      "notes": "การขอความช่วยเหลือเมื่อเกินความสามารถ เป็นตัวเลือกที่ดีกว่าการฝืนทำคนเดียว"
+    },
+    {
+      "id": "tgat3.emotion.self_regulation",
+      "name_th": "การควบคุมอารมณ์และบุคลิกภาพ",
+      "name_en": "Controlling Emotions and Personality",
+      "kind": "branch",
+      "parent": "tgat3.emotion",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "TGAT3",
+          "typical_items": "อยู่ในส่วนที่ 3 รวม 15 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ควบคุมอารมณ์",
+        "บุคลิกภาพ"
+      ],
+      "curriculum_ref": null,
+      "notes": "สมรรถนะย่อยทางการ"
+    },
+    {
+      "id": "tgat3.emotion.self_regulation.manage_anger_pressure",
+      "name_th": "จัดการความโกรธและความกดดัน",
+      "name_en": "Managing Anger and Pressure",
+      "kind": "leaf",
+      "parent": "tgat3.emotion.self_regulation",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat3.emotion.self_awareness.notice_own_emotion"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "TGAT3",
+          "typical_items": "อยู่ในส่วนที่ 3 รวม 15 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ความโกรธ",
+        "ความกดดัน",
+        "ระงับอารมณ์"
+      ],
+      "curriculum_ref": null,
+      "notes": "เส้นแบ่งสำคัญ: หยุดเพื่อตั้งสติต่างจากการเก็บกดแล้วไม่จัดการอะไรเลย"
+    },
+    {
+      "id": "tgat3.emotion.self_regulation.respond_to_criticism",
+      "name_th": "รักษาความน่าเชื่อถือเมื่อถูกวิจารณ์",
+      "name_en": "Responding to Criticism",
+      "kind": "leaf",
+      "parent": "tgat3.emotion.self_regulation",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat3.emotion.self_regulation.manage_anger_pressure"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "TGAT3",
+          "typical_items": "อยู่ในส่วนที่ 3 รวม 15 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ถูกวิจารณ์",
+        "ตอบกลับ",
+        "criticism"
+      ],
+      "curriculum_ref": null,
+      "notes": "ตัวเลือกที่แยกคำวิจารณ์ที่มีเหตุผลออกจากน้ำเสียงที่ไม่ดี มักได้คะแนนสูงสุด"
+    },
+    {
+      "id": "tgat3.emotion.empathy",
+      "name_th": "ความเข้าใจผู้อื่น",
+      "name_en": "Interpersonal Understanding",
+      "kind": "branch",
+      "parent": "tgat3.emotion",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "TGAT3",
+          "typical_items": "อยู่ในส่วนที่ 3 รวม 15 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "เข้าใจผู้อื่น",
+        "empathy"
+      ],
+      "curriculum_ref": null,
+      "notes": "สมรรถนะย่อยทางการ"
+    },
+    {
+      "id": "tgat3.emotion.empathy.read_others",
+      "name_th": "อ่านอารมณ์และมุมมองของคนอื่น",
+      "name_en": "Reading Others' Emotions and Views",
+      "kind": "leaf",
+      "parent": "tgat3.emotion.empathy",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat3.emotion.self_awareness.notice_own_emotion"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "TGAT3",
+          "typical_items": "อยู่ในส่วนที่ 3 รวม 15 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "อ่านอารมณ์",
+        "มุมมองผู้อื่น",
+        "perspective"
+      ],
+      "curriculum_ref": null,
+      "notes": "ต้องแยกให้ออกว่าคนอื่นรู้สึกอะไร กับเราคิดว่าเขาควรรู้สึกอะไร"
+    },
+    {
+      "id": "tgat3.emotion.empathy.respond_to_upset",
+      "name_th": "ตอบสนองเมื่อคนอื่นกำลังอารมณ์เสีย",
+      "name_en": "Responding to an Upset Person",
+      "kind": "leaf",
+      "parent": "tgat3.emotion.empathy",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat3.emotion.empathy.read_others"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "TGAT3",
+          "typical_items": "อยู่ในส่วนที่ 3 รวม 15 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ปลอบ",
+        "รับฟัง",
+        "อารมณ์เสีย"
+      ],
+      "curriculum_ref": null,
+      "notes": "การรีบเสนอทางแก้ก่อนรับฟัง มักด้อยกว่าการรับฟังให้จบก่อน"
+    },
+    {
+      "id": "tgat3.civic",
+      "name_th": "การเป็นพลเมืองที่มีส่วนร่วมของสังคม",
+      "name_en": "Civic and Social Engagement",
+      "kind": "branch",
+      "parent": "tgat3",
+      "order": 5,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "TGAT3",
+          "typical_items": "15 ข้อ 25 คะแนน",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "พลเมือง",
+        "สังคม",
+        "civic"
+      ],
+      "curriculum_ref": null,
+      "notes": "ส่วนทางการที่ 4 มีสมรรถนะย่อย 3 ตัวตามผังสอบ | ส่วนนี้ต้องให้คนไทยตรวจแน่นอน เพราะเกณฑ์ความเหมาะสมผูกกับบริบทสังคมไทย"
+    },
+    {
+      "id": "tgat3.civic.service",
+      "name_th": "การมุ่งเน้นการบริการสังคม",
+      "name_en": "Service Orientation",
+      "kind": "branch",
+      "parent": "tgat3.civic",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "TGAT3",
+          "typical_items": "อยู่ในส่วนที่ 4 รวม 15 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "บริการสังคม",
+        "จิตอาสา",
+        "service"
+      ],
+      "curriculum_ref": null,
+      "notes": "สมรรถนะย่อยทางการ"
+    },
+    {
+      "id": "tgat3.civic.service.help_without_harm",
+      "name_th": "ช่วยเหลือโดยไม่ละเมิดสิทธิผู้อื่น",
+      "name_en": "Helping Without Overstepping",
+      "kind": "leaf",
+      "parent": "tgat3.civic.service",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat3.foundation.judgement_criteria"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "TGAT3",
+          "typical_items": "อยู่ในส่วนที่ 4 รวม 15 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ช่วยเหลือ",
+        "สิทธิ",
+        "ความยินยอม"
+      ],
+      "curriculum_ref": null,
+      "notes": "การช่วยโดยไม่ถามเจ้าตัวก่อน เป็นกับดักที่ฟังดูดีแต่มักไม่ใช่คำตอบที่ดีที่สุด"
+    },
+    {
+      "id": "tgat3.civic.service.sustainable_volunteering",
+      "name_th": "ทำงานอาสาให้ต่อเนื่อง ไม่ใช่ครั้งเดียวจบ",
+      "name_en": "Sustainable Volunteering",
+      "kind": "leaf",
+      "parent": "tgat3.civic.service",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat3.civic.service.help_without_harm"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "TGAT3",
+          "typical_items": "อยู่ในส่วนที่ 4 รวม 15 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "จิตอาสา",
+        "ความต่อเนื่อง",
+        "ยั่งยืน"
+      ],
+      "curriculum_ref": null,
+      "notes": "ตัวเลือกที่สร้างระบบให้คนในพื้นที่ทำต่อได้ มักดีกว่าการไปทำให้ครั้งเดียว"
+    },
+    {
+      "id": "tgat3.civic.environment",
+      "name_th": "จิตสำนึกและรับผิดชอบต่อสิ่งแวดล้อม",
+      "name_en": "Environmental Responsibility",
+      "kind": "branch",
+      "parent": "tgat3.civic",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "TGAT3",
+          "typical_items": "อยู่ในส่วนที่ 4 รวม 15 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "สิ่งแวดล้อม",
+        "environment"
+      ],
+      "curriculum_ref": null,
+      "notes": "สมรรถนะย่อยทางการ"
+    },
+    {
+      "id": "tgat3.civic.environment.decide_with_impact",
+      "name_th": "ตัดสินใจโดยคิดถึงผลต่อสิ่งแวดล้อม",
+      "name_en": "Deciding with Environmental Impact in Mind",
+      "kind": "leaf",
+      "parent": "tgat3.civic.environment",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat3.foundation.judgement_criteria"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "TGAT3",
+          "typical_items": "อยู่ในส่วนที่ 4 รวม 15 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ผลกระทบสิ่งแวดล้อม",
+        "ตัดสินใจ"
+      ],
+      "curriculum_ref": null,
+      "notes": "ดูผลระยะยาวด้วย ไม่ใช่แค่ผลทันทีที่มองเห็น"
+    },
+    {
+      "id": "tgat3.civic.environment.tradeoff_economy",
+      "name_th": "ชั่งน้ำหนักระหว่างเศรษฐกิจกับสิ่งแวดล้อม",
+      "name_en": "Weighing Economy Against Environment",
+      "kind": "leaf",
+      "parent": "tgat3.civic.environment",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat3.civic.environment.decide_with_impact",
+        "tgat3.complex_problem.generate.compare_criteria"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "TGAT3",
+          "typical_items": "อยู่ในส่วนที่ 4 รวม 15 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "ชั่งน้ำหนัก",
+        "เศรษฐกิจ",
+        "สิ่งแวดล้อม",
+        "trade-off"
+      ],
+      "curriculum_ref": null,
+      "notes": "ข้อยากของส่วนนี้ ตัวเลือกสุดโต่งทั้งสองทางมักไม่ใช่คำตอบที่ดีที่สุด แต่ก็ไม่ได้แปลว่าตัวเลือกสายกลางถูกเสมอ ต้องดูข้อจำกัดในโจทย์"
+    },
+    {
+      "id": "tgat3.civic.local",
+      "name_th": "การสร้างสรรค์เพื่อประโยชน์ของท้องถิ่น",
+      "name_en": "Creating Local Benefits",
+      "kind": "branch",
+      "parent": "tgat3.civic",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "TGAT3",
+          "typical_items": "อยู่ในส่วนที่ 4 รวม 15 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ท้องถิ่น",
+        "ชุมชน",
+        "local"
+      ],
+      "curriculum_ref": null,
+      "notes": "สมรรถนะย่อยทางการ"
+    },
+    {
+      "id": "tgat3.civic.local.understand_context",
+      "name_th": "เข้าใจบริบทท้องถิ่นก่อนเสนอทางแก้",
+      "name_en": "Understanding Local Context First",
+      "kind": "leaf",
+      "parent": "tgat3.civic.local",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat3.complex_problem.identify.stakeholders"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "TGAT3",
+          "typical_items": "อยู่ในส่วนที่ 4 รวม 15 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "บริบทท้องถิ่น",
+        "ชุมชน",
+        "context"
+      ],
+      "curriculum_ref": null,
+      "notes": "ตัวเลือกที่ยกวิธีจากที่อื่นมาใช้โดยไม่ดูบริบท มักด้อยกว่า"
+    },
+    {
+      "id": "tgat3.civic.local.participation",
+      "name_th": "ชวนคนในพื้นที่มีส่วนร่วมตั้งแต่ต้น",
+      "name_en": "Involving Local People from the Start",
+      "kind": "leaf",
+      "parent": "tgat3.civic.local",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat3.civic.local.understand_context"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "TGAT3",
+          "typical_items": "อยู่ในส่วนที่ 4 รวม 15 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "มีส่วนร่วม",
+        "participation",
+        "ชุมชน"
+      ],
+      "curriculum_ref": null,
+      "notes": "เกณฑ์คือคนในพื้นที่เป็นเจ้าของเรื่องหรือเป็นแค่ผู้รับ"
+    }
+  ]
+}

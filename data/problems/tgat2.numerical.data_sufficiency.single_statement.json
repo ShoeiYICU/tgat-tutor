@@ -1,0 +1,489 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tgat2.numerical.data_sufficiency.single_statement",
+  "problems": [
+    {
+      "id": "prob.tgat2.numerical.data_sufficiency.single_statement.0001",
+      "topic_ids": [
+        "tgat2.numerical.data_sufficiency.single_statement"
+      ],
+      "primary_topic_id": "tgat2.numerical.data_sufficiency.single_statement",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 60,
+      "stem_md": "ห้องเรียนมีนักเรียนกี่คน\n\n**(1)** ห้องนี้มีนักเรียนชาย 18 คน และนักเรียนหญิง 22 คน\n\n**(2)** ห้องนี้มีนักเรียนชายน้อยกว่านักเรียนหญิง",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ข้อความ (1) อย่างเดียวเพียงพอ แต่ข้อความ (2) อย่างเดียวไม่เพียงพอ",
+          "is_answer": true
+        },
+        {
+          "md": "ข้อความ (2) อย่างเดียวเพียงพอ แต่ข้อความ (1) อย่างเดียวไม่เพียงพอ",
+          "is_answer": false
+        },
+        {
+          "md": "ต้องใช้ทั้งสองข้อความร่วมกันจึงจะเพียงพอ",
+          "is_answer": false
+        },
+        {
+          "md": "ข้อความใดข้อความหนึ่งก็เพียงพอ",
+          "is_answer": false
+        },
+        {
+          "md": "ทั้งสองข้อความรวมกันก็ยังไม่เพียงพอ",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "(1) อย่างเดียว: $18 + 22 = 40$ คน ตอบได้",
+          "why_md": "(1) พอ"
+        },
+        {
+          "do_md": "(2) อย่างเดียว: บอกแค่ความสัมพันธ์ ไม่มีจำนวน",
+          "why_md": "(2) ไม่พอ"
+        }
+      ],
+      "answer_explanation_md": "ข้อความ (1) อย่างเดียวเพียงพอ เพราะได้ 40 คน แต่ (2) บอกแค่ความสัมพันธ์ ไม่มีจำนวน",
+      "hints": [
+        "ตรวจข้อความ (1) อย่างเดียวก่อน",
+        "ข้อความ (2) บอกจำนวนคนไหม",
+        "ข้อความที่บอกแค่มากกว่าน้อยกว่าให้คำตอบเดียวได้ไหม"
+      ],
+      "distractor_reasons": {
+        "1": "ข้อความ (2) อย่างเดียวยังตอบไม่ได้ หรือข้อความ (1) ก็ตอบได้",
+        "2": "มีข้อความหนึ่งที่ตอบได้ด้วยตัวเองอยู่แล้ว ไม่ต้องใช้ร่วมกัน",
+        "3": "มีข้อความหนึ่งที่ตอบคำถามด้วยตัวเองไม่ได้",
+        "4": "ข้อมูลพอสำหรับตอบคำถามได้แน่นอน"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.numerical.data_sufficiency.single_statement.0002",
+      "topic_ids": [
+        "tgat2.numerical.data_sufficiency.single_statement"
+      ],
+      "primary_topic_id": "tgat2.numerical.data_sufficiency.single_statement",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 60,
+      "stem_md": "สี่เหลี่ยมจัตุรัสมีพื้นที่เท่าไร\n\n**(1)** เส้นรอบรูปยาว 24 ซม.\n\n**(2)** เส้นทแยงมุมยาว $6\\sqrt{2}$ ซม.",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ข้อความ (1) อย่างเดียวเพียงพอ แต่ข้อความ (2) อย่างเดียวไม่เพียงพอ",
+          "is_answer": false
+        },
+        {
+          "md": "ข้อความ (2) อย่างเดียวเพียงพอ แต่ข้อความ (1) อย่างเดียวไม่เพียงพอ",
+          "is_answer": false
+        },
+        {
+          "md": "ต้องใช้ทั้งสองข้อความร่วมกันจึงจะเพียงพอ",
+          "is_answer": false
+        },
+        {
+          "md": "ข้อความใดข้อความหนึ่งก็เพียงพอ",
+          "is_answer": true
+        },
+        {
+          "md": "ทั้งสองข้อความรวมกันก็ยังไม่เพียงพอ",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "(1) อย่างเดียว: ด้าน $= 24 \\div 4 = 6$ พื้นที่ $= 36$",
+          "why_md": "(1) พอ"
+        },
+        {
+          "do_md": "(2) อย่างเดียว: เส้นทแยงมุม $= ด้าน \\times \\sqrt{2}$ ด้าน $= 6$",
+          "why_md": "(2) พอ"
+        },
+        {
+          "do_md": "ทั้งสองข้อความพอด้วยตัวเอง",
+          "why_md": "ข้อความใดก็พอ"
+        }
+      ],
+      "answer_explanation_md": "ข้อความใดข้อความหนึ่งก็เพียงพอ เพราะทั้งเส้นรอบรูปและเส้นทแยงมุมหาความยาวด้านได้ทั้งคู่",
+      "hints": [
+        "สี่เหลี่ยมจัตุรัสรู้แค่ความยาวด้านก็หาพื้นที่ได้",
+        "ข้อความ (1) หาความยาวด้านได้ไหม",
+        "ข้อความ (2) หาความยาวด้านได้ไหม"
+      ],
+      "distractor_reasons": {
+        "0": "ไม่ได้ตรวจว่าเส้นทแยงมุมก็หาด้านได้",
+        "1": "ข้อความ (2) อย่างเดียวยังตอบไม่ได้ หรือข้อความ (1) ก็ตอบได้",
+        "2": "มีข้อความหนึ่งที่ตอบได้ด้วยตัวเองอยู่แล้ว ไม่ต้องใช้ร่วมกัน",
+        "4": "ข้อมูลพอสำหรับตอบคำถามได้แน่นอน"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.numerical.data_sufficiency.single_statement.0003",
+      "topic_ids": [
+        "tgat2.numerical.data_sufficiency.single_statement"
+      ],
+      "primary_topic_id": "tgat2.numerical.data_sufficiency.single_statement",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 60,
+      "stem_md": "$n$ เป็นจำนวนคู่หรือไม่\n\n**(1)** $n + 4$ เป็นจำนวนคู่\n\n**(2)** $n$ หารด้วย 3 ลงตัว",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ข้อความ (1) อย่างเดียวเพียงพอ แต่ข้อความ (2) อย่างเดียวไม่เพียงพอ",
+          "is_answer": true
+        },
+        {
+          "md": "ข้อความ (2) อย่างเดียวเพียงพอ แต่ข้อความ (1) อย่างเดียวไม่เพียงพอ",
+          "is_answer": false
+        },
+        {
+          "md": "ต้องใช้ทั้งสองข้อความร่วมกันจึงจะเพียงพอ",
+          "is_answer": false
+        },
+        {
+          "md": "ข้อความใดข้อความหนึ่งก็เพียงพอ",
+          "is_answer": false
+        },
+        {
+          "md": "ทั้งสองข้อความรวมกันก็ยังไม่เพียงพอ",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "(1) อย่างเดียว: คู่ลบ 4 ได้คู่ $n$ เป็นคู่ ตอบได้",
+          "why_md": "(1) พอ"
+        },
+        {
+          "do_md": "(2) อย่างเดียว: $n$ อาจเป็น 3 (คี่) หรือ 6 (คู่)",
+          "why_md": "(2) ไม่พอ"
+        }
+      ],
+      "answer_explanation_md": "ข้อความ (1) อย่างเดียวเพียงพอ เพราะ $n$ ต้องเป็นคู่ ส่วน (2) มีทั้ง 3 และ 6",
+      "hints": [
+        "คำถามแบบใช่หรือไม่ ต้องตอบได้แน่นอนว่าใช่ หรือแน่นอนว่าไม่",
+        "ถ้า $n + 4$ เป็นคู่ $n$ เป็นอะไร",
+        "ลองจำนวนที่หารด้วย 3 ลงตัวหลายตัว"
+      ],
+      "distractor_reasons": {
+        "1": "ข้อความ (2) อย่างเดียวยังตอบไม่ได้ หรือข้อความ (1) ก็ตอบได้",
+        "2": "มีข้อความหนึ่งที่ตอบได้ด้วยตัวเองอยู่แล้ว ไม่ต้องใช้ร่วมกัน",
+        "3": "มีข้อความหนึ่งที่ตอบคำถามด้วยตัวเองไม่ได้",
+        "4": "ข้อมูลพอสำหรับตอบคำถามได้แน่นอน"
+      },
+      "misconception_tags": [
+        "leak_between_statements"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.numerical.data_sufficiency.single_statement.0004",
+      "topic_ids": [
+        "tgat2.numerical.data_sufficiency.single_statement"
+      ],
+      "primary_topic_id": "tgat2.numerical.data_sufficiency.single_statement",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 60,
+      "stem_md": "นิดอายุเท่าไร\n\n**(1)** นิดอายุมากกว่าน้อย 5 ปี\n\n**(2)** ผลรวมอายุของนิดและน้อยคือ 31 ปี",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ข้อความ (1) อย่างเดียวเพียงพอ แต่ข้อความ (2) อย่างเดียวไม่เพียงพอ",
+          "is_answer": false
+        },
+        {
+          "md": "ข้อความ (2) อย่างเดียวเพียงพอ แต่ข้อความ (1) อย่างเดียวไม่เพียงพอ",
+          "is_answer": false
+        },
+        {
+          "md": "ต้องใช้ทั้งสองข้อความร่วมกันจึงจะเพียงพอ",
+          "is_answer": true
+        },
+        {
+          "md": "ข้อความใดข้อความหนึ่งก็เพียงพอ",
+          "is_answer": false
+        },
+        {
+          "md": "ทั้งสองข้อความรวมกันก็ยังไม่เพียงพอ",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "(1) อย่างเดียว: ไม่รู้อายุน้อย",
+          "why_md": "(1) ไม่พอ"
+        },
+        {
+          "do_md": "(2) อย่างเดียว: รู้แค่ผลรวม",
+          "why_md": "(2) ไม่พอ"
+        },
+        {
+          "do_md": "รวมกัน: $x + (x - 5) = 31$ ได้ $x = 18$",
+          "why_md": "ต้องใช้ร่วมกัน"
+        }
+      ],
+      "answer_explanation_md": "ต้องใช้ทั้งสองข้อความร่วมกัน เพราะแต่ละข้อความมีตัวแปรที่ไม่รู้สองตัว แต่รวมกันได้สองสมการ",
+      "hints": [
+        "ตรวจแต่ละข้อความแยกกันก่อน",
+        "ข้อความเดียวมีตัวแปรที่ไม่รู้กี่ตัว",
+        "ลองรวมเป็นระบบสมการ"
+      ],
+      "distractor_reasons": {
+        "0": "ข้อความ (1) อย่างเดียวยังตอบไม่ได้ หรือข้อความ (2) ก็ตอบได้",
+        "1": "ข้อความ (2) อย่างเดียวยังตอบไม่ได้ หรือข้อความ (1) ก็ตอบได้",
+        "3": "มีข้อความหนึ่งที่ตอบคำถามด้วยตัวเองไม่ได้",
+        "4": "ข้อมูลพอสำหรับตอบคำถามได้แน่นอน"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.numerical.data_sufficiency.single_statement.0005",
+      "topic_ids": [
+        "tgat2.numerical.data_sufficiency.single_statement"
+      ],
+      "primary_topic_id": "tgat2.numerical.data_sufficiency.single_statement",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 60,
+      "stem_md": "ร้านขายเสื้อได้กี่ตัวในสัปดาห์นี้\n\n**(1)** สัปดาห์นี้ขายได้มากกว่าสัปดาห์ที่แล้ว 20%\n\n**(2)** สัปดาห์ที่แล้วขายได้ 150 ตัว",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ข้อความ (1) อย่างเดียวเพียงพอ แต่ข้อความ (2) อย่างเดียวไม่เพียงพอ",
+          "is_answer": false
+        },
+        {
+          "md": "ข้อความ (2) อย่างเดียวเพียงพอ แต่ข้อความ (1) อย่างเดียวไม่เพียงพอ",
+          "is_answer": false
+        },
+        {
+          "md": "ต้องใช้ทั้งสองข้อความร่วมกันจึงจะเพียงพอ",
+          "is_answer": true
+        },
+        {
+          "md": "ข้อความใดข้อความหนึ่งก็เพียงพอ",
+          "is_answer": false
+        },
+        {
+          "md": "ทั้งสองข้อความรวมกันก็ยังไม่เพียงพอ",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "(1) อย่างเดียว: ไม่รู้ยอดสัปดาห์ที่แล้ว",
+          "why_md": "(1) ไม่พอ"
+        },
+        {
+          "do_md": "(2) อย่างเดียว: ไม่รู้ว่าสัปดาห์นี้เปลี่ยนไปเท่าไร",
+          "why_md": "(2) ไม่พอ"
+        },
+        {
+          "do_md": "รวมกัน: $150 \\times 1.2 = 180$ ตัว",
+          "why_md": "ต้องใช้ร่วมกัน"
+        }
+      ],
+      "answer_explanation_md": "ต้องใช้ทั้งสองข้อความร่วมกัน เพราะ (1) ให้เปอร์เซ็นต์ และ (2) ให้ฐาน",
+      "hints": [
+        "ข้อความ (1) มีตัวเลขจริงไหม",
+        "ข้อความ (2) บอกยอดสัปดาห์นี้ไหม",
+        "รวมสองข้อความแล้วคำนวณได้ไหม"
+      ],
+      "distractor_reasons": {
+        "0": "ข้อความ (1) อย่างเดียวยังตอบไม่ได้ หรือข้อความ (2) ก็ตอบได้",
+        "1": "ข้อความ (2) อย่างเดียวยังตอบไม่ได้ หรือข้อความ (1) ก็ตอบได้",
+        "3": "มีข้อความหนึ่งที่ตอบคำถามด้วยตัวเองไม่ได้",
+        "4": "ข้อมูลพอสำหรับตอบคำถามได้แน่นอน"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.numerical.data_sufficiency.single_statement.0006",
+      "topic_ids": [
+        "tgat2.numerical.data_sufficiency.single_statement"
+      ],
+      "primary_topic_id": "tgat2.numerical.data_sufficiency.single_statement",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 4,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 2,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 60,
+      "stem_md": "$x$ มีค่าเท่าไร\n\n**(1)** $x^2 = 16$\n\n**(2)** $x > 0$",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ข้อความ (1) อย่างเดียวเพียงพอ แต่ข้อความ (2) อย่างเดียวไม่เพียงพอ",
+          "is_answer": false
+        },
+        {
+          "md": "ข้อความ (2) อย่างเดียวเพียงพอ แต่ข้อความ (1) อย่างเดียวไม่เพียงพอ",
+          "is_answer": false
+        },
+        {
+          "md": "ต้องใช้ทั้งสองข้อความร่วมกันจึงจะเพียงพอ",
+          "is_answer": true
+        },
+        {
+          "md": "ข้อความใดข้อความหนึ่งก็เพียงพอ",
+          "is_answer": false
+        },
+        {
+          "md": "ทั้งสองข้อความรวมกันก็ยังไม่เพียงพอ",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "(1) อย่างเดียว: $x = 4$ หรือ $x = -4$ ได้สองค่า",
+          "why_md": "(1) ไม่พอ เพราะได้มากกว่าหนึ่งค่า"
+        },
+        {
+          "do_md": "(2) อย่างเดียว: ได้แค่ช่วง",
+          "why_md": "(2) ไม่พอ"
+        },
+        {
+          "do_md": "รวมกัน: $x = 4$ ค่าเดียว",
+          "why_md": "ต้องใช้ร่วมกัน"
+        }
+      ],
+      "answer_explanation_md": "ต้องใช้ทั้งสองข้อความร่วมกัน เพราะ (1) ให้สองค่า คือ 4 และ −4 ส่วน (2) ตัดค่าลบออก",
+      "hints": [
+        "สมการ $x^2 = 16$ มีคำตอบกี่ค่า",
+        "ข้อความ (2) ให้ค่าเดียวหรือช่วง",
+        "รวมกันแล้วเหลือกี่ค่า"
+      ],
+      "distractor_reasons": {
+        "0": "ลืมว่า $x = -4$ ก็ทำให้ $x^2 = 16$",
+        "1": "ข้อความ (2) อย่างเดียวยังตอบไม่ได้ หรือข้อความ (1) ก็ตอบได้",
+        "3": "มีข้อความหนึ่งที่ตอบคำถามด้วยตัวเองไม่ได้",
+        "4": "ข้อมูลพอสำหรับตอบคำถามได้แน่นอน"
+      },
+      "misconception_tags": [
+        "leak_between_statements"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    }
+  ],
+  "generated_from": "content/tgat2/numerical_apply.py"
+}

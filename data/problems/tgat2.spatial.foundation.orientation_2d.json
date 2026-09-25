@@ -1,0 +1,503 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tgat2.spatial.foundation.orientation_2d",
+  "problems": [
+    {
+      "id": "prob.tgat2.spatial.foundation.orientation_2d.0001",
+      "topic_ids": [
+        "tgat2.spatial.foundation.orientation_2d"
+      ],
+      "primary_topic_id": "tgat2.spatial.foundation.orientation_2d",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 30,
+      "stem_md": "ช่องที่ทำเครื่องหมายอยู่ตำแหน่งใดของรูป\n\n[[fig1]]",
+      "figures": [
+        {
+          "id": "fig1",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 94 94\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"86\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"86\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"86\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"86\"/><line x1=\"8\" y1=\"8\" x2=\"86\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"86\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"86\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"86\" y2=\"86\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"61\" width=\"24\" height=\"24\"/></g><circle cx=\"73\" cy=\"73\" r=\"6\" fill=\"none\" stroke=\"var(--surface, #ffffff)\" stroke-width=\"4\"/><circle cx=\"73\" cy=\"73\" r=\"6\" fill=\"none\" stroke=\"var(--accent, #3b5bdb)\" stroke-width=\"2.5\" stroke-dasharray=\"3 2\"/></svg>",
+          "alt": "รูปบนตาราง 3 x 3 ช่อง · แถวที่ 1 มีช่องที่ 1, 2 / แถวที่ 2 มีช่องที่ 2 / แถวที่ 3 มีช่องที่ 2, 3 · ช่องที่ทำเครื่องหมายอยู่แถวที่ 3 จากบน คอลัมน์ที่ 3 จากซ้าย",
+          "caption": "รูปต้นแบบ · ช่องที่ทำเครื่องหมายคือช่องที่มีเส้นประ"
+        }
+      ],
+      "choices": [
+        {
+          "md": "แถวที่ 3 จากบน คอลัมน์ที่ 3 จากซ้าย",
+          "is_answer": true
+        },
+        {
+          "md": "แถวที่ 3 จากบน คอลัมน์ที่ 2 จากซ้าย",
+          "is_answer": false
+        },
+        {
+          "md": "แถวที่ 3 จากบน คอลัมน์ที่ 1 จากซ้าย",
+          "is_answer": false
+        },
+        {
+          "md": "แถวที่ 2 จากบน คอลัมน์ที่ 3 จากซ้าย",
+          "is_answer": false
+        },
+        {
+          "md": "แถวที่ 1 จากบน คอลัมน์ที่ 3 จากซ้าย",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "นับแถวจากบนลงล่าง ช่องนี้อยู่แถวล่างสุดของรูปสูง 3 แถว",
+          "why_md": "แถวที่ 3"
+        },
+        {
+          "do_md": "นับคอลัมน์จากซ้ายไปขวา ช่องนี้อยู่คอลัมน์ขวาสุดของรูปกว้าง 3 คอลัมน์",
+          "why_md": "คอลัมน์ที่ 3"
+        }
+      ],
+      "answer_explanation_md": "ตอบ แถวที่ 3 จากบน คอลัมน์ที่ 3 จากซ้าย เพราะช่องนี้อยู่มุมขวาล่างของรูป",
+      "hints": [
+        "แถวนับจากไหนไปไหน",
+        "คอลัมน์นับจากไหนไปไหน",
+        "รูปนี้สูงกี่แถว กว้างกี่คอลัมน์"
+      ],
+      "distractor_reasons": {
+        "1": "นับคอลัมน์คลาดไปหนึ่งช่อง",
+        "2": "นับคอลัมน์จากขวาแทนจากซ้าย",
+        "3": "นับแถวคลาดไปหนึ่งช่อง",
+        "4": "นับแถวจากล่างแทนจากบน"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.spatial.foundation.orientation_2d.0002",
+      "topic_ids": [
+        "tgat2.spatial.foundation.orientation_2d"
+      ],
+      "primary_topic_id": "tgat2.spatial.foundation.orientation_2d",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 45,
+      "stem_md": "ถ้าหมุนรูปนี้ตามเข็มนาฬิกา 90 องศา ช่องที่ทำเครื่องหมายจะไปอยู่ตำแหน่งใดของรูปใหม่\n\n[[fig1]]",
+      "figures": [
+        {
+          "id": "fig1",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 94 94\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"86\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"86\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"86\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"86\"/><line x1=\"8\" y1=\"8\" x2=\"86\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"86\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"86\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"86\" y2=\"86\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"61\" width=\"24\" height=\"24\"/></g><circle cx=\"21\" cy=\"21\" r=\"6\" fill=\"none\" stroke=\"var(--surface, #ffffff)\" stroke-width=\"4\"/><circle cx=\"21\" cy=\"21\" r=\"6\" fill=\"none\" stroke=\"var(--accent, #3b5bdb)\" stroke-width=\"2.5\" stroke-dasharray=\"3 2\"/></svg>",
+          "alt": "รูปบนตาราง 3 x 3 ช่อง · แถวที่ 1 มีช่องที่ 1, 2 / แถวที่ 2 มีช่องที่ 2 / แถวที่ 3 มีช่องที่ 2, 3 · ช่องที่ทำเครื่องหมายอยู่แถวที่ 1 จากบน คอลัมน์ที่ 1 จากซ้าย",
+          "caption": "รูปต้นแบบ · ช่องที่ทำเครื่องหมายคือช่องที่มีเส้นประ"
+        }
+      ],
+      "choices": [
+        {
+          "md": "แถวที่ 1 จากบน คอลัมน์ที่ 2 จากซ้าย",
+          "is_answer": false
+        },
+        {
+          "md": "แถวที่ 1 จากบน คอลัมน์ที่ 1 จากซ้าย",
+          "is_answer": false
+        },
+        {
+          "md": "แถวที่ 3 จากบน คอลัมน์ที่ 1 จากซ้าย",
+          "is_answer": false
+        },
+        {
+          "md": "แถวที่ 3 จากบน คอลัมน์ที่ 3 จากซ้าย",
+          "is_answer": false
+        },
+        {
+          "md": "แถวที่ 1 จากบน คอลัมน์ที่ 3 จากซ้าย",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ช่องที่ทำเครื่องหมายอยู่ (แถว 1, คอลัมน์ 1)",
+          "why_md": "ตำแหน่งเดิม"
+        },
+        {
+          "do_md": "หมุน 90° แถวใหม่ = คอลัมน์เดิม = 1 · คอลัมน์ใหม่ = (3 + 1) − 1 = 3",
+          "why_md": "ช่องซ้ายบนย้ายไปขวาบน"
+        }
+      ],
+      "answer_explanation_md": "ตอบ แถวที่ 1 จากบน คอลัมน์ที่ 3 จากซ้าย เพราะการหมุนตามเข็ม 90° ย้ายช่องมุมซ้ายบนไปมุมขวาบน",
+      "hints": [
+        "เลือกติดตามแค่ช่องเดียว",
+        "หมุน 90° แถวกับคอลัมน์สลับหน้าที่กันอย่างไร",
+        "ช่องที่อยู่มุมซ้ายบน หมุนตามเข็มแล้วไปอยู่มุมใด"
+      ],
+      "distractor_reasons": {
+        "0": "นับคอลัมน์คลาดไปหนึ่งช่อง",
+        "1": "นับคอลัมน์จากขวาแทนจากซ้าย",
+        "2": "สลับแถวกับคอลัมน์",
+        "3": "นับแถวจากล่างแทนจากบน"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.spatial.foundation.orientation_2d.0003",
+      "topic_ids": [
+        "tgat2.spatial.foundation.orientation_2d"
+      ],
+      "primary_topic_id": "tgat2.spatial.foundation.orientation_2d",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 40,
+      "stem_md": "ถ้าสะท้อนรูปนี้ตามแนวตั้ง (สลับซ้ายขวา) ช่องที่ทำเครื่องหมายจะไปอยู่ตำแหน่งใด\n\n[[fig1]]",
+      "figures": [
+        {
+          "id": "fig1",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 94 68\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"60\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"60\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"60\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"60\"/><line x1=\"8\" y1=\"8\" x2=\"86\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"86\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"86\" y2=\"60\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"35\" width=\"24\" height=\"24\"/></g><circle cx=\"21\" cy=\"21\" r=\"6\" fill=\"none\" stroke=\"var(--surface, #ffffff)\" stroke-width=\"4\"/><circle cx=\"21\" cy=\"21\" r=\"6\" fill=\"none\" stroke=\"var(--accent, #3b5bdb)\" stroke-width=\"2.5\" stroke-dasharray=\"3 2\"/></svg>",
+          "alt": "รูปบนตาราง 3 x 2 ช่อง · แถวที่ 1 มีช่องที่ 1, 3 / แถวที่ 2 มีช่องที่ 1, 2, 3 · ช่องที่ทำเครื่องหมายอยู่แถวที่ 1 จากบน คอลัมน์ที่ 1 จากซ้าย",
+          "caption": "รูปต้นแบบ · ช่องที่ทำเครื่องหมายคือช่องที่มีเส้นประ"
+        }
+      ],
+      "choices": [
+        {
+          "md": "แถวที่ 3 จากบน คอลัมน์ที่ 1 จากซ้าย",
+          "is_answer": false
+        },
+        {
+          "md": "แถวที่ 1 จากบน คอลัมน์ที่ 2 จากซ้าย",
+          "is_answer": false
+        },
+        {
+          "md": "แถวที่ 1 จากบน คอลัมน์ที่ 1 จากซ้าย",
+          "is_answer": false
+        },
+        {
+          "md": "แถวที่ 1 จากบน คอลัมน์ที่ 3 จากซ้าย",
+          "is_answer": true
+        },
+        {
+          "md": "แถวที่ 2 จากบน คอลัมน์ที่ 3 จากซ้าย",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "การสะท้อนซ้ายขวาไม่เปลี่ยนแถว",
+          "why_md": "แถวเดิม"
+        },
+        {
+          "do_md": "คอลัมน์ใหม่ = (3 + 1) − 1 = 3",
+          "why_md": "ช่องซ้ายสุดไปอยู่ขวาสุด"
+        }
+      ],
+      "answer_explanation_md": "ตอบ แถวที่ 1 จากบน คอลัมน์ที่ 3 จากซ้าย เพราะการสะท้อนซ้ายขวาเปลี่ยนเฉพาะคอลัมน์",
+      "hints": [
+        "การสะท้อนซ้ายขวาเปลี่ยนแถวไหม",
+        "คอลัมน์ซ้ายสุดจะไปอยู่คอลัมน์ใด",
+        "รูปนี้กว้างกี่คอลัมน์"
+      ],
+      "distractor_reasons": {
+        "0": "สลับแถวกับคอลัมน์",
+        "1": "นับคอลัมน์คลาดไปหนึ่งช่อง",
+        "2": "นับคอลัมน์จากขวาแทนจากซ้าย",
+        "4": "นับแถวจากล่างแทนจากบน"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.spatial.foundation.orientation_2d.0004",
+      "topic_ids": [
+        "tgat2.spatial.foundation.orientation_2d"
+      ],
+      "primary_topic_id": "tgat2.spatial.foundation.orientation_2d",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 45,
+      "stem_md": "ถ้าหมุนรูปนี้ 180 องศา ช่องที่ทำเครื่องหมายจะไปอยู่ตำแหน่งใดของรูปใหม่\n\n[[fig1]]",
+      "figures": [
+        {
+          "id": "fig1",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 94 94\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"86\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"86\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"86\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"86\"/><line x1=\"8\" y1=\"8\" x2=\"86\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"86\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"86\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"86\" y2=\"86\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"61\" width=\"24\" height=\"24\"/></g><circle cx=\"73\" cy=\"73\" r=\"6\" fill=\"none\" stroke=\"var(--surface, #ffffff)\" stroke-width=\"4\"/><circle cx=\"73\" cy=\"73\" r=\"6\" fill=\"none\" stroke=\"var(--accent, #3b5bdb)\" stroke-width=\"2.5\" stroke-dasharray=\"3 2\"/></svg>",
+          "alt": "รูปบนตาราง 3 x 3 ช่อง · แถวที่ 1 มีช่องที่ 1, 2, 3 / แถวที่ 2 มีช่องที่ 3 / แถวที่ 3 มีช่องที่ 2, 3 · ช่องที่ทำเครื่องหมายอยู่แถวที่ 3 จากบน คอลัมน์ที่ 3 จากซ้าย",
+          "caption": "รูปต้นแบบ · ช่องที่ทำเครื่องหมายคือช่องที่มีเส้นประ"
+        }
+      ],
+      "choices": [
+        {
+          "md": "แถวที่ 1 จากบน คอลัมน์ที่ 1 จากซ้าย",
+          "is_answer": true
+        },
+        {
+          "md": "แถวที่ 3 จากบน คอลัมน์ที่ 1 จากซ้าย",
+          "is_answer": false
+        },
+        {
+          "md": "แถวที่ 1 จากบน คอลัมน์ที่ 3 จากซ้าย",
+          "is_answer": false
+        },
+        {
+          "md": "แถวที่ 1 จากบน คอลัมน์ที่ 2 จากซ้าย",
+          "is_answer": false
+        },
+        {
+          "md": "แถวที่ 3 จากบน คอลัมน์ที่ 3 จากซ้าย",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "หมุน 180° คือกลับหัวกลับหาง แถวใหม่ = (3 + 1) − 3 = 1",
+          "why_md": "แถวล่างสุดไปบนสุด"
+        },
+        {
+          "do_md": "คอลัมน์ใหม่ = (3 + 1) − 3 = 1",
+          "why_md": "คอลัมน์ขวาสุดไปซ้ายสุด"
+        }
+      ],
+      "answer_explanation_md": "ตอบ แถวที่ 1 จากบน คอลัมน์ที่ 1 จากซ้าย เพราะการหมุน 180° ย้ายช่องมุมขวาล่างไปมุมซ้ายบน",
+      "hints": [
+        "หมุน 180° ช่องมุมล่างขวาจะไปอยู่มุมใด",
+        "คิดแถวกับคอลัมน์แยกกัน",
+        "ใช้สูตร (จำนวน + 1) − ตำแหน่งเดิม"
+      ],
+      "distractor_reasons": {
+        "1": "นับแถวจากล่างแทนจากบน",
+        "2": "นับคอลัมน์จากขวาแทนจากซ้าย",
+        "3": "นับคอลัมน์คลาดไปหนึ่งช่อง",
+        "4": "ตอบตำแหน่งเดิมโดยไม่ได้เปลี่ยนรูป"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.spatial.foundation.orientation_2d.0005",
+      "topic_ids": [
+        "tgat2.spatial.foundation.orientation_2d"
+      ],
+      "primary_topic_id": "tgat2.spatial.foundation.orientation_2d",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 35,
+      "stem_md": "ต้นหันหน้าไปทางทิศเหนือ แล้วหมุนตัวไปทางขวา 90 องศา จากนั้นหมุนไปทางขวาอีก 180 องศา ขณะนี้ต้นหันหน้าไปทางทิศใด",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ทิศตะวันออกเฉียงใต้",
+          "is_answer": false
+        },
+        {
+          "md": "ทิศตะวันตก",
+          "is_answer": true
+        },
+        {
+          "md": "ทิศตะวันออก",
+          "is_answer": false
+        },
+        {
+          "md": "ทิศเหนือ",
+          "is_answer": false
+        },
+        {
+          "md": "ทิศใต้",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "หมุนขวา 90° จากเหนือ ได้ทิศตะวันออก",
+          "why_md": "เหนือ → ตะวันออก"
+        },
+        {
+          "do_md": "หมุนขวาต่ออีก 180° จากตะวันออก ได้ทิศตะวันตก",
+          "why_md": "ตะวันออก → ตะวันตก"
+        }
+      ],
+      "answer_explanation_md": "ตอบ ทิศตะวันตก เพราะหมุนขวารวม 270 องศาจากทิศเหนือ",
+      "hints": [
+        "เรียงทิศตามเข็มนาฬิกา เหนือ ตะวันออก ใต้ ตะวันตก",
+        "หมุนขวา 90° จากเหนือได้ทิศใด",
+        "หมุนต่ออีก 180° คือข้ามไปกี่ขั้น"
+      ],
+      "distractor_reasons": {
+        "0": "การหมุน 90 กับ 180 องศาไม่ทำให้ได้ทิศเฉียง",
+        "2": "เป็นทิศหลังหมุนขวาครั้งแรกเท่านั้น",
+        "3": "หมุนรวม 270 องศา ไม่ได้กลับที่เดิม",
+        "4": "เป็นทิศเมื่อหมุนขวารวม 180 องศา"
+      },
+      "misconception_tags": [
+        "count_from_wrong_side"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.spatial.foundation.orientation_2d.0006",
+      "topic_ids": [
+        "tgat2.spatial.foundation.orientation_2d"
+      ],
+      "primary_topic_id": "tgat2.spatial.foundation.orientation_2d",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 35,
+      "stem_md": "มองแผนผังห้องจากด้านบน โต๊ะครูอยู่ทางทิศเหนือของห้อง ถ้าหมุนแผนผังทั้งแผ่นตามเข็มนาฬิกา 90 องศา โต๊ะครูจะอยู่ด้านใดของแผ่นกระดาษ",
+      "figures": [],
+      "choices": [
+        {
+          "md": "อยู่ตรงกลางเหมือนเดิม",
+          "is_answer": false
+        },
+        {
+          "md": "ด้านบน",
+          "is_answer": false
+        },
+        {
+          "md": "ด้านขวา",
+          "is_answer": true
+        },
+        {
+          "md": "ด้านล่าง",
+          "is_answer": false
+        },
+        {
+          "md": "ด้านซ้าย",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ทิศเหนือบนแผนผังคือด้านบนของกระดาษ",
+          "why_md": "จุดเริ่ม"
+        },
+        {
+          "do_md": "หมุนตามเข็ม 90° ด้านบนจะไปอยู่ด้านขวา",
+          "why_md": "เหมือนหมุนเข็มนาฬิกาจาก 12 ไป 3"
+        }
+      ],
+      "answer_explanation_md": "ตอบ ด้านขวา เพราะการหมุนตามเข็ม 90 องศาย้ายด้านบนของกระดาษไปเป็นด้านขวา",
+      "hints": [
+        "บนแผนผัง ทิศเหนืออยู่ด้านใดของกระดาษ",
+        "หมุนตามเข็ม 90° ด้านบนไปอยู่ด้านใด",
+        "นึกถึงเข็มนาฬิกาจากเลข 12 ไปเลข 3"
+      ],
+      "distractor_reasons": {
+        "0": "การหมุนย้ายทุกสิ่งที่ไม่ได้อยู่จุดศูนย์กลาง",
+        "1": "เป็นตำแหน่งก่อนหมุน",
+        "3": "เป็นผลของการหมุน 180 องศา",
+        "4": "เป็นผลของการหมุนทวนเข็ม 90 องศา"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    }
+  ],
+  "generated_from": "content/tgat2/spatial_foundation.py"
+}

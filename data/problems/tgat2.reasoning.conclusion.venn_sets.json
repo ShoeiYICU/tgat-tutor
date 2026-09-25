@@ -1,0 +1,1147 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tgat2.reasoning.conclusion.venn_sets",
+  "problems": [
+    {
+      "id": "prob.tgat2.reasoning.conclusion.venn_sets.0001",
+      "topic_ids": [
+        "tgat2.reasoning.conclusion.venn_sets"
+      ],
+      "primary_topic_id": "tgat2.reasoning.conclusion.venn_sets",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 45,
+      "stem_md": "ห้องเรียนมีนักเรียน $43$ คน ชอบวิชาคณิตศาสตร์ $19$ คน ชอบวิชาภาษาอังกฤษ $16$ คน ชอบทั้งสองวิชา $4$ คน มีนักเรียนกี่คนที่ไม่ชอบทั้งสองวิชา",
+      "figures": [],
+      "choices": [
+        {
+          "md": "$8$",
+          "is_answer": false
+        },
+        {
+          "md": "$13$",
+          "is_answer": false
+        },
+        {
+          "md": "$12$",
+          "is_answer": true
+        },
+        {
+          "md": "$16$",
+          "is_answer": false
+        },
+        {
+          "md": "$27$",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ชอบอย่างน้อยหนึ่งวิชา $= 19 + 16 - 4 = 31$ คน",
+          "why_md": "ลบส่วนที่นับซ้ำ"
+        },
+        {
+          "do_md": "ไม่ชอบทั้งสอง $= 43 - 31 = 12$ คน",
+          "why_md": "ทั้งหมดลบคนที่อยู่ในวง"
+        }
+      ],
+      "answer_explanation_md": "ตอบ $12$ คน เพราะชอบอย่างน้อยหนึ่งวิชามี $31$ คน",
+      "hints": [
+        "คนที่ชอบทั้งสองวิชาถูกนับกี่ครั้ง",
+        "หาจำนวนคนที่ชอบอย่างน้อยหนึ่งวิชาก่อน",
+        "นำจำนวนทั้งห้องลบด้วยคนที่ชอบอย่างน้อยหนึ่งวิชา"
+      ],
+      "distractor_reasons": {
+        "0": "ไม่ได้บวกคืนส่วนที่นับซ้ำ",
+        "1": "คำนวณเกินไปหนึ่ง",
+        "3": "บวกคนที่ชอบทั้งสองเข้ามาผิด",
+        "4": "ตอบคนที่ชอบวิชาเดียว"
+      },
+      "misconception_tags": [
+        "double_count"
+      ],
+      "template": {
+        "vars": [
+          {
+            "name": "c",
+            "type": "int",
+            "range": [
+              3,
+              10
+            ],
+            "step": 1
+          },
+          {
+            "name": "x",
+            "type": "int",
+            "range": [
+              4,
+              15
+            ],
+            "step": 1
+          },
+          {
+            "name": "y",
+            "type": "int",
+            "range": [
+              4,
+              15
+            ],
+            "step": 1
+          },
+          {
+            "name": "z",
+            "type": "int",
+            "range": [
+              3,
+              12
+            ],
+            "step": 1
+          }
+        ],
+        "constraints": [
+          "n - a - b > 0",
+          "(z) > 0",
+          "(n - a - b) > 0",
+          "(c + z) > 0",
+          "(z + 1) > 0",
+          "(x + y) > 0",
+          "(z) != (n - a - b)",
+          "(z) != (c + z)",
+          "(z) != (z + 1)",
+          "(z) != (x + y)",
+          "(n - a - b) != (c + z)",
+          "(n - a - b) != (z + 1)",
+          "(n - a - b) != (x + y)",
+          "(c + z) != (z + 1)",
+          "(c + z) != (x + y)",
+          "(z + 1) != (x + y)",
+          "(n - a - b) <= 5*(z)",
+          "(c + z) <= 5*(z)",
+          "(z + 1) <= 5*(z)",
+          "(x + y) <= 5*(z)",
+          "5*(n - a - b) >= (z)",
+          "5*(c + z) >= (z)",
+          "5*(z + 1) >= (z)",
+          "5*(x + y) >= (z)"
+        ],
+        "display": {
+          "a": "x + c",
+          "b": "y + c",
+          "u": "x + y + c",
+          "n": "x + y + c + z"
+        },
+        "stem_tpl": "ห้องเรียนมีนักเรียน ${n}$ คน ชอบวิชาคณิตศาสตร์ ${a}$ คน ชอบวิชาภาษาอังกฤษ ${b}$ คน ชอบทั้งสองวิชา ${c}$ คน มีนักเรียนกี่คนที่ไม่ชอบทั้งสองวิชา",
+        "answer_expr": "z",
+        "answer_round": null,
+        "answer_unit": null,
+        "distractors": [
+          {
+            "expr": "n - a - b",
+            "reason": "ไม่ได้บวกคืนส่วนที่นับซ้ำ"
+          },
+          {
+            "expr": "c + z",
+            "reason": "บวกคนที่ชอบทั้งสองเข้ามาผิด"
+          },
+          {
+            "expr": "z + 1",
+            "reason": "คำนวณเกินไปหนึ่ง"
+          },
+          {
+            "expr": "x + y",
+            "reason": "ตอบคนที่ชอบวิชาเดียว"
+          }
+        ],
+        "quality_rules": [
+          "ตัวเลือกทุกตัวต้องเป็นจำนวนบวกและไม่ซ้ำกัน",
+          "คำตอบคำนวณจากนิพจน์ ไม่ได้ใส่มือ"
+        ],
+        "quality_exprs": [
+          "answer > 0"
+        ],
+        "steps_tpl": [
+          {
+            "do_md": "ชอบอย่างน้อยหนึ่งวิชา $= {a} + {b} - {c} = {u}$ คน",
+            "why_md": "ลบส่วนที่นับซ้ำ"
+          },
+          {
+            "do_md": "ไม่ชอบทั้งสอง $= {n} - {u} = {answer}$ คน",
+            "why_md": "ทั้งหมดลบคนที่อยู่ในวง"
+          }
+        ],
+        "hints_tpl": [
+          "คนที่ชอบทั้งสองวิชาถูกนับกี่ครั้ง",
+          "หาจำนวนคนที่ชอบอย่างน้อยหนึ่งวิชาก่อน",
+          "นำจำนวนทั้งห้องลบด้วยคนที่ชอบอย่างน้อยหนึ่งวิชา"
+        ],
+        "explanation_tpl": "ตอบ ${answer}$ คน เพราะชอบอย่างน้อยหนึ่งวิชามี ${u}$ คน"
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.reasoning.conclusion.venn_sets.0002",
+      "topic_ids": [
+        "tgat2.reasoning.conclusion.venn_sets"
+      ],
+      "primary_topic_id": "tgat2.reasoning.conclusion.venn_sets",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 45,
+      "stem_md": "ห้องเรียนมีนักเรียน $26$ คน ชอบวิชาคณิตศาสตร์ $11$ คน ชอบวิชาภาษาอังกฤษ $12$ คน ชอบทั้งสองวิชา $4$ คน มีนักเรียนกี่คนที่ไม่ชอบทั้งสองวิชา",
+      "figures": [],
+      "choices": [
+        {
+          "md": "$7$",
+          "is_answer": true
+        },
+        {
+          "md": "$8$",
+          "is_answer": false
+        },
+        {
+          "md": "$11$",
+          "is_answer": false
+        },
+        {
+          "md": "$3$",
+          "is_answer": false
+        },
+        {
+          "md": "$15$",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ชอบอย่างน้อยหนึ่งวิชา $= 11 + 12 - 4 = 19$ คน",
+          "why_md": "ลบส่วนที่นับซ้ำ"
+        },
+        {
+          "do_md": "ไม่ชอบทั้งสอง $= 26 - 19 = 7$ คน",
+          "why_md": "ทั้งหมดลบคนที่อยู่ในวง"
+        }
+      ],
+      "answer_explanation_md": "ตอบ $7$ คน เพราะชอบอย่างน้อยหนึ่งวิชามี $19$ คน",
+      "hints": [
+        "คนที่ชอบทั้งสองวิชาถูกนับกี่ครั้ง",
+        "หาจำนวนคนที่ชอบอย่างน้อยหนึ่งวิชาก่อน",
+        "นำจำนวนทั้งห้องลบด้วยคนที่ชอบอย่างน้อยหนึ่งวิชา"
+      ],
+      "distractor_reasons": {
+        "1": "คำนวณเกินไปหนึ่ง",
+        "2": "บวกคนที่ชอบทั้งสองเข้ามาผิด",
+        "3": "ไม่ได้บวกคืนส่วนที่นับซ้ำ",
+        "4": "ตอบคนที่ชอบวิชาเดียว"
+      },
+      "misconception_tags": [
+        "double_count"
+      ],
+      "template": {
+        "vars": [
+          {
+            "name": "c",
+            "type": "int",
+            "range": [
+              3,
+              10
+            ],
+            "step": 1
+          },
+          {
+            "name": "x",
+            "type": "int",
+            "range": [
+              4,
+              15
+            ],
+            "step": 1
+          },
+          {
+            "name": "y",
+            "type": "int",
+            "range": [
+              4,
+              15
+            ],
+            "step": 1
+          },
+          {
+            "name": "z",
+            "type": "int",
+            "range": [
+              3,
+              12
+            ],
+            "step": 1
+          }
+        ],
+        "constraints": [
+          "n - a - b > 0",
+          "(z) > 0",
+          "(n - a - b) > 0",
+          "(c + z) > 0",
+          "(z + 1) > 0",
+          "(x + y) > 0",
+          "(z) != (n - a - b)",
+          "(z) != (c + z)",
+          "(z) != (z + 1)",
+          "(z) != (x + y)",
+          "(n - a - b) != (c + z)",
+          "(n - a - b) != (z + 1)",
+          "(n - a - b) != (x + y)",
+          "(c + z) != (z + 1)",
+          "(c + z) != (x + y)",
+          "(z + 1) != (x + y)",
+          "(n - a - b) <= 5*(z)",
+          "(c + z) <= 5*(z)",
+          "(z + 1) <= 5*(z)",
+          "(x + y) <= 5*(z)",
+          "5*(n - a - b) >= (z)",
+          "5*(c + z) >= (z)",
+          "5*(z + 1) >= (z)",
+          "5*(x + y) >= (z)"
+        ],
+        "display": {
+          "a": "x + c",
+          "b": "y + c",
+          "u": "x + y + c",
+          "n": "x + y + c + z"
+        },
+        "stem_tpl": "ห้องเรียนมีนักเรียน ${n}$ คน ชอบวิชาคณิตศาสตร์ ${a}$ คน ชอบวิชาภาษาอังกฤษ ${b}$ คน ชอบทั้งสองวิชา ${c}$ คน มีนักเรียนกี่คนที่ไม่ชอบทั้งสองวิชา",
+        "answer_expr": "z",
+        "answer_round": null,
+        "answer_unit": null,
+        "distractors": [
+          {
+            "expr": "n - a - b",
+            "reason": "ไม่ได้บวกคืนส่วนที่นับซ้ำ"
+          },
+          {
+            "expr": "c + z",
+            "reason": "บวกคนที่ชอบทั้งสองเข้ามาผิด"
+          },
+          {
+            "expr": "z + 1",
+            "reason": "คำนวณเกินไปหนึ่ง"
+          },
+          {
+            "expr": "x + y",
+            "reason": "ตอบคนที่ชอบวิชาเดียว"
+          }
+        ],
+        "quality_rules": [
+          "ตัวเลือกทุกตัวต้องเป็นจำนวนบวกและไม่ซ้ำกัน",
+          "คำตอบคำนวณจากนิพจน์ ไม่ได้ใส่มือ"
+        ],
+        "quality_exprs": [
+          "answer > 0"
+        ],
+        "steps_tpl": [
+          {
+            "do_md": "ชอบอย่างน้อยหนึ่งวิชา $= {a} + {b} - {c} = {u}$ คน",
+            "why_md": "ลบส่วนที่นับซ้ำ"
+          },
+          {
+            "do_md": "ไม่ชอบทั้งสอง $= {n} - {u} = {answer}$ คน",
+            "why_md": "ทั้งหมดลบคนที่อยู่ในวง"
+          }
+        ],
+        "hints_tpl": [
+          "คนที่ชอบทั้งสองวิชาถูกนับกี่ครั้ง",
+          "หาจำนวนคนที่ชอบอย่างน้อยหนึ่งวิชาก่อน",
+          "นำจำนวนทั้งห้องลบด้วยคนที่ชอบอย่างน้อยหนึ่งวิชา"
+        ],
+        "explanation_tpl": "ตอบ ${answer}$ คน เพราะชอบอย่างน้อยหนึ่งวิชามี ${u}$ คน"
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.reasoning.conclusion.venn_sets.0003",
+      "topic_ids": [
+        "tgat2.reasoning.conclusion.venn_sets"
+      ],
+      "primary_topic_id": "tgat2.reasoning.conclusion.venn_sets",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 50,
+      "stem_md": "ห้องเรียนมีนักเรียน $25$ คน ชอบวิชาคณิตศาสตร์ $14$ คน ชอบวิชาภาษาอังกฤษ $8$ คน ชอบทั้งสองวิชา $4$ คน มีนักเรียนกี่คนที่ไม่ชอบทั้งสองวิชา",
+      "figures": [],
+      "choices": [
+        {
+          "md": "$8$",
+          "is_answer": false
+        },
+        {
+          "md": "$11$",
+          "is_answer": false
+        },
+        {
+          "md": "$3$",
+          "is_answer": false
+        },
+        {
+          "md": "$14$",
+          "is_answer": false
+        },
+        {
+          "md": "$7$",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ชอบอย่างน้อยหนึ่งวิชา $= 14 + 8 - 4 = 18$ คน",
+          "why_md": "ลบส่วนที่นับซ้ำ"
+        },
+        {
+          "do_md": "ไม่ชอบทั้งสอง $= 25 - 18 = 7$ คน",
+          "why_md": "ทั้งหมดลบคนที่อยู่ในวง"
+        }
+      ],
+      "answer_explanation_md": "ตอบ $7$ คน เพราะชอบอย่างน้อยหนึ่งวิชามี $18$ คน",
+      "hints": [
+        "คนที่ชอบทั้งสองวิชาถูกนับกี่ครั้ง",
+        "หาจำนวนคนที่ชอบอย่างน้อยหนึ่งวิชาก่อน",
+        "นำจำนวนทั้งห้องลบด้วยคนที่ชอบอย่างน้อยหนึ่งวิชา"
+      ],
+      "distractor_reasons": {
+        "0": "คำนวณเกินไปหนึ่ง",
+        "1": "บวกคนที่ชอบทั้งสองเข้ามาผิด",
+        "2": "ไม่ได้บวกคืนส่วนที่นับซ้ำ",
+        "3": "ตอบคนที่ชอบวิชาเดียว"
+      },
+      "misconception_tags": [
+        "double_count"
+      ],
+      "template": {
+        "vars": [
+          {
+            "name": "c",
+            "type": "int",
+            "range": [
+              3,
+              10
+            ],
+            "step": 1
+          },
+          {
+            "name": "x",
+            "type": "int",
+            "range": [
+              4,
+              15
+            ],
+            "step": 1
+          },
+          {
+            "name": "y",
+            "type": "int",
+            "range": [
+              4,
+              15
+            ],
+            "step": 1
+          },
+          {
+            "name": "z",
+            "type": "int",
+            "range": [
+              3,
+              12
+            ],
+            "step": 1
+          }
+        ],
+        "constraints": [
+          "n - a - b > 0",
+          "(z) > 0",
+          "(n - a - b) > 0",
+          "(c + z) > 0",
+          "(z + 1) > 0",
+          "(x + y) > 0",
+          "(z) != (n - a - b)",
+          "(z) != (c + z)",
+          "(z) != (z + 1)",
+          "(z) != (x + y)",
+          "(n - a - b) != (c + z)",
+          "(n - a - b) != (z + 1)",
+          "(n - a - b) != (x + y)",
+          "(c + z) != (z + 1)",
+          "(c + z) != (x + y)",
+          "(z + 1) != (x + y)",
+          "(n - a - b) <= 5*(z)",
+          "(c + z) <= 5*(z)",
+          "(z + 1) <= 5*(z)",
+          "(x + y) <= 5*(z)",
+          "5*(n - a - b) >= (z)",
+          "5*(c + z) >= (z)",
+          "5*(z + 1) >= (z)",
+          "5*(x + y) >= (z)"
+        ],
+        "display": {
+          "a": "x + c",
+          "b": "y + c",
+          "u": "x + y + c",
+          "n": "x + y + c + z"
+        },
+        "stem_tpl": "ห้องเรียนมีนักเรียน ${n}$ คน ชอบวิชาคณิตศาสตร์ ${a}$ คน ชอบวิชาภาษาอังกฤษ ${b}$ คน ชอบทั้งสองวิชา ${c}$ คน มีนักเรียนกี่คนที่ไม่ชอบทั้งสองวิชา",
+        "answer_expr": "z",
+        "answer_round": null,
+        "answer_unit": null,
+        "distractors": [
+          {
+            "expr": "n - a - b",
+            "reason": "ไม่ได้บวกคืนส่วนที่นับซ้ำ"
+          },
+          {
+            "expr": "c + z",
+            "reason": "บวกคนที่ชอบทั้งสองเข้ามาผิด"
+          },
+          {
+            "expr": "z + 1",
+            "reason": "คำนวณเกินไปหนึ่ง"
+          },
+          {
+            "expr": "x + y",
+            "reason": "ตอบคนที่ชอบวิชาเดียว"
+          }
+        ],
+        "quality_rules": [
+          "ตัวเลือกทุกตัวต้องเป็นจำนวนบวกและไม่ซ้ำกัน",
+          "คำตอบคำนวณจากนิพจน์ ไม่ได้ใส่มือ"
+        ],
+        "quality_exprs": [
+          "answer > 0"
+        ],
+        "steps_tpl": [
+          {
+            "do_md": "ชอบอย่างน้อยหนึ่งวิชา $= {a} + {b} - {c} = {u}$ คน",
+            "why_md": "ลบส่วนที่นับซ้ำ"
+          },
+          {
+            "do_md": "ไม่ชอบทั้งสอง $= {n} - {u} = {answer}$ คน",
+            "why_md": "ทั้งหมดลบคนที่อยู่ในวง"
+          }
+        ],
+        "hints_tpl": [
+          "คนที่ชอบทั้งสองวิชาถูกนับกี่ครั้ง",
+          "หาจำนวนคนที่ชอบอย่างน้อยหนึ่งวิชาก่อน",
+          "นำจำนวนทั้งห้องลบด้วยคนที่ชอบอย่างน้อยหนึ่งวิชา"
+        ],
+        "explanation_tpl": "ตอบ ${answer}$ คน เพราะชอบอย่างน้อยหนึ่งวิชามี ${u}$ คน"
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.reasoning.conclusion.venn_sets.0004",
+      "topic_ids": [
+        "tgat2.reasoning.conclusion.venn_sets"
+      ],
+      "primary_topic_id": "tgat2.reasoning.conclusion.venn_sets",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 50,
+      "stem_md": "ชมรมมีสมาชิก $32$ คน ทุกคนเล่นกีตาร์หรือเปียโนอย่างน้อยหนึ่งอย่าง เล่นกีตาร์ $25$ คน เล่นเปียโน $17$ คน มีกี่คนที่เล่นทั้งสองอย่าง",
+      "figures": [],
+      "choices": [
+        {
+          "md": "$10$",
+          "is_answer": true
+        },
+        {
+          "md": "$42$",
+          "is_answer": false
+        },
+        {
+          "md": "$12$",
+          "is_answer": false
+        },
+        {
+          "md": "$15$",
+          "is_answer": false
+        },
+        {
+          "md": "$7$",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ผลรวมสองกลุ่ม $= 25 + 17 = 42$",
+          "why_md": "คนที่เล่นทั้งสองถูกนับสองครั้ง"
+        },
+        {
+          "do_md": "เล่นทั้งสอง $= 42 - 32 = 10$ คน",
+          "why_md": "ส่วนที่เกินจากจำนวนสมาชิกคือส่วนที่นับซ้ำ"
+        }
+      ],
+      "answer_explanation_md": "ตอบ $10$ คน เพราะผลรวมสองกลุ่มเกินจำนวนสมาชิกไป $10$ คน ซึ่งคือคนที่ถูกนับซ้ำ",
+      "hints": [
+        "ทุกคนเล่นอย่างน้อยหนึ่งอย่าง แปลว่าไม่มีใครอยู่นอกวง",
+        "บวกจำนวนสองกลุ่มแล้วเทียบกับจำนวนสมาชิก",
+        "ส่วนที่เกินมาคือคนที่ถูกนับสองครั้ง"
+      ],
+      "distractor_reasons": {
+        "1": "บวกสองกลุ่มโดยไม่ลบทั้งหมด",
+        "2": "คำนวณเกินไปสอง",
+        "3": "ตอบคนที่เล่นกีตาร์อย่างเดียว",
+        "4": "ตอบคนที่เล่นเปียโนอย่างเดียว"
+      },
+      "misconception_tags": [
+        "double_count"
+      ],
+      "template": {
+        "vars": [
+          {
+            "name": "x",
+            "type": "int",
+            "range": [
+              5,
+              20
+            ],
+            "step": 1
+          },
+          {
+            "name": "y",
+            "type": "int",
+            "range": [
+              5,
+              20
+            ],
+            "step": 1
+          },
+          {
+            "name": "c",
+            "type": "int",
+            "range": [
+              2,
+              12
+            ],
+            "step": 1
+          }
+        ],
+        "constraints": [
+          "(c) > 0",
+          "(a + b) > 0",
+          "(n - a) > 0",
+          "(c + 2) > 0",
+          "(n - b) > 0",
+          "(c) != (a + b)",
+          "(c) != (n - a)",
+          "(c) != (c + 2)",
+          "(c) != (n - b)",
+          "(a + b) != (n - a)",
+          "(a + b) != (c + 2)",
+          "(a + b) != (n - b)",
+          "(n - a) != (c + 2)",
+          "(n - a) != (n - b)",
+          "(c + 2) != (n - b)",
+          "(a + b) <= 5*(c)",
+          "(n - a) <= 5*(c)",
+          "(c + 2) <= 5*(c)",
+          "(n - b) <= 5*(c)",
+          "5*(a + b) >= (c)",
+          "5*(n - a) >= (c)",
+          "5*(c + 2) >= (c)",
+          "5*(n - b) >= (c)"
+        ],
+        "display": {
+          "a": "x + c",
+          "b": "y + c",
+          "n": "x + y + c",
+          "s": "x + y + 2*c"
+        },
+        "stem_tpl": "ชมรมมีสมาชิก ${n}$ คน ทุกคนเล่นกีตาร์หรือเปียโนอย่างน้อยหนึ่งอย่าง เล่นกีตาร์ ${a}$ คน เล่นเปียโน ${b}$ คน มีกี่คนที่เล่นทั้งสองอย่าง",
+        "answer_expr": "c",
+        "answer_round": null,
+        "answer_unit": null,
+        "distractors": [
+          {
+            "expr": "a + b",
+            "reason": "บวกสองกลุ่มโดยไม่ลบทั้งหมด"
+          },
+          {
+            "expr": "n - a",
+            "reason": "ตอบคนที่เล่นเปียโนอย่างเดียว"
+          },
+          {
+            "expr": "c + 2",
+            "reason": "คำนวณเกินไปสอง"
+          },
+          {
+            "expr": "n - b",
+            "reason": "ตอบคนที่เล่นกีตาร์อย่างเดียว"
+          }
+        ],
+        "quality_rules": [
+          "ตัวเลือกทุกตัวต้องเป็นจำนวนบวกและไม่ซ้ำกัน",
+          "คำตอบคำนวณจากนิพจน์ ไม่ได้ใส่มือ"
+        ],
+        "quality_exprs": [
+          "answer > 0"
+        ],
+        "steps_tpl": [
+          {
+            "do_md": "ผลรวมสองกลุ่ม $= {a} + {b} = {s}$",
+            "why_md": "คนที่เล่นทั้งสองถูกนับสองครั้ง"
+          },
+          {
+            "do_md": "เล่นทั้งสอง $= {s} - {n} = {answer}$ คน",
+            "why_md": "ส่วนที่เกินจากจำนวนสมาชิกคือส่วนที่นับซ้ำ"
+          }
+        ],
+        "hints_tpl": [
+          "ทุกคนเล่นอย่างน้อยหนึ่งอย่าง แปลว่าไม่มีใครอยู่นอกวง",
+          "บวกจำนวนสองกลุ่มแล้วเทียบกับจำนวนสมาชิก",
+          "ส่วนที่เกินมาคือคนที่ถูกนับสองครั้ง"
+        ],
+        "explanation_tpl": "ตอบ ${answer}$ คน เพราะผลรวมสองกลุ่มเกินจำนวนสมาชิกไป ${answer}$ คน ซึ่งคือคนที่ถูกนับซ้ำ"
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.reasoning.conclusion.venn_sets.0005",
+      "topic_ids": [
+        "tgat2.reasoning.conclusion.venn_sets"
+      ],
+      "primary_topic_id": "tgat2.reasoning.conclusion.venn_sets",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 50,
+      "stem_md": "ชมรมมีสมาชิก $34$ คน ทุกคนเล่นกีตาร์หรือเปียโนอย่างน้อยหนึ่งอย่าง เล่นกีตาร์ $29$ คน เล่นเปียโน $15$ คน มีกี่คนที่เล่นทั้งสองอย่าง",
+      "figures": [],
+      "choices": [
+        {
+          "md": "$5$",
+          "is_answer": false
+        },
+        {
+          "md": "$10$",
+          "is_answer": true
+        },
+        {
+          "md": "$44$",
+          "is_answer": false
+        },
+        {
+          "md": "$12$",
+          "is_answer": false
+        },
+        {
+          "md": "$19$",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ผลรวมสองกลุ่ม $= 29 + 15 = 44$",
+          "why_md": "คนที่เล่นทั้งสองถูกนับสองครั้ง"
+        },
+        {
+          "do_md": "เล่นทั้งสอง $= 44 - 34 = 10$ คน",
+          "why_md": "ส่วนที่เกินจากจำนวนสมาชิกคือส่วนที่นับซ้ำ"
+        }
+      ],
+      "answer_explanation_md": "ตอบ $10$ คน เพราะผลรวมสองกลุ่มเกินจำนวนสมาชิกไป $10$ คน ซึ่งคือคนที่ถูกนับซ้ำ",
+      "hints": [
+        "ทุกคนเล่นอย่างน้อยหนึ่งอย่าง แปลว่าไม่มีใครอยู่นอกวง",
+        "บวกจำนวนสองกลุ่มแล้วเทียบกับจำนวนสมาชิก",
+        "ส่วนที่เกินมาคือคนที่ถูกนับสองครั้ง"
+      ],
+      "distractor_reasons": {
+        "0": "ตอบคนที่เล่นเปียโนอย่างเดียว",
+        "2": "บวกสองกลุ่มโดยไม่ลบทั้งหมด",
+        "3": "คำนวณเกินไปสอง",
+        "4": "ตอบคนที่เล่นกีตาร์อย่างเดียว"
+      },
+      "misconception_tags": [
+        "double_count"
+      ],
+      "template": {
+        "vars": [
+          {
+            "name": "x",
+            "type": "int",
+            "range": [
+              5,
+              20
+            ],
+            "step": 1
+          },
+          {
+            "name": "y",
+            "type": "int",
+            "range": [
+              5,
+              20
+            ],
+            "step": 1
+          },
+          {
+            "name": "c",
+            "type": "int",
+            "range": [
+              2,
+              12
+            ],
+            "step": 1
+          }
+        ],
+        "constraints": [
+          "(c) > 0",
+          "(a + b) > 0",
+          "(n - a) > 0",
+          "(c + 2) > 0",
+          "(n - b) > 0",
+          "(c) != (a + b)",
+          "(c) != (n - a)",
+          "(c) != (c + 2)",
+          "(c) != (n - b)",
+          "(a + b) != (n - a)",
+          "(a + b) != (c + 2)",
+          "(a + b) != (n - b)",
+          "(n - a) != (c + 2)",
+          "(n - a) != (n - b)",
+          "(c + 2) != (n - b)",
+          "(a + b) <= 5*(c)",
+          "(n - a) <= 5*(c)",
+          "(c + 2) <= 5*(c)",
+          "(n - b) <= 5*(c)",
+          "5*(a + b) >= (c)",
+          "5*(n - a) >= (c)",
+          "5*(c + 2) >= (c)",
+          "5*(n - b) >= (c)"
+        ],
+        "display": {
+          "a": "x + c",
+          "b": "y + c",
+          "n": "x + y + c",
+          "s": "x + y + 2*c"
+        },
+        "stem_tpl": "ชมรมมีสมาชิก ${n}$ คน ทุกคนเล่นกีตาร์หรือเปียโนอย่างน้อยหนึ่งอย่าง เล่นกีตาร์ ${a}$ คน เล่นเปียโน ${b}$ คน มีกี่คนที่เล่นทั้งสองอย่าง",
+        "answer_expr": "c",
+        "answer_round": null,
+        "answer_unit": null,
+        "distractors": [
+          {
+            "expr": "a + b",
+            "reason": "บวกสองกลุ่มโดยไม่ลบทั้งหมด"
+          },
+          {
+            "expr": "n - a",
+            "reason": "ตอบคนที่เล่นเปียโนอย่างเดียว"
+          },
+          {
+            "expr": "c + 2",
+            "reason": "คำนวณเกินไปสอง"
+          },
+          {
+            "expr": "n - b",
+            "reason": "ตอบคนที่เล่นกีตาร์อย่างเดียว"
+          }
+        ],
+        "quality_rules": [
+          "ตัวเลือกทุกตัวต้องเป็นจำนวนบวกและไม่ซ้ำกัน",
+          "คำตอบคำนวณจากนิพจน์ ไม่ได้ใส่มือ"
+        ],
+        "quality_exprs": [
+          "answer > 0"
+        ],
+        "steps_tpl": [
+          {
+            "do_md": "ผลรวมสองกลุ่ม $= {a} + {b} = {s}$",
+            "why_md": "คนที่เล่นทั้งสองถูกนับสองครั้ง"
+          },
+          {
+            "do_md": "เล่นทั้งสอง $= {s} - {n} = {answer}$ คน",
+            "why_md": "ส่วนที่เกินจากจำนวนสมาชิกคือส่วนที่นับซ้ำ"
+          }
+        ],
+        "hints_tpl": [
+          "ทุกคนเล่นอย่างน้อยหนึ่งอย่าง แปลว่าไม่มีใครอยู่นอกวง",
+          "บวกจำนวนสองกลุ่มแล้วเทียบกับจำนวนสมาชิก",
+          "ส่วนที่เกินมาคือคนที่ถูกนับสองครั้ง"
+        ],
+        "explanation_tpl": "ตอบ ${answer}$ คน เพราะผลรวมสองกลุ่มเกินจำนวนสมาชิกไป ${answer}$ คน ซึ่งคือคนที่ถูกนับซ้ำ"
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.reasoning.conclusion.venn_sets.0006",
+      "topic_ids": [
+        "tgat2.reasoning.conclusion.venn_sets"
+      ],
+      "primary_topic_id": "tgat2.reasoning.conclusion.venn_sets",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 4,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 2,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 55,
+      "stem_md": "ชมรมมีสมาชิก $39$ คน ทุกคนเล่นกีตาร์หรือเปียโนอย่างน้อยหนึ่งอย่าง เล่นกีตาร์ $26$ คน เล่นเปียโน $23$ คน มีกี่คนที่เล่นทั้งสองอย่าง",
+      "figures": [],
+      "choices": [
+        {
+          "md": "$12$",
+          "is_answer": false
+        },
+        {
+          "md": "$13$",
+          "is_answer": false
+        },
+        {
+          "md": "$49$",
+          "is_answer": false
+        },
+        {
+          "md": "$10$",
+          "is_answer": true
+        },
+        {
+          "md": "$16$",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ผลรวมสองกลุ่ม $= 26 + 23 = 49$",
+          "why_md": "คนที่เล่นทั้งสองถูกนับสองครั้ง"
+        },
+        {
+          "do_md": "เล่นทั้งสอง $= 49 - 39 = 10$ คน",
+          "why_md": "ส่วนที่เกินจากจำนวนสมาชิกคือส่วนที่นับซ้ำ"
+        }
+      ],
+      "answer_explanation_md": "ตอบ $10$ คน เพราะผลรวมสองกลุ่มเกินจำนวนสมาชิกไป $10$ คน ซึ่งคือคนที่ถูกนับซ้ำ",
+      "hints": [
+        "ทุกคนเล่นอย่างน้อยหนึ่งอย่าง แปลว่าไม่มีใครอยู่นอกวง",
+        "บวกจำนวนสองกลุ่มแล้วเทียบกับจำนวนสมาชิก",
+        "ส่วนที่เกินมาคือคนที่ถูกนับสองครั้ง"
+      ],
+      "distractor_reasons": {
+        "0": "คำนวณเกินไปสอง",
+        "1": "ตอบคนที่เล่นเปียโนอย่างเดียว",
+        "2": "บวกสองกลุ่มโดยไม่ลบทั้งหมด",
+        "4": "ตอบคนที่เล่นกีตาร์อย่างเดียว"
+      },
+      "misconception_tags": [
+        "double_count"
+      ],
+      "template": {
+        "vars": [
+          {
+            "name": "x",
+            "type": "int",
+            "range": [
+              5,
+              20
+            ],
+            "step": 1
+          },
+          {
+            "name": "y",
+            "type": "int",
+            "range": [
+              5,
+              20
+            ],
+            "step": 1
+          },
+          {
+            "name": "c",
+            "type": "int",
+            "range": [
+              2,
+              12
+            ],
+            "step": 1
+          }
+        ],
+        "constraints": [
+          "(c) > 0",
+          "(a + b) > 0",
+          "(n - a) > 0",
+          "(c + 2) > 0",
+          "(n - b) > 0",
+          "(c) != (a + b)",
+          "(c) != (n - a)",
+          "(c) != (c + 2)",
+          "(c) != (n - b)",
+          "(a + b) != (n - a)",
+          "(a + b) != (c + 2)",
+          "(a + b) != (n - b)",
+          "(n - a) != (c + 2)",
+          "(n - a) != (n - b)",
+          "(c + 2) != (n - b)",
+          "(a + b) <= 5*(c)",
+          "(n - a) <= 5*(c)",
+          "(c + 2) <= 5*(c)",
+          "(n - b) <= 5*(c)",
+          "5*(a + b) >= (c)",
+          "5*(n - a) >= (c)",
+          "5*(c + 2) >= (c)",
+          "5*(n - b) >= (c)"
+        ],
+        "display": {
+          "a": "x + c",
+          "b": "y + c",
+          "n": "x + y + c",
+          "s": "x + y + 2*c"
+        },
+        "stem_tpl": "ชมรมมีสมาชิก ${n}$ คน ทุกคนเล่นกีตาร์หรือเปียโนอย่างน้อยหนึ่งอย่าง เล่นกีตาร์ ${a}$ คน เล่นเปียโน ${b}$ คน มีกี่คนที่เล่นทั้งสองอย่าง",
+        "answer_expr": "c",
+        "answer_round": null,
+        "answer_unit": null,
+        "distractors": [
+          {
+            "expr": "a + b",
+            "reason": "บวกสองกลุ่มโดยไม่ลบทั้งหมด"
+          },
+          {
+            "expr": "n - a",
+            "reason": "ตอบคนที่เล่นเปียโนอย่างเดียว"
+          },
+          {
+            "expr": "c + 2",
+            "reason": "คำนวณเกินไปสอง"
+          },
+          {
+            "expr": "n - b",
+            "reason": "ตอบคนที่เล่นกีตาร์อย่างเดียว"
+          }
+        ],
+        "quality_rules": [
+          "ตัวเลือกทุกตัวต้องเป็นจำนวนบวกและไม่ซ้ำกัน",
+          "คำตอบคำนวณจากนิพจน์ ไม่ได้ใส่มือ"
+        ],
+        "quality_exprs": [
+          "answer > 0"
+        ],
+        "steps_tpl": [
+          {
+            "do_md": "ผลรวมสองกลุ่ม $= {a} + {b} = {s}$",
+            "why_md": "คนที่เล่นทั้งสองถูกนับสองครั้ง"
+          },
+          {
+            "do_md": "เล่นทั้งสอง $= {s} - {n} = {answer}$ คน",
+            "why_md": "ส่วนที่เกินจากจำนวนสมาชิกคือส่วนที่นับซ้ำ"
+          }
+        ],
+        "hints_tpl": [
+          "ทุกคนเล่นอย่างน้อยหนึ่งอย่าง แปลว่าไม่มีใครอยู่นอกวง",
+          "บวกจำนวนสองกลุ่มแล้วเทียบกับจำนวนสมาชิก",
+          "ส่วนที่เกินมาคือคนที่ถูกนับสองครั้ง"
+        ],
+        "explanation_tpl": "ตอบ ${answer}$ คน เพราะผลรวมสองกลุ่มเกินจำนวนสมาชิกไป ${answer}$ คน ซึ่งคือคนที่ถูกนับซ้ำ"
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    }
+  ],
+  "generated_from": "content/tgat2/reasoning_text.py"
+}

@@ -1,0 +1,477 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tgat2.language.usage.register",
+  "problems": [
+    {
+      "id": "prob.tgat2.language.usage.register.0001",
+      "topic_ids": [
+        "tgat2.language.usage.register"
+      ],
+      "primary_topic_id": "tgat2.language.usage.register",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 40,
+      "stem_md": "นักเรียนเขียนหนังสือถึงผู้อำนวยการโรงเรียนเพื่อขอใช้ห้องประชุมจัดกิจกรรม ข้อความใดเหมาะสมที่สุด",
+      "figures": [],
+      "choices": [
+        {
+          "md": "จึงเรียนมาเพื่อขอใช้ห้องประชุมหน่อยนะคะ",
+          "is_answer": false
+        },
+        {
+          "md": "ขอห้องประชุมวันศุกร์นะคะ",
+          "is_answer": false
+        },
+        {
+          "md": "จึงเรียนมาเพื่อขออนุญาตใช้ห้องประชุมในวันศุกร์ที่ 12",
+          "is_answer": true
+        },
+        {
+          "md": "ช่วยให้พวกเราใช้ห้องประชุมวันศุกร์ได้ไหมครับ ขอบคุณล่วงหน้าเลยครับ",
+          "is_answer": false
+        },
+        {
+          "md": "อยากขอใช้ห้องประชุมวันศุกร์ที่ 12 หน่อยครับ รบกวนด้วยนะครับ",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ผู้รับ = ผู้อำนวยการ ช่องทาง = หนังสือ",
+          "why_md": "ต้องใช้ภาษาทางการ"
+        },
+        {
+          "do_md": "ข้อที่ใช้ จึงเรียนมาเพื่อขออนุญาต และไม่ปนภาษาพูด",
+          "why_md": "ถูกระดับ"
+        }
+      ],
+      "answer_explanation_md": "ตอบ จึงเรียนมาเพื่อขออนุญาตใช้ห้องประชุมในวันศุกร์ที่ 12 เพราะเป็นภาษาทางการทั้งประโยค",
+      "hints": [
+        "ผู้รับสารเป็นใคร",
+        "ช่องทางเป็นการพูดหรือการเขียนหนังสือ",
+        "ระวังข้อที่ปนคำภาษาพูด"
+      ],
+      "distractor_reasons": {
+        "0": "ปน หน่อยนะ ซึ่งเป็นภาษาพูด",
+        "1": "สั้นและไม่เป็นทางการ",
+        "3": "เป็นภาษาพูด ไม่เหมาะกับหนังสือ",
+        "4": "ใช้ภาษาพูดในหนังสือทางการ"
+      },
+      "misconception_tags": [
+        "mixed_register"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.language.usage.register.0002",
+      "topic_ids": [
+        "tgat2.language.usage.register"
+      ],
+      "primary_topic_id": "tgat2.language.usage.register",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 40,
+      "stem_md": "ข้อใดใช้ระดับภาษาไม่สม่ำเสมอ",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ทางบริษัทขอแจ้งให้ทราบว่าระบบจะปิดปรับปรุงชั่วคราว",
+          "is_answer": false
+        },
+        {
+          "md": "พรุ่งนี้ไปดูหนังกันไหม",
+          "is_answer": false
+        },
+        {
+          "md": "ขอเรียนเชิญท่านเข้าร่วมพิธีเปิดอาคารใหม่",
+          "is_answer": false
+        },
+        {
+          "md": "บอกทุกคนหน่อยว่าพรุ่งนี้ระบบปิดนะ",
+          "is_answer": false
+        },
+        {
+          "md": "ทางบริษัทขอแจ้งให้ทราบว่าระบบจะปิดปรับปรุงนะจ๊ะ",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ขอแจ้งให้ทราบ เป็นภาษาทางการ",
+          "why_md": "ต้นประโยค"
+        },
+        {
+          "do_md": "นะจ๊ะ เป็นภาษาพูดกันเอง",
+          "why_md": "ท้ายประโยคปนระดับ"
+        }
+      ],
+      "answer_explanation_md": "ตอบ ทางบริษัทขอแจ้งให้ทราบว่าระบบจะปิดปรับปรุงนะจ๊ะ เพราะขึ้นต้นทางการแต่ลงท้ายด้วยคำกันเอง",
+      "hints": [
+        "ถามว่า ไม่สม่ำเสมอ ไม่ได้ถามว่าไม่เป็นทางการ",
+        "ตรวจว่าต้นประโยคกับท้ายประโยคระดับเดียวกันไหม",
+        "หาคำลงท้ายที่ไม่เข้ากับคำขึ้นต้น"
+      ],
+      "distractor_reasons": {
+        "0": "ทางการทั้งประโยค",
+        "1": "ไม่เป็นทางการทั้งประโยค",
+        "2": "ทางการทั้งประโยค",
+        "3": "ไม่เป็นทางการทั้งประโยค"
+      },
+      "misconception_tags": [
+        "mixed_register"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.language.usage.register.0003",
+      "topic_ids": [
+        "tgat2.language.usage.register"
+      ],
+      "primary_topic_id": "tgat2.language.usage.register",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 45,
+      "stem_md": "นักเรียนส่งอีเมลถึงอาจารย์มหาวิทยาลัยที่ไม่เคยรู้จักเพื่อสอบถามเรื่องค่ายวิชาการ ข้อความเปิดใดเหมาะสมที่สุด",
+      "figures": [],
+      "choices": [
+        {
+          "md": "เรียนอาจารย์ ผมชื่อต้น นักเรียนชั้น ม.5 ขอสอบถามเรื่องค่ายวิชาการครับ",
+          "is_answer": true
+        },
+        {
+          "md": "หวัดดีครับอาจารย์ อยากถามเรื่องค่ายหน่อย",
+          "is_answer": false
+        },
+        {
+          "md": "ถึงอาจารย์ ค่ายเปิดรับสมัครเมื่อไรครับ",
+          "is_answer": false
+        },
+        {
+          "md": "อาจารย์ครับ ค่ายยังว่างอยู่ไหมครับ",
+          "is_answer": false
+        },
+        {
+          "md": "ข้าพเจ้าขอกราบเรียนมาเพื่อโปรดพิจารณาให้ข้อมูลเรื่องค่ายตามที่ประกาศไว้",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ผู้รับไม่รู้จัก ช่องทางอีเมล โอกาสสอบถาม",
+          "why_md": "ภาษากึ่งทางการ"
+        },
+        {
+          "do_md": "ต้องมีคำขึ้นต้น การแนะนำตัว และจุดประสงค์",
+          "why_md": "องค์ประกอบครบ"
+        }
+      ],
+      "answer_explanation_md": "ตอบ เรียนอาจารย์ ผมชื่อต้น... เพราะสุภาพ แนะนำตัว และบอกจุดประสงค์ในระดับกึ่งทางการ",
+      "hints": [
+        "ผู้รับรู้จักผู้ส่งไหม",
+        "อีเมลสอบถามควรทางการระดับใด",
+        "ข้อความเปิดควรมีองค์ประกอบอะไรบ้าง"
+      ],
+      "distractor_reasons": {
+        "1": "ไม่เป็นทางการเกินไปกับคนที่ไม่รู้จัก",
+        "2": "ไม่แนะนำตัว ถามทันที",
+        "3": "ไม่แนะนำตัวและไม่เป็นทางการ",
+        "4": "ทางการเกินไปจนแข็งสำหรับอีเมลสอบถาม"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.language.usage.register.0004",
+      "topic_ids": [
+        "tgat2.language.usage.register"
+      ],
+      "primary_topic_id": "tgat2.language.usage.register",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 30,
+      "stem_md": "ข้อความใดเหมาะกับการส่งในกลุ่มแชตของเพื่อนสนิทมากที่สุด",
+      "figures": [],
+      "choices": [
+        {
+          "md": "พรุ่งนี้เจอกันหน้าโรงเรียนเจ็ดโมงนะ",
+          "is_answer": true
+        },
+        {
+          "md": "ขอให้ทุกท่านพร้อมเพรียงกันหน้าโรงเรียน",
+          "is_answer": false
+        },
+        {
+          "md": "ทางกลุ่มขอแจ้งกำหนดการนัดหมายในวันพรุ่งนี้ให้ทุกท่านทราบ",
+          "is_answer": false
+        },
+        {
+          "md": "จึงเรียนมาเพื่อนัดหมายทุกท่านในวันพรุ่งนี้",
+          "is_answer": false
+        },
+        {
+          "md": "ขอเรียนเชิญทุกท่านพบกันที่หน้าโรงเรียนเวลา 07.00 น.",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ผู้รับ = เพื่อนสนิท ช่องทาง = แชต",
+          "why_md": "ไม่เป็นทางการได้"
+        },
+        {
+          "do_md": "เลือกข้อที่เป็นธรรมชาติ ชัดเจน",
+          "why_md": "ภาษาพูดสุภาพ"
+        }
+      ],
+      "answer_explanation_md": "ตอบ พรุ่งนี้เจอกันหน้าโรงเรียนเจ็ดโมงนะ เพราะเป็นภาษาไม่เป็นทางการที่เหมาะกับเพื่อนสนิท",
+      "hints": [
+        "ผู้รับเป็นใคร",
+        "ช่องทางแชตกับเพื่อนสนิทต้องทางการไหม",
+        "ข้อใดฟังเป็นธรรมชาติที่สุด"
+      ],
+      "distractor_reasons": {
+        "1": "ทางการเกินไป",
+        "2": "ภาษาประกาศ",
+        "3": "ภาษาหนังสือราชการ",
+        "4": "ทางการเกินไปสำหรับเพื่อนสนิท"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.language.usage.register.0005",
+      "topic_ids": [
+        "tgat2.language.usage.register"
+      ],
+      "primary_topic_id": "tgat2.language.usage.register",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 35,
+      "stem_md": "ในการกล่าวรายงานต่อประธานในพิธีเปิดงาน ข้อความใดเหมาะสมที่สุด",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ถึงเวลาแล้ว เชิญประธานเปิดงานเลยครับ",
+          "is_answer": false
+        },
+        {
+          "md": "เชิญท่านประธานมาเปิดงานหน่อยครับ",
+          "is_answer": false
+        },
+        {
+          "md": "ท่านประธานเปิดงานได้เลยนะครับ ทุกคนรอนานแล้ว",
+          "is_answer": false
+        },
+        {
+          "md": "บัดนี้ได้เวลาอันสมควรแล้ว ขอเรียนเชิญท่านประธานกล่าวเปิดงาน",
+          "is_answer": true
+        },
+        {
+          "md": "โอเค ได้เวลาเปิดงานแล้วครับทุกคน",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "โอกาส = พิธีการ ผู้รับ = ประธาน",
+          "why_md": "ต้องใช้ภาษาทางการ"
+        },
+        {
+          "do_md": "ข้อที่ใช้ บัดนี้ได้เวลาอันสมควร และ ขอเรียนเชิญ",
+          "why_md": "ภาษาพิธีการ"
+        }
+      ],
+      "answer_explanation_md": "ตอบ บัดนี้ได้เวลาอันสมควรแล้ว ขอเรียนเชิญท่านประธานกล่าวเปิดงาน เพราะเป็นภาษาพิธีการที่เหมาะกับโอกาส",
+      "hints": [
+        "โอกาสนี้เป็นพิธีการหรือไม่",
+        "ผู้รับสารคือใคร",
+        "คำใดเป็นภาษาพิธีการ"
+      ],
+      "distractor_reasons": {
+        "0": "ภาษาพูดไม่เป็นทางการ",
+        "1": "ปน หน่อย ซึ่งเป็นภาษาพูด",
+        "2": "ไม่สุภาพและไม่เป็นทางการ",
+        "4": "ใช้คำกันเอง"
+      },
+      "misconception_tags": [
+        "mixed_register"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.language.usage.register.0006",
+      "topic_ids": [
+        "tgat2.language.usage.register"
+      ],
+      "primary_topic_id": "tgat2.language.usage.register",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 35,
+      "stem_md": "ข้อความใดเหมาะสมที่สุดสำหรับติดประกาศหน้าห้องสมุดโรงเรียน",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ห้องสมุดเปิดตอนเช้าถึงเย็นนะจ๊ะ มาใช้บริการกันเยอะ ๆ",
+          "is_answer": false
+        },
+        {
+          "md": "ห้องสมุดเปิดวันจันทร์ถึงศุกร์ เวลา 08.00 – 16.30 น.",
+          "is_answer": true
+        },
+        {
+          "md": "ใครจะเข้าห้องสมุดก็มาได้เลย ไม่ต้องเกรงใจ",
+          "is_answer": false
+        },
+        {
+          "md": "ห้องสมุดเปิดแล้วจ้า แวะมาได้ทุกวัน",
+          "is_answer": false
+        },
+        {
+          "md": "ขอเรียนเชิญท่านผู้มีเกียรติเข้าใช้บริการห้องสมุด ณ บัดนี้",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ประกาศต้องใช้ภาษากึ่งทางการและให้ข้อมูลครบ",
+          "why_md": "ผู้อ่านคือคนทั่วไปในโรงเรียน"
+        },
+        {
+          "do_md": "ข้อที่ระบุวันและเวลาชัดเจนโดยไม่ปนภาษาพูด",
+          "why_md": "เหมาะที่สุด"
+        }
+      ],
+      "answer_explanation_md": "ตอบ ห้องสมุดเปิดวันจันทร์ถึงศุกร์ เวลา 08.00 – 16.30 น. เพราะเป็นภาษากึ่งทางการและให้ข้อมูลครบ",
+      "hints": [
+        "ป้ายประกาศควรใช้ภาษาระดับใด",
+        "ผู้อ่านต้องได้ข้อมูลอะไรบ้าง",
+        "ตัดข้อที่ปนภาษาพูดหรือทางการเกินไป"
+      ],
+      "distractor_reasons": {
+        "0": "ใช้ภาษาพูดในประกาศ",
+        "2": "ไม่เป็นทางการและไม่ให้ข้อมูลเวลา",
+        "3": "เป็นภาษากันเองและข้อมูลไม่ครบ",
+        "4": "ภาษาพิธีการเกินความจำเป็นและไม่บอกเวลา"
+      },
+      "misconception_tags": [
+        "mixed_register"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    }
+  ],
+  "generated_from": "content/tgat2/language_core.py"
+}

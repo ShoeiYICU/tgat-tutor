@@ -1,0 +1,597 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tgat1.speaking.short_conversation.directions_transport",
+  "problems": [
+    {
+      "id": "prob.tgat1.speaking.short_conversation.directions_transport.0001",
+      "topic_ids": [
+        "tgat1.speaking.short_conversation.directions_transport"
+      ],
+      "primary_topic_id": "tgat1.speaking.short_conversation.directions_transport",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 30,
+      "stem_md": "**A:** Excuse me, how do I get to the post office?  \n**B:** ______  \n**A:** So, straight and then left. Thank you!",
+      "figures": [],
+      "choices": [
+        {
+          "md": "Turn right at the corner. It's on your right.",
+          "is_answer": false
+        },
+        {
+          "md": "Sorry, I'm not from around here either.",
+          "is_answer": false
+        },
+        {
+          "md": "Go straight and turn left at the lights.",
+          "is_answer": true
+        },
+        {
+          "md": "The post office closes at four thirty on weekdays.",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "หลังช่อง: A ทวน straight and then left",
+          "why_md": "เส้นทางคือตรงไปแล้วเลี้ยวซ้าย"
+        },
+        {
+          "do_md": "เลือกตัวที่ตรงกับที่ทวน",
+          "why_md": "Go straight and turn left at the lights."
+        }
+      ],
+      "answer_explanation_md": "ตอบ Go straight and turn left at the lights. เพราะตรงกับเส้นทางที่ A ทวนหลังช่องว่าง",
+      "hints": [
+        "A ทวนเส้นทางว่าอย่างไร",
+        "ตัวเลือกไหนมีทั้ง straight และ left",
+        "ตัดตัวเลือกที่ไม่ได้บอกทาง"
+      ],
+      "distractor_reasons": {
+        "0": "เลี้ยวขวา แต่ A ทวนว่าเลี้ยวซ้าย",
+        "1": "บอกว่าไม่รู้ แต่ A ทวนเส้นทางและขอบคุณ",
+        "3": "บอกเวลาปิด ไม่ได้บอกทาง"
+      },
+      "misconception_tags": [
+        "ignore_next_line"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.short_conversation.directions_transport.0002",
+      "topic_ids": [
+        "tgat1.speaking.short_conversation.directions_transport"
+      ],
+      "primary_topic_id": "tgat1.speaking.short_conversation.directions_transport",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 35,
+      "stem_md": "**A:** Excuse me, how do I get to City Hall from this station?  \n**B:** ______  \n**A:** And where do I change?",
+      "figures": [],
+      "choices": [
+        {
+          "md": "Take the blue line, then change to the green line.",
+          "is_answer": true
+        },
+        {
+          "md": "The green line goes directly there without any change.",
+          "is_answer": false
+        },
+        {
+          "md": "It takes about 25 minutes.",
+          "is_answer": false
+        },
+        {
+          "md": "City Hall is a large building near the river.",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "คำถาม: how do I get to... = เดินทางไปอย่างไร",
+          "why_md": "ต้องบอกเส้นทางหรือสายรถ"
+        },
+        {
+          "do_md": "หลังช่อง: A ถามว่าต่อที่ไหน",
+          "why_md": "แปลว่า B บอกว่าต้องต่อรถ"
+        }
+      ],
+      "answer_explanation_md": "ตอบ Take the blue line, then change to the green line. เพราะบอกสายรถและบอกว่าต้องต่อ ทำให้ A ถามต่อว่าเปลี่ยนที่ไหน",
+      "hints": [
+        "A ถามอะไรหลังช่องว่าง",
+        "ถ้าไม่ต้องต่อรถ A จะถามว่าต่อที่ไหนไหม",
+        "หาตัวเลือกที่บอกสายและบอกว่าต้องต่อ"
+      ],
+      "distractor_reasons": {
+        "1": "บอกว่าไม่ต้องต่อ แต่ A ถามว่าต้องต่อที่ไหน",
+        "2": "บอกระยะเวลา ไม่ได้ตอบว่าสายไหน",
+        "3": "บรรยายสถานที่ ไม่ได้บอกสาย และไม่มีเรื่องการต่อรถ"
+      },
+      "misconception_tags": [
+        "ignore_next_line"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.short_conversation.directions_transport.0003",
+      "topic_ids": [
+        "tgat1.speaking.short_conversation.directions_transport"
+      ],
+      "primary_topic_id": "tgat1.speaking.short_conversation.directions_transport",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 30,
+      "stem_md": "**A:** Is the museum far from here?  \n**B:** ______  \n**A:** Great, I'll walk then.",
+      "figures": [],
+      "choices": [
+        {
+          "md": "The museum has a lot of old paintings.",
+          "is_answer": false
+        },
+        {
+          "md": "It opens at nine and closes at five.",
+          "is_answer": false
+        },
+        {
+          "md": "Yes, it's very far. You should take a taxi.",
+          "is_answer": false
+        },
+        {
+          "md": "No, it's only a five-minute walk.",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "คำถาม: far = ไกลไหม",
+          "why_md": "ต้องตอบเรื่องระยะทาง"
+        },
+        {
+          "do_md": "หลังช่อง: A จะเดินไป",
+          "why_md": "แปลว่าไม่ไกล"
+        }
+      ],
+      "answer_explanation_md": "ตอบ No, it's only a five-minute walk. เพราะ A ตัดสินใจเดินไป แปลว่าพิพิธภัณฑ์อยู่ใกล้",
+      "hints": [
+        "A ถามเรื่องอะไร",
+        "A ตัดสินใจเดินไป แปลว่าไกลหรือใกล้",
+        "หาตัวเลือกที่บอกว่าใกล้"
+      ],
+      "distractor_reasons": {
+        "0": "บรรยายพิพิธภัณฑ์ ไม่ได้ตอบเรื่องระยะทาง",
+        "1": "บอกเวลาเปิดปิด ไม่เกี่ยวกับระยะทาง",
+        "2": "บอกว่าไกล แต่ A ตัดสินใจเดินไป"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.short_conversation.directions_transport.0004",
+      "topic_ids": [
+        "tgat1.speaking.short_conversation.directions_transport"
+      ],
+      "primary_topic_id": "tgat1.speaking.short_conversation.directions_transport",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 35,
+      "stem_md": "**A:** Excuse me, where's the nearest ATM?  \n**B:** ______  \n**A:** Next to the 7-Eleven? OK, I see it. Thanks.",
+      "figures": [],
+      "choices": [
+        {
+          "md": "There's one across the street from the 7-Eleven.",
+          "is_answer": false
+        },
+        {
+          "md": "There's one right beside the 7-Eleven.",
+          "is_answer": true
+        },
+        {
+          "md": "Sorry, there isn't one around here.",
+          "is_answer": false
+        },
+        {
+          "md": "Inside the 7-Eleven, near the drinks.",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "หลังช่อง: Next to the 7-Eleven",
+          "why_md": "ต้องเลือกตัวที่แปลว่าติดกัน"
+        },
+        {
+          "do_md": "beside = next to",
+          "why_md": "There's one right beside the 7-Eleven."
+        }
+      ],
+      "answer_explanation_md": "ตอบ There's one right beside the 7-Eleven. เพราะ beside มีความหมายเดียวกับ next to ที่ A ทวน",
+      "hints": [
+        "A ทวนตำแหน่งว่าอย่างไร",
+        "คำไหนมีความหมายเหมือน next to",
+        "across the street from แปลว่าอะไร"
+      ],
+      "distractor_reasons": {
+        "0": "บอกว่าอยู่ตรงข้าม แต่ A ทวนว่าติดกับ",
+        "2": "บอกว่าไม่มี แต่ A บอกว่าเห็นแล้ว",
+        "3": "บอกว่าอยู่ข้างใน แต่ A ทวนว่าอยู่ข้าง ๆ"
+      },
+      "misconception_tags": [
+        "position_word_confusion"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.short_conversation.directions_transport.0005",
+      "topic_ids": [
+        "tgat1.speaking.short_conversation.directions_transport"
+      ],
+      "primary_topic_id": "tgat1.speaking.short_conversation.directions_transport",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 40,
+      "stem_md": "**A:** How much is a ticket to Riverdale?  \n**B:** It's 180 baht one way.  \n**A:** ______  \n**B:** That would be 340 baht.",
+      "figures": [],
+      "choices": [
+        {
+          "md": "What time does the next bus leave?",
+          "is_answer": false
+        },
+        {
+          "md": "How long does it take to get to Riverdale?",
+          "is_answer": false
+        },
+        {
+          "md": "And how much is a round trip?",
+          "is_answer": true
+        },
+        {
+          "md": "OK, one one-way ticket, please.",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "หลังช่อง: B ตอบราคา 340 บาท",
+          "why_md": "เป็นราคาที่ต่างจากเที่ยวเดียว"
+        },
+        {
+          "do_md": "340 ใกล้กับ 2 × 180 = 360",
+          "why_md": "น่าจะเป็นราคาไปกลับ"
+        }
+      ],
+      "answer_explanation_md": "ตอบ And how much is a round trip? เพราะ B ตอบราคา 340 บาทซึ่งเกือบสองเท่าของเที่ยวเดียว จึงน่าจะเป็นราคาไปกลับ",
+      "hints": [
+        "B ตอบข้อมูลชนิดไหนหลังช่องว่าง",
+        "340 บาทเกี่ยวกับ 180 บาทอย่างไร",
+        "หาตัวเลือกที่ถามราคาของตั๋วอีกแบบ"
+      ],
+      "distractor_reasons": {
+        "0": "ถามเวลา แต่ B ตอบราคา",
+        "1": "ถามเวลา แต่ B ตอบเป็นราคา",
+        "3": "ซื้อเที่ยวเดียว ซึ่งราคา 180 บาท ไม่ใช่ 340"
+      },
+      "misconception_tags": [
+        "ignore_next_line"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.short_conversation.directions_transport.0006",
+      "topic_ids": [
+        "tgat1.speaking.short_conversation.directions_transport"
+      ],
+      "primary_topic_id": "tgat1.speaking.short_conversation.directions_transport",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 30,
+      "stem_md": "**A:** Excuse me, does this bus go to the university?  \n**B:** ______  \n**A:** Oh, which one should I take?",
+      "figures": [],
+      "choices": [
+        {
+          "md": "You can pay the driver when you get on.",
+          "is_answer": false
+        },
+        {
+          "md": "The university is about 3 kilometers from here.",
+          "is_answer": false
+        },
+        {
+          "md": "Yes, it stops right in front of the main gate.",
+          "is_answer": false
+        },
+        {
+          "md": "No, it doesn't.",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "หลังช่อง: A ถามว่าควรขึ้นคันไหน",
+          "why_md": "แปลว่าคันนี้ไม่ไปมหาวิทยาลัย"
+        },
+        {
+          "do_md": "เลือกตัวปฏิเสธ",
+          "why_md": "No, it doesn't."
+        }
+      ],
+      "answer_explanation_md": "ตอบ No, it doesn't. เพราะ A ถามต่อว่าควรขึ้นคันไหน แปลว่ารถคันนี้ไม่ไปมหาวิทยาลัย",
+      "hints": [
+        "A ถามว่าควรขึ้นคันไหน แปลว่ารถคันนี้ไปหรือไม่ไป",
+        "ถ้ารถไป A จะต้องถามหาคันอื่นไหม",
+        "หาตัวเลือกที่บอกว่าไม่ไป"
+      ],
+      "distractor_reasons": {
+        "0": "บอกวิธีจ่าย ไม่ได้ตอบคำถาม",
+        "1": "บอกระยะทาง ไม่ได้ตอบว่ารถไปหรือไม่",
+        "2": "บอกว่าไป แต่ A ถามว่าควรขึ้นคันไหน ซึ่งแปลว่าคันนี้ไม่ไป"
+      },
+      "misconception_tags": [
+        "ignore_next_line"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.short_conversation.directions_transport.0007",
+      "topic_ids": [
+        "tgat1.speaking.short_conversation.directions_transport"
+      ],
+      "primary_topic_id": "tgat1.speaking.short_conversation.directions_transport",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 45,
+      "stem_md": "**Tourist:** Does this bus stop near the museum?  \n**Driver:** ______  \n**Tourist:** Thanks. I'll get off there.",
+      "figures": [],
+      "choices": [
+        {
+          "md": "Yes. It's the third stop after the bridge.",
+          "is_answer": true
+        },
+        {
+          "md": "The museum stops art.",
+          "is_answer": false
+        },
+        {
+          "md": "Cross the bridge now.",
+          "is_answer": false
+        },
+        {
+          "md": "This bus is blue.",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ติดตามบริบทและผู้พูด",
+          "why_md": "นักท่องเที่ยวต้องรู้จุดลง"
+        },
+        {
+          "do_md": "ทดลองเติมแล้วอ่านต่อ",
+          "why_md": "คำตอบต้องทำให้บทสนทนาต่อเนื่อง ไม่ใช่แค่มีคำซ้ำ"
+        }
+      ],
+      "answer_explanation_md": "คำตอบให้ลำดับป้ายและจุดสังเกต",
+      "hints": [
+        "ดูว่าใครพูดกับใครและต้องการอะไร",
+        "ใช้ประโยคก่อนและหลังช่องว่างร่วมกัน",
+        "ตัดตัวเลือกที่มีคำซ้ำแต่ทำหน้าที่ผิด"
+      ],
+      "distractor_reasons": {
+        "1": "สลับคำผิดความหมาย",
+        "2": "ให้ลงมือผิดบริบท",
+        "3": "ไม่ตอบจุดลง"
+      },
+      "misconception_tags": [
+        "ignore_next_line"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.short_conversation.directions_transport.0008",
+      "topic_ids": [
+        "tgat1.speaking.short_conversation.directions_transport"
+      ],
+      "primary_topic_id": "tgat1.speaking.short_conversation.directions_transport",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 5,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": true,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 60,
+      "stem_md": "**Passenger:** The sign says 4, but the board says 6.  \n**Staff:** ______  \n**Passenger:** I'll wait for the announcement.",
+      "figures": [],
+      "choices": [
+        {
+          "md": "Walk to 6 and back to 4.",
+          "is_answer": false
+        },
+        {
+          "md": "The platform may change, so wait for the final announcement.",
+          "is_answer": true
+        },
+        {
+          "md": "Both are platforms.",
+          "is_answer": false
+        },
+        {
+          "md": "The train announced you.",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ติดตามบริบทและผู้พูด",
+          "why_md": "ผู้โดยสารตัดสินใจรอประกาศ"
+        },
+        {
+          "do_md": "ทดลองเติมแล้วอ่านต่อ",
+          "why_md": "คำตอบต้องทำให้บทสนทนาต่อเนื่อง ไม่ใช่แค่มีคำซ้ำ"
+        }
+      ],
+      "answer_explanation_md": "พนักงานต้องอธิบายความไม่แน่นอนและแนะนำให้รอ",
+      "hints": [
+        "ดูว่าใครพูดกับใครและต้องการอะไร",
+        "ใช้ประโยคก่อนและหลังช่องว่างร่วมกัน",
+        "ตัดตัวเลือกที่มีคำซ้ำแต่ทำหน้าที่ผิด"
+      ],
+      "distractor_reasons": {
+        "0": "ให้เดินโดยไม่ยืนยัน",
+        "2": "ทวนแต่ไม่ช่วย",
+        "3": "สลับกรรม"
+      },
+      "misconception_tags": [
+        "position_word_confusion"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    }
+  ],
+  "generated_from": "content/tgat1/speaking_conv.py"
+}

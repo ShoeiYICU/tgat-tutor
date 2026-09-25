@@ -1,0 +1,657 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tgat3.value_innovation.analytical.root_cause",
+  "problems": [
+    {
+      "id": "prob.tgat3.value_innovation.analytical.root_cause.0001",
+      "topic_ids": [
+        "tgat3.value_innovation.analytical.root_cause"
+      ],
+      "primary_topic_id": "tgat3.value_innovation.analytical.root_cause",
+      "exam_code": "TGAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT3 สมรรถนะการทำงาน แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4_tiered",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 60,
+      "stem_md": "ร้านอาหารที่คุณทำงานพิเศษได้รับคำบ่นเรื่องอาหารช้าทุกวันเสาร์ ผู้จัดการถามความเห็นคุณ คุณควรเสนออะไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "แจกของหวานฟรีให้ลูกค้าที่รอนาน",
+          "is_answer": false,
+          "score": 0.5
+        },
+        {
+          "md": "หาว่าวันเสาร์ขั้นตอนไหนช้าที่สุด แล้วแก้ตรงจุดนั้น",
+          "is_answer": true,
+          "score": 1
+        },
+        {
+          "md": "ตักเตือนพ่อครัวให้ทำเร็วขึ้น",
+          "is_answer": false,
+          "score": 0.25
+        },
+        {
+          "md": "เพิ่มพนักงานทุกตำแหน่งในวันเสาร์ ทั้งครัว แคชเชียร์ และพนักงานเสิร์ฟ เพื่อให้รองรับลูกค้าที่มากขึ้นได้แน่นอน",
+          "is_answer": false,
+          "score": 0.75
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "อาการ: อาหารช้าวันเสาร์",
+          "why_md": "ยังไม่รู้ว่าช้าเพราะอะไร"
+        },
+        {
+          "do_md": "หาสาเหตุ: ดูว่าขั้นตอนไหนเป็นคอขวด",
+          "why_md": "วันเสาร์ลูกค้ามากขึ้น ขั้นตอนที่รับไม่ไหวคือจุดที่ต้องแก้"
+        },
+        {
+          "do_md": "แก้ตรงจุด",
+          "why_md": "ได้ผลและไม่เสียต้นทุนเกินจำเป็น"
+        }
+      ],
+      "answer_explanation_md": "หาขั้นตอนที่ช้าที่สุดแล้วแก้ตรงจุดดีที่สุด เพราะแก้ที่สาเหตุ ไม่ใช่อาการ และไม่เพิ่มต้นทุนเกินจำเป็น",
+      "hints": [
+        "อาหารช้าเป็นอาการหรือสาเหตุ",
+        "ทำไมถึงช้าเฉพาะวันเสาร์",
+        "หาตัวเลือกที่หาจุดคอขวดก่อนลงมือแก้"
+      ],
+      "distractor_reasons": {
+        "0": "ดูแลความรู้สึกลูกค้าได้ แต่แก้แค่อาการ อาหารยังช้าเหมือนเดิม",
+        "2": "โทษคนโดยยังไม่รู้ว่าปัญหาอยู่ที่ขั้นตอนไหน",
+        "3": "อาจช่วยได้จริง แต่เพิ่มต้นทุนโดยไม่รู้ว่าคอขวดอยู่ตรงไหน"
+      },
+      "misconception_tags": [
+        "blame_person_not_system"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat3.value_innovation.analytical.root_cause.0002",
+      "topic_ids": [
+        "tgat3.value_innovation.analytical.root_cause"
+      ],
+      "primary_topic_id": "tgat3.value_innovation.analytical.root_cause",
+      "exam_code": "TGAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT3 สมรรถนะการทำงาน แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4_tiered",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 60,
+      "stem_md": "ชมรมของคุณจัดกิจกรรมทุกเดือน แต่จำนวนคนเข้าร่วมลดลงเรื่อย ๆ ประธานชมรมเสนอให้แจกของรางวัลให้คนที่มาร่วม คุณเป็นรองประธาน ควรเสนออะไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "สนับสนุนการแจกรางวัล เพราะน่าจะดึงคนได้",
+          "is_answer": false,
+          "score": 0.5
+        },
+        {
+          "md": "เพิ่มการประชาสัมพันธ์ในทุกช่องทาง ทั้งโปสเตอร์ กลุ่มแชต และประกาศหน้าเสาธง เพื่อให้สมาชิกรู้ข่าวกิจกรรมทั่วถึงกว่าเดิม",
+          "is_answer": false,
+          "score": 0.75
+        },
+        {
+          "md": "บังคับให้สมาชิกเข้าร่วมทุกกิจกรรม",
+          "is_answer": false,
+          "score": 0.25
+        },
+        {
+          "md": "สำรวจสมาชิกว่าทำไมไม่มาร่วม แล้วปรับตามผล",
+          "is_answer": true,
+          "score": 1
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "อาการ: คนเข้าร่วมลดลง",
+          "why_md": "ทางแก้ที่เสนอมาเดาสาเหตุไว้ต่างกัน"
+        },
+        {
+          "do_md": "หาสาเหตุด้วยการถามสมาชิก",
+          "why_md": "ได้ข้อมูลตรงจากคนที่ไม่มา"
+        },
+        {
+          "do_md": "ปรับตามสาเหตุจริง",
+          "why_md": "ผลจะยั่งยืนกว่าการใช้รางวัลล่อ"
+        }
+      ],
+      "answer_explanation_md": "สำรวจสาเหตุจากสมาชิกแล้วปรับดีที่สุด เพราะแก้ตรงต้นเหตุและยั่งยืนกว่าการใช้รางวัลล่อ",
+      "hints": [
+        "ทางแก้แต่ละตัวเลือกเดาว่าสาเหตุคืออะไร",
+        "ใครรู้ดีที่สุดว่าทำไมสมาชิกไม่มา",
+        "หาตัวเลือกที่หาสาเหตุก่อนเลือกวิธีแก้"
+      ],
+      "distractor_reasons": {
+        "0": "อาจเพิ่มคนได้ชั่วคราว แต่ถ้าสาเหตุคือกิจกรรมไม่น่าสนใจ พอเลิกแจกคนก็หายอีก",
+        "1": "แก้ได้ถ้าสาเหตุคือคนไม่รู้ข่าว แต่ยังเดาสาเหตุอยู่",
+        "2": "เพิ่มตัวเลขได้แต่ทำให้สมาชิกไม่พอใจ และไม่ได้แก้ว่าทำไมคนไม่อยากมา"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat3.value_innovation.analytical.root_cause.0003",
+      "topic_ids": [
+        "tgat3.value_innovation.analytical.root_cause"
+      ],
+      "primary_topic_id": "tgat3.value_innovation.analytical.root_cause",
+      "exam_code": "TGAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT3 สมรรถนะการทำงาน แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4_tiered",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 60,
+      "stem_md": "คุณฝึกงานที่ฝ่ายบริการลูกค้า พบว่าลูกค้าโทรมาถามเรื่องเดียวกันวันละหลายสิบสาย คือ \"จะเปลี่ยนรหัสผ่านอย่างไร\" คุณควรทำอย่างไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ตอบลูกค้าทุกสายให้เร็วที่สุด",
+          "is_answer": false,
+          "score": 0.5
+        },
+        {
+          "md": "เสนอหัวหน้าให้ปรับหน้าเว็บให้หาปุ่มเปลี่ยนรหัสผ่านง่ายขึ้น พร้อมสถิติสายที่โทรมา",
+          "is_answer": true,
+          "score": 1
+        },
+        {
+          "md": "ทำสคริปต์คำตอบสำเร็จรูปแบบทีละขั้นตอนให้ทุกคนในทีมใช้ตอบเรื่องนี้ เพื่อให้แต่ละสายจบเร็วขึ้นและตอบเหมือนกันทั้งทีม",
+          "is_answer": false,
+          "score": 0.75
+        },
+        {
+          "md": "บอกลูกค้าว่าข้อมูลมีอยู่บนเว็บแล้ว ให้ไปหาเอง",
+          "is_answer": false,
+          "score": 0.25
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "อาการ: สายโทรเข้าเรื่องเดิมจำนวนมาก",
+          "why_md": "ถามทำไม: ลูกค้าหาวิธีเปลี่ยนรหัสผ่านเองไม่เจอ"
+        },
+        {
+          "do_md": "สาเหตุราก: หน้าเว็บออกแบบให้หาไม่เจอ",
+          "why_md": "แก้ที่หน้าเว็บจะลดสายโทรเข้า"
+        },
+        {
+          "do_md": "นักศึกษาฝึกงานเสนอผ่านหัวหน้าพร้อมข้อมูล",
+          "why_md": "อยู่ในบทบาทและมีหลักฐานสนับสนุน"
+        }
+      ],
+      "answer_explanation_md": "เสนอปรับหน้าเว็บพร้อมสถิติดีที่สุด เพราะแก้สาเหตุรากที่ทำให้ลูกค้าต้องโทรมา",
+      "hints": [
+        "ถามทำไมลูกค้าถึงต้องโทรมาถามเรื่องนี้",
+        "ถ้าแก้ที่สาเหตุ จำนวนสายจะเปลี่ยนไปอย่างไร",
+        "หาตัวเลือกที่ลดจำนวนสาย ไม่ใช่แค่ตอบสายเร็วขึ้น"
+      ],
+      "distractor_reasons": {
+        "0": "ทำหน้าที่ได้ดี แต่ลูกค้ายังต้องโทรมาถามเรื่องเดิมทุกวัน",
+        "2": "ช่วยให้ตอบเร็วขึ้นทั้งทีม แต่ยังไม่ลดจำนวนสายที่เข้ามา",
+        "3": "ไม่ช่วยลูกค้า และไม่แก้ว่าทำไมหาไม่เจอ"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat3.value_innovation.analytical.root_cause.0004",
+      "topic_ids": [
+        "tgat3.value_innovation.analytical.root_cause"
+      ],
+      "primary_topic_id": "tgat3.value_innovation.analytical.root_cause",
+      "exam_code": "TGAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT3 สมรรถนะการทำงาน แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4_tiered",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 60,
+      "stem_md": "ห้องเรียนของคุณมีเครื่องปรับอากาศเสียบ่อย ช่างมาซ่อมเดือนละครั้ง คุณเป็นหัวหน้าห้องและสังเกตว่าเพื่อนมักเปิดแอร์ไว้ตลอดคืนเพราะลืมปิด คุณควรทำอย่างไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ทำป้ายเตือนข้างประตู และชวนเพื่อนช่วยกันตรวจว่าแอร์ปิดแล้วก่อนกลับ",
+          "is_answer": false,
+          "score": 0.75
+        },
+        {
+          "md": "แจ้งฝ่ายอาคารให้ส่งช่างมาตรวจสภาพเครื่องปรับอากาศถี่ขึ้นเป็นทุกสัปดาห์ เพื่อซ่อมก่อนที่เครื่องจะเสียหายหนัก",
+          "is_answer": false,
+          "score": 0.5
+        },
+        {
+          "md": "แจ้งครูเรื่องที่สังเกต และเสนอเวรปิดแอร์หลังเลิกเรียน",
+          "is_answer": true,
+          "score": 1
+        },
+        {
+          "md": "ประกาศว่าใครลืมปิดแอร์จะต้องจ่ายค่าซ่อม",
+          "is_answer": false,
+          "score": 0.25
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "อาการ: แอร์เสียบ่อย",
+          "why_md": "ข้อสังเกตชี้ว่าสาเหตุคือการเปิดทิ้งทั้งคืน"
+        },
+        {
+          "do_md": "สาเหตุราก: ไม่มีระบบรับผิดชอบการปิดแอร์",
+          "why_md": "ต้องสร้างระบบ ไม่ใช่พึ่งคนคนเดียว"
+        },
+        {
+          "do_md": "แจ้งครูพร้อมข้อเสนอที่ทำได้",
+          "why_md": "อยู่ในบทบาทหัวหน้าห้องและยั่งยืน"
+        }
+      ],
+      "answer_explanation_md": "แจ้งครูพร้อมเสนอเวรปิดแอร์ดีที่สุด เพราะแก้สาเหตุรากด้วยระบบที่มีผู้รับผิดชอบชัดเจนและไม่พึ่งคนคนเดียว",
+      "hints": [
+        "จากที่สังเกต สาเหตุที่ทำให้แอร์เสียบ่อยคืออะไร",
+        "ถ้าวันไหนเราไม่มาโรงเรียน ทางแก้ของเรายังได้ผลไหม",
+        "หาทางแก้ที่เป็นระบบและอยู่ในบทบาทหัวหน้าห้อง"
+      ],
+      "distractor_reasons": {
+        "0": "ช่วยป้องกันได้เป็นระบบขึ้น แต่ยังไม่มีผู้รับผิดชอบชัดเจนในแต่ละวัน",
+        "1": "ดูแลเครื่องได้ดีขึ้น แต่ยังเปิดทิ้งไว้ทั้งคืนเหมือนเดิม",
+        "3": "นักเรียนไม่มีอำนาจกำหนดบทลงโทษ และไม่ได้สร้างระบบป้องกัน"
+      },
+      "misconception_tags": [
+        "blame_person_not_system"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat3.value_innovation.analytical.root_cause.0005",
+      "topic_ids": [
+        "tgat3.value_innovation.analytical.root_cause"
+      ],
+      "primary_topic_id": "tgat3.value_innovation.analytical.root_cause",
+      "exam_code": "TGAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT3 สมรรถนะการทำงาน แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4_tiered",
+      "difficulty": 4,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "high"
+      },
+      "est_seconds": 60,
+      "stem_md": "บริษัทที่คุณฝึกงานมีพนักงานลาออกบ่อยในแผนกหนึ่ง ภายใน 6 เดือนลาออกไป 5 คน หัวหน้าแผนกบอกว่า \"คนรุ่นใหม่ไม่อดทน\" หัวหน้าฝ่ายบุคคลให้คุณช่วยวิเคราะห์ คุณควรทำอย่างไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "สรุปตามที่หัวหน้าแผนกบอก แล้วเสนอให้คัดคนที่อดทนมากขึ้น",
+          "is_answer": false,
+          "score": 0.25
+        },
+        {
+          "md": "เสนอให้ขึ้นเงินเดือนแผนกนั้นเพื่อรักษาพนักงาน",
+          "is_answer": false,
+          "score": 0.5
+        },
+        {
+          "md": "สรุปเหตุผลการลาออกจากแบบสัมภาษณ์ก่อนออก และเทียบภาระงาน ชั่วโมงทำงาน และค่าตอบแทนกับแผนกอื่น",
+          "is_answer": true,
+          "score": 1
+        },
+        {
+          "md": "สัมภาษณ์พนักงานที่ยังทำงานอยู่ในแผนกนั้นทุกคนแบบตัวต่อตัว เพื่อถามว่าพวกเขาเจอปัญหาอะไรบ้างและมีแนวโน้มจะลาออกไหม",
+          "is_answer": false,
+          "score": 0.75
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "อาการ: ลาออกบ่อย / ความเห็น: คนรุ่นใหม่ไม่อดทน",
+          "why_md": "ความเห็นนี้โทษคนและยังไม่มีหลักฐาน"
+        },
+        {
+          "do_md": "หาข้อเท็จจริง: เหตุผลที่ลาออก และความต่างระหว่างแผนก",
+          "why_md": "ถ้าแผนกเดียวที่ลาออกบ่อย สาเหตุมักอยู่ที่แผนก ไม่ใช่รุ่นของคน"
+        },
+        {
+          "do_md": "วิเคราะห์จากหลายแหล่งข้อมูล",
+          "why_md": "ได้สาเหตุรากที่ใช้เสนอทางแก้ได้"
+        }
+      ],
+      "answer_explanation_md": "วิเคราะห์เหตุผลการลาออกและเทียบกับแผนกอื่นดีที่สุด เพราะหาสาเหตุรากจากข้อเท็จจริงแทนการโทษตัวบุคคล",
+      "hints": [
+        "คำว่า 'คนรุ่นใหม่ไม่อดทน' เป็นข้อเท็จจริงหรือความเห็น",
+        "ถ้าลาออกบ่อยเฉพาะแผนกเดียว บอกอะไรเกี่ยวกับสาเหตุ",
+        "หาตัวเลือกที่ใช้ข้อมูลหลายด้านเพื่อหาสาเหตุ"
+      ],
+      "distractor_reasons": {
+        "0": "ใช้ความคิดเห็นเป็นสาเหตุโดยไม่ตรวจ และโทษคนแทนการดูระบบ",
+        "1": "อาจช่วยได้ถ้าสาเหตุคือค่าตอบแทน แต่ยังไม่รู้ว่าใช่หรือไม่",
+        "3": "ได้ข้อมูลตรงจากคนในแผนก แต่ยังไม่ได้ดูข้อมูลของคนที่ลาออกไปและข้อมูลเปรียบเทียบ"
+      },
+      "misconception_tags": [
+        "blame_person_not_system"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat3.value_innovation.analytical.root_cause.0006",
+      "topic_ids": [
+        "tgat3.value_innovation.analytical.root_cause"
+      ],
+      "primary_topic_id": "tgat3.value_innovation.analytical.root_cause",
+      "exam_code": "TGAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT3 สมรรถนะการทำงาน แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4_tiered",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 60,
+      "stem_md": "คุณเป็นอาสาสมัครสอนหนังสือเด็กในชุมชน พบว่าเด็กหลายคนมาเรียนสายเกือบทุกครั้ง คุณควรทำอย่างไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "คุยกับเด็กและผู้ปกครองเพื่อถามว่าทำไมมาสาย แล้วปรับเวลาหรือการเดินทางตามสาเหตุ",
+          "is_answer": true,
+          "score": 1
+        },
+        {
+          "md": "ให้คะแนนพิเศษหรือสติกเกอร์รางวัลกับเด็กที่มาตรงเวลา เพื่อสร้างแรงจูงใจให้เด็กคนอื่นอยากมาเช้าขึ้นบ้าง",
+          "is_answer": false,
+          "score": 0.75
+        },
+        {
+          "md": "ตำหนิเด็กที่มาสายต่อหน้าเพื่อน",
+          "is_answer": false,
+          "score": 0.25
+        },
+        {
+          "md": "เริ่มสอนตรงเวลาโดยไม่รอใคร",
+          "is_answer": false,
+          "score": 0.5
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "อาการ: เด็กหลายคนมาสายซ้ำ ๆ",
+          "why_md": "หลายคนพลาดเหมือนกัน อาจเป็นเรื่องของเวลาหรือการเดินทาง"
+        },
+        {
+          "do_md": "ถามสาเหตุจากเด็กและผู้ปกครอง",
+          "why_md": "สาเหตุอาจอยู่นอกการควบคุมของเด็ก"
+        },
+        {
+          "do_md": "ปรับตามสาเหตุ",
+          "why_md": "ทำให้ปัญหาหายจริง"
+        }
+      ],
+      "answer_explanation_md": "คุยกับเด็กและผู้ปกครองเพื่อหาสาเหตุแล้วปรับดีที่สุด เพราะแก้ที่ต้นเหตุ ซึ่งอาจอยู่นอกการควบคุมของเด็ก",
+      "hints": [
+        "เด็กหลายคนมาสายเหมือนกัน บอกอะไรเกี่ยวกับสาเหตุ",
+        "สาเหตุอาจเป็นเรื่องที่เด็กควบคุมเองได้หรือไม่",
+        "หาตัวเลือกที่หาสาเหตุก่อนเลือกวิธีแก้"
+      ],
+      "distractor_reasons": {
+        "1": "สร้างแรงจูงใจได้ แต่ถ้าสาเหตุคือเรื่องที่เด็กควบคุมไม่ได้ เช่น ต้องช่วยงานบ้าน ก็ไม่ได้ผล",
+        "2": "ทำให้เด็กอาย และไม่ได้รู้สาเหตุ",
+        "3": "รักษาเวลาของคนที่มาตรงเวลา แต่เด็กที่มาสายพลาดเนื้อหาและปัญหายังอยู่"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat3.value_innovation.analytical.root_cause.0007",
+      "topic_ids": [
+        "tgat3.value_innovation.analytical.root_cause"
+      ],
+      "primary_topic_id": "tgat3.value_innovation.analytical.root_cause",
+      "exam_code": "TGAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT3 สมรรถนะการทำงาน แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4_tiered",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 60,
+      "stem_md": "ระบบยืมอุปกรณ์มักมีของหาย และทุกครั้งชมรมซื้อใหม่ทันที คุณควรเริ่มแก้อย่างไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ตรวจเส้นทางการยืมคืนและหาจุดที่ไม่มีผู้รับผิดชอบหรือหลักฐาน",
+          "is_answer": true,
+          "score": 1
+        },
+        {
+          "md": "ซื้อของสำรองเพิ่ม",
+          "is_answer": false,
+          "score": 0.5
+        },
+        {
+          "md": "ติดป้ายเตือนให้คืนของ",
+          "is_answer": false,
+          "score": 0.75
+        },
+        {
+          "md": "ปรับผู้ยืมล่าสุดทุกครั้ง",
+          "is_answer": false,
+          "score": 0.25
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "แยกอาการ",
+          "why_md": "ของไม่พอเป็นผลจากของหาย"
+        },
+        {
+          "do_md": "ติดตามกระบวนการ",
+          "why_md": "ดูตั้งแต่รับจนคืน"
+        },
+        {
+          "do_md": "หาเงื่อนไขที่ทำให้ซ้ำ",
+          "why_md": "ช่องว่างความรับผิดชอบ"
+        }
+      ],
+      "answer_explanation_md": "ตรวจระบบยืมคืนก่อนช่วยระบุสาเหตุราก แทนการซื้อของหรือกล่าวโทษ",
+      "hints": [
+        "อะไรเกิดซ้ำแม้ซื้อใหม่",
+        "ควรตรวจช่วงใดของกระบวนการ",
+        "อะไรยืนยันได้ว่าของหายตรงไหน"
+      ],
+      "distractor_reasons": {
+        "1": "ลดผลกระทบแต่ไม่หยุดการหาย",
+        "2": "ช่วยพฤติกรรมแต่ยังไม่รู้ว่าสาเหตุอยู่ที่การคืนหรือการบันทึก",
+        "3": "กล่าวโทษโดยยังไม่รู้จุดสูญหาย"
+      },
+      "misconception_tags": [
+        "blame_person_not_system"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat3.value_innovation.analytical.root_cause.0008",
+      "topic_ids": [
+        "tgat3.value_innovation.analytical.root_cause"
+      ],
+      "primary_topic_id": "tgat3.value_innovation.analytical.root_cause",
+      "exam_code": "TGAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT3 สมรรถนะการทำงาน แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4_tiered",
+      "difficulty": 5,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": true,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 60,
+      "stem_md": "ลูกค้าร้องเรียนใบแจ้งหนี้ผิดซ้ำ ฝ่ายบริการแก้ยอดให้ทีละรายแล้วจบ แต่ข้อผิดพลาดยังเกิดในรายการที่มีส่วนลดหลายชั้น คุณควรเสนออะไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ทำคู่มือให้เจ้าหน้าที่แก้ยอดรูปแบบนี้",
+          "is_answer": false,
+          "score": 0.75
+        },
+        {
+          "md": "ให้ลูกค้าตรวจยอดเองก่อนจ่าย",
+          "is_answer": false,
+          "score": 0.25
+        },
+        {
+          "md": "เพิ่มพนักงานรับสายเพื่อแก้ยอดได้เร็วขึ้น",
+          "is_answer": false,
+          "score": 0.5
+        },
+        {
+          "md": "เก็บตัวอย่างรายการผิด ไล่กฎคำนวณส่วนลดกับข้อมูลต้นทาง แล้วแก้และทดสอบจุดที่ทำให้ยอดเพี้ยน",
+          "is_answer": true,
+          "score": 1
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ใช้รูปแบบที่พบ",
+          "why_md": "ผิดในรายการส่วนลดหลายชั้น"
+        },
+        {
+          "do_md": "ย้อนจากผลไปกฎและข้อมูล",
+          "why_md": "หาจุดคำนวณผิด"
+        },
+        {
+          "do_md": "ทดสอบก่อนใช้",
+          "why_md": "ป้องกันสร้างข้อผิดใหม่"
+        }
+      ],
+      "answer_explanation_md": "ไล่กฎคำนวณจากตัวอย่างจริงแล้วแก้พร้อมทดสอบ ตรงต้นเหตุและป้องกันข้อผิดซ้ำ",
+      "hints": [
+        "สิ่งใดเป็นอาการ",
+        "เบาะแสใดชี้จุดตรวจ",
+        "การแก้ใดหยุดการเกิดซ้ำและยังดูแลลูกค้า"
+      ],
+      "distractor_reasons": {
+        "0": "ลดเวลารับมือ แต่ยังเป็นการแก้หลังเกิด",
+        "1": "ผลักภาระให้ผู้ได้รับผลกระทบ",
+        "2": "ดูแลลูกค้าเร็วขึ้นแต่ข้อผิดยังเกิด"
+      },
+      "misconception_tags": [
+        "blame_person_not_system"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    }
+  ],
+  "generated_from": "content/tgat3/value_innovation.py"
+}

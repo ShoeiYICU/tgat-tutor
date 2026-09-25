@@ -1,0 +1,1180 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tgat2.numerical.foundation.average",
+  "problems": [
+    {
+      "id": "prob.tgat2.numerical.foundation.average.0001",
+      "topic_ids": [
+        "tgat2.numerical.foundation.average"
+      ],
+      "primary_topic_id": "tgat2.numerical.foundation.average",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 45,
+      "stem_md": "สอบ $5$ ครั้ง ได้คะแนนเฉลี่ย $69$ คะแนน ครั้งต่อไปต้องได้กี่คะแนน จึงจะได้คะแนนเฉลี่ยทั้งหมดเป็น $73$ คะแนน",
+      "figures": [],
+      "choices": [
+        {
+          "md": "$93$",
+          "is_answer": true
+        },
+        {
+          "md": "$73$",
+          "is_answer": false
+        },
+        {
+          "md": "$89$",
+          "is_answer": false
+        },
+        {
+          "md": "$97$",
+          "is_answer": false
+        },
+        {
+          "md": "$77$",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ผลรวมเดิม $= 69 \\times 5 = 345$",
+          "why_md": "แปลงค่าเฉลี่ยเป็นผลรวม"
+        },
+        {
+          "do_md": "ผลรวมที่ต้องการ $= 73 \\times 6 = 438$",
+          "why_md": "รวมครั้งใหม่จะมี $6$ ครั้ง"
+        },
+        {
+          "do_md": "ครั้งต่อไป $= 438 - 345 = 93$",
+          "why_md": "ส่วนต่างของผลรวมคือคะแนนที่ต้องได้"
+        }
+      ],
+      "answer_explanation_md": "ตอบ $93$ คะแนน เพราะผลรวมต้องเพิ่มจาก $345$ เป็น $438$",
+      "hints": [
+        "แปลงค่าเฉลี่ยเป็นผลรวมก่อน",
+        "ผลรวมเดิมคือ $69 \\times 5$",
+        "ผลรวมที่ต้องการคือ $73 \\times 6$"
+      ],
+      "distractor_reasons": {
+        "1": "เพิ่มแค่ส่วนต่างของค่าเฉลี่ย ไม่ได้คิดผ่านผลรวม",
+        "2": "ใช้จำนวนครั้งเดิมในการคิดผลรวมใหม่",
+        "3": "คำนวณผลรวมเกินไปเล็กน้อย",
+        "4": "เฉลี่ยค่าเฉลี่ยเหมือนมีแค่สองครั้ง"
+      },
+      "misconception_tags": [
+        "average_of_averages"
+      ],
+      "template": {
+        "vars": [
+          {
+            "name": "k",
+            "type": "int",
+            "range": [
+              3,
+              6
+            ],
+            "step": 1
+          },
+          {
+            "name": "m",
+            "type": "int",
+            "range": [
+              60,
+              80
+            ],
+            "step": 1
+          },
+          {
+            "name": "dt",
+            "type": "int",
+            "range": [
+              2,
+              5
+            ],
+            "step": 1
+          }
+        ],
+        "constraints": [
+          "(m + dt)*(k + 1) - m*k <= 100",
+          "((m + dt)*(k + 1) - m*k) > 0",
+          "(m + dt) > 0",
+          "((m + dt)*k - m*k + m) > 0",
+          "(2*(m + dt) - m) > 0",
+          "((m + dt)*(k + 1) - m*k + dt) > 0",
+          "((m + dt)*(k + 1) - m*k) != (m + dt)",
+          "((m + dt)*(k + 1) - m*k) != ((m + dt)*k - m*k + m)",
+          "((m + dt)*(k + 1) - m*k) != (2*(m + dt) - m)",
+          "((m + dt)*(k + 1) - m*k) != ((m + dt)*(k + 1) - m*k + dt)",
+          "(m + dt) != ((m + dt)*k - m*k + m)",
+          "(m + dt) != (2*(m + dt) - m)",
+          "(m + dt) != ((m + dt)*(k + 1) - m*k + dt)",
+          "((m + dt)*k - m*k + m) != (2*(m + dt) - m)",
+          "((m + dt)*k - m*k + m) != ((m + dt)*(k + 1) - m*k + dt)",
+          "(2*(m + dt) - m) != ((m + dt)*(k + 1) - m*k + dt)",
+          "(m + dt) <= 5*((m + dt)*(k + 1) - m*k)",
+          "((m + dt)*k - m*k + m) <= 5*((m + dt)*(k + 1) - m*k)",
+          "(2*(m + dt) - m) <= 5*((m + dt)*(k + 1) - m*k)",
+          "((m + dt)*(k + 1) - m*k + dt) <= 5*((m + dt)*(k + 1) - m*k)",
+          "5*(m + dt) >= ((m + dt)*(k + 1) - m*k)",
+          "5*((m + dt)*k - m*k + m) >= ((m + dt)*(k + 1) - m*k)",
+          "5*(2*(m + dt) - m) >= ((m + dt)*(k + 1) - m*k)",
+          "5*((m + dt)*(k + 1) - m*k + dt) >= ((m + dt)*(k + 1) - m*k)",
+          "(k) != ((m + dt)*(k + 1) - m*k)",
+          "(k1) != ((m + dt)*(k + 1) - m*k)",
+          "(m) != ((m + dt)*(k + 1) - m*k)",
+          "(t) != ((m + dt)*(k + 1) - m*k)"
+        ],
+        "display": {
+          "t": "m + dt",
+          "k1": "k + 1",
+          "s0": "m*k",
+          "s1": "(m + dt)*(k + 1)"
+        },
+        "stem_tpl": "สอบ ${k}$ ครั้ง ได้คะแนนเฉลี่ย ${m}$ คะแนน ครั้งต่อไปต้องได้กี่คะแนน จึงจะได้คะแนนเฉลี่ยทั้งหมดเป็น ${t}$ คะแนน",
+        "answer_expr": "(m + dt)*(k + 1) - m*k",
+        "answer_round": null,
+        "answer_unit": null,
+        "distractors": [
+          {
+            "expr": "m + dt",
+            "reason": "เพิ่มแค่ส่วนต่างของค่าเฉลี่ย ไม่ได้คิดผ่านผลรวม"
+          },
+          {
+            "expr": "(m + dt)*k - m*k + m",
+            "reason": "ใช้จำนวนครั้งเดิมในการคิดผลรวมใหม่"
+          },
+          {
+            "expr": "2*(m + dt) - m",
+            "reason": "เฉลี่ยค่าเฉลี่ยเหมือนมีแค่สองครั้ง"
+          },
+          {
+            "expr": "(m + dt)*(k + 1) - m*k + dt",
+            "reason": "คำนวณผลรวมเกินไปเล็กน้อย"
+          }
+        ],
+        "quality_rules": [
+          "ตัวเลือกทุกตัวต้องเป็นจำนวนบวกและไม่ซ้ำกัน",
+          "คำตอบคำนวณจากนิพจน์ ไม่ได้ใส่มือ"
+        ],
+        "quality_exprs": [
+          "answer > 0"
+        ],
+        "steps_tpl": [
+          {
+            "do_md": "ผลรวมเดิม $= {m} \\times {k} = {s0}$",
+            "why_md": "แปลงค่าเฉลี่ยเป็นผลรวม"
+          },
+          {
+            "do_md": "ผลรวมที่ต้องการ $= {t} \\times {k1} = {s1}$",
+            "why_md": "รวมครั้งใหม่จะมี ${k1}$ ครั้ง"
+          },
+          {
+            "do_md": "ครั้งต่อไป $= {s1} - {s0} = {answer}$",
+            "why_md": "ส่วนต่างของผลรวมคือคะแนนที่ต้องได้"
+          }
+        ],
+        "hints_tpl": [
+          "แปลงค่าเฉลี่ยเป็นผลรวมก่อน",
+          "ผลรวมเดิมคือ ${m} \\times {k}$",
+          "ผลรวมที่ต้องการคือ ${t} \\times {k1}$"
+        ],
+        "explanation_tpl": "ตอบ ${answer}$ คะแนน เพราะผลรวมต้องเพิ่มจาก ${s0}$ เป็น ${s1}$"
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.numerical.foundation.average.0002",
+      "topic_ids": [
+        "tgat2.numerical.foundation.average"
+      ],
+      "primary_topic_id": "tgat2.numerical.foundation.average",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 50,
+      "stem_md": "สอบ $6$ ครั้ง ได้คะแนนเฉลี่ย $73$ คะแนน ครั้งต่อไปต้องได้กี่คะแนน จึงจะได้คะแนนเฉลี่ยทั้งหมดเป็น $76$ คะแนน",
+      "figures": [],
+      "choices": [
+        {
+          "md": "$76$",
+          "is_answer": false
+        },
+        {
+          "md": "$94$",
+          "is_answer": true
+        },
+        {
+          "md": "$91$",
+          "is_answer": false
+        },
+        {
+          "md": "$97$",
+          "is_answer": false
+        },
+        {
+          "md": "$79$",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ผลรวมเดิม $= 73 \\times 6 = 438$",
+          "why_md": "แปลงค่าเฉลี่ยเป็นผลรวม"
+        },
+        {
+          "do_md": "ผลรวมที่ต้องการ $= 76 \\times 7 = 532$",
+          "why_md": "รวมครั้งใหม่จะมี $7$ ครั้ง"
+        },
+        {
+          "do_md": "ครั้งต่อไป $= 532 - 438 = 94$",
+          "why_md": "ส่วนต่างของผลรวมคือคะแนนที่ต้องได้"
+        }
+      ],
+      "answer_explanation_md": "ตอบ $94$ คะแนน เพราะผลรวมต้องเพิ่มจาก $438$ เป็น $532$",
+      "hints": [
+        "แปลงค่าเฉลี่ยเป็นผลรวมก่อน",
+        "ผลรวมเดิมคือ $73 \\times 6$",
+        "ผลรวมที่ต้องการคือ $76 \\times 7$"
+      ],
+      "distractor_reasons": {
+        "0": "เพิ่มแค่ส่วนต่างของค่าเฉลี่ย ไม่ได้คิดผ่านผลรวม",
+        "2": "ใช้จำนวนครั้งเดิมในการคิดผลรวมใหม่",
+        "3": "คำนวณผลรวมเกินไปเล็กน้อย",
+        "4": "เฉลี่ยค่าเฉลี่ยเหมือนมีแค่สองครั้ง"
+      },
+      "misconception_tags": [
+        "average_of_averages"
+      ],
+      "template": {
+        "vars": [
+          {
+            "name": "k",
+            "type": "int",
+            "range": [
+              3,
+              6
+            ],
+            "step": 1
+          },
+          {
+            "name": "m",
+            "type": "int",
+            "range": [
+              60,
+              80
+            ],
+            "step": 1
+          },
+          {
+            "name": "dt",
+            "type": "int",
+            "range": [
+              2,
+              5
+            ],
+            "step": 1
+          }
+        ],
+        "constraints": [
+          "(m + dt)*(k + 1) - m*k <= 100",
+          "((m + dt)*(k + 1) - m*k) > 0",
+          "(m + dt) > 0",
+          "((m + dt)*k - m*k + m) > 0",
+          "(2*(m + dt) - m) > 0",
+          "((m + dt)*(k + 1) - m*k + dt) > 0",
+          "((m + dt)*(k + 1) - m*k) != (m + dt)",
+          "((m + dt)*(k + 1) - m*k) != ((m + dt)*k - m*k + m)",
+          "((m + dt)*(k + 1) - m*k) != (2*(m + dt) - m)",
+          "((m + dt)*(k + 1) - m*k) != ((m + dt)*(k + 1) - m*k + dt)",
+          "(m + dt) != ((m + dt)*k - m*k + m)",
+          "(m + dt) != (2*(m + dt) - m)",
+          "(m + dt) != ((m + dt)*(k + 1) - m*k + dt)",
+          "((m + dt)*k - m*k + m) != (2*(m + dt) - m)",
+          "((m + dt)*k - m*k + m) != ((m + dt)*(k + 1) - m*k + dt)",
+          "(2*(m + dt) - m) != ((m + dt)*(k + 1) - m*k + dt)",
+          "(m + dt) <= 5*((m + dt)*(k + 1) - m*k)",
+          "((m + dt)*k - m*k + m) <= 5*((m + dt)*(k + 1) - m*k)",
+          "(2*(m + dt) - m) <= 5*((m + dt)*(k + 1) - m*k)",
+          "((m + dt)*(k + 1) - m*k + dt) <= 5*((m + dt)*(k + 1) - m*k)",
+          "5*(m + dt) >= ((m + dt)*(k + 1) - m*k)",
+          "5*((m + dt)*k - m*k + m) >= ((m + dt)*(k + 1) - m*k)",
+          "5*(2*(m + dt) - m) >= ((m + dt)*(k + 1) - m*k)",
+          "5*((m + dt)*(k + 1) - m*k + dt) >= ((m + dt)*(k + 1) - m*k)",
+          "(k) != ((m + dt)*(k + 1) - m*k)",
+          "(k1) != ((m + dt)*(k + 1) - m*k)",
+          "(m) != ((m + dt)*(k + 1) - m*k)",
+          "(t) != ((m + dt)*(k + 1) - m*k)"
+        ],
+        "display": {
+          "t": "m + dt",
+          "k1": "k + 1",
+          "s0": "m*k",
+          "s1": "(m + dt)*(k + 1)"
+        },
+        "stem_tpl": "สอบ ${k}$ ครั้ง ได้คะแนนเฉลี่ย ${m}$ คะแนน ครั้งต่อไปต้องได้กี่คะแนน จึงจะได้คะแนนเฉลี่ยทั้งหมดเป็น ${t}$ คะแนน",
+        "answer_expr": "(m + dt)*(k + 1) - m*k",
+        "answer_round": null,
+        "answer_unit": null,
+        "distractors": [
+          {
+            "expr": "m + dt",
+            "reason": "เพิ่มแค่ส่วนต่างของค่าเฉลี่ย ไม่ได้คิดผ่านผลรวม"
+          },
+          {
+            "expr": "(m + dt)*k - m*k + m",
+            "reason": "ใช้จำนวนครั้งเดิมในการคิดผลรวมใหม่"
+          },
+          {
+            "expr": "2*(m + dt) - m",
+            "reason": "เฉลี่ยค่าเฉลี่ยเหมือนมีแค่สองครั้ง"
+          },
+          {
+            "expr": "(m + dt)*(k + 1) - m*k + dt",
+            "reason": "คำนวณผลรวมเกินไปเล็กน้อย"
+          }
+        ],
+        "quality_rules": [
+          "ตัวเลือกทุกตัวต้องเป็นจำนวนบวกและไม่ซ้ำกัน",
+          "คำตอบคำนวณจากนิพจน์ ไม่ได้ใส่มือ"
+        ],
+        "quality_exprs": [
+          "answer > 0"
+        ],
+        "steps_tpl": [
+          {
+            "do_md": "ผลรวมเดิม $= {m} \\times {k} = {s0}$",
+            "why_md": "แปลงค่าเฉลี่ยเป็นผลรวม"
+          },
+          {
+            "do_md": "ผลรวมที่ต้องการ $= {t} \\times {k1} = {s1}$",
+            "why_md": "รวมครั้งใหม่จะมี ${k1}$ ครั้ง"
+          },
+          {
+            "do_md": "ครั้งต่อไป $= {s1} - {s0} = {answer}$",
+            "why_md": "ส่วนต่างของผลรวมคือคะแนนที่ต้องได้"
+          }
+        ],
+        "hints_tpl": [
+          "แปลงค่าเฉลี่ยเป็นผลรวมก่อน",
+          "ผลรวมเดิมคือ ${m} \\times {k}$",
+          "ผลรวมที่ต้องการคือ ${t} \\times {k1}$"
+        ],
+        "explanation_tpl": "ตอบ ${answer}$ คะแนน เพราะผลรวมต้องเพิ่มจาก ${s0}$ เป็น ${s1}$"
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.numerical.foundation.average.0003",
+      "topic_ids": [
+        "tgat2.numerical.foundation.average"
+      ],
+      "primary_topic_id": "tgat2.numerical.foundation.average",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 50,
+      "stem_md": "สอบ $3$ ครั้ง ได้คะแนนเฉลี่ย $60$ คะแนน ครั้งต่อไปต้องได้กี่คะแนน จึงจะได้คะแนนเฉลี่ยทั้งหมดเป็น $64$ คะแนน",
+      "figures": [],
+      "choices": [
+        {
+          "md": "$68$",
+          "is_answer": false
+        },
+        {
+          "md": "$72$",
+          "is_answer": false
+        },
+        {
+          "md": "$76$",
+          "is_answer": true
+        },
+        {
+          "md": "$80$",
+          "is_answer": false
+        },
+        {
+          "md": "$64$",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ผลรวมเดิม $= 60 \\times 3 = 180$",
+          "why_md": "แปลงค่าเฉลี่ยเป็นผลรวม"
+        },
+        {
+          "do_md": "ผลรวมที่ต้องการ $= 64 \\times 4 = 256$",
+          "why_md": "รวมครั้งใหม่จะมี $4$ ครั้ง"
+        },
+        {
+          "do_md": "ครั้งต่อไป $= 256 - 180 = 76$",
+          "why_md": "ส่วนต่างของผลรวมคือคะแนนที่ต้องได้"
+        }
+      ],
+      "answer_explanation_md": "ตอบ $76$ คะแนน เพราะผลรวมต้องเพิ่มจาก $180$ เป็น $256$",
+      "hints": [
+        "แปลงค่าเฉลี่ยเป็นผลรวมก่อน",
+        "ผลรวมเดิมคือ $60 \\times 3$",
+        "ผลรวมที่ต้องการคือ $64 \\times 4$"
+      ],
+      "distractor_reasons": {
+        "0": "เฉลี่ยค่าเฉลี่ยเหมือนมีแค่สองครั้ง",
+        "1": "ใช้จำนวนครั้งเดิมในการคิดผลรวมใหม่",
+        "3": "คำนวณผลรวมเกินไปเล็กน้อย",
+        "4": "เพิ่มแค่ส่วนต่างของค่าเฉลี่ย ไม่ได้คิดผ่านผลรวม"
+      },
+      "misconception_tags": [
+        "average_of_averages"
+      ],
+      "template": {
+        "vars": [
+          {
+            "name": "k",
+            "type": "int",
+            "range": [
+              3,
+              6
+            ],
+            "step": 1
+          },
+          {
+            "name": "m",
+            "type": "int",
+            "range": [
+              60,
+              80
+            ],
+            "step": 1
+          },
+          {
+            "name": "dt",
+            "type": "int",
+            "range": [
+              2,
+              5
+            ],
+            "step": 1
+          }
+        ],
+        "constraints": [
+          "(m + dt)*(k + 1) - m*k <= 100",
+          "((m + dt)*(k + 1) - m*k) > 0",
+          "(m + dt) > 0",
+          "((m + dt)*k - m*k + m) > 0",
+          "(2*(m + dt) - m) > 0",
+          "((m + dt)*(k + 1) - m*k + dt) > 0",
+          "((m + dt)*(k + 1) - m*k) != (m + dt)",
+          "((m + dt)*(k + 1) - m*k) != ((m + dt)*k - m*k + m)",
+          "((m + dt)*(k + 1) - m*k) != (2*(m + dt) - m)",
+          "((m + dt)*(k + 1) - m*k) != ((m + dt)*(k + 1) - m*k + dt)",
+          "(m + dt) != ((m + dt)*k - m*k + m)",
+          "(m + dt) != (2*(m + dt) - m)",
+          "(m + dt) != ((m + dt)*(k + 1) - m*k + dt)",
+          "((m + dt)*k - m*k + m) != (2*(m + dt) - m)",
+          "((m + dt)*k - m*k + m) != ((m + dt)*(k + 1) - m*k + dt)",
+          "(2*(m + dt) - m) != ((m + dt)*(k + 1) - m*k + dt)",
+          "(m + dt) <= 5*((m + dt)*(k + 1) - m*k)",
+          "((m + dt)*k - m*k + m) <= 5*((m + dt)*(k + 1) - m*k)",
+          "(2*(m + dt) - m) <= 5*((m + dt)*(k + 1) - m*k)",
+          "((m + dt)*(k + 1) - m*k + dt) <= 5*((m + dt)*(k + 1) - m*k)",
+          "5*(m + dt) >= ((m + dt)*(k + 1) - m*k)",
+          "5*((m + dt)*k - m*k + m) >= ((m + dt)*(k + 1) - m*k)",
+          "5*(2*(m + dt) - m) >= ((m + dt)*(k + 1) - m*k)",
+          "5*((m + dt)*(k + 1) - m*k + dt) >= ((m + dt)*(k + 1) - m*k)",
+          "(k) != ((m + dt)*(k + 1) - m*k)",
+          "(k1) != ((m + dt)*(k + 1) - m*k)",
+          "(m) != ((m + dt)*(k + 1) - m*k)",
+          "(t) != ((m + dt)*(k + 1) - m*k)"
+        ],
+        "display": {
+          "t": "m + dt",
+          "k1": "k + 1",
+          "s0": "m*k",
+          "s1": "(m + dt)*(k + 1)"
+        },
+        "stem_tpl": "สอบ ${k}$ ครั้ง ได้คะแนนเฉลี่ย ${m}$ คะแนน ครั้งต่อไปต้องได้กี่คะแนน จึงจะได้คะแนนเฉลี่ยทั้งหมดเป็น ${t}$ คะแนน",
+        "answer_expr": "(m + dt)*(k + 1) - m*k",
+        "answer_round": null,
+        "answer_unit": null,
+        "distractors": [
+          {
+            "expr": "m + dt",
+            "reason": "เพิ่มแค่ส่วนต่างของค่าเฉลี่ย ไม่ได้คิดผ่านผลรวม"
+          },
+          {
+            "expr": "(m + dt)*k - m*k + m",
+            "reason": "ใช้จำนวนครั้งเดิมในการคิดผลรวมใหม่"
+          },
+          {
+            "expr": "2*(m + dt) - m",
+            "reason": "เฉลี่ยค่าเฉลี่ยเหมือนมีแค่สองครั้ง"
+          },
+          {
+            "expr": "(m + dt)*(k + 1) - m*k + dt",
+            "reason": "คำนวณผลรวมเกินไปเล็กน้อย"
+          }
+        ],
+        "quality_rules": [
+          "ตัวเลือกทุกตัวต้องเป็นจำนวนบวกและไม่ซ้ำกัน",
+          "คำตอบคำนวณจากนิพจน์ ไม่ได้ใส่มือ"
+        ],
+        "quality_exprs": [
+          "answer > 0"
+        ],
+        "steps_tpl": [
+          {
+            "do_md": "ผลรวมเดิม $= {m} \\times {k} = {s0}$",
+            "why_md": "แปลงค่าเฉลี่ยเป็นผลรวม"
+          },
+          {
+            "do_md": "ผลรวมที่ต้องการ $= {t} \\times {k1} = {s1}$",
+            "why_md": "รวมครั้งใหม่จะมี ${k1}$ ครั้ง"
+          },
+          {
+            "do_md": "ครั้งต่อไป $= {s1} - {s0} = {answer}$",
+            "why_md": "ส่วนต่างของผลรวมคือคะแนนที่ต้องได้"
+          }
+        ],
+        "hints_tpl": [
+          "แปลงค่าเฉลี่ยเป็นผลรวมก่อน",
+          "ผลรวมเดิมคือ ${m} \\times {k}$",
+          "ผลรวมที่ต้องการคือ ${t} \\times {k1}$"
+        ],
+        "explanation_tpl": "ตอบ ${answer}$ คะแนน เพราะผลรวมต้องเพิ่มจาก ${s0}$ เป็น ${s1}$"
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.numerical.foundation.average.0004",
+      "topic_ids": [
+        "tgat2.numerical.foundation.average"
+      ],
+      "primary_topic_id": "tgat2.numerical.foundation.average",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 50,
+      "stem_md": "ข้อมูล $9$ ตัวมีค่าเฉลี่ย $61$ ถ้าตัดข้อมูลที่มีค่า $93$ ออกหนึ่งตัว ค่าเฉลี่ยของข้อมูลที่เหลือเท่ากับเท่าไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "$61$",
+          "is_answer": false
+        },
+        {
+          "md": "$50$",
+          "is_answer": false
+        },
+        {
+          "md": "$53$",
+          "is_answer": false
+        },
+        {
+          "md": "$57$",
+          "is_answer": true
+        },
+        {
+          "md": "$65$",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ผลรวมเดิม $= 61 \\times 9 = 549$",
+          "why_md": "แปลงค่าเฉลี่ยเป็นผลรวม"
+        },
+        {
+          "do_md": "ผลรวมใหม่ $= 549 - 93 = 456$",
+          "why_md": "ตัดข้อมูลหนึ่งตัวออกจากผลรวม"
+        },
+        {
+          "do_md": "ค่าเฉลี่ยใหม่ $= 456 \\div 8 = 57$",
+          "why_md": "เหลือข้อมูล $8$ ตัว"
+        }
+      ],
+      "answer_explanation_md": "ตอบ $57$ เพราะผลรวมเหลือ $456$ และข้อมูลเหลือ $8$ ตัว",
+      "hints": [
+        "เริ่มจากหาผลรวมเดิม",
+        "ตัด $93$ ออกจากผลรวม",
+        "หารด้วยจำนวนข้อมูลที่เหลือ ไม่ใช่จำนวนเดิม"
+      ],
+      "distractor_reasons": {
+        "0": "คิดว่าค่าเฉลี่ยไม่เปลี่ยน",
+        "1": "หารด้วยจำนวนข้อมูลเดิมแทนจำนวนที่เหลือ",
+        "2": "ลดค่าเฉลี่ยมากเกินไป",
+        "4": "เข้าใจว่าตัดค่าที่มากออกแล้วค่าเฉลี่ยเพิ่ม"
+      },
+      "misconception_tags": [],
+      "template": {
+        "vars": [
+          {
+            "name": "n",
+            "type": "int",
+            "range": [
+              5,
+              9
+            ],
+            "step": 1
+          },
+          {
+            "name": "m2",
+            "type": "int",
+            "range": [
+              20,
+              60
+            ],
+            "step": 1
+          },
+          {
+            "name": "j",
+            "type": "int",
+            "range": [
+              1,
+              4
+            ],
+            "step": 1
+          }
+        ],
+        "constraints": [
+          "(m2) > 0",
+          "(m2 + j) > 0",
+          "((n*(m2 + j) - m2 - n*j)//n) > 0",
+          "(m2 - j) > 0",
+          "(m2 + 2*j) > 0",
+          "(m2) != (m2 + j)",
+          "(m2) != ((n*(m2 + j) - m2 - n*j)//n)",
+          "(m2) != (m2 - j)",
+          "(m2) != (m2 + 2*j)",
+          "(m2 + j) != ((n*(m2 + j) - m2 - n*j)//n)",
+          "(m2 + j) != (m2 - j)",
+          "(m2 + j) != (m2 + 2*j)",
+          "((n*(m2 + j) - m2 - n*j)//n) != (m2 - j)",
+          "((n*(m2 + j) - m2 - n*j)//n) != (m2 + 2*j)",
+          "(m2 - j) != (m2 + 2*j)",
+          "(m2 + j) <= 5*(m2)",
+          "((n*(m2 + j) - m2 - n*j)//n) <= 5*(m2)",
+          "(m2 - j) <= 5*(m2)",
+          "(m2 + 2*j) <= 5*(m2)",
+          "5*(m2 + j) >= (m2)",
+          "5*((n*(m2 + j) - m2 - n*j)//n) >= (m2)",
+          "5*(m2 - j) >= (m2)",
+          "5*(m2 + 2*j) >= (m2)",
+          "(x) != (m2)"
+        ],
+        "display": {
+          "x": "m2 + n*j",
+          "m": "m2 + j",
+          "s0": "n*(m2 + j)",
+          "n1": "n - 1",
+          "s1": "(n - 1)*m2"
+        },
+        "stem_tpl": "ข้อมูล ${n}$ ตัวมีค่าเฉลี่ย ${m}$ ถ้าตัดข้อมูลที่มีค่า ${x}$ ออกหนึ่งตัว ค่าเฉลี่ยของข้อมูลที่เหลือเท่ากับเท่าไร",
+        "answer_expr": "m2",
+        "answer_round": null,
+        "answer_unit": null,
+        "distractors": [
+          {
+            "expr": "m2 + j",
+            "reason": "คิดว่าค่าเฉลี่ยไม่เปลี่ยน"
+          },
+          {
+            "expr": "(n*(m2 + j) - m2 - n*j)//n",
+            "reason": "หารด้วยจำนวนข้อมูลเดิมแทนจำนวนที่เหลือ"
+          },
+          {
+            "expr": "m2 - j",
+            "reason": "ลดค่าเฉลี่ยมากเกินไป"
+          },
+          {
+            "expr": "m2 + 2*j",
+            "reason": "เข้าใจว่าตัดค่าที่มากออกแล้วค่าเฉลี่ยเพิ่ม"
+          }
+        ],
+        "quality_rules": [
+          "ตัวเลือกทุกตัวต้องเป็นจำนวนบวกและไม่ซ้ำกัน",
+          "คำตอบคำนวณจากนิพจน์ ไม่ได้ใส่มือ"
+        ],
+        "quality_exprs": [
+          "answer > 0"
+        ],
+        "steps_tpl": [
+          {
+            "do_md": "ผลรวมเดิม $= {m} \\times {n} = {s0}$",
+            "why_md": "แปลงค่าเฉลี่ยเป็นผลรวม"
+          },
+          {
+            "do_md": "ผลรวมใหม่ $= {s0} - {x} = {s1}$",
+            "why_md": "ตัดข้อมูลหนึ่งตัวออกจากผลรวม"
+          },
+          {
+            "do_md": "ค่าเฉลี่ยใหม่ $= {s1} \\div {n1} = {answer}$",
+            "why_md": "เหลือข้อมูล ${n1}$ ตัว"
+          }
+        ],
+        "hints_tpl": [
+          "เริ่มจากหาผลรวมเดิม",
+          "ตัด ${x}$ ออกจากผลรวม",
+          "หารด้วยจำนวนข้อมูลที่เหลือ ไม่ใช่จำนวนเดิม"
+        ],
+        "explanation_tpl": "ตอบ ${answer}$ เพราะผลรวมเหลือ ${s1}$ และข้อมูลเหลือ ${n1}$ ตัว"
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.numerical.foundation.average.0005",
+      "topic_ids": [
+        "tgat2.numerical.foundation.average"
+      ],
+      "primary_topic_id": "tgat2.numerical.foundation.average",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 50,
+      "stem_md": "ข้อมูล $9$ ตัวมีค่าเฉลี่ย $60$ ถ้าตัดข้อมูลที่มีค่า $92$ ออกหนึ่งตัว ค่าเฉลี่ยของข้อมูลที่เหลือเท่ากับเท่าไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "$60$",
+          "is_answer": false
+        },
+        {
+          "md": "$52$",
+          "is_answer": false
+        },
+        {
+          "md": "$49$",
+          "is_answer": false
+        },
+        {
+          "md": "$64$",
+          "is_answer": false
+        },
+        {
+          "md": "$56$",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ผลรวมเดิม $= 60 \\times 9 = 540$",
+          "why_md": "แปลงค่าเฉลี่ยเป็นผลรวม"
+        },
+        {
+          "do_md": "ผลรวมใหม่ $= 540 - 92 = 448$",
+          "why_md": "ตัดข้อมูลหนึ่งตัวออกจากผลรวม"
+        },
+        {
+          "do_md": "ค่าเฉลี่ยใหม่ $= 448 \\div 8 = 56$",
+          "why_md": "เหลือข้อมูล $8$ ตัว"
+        }
+      ],
+      "answer_explanation_md": "ตอบ $56$ เพราะผลรวมเหลือ $448$ และข้อมูลเหลือ $8$ ตัว",
+      "hints": [
+        "เริ่มจากหาผลรวมเดิม",
+        "ตัด $92$ ออกจากผลรวม",
+        "หารด้วยจำนวนข้อมูลที่เหลือ ไม่ใช่จำนวนเดิม"
+      ],
+      "distractor_reasons": {
+        "0": "คิดว่าค่าเฉลี่ยไม่เปลี่ยน",
+        "1": "ลดค่าเฉลี่ยมากเกินไป",
+        "2": "หารด้วยจำนวนข้อมูลเดิมแทนจำนวนที่เหลือ",
+        "3": "เข้าใจว่าตัดค่าที่มากออกแล้วค่าเฉลี่ยเพิ่ม"
+      },
+      "misconception_tags": [],
+      "template": {
+        "vars": [
+          {
+            "name": "n",
+            "type": "int",
+            "range": [
+              5,
+              9
+            ],
+            "step": 1
+          },
+          {
+            "name": "m2",
+            "type": "int",
+            "range": [
+              20,
+              60
+            ],
+            "step": 1
+          },
+          {
+            "name": "j",
+            "type": "int",
+            "range": [
+              1,
+              4
+            ],
+            "step": 1
+          }
+        ],
+        "constraints": [
+          "(m2) > 0",
+          "(m2 + j) > 0",
+          "((n*(m2 + j) - m2 - n*j)//n) > 0",
+          "(m2 - j) > 0",
+          "(m2 + 2*j) > 0",
+          "(m2) != (m2 + j)",
+          "(m2) != ((n*(m2 + j) - m2 - n*j)//n)",
+          "(m2) != (m2 - j)",
+          "(m2) != (m2 + 2*j)",
+          "(m2 + j) != ((n*(m2 + j) - m2 - n*j)//n)",
+          "(m2 + j) != (m2 - j)",
+          "(m2 + j) != (m2 + 2*j)",
+          "((n*(m2 + j) - m2 - n*j)//n) != (m2 - j)",
+          "((n*(m2 + j) - m2 - n*j)//n) != (m2 + 2*j)",
+          "(m2 - j) != (m2 + 2*j)",
+          "(m2 + j) <= 5*(m2)",
+          "((n*(m2 + j) - m2 - n*j)//n) <= 5*(m2)",
+          "(m2 - j) <= 5*(m2)",
+          "(m2 + 2*j) <= 5*(m2)",
+          "5*(m2 + j) >= (m2)",
+          "5*((n*(m2 + j) - m2 - n*j)//n) >= (m2)",
+          "5*(m2 - j) >= (m2)",
+          "5*(m2 + 2*j) >= (m2)",
+          "(x) != (m2)"
+        ],
+        "display": {
+          "x": "m2 + n*j",
+          "m": "m2 + j",
+          "s0": "n*(m2 + j)",
+          "n1": "n - 1",
+          "s1": "(n - 1)*m2"
+        },
+        "stem_tpl": "ข้อมูล ${n}$ ตัวมีค่าเฉลี่ย ${m}$ ถ้าตัดข้อมูลที่มีค่า ${x}$ ออกหนึ่งตัว ค่าเฉลี่ยของข้อมูลที่เหลือเท่ากับเท่าไร",
+        "answer_expr": "m2",
+        "answer_round": null,
+        "answer_unit": null,
+        "distractors": [
+          {
+            "expr": "m2 + j",
+            "reason": "คิดว่าค่าเฉลี่ยไม่เปลี่ยน"
+          },
+          {
+            "expr": "(n*(m2 + j) - m2 - n*j)//n",
+            "reason": "หารด้วยจำนวนข้อมูลเดิมแทนจำนวนที่เหลือ"
+          },
+          {
+            "expr": "m2 - j",
+            "reason": "ลดค่าเฉลี่ยมากเกินไป"
+          },
+          {
+            "expr": "m2 + 2*j",
+            "reason": "เข้าใจว่าตัดค่าที่มากออกแล้วค่าเฉลี่ยเพิ่ม"
+          }
+        ],
+        "quality_rules": [
+          "ตัวเลือกทุกตัวต้องเป็นจำนวนบวกและไม่ซ้ำกัน",
+          "คำตอบคำนวณจากนิพจน์ ไม่ได้ใส่มือ"
+        ],
+        "quality_exprs": [
+          "answer > 0"
+        ],
+        "steps_tpl": [
+          {
+            "do_md": "ผลรวมเดิม $= {m} \\times {n} = {s0}$",
+            "why_md": "แปลงค่าเฉลี่ยเป็นผลรวม"
+          },
+          {
+            "do_md": "ผลรวมใหม่ $= {s0} - {x} = {s1}$",
+            "why_md": "ตัดข้อมูลหนึ่งตัวออกจากผลรวม"
+          },
+          {
+            "do_md": "ค่าเฉลี่ยใหม่ $= {s1} \\div {n1} = {answer}$",
+            "why_md": "เหลือข้อมูล ${n1}$ ตัว"
+          }
+        ],
+        "hints_tpl": [
+          "เริ่มจากหาผลรวมเดิม",
+          "ตัด ${x}$ ออกจากผลรวม",
+          "หารด้วยจำนวนข้อมูลที่เหลือ ไม่ใช่จำนวนเดิม"
+        ],
+        "explanation_tpl": "ตอบ ${answer}$ เพราะผลรวมเหลือ ${s1}$ และข้อมูลเหลือ ${n1}$ ตัว"
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.numerical.foundation.average.0006",
+      "topic_ids": [
+        "tgat2.numerical.foundation.average"
+      ],
+      "primary_topic_id": "tgat2.numerical.foundation.average",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 4,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 2,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 55,
+      "stem_md": "ข้อมูล $7$ ตัวมีค่าเฉลี่ย $37$ ถ้าตัดข้อมูลที่มีค่า $43$ ออกหนึ่งตัว ค่าเฉลี่ยของข้อมูลที่เหลือเท่ากับเท่าไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "$36$",
+          "is_answer": true
+        },
+        {
+          "md": "$38$",
+          "is_answer": false
+        },
+        {
+          "md": "$37$",
+          "is_answer": false
+        },
+        {
+          "md": "$30$",
+          "is_answer": false
+        },
+        {
+          "md": "$35$",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ผลรวมเดิม $= 37 \\times 7 = 259$",
+          "why_md": "แปลงค่าเฉลี่ยเป็นผลรวม"
+        },
+        {
+          "do_md": "ผลรวมใหม่ $= 259 - 43 = 216$",
+          "why_md": "ตัดข้อมูลหนึ่งตัวออกจากผลรวม"
+        },
+        {
+          "do_md": "ค่าเฉลี่ยใหม่ $= 216 \\div 6 = 36$",
+          "why_md": "เหลือข้อมูล $6$ ตัว"
+        }
+      ],
+      "answer_explanation_md": "ตอบ $36$ เพราะผลรวมเหลือ $216$ และข้อมูลเหลือ $6$ ตัว",
+      "hints": [
+        "เริ่มจากหาผลรวมเดิม",
+        "ตัด $43$ ออกจากผลรวม",
+        "หารด้วยจำนวนข้อมูลที่เหลือ ไม่ใช่จำนวนเดิม"
+      ],
+      "distractor_reasons": {
+        "1": "เข้าใจว่าตัดค่าที่มากออกแล้วค่าเฉลี่ยเพิ่ม",
+        "2": "คิดว่าค่าเฉลี่ยไม่เปลี่ยน",
+        "3": "หารด้วยจำนวนข้อมูลเดิมแทนจำนวนที่เหลือ",
+        "4": "ลดค่าเฉลี่ยมากเกินไป"
+      },
+      "misconception_tags": [],
+      "template": {
+        "vars": [
+          {
+            "name": "n",
+            "type": "int",
+            "range": [
+              5,
+              9
+            ],
+            "step": 1
+          },
+          {
+            "name": "m2",
+            "type": "int",
+            "range": [
+              20,
+              60
+            ],
+            "step": 1
+          },
+          {
+            "name": "j",
+            "type": "int",
+            "range": [
+              1,
+              4
+            ],
+            "step": 1
+          }
+        ],
+        "constraints": [
+          "(m2) > 0",
+          "(m2 + j) > 0",
+          "((n*(m2 + j) - m2 - n*j)//n) > 0",
+          "(m2 - j) > 0",
+          "(m2 + 2*j) > 0",
+          "(m2) != (m2 + j)",
+          "(m2) != ((n*(m2 + j) - m2 - n*j)//n)",
+          "(m2) != (m2 - j)",
+          "(m2) != (m2 + 2*j)",
+          "(m2 + j) != ((n*(m2 + j) - m2 - n*j)//n)",
+          "(m2 + j) != (m2 - j)",
+          "(m2 + j) != (m2 + 2*j)",
+          "((n*(m2 + j) - m2 - n*j)//n) != (m2 - j)",
+          "((n*(m2 + j) - m2 - n*j)//n) != (m2 + 2*j)",
+          "(m2 - j) != (m2 + 2*j)",
+          "(m2 + j) <= 5*(m2)",
+          "((n*(m2 + j) - m2 - n*j)//n) <= 5*(m2)",
+          "(m2 - j) <= 5*(m2)",
+          "(m2 + 2*j) <= 5*(m2)",
+          "5*(m2 + j) >= (m2)",
+          "5*((n*(m2 + j) - m2 - n*j)//n) >= (m2)",
+          "5*(m2 - j) >= (m2)",
+          "5*(m2 + 2*j) >= (m2)",
+          "(x) != (m2)"
+        ],
+        "display": {
+          "x": "m2 + n*j",
+          "m": "m2 + j",
+          "s0": "n*(m2 + j)",
+          "n1": "n - 1",
+          "s1": "(n - 1)*m2"
+        },
+        "stem_tpl": "ข้อมูล ${n}$ ตัวมีค่าเฉลี่ย ${m}$ ถ้าตัดข้อมูลที่มีค่า ${x}$ ออกหนึ่งตัว ค่าเฉลี่ยของข้อมูลที่เหลือเท่ากับเท่าไร",
+        "answer_expr": "m2",
+        "answer_round": null,
+        "answer_unit": null,
+        "distractors": [
+          {
+            "expr": "m2 + j",
+            "reason": "คิดว่าค่าเฉลี่ยไม่เปลี่ยน"
+          },
+          {
+            "expr": "(n*(m2 + j) - m2 - n*j)//n",
+            "reason": "หารด้วยจำนวนข้อมูลเดิมแทนจำนวนที่เหลือ"
+          },
+          {
+            "expr": "m2 - j",
+            "reason": "ลดค่าเฉลี่ยมากเกินไป"
+          },
+          {
+            "expr": "m2 + 2*j",
+            "reason": "เข้าใจว่าตัดค่าที่มากออกแล้วค่าเฉลี่ยเพิ่ม"
+          }
+        ],
+        "quality_rules": [
+          "ตัวเลือกทุกตัวต้องเป็นจำนวนบวกและไม่ซ้ำกัน",
+          "คำตอบคำนวณจากนิพจน์ ไม่ได้ใส่มือ"
+        ],
+        "quality_exprs": [
+          "answer > 0"
+        ],
+        "steps_tpl": [
+          {
+            "do_md": "ผลรวมเดิม $= {m} \\times {n} = {s0}$",
+            "why_md": "แปลงค่าเฉลี่ยเป็นผลรวม"
+          },
+          {
+            "do_md": "ผลรวมใหม่ $= {s0} - {x} = {s1}$",
+            "why_md": "ตัดข้อมูลหนึ่งตัวออกจากผลรวม"
+          },
+          {
+            "do_md": "ค่าเฉลี่ยใหม่ $= {s1} \\div {n1} = {answer}$",
+            "why_md": "เหลือข้อมูล ${n1}$ ตัว"
+          }
+        ],
+        "hints_tpl": [
+          "เริ่มจากหาผลรวมเดิม",
+          "ตัด ${x}$ ออกจากผลรวม",
+          "หารด้วยจำนวนข้อมูลที่เหลือ ไม่ใช่จำนวนเดิม"
+        ],
+        "explanation_tpl": "ตอบ ${answer}$ เพราะผลรวมเหลือ ${s1}$ และข้อมูลเหลือ ${n1}$ ตัว"
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    }
+  ],
+  "generated_from": "content/tgat2/numerical_foundation2.py"
+}

@@ -1,0 +1,655 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tgat3.value_innovation.analytical.enough_information",
+  "problems": [
+    {
+      "id": "prob.tgat3.value_innovation.analytical.enough_information.0001",
+      "topic_ids": [
+        "tgat3.value_innovation.analytical.enough_information"
+      ],
+      "primary_topic_id": "tgat3.value_innovation.analytical.enough_information",
+      "exam_code": "TGAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT3 สมรรถนะการทำงาน แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4_tiered",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 60,
+      "stem_md": "คุณได้รับอีเมลที่ดูเหมือนมาจากมหาวิทยาลัย แจ้งว่าต้องโอนค่ายืนยันสิทธิ์ภายใน 24 ชั่วโมง ไม่อย่างนั้นจะเสียสิทธิ์ คุณควรทำอย่างไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "โอนเงินทันทีเพราะกลัวเสียสิทธิ์",
+          "is_answer": false,
+          "score": 0.25
+        },
+        {
+          "md": "ตรวจกับช่องทางทางการของมหาวิทยาลัยก่อนโอน",
+          "is_answer": true,
+          "score": 1
+        },
+        {
+          "md": "ตอบกลับอีเมลเพื่อถามว่าเป็นของจริงหรือไม่",
+          "is_answer": false,
+          "score": 0.5
+        },
+        {
+          "md": "ทักถามเพื่อนหลายคนที่สมัครมหาวิทยาลัยเดียวกันว่าได้รับอีเมลแบบนี้ไหม ถ้าส่วนใหญ่ได้เหมือนกันก็น่าจะเป็นของจริง",
+          "is_answer": false,
+          "score": 0.75
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ข้อมูลพอไหม: อีเมลยังไม่ยืนยันว่าจริง",
+          "why_md": "มีแรงกดดันเรื่องเวลา ซึ่งเป็นลักษณะของการหลอกลวง"
+        },
+        {
+          "do_md": "ความเสียหายถ้าผิด: เสียเงินและแก้กลับไม่ได้",
+          "why_md": "จึงต้องตรวจก่อน"
+        },
+        {
+          "do_md": "หาข้อมูลเฉพาะจุดจากแหล่งทางการ",
+          "why_md": "ใช้เวลาไม่นาน ทันก่อนหมดเวลา 24 ชั่วโมง"
+        }
+      ],
+      "answer_explanation_md": "ตรวจสอบจากช่องทางทางการก่อนดีที่สุด เพราะความเสี่ยงสูงและแก้กลับไม่ได้ ขณะที่การตรวจใช้เวลาไม่นาน",
+      "hints": [
+        "ข้อมูลในอีเมลยืนยันแล้วหรือยังว่ามาจากมหาวิทยาลัยจริง",
+        "ถ้าโอนไปแล้วเป็นของปลอม จะแก้กลับได้ไหม",
+        "แหล่งไหนยืนยันเรื่องนี้ได้ดีที่สุด"
+      ],
+      "distractor_reasons": {
+        "0": "ข้อมูลยังไม่ยืนยันและความเสี่ยงสูง ถ้าเป็นมิจฉาชีพจะเสียเงินและแก้กลับไม่ได้",
+        "2": "พยายามตรวจสอบ แต่ถามผ่านช่องทางเดียวกับที่อาจเป็นของปลอม",
+        "3": "ได้ข้อมูลเพิ่ม แต่ยังไม่ใช่การยืนยันจากแหล่งทางการ"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat3.value_innovation.analytical.enough_information.0002",
+      "topic_ids": [
+        "tgat3.value_innovation.analytical.enough_information"
+      ],
+      "primary_topic_id": "tgat3.value_innovation.analytical.enough_information",
+      "exam_code": "TGAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT3 สมรรถนะการทำงาน แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4_tiered",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 60,
+      "stem_md": "คุณเป็นหัวหน้าทีมจัดงานเลี้ยงรุ่น ต้องจองสถานที่ภายในวันนี้เพราะราคาพิเศษหมดเขต แต่ยังมีเพื่อนตอบว่าจะมาแค่ 40 จาก 60 คน สถานที่ให้แจ้งจำนวนคนสุดท้ายได้ภายใน 1 สัปดาห์ก่อนงาน คุณควรทำอย่างไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "จองวันนี้ตามจำนวนคาดการณ์ แล้วยืนยันจำนวนทีหลัง",
+          "is_answer": true,
+          "score": 1
+        },
+        {
+          "md": "รอให้ทุกคนตอบครบก่อนจึงจอง",
+          "is_answer": false,
+          "score": 0.25
+        },
+        {
+          "md": "จองสำหรับ 40 คนตามที่ตอบแล้ว",
+          "is_answer": false,
+          "score": 0.75
+        },
+        {
+          "md": "จองสำหรับ 60 คนเผื่อไว้เลยตั้งแต่วันนี้ เพราะดีกว่าที่นั่งไม่พอในวันงาน และทุกคนในรุ่นมีสิทธิ์มาร่วมงานได้",
+          "is_answer": false,
+          "score": 0.5
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ข้อมูลที่ขาด: จำนวนคนสุดท้าย",
+          "why_md": "แต่ข้อมูลนี้แก้ได้ภายหลังภายใน 1 สัปดาห์ก่อนงาน"
+        },
+        {
+          "do_md": "ต้นทุนของการรอ: เสียราคาพิเศษ",
+          "why_md": "การรอจึงแพงกว่าการตัดสินใจตอนนี้"
+        },
+        {
+          "do_md": "ตัดสินตอนนี้ด้วยข้อมูลที่มี แล้วปรับทีหลัง",
+          "why_md": "ใช้ประโยชน์จากเงื่อนไขที่แก้จำนวนได้"
+        }
+      ],
+      "answer_explanation_md": "จองวันนี้ตามจำนวนคาดการณ์แล้วยืนยันจำนวนภายหลังดีที่สุด เพราะข้อมูลที่ขาดแก้ได้ภายหลัง แต่ราคาพิเศษหมดวันนี้",
+      "hints": [
+        "ข้อมูลที่ขาดคืออะไร และแก้ทีหลังได้หรือไม่",
+        "ถ้ารอให้ทุกคนตอบก่อน จะเสียอะไร",
+        "หาตัวเลือกที่ตัดสินใจทันเวลาและยังปรับได้ภายหลัง"
+      ],
+      "distractor_reasons": {
+        "1": "รอข้อมูลที่ไม่จำเป็นต่อการจอง เพราะแก้จำนวนได้ภายหลัง แต่เสียราคาพิเศษไป",
+        "2": "ทันเวลาและใช้ข้อมูลที่มี แต่ไม่ได้วางแผนตามคนที่เหลือ ซึ่งอาจทำให้ที่ไม่พอ",
+        "3": "ทันเวลา แต่อาจจ่ายเกินถ้าคนมาน้อยกว่า และไม่ได้ใช้ข้อมูลที่มี"
+      },
+      "misconception_tags": [
+        "analysis_paralysis"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat3.value_innovation.analytical.enough_information.0003",
+      "topic_ids": [
+        "tgat3.value_innovation.analytical.enough_information"
+      ],
+      "primary_topic_id": "tgat3.value_innovation.analytical.enough_information",
+      "exam_code": "TGAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT3 สมรรถนะการทำงาน แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4_tiered",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 60,
+      "stem_md": "คุณเป็นพนักงานร้านขายยา ลูกค้าขอซื้อยาแก้ปวดสองชนิดพร้อมกันเพื่อกินคู่กัน คุณไม่แน่ใจว่ายาสองชนิดนี้กินร่วมกันได้หรือไม่ คุณควรทำอย่างไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ค้นข้อมูลจากเว็บไซต์สุขภาพในอินเทอร์เน็ตเรื่องการกินยาสองชนิดนี้ร่วมกัน แล้วแนะนำลูกค้าตามข้อมูลที่พบ",
+          "is_answer": false,
+          "score": 0.75
+        },
+        {
+          "md": "ขอให้ลูกค้ารอสักครู่ แล้วถามเภสัชกรก่อน",
+          "is_answer": true,
+          "score": 1
+        },
+        {
+          "md": "ขายให้ตามที่ลูกค้าขอ เพราะเป็นยาที่ซื้อได้ทั่วไป",
+          "is_answer": false,
+          "score": 0.25
+        },
+        {
+          "md": "ปฏิเสธการขายยาทั้งสองชนิด",
+          "is_answer": false,
+          "score": 0.5
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ข้อมูลไม่พอ และความเสี่ยงคือสุขภาพของลูกค้า",
+          "why_md": "ห้ามเดา"
+        },
+        {
+          "do_md": "หาข้อมูลจากคนที่มีหน้าที่และความรู้ในร้าน",
+          "why_md": "เภสัชกรเป็นผู้ให้คำแนะนำเรื่องยาได้"
+        },
+        {
+          "do_md": "ให้ลูกค้ารอไม่นาน",
+          "why_md": "ต้นทุนของการรอน้อยมากเมื่อเทียบกับความเสี่ยง"
+        }
+      ],
+      "answer_explanation_md": "ถามเภสัชกรก่อนขายดีที่สุด เพราะเรื่องยามีความเสี่ยงต่อสุขภาพ และการรอข้อมูลจากผู้มีหน้าที่ใช้เวลาไม่นาน",
+      "hints": [
+        "ถ้าเดาผิด ใครได้รับผลกระทบและร้ายแรงแค่ไหน",
+        "ในร้านมีใครที่มีหน้าที่ให้คำแนะนำเรื่องยา",
+        "การให้ลูกค้ารอสักครู่มีต้นทุนมากไหม"
+      ],
+      "distractor_reasons": {
+        "0": "พยายามหาข้อมูล แต่ข้อมูลจากอินเทอร์เน็ตอาจไม่ถูกต้อง และการแนะนำยาเป็นหน้าที่ของเภสัชกร",
+        "2": "ตัดสินใจทั้งที่ข้อมูลไม่พอในเรื่องที่อาจเป็นอันตรายต่อสุขภาพ",
+        "3": "ปลอดภัยแต่ไม่ได้ช่วยลูกค้า ทั้งที่หาข้อมูลได้ไม่ยาก"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat3.value_innovation.analytical.enough_information.0004",
+      "topic_ids": [
+        "tgat3.value_innovation.analytical.enough_information"
+      ],
+      "primary_topic_id": "tgat3.value_innovation.analytical.enough_information",
+      "exam_code": "TGAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT3 สมรรถนะการทำงาน แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4_tiered",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 60,
+      "stem_md": "คุณเป็นนักศึกษาฝึกงาน หัวหน้าขอให้เสนอภายในบ่ายวันนี้ว่าบริษัทควรซื้อโปรแกรมตัวไหนระหว่าง A กับ B คุณมีข้อมูลราคาและฟังก์ชันของทั้งสองตัวแล้ว แต่ยังไม่รู้ว่าทีมถนัดใช้แบบไหน คุณควรทำอย่างไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "เสนอโปรแกรมที่คุ้มค่าที่สุดจากการเปรียบเทียบราคาและฟังก์ชันอย่างละเอียด เพราะเป็นข้อมูลที่ตรวจสอบได้และทันเวลา",
+          "is_answer": false,
+          "score": 0.5
+        },
+        {
+          "md": "เลือกตัวที่ตัวเองชอบมากกว่า",
+          "is_answer": false,
+          "score": 0.25
+        },
+        {
+          "md": "ขอเลื่อนการเสนอออกไป 2 สัปดาห์เพื่อให้ทีมทดลองใช้ทั้งสองตัว",
+          "is_answer": false,
+          "score": 0.75
+        },
+        {
+          "md": "ถามทีมด้วยแบบสอบถามสั้น ๆ แล้วรวมในข้อเสนอก่อนบ่าย",
+          "is_answer": true,
+          "score": 1
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ข้อมูลที่ขาด: ความถนัดของทีม ซึ่งเปลี่ยนการตัดสินใจได้",
+          "why_md": "ถ้าทีมใช้ไม่เป็น โปรแกรมดีแค่ไหนก็ไม่คุ้ม"
+        },
+        {
+          "do_md": "เวลาที่มี: ถึงบ่ายวันนี้",
+          "why_md": "ต้องหาข้อมูลแบบเร็ว"
+        },
+        {
+          "do_md": "แบบสอบถามสั้นได้ข้อมูลที่จำเป็นทันเวลา",
+          "why_md": "สมดุลระหว่างความครบกับกำหนดเวลา"
+        }
+      ],
+      "answer_explanation_md": "ทำแบบสอบถามสั้น ๆ แล้วรวมในข้อเสนอก่อนบ่ายดีที่สุด เพราะได้ข้อมูลที่เปลี่ยนการตัดสินใจภายในเวลาที่กำหนด",
+      "hints": [
+        "ข้อมูลที่ขาดไปเปลี่ยนการตัดสินใจได้หรือไม่",
+        "มีเวลาเท่าไรก่อนต้องเสนอ",
+        "หาวิธีได้ข้อมูลที่ขาดภายในเวลาที่มี"
+      ],
+      "distractor_reasons": {
+        "0": "ทันเวลา แต่ขาดข้อมูลสำคัญว่าทีมจะใช้ได้จริงไหม",
+        "1": "ใช้ความชอบส่วนตัวแทนข้อมูลของคนที่ใช้งานจริง",
+        "2": "ได้ข้อมูลครบมาก แต่ไม่ทันเวลาที่หัวหน้ากำหนด ควรเสนอเป็นทางเลือกพร้อมข้อเสนอตามกำหนดเวลา"
+      },
+      "misconception_tags": [
+        "analysis_paralysis"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat3.value_innovation.analytical.enough_information.0005",
+      "topic_ids": [
+        "tgat3.value_innovation.analytical.enough_information"
+      ],
+      "primary_topic_id": "tgat3.value_innovation.analytical.enough_information",
+      "exam_code": "TGAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT3 สมรรถนะการทำงาน แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4_tiered",
+      "difficulty": 4,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "high"
+      },
+      "est_seconds": 60,
+      "stem_md": "คุณเป็นเจ้าหน้าที่ค่ายเยาวชน ระหว่างเดินป่า เด็กคนหนึ่งบอกว่าเวียนหัวและคลื่นไส้ แต่ยังเดินได้ ยังเหลือทางอีก 2 ชั่วโมงถึงจุดพัก คุณควรทำอย่างไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ให้เดินต่อไปช้า ๆ เพราะเด็กยังเดินได้",
+          "is_answer": false,
+          "score": 0.25
+        },
+        {
+          "md": "พาเด็กเดินกลับจุดเริ่มต้นคนเดียวทันที",
+          "is_answer": false,
+          "score": 0.5
+        },
+        {
+          "md": "ให้เด็กพักในที่ร่ม ดื่มน้ำ และแจ้งหัวหน้าค่ายหรือผู้ดูแลด้านพยาบาลทันที ก่อนตัดสินใจว่าจะเดินต่อหรือไม่",
+          "is_answer": true,
+          "score": 1
+        },
+        {
+          "md": "ให้เด็กนั่งพักในที่ร่มและดื่มน้ำ แล้วรอสังเกตอาการประมาณ 10 นาที ถ้าดีขึ้นก็เดินต่อ ถ้าไม่ดีขึ้นค่อยแจ้งหัวหน้าค่าย",
+          "is_answer": false,
+          "score": 0.75
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ความเสี่ยง: อาการอาจเป็นสัญญาณของภาวะที่รุนแรงขึ้นได้",
+          "why_md": "ห้ามเดาว่าไม่เป็นไร"
+        },
+        {
+          "do_md": "ลงมือป้องกันเบื้องต้นทันที: พัก ดื่มน้ำ",
+          "why_md": "ลดความเสี่ยงระหว่างรอข้อมูล"
+        },
+        {
+          "do_md": "แจ้งผู้มีหน้าที่เพื่อตัดสินใจร่วมกัน",
+          "why_md": "ได้ข้อมูลและการตัดสินใจจากคนที่รับผิดชอบ"
+        }
+      ],
+      "answer_explanation_md": "ให้พัก ดื่มน้ำ และแจ้งผู้ดูแลทันทีดีที่สุด เพราะลดความเสี่ยงก่อน แล้วตัดสินใจร่วมกับผู้มีหน้าที่เมื่อมีข้อมูลพอ",
+      "hints": [
+        "อาการของเด็กมีโอกาสแย่ลงไหม ถ้าเดินต่อ",
+        "ระหว่างยังไม่รู้ข้อมูลเพิ่ม ทำอะไรเพื่อลดความเสี่ยงได้ทันที",
+        "ใครคือคนที่ควรร่วมตัดสินใจเรื่องสุขภาพของเด็กในค่าย"
+      ],
+      "distractor_reasons": {
+        "0": "ตัดสินใจทั้งที่ยังไม่รู้ว่าอาการร้ายแรงแค่ไหน และเสี่ยงอาการหนักขึ้นกลางทาง",
+        "1": "ห่วงความปลอดภัย แต่แยกออกจากกลุ่มโดยไม่แจ้งใคร เสี่ยงทั้งเด็กและตัวเอง",
+        "3": "ดูแลเบื้องต้นได้ดี แต่ยังไม่ได้แจ้งผู้มีหน้าที่ดูแลด้านพยาบาล"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat3.value_innovation.analytical.enough_information.0006",
+      "topic_ids": [
+        "tgat3.value_innovation.analytical.enough_information"
+      ],
+      "primary_topic_id": "tgat3.value_innovation.analytical.enough_information",
+      "exam_code": "TGAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT3 สมรรถนะการทำงาน แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4_tiered",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 60,
+      "stem_md": "เพื่อนร่วมห้องขอให้คุณช่วยเซ็นรับรองในใบสมัครทุนว่าเขามีจิตอาสา เพราะคุณเคยเห็นเขาไปช่วยงานวัดหนึ่งครั้ง คุณควรทำอย่างไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ปฏิเสธการเซ็นทุกกรณี",
+          "is_answer": false,
+          "score": 0.5
+        },
+        {
+          "md": "ถามเพื่อนเพิ่มว่าทำกิจกรรมจิตอาสาอะไรมาบ้าง ขอดูรูปประกอบ แล้วเซ็นรับรองตามที่เพื่อนเล่าเพราะเชื่อใจเพื่อน",
+          "is_answer": false,
+          "score": 0.75
+        },
+        {
+          "md": "เซ็นรับรองว่าเขามีจิตอาสาเพราะเป็นเพื่อน",
+          "is_answer": false,
+          "score": 0.25
+        },
+        {
+          "md": "เขียนรับรองเฉพาะสิ่งที่เห็นจริง คือเห็นเขาไปช่วยงานวัดหนึ่งครั้ง และแนะนำให้ขอคนที่รู้จักกิจกรรมของเขามากกว่า",
+          "is_answer": true,
+          "score": 1
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ข้อมูลที่มี: เห็นช่วยงานวัด 1 ครั้ง",
+          "why_md": "ยังไม่พอจะสรุปว่ามีจิตอาสาต่อเนื่อง"
+        },
+        {
+          "do_md": "การรับรองต้องตรงกับที่เรารู้จริง",
+          "why_md": "ผู้ให้ทุนใช้คำรับรองตัดสินใจ"
+        },
+        {
+          "do_md": "ช่วยเพื่อนเท่าที่ข้อมูลพอ และชี้ทางที่ดีกว่า",
+          "why_md": "ซื่อสัตย์และยังช่วยเพื่อน"
+        }
+      ],
+      "answer_explanation_md": "รับรองเฉพาะสิ่งที่เห็นจริงและแนะนำคนที่รู้มากกว่าดีที่สุด เพราะซื่อสัตย์ต่อข้อมูลที่มี และยังช่วยเพื่อนได้",
+      "hints": [
+        "เห็นหนึ่งครั้ง พอจะรับรองว่า 'มีจิตอาสา' หรือไม่",
+        "คำรับรองจะถูกใช้เพื่ออะไร",
+        "หาตัวเลือกที่ช่วยเพื่อนได้โดยไม่รับรองเกินสิ่งที่รู้"
+      ],
+      "distractor_reasons": {
+        "0": "ไม่รับรองเกินจริง แต่ไม่ได้ช่วยเพื่อนเลยทั้งที่ช่วยได้อย่างซื่อสัตย์",
+        "1": "พยายามหาข้อมูลเพิ่ม แต่ข้อมูลมาจากเพื่อนเอง เรายังไม่ได้เห็นด้วยตัวเอง",
+        "2": "รับรองสิ่งที่ข้อมูลไม่พอจะสรุป ซึ่งไม่ซื่อสัตย์ต่อผู้ให้ทุน"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat3.value_innovation.analytical.enough_information.0007",
+      "topic_ids": [
+        "tgat3.value_innovation.analytical.enough_information"
+      ],
+      "primary_topic_id": "tgat3.value_innovation.analytical.enough_information",
+      "exam_code": "TGAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT3 สมรรถนะการทำงาน แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4_tiered",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 60,
+      "stem_md": "โรงอาหารจะเลื่อนเวลาเปิดเพราะมีคนบอกว่านักเรียนมาเช้าน้อย ข้อมูลใดจำเป็นที่สุดก่อนตัดสินใจ",
+      "figures": [],
+      "choices": [
+        {
+          "md": "เวลาเปิดของโรงอาหารโรงเรียนข้างเคียง",
+          "is_answer": false,
+          "score": 0.25
+        },
+        {
+          "md": "ความเห็นของร้านค้าที่อยากเปิดสาย",
+          "is_answer": false,
+          "score": 0.5
+        },
+        {
+          "md": "จำนวนผู้ใช้รายช่วงเวลาและผลกระทบต่อผู้ที่มีคาบเช้า",
+          "is_answer": true,
+          "score": 1
+        },
+        {
+          "md": "ยอดขายรวมทั้งวัน",
+          "is_answer": false,
+          "score": 0.75
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ระบุการตัดสินใจ",
+          "why_md": "จะเปลี่ยนเวลาเปิด"
+        },
+        {
+          "do_md": "หาข้อมูลตรงช่วงเวลา",
+          "why_md": "จำนวนผู้ใช้เช้า"
+        },
+        {
+          "do_md": "ตรวจกลุ่มเสี่ยงถูกมองข้าม",
+          "why_md": "ผู้มีคาบเช้า"
+        }
+      ],
+      "answer_explanation_md": "ข้อมูลรายช่วงและผลต่อผู้มีคาบเช้าพอสำหรับชั่งประโยชน์กับผลเสีย",
+      "hints": [
+        "ข้อมูลใดตรงกับเวลาที่จะเปลี่ยน",
+        "ยอดรวมซ่อนอะไร",
+        "ใครอาจเสียประโยชน์"
+      ],
+      "distractor_reasons": {
+        "0": "บริบทอาจต่างกัน",
+        "1": "เกี่ยวข้องแต่มีผลประโยชน์เฉพาะฝ่าย",
+        "3": "บอกปริมาณรวมแต่ไม่เห็นความต้องการช่วงเช้า"
+      },
+      "misconception_tags": [
+        "analysis_paralysis"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat3.value_innovation.analytical.enough_information.0008",
+      "topic_ids": [
+        "tgat3.value_innovation.analytical.enough_information"
+      ],
+      "primary_topic_id": "tgat3.value_innovation.analytical.enough_information",
+      "exam_code": "TGAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT3 สมรรถนะการทำงาน แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4_tiered",
+      "difficulty": 5,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": true,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 60,
+      "stem_md": "เทศบาลต้องตัดสินใจทดลองรถรับส่งใน 2 สัปดาห์ มีเพียงงบค่าเดินรถ เส้นทางที่เสนอผ่านชุมชนผู้สูงอายุแต่ยังไม่ทราบจุดขึ้นลง ข้อมูลใดควรเก็บก่อนที่สุด",
+      "figures": [],
+      "choices": [
+        {
+          "md": "จุดหมายและเวลาที่กลุ่มเป้าหมายต้องเดินทาง รวมถึงจุดขึ้นลงที่เข้าถึงได้",
+          "is_answer": true,
+          "score": 1
+        },
+        {
+          "md": "จำนวนผู้สนใจจากแบบสำรวจออนไลน์",
+          "is_answer": false,
+          "score": 0.75
+        },
+        {
+          "md": "สถิติประชากรทั้งจังหวัดย้อนหลังสิบปี",
+          "is_answer": false,
+          "score": 0.5
+        },
+        {
+          "md": "แบบรถและสีที่ผู้โดยสารชอบ",
+          "is_answer": false,
+          "score": 0.25
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "แยกข้อมูลจำเป็นจากน่าสนใจ",
+          "why_md": "ต้องออกเส้นทางที่ใช้ได้"
+        },
+        {
+          "do_md": "ดูผู้ใช้ที่เข้าถึงแบบสำรวจยาก",
+          "why_md": "ผู้สูงอายุอาจไม่ตอบออนไลน์"
+        },
+        {
+          "do_md": "เก็บเท่าที่ใช้ทดลอง",
+          "why_md": "จุดหมาย เวลา จุดขึ้นลง"
+        }
+      ],
+      "answer_explanation_md": "ข้อมูลการเดินทางและการเข้าถึงจากกลุ่มเป้าหมายเป็นข้อมูลขั้นต่ำที่ทำให้ทดลองได้อย่างเหมาะสม",
+      "hints": [
+        "การตัดสินใจถัดไปคืออะไร",
+        "ข้อมูลใดทำให้วางเส้นทางได้",
+        "ช่องทางเก็บข้อมูลครอบคลุมกลุ่มเป้าหมายหรือไม่"
+      ],
+      "distractor_reasons": {
+        "1": "ช่วยคาดอุปสงค์แต่เสี่ยงไม่ถึงผู้สูงอายุและยังออกเส้นทางไม่ได้",
+        "2": "กว้างเกินการทดลองเฉพาะพื้นที่",
+        "3": "ยังไม่กระทบความเป็นไปได้หลัก"
+      },
+      "misconception_tags": [
+        "analysis_paralysis"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    }
+  ],
+  "generated_from": "content/tgat3/value_innovation.py"
+}

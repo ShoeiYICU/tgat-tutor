@@ -1,0 +1,663 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tgat3.complex_problem.evaluate.adjust_after_result",
+  "problems": [
+    {
+      "id": "prob.tgat3.complex_problem.evaluate.adjust_after_result.0001",
+      "topic_ids": [
+        "tgat3.complex_problem.evaluate.adjust_after_result"
+      ],
+      "primary_topic_id": "tgat3.complex_problem.evaluate.adjust_after_result",
+      "exam_code": "TGAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT3 สมรรถนะการทำงาน แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4_tiered",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 60,
+      "stem_md": "ชมรมของคุณตั้งเป้าเก็บขวดพลาสติกได้ 500 ขวดใน 1 เดือน แต่ได้เพียง 150 ขวด พบว่าจุดรับขวดอยู่หลังอาคารซึ่งนักเรียนไม่ค่อยเดินผ่าน คุณควรทำอย่างไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ทำต่อแบบเดิมอีกเดือน เผื่อผลจะดีขึ้นเอง",
+          "is_answer": false,
+          "score": 0.5
+        },
+        {
+          "md": "ย้ายจุดรับขวดไปที่คนเดินผ่านมาก แล้วดูผลอีกหนึ่งเดือน",
+          "is_answer": true,
+          "score": 1
+        },
+        {
+          "md": "ยกเลิกโครงการ เพราะนักเรียนไม่ให้ความร่วมมือ และได้ผลแค่ไม่ถึงหนึ่งในสามของเป้าหมายที่ตั้งไว้",
+          "is_answer": false,
+          "score": 0.25
+        },
+        {
+          "md": "เพิ่มรางวัลให้คนที่นำขวดมาทิ้ง เพื่อสร้างแรงจูงใจให้นักเรียนเดินไปที่จุดรับขวดหลังอาคารมากขึ้น",
+          "is_answer": false,
+          "score": 0.75
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ข้อมูลที่พบ: จุดรับขวดอยู่ในที่ที่คนไม่เดินผ่าน",
+          "why_md": "นี่คือจุดที่พลาด"
+        },
+        {
+          "do_md": "ปรับเฉพาะจุด: ย้ายตำแหน่ง",
+          "why_md": "เก็บส่วนอื่นของโครงการไว้"
+        },
+        {
+          "do_md": "ดูผลอีกครั้ง",
+          "why_md": "รู้ว่าการปรับได้ผลหรือไม่"
+        }
+      ],
+      "answer_explanation_md": "ย้ายจุดรับขวดไปที่คนเดินผ่านมากแล้วดูผลดีที่สุด เพราะปรับตรงจุดที่พลาดตามข้อมูล และเก็บส่วนอื่นของโครงการไว้",
+      "hints": [
+        "ผลที่ไม่ถึงเป้าเกิดจากอะไรตามข้อมูลที่พบ",
+        "ปัญหาอยู่ที่ตัวนักเรียนหรือที่ตำแหน่งจุดรับ",
+        "หาตัวเลือกที่ปรับตรงจุดที่พลาด"
+      ],
+      "distractor_reasons": {
+        "0": "ไม่ได้ใช้ข้อมูลที่พบว่าตำแหน่งเป็นปัญหา",
+        "2": "สรุปผิดว่าเป็นเพราะคน ทั้งที่ปัญหาอยู่ที่ตำแหน่ง",
+        "3": "อาจเพิ่มจำนวนได้ แต่ไม่ได้แก้ตรงจุดที่พบ และเพิ่มต้นทุน"
+      },
+      "misconception_tags": [
+        "change_everything"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat3.complex_problem.evaluate.adjust_after_result.0002",
+      "topic_ids": [
+        "tgat3.complex_problem.evaluate.adjust_after_result"
+      ],
+      "primary_topic_id": "tgat3.complex_problem.evaluate.adjust_after_result",
+      "exam_code": "TGAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT3 สมรรถนะการทำงาน แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4_tiered",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 60,
+      "stem_md": "คุณฝึกทำข้อสอบ TGAT2 มา 1 เดือน คะแนนด้านภาษาและตัวเลขดีขึ้น แต่ด้านมิติสัมพันธ์ยังเท่าเดิม คุณควรปรับแผนอย่างไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "คงวิธีฝึกด้านที่ดีขึ้น และหาว่าพลาดโจทย์มิติสัมพันธ์แบบไหน แล้วฝึกแบบนั้นเพิ่ม",
+          "is_answer": true,
+          "score": 1
+        },
+        {
+          "md": "เพิ่มเวลาฝึกด้านมิติสัมพันธ์เป็นสองเท่า โดยใช้แบบฝึกชุดเดิมที่ใช้อยู่ทุกวัน",
+          "is_answer": false,
+          "score": 0.75
+        },
+        {
+          "md": "ฝึกแบบเดิมต่อไป เพราะสองด้านดีขึ้นแล้ว",
+          "is_answer": false,
+          "score": 0.5
+        },
+        {
+          "md": "เปลี่ยนวิธีฝึกทั้งหมดทุกด้าน เพราะผลรวมยังไม่ถึงเป้าหมายที่ตั้งไว้ตั้งแต่ต้นเดือน",
+          "is_answer": false,
+          "score": 0.25
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ข้อมูล: สองด้านดีขึ้น หนึ่งด้านเท่าเดิม",
+          "why_md": "วิธีฝึกได้ผลกับบางด้าน"
+        },
+        {
+          "do_md": "เก็บส่วนที่ได้ผล",
+          "why_md": "คงวิธีฝึกด้านภาษาและตัวเลข"
+        },
+        {
+          "do_md": "ปรับเฉพาะจุด: หาแบบโจทย์ที่พลาดแล้วฝึกตรงนั้น",
+          "why_md": "ใช้ข้อมูลกำหนดการปรับ"
+        }
+      ],
+      "answer_explanation_md": "คงวิธีที่ได้ผลและหาแบบโจทย์มิติสัมพันธ์ที่พลาดแล้วฝึกตรงนั้นดีที่สุด เพราะปรับเฉพาะจุดตามข้อมูลและรักษาส่วนที่ได้ผลไว้",
+      "hints": [
+        "ข้อมูลบอกอะไรเกี่ยวกับวิธีฝึกที่ใช้อยู่",
+        "ถ้าเปลี่ยนทั้งหมด จะเสียอะไรไป",
+        "ด้านมิติสัมพันธ์พลาดแบบไหนบ้าง"
+      ],
+      "distractor_reasons": {
+        "1": "ให้ความสำคัญกับจุดที่อ่อนถูกต้อง แต่ยังไม่ได้หาว่าพลาดแบบไหน เพิ่มเวลาแบบเดิมอาจไม่ได้ผล",
+        "2": "ไม่ได้ใช้ข้อมูลว่าด้านมิติสัมพันธ์ไม่ดีขึ้น",
+        "3": "ทิ้งวิธีที่ได้ผลแล้วในสองด้านไปด้วย"
+      },
+      "misconception_tags": [
+        "change_everything"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat3.complex_problem.evaluate.adjust_after_result.0003",
+      "topic_ids": [
+        "tgat3.complex_problem.evaluate.adjust_after_result"
+      ],
+      "primary_topic_id": "tgat3.complex_problem.evaluate.adjust_after_result",
+      "exam_code": "TGAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT3 สมรรถนะการทำงาน แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4_tiered",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 60,
+      "stem_md": "ร้านอาหารที่คุณช่วยงานเปิดบริการส่งถึงบ้าน ตั้งเป้าได้ 30 ออเดอร์ต่อวัน แต่ได้เพียง 10 ออเดอร์ ลูกค้าที่สั่งแล้วส่วนใหญ่ให้คะแนนดีและสั่งซ้ำ คุณควรเสนออะไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ปรับเมนูและลดราคาอาหารทุกจานที่ส่งถึงบ้าน เพื่อให้ดึงดูดลูกค้าได้มากขึ้นและแข่งกับร้านอื่นได้",
+          "is_answer": false,
+          "score": 0.5
+        },
+        {
+          "md": "หยุดบริการส่งถึงบ้าน เพราะไม่ถึงเป้า",
+          "is_answer": false,
+          "score": 0.25
+        },
+        {
+          "md": "สำรวจว่ากลุ่มเป้าหมายรู้จักบริการหรือยังและติดขัดตรงไหน แล้วปรับการเข้าถึงตามข้อมูล",
+          "is_answer": true,
+          "score": 1
+        },
+        {
+          "md": "สอบถามลูกค้าที่สั่งซ้ำว่าชอบอะไรในบริการ แล้วนำจุดนั้นไปใช้ในการโฆษณาให้คนอื่นรู้จัก",
+          "is_answer": false,
+          "score": 0.75
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ข้อมูล: คนที่ลองแล้วพอใจและสั่งซ้ำ",
+          "why_md": "ตัวบริการได้ผล"
+        },
+        {
+          "do_md": "สิ่งที่ยังไม่รู้: คนที่ยังไม่สั่งไม่รู้จักบริการ หรือมีอุปสรรคอื่น",
+          "why_md": "ข้อมูลลูกค้าที่สั่งแล้วบอกได้เพียงว่าบริการหลังทดลองใช้ดี"
+        },
+        {
+          "do_md": "สำรวจผู้ที่ยังไม่ใช้แล้วปรับตรงจุด",
+          "why_md": "ไม่รีบเปลี่ยนเมนูหรือราคาโดยไม่มีหลักฐาน"
+        }
+      ],
+      "answer_explanation_md": "สำรวจการรับรู้และอุปสรรคของกลุ่มเป้าหมายก่อนปรับดีที่สุด เพราะข้อมูลยืนยันว่าคนที่ลองแล้วพอใจ แต่ยังไม่พอจะสรุปว่าคนที่ไม่สั่งติดขัดเรื่องใด",
+      "hints": [
+        "ลูกค้าที่ลองแล้วรู้สึกอย่างไรกับบริการ",
+        "ถ้าบริการดีอยู่แล้ว ทำไมออเดอร์ถึงน้อย",
+        "หาตัวเลือกที่ปรับตรงจุดที่พลาด"
+      ],
+      "distractor_reasons": {
+        "0": "เปลี่ยนสิ่งที่ลูกค้าพอใจอยู่แล้ว และลดกำไรโดยไม่จำเป็น",
+        "1": "ทิ้งบริการที่ลูกค้าพอใจและสั่งซ้ำ",
+        "3": "ใช้ข้อมูลดีมาก แต่ใช้เวลามากกว่าการเริ่มประชาสัมพันธ์ทันที และยังไม่ได้ระบุว่าปัญหาคือคนไม่รู้จัก"
+      },
+      "misconception_tags": [
+        "change_everything"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat3.complex_problem.evaluate.adjust_after_result.0004",
+      "topic_ids": [
+        "tgat3.complex_problem.evaluate.adjust_after_result"
+      ],
+      "primary_topic_id": "tgat3.complex_problem.evaluate.adjust_after_result",
+      "exam_code": "TGAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT3 สมรรถนะการทำงาน แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4_tiered",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 60,
+      "stem_md": "โรงเรียนของคุณจัดโครงการให้นักเรียนอ่านหนังสือ 15 นาทีก่อนเข้าเรียน หลัง 1 ภาคเรียน ผลสำรวจพบว่านักเรียนส่วนใหญ่ไม่ได้อ่านจริง แต่เล่นโทรศัพท์ เพราะไม่มีหนังสือที่อยากอ่าน คุณเป็นสภานักเรียน ควรเสนออะไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ถามนักเรียนว่าอยากอ่านหนังสือแบบไหน แล้วจัดรายการเสนอครู",
+          "is_answer": false,
+          "score": 0.75
+        },
+        {
+          "md": "เสนอให้ครูเก็บโทรศัพท์นักเรียนช่วง 15 นาทีนั้น เพื่อบังคับให้นักเรียนต้องอ่านหนังสือแทนการเล่นโทรศัพท์",
+          "is_answer": false,
+          "score": 0.5
+        },
+        {
+          "md": "เสนอให้ยกเลิกโครงการ เพราะไม่ได้ผลตามเป้าหมาย",
+          "is_answer": false,
+          "score": 0.25
+        },
+        {
+          "md": "เสนอให้นักเรียนเลือกและบริจาคหนังสือที่อยากอ่าน ตั้งชั้นหนังสือในห้อง แล้ววัดผลอีกครั้ง",
+          "is_answer": true,
+          "score": 1
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ข้อมูลที่พบ: ไม่มีหนังสือที่อยากอ่าน",
+          "why_md": "นี่คือจุดที่พลาด"
+        },
+        {
+          "do_md": "ปรับเฉพาะจุด: ให้นักเรียนมีหนังสือที่อยากอ่าน",
+          "why_md": "เก็บช่วงเวลา 15 นาทีไว้"
+        },
+        {
+          "do_md": "วัดผลอีกครั้ง",
+          "why_md": "รู้ว่าการปรับได้ผลหรือไม่"
+        }
+      ],
+      "answer_explanation_md": "ให้นักเรียนเลือกหนังสือที่อยากอ่านแล้ววัดผลอีกครั้งดีที่สุด เพราะปรับตรงจุดที่พลาดตามข้อมูล และรักษาเป้าหมายของโครงการไว้",
+      "hints": [
+        "ผลสำรวจบอกสาเหตุว่าอะไร",
+        "การบังคับเก็บโทรศัพท์แก้สาเหตุนั้นไหม",
+        "หาตัวเลือกที่ปรับตรงสาเหตุและวัดผลซ้ำ"
+      ],
+      "distractor_reasons": {
+        "0": "หาข้อมูลตรงสาเหตุและให้ผู้เกี่ยวข้องตัดสิน แต่ยังไม่ได้หาวิธีจัดหาหนังสือหรือตั้งจุดอ่านและวัดผลซ้ำ",
+        "1": "หยุดการเล่นโทรศัพท์ได้ แต่ไม่ได้แก้ที่ไม่มีหนังสือที่อยากอ่าน",
+        "2": "ทิ้งเป้าหมายที่ดีทั้งที่รู้แล้วว่าพลาดตรงไหน"
+      },
+      "misconception_tags": [
+        "change_everything"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat3.complex_problem.evaluate.adjust_after_result.0005",
+      "topic_ids": [
+        "tgat3.complex_problem.evaluate.adjust_after_result"
+      ],
+      "primary_topic_id": "tgat3.complex_problem.evaluate.adjust_after_result",
+      "exam_code": "TGAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT3 สมรรถนะการทำงาน แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4_tiered",
+      "difficulty": 4,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "high"
+      },
+      "est_seconds": 60,
+      "stem_md": "หมู่บ้านของคุณตั้งกลุ่มออมทรัพย์เยาวชน ตั้งเป้าสมาชิก 50 คนใน 3 เดือน ได้ 45 คนแต่มี 20 คนหยุดฝากเงินหลังเดือนแรก สัมภาษณ์แล้วพบว่าต้องเดินทางไกลไปฝากที่บ้านเหรัญญิก คุณเป็นประธานกลุ่ม ควรทำอย่างไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ตักเตือนสมาชิกที่หยุดฝากให้มีวินัย",
+          "is_answer": false,
+          "score": 0.25
+        },
+        {
+          "md": "ให้เหรัญญิกเดินทางไปเก็บเงินที่บ้านสมาชิกแต่ละคนทุกเดือน",
+          "is_answer": false,
+          "score": 0.5
+        },
+        {
+          "md": "ถามสมาชิกเรื่องจุดและเวลาที่สะดวก จัดจุดรับฝากที่ปลอดภัย แล้วชวนสมาชิกที่หยุดกลับมา",
+          "is_answer": true,
+          "score": 1
+        },
+        {
+          "md": "ทดลองเพิ่มจุดรับฝากที่โรงเรียนสัปดาห์ละครั้ง แล้วแจ้งสมาชิกที่หยุดฝาก",
+          "is_answer": false,
+          "score": 0.75
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ข้อมูล: คนสมัครใกล้ถึงเป้า แต่หยุดฝากเพราะเดินทางไกล",
+          "why_md": "จุดที่พลาดคือความสะดวกในการฝาก"
+        },
+        {
+          "do_md": "ปรับเฉพาะจุด: จุดรับฝากที่ใกล้สมาชิก",
+          "why_md": "เก็บตัวกลุ่มออมทรัพย์ไว้"
+        },
+        {
+          "do_md": "ชวนคนที่หยุดกลับมา",
+          "why_md": "ใช้ผลของการปรับให้เกิดประโยชน์"
+        }
+      ],
+      "answer_explanation_md": "หาจุดรับฝากที่สะดวกและชวนสมาชิกกลับมาดีที่สุด เพราะปรับตรงจุดที่พลาดตามข้อมูล และไม่ผลักภาระไปที่คนคนเดียว",
+      "hints": [
+        "สมาชิกหยุดฝากเพราะอะไร",
+        "การหาสมาชิกใหม่แก้สาเหตุนั้นไหม",
+        "หาทางแก้ที่ตรงจุดโดยไม่เป็นภาระกับคนคนเดียว"
+      ],
+      "distractor_reasons": {
+        "0": "โทษคน ทั้งที่ข้อมูลบอกว่าปัญหาคือความไม่สะดวก",
+        "1": "แก้ความไม่สะดวกได้ แต่ผลักภาระให้เหรัญญิกคนเดียวและเสี่ยงเรื่องการถือเงินสด",
+        "3": "แก้เรื่องระยะทางและทดลองได้จริง แต่ยังไม่ได้ถามสมาชิกว่าเวลาและจุดนี้สะดวกหรือวางระบบดูแลเงินร่วมกัน"
+      },
+      "misconception_tags": [
+        "change_everything"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat3.complex_problem.evaluate.adjust_after_result.0006",
+      "topic_ids": [
+        "tgat3.complex_problem.evaluate.adjust_after_result"
+      ],
+      "primary_topic_id": "tgat3.complex_problem.evaluate.adjust_after_result",
+      "exam_code": "TGAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT3 สมรรถนะการทำงาน แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4_tiered",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 60,
+      "stem_md": "คุณจัดกลุ่มออกกำลังกายตอนเย็นให้เพื่อนในหอพัก ตั้งเป้าให้คนมาร่วม 20 คน สัปดาห์แรกมา 18 คน แต่สัปดาห์ที่สามเหลือ 6 คน หลายคนบอกว่าท่าออกกำลังกายยากเกินไป คุณควรทำอย่างไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ยกเลิกกลุ่ม เพราะคนมาน้อยลงเรื่อย ๆ",
+          "is_answer": false,
+          "score": 0.25
+        },
+        {
+          "md": "ปรับท่าให้มีระดับง่ายและยาก ให้แต่ละคนเลือกได้ แล้วชวนคนที่หยุดมาลองใหม่",
+          "is_answer": true,
+          "score": 1
+        },
+        {
+          "md": "ทำท่าเดิมต่อไป เพราะท่ายากช่วยให้แข็งแรงเร็วกว่า และคนที่เหลือก็ตามทันแล้ว",
+          "is_answer": false,
+          "score": 0.5
+        },
+        {
+          "md": "ลดความยากของท่าทั้งหมดให้เหมาะกับผู้เริ่มต้น แล้วชวนคนที่หยุดกลับมา",
+          "is_answer": false,
+          "score": 0.75
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ข้อมูล: คนมาเยอะตอนแรก แล้วหยุดเพราะท่ายาก",
+          "why_md": "ความสนใจมีอยู่ จุดที่พลาดคือระดับความยาก"
+        },
+        {
+          "do_md": "ปรับเฉพาะจุด: ให้มีท่าหลายระดับ",
+          "why_md": "คนที่แข็งแรงยังได้ท่ายาก คนเริ่มต้นได้ท่าง่าย"
+        },
+        {
+          "do_md": "ชวนคนที่หยุดกลับมา",
+          "why_md": "ใช้ประโยชน์จากการปรับ"
+        }
+      ],
+      "answer_explanation_md": "ปรับท่าให้มีหลายระดับและชวนคนที่หยุดกลับมาดีที่สุด เพราะปรับตรงจุดที่พลาดตามข้อมูล และรักษาความสนใจที่มีอยู่",
+      "hints": [
+        "ทำไมคนถึงมาเยอะในสัปดาห์แรก",
+        "สาเหตุที่คนหยุดมาคืออะไร",
+        "หาการปรับที่แก้ตรงสาเหตุโดยไม่เปลี่ยนทุกอย่าง"
+      ],
+      "distractor_reasons": {
+        "0": "ทิ้งกลุ่มทั้งที่รู้แล้วว่าต้องปรับอะไร",
+        "2": "ไม่ได้ใช้ข้อมูลจากคนที่หยุดมา กลุ่มจะเล็กลงเรื่อย ๆ",
+        "3": "แก้สาเหตุและชวนคนกลับมา แต่ใช้ระดับเดียวจนคนที่ต้องการท่ายากไม่มีทางเลือก"
+      },
+      "misconception_tags": [
+        "change_everything"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat3.complex_problem.evaluate.adjust_after_result.0007",
+      "topic_ids": [
+        "tgat3.complex_problem.evaluate.adjust_after_result"
+      ],
+      "primary_topic_id": "tgat3.complex_problem.evaluate.adjust_after_result",
+      "exam_code": "TGAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT3 สมรรถนะการทำงาน แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4_tiered",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 60,
+      "stem_md": "ส่งข้อความเตือนแล้วคนมาประชุมยังน้อย คุณควรทำอะไรต่อ",
+      "figures": [],
+      "choices": [
+        {
+          "md": "เปลี่ยนเวลาประชุมทันที",
+          "is_answer": false,
+          "score": 0.75
+        },
+        {
+          "md": "ส่งข้อความถี่ขึ้น",
+          "is_answer": false,
+          "score": 0.5
+        },
+        {
+          "md": "ยกเลิกประชุม",
+          "is_answer": false,
+          "score": 0.25
+        },
+        {
+          "md": "ถามผู้ที่มาและไม่มาถึงอุปสรรค แล้วปรับเวลา ช่องทาง หรือรูปแบบตามข้อมูล",
+          "is_answer": true,
+          "score": 1
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "อ่านผล",
+          "why_md": "ข้อความเตือนไม่เพิ่มการมา"
+        },
+        {
+          "do_md": "หาเหตุที่สมมติฐานพลาด",
+          "why_md": "อาจเป็นเวลา ไม่ใช่การลืม"
+        },
+        {
+          "do_md": "ปรับเฉพาะส่วน",
+          "why_md": "ทดสอบการเปลี่ยน"
+        }
+      ],
+      "answer_explanation_md": "ถามอุปสรรคแล้วปรับตามข้อมูล เป็นการเรียนรู้จากผลแทนการทำซ้ำหรือเดาใหม่",
+      "hints": [
+        "วิธีเดิมตั้งสมมติฐานว่าอะไร",
+        "ผลบอกว่าสมมติฐานพอหรือไม่",
+        "ควรเก็บข้อมูลจากใคร"
+      ],
+      "distractor_reasons": {
+        "0": "อาจตรงสาเหตุแต่ยังเป็นการคาดเดา",
+        "1": "เพิ่มวิธีเดิมโดยยังไม่รู้สาเหตุ",
+        "2": "หยุดก่อนเรียนรู้"
+      },
+      "misconception_tags": [
+        "change_everything"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat3.complex_problem.evaluate.adjust_after_result.0008",
+      "topic_ids": [
+        "tgat3.complex_problem.evaluate.adjust_after_result"
+      ],
+      "primary_topic_id": "tgat3.complex_problem.evaluate.adjust_after_result",
+      "exam_code": "TGAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT3 สมรรถนะการทำงาน แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4_tiered",
+      "difficulty": 5,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": true,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 60,
+      "stem_md": "ถังแยกขยะใหม่เพิ่มอัตราแยก แต่ขยะรีไซเคิลปนเปื้อนอาหารสูง โดยปัญหาเกิดเฉพาะจุดโรงอาหาร คุณควรปรับอย่างไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "คงระบบที่ส่วนอื่น เพิ่มป้ายตัวอย่างและจุดเทเศษอาหารที่โรงอาหาร แล้ววัดการปนเปื้อนรอบถัดไป",
+          "is_answer": true,
+          "score": 1
+        },
+        {
+          "md": "เพิ่มป้ายทุกจุดในอาคาร",
+          "is_answer": false,
+          "score": 0.75
+        },
+        {
+          "md": "เปลี่ยนถังทุกจุดเป็นแบบใหม่อีกครั้ง",
+          "is_answer": false,
+          "score": 0.25
+        },
+        {
+          "md": "คงระบบเดิมและให้เจ้าหน้าที่คัดปลายทาง",
+          "is_answer": false,
+          "score": 0.5
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "รักษาสิ่งที่ได้ผล",
+          "why_md": "อัตราแยกเพิ่มและจุดอื่นดี"
+        },
+        {
+          "do_md": "เจาะจุดผิดพลาด",
+          "why_md": "โรงอาหารและเศษอาหาร"
+        },
+        {
+          "do_md": "วัดผลหลังปรับ",
+          "why_md": "ดูการปนเปื้อน"
+        }
+      ],
+      "answer_explanation_md": "ปรับเฉพาะโรงอาหารด้วยข้อมูลที่ช่วยทิ้งถูกและวัดซ้ำ รักษาผลดีพร้อมแก้จุดอ่อน",
+      "hints": [
+        "ส่วนใดควรคงไว้",
+        "ปัญหาเกิดที่ไหนและเพราะอะไร",
+        "การปรับเล็กใดทดสอบได้"
+      ],
+      "distractor_reasons": {
+        "1": "ปรับจากหลักฐานบางส่วน แต่กว้างเกินจุดที่พบและยังไม่มีทางเทเศษ",
+        "2": "เปลี่ยนทั้งหมดทั้งที่ปัญหาเฉพาะจุด",
+        "3": "รักษาส่วนที่ดีแต่ผลักภาระและไม่ลดการปน"
+      },
+      "misconception_tags": [
+        "change_everything"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    }
+  ],
+  "generated_from": "content/tgat3/complex_problem.py"
+}

@@ -1,0 +1,475 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tpat3.thinking.sci_engineering.sanity_check",
+  "problems": [
+    {
+      "id": "prob.tpat3.thinking.sci_engineering.sanity_check.0001",
+      "topic_ids": [
+        "tpat3.thinking.sci_engineering.sanity_check"
+      ],
+      "primary_topic_id": "tpat3.thinking.sci_engineering.sanity_check",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 90,
+      "stem_md": "คำนวณอัตราเร็วของจักรยานได้ 240 km/h ควรทำอย่างไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ย้อนตรวจหน่วยและสูตร",
+          "is_answer": true
+        },
+        {
+          "md": "ตอบทันทีเพราะเครื่องคิดเลขให้ค่า",
+          "is_answer": false
+        },
+        {
+          "md": "ปัดเป็น 200 km/h",
+          "is_answer": false
+        },
+        {
+          "md": "เปลี่ยนหน่วยเป็น 240 m/s",
+          "is_answer": false
+        },
+        {
+          "md": "ลบ 100 เพื่อให้ดูสมจริง",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "เทียบกับขนาดคุ้นเคย",
+          "why_md": "จักรยานทั่วไปต่ำกว่ามาก"
+        },
+        {
+          "do_md": "ตรวจจุดเสี่ยง",
+          "why_md": "วินาที/ชั่วโมง เมตร/กิโลเมตร"
+        }
+      ],
+      "answer_explanation_md": "ตอบย้อนตรวจหน่วยและสูตร",
+      "hints": [
+        "ค่านี้ใกล้ยานพาหนะชนิดใด",
+        "มีการคูณ 3.6 หรือหารผิดไหม",
+        "อย่าปรับเลขโดยไม่มีเหตุผล"
+      ],
+      "distractor_reasons": {
+        "1": "ไม่ตรวจความเป็นจริง",
+        "2": "ยังผิดลำดับขนาด",
+        "3": "ยิ่งสูงขึ้นและไม่แก้ที่มา",
+        "4": "แก้ตัวเลขโดยไม่มีหลัก"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.thinking.sci_engineering.sanity_check.0002",
+      "topic_ids": [
+        "tpat3.thinking.sci_engineering.sanity_check"
+      ],
+      "primary_topic_id": "tpat3.thinking.sci_engineering.sanity_check",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 105,
+      "stem_md": "กล่องบรรจุได้สูงสุด 50 kg การคำนวณได้มวล 52.1 kg โดยความคลาดเคลื่อนการวัด ±0.2 kg ข้อใดถูกต้อง",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ผ่านเมื่อปัดเป็นจำนวนเต็ม",
+          "is_answer": false
+        },
+        {
+          "md": "ผ่านเพราะใกล้ 50",
+          "is_answer": false
+        },
+        {
+          "md": "แม้ค่าต่ำสุด 51.9 kg ก็เกินขีดจำกัด จึงไม่ผ่าน",
+          "is_answer": true
+        },
+        {
+          "md": "สรุปไม่ได้เพราะมีความคลาดเคลื่อน",
+          "is_answer": false
+        },
+        {
+          "md": "ลดค่าที่วัดลง 2.1 kg",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "หาช่วง",
+          "why_md": "51.9 ถึง 52.3"
+        },
+        {
+          "do_md": "เทียบข้อจำกัด",
+          "why_md": "ค่าต่ำสุดยังเกิน 50"
+        }
+      ],
+      "answer_explanation_md": "ตอบไม่ผ่าน",
+      "hints": [
+        "ใช้ขอบล่างของช่วง",
+        "ข้อห้ามคือไม่เกิน 50",
+        "การปัดไม่เปลี่ยนความปลอดภัย"
+      ],
+      "distractor_reasons": {
+        "0": "52 ยังเกิน",
+        "1": "ใกล้ไม่เท่ากับอยู่ในขอบเขต",
+        "3": "ช่วงทั้งหมดเกิน 50",
+        "4": "ไม่มีเหตุให้แก้ข้อมูล"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.thinking.sci_engineering.sanity_check.0003",
+      "topic_ids": [
+        "tpat3.thinking.sci_engineering.sanity_check"
+      ],
+      "primary_topic_id": "tpat3.thinking.sci_engineering.sanity_check",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 4,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "high"
+      },
+      "est_seconds": 125,
+      "stem_md": "นักเรียนคำนวณประสิทธิภาพเครื่องได้ 135% โดยนิยามประสิทธิภาพ = พลังงานออกที่เป็นประโยชน์ / พลังงานเข้า ควรสรุปอย่างไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "หัก 100% แล้วตอบ 35%",
+          "is_answer": false
+        },
+        {
+          "md": "เครื่องสร้างพลังงานได้",
+          "is_answer": false
+        },
+        {
+          "md": "ยอมรับได้เพราะเทคโนโลยีใหม่",
+          "is_answer": false
+        },
+        {
+          "md": "เปลี่ยนนิยามให้พลังงานเข้า/ออก",
+          "is_answer": false
+        },
+        {
+          "md": "ผลไม่สมเหตุผลสำหรับระบบนี้ ต้องตรวจการวัด หน่วย หรือการกำหนดขอบเขตระบบ",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ตรวจขอบเขต",
+          "why_md": "ประสิทธิภาพตามนิยามไม่เกิน 100%"
+        },
+        {
+          "do_md": "หาสาเหตุผิดพลาด",
+          "why_md": "หน่วย เซนเซอร์ หรือพลังงานเข้าที่ตกหล่น"
+        }
+      ],
+      "answer_explanation_md": "ตอบต้องตรวจข้อมูลและขอบเขตระบบ",
+      "hints": [
+        "พลังงานออกมาจากไหน",
+        "ขอบเขตระบบนับพลังงานเข้าครบไหม",
+        "ค่ามาก 100% เป็นสัญญาณอะไร"
+      ],
+      "distractor_reasons": {
+        "0": "ไม่มีหลักคณิตศาสตร์รองรับ",
+        "1": "ขัดกฎอนุรักษ์",
+        "2": "ความใหม่ไม่ยกเลิกนิยาม",
+        "3": "แก้เกณฑ์เพื่อให้ผลผ่าน"
+      },
+      "misconception_tags": [
+        "ignore_conservation"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.thinking.sci_engineering.sanity_check.0004",
+      "topic_ids": [
+        "tpat3.thinking.sci_engineering.sanity_check"
+      ],
+      "primary_topic_id": "tpat3.thinking.sci_engineering.sanity_check",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 90,
+      "stem_md": "ต้องประมาณ $9.8×203$ เพื่อเลือกคำตอบ ข้อใดใกล้ที่สุด",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ประมาณ 20,000",
+          "is_answer": false
+        },
+        {
+          "md": "ประมาณ 200,000",
+          "is_answer": false
+        },
+        {
+          "md": "ประมาณ 200",
+          "is_answer": false
+        },
+        {
+          "md": "ประมาณ 2,000",
+          "is_answer": true
+        },
+        {
+          "md": "ประมาณ 1,000",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ปัด 9.8≈10",
+          "why_md": "คงลำดับขนาด"
+        },
+        {
+          "do_md": "คูณ 10×203≈2,030",
+          "why_md": "ใกล้ 2,000"
+        }
+      ],
+      "answer_explanation_md": "ตอบประมาณ 2,000",
+      "hints": [
+        "9.8 ใกล้ 10",
+        "10 คูณ 200",
+        "นับจำนวนหลัก"
+      ],
+      "distractor_reasons": {
+        "0": "เกินหนึ่งหลัก",
+        "1": "เกินสองหลัก",
+        "2": "ตกหลักสิบ",
+        "4": "ใช้ 5×200"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.thinking.sci_engineering.sanity_check.0005",
+      "topic_ids": [
+        "tpat3.thinking.sci_engineering.sanity_check"
+      ],
+      "primary_topic_id": "tpat3.thinking.sci_engineering.sanity_check",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 5,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": true,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 130,
+      "stem_md": "แบบจำลองทำนายว่าเพิ่มความต้านทานในวงจรง่ายโดยแรงดันคงที่แล้วกระแสเพิ่มเป็นสองเท่า ข้อใดเป็นการตรวจที่เหมาะสม",
+      "figures": [],
+      "choices": [
+        {
+          "md": "แนวโน้มขัดกับ $I=V/R$",
+          "is_answer": true
+        },
+        {
+          "md": "ยอมรับเพราะตัวเลขคำนวณครบ",
+          "is_answer": false
+        },
+        {
+          "md": "ตัดหน่วยออกเพื่อให้สมการง่าย",
+          "is_answer": false
+        },
+        {
+          "md": "เพิ่มแรงดันในข้อมูลย้อนหลัง",
+          "is_answer": false
+        },
+        {
+          "md": "เฉลี่ยกระแสเดิมกับค่าใหม่",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ตรวจแนวโน้ม",
+          "why_md": "R เพิ่มที่ V คงที่ I ต้องลด"
+        },
+        {
+          "do_md": "ย้อนสมการ",
+          "why_md": "อาจกลับเศษส่วน"
+        }
+      ],
+      "answer_explanation_md": "ตอบตรวจสมการ เพราะแนวโน้มผิด",
+      "hints": [
+        "กฎโอห์มบอกความสัมพันธ์ใด",
+        "ตัวส่วนเพิ่ม ผลควรไปทิศใด",
+        "ผลเชิงทิศทางช่วยจับสูตรกลับได้"
+      ],
+      "distractor_reasons": {
+        "1": "ความครบไม่รับรองทิศทาง",
+        "2": "ทำให้ตรวจยากขึ้น",
+        "3": "เปลี่ยนโจทย์",
+        "4": "ไม่แก้ความขัดแย้ง"
+      },
+      "misconception_tags": [
+        "ignore_direction"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.thinking.sci_engineering.sanity_check.0006",
+      "topic_ids": [
+        "tpat3.thinking.sci_engineering.sanity_check"
+      ],
+      "primary_topic_id": "tpat3.thinking.sci_engineering.sanity_check",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 5,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": true,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 140,
+      "stem_md": "วัดความยาวโต๊ะ 1.20 m และรายงานพื้นที่หน้าโต๊ะ 3,487.62914 m² ข้อใดน่าสงสัยที่สุด",
+      "figures": [],
+      "choices": [
+        {
+          "md": "พื้นที่ต้องมีหน่วย m ไม่ใช่ m²",
+          "is_answer": false
+        },
+        {
+          "md": "ขนาดและความละเอียดไม่สมเหตุผล",
+          "is_answer": true
+        },
+        {
+          "md": "โต๊ะทุกตัวต้องมีพื้นที่ 1.44 m²",
+          "is_answer": false
+        },
+        {
+          "md": "ควรแปลงเป็น km² แล้วตัวเลขจะสมจริง",
+          "is_answer": false
+        },
+        {
+          "md": "ตัวเลขทศนิยมมากทำให้ถูกต้องเสมอ",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ตรวจลำดับขนาด",
+          "why_md": "หลายพัน m² ใหญ่กว่าห้องมาก"
+        },
+        {
+          "do_md": "ตรวจความละเอียด",
+          "why_md": "ข้อมูล 1.20 m ไม่รองรับทศนิยมหลายหลัก"
+        }
+      ],
+      "answer_explanation_md": "ตอบทั้งขนาดและความละเอียดน่าสงสัย",
+      "hints": [
+        "เทียบกับพื้นที่ห้อง",
+        "จำนวนหลักจากเครื่องคิดเลขเท่ากับความแม่นยำหรือไม่",
+        "ยังขาดมิติใดของโต๊ะ"
+      ],
+      "distractor_reasons": {
+        "0": "พื้นที่ใช้ m² ถูกแล้ว",
+        "2": "ยังไม่รู้ความกว้าง",
+        "3": "เปลี่ยนหน่วยไม่แก้ขนาดผิด",
+        "4": "ความละเอียดเกินข้อมูลไม่เพิ่มความถูกต้อง"
+      },
+      "misconception_tags": [
+        "false_precision"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    }
+  ],
+  "generated_from": "content/tpat3/thinking.py"
+}

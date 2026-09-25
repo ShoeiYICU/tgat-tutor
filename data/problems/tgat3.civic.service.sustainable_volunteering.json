@@ -1,0 +1,661 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tgat3.civic.service.sustainable_volunteering",
+  "problems": [
+    {
+      "id": "prob.tgat3.civic.service.sustainable_volunteering.0001",
+      "topic_ids": [
+        "tgat3.civic.service.sustainable_volunteering"
+      ],
+      "primary_topic_id": "tgat3.civic.service.sustainable_volunteering",
+      "exam_code": "TGAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT3 สมรรถนะการทำงาน แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4_tiered",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 60,
+      "stem_md": "ชมรมอาสาของคุณสอนหนังสือเด็กในชุมชนทุกเสาร์มา 1 ปี สมาชิกรุ่นปัจจุบันกำลังจะจบการศึกษา คุณเป็นประธานชมรม ควรทำอย่างไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "จัดงานเลี้ยงอำลาเด็ก ๆ และบอกว่าโครงการจบแล้ว เพราะรุ่นนี้ทำเต็มที่มาตลอดทั้งปีแล้ว",
+          "is_answer": false,
+          "score": 0.25
+        },
+        {
+          "md": "ฝากโครงการไว้กับครูที่ปรึกษาชมรม",
+          "is_answer": false,
+          "score": 0.5
+        },
+        {
+          "md": "ชวนรุ่นน้องมาร่วมสอนก่อนรุ่นพี่จบ ทำคู่มือการสอน และแนะนำรุ่นน้องให้เด็กและผู้ปกครองรู้จัก",
+          "is_answer": true,
+          "score": 1
+        },
+        {
+          "md": "ประกาศรับสมัครรุ่นน้องมาสานต่อโครงการในกลุ่มของโรงเรียน และส่งมอบงานให้ในวันสุดท้ายที่รุ่นพี่สอน",
+          "is_answer": false,
+          "score": 0.75
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ความต่อเนื่อง: เด็กยังต้องการการสอน",
+          "why_md": "ไม่ควรจบโครงการ"
+        },
+        {
+          "do_md": "มีคนสานต่อ: รุ่นน้องได้ฝึกสอนจริงก่อน",
+          "why_md": "พร้อมรับช่วงต่อ"
+        },
+        {
+          "do_md": "ส่งต่อความรู้และความสัมพันธ์: คู่มือและการแนะนำตัว",
+          "why_md": "เด็กและผู้ปกครองไว้ใจคนใหม่"
+        }
+      ],
+      "answer_explanation_md": "ชวนรุ่นน้องมาร่วมสอน ทำคู่มือ และแนะนำตัวกับเด็กและผู้ปกครองดีที่สุด เพราะโครงการดำเนินต่อได้จริงเมื่อรุ่นพี่จบไป",
+      "hints": [
+        "เด็ก ๆ ยังต้องการการสอนหลังรุ่นนี้จบไหม",
+        "รุ่นน้องจะพร้อมสอนได้อย่างไร",
+        "หาตัวเลือกที่ส่งต่อทั้งความรู้และความสัมพันธ์"
+      ],
+      "distractor_reasons": {
+        "0": "จบงานที่เด็กยังต้องการ ทั้งที่ส่งต่อได้",
+        "1": "มีคนรับรู้ แต่ครูคนเดียวอาจดูแลต่อไม่ได้ถ้าไม่มีคนสอน",
+        "3": "มีการส่งต่อ แต่รุ่นน้องไม่ได้เรียนรู้จากการสอนจริงก่อน และเด็กไม่ได้คุ้นเคยกับคนใหม่"
+      },
+      "misconception_tags": [
+        "one_off_volunteering"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat3.civic.service.sustainable_volunteering.0002",
+      "topic_ids": [
+        "tgat3.civic.service.sustainable_volunteering"
+      ],
+      "primary_topic_id": "tgat3.civic.service.sustainable_volunteering",
+      "exam_code": "TGAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT3 สมรรถนะการทำงาน แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4_tiered",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 60,
+      "stem_md": "กลุ่มเยาวชนของคุณได้งบ 5,000 บาทเพื่อช่วยโรงเรียนเล็ก ๆ ในชนบท มีข้อเสนอสองแบบ: จัดงานกีฬาสนุก ๆ ให้เด็ก 1 วัน หรือจัดมุมหนังสือพร้อมอบรมครูอาสาในชุมชนให้ดูแล คุณควรเสนออะไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "บริจาคเงินทั้งหมดให้โรงเรียนนำไปใช้ตามที่เห็นสมควร เพราะโรงเรียนรู้ดีที่สุดว่าต้องการอะไร",
+          "is_answer": false,
+          "score": 0.75
+        },
+        {
+          "md": "จัดมุมหนังสือและอบรมคนในชุมชนให้ดูแล พร้อมถามโรงเรียนก่อนว่าต้องการหรือไม่",
+          "is_answer": true,
+          "score": 1
+        },
+        {
+          "md": "จัดงานกีฬา เพราะเด็กจะมีความสุขมากที่สุด และเป็นความทรงจำที่ดีที่เด็ก ๆ จะจำไปได้อีกนาน",
+          "is_answer": false,
+          "score": 0.5
+        },
+        {
+          "md": "แบ่งงบครึ่งหนึ่งทำทั้งสองอย่าง",
+          "is_answer": false,
+          "score": 0.5
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "เทียบผลระยะยาว",
+          "why_md": "มุมหนังสือใช้ได้ต่อเนื่อง งานกีฬาจบใน 1 วัน"
+        },
+        {
+          "do_md": "มีคนดูแลต่อ",
+          "why_md": "อบรมคนในชุมชน"
+        },
+        {
+          "do_md": "ถามความต้องการของโรงเรียน",
+          "why_md": "ให้ตรงสิ่งที่โรงเรียนต้องการจริง"
+        }
+      ],
+      "answer_explanation_md": "จัดมุมหนังสือพร้อมอบรมคนในชุมชนและถามความต้องการก่อนดีที่สุด เพราะมีผลระยะยาว มีคนดูแลต่อ และตรงความต้องการจริง",
+      "hints": [
+        "หลังผ่านไป 1 ปี โครงการไหนจะยังมีประโยชน์อยู่",
+        "ใครจะดูแลสิ่งที่เราทำไว้หลังจากเรากลับไป",
+        "โรงเรียนต้องการสิ่งนี้จริงไหม"
+      ],
+      "distractor_reasons": {
+        "0": "เคารพความต้องการของโรงเรียน แต่ไม่ได้ใช้แรงและความคิดของกลุ่มช่วยสร้างสิ่งที่ยั่งยืน",
+        "2": "เด็กได้ความสุขจริง แต่เป็นกิจกรรมครั้งเดียวที่ไม่เหลือผลระยะยาว",
+        "3": "ได้ทั้งสองแบบ แต่งบที่แบ่งอาจไม่พอให้มุมหนังสือมีคุณภาพ"
+      },
+      "misconception_tags": [
+        "one_off_volunteering"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat3.civic.service.sustainable_volunteering.0003",
+      "topic_ids": [
+        "tgat3.civic.service.sustainable_volunteering"
+      ],
+      "primary_topic_id": "tgat3.civic.service.sustainable_volunteering",
+      "exam_code": "TGAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT3 สมรรถนะการทำงาน แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4_tiered",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 60,
+      "stem_md": "คุณเป็นอาสาสมัครเก็บขยะชายหาดเดือนละครั้ง พบว่าขยะกลับมาเท่าเดิมทุกเดือน ส่วนใหญ่เป็นถุงพลาสติกจากร้านค้าริมหาด คุณควรเสนออะไรต่อกลุ่ม",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ทำเก็บขยะต่อ และชวนร้านค้าริมหาดลดถุงพลาสติก เช่น จัดจุดคืนถุง หรือให้ส่วนลดคนนำถุงมาเอง",
+          "is_answer": true,
+          "score": 1
+        },
+        {
+          "md": "เพิ่มความถี่ในการเก็บขยะเป็นทุกสัปดาห์ เพื่อให้ชายหาดสะอาดตลอดเวลาและนักท่องเที่ยวประทับใจ",
+          "is_answer": false,
+          "score": 0.5
+        },
+        {
+          "md": "เลิกเก็บขยะเพราะเก็บเท่าไรก็ไม่หมด",
+          "is_answer": false,
+          "score": 0.25
+        },
+        {
+          "md": "ติดป้ายห้ามทิ้งขยะตลอดแนวชายหาด",
+          "is_answer": false,
+          "score": 0.75
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "สังเกต: ขยะกลับมาเท่าเดิม",
+          "why_md": "งานเก็บอย่างเดียวไม่ยั่งยืน"
+        },
+        {
+          "do_md": "ต้นเหตุ: ถุงพลาสติกจากร้านค้า",
+          "why_md": "ต้องทำงานกับต้นทาง"
+        },
+        {
+          "do_md": "ทำควบคู่: เก็บต่อ + ลดต้นทาง",
+          "why_md": "ผลจะดีขึ้นอย่างต่อเนื่อง"
+        }
+      ],
+      "answer_explanation_md": "เก็บขยะต่อและชวนร้านค้าลดถุงพลาสติกดีที่สุด เพราะทำงานกับต้นเหตุ ทำให้งานอาสามีผลต่อเนื่องและไม่เป็นภาระเกินไป",
+      "hints": [
+        "ทำไมขยะถึงกลับมาเท่าเดิมทุกเดือน",
+        "ขยะส่วนใหญ่มาจากไหน",
+        "หาทางที่ลดขยะที่ต้นทาง ไม่ใช่เก็บอย่างเดียว"
+      ],
+      "distractor_reasons": {
+        "1": "ชายหาดสะอาดขึ้น แต่แก้ที่อาการ และภาระของอาสาสมัครเพิ่มขึ้นมาก",
+        "2": "ยอมแพ้ทั้งที่รู้แล้วว่าต้นเหตุอยู่ที่ไหน",
+        "3": "ช่วยได้บางส่วน แต่ไม่ได้ทำงานร่วมกับแหล่งที่มาของขยะโดยตรง"
+      },
+      "misconception_tags": [
+        "one_off_volunteering"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat3.civic.service.sustainable_volunteering.0004",
+      "topic_ids": [
+        "tgat3.civic.service.sustainable_volunteering"
+      ],
+      "primary_topic_id": "tgat3.civic.service.sustainable_volunteering",
+      "exam_code": "TGAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT3 สมรรถนะการทำงาน แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4_tiered",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 60,
+      "stem_md": "หลังน้ำท่วมใหญ่ในจังหวัด โรงเรียนของคุณรวบรวมของบริจาคไปแจกผู้ประสบภัย 1 ครั้ง หนึ่งเดือนต่อมาครูถามว่าจะทำอะไรต่อไหม คุณเป็นประธานนักเรียน ควรเสนออะไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "รวบรวมของบริจาคชุดเดิมไปแจกอีกรอบ เพราะครั้งแรกได้รับการตอบรับดีมากและผู้ประสบภัยขอบคุณหลายคน",
+          "is_answer": false,
+          "score": 0.5
+        },
+        {
+          "md": "บอกครูว่าโรงเรียนทำหน้าที่เสร็จแล้ว",
+          "is_answer": false,
+          "score": 0.25
+        },
+        {
+          "md": "จัดระดมทุนเพื่อบริจาคเงินให้หน่วยงานที่ดูแลการฟื้นฟูพื้นที่",
+          "is_answer": false,
+          "score": 0.75
+        },
+        {
+          "md": "ประสานชุมชนที่ประสบภัยว่าตอนนี้ต้องการอะไร แล้วร่วมฟื้นฟูตามความต้องการ เช่น ซ่อมโรงเรียน",
+          "is_answer": true,
+          "score": 1
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ความช่วยเหลือช่วงฉุกเฉินเสร็จไปแล้ว",
+          "why_md": "ช่วงฟื้นฟูมีความต้องการใหม่"
+        },
+        {
+          "do_md": "ถามความต้องการปัจจุบัน",
+          "why_md": "ช่วยได้ตรงจุด"
+        },
+        {
+          "do_md": "ร่วมฟื้นฟูตามที่ต้องการ",
+          "why_md": "ความช่วยเหลือต่อเนื่องและมีผลระยะยาว"
+        }
+      ],
+      "answer_explanation_md": "ประสานถามความต้องการปัจจุบันแล้วร่วมฟื้นฟูดีที่สุด เพราะความช่วยเหลือต่อเนื่องและตรงกับสิ่งที่ชุมชนต้องการในช่วงฟื้นฟู",
+      "hints": [
+        "ความต้องการของผู้ประสบภัยเปลี่ยนไปไหมหลังผ่านไป 1 เดือน",
+        "การทำแบบเดิมซ้ำจะตรงความต้องการตอนนี้ไหม",
+        "หาตัวเลือกที่ต่อเนื่องและตรงความต้องการปัจจุบัน"
+      ],
+      "distractor_reasons": {
+        "0": "ต่อเนื่อง แต่ไม่ได้ถามว่าตอนนี้ต้องการอะไร ความต้องการช่วงฟื้นฟูต่างจากช่วงฉุกเฉิน",
+        "1": "จบความช่วยเหลือทั้งที่ช่วงฟื้นฟูมักต้องการความช่วยเหลือต่อเนื่อง",
+        "2": "ต่อเนื่องและเป็นประโยชน์ แต่ยังไม่ได้ถามความต้องการของชุมชนโดยตรง"
+      },
+      "misconception_tags": [
+        "one_off_volunteering"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat3.civic.service.sustainable_volunteering.0005",
+      "topic_ids": [
+        "tgat3.civic.service.sustainable_volunteering"
+      ],
+      "primary_topic_id": "tgat3.civic.service.sustainable_volunteering",
+      "exam_code": "TGAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT3 สมรรถนะการทำงาน แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4_tiered",
+      "difficulty": 4,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "high"
+      },
+      "est_seconds": 60,
+      "stem_md": "ชมรมของคุณทำโครงการสอนผู้สูงอายุใช้สมาร์ตโฟนมา 6 เดือน ผู้สูงอายุชอบมาก แต่สมาชิกชมรมเริ่มเหนื่อยเพราะมีคนมาเรียนมากขึ้นเรื่อย ๆ ขณะที่สมาชิกมีน้อยลง คุณควรทำอย่างไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "รับผู้สูงอายุเพิ่มต่อไปเรื่อย ๆ และให้สมาชิกทุกคนเพิ่มเวลาสอน เพราะความต้องการยังสูงมาก",
+          "is_answer": false,
+          "score": 0.25
+        },
+        {
+          "md": "ปิดรับผู้เรียนใหม่ เพื่อให้สมาชิกทำไหว",
+          "is_answer": false,
+          "score": 0.5
+        },
+        {
+          "md": "รับสมัครสมาชิกชมรมใหม่เพิ่มเพื่อมาช่วยสอน โดยประชาสัมพันธ์ในโรงเรียนและกลุ่มโซเชียล",
+          "is_answer": false,
+          "score": 0.75
+        },
+        {
+          "md": "ฝึกผู้สูงอายุที่ใช้คล่องแล้วเป็นผู้ช่วยสอน และปรับรอบสอนให้สมาชิกทำไหว",
+          "is_answer": true,
+          "score": 1
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ปัญหา: ความต้องการเพิ่ม แต่กำลังคนลด",
+          "why_md": "ต้องทำให้ทำไหวในระยะยาว"
+        },
+        {
+          "do_md": "ให้ชุมชนมีส่วนสานต่อ: ผู้สูงอายุที่คล่องแล้วช่วยสอน",
+          "why_md": "ผู้สูงอายุเรียนจากเพื่อนวัยเดียวกันได้ดีด้วย"
+        },
+        {
+          "do_md": "ปรับขนาดให้ทำไหว",
+          "why_md": "โครงการไม่ล่มเพราะคนหมดแรง"
+        }
+      ],
+      "answer_explanation_md": "ฝึกผู้สูงอายุที่คล่องเป็นผู้ช่วยสอนและปรับรอบให้ทำไหวดีที่สุด เพราะชุมชนมีส่วนสานต่อ และโครงการยั่งยืนโดยไม่ทำเกินกำลัง",
+      "hints": [
+        "ถ้าสมาชิกหมดไฟ โครงการจะเป็นอย่างไร",
+        "ในกลุ่มผู้เรียนเอง มีใครช่วยสอนได้ไหม",
+        "หาทางที่ความต้องการยังได้รับการตอบสนองโดยไม่ทำเกินกำลัง"
+      ],
+      "distractor_reasons": {
+        "0": "ทำเกินกำลังจนสมาชิกหมดไฟ โครงการจะล่มในที่สุด",
+        "1": "รักษากำลังของสมาชิก แต่ทิ้งความต้องการที่ยังมีอยู่",
+        "2": "เพิ่มกำลังคนได้ แต่ยังพึ่งชมรมฝ่ายเดียว ไม่ได้ให้ชุมชนมีส่วนดูแลต่อ"
+      },
+      "misconception_tags": [
+        "one_off_volunteering"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat3.civic.service.sustainable_volunteering.0006",
+      "topic_ids": [
+        "tgat3.civic.service.sustainable_volunteering"
+      ],
+      "primary_topic_id": "tgat3.civic.service.sustainable_volunteering",
+      "exam_code": "TGAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT3 สมรรถนะการทำงาน แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4_tiered",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 60,
+      "stem_md": "คุณอยากเริ่มทำงานอาสาด้วยตัวเองเป็นครั้งแรก ช่วงเปิดเทอมคุณมีเวลาว่างเฉพาะเย็นวันศุกร์ คุณควรเลือกอย่างไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "สมัครค่ายอาสาต่างจังหวัด 7 วันช่วงปิดเทอมอย่างเดียว เพราะได้ประสบการณ์เต็มที่และช่วยได้มากในครั้งเดียว",
+          "is_answer": false,
+          "score": 0.5
+        },
+        {
+          "md": "เลือกงานอาสาที่ทำได้ทุกเย็นวันศุกร์อย่างต่อเนื่อง เช่น อ่านหนังสือให้เด็กในห้องสมุดชุมชน",
+          "is_answer": true,
+          "score": 1
+        },
+        {
+          "md": "เริ่มช่วยกิจกรรมอาสาเป็นครั้งคราวในเย็นวันศุกร์เมื่อสะดวก",
+          "is_answer": false,
+          "score": 0.75
+        },
+        {
+          "md": "สมัครงานอาสาหลายที่พร้อมกันเพื่อให้ได้ชั่วโมงเยอะ",
+          "is_answer": false,
+          "score": 0.25
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ประเมินเวลาที่มี: เย็นวันศุกร์",
+          "why_md": "เลือกงานที่เข้ากับเวลานี้"
+        },
+        {
+          "do_md": "ต่อเนื่อง: ทำได้ทุกสัปดาห์",
+          "why_md": "สร้างความสัมพันธ์และผลระยะยาว"
+        },
+        {
+          "do_md": "ขนาดที่ทำไหว",
+          "why_md": "ไม่เกินกำลัง"
+        }
+      ],
+      "answer_explanation_md": "เลือกงานอาสาที่ทำได้ทุกเย็นวันศุกร์อย่างต่อเนื่องดีที่สุด เพราะเข้ากับเวลาที่มีจริง ทำไหว และสร้างผลระยะยาว",
+      "hints": [
+        "มีเวลาว่างเมื่อไรบ้าง",
+        "งานแบบไหนทำต่อเนื่องได้จริงกับเวลาที่มี",
+        "ทำเล็กแต่ต่อเนื่องต่างจากทำใหญ่ครั้งเดียวอย่างไร"
+      ],
+      "distractor_reasons": {
+        "0": "ได้ประสบการณ์ดี แต่เป็นครั้งเดียว และไม่ได้ใช้เวลาว่างที่มีอยู่ตลอดเทอม",
+        "2": "ใช้เวลาที่มีและไม่รับเกินกำลัง แต่ยังไม่มีความสม่ำเสมอให้ผู้จัดกิจกรรมวางแผนพึ่งพาได้",
+        "3": "เกินเวลาที่มีจริง เสี่ยงทำได้ไม่ดีทุกที่"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat3.civic.service.sustainable_volunteering.0007",
+      "topic_ids": [
+        "tgat3.civic.service.sustainable_volunteering"
+      ],
+      "primary_topic_id": "tgat3.civic.service.sustainable_volunteering",
+      "exam_code": "TGAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT3 สมรรถนะการทำงาน แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4_tiered",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 60,
+      "stem_md": "ชมรมสอนการบ้านมีอาสาสมัครมาไม่สม่ำเสมอ ควรปรับอย่างไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "สำรวจเวลาที่ทำได้ จัดเวรสั้นสำรองกัน และมีคู่มือส่งต่องาน",
+          "is_answer": true,
+          "score": 1
+        },
+        {
+          "md": "รับอาสาใหม่จำนวนมาก",
+          "is_answer": false,
+          "score": 0.75
+        },
+        {
+          "md": "ยกเลิกตารางและให้มาเมื่อสะดวก",
+          "is_answer": false,
+          "score": 0.25
+        },
+        {
+          "md": "ขอให้ทุกคนสัญญามาทุกสัปดาห์",
+          "is_answer": false,
+          "score": 0.5
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "หาเหตุความไม่สม่ำเสมอ",
+          "why_md": "เวลาของอาสา"
+        },
+        {
+          "do_md": "ออกแบบระบบยืดหยุ่น",
+          "why_md": "เวรสั้นและสำรอง"
+        },
+        {
+          "do_md": "ส่งต่องาน",
+          "why_md": "ผู้เรียนต่อเนื่อง"
+        }
+      ],
+      "answer_explanation_md": "เวรที่ทำได้จริงพร้อมสำรองและส่งต่อ ทำให้บริการต่อเนื่องโดยไม่พึ่งความเสียสละเกินกำลัง",
+      "hints": [
+        "ความต่อเนื่องต้องพึ่งคนเดิมเสมอหรือไม่",
+        "ตารางแบบใดรับข้อจำกัดได้",
+        "ถ้าเปลี่ยนคนจะต่อบทเรียนอย่างไร"
+      ],
+      "distractor_reasons": {
+        "1": "เพิ่มกำลังแต่ระบบเดิมยังทำให้ขาดช่วง",
+        "2": "ยิ่งทำให้ผู้เรียนคาดการณ์ไม่ได้",
+        "3": "ต้องการความต่อเนื่องแต่ไม่ดูข้อจำกัดจริง"
+      },
+      "misconception_tags": [
+        "one_off_volunteering"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat3.civic.service.sustainable_volunteering.0008",
+      "topic_ids": [
+        "tgat3.civic.service.sustainable_volunteering"
+      ],
+      "primary_topic_id": "tgat3.civic.service.sustainable_volunteering",
+      "exam_code": "TGAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT3 สมรรถนะการทำงาน แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4_tiered",
+      "difficulty": 5,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": true,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 60,
+      "stem_md": "โครงการเยี่ยมผู้สูงอายุมีอาสาลดลงครึ่งหนึ่ง แต่ผู้รับบริการบางคนต้องติดตามยาและบางคนต้องการเพื่อนคุย คุณควรทำอย่างไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "รับเฉพาะกรณีติดตามยา",
+          "is_answer": false,
+          "score": 0.75
+        },
+        {
+          "md": "ให้อาสาที่เหลือทำงานเพิ่มชั่วคราว",
+          "is_answer": false,
+          "score": 0.25
+        },
+        {
+          "md": "แยกความต้องการตามความเสี่ยง ประสานวิชาชีพเรื่องยา และจัดรอบโทรหรือเยี่ยมตามกำลังพร้อมติดตาม",
+          "is_answer": true,
+          "score": 1
+        },
+        {
+          "md": "ลดเวลาเยี่ยมทุกคนลงครึ่งหนึ่งเท่ากัน",
+          "is_answer": false,
+          "score": 0.5
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "จำแนกความจำเป็น",
+          "why_md": "ความเสี่ยงไม่เท่ากัน"
+        },
+        {
+          "do_md": "ส่งต่องานเฉพาะทาง",
+          "why_md": "เรื่องยา"
+        },
+        {
+          "do_md": "ออกแบบหลายช่องทาง",
+          "why_md": "โทรหรือเยี่ยม"
+        }
+      ],
+      "answer_explanation_md": "จัดลำดับตามความเสี่ยง ส่งต่อเฉพาะทาง และใช้ช่องทางยืดหยุ่น รักษาคุณภาพโดยไม่เผาอาสา",
+      "hints": [
+        "ใครมีความเสี่ยงเร่งด่วน",
+        "งานใดเกินบทบาทอาสา",
+        "จะรักษาการติดต่อโดยใช้คนน้อยลงอย่างไร"
+      ],
+      "distractor_reasons": {
+        "0": "จัดลำดับความปลอดภัยถูก แต่ละทิ้งความต้องการทางสังคมทั้งหมด",
+        "1": "เสี่ยงหมดแรงและไม่ยั่งยืน",
+        "3": "ดูยุติธรรมแต่ไม่ตอบความเสี่ยงต่างกัน"
+      },
+      "misconception_tags": [
+        "one_off_volunteering"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    }
+  ],
+  "generated_from": "content/tgat3/emotion_civic.py"
+}

@@ -1,0 +1,593 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tgat1.speaking.foundation.question_forms",
+  "problems": [
+    {
+      "id": "prob.tgat1.speaking.foundation.question_forms.0001",
+      "topic_ids": [
+        "tgat1.speaking.foundation.question_forms"
+      ],
+      "primary_topic_id": "tgat1.speaking.foundation.question_forms",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 25,
+      "stem_md": "Choose the correct question.",
+      "figures": [],
+      "choices": [
+        {
+          "md": "Where you did buy that jacket?",
+          "is_answer": false
+        },
+        {
+          "md": "Where did you buy that jacket?",
+          "is_answer": true
+        },
+        {
+          "md": "Where you bought that jacket?",
+          "is_answer": false
+        },
+        {
+          "md": "Where did you bought that jacket?",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "คำถาม Wh- ตรง: Wh- + กริยาช่วย + ประธาน + กริยา",
+          "why_md": "Where + did + you + buy"
+        },
+        {
+          "do_md": "หลัง did ใช้กริยาช่อง 1",
+          "why_md": "buy ไม่ใช่ bought"
+        }
+      ],
+      "answer_explanation_md": "ตอบ Where did you buy that jacket? เพราะสลับ did ไว้หน้าประธาน และใช้กริยาช่อง 1 หลัง did",
+      "hints": [
+        "คำถามตรงต้องสลับอะไรกับอะไร",
+        "หลัง did ใช้กริยารูปไหน",
+        "ตรวจทั้งลำดับคำและรูปกริยา"
+      ],
+      "distractor_reasons": {
+        "0": "ไม่สลับกริยาช่วยไว้หน้าประธาน",
+        "2": "ไม่มีกริยาช่วย did และไม่สลับ",
+        "3": "หลัง did ต้องใช้กริยาช่อง 1 (buy) ไม่ใช่ bought"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.foundation.question_forms.0002",
+      "topic_ids": [
+        "tgat1.speaking.foundation.question_forms"
+      ],
+      "primary_topic_id": "tgat1.speaking.foundation.question_forms",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 30,
+      "stem_md": "Choose the correct question.",
+      "figures": [],
+      "choices": [
+        {
+          "md": "Could you tell me what time opens the museum?",
+          "is_answer": false
+        },
+        {
+          "md": "Could you tell me what time the museum does open?",
+          "is_answer": false
+        },
+        {
+          "md": "Could you tell me what time the museum opens?",
+          "is_answer": true
+        },
+        {
+          "md": "Could you tell me what time does the museum open?",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "มี Could you tell me นำหน้า = คำถามทางอ้อม",
+          "why_md": "ส่วนหลังเรียงแบบบอกเล่า"
+        },
+        {
+          "do_md": "ประธาน the museum + กริยา opens",
+          "why_md": "ไม่มี does"
+        }
+      ],
+      "answer_explanation_md": "ตอบ Could you tell me what time the museum opens? เพราะเป็นคำถามทางอ้อม ต้องเรียงประธานก่อนกริยาและไม่ใช้ does",
+      "hints": [
+        "ประโยคนี้เป็นคำถามตรงหรือทางอ้อม",
+        "คำถามทางอ้อมต้องสลับหรือไม่สลับ",
+        "คำถามทางอ้อมใช้ do/does/did ไหม"
+      ],
+      "distractor_reasons": {
+        "0": "สลับกริยาไว้หน้าประธาน ซึ่งไม่ถูกในคำถามทางอ้อม",
+        "1": "ใส่ does ในคำถามทางอ้อมโดยไม่จำเป็น",
+        "3": "คำถามทางอ้อมไม่ใช้ does"
+      },
+      "misconception_tags": [
+        "indirect_question_inversion"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.foundation.question_forms.0003",
+      "topic_ids": [
+        "tgat1.speaking.foundation.question_forms"
+      ],
+      "primary_topic_id": "tgat1.speaking.foundation.question_forms",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 35,
+      "stem_md": "Choose the correct question.",
+      "figures": [],
+      "choices": [
+        {
+          "md": "Who you told about the party?",
+          "is_answer": false
+        },
+        {
+          "md": "Who was tell you about the party?",
+          "is_answer": false
+        },
+        {
+          "md": "Who told you about the party?",
+          "is_answer": true
+        },
+        {
+          "md": "Who did told you about the party?",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "Who เป็นผู้กระทำ (ประธาน) ในประโยคนี้",
+          "why_md": "ไม่ต้องมีกริยาช่วย do"
+        },
+        {
+          "do_md": "ใช้กริยาช่อง 2 ได้เลย",
+          "why_md": "Who told you...?"
+        }
+      ],
+      "answer_explanation_md": "ตอบ Who told you about the party? เพราะ Who เป็นประธานของประโยค จึงไม่ใช้ did และใช้กริยาช่อง 2 ได้ทันที",
+      "hints": [
+        "ในประโยคนี้ Who เป็นผู้กระทำหรือผู้ถูกกระทำ",
+        "ถ้า Wh- เป็นประธาน ต้องใช้ did ไหม",
+        "เทียบกับ Who did you tell? ซึ่งความหมายต่างกัน"
+      ],
+      "distractor_reasons": {
+        "0": "ลำดับคำผิด และความหมายเปลี่ยน",
+        "1": "ใช้ was ตามด้วยกริยารูปเดิมแบบนี้ไม่ได้",
+        "3": "ใช้ did และกริยาช่อง 2 พร้อมกัน ผิดสองจุด"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.foundation.question_forms.0004",
+      "topic_ids": [
+        "tgat1.speaking.foundation.question_forms"
+      ],
+      "primary_topic_id": "tgat1.speaking.foundation.question_forms",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 4,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 2,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 40,
+      "stem_md": "Choose the correct question.",
+      "figures": [],
+      "choices": [
+        {
+          "md": "Do you know is the library open today?",
+          "is_answer": false
+        },
+        {
+          "md": "Do you know if is the library open today?",
+          "is_answer": false
+        },
+        {
+          "md": "Do you know the library if open today?",
+          "is_answer": false
+        },
+        {
+          "md": "Do you know if the library is open today?",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "คำถามทางอ้อมแบบ Yes/No ใช้ if/whether",
+          "why_md": "Do you know if..."
+        },
+        {
+          "do_md": "หลัง if เรียงแบบบอกเล่า",
+          "why_md": "the library is open"
+        }
+      ],
+      "answer_explanation_md": "ตอบ Do you know if the library is open today? เพราะคำถามทางอ้อมแบบ Yes/No ใช้ if และเรียงประธานก่อนกริยา",
+      "hints": [
+        "คำถามเดิมคือ Is the library open today? ซึ่งเป็นแบบ Yes/No",
+        "คำถามทางอ้อมแบบ Yes/No ต้องใช้คำเชื่อมอะไร",
+        "หลังคำเชื่อมต้องเรียงแบบไหน"
+      ],
+      "distractor_reasons": {
+        "0": "คำถามทางอ้อมแบบ yes/no ต้องใช้ if หรือ whether และไม่สลับ",
+        "1": "มี if แล้วแต่ยังสลับ is ไว้หน้าประธาน",
+        "2": "ลำดับคำผิดและขาดกริยา"
+      },
+      "misconception_tags": [
+        "indirect_question_inversion"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.foundation.question_forms.0005",
+      "topic_ids": [
+        "tgat1.speaking.foundation.question_forms"
+      ],
+      "primary_topic_id": "tgat1.speaking.foundation.question_forms",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 30,
+      "stem_md": "Choose the correct question.",
+      "figures": [],
+      "choices": [
+        {
+          "md": "How long you have lived here?",
+          "is_answer": false
+        },
+        {
+          "md": "How long did you have lived here?",
+          "is_answer": false
+        },
+        {
+          "md": "How long have you live here?",
+          "is_answer": false
+        },
+        {
+          "md": "How long have you lived here?",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "กริยาช่วย have ต้องอยู่หน้าประธาน",
+          "why_md": "How long + have + you"
+        },
+        {
+          "do_md": "have + กริยาช่อง 3",
+          "why_md": "lived"
+        }
+      ],
+      "answer_explanation_md": "ตอบ How long have you lived here? เพราะสลับ have ไว้หน้าประธาน และใช้กริยาช่อง 3 หลัง have",
+      "hints": [
+        "กริยาช่วยของประโยคนี้คืออะไร",
+        "กริยาช่วยต้องอยู่ก่อนหรือหลังประธานในคำถามตรง",
+        "หลัง have ใช้กริยารูปไหน"
+      ],
+      "distractor_reasons": {
+        "0": "ไม่สลับ have ไว้หน้าประธาน",
+        "1": "ใส่ did ซ้อนกับ have ผิด",
+        "2": "หลัง have ต้องใช้กริยาช่อง 3 (lived)"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.foundation.question_forms.0006",
+      "topic_ids": [
+        "tgat1.speaking.foundation.question_forms"
+      ],
+      "primary_topic_id": "tgat1.speaking.foundation.question_forms",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 35,
+      "stem_md": "**A:** Excuse me, ______  \n**B:** It's on the third floor, next to the elevator.",
+      "figures": [],
+      "choices": [
+        {
+          "md": "could you tell me where does the restroom?",
+          "is_answer": false
+        },
+        {
+          "md": "could you tell me where the restroom is?",
+          "is_answer": true
+        },
+        {
+          "md": "where the restroom is?",
+          "is_answer": false
+        },
+        {
+          "md": "could you tell me where is the restroom?",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "B ตอบสถานที่",
+          "why_md": "A ถามว่าห้องน้ำอยู่ที่ไหน"
+        },
+        {
+          "do_md": "คำถามทางอ้อม: ประธาน + กริยา",
+          "why_md": "could you tell me where the restroom is?"
+        }
+      ],
+      "answer_explanation_md": "ตอบ could you tell me where the restroom is? เพราะเป็นคำถามทางอ้อมที่ถูกไวยากรณ์ และถามสถานที่ตามที่ B ตอบ",
+      "hints": [
+        "B ตอบข้อมูลอะไร",
+        "A ใช้คำถามแบบตรงหรือทางอ้อม",
+        "คำถามทางอ้อมเรียงคำอย่างไร"
+      ],
+      "distractor_reasons": {
+        "0": "ใช้ does ในคำถามทางอ้อมและขาดกริยา",
+        "2": "เรียงแบบคำถามทางอ้อมแต่ไม่มีส่วนนำ จึงไม่เป็นคำถามที่สมบูรณ์",
+        "3": "สลับ is ในคำถามทางอ้อม"
+      },
+      "misconception_tags": [
+        "indirect_question_inversion"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.foundation.question_forms.0007",
+      "topic_ids": [
+        "tgat1.speaking.foundation.question_forms"
+      ],
+      "primary_topic_id": "tgat1.speaking.foundation.question_forms",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 45,
+      "stem_md": "Which is the correct indirect question?",
+      "figures": [],
+      "choices": [
+        {
+          "md": "Could you tell me where the nearest pharmacy is?",
+          "is_answer": true
+        },
+        {
+          "md": "Could you tell me where the nearest pharmacy?",
+          "is_answer": false
+        },
+        {
+          "md": "Could you tell me is where the nearest pharmacy?",
+          "is_answer": false
+        },
+        {
+          "md": "Could you tell me where is the nearest pharmacy?",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ติดตามบริบทและผู้พูด",
+          "why_md": "หลังวลีเปิดใช้ลำดับประโยคบอกเล่า"
+        },
+        {
+          "do_md": "ทดลองเติมแล้วอ่านต่อ",
+          "why_md": "คำตอบต้องทำให้บทสนทนาต่อเนื่อง ไม่ใช่แค่มีคำซ้ำ"
+        }
+      ],
+      "answer_explanation_md": "where the nearest pharmacy is ถูกลำดับ",
+      "hints": [
+        "ดูว่าใครพูดกับใครและต้องการอะไร",
+        "ใช้ประโยคก่อนและหลังช่องว่างร่วมกัน",
+        "ตัดตัวเลือกที่มีคำซ้ำแต่ทำหน้าที่ผิด"
+      ],
+      "distractor_reasons": {
+        "1": "ขาด is",
+        "2": "วาง is ผิดตำแหน่ง",
+        "3": "กลับคำแบบคำถามตรง"
+      },
+      "misconception_tags": [
+        "indirect_question_inversion"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.foundation.question_forms.0008",
+      "topic_ids": [
+        "tgat1.speaking.foundation.question_forms"
+      ],
+      "primary_topic_id": "tgat1.speaking.foundation.question_forms",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 5,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": true,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 60,
+      "stem_md": "**Visitor:** ______  \n**Guide:** It was completed in 1892; the east wing came later.",
+      "figures": [],
+      "choices": [
+        {
+          "md": "Do you happen to know when the original building was completed?",
+          "is_answer": true
+        },
+        {
+          "md": "Can you tell me when did they complete it?",
+          "is_answer": false
+        },
+        {
+          "md": "Do you know when was completed the building?",
+          "is_answer": false
+        },
+        {
+          "md": "When the building completed, do you know?",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ติดตามบริบทและผู้พูด",
+          "why_md": "คำตอบให้ปีที่อาคารเดิมสร้างเสร็จ"
+        },
+        {
+          "do_md": "ทดลองเติมแล้วอ่านต่อ",
+          "why_md": "คำตอบต้องทำให้บทสนทนาต่อเนื่อง ไม่ใช่แค่มีคำซ้ำ"
+        }
+      ],
+      "answer_explanation_md": "คำถามอ้อมใช้ statement order และ passive ถูกต้อง",
+      "hints": [
+        "ดูว่าใครพูดกับใครและต้องการอะไร",
+        "ใช้ประโยคก่อนและหลังช่องว่างร่วมกัน",
+        "ตัดตัวเลือกที่มีคำซ้ำแต่ทำหน้าที่ผิด"
+      ],
+      "distractor_reasons": {
+        "1": "ใช้ did ในคำถามอ้อม",
+        "2": "กลับคำและวางประธานผิด",
+        "3": "ขาด was ใน passive"
+      },
+      "misconception_tags": [
+        "indirect_question_inversion"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    }
+  ],
+  "generated_from": "content/tgat1/speaking_conv.py"
+}

@@ -1,0 +1,596 @@
+{
+  "schema_version": "1.0",
+  "subject": "deu",
+  "subject_name_th": "A-Level ภาษาเยอรมัน",
+  "exam_codes": [
+    "ALEVEL_84"
+  ],
+  "source_note": "ยืนยันโครงสอบแล้วจาก mytcas.com/blueprint/a-level-84-deu/ (ตรวจ 21 กันยายน 2569): 50 ข้อ 100 คะแนน 90 นาที ปรนัย 4 ตัวเลือก | 3 ด้าน พร้อมจำนวนข้อและคะแนน คือ 'ความสามารถในการเขียน' 20 ข้อ 40 คะแนน / 'การใช้คำศัพท์และสำนวนภาษาเยอรมันในสถานการณ์ชีวิตประจำวัน' 10 ข้อ 20 คะแนน / 'การอ่านตัวบทภาษาเยอรมัน' 20 ข้อ 40 คะแนน | ผังสอบไม่ได้ให้รายการหัวข้อย่อยของแต่ละด้าน ชั้นหัวข้อและ leaf ในผังนี้จึงเป็นการจัดกลุ่มและซอยของเราเอง ไม่ใช่รายการทางการ",
+  "topics": [
+    {
+      "id": "deu",
+      "name_th": "A-Level ภาษาเยอรมัน",
+      "name_en": "",
+      "kind": "subject",
+      "parent": null,
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ALEVEL_84",
+        "ภาษาเยอรมัน"
+      ],
+      "curriculum_ref": null,
+      "notes": "วิชาภาษาที่สาม | โครงสอบยืนยันแล้ว: 50 ข้อ 100 คะแนน 90 นาที **ปรนัย 4 ตัวเลือก** ใช้ format mcq4 | **วิชานี้ template ไม่ได้** ต้องแต่งโจทย์มือ 20 ข้อต่อหัวข้อตามสเปค | เนื้อหาต้องมีเจ้าของภาษาหรือผู้สอนภาษานั้นตรวจ เพราะความถูกต้องทางภาษา และความเหมาะสมทางวัฒนธรรมเครื่องตรวจไม่ได้ ตั้ง review_status เป็น ai_draft_needs_fact_check ทุกไฟล์ | ผังสอบไม่ได้ระบุระดับ CEFR หรือระดับความสามารถอ้างอิง ห้ามอ้างระดับเองในบทเรียน | คนสอบน้อยที่สุดในกลุ่ม A-Level จึงอยู่ท้ายลำดับการผลิต | ผังสอบให้จำนวนข้อและคะแนนครบทั้ง 3 ด้าน: เขียน 20 ข้อ 40 คะแนน / คำศัพท์และสำนวน 10 ข้อ 20 คะแนน / อ่าน 20 ข้อ 40 คะแนน — **ด้านการเขียนและการอ่านหนักเท่ากัน และรวมกันเป็น 80 จาก 100 คะแนน**"
+    },
+    {
+      "id": "deu.writing",
+      "name_th": "ความสามารถในการเขียน",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "deu",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_84",
+          "typical_items": "20 ข้อ 40 คะแนน",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ความสามารถในการเขียน"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (ส่วนทางการ) · ผังสอบระบุ 20 ข้อ 40 คะแนน · หนักเท่าด้านการอ่าน"
+    },
+    {
+      "id": "deu.writing.grammar_form",
+      "name_th": "ไวยากรณ์และรูปคำในการเขียน",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "deu.writing",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ไวยากรณ์และรูปคำในการเขียน"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชั้นนี้เราจัดกลุ่มเอง เพราะผังสอบให้แต่ชื่อสาระ ไม่ได้ให้ชื่อหัวข้อย่อย"
+    },
+    {
+      "id": "deu.writing.grammar_form.case",
+      "name_th": "การกและการผันคำนาม",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "deu.writing.grammar_form",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_84",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "การก",
+        "ผันคำนาม"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "deu.writing.grammar_form.verb_conjugation",
+      "name_th": "การผันกริยาและกาล",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "deu.writing.grammar_form",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "deu.writing.grammar_form.case"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_84",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ผันกริยา",
+        "กาล"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "deu.writing.grammar_form.adjective_ending",
+      "name_th": "การลงท้ายคำคุณศัพท์",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "deu.writing.grammar_form",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "deu.writing.grammar_form.verb_conjugation"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_84",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "คำคุณศัพท์"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "deu.writing.sentence_build",
+      "name_th": "การเรียบเรียงประโยค",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "deu.writing",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "การเรียบเรียงประโยค"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชั้นนี้เราจัดกลุ่มเอง เพราะผังสอบให้แต่ชื่อสาระ ไม่ได้ให้ชื่อหัวข้อย่อย"
+    },
+    {
+      "id": "deu.writing.sentence_build.word_order",
+      "name_th": "ลำดับคำในประโยคเยอรมัน",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "deu.writing.sentence_build",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_84",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "ลำดับคำ"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "deu.writing.sentence_build.conjunction",
+      "name_th": "คำสันธานและประโยคซ้อน",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "deu.writing.sentence_build",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "deu.writing.sentence_build.word_order"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_84",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "คำสันธาน",
+        "ประโยคซ้อน"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "deu.writing.sentence_build.paragraph",
+      "name_th": "เรียงประโยคให้เป็นย่อหน้า",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "deu.writing.sentence_build",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "deu.writing.sentence_build.conjunction"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_84",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "เรียงประโยค"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "deu.vocab",
+      "name_th": "การใช้คำศัพท์และสำนวนภาษาเยอรมันในสถานการณ์ชีวิตประจำวัน",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "deu",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_84",
+          "typical_items": "10 ข้อ 20 คะแนน",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "การใช้คำศัพท์และสำนวนภาษาเยอรมันในสถานการณ์ชีวิตประจำวัน"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (ส่วนทางการ) · ผังสอบระบุ 10 ข้อ 20 คะแนน"
+    },
+    {
+      "id": "deu.vocab.core_vocab",
+      "name_th": "คำศัพท์ในสถานการณ์ประจำวัน",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "deu.vocab",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "คำศัพท์ในสถานการณ์ประจำวัน"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชั้นนี้เราจัดกลุ่มเอง เพราะผังสอบให้แต่ชื่อสาระ ไม่ได้ให้ชื่อหัวข้อย่อย"
+    },
+    {
+      "id": "deu.vocab.core_vocab.daily",
+      "name_th": "คำศัพท์เรื่องกิจวัตร ครอบครัว และที่อยู่",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "deu.vocab.core_vocab",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_84",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "easy",
+      "keywords": [
+        "คำศัพท์",
+        "กิจวัตร"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "deu.vocab.core_vocab.service",
+      "name_th": "คำศัพท์เรื่องการซื้อของ อาหาร และเดินทาง",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "deu.vocab.core_vocab",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "deu.vocab.core_vocab.daily"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_84",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "easy",
+      "keywords": [
+        "ซื้อของ",
+        "เดินทาง"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "deu.vocab.expression",
+      "name_th": "สำนวนและวลีสื่อสาร",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "deu.vocab",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "สำนวนและวลีสื่อสาร"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชั้นนี้เราจัดกลุ่มเอง เพราะผังสอบให้แต่ชื่อสาระ ไม่ได้ให้ชื่อหัวข้อย่อย"
+    },
+    {
+      "id": "deu.vocab.expression.function",
+      "name_th": "วลีสื่อสารที่ใช้บ่อย",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "deu.vocab.expression",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_84",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "วลีสื่อสาร"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "deu.vocab.expression.politeness",
+      "name_th": "ระดับความสุภาพ du และ Sie",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "deu.vocab.expression",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "deu.vocab.expression.function"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_84",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ความสุภาพ"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "deu.reading",
+      "name_th": "การอ่านตัวบทภาษาเยอรมัน",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "deu",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_84",
+          "typical_items": "20 ข้อ 40 คะแนน",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "การอ่านตัวบทภาษาเยอรมัน"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (ส่วนทางการ) · ผังสอบระบุ 20 ข้อ 40 คะแนน · หนักเท่าด้านการเขียน"
+    },
+    {
+      "id": "deu.reading.short_text",
+      "name_th": "ตัวบทสั้น",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "deu.reading",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ตัวบทสั้น"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชั้นนี้เราจัดกลุ่มเอง เพราะผังสอบให้แต่ชื่อสาระ ไม่ได้ให้ชื่อหัวข้อย่อย"
+    },
+    {
+      "id": "deu.reading.short_text.sign_ad",
+      "name_th": "ป้าย ประกาศ และโฆษณา",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "deu.reading.short_text",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_84",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "easy",
+      "keywords": [
+        "ป้าย",
+        "โฆษณา"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "deu.reading.short_text.message",
+      "name_th": "ข้อความและจดหมายสั้น",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "deu.reading.short_text",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "deu.reading.short_text.sign_ad"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_84",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ข้อความ",
+        "จดหมาย"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "deu.reading.long_text",
+      "name_th": "ตัวบทยาวและการวิเคราะห์",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "deu.reading",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ตัวบทยาวและการวิเคราะห์"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชั้นนี้เราจัดกลุ่มเอง เพราะผังสอบให้แต่ชื่อสาระ ไม่ได้ให้ชื่อหัวข้อย่อย"
+    },
+    {
+      "id": "deu.reading.long_text.main_idea",
+      "name_th": "จับใจความและหาข้อมูลเฉพาะจุด",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "deu.reading.long_text",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_84",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "จับใจความ"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "deu.reading.long_text.infer_tone",
+      "name_th": "อนุมานและน้ำเสียงของผู้เขียน",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "deu.reading.long_text",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "deu.reading.long_text.main_idea"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_84",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "อนุมาน",
+        "น้ำเสียง"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "deu.reading.long_text.vocab_context",
+      "name_th": "เดาความหมายคำจากบริบท",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "deu.reading.long_text",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "deu.reading.long_text.infer_tone"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_84",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "เดาศัพท์"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    }
+  ]
+}

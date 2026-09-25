@@ -1,0 +1,477 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tgat2.language.foundation.connectives",
+  "problems": [
+    {
+      "id": "prob.tgat2.language.foundation.connectives.0001",
+      "topic_ids": [
+        "tgat2.language.foundation.connectives"
+      ],
+      "primary_topic_id": "tgat2.language.foundation.connectives",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 30,
+      "stem_md": "\"ถนนสายนี้ปิดซ่อมมาทั้งสัปดาห์ ___ ผู้ใช้รถต้องเลี่ยงไปใช้ถนนเลียบคลอง\" คำเชื่อมใดเหมาะสมที่สุด",
+      "figures": [],
+      "choices": [
+        {
+          "md": "จึง",
+          "is_answer": true
+        },
+        {
+          "md": "หรือ",
+          "is_answer": false
+        },
+        {
+          "md": "ถึงแม้",
+          "is_answer": false
+        },
+        {
+          "md": "แต่",
+          "is_answer": false
+        },
+        {
+          "md": "เพราะ",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ข้อความแรกเป็นเหตุ ถนนปิด",
+          "why_md": "เหตุ"
+        },
+        {
+          "do_md": "ข้อความหลังเป็นผล ต้องเลี่ยงไปทางอื่น",
+          "why_md": "ผล จึงใช้ จึง"
+        }
+      ],
+      "answer_explanation_md": "ตอบ จึง เพราะถนนปิดเป็นเหตุ และการเลี่ยงเส้นทางเป็นผล",
+      "hints": [
+        "ข้อความแรกเป็นเหตุหรือผล",
+        "ข้อความหลังคาดได้จากข้อความแรกไหม",
+        "คำเชื่อมใดนำหน้าผล"
+      ],
+      "distractor_reasons": {
+        "1": "ไม่ใช่ทางเลือก",
+        "2": "ไม่ใช่การยอมรับแล้วค้าน",
+        "3": "ข้อความไม่ขัดแย้งกัน",
+        "4": "เพราะต้องนำหน้าเหตุ แต่ข้อความหลังเป็นผล"
+      },
+      "misconception_tags": [
+        "wrong_connective"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.language.foundation.connectives.0002",
+      "topic_ids": [
+        "tgat2.language.foundation.connectives"
+      ],
+      "primary_topic_id": "tgat2.language.foundation.connectives",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 35,
+      "stem_md": "\"___ ฝนจะตกหนักตั้งแต่เช้า นักกีฬาทุกคนก็ยังมาซ้อมครบ\" คำเชื่อมใดเหมาะสมที่สุด",
+      "figures": [],
+      "choices": [
+        {
+          "md": "เนื่องจาก",
+          "is_answer": false
+        },
+        {
+          "md": "ดังนั้น",
+          "is_answer": false
+        },
+        {
+          "md": "นอกจากนี้",
+          "is_answer": false
+        },
+        {
+          "md": "ถึงแม้",
+          "is_answer": true
+        },
+        {
+          "md": "ถ้า",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ฝนตกหนัก ควรทำให้ไม่มีคนมา",
+          "why_md": "สิ่งที่คาด"
+        },
+        {
+          "do_md": "แต่ทุกคนมา เป็นผลที่ไม่คาดคิด",
+          "why_md": "ขัดแย้ง ใช้ ถึงแม้...ก็"
+        }
+      ],
+      "answer_explanation_md": "ตอบ ถึงแม้ เพราะเป็นคู่ ถึงแม้...ก็ ที่แสดงผลที่ขัดกับสิ่งที่คาด",
+      "hints": [
+        "ถ้าฝนตกหนัก ปกติคนจะมาซ้อมไหม",
+        "ผลที่เกิดตรงกับที่คาดหรือสวนทาง",
+        "ดูคำ ก็ยัง ในประโยค"
+      ],
+      "distractor_reasons": {
+        "0": "ใช้กับเหตุผลที่ไปทางเดียวกัน",
+        "1": "ใช้นำหน้าผล ไม่ใช่ขึ้นต้นเหตุการณ์ที่ขัดแย้ง",
+        "2": "ไม่ใช่การเพิ่มข้อมูล",
+        "4": "เหตุการณ์เกิดแล้ว ไม่ใช่เงื่อนไข"
+      },
+      "misconception_tags": [
+        "wrong_connective"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.language.foundation.connectives.0003",
+      "topic_ids": [
+        "tgat2.language.foundation.connectives"
+      ],
+      "primary_topic_id": "tgat2.language.foundation.connectives",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 35,
+      "stem_md": "\"เราต้องส่งรายงานภายในวันศุกร์ ___ จะถูกหักคะแนน\" คำเชื่อมใดเหมาะสมที่สุด",
+      "figures": [],
+      "choices": [
+        {
+          "md": "มิฉะนั้น",
+          "is_answer": true
+        },
+        {
+          "md": "ดังนั้น",
+          "is_answer": false
+        },
+        {
+          "md": "และ",
+          "is_answer": false
+        },
+        {
+          "md": "ทั้งที่",
+          "is_answer": false
+        },
+        {
+          "md": "เพราะ",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ถูกหักคะแนน เกิดเมื่อไม่ส่งตามกำหนด",
+          "why_md": "เงื่อนไขตรงข้าม"
+        },
+        {
+          "do_md": "ใช้ มิฉะนั้น = ถ้าไม่ทำอย่างนั้น",
+          "why_md": "เลือกคำเชื่อม"
+        }
+      ],
+      "answer_explanation_md": "ตอบ มิฉะนั้น เพราะการถูกหักคะแนนเป็นผลของการไม่ส่งตามกำหนด",
+      "hints": [
+        "ถูกหักคะแนนเกิดเมื่อไร",
+        "ข้อความหลังเป็นผลของการทำหรือไม่ทำตามข้อความแรก",
+        "คำเชื่อมใดแปลว่า ถ้าไม่เช่นนั้น"
+      ],
+      "distractor_reasons": {
+        "1": "ส่งตรงเวลาไม่ได้ทำให้ถูกหักคะแนน",
+        "2": "ไม่ใช่การเพิ่มข้อมูล",
+        "3": "ไม่มีความขัดแย้ง",
+        "4": "การถูกหักคะแนนไม่ใช่เหตุของการส่งรายงาน"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.language.foundation.connectives.0004",
+      "topic_ids": [
+        "tgat2.language.foundation.connectives"
+      ],
+      "primary_topic_id": "tgat2.language.foundation.connectives",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 45,
+      "stem_md": "ข้อใดใช้คำเชื่อมไม่เหมาะสม",
+      "figures": [],
+      "choices": [
+        {
+          "md": "เขาเล่นเปียโนได้คล่องเพราะซ้อมทุกวัน",
+          "is_answer": false
+        },
+        {
+          "md": "แม้เขาจะซ้อมเปียโนทุกวัน ก็ยังเล่นเพลงนี้ไม่คล่อง",
+          "is_answer": false
+        },
+        {
+          "md": "เขาซ้อมเปียโนทุกวัน แต่เล่นได้คล่องขึ้นมาก",
+          "is_answer": true
+        },
+        {
+          "md": "เขาซ้อมเปียโนทุกวัน อีกทั้งยังเรียนทฤษฎีดนตรีเพิ่ม",
+          "is_answer": false
+        },
+        {
+          "md": "เขาซ้อมเปียโนทุกวัน จึงเล่นได้คล่องขึ้นมาก",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ซ้อมทุกวัน → เล่นคล่องขึ้น เป็นผลที่คาดได้",
+          "why_md": "ทางเดียวกัน"
+        },
+        {
+          "do_md": "ใช้ แต่ ซึ่งแสดงความขัดแย้ง จึงไม่เหมาะ",
+          "why_md": "ข้อที่ผิด"
+        }
+      ],
+      "answer_explanation_md": "ตอบ เขาซ้อมเปียโนทุกวัน แต่เล่นได้คล่องขึ้นมาก เพราะผลนี้คาดได้จากการซ้อม ไม่ได้ขัดแย้ง จึงไม่ควรใช้ แต่",
+      "hints": [
+        "ตรวจแต่ละข้อว่าสองข้อความไปทางเดียวกันหรือสวนกัน",
+        "คำเชื่อมที่ใช้ตรงกับความสัมพันธ์นั้นไหม",
+        "ข้อที่ผลคาดได้แต่ใช้ แต่ คือข้อผิด"
+      ],
+      "distractor_reasons": {
+        "0": "ผล-เหตุ ใช้ เพราะ ถูกต้อง",
+        "1": "ผลขัดกับที่คาด ใช้ แม้...ก็ ถูกต้อง",
+        "3": "เพิ่มเติม ใช้ อีกทั้ง ถูกต้อง",
+        "4": "เหตุ-ผล ใช้ จึง ถูกต้อง"
+      },
+      "misconception_tags": [
+        "wrong_connective"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.language.foundation.connectives.0005",
+      "topic_ids": [
+        "tgat2.language.foundation.connectives"
+      ],
+      "primary_topic_id": "tgat2.language.foundation.connectives",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 30,
+      "stem_md": "\"ร้านค้าหลายแห่งเลิกแจกถุงพลาสติก ___ ลูกค้าจำนวนมากเริ่มพกถุงผ้ามาเอง\" คำเชื่อมใดเหมาะสมที่สุด",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ทว่า",
+          "is_answer": false
+        },
+        {
+          "md": "เว้นแต่",
+          "is_answer": false
+        },
+        {
+          "md": "หรือไม่ก็",
+          "is_answer": false
+        },
+        {
+          "md": "เพราะว่า",
+          "is_answer": false
+        },
+        {
+          "md": "ส่งผลให้",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "เลิกแจกถุง เป็นเหตุ",
+          "why_md": "เหตุ"
+        },
+        {
+          "do_md": "ลูกค้าพกถุงผ้า เป็นผล",
+          "why_md": "ใช้คำเชื่อมนำหน้าผล ส่งผลให้"
+        }
+      ],
+      "answer_explanation_md": "ตอบ ส่งผลให้ เพราะการเลิกแจกถุงเป็นเหตุที่ทำให้ลูกค้าพกถุงผ้า",
+      "hints": [
+        "เหตุการณ์ใดเกิดก่อนและเป็นเหตุ",
+        "ข้อความหลังเป็นผลหรือเป็นเหตุ",
+        "คำเชื่อมใดนำหน้าผล"
+      ],
+      "distractor_reasons": {
+        "0": "ข้อความหลังไม่ได้ขัดกับข้อความแรก",
+        "1": "เป็นคำเชื่อมบอกข้อยกเว้น",
+        "2": "ไม่ใช่ทางเลือก",
+        "3": "ข้อความหลังไม่ใช่เหตุของข้อความแรก"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.language.foundation.connectives.0006",
+      "topic_ids": [
+        "tgat2.language.foundation.connectives"
+      ],
+      "primary_topic_id": "tgat2.language.foundation.connectives",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 30,
+      "stem_md": "\"การแข่งขันถูกเลื่อนออกไปอีกสองสัปดาห์ ___ สนามได้รับความเสียหายจากพายุเมื่อคืนนี้\" คำเชื่อมใดเหมาะสมที่สุด",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ดังนั้น",
+          "is_answer": false
+        },
+        {
+          "md": "เนื่องจาก",
+          "is_answer": true
+        },
+        {
+          "md": "มิฉะนั้น",
+          "is_answer": false
+        },
+        {
+          "md": "แต่",
+          "is_answer": false
+        },
+        {
+          "md": "อีกทั้ง",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ข้อความแรกเป็นผล การแข่งขันถูกเลื่อน",
+          "why_md": "ผล"
+        },
+        {
+          "do_md": "ข้อความหลังเป็นเหตุ สนามเสียหาย จึงใช้คำเชื่อมนำหน้าเหตุ",
+          "why_md": "เนื่องจาก"
+        }
+      ],
+      "answer_explanation_md": "ตอบ เนื่องจาก เพราะข้อความหลังเป็นเหตุของการเลื่อนการแข่งขัน",
+      "hints": [
+        "ข้อความใดเป็นเหตุ ข้อความใดเป็นผล",
+        "ผลอยู่ข้างหน้าหรือข้างหลัง",
+        "คำเชื่อมใดนำหน้าเหตุ"
+      ],
+      "distractor_reasons": {
+        "0": "ใช้นำหน้าผล แต่ข้อความหลังเป็นเหตุ",
+        "2": "ไม่ใช่เงื่อนไขตรงข้าม",
+        "3": "ข้อความสองส่วนไม่ขัดแย้งกัน",
+        "4": "ไม่ใช่การเพิ่มข้อมูลที่ไปทางเดียวกัน"
+      },
+      "misconception_tags": [
+        "wrong_connective"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    }
+  ],
+  "generated_from": "content/tgat2/language_core.py"
+}

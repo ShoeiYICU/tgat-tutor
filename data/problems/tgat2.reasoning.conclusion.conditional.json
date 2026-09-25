@@ -1,0 +1,473 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tgat2.reasoning.conclusion.conditional",
+  "problems": [
+    {
+      "id": "prob.tgat2.reasoning.conclusion.conditional.0001",
+      "topic_ids": [
+        "tgat2.reasoning.conclusion.conditional"
+      ],
+      "primary_topic_id": "tgat2.reasoning.conclusion.conditional",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 30,
+      "stem_md": "ถ้าวันนี้เป็นวันหยุด ห้องสมุดจะปิด วันนี้ห้องสมุดเปิด ข้อใดสรุปได้",
+      "figures": [],
+      "choices": [
+        {
+          "md": "วันนี้เป็นวันหยุด",
+          "is_answer": false
+        },
+        {
+          "md": "สรุปไม่ได้",
+          "is_answer": false
+        },
+        {
+          "md": "วันนี้ไม่ใช่วันหยุด",
+          "is_answer": true
+        },
+        {
+          "md": "พรุ่งนี้เป็นวันหยุด",
+          "is_answer": false
+        },
+        {
+          "md": "ห้องสมุดเปิดทุกวัน",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "P ⇒ Q: วันหยุด ⇒ ห้องสมุดปิด",
+          "why_md": "เขียนลูกศร"
+        },
+        {
+          "do_md": "ห้องสมุดเปิด = ไม่ Q จึงได้ ไม่ P",
+          "why_md": "ย้อนพร้อมปฏิเสธ"
+        }
+      ],
+      "answer_explanation_md": "ตอบ วันนี้ไม่ใช่วันหยุด เพราะถ้าเป็นวันหยุด ห้องสมุดต้องปิด แต่ห้องสมุดเปิด",
+      "hints": [
+        "เขียนเงื่อนไขเป็นลูกศร",
+        "ห้องสมุดเปิดคือปฏิเสธส่วนไหนของเงื่อนไข",
+        "ไม่ Q สรุปอะไรได้"
+      ],
+      "distractor_reasons": {
+        "0": "ขัดกับเงื่อนไข ถ้าเป็นวันหยุดห้องสมุดต้องปิด",
+        "1": "สรุปได้ด้วยการย้อนพร้อมปฏิเสธ",
+        "3": "ไม่มีข้อมูล",
+        "4": "ขัดกับเงื่อนไขที่ห้องสมุดปิดวันหยุด"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.reasoning.conclusion.conditional.0002",
+      "topic_ids": [
+        "tgat2.reasoning.conclusion.conditional"
+      ],
+      "primary_topic_id": "tgat2.reasoning.conclusion.conditional",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 35,
+      "stem_md": "ถ้าฝึกซ้อมทุกวัน จะผ่านการคัดเลือก ปรางผ่านการคัดเลือก ข้อใดสรุปได้",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ปรางฝึกซ้อมทุกวันอย่างสม่ำเสมอแน่นอน",
+          "is_answer": false
+        },
+        {
+          "md": "สรุปไม่ได้ว่าปรางฝึกซ้อมทุกวันหรือไม่",
+          "is_answer": true
+        },
+        {
+          "md": "ปรางไม่ได้ฝึกซ้อมทุกวัน",
+          "is_answer": false
+        },
+        {
+          "md": "ปรางผ่านเพราะมีพรสวรรค์ด้านกีฬาโดยกำเนิด",
+          "is_answer": false
+        },
+        {
+          "md": "คนที่ผ่านการคัดเลือกทุกคนฝึกซ้อมทุกวัน",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "P ⇒ Q: ซ้อมทุกวัน ⇒ ผ่าน",
+          "why_md": "เขียนลูกศร"
+        },
+        {
+          "do_md": "รู้ Q (ผ่าน) สรุป P ไม่ได้",
+          "why_md": "การกลับทิศเป็นกับดัก"
+        }
+      ],
+      "answer_explanation_md": "ตอบ สรุปไม่ได้ เพราะรู้แค่ผล (ผ่าน) ซึ่งอาจเกิดจากเหตุอื่น การสรุปว่าฝึกทุกวันคือการกลับทิศเงื่อนไข",
+      "hints": [
+        "เขียนเงื่อนไขเป็นลูกศร",
+        "ปรางผ่านการคัดเลือก คือรู้ส่วนหน้าหรือส่วนหลังของลูกศร",
+        "รู้ส่วนหลังแล้วย้อนไปสรุปส่วนหน้าได้ไหม"
+      ],
+      "distractor_reasons": {
+        "0": "กลับทิศเงื่อนไข อาจผ่านด้วยเหตุอื่น",
+        "2": "ข้อมูลไม่ได้บอก",
+        "3": "ไม่มีข้อมูล",
+        "4": "กลับทิศเงื่อนไข"
+      },
+      "misconception_tags": [
+        "affirm_consequent"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.reasoning.conclusion.conditional.0003",
+      "topic_ids": [
+        "tgat2.reasoning.conclusion.conditional"
+      ],
+      "primary_topic_id": "tgat2.reasoning.conclusion.conditional",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 45,
+      "stem_md": "\"นักเรียนต้องมีคะแนนเฉลี่ยอย่างน้อย 3.00 จึงจะสมัครทุนนี้ได้\" ข้อใดสรุปได้",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ถ้าสมัครทุนนี้ได้ คะแนนเฉลี่ยต้องอย่างน้อย 3.00",
+          "is_answer": true
+        },
+        {
+          "md": "ทุกคนที่สมัครได้จะได้ทุน",
+          "is_answer": false
+        },
+        {
+          "md": "ถ้าคะแนนเฉลี่ยอย่างน้อย 3.00 จะสมัครได้แน่นอน",
+          "is_answer": false
+        },
+        {
+          "md": "คนที่คะแนนเฉลี่ยต่ำกว่า 3.00 อาจสมัครได้",
+          "is_answer": false
+        },
+        {
+          "md": "ถ้าคะแนนเฉลี่ยอย่างน้อย 3.00 จะได้ทุนนี้",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ต้อง...จึงจะ: สมัครได้ ⇒ คะแนน ≥ 3.00",
+          "why_md": "สิ่งที่ต้องมีอยู่ปลายลูกศร"
+        },
+        {
+          "do_md": "คะแนนจึงเป็นเงื่อนไขจำเป็น ไม่ใช่เพียงพอ",
+          "why_md": "มีคะแนนถึงยังไม่แน่ว่าสมัครได้"
+        }
+      ],
+      "answer_explanation_md": "ตอบ ถ้าสมัครทุนนี้ได้ คะแนนเฉลี่ยต้องอย่างน้อย 3.00 เพราะคะแนนเป็นเงื่อนไขจำเป็น ไม่ใช่เงื่อนไขเพียงพอ",
+      "hints": [
+        "แปลง ต้อง...จึงจะ เป็นลูกศร",
+        "สิ่งที่ต้องมีอยู่หัวหรือปลายลูกศร",
+        "เงื่อนไขจำเป็นกับเพียงพอต่างกันอย่างไร"
+      ],
+      "distractor_reasons": {
+        "1": "ไม่มีข้อมูล",
+        "2": "คะแนนเป็นเงื่อนไขจำเป็น อาจมีเงื่อนไขอื่นอีก",
+        "3": "ขัดกับเงื่อนไขจำเป็น",
+        "4": "คะแนนเป็นเงื่อนไขจำเป็นในการสมัคร ไม่ใช่เพียงพอที่จะได้ทุน"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.reasoning.conclusion.conditional.0004",
+      "topic_ids": [
+        "tgat2.reasoning.conclusion.conditional"
+      ],
+      "primary_topic_id": "tgat2.reasoning.conclusion.conditional",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 45,
+      "stem_md": "ถ้าไฟดับ ระบบสำรองไฟจะทำงาน ถ้าระบบสำรองไฟทำงาน เสียงเตือนจะดัง วันนี้เสียงเตือนไม่ดัง ข้อใดสรุปได้",
+      "figures": [],
+      "choices": [
+        {
+          "md": "วันนี้ไฟดับ",
+          "is_answer": false
+        },
+        {
+          "md": "สรุปไม่ได้",
+          "is_answer": false
+        },
+        {
+          "md": "ระบบสำรองไฟทำงาน",
+          "is_answer": false
+        },
+        {
+          "md": "วันนี้ไฟไม่ได้ดับ",
+          "is_answer": true
+        },
+        {
+          "md": "เสียงเตือนเสีย",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ไฟดับ ⇒ สำรองทำงาน ⇒ เสียงดัง",
+          "why_md": "ต่อลูกศรสองชั้น"
+        },
+        {
+          "do_md": "ไม่ดัง ⇒ สำรองไม่ทำงาน ⇒ ไฟไม่ดับ",
+          "why_md": "ย้อนพร้อมปฏิเสธทีละชั้น"
+        }
+      ],
+      "answer_explanation_md": "ตอบ วันนี้ไฟไม่ได้ดับ เพราะถ้าไฟดับ เสียงเตือนต้องดังผ่านระบบสำรอง แต่เสียงไม่ดัง",
+      "hints": [
+        "ต่อเงื่อนไขสองข้อเป็นลูกศรยาว",
+        "เสียงไม่ดังคือปฏิเสธปลายลูกศร",
+        "ย้อนพร้อมปฏิเสธทีละชั้นจนถึงต้นลูกศร"
+      ],
+      "distractor_reasons": {
+        "0": "ขัดกับเงื่อนไข",
+        "1": "ย้อนพร้อมปฏิเสธได้สองชั้น",
+        "2": "ถ้าทำงาน เสียงต้องดัง",
+        "4": "ไม่มีข้อมูล"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.reasoning.conclusion.conditional.0005",
+      "topic_ids": [
+        "tgat2.reasoning.conclusion.conditional"
+      ],
+      "primary_topic_id": "tgat2.reasoning.conclusion.conditional",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 35,
+      "stem_md": "ถ้าฝนตก การแข่งขันจะเลื่อน วันนี้ฝนไม่ตก ข้อใดสรุปได้",
+      "figures": [],
+      "choices": [
+        {
+          "md": "สรุปไม่ได้ว่าการแข่งขันเลื่อนหรือไม่",
+          "is_answer": true
+        },
+        {
+          "md": "พรุ่งนี้ฝนจะตก",
+          "is_answer": false
+        },
+        {
+          "md": "การแข่งขันเลื่อน",
+          "is_answer": false
+        },
+        {
+          "md": "การแข่งขันจะจัดขึ้นตามกำหนดการเดิมแน่นอน",
+          "is_answer": false
+        },
+        {
+          "md": "การแข่งขันถูกยกเลิกเพราะมีเหตุขัดข้องอื่น",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "P ⇒ Q: ฝนตก ⇒ เลื่อน",
+          "why_md": "เขียนลูกศร"
+        },
+        {
+          "do_md": "รู้ ไม่ P สรุป Q หรือ ไม่ Q ไม่ได้",
+          "why_md": "การปฏิเสธหน้าเป็นกับดัก"
+        }
+      ],
+      "answer_explanation_md": "ตอบ สรุปไม่ได้ เพราะการแข่งขันอาจเลื่อนด้วยเหตุอื่น การสรุปว่าไม่เลื่อนคือการปฏิเสธหน้า",
+      "hints": [
+        "เขียนเงื่อนไขเป็นลูกศร",
+        "ฝนไม่ตกคือปฏิเสธหัวหรือปลายลูกศร",
+        "ปฏิเสธหัวลูกศรแล้วสรุปอะไรได้"
+      ],
+      "distractor_reasons": {
+        "1": "ไม่มีข้อมูล",
+        "2": "ไม่มีข้อมูลรองรับ",
+        "3": "ปฏิเสธหน้า การแข่งขันอาจเลื่อนด้วยเหตุอื่น",
+        "4": "ไม่มีข้อมูล"
+      },
+      "misconception_tags": [
+        "deny_antecedent"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.reasoning.conclusion.conditional.0006",
+      "topic_ids": [
+        "tgat2.reasoning.conclusion.conditional"
+      ],
+      "primary_topic_id": "tgat2.reasoning.conclusion.conditional",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 4,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 2,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 45,
+      "stem_md": "ร้านจะให้ส่วนลดก็ต่อเมื่อลูกค้าเป็นสมาชิก ข้อใดสรุปได้แน่นอน",
+      "figures": [],
+      "choices": [
+        {
+          "md": "สมาชิกบางคนไม่ได้ส่วนลด",
+          "is_answer": false
+        },
+        {
+          "md": "ลูกค้าที่ได้ส่วนลดเป็นสมาชิก แต่สมาชิกอาจไม่ได้ส่วนลด",
+          "is_answer": false
+        },
+        {
+          "md": "ไม่มีข้อใดสรุปได้",
+          "is_answer": false
+        },
+        {
+          "md": "ลูกค้าที่ได้ส่วนลดบางคนไม่ใช่สมาชิก",
+          "is_answer": false
+        },
+        {
+          "md": "ลูกค้าที่ได้ส่วนลดทุกคนเป็นสมาชิก และสมาชิกทุกคนได้ส่วนลด",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ก็ต่อเมื่อ = เงื่อนไขสองทิศ",
+          "why_md": "ได้ส่วนลด ⇔ เป็นสมาชิก"
+        },
+        {
+          "do_md": "จึงสรุปได้ทั้งสองทิศ",
+          "why_md": "ได้ส่วนลด ⇒ สมาชิก และ สมาชิก ⇒ ได้ส่วนลด"
+        }
+      ],
+      "answer_explanation_md": "ตอบ ลูกค้าที่ได้ส่วนลดทุกคนเป็นสมาชิก และสมาชิกทุกคนได้ส่วนลด เพราะ ก็ต่อเมื่อ เป็นเงื่อนไขสองทิศ",
+      "hints": [
+        "ก็ต่อเมื่อ ต่างจาก ถ้า...แล้ว อย่างไร",
+        "เงื่อนไขนี้กลับทิศได้ไหม",
+        "ลองสรุปทั้งสองทิศ"
+      ],
+      "distractor_reasons": {
+        "0": "ก็ต่อเมื่อกลับทิศได้ สมาชิกจึงได้ส่วนลด",
+        "1": "ตีความก็ต่อเมื่อเป็นทิศเดียว",
+        "2": "ก็ต่อเมื่อให้ข้อมูลสองทิศ",
+        "3": "ขัดกับก็ต่อเมื่อ"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    }
+  ],
+  "generated_from": "content/tgat2/reasoning_text.py"
+}

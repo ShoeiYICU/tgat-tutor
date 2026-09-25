@@ -1,0 +1,599 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tgat1.speaking.long_conversation.implied_meaning",
+  "problems": [
+    {
+      "id": "prob.tgat1.speaking.long_conversation.implied_meaning.0001",
+      "topic_ids": [
+        "tgat1.speaking.long_conversation.implied_meaning"
+      ],
+      "primary_topic_id": "tgat1.speaking.long_conversation.implied_meaning",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 35,
+      "stem_md": "**A:** Would you like to try my homemade durian cake?  \n**B:** Thanks, but I'm not really a fan of durian.  \n**A:** ______",
+      "figures": [],
+      "choices": [
+        {
+          "md": "No worries. How about some cookies?",
+          "is_answer": true
+        },
+        {
+          "md": "I made it with fresh durian from Chanthaburi.",
+          "is_answer": false
+        },
+        {
+          "md": "Why? Durian is the king of fruits!",
+          "is_answer": false
+        },
+        {
+          "md": "Great! Here's a big piece for you.",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "I'm not really a fan of = ไม่ชอบ",
+          "why_md": "B ปฏิเสธอย่างสุภาพ"
+        },
+        {
+          "do_md": "A ควรรับการปฏิเสธและเสนอทางอื่น",
+          "why_md": "No worries. How about some cookies?"
+        }
+      ],
+      "answer_explanation_md": "ตอบ No worries. How about some cookies? เพราะ B ปฏิเสธอ้อม ๆ ว่าไม่ชอบทุเรียน A จึงควรรับการปฏิเสธและเสนอของอื่น",
+      "hints": [
+        "B ตอบรับหรือปฏิเสธเค้กทุเรียน",
+        "I'm not really a fan of... หมายความว่าอะไร",
+        "เมื่ออีกฝ่ายปฏิเสธอย่างสุภาพ ควรตอบอย่างไร"
+      ],
+      "distractor_reasons": {
+        "1": "อธิบายเพิ่มเหมือนยังชวนต่อ ทั้งที่ B ปฏิเสธแล้ว",
+        "2": "ตั้งคำถามกับความชอบของ B ไม่สุภาพ",
+        "3": "ตีความว่า B ตอบรับ ทั้งที่ B ปฏิเสธอ้อม ๆ"
+      },
+      "misconception_tags": [
+        "miss_implied_refusal"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.long_conversation.implied_meaning.0002",
+      "topic_ids": [
+        "tgat1.speaking.long_conversation.implied_meaning"
+      ],
+      "primary_topic_id": "tgat1.speaking.long_conversation.implied_meaning",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 35,
+      "stem_md": "**A:** What do you think of the hotel?  \n**B:** Well, the room is a bit small, and the Wi-Fi is a little slow.  \n**A:** ______",
+      "figures": [],
+      "choices": [
+        {
+          "md": "The Wi-Fi password is on the card.",
+          "is_answer": false
+        },
+        {
+          "md": "Small rooms are very popular these days.",
+          "is_answer": false
+        },
+        {
+          "md": "Great, so you love it!",
+          "is_answer": false
+        },
+        {
+          "md": "So you're not very happy with it.",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "a bit small / a little slow = บ่นแบบสุภาพ",
+          "why_md": "B ไม่ค่อยพอใจ"
+        },
+        {
+          "do_md": "A สรุปความรู้สึกของ B ได้ถูก",
+          "why_md": "So you're not very happy with it."
+        }
+      ],
+      "answer_explanation_md": "ตอบ So you're not very happy with it. เพราะ B บ่นแบบสุภาพด้วย a bit และ a little ซึ่งแปลว่าไม่ค่อยพอใจ",
+      "hints": [
+        "B พูดถึงโรงแรมในทางบวกหรือลบ",
+        "a bit... ใช้บ่นแบบสุภาพหรือชม",
+        "หาตัวเลือกที่เข้าใจความรู้สึกของ B ได้ถูก"
+      ],
+      "distractor_reasons": {
+        "0": "ให้ข้อมูลที่ไม่ตอบสนองต่อความรู้สึกของ B",
+        "1": "ไม่ตอบสนองต่อสิ่งที่ B บ่น",
+        "2": "ตีความผิดว่า B ชอบ ทั้งที่ B บ่น"
+      },
+      "misconception_tags": [
+        "miss_implied_refusal"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.long_conversation.implied_meaning.0003",
+      "topic_ids": [
+        "tgat1.speaking.long_conversation.implied_meaning"
+      ],
+      "primary_topic_id": "tgat1.speaking.long_conversation.implied_meaning",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 35,
+      "stem_md": "**A:** Can we meet tomorrow to finish the project?  \n**B:** Tomorrow's not the best time for me.  \n**A:** ______",
+      "figures": [],
+      "choices": [
+        {
+          "md": "Why is tomorrow the best time?",
+          "is_answer": false
+        },
+        {
+          "md": "OK. When are you free?",
+          "is_answer": true
+        },
+        {
+          "md": "Perfect. See you tomorrow at nine.",
+          "is_answer": false
+        },
+        {
+          "md": "Good. Tomorrow is the best time for me, too.",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "not the best time = ไม่สะดวก",
+          "why_md": "B ปฏิเสธวันพรุ่งนี้"
+        },
+        {
+          "do_md": "A ต้องหาเวลาใหม่",
+          "why_md": "OK. When are you free?"
+        }
+      ],
+      "answer_explanation_md": "ตอบ OK. When are you free? เพราะ B บอกอ้อม ๆ ว่าพรุ่งนี้ไม่สะดวก A จึงควรถามเวลาอื่น",
+      "hints": [
+        "B สะดวกพรุ่งนี้ไหม",
+        "not the best time for me แปลว่าอะไร",
+        "ถ้าอีกฝ่ายไม่สะดวก ควรถามอะไรต่อ"
+      ],
+      "distractor_reasons": {
+        "0": "ตีความ not the best ผิดความหมาย",
+        "2": "ตีความว่า B ตกลง ทั้งที่ B ปฏิเสธอ้อม ๆ",
+        "3": "ใช้คำว่า best time เหมือนเห็นด้วย ทั้งที่ B บอกว่าไม่สะดวก"
+      },
+      "misconception_tags": [
+        "miss_implied_refusal"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.long_conversation.implied_meaning.0004",
+      "topic_ids": [
+        "tgat1.speaking.long_conversation.implied_meaning"
+      ],
+      "primary_topic_id": "tgat1.speaking.long_conversation.implied_meaning",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 40,
+      "stem_md": "**A:** I'm going to wear sneakers to the job interview.  \n**B:** Hmm, you might want to wear formal shoes.  \n**A:** ______",
+      "figures": [],
+      "choices": [
+        {
+          "md": "You're right. I'll wear my formal shoes instead.",
+          "is_answer": true
+        },
+        {
+          "md": "Why do you want to wear formal shoes?",
+          "is_answer": false
+        },
+        {
+          "md": "I don't have an interview tomorrow.",
+          "is_answer": false
+        },
+        {
+          "md": "Yes, I want sneakers, too.",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "you might want to... = คำแนะนำอ้อม ๆ",
+          "why_md": "B แนะนำให้ใส่รองเท้าทางการ"
+        },
+        {
+          "do_md": "A รับคำแนะนำ",
+          "why_md": "You're right. I'll wear my formal shoes instead."
+        }
+      ],
+      "answer_explanation_md": "ตอบ You're right. I'll wear my formal shoes instead. เพราะ you might want to เป็นคำแนะนำอ้อม ๆ ให้ A ใส่รองเท้าทางการ",
+      "hints": [
+        "you might want to... ใครเป็นคนที่ควรทำ",
+        "B กำลังบอกความต้องการของตัวเอง หรือแนะนำ A",
+        "หาตัวเลือกที่ตอบสนองต่อคำแนะนำ"
+      ],
+      "distractor_reasons": {
+        "1": "ตีความ you might want to ว่า B อยากใส่เอง",
+        "2": "ขัดกับที่ A เพิ่งพูดว่าจะไปสัมภาษณ์",
+        "3": "ไม่เข้าใจว่า B กำลังแนะนำ"
+      },
+      "misconception_tags": [
+        "miss_implied_refusal"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.long_conversation.implied_meaning.0005",
+      "topic_ids": [
+        "tgat1.speaking.long_conversation.implied_meaning"
+      ],
+      "primary_topic_id": "tgat1.speaking.long_conversation.implied_meaning",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 40,
+      "stem_md": "**A:** Could you lend me 2,000 baht until next month?  \n**B:** I'd love to help, but things are a bit tight for me right now.  \n**A:** ______",
+      "figures": [],
+      "choices": [
+        {
+          "md": "Why do you have tight clothes?",
+          "is_answer": false
+        },
+        {
+          "md": "Thanks! I'll pay you back next month.",
+          "is_answer": false
+        },
+        {
+          "md": "How tight? Can you lend me 1,000 then?",
+          "is_answer": false
+        },
+        {
+          "md": "I understand. Don't worry about it.",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "I'd love to help, but... + things are tight = ไม่มีเงินพอ",
+          "why_md": "B ปฏิเสธอย่างสุภาพ"
+        },
+        {
+          "do_md": "A ควรรับการปฏิเสธอย่างเข้าใจ",
+          "why_md": "I understand. Don't worry about it."
+        }
+      ],
+      "answer_explanation_md": "ตอบ I understand. Don't worry about it. เพราะ B ปฏิเสธอ้อม ๆ ว่าช่วงนี้เงินตึง A จึงควรแสดงความเข้าใจ",
+      "hints": [
+        "B ให้ยืมหรือไม่ให้ยืม",
+        "things are tight ในเรื่องเงินหมายความว่าอะไร",
+        "เมื่อถูกปฏิเสธเรื่องเงิน ควรตอบอย่างไร"
+      ],
+      "distractor_reasons": {
+        "0": "ตีความ tight ผิดความหมาย",
+        "1": "ตีความว่า B ให้ยืม ทั้งที่ B ปฏิเสธอ้อม ๆ",
+        "2": "ต่อรองต่อหลังถูกปฏิเสธ ไม่สุภาพ"
+      },
+      "misconception_tags": [
+        "miss_implied_refusal"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.long_conversation.implied_meaning.0006",
+      "topic_ids": [
+        "tgat1.speaking.long_conversation.implied_meaning"
+      ],
+      "primary_topic_id": "tgat1.speaking.long_conversation.implied_meaning",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 4,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 2,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 45,
+      "stem_md": "**A:** What did you think of my essay?  \n**B:** It's got some good ideas. I just wonder if the introduction could be a bit clearer.  \n**A:** ______",
+      "figures": [],
+      "choices": [
+        {
+          "md": "The introduction is the shortest part.",
+          "is_answer": false
+        },
+        {
+          "md": "OK, I'll rewrite the introduction.",
+          "is_answer": true
+        },
+        {
+          "md": "Great! So it's perfect and I can submit it now.",
+          "is_answer": false
+        },
+        {
+          "md": "Why do you wonder about my ideas?",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "I just wonder if... could be clearer = คำติอ้อม ๆ",
+          "why_md": "B แนะนำให้ปรับบทนำ"
+        },
+        {
+          "do_md": "A รับคำแนะนำ",
+          "why_md": "OK, I'll rewrite the introduction."
+        }
+      ],
+      "answer_explanation_md": "ตอบ OK, I'll rewrite the introduction. เพราะ B ติอ้อม ๆ ว่าบทนำควรชัดกว่านี้ A จึงควรรับไปแก้",
+      "hints": [
+        "B ชมอะไร และติอะไร",
+        "I just wonder if... could be clearer เป็นคำถามหรือคำแนะนำ",
+        "หาตัวเลือกที่ตอบสนองต่อคำแนะนำ"
+      ],
+      "distractor_reasons": {
+        "0": "ไม่ตอบสนองต่อคำแนะนำ",
+        "2": "ไม่ได้รับรู้คำแนะนำให้แก้บทนำ",
+        "3": "ตีความ wonder ผิด B ไม่ได้สงสัยเรื่องไอเดีย"
+      },
+      "misconception_tags": [
+        "miss_implied_refusal"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.long_conversation.implied_meaning.0007",
+      "topic_ids": [
+        "tgat1.speaking.long_conversation.implied_meaning"
+      ],
+      "primary_topic_id": "tgat1.speaking.long_conversation.implied_meaning",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 45,
+      "stem_md": "**A:** Joining us for lunch?  \n**B:** I brought enough work for the whole afternoon.  \n**What does B imply?:** ",
+      "figures": [],
+      "choices": [
+        {
+          "md": "B brought lunch.",
+          "is_answer": false
+        },
+        {
+          "md": "B finished the work.",
+          "is_answer": false
+        },
+        {
+          "md": "B probably will not join the lunch.",
+          "is_answer": true
+        },
+        {
+          "md": "B wants lunch at work.",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ติดตามบริบทและผู้พูด",
+          "why_md": "งานทำให้ B อยู่ที่เดิม"
+        },
+        {
+          "do_md": "ทดลองเติมแล้วอ่านต่อ",
+          "why_md": "คำตอบต้องทำให้บทสนทนาต่อเนื่อง ไม่ใช่แค่มีคำซ้ำ"
+        }
+      ],
+      "answer_explanation_md": "เหตุผลเป็นการปฏิเสธโดยอ้อม",
+      "hints": [
+        "ดูว่าใครพูดกับใครและต้องการอะไร",
+        "ใช้ประโยคก่อนและหลังช่องว่างร่วมกัน",
+        "ตัดตัวเลือกที่มีคำซ้ำแต่ทำหน้าที่ผิด"
+      ],
+      "distractor_reasons": {
+        "0": "กรรมคือ work",
+        "1": "ขัดกับงานทั้งบ่าย",
+        "3": "ไม่ได้ชวน"
+      },
+      "misconception_tags": [
+        "miss_implied_refusal"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.long_conversation.implied_meaning.0008",
+      "topic_ids": [
+        "tgat1.speaking.long_conversation.implied_meaning"
+      ],
+      "primary_topic_id": "tgat1.speaking.long_conversation.implied_meaning",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 5,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": true,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 60,
+      "stem_md": "**A:** Can you review this tonight?  \n**B:** I have an early flight, and the airport is two hours away.  \n**A:** I'll ask Priya instead.  \n**Why?:** ",
+      "figures": [],
+      "choices": [
+        {
+          "md": "Priya drives B.",
+          "is_answer": false
+        },
+        {
+          "md": "B recommended Priya.",
+          "is_answer": false
+        },
+        {
+          "md": "A understands that B is unlikely to review it.",
+          "is_answer": true
+        },
+        {
+          "md": "Priya books flights.",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ติดตามบริบทและผู้พูด",
+          "why_md": "A เปลี่ยนคนหลังได้ยินข้อจำกัด"
+        },
+        {
+          "do_md": "ทดลองเติมแล้วอ่านต่อ",
+          "why_md": "คำตอบต้องทำให้บทสนทนาต่อเนื่อง ไม่ใช่แค่มีคำซ้ำ"
+        }
+      ],
+      "answer_explanation_md": "A เข้าใจนัยปฏิเสธของ B",
+      "hints": [
+        "ดูว่าใครพูดกับใครและต้องการอะไร",
+        "ใช้ประโยคก่อนและหลังช่องว่างร่วมกัน",
+        "ตัดตัวเลือกที่มีคำซ้ำแต่ทำหน้าที่ผิด"
+      ],
+      "distractor_reasons": {
+        "0": "ไม่มีข้อมูล",
+        "1": "B ไม่เอ่ยชื่อ",
+        "3": "ผิดงาน"
+      },
+      "misconception_tags": [
+        "miss_implied_refusal"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    }
+  ],
+  "generated_from": "content/tgat1/speaking_conv.py"
+}

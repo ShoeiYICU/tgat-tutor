@@ -1,0 +1,483 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tpat3.thinking.sci_engineering.experiment_control",
+  "problems": [
+    {
+      "id": "prob.tpat3.thinking.sci_engineering.experiment_control.0001",
+      "topic_ids": [
+        "tpat3.thinking.sci_engineering.experiment_control"
+      ],
+      "primary_topic_id": "tpat3.thinking.sci_engineering.experiment_control",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 90,
+      "stem_md": "ต้องการทดสอบว่าอุณหภูมิมีผลต่อเวลาที่น้ำตาลละลายหรือไม่ ตัวแปรต้นคือข้อใด",
+      "figures": [],
+      "choices": [
+        {
+          "md": "จำนวนครั้งที่คน",
+          "is_answer": false
+        },
+        {
+          "md": "อุณหภูมิน้ำ",
+          "is_answer": true
+        },
+        {
+          "md": "เวลาที่น้ำตาลละลาย",
+          "is_answer": false
+        },
+        {
+          "md": "ปริมาตรน้ำ",
+          "is_answer": false
+        },
+        {
+          "md": "มวลน้ำตาล",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ดูสิ่งที่ตั้งใจเปลี่ยน",
+          "why_md": "อุณหภูมิ"
+        },
+        {
+          "do_md": "แยกจากผลที่วัด",
+          "why_md": "เวลาเป็นผล"
+        }
+      ],
+      "answer_explanation_md": "ตอบอุณหภูมิน้ำ",
+      "hints": [
+        "คำถามใช้คำว่าอะไรมีผลต่ออะไร",
+        "สิ่งแรกคือสาเหตุที่เปลี่ยน",
+        "สิ่งหลังคือผลที่วัด"
+      ],
+      "distractor_reasons": {
+        "0": "ควรควบคุม",
+        "2": "เป็นตัวแปรตาม",
+        "3": "ควรควบคุม",
+        "4": "ควรควบคุม"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.thinking.sci_engineering.experiment_control.0002",
+      "topic_ids": [
+        "tpat3.thinking.sci_engineering.experiment_control"
+      ],
+      "primary_topic_id": "tpat3.thinking.sci_engineering.experiment_control",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 110,
+      "stem_md": "ทดลองวัสดุกันความร้อน 3 ชนิดหุ้มแก้วน้ำร้อน ข้อใดควรควบคุม",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ไม่ต้องควบคุมเพราะวัดพร้อมกัน",
+          "is_answer": false
+        },
+        {
+          "md": "อุณหภูมิสุดท้ายให้เท่ากัน",
+          "is_answer": false
+        },
+        {
+          "md": "ชนิดวัสดุและอุณหภูมิสุดท้าย",
+          "is_answer": false
+        },
+        {
+          "md": "คุมสภาพเริ่มต้นและเวลาวัด",
+          "is_answer": true
+        },
+        {
+          "md": "เฉพาะปริมาตรน้ำ",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ระบุตัวแปรต้น",
+          "why_md": "ชนิดวัสดุ"
+        },
+        {
+          "do_md": "คุมสิ่งที่มีผลต่อการเย็น",
+          "why_md": "สภาพเริ่มต้น ภาชนะ เวลา"
+        }
+      ],
+      "answer_explanation_md": "ตอบควบคุมเงื่อนไขเริ่มต้นและเวลาวัดทั้งหมด",
+      "hints": [
+        "อะไรควรต่างกันเพียงอย่างเดียว",
+        "ความร้อนเริ่มต้นต้องเท่ากันไหม",
+        "รูปทรงภาชนะมีผลต่อการถ่ายเท"
+      ],
+      "distractor_reasons": {
+        "0": "การวัดพร้อมไม่ลบความต่างเริ่มต้น",
+        "1": "เป็นผลที่ต้องวัด ไม่ควรบังคับ",
+        "2": "ทั้งตัวแปรต้นและตาม",
+        "4": "ยังมีปัจจัยแทรกอื่น"
+      },
+      "misconception_tags": [
+        "incomplete_controls"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.thinking.sci_engineering.experiment_control.0003",
+      "topic_ids": [
+        "tpat3.thinking.sci_engineering.experiment_control"
+      ],
+      "primary_topic_id": "tpat3.thinking.sci_engineering.experiment_control",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 4,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "high"
+      },
+      "est_seconds": 125,
+      "stem_md": "นักเรียนทดสอบแอปเตือนพักสายตาโดยให้ห้อง A ใช้แอป ห้อง B ไม่ใช้ แต่ห้อง A เรียนคอมพิวเตอร์วันละ 5 ชั่วโมง ห้อง B วันละ 2 ชั่วโมง ปัญหาหลักคืออะไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "แอปเป็นตัวแปรตาม",
+          "is_answer": false
+        },
+        {
+          "md": "จำนวนห้องมากเกินไป",
+          "is_answer": false
+        },
+        {
+          "md": "ต้องให้ทั้งสองห้องใช้แอป",
+          "is_answer": false
+        },
+        {
+          "md": "ไม่มีตัวแปรตาม",
+          "is_answer": false
+        },
+        {
+          "md": "ชั่วโมงหน้าจอรบกวนผล",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "หาปัจจัยที่ต่างนอกจากแอป",
+          "why_md": "ชั่วโมงหน้าจอ"
+        },
+        {
+          "do_md": "ดูผลต่ออาการล้า",
+          "why_md": "เวลาหน้าจอมีผลโดยตรง"
+        }
+      ],
+      "answer_explanation_md": "ตอบเวลาใช้หน้าจอ เพราะอาจอธิบายความต่างของอาการได้",
+      "hints": [
+        "สองห้องต่างกันเรื่องใดบ้าง",
+        "ปัจจัยนั้นมีผลต่อผลลัพธ์หรือไม่",
+        "จะแยกผลของแอปได้ไหม"
+      ],
+      "distractor_reasons": {
+        "0": "แอปเป็นตัวแปรต้น",
+        "1": "จริง ๆ จำนวนน้อยเกินและไม่ใช่ปัญหาหลักที่ถาม",
+        "2": "จะไม่มีกลุ่มเปรียบเทียบ",
+        "3": "ยังวัดอาการล้าตาได้"
+      },
+      "misconception_tags": [
+        "confounding_variable"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.thinking.sci_engineering.experiment_control.0004",
+      "topic_ids": [
+        "tpat3.thinking.sci_engineering.experiment_control"
+      ],
+      "primary_topic_id": "tpat3.thinking.sci_engineering.experiment_control",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 4,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "high"
+      },
+      "est_seconds": 130,
+      "stem_md": "การทดลองยาใหม่สุ่มผู้เข้าร่วมเป็นกลุ่มยาและยาหลอก และทั้งผู้ป่วยกับผู้ประเมินไม่รู้ว่าใครได้อะไร ประโยชน์สำคัญที่สุดคืออะไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "พิสูจน์กลไกระดับโมเลกุลทันที",
+          "is_answer": false
+        },
+        {
+          "md": "ทำให้ทุกคนตอบสนองเท่ากัน",
+          "is_answer": false
+        },
+        {
+          "md": "ลดอคติจากความคาดหวัง",
+          "is_answer": true
+        },
+        {
+          "md": "รับรองว่ายาปลอดภัยแน่นอน",
+          "is_answer": false
+        },
+        {
+          "md": "ทำให้ไม่ต้องมีผู้เข้าร่วมจำนวนมาก",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ระบุสิ่งที่การปกปิดเปลี่ยน",
+          "why_md": "ความรู้ว่าได้ยาอะไร"
+        },
+        {
+          "do_md": "เชื่อมกับการประเมิน",
+          "why_md": "ลด placebo และ observer bias"
+        }
+      ],
+      "answer_explanation_md": "ตอบลดอคติจากความคาดหวัง",
+      "hints": [
+        "ใครถูกปกปิดข้อมูล",
+        "ความคาดหวังเปลี่ยนรายงานอาการได้หรือไม่",
+        "การปกปิดเกี่ยวกับอคติหรือกลไก"
+      ],
+      "distractor_reasons": {
+        "0": "การทดลองนี้วัดผล ไม่ได้ระบุกลไกโดยอัตโนมัติ",
+        "1": "ชีววิทยายังแปรปรวน",
+        "3": "การปกปิดไม่รับรองความปลอดภัย",
+        "4": "ขนาดตัวอย่างยังสำคัญ"
+      },
+      "misconception_tags": [
+        "blinding_guarantees_truth"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.thinking.sci_engineering.experiment_control.0005",
+      "topic_ids": [
+        "tpat3.thinking.sci_engineering.experiment_control"
+      ],
+      "primary_topic_id": "tpat3.thinking.sci_engineering.experiment_control",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 5,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": true,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 140,
+      "stem_md": "พบว่าคนที่พกร่มมีอัตราเป็นหวัดสูงกว่าคนไม่พกร่ม ข้อสรุปใดสมเหตุสมผลที่สุด",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ยังสรุปว่าร่มทำให้เป็นหวัดไม่ได้ เพราะฝนหรือฤดูกาลอาจเป็นตัวแปรร่วม",
+          "is_answer": true
+        },
+        {
+          "md": "ห้ามใช้ร่มเพื่อลดหวัด",
+          "is_answer": false
+        },
+        {
+          "md": "ร่มทำให้ภูมิคุ้มกันลดลง",
+          "is_answer": false
+        },
+        {
+          "md": "คนเป็นหวัดจึงทำให้ฝนตก",
+          "is_answer": false
+        },
+        {
+          "md": "ผลพิสูจน์ว่าฝนไม่เกี่ยวกับหวัด",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "แยกสหสัมพันธ์จากเหตุ",
+          "why_md": "พบร่วมกันไม่พอ"
+        },
+        {
+          "do_md": "หาตัวแปรที่ทำให้ทั้งคู่เพิ่ม",
+          "why_md": "ฝนหรือฤดูกาล"
+        }
+      ],
+      "answer_explanation_md": "ตอบว่ายังสรุปเหตุไม่ได้ เพราะมีตัวแปรร่วม",
+      "hints": [
+        "ร่มมักถูกใช้เมื่อใด",
+        "สภาพอากาศอาจเกี่ยวกับพฤติกรรมและสุขภาพพร้อมกัน",
+        "ข้อมูลเป็นการทดลองหรือสังเกต"
+      ],
+      "distractor_reasons": {
+        "1": "เสนอการกระทำจากสหสัมพันธ์",
+        "2": "ไม่มีหลักฐานกลไก",
+        "3": "กลับเหตุผลแบบไม่มีมูล",
+        "4": "ตรงข้ามกับตัวแปรร่วมที่เป็นไปได้"
+      },
+      "misconception_tags": [
+        "correlation_as_causation"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.thinking.sci_engineering.experiment_control.0006",
+      "topic_ids": [
+        "tpat3.thinking.sci_engineering.experiment_control"
+      ],
+      "primary_topic_id": "tpat3.thinking.sci_engineering.experiment_control",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 5,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": true,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 150,
+      "stem_md": "ต้องเปรียบเทียบแผ่นกรอง 4 แบบ แต่ฝุ่นในอากาศเปลี่ยนตลอดวัน วิธีใดดีที่สุด",
+      "figures": [],
+      "choices": [
+        {
+          "md": "สุ่มลำดับทดสอบแต่ละแบบ ทำซ้ำหลายรอบ และบันทึกความเข้มข้นฝุ่นก่อนเข้า",
+          "is_answer": true
+        },
+        {
+          "md": "ทดสอบแบบ 1 ตอนเช้า แบบ 2 ตอนเที่ยง แบบ 3 ตอนเย็น แบบ 4 ตอนกลางคืน",
+          "is_answer": false
+        },
+        {
+          "md": "ใช้แผ่นกรองที่แพงที่สุดเป็นมาตรฐาน",
+          "is_answer": false
+        },
+        {
+          "md": "ทดสอบแต่ละแบบครั้งเดียวพร้อมกันคนละห้อง",
+          "is_answer": false
+        },
+        {
+          "md": "เลือกวันที่ฝุ่นดูคงที่ด้วยตา",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ระบุสิ่งรบกวน",
+          "why_md": "ฝุ่นตามเวลา"
+        },
+        {
+          "do_md": "ลดผลด้วยการสุ่มและทำซ้ำ",
+          "why_md": "กระจายความแปรปรวน"
+        },
+        {
+          "do_md": "วัดฐาน",
+          "why_md": "ใช้ความเข้มข้นก่อนเข้าเทียบประสิทธิภาพ"
+        }
+      ],
+      "answer_explanation_md": "ตอบสุ่มลำดับ ทำซ้ำ และวัดค่าฐาน",
+      "hints": [
+        "อย่าให้ชนิดกรองผูกกับเวลาใดเวลาหนึ่ง",
+        "ทำซ้ำช่วยเห็นความแปรปรวน",
+        "ควรวัดอากาศก่อนและหลังกรอง"
+      ],
+      "distractor_reasons": {
+        "1": "ชนิดกรองปนกับเวลา",
+        "2": "ราคาไม่ใช่การควบคุมการทดลอง",
+        "3": "ห้องเป็นตัวแปรแทรกและไม่มีซ้ำ",
+        "4": "ไม่มีการวัดและยังเปลี่ยนได้"
+      },
+      "misconception_tags": [
+        "time_order_confound"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    }
+  ],
+  "generated_from": "content/tpat3/thinking.py"
+}

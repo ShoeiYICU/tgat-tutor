@@ -1,0 +1,947 @@
+{
+  "schema_version": "1.0",
+  "subject": "fra",
+  "subject_name_th": "A-Level ภาษาฝรั่งเศส",
+  "exam_codes": [
+    "ALEVEL_83"
+  ],
+  "source_note": "ยืนยันโครงสอบแล้วจาก mytcas.com/blueprint/a-level-83-fra/ (ตรวจ 21 กันยายน 2569): 50 ข้อ 100 คะแนน 90 นาที ปรนัย 4 ตัวเลือก | 5 ด้าน พร้อมจำนวนข้อครบ คือ ทักษะการสื่อสารทั่วไป 15 ข้อ (แยกเป็น การใช้คำศัพท์และสำนวน 5 ข้อ และ 'การสื่อสารในสถานการณ์ชีวิตประจำวัน' 10 ข้อ) / การใช้ไวยากรณ์พื้นฐาน 15 ข้อ / ความสามารถในการอ่านในชีวิตประจำวัน 10 ข้อ / ความสามารถในการเขียนในชีวิตประจำวัน 8 ข้อ / ความรู้ด้านวัฒนธรรมฝรั่งเศส 2 ข้อ | ผังสอบไม่ได้ให้รายการหัวข้อย่อยของแต่ละด้าน ชั้นหัวข้อและ leaf ในผังนี้จึงเป็นการจัดกลุ่มและซอยของเราเอง ไม่ใช่รายการทางการ",
+  "topics": [
+    {
+      "id": "fra",
+      "name_th": "A-Level ภาษาฝรั่งเศส",
+      "name_en": "",
+      "kind": "subject",
+      "parent": null,
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ALEVEL_83",
+        "ภาษาฝรั่งเศส"
+      ],
+      "curriculum_ref": null,
+      "notes": "วิชาภาษาที่สาม | โครงสอบยืนยันแล้ว: 50 ข้อ 100 คะแนน 90 นาที **ปรนัย 4 ตัวเลือก** ใช้ format mcq4 | **วิชานี้ template ไม่ได้** ต้องแต่งโจทย์มือ 20 ข้อต่อหัวข้อตามสเปค | เนื้อหาต้องมีเจ้าของภาษาหรือผู้สอนภาษานั้นตรวจ เพราะความถูกต้องทางภาษา และความเหมาะสมทางวัฒนธรรมเครื่องตรวจไม่ได้ ตั้ง review_status เป็น ai_draft_needs_fact_check ทุกไฟล์ | ผังสอบไม่ได้ระบุระดับ CEFR หรือระดับความสามารถอ้างอิง ห้ามอ้างระดับเองในบทเรียน | คนสอบน้อยที่สุดในกลุ่ม A-Level จึงอยู่ท้ายลำดับการผลิต | **วิชานี้เป็นภาษาเดียวที่ผังสอบให้จำนวนข้อครบทุกด้าน** จึงรู้น้ำหนักแน่ชัด: สื่อสารทั่วไป 15 / ไวยากรณ์ 15 / อ่าน 10 / เขียน 8 / วัฒนธรรม 2"
+    },
+    {
+      "id": "fra.communication",
+      "name_th": "ทักษะการสื่อสารทั่วไป",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "fra",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_83",
+          "typical_items": "15 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ทักษะการสื่อสารทั่วไป"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (ส่วนทางการ) · ผังสอบระบุ 15 ข้อ"
+    },
+    {
+      "id": "fra.communication.vocab_idiom",
+      "name_th": "การใช้คำศัพท์และสำนวน",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "fra.communication",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "การใช้คำศัพท์และสำนวน"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ) · ผังสอบระบุ 5 ข้อ"
+    },
+    {
+      "id": "fra.communication.vocab_idiom.core_vocab",
+      "name_th": "คลังคำศัพท์พื้นฐานที่ออกสอบบ่อย",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "fra.communication.vocab_idiom",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_83",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "easy",
+      "keywords": [
+        "คำศัพท์"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "fra.communication.vocab_idiom.idiom",
+      "name_th": "สำนวนที่ใช้ในชีวิตประจำวัน",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "fra.communication.vocab_idiom",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "fra.communication.vocab_idiom.core_vocab"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_83",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "สำนวน"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "fra.communication.daily_situation",
+      "name_th": "การสื่อสารในสถานการณ์ชีวิตประจำวัน",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "fra.communication",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "การสื่อสารในสถานการณ์ชีวิตประจำวัน"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ) · ผังสอบระบุ 10 ข้อ · ชื่อคัดจากผังสอบตรงตัว"
+    },
+    {
+      "id": "fra.communication.daily_situation.greeting",
+      "name_th": "ทักทาย แนะนำตัว และกล่าวลา",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "fra.communication.daily_situation",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_83",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "easy",
+      "keywords": [
+        "ทักทาย",
+        "แนะนำตัว"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "fra.communication.daily_situation.service",
+      "name_th": "ร้านค้า ร้านอาหาร และการเดินทาง",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "fra.communication.daily_situation",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "fra.communication.daily_situation.greeting"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_83",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ร้านอาหาร",
+        "เดินทาง"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "fra.communication.daily_situation.request",
+      "name_th": "ขอร้อง ขออนุญาต และเสนอความช่วยเหลือ",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "fra.communication.daily_situation",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "fra.communication.daily_situation.service"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_83",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ขอร้อง",
+        "ขออนุญาต"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "fra.communication.daily_situation.opinion",
+      "name_th": "แสดงความเห็นและความรู้สึก",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "fra.communication.daily_situation",
+      "order": 4,
+      "grade_band": "mixed",
+      "requires": [
+        "fra.communication.daily_situation.request"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_83",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ความเห็น"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "fra.grammar",
+      "name_th": "การใช้ไวยากรณ์พื้นฐาน",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "fra",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_83",
+          "typical_items": "15 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "การใช้ไวยากรณ์พื้นฐาน"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (ส่วนทางการ) · ผังสอบระบุ 15 ข้อ · น้ำหนักเท่ากับด้านการสื่อสาร"
+    },
+    {
+      "id": "fra.grammar.noun_article",
+      "name_th": "คำนาม คำนำหน้านาม และคำคุณศัพท์",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "fra.grammar",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "คำนาม คำนำหน้านาม และคำคุณศัพท์"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชั้นนี้เราจัดกลุ่มเอง เพราะผังสอบให้แต่ชื่อสาระ ไม่ได้ให้ชื่อหัวข้อย่อย"
+    },
+    {
+      "id": "fra.grammar.noun_article.gender_number",
+      "name_th": "เพศและพจน์ของคำนาม",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "fra.grammar.noun_article",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_83",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "เพศคำนาม",
+        "พจน์"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "fra.grammar.noun_article.article",
+      "name_th": "คำนำหน้านามชนิดต่าง ๆ",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "fra.grammar.noun_article",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "fra.grammar.noun_article.gender_number"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_83",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "คำนำหน้านาม"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "fra.grammar.noun_article.adjective",
+      "name_th": "คำคุณศัพท์และการวางตำแหน่ง",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "fra.grammar.noun_article",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "fra.grammar.noun_article.article"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_83",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "คำคุณศัพท์"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "fra.grammar.verb",
+      "name_th": "คำกริยาและกาล",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "fra.grammar",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "คำกริยาและกาล"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชั้นนี้เราจัดกลุ่มเอง เพราะผังสอบให้แต่ชื่อสาระ ไม่ได้ให้ชื่อหัวข้อย่อย"
+    },
+    {
+      "id": "fra.grammar.verb.present",
+      "name_th": "การผันกริยาในปัจจุบันกาล",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "fra.grammar.verb",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_83",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ผันกริยา",
+        "ปัจจุบันกาล"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "fra.grammar.verb.past_future",
+      "name_th": "อดีตกาลและอนาคตกาล",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "fra.grammar.verb",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "fra.grammar.verb.present"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_83",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "อดีตกาล",
+        "อนาคตกาล"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "fra.grammar.verb.pronominal",
+      "name_th": "กริยาสรรพนามและรูปปฏิเสธ",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "fra.grammar.verb",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "fra.grammar.verb.past_future"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_83",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "กริยาสรรพนาม",
+        "ปฏิเสธ"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "fra.grammar.sentence",
+      "name_th": "โครงสร้างประโยค",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "fra.grammar",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "โครงสร้างประโยค"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชั้นนี้เราจัดกลุ่มเอง เพราะผังสอบให้แต่ชื่อสาระ ไม่ได้ให้ชื่อหัวข้อย่อย"
+    },
+    {
+      "id": "fra.grammar.sentence.pronoun",
+      "name_th": "สรรพนามและคำแทน",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "fra.grammar.sentence",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_83",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "สรรพนาม"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "fra.grammar.sentence.preposition",
+      "name_th": "คำบุพบทและคำเชื่อม",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "fra.grammar.sentence",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "fra.grammar.sentence.pronoun"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_83",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "บุพบท",
+        "คำเชื่อม"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "fra.reading",
+      "name_th": "ความสามารถในการอ่านในชีวิตประจำวัน",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "fra",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_83",
+          "typical_items": "10 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ความสามารถในการอ่านในชีวิตประจำวัน"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (ส่วนทางการ) · ผังสอบระบุ 10 ข้อ"
+    },
+    {
+      "id": "fra.reading.short_text",
+      "name_th": "ข้อความสั้นในชีวิตประจำวัน",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "fra.reading",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ข้อความสั้นในชีวิตประจำวัน"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชั้นนี้เราจัดกลุ่มเอง เพราะผังสอบให้แต่ชื่อสาระ ไม่ได้ให้ชื่อหัวข้อย่อย"
+    },
+    {
+      "id": "fra.reading.short_text.sign_notice",
+      "name_th": "ป้าย ประกาศ และข้อความสั้น",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "fra.reading.short_text",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_83",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "easy",
+      "keywords": [
+        "ป้าย",
+        "ประกาศ"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "fra.reading.short_text.message",
+      "name_th": "ข้อความ อีเมล และโพสต์",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "fra.reading.short_text",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "fra.reading.short_text.sign_notice"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_83",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ข้อความ",
+        "อีเมล"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "fra.reading.passage",
+      "name_th": "บทอ่านและการจับใจความ",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "fra.reading",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "บทอ่านและการจับใจความ"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชั้นนี้เราจัดกลุ่มเอง เพราะผังสอบให้แต่ชื่อสาระ ไม่ได้ให้ชื่อหัวข้อย่อย"
+    },
+    {
+      "id": "fra.reading.passage.main_idea",
+      "name_th": "จับใจความและหาข้อมูลเฉพาะจุด",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "fra.reading.passage",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_83",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "จับใจความ"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "fra.reading.passage.infer",
+      "name_th": "อนุมานจากบทอ่าน",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "fra.reading.passage",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "fra.reading.passage.main_idea"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_83",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "อนุมาน"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "fra.writing",
+      "name_th": "ความสามารถในการเขียนในชีวิตประจำวัน",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "fra",
+      "order": 4,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_83",
+          "typical_items": "8 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ความสามารถในการเขียนในชีวิตประจำวัน"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (ส่วนทางการ) · ผังสอบระบุ 8 ข้อ"
+    },
+    {
+      "id": "fra.writing.complete",
+      "name_th": "เติมข้อความให้สมบูรณ์",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "fra.writing",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "เติมข้อความให้สมบูรณ์"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชั้นนี้เราจัดกลุ่มเอง เพราะผังสอบให้แต่ชื่อสาระ ไม่ได้ให้ชื่อหัวข้อย่อย"
+    },
+    {
+      "id": "fra.writing.complete.word_form",
+      "name_th": "เลือกรูปคำให้ถูกตามบริบท",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "fra.writing.complete",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_83",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "รูปคำ",
+        "บริบท"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "fra.writing.complete.connector",
+      "name_th": "ตัวเชื่อมความและลำดับข้อความ",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "fra.writing.complete",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "fra.writing.complete.word_form"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_83",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ตัวเชื่อม"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "fra.writing.compose",
+      "name_th": "การเรียบเรียงข้อความ",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "fra.writing",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "การเรียบเรียงข้อความ"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชั้นนี้เราจัดกลุ่มเอง เพราะผังสอบให้แต่ชื่อสาระ ไม่ได้ให้ชื่อหัวข้อย่อย"
+    },
+    {
+      "id": "fra.writing.compose.order",
+      "name_th": "เรียงประโยคให้เป็นย่อหน้า",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "fra.writing.compose",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_83",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "เรียงประโยค"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "fra.writing.compose.register",
+      "name_th": "ระดับภาษาในการเขียนที่เหมาะกับผู้รับ",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "fra.writing.compose",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "fra.writing.compose.order"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_83",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "ระดับภาษา"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "fra.culture",
+      "name_th": "ความรู้ด้านวัฒนธรรมฝรั่งเศส",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "fra",
+      "order": 5,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_83",
+          "typical_items": "2 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ความรู้ด้านวัฒนธรรมฝรั่งเศส"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (ส่วนทางการ) · ผังสอบระบุ 2 ข้อ · ข้อน้อยที่สุด แต่เป็นคะแนนที่เก็บได้ง่ายถ้าเตรียม"
+    },
+    {
+      "id": "fra.culture.culture_knowledge",
+      "name_th": "วัฒนธรรมและสังคมฝรั่งเศส",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "fra.culture",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "วัฒนธรรมและสังคมฝรั่งเศส"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชั้นนี้เราจัดกลุ่มเอง เพราะผังสอบให้แต่ชื่อสาระ ไม่ได้ให้ชื่อหัวข้อย่อย"
+    },
+    {
+      "id": "fra.culture.culture_knowledge.daily_culture",
+      "name_th": "วิถีชีวิต อาหาร และเทศกาล",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "fra.culture.culture_knowledge",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_83",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "easy",
+      "keywords": [
+        "วัฒนธรรม",
+        "เทศกาล"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ | มีชื่อเทศกาล สถานที่ และธรรมเนียม ต้องให้ผู้รู้ภาษาตรวจ"
+    },
+    {
+      "id": "fra.culture.culture_knowledge.geography_history",
+      "name_th": "ภูมิศาสตร์และประวัติศาสตร์โดยสังเขป",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "fra.culture.culture_knowledge",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "fra.culture.culture_knowledge.daily_culture"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_83",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ภูมิศาสตร์",
+        "ประวัติศาสตร์"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ | มีชื่อสถานที่ บุคคล และปี ต้องให้ผู้รู้ภาษาตรวจ"
+    }
+  ]
+}

@@ -1,0 +1,1374 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tgat2.spatial.foundation.symmetry_reflection",
+  "problems": [
+    {
+      "id": "prob.tgat2.spatial.foundation.symmetry_reflection.0001",
+      "topic_ids": [
+        "tgat2.spatial.foundation.symmetry_reflection"
+      ],
+      "primary_topic_id": "tgat2.spatial.foundation.symmetry_reflection",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 ด้านมิติสัมพันธ์ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 30,
+      "stem_md": "รูปที่ 1 กับรูปที่ 2 สัมพันธ์กันอย่างไร\n\n[[fig1]]\n\n[[fig2]]",
+      "figures": [
+        {
+          "id": "fig1",
+          "type": "svg",
+          "alt": "รูปบนตาราง 2 x 3 ช่อง · แถวที่ 1 มีช่องที่ 1, 2 / แถวที่ 2 มีช่องที่ 1 / แถวที่ 3 มีช่องที่ 1",
+          "svg": "<svg viewBox=\"0 0 94 94\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"86\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"86\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"86\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"86\"/><line x1=\"8\" y1=\"8\" x2=\"86\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"86\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"86\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"86\" y2=\"86\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"9\" width=\"24\" height=\"24\"/></g></svg>",
+          "caption": "รูปที่ 1"
+        },
+        {
+          "id": "fig2",
+          "type": "svg",
+          "alt": "รูปบนตาราง 2 x 3 ช่อง · แถวที่ 1 มีช่องที่ 1 / แถวที่ 2 มีช่องที่ 1 / แถวที่ 3 มีช่องที่ 1, 2",
+          "svg": "<svg viewBox=\"0 0 94 94\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"86\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"86\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"86\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"86\"/><line x1=\"8\" y1=\"8\" x2=\"86\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"86\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"86\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"86\" y2=\"86\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"61\" width=\"24\" height=\"24\"/></g></svg>",
+          "caption": "รูปที่ 2"
+        }
+      ],
+      "choices": [
+        {
+          "md": "เป็นภาพหมุน 270 องศา",
+          "is_answer": false
+        },
+        {
+          "md": "เป็นคนละรูปกัน",
+          "is_answer": false
+        },
+        {
+          "md": "เป็นรูปเดียวกันไม่ได้หมุน",
+          "is_answer": false
+        },
+        {
+          "md": "เป็นภาพสะท้อน",
+          "is_answer": true
+        },
+        {
+          "md": "เป็นภาพหมุน 180 องศา",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "เลือกส่วนที่สังเกตง่ายสองส่วน เช่นแถวที่ยาวที่สุด กับช่องที่ยื่นออกมาช่องเดียว",
+          "why_md": "ต้องใช้สองส่วนเพื่อดูความสัมพันธ์ ถ้าดูส่วนเดียวจะบอกไม่ได้ว่าสลับข้างไหม"
+        },
+        {
+          "do_md": "ดูว่าช่องที่ยื่นออกอยู่ทางซ้ายหรือขวาของแถวที่ยาวที่สุดในทั้งสองรูป",
+          "why_md": "การหมุนไม่เปลี่ยนความสัมพันธ์ซ้ายขวา แต่การสะท้อนสลับเสมอ"
+        },
+        {
+          "do_md": "ในคู่นี้ความสัมพันธ์สลับข้าง จึงเป็นภาพสะท้อน",
+          "why_md": "สรุปจากหลักข้างต้นได้เลย ไม่ต้องลองหมุนในหัวทุกมุม"
+        }
+      ],
+      "answer_explanation_md": "เมื่อเทียบความสัมพันธ์ซ้ายขวาของสองส่วนในรูป พบว่าสลับข้าง จึงเป็นภาพสะท้อน หลักนี้ใช้ได้กับทุกรูปที่ไม่สมมาตร โดยไม่ต้องลองหมุนทีละมุม",
+      "hints": [
+        "อย่าพยายามหมุนทั้งรูปในหัว ให้เลือกส่วนที่สังเกตง่ายสองส่วนก่อน",
+        "ดูความสัมพันธ์ซ้ายขวาระหว่างสองส่วนนั้นในทั้งสองรูป",
+        "การหมุนไม่เคยสลับซ้ายขวา ส่วนการสะท้อนสลับเสมอ"
+      ],
+      "distractor_reasons": {
+        "0": "หมุนมุมไหนก็ไม่ทับกัน เพราะรูปนี้ไม่สมมาตร การสะท้อนจึงแยกจากการหมุนได้",
+        "1": "จำนวนช่องและรูปร่างเหมือนกันทุกประการ ต่างแค่การวาง",
+        "2": "สองรูปวางไม่เหมือนกัน ต้องมีการแปลงรูปเกิดขึ้น",
+        "4": "หมุนมุมนี้แล้วไม่ทับกัน เพราะลำดับซ้ายขวาสลับกันอยู่"
+      },
+      "misconception_tags": [
+        "called_reflection_a_rotation",
+        "different_shape",
+        "no_transform",
+        "wrong_rotation_angle"
+      ],
+      "template": {
+        "provider": "shape2d.rotation_or_reflection",
+        "answer_kind": "text",
+        "params": {
+          "n_cells": 4,
+          "box": 3
+        },
+        "stem_tpl": "รูปที่ 1 กับรูปที่ 2 สัมพันธ์กันอย่างไร\n\n[[fig1]]\n\n[[fig2]]",
+        "quality_rules": [
+          "ตัดสินว่าเป็นภาพหมุนหรือภาพสะท้อนด้วยการคำนวณ ไม่ใช่การมองเอา",
+          "รูปที่ใช้ต้องไม่สมมาตร ไม่งั้นภาพหมุนกับภาพสะท้อนจะแยกไม่ออกจริง ๆ",
+          "ตัวเลือกต้องครอบคลุมความเข้าใจผิดที่เกิดจริง ไม่ใช่ตัวเลือกที่เดาได้ว่าผิดทันที"
+        ]
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.spatial.foundation.symmetry_reflection.0002",
+      "topic_ids": [
+        "tgat2.spatial.foundation.symmetry_reflection"
+      ],
+      "primary_topic_id": "tgat2.spatial.foundation.symmetry_reflection",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 ด้านมิติสัมพันธ์ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 30,
+      "stem_md": "รูปที่ 1 กับรูปที่ 2 สัมพันธ์กันอย่างไร\n\n[[fig1]]\n\n[[fig2]]",
+      "figures": [
+        {
+          "id": "fig1",
+          "type": "svg",
+          "alt": "รูปบนตาราง 2 x 3 ช่อง · แถวที่ 1 มีช่องที่ 1, 2 / แถวที่ 2 มีช่องที่ 1 / แถวที่ 3 มีช่องที่ 1",
+          "svg": "<svg viewBox=\"0 0 94 94\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"86\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"86\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"86\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"86\"/><line x1=\"8\" y1=\"8\" x2=\"86\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"86\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"86\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"86\" y2=\"86\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"9\" width=\"24\" height=\"24\"/></g></svg>",
+          "caption": "รูปที่ 1"
+        },
+        {
+          "id": "fig2",
+          "type": "svg",
+          "alt": "รูปบนตาราง 3 x 2 ช่อง · แถวที่ 1 มีช่องที่ 1 / แถวที่ 2 มีช่องที่ 1, 2, 3",
+          "svg": "<svg viewBox=\"0 0 94 94\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"86\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"86\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"86\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"86\"/><line x1=\"8\" y1=\"8\" x2=\"86\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"86\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"86\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"86\" y2=\"86\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"35\" width=\"24\" height=\"24\"/></g></svg>",
+          "caption": "รูปที่ 2"
+        }
+      ],
+      "choices": [
+        {
+          "md": "เป็นรูปเดียวกันไม่ได้หมุน",
+          "is_answer": false
+        },
+        {
+          "md": "เป็นภาพหมุน 270 องศา",
+          "is_answer": true
+        },
+        {
+          "md": "เป็นคนละรูปกัน",
+          "is_answer": false
+        },
+        {
+          "md": "เป็นภาพสะท้อนแล้วหมุนด้วย",
+          "is_answer": false
+        },
+        {
+          "md": "เป็นภาพสะท้อน",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "เลือกส่วนที่สังเกตง่ายสองส่วน เช่นแถวที่ยาวที่สุด กับช่องที่ยื่นออกมาช่องเดียว",
+          "why_md": "ต้องใช้สองส่วนเพื่อดูความสัมพันธ์ ถ้าดูส่วนเดียวจะบอกไม่ได้ว่าสลับข้างไหม"
+        },
+        {
+          "do_md": "ดูว่าช่องที่ยื่นออกอยู่ทางซ้ายหรือขวาของแถวที่ยาวที่สุดในทั้งสองรูป",
+          "why_md": "การหมุนไม่เปลี่ยนความสัมพันธ์ซ้ายขวา แต่การสะท้อนสลับเสมอ"
+        },
+        {
+          "do_md": "ในคู่นี้ความสัมพันธ์คงเดิม จึงเป็นภาพหมุน 270 องศา",
+          "why_md": "สรุปจากหลักข้างต้นได้เลย ไม่ต้องลองหมุนในหัวทุกมุม"
+        }
+      ],
+      "answer_explanation_md": "เมื่อเทียบความสัมพันธ์ซ้ายขวาของสองส่วนในรูป พบว่าไม่สลับข้าง จึงเป็นภาพหมุน หลักนี้ใช้ได้กับทุกรูปที่ไม่สมมาตร โดยไม่ต้องลองหมุนทีละมุม",
+      "hints": [
+        "อย่าพยายามหมุนทั้งรูปในหัว ให้เลือกส่วนที่สังเกตง่ายสองส่วนก่อน",
+        "ดูความสัมพันธ์ซ้ายขวาระหว่างสองส่วนนั้นในทั้งสองรูป",
+        "การหมุนไม่เคยสลับซ้ายขวา ส่วนการสะท้อนสลับเสมอ"
+      ],
+      "distractor_reasons": {
+        "0": "สองรูปวางไม่เหมือนกัน ถ้าไม่หมุนจะไม่ทับกัน",
+        "2": "จำนวนช่องและรูปร่างเหมือนกันทุกประการ ต่างแค่การวาง",
+        "3": "ไม่ต้องสะท้อนเลยก็หมุนให้ทับกันได้แล้ว",
+        "4": "สองรูปนี้หมุนให้ทับกันได้จริง จึงเป็นภาพหมุน ไม่ใช่ภาพสะท้อน"
+      },
+      "misconception_tags": [
+        "called_rotation_a_reflection",
+        "different_shape",
+        "extra_reflection",
+        "no_transform"
+      ],
+      "template": {
+        "provider": "shape2d.rotation_or_reflection",
+        "answer_kind": "text",
+        "params": {
+          "n_cells": 4,
+          "box": 3
+        },
+        "stem_tpl": "รูปที่ 1 กับรูปที่ 2 สัมพันธ์กันอย่างไร\n\n[[fig1]]\n\n[[fig2]]",
+        "quality_rules": [
+          "ตัดสินว่าเป็นภาพหมุนหรือภาพสะท้อนด้วยการคำนวณ ไม่ใช่การมองเอา",
+          "รูปที่ใช้ต้องไม่สมมาตร ไม่งั้นภาพหมุนกับภาพสะท้อนจะแยกไม่ออกจริง ๆ",
+          "ตัวเลือกต้องครอบคลุมความเข้าใจผิดที่เกิดจริง ไม่ใช่ตัวเลือกที่เดาได้ว่าผิดทันที"
+        ]
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.spatial.foundation.symmetry_reflection.0003",
+      "topic_ids": [
+        "tgat2.spatial.foundation.symmetry_reflection"
+      ],
+      "primary_topic_id": "tgat2.spatial.foundation.symmetry_reflection",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 ด้านมิติสัมพันธ์ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 40,
+      "stem_md": "รูปที่ 1 กับรูปที่ 2 สัมพันธ์กันอย่างไร\n\n[[fig1]]\n\n[[fig2]]",
+      "figures": [
+        {
+          "id": "fig1",
+          "type": "svg",
+          "alt": "รูปบนตาราง 2 x 3 ช่อง · แถวที่ 1 มีช่องที่ 1 / แถวที่ 2 มีช่องที่ 1, 2 / แถวที่ 3 มีช่องที่ 1, 2",
+          "svg": "<svg viewBox=\"0 0 94 94\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"86\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"86\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"86\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"86\"/><line x1=\"8\" y1=\"8\" x2=\"86\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"86\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"86\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"86\" y2=\"86\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"61\" width=\"24\" height=\"24\"/></g></svg>",
+          "caption": "รูปที่ 1"
+        },
+        {
+          "id": "fig2",
+          "type": "svg",
+          "alt": "รูปบนตาราง 2 x 3 ช่อง · แถวที่ 1 มีช่องที่ 1, 2 / แถวที่ 2 มีช่องที่ 1, 2 / แถวที่ 3 มีช่องที่ 1",
+          "svg": "<svg viewBox=\"0 0 94 94\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"86\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"86\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"86\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"86\"/><line x1=\"8\" y1=\"8\" x2=\"86\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"86\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"86\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"86\" y2=\"86\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/></g></svg>",
+          "caption": "รูปที่ 2"
+        }
+      ],
+      "choices": [
+        {
+          "md": "เป็นภาพหมุน 270 องศา",
+          "is_answer": false
+        },
+        {
+          "md": "เป็นรูปเดียวกันไม่ได้หมุน",
+          "is_answer": false
+        },
+        {
+          "md": "เป็นคนละรูปกัน",
+          "is_answer": false
+        },
+        {
+          "md": "เป็นภาพหมุน 180 องศา",
+          "is_answer": false
+        },
+        {
+          "md": "เป็นภาพสะท้อน",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "เลือกส่วนที่สังเกตง่ายสองส่วน เช่นแถวที่ยาวที่สุด กับช่องที่ยื่นออกมาช่องเดียว",
+          "why_md": "ต้องใช้สองส่วนเพื่อดูความสัมพันธ์ ถ้าดูส่วนเดียวจะบอกไม่ได้ว่าสลับข้างไหม"
+        },
+        {
+          "do_md": "ดูว่าช่องที่ยื่นออกอยู่ทางซ้ายหรือขวาของแถวที่ยาวที่สุดในทั้งสองรูป",
+          "why_md": "การหมุนไม่เปลี่ยนความสัมพันธ์ซ้ายขวา แต่การสะท้อนสลับเสมอ"
+        },
+        {
+          "do_md": "ในคู่นี้ความสัมพันธ์สลับข้าง จึงเป็นภาพสะท้อน",
+          "why_md": "สรุปจากหลักข้างต้นได้เลย ไม่ต้องลองหมุนในหัวทุกมุม"
+        }
+      ],
+      "answer_explanation_md": "เมื่อเทียบความสัมพันธ์ซ้ายขวาของสองส่วนในรูป พบว่าสลับข้าง จึงเป็นภาพสะท้อน หลักนี้ใช้ได้กับทุกรูปที่ไม่สมมาตร โดยไม่ต้องลองหมุนทีละมุม",
+      "hints": [
+        "อย่าพยายามหมุนทั้งรูปในหัว ให้เลือกส่วนที่สังเกตง่ายสองส่วนก่อน",
+        "ดูความสัมพันธ์ซ้ายขวาระหว่างสองส่วนนั้นในทั้งสองรูป",
+        "การหมุนไม่เคยสลับซ้ายขวา ส่วนการสะท้อนสลับเสมอ"
+      ],
+      "distractor_reasons": {
+        "0": "หมุนมุมไหนก็ไม่ทับกัน เพราะรูปนี้ไม่สมมาตร การสะท้อนจึงแยกจากการหมุนได้",
+        "1": "สองรูปวางไม่เหมือนกัน ต้องมีการแปลงรูปเกิดขึ้น",
+        "2": "จำนวนช่องและรูปร่างเหมือนกันทุกประการ ต่างแค่การวาง",
+        "3": "หมุนมุมนี้แล้วไม่ทับกัน เพราะลำดับซ้ายขวาสลับกันอยู่"
+      },
+      "misconception_tags": [
+        "called_reflection_a_rotation",
+        "different_shape",
+        "no_transform",
+        "wrong_rotation_angle"
+      ],
+      "template": {
+        "provider": "shape2d.rotation_or_reflection",
+        "answer_kind": "text",
+        "params": {
+          "n_cells": 5,
+          "box": 3
+        },
+        "stem_tpl": "รูปที่ 1 กับรูปที่ 2 สัมพันธ์กันอย่างไร\n\n[[fig1]]\n\n[[fig2]]",
+        "quality_rules": [
+          "ตัดสินว่าเป็นภาพหมุนหรือภาพสะท้อนด้วยการคำนวณ ไม่ใช่การมองเอา",
+          "รูปที่ใช้ต้องไม่สมมาตร ไม่งั้นภาพหมุนกับภาพสะท้อนจะแยกไม่ออกจริง ๆ",
+          "ตัวเลือกต้องครอบคลุมความเข้าใจผิดที่เกิดจริง ไม่ใช่ตัวเลือกที่เดาได้ว่าผิดทันที"
+        ]
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.spatial.foundation.symmetry_reflection.0004",
+      "topic_ids": [
+        "tgat2.spatial.foundation.symmetry_reflection"
+      ],
+      "primary_topic_id": "tgat2.spatial.foundation.symmetry_reflection",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 ด้านมิติสัมพันธ์ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 40,
+      "stem_md": "รูปที่ 1 กับรูปที่ 2 สัมพันธ์กันอย่างไร\n\n[[fig1]]\n\n[[fig2]]",
+      "figures": [
+        {
+          "id": "fig1",
+          "type": "svg",
+          "alt": "รูปบนตาราง 3 x 2 ช่อง · แถวที่ 1 มีช่องที่ 1, 2, 3 / แถวที่ 2 มีช่องที่ 2, 3",
+          "svg": "<svg viewBox=\"0 0 120 120\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"112\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"112\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"112\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"112\"/><line x1=\"112\" y1=\"8\" x2=\"112\" y2=\"112\"/><line x1=\"8\" y1=\"8\" x2=\"112\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"112\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"112\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"112\" y2=\"86\"/><line x1=\"8\" y1=\"112\" x2=\"112\" y2=\"112\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"35\" width=\"24\" height=\"24\"/></g></svg>",
+          "caption": "รูปที่ 1"
+        },
+        {
+          "id": "fig2",
+          "type": "svg",
+          "alt": "รูปบนตาราง 2 x 3 ช่อง · แถวที่ 1 มีช่องที่ 1, 2 / แถวที่ 2 มีช่องที่ 1, 2 / แถวที่ 3 มีช่องที่ 1",
+          "svg": "<svg viewBox=\"0 0 120 120\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"112\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"112\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"112\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"112\"/><line x1=\"112\" y1=\"8\" x2=\"112\" y2=\"112\"/><line x1=\"8\" y1=\"8\" x2=\"112\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"112\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"112\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"112\" y2=\"86\"/><line x1=\"8\" y1=\"112\" x2=\"112\" y2=\"112\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/></g></svg>",
+          "caption": "รูปที่ 2"
+        }
+      ],
+      "choices": [
+        {
+          "md": "เป็นภาพสะท้อน",
+          "is_answer": false
+        },
+        {
+          "md": "เป็นภาพหมุน 270 องศา",
+          "is_answer": true
+        },
+        {
+          "md": "เป็นรูปเดียวกันไม่ได้หมุน",
+          "is_answer": false
+        },
+        {
+          "md": "เป็นคนละรูปกัน",
+          "is_answer": false
+        },
+        {
+          "md": "เป็นภาพสะท้อนแล้วหมุนด้วย",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "เลือกส่วนที่สังเกตง่ายสองส่วน เช่นแถวที่ยาวที่สุด กับช่องที่ยื่นออกมาช่องเดียว",
+          "why_md": "ต้องใช้สองส่วนเพื่อดูความสัมพันธ์ ถ้าดูส่วนเดียวจะบอกไม่ได้ว่าสลับข้างไหม"
+        },
+        {
+          "do_md": "ดูว่าช่องที่ยื่นออกอยู่ทางซ้ายหรือขวาของแถวที่ยาวที่สุดในทั้งสองรูป",
+          "why_md": "การหมุนไม่เปลี่ยนความสัมพันธ์ซ้ายขวา แต่การสะท้อนสลับเสมอ"
+        },
+        {
+          "do_md": "ในคู่นี้ความสัมพันธ์คงเดิม จึงเป็นภาพหมุน 270 องศา",
+          "why_md": "สรุปจากหลักข้างต้นได้เลย ไม่ต้องลองหมุนในหัวทุกมุม"
+        }
+      ],
+      "answer_explanation_md": "เมื่อเทียบความสัมพันธ์ซ้ายขวาของสองส่วนในรูป พบว่าไม่สลับข้าง จึงเป็นภาพหมุน หลักนี้ใช้ได้กับทุกรูปที่ไม่สมมาตร โดยไม่ต้องลองหมุนทีละมุม",
+      "hints": [
+        "อย่าพยายามหมุนทั้งรูปในหัว ให้เลือกส่วนที่สังเกตง่ายสองส่วนก่อน",
+        "ดูความสัมพันธ์ซ้ายขวาระหว่างสองส่วนนั้นในทั้งสองรูป",
+        "การหมุนไม่เคยสลับซ้ายขวา ส่วนการสะท้อนสลับเสมอ"
+      ],
+      "distractor_reasons": {
+        "0": "สองรูปนี้หมุนให้ทับกันได้จริง จึงเป็นภาพหมุน ไม่ใช่ภาพสะท้อน",
+        "2": "สองรูปวางไม่เหมือนกัน ถ้าไม่หมุนจะไม่ทับกัน",
+        "3": "จำนวนช่องและรูปร่างเหมือนกันทุกประการ ต่างแค่การวาง",
+        "4": "ไม่ต้องสะท้อนเลยก็หมุนให้ทับกันได้แล้ว"
+      },
+      "misconception_tags": [
+        "called_rotation_a_reflection",
+        "different_shape",
+        "extra_reflection",
+        "no_transform"
+      ],
+      "template": {
+        "provider": "shape2d.rotation_or_reflection",
+        "answer_kind": "text",
+        "params": {
+          "n_cells": 5,
+          "box": 4
+        },
+        "stem_tpl": "รูปที่ 1 กับรูปที่ 2 สัมพันธ์กันอย่างไร\n\n[[fig1]]\n\n[[fig2]]",
+        "quality_rules": [
+          "ตัดสินว่าเป็นภาพหมุนหรือภาพสะท้อนด้วยการคำนวณ ไม่ใช่การมองเอา",
+          "รูปที่ใช้ต้องไม่สมมาตร ไม่งั้นภาพหมุนกับภาพสะท้อนจะแยกไม่ออกจริง ๆ",
+          "ตัวเลือกต้องครอบคลุมความเข้าใจผิดที่เกิดจริง ไม่ใช่ตัวเลือกที่เดาได้ว่าผิดทันที"
+        ]
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.spatial.foundation.symmetry_reflection.0005",
+      "topic_ids": [
+        "tgat2.spatial.foundation.symmetry_reflection"
+      ],
+      "primary_topic_id": "tgat2.spatial.foundation.symmetry_reflection",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 ด้านมิติสัมพันธ์ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 45,
+      "stem_md": "รูปที่ 1 กับรูปที่ 2 สัมพันธ์กันอย่างไร\n\n[[fig1]]\n\n[[fig2]]",
+      "figures": [
+        {
+          "id": "fig1",
+          "type": "svg",
+          "alt": "รูปบนตาราง 3 x 2 ช่อง · แถวที่ 1 มีช่องที่ 2, 3 / แถวที่ 2 มีช่องที่ 1, 2, 3",
+          "svg": "<svg viewBox=\"0 0 120 120\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"112\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"112\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"112\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"112\"/><line x1=\"112\" y1=\"8\" x2=\"112\" y2=\"112\"/><line x1=\"8\" y1=\"8\" x2=\"112\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"112\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"112\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"112\" y2=\"86\"/><line x1=\"8\" y1=\"112\" x2=\"112\" y2=\"112\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"35\" width=\"24\" height=\"24\"/></g></svg>",
+          "caption": "รูปที่ 1"
+        },
+        {
+          "id": "fig2",
+          "type": "svg",
+          "alt": "รูปบนตาราง 2 x 3 ช่อง · แถวที่ 1 มีช่องที่ 1 / แถวที่ 2 มีช่องที่ 1, 2 / แถวที่ 3 มีช่องที่ 1, 2",
+          "svg": "<svg viewBox=\"0 0 120 120\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"112\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"112\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"112\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"112\"/><line x1=\"112\" y1=\"8\" x2=\"112\" y2=\"112\"/><line x1=\"8\" y1=\"8\" x2=\"112\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"112\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"112\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"112\" y2=\"86\"/><line x1=\"8\" y1=\"112\" x2=\"112\" y2=\"112\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"61\" width=\"24\" height=\"24\"/></g></svg>",
+          "caption": "รูปที่ 2"
+        }
+      ],
+      "choices": [
+        {
+          "md": "เป็นภาพสะท้อนแล้วหมุนด้วย",
+          "is_answer": false
+        },
+        {
+          "md": "เป็นคนละรูปกัน",
+          "is_answer": false
+        },
+        {
+          "md": "เป็นภาพหมุน 90 องศา",
+          "is_answer": true
+        },
+        {
+          "md": "เป็นรูปเดียวกันไม่ได้หมุน",
+          "is_answer": false
+        },
+        {
+          "md": "เป็นภาพสะท้อน",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "เลือกส่วนที่สังเกตง่ายสองส่วน เช่นแถวที่ยาวที่สุด กับช่องที่ยื่นออกมาช่องเดียว",
+          "why_md": "ต้องใช้สองส่วนเพื่อดูความสัมพันธ์ ถ้าดูส่วนเดียวจะบอกไม่ได้ว่าสลับข้างไหม"
+        },
+        {
+          "do_md": "ดูว่าช่องที่ยื่นออกอยู่ทางซ้ายหรือขวาของแถวที่ยาวที่สุดในทั้งสองรูป",
+          "why_md": "การหมุนไม่เปลี่ยนความสัมพันธ์ซ้ายขวา แต่การสะท้อนสลับเสมอ"
+        },
+        {
+          "do_md": "ในคู่นี้ความสัมพันธ์คงเดิม จึงเป็นภาพหมุน 90 องศา",
+          "why_md": "สรุปจากหลักข้างต้นได้เลย ไม่ต้องลองหมุนในหัวทุกมุม"
+        }
+      ],
+      "answer_explanation_md": "เมื่อเทียบความสัมพันธ์ซ้ายขวาของสองส่วนในรูป พบว่าไม่สลับข้าง จึงเป็นภาพหมุน หลักนี้ใช้ได้กับทุกรูปที่ไม่สมมาตร โดยไม่ต้องลองหมุนทีละมุม",
+      "hints": [
+        "อย่าพยายามหมุนทั้งรูปในหัว ให้เลือกส่วนที่สังเกตง่ายสองส่วนก่อน",
+        "ดูความสัมพันธ์ซ้ายขวาระหว่างสองส่วนนั้นในทั้งสองรูป",
+        "การหมุนไม่เคยสลับซ้ายขวา ส่วนการสะท้อนสลับเสมอ"
+      ],
+      "distractor_reasons": {
+        "0": "ไม่ต้องสะท้อนเลยก็หมุนให้ทับกันได้แล้ว",
+        "1": "จำนวนช่องและรูปร่างเหมือนกันทุกประการ ต่างแค่การวาง",
+        "3": "สองรูปวางไม่เหมือนกัน ถ้าไม่หมุนจะไม่ทับกัน",
+        "4": "สองรูปนี้หมุนให้ทับกันได้จริง จึงเป็นภาพหมุน ไม่ใช่ภาพสะท้อน"
+      },
+      "misconception_tags": [
+        "called_rotation_a_reflection",
+        "different_shape",
+        "extra_reflection",
+        "no_transform"
+      ],
+      "template": {
+        "provider": "shape2d.rotation_or_reflection",
+        "answer_kind": "text",
+        "params": {
+          "n_cells": 5,
+          "box": 4
+        },
+        "stem_tpl": "รูปที่ 1 กับรูปที่ 2 สัมพันธ์กันอย่างไร\n\n[[fig1]]\n\n[[fig2]]",
+        "quality_rules": [
+          "ตัดสินว่าเป็นภาพหมุนหรือภาพสะท้อนด้วยการคำนวณ ไม่ใช่การมองเอา",
+          "รูปที่ใช้ต้องไม่สมมาตร ไม่งั้นภาพหมุนกับภาพสะท้อนจะแยกไม่ออกจริง ๆ",
+          "ตัวเลือกต้องครอบคลุมความเข้าใจผิดที่เกิดจริง ไม่ใช่ตัวเลือกที่เดาได้ว่าผิดทันที"
+        ]
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.spatial.foundation.symmetry_reflection.0006",
+      "topic_ids": [
+        "tgat2.spatial.foundation.symmetry_reflection"
+      ],
+      "primary_topic_id": "tgat2.spatial.foundation.symmetry_reflection",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 ด้านมิติสัมพันธ์ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 50,
+      "stem_md": "รูปที่ 1 กับรูปที่ 2 สัมพันธ์กันอย่างไร\n\n[[fig1]]\n\n[[fig2]]",
+      "figures": [
+        {
+          "id": "fig1",
+          "type": "svg",
+          "alt": "รูปบนตาราง 3 x 3 ช่อง · แถวที่ 1 มีช่องที่ 1, 2, 3 / แถวที่ 2 มีช่องที่ 1, 2 / แถวที่ 3 มีช่องที่ 2",
+          "svg": "<svg viewBox=\"0 0 120 120\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"112\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"112\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"112\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"112\"/><line x1=\"112\" y1=\"8\" x2=\"112\" y2=\"112\"/><line x1=\"8\" y1=\"8\" x2=\"112\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"112\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"112\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"112\" y2=\"86\"/><line x1=\"8\" y1=\"112\" x2=\"112\" y2=\"112\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"9\" width=\"24\" height=\"24\"/></g></svg>",
+          "caption": "รูปที่ 1"
+        },
+        {
+          "id": "fig2",
+          "type": "svg",
+          "alt": "รูปบนตาราง 3 x 3 ช่อง · แถวที่ 1 มีช่องที่ 2 / แถวที่ 2 มีช่องที่ 2, 3 / แถวที่ 3 มีช่องที่ 1, 2, 3",
+          "svg": "<svg viewBox=\"0 0 120 120\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"112\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"112\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"112\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"112\"/><line x1=\"112\" y1=\"8\" x2=\"112\" y2=\"112\"/><line x1=\"8\" y1=\"8\" x2=\"112\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"112\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"112\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"112\" y2=\"86\"/><line x1=\"8\" y1=\"112\" x2=\"112\" y2=\"112\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"61\" width=\"24\" height=\"24\"/></g></svg>",
+          "caption": "รูปที่ 2"
+        }
+      ],
+      "choices": [
+        {
+          "md": "เป็นคนละรูปกัน",
+          "is_answer": false
+        },
+        {
+          "md": "เป็นรูปเดียวกันไม่ได้หมุน",
+          "is_answer": false
+        },
+        {
+          "md": "เป็นภาพสะท้อนแล้วหมุนด้วย",
+          "is_answer": false
+        },
+        {
+          "md": "เป็นภาพสะท้อน",
+          "is_answer": false
+        },
+        {
+          "md": "เป็นภาพหมุน 180 องศา",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "เลือกส่วนที่สังเกตง่ายสองส่วน เช่นแถวที่ยาวที่สุด กับช่องที่ยื่นออกมาช่องเดียว",
+          "why_md": "ต้องใช้สองส่วนเพื่อดูความสัมพันธ์ ถ้าดูส่วนเดียวจะบอกไม่ได้ว่าสลับข้างไหม"
+        },
+        {
+          "do_md": "ดูว่าช่องที่ยื่นออกอยู่ทางซ้ายหรือขวาของแถวที่ยาวที่สุดในทั้งสองรูป",
+          "why_md": "การหมุนไม่เปลี่ยนความสัมพันธ์ซ้ายขวา แต่การสะท้อนสลับเสมอ"
+        },
+        {
+          "do_md": "ในคู่นี้ความสัมพันธ์คงเดิม จึงเป็นภาพหมุน 180 องศา",
+          "why_md": "สรุปจากหลักข้างต้นได้เลย ไม่ต้องลองหมุนในหัวทุกมุม"
+        }
+      ],
+      "answer_explanation_md": "เมื่อเทียบความสัมพันธ์ซ้ายขวาของสองส่วนในรูป พบว่าไม่สลับข้าง จึงเป็นภาพหมุน หลักนี้ใช้ได้กับทุกรูปที่ไม่สมมาตร โดยไม่ต้องลองหมุนทีละมุม",
+      "hints": [
+        "อย่าพยายามหมุนทั้งรูปในหัว ให้เลือกส่วนที่สังเกตง่ายสองส่วนก่อน",
+        "ดูความสัมพันธ์ซ้ายขวาระหว่างสองส่วนนั้นในทั้งสองรูป",
+        "การหมุนไม่เคยสลับซ้ายขวา ส่วนการสะท้อนสลับเสมอ"
+      ],
+      "distractor_reasons": {
+        "0": "จำนวนช่องและรูปร่างเหมือนกันทุกประการ ต่างแค่การวาง",
+        "1": "สองรูปวางไม่เหมือนกัน ถ้าไม่หมุนจะไม่ทับกัน",
+        "2": "ไม่ต้องสะท้อนเลยก็หมุนให้ทับกันได้แล้ว",
+        "3": "สองรูปนี้หมุนให้ทับกันได้จริง จึงเป็นภาพหมุน ไม่ใช่ภาพสะท้อน"
+      },
+      "misconception_tags": [
+        "called_rotation_a_reflection",
+        "different_shape",
+        "extra_reflection",
+        "no_transform"
+      ],
+      "template": {
+        "provider": "shape2d.rotation_or_reflection",
+        "answer_kind": "text",
+        "params": {
+          "n_cells": 6,
+          "box": 4
+        },
+        "stem_tpl": "รูปที่ 1 กับรูปที่ 2 สัมพันธ์กันอย่างไร\n\n[[fig1]]\n\n[[fig2]]",
+        "quality_rules": [
+          "ตัดสินว่าเป็นภาพหมุนหรือภาพสะท้อนด้วยการคำนวณ ไม่ใช่การมองเอา",
+          "รูปที่ใช้ต้องไม่สมมาตร ไม่งั้นภาพหมุนกับภาพสะท้อนจะแยกไม่ออกจริง ๆ",
+          "ตัวเลือกต้องครอบคลุมความเข้าใจผิดที่เกิดจริง ไม่ใช่ตัวเลือกที่เดาได้ว่าผิดทันที"
+        ]
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.spatial.foundation.symmetry_reflection.0007",
+      "topic_ids": [
+        "tgat2.spatial.foundation.symmetry_reflection"
+      ],
+      "primary_topic_id": "tgat2.spatial.foundation.symmetry_reflection",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 ด้านมิติสัมพันธ์ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 50,
+      "stem_md": "รูปที่ 1 กับรูปที่ 2 สัมพันธ์กันอย่างไร\n\n[[fig1]]\n\n[[fig2]]",
+      "figures": [
+        {
+          "id": "fig1",
+          "type": "svg",
+          "alt": "รูปบนตาราง 3 x 3 ช่อง · แถวที่ 1 มีช่องที่ 2 / แถวที่ 2 มีช่องที่ 2, 3 / แถวที่ 3 มีช่องที่ 1, 2, 3",
+          "svg": "<svg viewBox=\"0 0 120 120\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"112\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"112\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"112\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"112\"/><line x1=\"112\" y1=\"8\" x2=\"112\" y2=\"112\"/><line x1=\"8\" y1=\"8\" x2=\"112\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"112\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"112\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"112\" y2=\"86\"/><line x1=\"8\" y1=\"112\" x2=\"112\" y2=\"112\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"61\" width=\"24\" height=\"24\"/></g></svg>",
+          "caption": "รูปที่ 1"
+        },
+        {
+          "id": "fig2",
+          "type": "svg",
+          "alt": "รูปบนตาราง 3 x 3 ช่อง · แถวที่ 1 มีช่องที่ 1, 2, 3 / แถวที่ 2 มีช่องที่ 2, 3 / แถวที่ 3 มีช่องที่ 2",
+          "svg": "<svg viewBox=\"0 0 120 120\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"112\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"112\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"112\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"112\"/><line x1=\"112\" y1=\"8\" x2=\"112\" y2=\"112\"/><line x1=\"8\" y1=\"8\" x2=\"112\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"112\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"112\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"112\" y2=\"86\"/><line x1=\"8\" y1=\"112\" x2=\"112\" y2=\"112\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"35\" width=\"24\" height=\"24\"/></g></svg>",
+          "caption": "รูปที่ 2"
+        }
+      ],
+      "choices": [
+        {
+          "md": "เป็นคนละรูปกัน",
+          "is_answer": false
+        },
+        {
+          "md": "เป็นภาพหมุน 270 องศา",
+          "is_answer": false
+        },
+        {
+          "md": "เป็นภาพหมุน 180 องศา",
+          "is_answer": false
+        },
+        {
+          "md": "เป็นภาพสะท้อน",
+          "is_answer": true
+        },
+        {
+          "md": "เป็นรูปเดียวกันไม่ได้หมุน",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "เลือกส่วนที่สังเกตง่ายสองส่วน เช่นแถวที่ยาวที่สุด กับช่องที่ยื่นออกมาช่องเดียว",
+          "why_md": "ต้องใช้สองส่วนเพื่อดูความสัมพันธ์ ถ้าดูส่วนเดียวจะบอกไม่ได้ว่าสลับข้างไหม"
+        },
+        {
+          "do_md": "ดูว่าช่องที่ยื่นออกอยู่ทางซ้ายหรือขวาของแถวที่ยาวที่สุดในทั้งสองรูป",
+          "why_md": "การหมุนไม่เปลี่ยนความสัมพันธ์ซ้ายขวา แต่การสะท้อนสลับเสมอ"
+        },
+        {
+          "do_md": "ในคู่นี้ความสัมพันธ์สลับข้าง จึงเป็นภาพสะท้อน",
+          "why_md": "สรุปจากหลักข้างต้นได้เลย ไม่ต้องลองหมุนในหัวทุกมุม"
+        }
+      ],
+      "answer_explanation_md": "เมื่อเทียบความสัมพันธ์ซ้ายขวาของสองส่วนในรูป พบว่าสลับข้าง จึงเป็นภาพสะท้อน หลักนี้ใช้ได้กับทุกรูปที่ไม่สมมาตร โดยไม่ต้องลองหมุนทีละมุม",
+      "hints": [
+        "อย่าพยายามหมุนทั้งรูปในหัว ให้เลือกส่วนที่สังเกตง่ายสองส่วนก่อน",
+        "ดูความสัมพันธ์ซ้ายขวาระหว่างสองส่วนนั้นในทั้งสองรูป",
+        "การหมุนไม่เคยสลับซ้ายขวา ส่วนการสะท้อนสลับเสมอ"
+      ],
+      "distractor_reasons": {
+        "0": "จำนวนช่องและรูปร่างเหมือนกันทุกประการ ต่างแค่การวาง",
+        "1": "หมุนมุมไหนก็ไม่ทับกัน เพราะรูปนี้ไม่สมมาตร การสะท้อนจึงแยกจากการหมุนได้",
+        "2": "หมุนมุมนี้แล้วไม่ทับกัน เพราะลำดับซ้ายขวาสลับกันอยู่",
+        "4": "สองรูปวางไม่เหมือนกัน ต้องมีการแปลงรูปเกิดขึ้น"
+      },
+      "misconception_tags": [
+        "called_reflection_a_rotation",
+        "different_shape",
+        "no_transform",
+        "wrong_rotation_angle"
+      ],
+      "template": {
+        "provider": "shape2d.rotation_or_reflection",
+        "answer_kind": "text",
+        "params": {
+          "n_cells": 6,
+          "box": 4
+        },
+        "stem_tpl": "รูปที่ 1 กับรูปที่ 2 สัมพันธ์กันอย่างไร\n\n[[fig1]]\n\n[[fig2]]",
+        "quality_rules": [
+          "ตัดสินว่าเป็นภาพหมุนหรือภาพสะท้อนด้วยการคำนวณ ไม่ใช่การมองเอา",
+          "รูปที่ใช้ต้องไม่สมมาตร ไม่งั้นภาพหมุนกับภาพสะท้อนจะแยกไม่ออกจริง ๆ",
+          "ตัวเลือกต้องครอบคลุมความเข้าใจผิดที่เกิดจริง ไม่ใช่ตัวเลือกที่เดาได้ว่าผิดทันที"
+        ]
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.spatial.foundation.symmetry_reflection.0008",
+      "topic_ids": [
+        "tgat2.spatial.foundation.symmetry_reflection"
+      ],
+      "primary_topic_id": "tgat2.spatial.foundation.symmetry_reflection",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 ด้านมิติสัมพันธ์ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 55,
+      "stem_md": "รูปที่ 1 กับรูปที่ 2 สัมพันธ์กันอย่างไร\n\n[[fig1]]\n\n[[fig2]]",
+      "figures": [
+        {
+          "id": "fig1",
+          "type": "svg",
+          "alt": "รูปบนตาราง 4 x 2 ช่อง · แถวที่ 1 มีช่องที่ 1, 2, 3, 4 / แถวที่ 2 มีช่องที่ 1, 2",
+          "svg": "<svg viewBox=\"0 0 146 146\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"138\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"138\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"138\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"138\"/><line x1=\"112\" y1=\"8\" x2=\"112\" y2=\"138\"/><line x1=\"138\" y1=\"8\" x2=\"138\" y2=\"138\"/><line x1=\"8\" y1=\"8\" x2=\"138\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"138\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"138\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"138\" y2=\"86\"/><line x1=\"8\" y1=\"112\" x2=\"138\" y2=\"112\"/><line x1=\"8\" y1=\"138\" x2=\"138\" y2=\"138\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"87\" y=\"9\" width=\"24\" height=\"24\"/></g></svg>",
+          "caption": "รูปที่ 1"
+        },
+        {
+          "id": "fig2",
+          "type": "svg",
+          "alt": "รูปบนตาราง 4 x 2 ช่อง · แถวที่ 1 มีช่องที่ 1, 2 / แถวที่ 2 มีช่องที่ 1, 2, 3, 4",
+          "svg": "<svg viewBox=\"0 0 146 146\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"138\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"138\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"138\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"138\"/><line x1=\"112\" y1=\"8\" x2=\"112\" y2=\"138\"/><line x1=\"138\" y1=\"8\" x2=\"138\" y2=\"138\"/><line x1=\"8\" y1=\"8\" x2=\"138\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"138\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"138\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"138\" y2=\"86\"/><line x1=\"8\" y1=\"112\" x2=\"138\" y2=\"112\"/><line x1=\"8\" y1=\"138\" x2=\"138\" y2=\"138\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"87\" y=\"35\" width=\"24\" height=\"24\"/></g></svg>",
+          "caption": "รูปที่ 2"
+        }
+      ],
+      "choices": [
+        {
+          "md": "เป็นภาพหมุน 180 องศา",
+          "is_answer": false
+        },
+        {
+          "md": "เป็นคนละรูปกัน",
+          "is_answer": false
+        },
+        {
+          "md": "เป็นภาพสะท้อน",
+          "is_answer": true
+        },
+        {
+          "md": "เป็นรูปเดียวกันไม่ได้หมุน",
+          "is_answer": false
+        },
+        {
+          "md": "เป็นภาพหมุน 270 องศา",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "เลือกส่วนที่สังเกตง่ายสองส่วน เช่นแถวที่ยาวที่สุด กับช่องที่ยื่นออกมาช่องเดียว",
+          "why_md": "ต้องใช้สองส่วนเพื่อดูความสัมพันธ์ ถ้าดูส่วนเดียวจะบอกไม่ได้ว่าสลับข้างไหม"
+        },
+        {
+          "do_md": "ดูว่าช่องที่ยื่นออกอยู่ทางซ้ายหรือขวาของแถวที่ยาวที่สุดในทั้งสองรูป",
+          "why_md": "การหมุนไม่เปลี่ยนความสัมพันธ์ซ้ายขวา แต่การสะท้อนสลับเสมอ"
+        },
+        {
+          "do_md": "ในคู่นี้ความสัมพันธ์สลับข้าง จึงเป็นภาพสะท้อน",
+          "why_md": "สรุปจากหลักข้างต้นได้เลย ไม่ต้องลองหมุนในหัวทุกมุม"
+        }
+      ],
+      "answer_explanation_md": "เมื่อเทียบความสัมพันธ์ซ้ายขวาของสองส่วนในรูป พบว่าสลับข้าง จึงเป็นภาพสะท้อน หลักนี้ใช้ได้กับทุกรูปที่ไม่สมมาตร โดยไม่ต้องลองหมุนทีละมุม",
+      "hints": [
+        "อย่าพยายามหมุนทั้งรูปในหัว ให้เลือกส่วนที่สังเกตง่ายสองส่วนก่อน",
+        "ดูความสัมพันธ์ซ้ายขวาระหว่างสองส่วนนั้นในทั้งสองรูป",
+        "การหมุนไม่เคยสลับซ้ายขวา ส่วนการสะท้อนสลับเสมอ"
+      ],
+      "distractor_reasons": {
+        "0": "หมุนมุมนี้แล้วไม่ทับกัน เพราะลำดับซ้ายขวาสลับกันอยู่",
+        "1": "จำนวนช่องและรูปร่างเหมือนกันทุกประการ ต่างแค่การวาง",
+        "3": "สองรูปวางไม่เหมือนกัน ต้องมีการแปลงรูปเกิดขึ้น",
+        "4": "หมุนมุมไหนก็ไม่ทับกัน เพราะรูปนี้ไม่สมมาตร การสะท้อนจึงแยกจากการหมุนได้"
+      },
+      "misconception_tags": [
+        "called_reflection_a_rotation",
+        "different_shape",
+        "no_transform",
+        "wrong_rotation_angle"
+      ],
+      "template": {
+        "provider": "shape2d.rotation_or_reflection",
+        "answer_kind": "text",
+        "params": {
+          "n_cells": 6,
+          "box": 5
+        },
+        "stem_tpl": "รูปที่ 1 กับรูปที่ 2 สัมพันธ์กันอย่างไร\n\n[[fig1]]\n\n[[fig2]]",
+        "quality_rules": [
+          "ตัดสินว่าเป็นภาพหมุนหรือภาพสะท้อนด้วยการคำนวณ ไม่ใช่การมองเอา",
+          "รูปที่ใช้ต้องไม่สมมาตร ไม่งั้นภาพหมุนกับภาพสะท้อนจะแยกไม่ออกจริง ๆ",
+          "ตัวเลือกต้องครอบคลุมความเข้าใจผิดที่เกิดจริง ไม่ใช่ตัวเลือกที่เดาได้ว่าผิดทันที"
+        ]
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.spatial.foundation.symmetry_reflection.0009",
+      "topic_ids": [
+        "tgat2.spatial.foundation.symmetry_reflection"
+      ],
+      "primary_topic_id": "tgat2.spatial.foundation.symmetry_reflection",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 ด้านมิติสัมพันธ์ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 55,
+      "stem_md": "รูปที่ 1 กับรูปที่ 2 สัมพันธ์กันอย่างไร\n\n[[fig1]]\n\n[[fig2]]",
+      "figures": [
+        {
+          "id": "fig1",
+          "type": "svg",
+          "alt": "รูปบนตาราง 3 x 3 ช่อง · แถวที่ 1 มีช่องที่ 3 / แถวที่ 2 มีช่องที่ 1, 2, 3 / แถวที่ 3 มีช่องที่ 1, 2",
+          "svg": "<svg viewBox=\"0 0 146 146\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"138\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"138\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"138\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"138\"/><line x1=\"112\" y1=\"8\" x2=\"112\" y2=\"138\"/><line x1=\"138\" y1=\"8\" x2=\"138\" y2=\"138\"/><line x1=\"8\" y1=\"8\" x2=\"138\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"138\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"138\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"138\" y2=\"86\"/><line x1=\"8\" y1=\"112\" x2=\"138\" y2=\"112\"/><line x1=\"8\" y1=\"138\" x2=\"138\" y2=\"138\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"35\" width=\"24\" height=\"24\"/></g></svg>",
+          "caption": "รูปที่ 1"
+        },
+        {
+          "id": "fig2",
+          "type": "svg",
+          "alt": "รูปบนตาราง 3 x 3 ช่อง · แถวที่ 1 มีช่องที่ 1, 2 / แถวที่ 2 มีช่องที่ 1, 2 / แถวที่ 3 มีช่องที่ 2, 3",
+          "svg": "<svg viewBox=\"0 0 146 146\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"138\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"138\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"138\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"138\"/><line x1=\"112\" y1=\"8\" x2=\"112\" y2=\"138\"/><line x1=\"138\" y1=\"8\" x2=\"138\" y2=\"138\"/><line x1=\"8\" y1=\"8\" x2=\"138\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"138\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"138\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"138\" y2=\"86\"/><line x1=\"8\" y1=\"112\" x2=\"138\" y2=\"112\"/><line x1=\"8\" y1=\"138\" x2=\"138\" y2=\"138\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"61\" width=\"24\" height=\"24\"/></g></svg>",
+          "caption": "รูปที่ 2"
+        }
+      ],
+      "choices": [
+        {
+          "md": "เป็นคนละรูปกัน",
+          "is_answer": false
+        },
+        {
+          "md": "เป็นภาพหมุน 90 องศา",
+          "is_answer": true
+        },
+        {
+          "md": "เป็นภาพสะท้อน",
+          "is_answer": false
+        },
+        {
+          "md": "เป็นรูปเดียวกันไม่ได้หมุน",
+          "is_answer": false
+        },
+        {
+          "md": "เป็นภาพสะท้อนแล้วหมุนด้วย",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "เลือกส่วนที่สังเกตง่ายสองส่วน เช่นแถวที่ยาวที่สุด กับช่องที่ยื่นออกมาช่องเดียว",
+          "why_md": "ต้องใช้สองส่วนเพื่อดูความสัมพันธ์ ถ้าดูส่วนเดียวจะบอกไม่ได้ว่าสลับข้างไหม"
+        },
+        {
+          "do_md": "ดูว่าช่องที่ยื่นออกอยู่ทางซ้ายหรือขวาของแถวที่ยาวที่สุดในทั้งสองรูป",
+          "why_md": "การหมุนไม่เปลี่ยนความสัมพันธ์ซ้ายขวา แต่การสะท้อนสลับเสมอ"
+        },
+        {
+          "do_md": "ในคู่นี้ความสัมพันธ์คงเดิม จึงเป็นภาพหมุน 90 องศา",
+          "why_md": "สรุปจากหลักข้างต้นได้เลย ไม่ต้องลองหมุนในหัวทุกมุม"
+        }
+      ],
+      "answer_explanation_md": "เมื่อเทียบความสัมพันธ์ซ้ายขวาของสองส่วนในรูป พบว่าไม่สลับข้าง จึงเป็นภาพหมุน หลักนี้ใช้ได้กับทุกรูปที่ไม่สมมาตร โดยไม่ต้องลองหมุนทีละมุม",
+      "hints": [
+        "อย่าพยายามหมุนทั้งรูปในหัว ให้เลือกส่วนที่สังเกตง่ายสองส่วนก่อน",
+        "ดูความสัมพันธ์ซ้ายขวาระหว่างสองส่วนนั้นในทั้งสองรูป",
+        "การหมุนไม่เคยสลับซ้ายขวา ส่วนการสะท้อนสลับเสมอ"
+      ],
+      "distractor_reasons": {
+        "0": "จำนวนช่องและรูปร่างเหมือนกันทุกประการ ต่างแค่การวาง",
+        "2": "สองรูปนี้หมุนให้ทับกันได้จริง จึงเป็นภาพหมุน ไม่ใช่ภาพสะท้อน",
+        "3": "สองรูปวางไม่เหมือนกัน ถ้าไม่หมุนจะไม่ทับกัน",
+        "4": "ไม่ต้องสะท้อนเลยก็หมุนให้ทับกันได้แล้ว"
+      },
+      "misconception_tags": [
+        "called_rotation_a_reflection",
+        "different_shape",
+        "extra_reflection",
+        "no_transform"
+      ],
+      "template": {
+        "provider": "shape2d.rotation_or_reflection",
+        "answer_kind": "text",
+        "params": {
+          "n_cells": 6,
+          "box": 5
+        },
+        "stem_tpl": "รูปที่ 1 กับรูปที่ 2 สัมพันธ์กันอย่างไร\n\n[[fig1]]\n\n[[fig2]]",
+        "quality_rules": [
+          "ตัดสินว่าเป็นภาพหมุนหรือภาพสะท้อนด้วยการคำนวณ ไม่ใช่การมองเอา",
+          "รูปที่ใช้ต้องไม่สมมาตร ไม่งั้นภาพหมุนกับภาพสะท้อนจะแยกไม่ออกจริง ๆ",
+          "ตัวเลือกต้องครอบคลุมความเข้าใจผิดที่เกิดจริง ไม่ใช่ตัวเลือกที่เดาได้ว่าผิดทันที"
+        ]
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.spatial.foundation.symmetry_reflection.0010",
+      "topic_ids": [
+        "tgat2.spatial.foundation.symmetry_reflection"
+      ],
+      "primary_topic_id": "tgat2.spatial.foundation.symmetry_reflection",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 ด้านมิติสัมพันธ์ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 4,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 2,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 65,
+      "stem_md": "รูปที่ 1 กับรูปที่ 2 สัมพันธ์กันอย่างไร\n\n[[fig1]]\n\n[[fig2]]",
+      "figures": [
+        {
+          "id": "fig1",
+          "type": "svg",
+          "alt": "รูปบนตาราง 3 x 4 ช่อง · แถวที่ 1 มีช่องที่ 1, 2, 3 / แถวที่ 2 มีช่องที่ 2, 3 / แถวที่ 3 มีช่องที่ 2 / แถวที่ 4 มีช่องที่ 2",
+          "svg": "<svg viewBox=\"0 0 146 146\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"138\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"138\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"138\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"138\"/><line x1=\"112\" y1=\"8\" x2=\"112\" y2=\"138\"/><line x1=\"138\" y1=\"8\" x2=\"138\" y2=\"138\"/><line x1=\"8\" y1=\"8\" x2=\"138\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"138\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"138\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"138\" y2=\"86\"/><line x1=\"8\" y1=\"112\" x2=\"138\" y2=\"112\"/><line x1=\"8\" y1=\"138\" x2=\"138\" y2=\"138\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"87\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"35\" width=\"24\" height=\"24\"/></g></svg>",
+          "caption": "รูปที่ 1"
+        },
+        {
+          "id": "fig2",
+          "type": "svg",
+          "alt": "รูปบนตาราง 4 x 3 ช่อง · แถวที่ 1 มีช่องที่ 3, 4 / แถวที่ 2 มีช่องที่ 1, 2, 3, 4 / แถวที่ 3 มีช่องที่ 4",
+          "svg": "<svg viewBox=\"0 0 146 146\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"138\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"138\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"138\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"138\"/><line x1=\"112\" y1=\"8\" x2=\"112\" y2=\"138\"/><line x1=\"138\" y1=\"8\" x2=\"138\" y2=\"138\"/><line x1=\"8\" y1=\"8\" x2=\"138\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"138\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"138\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"138\" y2=\"86\"/><line x1=\"8\" y1=\"112\" x2=\"138\" y2=\"112\"/><line x1=\"8\" y1=\"138\" x2=\"138\" y2=\"138\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"87\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"87\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"87\" y=\"61\" width=\"24\" height=\"24\"/></g></svg>",
+          "caption": "รูปที่ 2"
+        }
+      ],
+      "choices": [
+        {
+          "md": "เป็นคนละรูปกัน",
+          "is_answer": false
+        },
+        {
+          "md": "เป็นภาพหมุน 90 องศา",
+          "is_answer": false
+        },
+        {
+          "md": "เป็นภาพสะท้อน",
+          "is_answer": true
+        },
+        {
+          "md": "เป็นภาพหมุน 180 องศา",
+          "is_answer": false
+        },
+        {
+          "md": "เป็นรูปเดียวกันไม่ได้หมุน",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "เลือกส่วนที่สังเกตง่ายสองส่วน เช่นแถวที่ยาวที่สุด กับช่องที่ยื่นออกมาช่องเดียว",
+          "why_md": "ต้องใช้สองส่วนเพื่อดูความสัมพันธ์ ถ้าดูส่วนเดียวจะบอกไม่ได้ว่าสลับข้างไหม"
+        },
+        {
+          "do_md": "ดูว่าช่องที่ยื่นออกอยู่ทางซ้ายหรือขวาของแถวที่ยาวที่สุดในทั้งสองรูป",
+          "why_md": "การหมุนไม่เปลี่ยนความสัมพันธ์ซ้ายขวา แต่การสะท้อนสลับเสมอ"
+        },
+        {
+          "do_md": "ในคู่นี้ความสัมพันธ์สลับข้าง จึงเป็นภาพสะท้อน",
+          "why_md": "สรุปจากหลักข้างต้นได้เลย ไม่ต้องลองหมุนในหัวทุกมุม"
+        }
+      ],
+      "answer_explanation_md": "เมื่อเทียบความสัมพันธ์ซ้ายขวาของสองส่วนในรูป พบว่าสลับข้าง จึงเป็นภาพสะท้อน หลักนี้ใช้ได้กับทุกรูปที่ไม่สมมาตร โดยไม่ต้องลองหมุนทีละมุม",
+      "hints": [
+        "อย่าพยายามหมุนทั้งรูปในหัว ให้เลือกส่วนที่สังเกตง่ายสองส่วนก่อน",
+        "ดูความสัมพันธ์ซ้ายขวาระหว่างสองส่วนนั้นในทั้งสองรูป",
+        "การหมุนไม่เคยสลับซ้ายขวา ส่วนการสะท้อนสลับเสมอ"
+      ],
+      "distractor_reasons": {
+        "0": "จำนวนช่องและรูปร่างเหมือนกันทุกประการ ต่างแค่การวาง",
+        "1": "หมุนมุมนี้แล้วไม่ทับกัน เพราะลำดับซ้ายขวาสลับกันอยู่",
+        "3": "หมุนมุมไหนก็ไม่ทับกัน เพราะรูปนี้ไม่สมมาตร การสะท้อนจึงแยกจากการหมุนได้",
+        "4": "สองรูปวางไม่เหมือนกัน ต้องมีการแปลงรูปเกิดขึ้น"
+      },
+      "misconception_tags": [
+        "called_reflection_a_rotation",
+        "different_shape",
+        "no_transform",
+        "wrong_rotation_angle"
+      ],
+      "template": {
+        "provider": "shape2d.rotation_or_reflection",
+        "answer_kind": "text",
+        "params": {
+          "n_cells": 7,
+          "box": 5
+        },
+        "stem_tpl": "รูปที่ 1 กับรูปที่ 2 สัมพันธ์กันอย่างไร\n\n[[fig1]]\n\n[[fig2]]",
+        "quality_rules": [
+          "ตัดสินว่าเป็นภาพหมุนหรือภาพสะท้อนด้วยการคำนวณ ไม่ใช่การมองเอา",
+          "รูปที่ใช้ต้องไม่สมมาตร ไม่งั้นภาพหมุนกับภาพสะท้อนจะแยกไม่ออกจริง ๆ",
+          "ตัวเลือกต้องครอบคลุมความเข้าใจผิดที่เกิดจริง ไม่ใช่ตัวเลือกที่เดาได้ว่าผิดทันที"
+        ]
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.spatial.foundation.symmetry_reflection.0011",
+      "topic_ids": [
+        "tgat2.spatial.foundation.symmetry_reflection"
+      ],
+      "primary_topic_id": "tgat2.spatial.foundation.symmetry_reflection",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 ด้านมิติสัมพันธ์ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 4,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 2,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 65,
+      "stem_md": "รูปที่ 1 กับรูปที่ 2 สัมพันธ์กันอย่างไร\n\n[[fig1]]\n\n[[fig2]]",
+      "figures": [
+        {
+          "id": "fig1",
+          "type": "svg",
+          "alt": "รูปบนตาราง 3 x 3 ช่อง · แถวที่ 1 มีช่องที่ 1, 2 / แถวที่ 2 มีช่องที่ 1, 2 / แถวที่ 3 มีช่องที่ 1, 2, 3",
+          "svg": "<svg viewBox=\"0 0 146 146\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"138\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"138\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"138\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"138\"/><line x1=\"112\" y1=\"8\" x2=\"112\" y2=\"138\"/><line x1=\"138\" y1=\"8\" x2=\"138\" y2=\"138\"/><line x1=\"8\" y1=\"8\" x2=\"138\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"138\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"138\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"138\" y2=\"86\"/><line x1=\"8\" y1=\"112\" x2=\"138\" y2=\"112\"/><line x1=\"8\" y1=\"138\" x2=\"138\" y2=\"138\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"61\" width=\"24\" height=\"24\"/></g></svg>",
+          "caption": "รูปที่ 1"
+        },
+        {
+          "id": "fig2",
+          "type": "svg",
+          "alt": "รูปบนตาราง 3 x 3 ช่อง · แถวที่ 1 มีช่องที่ 3 / แถวที่ 2 มีช่องที่ 1, 2, 3 / แถวที่ 3 มีช่องที่ 1, 2, 3",
+          "svg": "<svg viewBox=\"0 0 146 146\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"138\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"138\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"138\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"138\"/><line x1=\"112\" y1=\"8\" x2=\"112\" y2=\"138\"/><line x1=\"138\" y1=\"8\" x2=\"138\" y2=\"138\"/><line x1=\"8\" y1=\"8\" x2=\"138\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"138\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"138\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"138\" y2=\"86\"/><line x1=\"8\" y1=\"112\" x2=\"138\" y2=\"112\"/><line x1=\"8\" y1=\"138\" x2=\"138\" y2=\"138\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"61\" width=\"24\" height=\"24\"/></g></svg>",
+          "caption": "รูปที่ 2"
+        }
+      ],
+      "choices": [
+        {
+          "md": "เป็นภาพหมุน 270 องศา",
+          "is_answer": true
+        },
+        {
+          "md": "เป็นภาพสะท้อน",
+          "is_answer": false
+        },
+        {
+          "md": "เป็นภาพสะท้อนแล้วหมุนด้วย",
+          "is_answer": false
+        },
+        {
+          "md": "เป็นรูปเดียวกันไม่ได้หมุน",
+          "is_answer": false
+        },
+        {
+          "md": "เป็นคนละรูปกัน",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "เลือกส่วนที่สังเกตง่ายสองส่วน เช่นแถวที่ยาวที่สุด กับช่องที่ยื่นออกมาช่องเดียว",
+          "why_md": "ต้องใช้สองส่วนเพื่อดูความสัมพันธ์ ถ้าดูส่วนเดียวจะบอกไม่ได้ว่าสลับข้างไหม"
+        },
+        {
+          "do_md": "ดูว่าช่องที่ยื่นออกอยู่ทางซ้ายหรือขวาของแถวที่ยาวที่สุดในทั้งสองรูป",
+          "why_md": "การหมุนไม่เปลี่ยนความสัมพันธ์ซ้ายขวา แต่การสะท้อนสลับเสมอ"
+        },
+        {
+          "do_md": "ในคู่นี้ความสัมพันธ์คงเดิม จึงเป็นภาพหมุน 270 องศา",
+          "why_md": "สรุปจากหลักข้างต้นได้เลย ไม่ต้องลองหมุนในหัวทุกมุม"
+        }
+      ],
+      "answer_explanation_md": "เมื่อเทียบความสัมพันธ์ซ้ายขวาของสองส่วนในรูป พบว่าไม่สลับข้าง จึงเป็นภาพหมุน หลักนี้ใช้ได้กับทุกรูปที่ไม่สมมาตร โดยไม่ต้องลองหมุนทีละมุม",
+      "hints": [
+        "อย่าพยายามหมุนทั้งรูปในหัว ให้เลือกส่วนที่สังเกตง่ายสองส่วนก่อน",
+        "ดูความสัมพันธ์ซ้ายขวาระหว่างสองส่วนนั้นในทั้งสองรูป",
+        "การหมุนไม่เคยสลับซ้ายขวา ส่วนการสะท้อนสลับเสมอ"
+      ],
+      "distractor_reasons": {
+        "1": "สองรูปนี้หมุนให้ทับกันได้จริง จึงเป็นภาพหมุน ไม่ใช่ภาพสะท้อน",
+        "2": "ไม่ต้องสะท้อนเลยก็หมุนให้ทับกันได้แล้ว",
+        "3": "สองรูปวางไม่เหมือนกัน ถ้าไม่หมุนจะไม่ทับกัน",
+        "4": "จำนวนช่องและรูปร่างเหมือนกันทุกประการ ต่างแค่การวาง"
+      },
+      "misconception_tags": [
+        "called_rotation_a_reflection",
+        "different_shape",
+        "extra_reflection",
+        "no_transform"
+      ],
+      "template": {
+        "provider": "shape2d.rotation_or_reflection",
+        "answer_kind": "text",
+        "params": {
+          "n_cells": 7,
+          "box": 5
+        },
+        "stem_tpl": "รูปที่ 1 กับรูปที่ 2 สัมพันธ์กันอย่างไร\n\n[[fig1]]\n\n[[fig2]]",
+        "quality_rules": [
+          "ตัดสินว่าเป็นภาพหมุนหรือภาพสะท้อนด้วยการคำนวณ ไม่ใช่การมองเอา",
+          "รูปที่ใช้ต้องไม่สมมาตร ไม่งั้นภาพหมุนกับภาพสะท้อนจะแยกไม่ออกจริง ๆ",
+          "ตัวเลือกต้องครอบคลุมความเข้าใจผิดที่เกิดจริง ไม่ใช่ตัวเลือกที่เดาได้ว่าผิดทันที"
+        ]
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.spatial.foundation.symmetry_reflection.0012",
+      "topic_ids": [
+        "tgat2.spatial.foundation.symmetry_reflection"
+      ],
+      "primary_topic_id": "tgat2.spatial.foundation.symmetry_reflection",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 ด้านมิติสัมพันธ์ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 5,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 2,
+        "needs_insight": true,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 75,
+      "stem_md": "รูปที่ 1 กับรูปที่ 2 สัมพันธ์กันอย่างไร\n\n[[fig1]]\n\n[[fig2]]",
+      "figures": [
+        {
+          "id": "fig1",
+          "type": "svg",
+          "alt": "รูปบนตาราง 2 x 4 ช่อง · แถวที่ 1 มีช่องที่ 1, 2 / แถวที่ 2 มีช่องที่ 1, 2 / แถวที่ 3 มีช่องที่ 1, 2 / แถวที่ 4 มีช่องที่ 1",
+          "svg": "<svg viewBox=\"0 0 146 146\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"138\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"138\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"138\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"138\"/><line x1=\"112\" y1=\"8\" x2=\"112\" y2=\"138\"/><line x1=\"138\" y1=\"8\" x2=\"138\" y2=\"138\"/><line x1=\"8\" y1=\"8\" x2=\"138\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"138\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"138\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"138\" y2=\"86\"/><line x1=\"8\" y1=\"112\" x2=\"138\" y2=\"112\"/><line x1=\"8\" y1=\"138\" x2=\"138\" y2=\"138\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"87\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"61\" width=\"24\" height=\"24\"/></g></svg>",
+          "caption": "รูปที่ 1"
+        },
+        {
+          "id": "fig2",
+          "type": "svg",
+          "alt": "รูปบนตาราง 2 x 4 ช่อง · แถวที่ 1 มีช่องที่ 2 / แถวที่ 2 มีช่องที่ 1, 2 / แถวที่ 3 มีช่องที่ 1, 2 / แถวที่ 4 มีช่องที่ 1, 2",
+          "svg": "<svg viewBox=\"0 0 146 146\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"138\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"138\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"138\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"138\"/><line x1=\"112\" y1=\"8\" x2=\"112\" y2=\"138\"/><line x1=\"138\" y1=\"8\" x2=\"138\" y2=\"138\"/><line x1=\"8\" y1=\"8\" x2=\"138\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"138\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"138\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"138\" y2=\"86\"/><line x1=\"8\" y1=\"112\" x2=\"138\" y2=\"112\"/><line x1=\"8\" y1=\"138\" x2=\"138\" y2=\"138\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"87\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"87\" width=\"24\" height=\"24\"/></g></svg>",
+          "caption": "รูปที่ 2"
+        }
+      ],
+      "choices": [
+        {
+          "md": "เป็นคนละรูปกัน",
+          "is_answer": false
+        },
+        {
+          "md": "เป็นภาพสะท้อน",
+          "is_answer": false
+        },
+        {
+          "md": "เป็นภาพหมุน 180 องศา",
+          "is_answer": true
+        },
+        {
+          "md": "เป็นรูปเดียวกันไม่ได้หมุน",
+          "is_answer": false
+        },
+        {
+          "md": "เป็นภาพสะท้อนแล้วหมุนด้วย",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "เลือกส่วนที่สังเกตง่ายสองส่วน เช่นแถวที่ยาวที่สุด กับช่องที่ยื่นออกมาช่องเดียว",
+          "why_md": "ต้องใช้สองส่วนเพื่อดูความสัมพันธ์ ถ้าดูส่วนเดียวจะบอกไม่ได้ว่าสลับข้างไหม"
+        },
+        {
+          "do_md": "ดูว่าช่องที่ยื่นออกอยู่ทางซ้ายหรือขวาของแถวที่ยาวที่สุดในทั้งสองรูป",
+          "why_md": "การหมุนไม่เปลี่ยนความสัมพันธ์ซ้ายขวา แต่การสะท้อนสลับเสมอ"
+        },
+        {
+          "do_md": "ในคู่นี้ความสัมพันธ์คงเดิม จึงเป็นภาพหมุน 180 องศา",
+          "why_md": "สรุปจากหลักข้างต้นได้เลย ไม่ต้องลองหมุนในหัวทุกมุม"
+        }
+      ],
+      "answer_explanation_md": "เมื่อเทียบความสัมพันธ์ซ้ายขวาของสองส่วนในรูป พบว่าไม่สลับข้าง จึงเป็นภาพหมุน หลักนี้ใช้ได้กับทุกรูปที่ไม่สมมาตร โดยไม่ต้องลองหมุนทีละมุม",
+      "hints": [
+        "อย่าพยายามหมุนทั้งรูปในหัว ให้เลือกส่วนที่สังเกตง่ายสองส่วนก่อน",
+        "ดูความสัมพันธ์ซ้ายขวาระหว่างสองส่วนนั้นในทั้งสองรูป",
+        "การหมุนไม่เคยสลับซ้ายขวา ส่วนการสะท้อนสลับเสมอ"
+      ],
+      "distractor_reasons": {
+        "0": "จำนวนช่องและรูปร่างเหมือนกันทุกประการ ต่างแค่การวาง",
+        "1": "สองรูปนี้หมุนให้ทับกันได้จริง จึงเป็นภาพหมุน ไม่ใช่ภาพสะท้อน",
+        "3": "สองรูปวางไม่เหมือนกัน ถ้าไม่หมุนจะไม่ทับกัน",
+        "4": "ไม่ต้องสะท้อนเลยก็หมุนให้ทับกันได้แล้ว"
+      },
+      "misconception_tags": [
+        "called_rotation_a_reflection",
+        "different_shape",
+        "extra_reflection",
+        "no_transform"
+      ],
+      "template": {
+        "provider": "shape2d.rotation_or_reflection",
+        "answer_kind": "text",
+        "params": {
+          "n_cells": 7,
+          "box": 5
+        },
+        "stem_tpl": "รูปที่ 1 กับรูปที่ 2 สัมพันธ์กันอย่างไร\n\n[[fig1]]\n\n[[fig2]]",
+        "quality_rules": [
+          "ตัดสินว่าเป็นภาพหมุนหรือภาพสะท้อนด้วยการคำนวณ ไม่ใช่การมองเอา",
+          "รูปที่ใช้ต้องไม่สมมาตร ไม่งั้นภาพหมุนกับภาพสะท้อนจะแยกไม่ออกจริง ๆ",
+          "ตัวเลือกต้องครอบคลุมความเข้าใจผิดที่เกิดจริง ไม่ใช่ตัวเลือกที่เดาได้ว่าผิดทันที"
+        ]
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    }
+  ]
+}

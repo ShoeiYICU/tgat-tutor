@@ -1,0 +1,593 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tgat1.reading.text_completion.reference_word",
+  "problems": [
+    {
+      "id": "prob.tgat1.reading.text_completion.reference_word.0001",
+      "topic_ids": [
+        "tgat1.reading.text_completion.reference_word"
+      ],
+      "primary_topic_id": "tgat1.reading.text_completion.reference_word",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 60,
+      "stem_md": "**Community Garden**\n\nThree years ago, the empty land behind Suan Mai School was full of rubbish. Today, it is a community garden where students and neighbors grow vegetables together. The idea came from a group of Grade 10 students who were tired of seeing plastic bags blowing across the field. At first, many adults doubted that teenagers could keep the project going. However, the students organized a weekly schedule, asked a local farmer for advice, and sold their vegetables at the school market. The money they earned was used to buy seeds and tools. Now, more than forty families take part, and the garden has become a place where older and younger people share knowledge. Several other schools in the province have visited to learn how to start similar projects.\n\n---\n\nIn the sentence \"The money **they** earned was used to buy seeds and tools,\" the word *they* refers to...",
+      "figures": [],
+      "choices": [
+        {
+          "md": "the adults",
+          "is_answer": false
+        },
+        {
+          "md": "the vegetables",
+          "is_answer": false
+        },
+        {
+          "md": "the plastic bags",
+          "is_answer": false
+        },
+        {
+          "md": "the students",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "they = พหูพจน์",
+          "why_md": "ย้อนหาคำนามพหูพจน์ในประโยคก่อนหน้า"
+        },
+        {
+          "do_md": "แทนค่า: the students earned money by selling vegetables",
+          "why_md": "สมเหตุผลตามบทอ่าน"
+        }
+      ],
+      "answer_explanation_md": "ตอบ the students เพราะนักเรียนเป็นคนขายผักและได้เงินมาซื้อเมล็ดพันธุ์และเครื่องมือ",
+      "hints": [
+        "they เป็นเอกพจน์หรือพหูพจน์",
+        "ใครเป็นคนขายผักที่ตลาด",
+        "แทนแต่ละตัวเลือกลงในประโยคแล้วอ่านใหม่"
+      ],
+      "distractor_reasons": {
+        "0": "ผู้ใหญ่ไม่ได้เป็นคนขายผัก และบทอ่านบอกว่าผู้ใหญ่ไม่เชื่อในโครงการ",
+        "1": "ผักไม่สามารถหาเงินได้",
+        "2": "ไม่เกี่ยวกับการหาเงิน"
+      },
+      "misconception_tags": [
+        "nearest_noun_trap"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.reading.text_completion.reference_word.0002",
+      "topic_ids": [
+        "tgat1.reading.text_completion.reference_word"
+      ],
+      "primary_topic_id": "tgat1.reading.text_completion.reference_word",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 4,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "high"
+      },
+      "est_seconds": 75,
+      "stem_md": "**Sleep and Learning**\n\nMany teenagers believe that staying up late to study will help them get better grades. Sleep researchers, however, suggest the opposite. When we sleep, the brain sorts and stores the information we learned during the day. Students who sleep less than six hours a night often find it harder to concentrate and remember facts. In one classroom activity, two groups of students learned the same list of words. One group was tested after eight hours of sleep, while the other was tested after spending the same amount of time awake. The sleeping group remembered more words. This does not mean that studying is unimportant. Rather, it shows that sleep is part of learning, not a break from it. Experts recommend that teenagers get eight to ten hours of sleep and avoid using phones for at least an hour before bed.\n\n---\n\nIn the sentence \"**This** does not mean that studying is unimportant,\" the word *This* refers to...",
+      "figures": [],
+      "choices": [
+        {
+          "md": "the group of students that stayed awake all night",
+          "is_answer": false
+        },
+        {
+          "md": "the list of words",
+          "is_answer": false
+        },
+        {
+          "md": "the next day",
+          "is_answer": false
+        },
+        {
+          "md": "the finding about sleep",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "This ต้นประโยคมักชี้กลับไปทั้งความคิดในประโยคก่อนหน้า",
+          "why_md": "ประโยคก่อนหน้าคือผลการทดลองว่ากลุ่มที่นอนจำได้มากกว่า"
+        },
+        {
+          "do_md": "แทนค่า: ผลการทดลองนี้ไม่ได้แปลว่าการเรียนไม่สำคัญ",
+          "why_md": "สมเหตุผล"
+        }
+      ],
+      "answer_explanation_md": "ตอบ the finding about sleep เพราะ This ชี้กลับไปหาผลการทดลองในประโยคก่อนหน้าทั้งหมด",
+      "hints": [
+        "This ในที่นี้ชี้ไปหาคำนามคำเดียวหรือทั้งความคิด",
+        "ประโยคก่อนหน้าบอกผลอะไร",
+        "ผลอะไรที่อาจทำให้คนคิดว่าไม่ต้องเรียน"
+      ],
+      "distractor_reasons": {
+        "0": "เป็นกลุ่มทดลอง ไม่ใช่สิ่งที่อาจถูกเข้าใจผิดว่าการเรียนไม่สำคัญ",
+        "1": "เป็นคำนามที่อยู่ใกล้ แต่แทนค่าแล้วไม่สมเหตุผล",
+        "2": "เป็นคำบอกเวลา ไม่ใช่ความคิด"
+      },
+      "misconception_tags": [
+        "nearest_noun_trap"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.reading.text_completion.reference_word.0003",
+      "topic_ids": [
+        "tgat1.reading.text_completion.reference_word"
+      ],
+      "primary_topic_id": "tgat1.reading.text_completion.reference_word",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 60,
+      "stem_md": "**Floating Market**\n\nFor more than sixty years, Riverside Floating Market was mainly a place where farmers sold fruit to local families. When a popular travel program featured the market in 2015, everything changed. Within a few months, weekend visitors increased from a few hundred to several thousand. Some vendors were delighted because their income doubled. Others were less happy. They complained that parking spaces were always full and that traditional wooden boats were being replaced by larger, noisier ones. The local council eventually introduced a rule limiting the number of motorboats. Today, the market tries to balance its new popularity with its old way of life.\n\n---\n\nIn the sentence \"**They** complained that parking spaces were always full,\" the word *They* refers to...",
+      "figures": [],
+      "choices": [
+        {
+          "md": "the weekend visitors",
+          "is_answer": false
+        },
+        {
+          "md": "the vendors who were less happy",
+          "is_answer": true
+        },
+        {
+          "md": "the farmers' families",
+          "is_answer": false
+        },
+        {
+          "md": "the members of the local council who made the new rule",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ประโยคก่อนหน้า: Others were less happy.",
+          "why_md": "Others หมายถึงผู้ค้าอีกกลุ่ม"
+        },
+        {
+          "do_md": "They ชี้กลับไปหา Others = ผู้ค้าที่ไม่พอใจ",
+          "why_md": "แทนค่าแล้วสมเหตุผล"
+        }
+      ],
+      "answer_explanation_md": "ตอบ the vendors who were less happy เพราะ They ชี้กลับไปหา Others ซึ่งหมายถึงผู้ค้าอีกกลุ่มที่ไม่พอใจ",
+      "hints": [
+        "ประโยคก่อนหน้าพูดถึงใคร",
+        "Others หมายถึงใครในบริบทนี้",
+        "ใครเป็นคนบ่นเรื่องที่จอดรถ"
+      ],
+      "distractor_reasons": {
+        "0": "นักท่องเที่ยวไม่ใช่กลุ่มที่บทอ่านบอกว่าไม่พอใจ",
+        "2": "บทอ่านไม่ได้พูดถึงครอบครัวในส่วนนี้",
+        "3": "สภาเป็นผู้แก้ปัญหา ไม่ใช่ผู้บ่น"
+      },
+      "misconception_tags": [
+        "nearest_noun_trap"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.reading.text_completion.reference_word.0004",
+      "topic_ids": [
+        "tgat1.reading.text_completion.reference_word"
+      ],
+      "primary_topic_id": "tgat1.reading.text_completion.reference_word",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 50,
+      "stem_md": "**Floating Market**\n\nFor more than sixty years, Riverside Floating Market was mainly a place where farmers sold fruit to local families. When a popular travel program featured the market in 2015, everything changed. Within a few months, weekend visitors increased from a few hundred to several thousand. Some vendors were delighted because their income doubled. Others were less happy. They complained that parking spaces were always full and that traditional wooden boats were being replaced by larger, noisier ones. The local council eventually introduced a rule limiting the number of motorboats. Today, the market tries to balance its new popularity with its old way of life.\n\n---\n\nIn the last sentence, \"**its** old way of life,\" the word *its* refers to...",
+      "figures": [],
+      "choices": [
+        {
+          "md": "the travel program",
+          "is_answer": false
+        },
+        {
+          "md": "the council",
+          "is_answer": false
+        },
+        {
+          "md": "the market",
+          "is_answer": true
+        },
+        {
+          "md": "the rule",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "its = ของมัน (เอกพจน์)",
+          "why_md": "ในประโยคเดียวกันมีคำว่า the market"
+        },
+        {
+          "do_md": "แทนค่า: the market's old way of life",
+          "why_md": "สมเหตุผล"
+        }
+      ],
+      "answer_explanation_md": "ตอบ the market เพราะ its old way of life หมายถึงวิถีชีวิตดั้งเดิมของตลาด",
+      "hints": [
+        "its อยู่ในประโยคเดียวกับคำนามอะไร",
+        "อะไรมีวิถีชีวิตดั้งเดิม",
+        "แทนค่าแล้วอ่านใหม่"
+      ],
+      "distractor_reasons": {
+        "0": "รายการท่องเที่ยวไม่ใช่สิ่งที่มีวิถีชีวิตดั้งเดิม",
+        "1": "สภาไม่ได้มีวิถีชีวิตดั้งเดิมที่พูดถึง",
+        "3": "กฎไม่มีวิถีชีวิต"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.reading.text_completion.reference_word.0005",
+      "topic_ids": [
+        "tgat1.reading.text_completion.reference_word"
+      ],
+      "primary_topic_id": "tgat1.reading.text_completion.reference_word",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 60,
+      "stem_md": "**Complaint Letter**\n\nDear Mr. Hansen,\n\nI am writing to complain about the fitness app I subscribed to last month. Your advertisement promised personalized workout plans and weekly progress reports. Unfortunately, I have received the same basic plan every week, and I have not received a single progress report. When I contacted your customer service on 3 March, I was told that the problem would be fixed within two days. It has now been two weeks, and nothing has changed. I would therefore like to request a full refund of my subscription fee. I look forward to your prompt reply.\n\nYours sincerely,\nPimchanok S.\n\n---\n\nIn the sentence \"the problem would be fixed within two days,\" *the problem* refers to...",
+      "figures": [],
+      "choices": [
+        {
+          "md": "the price of the subscription",
+          "is_answer": false
+        },
+        {
+          "md": "the date 3 March",
+          "is_answer": false
+        },
+        {
+          "md": "the repeated basic plans and missing reports",
+          "is_answer": true
+        },
+        {
+          "md": "the phone number of the customer service department she called",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ประโยคก่อนหน้าบอกปัญหา: ได้แผนเดิมทุกสัปดาห์ และไม่ได้รายงานความคืบหน้า",
+          "why_md": "the problem ชี้กลับไปหาสิ่งนี้"
+        },
+        {
+          "do_md": "แทนค่าแล้วสมเหตุผล",
+          "why_md": "ปัญหาที่จะถูกแก้ภายในสองวันคือแผนที่ไม่ปรับเฉพาะบุคคลและรายงานที่ไม่ได้รับ"
+        }
+      ],
+      "answer_explanation_md": "ตอบ the repeated basic plans and missing reports เพราะเป็นปัญหาสองอย่างที่ผู้เขียนเล่าในประโยคก่อนหน้า",
+      "hints": [
+        "ผู้เขียนบ่นเรื่องอะไรก่อนพูดถึง the problem",
+        "the problem ชี้ไปหาคำนามคำเดียวหรือเรื่องที่เล่ามา",
+        "แทนค่าแล้วสมเหตุผลไหม"
+      ],
+      "distractor_reasons": {
+        "0": "ผู้เขียนไม่ได้บ่นเรื่องราคาก่อนประโยคนี้",
+        "1": "เป็นวันที่ติดต่อ ไม่ใช่ปัญหา",
+        "3": "ไม่มีข้อมูลว่าเบอร์โทรมีปัญหา"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.reading.text_completion.reference_word.0006",
+      "topic_ids": [
+        "tgat1.reading.text_completion.reference_word"
+      ],
+      "primary_topic_id": "tgat1.reading.text_completion.reference_word",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 35,
+      "stem_md": "Researchers compared two groups of students. The first group slept eight hours; the second stayed awake. **The former** remembered more words.\n\nThe former refers to...",
+      "figures": [],
+      "choices": [
+        {
+          "md": "the group that slept eight hours",
+          "is_answer": true
+        },
+        {
+          "md": "the group of students that stayed awake all night",
+          "is_answer": false
+        },
+        {
+          "md": "the researchers",
+          "is_answer": false
+        },
+        {
+          "md": "both groups",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "the former = ตัวแรก, the latter = ตัวหลัง",
+          "why_md": "ในสองสิ่งที่กล่าวถึง"
+        },
+        {
+          "do_md": "ตัวแรกคือกลุ่มที่นอน 8 ชั่วโมง",
+          "why_md": "the group that slept eight hours"
+        }
+      ],
+      "answer_explanation_md": "ตอบ the group that slept eight hours เพราะ the former หมายถึงสิ่งแรกในสองสิ่งที่กล่าวถึง",
+      "hints": [
+        "the former แปลว่าอะไร",
+        "สองสิ่งที่ถูกเปรียบเทียบคืออะไร",
+        "ตัวไหนถูกกล่าวถึงก่อน"
+      ],
+      "distractor_reasons": {
+        "1": "เป็น the latter (ตัวหลัง) ไม่ใช่ the former",
+        "2": "ไม่ได้อยู่ในคู่ที่ถูกเปรียบเทียบ",
+        "3": "the former หมายถึงตัวแรกในสองตัวเท่านั้น"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.reading.text_completion.reference_word.0007",
+      "topic_ids": [
+        "tgat1.reading.text_completion.reference_word"
+      ],
+      "primary_topic_id": "tgat1.reading.text_completion.reference_word",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 55,
+      "stem_md": "Lena lent Maya her tablet because hers had stopped working. What does 'hers' refer to?",
+      "figures": [],
+      "choices": [
+        {
+          "md": "Lena's tablet",
+          "is_answer": false
+        },
+        {
+          "md": "Maya's tablet",
+          "is_answer": true
+        },
+        {
+          "md": "Maya herself",
+          "is_answer": false
+        },
+        {
+          "md": "the loan",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ระบุสิ่งที่โจทย์ถาม",
+          "why_md": "ใช้เหตุผลของการให้ยืมและรูป possessive"
+        },
+        {
+          "do_md": "ตรวจด้วยบริบทรอบจุดสำคัญ",
+          "why_md": "เลือกคำตอบที่มีหลักฐานรองรับครบ ไม่เติมข้อมูลเอง"
+        }
+      ],
+      "answer_explanation_md": "แท็บเล็ตของ Maya เสียจึงต้องยืมของ Lena",
+      "hints": [
+        "ขีดเส้นคำหรือประโยคที่เป็นหลักฐาน",
+        "ตัดตัวเลือกที่จริงบางส่วนแต่ตอบคนละคำถาม",
+        "ตรวจว่าคำตอบไม่กว้างหรือแคบเกินข้อความ"
+      ],
+      "distractor_reasons": {
+        "0": "ถ้าเป็นของ Lena ก็ไม่อธิบายเหตุที่ยืมให้ Maya",
+        "2": "hers เป็น possessive pronoun แทนสิ่งของ",
+        "3": "ไม่มีคำนามนี้ให้แทน"
+      },
+      "misconception_tags": [
+        "nearest_noun_trap"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.reading.text_completion.reference_word.0008",
+      "topic_ids": [
+        "tgat1.reading.text_completion.reference_word"
+      ],
+      "primary_topic_id": "tgat1.reading.text_completion.reference_word",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 5,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": true,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 75,
+      "stem_md": "The council rejected the first plan and revised the second. This was unexpected because both had met the published criteria. What does 'This' refer to?",
+      "figures": [],
+      "choices": [
+        {
+          "md": "The council's different treatment of the two plans",
+          "is_answer": true
+        },
+        {
+          "md": "The revision of both plans",
+          "is_answer": false
+        },
+        {
+          "md": "The plans meeting the criteria",
+          "is_answer": false
+        },
+        {
+          "md": "The publication of the criteria",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ระบุสิ่งที่โจทย์ถาม",
+          "why_md": "This สรุปเหตุการณ์ทั้งประโยคก่อน ไม่จำเป็นต้องแทนนามใกล้สุด"
+        },
+        {
+          "do_md": "ตรวจด้วยบริบทรอบจุดสำคัญ",
+          "why_md": "เลือกคำตอบที่มีหลักฐานรองรับครบ ไม่เติมข้อมูลเอง"
+        }
+      ],
+      "answer_explanation_md": "สิ่งไม่คาดคิดคือการปฏิบัติต่อสองแผนต่างกันทั้งที่ผ่านเกณฑ์เหมือนกัน",
+      "hints": [
+        "ขีดเส้นคำหรือประโยคที่เป็นหลักฐาน",
+        "ตัดตัวเลือกที่จริงบางส่วนแต่ตอบคนละคำถาม",
+        "ตรวจว่าคำตอบไม่กว้างหรือแคบเกินข้อความ"
+      ],
+      "distractor_reasons": {
+        "1": "มีเพียงแผนที่สองถูกแก้",
+        "2": "เป็นเหตุผลที่ทำให้ผลต่างกันน่าประหลาด ไม่ใช่ผลนั้นเอง",
+        "3": "เป็นข้อมูลพื้นหลัง ไม่ใช่เหตุการณ์ไม่คาดคิด"
+      },
+      "misconception_tags": [
+        "nearest_noun_trap"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    }
+  ],
+  "generated_from": "content/tgat1/reading.py"
+}

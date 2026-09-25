@@ -1,0 +1,556 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tgat2.language.communication.analogy_function",
+  "problems": [
+    {
+      "id": "prob.tgat2.language.communication.analogy_function.0001",
+      "topic_ids": [
+        "tgat2.language.communication.analogy_function"
+      ],
+      "primary_topic_id": "tgat2.language.communication.analogy_function",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 25,
+      "stem_md": "ปากกา : เขียน  ::  ยางลบ : ?",
+      "figures": [],
+      "choices": [
+        {
+          "md": "สีขาว",
+          "is_answer": false
+        },
+        {
+          "md": "ยาง",
+          "is_answer": false
+        },
+        {
+          "md": "ดินสอ",
+          "is_answer": false
+        },
+        {
+          "md": "ลบ",
+          "is_answer": true
+        },
+        {
+          "md": "กระดาษ",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ปากกาใช้สำหรับเขียน",
+          "why_md": "เครื่องมือ : การกระทำ"
+        },
+        {
+          "do_md": "ยางลบใช้สำหรับลบ",
+          "why_md": "แทนคู่ที่สอง"
+        }
+      ],
+      "answer_explanation_md": "ตอบ ลบ เพราะยางลบใช้สำหรับลบ เหมือนปากกาใช้สำหรับเขียน",
+      "hints": [
+        "ปากกาใช้ทำอะไร",
+        "ยางลบใช้ทำอะไร",
+        "ตัวเลือกต้องเป็นการกระทำ ไม่ใช่วัสดุหรือสิ่งของ"
+      ],
+      "distractor_reasons": {
+        "0": "เป็นลักษณะ",
+        "1": "เป็นวัสดุ",
+        "2": "เป็นเครื่องเขียนอีกชนิด ไม่ใช่หน้าที่",
+        "4": "เป็นสิ่งที่ถูกลบ ไม่ใช่การกระทำ"
+      },
+      "misconception_tags": [
+        "related_not_function"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.language.communication.analogy_function.0002",
+      "topic_ids": [
+        "tgat2.language.communication.analogy_function"
+      ],
+      "primary_topic_id": "tgat2.language.communication.analogy_function",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 30,
+      "stem_md": "ช่างตัดผม : กรรไกร  ::  จิตรกร : ?",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ความคิดสร้างสรรค์",
+          "is_answer": false
+        },
+        {
+          "md": "หอศิลป์",
+          "is_answer": false
+        },
+        {
+          "md": "ภาพวาด",
+          "is_answer": false
+        },
+        {
+          "md": "ศิลปะ",
+          "is_answer": false
+        },
+        {
+          "md": "พู่กัน",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ช่างตัดผมใช้กรรไกรทำงาน",
+          "why_md": "ผู้ประกอบอาชีพ : เครื่องมือ"
+        },
+        {
+          "do_md": "จิตรกรใช้พู่กันทำงาน",
+          "why_md": "แทนคู่ที่สอง"
+        }
+      ],
+      "answer_explanation_md": "ตอบ พู่กัน เพราะเป็นเครื่องมือที่จิตรกรใช้ เหมือนกรรไกรเป็นเครื่องมือของช่างตัดผม",
+      "hints": [
+        "ช่างตัดผมกับกรรไกรเกี่ยวข้องกันอย่างไร",
+        "จิตรกรใช้อะไรเป็นเครื่องมือหลัก",
+        "ระวังตัวเลือกที่เป็นผลงานหรือสถานที่"
+      ],
+      "distractor_reasons": {
+        "0": "เป็นคุณสมบัติ",
+        "1": "เป็นสถานที่",
+        "2": "เป็นผลงาน ไม่ใช่เครื่องมือ",
+        "3": "เป็นสาขางาน"
+      },
+      "misconception_tags": [
+        "related_not_function"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.language.communication.analogy_function.0003",
+      "topic_ids": [
+        "tgat2.language.communication.analogy_function"
+      ],
+      "primary_topic_id": "tgat2.language.communication.analogy_function",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 35,
+      "stem_md": "คู่ใดมีความสัมพันธ์แบบเดียวกับ ตู้เย็น : แช่เย็น",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ตู้เสื้อผ้า : เสื้อ",
+          "is_answer": false
+        },
+        {
+          "md": "เตาอบ : อบ",
+          "is_answer": true
+        },
+        {
+          "md": "ห้องครัว : ตู้เย็น",
+          "is_answer": false
+        },
+        {
+          "md": "น้ำแข็ง : เย็น",
+          "is_answer": false
+        },
+        {
+          "md": "แช่เย็น : ตู้เย็น",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ตู้เย็นใช้สำหรับแช่เย็น",
+          "why_md": "เครื่องมือ : การกระทำ"
+        },
+        {
+          "do_md": "เตาอบใช้สำหรับอบ",
+          "why_md": "ทิศเดียวกัน"
+        }
+      ],
+      "answer_explanation_md": "ตอบ เตาอบ : อบ เพราะเป็นเครื่องใช้ : หน้าที่ เหมือน ตู้เย็น : แช่เย็น",
+      "hints": [
+        "แต่งประโยค ตู้เย็นใช้สำหรับ...",
+        "ตัวเลือกใดใช้ประโยคเดียวกันได้",
+        "ระวังคู่ที่กลับทิศ"
+      ],
+      "distractor_reasons": {
+        "0": "เป็นสิ่งของกับสิ่งที่เก็บ ไม่ใช่การกระทำ",
+        "2": "เป็นสถานที่กับสิ่งของ",
+        "3": "เป็นสิ่งของกับคุณสมบัติ",
+        "4": "กลับทิศ"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.language.communication.analogy_function.0004",
+      "topic_ids": [
+        "tgat2.language.communication.analogy_function"
+      ],
+      "primary_topic_id": "tgat2.language.communication.analogy_function",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 35,
+      "stem_md": "เทอร์โมมิเตอร์ : อุณหภูมิ  ::  นาฬิกาจับเวลา : ?",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ระยะเวลา",
+          "is_answer": true
+        },
+        {
+          "md": "ความเร็ว",
+          "is_answer": false
+        },
+        {
+          "md": "ตัวเลข",
+          "is_answer": false
+        },
+        {
+          "md": "ปุ่มกด",
+          "is_answer": false
+        },
+        {
+          "md": "นักวิ่ง",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "เทอร์โมมิเตอร์ใช้วัดอุณหภูมิ",
+          "why_md": "เครื่องมือ : สิ่งที่วัด"
+        },
+        {
+          "do_md": "นาฬิกาจับเวลาใช้วัดระยะเวลา",
+          "why_md": "แทนคู่ที่สอง"
+        }
+      ],
+      "answer_explanation_md": "ตอบ ระยะเวลา เพราะนาฬิกาจับเวลาวัดระยะเวลาโดยตรง เหมือนเทอร์โมมิเตอร์วัดอุณหภูมิ",
+      "hints": [
+        "เทอร์โมมิเตอร์ใช้วัดอะไร",
+        "นาฬิกาจับเวลาวัดอะไรโดยตรง",
+        "ระวังปริมาณที่ต้องคำนวณเพิ่ม เช่น ความเร็ว"
+      ],
+      "distractor_reasons": {
+        "1": "นาฬิกาจับเวลาไม่ได้วัดความเร็วโดยตรง",
+        "2": "เป็นสิ่งที่แสดง ไม่ใช่สิ่งที่วัด",
+        "3": "เป็นส่วนประกอบ",
+        "4": "เป็นผู้ถูกจับเวลา"
+      },
+      "misconception_tags": [
+        "related_not_function"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.language.communication.analogy_function.0005",
+      "topic_ids": [
+        "tgat2.language.communication.analogy_function"
+      ],
+      "primary_topic_id": "tgat2.language.communication.analogy_function",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 30,
+      "stem_md": "นักบิน : เครื่องบิน  ::  กัปตันเรือ : ?",
+      "figures": [],
+      "choices": [
+        {
+          "md": "เรือ",
+          "is_answer": true
+        },
+        {
+          "md": "ท่าเรือ",
+          "is_answer": false
+        },
+        {
+          "md": "ทะเล",
+          "is_answer": false
+        },
+        {
+          "md": "ผู้โดยสาร",
+          "is_answer": false
+        },
+        {
+          "md": "สมอเรือ",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "นักบินเป็นผู้ควบคุมเครื่องบิน",
+          "why_md": "ผู้ควบคุม : ยานพาหนะ"
+        },
+        {
+          "do_md": "กัปตันเรือเป็นผู้ควบคุมเรือ",
+          "why_md": "แทนคู่ที่สอง"
+        }
+      ],
+      "answer_explanation_md": "ตอบ เรือ เพราะกัปตันเรือเป็นผู้ควบคุมเรือ เหมือนนักบินควบคุมเครื่องบิน",
+      "hints": [
+        "นักบินทำหน้าที่อะไรกับเครื่องบิน",
+        "กัปตันเรือควบคุมอะไร",
+        "ระวังตัวเลือกที่เป็นสถานที่หรือส่วนประกอบ"
+      ],
+      "distractor_reasons": {
+        "1": "เป็นสถานที่จอด",
+        "2": "เป็นที่ที่เรือแล่น",
+        "3": "เป็นผู้ที่เดินทาง",
+        "4": "เป็นส่วนประกอบของเรือ"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.language.communication.analogy_function.0006",
+      "topic_ids": [
+        "tgat2.language.communication.analogy_function"
+      ],
+      "primary_topic_id": "tgat2.language.communication.analogy_function",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 25,
+      "stem_md": "ไม้กวาด : กวาด  ::  กรรไกร : ?",
+      "figures": [],
+      "choices": [
+        {
+          "md": "เหล็ก",
+          "is_answer": false
+        },
+        {
+          "md": "ตัด",
+          "is_answer": true
+        },
+        {
+          "md": "คม",
+          "is_answer": false
+        },
+        {
+          "md": "ช่างตัดผม",
+          "is_answer": false
+        },
+        {
+          "md": "กระดาษ",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ไม้กวาดใช้สำหรับกวาด",
+          "why_md": "เครื่องมือ : การกระทำ"
+        },
+        {
+          "do_md": "กรรไกรใช้สำหรับตัด",
+          "why_md": "แทนคู่ที่สอง"
+        }
+      ],
+      "answer_explanation_md": "ตอบ ตัด เพราะกรรไกรใช้สำหรับตัด เหมือนไม้กวาดใช้สำหรับกวาด",
+      "hints": [
+        "ไม้กวาดใช้ทำอะไร",
+        "กรรไกรใช้ทำอะไร",
+        "ตัวเลือกต้องเป็นการกระทำ"
+      ],
+      "distractor_reasons": {
+        "0": "เป็นวัสดุ",
+        "2": "เป็นลักษณะ",
+        "3": "เป็นผู้ใช้",
+        "4": "เป็นสิ่งที่ถูกตัด"
+      },
+      "misconception_tags": [
+        "related_not_function"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.language.communication.analogy_function.0007",
+      "topic_ids": [
+        "tgat2.language.communication.analogy_function"
+      ],
+      "primary_topic_id": "tgat2.language.communication.analogy_function",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 30,
+      "stem_md": "กุญแจ : ไข  ::  ร่ม : ?",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ด้ามจับ",
+          "is_answer": false
+        },
+        {
+          "md": "พกพา",
+          "is_answer": false
+        },
+        {
+          "md": "กันฝน",
+          "is_answer": true
+        },
+        {
+          "md": "ฤดูฝน",
+          "is_answer": false
+        },
+        {
+          "md": "ผ้าใบ",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "กุญแจใช้สำหรับไข",
+          "why_md": "เครื่องมือ : หน้าที่"
+        },
+        {
+          "do_md": "ร่มใช้สำหรับกันฝน",
+          "why_md": "แทนคู่ที่สอง"
+        }
+      ],
+      "answer_explanation_md": "ตอบ กันฝน เพราะร่มใช้สำหรับกันฝน เหมือนกุญแจใช้สำหรับไข",
+      "hints": [
+        "แต่งประโยค กุญแจใช้สำหรับ...",
+        "ร่มใช้สำหรับอะไร",
+        "ระวังตัวเลือกที่เป็นวัสดุหรือส่วนประกอบ"
+      ],
+      "distractor_reasons": {
+        "0": "เป็นส่วนประกอบ",
+        "1": "เป็นวิธีนำติดตัว ไม่ใช่หน้าที่หลัก",
+        "3": "เป็นช่วงเวลาที่ใช้",
+        "4": "เป็นวัสดุ"
+      },
+      "misconception_tags": [
+        "related_not_function"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    }
+  ],
+  "generated_from": "content/tgat2/language_comm_reading.py"
+}

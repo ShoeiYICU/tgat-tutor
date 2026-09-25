@@ -1,0 +1,483 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tpat3.thinking.current_awareness.physics_materials",
+  "problems": [
+    {
+      "id": "prob.tpat3.thinking.current_awareness.physics_materials.0001",
+      "topic_ids": [
+        "tpat3.thinking.current_awareness.physics_materials"
+      ],
+      "primary_topic_id": "tpat3.thinking.current_awareness.physics_materials",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 110,
+      "stem_md": "ตัวนำยิ่งยวดมีสมบัติเด่นข้อใดเมื่ออยู่ใต้เงื่อนไขวิกฤต",
+      "figures": [],
+      "choices": [
+        {
+          "md": "นำไฟฟ้าโดยไม่มีเงื่อนไขอุณหภูมิหรือสนาม",
+          "is_answer": false
+        },
+        {
+          "md": "ไม่มีมวลเมื่อมีกระแส",
+          "is_answer": false
+        },
+        {
+          "md": "สร้างพลังงานขึ้นเอง",
+          "is_answer": false
+        },
+        {
+          "md": "เป็นฉนวนความร้อนสมบูรณ์ทุกชนิด",
+          "is_answer": false
+        },
+        {
+          "md": "ความต้านทานศูนย์ภายใต้เงื่อนไขวิกฤต",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ระบุเงื่อนไข",
+          "why_md": "ต่ำกว่าอุณหภูมิ/สนาม/กระแสวิกฤต"
+        },
+        {
+          "do_md": "ระบุสมบัติ",
+          "why_md": "zero resistance และผลแม่เหล็ก"
+        }
+      ],
+      "answer_explanation_md": "ตอบความต้านทานศูนย์ภายใต้เงื่อนไขวิกฤต",
+      "hints": [
+        "คำว่า critical บอกอะไร",
+        "ความต้านทานต่างจากพลังงานหรือไม่",
+        "สมบัติหายได้เมื่อเกินเงื่อนไขไหม"
+      ],
+      "distractor_reasons": {
+        "0": "มีขีดวิกฤต",
+        "1": "ไม่เกี่ยว",
+        "2": "ไม่ละเมิดอนุรักษ์พลังงาน",
+        "3": "ไม่ใช่นิยาม"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.thinking.current_awareness.physics_materials.0002",
+      "topic_ids": [
+        "tpat3.thinking.current_awareness.physics_materials"
+      ],
+      "primary_topic_id": "tpat3.thinking.current_awareness.physics_materials",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 4,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "high"
+      },
+      "est_seconds": 125,
+      "stem_md": "วัสดุผสมเส้นใยรับแรงได้ดีตามแนวเส้นใย แต่รับแรงขวางแนวได้น้อยกว่า ข้อใดสำคัญในการออกแบบ",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ตัดเมทริกซ์ออกทั้งหมด",
+          "is_answer": false
+        },
+        {
+          "md": "ถือว่าสมบัติเท่ากันทุกทิศ",
+          "is_answer": false
+        },
+        {
+          "md": "วางแนวเส้นใยให้สอดคล้องกับทิศแรงและทดสอบหลายทิศ",
+          "is_answer": true
+        },
+        {
+          "md": "เพิ่มสีเข้มเพื่อเพิ่มกำลัง",
+          "is_answer": false
+        },
+        {
+          "md": "ใช้ค่ากำลังสูงสุดทิศเดียวกับทุกชิ้นส่วน",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "เชื่อมโครงสร้างกับทิศ",
+          "why_md": "เส้นใยมีแนว"
+        },
+        {
+          "do_md": "เชื่อมกับโหลด",
+          "why_md": "วางตามทิศแรงหลัก"
+        },
+        {
+          "do_md": "ตรวจโหลดอื่น",
+          "why_md": "ทดสอบหลายทิศ"
+        }
+      ],
+      "answer_explanation_md": "ตอบวางแนวและทดสอบตามทิศโหลด",
+      "hints": [
+        "วัสดุนี้ isotropic ไหม",
+        "แรงจริงมาจากทิศใด",
+        "รอยต่อและเมทริกซ์มีบทบาทอะไร"
+      ],
+      "distractor_reasons": {
+        "0": "เมทริกซ์ช่วยยึดและถ่ายแรง",
+        "1": "ละเลย anisotropy",
+        "3": "สีไม่กำหนดทิศแรง",
+        "4": "ไม่ครอบคลุมโหลดจริง"
+      },
+      "misconception_tags": [
+        "assume_isotropic_composite"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.thinking.current_awareness.physics_materials.0003",
+      "topic_ids": [
+        "tpat3.thinking.current_awareness.physics_materials"
+      ],
+      "primary_topic_id": "tpat3.thinking.current_awareness.physics_materials",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 105,
+      "stem_md": "อนุภาคขนาดเล็กลงมากโดยมวลรวมเท่าเดิม เหตุใดปฏิกิริยาที่ผิวอาจเร็วขึ้น",
+      "figures": [],
+      "choices": [
+        {
+          "md": "มวลหายไปเป็นพลังงานทั้งหมด",
+          "is_answer": false
+        },
+        {
+          "md": "อะตอมทุกตัวเปลี่ยนธาตุ",
+          "is_answer": false
+        },
+        {
+          "md": "อุณหภูมิต้องเป็นศูนย์",
+          "is_answer": false
+        },
+        {
+          "md": "พื้นที่ผิวต่อปริมาตรเพิ่ม",
+          "is_answer": true
+        },
+        {
+          "md": "แรงโน้มถ่วงหยุดทำงาน",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "คิดลูกบาศก์แบ่งย่อย",
+          "why_md": "ปริมาตรรวมเดิม"
+        },
+        {
+          "do_md": "ดูจำนวนผิวใหม่",
+          "why_md": "พื้นที่ผิวรวมเพิ่ม"
+        }
+      ],
+      "answer_explanation_md": "ตอบพื้นที่ผิวต่อปริมาตรเพิ่ม",
+      "hints": [
+        "การแบ่งก้อนสร้างผิวใหม่ไหม",
+        "อัตราส่วนพื้นที่ผิวต่อปริมาตรเปลี่ยนอย่างไร",
+        "ปฏิกิริยาเกิดที่บริเวณใด"
+      ],
+      "distractor_reasons": {
+        "0": "มวลรวมกำหนดว่าเท่าเดิม",
+        "1": "ขนาดอนุภาคไม่เปลี่ยนเลขอะตอม",
+        "2": "ไม่ใช่เงื่อนไข",
+        "4": "ไม่เกี่ยว"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.thinking.current_awareness.physics_materials.0004",
+      "topic_ids": [
+        "tpat3.thinking.current_awareness.physics_materials"
+      ],
+      "primary_topic_id": "tpat3.thinking.current_awareness.physics_materials",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 5,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": true,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 140,
+      "stem_md": "วัสดุโครงสร้างจิ๋วออกแบบให้ควบคุมคลื่นบางช่วงความถี่ คำว่า metamaterial เน้นอะไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ไม่มีการสูญเสียพลังงาน",
+          "is_answer": false
+        },
+        {
+          "md": "สมบัติที่เกิดจากโครงสร้างออกแบบร่วมกับองค์ประกอบ ไม่ใช่องค์ประกอบเคมีอย่างเดียว",
+          "is_answer": true
+        },
+        {
+          "md": "วัสดุต้องมาจากอุกกาบาต",
+          "is_answer": false
+        },
+        {
+          "md": "เปลี่ยนกฎฟิสิกส์ทั้งหมด",
+          "is_answer": false
+        },
+        {
+          "md": "ทำงานเหมือนกันทุกความถี่",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ดูคำบรรยาย",
+          "why_md": "โครงสร้างจิ๋วควบคุมคลื่น"
+        },
+        {
+          "do_md": "แยกจากเคมีล้วน",
+          "why_md": "geometry สร้าง effective property"
+        }
+      ],
+      "answer_explanation_md": "ตอบสมบัติเกิดจากโครงสร้างที่ออกแบบ",
+      "hints": [
+        "สมบัติเกิดจากการจัดเรียงหรือธาตุอย่างเดียว",
+        "คลื่นตอบสนองตามสเกลโครงสร้างไหม",
+        "คำกล่าวใดไม่ละเมิดฟิสิกส์"
+      ],
+      "distractor_reasons": {
+        "0": "วัสดุจริงมีการสูญเสีย",
+        "2": "meta ไม่ได้หมายถึงแหล่งกำเนิด",
+        "3": "ยังเป็นไปตามกฎฟิสิกส์",
+        "4": "การตอบสนองมักขึ้นกับความถี่"
+      },
+      "misconception_tags": [
+        "metamaterial_breaks_physics"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.thinking.current_awareness.physics_materials.0005",
+      "topic_ids": [
+        "tpat3.thinking.current_awareness.physics_materials"
+      ],
+      "primary_topic_id": "tpat3.thinking.current_awareness.physics_materials",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 4,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "high"
+      },
+      "est_seconds": 120,
+      "stem_md": "สารกึ่งตัวนำถูกเติมสิ่งเจือปนปริมาณน้อยเพื่ออะไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ปรับจำนวนพาหะประจุและสมบัติการนำไฟฟ้า",
+          "is_answer": true
+        },
+        {
+          "md": "ทำให้สมบัติไม่ขึ้นกับอุณหภูมิ",
+          "is_answer": false
+        },
+        {
+          "md": "เพิ่มมวลจนไฟฟ้าไหลเพราะแรงโน้มถ่วง",
+          "is_answer": false
+        },
+        {
+          "md": "ลบอิเล็กตรอนทุกตัวออกจากวัสดุ",
+          "is_answer": false
+        },
+        {
+          "md": "ทำให้กลายเป็นตัวนำสมบูรณ์ไม่มีความต้านทาน",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ระบุระดับที่เปลี่ยน",
+          "why_md": "ความเข้มข้นพาหะ"
+        },
+        {
+          "do_md": "เชื่อมกับการนำ",
+          "why_md": "electron/hole มากขึ้นตามชนิด doping"
+        }
+      ],
+      "answer_explanation_md": "ตอบปรับพาหะประจุ",
+      "hints": [
+        "สิ่งเจือปนมีปริมาณมากหรือเล็ก",
+        "พาหะประจุคืออะไร",
+        "doping ใช้สร้างบริเวณชนิดต่างกันได้อย่างไร"
+      ],
+      "distractor_reasons": {
+        "1": "ยังขึ้นกับอุณหภูมิ",
+        "2": "กลไกผิด",
+        "3": "ยังมีอิเล็กตรอนในอะตอม",
+        "4": "ไม่ใช่ตัวนำยิ่งยวด"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.thinking.current_awareness.physics_materials.0006",
+      "topic_ids": [
+        "tpat3.thinking.current_awareness.physics_materials"
+      ],
+      "primary_topic_id": "tpat3.thinking.current_awareness.physics_materials",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 5,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": true,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 150,
+      "stem_md": "วัสดุใหม่เบาและแข็งมาก แต่แตกทันทีเมื่อมีรอยบากเล็ก ข่าวสรุปว่าเหมาะกับโครงสร้างรับแรงทุกชนิด ข้อวิจารณ์ใดดีที่สุด",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ข่าวละเลยความเหนียวต่อการแตกหัก ตำหนิ และรูปแบบโหลด จึงต้องทดสอบก่อนใช้",
+          "is_answer": true
+        },
+        {
+          "md": "รอยบากไม่มีผลถ้าวัสดุใหม่",
+          "is_answer": false
+        },
+        {
+          "md": "วัสดุเบาใช้ในโครงสร้างไม่ได้เลย",
+          "is_answer": false
+        },
+        {
+          "md": "ควรเพิ่มน้ำหนักโดยไม่ต้องทดสอบ",
+          "is_answer": false
+        },
+        {
+          "md": "ความแข็งสูงรับรองความปลอดภัย",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "แยกสมบัติ",
+          "why_md": "เบา แข็ง แต่เปราะต่อรอยบาก"
+        },
+        {
+          "do_md": "เชื่อมกับความเสียหายจริง",
+          "why_md": "stress concentration"
+        },
+        {
+          "do_md": "ระบุหลักฐานเพิ่ม",
+          "why_md": "fracture toughness และ fatigue"
+        }
+      ],
+      "answer_explanation_md": "ตอบต้องประเมิน fracture/fatigue และตำหนิ",
+      "hints": [
+        "แข็งกับเหนียวเหมือนกันไหม",
+        "รอยบากรวมความเค้นอย่างไร",
+        "โหลดจริงเป็นคงที่หรือเป็นวัฏจักร"
+      ],
+      "distractor_reasons": {
+        "1": "ข้อมูลบอกตรงข้าม",
+        "2": "เหมารวม",
+        "3": "ไม่แก้กลไกแตก",
+        "4": "สับสน hardness กับ toughness"
+      },
+      "misconception_tags": [
+        "strong_means_all_properties"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    }
+  ],
+  "generated_from": "content/tpat3/thinking.py"
+}

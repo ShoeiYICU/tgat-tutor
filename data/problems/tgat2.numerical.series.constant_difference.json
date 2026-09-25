@@ -1,0 +1,2106 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tgat2.numerical.series.constant_difference",
+  "problems": [
+    {
+      "id": "prob.tgat2.numerical.series.constant_difference.0001",
+      "topic_ids": [
+        "tgat2.numerical.series.constant_difference"
+      ],
+      "primary_topic_id": "tgat2.numerical.series.constant_difference",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 ส่วนอนุกรม ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 1,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 20,
+      "stem_md": "$5, \\; 12, \\; 19, \\; 26, \\; ?$",
+      "figures": [],
+      "choices": [
+        {
+          "md": "$26$",
+          "is_answer": false
+        },
+        {
+          "md": "$32$",
+          "is_answer": false
+        },
+        {
+          "md": "$33$",
+          "is_answer": true
+        },
+        {
+          "md": "$34$",
+          "is_answer": false
+        },
+        {
+          "md": "$40$",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "เขียนผลต่างทุกช่วง: $12-5=7$, $19-12=7$, $26-19=7$",
+          "why_md": "ยืนยันว่าผลต่างคงที่จริงก่อนสรุป ไม่ใช่ดูจากช่วงเดียว"
+        },
+        {
+          "do_md": "$d=7$ บวกต่อหนึ่งครั้ง: $26+7=33$",
+          "why_md": "ถามพจน์ถัดไปพจน์เดียว การบวกตรง ๆ เร็วกว่าแทนสูตร"
+        }
+      ],
+      "answer_explanation_md": "ตอบ $33$ อนุกรมนี้เพิ่มขึ้น $7$ ทุกพจน์",
+      "hints": [
+        "ข้อนี้เป็นอนุกรมเลข ขั้นแรกให้เขียนผลต่างระหว่างพจน์ที่ติดกันลงไป",
+        "ผลต่างเท่ากันทุกช่วง แปลว่าเป็นอนุกรมผลต่างคงที่ ให้บวกผลต่างต่อจากพจน์สุดท้าย",
+        "ผลต่างคือ $7$ เริ่มจาก $26+7$"
+      ],
+      "distractor_reasons": {
+        "0": "ตอบพจน์สุดท้ายที่โจทย์ให้มา ไม่ได้บวกต่อ",
+        "1": "ใช้ผลต่างเป็น $6$ เพราะเช็คผลต่างผิด",
+        "3": "ใช้ผลต่างเป็น $8$ เพราะเช็คผลต่างผิด",
+        "4": "บวกผลต่างเกินไปหนึ่งช่วง ได้พจน์ที่ 6 แทนพจน์ที่ 5"
+      },
+      "misconception_tags": [
+        "insufficient_pattern_check",
+        "off_by_one_term"
+      ],
+      "template": {
+        "vars": [
+          {
+            "name": "a1",
+            "type": "int",
+            "range": [
+              3,
+              15
+            ],
+            "step": 1
+          },
+          {
+            "name": "d",
+            "type": "int",
+            "range": [
+              4,
+              9
+            ],
+            "step": 1
+          }
+        ],
+        "constraints": [
+          "d >= 4"
+        ],
+        "display": {
+          "t2": "a1 + d",
+          "t3": "a1 + 2*d",
+          "t4": "a1 + 3*d"
+        },
+        "stem_tpl": "${a1}, \\; {t2}, \\; {t3}, \\; {t4}, \\; ?$",
+        "answer_expr": "a1 + 4*d",
+        "answer_round": null,
+        "answer_unit": null,
+        "distractors": [
+          {
+            "expr": "a1 + 3*d",
+            "reason": "ตอบพจน์สุดท้ายที่โจทย์ให้มา ไม่ได้บวกต่อ"
+          },
+          {
+            "expr": "a1 + 3*d + (d - 1)",
+            "reason": "ใช้ผลต่างน้อยไป 1"
+          },
+          {
+            "expr": "a1 + 3*d + (d + 1)",
+            "reason": "ใช้ผลต่างมากไป 1"
+          },
+          {
+            "expr": "a1 + 5*d",
+            "reason": "บวกผลต่างเกินไปหนึ่งช่วง"
+          }
+        ],
+        "quality_rules": [
+          "คำตอบต้องเป็นจำนวนเต็มบวก",
+          "ตัวเลือกทุกตัวต้องไม่ซ้ำกัน"
+        ],
+        "quality_exprs": [
+          "answer > 0",
+          "d >= 4"
+        ],
+        "steps_tpl": [
+          {
+            "do_md": "เขียนผลต่างทุกช่วง: ${t2}-{a1}={d}$, ${t3}-{t2}={d}$, ${t4}-{t3}={d}$",
+            "why_md": "ยืนยันว่าผลต่างคงที่จริงก่อนสรุป ไม่ใช่ดูจากช่วงเดียว"
+          },
+          {
+            "do_md": "$d={d}$ บวกต่อหนึ่งครั้ง: ${t4}+{d}={answer}$",
+            "why_md": "ถามพจน์ถัดไปพจน์เดียว การบวกตรง ๆ เร็วกว่าแทนสูตร"
+          }
+        ],
+        "hints_tpl": [
+          "ข้อนี้เป็นอนุกรมเลข ขั้นแรกให้เขียนผลต่างระหว่างพจน์ที่ติดกันลงไป",
+          "ผลต่างเท่ากันทุกช่วง แปลว่าเป็นอนุกรมผลต่างคงที่ ให้บวกผลต่างต่อจากพจน์สุดท้าย",
+          "ผลต่างคือ ${d}$ เริ่มจาก ${t4}+{d}$"
+        ],
+        "explanation_tpl": "ตอบ ${answer}$ อนุกรมนี้เพิ่มขึ้น ${d}$ ทุกพจน์"
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.numerical.series.constant_difference.0002",
+      "topic_ids": [
+        "tgat2.numerical.series.constant_difference"
+      ],
+      "primary_topic_id": "tgat2.numerical.series.constant_difference",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 ส่วนอนุกรม ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 1,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 25,
+      "stem_md": "$61, \\; 54, \\; 47, \\; 40, \\; ?$",
+      "figures": [],
+      "choices": [
+        {
+          "md": "$26$",
+          "is_answer": false
+        },
+        {
+          "md": "$32$",
+          "is_answer": false
+        },
+        {
+          "md": "$33$",
+          "is_answer": true
+        },
+        {
+          "md": "$34$",
+          "is_answer": false
+        },
+        {
+          "md": "$47$",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "เขียนผลต่างพร้อมเครื่องหมาย: $54-61=-7$, $47-54=-7$, $40-47=-7$",
+          "why_md": "อนุกรมลดลง ผลต่างต้องติดลบ ถ้าจดเป็น $7$ เฉย ๆ จะคิดผิดทิศทาง"
+        },
+        {
+          "do_md": "$d=-7$ ดังนั้น $40+(-7)=33$",
+          "why_md": "บวกผลต่างที่เป็นลบ = ลดลงหนึ่งช่วง"
+        }
+      ],
+      "answer_explanation_md": "ตอบ $33$ อนุกรมลดลง $7$ ทุกพจน์ คำตอบต้องน้อยกว่า $40$ ใช้ตรวจคร่าว ๆ ได้",
+      "hints": [
+        "อนุกรมนี้ลดลง ให้เขียนผลต่างพร้อมเครื่องหมายลบกำกับไว้",
+        "ผลต่างคงที่เท่ากับ $-7$ ทุกช่วง",
+        "เริ่มจาก $40-7$"
+      ],
+      "distractor_reasons": {
+        "0": "ลดลงเกินไปหนึ่งช่วง ได้พจน์ที่ 6 แทนพจน์ที่ 5",
+        "1": "ใช้ผลต่างเป็น $8$",
+        "3": "ใช้ผลต่างเป็น $6$",
+        "4": "ตอบพจน์ที่ 3 เพราะนับตำแหน่งพลาด"
+      },
+      "misconception_tags": [
+        "sign_error",
+        "off_by_one_term"
+      ],
+      "template": {
+        "vars": [
+          {
+            "name": "a1",
+            "type": "int",
+            "range": [
+              50,
+              90
+            ],
+            "step": 1
+          },
+          {
+            "name": "d",
+            "type": "int",
+            "range": [
+              4,
+              9
+            ],
+            "step": 1
+          }
+        ],
+        "constraints": [
+          "a1 - 5*d > 5"
+        ],
+        "display": {
+          "t2": "a1 - d",
+          "t3": "a1 - 2*d",
+          "t4": "a1 - 3*d",
+          "nd": "-d"
+        },
+        "stem_tpl": "${a1}, \\; {t2}, \\; {t3}, \\; {t4}, \\; ?$",
+        "answer_expr": "a1 - 4*d",
+        "answer_round": null,
+        "answer_unit": null,
+        "distractors": [
+          {
+            "expr": "a1 - 5*d",
+            "reason": "ลดลงเกินไปหนึ่งช่วง"
+          },
+          {
+            "expr": "a1 - 3*d - (d + 1)",
+            "reason": "ใช้ผลต่างมากไป 1"
+          },
+          {
+            "expr": "a1 - 3*d - (d - 1)",
+            "reason": "ใช้ผลต่างน้อยไป 1"
+          },
+          {
+            "expr": "a1 - 2*d",
+            "reason": "ตอบพจน์ที่ 3 เพราะนับตำแหน่งพลาด"
+          }
+        ],
+        "quality_rules": [
+          "ทุกพจน์ที่แสดงและคำตอบต้องเป็นจำนวนเต็มบวก",
+          "ตัวเลือกทุกตัวต้องไม่ซ้ำกัน"
+        ],
+        "quality_exprs": [
+          "answer > 0"
+        ],
+        "steps_tpl": [
+          {
+            "do_md": "เขียนผลต่างพร้อมเครื่องหมาย: ${t2}-{a1}={nd}$, ${t3}-{t2}={nd}$, ${t4}-{t3}={nd}$",
+            "why_md": "อนุกรมลดลง ผลต่างต้องติดลบ ถ้าจดเป็น ${d}$ เฉย ๆ จะคิดผิดทิศทาง"
+          },
+          {
+            "do_md": "$d={nd}$ ดังนั้น ${t4}+({nd})={answer}$",
+            "why_md": "บวกผลต่างที่เป็นลบ = ลดลงหนึ่งช่วง"
+          }
+        ],
+        "hints_tpl": [
+          "อนุกรมนี้ลดลง ให้เขียนผลต่างพร้อมเครื่องหมายลบกำกับไว้",
+          "ผลต่างคงที่เท่ากับ ${nd}$ ทุกช่วง",
+          "เริ่มจาก ${t4}-{d}$"
+        ],
+        "explanation_tpl": "ตอบ ${answer}$ อนุกรมลดลง ${d}$ ทุกพจน์ คำตอบต้องน้อยกว่า ${t4}$ ใช้ตรวจคร่าว ๆ ได้"
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.numerical.series.constant_difference.0003",
+      "topic_ids": [
+        "tgat2.numerical.series.constant_difference"
+      ],
+      "primary_topic_id": "tgat2.numerical.series.constant_difference",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 ส่วนอนุกรม ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 30,
+      "stem_md": "$8, \\; 15, \\; ?, \\; 29, \\; 36$",
+      "figures": [],
+      "choices": [
+        {
+          "md": "$20$",
+          "is_answer": false
+        },
+        {
+          "md": "$21$",
+          "is_answer": false
+        },
+        {
+          "md": "$22$",
+          "is_answer": true
+        },
+        {
+          "md": "$23$",
+          "is_answer": false
+        },
+        {
+          "md": "$24$",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "หาผลต่างจากช่วงที่ไม่ติดช่องว่าง: $15-8=7$ และ $36-29=7$",
+          "why_md": "ช่องว่างอยู่กลาง จึงต้องหา $d$ จากช่วงที่รู้ค่าทั้งสองฝั่งก่อน"
+        },
+        {
+          "do_md": "ผลต่างเท่ากันทั้งสองฝั่ง แปลว่า $d=7$",
+          "why_md": "ต้องเช็คสองฝั่ง ถ้าไม่เท่ากันแปลว่าไม่ใช่อนุกรมผลต่างคงที่"
+        },
+        {
+          "do_md": "พจน์ที่หายไป $=15+7=22$ ตรวจย้อน $29-7=22$ ตรงกัน",
+          "why_md": "ตรวจสองทางได้ค่าเดียวกัน ยืนยันว่าไม่ได้นับช่วงพลาด"
+        }
+      ],
+      "answer_explanation_md": "ตอบ $22$ ตรวจได้จากทั้งฝั่งซ้าย ($15+7$) และฝั่งขวา ($29-7$)",
+      "hints": [
+        "ช่องว่างอยู่กลาง ให้หาผลต่างจากคู่พจน์ที่รู้ค่าทั้งสองตัวก่อน",
+        "ผลต่างคงที่ของอนุกรมนี้คือ $7$",
+        "เริ่มจาก $15+7$ แล้วตรวจย้อนด้วย $29-7$"
+      ],
+      "distractor_reasons": {
+        "0": "ใช้ผลต่างเป็น $5$ จากการคาดเดา",
+        "1": "ใช้ผลต่างเป็น $6$",
+        "3": "ใช้ผลต่างเป็น $8$",
+        "4": "หาค่าเฉลี่ยของ $15$ กับ $29$ แบบปัดขึ้นโดยไม่ตรวจกับผลต่าง"
+      },
+      "misconception_tags": [
+        "insufficient_pattern_check"
+      ],
+      "template": {
+        "vars": [
+          {
+            "name": "a1",
+            "type": "int",
+            "range": [
+              5,
+              20
+            ],
+            "step": 1
+          },
+          {
+            "name": "d",
+            "type": "int",
+            "range": [
+              5,
+              9
+            ],
+            "step": 1
+          }
+        ],
+        "constraints": [
+          "d >= 5"
+        ],
+        "display": {
+          "t2": "a1 + d",
+          "t4": "a1 + 3*d",
+          "t5": "a1 + 4*d"
+        },
+        "stem_tpl": "${a1}, \\; {t2}, \\; ?, \\; {t4}, \\; {t5}$",
+        "answer_expr": "a1 + 2*d",
+        "answer_round": null,
+        "answer_unit": null,
+        "distractors": [
+          {
+            "expr": "a1 + d + (d - 2)",
+            "reason": "ใช้ผลต่างน้อยไป 2"
+          },
+          {
+            "expr": "a1 + d + (d - 1)",
+            "reason": "ใช้ผลต่างน้อยไป 1"
+          },
+          {
+            "expr": "a1 + d + (d + 1)",
+            "reason": "ใช้ผลต่างมากไป 1"
+          },
+          {
+            "expr": "a1 + d + (d + 2)",
+            "reason": "ใช้ผลต่างมากไป 2"
+          }
+        ],
+        "quality_rules": [
+          "คำตอบต้องเป็นจำนวนเต็มบวก",
+          "ตัวเลือกทั้ง 5 ต้องเป็นจำนวนเต็มติดกันหรือใกล้กัน เพื่อไม่ให้เดาได้จากขนาด"
+        ],
+        "quality_exprs": [
+          "answer > 0"
+        ],
+        "steps_tpl": [
+          {
+            "do_md": "หาผลต่างจากช่วงที่ไม่ติดช่องว่าง: ${t2}-{a1}={d}$ และ ${t5}-{t4}={d}$",
+            "why_md": "ช่องว่างอยู่กลาง จึงต้องหา $d$ จากช่วงที่รู้ค่าทั้งสองฝั่งก่อน"
+          },
+          {
+            "do_md": "ผลต่างเท่ากันทั้งสองฝั่ง แปลว่า $d={d}$",
+            "why_md": "ต้องเช็คสองฝั่ง ถ้าไม่เท่ากันแปลว่าไม่ใช่อนุกรมผลต่างคงที่"
+          },
+          {
+            "do_md": "พจน์ที่หายไป $={t2}+{d}={answer}$ ตรวจย้อน ${t4}-{d}={answer}$ ตรงกัน",
+            "why_md": "ตรวจสองทางได้ค่าเดียวกัน ยืนยันว่าไม่ได้นับช่วงพลาด"
+          }
+        ],
+        "hints_tpl": [
+          "ช่องว่างอยู่กลาง ให้หาผลต่างจากคู่พจน์ที่รู้ค่าทั้งสองตัวก่อน",
+          "ผลต่างคงที่ของอนุกรมนี้คือ ${d}$",
+          "เริ่มจาก ${t2}+{d}$ แล้วตรวจย้อนด้วย ${t4}-{d}$"
+        ],
+        "explanation_tpl": "ตอบ ${answer}$ ตรวจได้จากทั้งฝั่งซ้าย (${t2}+{d}$) และฝั่งขวา (${t4}-{d}$)"
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.numerical.series.constant_difference.0004",
+      "topic_ids": [
+        "tgat2.numerical.series.constant_difference"
+      ],
+      "primary_topic_id": "tgat2.numerical.series.constant_difference",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 ส่วนอนุกรม ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 35,
+      "stem_md": "$74, \\; 67, \\; ?, \\; 53, \\; 46$",
+      "figures": [],
+      "choices": [
+        {
+          "md": "$58$",
+          "is_answer": false
+        },
+        {
+          "md": "$60$",
+          "is_answer": true
+        },
+        {
+          "md": "$61$",
+          "is_answer": false
+        },
+        {
+          "md": "$62$",
+          "is_answer": false
+        },
+        {
+          "md": "$59$",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "หาผลต่างจากช่วงที่รู้ค่าสองฝั่ง: $67-74=-7$ และ $46-53=-7$",
+          "why_md": "ต้องได้ $d$ ก่อน และต้องใส่เครื่องหมายลบเพราะอนุกรมลดลง"
+        },
+        {
+          "do_md": "$d=-7$ ดังนั้นพจน์ที่หายไป $=67-7=60$",
+          "why_md": "เดินจากพจน์ที่รู้ค่าไปข้างหน้าหนึ่งช่วง"
+        },
+        {
+          "do_md": "ตรวจย้อน: $53+7=60$ ตรงกัน",
+          "why_md": "ตรวจจากฝั่งขวาด้วย ยืนยันว่าเครื่องหมายและจำนวนช่วงถูก"
+        }
+      ],
+      "answer_explanation_md": "ตอบ $60$ คำตอบต้องอยู่ระหว่าง $67$ กับ $53$ ใช้ตัดตัวเลือกที่หลุดช่วงนี้ได้ทันที",
+      "hints": [
+        "อนุกรมนี้ลดลง และช่องว่างอยู่กลาง ให้หาผลต่างจากคู่พจน์ที่รู้ค่าก่อน",
+        "ผลต่างคงที่คือ $-7$",
+        "เริ่มจาก $67-7$ แล้วตรวจย้อนด้วย $53+7$"
+      ],
+      "distractor_reasons": {
+        "0": "ใช้ผลต่างมากไป 2 เป็น $-9$",
+        "2": "ใช้ผลต่างน้อยไป 1 เป็น $-6$",
+        "3": "ใช้ผลต่างน้อยไป 2 เป็น $-5$",
+        "4": "ใช้ผลต่างมากไป 1 เป็น $-8$"
+      },
+      "misconception_tags": [
+        "sign_error",
+        "insufficient_pattern_check"
+      ],
+      "template": {
+        "vars": [
+          {
+            "name": "a1",
+            "type": "int",
+            "range": [
+              60,
+              95
+            ],
+            "step": 1
+          },
+          {
+            "name": "d",
+            "type": "int",
+            "range": [
+              5,
+              9
+            ],
+            "step": 1
+          }
+        ],
+        "constraints": [
+          "a1 - 4*d > 10"
+        ],
+        "display": {
+          "t2": "a1 - d",
+          "t4": "a1 - 3*d",
+          "t5": "a1 - 4*d",
+          "nd": "-d"
+        },
+        "stem_tpl": "${a1}, \\; {t2}, \\; ?, \\; {t4}, \\; {t5}$",
+        "answer_expr": "a1 - 2*d",
+        "answer_round": null,
+        "answer_unit": null,
+        "distractors": [
+          {
+            "expr": "a1 - d - (d + 2)",
+            "reason": "ใช้ผลต่างมากไป 2"
+          },
+          {
+            "expr": "a1 - d - (d - 1)",
+            "reason": "ใช้ผลต่างน้อยไป 1"
+          },
+          {
+            "expr": "a1 - d - (d - 2)",
+            "reason": "ใช้ผลต่างน้อยไป 2"
+          },
+          {
+            "expr": "a1 - d - (d + 1)",
+            "reason": "ใช้ผลต่างมากไป 1"
+          }
+        ],
+        "quality_rules": [
+          "ทุกพจน์ที่แสดงและคำตอบต้องเป็นจำนวนเต็มบวก",
+          "ตัวเลือกทุกตัวต้องไม่ซ้ำกัน"
+        ],
+        "quality_exprs": [
+          "answer > 0"
+        ],
+        "steps_tpl": [
+          {
+            "do_md": "หาผลต่างจากช่วงที่รู้ค่าสองฝั่ง: ${t2}-{a1}={nd}$ และ ${t5}-{t4}={nd}$",
+            "why_md": "ต้องได้ $d$ ก่อน และต้องใส่เครื่องหมายลบเพราะอนุกรมลดลง"
+          },
+          {
+            "do_md": "$d={nd}$ ดังนั้นพจน์ที่หายไป $={t2}-{d}={answer}$",
+            "why_md": "เดินจากพจน์ที่รู้ค่าไปข้างหน้าหนึ่งช่วง"
+          },
+          {
+            "do_md": "ตรวจย้อน: ${t4}+{d}={answer}$ ตรงกัน",
+            "why_md": "ตรวจจากฝั่งขวาด้วย ยืนยันว่าเครื่องหมายและจำนวนช่วงถูก"
+          }
+        ],
+        "hints_tpl": [
+          "อนุกรมนี้ลดลง และช่องว่างอยู่กลาง ให้หาผลต่างจากคู่พจน์ที่รู้ค่าก่อน",
+          "ผลต่างคงที่คือ ${nd}$",
+          "เริ่มจาก ${t2}-{d}$ แล้วตรวจย้อนด้วย ${t4}+{d}$"
+        ],
+        "explanation_tpl": "ตอบ ${answer}$ คำตอบต้องอยู่ระหว่าง ${t2}$ กับ ${t4}$ ใช้ตัดตัวเลือกที่หลุดช่วงนี้ได้ทันที"
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.numerical.series.constant_difference.0005",
+      "topic_ids": [
+        "tgat2.numerical.series.constant_difference"
+      ],
+      "primary_topic_id": "tgat2.numerical.series.constant_difference",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 ส่วนอนุกรม ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 30,
+      "stem_md": "$-11, \\; -4, \\; 3, \\; 10, \\; ?$",
+      "figures": [],
+      "choices": [
+        {
+          "md": "$15$",
+          "is_answer": false
+        },
+        {
+          "md": "$16$",
+          "is_answer": false
+        },
+        {
+          "md": "$17$",
+          "is_answer": true
+        },
+        {
+          "md": "$18$",
+          "is_answer": false
+        },
+        {
+          "md": "$24$",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "เขียนผลต่าง: $-4-(-11)=7$",
+          "why_md": "ลบจำนวนลบคือบวก จุดนี้คือที่คนพลาดในข้อที่มีจำนวนลบ"
+        },
+        {
+          "do_md": "เช็คช่วงอื่น: $3-(-4)=7$ และ $10-3=7$ ได้ $d=7$",
+          "why_md": "ยืนยันว่าผลต่างคงที่ทุกช่วง ไม่ใช่เฉพาะช่วงแรก"
+        },
+        {
+          "do_md": "$10+7=17$",
+          "why_md": "บวกผลต่างต่อจากพจน์สุดท้ายหนึ่งครั้ง"
+        }
+      ],
+      "answer_explanation_md": "ตอบ $17$ อนุกรมที่เริ่มจากจำนวนลบก็ยังเป็นผลต่างคงที่ได้ ขอเพียงผลต่างเท่ากันทุกช่วง",
+      "hints": [
+        "มีจำนวนลบอยู่ในอนุกรม ให้ระวังตอนหาผลต่าง การลบจำนวนลบคือการบวก",
+        "ผลต่างคงที่คือ $7$ ทุกช่วง",
+        "เริ่มจาก $10+7$"
+      ],
+      "distractor_reasons": {
+        "0": "ใช้ผลต่างเป็น $5$",
+        "1": "ใช้ผลต่างเป็น $6$",
+        "3": "ใช้ผลต่างเป็น $8$",
+        "4": "บวกผลต่างเกินไปหนึ่งช่วง"
+      },
+      "misconception_tags": [
+        "sign_error",
+        "insufficient_pattern_check"
+      ],
+      "template": {
+        "vars": [
+          {
+            "name": "a1",
+            "type": "int",
+            "range": [
+              -20,
+              -5
+            ],
+            "step": 1
+          },
+          {
+            "name": "d",
+            "type": "int",
+            "range": [
+              5,
+              9
+            ],
+            "step": 1
+          }
+        ],
+        "constraints": [
+          "a1 + 4*d > 8"
+        ],
+        "display": {
+          "t2": "a1 + d",
+          "t3": "a1 + 2*d",
+          "t4": "a1 + 3*d"
+        },
+        "stem_tpl": "${a1}, \\; {t2}, \\; {t3}, \\; {t4}, \\; ?$",
+        "answer_expr": "a1 + 4*d",
+        "answer_round": null,
+        "answer_unit": null,
+        "distractors": [
+          {
+            "expr": "a1 + 3*d + (d - 2)",
+            "reason": "ใช้ผลต่างน้อยไป 2"
+          },
+          {
+            "expr": "a1 + 3*d + (d - 1)",
+            "reason": "ใช้ผลต่างน้อยไป 1"
+          },
+          {
+            "expr": "a1 + 3*d + (d + 1)",
+            "reason": "ใช้ผลต่างมากไป 1"
+          },
+          {
+            "expr": "a1 + 5*d",
+            "reason": "บวกผลต่างเกินไปหนึ่งช่วง"
+          }
+        ],
+        "quality_rules": [
+          "พจน์แรกต้องเป็นจำนวนลบ เพื่อให้ข้อนี้ยังฝึกเรื่องเครื่องหมาย",
+          "คำตอบต้องเป็นจำนวนเต็มบวก เพื่อให้ตัวเลือกไม่ปนกันระหว่างบวกลบ"
+        ],
+        "quality_exprs": [
+          "a1 < 0",
+          "answer > 8"
+        ],
+        "steps_tpl": [
+          {
+            "do_md": "เขียนผลต่าง: ${t2}-({a1})={d}$",
+            "why_md": "ลบจำนวนลบคือบวก จุดนี้คือที่คนพลาดในข้อที่มีจำนวนลบ"
+          },
+          {
+            "do_md": "เช็คช่วงอื่น: ${t3}-({t2})={d}$ และ ${t4}-({t3})={d}$ ได้ $d={d}$",
+            "why_md": "ยืนยันว่าผลต่างคงที่ทุกช่วง ไม่ใช่เฉพาะช่วงแรก"
+          },
+          {
+            "do_md": "${t4}+{d}={answer}$",
+            "why_md": "บวกผลต่างต่อจากพจน์สุดท้ายหนึ่งครั้ง"
+          }
+        ],
+        "hints_tpl": [
+          "มีจำนวนลบอยู่ในอนุกรม ให้ระวังตอนหาผลต่าง การลบจำนวนลบคือการบวก",
+          "ผลต่างคงที่คือ ${d}$ ทุกช่วง",
+          "เริ่มจาก ${t4}+{d}$"
+        ],
+        "explanation_tpl": "ตอบ ${answer}$ อนุกรมที่เริ่มจากจำนวนลบก็ยังเป็นผลต่างคงที่ได้ ขอเพียงผลต่างเท่ากันทุกช่วง"
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.numerical.series.constant_difference.0006",
+      "topic_ids": [
+        "tgat2.numerical.series.constant_difference"
+      ],
+      "primary_topic_id": "tgat2.numerical.series.constant_difference",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 ส่วนอนุกรม ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 60,
+      "stem_md": "อนุกรม $4, \\; 11, \\; 18, \\; 25, \\; \\ldots$ พจน์ที่ $20$ มีค่าเท่าใด",
+      "figures": [],
+      "choices": [
+        {
+          "md": "$130$",
+          "is_answer": false
+        },
+        {
+          "md": "$137$",
+          "is_answer": true
+        },
+        {
+          "md": "$140$",
+          "is_answer": false
+        },
+        {
+          "md": "$144$",
+          "is_answer": false
+        },
+        {
+          "md": "$147$",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "หา $d$: $11-4=7$ และเช็คช่วงอื่นได้ $7$ เท่ากัน",
+          "why_md": "ยืนยันว่าใช้สูตรอนุกรมผลต่างคงที่ได้"
+        },
+        {
+          "do_md": "แทนในสูตร $a_n=a_1+(n-1)d$ ได้ $a_{20}=4+(20-1)(7)$",
+          "why_md": "จากพจน์ที่ 1 ถึงพจน์ที่ 20 บวก $d$ ไป 19 ครั้ง ไม่ใช่ 20 ครั้ง"
+        },
+        {
+          "do_md": "คำนวณ $19 \\times 7=133$ แล้ว $4+133=137$",
+          "why_md": "คิดเป็น $20 \\times 7-7=133$ จะเร็วกว่าคูณยาว"
+        }
+      ],
+      "answer_explanation_md": "ตอบ $137$ ถ้าเผลอใช้ $20 \\times 7$ จะได้ $144$ ซึ่งเป็นตัวเลือกลวงที่วางไว้ วิธีกันพลาดคือแทน $n=1$ ในสูตรแล้วต้องได้ $4$ กลับมา",
+      "hints": [
+        "ถามพจน์ที่อยู่ไกล อย่าไล่นับทีละพจน์ ให้ใช้สูตรพจน์ที่ n",
+        "ใช้ $a_n=a_1+(n-1)d$ โดย $a_1=4$ และ $d=7$",
+        "แทนค่าได้ $4+(20-1)(7)$ ระวังว่าเป็น $19$ ไม่ใช่ $20$"
+      ],
+      "distractor_reasons": {
+        "0": "ใช้ $(n-2)$ เพราะนับช่วงน้อยไปอีกหนึ่ง",
+        "2": "ลืมบวกพจน์แรก คิดแค่ $20 \\times 7$",
+        "3": "ใช้ $nd$ แทน $(n-1)d$ ได้ $4+20(7)$ ซึ่งเลยไปหนึ่งพจน์",
+        "4": "ใช้ทั้ง $nd$ และบวกเกิน คิดเป็น $4+(21-1)(7)+3$"
+      },
+      "misconception_tags": [
+        "off_by_one_term",
+        "gap_vs_term_count"
+      ],
+      "template": {
+        "vars": [
+          {
+            "name": "a1",
+            "type": "int",
+            "range": [
+              3,
+              12
+            ],
+            "step": 1
+          },
+          {
+            "name": "d",
+            "type": "int",
+            "range": [
+              4,
+              9
+            ],
+            "step": 1
+          },
+          {
+            "name": "n",
+            "type": "int",
+            "range": [
+              15,
+              30
+            ],
+            "step": 1
+          }
+        ],
+        "constraints": [
+          "n >= 15",
+          "a1 != d",
+          "a1 != 2*d"
+        ],
+        "display": {
+          "t2": "a1 + d",
+          "t3": "a1 + 2*d",
+          "t4": "a1 + 3*d",
+          "nm1": "n - 1",
+          "prod": "(n - 1)*d",
+          "wrongsum": "a1 + n*d"
+        },
+        "stem_tpl": "อนุกรม ${a1}, \\; {t2}, \\; {t3}, \\; {t4}, \\; \\ldots$ พจน์ที่ ${n}$ มีค่าเท่าใด",
+        "answer_expr": "a1 + (n - 1)*d",
+        "answer_round": null,
+        "answer_unit": null,
+        "distractors": [
+          {
+            "expr": "a1 + n*d",
+            "reason": "ใช้ nd แทน (n-1)d เลยไปหนึ่งพจน์"
+          },
+          {
+            "expr": "a1 + (n - 2)*d",
+            "reason": "นับช่วงน้อยไปหนึ่ง"
+          },
+          {
+            "expr": "n*d",
+            "reason": "ลืมบวกพจน์แรก"
+          },
+          {
+            "expr": "a1 + (n - 1)*d + d + 3",
+            "reason": "คิดเลขพลาดตอนคูณแล้วบวกเกิน"
+          }
+        ],
+        "quality_rules": [
+          "คำตอบต้องเป็นจำนวนเต็มบวก",
+          "ตัวเลือกลวงจากการใช้ nd ต้องต่างจากคำตอบเท่ากับ d พอดี เพื่อดักความพลาดที่เกิดจริง",
+          "ตัวเลือกทุกตัวต้องไม่ซ้ำกัน",
+          "พจน์แรกต้องไม่เท่ากับผลต่างและไม่เท่ากับสองเท่าของผลต่าง ไม่งั้นตัวเลือกลวงจากการลืมบวกพจน์แรกจะไปเท่ากับคำตอบ"
+        ],
+        "quality_exprs": [
+          "answer > 0"
+        ],
+        "steps_tpl": [
+          {
+            "do_md": "หา $d$: ${t2}-{a1}={d}$ และเช็คช่วงอื่นได้ ${d}$ เท่ากัน",
+            "why_md": "ยืนยันว่าใช้สูตรอนุกรมผลต่างคงที่ได้"
+          },
+          {
+            "do_md": "แทนในสูตร $a_n=a_1+(n-1)d$ ได้ $a_{{n}}={a1}+({n}-1)({d})$",
+            "why_md": "จากพจน์ที่ 1 ถึงพจน์ที่ ${n}$ บวก $d$ ไป ${nm1}$ ครั้ง ไม่ใช่ ${n}$ ครั้ง"
+          },
+          {
+            "do_md": "คำนวณ ${nm1} \\times {d}={prod}$ แล้ว ${a1}+{prod}={answer}$",
+            "why_md": "คิดเป็น ${n} \\times {d}-{d}={prod}$ จะเร็วกว่าคูณยาว"
+          }
+        ],
+        "hints_tpl": [
+          "ถามพจน์ที่อยู่ไกล อย่าไล่นับทีละพจน์ ให้ใช้สูตรพจน์ที่ n",
+          "ใช้ $a_n=a_1+(n-1)d$ โดย $a_1={a1}$ และ $d={d}$",
+          "แทนค่าได้ ${a1}+({n}-1)({d})$ ระวังว่าเป็น ${nm1}$ ไม่ใช่ ${n}$"
+        ],
+        "explanation_tpl": "ตอบ ${answer}$ ถ้าเผลอใช้ ${n} \\times {d}$ จะได้ ${wrongsum}$ ซึ่งเป็นตัวเลือกลวงที่วางไว้ วิธีกันพลาดคือแทน $n=1$ ในสูตรแล้วต้องได้ ${a1}$ กลับมา"
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.numerical.series.constant_difference.0007",
+      "topic_ids": [
+        "tgat2.numerical.series.constant_difference"
+      ],
+      "primary_topic_id": "tgat2.numerical.series.constant_difference",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 ส่วนอนุกรม ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 65,
+      "stem_md": "อนุกรม $6, \\; 13, \\; 20, \\; 27, \\; \\ldots$ จำนวน $97$ เป็นพจน์ที่เท่าใด",
+      "figures": [],
+      "choices": [
+        {
+          "md": "$12$",
+          "is_answer": false
+        },
+        {
+          "md": "$13$",
+          "is_answer": false
+        },
+        {
+          "md": "$14$",
+          "is_answer": true
+        },
+        {
+          "md": "$15$",
+          "is_answer": false
+        },
+        {
+          "md": "$16$",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "หา $d=13-6=7$ และเช็คช่วงอื่นได้ $7$ เท่ากัน",
+          "why_md": "ยืนยันว่าเป็นอนุกรมผลต่างคงที่"
+        },
+        {
+          "do_md": "หาว่าเพิ่มขึ้นทั้งหมดเท่าไร: $97-6=91$",
+          "why_md": "ระยะที่ห่างจากพจน์แรก คือผลรวมของผลต่างที่บวกไปทั้งหมด"
+        },
+        {
+          "do_md": "หาจำนวนช่วง: $91 \\div 7=13$ ช่วง",
+          "why_md": "บวก $d$ ไป 13 ครั้ง"
+        },
+        {
+          "do_md": "แปลงจำนวนช่วงเป็นตำแหน่ง: $13+1=14$",
+          "why_md": "ตำแหน่ง = จำนวนช่วง + 1 เพราะพจน์แรกยังไม่ได้บวกอะไร นี่คือจุดที่คนพลาดมากที่สุดในข้อประเภทนี้"
+        }
+      ],
+      "answer_explanation_md": "ตอบพจน์ที่ $14$ ตรวจกลับด้วยสูตร $a_{14}=6+(14-1)(7)=6+91=97$ ตรงกับที่โจทย์ให้",
+      "hints": [
+        "โจทย์ให้ค่ามาแล้วถามตำแหน่ง ให้คิดย้อนว่าค่านั้นห่างจากพจน์แรกเท่าไร",
+        "หา $97-6$ ก่อน แล้วหารด้วยผลต่าง จะได้จำนวนช่วง",
+        "ได้จำนวนช่วง 13 ช่วงแล้ว ต้องแปลงเป็นตำแหน่งอีกหนึ่งขั้น"
+      ],
+      "distractor_reasons": {
+        "0": "หาจำนวนช่วงได้ 13 แล้วลบ 1 ผิดทิศทาง",
+        "1": "ตอบจำนวนช่วงแทนตำแหน่ง ลืมบวก 1",
+        "3": "บวกเกินไปหนึ่ง เพราะบวก 1 สองครั้ง",
+        "4": "หารด้วย 7 แล้วปัดขึ้นโดยไม่ตรวจว่าหารลงตัว"
+      },
+      "misconception_tags": [
+        "gap_vs_term_count",
+        "off_by_one_term"
+      ],
+      "template": {
+        "vars": [
+          {
+            "name": "a1",
+            "type": "int",
+            "range": [
+              3,
+              12
+            ],
+            "step": 1
+          },
+          {
+            "name": "d",
+            "type": "int",
+            "range": [
+              4,
+              9
+            ],
+            "step": 1
+          },
+          {
+            "name": "k",
+            "type": "int",
+            "range": [
+              10,
+              20
+            ],
+            "step": 1
+          }
+        ],
+        "constraints": [
+          "k >= 10",
+          "a1 != k + 1"
+        ],
+        "display": {
+          "t2": "a1 + d",
+          "t3": "a1 + 2*d",
+          "t4": "a1 + 3*d",
+          "target": "a1 + k*d",
+          "rise": "target - a1"
+        },
+        "stem_tpl": "อนุกรม ${a1}, \\; {t2}, \\; {t3}, \\; {t4}, \\; \\ldots$ จำนวน ${target}$ เป็นพจน์ที่เท่าใด",
+        "answer_expr": "k + 1",
+        "answer_round": null,
+        "answer_unit": null,
+        "distractors": [
+          {
+            "expr": "k",
+            "reason": "ตอบจำนวนช่วงแทนตำแหน่ง ลืมบวก 1"
+          },
+          {
+            "expr": "k - 1",
+            "reason": "ลบ 1 ผิดทิศทาง"
+          },
+          {
+            "expr": "k + 2",
+            "reason": "บวก 1 สองครั้ง"
+          },
+          {
+            "expr": "k + 3",
+            "reason": "นับตำแหน่งพลาดไปหลายขั้น"
+          }
+        ],
+        "quality_rules": [
+          "ค่าเป้าหมายต้องหารด้วยผลต่างลงตัวพอดี ไม่งั้นโจทย์ไม่มีคำตอบ",
+          "คำตอบต้องเป็นตำแหน่งที่มากกว่า 4 เพื่อไม่ให้นับนิ้วได้"
+        ],
+        "quality_exprs": [
+          "answer > 5"
+        ],
+        "steps_tpl": [
+          {
+            "do_md": "หา $d={t2}-{a1}={d}$ และเช็คช่วงอื่นได้ ${d}$ เท่ากัน",
+            "why_md": "ยืนยันว่าเป็นอนุกรมผลต่างคงที่"
+          },
+          {
+            "do_md": "หาว่าเพิ่มขึ้นทั้งหมดเท่าไร: ${target}-{a1}={rise}$",
+            "why_md": "ระยะที่ห่างจากพจน์แรก คือผลรวมของผลต่างที่บวกไปทั้งหมด"
+          },
+          {
+            "do_md": "หาจำนวนช่วง: ${rise} \\div {d}={k}$ ช่วง",
+            "why_md": "บวก $d$ ไป ${k}$ ครั้ง"
+          },
+          {
+            "do_md": "แปลงจำนวนช่วงเป็นตำแหน่ง: ${k}+1={answer}$",
+            "why_md": "ตำแหน่ง = จำนวนช่วง + 1 เพราะพจน์แรกยังไม่ได้บวกอะไร นี่คือจุดที่คนพลาดมากที่สุดในข้อประเภทนี้"
+          }
+        ],
+        "hints_tpl": [
+          "โจทย์ให้ค่ามาแล้วถามตำแหน่ง ให้คิดย้อนว่าค่านั้นห่างจากพจน์แรกเท่าไร",
+          "หา ${target}-{a1}$ ก่อน แล้วหารด้วยผลต่าง จะได้จำนวนช่วง",
+          "ได้จำนวนช่วง ${k}$ ช่วงแล้ว ต้องแปลงเป็นตำแหน่งอีกหนึ่งขั้น"
+        ],
+        "explanation_tpl": "ตอบพจน์ที่ ${answer}$ ตรวจกลับด้วยสูตร $a_{{answer}}={a1}+({answer}-1)({d})={a1}+{rise}={target}$ ตรงกับที่โจทย์ให้"
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.numerical.series.constant_difference.0008",
+      "topic_ids": [
+        "tgat2.numerical.series.constant_difference"
+      ],
+      "primary_topic_id": "tgat2.numerical.series.constant_difference",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 ส่วนอนุกรม ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 60,
+      "stem_md": "อนุกรมผลต่างคงที่มีพจน์ที่ $3$ เท่ากับ $17$ และพจน์ที่ $8$ เท่ากับ $47$ ผลต่างคงที่ของอนุกรมนี้เท่ากับเท่าใด",
+      "figures": [],
+      "choices": [
+        {
+          "md": "$5$",
+          "is_answer": false
+        },
+        {
+          "md": "$6$",
+          "is_answer": true
+        },
+        {
+          "md": "$7$",
+          "is_answer": false
+        },
+        {
+          "md": "$8$",
+          "is_answer": false
+        },
+        {
+          "md": "$12$",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "หาผลต่างของค่า: $47-17=30$",
+          "why_md": "ค่าที่เพิ่มขึ้นทั้งหมดระหว่างสองพจน์นี้"
+        },
+        {
+          "do_md": "นับจำนวนช่วง: $8-3=5$ ช่วง",
+          "why_md": "ไม่ใช่ 6 ช่วง แม้จะมีพจน์อยู่ 6 พจน์ในช่วงนั้น ตัวส่วนคือจำนวนช่วง"
+        },
+        {
+          "do_md": "$d=30 \\div 5=6$",
+          "why_md": "ค่าที่เพิ่มขึ้น 30 กระจายเท่า ๆ กันใน 5 ช่วง"
+        }
+      ],
+      "answer_explanation_md": "ตอบ $6$ ตรวจกลับได้ $a_1=17-2(6)=5$ แล้ว $a_8=5+7(6)=47$ ตรงกับที่โจทย์ให้",
+      "hints": [
+        "โจทย์ให้พจน์แบบข้ามตำแหน่ง ต้องหาว่าค่าเพิ่มขึ้นเท่าไรและกินกี่ช่วง",
+        "ใช้ $d=\\dfrac{a_m-a_k}{m-k}$ โดยตัวส่วนคือจำนวนช่วง ไม่ใช่จำนวนพจน์",
+        "ค่าเพิ่มขึ้น $47-17=30$ แล้วต้องหารด้วยจำนวนช่วงจากพจน์ที่ 3 ถึงพจน์ที่ 8"
+      ],
+      "distractor_reasons": {
+        "0": "หารด้วย 6 เพราะนับจำนวนพจน์แทนจำนวนช่วง",
+        "2": "คิดเลขพลาดตอนหาร ได้ค่ามากไป 1",
+        "3": "คิดเลขพลาดตอนหาร ได้ค่ามากไป 2",
+        "4": "หารด้วยครึ่งหนึ่งของจำนวนช่วง"
+      },
+      "misconception_tags": [
+        "gap_vs_term_count"
+      ],
+      "template": {
+        "vars": [
+          {
+            "name": "d",
+            "type": "int",
+            "range": [
+              6,
+              9
+            ],
+            "step": 1
+          },
+          {
+            "name": "a1",
+            "type": "int",
+            "range": [
+              2,
+              12
+            ],
+            "step": 1
+          },
+          {
+            "name": "k",
+            "type": "int",
+            "range": [
+              2,
+              4
+            ],
+            "step": 1
+          },
+          {
+            "name": "gap",
+            "type": "int",
+            "range": [
+              5,
+              8
+            ],
+            "step": 1
+          }
+        ],
+        "constraints": [
+          "gap >= 5",
+          "k >= 2",
+          "d % (gap + 1) == 0"
+        ],
+        "display": {
+          "m": "k + gap",
+          "ak": "a1 + (k - 1)*d",
+          "am": "a1 + (k + gap - 1)*d",
+          "rise": "am - ak",
+          "km1": "k - 1",
+          "mm1": "m - 1"
+        },
+        "stem_tpl": "อนุกรมผลต่างคงที่มีพจน์ที่ ${k}$ เท่ากับ ${ak}$ และพจน์ที่ ${m}$ เท่ากับ ${am}$ ผลต่างคงที่ของอนุกรมนี้เท่ากับเท่าใด",
+        "answer_expr": "d",
+        "answer_round": null,
+        "answer_unit": null,
+        "distractors": [
+          {
+            "expr": "(am - ak) / (gap + 1)",
+            "reason": "หารด้วยจำนวนพจน์แทนจำนวนช่วง"
+          },
+          {
+            "expr": "d + 1",
+            "reason": "คิดเลขพลาดตอนหาร ได้ค่ามากไป 1"
+          },
+          {
+            "expr": "d + 2",
+            "reason": "คิดเลขพลาดตอนหาร ได้ค่ามากไป 2"
+          },
+          {
+            "expr": "2*d",
+            "reason": "หารด้วยครึ่งหนึ่งของจำนวนช่วง"
+          }
+        ],
+        "quality_rules": [
+          "ผลต่างต้องหารด้วยจำนวนพจน์ลงตัว เพื่อให้ตัวเลือกลวงจากการนับพจน์แทนช่วงเป็นจำนวนเต็ม",
+          "ตัวเลือกลวงต้องไม่เท่ากับคำตอบและไม่ซ้ำกันเอง",
+          "ตัวเลือกทุกตัวต้องเป็นค่าบวก"
+        ],
+        "quality_exprs": [
+          "answer > 0"
+        ],
+        "steps_tpl": [
+          {
+            "do_md": "หาผลต่างของค่า: ${am}-{ak}={rise}$",
+            "why_md": "ค่าที่เพิ่มขึ้นทั้งหมดระหว่างสองพจน์นี้"
+          },
+          {
+            "do_md": "นับจำนวนช่วง: ${m}-{k}={gap}$ ช่วง",
+            "why_md": "ไม่ใช่ ${gap} + 1$ ช่วง แม้จะมีพจน์อยู่ ${gap} + 1$ พจน์ในช่วงนั้น ตัวส่วนคือจำนวนช่วง"
+          },
+          {
+            "do_md": "$d={rise} \\div {gap}={answer}$",
+            "why_md": "ค่าที่เพิ่มขึ้น ${rise}$ กระจายเท่า ๆ กันใน ${gap}$ ช่วง"
+          }
+        ],
+        "hints_tpl": [
+          "โจทย์ให้พจน์แบบข้ามตำแหน่ง ต้องหาว่าค่าเพิ่มขึ้นเท่าไรและกินกี่ช่วง",
+          "ใช้ $d=\\dfrac{a_m-a_k}{m-k}$ โดยตัวส่วนคือจำนวนช่วง ไม่ใช่จำนวนพจน์",
+          "ค่าเพิ่มขึ้น ${am}-{ak}={rise}$ แล้วต้องหารด้วยจำนวนช่วงจากพจน์ที่ ${k}$ ถึงพจน์ที่ ${m}$"
+        ],
+        "explanation_tpl": "ตอบ ${answer}$ ตรวจกลับได้ $a_1={ak}-{km1}({answer})={a1}$ แล้ว $a_{{m}}={a1}+{mm1}({answer})={am}$ ตรงกับที่โจทย์ให้"
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.numerical.series.constant_difference.0009",
+      "topic_ids": [
+        "tgat2.numerical.series.constant_difference"
+      ],
+      "primary_topic_id": "tgat2.numerical.series.constant_difference",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 ส่วนอนุกรม ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "medium"
+      },
+      "est_seconds": 70,
+      "stem_md": "ร้านหนึ่งจัดชั้นวางสินค้าเป็นแถว แถวล่างสุดวางได้ $9$ ชิ้น และแถวที่สูงขึ้นไปวางได้น้อยลงแถวละ $2$ ชิ้นเท่ากันทุกแถว ถ้าแถวบนสุดวางได้ $1$ ชิ้น ชั้นวางนี้มีทั้งหมดกี่แถว",
+      "figures": [],
+      "choices": [
+        {
+          "md": "$2$",
+          "is_answer": false
+        },
+        {
+          "md": "$3$",
+          "is_answer": false
+        },
+        {
+          "md": "$4$",
+          "is_answer": false
+        },
+        {
+          "md": "$5$",
+          "is_answer": true
+        },
+        {
+          "md": "$6$",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "แปลงโจทย์เป็นอนุกรม: พจน์แรก $9$ ผลต่าง $-2$ พจน์สุดท้าย $1$",
+          "why_md": "โจทย์สถานการณ์ต้องแปลงเป็นอนุกรมก่อน ไม่งั้นจะเดาคำตอบ"
+        },
+        {
+          "do_md": "หาค่าที่ลดลงทั้งหมด: $9-1=8$",
+          "why_md": "ระยะห่างระหว่างพจน์แรกกับพจน์สุดท้าย"
+        },
+        {
+          "do_md": "หาจำนวนช่วง: $8 \\div 2=4$ ช่วง",
+          "why_md": "ลดลง 2 ต่อช่วง จึงลดไป 4 ครั้ง"
+        },
+        {
+          "do_md": "แปลงเป็นจำนวนแถว: $4+1=5$ แถว",
+          "why_md": "จำนวนพจน์ = จำนวนช่วง + 1 เพราะแถวล่างสุดคือพจน์ที่ 1 ที่ยังไม่ได้ลดอะไร"
+        }
+      ],
+      "answer_explanation_md": "ตอบ $5$ แถว ตรวจได้ด้วยการไล่: $9, 7, 5, 3, 1$ นับได้ 5 จำนวนพอดี",
+      "hints": [
+        "แปลงโจทย์เป็นอนุกรมก่อน: พจน์แรกเท่าไร ผลต่างเท่าไร พจน์สุดท้ายเท่าไร",
+        "หาว่าลดลงทั้งหมดเท่าไร แล้วหารด้วยค่าที่ลดต่อแถว จะได้จำนวนช่วง",
+        "ได้จำนวนช่วง 4 ช่วงแล้ว ต้องแปลงเป็นจำนวนแถวอีกหนึ่งขั้น"
+      ],
+      "distractor_reasons": {
+        "0": "ไล่นับไม่ครบ หยุดหลังจากลดไปสองครั้ง",
+        "1": "ไล่นับไม่ครบ หยุดที่ $9, 7, 5$",
+        "2": "ตอบจำนวนช่วงแทนจำนวนแถว ลืมบวก 1",
+        "4": "บวก 1 สองครั้ง"
+      },
+      "misconception_tags": [
+        "gap_vs_term_count",
+        "off_by_one_term"
+      ],
+      "template": {
+        "vars": [
+          {
+            "name": "top",
+            "type": "int",
+            "range": [
+              1,
+              4
+            ],
+            "step": 1
+          },
+          {
+            "name": "d",
+            "type": "int",
+            "range": [
+              2,
+              5
+            ],
+            "step": 1
+          },
+          {
+            "name": "gaps",
+            "type": "int",
+            "range": [
+              4,
+              9
+            ],
+            "step": 1
+          },
+          {
+            "name": "thing",
+            "type": "choice",
+            "options": [
+              "ชิ้น",
+              "กล่อง",
+              "ใบ"
+            ]
+          }
+        ],
+        "constraints": [
+          "gaps >= 4"
+        ],
+        "display": {
+          "bottom": "top + gaps*d",
+          "drop": "bottom - top"
+        },
+        "stem_tpl": "ร้านหนึ่งจัดชั้นวางสินค้าเป็นแถว แถวล่างสุดวางได้ ${bottom}$ {thing} และแถวที่สูงขึ้นไปวางได้น้อยลงแถวละ ${d}$ {thing} เท่ากันทุกแถว ถ้าแถวบนสุดวางได้ ${top}$ {thing} ชั้นวางนี้มีทั้งหมดกี่แถว",
+        "answer_expr": "gaps + 1",
+        "answer_round": null,
+        "answer_unit": "แถว",
+        "distractors": [
+          {
+            "expr": "gaps",
+            "reason": "ตอบจำนวนช่วงแทนจำนวนแถว ลืมบวก 1"
+          },
+          {
+            "expr": "gaps + 2",
+            "reason": "บวก 1 สองครั้ง"
+          },
+          {
+            "expr": "gaps - 1",
+            "reason": "ไล่นับไม่ครบ หยุดก่อนหนึ่งแถว"
+          },
+          {
+            "expr": "gaps - 2",
+            "reason": "ไล่นับไม่ครบ หยุดก่อนสองแถว"
+          }
+        ],
+        "quality_rules": [
+          "ค่าที่ลดลงทั้งหมดต้องหารด้วยผลต่างลงตัว ไม่งั้นโจทย์ไม่สมเหตุสมผล",
+          "จำนวนแถวต้องมากกว่า 4 เพื่อไม่ให้ไล่นับด้วยนิ้วได้ง่าย",
+          "ตัวเลือกทุกตัวต้องเป็นจำนวนเต็มบวกและไม่ซ้ำกัน"
+        ],
+        "quality_exprs": [
+          "answer > 4"
+        ],
+        "steps_tpl": [
+          {
+            "do_md": "แปลงโจทย์เป็นอนุกรม: พจน์แรก ${bottom}$ ผลต่าง $-{d}$ พจน์สุดท้าย ${top}$",
+            "why_md": "โจทย์สถานการณ์ต้องแปลงเป็นอนุกรมก่อน ไม่งั้นจะเดาคำตอบ"
+          },
+          {
+            "do_md": "หาค่าที่ลดลงทั้งหมด: ${bottom}-{top}={drop}$",
+            "why_md": "ระยะห่างระหว่างพจน์แรกกับพจน์สุดท้าย"
+          },
+          {
+            "do_md": "หาจำนวนช่วง: ${drop} \\div {d}={gaps}$ ช่วง",
+            "why_md": "ลดลง ${d}$ ต่อช่วง จึงลดไป ${gaps}$ ครั้ง"
+          },
+          {
+            "do_md": "แปลงเป็นจำนวนแถว: ${gaps}+1={answer}$ แถว",
+            "why_md": "จำนวนพจน์ = จำนวนช่วง + 1 เพราะแถวล่างสุดคือพจน์ที่ 1 ที่ยังไม่ได้ลดอะไร"
+          }
+        ],
+        "hints_tpl": [
+          "แปลงโจทย์เป็นอนุกรมก่อน: พจน์แรกเท่าไร ผลต่างเท่าไร พจน์สุดท้ายเท่าไร",
+          "หาว่าลดลงทั้งหมดเท่าไร แล้วหารด้วยค่าที่ลดต่อแถว จะได้จำนวนช่วง",
+          "ได้จำนวนช่วง ${gaps}$ ช่วงแล้ว ต้องแปลงเป็นจำนวนแถวอีกหนึ่งขั้น"
+        ],
+        "explanation_tpl": "ตอบ ${answer}$ แถว ตรวจได้ด้วยการไล่จาก ${bottom}$ ลดลง ${d}$ ทีละแถวจนถึง ${top}$ นับได้ ${answer}$ จำนวนพอดี"
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.numerical.series.constant_difference.0010",
+      "topic_ids": [
+        "tgat2.numerical.series.constant_difference"
+      ],
+      "primary_topic_id": "tgat2.numerical.series.constant_difference",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 ส่วนอนุกรม ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 4,
+      "difficulty_signals": {
+        "steps_count": 4,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "high"
+      },
+      "est_seconds": 95,
+      "stem_md": "พนักงานคนหนึ่งเริ่มเก็บเงินในเดือนแรก $250$ บาท และเก็บเพิ่มขึ้นเท่ากันทุกเดือน พอสิ้นเดือนที่ $4$ เงินที่เก็บได้ในเดือนนั้นคือ $400$ บาท ถ้าเก็บต่อไปด้วยอัตราเดิม เงินที่เก็บได้ใน **เดือนที่ 11** เป็นเท่าใด",
+      "figures": [],
+      "choices": [
+        {
+          "md": "$700$ บาท",
+          "is_answer": false
+        },
+        {
+          "md": "$750$ บาท",
+          "is_answer": true
+        },
+        {
+          "md": "$800$ บาท",
+          "is_answer": false
+        },
+        {
+          "md": "$850$ บาท",
+          "is_answer": false
+        },
+        {
+          "md": "$900$ บาท",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "แปลงโจทย์: พจน์ที่ 1 คือ $250$ พจน์ที่ 4 คือ $400$ หาพจน์ที่ 11",
+          "why_md": "โจทย์ยาว ต้องดึงออกมาเป็นอนุกรมก่อนว่าอะไรเป็นพจน์ที่เท่าไร"
+        },
+        {
+          "do_md": "หาจำนวนช่วงจากเดือนที่ 1 ถึงเดือนที่ 4: $4-1=3$ ช่วง",
+          "why_md": "ไม่ใช่ 4 ช่วง เพราะเดือนแรกยังไม่ได้เพิ่มอะไร"
+        },
+        {
+          "do_md": "หา $d$: $d=\\dfrac{400-250}{3}=\\dfrac{150}{3}=50$",
+          "why_md": "ค่าที่เพิ่มขึ้น 150 บาท กระจายใน 3 ช่วง"
+        },
+        {
+          "do_md": "หาพจน์ที่ 11: $a_{11}=250+(11-1)(50)=250+500=750$",
+          "why_md": "ใช้ $(n-1)=10$ ไม่ใช่ 11"
+        }
+      ],
+      "answer_explanation_md": "ตอบ $750$ บาท ตรวจคร่าว ๆ ได้ว่าเดือนที่ 11 ห่างจากเดือนที่ 4 อยู่ 7 ช่วง จึงเป็น $400+7(50)=750$ ตรงกัน",
+      "hints": [
+        "โจทย์ยาว ให้แปลงเป็นอนุกรมก่อนว่าเดือนที่เท่าไรคือพจน์ที่เท่าไร",
+        "ยังไม่รู้ผลต่าง ต้องหาจากพจน์ที่ 1 กับพจน์ที่ 4 โดยระวังว่ามีกี่ช่วง",
+        "จากเดือนที่ 1 ถึงเดือนที่ 4 มี 3 ช่วง ดังนั้น $d=(400-250)\\div 3$"
+      ],
+      "distractor_reasons": {
+        "0": "ใช้ $(n-2)d$ เพราะนับช่วงน้อยไปหนึ่ง",
+        "2": "ใช้ $nd$ แทน $(n-1)d$ ได้ $250+11(50)$",
+        "3": "หาผลต่างผิดเป็น $60$ เพราะหารด้วยจำนวนช่วงผิด แล้วคำนวณต่อ",
+        "4": "เอาค่าของเดือนที่ 4 มาเป็นจุดเริ่ม แต่ยังใช้จำนวนช่วงของเดือนที่ 1"
+      },
+      "misconception_tags": [
+        "gap_vs_term_count",
+        "off_by_one_term"
+      ],
+      "template": {
+        "vars": [
+          {
+            "name": "a1",
+            "type": "int",
+            "range": [
+              150,
+              400
+            ],
+            "step": 50
+          },
+          {
+            "name": "d",
+            "type": "int",
+            "range": [
+              20,
+              80
+            ],
+            "step": 10
+          },
+          {
+            "name": "k",
+            "type": "int",
+            "range": [
+              3,
+              5
+            ],
+            "step": 1
+          },
+          {
+            "name": "n",
+            "type": "int",
+            "range": [
+              9,
+              14
+            ],
+            "step": 1
+          }
+        ],
+        "constraints": [
+          "n >= k + 5",
+          "d != 10*(n - 1)",
+          "(k - 1)*d != 10*(n - 1)"
+        ],
+        "display": {
+          "ak": "a1 + (k - 1)*d",
+          "km1": "k - 1",
+          "rise": "ak - a1",
+          "nm1": "n - 1",
+          "prod": "(n - 1)*d",
+          "gapkn": "n - k",
+          "riseKN": "(n - k)*d"
+        },
+        "stem_tpl": "พนักงานคนหนึ่งเริ่มเก็บเงินในเดือนแรก ${a1}$ บาท และเก็บเพิ่มขึ้นเท่ากันทุกเดือน พอสิ้นเดือนที่ ${k}$ เงินที่เก็บได้ในเดือนนั้นคือ ${ak}$ บาท ถ้าเก็บต่อไปด้วยอัตราเดิม เงินที่เก็บได้ในเดือนที่ ${n}$ เป็นเท่าใด",
+        "answer_expr": "a1 + (n - 1)*d",
+        "answer_round": null,
+        "answer_unit": "บาท",
+        "distractors": [
+          {
+            "expr": "a1 + n*d",
+            "reason": "ใช้ nd แทน (n-1)d"
+          },
+          {
+            "expr": "a1 + (n - 2)*d",
+            "reason": "นับช่วงน้อยไปหนึ่ง"
+          },
+          {
+            "expr": "ak + (n - 1)*d",
+            "reason": "นับต่อจากพจน์ที่ k แต่ใช้จำนวนช่วงของพจน์ที่ 1"
+          },
+          {
+            "expr": "a1 + (n - 1)*(d + 10)",
+            "reason": "หาผลต่างผิดไป 10 เพราะหารด้วยจำนวนช่วงผิด"
+          }
+        ],
+        "quality_rules": [
+          "ค่าที่เพิ่มขึ้นต้องหารด้วยจำนวนช่วงลงตัว เพื่อให้ผลต่างเป็นจำนวนเต็ม",
+          "จำนวนเงินทุกตัวเลือกต้องอยู่ในช่วงที่สมจริง ไม่ติดลบ",
+          "ตัวเลือกทุกตัวต้องไม่ซ้ำกัน",
+          "ต้องกันกรณีที่ตัวเลือกลวงจากการใช้จุดเริ่มผิด ไปเท่ากับตัวเลือกลวงจากการหาผลต่างผิด"
+        ],
+        "quality_exprs": [
+          "answer > 0",
+          "answer < 5000"
+        ],
+        "steps_tpl": [
+          {
+            "do_md": "แปลงโจทย์: พจน์ที่ 1 คือ ${a1}$ พจน์ที่ ${k}$ คือ ${ak}$ หาพจน์ที่ ${n}$",
+            "why_md": "โจทย์ยาว ต้องดึงออกมาเป็นอนุกรมก่อนว่าอะไรเป็นพจน์ที่เท่าไร"
+          },
+          {
+            "do_md": "หาจำนวนช่วงจากเดือนที่ 1 ถึงเดือนที่ ${k}$: ${k}-1={km1}$ ช่วง",
+            "why_md": "ไม่ใช่ ${k}$ ช่วง เพราะเดือนแรกยังไม่ได้เพิ่มอะไร"
+          },
+          {
+            "do_md": "หา $d$: $d=\\dfrac{{ak}-{a1}}{{km1}}=\\dfrac{{rise}}{{km1}}={d}$",
+            "why_md": "ค่าที่เพิ่มขึ้น ${rise}$ บาท กระจายใน ${km1}$ ช่วง"
+          },
+          {
+            "do_md": "หาพจน์ที่ ${n}$: $a_{{n}}={a1}+({n}-1)({d})={a1}+{prod}={answer}$",
+            "why_md": "ใช้ $(n-1)={nm1}$ ไม่ใช่ ${n}$"
+          }
+        ],
+        "hints_tpl": [
+          "โจทย์ยาว ให้แปลงเป็นอนุกรมก่อนว่าเดือนที่เท่าไรคือพจน์ที่เท่าไร",
+          "ยังไม่รู้ผลต่าง ต้องหาจากพจน์ที่ 1 กับพจน์ที่ ${k}$ โดยระวังว่ามีกี่ช่วง",
+          "จากเดือนที่ 1 ถึงเดือนที่ ${k}$ มี ${km1}$ ช่วง ดังนั้น $d=({ak}-{a1})\\div {km1}$"
+        ],
+        "explanation_tpl": "ตอบ ${answer}$ บาท ตรวจคร่าว ๆ ได้ว่าเดือนที่ ${n}$ ห่างจากเดือนที่ ${k}$ อยู่ ${gapkn}$ ช่วง จึงเป็น ${ak}+{riseKN}={answer}$ ตรงกัน"
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.numerical.series.constant_difference.0011",
+      "topic_ids": [
+        "tgat2.numerical.series.constant_difference",
+        "tgat2.numerical.foundation.simple_equation"
+      ],
+      "primary_topic_id": "tgat2.numerical.series.constant_difference",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 ส่วนอนุกรม ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 4,
+      "difficulty_signals": {
+        "steps_count": 4,
+        "topics_count": 2,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "medium"
+      },
+      "est_seconds": 100,
+      "stem_md": "อนุกรม $A$ เริ่มจาก $12$ และเพิ่มขึ้น $5$ ทุกพจน์ อนุกรม $B$ เริ่มจาก $60$ และลดลง $3$ ทุกพจน์ พจน์ที่เท่าใดที่ทั้งสองอนุกรมมีค่าเท่ากัน",
+      "figures": [],
+      "choices": [
+        {
+          "md": "พจน์ที่ $5$",
+          "is_answer": false
+        },
+        {
+          "md": "พจน์ที่ $6$",
+          "is_answer": false
+        },
+        {
+          "md": "พจน์ที่ $7$",
+          "is_answer": true
+        },
+        {
+          "md": "พจน์ที่ $8$",
+          "is_answer": false
+        },
+        {
+          "md": "พจน์ที่ $9$",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "เขียนพจน์ที่ $n$ ของทั้งสอง: $A_n=12+(n-1)(5)$ และ $B_n=60+(n-1)(-3)$",
+          "why_md": "ต้องเขียนทั้งสองอนุกรมในรูปตำแหน่งเดียวกันก่อน จึงจะเทียบกันได้"
+        },
+        {
+          "do_md": "ตั้งสมการให้เท่ากัน: $12+5(n-1)=60-3(n-1)$",
+          "why_md": "โจทย์ถามตำแหน่งที่ค่าเท่ากัน จึงให้สองนิพจน์เท่ากัน"
+        },
+        {
+          "do_md": "จัดรูป: $5(n-1)+3(n-1)=60-12$ ได้ $8(n-1)=48$",
+          "why_md": "รวมพจน์ที่มี $(n-1)$ ไว้ข้างเดียว ลดโอกาสคิดผิดกว่าการกระจายวงเล็บก่อน"
+        },
+        {
+          "do_md": "$(n-1)=6$ ดังนั้น $n=7$",
+          "why_md": "ต้องบวก 1 กลับ เพราะที่แก้ได้คือจำนวนช่วง ไม่ใช่ตำแหน่ง"
+        }
+      ],
+      "answer_explanation_md": "ตอบพจน์ที่ $7$ ตรวจได้ $A_7=12+6(5)=42$ และ $B_7=60-6(3)=42$ เท่ากันพอดี",
+      "hints": [
+        "เขียนพจน์ที่ $n$ ของทั้งสองอนุกรมออกมาก่อน โดยใช้ตัวแปร $n$ ตัวเดียวกัน",
+        "ตั้งสมการให้สองนิพจน์เท่ากัน แล้วแก้หา $n$",
+        "รวมพจน์ที่มี $(n-1)$ ไว้ข้างเดียว จะได้ $8(n-1)=48$"
+      ],
+      "distractor_reasons": {
+        "0": "แก้ได้ $(n-1)=6$ แล้วลบ 1 ผิดทิศทาง",
+        "1": "ตอบจำนวนช่วงแทนตำแหน่ง ลืมบวก 1",
+        "3": "บวก 1 สองครั้ง",
+        "4": "กระจายวงเล็บผิดเครื่องหมายแล้วได้ $(n-1)=8$"
+      },
+      "misconception_tags": [
+        "off_by_one_term",
+        "sign_error"
+      ],
+      "template": {
+        "vars": [
+          {
+            "name": "a1",
+            "type": "int",
+            "range": [
+              8,
+              20
+            ],
+            "step": 1
+          },
+          {
+            "name": "da",
+            "type": "int",
+            "range": [
+              4,
+              7
+            ],
+            "step": 1
+          },
+          {
+            "name": "db",
+            "type": "int",
+            "range": [
+              2,
+              5
+            ],
+            "step": 1
+          },
+          {
+            "name": "gaps",
+            "type": "int",
+            "range": [
+              5,
+              9
+            ],
+            "step": 1
+          }
+        ],
+        "constraints": [
+          "gaps >= 5",
+          "da > db",
+          "da + db != gaps + 1"
+        ],
+        "display": {
+          "b1": "a1 + gaps*(da + db)",
+          "sumd": "da + db",
+          "diff": "b1 - a1",
+          "meet": "a1 + gaps*da"
+        },
+        "stem_tpl": "อนุกรม $A$ เริ่มจาก ${a1}$ และเพิ่มขึ้น ${da}$ ทุกพจน์ อนุกรม $B$ เริ่มจาก ${b1}$ และลดลง ${db}$ ทุกพจน์ พจน์ที่เท่าใดที่ทั้งสองอนุกรมมีค่าเท่ากัน",
+        "answer_expr": "gaps + 1",
+        "answer_round": null,
+        "answer_unit": null,
+        "distractors": [
+          {
+            "expr": "gaps",
+            "reason": "ตอบจำนวนช่วงแทนตำแหน่ง ลืมบวก 1"
+          },
+          {
+            "expr": "gaps - 1",
+            "reason": "ลบ 1 ผิดทิศทาง"
+          },
+          {
+            "expr": "gaps + 2",
+            "reason": "บวก 1 สองครั้ง"
+          },
+          {
+            "expr": "gaps + 3",
+            "reason": "จัดรูปสมการผิดเครื่องหมาย"
+          }
+        ],
+        "quality_rules": [
+          "จุดตัดต้องเกิดที่ตำแหน่งจำนวนเต็ม ไม่งั้นโจทย์ไม่มีคำตอบในตัวเลือก",
+          "พจน์แรกของอนุกรม B ต้องมากกว่าพจน์แรกของ A เพื่อให้สองอนุกรมวิ่งเข้าหากัน",
+          "ตัวเลือกทุกตัวต้องเป็นตำแหน่งบวก"
+        ],
+        "quality_exprs": [
+          "answer > 4"
+        ],
+        "steps_tpl": [
+          {
+            "do_md": "เขียนพจน์ที่ $n$ ของทั้งสอง: $A_n={a1}+(n-1)({da})$ และ $B_n={b1}+(n-1)(-{db})$",
+            "why_md": "ต้องเขียนทั้งสองอนุกรมในรูปตำแหน่งเดียวกันก่อน จึงจะเทียบกันได้"
+          },
+          {
+            "do_md": "ตั้งสมการให้เท่ากัน: ${a1}+{da}(n-1)={b1}-{db}(n-1)$",
+            "why_md": "โจทย์ถามตำแหน่งที่ค่าเท่ากัน จึงให้สองนิพจน์เท่ากัน"
+          },
+          {
+            "do_md": "จัดรูป: ${da}(n-1)+{db}(n-1)={b1}-{a1}$ ได้ ${sumd}(n-1)={diff}$",
+            "why_md": "รวมพจน์ที่มี $(n-1)$ ไว้ข้างเดียว ลดโอกาสคิดผิดกว่าการกระจายวงเล็บก่อน"
+          },
+          {
+            "do_md": "$(n-1)={gaps}$ ดังนั้น $n={answer}$",
+            "why_md": "ต้องบวก 1 กลับ เพราะที่แก้ได้คือจำนวนช่วง ไม่ใช่ตำแหน่ง"
+          }
+        ],
+        "hints_tpl": [
+          "เขียนพจน์ที่ $n$ ของทั้งสองอนุกรมออกมาก่อน โดยใช้ตัวแปร $n$ ตัวเดียวกัน",
+          "ตั้งสมการให้สองนิพจน์เท่ากัน แล้วแก้หา $n$",
+          "รวมพจน์ที่มี $(n-1)$ ไว้ข้างเดียว จะได้ ${sumd}(n-1)={diff}$"
+        ],
+        "explanation_tpl": "ตอบพจน์ที่ ${answer}$ ตรวจได้ $A_{{answer}}={a1}+{gaps}({da})={meet}$ และ $B_{{answer}}={b1}-{gaps}({db})={meet}$ เท่ากันพอดี"
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.numerical.series.constant_difference.0012",
+      "topic_ids": [
+        "tgat2.numerical.series.constant_difference"
+      ],
+      "primary_topic_id": "tgat2.numerical.series.constant_difference",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 ส่วนอนุกรม ระดับข้อท้าย ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 5,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": true,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "medium"
+      },
+      "est_seconds": 110,
+      "stem_md": "อนุกรมผลต่างคงที่ชุดหนึ่ง ผลบวกของพจน์ที่ $2$ กับพจน์ที่ $10$ เท่ากับ $84$ พจน์ที่ $6$ มีค่าเท่าใด",
+      "figures": [],
+      "choices": [
+        {
+          "md": "$28$",
+          "is_answer": false
+        },
+        {
+          "md": "$40$",
+          "is_answer": false
+        },
+        {
+          "md": "$42$",
+          "is_answer": true
+        },
+        {
+          "md": "$84$",
+          "is_answer": false
+        },
+        {
+          "md": "หาค่าไม่ได้ เพราะข้อมูลไม่เพียงพอ",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "สังเกตตำแหน่ง: $2$ กับ $10$ ห่างจาก $6$ เท่ากันคือ $4$ ช่วงทั้งสองข้าง",
+          "why_md": "นี่คือกุญแจของข้อนี้ ถ้าไม่เห็นจุดนี้จะพยายามหา $a_1$ กับ $d$ แล้วติดเพราะข้อมูลไม่พอ"
+        },
+        {
+          "do_md": "เขียนออกมา: $a_2=a_6-4d$ และ $a_{10}=a_6+4d$",
+          "why_md": "แสดงให้เห็นว่าทั้งสองพจน์อยู่ห่างจากพจน์ที่ 6 เท่ากันแต่ทิศตรงข้าม"
+        },
+        {
+          "do_md": "บวกกัน: $a_2+a_{10}=(a_6-4d)+(a_6+4d)=2a_6$ ส่วนที่มี $d$ ตัดกันหมด",
+          "why_md": "จึงไม่จำเป็นต้องรู้ $d$ หรือ $a_1$ เลย"
+        },
+        {
+          "do_md": "$2a_6=84$ ดังนั้น $a_6=42$",
+          "why_md": "พจน์ที่อยู่กึ่งกลางเท่ากับค่าเฉลี่ยของสองพจน์ที่ห่างเท่ากัน"
+        }
+      ],
+      "answer_explanation_md": "ตอบ $42$ หลักที่ใช้คือ **ในอนุกรมผลต่างคงที่ พจน์กึ่งกลางเท่ากับค่าเฉลี่ยของสองพจน์ที่อยู่ห่างจากมันเท่ากัน** จำหลักนี้ไว้จะประหยัดเวลาในข้อสอบได้มาก ข้อนี้จึงไม่ต้องรู้ $a_1$ หรือ $d$ เลย",
+      "hints": [
+        "อย่าเพิ่งพยายามหา $a_1$ กับ $d$ ให้ดูตำแหน่ง $2$, $6$, $10$ ว่ามีความสัมพันธ์อะไร",
+        "พจน์ที่ 6 อยู่ห่างจากพจน์ที่ 2 และพจน์ที่ 10 เป็นจำนวนช่วงเท่ากัน ลองเขียน $a_2$ และ $a_{10}$ ในรูปของ $a_6$",
+        "เขียน $a_2=a_6-4d$ และ $a_{10}=a_6+4d$ แล้วบวกกันดูว่าเกิดอะไรขึ้นกับ $d$"
+      ],
+      "distractor_reasons": {
+        "0": "หารด้วย 3 เพราะนับว่ามีสามพจน์เกี่ยวข้อง",
+        "1": "ประมาณค่าจากการเดา $a_1$ กับ $d$ เอาเองแล้วคำนวณต่อ",
+        "3": "ตอบผลบวกที่โจทย์ให้มาโดยไม่ได้หาร 2",
+        "4": "สรุปว่าข้อมูลไม่พอเพราะไม่เห็นว่าพจน์ $d$ ตัดกันได้"
+      },
+      "misconception_tags": [
+        "missed_symmetry_shortcut",
+        "insufficient_data_misjudgement"
+      ],
+      "template": {
+        "vars": [
+          {
+            "name": "mid",
+            "type": "int",
+            "range": [
+              20,
+              60
+            ],
+            "step": 1
+          },
+          {
+            "name": "offset",
+            "type": "int",
+            "range": [
+              3,
+              5
+            ],
+            "step": 1
+          },
+          {
+            "name": "pos",
+            "type": "int",
+            "range": [
+              6,
+              9
+            ],
+            "step": 1
+          }
+        ],
+        "constraints": [
+          "pos > offset + 1"
+        ],
+        "display": {
+          "lo": "pos - offset",
+          "hi": "pos + offset",
+          "total": "2*mid"
+        },
+        "stem_tpl": "อนุกรมผลต่างคงที่ชุดหนึ่ง ผลบวกของพจน์ที่ ${lo}$ กับพจน์ที่ ${hi}$ เท่ากับ ${total}$ พจน์ที่ ${pos}$ มีค่าเท่าใด",
+        "answer_expr": "mid",
+        "answer_round": null,
+        "answer_unit": null,
+        "distractors": [
+          {
+            "expr": "2*mid",
+            "reason": "ตอบผลบวกที่โจทย์ให้โดยไม่ได้หาร 2"
+          },
+          {
+            "expr": "2*mid / 3",
+            "reason": "หารด้วย 3 เพราะนับว่ามีสามพจน์เกี่ยวข้อง"
+          },
+          {
+            "expr": "mid - offset",
+            "reason": "ลบ offset ออกโดยเข้าใจผิดว่าต้องปรับตำแหน่ง"
+          },
+          {
+            "expr": "mid + offset",
+            "reason": "บวก offset เข้าไปโดยเข้าใจผิดว่าต้องปรับตำแหน่ง"
+          }
+        ],
+        "quality_rules": [
+          "ผลบวกต้องเป็นจำนวนคู่ เพื่อให้พจน์กึ่งกลางเป็นจำนวนเต็ม",
+          "ตำแหน่งที่ถามต้องมากกว่า offset เพื่อให้พจน์ที่อ้างถึงมีอยู่จริงในอนุกรม",
+          "ตัวเลือกทุกตัวต้องเป็นค่าบวกและไม่ซ้ำกัน"
+        ],
+        "quality_exprs": [
+          "answer > 0"
+        ],
+        "steps_tpl": [
+          {
+            "do_md": "สังเกตตำแหน่ง: ${lo}$ กับ ${hi}$ ห่างจาก ${pos}$ เท่ากันคือ ${offset}$ ช่วงทั้งสองข้าง",
+            "why_md": "นี่คือกุญแจของข้อนี้ ถ้าไม่เห็นจุดนี้จะพยายามหา $a_1$ กับ $d$ แล้วติดเพราะข้อมูลไม่พอ"
+          },
+          {
+            "do_md": "เขียนออกมา: $a_{{lo}}=a_{{pos}}-{offset}d$ และ $a_{{hi}}=a_{{pos}}+{offset}d$",
+            "why_md": "แสดงให้เห็นว่าทั้งสองพจน์อยู่ห่างจากพจน์ที่ ${pos}$ เท่ากันแต่ทิศตรงข้าม"
+          },
+          {
+            "do_md": "บวกกัน: $a_{{lo}}+a_{{hi}}=(a_{{pos}}-{offset}d)+(a_{{pos}}+{offset}d)=2a_{{pos}}$ ส่วนที่มี $d$ ตัดกันหมด",
+            "why_md": "จึงไม่จำเป็นต้องรู้ $d$ หรือ $a_1$ เลย"
+          },
+          {
+            "do_md": "$2a_{{pos}}={total}$ ดังนั้น $a_{{pos}}={answer}$",
+            "why_md": "พจน์ที่อยู่กึ่งกลางเท่ากับค่าเฉลี่ยของสองพจน์ที่ห่างเท่ากัน"
+          }
+        ],
+        "hints_tpl": [
+          "อย่าเพิ่งพยายามหา $a_1$ กับ $d$ ให้ดูตำแหน่ง ${lo}$, ${pos}$, ${hi}$ ว่ามีความสัมพันธ์อะไร",
+          "พจน์ที่ ${pos}$ อยู่ห่างจากพจน์ที่ ${lo}$ และพจน์ที่ ${hi}$ เป็นจำนวนช่วงเท่ากัน ลองเขียน $a_{{lo}}$ และ $a_{{hi}}$ ในรูปของ $a_{{pos}}$",
+          "เขียน $a_{{lo}}=a_{{pos}}-{offset}d$ และ $a_{{hi}}=a_{{pos}}+{offset}d$ แล้วบวกกันดูว่าเกิดอะไรขึ้นกับ $d$"
+        ],
+        "explanation_tpl": "ตอบ ${answer}$ หลักที่ใช้คือ **ในอนุกรมผลต่างคงที่ พจน์กึ่งกลางเท่ากับค่าเฉลี่ยของสองพจน์ที่อยู่ห่างจากมันเท่ากัน** จำหลักนี้ไว้จะประหยัดเวลาในข้อสอบได้มาก ข้อนี้จึงไม่ต้องรู้ $a_1$ หรือ $d$ เลย"
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    }
+  ]
+}

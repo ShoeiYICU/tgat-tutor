@@ -1,0 +1,591 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tgat1.reading.comprehension.purpose_tone",
+  "problems": [
+    {
+      "id": "prob.tgat1.reading.comprehension.purpose_tone.0001",
+      "topic_ids": [
+        "tgat1.reading.comprehension.purpose_tone"
+      ],
+      "primary_topic_id": "tgat1.reading.comprehension.purpose_tone",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 60,
+      "stem_md": "**Complaint Letter**\n\nDear Mr. Hansen,\n\nI am writing to complain about the fitness app I subscribed to last month. Your advertisement promised personalized workout plans and weekly progress reports. Unfortunately, I have received the same basic plan every week, and I have not received a single progress report. When I contacted your customer service on 3 March, I was told that the problem would be fixed within two days. It has now been two weeks, and nothing has changed. I would therefore like to request a full refund of my subscription fee. I look forward to your prompt reply.\n\nYours sincerely,\nPimchanok S.\n\n---\n\nWhat is the tone of the letter?",
+      "figures": [],
+      "choices": [
+        {
+          "md": "confused and curious",
+          "is_answer": false
+        },
+        {
+          "md": "angry and rude",
+          "is_answer": false
+        },
+        {
+          "md": "frustrated but polite",
+          "is_answer": true
+        },
+        {
+          "md": "happy and thankful",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "คำสัญญาณ: Unfortunately, nothing has changed",
+          "why_md": "ไม่พอใจ"
+        },
+        {
+          "do_md": "ภาษา: I would like to request, I look forward to your reply",
+          "why_md": "สุภาพ"
+        }
+      ],
+      "answer_explanation_md": "ตอบ frustrated but polite เพราะผู้เขียนไม่พอใจที่ปัญหาไม่ได้รับการแก้ แต่ใช้ภาษาสุภาพตลอดจดหมาย",
+      "hints": [
+        "หาคำที่แสดงความรู้สึกในจดหมาย",
+        "ผู้เขียนใช้ภาษาแบบไหนในการขอ",
+        "น้ำเสียงต้องรวมทั้งความรู้สึกและวิธีพูด"
+      ],
+      "distractor_reasons": {
+        "0": "ผู้เขียนรู้ชัดว่าต้องการอะไร",
+        "1": "ผู้เขียนไม่พอใจแต่ใช้ภาษาสุภาพ เช่น I would like to request",
+        "3": "ขัดกับการร้องเรียน"
+      },
+      "misconception_tags": [
+        "quoted_opinion_as_author"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.reading.comprehension.purpose_tone.0002",
+      "topic_ids": [
+        "tgat1.reading.comprehension.purpose_tone"
+      ],
+      "primary_topic_id": "tgat1.reading.comprehension.purpose_tone",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 65,
+      "stem_md": "**Robot Teachers?**\n\nA pilot program at Riverdale School has started using robots in English classes. Supporters say that shy students feel more comfortable practicing with a robot. However, critics point out that robots cannot understand students' feelings. Teachers in the program say that robots work best as assistants, not as replacements for human teachers.\n\n---\n\nWhat is the writer's attitude toward robot teachers?",
+      "figures": [],
+      "choices": [
+        {
+          "md": "balanced, presenting both sides",
+          "is_answer": true
+        },
+        {
+          "md": "strongly against robots in class",
+          "is_answer": false
+        },
+        {
+          "md": "very excited about replacing teachers",
+          "is_answer": false
+        },
+        {
+          "md": "confused about what robots can do",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "บทอ่านนำเสนอ supporters และ critics",
+          "why_md": "ทั้งสองฝ่าย"
+        },
+        {
+          "do_md": "ข้อสรุปมาจากครูที่ใช้จริง ไม่ใช่ความเห็นสุดโต่ง",
+          "why_md": "ท่าทีสมดุล"
+        }
+      ],
+      "answer_explanation_md": "ตอบ balanced, presenting both sides เพราะผู้เขียนนำเสนอทั้งฝ่ายสนับสนุนและฝ่ายวิจารณ์ และสรุปอย่างสมดุล",
+      "hints": [
+        "ผู้เขียนนำเสนอความเห็นกี่ฝ่าย",
+        "ความเห็นของ critics เป็นของผู้เขียนเองไหม",
+        "ข้อสรุปท้ายบทสุดโต่งหรือสมดุล"
+      ],
+      "distractor_reasons": {
+        "1": "ผู้เขียนรายงานความเห็นฝ่ายวิจารณ์ แต่ก็รายงานข้อดีด้วย",
+        "2": "ขัดกับข้อสรุปว่าหุ่นยนต์ไม่ควรแทนครู",
+        "3": "ผู้เขียนอธิบายได้ชัด"
+      },
+      "misconception_tags": [
+        "quoted_opinion_as_author"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.reading.comprehension.purpose_tone.0003",
+      "topic_ids": [
+        "tgat1.reading.comprehension.purpose_tone"
+      ],
+      "primary_topic_id": "tgat1.reading.comprehension.purpose_tone",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 55,
+      "stem_md": "**Sleep and Learning**\n\nMany teenagers believe that staying up late to study will help them get better grades. Sleep researchers, however, suggest the opposite. When we sleep, the brain sorts and stores the information we learned during the day. Students who sleep less than six hours a night often find it harder to concentrate and remember facts. In one classroom activity, two groups of students learned the same list of words. One group was tested after eight hours of sleep, while the other was tested after spending the same amount of time awake. The sleeping group remembered more words. This does not mean that studying is unimportant. Rather, it shows that sleep is part of learning, not a break from it. Experts recommend that teenagers get eight to ten hours of sleep and avoid using phones for at least an hour before bed.\n\n---\n\nWhat is the main purpose of the passage?",
+      "figures": [],
+      "choices": [
+        {
+          "md": "To tell a funny story about a student",
+          "is_answer": false
+        },
+        {
+          "md": "To explain why sleep is important for students",
+          "is_answer": true
+        },
+        {
+          "md": "To sell a product that helps people sleep",
+          "is_answer": false
+        },
+        {
+          "md": "To complain about schools giving too much homework",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "บทอ่านให้เหตุผลและหลักฐานว่าการนอนสำคัญ",
+          "why_md": "จุดประสงค์คืออธิบาย"
+        },
+        {
+          "do_md": "ตัวเลือกที่ตรง",
+          "why_md": "To explain why sleep is important for students"
+        }
+      ],
+      "answer_explanation_md": "ตอบ To explain why sleep is important for students เพราะบทอ่านให้เหตุผลและยกกิจกรรมเปรียบเทียบมาสนับสนุนว่าการนอนสำคัญต่อการเรียน",
+      "hints": [
+        "บทอ่านเล่าเรื่อง ขายของ ร้องเรียน หรืออธิบาย",
+        "มีตัวอย่างเปรียบเทียบมาสนับสนุนไหม",
+        "จุดประสงค์แบบไหนใช้หลักฐานประกอบ"
+      ],
+      "distractor_reasons": {
+        "0": "ไม่มีเรื่องเล่าขบขัน",
+        "2": "ไม่มีการขายสินค้า",
+        "3": "ไม่มีการร้องเรียนเรื่องการบ้าน"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.reading.comprehension.purpose_tone.0004",
+      "topic_ids": [
+        "tgat1.reading.comprehension.purpose_tone"
+      ],
+      "primary_topic_id": "tgat1.reading.comprehension.purpose_tone",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 60,
+      "stem_md": "**Floating Market**\n\nFor more than sixty years, Riverside Floating Market was mainly a place where farmers sold fruit to local families. When a popular travel program featured the market in 2015, everything changed. Within a few months, weekend visitors increased from a few hundred to several thousand. Some vendors were delighted because their income doubled. Others were less happy. They complained that parking spaces were always full and that traditional wooden boats were being replaced by larger, noisier ones. The local council eventually introduced a rule limiting the number of motorboats. Today, the market tries to balance its new popularity with its old way of life.\n\n---\n\nHow does the writer present the changes at the market?",
+      "figures": [],
+      "choices": [
+        {
+          "md": "By giving instructions for visiting the market",
+          "is_answer": false
+        },
+        {
+          "md": "By praising the travel program only",
+          "is_answer": false
+        },
+        {
+          "md": "By arguing that tourism destroyed the market",
+          "is_answer": false
+        },
+        {
+          "md": "By showing both the benefits and the problems",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ผลดี: รายได้เพิ่ม / ผลเสีย: ที่จอดเต็ม เรือเสียงดัง",
+          "why_md": "ผู้เขียนนำเสนอทั้งสองด้าน"
+        },
+        {
+          "do_md": "ประโยคสุดท้ายพูดถึงการหาสมดุล",
+          "why_md": "By showing both the benefits and the problems"
+        }
+      ],
+      "answer_explanation_md": "ตอบ By showing both the benefits and the problems เพราะผู้เขียนนำเสนอทั้งรายได้ที่เพิ่มและปัญหาที่เกิดขึ้น",
+      "hints": [
+        "ผู้เขียนพูดถึงผลดีของการท่องเที่ยวไหม",
+        "ผู้เขียนพูดถึงปัญหาไหม",
+        "ประโยคสุดท้ายสรุปแบบเข้าข้างฝ่ายใดหรือไม่"
+      ],
+      "distractor_reasons": {
+        "0": "ไม่มีคำแนะนำการเดินทาง",
+        "1": "ผู้เขียนพูดถึงปัญหาที่เกิดขึ้นด้วย",
+        "2": "ผู้เขียนพูดถึงผลดีด้วย ไม่ได้สรุปว่าทำลาย"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.reading.comprehension.purpose_tone.0005",
+      "topic_ids": [
+        "tgat1.reading.comprehension.purpose_tone"
+      ],
+      "primary_topic_id": "tgat1.reading.comprehension.purpose_tone",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 40,
+      "stem_md": "\"Disappointingly, the new park, which cost 50 million baht, has almost no shade and only three benches.\"\n\nWhat is the writer's attitude toward the park?",
+      "figures": [],
+      "choices": [
+        {
+          "md": "amused",
+          "is_answer": false
+        },
+        {
+          "md": "neutral",
+          "is_answer": false
+        },
+        {
+          "md": "admiring",
+          "is_answer": false
+        },
+        {
+          "md": "critical",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "คำสัญญาณ: Disappointingly, only three benches",
+          "why_md": "ความรู้สึกด้านลบ"
+        },
+        {
+          "do_md": "การเปรียบเทียบเงิน 50 ล้านกับสิ่งที่ได้",
+          "why_md": "วิจารณ์"
+        }
+      ],
+      "answer_explanation_md": "ตอบ critical เพราะผู้เขียนใช้ Disappointingly และ only เพื่อวิจารณ์ว่าสวนที่ใช้เงินมากแต่ได้สิ่งอำนวยความสะดวกน้อย",
+      "hints": [
+        "หาคำที่แสดงความรู้สึกในประโยค",
+        "คำว่า only ในที่นี้สื่อว่ามากหรือน้อยเกินไป",
+        "ทำไมผู้เขียนพูดถึงเงิน 50 ล้านบาท"
+      ],
+      "distractor_reasons": {
+        "0": "ไม่มีสัญญาณของความขบขัน",
+        "1": "คำว่า Disappointingly และ only แสดงความรู้สึก ไม่เป็นกลาง",
+        "2": "ขัดกับคำว่า Disappointingly"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.reading.comprehension.purpose_tone.0006",
+      "topic_ids": [
+        "tgat1.reading.comprehension.purpose_tone"
+      ],
+      "primary_topic_id": "tgat1.reading.comprehension.purpose_tone",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 50,
+      "stem_md": "**The Two-Minute Rule**\n\nMany people feel overwhelmed by long to-do lists. One simple technique that can help is the two-minute rule. If a task takes less than two minutes, you should do it immediately. For bigger tasks, the rule suggests starting with just two minutes of work, because getting started is often the hardest part.\n\n---\n\nWhat is the writer's main purpose?",
+      "figures": [],
+      "choices": [
+        {
+          "md": "To give readers a practical tip",
+          "is_answer": true
+        },
+        {
+          "md": "To compare different to-do list apps",
+          "is_answer": false
+        },
+        {
+          "md": "To criticize people who are lazy",
+          "is_answer": false
+        },
+        {
+          "md": "To describe a scientific experiment",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "บทอ่านแนะนำเทคนิคที่ใช้ได้จริง",
+          "why_md": "ใช้ you should, the rule suggests"
+        },
+        {
+          "do_md": "จุดประสงค์: ให้คำแนะนำ",
+          "why_md": "To give readers a practical tip"
+        }
+      ],
+      "answer_explanation_md": "ตอบ To give readers a practical tip เพราะผู้เขียนแนะนำเทคนิคกฎสองนาทีที่ผู้อ่านนำไปใช้ได้ทันที",
+      "hints": [
+        "ผู้เขียนใช้คำว่า you should เพื่อทำอะไร",
+        "บทอ่านมีการทดลองหรือการเปรียบเทียบไหม",
+        "ผู้อ่านได้อะไรจากบทนี้"
+      ],
+      "distractor_reasons": {
+        "1": "ไม่ได้พูดถึงแอป",
+        "2": "ผู้เขียนไม่ได้ตำหนิใคร",
+        "3": "ไม่มีการทดลอง"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.reading.comprehension.purpose_tone.0007",
+      "topic_ids": [
+        "tgat1.reading.comprehension.purpose_tone"
+      ],
+      "primary_topic_id": "tgat1.reading.comprehension.purpose_tone",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 55,
+      "stem_md": "'Bring a reusable bottle on Saturday. Refill stations will be available throughout the park.' What is the writer's main purpose?",
+      "figures": [],
+      "choices": [
+        {
+          "md": "To complain about park visitors",
+          "is_answer": false
+        },
+        {
+          "md": "To explain how stations are built",
+          "is_answer": false
+        },
+        {
+          "md": "To encourage visitors to reduce disposable bottle use",
+          "is_answer": true
+        },
+        {
+          "md": "To advertise bottled water",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ระบุสิ่งที่โจทย์ถาม",
+          "why_md": "ดูคำสั่ง Bring และข้อมูลสนับสนุน"
+        },
+        {
+          "do_md": "ตรวจด้วยบริบทรอบจุดสำคัญ",
+          "why_md": "เลือกคำตอบที่มีหลักฐานรองรับครบ ไม่เติมข้อมูลเอง"
+        }
+      ],
+      "answer_explanation_md": "ข้อความชักชวนให้พกขวดใช้ซ้ำ",
+      "hints": [
+        "ขีดเส้นคำหรือประโยคที่เป็นหลักฐาน",
+        "ตัดตัวเลือกที่จริงบางส่วนแต่ตอบคนละคำถาม",
+        "ตรวจว่าคำตอบไม่กว้างหรือแคบเกินข้อความ"
+      ],
+      "distractor_reasons": {
+        "0": "น้ำเสียงไม่ตำหนิ",
+        "1": "ไม่มีขั้นตอนก่อสร้าง",
+        "3": "เสนอเติมน้ำ ไม่ขายขวด"
+      },
+      "misconception_tags": [
+        "quoted_opinion_as_author"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.reading.comprehension.purpose_tone.0008",
+      "topic_ids": [
+        "tgat1.reading.comprehension.purpose_tone"
+      ],
+      "primary_topic_id": "tgat1.reading.comprehension.purpose_tone",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 5,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": true,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 75,
+      "stem_md": "'The proposal promises faster travel, a welcome goal. Yet its cost estimates omit maintenance, and the ridership forecast relies on a survey of only 80 people.' The tone is...",
+      "figures": [],
+      "choices": [
+        {
+          "md": "enthusiastically supportive",
+          "is_answer": false
+        },
+        {
+          "md": "cautiously critical",
+          "is_answer": true
+        },
+        {
+          "md": "completely neutral",
+          "is_answer": false
+        },
+        {
+          "md": "angrily dismissive",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ระบุสิ่งที่โจทย์ถาม",
+          "why_md": "ผู้เขียนยอมรับเป้าหมายก่อนชี้ข้อจำกัด"
+        },
+        {
+          "do_md": "ตรวจด้วยบริบทรอบจุดสำคัญ",
+          "why_md": "เลือกคำตอบที่มีหลักฐานรองรับครบ ไม่เติมข้อมูลเอง"
+        }
+      ],
+      "answer_explanation_md": "น้ำเสียงวิจารณ์อย่างระวัง ไม่ปฏิเสธทั้งหมด",
+      "hints": [
+        "ขีดเส้นคำหรือประโยคที่เป็นหลักฐาน",
+        "ตัดตัวเลือกที่จริงบางส่วนแต่ตอบคนละคำถาม",
+        "ตรวจว่าคำตอบไม่กว้างหรือแคบเกินข้อความ"
+      ],
+      "distractor_reasons": {
+        "0": "ผู้เขียนชี้ข้อบกพร่องสำคัญ",
+        "2": "มีการประเมินข้อดีและวิจารณ์หลักฐาน",
+        "3": "ยอมรับเป้าหมายและไม่ใช้อารมณ์"
+      },
+      "misconception_tags": [
+        "quoted_opinion_as_author"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    }
+  ],
+  "generated_from": "content/tgat1/reading.py"
+}

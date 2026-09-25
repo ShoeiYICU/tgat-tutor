@@ -1,0 +1,873 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tgat2.reasoning.picture_series.alternating_rule",
+  "problems": [
+    {
+      "id": "prob.tgat2.reasoning.picture_series.alternating_rule.0001",
+      "topic_ids": [
+        "tgat2.reasoning.picture_series.alternating_rule"
+      ],
+      "primary_topic_id": "tgat2.reasoning.picture_series.alternating_rule",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 30,
+      "stem_md": "ภาพใดควรเป็นภาพถัดไปของอนุกรมนี้\n\n[[fig1]]",
+      "figures": [
+        {
+          "id": "fig1",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 376 64\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/><circle cx=\"10\" cy=\"10\" r=\"4.5\" fill=\"currentColor\"/><rect x=\"79\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/><circle cx=\"132\" cy=\"10\" r=\"4.5\" fill=\"currentColor\"/><rect x=\"157\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/><circle cx=\"210\" cy=\"54\" r=\"4.5\" fill=\"currentColor\"/><rect x=\"235\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/><circle cx=\"244\" cy=\"54\" r=\"4.5\" fill=\"currentColor\"/><rect x=\"313\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-dasharray=\"4 3\"/><text x=\"344.0\" y=\"40.0\" font-size=\"24\" text-anchor=\"middle\" fill=\"currentColor\">?</text></svg>",
+          "alt": "จุดที่มุมซ้ายบน | จุดที่มุมขวาบน | จุดที่มุมขวาล่าง | จุดที่มุมซ้ายล่าง | ช่องที่ต้องหา",
+          "caption": "โจทย์"
+        },
+        {
+          "id": "fig2",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/><circle cx=\"10\" cy=\"10\" r=\"4.5\" fill=\"currentColor\"/></svg>",
+          "alt": "จุดที่มุมซ้ายบน",
+          "caption": ""
+        },
+        {
+          "id": "fig3",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/><circle cx=\"10\" cy=\"54\" r=\"4.5\" fill=\"currentColor\"/></svg>",
+          "alt": "จุดที่มุมซ้ายล่าง",
+          "caption": ""
+        },
+        {
+          "id": "fig4",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/><circle cx=\"54\" cy=\"10\" r=\"4.5\" fill=\"currentColor\"/></svg>",
+          "alt": "จุดที่มุมขวาบน",
+          "caption": ""
+        },
+        {
+          "id": "fig5",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/><circle cx=\"54\" cy=\"54\" r=\"4.5\" fill=\"currentColor\"/></svg>",
+          "alt": "จุดที่มุมขวาล่าง",
+          "caption": ""
+        },
+        {
+          "id": "fig6",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/><g transform=\"rotate(0 32 32)\" stroke=\"currentColor\" stroke-width=\"3\" fill=\"currentColor\"><line x1=\"32\" y1=\"47\" x2=\"32\" y2=\"24\"/><polygon points=\"32,15 39,26 25,26\" stroke-width=\"1\"/></g><circle cx=\"10\" cy=\"10\" r=\"4.5\" fill=\"currentColor\"/></svg>",
+          "alt": "ลูกศรชี้ขึ้น · จุดที่มุมซ้ายบน",
+          "caption": ""
+        }
+      ],
+      "choices": [
+        {
+          "md": "[[fig2]]",
+          "is_answer": true
+        },
+        {
+          "md": "[[fig5]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig6]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig4]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig3]]",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ใส่เลขมุม ซ้ายบน 1 ขวาบน 2 ขวาล่าง 3 ซ้ายล่าง 4",
+          "why_md": "ติดตามตำแหน่ง"
+        },
+        {
+          "do_md": "1, 2, 3, 4 วนตามเข็มทีละมุม",
+          "why_md": "กฎ"
+        },
+        {
+          "do_md": "ถัดไปวนกลับมุม 1",
+          "why_md": "ซ้ายบน"
+        }
+      ],
+      "answer_explanation_md": "ตอบ จุดที่มุมซ้ายบน เพราะจุดวนตามเข็มครบรอบแล้วกลับมุมแรก",
+      "hints": [
+        "จุดย้ายไปทางไหนทีละภาพ",
+        "มีกี่มุม",
+        "เมื่อครบทุกมุมแล้วจะไปมุมไหน"
+      ],
+      "distractor_reasons": {
+        "1": "ย้อนทิศ",
+        "2": "มีลูกศรเพิ่มขึ้นมา",
+        "3": "ข้ามไปสองมุม",
+        "4": "ไม่ย้าย"
+      },
+      "misconception_tags": [
+        "no_wrap"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.reasoning.picture_series.alternating_rule.0002",
+      "topic_ids": [
+        "tgat2.reasoning.picture_series.alternating_rule"
+      ],
+      "primary_topic_id": "tgat2.reasoning.picture_series.alternating_rule",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 30,
+      "stem_md": "ภาพใดควรเป็นภาพถัดไปของอนุกรมนี้\n\n[[fig1]]",
+      "figures": [
+        {
+          "id": "fig1",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 376 64\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/><circle cx=\"10\" cy=\"10\" r=\"4.5\" fill=\"currentColor\"/><rect x=\"79\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/><circle cx=\"132\" cy=\"54\" r=\"4.5\" fill=\"currentColor\"/><rect x=\"157\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/><circle cx=\"166\" cy=\"10\" r=\"4.5\" fill=\"currentColor\"/><rect x=\"235\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/><circle cx=\"288\" cy=\"54\" r=\"4.5\" fill=\"currentColor\"/><rect x=\"313\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-dasharray=\"4 3\"/><text x=\"344.0\" y=\"40.0\" font-size=\"24\" text-anchor=\"middle\" fill=\"currentColor\">?</text></svg>",
+          "alt": "จุดที่มุมซ้ายบน | จุดที่มุมขวาล่าง | จุดที่มุมซ้ายบน | จุดที่มุมขวาล่าง | ช่องที่ต้องหา",
+          "caption": "โจทย์"
+        },
+        {
+          "id": "fig2",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/><circle cx=\"10\" cy=\"10\" r=\"4.5\" fill=\"currentColor\"/></svg>",
+          "alt": "จุดที่มุมซ้ายบน",
+          "caption": ""
+        },
+        {
+          "id": "fig3",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/><circle cx=\"54\" cy=\"54\" r=\"4.5\" fill=\"currentColor\"/></svg>",
+          "alt": "จุดที่มุมขวาล่าง",
+          "caption": ""
+        },
+        {
+          "id": "fig4",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/><circle cx=\"54\" cy=\"10\" r=\"4.5\" fill=\"currentColor\"/></svg>",
+          "alt": "จุดที่มุมขวาบน",
+          "caption": ""
+        },
+        {
+          "id": "fig5",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/><circle cx=\"10\" cy=\"54\" r=\"4.5\" fill=\"currentColor\"/></svg>",
+          "alt": "จุดที่มุมซ้ายล่าง",
+          "caption": ""
+        },
+        {
+          "id": "fig6",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/><g transform=\"rotate(90 32 32)\" stroke=\"currentColor\" stroke-width=\"3\" fill=\"currentColor\"><line x1=\"32\" y1=\"47\" x2=\"32\" y2=\"24\"/><polygon points=\"32,15 39,26 25,26\" stroke-width=\"1\"/></g><circle cx=\"10\" cy=\"10\" r=\"4.5\" fill=\"currentColor\"/></svg>",
+          "alt": "ลูกศรชี้ขวา · จุดที่มุมซ้ายบน",
+          "caption": ""
+        }
+      ],
+      "choices": [
+        {
+          "md": "[[fig4]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig3]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig5]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig6]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig2]]",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ใส่เลขมุม ซ้ายบน 1 ขวาบน 2 ขวาล่าง 3 ซ้ายล่าง 4",
+          "why_md": "ติดตามตำแหน่ง"
+        },
+        {
+          "do_md": "1, 3, 1, 3 สลับสองมุม",
+          "why_md": "กฎ"
+        },
+        {
+          "do_md": "ภาพที่ 5 เหมือนภาพที่ 1 และ 3",
+          "why_md": "มุม 1"
+        }
+      ],
+      "answer_explanation_md": "ตอบ จุดที่มุมซ้ายบน เพราะจุดสลับระหว่างซ้ายบนกับขวาล่าง",
+      "hints": [
+        "จุดอยู่มุมไหนบ้าง",
+        "มีกี่ตำแหน่งที่ใช้",
+        "ภาพที่ 5 ควรเหมือนภาพใด"
+      ],
+      "distractor_reasons": {
+        "0": "ไม่ตรงกฎ",
+        "1": "ไม่สลับ",
+        "2": "ไม่ตรงกฎ",
+        "3": "มีลูกศรเพิ่มขึ้นมา"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.reasoning.picture_series.alternating_rule.0003",
+      "topic_ids": [
+        "tgat2.reasoning.picture_series.alternating_rule"
+      ],
+      "primary_topic_id": "tgat2.reasoning.picture_series.alternating_rule",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 35,
+      "stem_md": "ภาพใดควรเป็นภาพถัดไปของอนุกรมนี้\n\n[[fig1]]",
+      "figures": [
+        {
+          "id": "fig1",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 376 64\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/><circle cx=\"10\" cy=\"54\" r=\"4.5\" fill=\"currentColor\"/><rect x=\"79\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/><circle cx=\"132\" cy=\"54\" r=\"4.5\" fill=\"currentColor\"/><rect x=\"157\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/><circle cx=\"210\" cy=\"10\" r=\"4.5\" fill=\"currentColor\"/><rect x=\"235\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/><circle cx=\"244\" cy=\"10\" r=\"4.5\" fill=\"currentColor\"/><rect x=\"313\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-dasharray=\"4 3\"/><text x=\"344.0\" y=\"40.0\" font-size=\"24\" text-anchor=\"middle\" fill=\"currentColor\">?</text></svg>",
+          "alt": "จุดที่มุมซ้ายล่าง | จุดที่มุมขวาล่าง | จุดที่มุมขวาบน | จุดที่มุมซ้ายบน | ช่องที่ต้องหา",
+          "caption": "โจทย์"
+        },
+        {
+          "id": "fig2",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/><circle cx=\"10\" cy=\"54\" r=\"4.5\" fill=\"currentColor\"/></svg>",
+          "alt": "จุดที่มุมซ้ายล่าง",
+          "caption": ""
+        },
+        {
+          "id": "fig3",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/><circle cx=\"10\" cy=\"10\" r=\"4.5\" fill=\"currentColor\"/></svg>",
+          "alt": "จุดที่มุมซ้ายบน",
+          "caption": ""
+        },
+        {
+          "id": "fig4",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/><circle cx=\"54\" cy=\"10\" r=\"4.5\" fill=\"currentColor\"/></svg>",
+          "alt": "จุดที่มุมขวาบน",
+          "caption": ""
+        },
+        {
+          "id": "fig5",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/><circle cx=\"54\" cy=\"54\" r=\"4.5\" fill=\"currentColor\"/></svg>",
+          "alt": "จุดที่มุมขวาล่าง",
+          "caption": ""
+        },
+        {
+          "id": "fig6",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/><g transform=\"rotate(180 32 32)\" stroke=\"currentColor\" stroke-width=\"3\" fill=\"currentColor\"><line x1=\"32\" y1=\"47\" x2=\"32\" y2=\"24\"/><polygon points=\"32,15 39,26 25,26\" stroke-width=\"1\"/></g><circle cx=\"10\" cy=\"54\" r=\"4.5\" fill=\"currentColor\"/></svg>",
+          "alt": "ลูกศรชี้ลง · จุดที่มุมซ้ายล่าง",
+          "caption": ""
+        }
+      ],
+      "choices": [
+        {
+          "md": "[[fig2]]",
+          "is_answer": true
+        },
+        {
+          "md": "[[fig6]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig5]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig3]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig4]]",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ใส่เลขมุม ซ้ายบน 1 ขวาบน 2 ขวาล่าง 3 ซ้ายล่าง 4",
+          "why_md": "ติดตามตำแหน่ง"
+        },
+        {
+          "do_md": "4, 3, 2, 1 วนทวนเข็มทีละมุม",
+          "why_md": "กฎ"
+        },
+        {
+          "do_md": "ถัดไปวนกลับมุม 4 ซ้ายล่าง",
+          "why_md": "คำตอบ"
+        }
+      ],
+      "answer_explanation_md": "ตอบ จุดที่มุมซ้ายล่าง เพราะจุดวนทวนเข็มนาฬิกา",
+      "hints": [
+        "จุดย้ายตามหรือทวนเข็มนาฬิกา",
+        "มุมถัดจากซ้ายบนเมื่อวนทวนเข็มคือมุมใด",
+        "อย่าลืมวนกลับ"
+      ],
+      "distractor_reasons": {
+        "1": "มีลูกศรเพิ่มขึ้นมา",
+        "2": "ข้ามมุม",
+        "3": "ไม่ย้าย",
+        "4": "วนผิดทิศ"
+      },
+      "misconception_tags": [
+        "no_wrap"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.reasoning.picture_series.alternating_rule.0004",
+      "topic_ids": [
+        "tgat2.reasoning.picture_series.alternating_rule"
+      ],
+      "primary_topic_id": "tgat2.reasoning.picture_series.alternating_rule",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 35,
+      "stem_md": "ภาพใดควรเป็นภาพถัดไปของอนุกรมนี้\n\n[[fig1]]",
+      "figures": [
+        {
+          "id": "fig1",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 376 64\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/><circle cx=\"16\" cy=\"22\" r=\"6.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"32\" cy=\"22\" r=\"6.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"79\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/><rect x=\"88.0\" y=\"16.0\" width=\"12\" height=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"104.0\" y=\"16.0\" width=\"12\" height=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"120.0\" y=\"16.0\" width=\"12\" height=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"157\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/><circle cx=\"172\" cy=\"22\" r=\"6.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"188\" cy=\"22\" r=\"6.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"235\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/><rect x=\"244.0\" y=\"16.0\" width=\"12\" height=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"260.0\" y=\"16.0\" width=\"12\" height=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"276.0\" y=\"16.0\" width=\"12\" height=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"313\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-dasharray=\"4 3\"/><text x=\"344.0\" y=\"40.0\" font-size=\"24\" text-anchor=\"middle\" fill=\"currentColor\">?</text></svg>",
+          "alt": "วงกลมทึบ 2 รูป | สี่เหลี่ยมโปร่ง 3 รูป | วงกลมทึบ 2 รูป | สี่เหลี่ยมโปร่ง 3 รูป | ช่องที่ต้องหา",
+          "caption": "โจทย์"
+        },
+        {
+          "id": "fig2",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/><circle cx=\"16\" cy=\"22\" r=\"6.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"32\" cy=\"22\" r=\"6.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\"/></svg>",
+          "alt": "วงกลมทึบ 2 รูป",
+          "caption": ""
+        },
+        {
+          "id": "fig3",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/><rect x=\"10.0\" y=\"16.0\" width=\"12\" height=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"26.0\" y=\"16.0\" width=\"12\" height=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"42.0\" y=\"16.0\" width=\"12\" height=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/></svg>",
+          "alt": "สี่เหลี่ยมโปร่ง 3 รูป",
+          "caption": ""
+        },
+        {
+          "id": "fig4",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/><circle cx=\"16\" cy=\"22\" r=\"6.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"32\" cy=\"22\" r=\"6.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"48\" cy=\"22\" r=\"6.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\"/></svg>",
+          "alt": "วงกลมทึบ 3 รูป",
+          "caption": ""
+        },
+        {
+          "id": "fig5",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/><rect x=\"10.0\" y=\"16.0\" width=\"12\" height=\"12\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"26.0\" y=\"16.0\" width=\"12\" height=\"12\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\"/></svg>",
+          "alt": "สี่เหลี่ยมทึบ 2 รูป",
+          "caption": ""
+        },
+        {
+          "id": "fig6",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/><circle cx=\"16\" cy=\"22\" r=\"6.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"32\" cy=\"22\" r=\"6.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/></svg>",
+          "alt": "วงกลมโปร่ง 2 รูป",
+          "caption": ""
+        }
+      ],
+      "choices": [
+        {
+          "md": "[[fig5]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig2]]",
+          "is_answer": true
+        },
+        {
+          "md": "[[fig4]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig3]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig6]]",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ภาพ 1, 3 = วงกลมทึบ 2 รูป · ภาพ 2, 4 = สี่เหลี่ยมโปร่ง 3 รูป",
+          "why_md": "ดูภาพเว้นภาพ"
+        },
+        {
+          "do_md": "ภาพที่ 5 อยู่กลุ่มเดียวกับ 1, 3",
+          "why_md": "วงกลมทึบ 2 รูป"
+        }
+      ],
+      "answer_explanation_md": "ตอบ วงกลมทึบ 2 รูป เพราะอนุกรมสลับสองแบบ และภาพที่ 5 ตรงกับภาพคี่",
+      "hints": [
+        "ภาพติดกันต่างกันกี่คุณลักษณะ",
+        "ลองเทียบภาพที่ 1 กับ 3",
+        "ภาพที่ 5 อยู่กลุ่มเดียวกับภาพใด"
+      ],
+      "distractor_reasons": {
+        "0": "ผสมคุณลักษณะของสองแบบ",
+        "2": "ผสมคุณลักษณะของสองแบบ",
+        "3": "ไม่สลับ",
+        "4": "สีไม่ตรงแบบ"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.reasoning.picture_series.alternating_rule.0005",
+      "topic_ids": [
+        "tgat2.reasoning.picture_series.alternating_rule"
+      ],
+      "primary_topic_id": "tgat2.reasoning.picture_series.alternating_rule",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 4,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 2,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 50,
+      "stem_md": "ภาพใดควรเป็นภาพถัดไปของอนุกรมนี้\n\n[[fig1]]",
+      "figures": [
+        {
+          "id": "fig1",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 376 64\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/><circle cx=\"10\" cy=\"10\" r=\"4.5\" fill=\"currentColor\"/><rect x=\"79\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/><circle cx=\"132\" cy=\"10\" r=\"4.5\" fill=\"currentColor\"/><rect x=\"157\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/><circle cx=\"166\" cy=\"54\" r=\"4.5\" fill=\"currentColor\"/><rect x=\"235\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/><circle cx=\"244\" cy=\"10\" r=\"4.5\" fill=\"currentColor\"/><rect x=\"313\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-dasharray=\"4 3\"/><text x=\"344.0\" y=\"40.0\" font-size=\"24\" text-anchor=\"middle\" fill=\"currentColor\">?</text></svg>",
+          "alt": "จุดที่มุมซ้ายบน | จุดที่มุมขวาบน | จุดที่มุมซ้ายล่าง | จุดที่มุมซ้ายบน | ช่องที่ต้องหา",
+          "caption": "โจทย์"
+        },
+        {
+          "id": "fig2",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/><circle cx=\"54\" cy=\"54\" r=\"4.5\" fill=\"currentColor\"/></svg>",
+          "alt": "จุดที่มุมขวาล่าง",
+          "caption": ""
+        },
+        {
+          "id": "fig3",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/><circle cx=\"54\" cy=\"10\" r=\"4.5\" fill=\"currentColor\"/></svg>",
+          "alt": "จุดที่มุมขวาบน",
+          "caption": ""
+        },
+        {
+          "id": "fig4",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/><circle cx=\"10\" cy=\"54\" r=\"4.5\" fill=\"currentColor\"/></svg>",
+          "alt": "จุดที่มุมซ้ายล่าง",
+          "caption": ""
+        },
+        {
+          "id": "fig5",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/><circle cx=\"10\" cy=\"10\" r=\"4.5\" fill=\"currentColor\"/></svg>",
+          "alt": "จุดที่มุมซ้ายบน",
+          "caption": ""
+        },
+        {
+          "id": "fig6",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/><g transform=\"rotate(0 32 32)\" stroke=\"currentColor\" stroke-width=\"3\" fill=\"currentColor\"><line x1=\"32\" y1=\"47\" x2=\"32\" y2=\"24\"/><polygon points=\"32,15 39,26 25,26\" stroke-width=\"1\"/></g><circle cx=\"54\" cy=\"54\" r=\"4.5\" fill=\"currentColor\"/></svg>",
+          "alt": "ลูกศรชี้ขึ้น · จุดที่มุมขวาล่าง",
+          "caption": ""
+        }
+      ],
+      "choices": [
+        {
+          "md": "[[fig5]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig4]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig6]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig2]]",
+          "is_answer": true
+        },
+        {
+          "md": "[[fig3]]",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ใส่เลขมุม ซ้ายบน 1 ขวาบน 2 ขวาล่าง 3 ซ้ายล่าง 4",
+          "why_md": "ติดตามตำแหน่ง"
+        },
+        {
+          "do_md": "1, 2, 4, 1: ย้าย +1, +2, +1",
+          "why_md": "สลับ +1 กับ +2 (วนครบ 4)"
+        },
+        {
+          "do_md": "ถัดไป +2 จาก 1 ได้ 3 ขวาล่าง",
+          "why_md": "คำตอบ"
+        }
+      ],
+      "answer_explanation_md": "ตอบ จุดที่มุมขวาล่าง เพราะจุดย้ายตามเข็ม 1 มุมกับ 2 มุมสลับกัน",
+      "hints": [
+        "ใส่เลขมุมใต้ภาพ",
+        "จุดย้ายทีละกี่มุม",
+        "จำนวนมุมที่ย้ายสลับกันอย่างไร"
+      ],
+      "distractor_reasons": {
+        "0": "ไม่ย้าย",
+        "1": "ย้ายผิดขั้น",
+        "2": "มีลูกศรเพิ่มขึ้นมา",
+        "4": "ย้ายทีละหนึ่งมุมตลอด ไม่ตรงกฎ"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.reasoning.picture_series.alternating_rule.0006",
+      "topic_ids": [
+        "tgat2.reasoning.picture_series.alternating_rule"
+      ],
+      "primary_topic_id": "tgat2.reasoning.picture_series.alternating_rule",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 30,
+      "stem_md": "ภาพใดควรเป็นภาพถัดไปของอนุกรมนี้\n\n[[fig1]]",
+      "figures": [
+        {
+          "id": "fig1",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 376 64\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/><circle cx=\"54\" cy=\"10\" r=\"4.5\" fill=\"currentColor\"/><rect x=\"79\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/><circle cx=\"132\" cy=\"54\" r=\"4.5\" fill=\"currentColor\"/><rect x=\"157\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/><circle cx=\"166\" cy=\"54\" r=\"4.5\" fill=\"currentColor\"/><rect x=\"235\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/><circle cx=\"244\" cy=\"10\" r=\"4.5\" fill=\"currentColor\"/><rect x=\"313\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-dasharray=\"4 3\"/><text x=\"344.0\" y=\"40.0\" font-size=\"24\" text-anchor=\"middle\" fill=\"currentColor\">?</text></svg>",
+          "alt": "จุดที่มุมขวาบน | จุดที่มุมขวาล่าง | จุดที่มุมซ้ายล่าง | จุดที่มุมซ้ายบน | ช่องที่ต้องหา",
+          "caption": "โจทย์"
+        },
+        {
+          "id": "fig2",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/><circle cx=\"54\" cy=\"10\" r=\"4.5\" fill=\"currentColor\"/></svg>",
+          "alt": "จุดที่มุมขวาบน",
+          "caption": ""
+        },
+        {
+          "id": "fig3",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/><circle cx=\"10\" cy=\"10\" r=\"4.5\" fill=\"currentColor\"/></svg>",
+          "alt": "จุดที่มุมซ้ายบน",
+          "caption": ""
+        },
+        {
+          "id": "fig4",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/><circle cx=\"54\" cy=\"54\" r=\"4.5\" fill=\"currentColor\"/></svg>",
+          "alt": "จุดที่มุมขวาล่าง",
+          "caption": ""
+        },
+        {
+          "id": "fig5",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/><circle cx=\"10\" cy=\"54\" r=\"4.5\" fill=\"currentColor\"/></svg>",
+          "alt": "จุดที่มุมซ้ายล่าง",
+          "caption": ""
+        },
+        {
+          "id": "fig6",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/><g transform=\"rotate(0 32 32)\" stroke=\"currentColor\" stroke-width=\"3\" fill=\"currentColor\"><line x1=\"32\" y1=\"47\" x2=\"32\" y2=\"24\"/><polygon points=\"32,15 39,26 25,26\" stroke-width=\"1\"/></g><circle cx=\"54\" cy=\"10\" r=\"4.5\" fill=\"currentColor\"/></svg>",
+          "alt": "ลูกศรชี้ขึ้น · จุดที่มุมขวาบน",
+          "caption": ""
+        }
+      ],
+      "choices": [
+        {
+          "md": "[[fig5]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig2]]",
+          "is_answer": true
+        },
+        {
+          "md": "[[fig3]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig4]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig6]]",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ใส่เลขมุม ซ้ายบน 1 ขวาบน 2 ขวาล่าง 3 ซ้ายล่าง 4",
+          "why_md": "ติดตามตำแหน่ง"
+        },
+        {
+          "do_md": "2, 3, 4, 1 วนตามเข็มทีละมุม (ครบสี่มุมแล้ววนกลับ)",
+          "why_md": "กฎ"
+        },
+        {
+          "do_md": "ถัดไปคือมุม 2 ขวาบน",
+          "why_md": "คำตอบ"
+        }
+      ],
+      "answer_explanation_md": "ตอบ จุดที่มุมขวาบน เพราะจุดวนตามเข็มนาฬิกาทีละมุมและวนกลับเมื่อครบรอบ",
+      "hints": [
+        "จุดวนไปทางใด",
+        "เมื่อถึงมุมสุดท้ายแล้วไปต่อที่มุมใด",
+        "อย่าลืมว่าวนกลับได้"
+      ],
+      "distractor_reasons": {
+        "0": "ย้อนทิศ",
+        "2": "ไม่ย้ายต่อ",
+        "3": "ข้ามไปสองมุม",
+        "4": "มีลูกศรเพิ่มขึ้นมา"
+      },
+      "misconception_tags": [
+        "no_wrap"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.reasoning.picture_series.alternating_rule.0007",
+      "topic_ids": [
+        "tgat2.reasoning.picture_series.alternating_rule"
+      ],
+      "primary_topic_id": "tgat2.reasoning.picture_series.alternating_rule",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 30,
+      "stem_md": "ภาพใดควรเป็นภาพถัดไปของอนุกรมนี้\n\n[[fig1]]",
+      "figures": [
+        {
+          "id": "fig1",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 376 64\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/><circle cx=\"16\" cy=\"22\" r=\"6.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"32\" cy=\"22\" r=\"6.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"48\" cy=\"22\" r=\"6.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"79\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/><circle cx=\"94\" cy=\"22\" r=\"6.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"110\" cy=\"22\" r=\"6.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"126\" cy=\"22\" r=\"6.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"157\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/><circle cx=\"172\" cy=\"22\" r=\"6.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"188\" cy=\"22\" r=\"6.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"204\" cy=\"22\" r=\"6.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"235\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/><circle cx=\"250\" cy=\"22\" r=\"6.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"266\" cy=\"22\" r=\"6.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"282\" cy=\"22\" r=\"6.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"313\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-dasharray=\"4 3\"/><text x=\"344.0\" y=\"40.0\" font-size=\"24\" text-anchor=\"middle\" fill=\"currentColor\">?</text></svg>",
+          "alt": "วงกลมทึบ 3 รูป | วงกลมโปร่ง 3 รูป | วงกลมทึบ 3 รูป | วงกลมโปร่ง 3 รูป | ช่องที่ต้องหา",
+          "caption": "โจทย์"
+        },
+        {
+          "id": "fig2",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/><circle cx=\"16\" cy=\"22\" r=\"6.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"32\" cy=\"22\" r=\"6.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"48\" cy=\"22\" r=\"6.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\"/></svg>",
+          "alt": "วงกลมทึบ 3 รูป",
+          "caption": ""
+        },
+        {
+          "id": "fig3",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/><circle cx=\"16\" cy=\"22\" r=\"6.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"32\" cy=\"22\" r=\"6.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"48\" cy=\"22\" r=\"6.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/></svg>",
+          "alt": "วงกลมโปร่ง 3 รูป",
+          "caption": ""
+        },
+        {
+          "id": "fig4",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/><circle cx=\"16\" cy=\"22\" r=\"6.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"32\" cy=\"22\" r=\"6.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"48\" cy=\"22\" r=\"6.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"16\" cy=\"44\" r=\"6.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\"/></svg>",
+          "alt": "วงกลมทึบ 4 รูป",
+          "caption": ""
+        },
+        {
+          "id": "fig5",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/><rect x=\"10.0\" y=\"16.0\" width=\"12\" height=\"12\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"26.0\" y=\"16.0\" width=\"12\" height=\"12\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"42.0\" y=\"16.0\" width=\"12\" height=\"12\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\"/></svg>",
+          "alt": "สี่เหลี่ยมทึบ 3 รูป",
+          "caption": ""
+        },
+        {
+          "id": "fig6",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/><circle cx=\"16\" cy=\"22\" r=\"6.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"32\" cy=\"22\" r=\"6.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/></svg>",
+          "alt": "วงกลมโปร่ง 2 รูป",
+          "caption": ""
+        }
+      ],
+      "choices": [
+        {
+          "md": "[[fig4]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig5]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig2]]",
+          "is_answer": true
+        },
+        {
+          "md": "[[fig6]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig3]]",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "จำนวนคงที่ที่ 3 รูปทุกภาพ",
+          "why_md": "จำนวนไม่ใช่กฎ"
+        },
+        {
+          "do_md": "สีสลับ ทึบ โปร่ง ทึบ โปร่ง จึงต้องเป็นทึบ",
+          "why_md": "กฎอยู่ที่สี"
+        }
+      ],
+      "answer_explanation_md": "ตอบ วงกลมทึบ 3 รูป เพราะจำนวนคงที่และสีสลับทึบกับโปร่ง",
+      "hints": [
+        "จำนวนรูปเปลี่ยนไหม",
+        "คุณลักษณะใดที่เปลี่ยนไปมา",
+        "ภาพที่ 5 ควรเหมือนภาพใด"
+      ],
+      "distractor_reasons": {
+        "0": "จำนวนเปลี่ยน",
+        "1": "รูปร่างเปลี่ยน",
+        "3": "เปลี่ยนทั้งจำนวนและสี",
+        "4": "ไม่สลับกลับ"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    }
+  ],
+  "generated_from": "content/tgat2/visual_series.py"
+}

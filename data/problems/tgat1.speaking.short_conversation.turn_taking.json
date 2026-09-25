@@ -1,0 +1,597 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tgat1.speaking.short_conversation.turn_taking",
+  "problems": [
+    {
+      "id": "prob.tgat1.speaking.short_conversation.turn_taking.0001",
+      "topic_ids": [
+        "tgat1.speaking.short_conversation.turn_taking"
+      ],
+      "primary_topic_id": "tgat1.speaking.short_conversation.turn_taking",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 30,
+      "stem_md": "**A:** Are you coming to the school fair on Saturday?  \n**B:** ______  \n**A:** That's too bad. Maybe next year then.",
+      "figures": [],
+      "choices": [
+        {
+          "md": "I'm afraid I can't. I have a piano exam.",
+          "is_answer": true
+        },
+        {
+          "md": "What time does the fair start?",
+          "is_answer": false
+        },
+        {
+          "md": "Of course! I wouldn't miss it for anything.",
+          "is_answer": false
+        },
+        {
+          "md": "Yes, I'll be there with my whole family.",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "อ่านหลังช่อง: That's too bad. Maybe next year.",
+          "why_md": "แปลว่า B ไปไม่ได้"
+        },
+        {
+          "do_md": "หาตัวที่ปฏิเสธและต่อกับประโยคก่อน",
+          "why_md": "I'm afraid I can't. I have a piano exam."
+        }
+      ],
+      "answer_explanation_md": "ตอบ I'm afraid I can't. I have a piano exam. เพราะ A ตอบว่า That's too bad ซึ่งแปลว่า B ไปงานไม่ได้",
+      "hints": [
+        "อ่านประโยคที่ A พูดหลังช่องว่างก่อน",
+        "That's too bad ใช้ตอบข่าวดีหรือข่าวไม่ดี",
+        "หาตัวเลือกที่เป็นข่าวไม่ดีเกี่ยวกับงาน"
+      ],
+      "distractor_reasons": {
+        "1": "เป็นคำถาม แต่ A ไม่ได้ตอบเวลา",
+        "2": "ตอบประโยคแรกได้ แต่ A ตอบว่า That's too bad ซึ่งแปลว่า B ไปไม่ได้",
+        "3": "ตอบรับ ขัดกับ That's too bad"
+      },
+      "misconception_tags": [
+        "ignore_next_line"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.short_conversation.turn_taking.0002",
+      "topic_ids": [
+        "tgat1.speaking.short_conversation.turn_taking"
+      ],
+      "primary_topic_id": "tgat1.speaking.short_conversation.turn_taking",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 35,
+      "stem_md": "**A:** This bag is really nice.  \n**B:** ______  \n**A:** 1,200 baht? That's a bit expensive for me.",
+      "figures": [],
+      "choices": [
+        {
+          "md": "Yes, it's made of real leather and it's very strong.",
+          "is_answer": false
+        },
+        {
+          "md": "Thanks! My sister gave it to me for my birthday last year.",
+          "is_answer": false
+        },
+        {
+          "md": "It's on sale for 1,200.",
+          "is_answer": true
+        },
+        {
+          "md": "Do you want to see it in a different color?",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "อ่านหลังช่อง: A ทวนราคา 1,200 บาท",
+          "why_md": "ช่องว่างต้องบอกราคา"
+        },
+        {
+          "do_md": "ตัวเลือกเดียวที่มีราคา",
+          "why_md": "It's on sale for 1,200."
+        }
+      ],
+      "answer_explanation_md": "ตอบ It's on sale for 1,200. เพราะ A ทวนราคา 1,200 บาท แปลว่า B ต้องเพิ่งบอกราคาในช่องว่าง",
+      "hints": [
+        "A พูดตัวเลขอะไรหลังช่องว่าง",
+        "A ทวนตัวเลขนั้นเพราะ B เพิ่งพูดไปหรือเปล่า",
+        "หาตัวเลือกที่มีข้อมูลที่ A ทวน"
+      ],
+      "distractor_reasons": {
+        "0": "บอกคุณภาพ แต่ไม่มีราคาที่ A พูดถึง",
+        "1": "ตอบคำชมได้ แต่ A พูดถึงราคา 1,200 บาท ช่องว่างต้องมีราคา",
+        "3": "เป็นคำถาม แต่ A ตอบเรื่องราคา ไม่ใช่เรื่องสี"
+      },
+      "misconception_tags": [
+        "ignore_next_line"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.short_conversation.turn_taking.0003",
+      "topic_ids": [
+        "tgat1.speaking.short_conversation.turn_taking"
+      ],
+      "primary_topic_id": "tgat1.speaking.short_conversation.turn_taking",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 35,
+      "stem_md": "**A:** I've lost my student ID card.  \n**B:** ______  \n**A:** I already did. It's not there.",
+      "figures": [],
+      "choices": [
+        {
+          "md": "Oh no! That's terrible news.",
+          "is_answer": false
+        },
+        {
+          "md": "Have you checked the lost-and-found?",
+          "is_answer": true
+        },
+        {
+          "md": "When did you last see it, do you remember?",
+          "is_answer": false
+        },
+        {
+          "md": "You need it to take the exam next week.",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "อ่านหลังช่อง: I already did. It's not there.",
+          "why_md": "ช่องว่างต้องเป็นคำแนะนำให้ไปดูที่ไหนสักแห่ง"
+        },
+        {
+          "do_md": "It's not there ต้องมีสถานที่อยู่ในช่องว่าง",
+          "why_md": "Have you checked the lost-and-found?"
+        }
+      ],
+      "answer_explanation_md": "ตอบ Have you checked the lost-and-found? เพราะ A ตอบว่าทำแล้วและบัตรไม่อยู่ที่นั่น แปลว่าช่องว่างต้องแนะนำให้ไปดูสถานที่",
+      "hints": [
+        "I already did ตอบประโยคแบบไหน",
+        "It's not there แปลว่าในช่องว่างต้องมีอะไร",
+        "หาตัวเลือกที่แนะนำให้ไปดูสถานที่หนึ่ง"
+      ],
+      "distractor_reasons": {
+        "0": "แสดงความเห็นใจได้ แต่ A ตอบว่า I already did ซึ่งต้องตอบคำแนะนำ",
+        "2": "เป็นคำถาม แต่ I already did ไม่ได้ตอบคำถามเรื่องเวลา",
+        "3": "บอกข้อมูล แต่ A ตอบว่าทำแล้ว ไม่เข้ากัน"
+      },
+      "misconception_tags": [
+        "ignore_next_line"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.short_conversation.turn_taking.0004",
+      "topic_ids": [
+        "tgat1.speaking.short_conversation.turn_taking"
+      ],
+      "primary_topic_id": "tgat1.speaking.short_conversation.turn_taking",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 40,
+      "stem_md": "**A:** Excuse me, is this seat taken?  \n**B:** ______  \n**A:** Oh, I see. Thanks anyway.",
+      "figures": [],
+      "choices": [
+        {
+          "md": "I think so. Let me check the time.",
+          "is_answer": false
+        },
+        {
+          "md": "Yes, please, it's free.",
+          "is_answer": false
+        },
+        {
+          "md": "No, go ahead and sit down.",
+          "is_answer": false
+        },
+        {
+          "md": "Sorry, my friend is sitting there.",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "อ่านหลังช่อง: Thanks anyway = ขอบคุณแม้จะไม่ได้สิ่งที่ขอ",
+          "why_md": "แปลว่า B ปฏิเสธ"
+        },
+        {
+          "do_md": "ตัวเลือกที่บอกว่ามีคนนั่ง",
+          "why_md": "Sorry, my friend is sitting there."
+        }
+      ],
+      "answer_explanation_md": "ตอบ Sorry, my friend is sitting there. เพราะ A ตอบว่า Thanks anyway ซึ่งใช้เมื่อไม่ได้สิ่งที่ขอ แปลว่าที่นั่งมีคนจองแล้ว",
+      "hints": [
+        "Thanks anyway ใช้เมื่อได้หรือไม่ได้สิ่งที่ขอ",
+        "ถ้าที่นั่งว่าง A จะพูดว่าอะไร",
+        "หาตัวเลือกที่บอกว่าที่นั่งไม่ว่าง"
+      ],
+      "distractor_reasons": {
+        "0": "ไม่ได้ตอบเรื่องที่นั่ง",
+        "1": "สับสน Yes กับที่นั่งว่าง และขัดกับ Thanks anyway",
+        "2": "อนุญาตให้นั่ง แต่ A ตอบว่า Oh, I see. Thanks anyway ซึ่งใช้เมื่อถูกปฏิเสธ"
+      },
+      "misconception_tags": [
+        "ignore_next_line"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.short_conversation.turn_taking.0005",
+      "topic_ids": [
+        "tgat1.speaking.short_conversation.turn_taking"
+      ],
+      "primary_topic_id": "tgat1.speaking.short_conversation.turn_taking",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 40,
+      "stem_md": "**A:** How was your trip to Khao Yai?  \n**B:** ______  \n**A:** Really? Why? What happened?",
+      "figures": [],
+      "choices": [
+        {
+          "md": "I went there with my classmates last weekend.",
+          "is_answer": false
+        },
+        {
+          "md": "We stayed there for three nights in a small resort.",
+          "is_answer": false
+        },
+        {
+          "md": "It was great! We saw wild elephants.",
+          "is_answer": false
+        },
+        {
+          "md": "Honestly, it was a disaster.",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "อ่านหลังช่อง: Really? Why? What happened?",
+          "why_md": "A ประหลาดใจและถามว่าเกิดอะไรขึ้น"
+        },
+        {
+          "do_md": "ช่องว่างต้องบอกว่ามีเรื่องไม่ดี",
+          "why_md": "Honestly, it was a disaster."
+        }
+      ],
+      "answer_explanation_md": "ตอบ Honestly, it was a disaster. เพราะ A ถามว่าเกิดอะไรขึ้น แปลว่า B ต้องบอกว่าทริปมีปัญหา",
+      "hints": [
+        "A ถามว่า What happened? เพราะ B พูดอะไร",
+        "ถ้า B บอกว่าทริปดีมาก A จะถามว่าเกิดอะไรขึ้นไหม",
+        "หาตัวเลือกที่ทำให้ A อยากรู้ว่ามีปัญหาอะไร"
+      ],
+      "distractor_reasons": {
+        "0": "บอกว่าไปกับใคร ไม่เข้ากับ Really? What happened?",
+        "1": "บอกข้อมูลการพัก ไม่มีอะไรทำให้ A ถามว่าเกิดอะไรขึ้น",
+        "2": "ตอบคำถามแรกได้ แต่ A ถามว่าเกิดอะไรขึ้น ซึ่งแปลว่า B พูดว่ามีปัญหา"
+      },
+      "misconception_tags": [
+        "ignore_next_line"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.short_conversation.turn_taking.0006",
+      "topic_ids": [
+        "tgat1.speaking.short_conversation.turn_taking"
+      ],
+      "primary_topic_id": "tgat1.speaking.short_conversation.turn_taking",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 40,
+      "stem_md": "**A:** Could you help me with this math problem?  \n**B:** Sure. Which part don't you understand?  \n**A:** ______  \n**B:** Oh, that's easy. You just divide both sides by two.",
+      "figures": [],
+      "choices": [
+        {
+          "md": "Math is my least favorite subject at school.",
+          "is_answer": false
+        },
+        {
+          "md": "I understand everything except the whole problem.",
+          "is_answer": false
+        },
+        {
+          "md": "I don't know how to find x in the last step.",
+          "is_answer": true
+        },
+        {
+          "md": "Thank you so much. You're really good at math.",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ประโยคก่อนช่อง: B ถามว่าไม่เข้าใจส่วนไหน",
+          "why_md": "ช่องว่างต้องระบุส่วนที่ไม่เข้าใจ"
+        },
+        {
+          "do_md": "ประโยคหลังช่อง: B อธิบายวิธีหาค่า (หารสองข้าง)",
+          "why_md": "ส่วนที่ไม่เข้าใจต้องเกี่ยวกับการหาค่า x"
+        }
+      ],
+      "answer_explanation_md": "ตอบ I don't know how to find x in the last step. เพราะตอบคำถามว่าไม่เข้าใจส่วนไหน และเข้ากับคำอธิบายวิธีหาค่าที่ตามมา",
+      "hints": [
+        "B ถามอะไรก่อนช่องว่าง",
+        "B อธิบายอะไรหลังช่องว่าง",
+        "หาตัวเลือกที่ระบุส่วนที่ไม่เข้าใจ และเข้ากับคำอธิบายของ B"
+      ],
+      "distractor_reasons": {
+        "0": "บอกความรู้สึก ไม่ได้ตอบว่าไม่เข้าใจส่วนไหน",
+        "1": "ขัดแย้งในตัวเอง ไม่บอกส่วนที่ไม่เข้าใจจริง",
+        "3": "ขอบคุณ แต่ B ถามว่าส่วนไหนที่ไม่เข้าใจ ยังไม่ได้ตอบ"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.short_conversation.turn_taking.0007",
+      "topic_ids": [
+        "tgat1.speaking.short_conversation.turn_taking"
+      ],
+      "primary_topic_id": "tgat1.speaking.short_conversation.turn_taking",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 45,
+      "stem_md": "**A:** The deadline was moved to Monday.  \n**B:** Really? ______  \n**A:** Yes, the lecturer emailed us.",
+      "figures": [],
+      "choices": [
+        {
+          "md": "I was sure yesterday.",
+          "is_answer": false
+        },
+        {
+          "md": "Are you sure about that?",
+          "is_answer": true
+        },
+        {
+          "md": "The email has a Monday.",
+          "is_answer": false
+        },
+        {
+          "md": "Did Monday move it?",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ติดตามบริบทและผู้พูด",
+          "why_md": "บรรทัดหลังยืนยันแหล่งข่าว"
+        },
+        {
+          "do_md": "ทดลองเติมแล้วอ่านต่อ",
+          "why_md": "คำตอบต้องทำให้บทสนทนาต่อเนื่อง ไม่ใช่แค่มีคำซ้ำ"
+        }
+      ],
+      "answer_explanation_md": "คำถามยืนยันทำให้ Yes ในบรรทัดถัดไปสมเหตุผล",
+      "hints": [
+        "ดูว่าใครพูดกับใครและต้องการอะไร",
+        "ใช้ประโยคก่อนและหลังช่องว่างร่วมกัน",
+        "ตัดตัวเลือกที่มีคำซ้ำแต่ทำหน้าที่ผิด"
+      ],
+      "distractor_reasons": {
+        "0": "ไม่ขอการยืนยัน",
+        "2": "คำซ้ำแต่ความหมายผิด",
+        "3": "ทำวันเป็นผู้กระทำ"
+      },
+      "misconception_tags": [
+        "ignore_next_line"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.short_conversation.turn_taking.0008",
+      "topic_ids": [
+        "tgat1.speaking.short_conversation.turn_taking"
+      ],
+      "primary_topic_id": "tgat1.speaking.short_conversation.turn_taking",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 5,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": true,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 60,
+      "stem_md": "**A:** I can introduce the topic, but not the data.  \n**B:** ______  \n**A:** Perfect. I'll send you my notes.",
+      "figures": [],
+      "choices": [
+        {
+          "md": "How about I take the data section?",
+          "is_answer": true
+        },
+        {
+          "md": "I can't send an introduction.",
+          "is_answer": false
+        },
+        {
+          "md": "The data took my notes.",
+          "is_answer": false
+        },
+        {
+          "md": "Why not present everything?",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ติดตามบริบทและผู้พูด",
+          "why_md": "A ตอบรับและจะส่งโน้ต"
+        },
+        {
+          "do_md": "ทดลองเติมแล้วอ่านต่อ",
+          "why_md": "คำตอบต้องทำให้บทสนทนาต่อเนื่อง ไม่ใช่แค่มีคำซ้ำ"
+        }
+      ],
+      "answer_explanation_md": "B ต้องเสนอรับส่วนข้อมูลจึงเชื่อมทั้งสองบรรทัด",
+      "hints": [
+        "ดูว่าใครพูดกับใครและต้องการอะไร",
+        "ใช้ประโยคก่อนและหลังช่องว่างร่วมกัน",
+        "ตัดตัวเลือกที่มีคำซ้ำแต่ทำหน้าที่ผิด"
+      ],
+      "distractor_reasons": {
+        "1": "ไม่ใช่ข้อเสนอแบ่งงาน",
+        "2": "สลับผู้กระทำ",
+        "3": "ขัดข้อจำกัดของ A"
+      },
+      "misconception_tags": [
+        "ignore_next_line"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    }
+  ],
+  "generated_from": "content/tgat1/speaking_conv.py"
+}

@@ -1,0 +1,477 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tpat3.thinking.current_awareness.bio_health",
+  "problems": [
+    {
+      "id": "prob.tpat3.thinking.current_awareness.bio_health.0001",
+      "topic_ids": [
+        "tpat3.thinking.current_awareness.bio_health"
+      ],
+      "primary_topic_id": "tpat3.thinking.current_awareness.bio_health",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 90,
+      "stem_md": "วัคซีนช่วยลดความรุนแรงของโรคได้อย่างไรโดยหลัก",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ฆ่าเชื้อทุกตัวทันทีหลังฉีด",
+          "is_answer": false
+        },
+        {
+          "md": "รับรองว่าจะไม่ติดเชื้อในทุกคน",
+          "is_answer": false
+        },
+        {
+          "md": "ป้องกันการสัมผัสเชื้อทางกายภาพ",
+          "is_answer": false
+        },
+        {
+          "md": "เปลี่ยนเม็ดเลือดแดงเป็นยาปฏิชีวนะ",
+          "is_answer": false
+        },
+        {
+          "md": "สร้างความจำภูมิคุ้มกันให้ตอบเร็วขึ้น",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ระบุระบบเป้าหมาย",
+          "why_md": "ภูมิคุ้มกัน"
+        },
+        {
+          "do_md": "ดูผลเมื่อเจอเชื้อภายหลัง",
+          "why_md": "ตอบเร็วและจำเพาะขึ้น"
+        }
+      ],
+      "answer_explanation_md": "ตอบฝึกภูมิคุ้มกันและสร้างความจำ",
+      "hints": [
+        "วัคซีนทำงานก่อนหรือหลังการสัมผัสจริง",
+        "เซลล์ความจำมีบทบาทอะไร",
+        "ลดความรุนแรงไม่เท่ากับป้องกันทุกการติดเชื้อ"
+      ],
+      "distractor_reasons": {
+        "0": "วัคซีนไม่ใช่ยาฆ่าเชื้อโดยตรง",
+        "1": "ประสิทธิผลไม่ใช่ 100% ทุกกรณี",
+        "2": "ไม่ใช่กำแพงภายนอก",
+        "3": "กลไกผิด"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.thinking.current_awareness.bio_health.0002",
+      "topic_ids": [
+        "tpat3.thinking.current_awareness.bio_health"
+      ],
+      "primary_topic_id": "tpat3.thinking.current_awareness.bio_health",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 105,
+      "stem_md": "การตรวจ PCR เพิ่มสำเนาสารพันธุกรรมของเป้าหมายเพื่ออะไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ฆ่าเชื้อด้วยความร้อนเพียงอย่างเดียว",
+          "is_answer": false
+        },
+        {
+          "md": "ทำให้เชื้อเติบโตเป็นสิ่งมีชีวิตใหม่",
+          "is_answer": false
+        },
+        {
+          "md": "เพิ่มสำเนาเป้าหมายให้ตรวจได้",
+          "is_answer": true
+        },
+        {
+          "md": "รับรองว่าตัวอย่างไม่ปนเปื้อน",
+          "is_answer": false
+        },
+        {
+          "md": "เปลี่ยน DNA ทุกชนิดเป็นโปรตีน",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ดูปัญหา",
+          "why_md": "เป้าหมายมีน้อย"
+        },
+        {
+          "do_md": "ดูหน้าที่ amplification",
+          "why_md": "เพิ่มสำเนาให้เกิดสัญญาณ"
+        }
+      ],
+      "answer_explanation_md": "ตอบเพิ่มสำเนาให้ตรวจได้",
+      "hints": [
+        "คำว่า chain reaction เกี่ยวกับการทำซ้ำ",
+        "ตรวจสิ่งที่มีน้อยต้องทำอย่างไร",
+        "การเพิ่มสำเนาเท่ากับเพาะเชื้อไหม"
+      ],
+      "distractor_reasons": {
+        "0": "รอบอุณหภูมิใช้แยกและต่อสาย",
+        "1": "เพิ่มชิ้นสารพันธุกรรม ไม่เพาะสิ่งมีชีวิต",
+        "3": "การขยายอาจขยายสิ่งปนเปื้อนด้วย",
+        "4": "ไม่ใช่การแปลรหัส"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.thinking.current_awareness.bio_health.0003",
+      "topic_ids": [
+        "tpat3.thinking.current_awareness.bio_health"
+      ],
+      "primary_topic_id": "tpat3.thinking.current_awareness.bio_health",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 4,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "high"
+      },
+      "est_seconds": 125,
+      "stem_md": "เหตุใดการใช้ยาปฏิชีวนะโดยไม่จำเป็นจึงเพิ่มปัญหาเชื้อดื้อยา",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ยาทำให้ไวรัสกลายเป็นแบคทีเรีย",
+          "is_answer": false
+        },
+        {
+          "md": "ยาสอนแบคทีเรียแต่ละตัวให้ตั้งใจดื้อยา",
+          "is_answer": false
+        },
+        {
+          "md": "การดื้อเกิดเฉพาะเมื่อหยุดยาหนึ่งครั้ง",
+          "is_answer": false
+        },
+        {
+          "md": "คัดเลือกให้แบคทีเรียดื้อยาเพิ่มสัดส่วน",
+          "is_answer": true
+        },
+        {
+          "md": "ร่างกายมนุษย์ดื้อยาจึงส่งต่อให้เชื้อ",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "มีความแปรผันเดิมในประชากร",
+          "why_md": "บางตัวทนกว่า"
+        },
+        {
+          "do_md": "ยาเป็นแรงคัดเลือก",
+          "why_md": "ตัวไวตาย ตัวดื้อรอด"
+        }
+      ],
+      "answer_explanation_md": "ตอบเป็นการคัดเลือกตัวดื้อ",
+      "hints": [
+        "การดื้ออยู่ที่คนหรือแบคทีเรีย",
+        "ยาฆ่าทุกตัวเท่ากันไหม",
+        "ตัวที่รอดสร้างรุ่นต่อไปอย่างไร"
+      ],
+      "distractor_reasons": {
+        "0": "สิ่งมีชีวิตคนละกลุ่ม",
+        "1": "วิวัฒนาการไม่ใช่ความตั้งใจ",
+        "2": "ปัจจัยซับซ้อนและ selection เกิดได้ระหว่างใช้",
+        "4": "เป้าหมายคือประชากรแบคทีเรีย"
+      },
+      "misconception_tags": [
+        "resistance_as_intention"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.thinking.current_awareness.bio_health.0004",
+      "topic_ids": [
+        "tpat3.thinking.current_awareness.bio_health"
+      ],
+      "primary_topic_id": "tpat3.thinking.current_awareness.bio_health",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 5,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": true,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 145,
+      "stem_md": "การแก้ไขยีนในเซลล์ของผู้ป่วยแบบไม่ถ่ายทอดสู่ลูก ต่างจากการแก้ในเซลล์สืบพันธุ์อย่างไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "แบบแรกไม่มีความเสี่ยงใด",
+          "is_answer": false
+        },
+        {
+          "md": "แบบแรกจำกัดที่ผู้ป่วย อีกแบบอาจถ่ายทอด",
+          "is_answer": true
+        },
+        {
+          "md": "ทั้งสองส่งต่อเท่ากัน",
+          "is_answer": false
+        },
+        {
+          "md": "แบบเซลล์สืบพันธุ์เปลี่ยนเฉพาะอวัยวะเดียว",
+          "is_answer": false
+        },
+        {
+          "md": "การแก้ยีนเปลี่ยนสิ่งแวดล้อมไม่เปลี่ยน DNA",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ระบุชนิดเซลล์",
+          "why_md": "somatic กับ germline"
+        },
+        {
+          "do_md": "ตามเส้นทางการถ่ายทอด",
+          "why_md": "เซลล์สืบพันธุ์เชื่อมรุ่นถัดไป"
+        }
+      ],
+      "answer_explanation_md": "ตอบเรื่องขอบเขตผู้ได้รับผลและการถ่ายทอด",
+      "hints": [
+        "เซลล์ชนิดใดสร้างลูกหลาน",
+        "การเปลี่ยนอยู่ในร่างกายใคร",
+        "ความเสี่ยงระหว่างรุ่นต่างกันอย่างไร"
+      ],
+      "distractor_reasons": {
+        "0": "ยังมี off-target และความเสี่ยงการส่งมอบ",
+        "2": "ชนิดเซลล์ต่างกัน",
+        "3": "อาจอยู่ในเซลล์ของรุ่นถัดไปกว้าง",
+        "4": "จุดประสงค์คือเปลี่ยนลำดับหรือการทำงานของยีน"
+      },
+      "misconception_tags": [
+        "somatic_germline_confusion"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.thinking.current_awareness.bio_health.0005",
+      "topic_ids": [
+        "tpat3.thinking.current_awareness.bio_health"
+      ],
+      "primary_topic_id": "tpat3.thinking.current_awareness.bio_health",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 4,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "high"
+      },
+      "est_seconds": 125,
+      "stem_md": "อุปกรณ์สวมใส่แจ้งหัวใจเต้นผิดจังหวะ แต่มี false positive ข้อใดเหมาะสมที่สุด",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ใช้คัดกรองและตรวจยืนยัน",
+          "is_answer": true
+        },
+        {
+          "md": "เปรียบเทียบกับผู้ใช้คนอื่นในสื่อสังคม",
+          "is_answer": false
+        },
+        {
+          "md": "ปิดการแจ้งเตือนทั้งหมด",
+          "is_answer": false
+        },
+        {
+          "md": "เพิ่มความไวสูงสุดโดยไม่ดูความจำเพาะ",
+          "is_answer": false
+        },
+        {
+          "md": "สรุปว่าเป็นโรคทันที",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ระบุหน้าที่อุปกรณ์",
+          "why_md": "คัดกรอง/เฝ้าระวัง"
+        },
+        {
+          "do_md": "จัดการความไม่แน่นอน",
+          "why_md": "ตรวจยืนยัน"
+        }
+      ],
+      "answer_explanation_md": "ตอบใช้เป็นสัญญาณและตรวจยืนยัน",
+      "hints": [
+        "false positive หมายถึงอะไร",
+        "เครื่องสวมใส่แทนการวินิจฉัยได้ไหม",
+        "ควรทำอะไรเมื่อมีสัญญาณซ้ำ"
+      ],
+      "distractor_reasons": {
+        "1": "ไม่ใช่การยืนยันทางคลินิก",
+        "2": "อาจพลาดสัญญาณจริง",
+        "3": "อาจเพิ่มผลบวกเทียม",
+        "4": "ผลบวกเทียมเกิดได้"
+      },
+      "misconception_tags": [
+        "screening_equals_diagnosis"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.thinking.current_awareness.bio_health.0006",
+      "topic_ids": [
+        "tpat3.thinking.current_awareness.bio_health"
+      ],
+      "primary_topic_id": "tpat3.thinking.current_awareness.bio_health",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 5,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": true,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 145,
+      "stem_md": "การทดลองรักษาใหม่รายงานว่าค่า biomarker ลดลง แต่ยังไม่พบว่าผู้ป่วยมีอาการดีขึ้น ข้อใดสรุปได้",
+      "figures": [],
+      "choices": [
+        {
+          "md": "มีผลต่อ biomarker แต่ยังไม่ยืนยันประโยชน์",
+          "is_answer": true
+        },
+        {
+          "md": "ไม่มีผลทางชีววิทยาเลย",
+          "is_answer": false
+        },
+        {
+          "md": "รักษาโรคได้แล้วแน่นอน",
+          "is_answer": false
+        },
+        {
+          "md": "ควรใช้กับทุกคนทันที",
+          "is_answer": false
+        },
+        {
+          "md": "ผลข้างเคียงไม่มีเพราะ biomarker ลด",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "แยก surrogate endpoint",
+          "why_md": "biomarker"
+        },
+        {
+          "do_md": "เทียบ clinical outcome",
+          "why_md": "อาการยังไม่ดีขึ้น"
+        }
+      ],
+      "answer_explanation_md": "ตอบมีผลต่อตัวชี้วัดแต่ยังไม่ยืนยันประโยชน์ทางคลินิก",
+      "hints": [
+        "สิ่งที่วัดเป็นผลแทนหรือผลที่ผู้ป่วยรู้สึก",
+        "การเปลี่ยน marker รับรองประโยชน์ไหม",
+        "ต้องติดตามผลใดต่อ"
+      ],
+      "distractor_reasons": {
+        "1": "ค่า biomarker เปลี่ยน",
+        "2": "biomarker ไม่เท่ากับผลสุขภาพ",
+        "3": "หลักฐานประโยชน์จริงยังไม่พอ",
+        "4": "คนละผลลัพธ์"
+      },
+      "misconception_tags": [
+        "surrogate_equals_outcome"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    }
+  ],
+  "generated_from": "content/tpat3/thinking.py"
+}

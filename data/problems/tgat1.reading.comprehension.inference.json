@@ -1,0 +1,593 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tgat1.reading.comprehension.inference",
+  "problems": [
+    {
+      "id": "prob.tgat1.reading.comprehension.inference.0001",
+      "topic_ids": [
+        "tgat1.reading.comprehension.inference"
+      ],
+      "primary_topic_id": "tgat1.reading.comprehension.inference",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 70,
+      "stem_md": "**Community Garden**\n\nThree years ago, the empty land behind Suan Mai School was full of rubbish. Today, it is a community garden where students and neighbors grow vegetables together. The idea came from a group of Grade 10 students who were tired of seeing plastic bags blowing across the field. At first, many adults doubted that teenagers could keep the project going. However, the students organized a weekly schedule, asked a local farmer for advice, and sold their vegetables at the school market. The money they earned was used to buy seeds and tools. Now, more than forty families take part, and the garden has become a place where older and younger people share knowledge. Several other schools in the province have visited to learn how to start similar projects.\n\n---\n\nIt can be inferred from the passage that...",
+      "figures": [],
+      "choices": [
+        {
+          "md": "the garden made a lot of profit",
+          "is_answer": false
+        },
+        {
+          "md": "the students proved the adults wrong",
+          "is_answer": true
+        },
+        {
+          "md": "the students will become farmers in the future",
+          "is_answer": false
+        },
+        {
+          "md": "the adults helped the students every week",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "หลักฐาน: ผู้ใหญ่สงสัยว่าวัยรุ่นทำไม่ได้ / However นักเรียนจัดตารางและสำเร็จ",
+          "why_md": "นักเรียนพิสูจน์ว่าผู้ใหญ่คิดผิด"
+        },
+        {
+          "do_md": "ตัดตัวที่ไม่มีหลักฐาน",
+          "why_md": "the students proved the adults wrong"
+        }
+      ],
+      "answer_explanation_md": "ตอบ the students proved the adults wrong เพราะผู้ใหญ่ไม่เชื่อว่าวัยรุ่นจะทำได้ แต่นักเรียนทำโครงการสำเร็จ",
+      "hints": [
+        "ผู้ใหญ่คิดอะไรเกี่ยวกับนักเรียนตอนแรก",
+        "ผลที่เกิดขึ้นจริงเป็นอย่างไร",
+        "ตัวเลือกไหนมีประโยคในบทรองรับ"
+      ],
+      "distractor_reasons": {
+        "0": "บทอ่านบอกว่าเงินใช้ซื้อเมล็ดและเครื่องมือ ไม่ได้บอกว่ากำไรมาก",
+        "2": "ไม่มีหลักฐานในบทอ่าน",
+        "3": "บทอ่านบอกว่าผู้ใหญ่ไม่เชื่อ ไม่ได้บอกว่าช่วยทุกสัปดาห์"
+      },
+      "misconception_tags": [
+        "over_inference"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.reading.comprehension.inference.0002",
+      "topic_ids": [
+        "tgat1.reading.comprehension.inference"
+      ],
+      "primary_topic_id": "tgat1.reading.comprehension.inference",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 75,
+      "stem_md": "**Sleep and Learning**\n\nMany teenagers believe that staying up late to study will help them get better grades. Sleep researchers, however, suggest the opposite. When we sleep, the brain sorts and stores the information we learned during the day. Students who sleep less than six hours a night often find it harder to concentrate and remember facts. In one classroom activity, two groups of students learned the same list of words. One group was tested after eight hours of sleep, while the other was tested after spending the same amount of time awake. The sleeping group remembered more words. This does not mean that studying is unimportant. Rather, it shows that sleep is part of learning, not a break from it. Experts recommend that teenagers get eight to ten hours of sleep and avoid using phones for at least an hour before bed.\n\n---\n\nWhich statement would the writer most likely agree with?",
+      "figures": [],
+      "choices": [
+        {
+          "md": "Studying all night before an exam is not a good strategy.",
+          "is_answer": true
+        },
+        {
+          "md": "Everyone needs exactly eight hours of sleep.",
+          "is_answer": false
+        },
+        {
+          "md": "Students should stop studying and sleep more.",
+          "is_answer": false
+        },
+        {
+          "md": "Phones are the main reason why so many teenagers today get low grades at school.",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "หลักฐาน: การอยู่ดึกเพื่อเรียนให้ผลตรงข้าม / การนอนเป็นส่วนหนึ่งของการเรียน",
+          "why_md": "ผู้เขียนไม่สนับสนุนการอดนอนอ่านหนังสือ"
+        },
+        {
+          "do_md": "ตัวที่สอดคล้อง",
+          "why_md": "Studying all night before an exam is not a good strategy."
+        }
+      ],
+      "answer_explanation_md": "ตอบ Studying all night before an exam is not a good strategy. เพราะผู้เขียนบอกว่าการอดนอนเพื่อเรียนให้ผลตรงข้าม",
+      "hints": [
+        "ผู้เขียนพูดถึงการอยู่ดึกเพื่อเรียนอย่างไรในประโยคแรก ๆ",
+        "ผู้เขียนบอกว่าการเรียนไม่สำคัญไหม",
+        "ตัดตัวที่ใช้คำเด็ดขาดหรือไม่มีหลักฐาน"
+      ],
+      "distractor_reasons": {
+        "1": "บทอ่านบอกช่วง 8-10 ชั่วโมงสำหรับวัยรุ่น ไม่ใช่ทุกคน",
+        "2": "ผู้เขียนบอกว่าไม่ได้แปลว่าการเรียนไม่สำคัญ",
+        "3": "บทอ่านพูดเรื่องโทรศัพท์แค่ในคำแนะนำ ไม่ได้บอกว่าเป็นสาเหตุหลัก"
+      },
+      "misconception_tags": [
+        "over_inference"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.reading.comprehension.inference.0003",
+      "topic_ids": [
+        "tgat1.reading.comprehension.inference"
+      ],
+      "primary_topic_id": "tgat1.reading.comprehension.inference",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 70,
+      "stem_md": "**Floating Market**\n\nFor more than sixty years, Riverside Floating Market was mainly a place where farmers sold fruit to local families. When a popular travel program featured the market in 2015, everything changed. Within a few months, weekend visitors increased from a few hundred to several thousand. Some vendors were delighted because their income doubled. Others were less happy. They complained that parking spaces were always full and that traditional wooden boats were being replaced by larger, noisier ones. The local council eventually introduced a rule limiting the number of motorboats. Today, the market tries to balance its new popularity with its old way of life.\n\n---\n\nIt can be inferred that before 2015, the market...",
+      "figures": [],
+      "choices": [
+        {
+          "md": "already had many large, noisy motorboats carrying tourists",
+          "is_answer": false
+        },
+        {
+          "md": "was famous among foreign tourists",
+          "is_answer": false
+        },
+        {
+          "md": "was quieter and mostly used by local people",
+          "is_answer": true
+        },
+        {
+          "md": "did not have any vendors",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "หลักฐาน: mainly a place where farmers sold fruit to local families / a few hundred visitors",
+          "why_md": "ก่อนปี 2015 เงียบและใช้โดยคนในพื้นที่"
+        },
+        {
+          "do_md": "ตัวที่สอดคล้อง",
+          "why_md": "was quieter and mostly used by local people"
+        }
+      ],
+      "answer_explanation_md": "ตอบ was quieter and mostly used by local people เพราะบทอ่านบอกว่าเป็นที่ขายผลไม้ให้ครอบครัวในพื้นที่ และมีคนมาไม่กี่ร้อยคน",
+      "hints": [
+        "บทอ่านบรรยายตลาดก่อนปี 2015 ว่าอย่างไร",
+        "คนที่มาตลาดก่อนปี 2015 เป็นใคร มีกี่คน",
+        "ตัดตัวที่ขัดกับข้อมูลในบท"
+      ],
+      "distractor_reasons": {
+        "0": "บทอ่านบอกว่าเรือใหญ่มาแทนเรือไม้ภายหลัง",
+        "1": "ขัดกับข้อมูลที่ว่ามีคนมาไม่กี่ร้อยคน",
+        "3": "ขัดกับที่บอกว่าเกษตรกรขายผลไม้มานานกว่าหกสิบปี"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.reading.comprehension.inference.0004",
+      "topic_ids": [
+        "tgat1.reading.comprehension.inference"
+      ],
+      "primary_topic_id": "tgat1.reading.comprehension.inference",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 65,
+      "stem_md": "**Complaint Letter**\n\nDear Mr. Hansen,\n\nI am writing to complain about the fitness app I subscribed to last month. Your advertisement promised personalized workout plans and weekly progress reports. Unfortunately, I have received the same basic plan every week, and I have not received a single progress report. When I contacted your customer service on 3 March, I was told that the problem would be fixed within two days. It has now been two weeks, and nothing has changed. I would therefore like to request a full refund of my subscription fee. I look forward to your prompt reply.\n\nYours sincerely,\nPimchanok S.\n\n---\n\nWhat will Mr. Hansen's company most likely do next if it wants to keep this customer?",
+      "figures": [],
+      "choices": [
+        {
+          "md": "Apologize and fix it or refund her",
+          "is_answer": true
+        },
+        {
+          "md": "Increase the subscription fee",
+          "is_answer": false
+        },
+        {
+          "md": "Ask her to wait another two weeks while the team continues to work on it",
+          "is_answer": false
+        },
+        {
+          "md": "Send her a new advertisement",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ลูกค้าไม่พอใจและขอคืนเงิน",
+          "why_md": "ถ้าบริษัทต้องการรักษาลูกค้า ต้องแก้ปัญหาหรือคืนเงิน"
+        },
+        {
+          "do_md": "ตัวเลือกที่สมเหตุผลตามบท",
+          "why_md": "Apologize and fix it or refund her"
+        }
+      ],
+      "answer_explanation_md": "ตอบ Apologize and fix it or refund her เพราะเป็นตัวเลือกเดียวที่ตอบสนองต่อปัญหาและคำขอคืนเงินของลูกค้า",
+      "hints": [
+        "ลูกค้าต้องการอะไร",
+        "บริษัทที่อยากรักษาลูกค้าควรตอบสนองอย่างไร",
+        "ตัดตัวที่ทำให้ลูกค้าไม่พอใจมากขึ้น"
+      ],
+      "distractor_reasons": {
+        "1": "จะทำให้ลูกค้าไม่พอใจมากขึ้น",
+        "2": "เธอรอมานานแล้วและขอคำตอบด่วน",
+        "3": "ไม่ได้แก้ปัญหาที่ร้องเรียน"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.reading.comprehension.inference.0005",
+      "topic_ids": [
+        "tgat1.reading.comprehension.inference"
+      ],
+      "primary_topic_id": "tgat1.reading.comprehension.inference",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 4,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "high"
+      },
+      "est_seconds": 60,
+      "stem_md": "**Robot Teachers?**\n\nA pilot program at Riverdale School has started using robots in English classes. Supporters say that shy students feel more comfortable practicing with a robot because they are not afraid of making mistakes. However, critics point out that robots cannot understand students' feelings.\n\n---\n\nIt can be inferred that shy students...",
+      "figures": [],
+      "choices": [
+        {
+          "md": "prefer talking to robots rather than to any human being at all",
+          "is_answer": false
+        },
+        {
+          "md": "never make mistakes",
+          "is_answer": false
+        },
+        {
+          "md": "do not want to learn English",
+          "is_answer": false
+        },
+        {
+          "md": "worry about being judged when they speak",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "หลักฐาน: not afraid of making mistakes กับหุ่นยนต์",
+          "why_md": "แปลว่ากับคนพวกเขากลัวทำผิด/ถูกตัดสิน"
+        },
+        {
+          "do_md": "ข้อสรุปที่รองรับ",
+          "why_md": "worry about being judged when they speak"
+        }
+      ],
+      "answer_explanation_md": "ตอบ worry about being judged when they speak เพราะบทอ่านบอกว่าพวกเขาไม่กลัวทำผิดเมื่อฝึกกับหุ่นยนต์ แปลว่ากับคนพวกเขากังวลเรื่องนี้",
+      "hints": [
+        "ทำไมนักเรียนขี้อายถึงสบายใจกับหุ่นยนต์",
+        "ถ้าไม่กลัวทำผิดกับหุ่นยนต์ แล้วกับคนเป็นอย่างไร",
+        "ตัดตัวที่ใช้คำเด็ดขาดหรือขัดกับบท"
+      ],
+      "distractor_reasons": {
+        "0": "เกินหลักฐาน บทอ่านพูดแค่การฝึกภาษา",
+        "1": "ขัดกับบทอ่านที่บอกว่ากลัวทำผิด",
+        "2": "ไม่มีหลักฐาน พวกเขายังฝึกกับหุ่นยนต์"
+      },
+      "misconception_tags": [
+        "over_inference"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.reading.comprehension.inference.0006",
+      "topic_ids": [
+        "tgat1.reading.comprehension.inference"
+      ],
+      "primary_topic_id": "tgat1.reading.comprehension.inference",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 65,
+      "stem_md": "**Community Garden**\n\nThree years ago, the empty land behind Suan Mai School was full of rubbish. Today, it is a community garden where students and neighbors grow vegetables together. The idea came from a group of Grade 10 students who were tired of seeing plastic bags blowing across the field. At first, many adults doubted that teenagers could keep the project going. However, the students organized a weekly schedule, asked a local farmer for advice, and sold their vegetables at the school market. The money they earned was used to buy seeds and tools. Now, more than forty families take part, and the garden has become a place where older and younger people share knowledge. Several other schools in the province have visited to learn how to start similar projects.\n\n---\n\nWhy did the students most likely ask a local farmer for advice?",
+      "figures": [],
+      "choices": [
+        {
+          "md": "The farmer wanted to buy their vegetables.",
+          "is_answer": false
+        },
+        {
+          "md": "The farmer owned the land behind the school.",
+          "is_answer": false
+        },
+        {
+          "md": "The school had a rule that every student project must be checked by a farmer.",
+          "is_answer": false
+        },
+        {
+          "md": "They wanted guidance from someone with farming experience.",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "บริบท: นักเรียนกำลังเริ่มโครงการปลูกผัก",
+          "why_md": "เกษตรกรมีความรู้ที่ใช้กับโครงการได้"
+        },
+        {
+          "do_md": "เหตุผลที่สมเหตุสมผลที่สุด",
+          "why_md": "They wanted guidance from someone with farming experience."
+        }
+      ],
+      "answer_explanation_md": "ตอบ They wanted guidance from someone with farming experience. เพราะอาชีพของผู้ให้คำแนะนำตรงกับความรู้ที่โครงการต้องใช้ โดยไม่ต้องสมมติว่านักเรียนไม่เคยปลูกผักมาก่อน",
+      "hints": [
+        "นักเรียนกำลังทำโครงการเรื่องอะไร",
+        "เกษตรกรมีความรู้แบบใดที่ช่วยโครงการได้",
+        "ตัดตัวที่ไม่มีข้อมูลในบทอ่านเลย"
+      ],
+      "distractor_reasons": {
+        "0": "ไม่มีข้อมูลในบทอ่าน",
+        "1": "ไม่มีข้อมูลในบทอ่าน",
+        "2": "ไม่มีข้อมูลในบทอ่าน"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.reading.comprehension.inference.0007",
+      "topic_ids": [
+        "tgat1.reading.comprehension.inference"
+      ],
+      "primary_topic_id": "tgat1.reading.comprehension.inference",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 55,
+      "stem_md": "After the café added quiet hours, laptop users stayed longer while lunch sales remained stable. Which inference is best supported?",
+      "figures": [],
+      "choices": [
+        {
+          "md": "Every customer preferred silence.",
+          "is_answer": false
+        },
+        {
+          "md": "Laptop users bought more food.",
+          "is_answer": false
+        },
+        {
+          "md": "The quiet-hours policy did not reduce lunch sales during the period described.",
+          "is_answer": true
+        },
+        {
+          "md": "The café will expand next month.",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ระบุสิ่งที่โจทย์ถาม",
+          "why_md": "อนุมานเฉพาะสิ่งที่ยอดขาย stable รองรับ"
+        },
+        {
+          "do_md": "ตรวจด้วยบริบทรอบจุดสำคัญ",
+          "why_md": "เลือกคำตอบที่มีหลักฐานรองรับครบ ไม่เติมข้อมูลเอง"
+        }
+      ],
+      "answer_explanation_md": "บอกได้เพียงว่ายอดมื้อกลางวันไม่ลดในช่วงที่รายงาน",
+      "hints": [
+        "ขีดเส้นคำหรือประโยคที่เป็นหลักฐาน",
+        "ตัดตัวเลือกที่จริงบางส่วนแต่ตอบคนละคำถาม",
+        "ตรวจว่าคำตอบไม่กว้างหรือแคบเกินข้อความ"
+      ],
+      "distractor_reasons": {
+        "0": "ไม่มีข้อมูลทุกคน",
+        "1": "การอยู่นานไม่ยืนยันการซื้อ",
+        "3": "ไม่มีข้อมูลอนาคต"
+      },
+      "misconception_tags": [
+        "over_inference"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.reading.comprehension.inference.0008",
+      "topic_ids": [
+        "tgat1.reading.comprehension.inference"
+      ],
+      "primary_topic_id": "tgat1.reading.comprehension.inference",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 5,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": true,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 75,
+      "stem_md": "A town's bike-share use rose after buses stopped earlier, but weekend use stayed unchanged. What can reasonably be inferred?",
+      "figures": [],
+      "choices": [
+        {
+          "md": "Tourists stopped cycling on weekends.",
+          "is_answer": false
+        },
+        {
+          "md": "Some weekday riders may be using bikes when late buses are unavailable.",
+          "is_answer": true
+        },
+        {
+          "md": "The bike-share caused the bus cuts.",
+          "is_answer": false
+        },
+        {
+          "md": "All former bus passengers now cycle.",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ระบุสิ่งที่โจทย์ถาม",
+          "why_md": "เชื่อมการเพิ่มกับเวลารถหยุด แต่คงถ้อยคำไม่แน่นอน"
+        },
+        {
+          "do_md": "ตรวจด้วยบริบทรอบจุดสำคัญ",
+          "why_md": "เลือกคำตอบที่มีหลักฐานรองรับครบ ไม่เติมข้อมูลเอง"
+        }
+      ],
+      "answer_explanation_md": "some และ may สอดคล้องกับหลักฐานเชิงสัมพันธ์โดยไม่สรุปเกิน",
+      "hints": [
+        "ขีดเส้นคำหรือประโยคที่เป็นหลักฐาน",
+        "ตัดตัวเลือกที่จริงบางส่วนแต่ตอบคนละคำถาม",
+        "ตรวจว่าคำตอบไม่กว้างหรือแคบเกินข้อความ"
+      ],
+      "distractor_reasons": {
+        "0": "weekend unchanged ไม่ได้บอกกลุ่มผู้ใช้",
+        "2": "สลับเหตุและผล",
+        "3": "all เกินหลักฐาน"
+      },
+      "misconception_tags": [
+        "over_inference"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    }
+  ],
+  "generated_from": "content/tgat1/reading.py"
+}

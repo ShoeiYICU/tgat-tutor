@@ -1,0 +1,589 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tgat1.reading.foundation.time_management",
+  "problems": [
+    {
+      "id": "prob.tgat1.reading.foundation.time_management.0001",
+      "topic_ids": [
+        "tgat1.reading.foundation.time_management"
+      ],
+      "primary_topic_id": "tgat1.reading.foundation.time_management",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 35,
+      "stem_md": "You have 60 minutes for 60 questions. The speaking section has 30 short questions and the reading section has 30 longer questions. What is the best plan?",
+      "figures": [],
+      "choices": [
+        {
+          "md": "Spend exactly 30 minutes on each section",
+          "is_answer": false
+        },
+        {
+          "md": "Spend less time on speaking",
+          "is_answer": true
+        },
+        {
+          "md": "Do the reading section very quickly without reading",
+          "is_answer": false
+        },
+        {
+          "md": "Spend most of the time on speaking because it is easier",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ข้อการพูดสั้น ใช้เวลาต่อข้อน้อย",
+          "why_md": "ประหยัดเวลาไว้ให้พาร์ทการอ่าน"
+        },
+        {
+          "do_md": "ข้อการอ่านต้องใช้เวลาอ่านบท",
+          "why_md": "ต้องมีเวลามากกว่า"
+        }
+      ],
+      "answer_explanation_md": "ตอบ Spend less time on speaking เพราะข้อการอ่านต้องใช้เวลาอ่านบทยาว",
+      "hints": [
+        "ข้อพาร์ทไหนใช้เวลาต่อข้อมากกว่า",
+        "ถ้าแบ่งเวลาเท่ากัน พาร์ทไหนจะไม่พอ",
+        "ควรประหยัดเวลาจากพาร์ทไหน"
+      ],
+      "distractor_reasons": {
+        "0": "ข้อการอ่านยาวกว่า การแบ่งเท่ากันทำให้เวลาอ่านไม่พอ",
+        "2": "ต้องอ่านเพื่อตอบคำถาม",
+        "3": "ทำให้ไม่มีเวลาอ่านบทยาว"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.reading.foundation.time_management.0002",
+      "topic_ids": [
+        "tgat1.reading.foundation.time_management"
+      ],
+      "primary_topic_id": "tgat1.reading.foundation.time_management",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 30,
+      "stem_md": "You are stuck on one inference question for 3 minutes. What should you do?",
+      "figures": [],
+      "choices": [
+        {
+          "md": "Choose your best answer, mark it, and move on",
+          "is_answer": true
+        },
+        {
+          "md": "Keep thinking about it until you are 100% sure of the correct answer",
+          "is_answer": false
+        },
+        {
+          "md": "Start the passage again from the beginning",
+          "is_answer": false
+        },
+        {
+          "md": "Leave it blank and never come back",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ติดนานเกินไปแล้ว",
+          "why_md": "เวลาที่เหลือควรใช้กับข้ออื่น"
+        },
+        {
+          "do_md": "เลือกไว้ + ทำเครื่องหมาย",
+          "why_md": "ไม่เสียคะแนนและกลับมาดูได้"
+        }
+      ],
+      "answer_explanation_md": "ตอบ Choose your best answer, mark it, and move on เพราะได้คะแนนจากการเลือกและไม่เสียเวลาของข้ออื่น",
+      "hints": [
+        "3 นาทีทำข้ออื่นได้กี่ข้อ",
+        "การเว้นว่างเสียอะไร",
+        "มีวิธีที่ได้ทั้งคะแนนและเวลาไหม"
+      ],
+      "distractor_reasons": {
+        "1": "เสียเวลาของข้ออื่นที่ทำได้เร็วกว่า",
+        "2": "เสียเวลามากเกินไป",
+        "3": "เสียคะแนนที่อาจได้จากการเลือก"
+      },
+      "misconception_tags": [
+        "stuck_on_one"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.reading.foundation.time_management.0003",
+      "topic_ids": [
+        "tgat1.reading.foundation.time_management"
+      ],
+      "primary_topic_id": "tgat1.reading.foundation.time_management",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 30,
+      "stem_md": "A passage has four questions: a main idea question, a detail question, a vocabulary question, and an inference question. Which should you usually do first?",
+      "figures": [],
+      "choices": [
+        {
+          "md": "The question with the longest answer choices",
+          "is_answer": false
+        },
+        {
+          "md": "The inference question",
+          "is_answer": false
+        },
+        {
+          "md": "The main idea question",
+          "is_answer": false
+        },
+        {
+          "md": "The detail question",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ข้อรายละเอียดทำได้เร็วด้วยการ scan",
+          "why_md": "ทำก่อน"
+        },
+        {
+          "do_md": "ข้ออนุมานใช้เวลามากที่สุด",
+          "why_md": "ทำทีหลัง"
+        }
+      ],
+      "answer_explanation_md": "ตอบ The detail question เพราะทำได้เร็วด้วยการ scan และช่วยให้เข้าใจบทก่อนทำข้อยาก",
+      "hints": [
+        "ข้อไหนหาคำตอบได้ตรง ๆ ในบท",
+        "ข้อไหนต้องเข้าใจบททั้งหมดก่อน",
+        "การทำข้อง่ายก่อนช่วยให้เข้าใจบทไหม"
+      ],
+      "distractor_reasons": {
+        "0": "ความยาวตัวเลือกไม่ได้บอกความง่าย",
+        "1": "ใช้เวลามากที่สุดและต้องเข้าใจบทก่อน",
+        "2": "ทำได้เร็วถ้า skim แล้ว แต่ข้อรายละเอียดเร็วกว่าและช่วยให้เข้าใจบท"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.reading.foundation.time_management.0004",
+      "topic_ids": [
+        "tgat1.reading.foundation.time_management"
+      ],
+      "primary_topic_id": "tgat1.reading.foundation.time_management",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 30,
+      "stem_md": "After 30 minutes, you have finished only 20 speaking questions. What should you do?",
+      "figures": [],
+      "choices": [
+        {
+          "md": "Go back and carefully check all 20 answers you have already chosen",
+          "is_answer": false
+        },
+        {
+          "md": "Continue at the same speed",
+          "is_answer": false
+        },
+        {
+          "md": "Speed up and don't get stuck",
+          "is_answer": true
+        },
+        {
+          "md": "Skip the whole reading section",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "เทียบแผน: ควรทำพาร์ทการพูดเสร็จที่ประมาณ 20 นาที",
+          "why_md": "ช้ากว่าแผนมาก"
+        },
+        {
+          "do_md": "ต้องเร่ง",
+          "why_md": "ไม่ติดข้อใดนาน"
+        }
+      ],
+      "answer_explanation_md": "ตอบ Speed up and don't get stuck เพราะช้ากว่าแผนมาก ต้องเร่งเพื่อให้มีเวลาทำพาร์ทการอ่าน",
+      "hints": [
+        "ตามแผน ควรทำพาร์ทการพูดเสร็จเมื่อไร",
+        "ตอนนี้ช้ากว่าแผนแค่ไหน",
+        "ควรใช้เวลาที่เหลือกับอะไร"
+      ],
+      "distractor_reasons": {
+        "0": "เสียเวลาที่มีน้อยอยู่แล้ว",
+        "1": "ถ้าช้าเท่าเดิมจะไม่มีเวลาอ่าน",
+        "3": "เสียคะแนนครึ่งฉบับ"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.reading.foundation.time_management.0005",
+      "topic_ids": [
+        "tgat1.reading.foundation.time_management"
+      ],
+      "primary_topic_id": "tgat1.reading.foundation.time_management",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 25,
+      "stem_md": "Which is the best way to use the last 3 minutes of the exam?",
+      "figures": [],
+      "choices": [
+        {
+          "md": "Check the questions you marked as unsure",
+          "is_answer": true
+        },
+        {
+          "md": "Change as many answers as possible",
+          "is_answer": false
+        },
+        {
+          "md": "Read the first passage again",
+          "is_answer": false
+        },
+        {
+          "md": "Put your pencil down, relax, and wait quietly for the exam to finish",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "เวลาน้อย ใช้กับข้อที่ทำเครื่องหมายไว้",
+          "why_md": "มีโอกาสเพิ่มคะแนน"
+        },
+        {
+          "do_md": "เปลี่ยนเฉพาะเมื่อมีเหตุผล",
+          "why_md": "ไม่เปลี่ยนตามความรู้สึก"
+        }
+      ],
+      "answer_explanation_md": "ตอบ Check the questions you marked as unsure เพราะเป็นข้อที่มีโอกาสแก้ให้ถูกได้มากที่สุดในเวลาที่เหลือ",
+      "hints": [
+        "ข้อไหนมีโอกาสเพิ่มคะแนนมากที่สุด",
+        "การเปลี่ยนคำตอบจำนวนมากมีความเสี่ยงอะไร",
+        "ข้อที่ทำเครื่องหมายไว้คือข้อแบบไหน"
+      ],
+      "distractor_reasons": {
+        "1": "การเปลี่ยนโดยไม่มีเหตุผลใหม่เสี่ยงทำให้คำตอบเดิมที่ถูกกลายเป็นผิด",
+        "2": "ไม่ได้เป็นประโยชน์กับข้อที่ไม่แน่ใจ",
+        "3": "เสียโอกาสทบทวนข้อที่ไม่แน่ใจ"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.reading.foundation.time_management.0006",
+      "topic_ids": [
+        "tgat1.reading.foundation.time_management"
+      ],
+      "primary_topic_id": "tgat1.reading.foundation.time_management",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 35,
+      "stem_md": "You have 8 minutes left and one passage with 5 questions. What is the best approach?",
+      "figures": [],
+      "choices": [
+        {
+          "md": "Read the whole passage carefully twice so you understand every detail",
+          "is_answer": false
+        },
+        {
+          "md": "Answer only the first question carefully",
+          "is_answer": false
+        },
+        {
+          "md": "Guess all 5 answers without reading",
+          "is_answer": false
+        },
+        {
+          "md": "Read the questions, then skim and scan",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "8 นาที 5 ข้อ ≈ ข้อละ 1.5 นาที",
+          "why_md": "ต้องใช้วิธีที่เร็ว"
+        },
+        {
+          "do_md": "อ่านคำถามก่อน แล้ว skim/scan",
+          "why_md": "ได้คำตอบเร็วที่สุด"
+        }
+      ],
+      "answer_explanation_md": "ตอบ Read the questions, then skim and scan เพราะเป็นวิธีที่เร็วที่สุดและยังได้คะแนนจากทุกข้อ",
+      "hints": [
+        "เหลือเวลาต่อข้อประมาณเท่าไร",
+        "วิธีไหนเร็วที่สุดในการหาคำตอบ",
+        "การอ่านละเอียดสองรอบทันไหม"
+      ],
+      "distractor_reasons": {
+        "0": "ใช้เวลามากเกินไปสำหรับ 8 นาที",
+        "1": "ทิ้งอีก 4 ข้อ",
+        "2": "เสียโอกาสได้คะแนนจากข้อที่หาได้เร็ว"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.reading.foundation.time_management.0007",
+      "topic_ids": [
+        "tgat1.reading.foundation.time_management"
+      ],
+      "primary_topic_id": "tgat1.reading.foundation.time_management",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 55,
+      "stem_md": "With eight minutes left, you have two unanswered detail questions and one long passage unchecked. What is best?",
+      "figures": [],
+      "choices": [
+        {
+          "md": "Reread the long passage from the beginning",
+          "is_answer": false
+        },
+        {
+          "md": "Change every earlier answer before starting them",
+          "is_answer": false
+        },
+        {
+          "md": "Answer the detail questions by scanning, then use the remaining time to check marked items.",
+          "is_answer": true
+        },
+        {
+          "md": "Leave all three blank to avoid guessing",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ระบุสิ่งที่โจทย์ถาม",
+          "why_md": "เก็บข้อที่หาเฉพาะจุดได้เร็วและเผื่อตรวจ"
+        },
+        {
+          "do_md": "ตรวจด้วยบริบทรอบจุดสำคัญ",
+          "why_md": "เลือกคำตอบที่มีหลักฐานรองรับครบ ไม่เติมข้อมูลเอง"
+        }
+      ],
+      "answer_explanation_md": "การ scan รายละเอียดใช้เวลาคุ้มกว่าการอ่านใหม่ทั้งบท",
+      "hints": [
+        "ขีดเส้นคำหรือประโยคที่เป็นหลักฐาน",
+        "ตัดตัวเลือกที่จริงบางส่วนแต่ตอบคนละคำถาม",
+        "ตรวจว่าคำตอบไม่กว้างหรือแคบเกินข้อความ"
+      ],
+      "distractor_reasons": {
+        "0": "เสี่ยงหมดเวลากับงานเดียว",
+        "1": "เปลี่ยนโดยไม่มีหลักฐานและไม่ทำข้อค้าง",
+        "3": "เสียโอกาสคะแนน"
+      },
+      "misconception_tags": [
+        "stuck_on_one"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.reading.foundation.time_management.0008",
+      "topic_ids": [
+        "tgat1.reading.foundation.time_management"
+      ],
+      "primary_topic_id": "tgat1.reading.foundation.time_management",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 5,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": true,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 75,
+      "stem_md": "You are stuck between two inference choices. One says 'may indicate' and cites two details; the other says 'proves' and relies on one detail. What should you do?",
+      "figures": [],
+      "choices": [
+        {
+          "md": "Choose 'proves' because it sounds decisive",
+          "is_answer": false
+        },
+        {
+          "md": "Choose the cautious claim supported by both details, unless the passage states certainty.",
+          "is_answer": true
+        },
+        {
+          "md": "Spend unlimited time finding a third option",
+          "is_answer": false
+        },
+        {
+          "md": "Skip the item without marking a choice",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ระบุสิ่งที่โจทย์ถาม",
+          "why_md": "เทียบระดับความแน่นอนกับจำนวนหลักฐาน"
+        },
+        {
+          "do_md": "ตรวจด้วยบริบทรอบจุดสำคัญ",
+          "why_md": "เลือกคำตอบที่มีหลักฐานรองรับครบ ไม่เติมข้อมูลเอง"
+        }
+      ],
+      "answer_explanation_md": "inference ควรไม่แรงกว่าข้อความและใช้หลักฐานหลายจุด",
+      "hints": [
+        "ขีดเส้นคำหรือประโยคที่เป็นหลักฐาน",
+        "ตัดตัวเลือกที่จริงบางส่วนแต่ตอบคนละคำถาม",
+        "ตรวจว่าคำตอบไม่กว้างหรือแคบเกินข้อความ"
+      ],
+      "distractor_reasons": {
+        "0": "น้ำเสียงมั่นใจไม่แทนหลักฐาน",
+        "2": "ไม่มีการคุมเวลา",
+        "3": "เสียคะแนนทั้งที่ตัดเหลือสอง"
+      },
+      "misconception_tags": [
+        "stuck_on_one"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    }
+  ],
+  "generated_from": "content/tgat1/reading.py"
+}

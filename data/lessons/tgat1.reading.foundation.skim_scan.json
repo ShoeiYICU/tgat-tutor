@@ -1,0 +1,95 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tgat1.reading.foundation.skim_scan",
+  "title": "อ่านแบบกวาดและอ่านแบบเจาะ",
+  "subtitle": "อ่านกวาด (skim) เพื่อรู้ภาพรวมใน 30 วินาที อ่านเจาะ (scan) เพื่อหาข้อมูลเฉพาะ ใช้ให้ถูกกับชนิดคำถาม",
+  "prereq_topic_ids": [],
+  "objectives": [
+    "แยกคำถามที่ต้อง skim กับ scan",
+    "skim บทอ่านเพื่อหาใจความหลักอย่างรวดเร็ว",
+    "scan หาคำสำคัญโดยไม่อ่านทุกคำ"
+  ],
+  "est_minutes": 25,
+  "blocks": [
+    {
+      "type": "hook",
+      "body_md": "พาร์ทการอ่านมี 30 ข้อและต้องแบ่งเวลากับพาร์ทการพูด **จึงไม่ควรอ่านทุกคำด้วยความละเอียดเท่ากัน** คนที่ทำทันคือคนที่รู้ว่าเมื่อไรควรกวาด และเมื่อไรควรเจาะ"
+    },
+    {
+      "type": "concept",
+      "heading": "Skim vs Scan",
+      "body_md": "| | Skim (กวาด) | Scan (เจาะ) |\n|---|---|---|\n| เป้าหมาย | ภาพรวม ใจความหลัก | ข้อมูลเฉพาะ |\n| อ่านอะไร | ประโยคแรกของแต่ละย่อหน้า + ประโยคสุดท้าย | หาคำสำคัญ ตัวเลข ชื่อ |\n| ใช้กับคำถาม | main idea, title, purpose | according to, how many, when, who |"
+    },
+    {
+      "type": "formula",
+      "name": "อ่านคำถามก่อน แล้วเลือกวิธี",
+      "formula_tex": "",
+      "variables": [],
+      "use_when": "ทุกบทอ่าน",
+      "avoid_when": "ข้อ inference และ vocabulary ต้องอ่านละเอียดรอบ ๆ ตำแหน่ง ไม่ใช่แค่กวาดหรือเจาะ",
+      "derivation_md": "กวาดดูคำถามเพื่อรู้ชนิดข้อมูล แล้ว skim หัวเรื่อง ประโยคต้น-ท้าย และโครงสร้างของบท จากนั้น scan รายละเอียดเฉพาะจุด แนวทางนี้ปรับได้ตามความยาวบทและคำถาม ไม่จำเป็นต้องยึด 30 วินาทีหรือทำข้อใจความหลักก่อนเสมอ",
+      "memory_tip": "ดูชนิดคำถาม → skim โครงสร้าง → scan หลักฐาน"
+    },
+    {
+      "type": "example",
+      "label": "ตัวอย่างที่ 1",
+      "difficulty": 2,
+      "stem_md": "คำถาม: \"In what year did the travel program feature the market?\"",
+      "steps": [
+        {
+          "do_md": "ชนิดคำถาม: ข้อมูลเฉพาะ (ปี)",
+          "why_md": "ใช้ scan"
+        },
+        {
+          "do_md": "หาตัวเลขที่เป็นปีในบทอ่าน",
+          "why_md": "2015"
+        }
+      ],
+      "answer_md": "Scan หาตัวเลขปี → 2015",
+      "figures": []
+    },
+    {
+      "type": "pitfall",
+      "title": "อ่านทุกคำตั้งแต่ต้นจนจบก่อนดูคำถาม",
+      "wrong_md": "อ่านละเอียดทั้งบท 3 นาที แล้วค่อยดูคำถาม",
+      "why_wrong_md": "เสียเวลาอ่านส่วนที่ไม่ถูกถาม และต้องย้อนกลับไปอ่านอีกอยู่ดี",
+      "correct_md": "อ่านคำถามก่อน แล้ว skim/scan ตามชนิดคำถาม",
+      "misconception_tag": "read_every_word"
+    },
+    {
+      "type": "summary",
+      "bullets_md": [
+        "Skim = ภาพรวม · Scan = ข้อมูลเฉพาะ",
+        "อ่านคำถามก่อนอ่านบท",
+        "main idea → skim · detail → scan",
+        "inference/vocab → อ่านละเอียดรอบตำแหน่ง"
+      ]
+    },
+    {
+      "type": "check",
+      "question_md": "คำถามใดควรใช้วิธี **scan**",
+      "choices": [
+        "What is the best title?",
+        "How many families take part in the project?",
+        "What is the writer's purpose?",
+        "What is the main idea?"
+      ],
+      "answer_index": 1,
+      "explain_md": "ถามจำนวนเฉพาะ ต้อง scan หาตัวเลข"
+    }
+  ],
+  "glossary": [],
+  "common_exam_patterns": [
+    "บทอ่านยาวที่มีหลายคำถาม",
+    "ข้อที่ต้องหาตัวเลขหรือชื่อ"
+  ],
+  "next_topic_ids": [
+    "tgat1.reading.comprehension.main_idea"
+  ],
+  "sources": [
+    "ผังการสอบ TGAT1 จาก mytcas.com (พาร์ทการอ่าน)",
+    "บทอ่านแต่งขึ้นใหม่เพื่อการฝึก"
+  ],
+  "review_status": "ai_draft",
+  "generated_from": "content/tgat1/reading.py"
+}

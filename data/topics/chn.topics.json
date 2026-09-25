@@ -1,0 +1,659 @@
+{
+  "schema_version": "1.0",
+  "subject": "chn",
+  "subject_name_th": "A-Level ภาษาจีน",
+  "exam_codes": [
+    "ALEVEL_87"
+  ],
+  "source_note": "ยืนยันโครงสอบแล้วจาก mytcas.com/blueprint/a-level-87-chn/ (ตรวจ 21 กันยายน 2569): 50 ข้อ 100 คะแนน 90 นาที ปรนัย 4 ตัวเลือก | 3 ด้าน คือ 'ความสามารถในการใช้คำศัพท์และสำนวนภาษาจีนในชีวิตประจำวัน' / 'ความสามารถในการอ่านและสังคมวัฒนธรรม' / 'ความสามารถในการใช้ไวยากรณ์' **ผังสอบไม่ได้ระบุจำนวนข้อของแต่ละด้าน** | ผังสอบไม่ได้ให้รายการหัวข้อย่อยของแต่ละด้าน ชั้นหัวข้อและ leaf ในผังนี้จึงเป็นการจัดกลุ่มและซอยของเราเอง ไม่ใช่รายการทางการ",
+  "topics": [
+    {
+      "id": "chn",
+      "name_th": "A-Level ภาษาจีน",
+      "name_en": "",
+      "kind": "subject",
+      "parent": null,
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ALEVEL_87",
+        "ภาษาจีน"
+      ],
+      "curriculum_ref": null,
+      "notes": "วิชาภาษาที่สาม | โครงสอบยืนยันแล้ว: 50 ข้อ 100 คะแนน 90 นาที **ปรนัย 4 ตัวเลือก** ใช้ format mcq4 | **วิชานี้ template ไม่ได้** ต้องแต่งโจทย์มือ 20 ข้อต่อหัวข้อตามสเปค | เนื้อหาต้องมีเจ้าของภาษาหรือผู้สอนภาษานั้นตรวจ เพราะความถูกต้องทางภาษา และความเหมาะสมทางวัฒนธรรมเครื่องตรวจไม่ได้ ตั้ง review_status เป็น ai_draft_needs_fact_check ทุกไฟล์ | ผังสอบไม่ได้ระบุระดับ CEFR หรือระดับความสามารถอ้างอิง ห้ามอ้างระดับเองในบทเรียน | คนสอบน้อยที่สุดในกลุ่ม A-Level จึงอยู่ท้ายลำดับการผลิต | ผังสอบระบุว่าวัด 'ความสามารถในการใช้ภาษาจีนในการสื่อสาร' และ **ไม่ได้ระบุจำนวนข้อของแต่ละด้าน** ห้ามเดาสัดส่วน | ด้านการอ่านรวมเรื่องสังคมวัฒนธรรมไว้ด้วยกัน"
+    },
+    {
+      "id": "chn.vocab",
+      "name_th": "ความสามารถในการใช้คำศัพท์และสำนวนภาษาจีนในชีวิตประจำวัน",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "chn",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_87",
+          "typical_items": "ผังสอบไม่ระบุจำนวนข้อรายด้าน",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ความสามารถในการใช้คำศัพท์และสำนวนภาษาจีนในชีวิตประจำวัน"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (ส่วนทางการ) · ผังสอบระบุ ผังสอบไม่ระบุจำนวนข้อรายด้าน"
+    },
+    {
+      "id": "chn.vocab.core_vocab",
+      "name_th": "คำศัพท์ในชีวิตประจำวัน",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "chn.vocab",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "คำศัพท์ในชีวิตประจำวัน"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชั้นนี้เราจัดกลุ่มเอง เพราะผังสอบให้แต่ชื่อสาระ ไม่ได้ให้ชื่อหัวข้อย่อย"
+    },
+    {
+      "id": "chn.vocab.core_vocab.daily",
+      "name_th": "คำศัพท์เรื่องกิจวัตร ครอบครัว และที่อยู่",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "chn.vocab.core_vocab",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_87",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "easy",
+      "keywords": [
+        "คำศัพท์"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "chn.vocab.core_vocab.service",
+      "name_th": "คำศัพท์เรื่องซื้อของ อาหาร และการเดินทาง",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "chn.vocab.core_vocab",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "chn.vocab.core_vocab.daily"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_87",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "easy",
+      "keywords": [
+        "ซื้อของ"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "chn.vocab.expression",
+      "name_th": "สำนวนและวลีสื่อสาร",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "chn.vocab",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "สำนวนและวลีสื่อสาร"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชั้นนี้เราจัดกลุ่มเอง เพราะผังสอบให้แต่ชื่อสาระ ไม่ได้ให้ชื่อหัวข้อย่อย"
+    },
+    {
+      "id": "chn.vocab.expression.greeting",
+      "name_th": "ทักทาย แนะนำตัว และกล่าวลา",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "chn.vocab.expression",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_87",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "easy",
+      "keywords": [
+        "ทักทาย"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "chn.vocab.expression.function",
+      "name_th": "ขอร้อง ขออนุญาต ขอบคุณ และขอโทษ",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "chn.vocab.expression",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "chn.vocab.expression.greeting"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_87",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ขอร้อง"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "chn.vocab.expression.politeness",
+      "name_th": "ระดับความสุภาพและการเลือกใช้",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "chn.vocab.expression",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "chn.vocab.expression.function"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_87",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ความสุภาพ"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "chn.reading",
+      "name_th": "ความสามารถในการอ่านและสังคมวัฒนธรรม",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "chn",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_87",
+          "typical_items": "ผังสอบไม่ระบุจำนวนข้อรายด้าน",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ความสามารถในการอ่านและสังคมวัฒนธรรม"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (ส่วนทางการ) · ผังสอบระบุ ผังสอบไม่ระบุจำนวนข้อรายด้าน"
+    },
+    {
+      "id": "chn.reading.script",
+      "name_th": "ระบบตัวเขียน",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "chn.reading",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ระบบตัวเขียน"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชั้นนี้เราจัดกลุ่มเอง เพราะผังสอบให้แต่ชื่อสาระ ไม่ได้ให้ชื่อหัวข้อย่อย"
+    },
+    {
+      "id": "chn.reading.script.pinyin",
+      "name_th": "พินอินและการออกเสียงวรรณยุกต์",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "chn.reading.script",
+      "order": 1,
+      "grade_band": "m_early",
+      "requires": [],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_87",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "easy",
+      "keywords": [
+        "พินอิน",
+        "วรรณยุกต์"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "chn.reading.script.character",
+      "name_th": "อักษรจีนที่ใช้บ่อยและการจำรูป",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "chn.reading.script",
+      "order": 2,
+      "grade_band": "m_early",
+      "requires": [
+        "chn.reading.script.pinyin"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_87",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "อักษรจีน"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "chn.reading.comprehension",
+      "name_th": "การอ่านจับใจความ",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "chn.reading",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "การอ่านจับใจความ"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชั้นนี้เราจัดกลุ่มเอง เพราะผังสอบให้แต่ชื่อสาระ ไม่ได้ให้ชื่อหัวข้อย่อย"
+    },
+    {
+      "id": "chn.reading.comprehension.short_text",
+      "name_th": "ข้อความสั้น ป้าย และประกาศ",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "chn.reading.comprehension",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_87",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "easy",
+      "keywords": [
+        "ข้อความสั้น"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "chn.reading.comprehension.passage",
+      "name_th": "บทอ่านและการจับใจความ",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "chn.reading.comprehension",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "chn.reading.comprehension.short_text"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_87",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "จับใจความ"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "chn.reading.comprehension.infer",
+      "name_th": "อนุมานจากบทอ่าน",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "chn.reading.comprehension",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "chn.reading.comprehension.passage"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_87",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "อนุมาน"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "chn.reading.culture",
+      "name_th": "สังคมและวัฒนธรรม",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "chn.reading",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "สังคมและวัฒนธรรม"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชั้นนี้เราจัดกลุ่มเอง เพราะผังสอบให้แต่ชื่อสาระ ไม่ได้ให้ชื่อหัวข้อย่อย | ผังสอบรวมเรื่องสังคมวัฒนธรรมไว้ในด้านการอ่าน"
+    },
+    {
+      "id": "chn.reading.culture.daily_culture",
+      "name_th": "วิถีชีวิต ธรรมเนียม และเทศกาล",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "chn.reading.culture",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_87",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "easy",
+      "keywords": [
+        "วัฒนธรรม"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ | มีชื่อเทศกาลและธรรมเนียม ต้องให้ผู้รู้ภาษาตรวจ"
+    },
+    {
+      "id": "chn.reading.culture.etiquette",
+      "name_th": "มารยาทและข้อควรระวังในการสื่อสาร",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "chn.reading.culture",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "chn.reading.culture.daily_culture"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_87",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "มารยาท"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ | เรื่องอ่อนไหวทางวัฒนธรรม ต้องให้เจ้าของภาษาตรวจ"
+    },
+    {
+      "id": "chn.grammar",
+      "name_th": "ความสามารถในการใช้ไวยากรณ์",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "chn",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_87",
+          "typical_items": "ผังสอบไม่ระบุจำนวนข้อรายด้าน",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ความสามารถในการใช้ไวยากรณ์"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (ส่วนทางการ) · ผังสอบระบุ ผังสอบไม่ระบุจำนวนข้อรายด้าน"
+    },
+    {
+      "id": "chn.grammar.word_class",
+      "name_th": "ชนิดของคำและการใช้",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "chn.grammar",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ชนิดของคำและการใช้"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชั้นนี้เราจัดกลุ่มเอง เพราะผังสอบให้แต่ชื่อสาระ ไม่ได้ให้ชื่อหัวข้อย่อย"
+    },
+    {
+      "id": "chn.grammar.word_class.noun_pronoun",
+      "name_th": "คำนามและคำสรรพนาม",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "chn.grammar.word_class",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_87",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "คำนาม",
+        "สรรพนาม"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "chn.grammar.word_class.verb",
+      "name_th": "คำกริยาและการเปลี่ยนรูป",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "chn.grammar.word_class",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "chn.grammar.word_class.noun_pronoun"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_87",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "คำกริยา"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "chn.grammar.word_class.modifier",
+      "name_th": "คำคุณศัพท์และคำวิเศษณ์",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "chn.grammar.word_class",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "chn.grammar.word_class.verb"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_87",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "คำคุณศัพท์"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "chn.grammar.sentence",
+      "name_th": "โครงสร้างประโยค",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "chn.grammar",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "โครงสร้างประโยค"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชั้นนี้เราจัดกลุ่มเอง เพราะผังสอบให้แต่ชื่อสาระ ไม่ได้ให้ชื่อหัวข้อย่อย"
+    },
+    {
+      "id": "chn.grammar.sentence.basic",
+      "name_th": "รูปประโยคบอกเล่า ปฏิเสธ และคำถาม",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "chn.grammar.sentence",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_87",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "รูปประโยค"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "chn.grammar.sentence.complex",
+      "name_th": "ประโยคซ้อนและคำเชื่อม",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "chn.grammar.sentence",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "chn.grammar.sentence.basic"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_87",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "ประโยคซ้อน",
+        "คำเชื่อม"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    }
+  ]
+}

@@ -1,0 +1,2311 @@
+{
+  "schema_version": "1.0",
+  "subject": "bio",
+  "subject_name_th": "A-Level ชีววิทยา",
+  "exam_codes": [
+    "ALEVEL_66"
+  ],
+  "source_note": "ยืนยันโครงสอบแล้วจาก mytcas.com/blueprint/a-level-66-bio/ (ตรวจ 21 กันยายน 2569): 40 ข้อ 100 คะแนน 90 นาที แบ่งเป็น ปรนัย 5 ตัวเลือก 35 ข้อ 84 คะแนน และ **เลือกตอบเชิงซ้อน 5 ข้อ 16 คะแนน** | 5 ส่วน คือ ความหลากหลายทางชีวภาพและสิ่งแวดล้อม 5-7 ข้อ / หน่วยพื้นฐานของสิ่งมีชีวิต 6-8 ข้อ / ระบบและการทำงานต่าง ๆ ของสัตว์และมนุษย์ 12-14 ข้อ / โครงสร้างและการทำงานของส่วนต่าง ๆ ในพืช 6-8 ข้อ / พันธุศาสตร์และวิวัฒนาการ 6-8 ข้อ | ผังสอบให้ชื่อหัวข้อทางการ 25 หัวข้อ แต่ไม่ได้ซอยย่อยกว่านั้น หัวข้อระดับ leaf จึงเป็นการซอยของเราเอง | ผังสอบไม่ได้ระบุ: จำนวนข้อของแต่ละหัวข้อ และเกณฑ์การให้คะแนนข้อเลือกตอบเชิงซ้อน",
+  "topics": [
+    {
+      "id": "bio",
+      "name_th": "A-Level ชีววิทยา",
+      "name_en": "",
+      "kind": "subject",
+      "parent": null,
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ALEVEL_66",
+        "ชีววิทยา"
+      ],
+      "curriculum_ref": null,
+      "notes": "วิชาเนื้อหาตามหลักสูตร | โครงสอบยืนยันแล้ว: 40 ข้อ 100 คะแนน 90 นาที | **มีรูปแบบข้อสอบที่ไม่เหมือนวิชาอื่น** คือ ปรนัย 5 ตัวเลือก 35 ข้อ (format mcq5) และ **เลือกตอบเชิงซ้อน 5 ข้อ 16 คะแนน** ซึ่งใกล้เคียง format multi_select ที่สุด แต่ **ผังสอบไม่ได้ระบุเกณฑ์การให้คะแนนของข้อแบบนี้** จึงห้ามเดาว่าให้คะแนนบางส่วนหรือไม่ ให้ใช้ multi_select และระบุใน notes ว่าเกณฑ์คะแนนยังไม่ยืนยัน | ส่วนระบบสัตว์และมนุษย์ใหญ่ที่สุด (12-14 ข้อ จาก 40) ควรลงแรงมากที่สุด | วิชานี้ **template ได้น้อยที่สุดในกลุ่มวิทยาศาสตร์** เพราะเนื้อหาเป็นการบรรยายกลไก ไม่ใช่การคำนวณ ยกเว้นพันธุศาสตร์ที่คำนวณอัตราส่วนได้ หัวข้อที่ template ไม่ได้ให้แต่งโจทย์ 20 ข้อตามสเปค | ชีววิทยาอยู่ในกลุ่มที่ต้องให้คนตรวจ 100% ตามตารางใน spec/07 เพราะเนื้อหาผิดพลาดตรวจด้วยเครื่องไม่ได้"
+    },
+    {
+      "id": "bio.diversity_env",
+      "name_th": "ความหลากหลายทางชีวภาพและสิ่งแวดล้อม",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "bio",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_66",
+          "typical_items": "5-7 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ความหลากหลายทางชีวภาพและสิ่งแวดล้อม"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (ส่วนทางการ) · ผังสอบระบุ 5-7 ข้อ"
+    },
+    {
+      "id": "bio.diversity_env.ecosystem",
+      "name_th": "ระบบนิเวศและไบโอม",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "bio.diversity_env",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ระบบนิเวศและไบโอม"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "bio.diversity_env.ecosystem.components",
+      "name_th": "องค์ประกอบของระบบนิเวศและความสัมพันธ์",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "bio.diversity_env.ecosystem",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_66",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "easy",
+      "keywords": [
+        "ระบบนิเวศ"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "bio.diversity_env.ecosystem.energy_flow",
+      "name_th": "การถ่ายทอดพลังงานและสายใยอาหาร",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "bio.diversity_env.ecosystem",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "bio.diversity_env.ecosystem.components"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_66",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "สายใยอาหาร",
+        "พลังงาน"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "bio.diversity_env.ecosystem.cycle",
+      "name_th": "วัฏจักรสารในระบบนิเวศ",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "bio.diversity_env.ecosystem",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "bio.diversity_env.ecosystem.energy_flow"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_66",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "วัฏจักรสาร"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "bio.diversity_env.ecosystem.biome",
+      "name_th": "ไบโอมบนบกและในน้ำ",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "bio.diversity_env.ecosystem",
+      "order": 4,
+      "grade_band": "mixed",
+      "requires": [
+        "bio.diversity_env.ecosystem.cycle"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_66",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "easy",
+      "keywords": [
+        "ไบโอม"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "bio.diversity_env.population",
+      "name_th": "ประชากร",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "bio.diversity_env",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ประชากร"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "bio.diversity_env.population.growth",
+      "name_th": "การเติบโตของประชากรและปัจจัยจำกัด",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "bio.diversity_env.population",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_66",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ประชากร",
+        "การเติบโต"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "bio.diversity_env.population.structure",
+      "name_th": "โครงสร้างอายุและการรอดชีวิต",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "bio.diversity_env.population",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "bio.diversity_env.population.growth"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_66",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "โครงสร้างอายุ"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "bio.diversity_env.resources",
+      "name_th": "ทรัพยากรธรรมชาติและสิ่งแวดล้อม",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "bio.diversity_env",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ทรัพยากรธรรมชาติและสิ่งแวดล้อม"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "bio.diversity_env.resources.types",
+      "name_th": "ประเภทของทรัพยากรและการใช้อย่างยั่งยืน",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "bio.diversity_env.resources",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_66",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "easy",
+      "keywords": [
+        "ทรัพยากร",
+        "ยั่งยืน"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "bio.diversity_env.resources.problem",
+      "name_th": "ปัญหาสิ่งแวดล้อมและการแก้ไข",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "bio.diversity_env.resources",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "bio.diversity_env.resources.types"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_66",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ปัญหาสิ่งแวดล้อม"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ | อ้างสถิติและกฎหมายสิ่งแวดล้อมได้ ตั้ง review_status เป็น ai_draft_needs_fact_check"
+    },
+    {
+      "id": "bio.diversity_env.taxonomy",
+      "name_th": "ความหลากหลายของสิ่งมีชีวิตและอนุกรมวิธาน",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "bio.diversity_env",
+      "order": 4,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ความหลากหลายของสิ่งมีชีวิตและอนุกรมวิธาน"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "bio.diversity_env.taxonomy.classification",
+      "name_th": "หลักการจัดหมวดหมู่และลำดับขั้น",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "bio.diversity_env.taxonomy",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_66",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "easy",
+      "keywords": [
+        "อนุกรมวิธาน",
+        "จัดหมวดหมู่"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "bio.diversity_env.taxonomy.kingdoms",
+      "name_th": "อาณาจักรของสิ่งมีชีวิตและลักษณะเด่น",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "bio.diversity_env.taxonomy",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "bio.diversity_env.taxonomy.classification"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_66",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "อาณาจักร"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "bio.diversity_env.taxonomy.naming",
+      "name_th": "การเรียกชื่อวิทยาศาสตร์",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "bio.diversity_env.taxonomy",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "bio.diversity_env.taxonomy.kingdoms"
+      ],
+      "est_minutes": 20,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_66",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "easy",
+      "keywords": [
+        "ชื่อวิทยาศาสตร์"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "bio.basic_unit",
+      "name_th": "หน่วยพื้นฐานของสิ่งมีชีวิต",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "bio",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_66",
+          "typical_items": "6-8 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "หน่วยพื้นฐานของสิ่งมีชีวิต"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (ส่วนทางการ) · ผังสอบระบุ 6-8 ข้อ"
+    },
+    {
+      "id": "bio.basic_unit.biochem",
+      "name_th": "เคมีที่เป็นพื้นฐานของสิ่งมีชีวิต",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "bio.basic_unit",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "เคมีที่เป็นพื้นฐานของสิ่งมีชีวิต"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "bio.basic_unit.biochem.water_ion",
+      "name_th": "น้ำและไอออนที่จำเป็นต่อสิ่งมีชีวิต",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "bio.basic_unit.biochem",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 20,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_66",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "easy",
+      "keywords": [
+        "น้ำ",
+        "ไอออน"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "bio.basic_unit.biochem.macromolecule",
+      "name_th": "สารชีวโมเลกุลทั้งสี่ประเภท",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "bio.basic_unit.biochem",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "bio.basic_unit.biochem.water_ion"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_66",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "คาร์โบไฮเดรต",
+        "โปรตีน",
+        "ลิพิด",
+        "กรดนิวคลีอิก"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "bio.basic_unit.biochem.enzyme",
+      "name_th": "เอนไซม์และปัจจัยที่มีผลต่อการทำงาน",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "bio.basic_unit.biochem",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "bio.basic_unit.biochem.macromolecule"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_66",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "เอนไซม์"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "bio.basic_unit.cell",
+      "name_th": "โครงสร้างและการทำงานของเซลล์",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "bio.basic_unit",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "โครงสร้างและการทำงานของเซลล์"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "bio.basic_unit.cell.organelle",
+      "name_th": "ออร์แกเนลล์และหน้าที่",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "bio.basic_unit.cell",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_66",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ออร์แกเนลล์",
+        "เซลล์"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "bio.basic_unit.cell.membrane",
+      "name_th": "เยื่อหุ้มเซลล์และการลำเลียงสาร",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "bio.basic_unit.cell",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "bio.basic_unit.cell.organelle"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_66",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "เยื่อหุ้มเซลล์",
+        "ลำเลียงสาร"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "bio.basic_unit.cell.division",
+      "name_th": "การแบ่งเซลล์แบบไมโทซิสและไมโอซิส",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "bio.basic_unit.cell",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "bio.basic_unit.cell.membrane"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_66",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "ไมโทซิส",
+        "ไมโอซิส"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "bio.basic_unit.cell.respiration",
+      "name_th": "การหายใจระดับเซลล์",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "bio.basic_unit.cell",
+      "order": 4,
+      "grade_band": "mixed",
+      "requires": [
+        "bio.basic_unit.cell.division"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_66",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "หายใจระดับเซลล์"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "bio.animal_system",
+      "name_th": "ระบบและการทำงานต่าง ๆ ของสัตว์และมนุษย์",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "bio",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_66",
+          "typical_items": "12-14 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ระบบและการทำงานต่าง ๆ ของสัตว์และมนุษย์"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (ส่วนทางการ) · ผังสอบระบุ 12-14 ข้อ · ส่วนที่ใหญ่ที่สุดของวิชา ควรลงแรงมากที่สุด"
+    },
+    {
+      "id": "bio.animal_system.digestion",
+      "name_th": "ระบบย่อยอาหาร",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "bio.animal_system",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ระบบย่อยอาหาร"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "bio.animal_system.digestion.organs",
+      "name_th": "อวัยวะและทางเดินอาหาร",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "bio.animal_system.digestion",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_66",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "easy",
+      "keywords": [
+        "ทางเดินอาหาร"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "bio.animal_system.digestion.enzyme_absorb",
+      "name_th": "เอนไซม์ย่อยอาหารและการดูดซึม",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "bio.animal_system.digestion",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "bio.animal_system.digestion.organs"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_66",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "เอนไซม์ย่อย",
+        "ดูดซึม"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "bio.animal_system.circulation",
+      "name_th": "ระบบหมุนเวียนเลือด",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "bio.animal_system",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ระบบหมุนเวียนเลือด"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "bio.animal_system.circulation.heart_vessel",
+      "name_th": "หัวใจและหลอดเลือด",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "bio.animal_system.circulation",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_66",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "หัวใจ",
+        "หลอดเลือด"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "bio.animal_system.circulation.blood",
+      "name_th": "เลือดและหมู่เลือด",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "bio.animal_system.circulation",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "bio.animal_system.circulation.heart_vessel"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_66",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "เลือด",
+        "หมู่เลือด"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "bio.animal_system.circulation.pressure",
+      "name_th": "ความดันเลือดและการควบคุม",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "bio.animal_system.circulation",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "bio.animal_system.circulation.blood"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_66",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ความดันเลือด"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "bio.animal_system.lymph_immune",
+      "name_th": "ระบบน้ำเหลืองและระบบภูมิคุ้มกัน",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "bio.animal_system",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ระบบน้ำเหลืองและระบบภูมิคุ้มกัน"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "bio.animal_system.lymph_immune.lymph",
+      "name_th": "ระบบน้ำเหลือง",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "bio.animal_system.lymph_immune",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 20,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_66",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "น้ำเหลือง"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "bio.animal_system.lymph_immune.immunity",
+      "name_th": "ภูมิคุ้มกันแบบไม่จำเพาะและจำเพาะ",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "bio.animal_system.lymph_immune",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "bio.animal_system.lymph_immune.lymph"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_66",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "ภูมิคุ้มกัน"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "bio.animal_system.lymph_immune.vaccine",
+      "name_th": "วัคซีนและความผิดปกติของระบบภูมิคุ้มกัน",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "bio.animal_system.lymph_immune",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "bio.animal_system.lymph_immune.immunity"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_66",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "วัคซีน"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ | เนื้อหาการแพทย์ ห้ามเขียนอะไรที่ใช้เป็นคำแนะนำทางการแพทย์ได้ ตั้ง review_status เป็น ai_draft_needs_fact_check"
+    },
+    {
+      "id": "bio.animal_system.excretion",
+      "name_th": "ระบบขับถ่าย",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "bio.animal_system",
+      "order": 4,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ระบบขับถ่าย"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "bio.animal_system.excretion.kidney",
+      "name_th": "ไตและการสร้างปัสสาวะ",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "bio.animal_system.excretion",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_66",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ไต",
+        "ปัสสาวะ"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "bio.animal_system.excretion.balance",
+      "name_th": "การรักษาดุลยภาพของน้ำและเกลือแร่",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "bio.animal_system.excretion",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "bio.animal_system.excretion.kidney"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_66",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "ดุลยภาพ"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "bio.animal_system.respiration_sys",
+      "name_th": "ระบบหายใจ",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "bio.animal_system",
+      "order": 5,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ระบบหายใจ"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "bio.animal_system.respiration_sys.organs",
+      "name_th": "อวัยวะและกลไกการหายใจ",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "bio.animal_system.respiration_sys",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_66",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "easy",
+      "keywords": [
+        "ปอด",
+        "หายใจ"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "bio.animal_system.respiration_sys.gas_exchange",
+      "name_th": "การแลกเปลี่ยนแก๊สและการลำเลียงแก๊ส",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "bio.animal_system.respiration_sys",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "bio.animal_system.respiration_sys.organs"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_66",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "แลกเปลี่ยนแก๊ส"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "bio.animal_system.nervous",
+      "name_th": "ระบบประสาทและการเคลื่อนที่",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "bio.animal_system",
+      "order": 6,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ระบบประสาทและการเคลื่อนที่"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "bio.animal_system.nervous.neuron",
+      "name_th": "เซลล์ประสาทและการส่งกระแสประสาท",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "bio.animal_system.nervous",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_66",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "เซลล์ประสาท",
+        "กระแสประสาท"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "bio.animal_system.nervous.cns",
+      "name_th": "ระบบประสาทส่วนกลางและส่วนปลาย",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "bio.animal_system.nervous",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "bio.animal_system.nervous.neuron"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_66",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ระบบประสาท"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "bio.animal_system.nervous.sense",
+      "name_th": "อวัยวะรับความรู้สึก",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "bio.animal_system.nervous",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "bio.animal_system.nervous.cns"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_66",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ตา",
+        "หู",
+        "รับความรู้สึก"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "bio.animal_system.nervous.movement",
+      "name_th": "กล้ามเนื้อและการเคลื่อนที่",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "bio.animal_system.nervous",
+      "order": 4,
+      "grade_band": "mixed",
+      "requires": [
+        "bio.animal_system.nervous.sense"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_66",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "กล้ามเนื้อ",
+        "การเคลื่อนที่"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "bio.animal_system.reproduction",
+      "name_th": "ระบบสืบพันธุ์และการเจริญเติบโต",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "bio.animal_system",
+      "order": 7,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ระบบสืบพันธุ์และการเจริญเติบโต"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "bio.animal_system.reproduction.organs",
+      "name_th": "อวัยวะสืบพันธุ์และการสร้างเซลล์สืบพันธุ์",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "bio.animal_system.reproduction",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_66",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "สืบพันธุ์"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "bio.animal_system.reproduction.development",
+      "name_th": "การปฏิสนธิและการเจริญของเอ็มบริโอ",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "bio.animal_system.reproduction",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "bio.animal_system.reproduction.organs"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_66",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ปฏิสนธิ",
+        "เอ็มบริโอ"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "bio.animal_system.endocrine",
+      "name_th": "ระบบต่อมไร้ท่อ",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "bio.animal_system",
+      "order": 8,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ระบบต่อมไร้ท่อ"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "bio.animal_system.endocrine.glands",
+      "name_th": "ต่อมไร้ท่อและฮอร์โมนที่สำคัญ",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "bio.animal_system.endocrine",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_66",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ต่อมไร้ท่อ",
+        "ฮอร์โมน"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "bio.animal_system.endocrine.feedback",
+      "name_th": "การควบคุมแบบป้อนกลับ",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "bio.animal_system.endocrine",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "bio.animal_system.endocrine.glands"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_66",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "ป้อนกลับ",
+        "feedback"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "bio.animal_system.behavior",
+      "name_th": "พฤติกรรมของสัตว์",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "bio.animal_system",
+      "order": 9,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "พฤติกรรมของสัตว์"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "bio.animal_system.behavior.innate",
+      "name_th": "พฤติกรรมที่มีมาแต่กำเนิด",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "bio.animal_system.behavior",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 20,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_66",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "easy",
+      "keywords": [
+        "พฤติกรรมกำเนิด"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "bio.animal_system.behavior.learned",
+      "name_th": "พฤติกรรมการเรียนรู้และพฤติกรรมทางสังคม",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "bio.animal_system.behavior",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "bio.animal_system.behavior.innate"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_66",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "พฤติกรรมเรียนรู้"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "bio.plant",
+      "name_th": "โครงสร้างและการทำงานของส่วนต่าง ๆ ในพืช",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "bio",
+      "order": 4,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_66",
+          "typical_items": "6-8 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "โครงสร้างและการทำงานของส่วนต่าง ๆ ในพืช"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (ส่วนทางการ) · ผังสอบระบุ 6-8 ข้อ"
+    },
+    {
+      "id": "bio.plant.plant_tissue",
+      "name_th": "เนื้อเยื่อและโครงสร้างภายในของพืช",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "bio.plant",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "เนื้อเยื่อและโครงสร้างภายในของพืช"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "bio.plant.plant_tissue.tissue",
+      "name_th": "เนื้อเยื่อพืชและหน้าที่",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "bio.plant.plant_tissue",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_66",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "เนื้อเยื่อพืช"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "bio.plant.plant_tissue.organs",
+      "name_th": "โครงสร้างราก ลำต้น และใบ",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "bio.plant.plant_tissue",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "bio.plant.plant_tissue.tissue"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_66",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ราก",
+        "ลำต้น",
+        "ใบ"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "bio.plant.transport",
+      "name_th": "การแลกเปลี่ยนแก๊ส การคายน้ำของพืช และการลำเลียงของพืช",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "bio.plant",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "การแลกเปลี่ยนแก๊ส การคายน้ำของพืช และการลำเลียงของพืช"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "bio.plant.transport.stomata",
+      "name_th": "ปากใบ การแลกเปลี่ยนแก๊ส และการคายน้ำ",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "bio.plant.transport",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_66",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ปากใบ",
+        "คายน้ำ"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "bio.plant.transport.water_transport",
+      "name_th": "การลำเลียงน้ำและแร่ธาตุ",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "bio.plant.transport",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "bio.plant.transport.stomata"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_66",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ลำเลียงน้ำ",
+        "ไซเล็ม"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "bio.plant.transport.food_transport",
+      "name_th": "การลำเลียงอาหาร",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "bio.plant.transport",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "bio.plant.transport.water_transport"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_66",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "โฟลเอ็ม",
+        "ลำเลียงอาหาร"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "bio.plant.photosynthesis",
+      "name_th": "การสังเคราะห์ด้วยแสงและสารอินทรีย์ในพืช",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "bio.plant",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "การสังเคราะห์ด้วยแสงและสารอินทรีย์ในพืช"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "bio.plant.photosynthesis.light_reaction",
+      "name_th": "ปฏิกิริยาที่ต้องใช้แสง",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "bio.plant.photosynthesis",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_66",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "สังเคราะห์ด้วยแสง",
+        "ปฏิกิริยาแสง"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "bio.plant.photosynthesis.carbon_fix",
+      "name_th": "การตรึงคาร์บอนและพืช C3 C4 CAM",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "bio.plant.photosynthesis",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "bio.plant.photosynthesis.light_reaction"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_66",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "ตรึงคาร์บอน",
+        "C4",
+        "CAM"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "bio.plant.photosynthesis.factors",
+      "name_th": "ปัจจัยที่มีผลต่อการสังเคราะห์ด้วยแสง",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "bio.plant.photosynthesis",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "bio.plant.photosynthesis.carbon_fix"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_66",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ปัจจัย"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "bio.plant.plant_reproduction",
+      "name_th": "การสืบพันธุ์ของพืชดอก",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "bio.plant",
+      "order": 4,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "การสืบพันธุ์ของพืชดอก"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "bio.plant.plant_reproduction.flower",
+      "name_th": "โครงสร้างดอกและการถ่ายเรณู",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "bio.plant.plant_reproduction",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_66",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "easy",
+      "keywords": [
+        "ดอก",
+        "ถ่ายเรณู"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "bio.plant.plant_reproduction.seed_fruit",
+      "name_th": "การปฏิสนธิ เมล็ด และผล",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "bio.plant.plant_reproduction",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "bio.plant.plant_reproduction.flower"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_66",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "เมล็ด",
+        "ผล"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "bio.plant.plant_growth",
+      "name_th": "การควบคุมการเจริญเติบโตและการตอบสนองของพืช",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "bio.plant",
+      "order": 5,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "การควบคุมการเจริญเติบโตและการตอบสนองของพืช"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "bio.plant.plant_growth.hormone",
+      "name_th": "ฮอร์โมนพืช",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "bio.plant.plant_growth",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_66",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ฮอร์โมนพืช",
+        "ออกซิน"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "bio.plant.plant_growth.response",
+      "name_th": "การตอบสนองต่อสิ่งเร้าและช่วงแสง",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "bio.plant.plant_growth",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "bio.plant.plant_growth.hormone"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_66",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ตอบสนอง",
+        "ช่วงแสง"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "bio.genetics",
+      "name_th": "พันธุศาสตร์และวิวัฒนาการ",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "bio",
+      "order": 5,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_66",
+          "typical_items": "6-8 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "พันธุศาสตร์และวิวัฒนาการ"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (ส่วนทางการ) · ผังสอบระบุ 6-8 ข้อ"
+    },
+    {
+      "id": "bio.genetics.inheritance",
+      "name_th": "การถ่ายทอดลักษณะทางพันธุกรรม",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "bio.genetics",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "การถ่ายทอดลักษณะทางพันธุกรรม"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "bio.genetics.inheritance.mendel",
+      "name_th": "กฎของเมนเดลและการผสมพันธุ์",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "bio.genetics.inheritance",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_66",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "เมนเดล",
+        "พันธุกรรม"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "bio.genetics.inheritance.ratio",
+      "name_th": "การคำนวณอัตราส่วนลักษณะและตารางผสม",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "bio.genetics.inheritance",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "bio.genetics.inheritance.mendel"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_66",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "อัตราส่วน",
+        "ตารางผสม"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ | หัวข้อนี้ทำแม่แบบได้ เพราะคำนวณอัตราส่วนด้วยโค้ดได้"
+    },
+    {
+      "id": "bio.genetics.inheritance.beyond_mendel",
+      "name_th": "การถ่ายทอดที่ไม่เป็นไปตามกฎของเมนเดล",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "bio.genetics.inheritance",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "bio.genetics.inheritance.ratio"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_66",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "มัลติเปิลอัลลีล"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "bio.genetics.inheritance.sex_linked",
+      "name_th": "ยีนบนโครโมโซมเพศและแผนภาพพงศาวลี",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "bio.genetics.inheritance",
+      "order": 4,
+      "grade_band": "mixed",
+      "requires": [
+        "bio.genetics.inheritance.beyond_mendel"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_66",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "ยีนบนโครโมโซมเพศ",
+        "พงศาวลี"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "bio.genetics.genetic_material",
+      "name_th": "สมบัติของสารพันธุกรรม ความสัมพันธ์ระหว่างยีน การสังเคราะห์โปรตีน และลักษณะทางพันธุกรรม",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "bio.genetics",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "สมบัติของสารพันธุกรรม ความสัมพันธ์ระหว่างยีน การสังเคราะห์โปรตีน และลักษณะทางพันธุกรรม"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "bio.genetics.genetic_material.dna",
+      "name_th": "โครงสร้างดีเอ็นเอและการจำลองตัวเอง",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "bio.genetics.genetic_material",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_66",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ดีเอ็นเอ",
+        "จำลองตัวเอง"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "bio.genetics.genetic_material.transcription",
+      "name_th": "การถอดรหัสและการแปลรหัส",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "bio.genetics.genetic_material",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "bio.genetics.genetic_material.dna"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_66",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "ถอดรหัส",
+        "แปลรหัส"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "bio.genetics.genetic_material.gene_control",
+      "name_th": "การควบคุมการแสดงออกของยีน",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "bio.genetics.genetic_material",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "bio.genetics.genetic_material.transcription"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_66",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "ควบคุมยีน"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "bio.genetics.mutation",
+      "name_th": "การเปลี่ยนแปลงทางพันธุกรรม",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "bio.genetics",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "การเปลี่ยนแปลงทางพันธุกรรม"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "bio.genetics.mutation.gene_mutation",
+      "name_th": "การกลายของยีน",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "bio.genetics.mutation",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_66",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "การกลาย",
+        "มิวเทชัน"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "bio.genetics.mutation.chromosome",
+      "name_th": "ความผิดปกติของโครโมโซม",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "bio.genetics.mutation",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "bio.genetics.mutation.gene_mutation"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_66",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "โครโมโซมผิดปกติ"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ | อ้างชื่อโรคและกลุ่มอาการ ตั้ง review_status เป็น ai_draft_needs_fact_check และห้ามเขียนเป็นคำแนะนำทางการแพทย์"
+    },
+    {
+      "id": "bio.genetics.dna_tech",
+      "name_th": "เทคโนโลยีทางดีเอ็นเอ",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "bio.genetics",
+      "order": 4,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "เทคโนโลยีทางดีเอ็นเอ"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "bio.genetics.dna_tech.methods",
+      "name_th": "เทคนิคพื้นฐานทางพันธุวิศวกรรม",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "bio.genetics.dna_tech",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_66",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "พันธุวิศวกรรม",
+        "PCR"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "bio.genetics.dna_tech.application",
+      "name_th": "การประยุกต์ใช้และประเด็นทางจริยธรรม",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "bio.genetics.dna_tech",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "bio.genetics.dna_tech.methods"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_66",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ประยุกต์",
+        "จริยธรรม"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "bio.genetics.evolution",
+      "name_th": "วิวัฒนาการและพันธุศาสตร์ประชากร",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "bio.genetics",
+      "order": 5,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "วิวัฒนาการและพันธุศาสตร์ประชากร"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "bio.genetics.evolution.evidence",
+      "name_th": "หลักฐานและกลไกของวิวัฒนาการ",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "bio.genetics.evolution",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_66",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "วิวัฒนาการ",
+        "การคัดเลือก"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "bio.genetics.evolution.hardy_weinberg",
+      "name_th": "พันธุศาสตร์ประชากรและสมดุลฮาร์ดี-ไวน์เบิร์ก",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "bio.genetics.evolution",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "bio.genetics.evolution.evidence"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_66",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "ฮาร์ดี-ไวน์เบิร์ก",
+        "ความถี่อัลลีล"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ | หัวข้อนี้ทำแม่แบบได้ เพราะคำนวณความถี่อัลลีลด้วยโค้ดได้"
+    },
+    {
+      "id": "bio.genetics.evolution.speciation",
+      "name_th": "การเกิดสปีชีส์ใหม่",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "bio.genetics.evolution",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "bio.genetics.evolution.hardy_weinberg"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_66",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "สปีชีส์"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    }
+  ]
+}

@@ -1,0 +1,1177 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tgat2.numerical.foundation.integer_arithmetic",
+  "problems": [
+    {
+      "id": "prob.tgat2.numerical.foundation.integer_arithmetic.0001",
+      "topic_ids": [
+        "tgat2.numerical.foundation.integer_arithmetic"
+      ],
+      "primary_topic_id": "tgat2.numerical.foundation.integer_arithmetic",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 30,
+      "stem_md": "$56 + 7 \\times 5 = ?$",
+      "figures": [],
+      "choices": [
+        {
+          "md": "$315$",
+          "is_answer": false
+        },
+        {
+          "md": "$98$",
+          "is_answer": false
+        },
+        {
+          "md": "$84$",
+          "is_answer": false
+        },
+        {
+          "md": "$91$",
+          "is_answer": true
+        },
+        {
+          "md": "$68$",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "คูณก่อน: $7 \\times 5 = 35$",
+          "why_md": "คูณมีลำดับก่อนบวก"
+        },
+        {
+          "do_md": "บวก: $56 + 35 = 91$",
+          "why_md": "เหลือแค่การบวก"
+        }
+      ],
+      "answer_explanation_md": "ตอบ $91$ เพราะต้องคูณ $7 \\times 5$ ก่อนบวก ตัวเลือกที่ได้จากการบวกก่อนเป็นกับดักของคนที่ทำจากซ้ายไปขวา",
+      "hints": [
+        "ต้องทำคูณหรือบวกก่อน",
+        "เริ่มจาก $7 \\times 5$",
+        "นำผลคูณ $35$ ไปบวกกับ $56$"
+      ],
+      "distractor_reasons": {
+        "0": "บวกก่อนคูณ ทำจากซ้ายไปขวาทั้งหมด",
+        "1": "คูณเกินไปหนึ่งรอบ",
+        "2": "คูณขาดไปหนึ่งรอบ",
+        "4": "บวกทุกตัว ไม่ได้คูณ"
+      },
+      "misconception_tags": [
+        "left_to_right_all"
+      ],
+      "template": {
+        "vars": [
+          {
+            "name": "a",
+            "type": "int",
+            "range": [
+              12,
+              60
+            ],
+            "step": 1
+          },
+          {
+            "name": "b",
+            "type": "int",
+            "range": [
+              3,
+              9
+            ],
+            "step": 1
+          },
+          {
+            "name": "c",
+            "type": "int",
+            "range": [
+              4,
+              9
+            ],
+            "step": 1
+          }
+        ],
+        "constraints": [
+          "(a + b)*c <= 5*(a + b*c)",
+          "a + b + c >= (a + b*c)/5",
+          "(a + b*c) > 0",
+          "((a + b)*c) > 0",
+          "(a + b + c) > 0",
+          "(a + b*(c + 1)) > 0",
+          "(a + b*(c - 1)) > 0",
+          "(a + b*c) != ((a + b)*c)",
+          "(a + b*c) != (a + b + c)",
+          "(a + b*c) != (a + b*(c + 1))",
+          "(a + b*c) != (a + b*(c - 1))",
+          "((a + b)*c) != (a + b + c)",
+          "((a + b)*c) != (a + b*(c + 1))",
+          "((a + b)*c) != (a + b*(c - 1))",
+          "(a + b + c) != (a + b*(c + 1))",
+          "(a + b + c) != (a + b*(c - 1))",
+          "(a + b*(c + 1)) != (a + b*(c - 1))",
+          "((a + b)*c) <= 5*(a + b*c)",
+          "(a + b + c) <= 5*(a + b*c)",
+          "(a + b*(c + 1)) <= 5*(a + b*c)",
+          "(a + b*(c - 1)) <= 5*(a + b*c)",
+          "5*((a + b)*c) >= (a + b*c)",
+          "5*(a + b + c) >= (a + b*c)",
+          "5*(a + b*(c + 1)) >= (a + b*c)",
+          "5*(a + b*(c - 1)) >= (a + b*c)",
+          "(a) != (a + b*c)",
+          "(b) != (a + b*c)",
+          "(bc) != (a + b*c)",
+          "(c) != (a + b*c)"
+        ],
+        "display": {
+          "bc": "b*c"
+        },
+        "stem_tpl": "${a} + {b} \\times {c} = ?$",
+        "answer_expr": "a + b*c",
+        "answer_round": null,
+        "answer_unit": null,
+        "distractors": [
+          {
+            "expr": "(a + b)*c",
+            "reason": "บวกก่อนคูณ ทำจากซ้ายไปขวาทั้งหมด"
+          },
+          {
+            "expr": "a + b + c",
+            "reason": "บวกทุกตัว ไม่ได้คูณ"
+          },
+          {
+            "expr": "a + b*(c + 1)",
+            "reason": "คูณเกินไปหนึ่งรอบ"
+          },
+          {
+            "expr": "a + b*(c - 1)",
+            "reason": "คูณขาดไปหนึ่งรอบ"
+          }
+        ],
+        "quality_rules": [
+          "ตัวเลือกทุกตัวต้องเป็นจำนวนบวกและไม่ซ้ำกัน",
+          "คำตอบคำนวณจากนิพจน์ ไม่ได้ใส่มือ"
+        ],
+        "quality_exprs": [
+          "answer > 0"
+        ],
+        "steps_tpl": [
+          {
+            "do_md": "คูณก่อน: ${b} \\times {c} = {bc}$",
+            "why_md": "คูณมีลำดับก่อนบวก"
+          },
+          {
+            "do_md": "บวก: ${a} + {bc} = {answer}$",
+            "why_md": "เหลือแค่การบวก"
+          }
+        ],
+        "hints_tpl": [
+          "ต้องทำคูณหรือบวกก่อน",
+          "เริ่มจาก ${b} \\times {c}$",
+          "นำผลคูณ ${bc}$ ไปบวกกับ ${a}$"
+        ],
+        "explanation_tpl": "ตอบ ${answer}$ เพราะต้องคูณ ${b} \\times {c}$ ก่อนบวก ตัวเลือกที่ได้จากการบวกก่อนเป็นกับดักของคนที่ทำจากซ้ายไปขวา"
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.numerical.foundation.integer_arithmetic.0002",
+      "topic_ids": [
+        "tgat2.numerical.foundation.integer_arithmetic"
+      ],
+      "primary_topic_id": "tgat2.numerical.foundation.integer_arithmetic",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 30,
+      "stem_md": "$40 + 6 \\times 4 = ?$",
+      "figures": [],
+      "choices": [
+        {
+          "md": "$70$",
+          "is_answer": false
+        },
+        {
+          "md": "$64$",
+          "is_answer": true
+        },
+        {
+          "md": "$184$",
+          "is_answer": false
+        },
+        {
+          "md": "$50$",
+          "is_answer": false
+        },
+        {
+          "md": "$58$",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "คูณก่อน: $6 \\times 4 = 24$",
+          "why_md": "คูณมีลำดับก่อนบวก"
+        },
+        {
+          "do_md": "บวก: $40 + 24 = 64$",
+          "why_md": "เหลือแค่การบวก"
+        }
+      ],
+      "answer_explanation_md": "ตอบ $64$ เพราะต้องคูณ $6 \\times 4$ ก่อนบวก ตัวเลือกที่ได้จากการบวกก่อนเป็นกับดักของคนที่ทำจากซ้ายไปขวา",
+      "hints": [
+        "ต้องทำคูณหรือบวกก่อน",
+        "เริ่มจาก $6 \\times 4$",
+        "นำผลคูณ $24$ ไปบวกกับ $40$"
+      ],
+      "distractor_reasons": {
+        "0": "คูณเกินไปหนึ่งรอบ",
+        "2": "บวกก่อนคูณ ทำจากซ้ายไปขวาทั้งหมด",
+        "3": "บวกทุกตัว ไม่ได้คูณ",
+        "4": "คูณขาดไปหนึ่งรอบ"
+      },
+      "misconception_tags": [
+        "left_to_right_all"
+      ],
+      "template": {
+        "vars": [
+          {
+            "name": "a",
+            "type": "int",
+            "range": [
+              12,
+              60
+            ],
+            "step": 1
+          },
+          {
+            "name": "b",
+            "type": "int",
+            "range": [
+              3,
+              9
+            ],
+            "step": 1
+          },
+          {
+            "name": "c",
+            "type": "int",
+            "range": [
+              4,
+              9
+            ],
+            "step": 1
+          }
+        ],
+        "constraints": [
+          "(a + b)*c <= 5*(a + b*c)",
+          "a + b + c >= (a + b*c)/5",
+          "(a + b*c) > 0",
+          "((a + b)*c) > 0",
+          "(a + b + c) > 0",
+          "(a + b*(c + 1)) > 0",
+          "(a + b*(c - 1)) > 0",
+          "(a + b*c) != ((a + b)*c)",
+          "(a + b*c) != (a + b + c)",
+          "(a + b*c) != (a + b*(c + 1))",
+          "(a + b*c) != (a + b*(c - 1))",
+          "((a + b)*c) != (a + b + c)",
+          "((a + b)*c) != (a + b*(c + 1))",
+          "((a + b)*c) != (a + b*(c - 1))",
+          "(a + b + c) != (a + b*(c + 1))",
+          "(a + b + c) != (a + b*(c - 1))",
+          "(a + b*(c + 1)) != (a + b*(c - 1))",
+          "((a + b)*c) <= 5*(a + b*c)",
+          "(a + b + c) <= 5*(a + b*c)",
+          "(a + b*(c + 1)) <= 5*(a + b*c)",
+          "(a + b*(c - 1)) <= 5*(a + b*c)",
+          "5*((a + b)*c) >= (a + b*c)",
+          "5*(a + b + c) >= (a + b*c)",
+          "5*(a + b*(c + 1)) >= (a + b*c)",
+          "5*(a + b*(c - 1)) >= (a + b*c)",
+          "(a) != (a + b*c)",
+          "(b) != (a + b*c)",
+          "(bc) != (a + b*c)",
+          "(c) != (a + b*c)"
+        ],
+        "display": {
+          "bc": "b*c"
+        },
+        "stem_tpl": "${a} + {b} \\times {c} = ?$",
+        "answer_expr": "a + b*c",
+        "answer_round": null,
+        "answer_unit": null,
+        "distractors": [
+          {
+            "expr": "(a + b)*c",
+            "reason": "บวกก่อนคูณ ทำจากซ้ายไปขวาทั้งหมด"
+          },
+          {
+            "expr": "a + b + c",
+            "reason": "บวกทุกตัว ไม่ได้คูณ"
+          },
+          {
+            "expr": "a + b*(c + 1)",
+            "reason": "คูณเกินไปหนึ่งรอบ"
+          },
+          {
+            "expr": "a + b*(c - 1)",
+            "reason": "คูณขาดไปหนึ่งรอบ"
+          }
+        ],
+        "quality_rules": [
+          "ตัวเลือกทุกตัวต้องเป็นจำนวนบวกและไม่ซ้ำกัน",
+          "คำตอบคำนวณจากนิพจน์ ไม่ได้ใส่มือ"
+        ],
+        "quality_exprs": [
+          "answer > 0"
+        ],
+        "steps_tpl": [
+          {
+            "do_md": "คูณก่อน: ${b} \\times {c} = {bc}$",
+            "why_md": "คูณมีลำดับก่อนบวก"
+          },
+          {
+            "do_md": "บวก: ${a} + {bc} = {answer}$",
+            "why_md": "เหลือแค่การบวก"
+          }
+        ],
+        "hints_tpl": [
+          "ต้องทำคูณหรือบวกก่อน",
+          "เริ่มจาก ${b} \\times {c}$",
+          "นำผลคูณ ${bc}$ ไปบวกกับ ${a}$"
+        ],
+        "explanation_tpl": "ตอบ ${answer}$ เพราะต้องคูณ ${b} \\times {c}$ ก่อนบวก ตัวเลือกที่ได้จากการบวกก่อนเป็นกับดักของคนที่ทำจากซ้ายไปขวา"
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.numerical.foundation.integer_arithmetic.0003",
+      "topic_ids": [
+        "tgat2.numerical.foundation.integer_arithmetic"
+      ],
+      "primary_topic_id": "tgat2.numerical.foundation.integer_arithmetic",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 40,
+      "stem_md": "$55 \\div 5 + 3 \\times 7 = ?$",
+      "figures": [],
+      "choices": [
+        {
+          "md": "$98$",
+          "is_answer": false
+        },
+        {
+          "md": "$40$",
+          "is_answer": false
+        },
+        {
+          "md": "$21$",
+          "is_answer": false
+        },
+        {
+          "md": "$76$",
+          "is_answer": false
+        },
+        {
+          "md": "$32$",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "หาร: $55 \\div 5 = 11$",
+          "why_md": "คูณหารก่อนบวก"
+        },
+        {
+          "do_md": "คูณ: $3 \\times 7 = 21$",
+          "why_md": "คูณหารลำดับเท่ากัน ทำได้ทั้งสองคู่"
+        },
+        {
+          "do_md": "บวก: $11 + 21 = 32$",
+          "why_md": "บวกเป็นขั้นสุดท้าย"
+        }
+      ],
+      "answer_explanation_md": "ตอบ $32$ เพราะทำหารและคูณก่อน ได้ $11$ กับ $21$ แล้วจึงบวก",
+      "hints": [
+        "มีคู่คูณหารกี่คู่ในโจทย์",
+        "คำนวณ $55 \\div 5$ และ $3 \\times 7$ แยกกัน",
+        "ได้ $11$ และ $21$ แล้วค่อยบวกกัน"
+      ],
+      "distractor_reasons": {
+        "0": "ทำจากซ้ายไปขวาทั้งหมด",
+        "1": "คูณผิดคู่",
+        "2": "บวกแทนคูณ",
+        "3": "ลืมหาร"
+      },
+      "misconception_tags": [
+        "left_to_right_all"
+      ],
+      "template": {
+        "vars": [
+          {
+            "name": "b",
+            "type": "int",
+            "range": [
+              2,
+              6
+            ],
+            "step": 1
+          },
+          {
+            "name": "k",
+            "type": "int",
+            "range": [
+              3,
+              12
+            ],
+            "step": 1
+          },
+          {
+            "name": "c",
+            "type": "int",
+            "range": [
+              2,
+              8
+            ],
+            "step": 1
+          },
+          {
+            "name": "d",
+            "type": "int",
+            "range": [
+              3,
+              9
+            ],
+            "step": 1
+          }
+        ],
+        "constraints": [
+          "k != d",
+          "c != 1",
+          "b*k + c*d <= 5*(k + c*d)",
+          "(k + c)*d <= 5*(k + c*d)",
+          "(k + c*d) > 0",
+          "((k + c)*d) > 0",
+          "(k + c + d) > 0",
+          "(k*c + d) > 0",
+          "(a + c*d) > 0",
+          "(k + c*d) != ((k + c)*d)",
+          "(k + c*d) != (k + c + d)",
+          "(k + c*d) != (k*c + d)",
+          "(k + c*d) != (a + c*d)",
+          "((k + c)*d) != (k + c + d)",
+          "((k + c)*d) != (k*c + d)",
+          "((k + c)*d) != (a + c*d)",
+          "(k + c + d) != (k*c + d)",
+          "(k + c + d) != (a + c*d)",
+          "(k*c + d) != (a + c*d)",
+          "((k + c)*d) <= 5*(k + c*d)",
+          "(k + c + d) <= 5*(k + c*d)",
+          "(k*c + d) <= 5*(k + c*d)",
+          "(a + c*d) <= 5*(k + c*d)",
+          "5*((k + c)*d) >= (k + c*d)",
+          "5*(k + c + d) >= (k + c*d)",
+          "5*(k*c + d) >= (k + c*d)",
+          "5*(a + c*d) >= (k + c*d)",
+          "(a) != (k + c*d)",
+          "(b) != (k + c*d)",
+          "(c) != (k + c*d)",
+          "(cd) != (k + c*d)",
+          "(d) != (k + c*d)",
+          "(k) != (k + c*d)"
+        ],
+        "display": {
+          "a": "b*k",
+          "cd": "c*d"
+        },
+        "stem_tpl": "${a} \\div {b} + {c} \\times {d} = ?$",
+        "answer_expr": "k + c*d",
+        "answer_round": null,
+        "answer_unit": null,
+        "distractors": [
+          {
+            "expr": "(k + c)*d",
+            "reason": "ทำจากซ้ายไปขวาทั้งหมด"
+          },
+          {
+            "expr": "k + c + d",
+            "reason": "บวกแทนคูณ"
+          },
+          {
+            "expr": "k*c + d",
+            "reason": "คูณผิดคู่"
+          },
+          {
+            "expr": "a + c*d",
+            "reason": "ลืมหาร"
+          }
+        ],
+        "quality_rules": [
+          "ตัวเลือกทุกตัวต้องเป็นจำนวนบวกและไม่ซ้ำกัน",
+          "คำตอบคำนวณจากนิพจน์ ไม่ได้ใส่มือ"
+        ],
+        "quality_exprs": [
+          "answer > 0"
+        ],
+        "steps_tpl": [
+          {
+            "do_md": "หาร: ${a} \\div {b} = {k}$",
+            "why_md": "คูณหารก่อนบวก"
+          },
+          {
+            "do_md": "คูณ: ${c} \\times {d} = {cd}$",
+            "why_md": "คูณหารลำดับเท่ากัน ทำได้ทั้งสองคู่"
+          },
+          {
+            "do_md": "บวก: ${k} + {cd} = {answer}$",
+            "why_md": "บวกเป็นขั้นสุดท้าย"
+          }
+        ],
+        "hints_tpl": [
+          "มีคู่คูณหารกี่คู่ในโจทย์",
+          "คำนวณ ${a} \\div {b}$ และ ${c} \\times {d}$ แยกกัน",
+          "ได้ ${k}$ และ ${cd}$ แล้วค่อยบวกกัน"
+        ],
+        "explanation_tpl": "ตอบ ${answer}$ เพราะทำหารและคูณก่อน ได้ ${k}$ กับ ${cd}$ แล้วจึงบวก"
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.numerical.foundation.integer_arithmetic.0004",
+      "topic_ids": [
+        "tgat2.numerical.foundation.integer_arithmetic"
+      ],
+      "primary_topic_id": "tgat2.numerical.foundation.integer_arithmetic",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 45,
+      "stem_md": "$30 \\div 3 + 6 \\times 7 = ?$",
+      "figures": [],
+      "choices": [
+        {
+          "md": "$52$",
+          "is_answer": true
+        },
+        {
+          "md": "$23$",
+          "is_answer": false
+        },
+        {
+          "md": "$72$",
+          "is_answer": false
+        },
+        {
+          "md": "$67$",
+          "is_answer": false
+        },
+        {
+          "md": "$112$",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "หาร: $30 \\div 3 = 10$",
+          "why_md": "คูณหารก่อนบวก"
+        },
+        {
+          "do_md": "คูณ: $6 \\times 7 = 42$",
+          "why_md": "คูณหารลำดับเท่ากัน ทำได้ทั้งสองคู่"
+        },
+        {
+          "do_md": "บวก: $10 + 42 = 52$",
+          "why_md": "บวกเป็นขั้นสุดท้าย"
+        }
+      ],
+      "answer_explanation_md": "ตอบ $52$ เพราะทำหารและคูณก่อน ได้ $10$ กับ $42$ แล้วจึงบวก",
+      "hints": [
+        "มีคู่คูณหารกี่คู่ในโจทย์",
+        "คำนวณ $30 \\div 3$ และ $6 \\times 7$ แยกกัน",
+        "ได้ $10$ และ $42$ แล้วค่อยบวกกัน"
+      ],
+      "distractor_reasons": {
+        "1": "บวกแทนคูณ",
+        "2": "ลืมหาร",
+        "3": "คูณผิดคู่",
+        "4": "ทำจากซ้ายไปขวาทั้งหมด"
+      },
+      "misconception_tags": [
+        "left_to_right_all"
+      ],
+      "template": {
+        "vars": [
+          {
+            "name": "b",
+            "type": "int",
+            "range": [
+              2,
+              6
+            ],
+            "step": 1
+          },
+          {
+            "name": "k",
+            "type": "int",
+            "range": [
+              3,
+              12
+            ],
+            "step": 1
+          },
+          {
+            "name": "c",
+            "type": "int",
+            "range": [
+              2,
+              8
+            ],
+            "step": 1
+          },
+          {
+            "name": "d",
+            "type": "int",
+            "range": [
+              3,
+              9
+            ],
+            "step": 1
+          }
+        ],
+        "constraints": [
+          "k != d",
+          "c != 1",
+          "b*k + c*d <= 5*(k + c*d)",
+          "(k + c)*d <= 5*(k + c*d)",
+          "(k + c*d) > 0",
+          "((k + c)*d) > 0",
+          "(k + c + d) > 0",
+          "(k*c + d) > 0",
+          "(a + c*d) > 0",
+          "(k + c*d) != ((k + c)*d)",
+          "(k + c*d) != (k + c + d)",
+          "(k + c*d) != (k*c + d)",
+          "(k + c*d) != (a + c*d)",
+          "((k + c)*d) != (k + c + d)",
+          "((k + c)*d) != (k*c + d)",
+          "((k + c)*d) != (a + c*d)",
+          "(k + c + d) != (k*c + d)",
+          "(k + c + d) != (a + c*d)",
+          "(k*c + d) != (a + c*d)",
+          "((k + c)*d) <= 5*(k + c*d)",
+          "(k + c + d) <= 5*(k + c*d)",
+          "(k*c + d) <= 5*(k + c*d)",
+          "(a + c*d) <= 5*(k + c*d)",
+          "5*((k + c)*d) >= (k + c*d)",
+          "5*(k + c + d) >= (k + c*d)",
+          "5*(k*c + d) >= (k + c*d)",
+          "5*(a + c*d) >= (k + c*d)",
+          "(a) != (k + c*d)",
+          "(b) != (k + c*d)",
+          "(c) != (k + c*d)",
+          "(cd) != (k + c*d)",
+          "(d) != (k + c*d)",
+          "(k) != (k + c*d)"
+        ],
+        "display": {
+          "a": "b*k",
+          "cd": "c*d"
+        },
+        "stem_tpl": "${a} \\div {b} + {c} \\times {d} = ?$",
+        "answer_expr": "k + c*d",
+        "answer_round": null,
+        "answer_unit": null,
+        "distractors": [
+          {
+            "expr": "(k + c)*d",
+            "reason": "ทำจากซ้ายไปขวาทั้งหมด"
+          },
+          {
+            "expr": "k + c + d",
+            "reason": "บวกแทนคูณ"
+          },
+          {
+            "expr": "k*c + d",
+            "reason": "คูณผิดคู่"
+          },
+          {
+            "expr": "a + c*d",
+            "reason": "ลืมหาร"
+          }
+        ],
+        "quality_rules": [
+          "ตัวเลือกทุกตัวต้องเป็นจำนวนบวกและไม่ซ้ำกัน",
+          "คำตอบคำนวณจากนิพจน์ ไม่ได้ใส่มือ"
+        ],
+        "quality_exprs": [
+          "answer > 0"
+        ],
+        "steps_tpl": [
+          {
+            "do_md": "หาร: ${a} \\div {b} = {k}$",
+            "why_md": "คูณหารก่อนบวก"
+          },
+          {
+            "do_md": "คูณ: ${c} \\times {d} = {cd}$",
+            "why_md": "คูณหารลำดับเท่ากัน ทำได้ทั้งสองคู่"
+          },
+          {
+            "do_md": "บวก: ${k} + {cd} = {answer}$",
+            "why_md": "บวกเป็นขั้นสุดท้าย"
+          }
+        ],
+        "hints_tpl": [
+          "มีคู่คูณหารกี่คู่ในโจทย์",
+          "คำนวณ ${a} \\div {b}$ และ ${c} \\times {d}$ แยกกัน",
+          "ได้ ${k}$ และ ${cd}$ แล้วค่อยบวกกัน"
+        ],
+        "explanation_tpl": "ตอบ ${answer}$ เพราะทำหารและคูณก่อน ได้ ${k}$ กับ ${cd}$ แล้วจึงบวก"
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.numerical.foundation.integer_arithmetic.0005",
+      "topic_ids": [
+        "tgat2.numerical.foundation.integer_arithmetic"
+      ],
+      "primary_topic_id": "tgat2.numerical.foundation.integer_arithmetic",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 35,
+      "stem_md": "$48 - (20 - 3) = ?$",
+      "figures": [],
+      "choices": [
+        {
+          "md": "$28$",
+          "is_answer": false
+        },
+        {
+          "md": "$25$",
+          "is_answer": false
+        },
+        {
+          "md": "$31$",
+          "is_answer": true
+        },
+        {
+          "md": "$45$",
+          "is_answer": false
+        },
+        {
+          "md": "$65$",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ทำในวงเล็บก่อน: $20 - 3 = 17$",
+          "why_md": "วงเล็บมีลำดับแรก"
+        },
+        {
+          "do_md": "ลบ: $48 - 17 = 31$",
+          "why_md": "นำผลในวงเล็บไปลบ"
+        }
+      ],
+      "answer_explanation_md": "ตอบ $31$ เพราะในวงเล็บได้ $17$ แล้ว $48 - 17$ ถ้ากระจายลบเข้าวงเล็บต้องกลับเครื่องหมาย $-3$ เป็น $+3$",
+      "hints": [
+        "ทำในวงเล็บก่อน",
+        "$20 - 3$ ได้เท่าไร",
+        "นำผลไปลบออกจาก $48$"
+      ],
+      "distractor_reasons": {
+        "0": "ลืมตัวที่สองในวงเล็บ",
+        "1": "ไม่กลับเครื่องหมายเมื่อกระจายลบเข้าวงเล็บ",
+        "3": "ลืมตัวแรกในวงเล็บ",
+        "4": "กลับเครื่องหมายผิดตัว"
+      },
+      "misconception_tags": [
+        "negative_bracket_sign"
+      ],
+      "template": {
+        "vars": [
+          {
+            "name": "a",
+            "type": "int",
+            "range": [
+              40,
+              95
+            ],
+            "step": 1
+          },
+          {
+            "name": "b",
+            "type": "int",
+            "range": [
+              8,
+              25
+            ],
+            "step": 1
+          },
+          {
+            "name": "c",
+            "type": "int",
+            "range": [
+              3,
+              7
+            ],
+            "step": 1
+          }
+        ],
+        "constraints": [
+          "b > c + 2",
+          "a > b + c + 10",
+          "(a - b + c) > 0",
+          "(a - b - c) > 0",
+          "(a + b - c) > 0",
+          "(a - b) > 0",
+          "(a - c) > 0",
+          "(a - b + c) != (a - b - c)",
+          "(a - b + c) != (a + b - c)",
+          "(a - b + c) != (a - b)",
+          "(a - b + c) != (a - c)",
+          "(a - b - c) != (a + b - c)",
+          "(a - b - c) != (a - b)",
+          "(a - b - c) != (a - c)",
+          "(a + b - c) != (a - b)",
+          "(a + b - c) != (a - c)",
+          "(a - b) != (a - c)",
+          "(a - b - c) <= 5*(a - b + c)",
+          "(a + b - c) <= 5*(a - b + c)",
+          "(a - b) <= 5*(a - b + c)",
+          "(a - c) <= 5*(a - b + c)",
+          "5*(a - b - c) >= (a - b + c)",
+          "5*(a + b - c) >= (a - b + c)",
+          "5*(a - b) >= (a - b + c)",
+          "5*(a - c) >= (a - b + c)",
+          "(a) != (a - b + c)",
+          "(b) != (a - b + c)",
+          "(c) != (a - b + c)"
+        ],
+        "display": {
+          "bc": "b - c"
+        },
+        "stem_tpl": "${a} - ({b} - {c}) = ?$",
+        "answer_expr": "a - b + c",
+        "answer_round": null,
+        "answer_unit": null,
+        "distractors": [
+          {
+            "expr": "a - b - c",
+            "reason": "ไม่กลับเครื่องหมายเมื่อกระจายลบเข้าวงเล็บ"
+          },
+          {
+            "expr": "a + b - c",
+            "reason": "กลับเครื่องหมายผิดตัว"
+          },
+          {
+            "expr": "a - b",
+            "reason": "ลืมตัวที่สองในวงเล็บ"
+          },
+          {
+            "expr": "a - c",
+            "reason": "ลืมตัวแรกในวงเล็บ"
+          }
+        ],
+        "quality_rules": [
+          "ตัวเลือกทุกตัวต้องเป็นจำนวนบวกและไม่ซ้ำกัน",
+          "คำตอบคำนวณจากนิพจน์ ไม่ได้ใส่มือ"
+        ],
+        "quality_exprs": [
+          "answer > 0"
+        ],
+        "steps_tpl": [
+          {
+            "do_md": "ทำในวงเล็บก่อน: ${b} - {c} = {bc}$",
+            "why_md": "วงเล็บมีลำดับแรก"
+          },
+          {
+            "do_md": "ลบ: ${a} - {bc} = {answer}$",
+            "why_md": "นำผลในวงเล็บไปลบ"
+          }
+        ],
+        "hints_tpl": [
+          "ทำในวงเล็บก่อน",
+          "${b} - {c}$ ได้เท่าไร",
+          "นำผลไปลบออกจาก ${a}$"
+        ],
+        "explanation_tpl": "ตอบ ${answer}$ เพราะในวงเล็บได้ ${bc}$ แล้ว ${a} - {bc}$ ถ้ากระจายลบเข้าวงเล็บต้องกลับเครื่องหมาย $-{c}$ เป็น $+{c}$"
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.numerical.foundation.integer_arithmetic.0006",
+      "topic_ids": [
+        "tgat2.numerical.foundation.integer_arithmetic"
+      ],
+      "primary_topic_id": "tgat2.numerical.foundation.integer_arithmetic",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 40,
+      "stem_md": "$61 - (23 - 4) = ?$",
+      "figures": [],
+      "choices": [
+        {
+          "md": "$42$",
+          "is_answer": true
+        },
+        {
+          "md": "$57$",
+          "is_answer": false
+        },
+        {
+          "md": "$34$",
+          "is_answer": false
+        },
+        {
+          "md": "$80$",
+          "is_answer": false
+        },
+        {
+          "md": "$38$",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ทำในวงเล็บก่อน: $23 - 4 = 19$",
+          "why_md": "วงเล็บมีลำดับแรก"
+        },
+        {
+          "do_md": "ลบ: $61 - 19 = 42$",
+          "why_md": "นำผลในวงเล็บไปลบ"
+        }
+      ],
+      "answer_explanation_md": "ตอบ $42$ เพราะในวงเล็บได้ $19$ แล้ว $61 - 19$ ถ้ากระจายลบเข้าวงเล็บต้องกลับเครื่องหมาย $-4$ เป็น $+4$",
+      "hints": [
+        "ทำในวงเล็บก่อน",
+        "$23 - 4$ ได้เท่าไร",
+        "นำผลไปลบออกจาก $61$"
+      ],
+      "distractor_reasons": {
+        "1": "ลืมตัวแรกในวงเล็บ",
+        "2": "ไม่กลับเครื่องหมายเมื่อกระจายลบเข้าวงเล็บ",
+        "3": "กลับเครื่องหมายผิดตัว",
+        "4": "ลืมตัวที่สองในวงเล็บ"
+      },
+      "misconception_tags": [
+        "negative_bracket_sign"
+      ],
+      "template": {
+        "vars": [
+          {
+            "name": "a",
+            "type": "int",
+            "range": [
+              40,
+              95
+            ],
+            "step": 1
+          },
+          {
+            "name": "b",
+            "type": "int",
+            "range": [
+              8,
+              25
+            ],
+            "step": 1
+          },
+          {
+            "name": "c",
+            "type": "int",
+            "range": [
+              3,
+              7
+            ],
+            "step": 1
+          }
+        ],
+        "constraints": [
+          "b > c + 2",
+          "a > b + c + 10",
+          "(a - b + c) > 0",
+          "(a - b - c) > 0",
+          "(a + b - c) > 0",
+          "(a - b) > 0",
+          "(a - c) > 0",
+          "(a - b + c) != (a - b - c)",
+          "(a - b + c) != (a + b - c)",
+          "(a - b + c) != (a - b)",
+          "(a - b + c) != (a - c)",
+          "(a - b - c) != (a + b - c)",
+          "(a - b - c) != (a - b)",
+          "(a - b - c) != (a - c)",
+          "(a + b - c) != (a - b)",
+          "(a + b - c) != (a - c)",
+          "(a - b) != (a - c)",
+          "(a - b - c) <= 5*(a - b + c)",
+          "(a + b - c) <= 5*(a - b + c)",
+          "(a - b) <= 5*(a - b + c)",
+          "(a - c) <= 5*(a - b + c)",
+          "5*(a - b - c) >= (a - b + c)",
+          "5*(a + b - c) >= (a - b + c)",
+          "5*(a - b) >= (a - b + c)",
+          "5*(a - c) >= (a - b + c)",
+          "(a) != (a - b + c)",
+          "(b) != (a - b + c)",
+          "(c) != (a - b + c)"
+        ],
+        "display": {
+          "bc": "b - c"
+        },
+        "stem_tpl": "${a} - ({b} - {c}) = ?$",
+        "answer_expr": "a - b + c",
+        "answer_round": null,
+        "answer_unit": null,
+        "distractors": [
+          {
+            "expr": "a - b - c",
+            "reason": "ไม่กลับเครื่องหมายเมื่อกระจายลบเข้าวงเล็บ"
+          },
+          {
+            "expr": "a + b - c",
+            "reason": "กลับเครื่องหมายผิดตัว"
+          },
+          {
+            "expr": "a - b",
+            "reason": "ลืมตัวที่สองในวงเล็บ"
+          },
+          {
+            "expr": "a - c",
+            "reason": "ลืมตัวแรกในวงเล็บ"
+          }
+        ],
+        "quality_rules": [
+          "ตัวเลือกทุกตัวต้องเป็นจำนวนบวกและไม่ซ้ำกัน",
+          "คำตอบคำนวณจากนิพจน์ ไม่ได้ใส่มือ"
+        ],
+        "quality_exprs": [
+          "answer > 0"
+        ],
+        "steps_tpl": [
+          {
+            "do_md": "ทำในวงเล็บก่อน: ${b} - {c} = {bc}$",
+            "why_md": "วงเล็บมีลำดับแรก"
+          },
+          {
+            "do_md": "ลบ: ${a} - {bc} = {answer}$",
+            "why_md": "นำผลในวงเล็บไปลบ"
+          }
+        ],
+        "hints_tpl": [
+          "ทำในวงเล็บก่อน",
+          "${b} - {c}$ ได้เท่าไร",
+          "นำผลไปลบออกจาก ${a}$"
+        ],
+        "explanation_tpl": "ตอบ ${answer}$ เพราะในวงเล็บได้ ${bc}$ แล้ว ${a} - {bc}$ ถ้ากระจายลบเข้าวงเล็บต้องกลับเครื่องหมาย $-{c}$ เป็น $+{c}$"
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    }
+  ],
+  "generated_from": "content/tgat2/numerical_foundation.py"
+}

@@ -1,0 +1,100 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tgat1.reading.comprehension.text_organization",
+  "title": "โครงเรื่องและหน้าที่ของแต่ละย่อหน้า",
+  "subtitle": "บทอ่านมีโครงสร้างที่ใช้บ่อยไม่กี่แบบ รู้โครงสร้างแล้วจะตอบได้ว่าย่อหน้านี้ทำหน้าที่อะไร และประโยคที่หายไปควรอยู่ตรงไหน",
+  "prereq_topic_ids": [
+    "tgat1.reading.comprehension.purpose_tone"
+  ],
+  "objectives": [
+    "ระบุโครงสร้างบทอ่านที่ใช้บ่อย",
+    "บอกหน้าที่ของประโยคหรือย่อหน้า",
+    "วางประโยคที่หายไปในตำแหน่งที่เหมาะสม"
+  ],
+  "est_minutes": 25,
+  "blocks": [
+    {
+      "type": "hook",
+      "body_md": "คำถาม \"Why does the writer mention the study?\" ไม่ได้ถามว่าการศึกษาพูดถึงอะไร แต่ถามว่า **ผู้เขียนใส่ไว้เพื่ออะไร** คำตอบมักเป็น 'เพื่อเป็นหลักฐานสนับสนุน'"
+    },
+    {
+      "type": "concept",
+      "heading": "โครงสร้างที่ใช้บ่อย",
+      "body_md": "| โครงสร้าง | สัญญาณ |\n|---|---|\n| **ปัญหา → ทางแก้** | problem, however, one solution |\n| **เหตุ → ผล** | because, as a result, led to |\n| **เปรียบเทียบ** | similarly, on the other hand, while |\n| **ลำดับเวลา** | first, then, in 2015, today |\n| **ข้อความ → หลักฐาน** | research shows, for example, in one study |"
+    },
+    {
+      "type": "concept",
+      "heading": "หน้าที่ของประโยค",
+      "body_md": "- ประโยคแรก: แนะนำหัวข้อ / ตั้งคำถาม / บอกความเชื่อที่ผิด\n- ตัวอย่างหรือสถิติ: **สนับสนุน** ข้อความก่อนหน้า\n- However...: **แย้ง** หรือแนะนำอีกมุม\n- ประโยคสุดท้าย: สรุป / แนะนำ / มองไปข้างหน้า"
+    },
+    {
+      "type": "formula",
+      "name": "ถาม 'ถ้าลบประโยคนี้ออก เสียอะไร'",
+      "formula_tex": "",
+      "variables": [],
+      "use_when": "ข้อ Why does the writer mention... / What is the function of paragraph 2",
+      "avoid_when": "อย่าตอบว่าประโยคพูดถึงอะไร ต้องตอบว่าประโยคทำหน้าที่อะไร",
+      "derivation_md": "ถ้าลบตัวอย่างออกแล้วข้อความก่อนหน้าไม่มีน้ำหนัก = หน้าที่คือสนับสนุน ถ้าลบแล้วเรื่องไม่มีทางแก้ = หน้าที่คือเสนอทางแก้",
+      "memory_tip": "ถามว่า 'ใส่ไว้เพื่ออะไร' ไม่ใช่ 'พูดถึงอะไร'"
+    },
+    {
+      "type": "example",
+      "label": "ตัวอย่างที่ 1",
+      "difficulty": 2,
+      "stem_md": "ใน Sleep and Learning ผู้เขียนเล่าถึงกิจกรรมในชั้นเรียนที่ให้นักเรียนสองกลุ่มจำคำศัพท์ ทำไม",
+      "steps": [
+        {
+          "do_md": "ข้อความก่อนหน้า: การนอนช่วยการจำ",
+          "why_md": "กิจกรรมแสดงผลที่ตรงกัน"
+        },
+        {
+          "do_md": "ถ้าลบกิจกรรมออก ข้อความมีตัวอย่างสนับสนุนน้อยลง",
+          "why_md": "หน้าที่: สนับสนุนข้อความ"
+        }
+      ],
+      "answer_md": "To support the idea that sleep helps memory",
+      "figures": []
+    },
+    {
+      "type": "pitfall",
+      "title": "ตอบเนื้อหาแทนหน้าที่",
+      "wrong_md": "ถามว่าทำไมผู้เขียนพูดถึงการศึกษา → ตอบ 'to show that students learned a list of words'",
+      "why_wrong_md": "นั่นคือเนื้อหาของการศึกษา ไม่ใช่เหตุผลที่ผู้เขียนใส่ไว้",
+      "correct_md": "to provide evidence that sleep improves memory",
+      "misconception_tag": "content_not_function"
+    },
+    {
+      "type": "summary",
+      "bullets_md": [
+        "โครงสร้าง: ปัญหา-ทางแก้ · เหตุ-ผล · เปรียบเทียบ · ลำดับเวลา · ข้อความ-หลักฐาน",
+        "ตัวอย่างและสถิติมักทำหน้าที่สนับสนุน",
+        "ตอบว่าใส่ไว้เพื่ออะไร ไม่ใช่พูดถึงอะไร"
+      ]
+    },
+    {
+      "type": "check",
+      "question_md": "\"Some people think coffee is bad for health. However, recent studies show moderate drinking may have benefits.\" How is this organized?",
+      "choices": [
+        "Problem and solution",
+        "Common belief then a different view",
+        "Time order",
+        "A list of examples"
+      ],
+      "answer_index": 1,
+      "explain_md": "เริ่มด้วยความเชื่อทั่วไป แล้วใช้ However นำเสนอมุมที่ต่าง"
+    }
+  ],
+  "glossary": [],
+  "common_exam_patterns": [
+    "Why does the writer mention...?",
+    "How is the passage organized?",
+    "Where does the sentence best fit?"
+  ],
+  "next_topic_ids": [],
+  "sources": [
+    "ผังการสอบ TGAT1 จาก mytcas.com (พาร์ทการอ่าน)",
+    "บทอ่านแต่งขึ้นใหม่เพื่อการฝึก"
+  ],
+  "review_status": "ai_draft",
+  "generated_from": "content/tgat1/reading.py"
+}

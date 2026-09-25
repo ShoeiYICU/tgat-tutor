@@ -1,0 +1,95 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tgat1.speaking.long_conversation.problem_solution",
+  "title": "บทสนทนาแก้ปัญหาและการต่อรอง",
+  "subtitle": "บทสนทนาแก้ปัญหามีรูปแบบ: แจ้งปัญหา → เสนอทางแก้ → ต่อรอง → ตกลง ต้องติดตามว่าข้อเสนอไหนถูกรับ ข้อไหนถูกปฏิเสธ",
+  "prereq_topic_ids": [
+    "tgat1.speaking.long_conversation.register_formality"
+  ],
+  "objectives": [
+    "ติดตามลำดับ แจ้งปัญหา เสนอ ต่อรอง ตกลง",
+    "รู้วลีเสนอทางแก้และต่อรอง",
+    "เลือกคำตอบที่สอดคล้องกับข้อตกลงสุดท้าย"
+  ],
+  "est_minutes": 25,
+  "blocks": [
+    {
+      "type": "hook",
+      "body_md": "ในบทสนทนาต่อรอง ข้อเสนอแรกมักไม่ใช่ข้อตกลงสุดท้าย ตัวลวงคือตัวเลือกที่ **ใช้ข้อเสนอที่ถูกปฏิเสธไปแล้ว**"
+    },
+    {
+      "type": "concept",
+      "heading": "วลีที่ใช้บ่อย",
+      "body_md": "**เสนอทางแก้:** How about...? / What if we...? / Why don't we...? / Could we...?\n\n**ต่อรอง:** That's a bit too... Could you...? / Would you accept...? / Can you do it for...?\n\n**ประนีประนอม:** Let's meet halfway. / How about we split the difference?\n\n**ตกลง:** It's a deal. / That works for me. / Fair enough."
+    },
+    {
+      "type": "formula",
+      "name": "จดข้อเสนอและสถานะ",
+      "formula_tex": "",
+      "variables": [],
+      "use_when": "บทสนทนาที่มีการเสนอหลายรอบ เช่น ต่อราคา ต่อเวลา",
+      "avoid_when": "ไม่ต้องจดทุกคำ จดแค่ตัวเลขหรือข้อเสนอและว่าถูกรับหรือปฏิเสธ",
+      "derivation_md": "เช่น 500 (ปฏิเสธ) → 400 (ปฏิเสธ) → 450 (ตกลง) คำตอบในช่องว่างช่วงท้ายต้องใช้ข้อตกลงสุดท้าย",
+      "memory_tip": "ข้อเสนอ → ปฏิเสธ/รับ → ข้อตกลงสุดท้าย"
+    },
+    {
+      "type": "example",
+      "label": "ตัวอย่างที่ 1",
+      "difficulty": 2,
+      "stem_md": "**A:** How much is this lamp?  \n**B:** 800 baht.  \n**A:** Could you do 600?  \n**B:** Sorry, I can't. How about 700?  \n**A:** ______",
+      "steps": [
+        {
+          "do_md": "800 → A ขอ 600 → B ปฏิเสธแต่เสนอ 700",
+          "why_md": "ข้อเสนอล่าสุดคือ 700"
+        },
+        {
+          "do_md": "ตอบรับข้อเสนอล่าสุด",
+          "why_md": "\"OK, 700 it is.\""
+        }
+      ],
+      "answer_md": "\"OK, 700 it is.\"",
+      "figures": []
+    },
+    {
+      "type": "pitfall",
+      "title": "ใช้ข้อเสนอที่ถูกปฏิเสธ",
+      "wrong_md": "A ตอบ \"Great, I'll take it for 600.\"",
+      "why_wrong_md": "600 ถูกปฏิเสธไปแล้ว",
+      "correct_md": "ตอบรับหรือต่อรองจากข้อเสนอล่าสุด 700",
+      "misconception_tag": "use_rejected_offer"
+    },
+    {
+      "type": "summary",
+      "bullets_md": [
+        "ลำดับ: ปัญหา → เสนอ → ต่อรอง → ตกลง",
+        "จดข้อเสนอและสถานะ",
+        "ตัวลวงใช้ข้อเสนอที่ถูกปฏิเสธไปแล้ว"
+      ]
+    },
+    {
+      "type": "check",
+      "question_md": "**A:** The printer is broken again.  \n**B:** Should we buy a new one?  \n**A:** That's too expensive. ______  \n**B:** Good idea. I'll call the technician.",
+      "choices": [
+        "Let's buy two new ones.",
+        "What if we just get it repaired?",
+        "Let's stop printing.",
+        "Why is it broken?"
+      ],
+      "answer_index": 1,
+      "explain_md": "B ตอบว่าจะโทรหาช่าง แปลว่า A เสนอให้ซ่อม"
+    }
+  ],
+  "glossary": [],
+  "common_exam_patterns": [
+    "ต่อราคาสินค้า",
+    "ต่อรองเวลาทำงาน",
+    "หาทางแก้ปัญหาอุปกรณ์เสีย"
+  ],
+  "next_topic_ids": [],
+  "sources": [
+    "ผังการสอบ TGAT1 จาก mytcas.com (พาร์ทการพูด)",
+    "บทสนทนาแต่งขึ้นใหม่เพื่อการฝึก"
+  ],
+  "review_status": "ai_draft",
+  "generated_from": "content/tgat1/speaking_conv.py"
+}

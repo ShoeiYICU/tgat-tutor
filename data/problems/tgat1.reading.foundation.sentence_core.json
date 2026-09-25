@@ -1,0 +1,593 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tgat1.reading.foundation.sentence_core",
+  "problems": [
+    {
+      "id": "prob.tgat1.reading.foundation.sentence_core.0001",
+      "topic_ids": [
+        "tgat1.reading.foundation.sentence_core"
+      ],
+      "primary_topic_id": "tgat1.reading.foundation.sentence_core",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 35,
+      "stem_md": "The idea for the garden, which came from a group of students, ______ very popular with the neighbors.",
+      "figures": [],
+      "choices": [
+        {
+          "md": "were",
+          "is_answer": false
+        },
+        {
+          "md": "have been",
+          "is_answer": false
+        },
+        {
+          "md": "was",
+          "is_answer": true
+        },
+        {
+          "md": "being",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "วงเล็บ: (for the garden) (which came from a group of students)",
+          "why_md": "เหลือ The idea ___ very popular"
+        },
+        {
+          "do_md": "ประธานเอกพจน์ อดีต",
+          "why_md": "was"
+        }
+      ],
+      "answer_explanation_md": "ตอบ was เพราะประธานจริงคือ The idea ซึ่งเป็นเอกพจน์",
+      "hints": [
+        "วงเล็บส่วนที่เป็นวลีบุพบทและอนุประโยค which",
+        "ประธานจริงคืออะไร",
+        "ประธานเป็นเอกพจน์หรือพหูพจน์"
+      ],
+      "distractor_reasons": {
+        "0": "ประธานจริงคือ The idea (เอกพจน์) ไม่ใช่ students",
+        "1": "ประธานเอกพจน์ต้องใช้ has",
+        "3": "ไม่ใช่กริยาแท้"
+      },
+      "misconception_tags": [
+        "nearest_noun_subject"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.reading.foundation.sentence_core.0002",
+      "topic_ids": [
+        "tgat1.reading.foundation.sentence_core"
+      ],
+      "primary_topic_id": "tgat1.reading.foundation.sentence_core",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 35,
+      "stem_md": "Each of the vendors at the floating market ______ a small wooden boat.",
+      "figures": [],
+      "choices": [
+        {
+          "md": "are owning",
+          "is_answer": false
+        },
+        {
+          "md": "owns",
+          "is_answer": true
+        },
+        {
+          "md": "have owned",
+          "is_answer": false
+        },
+        {
+          "md": "own",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ประธาน: Each (of the vendors)",
+          "why_md": "Each เป็นเอกพจน์"
+        },
+        {
+          "do_md": "present simple เอกพจน์",
+          "why_md": "owns"
+        }
+      ],
+      "answer_explanation_md": "ตอบ owns เพราะประธานคือ Each ซึ่งเป็นเอกพจน์ vendors อยู่ในวลีบุพบทจึงไม่ใช่ประธาน",
+      "hints": [
+        "ประธานของประโยคคือคำไหน",
+        "Each ถือเป็นเอกพจน์หรือพหูพจน์",
+        "vendors เป็นแค่ส่วนขยายหรือประธาน"
+      ],
+      "distractor_reasons": {
+        "0": "own ไม่ใช้รูป continuous และประธานเอกพจน์",
+        "2": "ประธานเอกพจน์ต้องใช้ has",
+        "3": "Each เป็นเอกพจน์เสมอ"
+      },
+      "misconception_tags": [
+        "nearest_noun_subject"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.reading.foundation.sentence_core.0003",
+      "topic_ids": [
+        "tgat1.reading.foundation.sentence_core"
+      ],
+      "primary_topic_id": "tgat1.reading.foundation.sentence_core",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 35,
+      "stem_md": "Read the sentence: \"Students who sleep less than six hours a night often find it harder to concentrate.\" What is the main verb of the sentence?",
+      "figures": [],
+      "choices": [
+        {
+          "md": "sleep",
+          "is_answer": false
+        },
+        {
+          "md": "concentrate",
+          "is_answer": false
+        },
+        {
+          "md": "find",
+          "is_answer": true
+        },
+        {
+          "md": "harder",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "วงเล็บ: (who sleep less than six hours a night)",
+          "why_md": "เหลือ Students often find it harder to concentrate"
+        },
+        {
+          "do_md": "กริยาหลักของ Students",
+          "why_md": "find"
+        }
+      ],
+      "answer_explanation_md": "ตอบ find เพราะเมื่อตัดอนุประโยค who ออก เหลือ Students often find it harder ซึ่ง find เป็นกริยาหลัก",
+      "hints": [
+        "วงเล็บอนุประโยค who ออก",
+        "เหลือประธานอะไรและกริยาอะไร",
+        "กริยาหลังคำว่า to เป็นกริยาหลักไหม"
+      ],
+      "distractor_reasons": {
+        "0": "เป็นกริยาในอนุประโยค who ไม่ใช่กริยาหลัก",
+        "1": "อยู่หลัง to เป็น infinitive",
+        "3": "เป็นคุณศัพท์"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.reading.foundation.sentence_core.0004",
+      "topic_ids": [
+        "tgat1.reading.foundation.sentence_core"
+      ],
+      "primary_topic_id": "tgat1.reading.foundation.sentence_core",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 40,
+      "stem_md": "Last month, Mr. Somsak, a farmer who has grown rice for thirty years, ______ the students how to make compost.",
+      "figures": [],
+      "choices": [
+        {
+          "md": "have taught",
+          "is_answer": false
+        },
+        {
+          "md": "teaching",
+          "is_answer": false
+        },
+        {
+          "md": "teach",
+          "is_answer": false
+        },
+        {
+          "md": "taught",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "วงเล็บวลีในจุลภาค: (a farmer who has grown rice for thirty years)",
+          "why_md": "เหลือ Last month, Mr. Somsak ___ the students"
+        },
+        {
+          "do_md": "Last month บอกอดีตและต้องการกริยาแท้",
+          "why_md": "taught"
+        }
+      ],
+      "answer_explanation_md": "ตอบ taught เพราะ Last month บอกอดีต และเมื่อตัดวลีในจุลภาคออก เหลือ Mr. Somsak เป็นประธานของกริยา",
+      "hints": [
+        "วงเล็บส่วนที่อยู่ในจุลภาค",
+        "ประธานคือใคร",
+        "คำว่า Last month บอกให้ใช้กาลอะไร"
+      ],
+      "distractor_reasons": {
+        "0": "ประธานเอกพจน์ต้องใช้ has",
+        "1": "ไม่ใช่กริยาแท้",
+        "2": "ประธานเอกพจน์ใน present ต้องเป็น teaches และบริบทเป็นการเล่าอดีต"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.reading.foundation.sentence_core.0005",
+      "topic_ids": [
+        "tgat1.reading.foundation.sentence_core"
+      ],
+      "primary_topic_id": "tgat1.reading.foundation.sentence_core",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 4,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 2,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 40,
+      "stem_md": "The results of the study, published in a well-known journal last year, ______ that sleep improves memory.",
+      "figures": [],
+      "choices": [
+        {
+          "md": "suggest",
+          "is_answer": true
+        },
+        {
+          "md": "is suggested",
+          "is_answer": false
+        },
+        {
+          "md": "suggesting",
+          "is_answer": false
+        },
+        {
+          "md": "suggests",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "วงเล็บ: (of the study) (published in a well-known journal last year)",
+          "why_md": "เหลือ The results ___ that..."
+        },
+        {
+          "do_md": "ประธานพหูพจน์",
+          "why_md": "suggest"
+        }
+      ],
+      "answer_explanation_md": "ตอบ suggest เพราะประธานจริงคือ The results ซึ่งเป็นพหูพจน์ study อยู่ในวลีบุพบท",
+      "hints": [
+        "วงเล็บวลีบุพบทและวลี V3",
+        "ประธานจริงคืออะไร เอกพจน์หรือพหูพจน์",
+        "study อยู่ใกล้กริยา แต่เป็นประธานไหม"
+      ],
+      "distractor_reasons": {
+        "1": "passive และเอกพจน์ ไม่ถูก",
+        "2": "ไม่ใช่กริยาแท้",
+        "3": "ประธานจริงคือ The results (พหูพจน์)"
+      },
+      "misconception_tags": [
+        "nearest_noun_subject"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.reading.foundation.sentence_core.0006",
+      "topic_ids": [
+        "tgat1.reading.foundation.sentence_core"
+      ],
+      "primary_topic_id": "tgat1.reading.foundation.sentence_core",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 40,
+      "stem_md": "Read the sentence: \"The garden, which was once a rubbish dump, has become a place where older and younger people share knowledge.\" What is the core meaning?",
+      "figures": [],
+      "choices": [
+        {
+          "md": "The garden has become a place for sharing knowledge.",
+          "is_answer": true
+        },
+        {
+          "md": "The garden was a rubbish dump.",
+          "is_answer": false
+        },
+        {
+          "md": "Older people are younger than before.",
+          "is_answer": false
+        },
+        {
+          "md": "People dump rubbish in the garden.",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "วงเล็บ: (which was once a rubbish dump)",
+          "why_md": "เหลือ The garden has become a place..."
+        },
+        {
+          "do_md": "แก่นประโยค",
+          "why_md": "The garden has become a place for sharing knowledge."
+        }
+      ],
+      "answer_explanation_md": "ตอบ The garden has become a place for sharing knowledge. เพราะเป็นแก่นประโยคหลังตัดอนุประโยค which ออก",
+      "hints": [
+        "วงเล็บอนุประโยค which",
+        "เหลือประธานและกริยาอะไร",
+        "อนุประโยค which เป็นข้อมูลเสริมหรือแก่น"
+      ],
+      "distractor_reasons": {
+        "1": "เป็นข้อมูลในอนุประโยค which ไม่ใช่แก่นประโยค",
+        "2": "ตีความผิด",
+        "3": "ขัดกับความหมาย ปัจจุบันเป็นสวนแล้ว"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.reading.foundation.sentence_core.0007",
+      "topic_ids": [
+        "tgat1.reading.foundation.sentence_core"
+      ],
+      "primary_topic_id": "tgat1.reading.foundation.sentence_core",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 55,
+      "stem_md": "The list of items requested by the shelters ______ posted every Monday.",
+      "figures": [],
+      "choices": [
+        {
+          "md": "are",
+          "is_answer": false
+        },
+        {
+          "md": "is",
+          "is_answer": true
+        },
+        {
+          "md": "have",
+          "is_answer": false
+        },
+        {
+          "md": "were",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ระบุสิ่งที่โจทย์ถาม",
+          "why_md": "ประธานแก่นคือ The list เอกพจน์"
+        },
+        {
+          "do_md": "ตรวจด้วยบริบทรอบจุดสำคัญ",
+          "why_md": "เลือกคำตอบที่มีหลักฐานรองรับครบ ไม่เติมข้อมูลเอง"
+        }
+      ],
+      "answer_explanation_md": "is agrees with list และสร้าง passive is posted",
+      "hints": [
+        "ขีดเส้นคำหรือประโยคที่เป็นหลักฐาน",
+        "ตัดตัวเลือกที่จริงบางส่วนแต่ตอบคนละคำถาม",
+        "ตรวจว่าคำตอบไม่กว้างหรือแคบเกินข้อความ"
+      ],
+      "distractor_reasons": {
+        "0": "หลงตาม items/shelters ที่อยู่ในวลี",
+        "2": "ไม่เข้ากับ posted แบบ passive",
+        "3": "ไม่มีสัญญาณอดีต"
+      },
+      "misconception_tags": [
+        "nearest_noun_subject"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.reading.foundation.sentence_core.0008",
+      "topic_ids": [
+        "tgat1.reading.foundation.sentence_core"
+      ],
+      "primary_topic_id": "tgat1.reading.foundation.sentence_core",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 5,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": true,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 75,
+      "stem_md": "What is the sentence core of: 'The reports that the interns who joined in June prepared were approved yesterday'?",
+      "figures": [],
+      "choices": [
+        {
+          "md": "The interns joined in June.",
+          "is_answer": false
+        },
+        {
+          "md": "The reports prepared the interns.",
+          "is_answer": false
+        },
+        {
+          "md": "The interns prepared yesterday.",
+          "is_answer": false
+        },
+        {
+          "md": "The reports were approved.",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ระบุสิ่งที่โจทย์ถาม",
+          "why_md": "ตัด relative clauses that... และ who... ออก"
+        },
+        {
+          "do_md": "ตรวจด้วยบริบทรอบจุดสำคัญ",
+          "why_md": "เลือกคำตอบที่มีหลักฐานรองรับครบ ไม่เติมข้อมูลเอง"
+        }
+      ],
+      "answer_explanation_md": "เหลือประธาน The reports กับกริยาหลัก were approved",
+      "hints": [
+        "ขีดเส้นคำหรือประโยคที่เป็นหลักฐาน",
+        "ตัดตัวเลือกที่จริงบางส่วนแต่ตอบคนละคำถาม",
+        "ตรวจว่าคำตอบไม่กว้างหรือแคบเกินข้อความ"
+      ],
+      "distractor_reasons": {
+        "0": "เป็นข้อมูลในอนุประโยค ไม่ใช่แก่นหลัก",
+        "1": "สลับประธานกรรม",
+        "2": "yesterday ขยายการอนุมัติและ prepared ต้องมีกรรม"
+      },
+      "misconception_tags": [
+        "nearest_noun_subject"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    }
+  ],
+  "generated_from": "content/tgat1/reading.py"
+}

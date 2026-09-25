@@ -1,0 +1,591 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tgat1.reading.text_completion.grammar_in_context",
+  "problems": [
+    {
+      "id": "prob.tgat1.reading.text_completion.grammar_in_context.0001",
+      "topic_ids": [
+        "tgat1.reading.text_completion.grammar_in_context"
+      ],
+      "primary_topic_id": "tgat1.reading.text_completion.grammar_in_context",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 25,
+      "stem_md": "The garden project was a great ______ because students and neighbors worked together.",
+      "figures": [],
+      "choices": [
+        {
+          "md": "successfully",
+          "is_answer": false
+        },
+        {
+          "md": "successful",
+          "is_answer": false
+        },
+        {
+          "md": "succeed",
+          "is_answer": false
+        },
+        {
+          "md": "success",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "หน้าช่อง: a great = คำนำหน้า + คุณศัพท์",
+          "why_md": "ต้องการคำนาม"
+        },
+        {
+          "do_md": "คำนามในตัวเลือก",
+          "why_md": "success"
+        }
+      ],
+      "answer_explanation_md": "ตอบ success เพราะหลัง a great ต้องเป็นคำนาม",
+      "hints": [
+        "ดูคำก่อนช่องว่าง: a great",
+        "หลังคำนำหน้าและคุณศัพท์ ต้องเป็นคำชนิดไหน",
+        "หาตัวที่เป็นคำนาม"
+      ],
+      "distractor_reasons": {
+        "0": "เป็นกริยาวิเศษณ์ ใช้ขยายกริยา",
+        "1": "เป็นคุณศัพท์ ต้องตามด้วยคำนาม ไม่ใช่อยู่ท้ายวลี a great ___",
+        "2": "เป็นกริยา แต่หลัง a great ต้องเป็นคำนาม"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.reading.text_completion.grammar_in_context.0002",
+      "topic_ids": [
+        "tgat1.reading.text_completion.grammar_in_context"
+      ],
+      "primary_topic_id": "tgat1.reading.text_completion.grammar_in_context",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 30,
+      "stem_md": "Many adults doubted that teenagers could keep the project ______.",
+      "figures": [],
+      "choices": [
+        {
+          "md": "go",
+          "is_answer": false
+        },
+        {
+          "md": "going",
+          "is_answer": true
+        },
+        {
+          "md": "to go",
+          "is_answer": false
+        },
+        {
+          "md": "gone",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "keep + กรรม + V-ing = ทำให้...ต่อไป",
+          "why_md": "keep the project going"
+        },
+        {
+          "do_md": "เลือก V-ing",
+          "why_md": "going"
+        }
+      ],
+      "answer_explanation_md": "ตอบ going เพราะ keep + กรรม + V-ing หมายถึงทำให้บางอย่างดำเนินต่อไป",
+      "hints": [
+        "ดูกริยาหลักก่อนช่องว่าง: keep",
+        "keep ตามด้วยกริยารูปไหน",
+        "keep something ___ใช้ V-ing"
+      ],
+      "distractor_reasons": {
+        "0": "หลัง keep + กรรม ต้องใช้ V-ing ไม่ใช่ V1",
+        "2": "keep ไม่ตามด้วย to + V",
+        "3": "V3 ใช้ในรูป passive หรือ perfect ไม่เข้ากับโครงสร้างนี้"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.reading.text_completion.grammar_in_context.0003",
+      "topic_ids": [
+        "tgat1.reading.text_completion.grammar_in_context"
+      ],
+      "primary_topic_id": "tgat1.reading.text_completion.grammar_in_context",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 25,
+      "stem_md": "Students who sleep less than six hours often find it hard to ______ in class.",
+      "figures": [],
+      "choices": [
+        {
+          "md": "concentrate",
+          "is_answer": true
+        },
+        {
+          "md": "concentrating",
+          "is_answer": false
+        },
+        {
+          "md": "concentrated",
+          "is_answer": false
+        },
+        {
+          "md": "concentration",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "หน้าช่อง: hard to",
+          "why_md": "to ในที่นี้เป็น infinitive"
+        },
+        {
+          "do_md": "to + V1",
+          "why_md": "concentrate"
+        }
+      ],
+      "answer_explanation_md": "ตอบ concentrate เพราะหลัง to (infinitive) ต้องใช้กริยาช่อง 1",
+      "hints": [
+        "ดูคำก่อนช่องว่าง: to",
+        "to ในที่นี้เป็นบุพบทหรือ infinitive",
+        "หลัง infinitive to ใช้กริยารูปไหน"
+      ],
+      "distractor_reasons": {
+        "1": "หลัง to (infinitive) ต้องใช้กริยาช่อง 1",
+        "2": "เป็นช่อง 2/3 ไม่ใช้หลัง to",
+        "3": "เป็นคำนาม หลัง to ต้องเป็นกริยา"
+      },
+      "misconception_tags": [
+        "to_preposition_confusion"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.reading.text_completion.grammar_in_context.0004",
+      "topic_ids": [
+        "tgat1.reading.text_completion.grammar_in_context"
+      ],
+      "primary_topic_id": "tgat1.reading.text_completion.grammar_in_context",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 30,
+      "stem_md": "I look forward to ______ from you soon.",
+      "figures": [],
+      "choices": [
+        {
+          "md": "hear",
+          "is_answer": false
+        },
+        {
+          "md": "be heard",
+          "is_answer": false
+        },
+        {
+          "md": "hearing",
+          "is_answer": true
+        },
+        {
+          "md": "heard",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "look forward to = วลีที่ to เป็นบุพบท",
+          "why_md": "หลังบุพบทใช้ V-ing"
+        },
+        {
+          "do_md": "เลือก",
+          "why_md": "hearing"
+        }
+      ],
+      "answer_explanation_md": "ตอบ hearing เพราะ to ใน look forward to เป็นบุพบท จึงต้องตามด้วย V-ing",
+      "hints": [
+        "look forward to เป็นวลีพิเศษ",
+        "to ในวลีนี้เป็นบุพบทหรือ infinitive",
+        "หลังบุพบทใช้กริยารูปไหน"
+      ],
+      "distractor_reasons": {
+        "0": "to ใน look forward to เป็นบุพบท ต้องตามด้วย V-ing",
+        "1": "รูป passive ความหมายผิด",
+        "3": "เป็นช่อง 2/3 ไม่ใช้หลังบุพบท"
+      },
+      "misconception_tags": [
+        "to_preposition_confusion"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.reading.text_completion.grammar_in_context.0005",
+      "topic_ids": [
+        "tgat1.reading.text_completion.grammar_in_context"
+      ],
+      "primary_topic_id": "tgat1.reading.text_completion.grammar_in_context",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 45,
+      "stem_md": "**Floating Market**\n\nWhen a popular travel program featured the market in 2015, everything changed. Within a few months, weekend visitors ______ from a few hundred to several thousand.\n\n---\n\nChoose the best word for the blank.",
+      "figures": [],
+      "choices": [
+        {
+          "md": "increasing",
+          "is_answer": false
+        },
+        {
+          "md": "increase",
+          "is_answer": false
+        },
+        {
+          "md": "increased",
+          "is_answer": true
+        },
+        {
+          "md": "have increased",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "คำบอกเวลา: 2015, within a few months",
+          "why_md": "เหตุการณ์ในอดีตที่จบแล้ว"
+        },
+        {
+          "do_md": "ประธาน visitors ต้องมีกริยาแท้",
+          "why_md": "past simple: increased"
+        }
+      ],
+      "answer_explanation_md": "ตอบ increased เพราะเป็นเหตุการณ์ในอดีตที่จบแล้ว (2015) ต้องใช้ past simple",
+      "hints": [
+        "ดูคำบอกเวลาในประโยคก่อนหน้า",
+        "เหตุการณ์นี้เกิดในอดีตหรือปัจจุบัน",
+        "ประโยคต้องมีกริยาแท้ที่เป็นอดีต"
+      ],
+      "distractor_reasons": {
+        "0": "V-ing ต้องมีกริยาช่วย is/was นำหน้า",
+        "1": "เหตุการณ์เกิดในอดีต (2015, within a few months) ต้องใช้อดีต",
+        "3": "present perfect ไม่ใช้กับช่วงเวลาในอดีตที่จบแล้ว"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.reading.text_completion.grammar_in_context.0006",
+      "topic_ids": [
+        "tgat1.reading.text_completion.grammar_in_context"
+      ],
+      "primary_topic_id": "tgat1.reading.text_completion.grammar_in_context",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 4,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 2,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 45,
+      "stem_md": "The council introduced a rule ______ the number of motorboats on the canal.",
+      "figures": [],
+      "choices": [
+        {
+          "md": "limiting",
+          "is_answer": true
+        },
+        {
+          "md": "limit",
+          "is_answer": false
+        },
+        {
+          "md": "limited",
+          "is_answer": false
+        },
+        {
+          "md": "limitation",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "a rule ___ the number = กฎที่จำกัดจำนวน",
+          "why_md": "ต้องใช้คำที่ขยายคำนาม rule แบบทำหน้าที่"
+        },
+        {
+          "do_md": "V-ing ขยายนามแบบกระทำ (= which limits)",
+          "why_md": "limiting"
+        }
+      ],
+      "answer_explanation_md": "ตอบ limiting เพราะเป็นกฎที่ทำหน้าที่จำกัดจำนวนเรือ V-ing ขยายนามแบบกระทำ (= which limits)",
+      "hints": [
+        "ช่องว่างขยายคำนามอะไร",
+        "กฎเป็นผู้จำกัด หรือถูกจำกัด",
+        "V-ing ขยายนามแบบกระทำ ส่วน V3 แบบถูกกระทำ"
+      ],
+      "distractor_reasons": {
+        "1": "ต่อท้ายคำนาม a rule ต้องใช้ V-ing เพื่อขยาย ไม่ใช่ V1",
+        "2": "limited ขยายนามแบบถูกกระทำ ความหมายกลายเป็นกฎที่ถูกจำกัด",
+        "3": "เป็นคำนาม ไม่ต่อกับ the number ได้โดยตรง"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.reading.text_completion.grammar_in_context.0007",
+      "topic_ids": [
+        "tgat1.reading.text_completion.grammar_in_context"
+      ],
+      "primary_topic_id": "tgat1.reading.text_completion.grammar_in_context",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 55,
+      "stem_md": "The volunteers had the damaged books ______ before returning them to the shelves.",
+      "figures": [],
+      "choices": [
+        {
+          "md": "repair",
+          "is_answer": false
+        },
+        {
+          "md": "repaired",
+          "is_answer": true
+        },
+        {
+          "md": "repairing",
+          "is_answer": false
+        },
+        {
+          "md": "to repair",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ระบุสิ่งที่โจทย์ถาม",
+          "why_md": "โครงสร้าง have + object + past participle"
+        },
+        {
+          "do_md": "ตรวจด้วยบริบทรอบจุดสำคัญ",
+          "why_md": "เลือกคำตอบที่มีหลักฐานรองรับครบ ไม่เติมข้อมูลเอง"
+        }
+      ],
+      "answer_explanation_md": "repaired แสดงว่าหนังสือได้รับการซ่อม",
+      "hints": [
+        "ขีดเส้นคำหรือประโยคที่เป็นหลักฐาน",
+        "ตัดตัวเลือกที่จริงบางส่วนแต่ตอบคนละคำถาม",
+        "ตรวจว่าคำตอบไม่กว้างหรือแคบเกินข้อความ"
+      ],
+      "distractor_reasons": {
+        "0": "หลัง have + กรรม ใช้ past participle เมื่อให้สิ่งนั้นถูกทำ",
+        "2": "สื่อว่าหนังสือเป็นผู้ซ่อม",
+        "3": "ไม่ใช่โครงสร้าง causative นี้"
+      },
+      "misconception_tags": [
+        "to_preposition_confusion"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.reading.text_completion.grammar_in_context.0008",
+      "topic_ids": [
+        "tgat1.reading.text_completion.grammar_in_context"
+      ],
+      "primary_topic_id": "tgat1.reading.text_completion.grammar_in_context",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 5,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": true,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 75,
+      "stem_md": "Not until the lights went out ______ that the backup battery had failed.",
+      "figures": [],
+      "choices": [
+        {
+          "md": "the staff realized",
+          "is_answer": false
+        },
+        {
+          "md": "the staff had realized",
+          "is_answer": false
+        },
+        {
+          "md": "had the staff realized",
+          "is_answer": false
+        },
+        {
+          "md": "did the staff realize",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ระบุสิ่งที่โจทย์ถาม",
+          "why_md": "Not until ขึ้นต้นทำให้อนุประโยคหลักกลับกริยาช่วย"
+        },
+        {
+          "do_md": "ตรวจด้วยบริบทรอบจุดสำคัญ",
+          "why_md": "เลือกคำตอบที่มีหลักฐานรองรับครบ ไม่เติมข้อมูลเอง"
+        }
+      ],
+      "answer_explanation_md": "did + subject + V1 ถูกทั้ง inversion และลำดับเหตุการณ์",
+      "hints": [
+        "ขีดเส้นคำหรือประโยคที่เป็นหลักฐาน",
+        "ตัดตัวเลือกที่จริงบางส่วนแต่ตอบคนละคำถาม",
+        "ตรวจว่าคำตอบไม่กว้างหรือแคบเกินข้อความ"
+      ],
+      "distractor_reasons": {
+        "0": "หลัง Not until นำหน้าต้อง inversion",
+        "1": "ไม่ inversion และสื่อว่ารู้ก่อน",
+        "2": "กาลและลำดับไม่ตรง จุดรู้เกิดหลังไฟดับ"
+      },
+      "misconception_tags": [
+        "literal_translation"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    }
+  ],
+  "generated_from": "content/tgat1/reading.py"
+}

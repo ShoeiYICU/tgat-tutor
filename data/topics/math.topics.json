@@ -1,0 +1,133 @@
+{
+  "schema_version": "1.0",
+  "subject": "math",
+  "subject_name_th": "คณิตศาสตร์",
+  "exam_codes": ["ALEVEL_61"],
+  "source_note": "ไฟล์ตัวอย่างสำหรับทดสอบสคริปต์ ยังไม่ใช่ผังจริง ผังจริงต้องสร้างด้วย spec/04-prompt-topic-tree.md",
+  "topics": [
+    {
+      "id": "math",
+      "name_th": "คณิตศาสตร์",
+      "name_en": "Mathematics",
+      "kind": "subject",
+      "parent": null,
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": ["คณิตศาสตร์", "mathematics"],
+      "curriculum_ref": null,
+      "notes": "ตัวอย่าง: ผังจริงจะมี branch อีกหลายสิบอัน"
+    },
+    {
+      "id": "math.geometry",
+      "name_th": "เรขาคณิต",
+      "name_en": "Geometry",
+      "kind": "branch",
+      "parent": "math",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {"exam_code": "ALEVEL_61", "frequency": 0.06, "typical_items": "2 ข้อต่อปี", "confidence": "low"}
+      ],
+      "difficulty_band": "medium",
+      "keywords": ["เรขาคณิต", "geometry"],
+      "curriculum_ref": null,
+      "notes": null
+    },
+    {
+      "id": "math.geometry.pythagoras",
+      "name_th": "ทฤษฎีบทพีทาโกรัส",
+      "name_en": "Pythagorean Theorem",
+      "kind": "leaf",
+      "parent": "math.geometry",
+      "order": 1,
+      "grade_band": "m_early",
+      "requires": [],
+      "est_minutes": 15,
+      "exam_weight": [
+        {"exam_code": "ALEVEL_61", "frequency": 0.01, "typical_items": "ใช้เป็นพื้นฐาน", "confidence": "low"}
+      ],
+      "difficulty_band": "easy",
+      "keywords": ["พีทาโกรัส", "pythagoras", "สามเหลี่ยมมุมฉาก"],
+      "curriculum_ref": null,
+      "notes": "หัวข้อพื้นฐาน ม.ต้น ที่ต้องมีสำหรับคนเริ่มจาก 0"
+    },
+    {
+      "id": "math.geometry.triangle_basic",
+      "name_th": "สมบัติพื้นฐานของสามเหลี่ยม",
+      "name_en": "Basic Properties of Triangles",
+      "kind": "leaf",
+      "parent": "math.geometry",
+      "order": 2,
+      "grade_band": "m4",
+      "requires": ["math.geometry.pythagoras"],
+      "est_minutes": 20,
+      "exam_weight": [
+        {"exam_code": "ALEVEL_61", "frequency": 0.02, "typical_items": "1 ข้อต่อปี", "confidence": "low"}
+      ],
+      "difficulty_band": "easy",
+      "keywords": ["สามเหลี่ยม", "ผลรวมมุม", "triangle", "ด้านตรงข้ามมุม"],
+      "curriculum_ref": null,
+      "notes": null
+    },
+    {
+      "id": "math.trig",
+      "name_th": "ตรีโกณมิติ",
+      "name_en": "Trigonometry",
+      "kind": "branch",
+      "parent": "math",
+      "order": 5,
+      "grade_band": "m5",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {"exam_code": "ALEVEL_61", "frequency": 0.12, "typical_items": "3-4 ข้อต่อปี", "confidence": "low"}
+      ],
+      "difficulty_band": "medium",
+      "keywords": ["ตรีโกณมิติ", "trigonometry"],
+      "curriculum_ref": null,
+      "notes": null
+    },
+    {
+      "id": "math.trig.ratio",
+      "name_th": "อัตราส่วนตรีโกณมิติ",
+      "name_en": "Trigonometric Ratios",
+      "kind": "leaf",
+      "parent": "math.trig",
+      "order": 1,
+      "grade_band": "m5",
+      "requires": ["math.geometry.pythagoras"],
+      "est_minutes": 25,
+      "exam_weight": [
+        {"exam_code": "ALEVEL_61", "frequency": 0.03, "typical_items": "1 ข้อต่อปี", "confidence": "low"}
+      ],
+      "difficulty_band": "easy",
+      "keywords": ["sin", "cos", "tan", "อัตราส่วนตรีโกณมิติ", "สามเหลี่ยมมุมฉาก"],
+      "curriculum_ref": null,
+      "notes": null
+    },
+    {
+      "id": "math.trig.sine_law",
+      "name_th": "กฎของไซน์",
+      "name_en": "Law of Sines",
+      "kind": "leaf",
+      "parent": "math.trig",
+      "order": 4,
+      "grade_band": "m5",
+      "requires": ["math.trig.ratio", "math.geometry.triangle_basic"],
+      "est_minutes": 20,
+      "exam_weight": [
+        {"exam_code": "ALEVEL_61", "frequency": 0.03, "typical_items": "1 ข้อต่อปี", "confidence": "low"}
+      ],
+      "difficulty_band": "medium",
+      "keywords": ["กฎของไซน์", "law of sines", "สามเหลี่ยมใด ๆ", "แก้สามเหลี่ยม"],
+      "curriculum_ref": null,
+      "notes": "ต้องเตือนเรื่องกรณีกำกวม (ambiguous case) เมื่อรู้ SSA"
+    }
+  ]
+}

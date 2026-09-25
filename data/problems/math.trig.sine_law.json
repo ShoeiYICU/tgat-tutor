@@ -1,0 +1,177 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "math.trig.sine_law",
+  "problems": [
+    {
+      "id": "prob.math.trig.sine_law.0001",
+      "topic_ids": [
+        "math.trig.sine_law"
+      ],
+      "primary_topic_id": "math.trig.sine_law",
+      "exam_code": "ALEVEL_61",
+      "origin": "original",
+      "style_ref": {
+        "year": 2567,
+        "item_no": null,
+        "note": "แนวข้อสอบ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 75,
+      "stem_md": "สามเหลี่ยม $ABC$ มี $A=40^\\circ$, $B=75^\\circ$ และ $a=12$ เซนติเมตร ความยาวด้าน $b$ มีค่าประมาณเท่าใด",
+      "figures": [],
+      "choices": [
+        {
+          "md": "$8.0$ ซม.",
+          "is_answer": false
+        },
+        {
+          "md": "$18.0$ ซม.",
+          "is_answer": true
+        },
+        {
+          "md": "$12.8$ ซม.",
+          "is_answer": false
+        },
+        {
+          "md": "$4.1$ ซม.",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "เขียนกฎของไซน์ $\\frac{a}{\\sin A}=\\frac{b}{\\sin B}$",
+          "why_md": "โจทย์ให้มุม 2 มุมและด้านที่อยู่ตรงข้ามมุมหนึ่ง ซึ่งตรงเงื่อนไขการใช้กฎของไซน์"
+        },
+        {
+          "do_md": "ย้ายข้างให้ $b$ อยู่ตัวเดียว $b=\\frac{a\\sin B}{\\sin A}=\\frac{12\\sin 75^\\circ}{\\sin 40^\\circ}$",
+          "why_md": "ต้องการหา $b$ จึงจัดรูปให้ $b$ อยู่ข้างเดียว"
+        },
+        {
+          "do_md": "แทนค่า $\\frac{12(0.9659)}{0.6428}\\approx 18.0$",
+          "why_md": "แทนค่าตรีโกณแล้วหาร ได้คำตอบเป็นเซนติเมตรตามหน่วยของ $a$"
+        }
+      ],
+      "answer_explanation_md": "ตอบ $b\\approx 18.0$ ซม. ตรวจคร่าว ๆ ได้ว่ามุม $B$ ใหญ่กว่ามุม $A$ ด้าน $b$ จึงต้องยาวกว่าด้าน $a=12$",
+      "hints": [
+        "ข้อนี้เป็นสามเหลี่ยมที่ไม่ใช่มุมฉาก ให้นึกถึงกฎที่ใช้กับสามเหลี่ยมใด ๆ",
+        "ใช้กฎของไซน์ $\\frac{a}{\\sin A}=\\frac{b}{\\sin B}$ โดยจับคู่ด้านกับมุมที่อยู่ตรงข้ามกัน",
+        "เริ่มจากเขียน $b=\\frac{a\\sin B}{\\sin A}$ แล้วแทนค่าที่โจทย์ให้"
+      ],
+      "distractor_reasons": {
+        "0": "สลับตัวเศษตัวส่วนเป็น $\\frac{a\\sin A}{\\sin B}$ ได้ $8.0$",
+        "2": "จับคู่ด้าน $a$ กับมุม $C=65^\\circ$ แทนมุม $A$ ได้ $12.8$",
+        "3": "ใช้ $\\cos$ แทน $\\sin$ ได้ $4.1$"
+      },
+      "misconception_tags": [
+        "ratio_inversion",
+        "wrong_angle_pairing",
+        "wrong_trig_function"
+      ],
+      "template": {
+        "vars": [
+          {
+            "name": "A",
+            "type": "int",
+            "range": [
+              35,
+              70
+            ],
+            "step": 5,
+            "unit": "องศา"
+          },
+          {
+            "name": "B",
+            "type": "int",
+            "range": [
+              40,
+              70
+            ],
+            "step": 5,
+            "unit": "องศา"
+          },
+          {
+            "name": "a",
+            "type": "int",
+            "range": [
+              6,
+              20
+            ],
+            "step": 1,
+            "unit": "ซม."
+          }
+        ],
+        "constraints": [
+          "A + B < 170",
+          "abs(A - B) >= 10",
+          "abs(180 - 2*A - B) >= 5",
+          "abs(A + B - 90) >= 5"
+        ],
+        "stem_tpl": "สามเหลี่ยม $ABC$ มี $A={A}^\\circ$, $B={B}^\\circ$ และ $a={a}$ เซนติเมตร ความยาวด้าน $b$ มีค่าประมาณเท่าใด",
+        "answer_expr": "a * sin(radians(B)) / sin(radians(A))",
+        "answer_round": 1,
+        "answer_unit": "ซม.",
+        "distractors": [
+          {
+            "expr": "a * sin(radians(A)) / sin(radians(B))",
+            "reason": "สลับตัวเศษตัวส่วน"
+          },
+          {
+            "expr": "a * sin(radians(B)) / sin(radians(180 - A - B))",
+            "reason": "จับคู่ด้าน a กับมุม C แทนมุม A"
+          },
+          {
+            "expr": "a * cos(radians(B)) / cos(radians(A))",
+            "reason": "ใช้ cos แทน sin"
+          }
+        ],
+        "quality_rules": [
+          "คำตอบต้องอยู่ระหว่าง 1 ถึง 100",
+          "ตัวเลือกทุกตัวต่างกันอย่างน้อย 0.5 หลังปัดทศนิยม",
+          "ตัวเลือกทุกตัวต้องเป็นค่าบวก",
+          "ช่วงมุมต้องแคบพอให้ตัวเลือกลวงจากการใช้ cos แทน sin ไม่ห่างจากคำตอบเกิน 5 เท่า"
+        ],
+        "quality_exprs": [
+          "answer >= 1",
+          "answer <= 100"
+        ],
+        "display": {
+          "sinA": "round(sin(radians(A)), 4)",
+          "sinB": "round(sin(radians(B)), 4)"
+        },
+        "steps_tpl": [
+          {
+            "do_md": "เขียนกฎของไซน์ $\\frac{a}{\\sin A}=\\frac{b}{\\sin B}$",
+            "why_md": "โจทย์ให้มุม 2 มุมและด้านที่อยู่ตรงข้ามมุมหนึ่ง ซึ่งตรงเงื่อนไขการใช้กฎของไซน์"
+          },
+          {
+            "do_md": "ย้ายข้างให้ $b$ อยู่ตัวเดียว $b=\\frac{a\\sin B}{\\sin A}=\\frac{{a}\\sin {B}^\\circ}{\\sin {A}^\\circ}$",
+            "why_md": "ต้องการหา $b$ จึงจัดรูปให้ $b$ อยู่ข้างเดียว"
+          },
+          {
+            "do_md": "แทนค่า $\\frac{{a}({sinB})}{{sinA}}\\approx {answer}$",
+            "why_md": "แทนค่าตรีโกณแล้วหาร ได้คำตอบเป็นเซนติเมตรตามหน่วยของ $a$"
+          }
+        ],
+        "hints_tpl": [
+          "ข้อนี้เป็นสามเหลี่ยมที่ไม่ใช่มุมฉาก ให้นึกถึงกฎที่ใช้กับสามเหลี่ยมใด ๆ",
+          "ใช้กฎของไซน์ $\\frac{a}{\\sin A}=\\frac{b}{\\sin B}$ โดยจับคู่ด้านกับมุมที่อยู่ตรงข้ามกัน",
+          "เริ่มจากเขียน $b=\\frac{a\\sin B}{\\sin A}$ แล้วแทนค่าที่โจทย์ให้"
+        ],
+        "explanation_tpl": "ตอบ $b\\approx {answer}$ ซม. ตรวจคร่าว ๆ ได้จากหลักที่ว่ามุมใหญ่อยู่ตรงข้ามด้านยาว — เทียบมุม $A={A}^\\circ$ กับ $B={B}^\\circ$ แล้วดูว่าด้าน $b$ ควรยาวหรือสั้นกว่าด้าน $a={a}$ ซม."
+      },
+      "template_note": null,
+      "calculator_allowed": true,
+      "review_status": "ai_draft"
+    }
+  ]
+}

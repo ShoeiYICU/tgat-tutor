@@ -1,0 +1,485 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tgat2.language.foundation.sentence_structure",
+  "problems": [
+    {
+      "id": "prob.tgat2.language.foundation.sentence_structure.0001",
+      "topic_ids": [
+        "tgat2.language.foundation.sentence_structure"
+      ],
+      "primary_topic_id": "tgat2.language.foundation.sentence_structure",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 40,
+      "stem_md": "\"นักเรียนที่ได้รับรางวัลจากการแข่งขันระดับประเทศเมื่อปีที่แล้วเดินทางไปศึกษาต่อที่ญี่ปุ่น\" ใจความหลักคือข้อใด",
+      "figures": [],
+      "choices": [
+        {
+          "md": "นักเรียนเดินทางไปศึกษาต่อ",
+          "is_answer": true
+        },
+        {
+          "md": "นักเรียนได้รับรางวัล",
+          "is_answer": false
+        },
+        {
+          "md": "การแข่งขันระดับประเทศจัดขึ้นเมื่อปีที่แล้ว",
+          "is_answer": false
+        },
+        {
+          "md": "ญี่ปุ่นเป็นประเทศที่นักเรียนเลือกเดินทางไปเรียน",
+          "is_answer": false
+        },
+        {
+          "md": "นักเรียนเดินทางไปญี่ปุ่นเพื่อรับรางวัลการแข่งขัน",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ตัด ที่ได้รับรางวัล...เมื่อปีที่แล้ว",
+          "why_md": "ส่วนขยายประธาน"
+        },
+        {
+          "do_md": "ตัด ที่ญี่ปุ่น",
+          "why_md": "ส่วนขยายสถานที่"
+        },
+        {
+          "do_md": "เหลือ นักเรียนเดินทางไปศึกษาต่อ",
+          "why_md": "แกน"
+        }
+      ],
+      "answer_explanation_md": "ตอบ นักเรียนเดินทางไปศึกษาต่อ เพราะเมื่อตัดส่วนขยายประธานและสถานที่ออก จะเหลือแกนนี้",
+      "hints": [
+        "หาคำที่ขึ้นต้นส่วนขยาย เช่น ที่",
+        "ตัดส่วนขยายออกทีละกลุ่ม",
+        "สิ่งที่เหลือยังเป็นประโยคสมบูรณ์ไหม"
+      ],
+      "distractor_reasons": {
+        "1": "เป็นส่วนขยายของนักเรียน ไม่ใช่แกน",
+        "2": "เป็นรายละเอียดของส่วนขยาย",
+        "3": "สถานที่เป็นส่วนขยาย",
+        "4": "ผสมข้อมูลผิด"
+      },
+      "misconception_tags": [
+        "modifier_as_subject"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.language.foundation.sentence_structure.0002",
+      "topic_ids": [
+        "tgat2.language.foundation.sentence_structure"
+      ],
+      "primary_topic_id": "tgat2.language.foundation.sentence_structure",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 35,
+      "stem_md": "\"หนังสือเล่มที่คุณครูแนะนำให้อ่านในช่วงปิดภาคเรียนหมดจากร้านภายในสองวัน\" ประธานของประโยคคือข้อใด",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ช่วงปิดภาคเรียนของนักเรียน",
+          "is_answer": false
+        },
+        {
+          "md": "หนังสือ",
+          "is_answer": true
+        },
+        {
+          "md": "ร้าน",
+          "is_answer": false
+        },
+        {
+          "md": "การแนะนำให้อ่านหนังสือ",
+          "is_answer": false
+        },
+        {
+          "md": "คุณครู",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "กริยาหลักคือ หมด",
+          "why_md": "สิ่งใดหมด"
+        },
+        {
+          "do_md": "สิ่งที่หมดคือ หนังสือ",
+          "why_md": "ประธาน"
+        }
+      ],
+      "answer_explanation_md": "ตอบ หนังสือ เพราะแกนของประโยคคือ หนังสือหมดจากร้าน",
+      "hints": [
+        "กริยาหลักของประโยคคือคำใด",
+        "อะไรเป็นผู้ทำหรือผู้ถูกกล่าวถึงด้วยกริยานั้น",
+        "ตัดส่วน ที่คุณครูแนะนำ... ออกก่อน"
+      ],
+      "distractor_reasons": {
+        "0": "เป็นส่วนขยายบอกเวลา",
+        "2": "ร้านเป็นส่วนขยายสถานที่",
+        "3": "เป็นใจความของส่วนขยาย ไม่ใช่ประธาน",
+        "4": "คุณครูอยู่ในส่วนขยาย ที่คุณครูแนะนำ"
+      },
+      "misconception_tags": [
+        "modifier_as_subject"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.language.foundation.sentence_structure.0003",
+      "topic_ids": [
+        "tgat2.language.foundation.sentence_structure"
+      ],
+      "primary_topic_id": "tgat2.language.foundation.sentence_structure",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 40,
+      "stem_md": "\"เทศบาลซึ่งได้รับเสียงร้องเรียนจากประชาชนจำนวนมากตัดสินใจปรับปรุงถนนสายหลักภายในเดือนนี้\" ข้อใดเป็นส่วนขยาย ไม่ใช่แกนของประโยค",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ตัดสินใจปรับปรุง",
+          "is_answer": false
+        },
+        {
+          "md": "เทศบาลตัดสินใจปรับปรุงถนนสายหลัก",
+          "is_answer": false
+        },
+        {
+          "md": "ถนนสายหลัก",
+          "is_answer": false
+        },
+        {
+          "md": "เทศบาล",
+          "is_answer": false
+        },
+        {
+          "md": "ได้รับเสียงร้องเรียนจากประชาชน",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ส่วนที่ขึ้นต้นด้วย ซึ่ง ขยายเทศบาล",
+          "why_md": "ส่วนขยาย"
+        },
+        {
+          "do_md": "แกน = เทศบาลตัดสินใจปรับปรุงถนนสายหลัก",
+          "why_md": "ตัดส่วนขยายแล้ว"
+        }
+      ],
+      "answer_explanation_md": "ตอบ ได้รับเสียงร้องเรียนจากประชาชน เพราะอยู่ในส่วน ซึ่ง... ที่ขยายคำว่าเทศบาล",
+      "hints": [
+        "หาคำ ซึ่ง ในประโยค",
+        "กลุ่มคำหลัง ซึ่ง ขยายคำใด",
+        "ตัวเลือกที่อยู่ในกลุ่มคำนั้นคือส่วนขยาย"
+      ],
+      "distractor_reasons": {
+        "0": "เป็นกริยาหลัก",
+        "1": "เป็นแกนของประโยคทั้งหมด",
+        "2": "เป็นกรรมของกริยาหลัก",
+        "3": "เป็นประธาน"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.language.foundation.sentence_structure.0004",
+      "topic_ids": [
+        "tgat2.language.foundation.sentence_structure"
+      ],
+      "primary_topic_id": "tgat2.language.foundation.sentence_structure",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 45,
+      "stem_md": "ข้อใดมีใจความหลักเหมือนกับประโยค \"ชาวนาในหมู่บ้านริมแม่น้ำเริ่มหันมาปลูกพืชใช้น้ำน้อยหลังเกิดภัยแล้งติดต่อกันสองปี\"",
+      "figures": [],
+      "choices": [
+        {
+          "md": "หมู่บ้านริมแม่น้ำเกิดภัยแล้งต่อเนื่อง",
+          "is_answer": false
+        },
+        {
+          "md": "ภัยแล้งทำให้ชาวนาย้ายออกจากหมู่บ้าน",
+          "is_answer": false
+        },
+        {
+          "md": "แม่น้ำแห้งติดต่อกันถึงสองปีเต็ม",
+          "is_answer": false
+        },
+        {
+          "md": "ชาวนาเริ่มปลูกพืชใช้น้ำน้อย",
+          "is_answer": true
+        },
+        {
+          "md": "พืชใช้น้ำน้อยปลูกง่าย",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ตัด ในหมู่บ้านริมแม่น้ำ และ หลังเกิดภัยแล้ง...",
+          "why_md": "ส่วนขยาย"
+        },
+        {
+          "do_md": "เหลือ ชาวนาเริ่มหันมาปลูกพืชใช้น้ำน้อย",
+          "why_md": "แกน"
+        }
+      ],
+      "answer_explanation_md": "ตอบ ชาวนาเริ่มปลูกพืชใช้น้ำน้อย เพราะเป็นแกนเมื่อตัดส่วนขยายสถานที่และเวลาออก",
+      "hints": [
+        "ใครคือผู้กระทำหลัก",
+        "ผู้กระทำหลักทำอะไร",
+        "ตัดส่วนที่บอกสถานที่และเวลาออก"
+      ],
+      "distractor_reasons": {
+        "0": "เป็นส่วนขยายเหตุการณ์และสถานที่",
+        "1": "ไม่มีในประโยค",
+        "2": "ไม่มีในประโยคและเป็นการอนุมานเกิน",
+        "4": "ประธานผิด"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.language.foundation.sentence_structure.0005",
+      "topic_ids": [
+        "tgat2.language.foundation.sentence_structure"
+      ],
+      "primary_topic_id": "tgat2.language.foundation.sentence_structure",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 45,
+      "stem_md": "\"การอ่านหนังสืออย่างสม่ำเสมอวันละเล็กละน้อยช่วยพัฒนาสมาธิของเด็กได้มากกว่าที่หลายคนคาดไว้\" ประธานของประโยคคือข้อใด",
+      "figures": [],
+      "choices": [
+        {
+          "md": "หลายคน",
+          "is_answer": false
+        },
+        {
+          "md": "เด็ก",
+          "is_answer": false
+        },
+        {
+          "md": "การอ่านหนังสือ",
+          "is_answer": true
+        },
+        {
+          "md": "สมาธิ",
+          "is_answer": false
+        },
+        {
+          "md": "วันละเล็กละน้อย",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "กริยาหลัก = ช่วยพัฒนา",
+          "why_md": "หากริยา"
+        },
+        {
+          "do_md": "สิ่งที่ช่วยพัฒนาคือ การอ่านหนังสือ",
+          "why_md": "ประธานเป็นนามวลี การ..."
+        }
+      ],
+      "answer_explanation_md": "ตอบ การอ่านหนังสือ เพราะเป็นสิ่งที่ ช่วยพัฒนา สมาธิ ส่วนคำอื่นเป็นกรรมหรือส่วนขยาย",
+      "hints": [
+        "หากริยาหลักก่อน",
+        "อะไรเป็นผู้ช่วยพัฒนา",
+        "ประธานอาจเป็นกลุ่มคำที่ขึ้นต้นด้วย การ"
+      ],
+      "distractor_reasons": {
+        "0": "อยู่ในส่วนเปรียบเทียบท้ายประโยค",
+        "1": "เด็กเป็นส่วนของกรรม สมาธิของเด็ก",
+        "3": "สมาธิเป็นกรรมของกริยา ช่วยพัฒนา",
+        "4": "เป็นส่วนขยายบอกปริมาณ"
+      },
+      "misconception_tags": [
+        "modifier_as_subject"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.language.foundation.sentence_structure.0006",
+      "topic_ids": [
+        "tgat2.language.foundation.sentence_structure"
+      ],
+      "primary_topic_id": "tgat2.language.foundation.sentence_structure",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 40,
+      "stem_md": "\"ร้านขนมเล็ก ๆ ที่เปิดมานานกว่าสามสิบปีในตลาดเก่าปิดกิจการลงเมื่อเดือนที่แล้ว\" ใจความหลักคือข้อใด",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ร้านขนมปิดกิจการ",
+          "is_answer": true
+        },
+        {
+          "md": "ตลาดเก่าเปิดมานานกว่าสามสิบปี",
+          "is_answer": false
+        },
+        {
+          "md": "ร้านขนมเปิดมานานกว่าสามสิบปี",
+          "is_answer": false
+        },
+        {
+          "md": "ตลาดเก่ามีร้านขนมหลายร้าน",
+          "is_answer": false
+        },
+        {
+          "md": "ร้านขนมย้ายที่",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ตัดส่วน ที่เปิดมานานกว่าสามสิบปีในตลาดเก่า ออก",
+          "why_md": "ส่วนขยายประธาน"
+        },
+        {
+          "do_md": "ตัด เมื่อเดือนที่แล้ว ออก",
+          "why_md": "ส่วนขยายบอกเวลา"
+        },
+        {
+          "do_md": "เหลือ ร้านขนมปิดกิจการ",
+          "why_md": "แกน"
+        }
+      ],
+      "answer_explanation_md": "ตอบ ร้านขนมปิดกิจการ เพราะเมื่อตัดส่วนขยายออกจะเหลือแกนนี้",
+      "hints": [
+        "หาคำที่ขึ้นต้นส่วนขยาย",
+        "ตัดส่วนขยายออกทีละกลุ่ม",
+        "สิ่งที่เหลือยังเป็นประโยคสมบูรณ์ไหม"
+      ],
+      "distractor_reasons": {
+        "1": "ส่วนขยายนี้ขยายร้านขนม ไม่ใช่ตลาด",
+        "2": "เป็นส่วนขยายของร้านขนม",
+        "3": "ไม่มีในประโยค",
+        "4": "ประโยคบอกว่าปิดกิจการ ไม่ได้บอกว่าย้าย"
+      },
+      "misconception_tags": [
+        "modifier_as_subject"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    }
+  ],
+  "generated_from": "content/tgat2/language_core.py"
+}

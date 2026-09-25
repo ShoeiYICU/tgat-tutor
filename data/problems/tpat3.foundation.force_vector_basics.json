@@ -1,0 +1,481 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tpat3.foundation.force_vector_basics",
+  "problems": [
+    {
+      "id": "prob.tpat3.foundation.force_vector_basics.0001",
+      "topic_ids": [
+        "tpat3.foundation.force_vector_basics"
+      ],
+      "primary_topic_id": "tpat3.foundation.force_vector_basics",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 70,
+      "stem_md": "แรง $8$ นิวตัน ไปทางขวา และแรง $6$ นิวตัน ไปทางซ้าย กระทำต่อกล่องใบเดียวกัน แรงลัพธ์เป็นเท่าใด",
+      "figures": [],
+      "choices": [
+        {
+          "md": "$2$ นิวตัน ไปทางซ้าย",
+          "is_answer": false
+        },
+        {
+          "md": "$2$ นิวตัน ไปทางขวา",
+          "is_answer": true
+        },
+        {
+          "md": "$0$ นิวตัน",
+          "is_answer": false
+        },
+        {
+          "md": "$14$ นิวตัน ไปทางขวา",
+          "is_answer": false
+        },
+        {
+          "md": "$10$ นิวตัน",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "แรงทั้งสองอยู่ในแนวเดียวกันแต่ทิศตรงข้าม",
+          "why_md": "จึงลบกัน"
+        },
+        {
+          "do_md": "$8 - 6 = 2$ นิวตัน ทิศตามแรงที่มากกว่า",
+          "why_md": "คือไปทางขวา"
+        }
+      ],
+      "answer_explanation_md": "ตอบ $2$ นิวตัน ไปทางขวา เพราะแรงตรงข้ามกันจึงลบกัน และเหลือทิศตามแรงที่มากกว่า",
+      "hints": [
+        "แรงสองแรงนี้อยู่แนวเดียวกันหรือตั้งฉากกัน",
+        "ทิศเดียวกันหรือตรงข้าม",
+        "แรงลัพธ์ชี้ไปทางแรงใด"
+      ],
+      "distractor_reasons": {
+        "0": "ทิศต้องตามแรงที่มากกว่าคือทางขวา",
+        "2": "แรงสองแรงไม่เท่ากันจึงไม่หักล้างหมด",
+        "3": "บวกกันโดยไม่ดูว่าทิศตรงข้าม",
+        "4": "ใช้พีทาโกรัสทั้งที่แรงไม่ได้ตั้งฉากกัน"
+      },
+      "misconception_tags": [
+        "ignore_direction"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.foundation.force_vector_basics.0002",
+      "topic_ids": [
+        "tpat3.foundation.force_vector_basics"
+      ],
+      "primary_topic_id": "tpat3.foundation.force_vector_basics",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 85,
+      "stem_md": "แรง $9$ นิวตัน ไปทางทิศตะวันออก และแรง $12$ นิวตัน ไปทางทิศเหนือ กระทำต่อวัตถุเดียวกัน แรงลัพธ์มีขนาดเท่าใด",
+      "figures": [],
+      "choices": [
+        {
+          "md": "$15$ นิวตัน",
+          "is_answer": true
+        },
+        {
+          "md": "$3$ นิวตัน",
+          "is_answer": false
+        },
+        {
+          "md": "$108$ นิวตัน",
+          "is_answer": false
+        },
+        {
+          "md": "$21$ นิวตัน",
+          "is_answer": false
+        },
+        {
+          "md": "$10.5$ นิวตัน",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ทิศตะวันออกกับทิศเหนือตั้งฉากกัน",
+          "why_md": "ใช้สามเหลี่ยมมุมฉาก"
+        },
+        {
+          "do_md": "$\\sqrt{9^2 + 12^2} = \\sqrt{81 + 144} = \\sqrt{225} = 15$",
+          "why_md": "เป็นสามเหลี่ยม 3-4-5 คูณสาม"
+        }
+      ],
+      "answer_explanation_md": "ตอบ $15$ นิวตัน เพราะแรงตั้งฉากกันจึงใช้พีทาโกรัส $\\sqrt{9^2 + 12^2} = 15$",
+      "hints": [
+        "สองทิศนี้ทำมุมกันกี่องศา",
+        "แรงตั้งฉากกันรวมกันอย่างไร",
+        "ลองนึกถึงสามเหลี่ยม 3-4-5"
+      ],
+      "distractor_reasons": {
+        "1": "ลบกันทั้งที่แรงไม่ได้อยู่แนวเดียวกัน",
+        "2": "คูณกันแทนการใช้พีทาโกรัส",
+        "3": "บวกกันทั้งที่แรงตั้งฉากกัน",
+        "4": "เฉลี่ยสองแรง"
+      },
+      "misconception_tags": [
+        "ignore_direction"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.foundation.force_vector_basics.0003",
+      "topic_ids": [
+        "tpat3.foundation.force_vector_basics"
+      ],
+      "primary_topic_id": "tpat3.foundation.force_vector_basics",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 90,
+      "stem_md": "ลากกล่องไปตามพื้นด้วยแรง $25$ นิวตัน กล่องเคลื่อนที่ด้วยความเร็วคงที่ แรงเสียดทานที่กระทำต่อกล่องมีขนาดเท่าใด",
+      "figures": [],
+      "choices": [
+        {
+          "md": "น้อยกว่า $25$ นิวตัน",
+          "is_answer": false
+        },
+        {
+          "md": "$12.5$ นิวตัน",
+          "is_answer": false
+        },
+        {
+          "md": "$25$ นิวตัน",
+          "is_answer": true
+        },
+        {
+          "md": "มากกว่า $25$ นิวตัน",
+          "is_answer": false
+        },
+        {
+          "md": "$0$ นิวตัน",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ความเร็วคงที่แปลว่าความเร่งเป็นศูนย์",
+          "why_md": "จึงมีแรงลัพธ์เป็นศูนย์"
+        },
+        {
+          "do_md": "แรงลากกับแรงเสียดทานต้องหักล้างกันพอดี",
+          "why_md": "แรงเสียดทานจึงเท่ากับ $25$ นิวตัน"
+        }
+      ],
+      "answer_explanation_md": "ตอบ $25$ นิวตัน เพราะความเร็วคงที่แปลว่าแรงลัพธ์เป็นศูนย์ แรงเสียดทานจึงเท่ากับแรงลากพอดี",
+      "hints": [
+        "ความเร็วคงที่หมายถึงความเร่งเท่าใด",
+        "ความเร่งศูนย์แปลว่าแรงลัพธ์เท่าใด",
+        "ถ้าแรงลากมากกว่าแรงเสียดทานจะเกิดอะไร"
+      ],
+      "distractor_reasons": {
+        "0": "ถ้าน้อยกว่า กล่องจะเร่งขึ้นเรื่อย ๆ",
+        "1": "ไม่มีเหตุผลรองรับการหารครึ่ง",
+        "3": "ถ้าแรงเสียดทานมากกว่า กล่องจะช้าลงเรื่อย ๆ",
+        "4": "ถ้าไม่มีแรงเสียดทาน กล่องจะเร่งขึ้นเมื่อถูกลาก"
+      },
+      "misconception_tags": [
+        "constant_speed_net_force"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.foundation.force_vector_basics.0004",
+      "topic_ids": [
+        "tpat3.foundation.force_vector_basics"
+      ],
+      "primary_topic_id": "tpat3.foundation.force_vector_basics",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 80,
+      "stem_md": "กล่องมวล $4$ กิโลกรัม วางนิ่งบนพื้นราบ (ให้ $g = 10$ เมตรต่อวินาทีกำลังสอง) แรงที่พื้นดันกล่องขึ้นมีขนาดเท่าใด",
+      "figures": [],
+      "choices": [
+        {
+          "md": "$40$ นิวตัน",
+          "is_answer": true
+        },
+        {
+          "md": "$0$ นิวตัน",
+          "is_answer": false
+        },
+        {
+          "md": "$400$ นิวตัน",
+          "is_answer": false
+        },
+        {
+          "md": "$10$ นิวตัน",
+          "is_answer": false
+        },
+        {
+          "md": "$4$ นิวตัน",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "น้ำหนักของกล่อง $= mg = 4 \\times 10 = 40$ นิวตัน",
+          "why_md": "แรงที่โลกดึงลง"
+        },
+        {
+          "do_md": "กล่องอยู่นิ่ง แรงลัพธ์จึงเป็นศูนย์",
+          "why_md": "แรงจากพื้นต้องเท่ากับน้ำหนักพอดี"
+        }
+      ],
+      "answer_explanation_md": "ตอบ $40$ นิวตัน เพราะกล่องอยู่นิ่ง แรงจากพื้นจึงเท่ากับน้ำหนัก $mg = 40$ นิวตัน",
+      "hints": [
+        "น้ำหนักคำนวณจากอะไร",
+        "กล่องอยู่นิ่งแปลว่าแรงลัพธ์เท่าใด",
+        "แรงจากพื้นต้องหักล้างกับแรงใด"
+      ],
+      "distractor_reasons": {
+        "1": "ถ้าไม่มีแรงจากพื้น กล่องจะตกลงไป",
+        "2": "คูณด้วย 100 แทน 10",
+        "3": "ตอบค่าความเร่งโน้มถ่วงแทนแรง",
+        "4": "ตอบค่ามวลแทนน้ำหนัก"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.foundation.force_vector_basics.0005",
+      "topic_ids": [
+        "tpat3.foundation.force_vector_basics"
+      ],
+      "primary_topic_id": "tpat3.foundation.force_vector_basics",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 4,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 2,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 100,
+      "stem_md": "แรงสองแรงขนาด $5$ นิวตัน เท่ากัน กระทำต่อวัตถุเดียวกัน ข้อใดเป็นขนาดของแรงลัพธ์ที่เป็นไปไม่ได้",
+      "figures": [],
+      "choices": [
+        {
+          "md": "$10$ นิวตัน",
+          "is_answer": false
+        },
+        {
+          "md": "$0$ นิวตัน",
+          "is_answer": false
+        },
+        {
+          "md": "$5$ นิวตัน",
+          "is_answer": false
+        },
+        {
+          "md": "$12$ นิวตัน",
+          "is_answer": true
+        },
+        {
+          "md": "$7$ นิวตัน",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "แรงลัพธ์มากที่สุดเมื่อทิศเดียวกัน $= 5 + 5 = 10$ นิวตัน",
+          "why_md": "ขีดบน"
+        },
+        {
+          "do_md": "แรงลัพธ์น้อยที่สุดเมื่อทิศตรงข้าม $= 5 - 5 = 0$ นิวตัน",
+          "why_md": "ขีดล่าง"
+        },
+        {
+          "do_md": "ค่าที่เป็นไปได้จึงอยู่ระหว่าง $0$ ถึง $10$",
+          "why_md": "$12$ เกินขีดบน"
+        }
+      ],
+      "answer_explanation_md": "ตอบ $12$ นิวตัน เพราะแรงลัพธ์ของสองแรงขนาด $5$ นิวตัน อยู่ในช่วง $0$ ถึง $10$ นิวตัน เท่านั้น",
+      "hints": [
+        "แรงลัพธ์มากที่สุดเกิดเมื่อทิศเป็นอย่างไร",
+        "แรงลัพธ์น้อยที่สุดเกิดเมื่อใด",
+        "ค่าที่เป็นไปได้อยู่ในช่วงใด"
+      ],
+      "distractor_reasons": {
+        "0": "เป็นไปได้เมื่อแรงทั้งสองทิศเดียวกัน",
+        "1": "เป็นไปได้เมื่อแรงทั้งสองทิศตรงข้าม",
+        "2": "เป็นไปได้เมื่อแรงทำมุม 120 องศาต่อกัน",
+        "4": "เป็นไปได้เมื่อแรงทำมุมประมาณ 90 องศา"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.foundation.force_vector_basics.0006",
+      "topic_ids": [
+        "tpat3.foundation.force_vector_basics"
+      ],
+      "primary_topic_id": "tpat3.foundation.force_vector_basics",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 4,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 2,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 100,
+      "stem_md": "ลิฟต์เคลื่อนที่ขึ้นด้วยความเร็วคงที่ คนมวล $60$ กิโลกรัม ยืนอยู่ในลิฟต์ (ให้ $g = 10$ เมตรต่อวินาทีกำลังสอง) พื้นลิฟต์ดันคนด้วยแรงเท่าใด",
+      "figures": [],
+      "choices": [
+        {
+          "md": "น้อยกว่า $600$ นิวตัน เพราะน้ำหนักลดลงในลิฟต์",
+          "is_answer": false
+        },
+        {
+          "md": "$0$ นิวตัน",
+          "is_answer": false
+        },
+        {
+          "md": "$60$ นิวตัน",
+          "is_answer": false
+        },
+        {
+          "md": "มากกว่า $600$ นิวตัน เพราะลิฟต์กำลังขึ้น",
+          "is_answer": false
+        },
+        {
+          "md": "$600$ นิวตัน",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ความเร็วคงที่แปลว่าความเร่งเป็นศูนย์",
+          "why_md": "ไม่ว่าจะขึ้นหรือลง"
+        },
+        {
+          "do_md": "แรงลัพธ์เป็นศูนย์ แรงจากพื้นจึงเท่ากับน้ำหนัก",
+          "why_md": "$60 \\times 10 = 600$ นิวตัน"
+        }
+      ],
+      "answer_explanation_md": "ตอบ $600$ นิวตัน เพราะลิฟต์เคลื่อนที่ด้วยความเร็วคงที่ ความเร่งจึงเป็นศูนย์ แรงจากพื้นเท่ากับน้ำหนักพอดี",
+      "hints": [
+        "ความเร็วคงที่แปลว่าความเร่งเท่าใด",
+        "ทิศการเคลื่อนที่มีผลต่อแรงลัพธ์ไหมถ้าความเร็วคงที่",
+        "คำนวณน้ำหนักจาก $mg$"
+      ],
+      "distractor_reasons": {
+        "0": "น้ำหนักจะน้อยลงเมื่อลิฟต์เร่งลงเท่านั้น",
+        "1": "ถ้าไม่มีแรงจากพื้น คนจะตกลง",
+        "2": "ตอบค่ามวลแทนแรง",
+        "3": "จะมากกว่าก็ต่อเมื่อลิฟต์เร่งขึ้น ไม่ใช่ความเร็วคงที่"
+      },
+      "misconception_tags": [
+        "constant_speed_net_force"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    }
+  ],
+  "generated_from": "content/tpat3/foundation_physics.py"
+}

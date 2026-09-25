@@ -1,0 +1,479 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tpat3.thinking.sci_engineering.work_rate",
+  "problems": [
+    {
+      "id": "prob.tpat3.thinking.sci_engineering.work_rate.0001",
+      "topic_ids": [
+        "tpat3.thinking.sci_engineering.work_rate"
+      ],
+      "primary_topic_id": "tpat3.thinking.sci_engineering.work_rate",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 110,
+      "stem_md": "เครื่อง A ผลิตงานหนึ่งชุดใน 4 ชั่วโมง เครื่อง B ใน 12 ชั่วโมง ทำพร้อมกันใช้เวลากี่ชั่วโมง",
+      "figures": [],
+      "choices": [
+        {
+          "md": "8 ชั่วโมง",
+          "is_answer": false
+        },
+        {
+          "md": "3 ชั่วโมง",
+          "is_answer": true
+        },
+        {
+          "md": "2 ชั่วโมง",
+          "is_answer": false
+        },
+        {
+          "md": "16 ชั่วโมง",
+          "is_answer": false
+        },
+        {
+          "md": "4 ชั่วโมง",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "รวมอัตรา",
+          "why_md": "1/4+1/12=1/3"
+        },
+        {
+          "do_md": "กลับเป็นเวลา",
+          "why_md": "3 ชั่วโมง"
+        }
+      ],
+      "answer_explanation_md": "ตอบ 3 ชั่วโมง เพราะอัตรารวม 1/3 งานต่อชั่วโมง",
+      "hints": [
+        "แปลงเวลาเป็นอัตรา",
+        "หาส่วนร่วม 12",
+        "เวลารวมต้องน้อยกว่า 4 ชั่วโมง"
+      ],
+      "distractor_reasons": {
+        "0": "เฉลี่ยเวลา 4 กับ 12",
+        "2": "เร็วเกินกว่าอัตรารวม",
+        "3": "บวกเวลา",
+        "4": "ใช้เวลาเครื่องเร็วเพียงเครื่องเดียว"
+      },
+      "misconception_tags": [
+        "add_times_parallel"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.thinking.sci_engineering.work_rate.0002",
+      "topic_ids": [
+        "tpat3.thinking.sci_engineering.work_rate"
+      ],
+      "primary_topic_id": "tpat3.thinking.sci_engineering.work_rate",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 4,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "high"
+      },
+      "est_seconds": 130,
+      "stem_md": "ท่อเติมเต็มถังใน 5 ชั่วโมง แต่รูรั่วระบายน้ำเต็มถังใน 20 ชั่วโมง ถ้าเปิดพร้อมกันจากถังว่างจะเต็มในกี่ชั่วโมง",
+      "figures": [],
+      "choices": [
+        {
+          "md": "25 ชั่วโมง",
+          "is_answer": false
+        },
+        {
+          "md": "4 ชั่วโมง",
+          "is_answer": false
+        },
+        {
+          "md": "6 ชั่วโมง 40 นาที",
+          "is_answer": true
+        },
+        {
+          "md": "8 ชั่วโมง",
+          "is_answer": false
+        },
+        {
+          "md": "5 ชั่วโมง 20 นาที",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "อัตราสุทธิ",
+          "why_md": "1/5-1/20=3/20 ถังต่อชั่วโมง"
+        },
+        {
+          "do_md": "หาเวลา",
+          "why_md": "20/3 ชั่วโมง = 6 ชั่วโมง 40 นาที"
+        }
+      ],
+      "answer_explanation_md": "ตอบ 6 ชั่วโมง 40 นาทีจากอัตราสุทธิ 3/20",
+      "hints": [
+        "การรั่วต้องลบอัตรา",
+        "ใช้ส่วนร่วม 20",
+        "แปลง 2/3 ชั่วโมงเป็น 40 นาที"
+      ],
+      "distractor_reasons": {
+        "0": "บวกเวลาโดยไม่ใช้ทิศของการไหล",
+        "1": "ลบเวลา 5-20 ผิดทิศ",
+        "3": "คำนวณอัตราสุทธิผิด",
+        "4": "นำเวลามาบวกบางส่วน"
+      },
+      "misconception_tags": [
+        "subtract_times_not_rates"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.thinking.sci_engineering.work_rate.0003",
+      "topic_ids": [
+        "tpat3.thinking.sci_engineering.work_rate"
+      ],
+      "primary_topic_id": "tpat3.thinking.sci_engineering.work_rate",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 4,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "high"
+      },
+      "est_seconds": 120,
+      "stem_md": "สายงานมีสถานี X ทำได้ 30 ชิ้น/ชั่วโมง และ Y ทำได้ 24 ชิ้น/ชั่วโมง ทุกชิ้นต้องผ่านทั้งสองสถานี กำลังผลิตต่อเนื่องสูงสุดเท่าไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "30 ชิ้น/ชั่วโมง",
+          "is_answer": false
+        },
+        {
+          "md": "27 ชิ้น/ชั่วโมง",
+          "is_answer": false
+        },
+        {
+          "md": "6 ชิ้น/ชั่วโมง",
+          "is_answer": false
+        },
+        {
+          "md": "24 ชิ้น/ชั่วโมง",
+          "is_answer": true
+        },
+        {
+          "md": "54 ชิ้น/ชั่วโมง",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "มองเป็นกระบวนการอนุกรม",
+          "why_md": "ทุกชิ้นต้องผ่านทั้งคู่"
+        },
+        {
+          "do_md": "หาคอขวด",
+          "why_md": "สถานี Y จำกัดที่ 24"
+        }
+      ],
+      "answer_explanation_md": "ตอบ 24 ชิ้นต่อชั่วโมง เพราะ Y เป็นคอขวด",
+      "hints": [
+        "สถานีต่ออนุกรมไม่ใช่ทำงานชิ้นเดียวกันขนาน",
+        "กำลังผลิตถูกจำกัดด้วยสถานีใด",
+        "หาค่าน้อยของอัตรา"
+      ],
+      "distractor_reasons": {
+        "0": "ใช้สถานีเร็วกว่า",
+        "1": "เฉลี่ยอัตรา",
+        "2": "หาผลต่าง",
+        "4": "บวกอัตราของสถานีอนุกรม"
+      },
+      "misconception_tags": [
+        "add_rates_in_series"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.thinking.sci_engineering.work_rate.0004",
+      "topic_ids": [
+        "tpat3.thinking.sci_engineering.work_rate"
+      ],
+      "primary_topic_id": "tpat3.thinking.sci_engineering.work_rate",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 105,
+      "stem_md": "เครื่องผลิต 50 ชิ้น/ชั่วโมง แต่ในกะ 8 ชั่วโมงหยุดบำรุง 20% ของเวลา จะผลิตได้กี่ชิ้น",
+      "figures": [],
+      "choices": [
+        {
+          "md": "320 ชิ้น",
+          "is_answer": true
+        },
+        {
+          "md": "80 ชิ้น",
+          "is_answer": false
+        },
+        {
+          "md": "400 ชิ้น",
+          "is_answer": false
+        },
+        {
+          "md": "360 ชิ้น",
+          "is_answer": false
+        },
+        {
+          "md": "300 ชิ้น",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "หาเวลาทำงานจริง",
+          "why_md": "8×0.80=6.4 ชั่วโมง"
+        },
+        {
+          "do_md": "คูณอัตรา",
+          "why_md": "50×6.4=320"
+        }
+      ],
+      "answer_explanation_md": "ตอบ 320 ชิ้น เพราะทำงานจริง 6.4 ชั่วโมง",
+      "hints": [
+        "20% เป็นเวลาที่หยุด",
+        "เวลาทำงานจึงเหลือ 80%",
+        "ผลต้องน้อยกว่า 400"
+      ],
+      "distractor_reasons": {
+        "1": "คิดเฉพาะเวลาหยุด",
+        "2": "ไม่หักเวลาหยุด",
+        "3": "ใช้เวลาทำงาน 90%",
+        "4": "หัก 100 ชิ้นจาก 400 ผิด"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.thinking.sci_engineering.work_rate.0005",
+      "topic_ids": [
+        "tpat3.thinking.sci_engineering.work_rate"
+      ],
+      "primary_topic_id": "tpat3.thinking.sci_engineering.work_rate",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 5,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": true,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 150,
+      "stem_md": "ทีม A ทำงานได้ 2/5 ของโครงการใน 4 วัน จากนั้นทีม B ซึ่งทำได้ 1/10 โครงการต่อวันมาช่วย ทั้งสองทีมคงอัตราเดิม งานที่เหลือใช้กี่วัน",
+      "figures": [],
+      "choices": [
+        {
+          "md": "5 วัน",
+          "is_answer": false
+        },
+        {
+          "md": "2 วัน",
+          "is_answer": false
+        },
+        {
+          "md": "4 วัน",
+          "is_answer": false
+        },
+        {
+          "md": "6 วัน",
+          "is_answer": false
+        },
+        {
+          "md": "3 วัน",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "อัตรา A",
+          "why_md": "(2/5)/4=1/10 ต่อวัน"
+        },
+        {
+          "do_md": "งานเหลือและอัตรารวม",
+          "why_md": "3/5 ÷ (1/10+1/10)=3 วัน"
+        }
+      ],
+      "answer_explanation_md": "ตอบ 3 วัน เพราะงานเหลือ 3/5 และอัตรารวม 1/5 ต่อวัน",
+      "hints": [
+        "หาอัตรา A จากงานที่ทำแล้ว",
+        "หลัง 4 วันเหลืองานเท่าไร",
+        "ทีมสองทีมมีอัตราเท่ากัน"
+      ],
+      "distractor_reasons": {
+        "0": "ไม่รวมอัตรา B",
+        "1": "ใช้อัตรารวมกับงานเต็มไม่ถูก",
+        "2": "ใช้เวลาเดิมของ A",
+        "3": "ใช้อัตรา B คนเดียว"
+      },
+      "misconception_tags": [
+        "use_full_work_after_partial"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.thinking.sci_engineering.work_rate.0006",
+      "topic_ids": [
+        "tpat3.thinking.sci_engineering.work_rate"
+      ],
+      "primary_topic_id": "tpat3.thinking.sci_engineering.work_rate",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 5,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": true,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 140,
+      "stem_md": "ปั๊ม A เติม 120 ลิตร/นาที ปั๊ม B เติม 80 ลิตร/นาที เปิดพร้อมกัน 15 นาที แต่ A หยุดหลัง 10 นาที เติมรวมเท่าไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "2,400 ลิตร",
+          "is_answer": true
+        },
+        {
+          "md": "2,000 ลิตร",
+          "is_answer": false
+        },
+        {
+          "md": "3,000 ลิตร",
+          "is_answer": false
+        },
+        {
+          "md": "3,600 ลิตร",
+          "is_answer": false
+        },
+        {
+          "md": "2,600 ลิตร",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ปริมาณจาก A",
+          "why_md": "120×10=1,200"
+        },
+        {
+          "do_md": "ปริมาณจาก B",
+          "why_md": "80×15=1,200 รวม 2,400"
+        }
+      ],
+      "answer_explanation_md": "ตอบ 2,400 ลิตร เพราะ A เติม 1,200 และ B เติม 1,200",
+      "hints": [
+        "แยกเวลาของแต่ละปั๊ม",
+        "B ทำครบ 15 นาที",
+        "บวก 1,200 กับ 1,200"
+      ],
+      "distractor_reasons": {
+        "1": "คิดเฉพาะ 10 นาทีแรก",
+        "2": "คิดทั้งสองทำ 15 นาที",
+        "3": "บวกเวลาและอัตราผิด",
+        "4": "บวกช่วงท้ายเกินจริง"
+      },
+      "misconception_tags": [
+        "ignore_rate_change"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    }
+  ],
+  "generated_from": "content/tpat3/thinking.py"
+}

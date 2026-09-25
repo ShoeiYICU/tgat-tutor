@@ -1,0 +1,659 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tgat3.value_innovation.problem_solving.communicate_solution",
+  "problems": [
+    {
+      "id": "prob.tgat3.value_innovation.problem_solving.communicate_solution.0001",
+      "topic_ids": [
+        "tgat3.value_innovation.problem_solving.communicate_solution"
+      ],
+      "primary_topic_id": "tgat3.value_innovation.problem_solving.communicate_solution",
+      "exam_code": "TGAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT3 สมรรถนะการทำงาน แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4_tiered",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 60,
+      "stem_md": "คุณเป็นสมาชิกกลุ่มที่ต้องนำเสนองานพรุ่งนี้ คืนนี้คุณพบว่าไฟล์สไลด์ของกลุ่มเสียเปิดไม่ได้ แต่คุณมีไฟล์สำรองเวอร์ชันเมื่อวาน คุณควรทำอย่างไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ค้นวิธีกู้ไฟล์และพยายามกู้ไฟล์เสียด้วยตัวเองทั้งคืน เพื่อไม่ให้เพื่อนในกลุ่มต้องกังวลก่อนวันนำเสนอ",
+          "is_answer": false,
+          "score": 0.75
+        },
+        {
+          "md": "ใช้ไฟล์สำรองเมื่อวานโดยไม่ต้องบอกใคร",
+          "is_answer": false,
+          "score": 0.5
+        },
+        {
+          "md": "แจ้งกลุ่มทันที และถามว่าใครแก้อะไรหลังเมื่อวานบ้าง",
+          "is_answer": true,
+          "score": 1
+        },
+        {
+          "md": "รอเช้าแล้วค่อยบอกกลุ่มที่โรงเรียน",
+          "is_answer": false,
+          "score": 0.25
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ผู้ได้รับผลกระทบ: ทุกคนในกลุ่ม",
+          "why_md": "ต้องรู้ก่อนพรุ่งนี้"
+        },
+        {
+          "do_md": "ข้อมูลที่ต้องบอก: ไฟล์เสีย ทางแก้ที่มี และข้อมูลที่ต้องถาม",
+          "why_md": "เพื่อนจะบอกได้ว่าแก้อะไรหลังเมื่อวาน"
+        },
+        {
+          "do_md": "บอกทันที",
+          "why_md": "มีเวลาเติมส่วนที่หาย"
+        }
+      ],
+      "answer_explanation_md": "แจ้งกลุ่มทันทีพร้อมทางแก้และคำถามดีที่สุด เพราะทุกคนปรับตัวได้ทันและไม่มีงานส่วนไหนหายไปโดยไม่รู้",
+      "hints": [
+        "ใครได้รับผลกระทบจากไฟล์ที่เสีย",
+        "ไฟล์สำรองเมื่อวานขาดอะไรไปได้บ้าง",
+        "หาตัวเลือกที่แจ้งเร็วพอให้กลุ่มแก้ไขทัน"
+      ],
+      "distractor_reasons": {
+        "0": "ตั้งใจแก้ปัญหา แต่ไม่ได้แจ้งกลุ่ม ถ้ากู้ไม่ได้จะเสียเวลาทั้งคืน",
+        "1": "แก้ได้เร็ว แต่ถ้าเพื่อนแก้ไฟล์หลังเมื่อวาน ส่วนที่แก้จะหายไปโดยไม่มีใครรู้",
+        "3": "กลุ่มไม่มีเวลาแก้ไขส่วนที่หายไปก่อนนำเสนอ"
+      },
+      "misconception_tags": [
+        "silent_fix"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat3.value_innovation.problem_solving.communicate_solution.0002",
+      "topic_ids": [
+        "tgat3.value_innovation.problem_solving.communicate_solution"
+      ],
+      "primary_topic_id": "tgat3.value_innovation.problem_solving.communicate_solution",
+      "exam_code": "TGAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT3 สมรรถนะการทำงาน แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4_tiered",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 60,
+      "stem_md": "คุณทำงานพิเศษที่ร้านซ่อมโทรศัพท์ สัญญากับลูกค้าว่าจะซ่อมเสร็จวันนี้ แต่อะไหล่ที่สั่งมาผิดรุ่น ร้านต้องสั่งใหม่ซึ่งใช้เวลา 2 วัน คุณควรทำอย่างไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ส่งข้อความสั้น ๆ ว่า \"ซ่อมไม่ทันครับ\"",
+          "is_answer": false,
+          "score": 0.5
+        },
+        {
+          "md": "โทรแจ้งลูกค้าทันทีพร้อมกำหนดใหม่ และเสนอเครื่องสำรอง",
+          "is_answer": true,
+          "score": 1
+        },
+        {
+          "md": "โทรแจ้งลูกค้าทันทีว่าอะไหล่ที่ร้านสั่งมาผิดรุ่น ต้องสั่งใหม่ และจะซ่อมเสร็จภายใน 2 วัน พร้อมขอโทษในความไม่สะดวก",
+          "is_answer": false,
+          "score": 0.75
+        },
+        {
+          "md": "รอให้ลูกค้ามารับแล้วค่อยบอกว่ายังไม่เสร็จ",
+          "is_answer": false,
+          "score": 0.25
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ผู้ได้รับผลกระทบ: ลูกค้าที่ไม่มีโทรศัพท์ใช้",
+          "why_md": "ต้องแจ้งก่อนเขาเดินทางมา"
+        },
+        {
+          "do_md": "บอกให้ครบ: สาเหตุ กำหนดใหม่",
+          "why_md": "ลูกค้าวางแผนได้"
+        },
+        {
+          "do_md": "เสนอสิ่งที่ช่วยลดผลกระทบ",
+          "why_md": "เช่น เครื่องสำรอง"
+        }
+      ],
+      "answer_explanation_md": "โทรแจ้งทันทีพร้อมสาเหตุ กำหนดใหม่ และทางเลือกดีที่สุด เพราะลูกค้าวางแผนได้และได้รับการดูแลระหว่างรอ",
+      "hints": [
+        "ลูกค้าจะเจอปัญหาอะไรถ้าไม่รู้ล่วงหน้า",
+        "ข้อความแจ้งที่ดีควรมีข้อมูลอะไรบ้าง",
+        "ร้านช่วยลดผลกระทบระหว่างรอได้อย่างไร"
+      ],
+      "distractor_reasons": {
+        "0": "แจ้งแล้ว แต่ไม่บอกสาเหตุ กำหนดใหม่ หรือทางเลือก ลูกค้าไม่รู้จะวางแผนอย่างไร",
+        "2": "แจ้งเร็วและครบข้อเท็จจริง แต่ไม่ได้เสนอทางช่วยลูกค้าระหว่างรอ",
+        "3": "ลูกค้าเสียเวลาเดินทางมาเปล่า และรู้สึกว่าร้านไม่ใส่ใจ"
+      },
+      "misconception_tags": [
+        "silent_fix"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat3.value_innovation.problem_solving.communicate_solution.0003",
+      "topic_ids": [
+        "tgat3.value_innovation.problem_solving.communicate_solution"
+      ],
+      "primary_topic_id": "tgat3.value_innovation.problem_solving.communicate_solution",
+      "exam_code": "TGAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT3 สมรรถนะการทำงาน แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4_tiered",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 60,
+      "stem_md": "คุณเป็นเหรัญญิกชมรม พบว่ายอดเงินในบัญชีน้อยกว่าที่บันทึกไว้ 1,200 บาท หลังตรวจสอบพบว่าคุณเองลืมบันทึกค่าใช้จ่ายซื้ออุปกรณ์ไปหนึ่งรายการ ซึ่งมีใบเสร็จครบ คุณควรทำอย่างไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "แก้บันทึกให้ถูกต้องโดยไม่ต้องบอกใคร เพราะมีใบเสร็จยืนยันครบ และเป็นแค่ความผิดพลาดในการจดที่ไม่ได้ทำให้เงินหายจริง",
+          "is_answer": false,
+          "score": 0.5
+        },
+        {
+          "md": "แก้บันทึกให้ถูก แล้วแจ้งประธานพร้อมใบเสร็จ",
+          "is_answer": true,
+          "score": 1
+        },
+        {
+          "md": "ใส่เงินส่วนตัวคืนให้ยอดตรง",
+          "is_answer": false,
+          "score": 0.25
+        },
+        {
+          "md": "แจ้งประธานว่ายอดเงินไม่ตรง ขอเวลาตรวจสอบก่อน",
+          "is_answer": false,
+          "score": 0.75
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "เรื่องเงินส่วนรวมต้องโปร่งใส",
+          "why_md": "แม้เป็นความผิดพลาดเล็กของเราเอง"
+        },
+        {
+          "do_md": "แก้บันทึกให้ตรงความจริง",
+          "why_md": "ไม่ใช่เติมเงินให้ยอดตรง"
+        },
+        {
+          "do_md": "แจ้งผู้รับผิดชอบพร้อมหลักฐาน",
+          "why_md": "ครบทั้งแก้ไขและสื่อสาร"
+        }
+      ],
+      "answer_explanation_md": "แก้บันทึกให้ถูกแล้วแจ้งพร้อมใบเสร็จดีที่สุด เพราะบันทึกตรงความจริงและรักษาความโปร่งใสของเงินส่วนรวม",
+      "hints": [
+        "เงินนี้เป็นของใคร ใครควรรู้เมื่อมีความคลาดเคลื่อน",
+        "การเติมเงินให้ยอดตรงทำให้บันทึกตรงกับความจริงหรือไม่",
+        "หาตัวเลือกที่ทั้งแก้ไขและแจ้งพร้อมหลักฐาน"
+      ],
+      "distractor_reasons": {
+        "0": "ตัวเลขถูกต้อง แต่คนที่ดูแลเงินชมรมไม่รู้ว่าเคยมีความคลาดเคลื่อน ความโปร่งใสลดลง",
+        "2": "ยอดตรงกัน แต่ทำให้บันทึกไม่ตรงกับความจริง และผิดหลักการบัญชี",
+        "3": "โปร่งใส แต่ตรวจพบสาเหตุแล้ว ควรแจ้งพร้อมคำอธิบายและหลักฐาน"
+      },
+      "misconception_tags": [
+        "silent_fix"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat3.value_innovation.problem_solving.communicate_solution.0004",
+      "topic_ids": [
+        "tgat3.value_innovation.problem_solving.communicate_solution"
+      ],
+      "primary_topic_id": "tgat3.value_innovation.problem_solving.communicate_solution",
+      "exam_code": "TGAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT3 สมรรถนะการทำงาน แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4_tiered",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 60,
+      "stem_md": "คุณเป็นนักศึกษาฝึกงาน ได้รับมอบหมายให้แปลเอกสารให้เสร็จวันพฤหัส แต่วันอังคารคุณพบว่าเอกสารยาวกว่าที่แจ้งไว้สองเท่า คุณควรทำอย่างไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "แปลให้ได้มากที่สุดแล้วส่งเท่าที่ทำได้วันพฤหัส",
+          "is_answer": false,
+          "score": 0.25
+        },
+        {
+          "md": "ขอให้เพื่อนนักศึกษาฝึกงานอีกคนที่ภาษาดีช่วยแปลครึ่งหนึ่ง เพื่อให้งานเสร็จทันวันพฤหัสตามที่หัวหน้ากำหนดไว้",
+          "is_answer": false,
+          "score": 0.75
+        },
+        {
+          "md": "ทำงานดึกทุกคืนเพื่อให้ทันวันพฤหัสโดยไม่บอกใคร",
+          "is_answer": false,
+          "score": 0.5
+        },
+        {
+          "md": "แจ้งหัวหน้าตอนนี้ว่าเอกสารยาวกว่าที่คาด บอกว่าทำไปถึงไหนแล้ว และถามว่าควรเลื่อนกำหนดหรือเน้นส่วนไหนก่อน",
+          "is_answer": true,
+          "score": 1
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ข้อมูลใหม่: งานเพิ่มสองเท่า",
+          "why_md": "เป็นข้อมูลที่หัวหน้าต้องรู้เพื่อวางแผน"
+        },
+        {
+          "do_md": "แจ้งเร็ว (วันอังคาร) ยังมีเวลาปรับ",
+          "why_md": "ดีกว่าแจ้งวันพฤหัส"
+        },
+        {
+          "do_md": "บอกสถานะงานและขอให้ตัดสินลำดับ",
+          "why_md": "ครบตามสูตรแจ้งปัญหา"
+        }
+      ],
+      "answer_explanation_md": "แจ้งหัวหน้าทันทีพร้อมสถานะงานและคำถามเรื่องลำดับดีที่สุด เพราะยังมีเวลาปรับแผน และหัวหน้าตัดสินใจได้จากข้อมูลจริง",
+      "hints": [
+        "ข้อมูลอะไรเปลี่ยนไปจากตอนที่รับงาน",
+        "ถ้าบอกวันอังคาร กับบอกวันพฤหัส ต่างกันอย่างไร",
+        "หาตัวเลือกที่ให้หัวหน้าได้ตัดสินใจจากข้อมูลจริง"
+      ],
+      "distractor_reasons": {
+        "0": "หัวหน้ารู้ตัวเมื่อสายเกินจะปรับแผน",
+        "1": "แก้ได้ แต่หัวหน้าไม่รู้เรื่อง และเพื่อนอาจมีงานของตัวเองอยู่",
+        "2": "รับผิดชอบสูง แต่เสี่ยงคุณภาพงานลด และหัวหน้าไม่รู้ว่าปริมาณงานต่างจากที่แจ้ง"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat3.value_innovation.problem_solving.communicate_solution.0005",
+      "topic_ids": [
+        "tgat3.value_innovation.problem_solving.communicate_solution"
+      ],
+      "primary_topic_id": "tgat3.value_innovation.problem_solving.communicate_solution",
+      "exam_code": "TGAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT3 สมรรถนะการทำงาน แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4_tiered",
+      "difficulty": 4,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "high"
+      },
+      "est_seconds": 60,
+      "stem_md": "คุณเป็นหัวหน้าทีมอาสาจัดงานบริจาคโลหิต วันงานพบว่าเตียงบริจาคมาไม่ครบ ทำให้คิวรอนานขึ้นประมาณ 1 ชั่วโมง มีผู้บริจาครออยู่ 40 คน คุณควรทำอย่างไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ประกาศแจ้งผู้บริจาคถึงสาเหตุและเวลารอโดยประมาณ ให้ลงชื่อแล้วกลับมาตามเวลาได้ และแจ้งหน่วยงานที่ส่งเตียงให้ตามส่วนที่ขาด",
+          "is_answer": true,
+          "score": 1
+        },
+        {
+          "md": "ประกาศขอโทษผู้บริจาคและบอกเวลารอโดยประมาณ",
+          "is_answer": false,
+          "score": 0.75
+        },
+        {
+          "md": "ให้ผู้บริจาครอไปเรื่อย ๆ โดยไม่ต้องประกาศอะไร",
+          "is_answer": false,
+          "score": 0.25
+        },
+        {
+          "md": "แจ้งหน่วยงานที่ส่งเตียงให้ส่งมาเพิ่มด่วน",
+          "is_answer": false,
+          "score": 0.5
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ผู้ได้รับผลกระทบ: ผู้บริจาค 40 คน",
+          "why_md": "ต้องรู้เวลารอเพื่อวางแผน"
+        },
+        {
+          "do_md": "ลดผลกระทบ: ให้ลงชื่อแล้วกลับมาตามเวลา",
+          "why_md": "ไม่ต้องยืนรอ"
+        },
+        {
+          "do_md": "แก้ต้นเหตุ: ตามเตียงที่ขาด",
+          "why_md": "ครบทั้งการสื่อสารและการแก้ปัญหา"
+        }
+      ],
+      "answer_explanation_md": "ประกาศแจ้งพร้อมระบบลงชื่อ และตามเตียงที่ขาดดีที่สุด เพราะผู้บริจาคได้ข้อมูลและไม่ต้องยืนรอ ขณะเดียวกันก็แก้ที่ต้นเหตุ",
+      "hints": [
+        "ใครได้รับผลกระทบจากคิวที่นานขึ้น",
+        "ผู้บริจาคต้องรู้อะไรเพื่อตัดสินใจว่าจะรอหรือไม่",
+        "หาตัวเลือกที่ทั้งแจ้งผู้บริจาคและแก้เรื่องเตียงที่ขาด"
+      ],
+      "distractor_reasons": {
+        "1": "สื่อสารกับผู้ได้รับผลกระทบได้ดี แต่ยังไม่ได้แก้ต้นเหตุหรือเสนอทางที่ไม่ต้องยืนรอ",
+        "2": "ผู้บริจาคไม่รู้ว่าต้องรอนานแค่ไหน หลายคนอาจกลับไปและไม่มาอีก",
+        "3": "แก้ที่ต้นเหตุ แต่ผู้บริจาคที่รออยู่ไม่รู้สถานการณ์"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat3.value_innovation.problem_solving.communicate_solution.0006",
+      "topic_ids": [
+        "tgat3.value_innovation.problem_solving.communicate_solution"
+      ],
+      "primary_topic_id": "tgat3.value_innovation.problem_solving.communicate_solution",
+      "exam_code": "TGAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT3 สมรรถนะการทำงาน แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4_tiered",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 60,
+      "stem_md": "คุณกับเพื่อนสองคนเปิดร้านขายของออนไลน์เล็ก ๆ คุณเป็นคนตอบแชตลูกค้า วันหนึ่งลูกค้าร้องเรียนว่าได้ของผิดสี ซึ่งเพื่อนอีกคนเป็นคนแพ็กของ คุณควรทำอย่างไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ส่งเรื่องให้เพื่อนที่แพ็กของเป็นคนตอบลูกค้าและแก้ไขเอง เพราะเป็นผู้รับผิดชอบขั้นตอนที่เกิดปัญหาโดยตรง",
+          "is_answer": false,
+          "score": 0.75
+        },
+        {
+          "md": "บอกลูกค้าว่าเป็นความผิดของคนแพ็กของ",
+          "is_answer": false,
+          "score": 0.25
+        },
+        {
+          "md": "ขอโทษและส่งสีที่ถูกให้ แล้วชวนเพื่อนวางวิธีตรวจก่อนส่ง",
+          "is_answer": true,
+          "score": 1
+        },
+        {
+          "md": "ขอโทษลูกค้าและส่งของใหม่ให้ โดยไม่บอกเพื่อนเพราะไม่อยากให้เพื่อนรู้สึกแย่",
+          "is_answer": false,
+          "score": 0.5
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ลูกค้าได้รับผลกระทบ: ต้องแก้ไขทันที",
+          "why_md": "ขอโทษและส่งของที่ถูก"
+        },
+        {
+          "do_md": "ต้นเหตุอยู่ที่ขั้นตอนแพ็กของ",
+          "why_md": "ต้องบอกเพื่อนเพื่อป้องกันไม่ให้เกิดซ้ำ"
+        },
+        {
+          "do_md": "สื่อสารแบบช่วยกันแก้ ไม่ใช่กล่าวโทษ",
+          "why_md": "ความสัมพันธ์ในทีมยังดี"
+        }
+      ],
+      "answer_explanation_md": "ดูแลลูกค้าแล้วบอกเพื่อนเพื่อช่วยกันวางวิธีตรวจก่อนส่งดีที่สุด เพราะแก้ทั้งปัญหาเฉพาะหน้าและต้นเหตุโดยไม่กล่าวโทษ",
+      "hints": [
+        "ใครต้องได้รับการแก้ไขก่อน",
+        "ถ้าเพื่อนที่แพ็กของไม่รู้เรื่องนี้ จะเกิดอะไรขึ้นอีก",
+        "หาตัวเลือกที่ดูแลลูกค้าและสื่อสารกับเพื่อนแบบช่วยกันแก้"
+      ],
+      "distractor_reasons": {
+        "0": "ให้คนที่เกี่ยวข้องรับผิดชอบ แต่ลูกค้าต้องรอ ทั้งที่เราเป็นคนตอบแชตอยู่แล้ว",
+        "1": "โยนความผิด ทำให้ร้านดูไม่เป็นมืออาชีพ และลูกค้ายังไม่ได้รับการแก้ไข",
+        "3": "ดูแลลูกค้าได้ดี แต่เพื่อนไม่รู้ว่าเกิดปัญหา ความผิดพลาดแบบเดิมจะเกิดซ้ำ"
+      },
+      "misconception_tags": [
+        "silent_fix"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat3.value_innovation.problem_solving.communicate_solution.0007",
+      "topic_ids": [
+        "tgat3.value_innovation.problem_solving.communicate_solution"
+      ],
+      "primary_topic_id": "tgat3.value_innovation.problem_solving.communicate_solution",
+      "exam_code": "TGAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT3 สมรรถนะการทำงาน แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4_tiered",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 60,
+      "stem_md": "คุณเปลี่ยนเวลาประชุมทีมเพื่อลดการชนกับคาบเรียน ควรสื่อสารอย่างไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "แจ้งเหตุผล เวลาเริ่มใช้ ช่องทางถาม และขอให้สมาชิกยืนยันว่าเห็นข้อความ",
+          "is_answer": true,
+          "score": 1
+        },
+        {
+          "md": "บอกเฉพาะหัวหน้ากลุ่มย่อย",
+          "is_answer": false,
+          "score": 0.75
+        },
+        {
+          "md": "รอแจ้งก่อนประชุมหนึ่งชั่วโมง",
+          "is_answer": false,
+          "score": 0.25
+        },
+        {
+          "md": "แก้เวลาในปฏิทินกลางโดยไม่ส่งข้อความ",
+          "is_answer": false,
+          "score": 0.5
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ระบุผู้รับผลกระทบ",
+          "why_md": "สมาชิกทุกคน"
+        },
+        {
+          "do_md": "ให้ข้อมูลที่ใช้ได้",
+          "why_md": "เหตุผล เวลา ช่องทางถาม"
+        },
+        {
+          "do_md": "ปิดวงสื่อสาร",
+          "why_md": "ยืนยันการรับรู้"
+        }
+      ],
+      "answer_explanation_md": "การแจ้งครบและขอการยืนยันลดความคลาดเคลื่อนโดยเปิดโอกาสให้ถาม",
+      "hints": [
+        "ใครต้องรู้",
+        "ข้อมูลใดทำให้ปรับแผนได้",
+        "จะรู้ได้อย่างไรว่าข้อความถึง"
+      ],
+      "distractor_reasons": {
+        "1": "มีตัวกลางแต่ยังเสี่ยงส่งต่อไม่ครบ",
+        "2": "ช้าเกินให้คนปรับแผน",
+        "3": "ข้อมูลถูกแต่บางคนอาจไม่เห็น"
+      },
+      "misconception_tags": [
+        "silent_fix"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat3.value_innovation.problem_solving.communicate_solution.0008",
+      "topic_ids": [
+        "tgat3.value_innovation.problem_solving.communicate_solution"
+      ],
+      "primary_topic_id": "tgat3.value_innovation.problem_solving.communicate_solution",
+      "exam_code": "TGAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT3 สมรรถนะการทำงาน แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4_tiered",
+      "difficulty": 5,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": true,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 60,
+      "stem_md": "ทีมจะเปลี่ยนระบบส่งงานพรุ่งนี้ คุณทดสอบแล้วพบว่านักเรียนที่ใช้โทรศัพท์รุ่นเก่าบางคนอัปโหลดไม่ได้ แต่ผู้บริหารต้องการประกาศวันนี้ คุณควรทำอย่างไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ไม่พูดถึงปัญหาเพราะพบเพียงบางเครื่อง",
+          "is_answer": false,
+          "score": 0.25
+        },
+        {
+          "md": "ประกาศระบบใหม่ตามกำหนดและค่อยช่วยเป็นรายคน",
+          "is_answer": false,
+          "score": 0.5
+        },
+        {
+          "md": "เลื่อนประกาศทั้งหมดจนระบบรองรับทุกเครื่อง",
+          "is_answer": false,
+          "score": 0.75
+        },
+        {
+          "md": "รายงานผลทดสอบและกลุ่มที่ได้รับผล เสนอช่องทางสำรองชั่วคราวพร้อมกำหนดแก้ แล้วประกาศทั้งวิธีหลักและสำรอง",
+          "is_answer": true,
+          "score": 1
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "สื่อสารข้อจำกัดตรงไปตรงมา",
+          "why_md": "ผู้ตัดสินใจต้องรู้ผลทดสอบ"
+        },
+        {
+          "do_md": "คุ้มครองกลุ่มที่เข้าไม่ถึง",
+          "why_md": "มีช่องทางสำรอง"
+        },
+        {
+          "do_md": "วางแผนถาวร",
+          "why_md": "กำหนดแก้และแจ้งชัด"
+        }
+      ],
+      "answer_explanation_md": "เปิดเผยปัญหาและเสนอทางสำรองพร้อมแผนแก้ ทำให้การเปลี่ยนผ่านเดินต่ออย่างรับผิดชอบ",
+      "hints": [
+        "ใครเสียโอกาสหากประกาศทันที",
+        "ผู้บริหารต้องรู้อะไรก่อนตัดสินใจ",
+        "มีวิธีรักษากำหนดโดยไม่ทิ้งผู้ใช้หรือไม่"
+      ],
+      "distractor_reasons": {
+        "0": "ปกปิดข้อจำกัดที่กระทบความเท่าเทียม",
+        "1": "รักษากำหนดแต่ผลักภาระให้ผู้ใช้",
+        "2": "ป้องกันผลกระทบแต่ไม่เสนอทางเดินงานในเวลาจำกัด"
+      },
+      "misconception_tags": [
+        "silent_fix"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    }
+  ],
+  "generated_from": "content/tgat3/value_innovation.py"
+}

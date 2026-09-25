@@ -1,0 +1,739 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tgat2.spatial.rotation_3d.horizontal_axis",
+  "problems": [
+    {
+      "id": "prob.tgat2.spatial.rotation_3d.horizontal_axis.0001",
+      "topic_ids": [
+        "tgat2.spatial.rotation_3d.horizontal_axis"
+      ],
+      "primary_topic_id": "tgat2.spatial.rotation_3d.horizontal_axis",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 70,
+      "stem_md": "ภาพใดคือทรงต้นแบบเมื่อล้มไปทางขวา 90 องศา (หมุนรอบแกนนอน)\n\n[[fig1]]",
+      "figures": [
+        {
+          "id": "fig1",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 128 129\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><polygon points=\"38.0,12.0 64.0,27.0 38.0,42.0 12.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"12.0,57.0 38.0,72.0 38.0,42.0 12.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,57.0 38.0,72.0 38.0,42.0 64.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,27.0 90.0,42.0 64.0,57.0 38.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,72.0 64.0,87.0 64.0,57.0 38.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,72.0 64.0,87.0 64.0,57.0 90.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,42.0 116.0,57.0 90.0,72.0 64.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,87.0 90.0,102.0 90.0,72.0 64.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"116.0,87.0 90.0,102.0 90.0,72.0 116.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,57.0 90.0,72.0 64.0,87.0 38.0,72.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,102.0 64.0,117.0 64.0,87.0 38.0,72.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,102.0 64.0,117.0 64.0,87.0 90.0,72.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,27.0 90.0,42.0 64.0,57.0 38.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,72.0 64.0,87.0 64.0,57.0 38.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,72.0 64.0,87.0 64.0,57.0 90.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/></svg>",
+          "alt": "ทรงประกอบจากลูกบาศก์ 5 ก้อน · ชั้นที่ 1 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (1, 1), (2, 1), (3, 1), (3, 2) / ชั้นที่ 2 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (3, 2)",
+          "caption": "ทรงต้นแบบ"
+        },
+        {
+          "id": "fig2",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 102 174\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><polygon points=\"64.0,72.0 90.0,87.0 64.0,102.0 38.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,117.0 64.0,132.0 64.0,102.0 38.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,117.0 64.0,132.0 64.0,102.0 90.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,87.0 64.0,102.0 38.0,117.0 12.0,102.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"12.0,132.0 38.0,147.0 38.0,117.0 12.0,102.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,132.0 38.0,147.0 38.0,117.0 64.0,102.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,42.0 90.0,57.0 64.0,72.0 38.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,87.0 64.0,102.0 64.0,72.0 38.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,87.0 64.0,102.0 64.0,72.0 90.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,102.0 90.0,117.0 64.0,132.0 38.0,117.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,147.0 64.0,162.0 64.0,132.0 38.0,117.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,147.0 64.0,162.0 64.0,132.0 90.0,117.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,12.0 90.0,27.0 64.0,42.0 38.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,57.0 64.0,72.0 64.0,42.0 38.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,57.0 64.0,72.0 64.0,42.0 90.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/></svg>",
+          "alt": "ทรงประกอบจากลูกบาศก์ 5 ก้อน · ชั้นที่ 1 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (1, 1), (1, 2), (2, 2) / ชั้นที่ 2 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (1, 1) / ชั้นที่ 3 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (1, 1)",
+          "caption": ""
+        },
+        {
+          "id": "fig3",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 128 144\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><polygon points=\"90.0,72.0 116.0,87.0 90.0,102.0 64.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,117.0 90.0,132.0 90.0,102.0 64.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"116.0,117.0 90.0,132.0 90.0,102.0 116.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,42.0 116.0,57.0 90.0,72.0 64.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,87.0 90.0,102.0 90.0,72.0 64.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"116.0,87.0 90.0,102.0 90.0,72.0 116.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,12.0 64.0,27.0 38.0,42.0 12.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"12.0,57.0 38.0,72.0 38.0,42.0 12.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,57.0 38.0,72.0 38.0,42.0 64.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,12.0 116.0,27.0 90.0,42.0 64.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,57.0 90.0,72.0 90.0,42.0 64.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"116.0,57.0 90.0,72.0 90.0,42.0 116.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,27.0 90.0,42.0 64.0,57.0 38.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,72.0 64.0,87.0 64.0,57.0 38.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,72.0 64.0,87.0 64.0,57.0 90.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/></svg>",
+          "alt": "ทรงประกอบจากลูกบาศก์ 5 ก้อน · ชั้นที่ 1 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (2, 1) / ชั้นที่ 2 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (2, 1) / ชั้นที่ 3 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (1, 2), (2, 1), (2, 2)",
+          "caption": ""
+        },
+        {
+          "id": "fig4",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 154 129\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><polygon points=\"38.0,57.0 64.0,72.0 38.0,87.0 12.0,72.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"12.0,102.0 38.0,117.0 38.0,87.0 12.0,72.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,102.0 38.0,117.0 38.0,87.0 64.0,72.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,12.0 90.0,27.0 64.0,42.0 38.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,57.0 64.0,72.0 64.0,42.0 38.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,57.0 64.0,72.0 64.0,42.0 90.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,27.0 116.0,42.0 90.0,57.0 64.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,72.0 90.0,87.0 90.0,57.0 64.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"116.0,72.0 90.0,87.0 90.0,57.0 116.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,27.0 64.0,42.0 38.0,57.0 12.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"12.0,72.0 38.0,87.0 38.0,57.0 12.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,72.0 38.0,87.0 38.0,57.0 64.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"116.0,42.0 142.0,57.0 116.0,72.0 90.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,87.0 116.0,102.0 116.0,72.0 90.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"142.0,87.0 116.0,102.0 116.0,72.0 142.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/></svg>",
+          "alt": "ทรงประกอบจากลูกบาศก์ 5 ก้อน · ชั้นที่ 1 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (1, 2) / ชั้นที่ 2 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (1, 1), (1, 2), (2, 1), (3, 1)",
+          "caption": ""
+        },
+        {
+          "id": "fig5",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 128 159\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><polygon points=\"38.0,72.0 64.0,87.0 38.0,102.0 12.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"12.0,117.0 38.0,132.0 38.0,102.0 12.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,117.0 38.0,132.0 38.0,102.0 64.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,72.0 116.0,87.0 90.0,102.0 64.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,117.0 90.0,132.0 90.0,102.0 64.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"116.0,117.0 90.0,132.0 90.0,102.0 116.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,42.0 116.0,57.0 90.0,72.0 64.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,87.0 90.0,102.0 90.0,72.0 64.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"116.0,87.0 90.0,102.0 90.0,72.0 116.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,87.0 90.0,102.0 64.0,117.0 38.0,102.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,132.0 64.0,147.0 64.0,117.0 38.0,102.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,132.0 64.0,147.0 64.0,117.0 90.0,102.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,12.0 116.0,27.0 90.0,42.0 64.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,57.0 90.0,72.0 90.0,42.0 64.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"116.0,57.0 90.0,72.0 90.0,42.0 116.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/></svg>",
+          "alt": "ทรงประกอบจากลูกบาศก์ 5 ก้อน · ชั้นที่ 1 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (1, 2), (2, 1), (2, 2) / ชั้นที่ 2 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (2, 1) / ชั้นที่ 3 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (2, 1)",
+          "caption": ""
+        },
+        {
+          "id": "fig6",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 154 129\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><polygon points=\"90.0,27.0 116.0,42.0 90.0,57.0 64.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,72.0 90.0,87.0 90.0,57.0 64.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"116.0,72.0 90.0,87.0 90.0,57.0 116.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,42.0 90.0,57.0 64.0,72.0 38.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,87.0 64.0,102.0 64.0,72.0 38.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,87.0 64.0,102.0 64.0,72.0 90.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"116.0,42.0 142.0,57.0 116.0,72.0 90.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,87.0 116.0,102.0 116.0,72.0 90.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"142.0,87.0 116.0,102.0 116.0,72.0 142.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"116.0,12.0 142.0,27.0 116.0,42.0 90.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,57.0 116.0,72.0 116.0,42.0 90.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"142.0,57.0 116.0,72.0 116.0,42.0 142.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,57.0 64.0,72.0 38.0,87.0 12.0,72.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"12.0,102.0 38.0,117.0 38.0,87.0 12.0,72.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,102.0 38.0,117.0 38.0,87.0 64.0,72.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/></svg>",
+          "alt": "ทรงประกอบจากลูกบาศก์ 5 ก้อน · ชั้นที่ 1 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (1, 1), (1, 2), (1, 3), (2, 1) / ชั้นที่ 2 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (2, 1)",
+          "caption": ""
+        }
+      ],
+      "choices": [
+        {
+          "md": "[[fig6]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig5]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig4]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig2]]",
+          "is_answer": true
+        },
+        {
+          "md": "[[fig3]]",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "กล่องครอบเดิม กว้าง 3 ลึก 2 สูง 2",
+          "why_md": "จดขนาดก่อน"
+        },
+        {
+          "do_md": "ล้มไปทางขวา ความกว้างกับความสูงสลับกัน จึงต้องได้ทรงที่สูงขึ้น",
+          "why_md": "ตัดตัวเลือกที่ยังเตี้ยเท่าเดิม"
+        },
+        {
+          "do_md": "ก้อนที่เคยซ้อนอยู่ชั้นบน ต้องไปโผล่ที่ด้านขวาของทรงใหม่",
+          "why_md": "จุดสังเกต"
+        }
+      ],
+      "answer_explanation_md": "ตอบภาพที่สูงขึ้นตามการสลับของกล่องครอบ และก้อนที่เคยอยู่ชั้นบนไปอยู่ด้านขวา",
+      "hints": [
+        "กล่องที่ครอบทรงพอดีมีขนาดเท่าใด",
+        "เมื่อล้มไปทางขวา ด้านใดสลับกับด้านใด",
+        "ก้อนที่เคยอยู่ชั้นบนจะไปอยู่ตรงไหน"
+      ],
+      "distractor_reasons": {
+        "0": "เป็นการหมุนรอบแกนตั้ง ความสูงไม่เปลี่ยน",
+        "1": "เป็นภาพสะท้อนของคำตอบ",
+        "2": "ล้มสองครั้ง (180 องศา)",
+        "4": "ล้มไปอีกทางหนึ่ง"
+      },
+      "misconception_tags": [
+        "vertical_rule_on_horizontal"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.spatial.rotation_3d.horizontal_axis.0002",
+      "topic_ids": [
+        "tgat2.spatial.rotation_3d.horizontal_axis"
+      ],
+      "primary_topic_id": "tgat2.spatial.rotation_3d.horizontal_axis",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 70,
+      "stem_md": "ภาพใดคือทรงต้นแบบเมื่อล้มไปทางขวา 90 องศา (หมุนรอบแกนนอน)\n\n[[fig1]]",
+      "figures": [
+        {
+          "id": "fig1",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 128 144\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><polygon points=\"38.0,42.0 64.0,57.0 38.0,72.0 12.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"12.0,87.0 38.0,102.0 38.0,72.0 12.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,87.0 38.0,102.0 38.0,72.0 64.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,57.0 90.0,72.0 64.0,87.0 38.0,72.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,102.0 64.0,117.0 64.0,87.0 38.0,72.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,102.0 64.0,117.0 64.0,87.0 90.0,72.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,12.0 64.0,27.0 38.0,42.0 12.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"12.0,57.0 38.0,72.0 38.0,42.0 12.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,57.0 38.0,72.0 38.0,42.0 64.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,72.0 64.0,87.0 38.0,102.0 12.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"12.0,117.0 38.0,132.0 38.0,102.0 12.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,117.0 38.0,132.0 38.0,102.0 64.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,72.0 116.0,87.0 90.0,102.0 64.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,117.0 90.0,132.0 90.0,102.0 64.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"116.0,117.0 90.0,132.0 90.0,102.0 116.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/></svg>",
+          "alt": "ทรงประกอบจากลูกบาศก์ 5 ก้อน · ชั้นที่ 1 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (1, 1), (2, 1), (2, 2), (3, 1) / ชั้นที่ 2 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (1, 1)",
+          "caption": "ทรงต้นแบบ"
+        },
+        {
+          "id": "fig2",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 128 144\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><polygon points=\"64.0,72.0 90.0,87.0 64.0,102.0 38.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,117.0 64.0,132.0 64.0,102.0 38.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,117.0 64.0,132.0 64.0,102.0 90.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,42.0 90.0,57.0 64.0,72.0 38.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,87.0 64.0,102.0 64.0,72.0 38.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,87.0 64.0,102.0 64.0,72.0 90.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,12.0 90.0,27.0 64.0,42.0 38.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,57.0 64.0,72.0 64.0,42.0 38.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,57.0 64.0,72.0 64.0,42.0 90.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,57.0 64.0,72.0 38.0,87.0 12.0,72.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"12.0,102.0 38.0,117.0 38.0,87.0 12.0,72.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,102.0 38.0,117.0 38.0,87.0 64.0,72.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,27.0 116.0,42.0 90.0,57.0 64.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,72.0 90.0,87.0 90.0,57.0 64.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"116.0,72.0 90.0,87.0 90.0,57.0 116.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/></svg>",
+          "alt": "ทรงประกอบจากลูกบาศก์ 5 ก้อน · ชั้นที่ 1 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (1, 1) / ชั้นที่ 2 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (1, 1), (1, 2) / ชั้นที่ 3 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (1, 1), (2, 1)",
+          "caption": ""
+        },
+        {
+          "id": "fig3",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 128 114\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><polygon points=\"90.0,12.0 116.0,27.0 90.0,42.0 64.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,57.0 90.0,72.0 90.0,42.0 64.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"116.0,57.0 90.0,72.0 90.0,42.0 116.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,27.0 90.0,42.0 64.0,57.0 38.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,72.0 64.0,87.0 64.0,57.0 38.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,72.0 64.0,87.0 64.0,57.0 90.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,42.0 116.0,57.0 90.0,72.0 64.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,87.0 90.0,102.0 90.0,72.0 64.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"116.0,87.0 90.0,102.0 90.0,72.0 116.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,42.0 64.0,57.0 38.0,72.0 12.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"12.0,87.0 38.0,102.0 38.0,72.0 12.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,87.0 38.0,102.0 38.0,72.0 64.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,12.0 64.0,27.0 38.0,42.0 12.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"12.0,57.0 38.0,72.0 38.0,42.0 12.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,57.0 38.0,72.0 38.0,42.0 64.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/></svg>",
+          "alt": "ทรงประกอบจากลูกบาศก์ 5 ก้อน · ชั้นที่ 1 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (1, 1), (1, 2), (1, 3), (2, 2) / ชั้นที่ 2 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (1, 3)",
+          "caption": ""
+        },
+        {
+          "id": "fig4",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 102 144\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><polygon points=\"38.0,57.0 64.0,72.0 38.0,87.0 12.0,72.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"12.0,102.0 38.0,117.0 38.0,87.0 12.0,72.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,102.0 38.0,117.0 38.0,87.0 64.0,72.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,72.0 90.0,87.0 64.0,102.0 38.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,117.0 64.0,132.0 64.0,102.0 38.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,117.0 64.0,132.0 64.0,102.0 90.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,42.0 90.0,57.0 64.0,72.0 38.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,87.0 64.0,102.0 64.0,72.0 38.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,87.0 64.0,102.0 64.0,72.0 90.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,12.0 90.0,27.0 64.0,42.0 38.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,57.0 64.0,72.0 64.0,42.0 38.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,57.0 64.0,72.0 64.0,42.0 90.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,57.0 64.0,72.0 38.0,87.0 12.0,72.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"12.0,102.0 38.0,117.0 38.0,87.0 12.0,72.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,102.0 38.0,117.0 38.0,87.0 64.0,72.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/></svg>",
+          "alt": "ทรงประกอบจากลูกบาศก์ 5 ก้อน · ชั้นที่ 1 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (1, 1), (2, 1) / ชั้นที่ 2 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (2, 1), (2, 2) / ชั้นที่ 3 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (2, 1)",
+          "caption": ""
+        },
+        {
+          "id": "fig5",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 102 159\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><polygon points=\"64.0,87.0 90.0,102.0 64.0,117.0 38.0,102.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,132.0 64.0,147.0 64.0,117.0 38.0,102.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,132.0 64.0,147.0 64.0,117.0 90.0,102.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,57.0 90.0,72.0 64.0,87.0 38.0,72.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,102.0 64.0,117.0 64.0,87.0 38.0,72.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,102.0 64.0,117.0 64.0,87.0 90.0,72.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,12.0 64.0,27.0 38.0,42.0 12.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"12.0,57.0 38.0,72.0 38.0,42.0 12.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,57.0 38.0,72.0 38.0,42.0 64.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,27.0 90.0,42.0 64.0,57.0 38.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,72.0 64.0,87.0 64.0,57.0 38.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,72.0 64.0,87.0 64.0,57.0 90.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,72.0 64.0,87.0 38.0,102.0 12.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"12.0,117.0 38.0,132.0 38.0,102.0 12.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,117.0 38.0,132.0 38.0,102.0 64.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/></svg>",
+          "alt": "ทรงประกอบจากลูกบาศก์ 5 ก้อน · ชั้นที่ 1 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (2, 1) / ชั้นที่ 2 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (2, 1), (2, 2) / ชั้นที่ 3 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (1, 1), (2, 1)",
+          "caption": ""
+        },
+        {
+          "id": "fig6",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 128 144\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><polygon points=\"38.0,12.0 64.0,27.0 38.0,42.0 12.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"12.0,57.0 38.0,72.0 38.0,42.0 12.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,57.0 38.0,72.0 38.0,42.0 64.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,27.0 90.0,42.0 64.0,57.0 38.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,72.0 64.0,87.0 64.0,57.0 38.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,72.0 64.0,87.0 64.0,57.0 90.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,72.0 116.0,87.0 90.0,102.0 64.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,117.0 90.0,132.0 90.0,102.0 64.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"116.0,117.0 90.0,132.0 90.0,102.0 116.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,42.0 116.0,57.0 90.0,72.0 64.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,87.0 90.0,102.0 90.0,72.0 64.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"116.0,87.0 90.0,102.0 90.0,72.0 116.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,42.0 64.0,57.0 38.0,72.0 12.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"12.0,87.0 38.0,102.0 38.0,72.0 12.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,87.0 38.0,102.0 38.0,72.0 64.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/></svg>",
+          "alt": "ทรงประกอบจากลูกบาศก์ 5 ก้อน · ชั้นที่ 1 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (3, 1) / ชั้นที่ 2 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (1, 1), (2, 1), (2, 2), (3, 1)",
+          "caption": ""
+        }
+      ],
+      "choices": [
+        {
+          "md": "[[fig4]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig2]]",
+          "is_answer": true
+        },
+        {
+          "md": "[[fig3]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig6]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig5]]",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ทรงนี้มีก้อนซ้อนอยู่เหนือปลายแถว",
+          "why_md": "จุดสังเกต"
+        },
+        {
+          "do_md": "เมื่อล้มไปทางขวา ก้อนนั้นจะไม่อยู่ชั้นบนอีกต่อไป แต่ไปอยู่ด้านข้างแทน",
+          "why_md": "ชั้นกลายเป็นแถว"
+        }
+      ],
+      "answer_explanation_md": "ตอบภาพที่ก้อนซึ่งเคยอยู่ชั้นบนย้ายไปอยู่ด้านขวาของทรง ตามการล้มไปทางขวา",
+      "hints": [
+        "กฎ ความสูงไม่เปลี่ยน ใช้กับข้อนี้ได้ไหม",
+        "ก้อนที่เคยอยู่ชั้นบนไปอยู่ด้านใด",
+        "ตัดภาพสะท้อนออกก่อน"
+      ],
+      "distractor_reasons": {
+        "0": "ล้มไปอีกทางหนึ่ง",
+        "2": "เป็นการหมุนรอบแกนตั้ง ชั้นไม่เปลี่ยน",
+        "3": "ล้ม 180 องศา",
+        "4": "เป็นภาพสะท้อนของคำตอบ"
+      },
+      "misconception_tags": [
+        "vertical_rule_on_horizontal"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.spatial.rotation_3d.horizontal_axis.0003",
+      "topic_ids": [
+        "tgat2.spatial.rotation_3d.horizontal_axis"
+      ],
+      "primary_topic_id": "tgat2.spatial.rotation_3d.horizontal_axis",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 70,
+      "stem_md": "ภาพใดคือทรงต้นแบบเมื่อหมุนรอบแกนนอน 180 องศา (ล้มไปทางขวาสองครั้ง)\n\n[[fig1]]",
+      "figures": [
+        {
+          "id": "fig1",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 128 114\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><polygon points=\"38.0,12.0 64.0,27.0 38.0,42.0 12.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"12.0,57.0 38.0,72.0 38.0,42.0 12.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,57.0 38.0,72.0 38.0,42.0 64.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,27.0 90.0,42.0 64.0,57.0 38.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,72.0 64.0,87.0 64.0,57.0 38.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,72.0 64.0,87.0 64.0,57.0 90.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,42.0 64.0,57.0 38.0,72.0 12.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"12.0,87.0 38.0,102.0 38.0,72.0 12.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,87.0 38.0,102.0 38.0,72.0 64.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,42.0 116.0,57.0 90.0,72.0 64.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,87.0 90.0,102.0 90.0,72.0 64.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"116.0,87.0 90.0,102.0 90.0,72.0 116.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,12.0 116.0,27.0 90.0,42.0 64.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,57.0 90.0,72.0 90.0,42.0 64.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"116.0,57.0 90.0,72.0 90.0,42.0 116.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/></svg>",
+          "alt": "ทรงประกอบจากลูกบาศก์ 5 ก้อน · ชั้นที่ 1 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (1, 1), (2, 1), (2, 2), (3, 1) / ชั้นที่ 2 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (3, 1)",
+          "caption": "ทรงต้นแบบ"
+        },
+        {
+          "id": "fig2",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 128 114\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><polygon points=\"38.0,42.0 64.0,57.0 38.0,72.0 12.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"12.0,87.0 38.0,102.0 38.0,72.0 12.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,87.0 38.0,102.0 38.0,72.0 64.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,12.0 64.0,27.0 38.0,42.0 12.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"12.0,57.0 38.0,72.0 38.0,42.0 12.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,57.0 38.0,72.0 38.0,42.0 64.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,27.0 90.0,42.0 64.0,57.0 38.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,72.0 64.0,87.0 64.0,57.0 38.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,72.0 64.0,87.0 64.0,57.0 90.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,42.0 116.0,57.0 90.0,72.0 64.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,87.0 90.0,102.0 90.0,72.0 64.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"116.0,87.0 90.0,102.0 90.0,72.0 116.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,42.0 64.0,57.0 38.0,72.0 12.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"12.0,87.0 38.0,102.0 38.0,72.0 12.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,87.0 38.0,102.0 38.0,72.0 64.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/></svg>",
+          "alt": "ทรงประกอบจากลูกบาศก์ 5 ก้อน · ชั้นที่ 1 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (1, 1) / ชั้นที่ 2 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (1, 1), (2, 1), (2, 2), (3, 1)",
+          "caption": ""
+        },
+        {
+          "id": "fig3",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 128 159\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><polygon points=\"64.0,72.0 90.0,87.0 64.0,102.0 38.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,117.0 64.0,132.0 64.0,102.0 38.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,117.0 64.0,132.0 64.0,102.0 90.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,87.0 116.0,102.0 90.0,117.0 64.0,102.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,132.0 90.0,147.0 90.0,117.0 64.0,102.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"116.0,132.0 90.0,147.0 90.0,117.0 116.0,102.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,42.0 90.0,57.0 64.0,72.0 38.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,87.0 64.0,102.0 64.0,72.0 38.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,87.0 64.0,102.0 64.0,72.0 90.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,12.0 90.0,27.0 64.0,42.0 38.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,57.0 64.0,72.0 64.0,42.0 38.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,57.0 64.0,72.0 64.0,42.0 90.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,57.0 64.0,72.0 38.0,87.0 12.0,72.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"12.0,102.0 38.0,117.0 38.0,87.0 12.0,72.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,102.0 38.0,117.0 38.0,87.0 64.0,72.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/></svg>",
+          "alt": "ทรงประกอบจากลูกบาศก์ 5 ก้อน · ชั้นที่ 1 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (1, 1), (2, 1) / ชั้นที่ 2 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (1, 1), (1, 2) / ชั้นที่ 3 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (1, 1)",
+          "caption": ""
+        },
+        {
+          "id": "fig4",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 102 159\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><polygon points=\"64.0,87.0 90.0,102.0 64.0,117.0 38.0,102.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,132.0 64.0,147.0 64.0,117.0 38.0,102.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,132.0 64.0,147.0 64.0,117.0 90.0,102.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,57.0 90.0,72.0 64.0,87.0 38.0,72.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,102.0 64.0,117.0 64.0,87.0 38.0,72.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,102.0 64.0,117.0 64.0,87.0 90.0,72.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,12.0 64.0,27.0 38.0,42.0 12.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"12.0,57.0 38.0,72.0 38.0,42.0 12.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,57.0 38.0,72.0 38.0,42.0 64.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,27.0 90.0,42.0 64.0,57.0 38.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,72.0 64.0,87.0 64.0,57.0 38.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,72.0 64.0,87.0 64.0,57.0 90.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,72.0 64.0,87.0 38.0,102.0 12.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"12.0,117.0 38.0,132.0 38.0,102.0 12.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,117.0 38.0,132.0 38.0,102.0 64.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/></svg>",
+          "alt": "ทรงประกอบจากลูกบาศก์ 5 ก้อน · ชั้นที่ 1 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (2, 1) / ชั้นที่ 2 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (2, 1), (2, 2) / ชั้นที่ 3 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (1, 1), (2, 1)",
+          "caption": ""
+        },
+        {
+          "id": "fig5",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 128 144\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><polygon points=\"38.0,12.0 64.0,27.0 38.0,42.0 12.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"12.0,57.0 38.0,72.0 38.0,42.0 12.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,57.0 38.0,72.0 38.0,42.0 64.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,27.0 90.0,42.0 64.0,57.0 38.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,72.0 64.0,87.0 64.0,57.0 38.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,72.0 64.0,87.0 64.0,57.0 90.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,72.0 116.0,87.0 90.0,102.0 64.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,117.0 90.0,132.0 90.0,102.0 64.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"116.0,117.0 90.0,132.0 90.0,102.0 116.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,42.0 116.0,57.0 90.0,72.0 64.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,87.0 90.0,102.0 90.0,72.0 64.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"116.0,87.0 90.0,102.0 90.0,72.0 116.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,42.0 64.0,57.0 38.0,72.0 12.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"12.0,87.0 38.0,102.0 38.0,72.0 12.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,87.0 38.0,102.0 38.0,72.0 64.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/></svg>",
+          "alt": "ทรงประกอบจากลูกบาศก์ 5 ก้อน · ชั้นที่ 1 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (3, 1) / ชั้นที่ 2 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (1, 1), (2, 1), (2, 2), (3, 1)",
+          "caption": ""
+        },
+        {
+          "id": "fig6",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 128 144\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><polygon points=\"38.0,42.0 64.0,57.0 38.0,72.0 12.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"12.0,87.0 38.0,102.0 38.0,72.0 12.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,87.0 38.0,102.0 38.0,72.0 64.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,42.0 116.0,57.0 90.0,72.0 64.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,87.0 90.0,102.0 90.0,72.0 64.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"116.0,87.0 90.0,102.0 90.0,72.0 116.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,57.0 90.0,72.0 64.0,87.0 38.0,72.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,102.0 64.0,117.0 64.0,87.0 38.0,72.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,102.0 64.0,117.0 64.0,87.0 90.0,72.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,12.0 64.0,27.0 38.0,42.0 12.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"12.0,57.0 38.0,72.0 38.0,42.0 12.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,57.0 38.0,72.0 38.0,42.0 64.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,72.0 116.0,87.0 90.0,102.0 64.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,117.0 90.0,132.0 90.0,102.0 64.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"116.0,117.0 90.0,132.0 90.0,102.0 116.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/></svg>",
+          "alt": "ทรงประกอบจากลูกบาศก์ 5 ก้อน · ชั้นที่ 1 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (1, 2), (2, 1), (2, 2), (3, 2) / ชั้นที่ 2 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (1, 2)",
+          "caption": ""
+        }
+      ],
+      "choices": [
+        {
+          "md": "[[fig5]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig6]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig2]]",
+          "is_answer": true
+        },
+        {
+          "md": "[[fig4]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig3]]",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ล้มไปทางขวาสองครั้งคือกลับหัวกลับหาง",
+          "why_md": "รวมการหมุนก่อน"
+        },
+        {
+          "do_md": "ก้อนที่เคยอยู่ชั้นบนจะไปอยู่ชั้นล่างสุด และกล่องครอบกลับมามีขนาดเท่าเดิม",
+          "why_md": "จุดสังเกตและขนาด"
+        }
+      ],
+      "answer_explanation_md": "ตอบภาพที่ทรงกลับหัวกลับหาง โดยขนาดกล่องครอบเท่าเดิมแต่ก้อนที่เคยอยู่บนไปอยู่ล่าง",
+      "hints": [
+        "ล้มสองครั้งเท่ากับหมุนกี่องศา",
+        "กล่องครอบจะกลับมาขนาดเดิมไหม",
+        "ก้อนที่เคยอยู่บนสุดไปอยู่ที่ใด"
+      ],
+      "distractor_reasons": {
+        "0": "เป็นภาพสะท้อนของคำตอบ",
+        "1": "เป็นการหมุนรอบแกนตั้ง 180 องศา",
+        "3": "ล้มไปอีกทางหนึ่ง",
+        "4": "ล้มเพียงครั้งเดียว"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.spatial.rotation_3d.horizontal_axis.0004",
+      "topic_ids": [
+        "tgat2.spatial.rotation_3d.horizontal_axis"
+      ],
+      "primary_topic_id": "tgat2.spatial.rotation_3d.horizontal_axis",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 4,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 2,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 75,
+      "stem_md": "ภาพใดคือทรงต้นแบบเมื่อล้มไปทางซ้าย 90 องศา (หมุนรอบแกนนอนไปอีกทาง)\n\n[[fig1]]",
+      "figures": [
+        {
+          "id": "fig1",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 128 129\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><polygon points=\"38.0,12.0 64.0,27.0 38.0,42.0 12.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"12.0,57.0 38.0,72.0 38.0,42.0 12.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,57.0 38.0,72.0 38.0,42.0 64.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,27.0 90.0,42.0 64.0,57.0 38.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,72.0 64.0,87.0 64.0,57.0 38.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,72.0 64.0,87.0 64.0,57.0 90.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,42.0 116.0,57.0 90.0,72.0 64.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,87.0 90.0,102.0 90.0,72.0 64.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"116.0,87.0 90.0,102.0 90.0,72.0 116.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,57.0 90.0,72.0 64.0,87.0 38.0,72.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,102.0 64.0,117.0 64.0,87.0 38.0,72.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,102.0 64.0,117.0 64.0,87.0 90.0,72.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,27.0 90.0,42.0 64.0,57.0 38.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,72.0 64.0,87.0 64.0,57.0 38.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,72.0 64.0,87.0 64.0,57.0 90.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/></svg>",
+          "alt": "ทรงประกอบจากลูกบาศก์ 5 ก้อน · ชั้นที่ 1 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (1, 1), (2, 1), (3, 1), (3, 2) / ชั้นที่ 2 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (3, 2)",
+          "caption": "ทรงต้นแบบ"
+        },
+        {
+          "id": "fig2",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 128 144\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><polygon points=\"90.0,72.0 116.0,87.0 90.0,102.0 64.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,117.0 90.0,132.0 90.0,102.0 64.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"116.0,117.0 90.0,132.0 90.0,102.0 116.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,42.0 116.0,57.0 90.0,72.0 64.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,87.0 90.0,102.0 90.0,72.0 64.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"116.0,87.0 90.0,102.0 90.0,72.0 116.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,12.0 64.0,27.0 38.0,42.0 12.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"12.0,57.0 38.0,72.0 38.0,42.0 12.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,57.0 38.0,72.0 38.0,42.0 64.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,12.0 116.0,27.0 90.0,42.0 64.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,57.0 90.0,72.0 90.0,42.0 64.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"116.0,57.0 90.0,72.0 90.0,42.0 116.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,27.0 90.0,42.0 64.0,57.0 38.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,72.0 64.0,87.0 64.0,57.0 38.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,72.0 64.0,87.0 64.0,57.0 90.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/></svg>",
+          "alt": "ทรงประกอบจากลูกบาศก์ 5 ก้อน · ชั้นที่ 1 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (2, 1) / ชั้นที่ 2 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (2, 1) / ชั้นที่ 3 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (1, 2), (2, 1), (2, 2)",
+          "caption": ""
+        },
+        {
+          "id": "fig3",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 102 174\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><polygon points=\"64.0,72.0 90.0,87.0 64.0,102.0 38.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,117.0 64.0,132.0 64.0,102.0 38.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,117.0 64.0,132.0 64.0,102.0 90.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,87.0 64.0,102.0 38.0,117.0 12.0,102.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"12.0,132.0 38.0,147.0 38.0,117.0 12.0,102.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,132.0 38.0,147.0 38.0,117.0 64.0,102.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,42.0 90.0,57.0 64.0,72.0 38.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,87.0 64.0,102.0 64.0,72.0 38.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,87.0 64.0,102.0 64.0,72.0 90.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,102.0 90.0,117.0 64.0,132.0 38.0,117.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,147.0 64.0,162.0 64.0,132.0 38.0,117.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,147.0 64.0,162.0 64.0,132.0 90.0,117.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,12.0 90.0,27.0 64.0,42.0 38.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,57.0 64.0,72.0 64.0,42.0 38.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,57.0 64.0,72.0 64.0,42.0 90.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/></svg>",
+          "alt": "ทรงประกอบจากลูกบาศก์ 5 ก้อน · ชั้นที่ 1 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (1, 1), (1, 2), (2, 2) / ชั้นที่ 2 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (1, 1) / ชั้นที่ 3 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (1, 1)",
+          "caption": ""
+        },
+        {
+          "id": "fig4",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 154 129\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><polygon points=\"38.0,57.0 64.0,72.0 38.0,87.0 12.0,72.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"12.0,102.0 38.0,117.0 38.0,87.0 12.0,72.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,102.0 38.0,117.0 38.0,87.0 64.0,72.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,12.0 90.0,27.0 64.0,42.0 38.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,57.0 64.0,72.0 64.0,42.0 38.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,57.0 64.0,72.0 64.0,42.0 90.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,27.0 116.0,42.0 90.0,57.0 64.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,72.0 90.0,87.0 90.0,57.0 64.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"116.0,72.0 90.0,87.0 90.0,57.0 116.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,27.0 64.0,42.0 38.0,57.0 12.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"12.0,72.0 38.0,87.0 38.0,57.0 12.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,72.0 38.0,87.0 38.0,57.0 64.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"116.0,42.0 142.0,57.0 116.0,72.0 90.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,87.0 116.0,102.0 116.0,72.0 90.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"142.0,87.0 116.0,102.0 116.0,72.0 142.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/></svg>",
+          "alt": "ทรงประกอบจากลูกบาศก์ 5 ก้อน · ชั้นที่ 1 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (1, 2) / ชั้นที่ 2 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (1, 1), (1, 2), (2, 1), (3, 1)",
+          "caption": ""
+        },
+        {
+          "id": "fig5",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 102 144\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><polygon points=\"64.0,72.0 90.0,87.0 64.0,102.0 38.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,117.0 64.0,132.0 64.0,102.0 38.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,117.0 64.0,132.0 64.0,102.0 90.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,42.0 90.0,57.0 64.0,72.0 38.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,87.0 64.0,102.0 64.0,72.0 38.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,87.0 64.0,102.0 64.0,72.0 90.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,12.0 90.0,27.0 64.0,42.0 38.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,57.0 64.0,72.0 64.0,42.0 38.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,57.0 64.0,72.0 64.0,42.0 90.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,27.0 64.0,42.0 38.0,57.0 12.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"12.0,72.0 38.0,87.0 38.0,57.0 12.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,72.0 38.0,87.0 38.0,57.0 64.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,42.0 90.0,57.0 64.0,72.0 38.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,87.0 64.0,102.0 64.0,72.0 38.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,87.0 64.0,102.0 64.0,72.0 90.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/></svg>",
+          "alt": "ทรงประกอบจากลูกบาศก์ 5 ก้อน · ชั้นที่ 1 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (1, 1) / ชั้นที่ 2 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (1, 1) / ชั้นที่ 3 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (1, 1), (1, 2), (2, 2)",
+          "caption": ""
+        },
+        {
+          "id": "fig6",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 154 129\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><polygon points=\"116.0,27.0 142.0,42.0 116.0,57.0 90.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,72.0 116.0,87.0 116.0,57.0 90.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"142.0,72.0 116.0,87.0 116.0,57.0 142.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,42.0 116.0,57.0 90.0,72.0 64.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,87.0 90.0,102.0 90.0,72.0 64.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"116.0,87.0 90.0,102.0 90.0,72.0 116.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,42.0 64.0,57.0 38.0,72.0 12.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"12.0,87.0 38.0,102.0 38.0,72.0 12.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,87.0 38.0,102.0 38.0,72.0 64.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,12.0 64.0,27.0 38.0,42.0 12.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"12.0,57.0 38.0,72.0 38.0,42.0 12.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,57.0 38.0,72.0 38.0,42.0 64.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,57.0 90.0,72.0 64.0,87.0 38.0,72.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,102.0 64.0,117.0 64.0,87.0 38.0,72.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,102.0 64.0,117.0 64.0,87.0 90.0,72.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/></svg>",
+          "alt": "ทรงประกอบจากลูกบาศก์ 5 ก้อน · ชั้นที่ 1 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (1, 3), (2, 1), (2, 2), (2, 3) / ชั้นที่ 2 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (1, 3)",
+          "caption": ""
+        }
+      ],
+      "choices": [
+        {
+          "md": "[[fig2]]",
+          "is_answer": true
+        },
+        {
+          "md": "[[fig6]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig5]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig3]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig4]]",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ล้มไปทางซ้ายให้ผลตรงข้ามกับล้มไปทางขวา",
+          "why_md": "อ่านทิศให้ถูกก่อน"
+        },
+        {
+          "do_md": "ก้อนที่เคยอยู่ชั้นบนต้องไปโผล่ทางด้านซ้ายของทรงใหม่",
+          "why_md": "จุดสังเกต"
+        }
+      ],
+      "answer_explanation_md": "ตอบภาพที่ก้อนซึ่งเคยอยู่ชั้นบนไปอยู่ทางด้านซ้าย ตามทิศที่โจทย์กำหนด",
+      "hints": [
+        "โจทย์บอกให้ล้มไปทางใด",
+        "ก้อนที่เคยอยู่ชั้นบนควรไปโผล่ด้านใด",
+        "ตัวเลือกที่ล้มผิดทางจะมีก้อนนั้นอยู่คนละด้าน"
+      ],
+      "distractor_reasons": {
+        "1": "เป็นการหมุนรอบแกนตั้ง",
+        "2": "เป็นภาพสะท้อนของคำตอบ",
+        "3": "ล้มไปทางขวาแทนที่จะเป็นทางซ้าย",
+        "4": "ล้ม 180 องศา"
+      },
+      "misconception_tags": [
+        "tipped_wrong_way"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.spatial.rotation_3d.horizontal_axis.0005",
+      "topic_ids": [
+        "tgat2.spatial.rotation_3d.horizontal_axis"
+      ],
+      "primary_topic_id": "tgat2.spatial.rotation_3d.horizontal_axis",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 5,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": true,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 90,
+      "stem_md": "ภาพใดคือทรงต้นแบบเมื่อล้มไปทางขวา 90 องศา แล้วหมุนรอบแกนตั้งตามเข็มนาฬิกาอีก 90 องศา\n\n[[fig1]]",
+      "figures": [
+        {
+          "id": "fig1",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 128 144\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><polygon points=\"38.0,42.0 64.0,57.0 38.0,72.0 12.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"12.0,87.0 38.0,102.0 38.0,72.0 12.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,87.0 38.0,102.0 38.0,72.0 64.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,57.0 90.0,72.0 64.0,87.0 38.0,72.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,102.0 64.0,117.0 64.0,87.0 38.0,72.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,102.0 64.0,117.0 64.0,87.0 90.0,72.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,12.0 64.0,27.0 38.0,42.0 12.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"12.0,57.0 38.0,72.0 38.0,42.0 12.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,57.0 38.0,72.0 38.0,42.0 64.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,72.0 64.0,87.0 38.0,102.0 12.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"12.0,117.0 38.0,132.0 38.0,102.0 12.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,117.0 38.0,132.0 38.0,102.0 64.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,72.0 116.0,87.0 90.0,102.0 64.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,117.0 90.0,132.0 90.0,102.0 64.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"116.0,117.0 90.0,132.0 90.0,102.0 116.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/></svg>",
+          "alt": "ทรงประกอบจากลูกบาศก์ 5 ก้อน · ชั้นที่ 1 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (1, 1), (2, 1), (2, 2), (3, 1) / ชั้นที่ 2 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (1, 1)",
+          "caption": "ทรงต้นแบบ"
+        },
+        {
+          "id": "fig2",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 102 159\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><polygon points=\"38.0,87.0 64.0,102.0 38.0,117.0 12.0,102.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"12.0,132.0 38.0,147.0 38.0,117.0 12.0,102.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,132.0 38.0,147.0 38.0,117.0 64.0,102.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,12.0 90.0,27.0 64.0,42.0 38.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,57.0 64.0,72.0 64.0,42.0 38.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,57.0 64.0,72.0 64.0,42.0 90.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,57.0 64.0,72.0 38.0,87.0 12.0,72.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"12.0,102.0 38.0,117.0 38.0,87.0 12.0,72.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,102.0 38.0,117.0 38.0,87.0 64.0,72.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,27.0 64.0,42.0 38.0,57.0 12.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"12.0,72.0 38.0,87.0 38.0,57.0 12.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,72.0 38.0,87.0 38.0,57.0 64.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,72.0 90.0,87.0 64.0,102.0 38.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,117.0 64.0,132.0 64.0,102.0 38.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,117.0 64.0,132.0 64.0,102.0 90.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/></svg>",
+          "alt": "ทรงประกอบจากลูกบาศก์ 5 ก้อน · ชั้นที่ 1 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (1, 2) / ชั้นที่ 2 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (1, 2), (2, 2) / ชั้นที่ 3 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (1, 1), (1, 2)",
+          "caption": ""
+        },
+        {
+          "id": "fig3",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 128 144\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><polygon points=\"64.0,72.0 90.0,87.0 64.0,102.0 38.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,117.0 64.0,132.0 64.0,102.0 38.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,117.0 64.0,132.0 64.0,102.0 90.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,42.0 90.0,57.0 64.0,72.0 38.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,87.0 64.0,102.0 64.0,72.0 38.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,87.0 64.0,102.0 64.0,72.0 90.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,12.0 90.0,27.0 64.0,42.0 38.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,57.0 64.0,72.0 64.0,42.0 38.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,57.0 64.0,72.0 64.0,42.0 90.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,57.0 64.0,72.0 38.0,87.0 12.0,72.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"12.0,102.0 38.0,117.0 38.0,87.0 12.0,72.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,102.0 38.0,117.0 38.0,87.0 64.0,72.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,27.0 116.0,42.0 90.0,57.0 64.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,72.0 90.0,87.0 90.0,57.0 64.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"116.0,72.0 90.0,87.0 90.0,57.0 116.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/></svg>",
+          "alt": "ทรงประกอบจากลูกบาศก์ 5 ก้อน · ชั้นที่ 1 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (1, 1) / ชั้นที่ 2 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (1, 1), (1, 2) / ชั้นที่ 3 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (1, 1), (2, 1)",
+          "caption": ""
+        },
+        {
+          "id": "fig4",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 128 114\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><polygon points=\"90.0,12.0 116.0,27.0 90.0,42.0 64.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,57.0 90.0,72.0 90.0,42.0 64.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"116.0,57.0 90.0,72.0 90.0,42.0 116.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,27.0 90.0,42.0 64.0,57.0 38.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,72.0 64.0,87.0 64.0,57.0 38.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,72.0 64.0,87.0 64.0,57.0 90.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,42.0 116.0,57.0 90.0,72.0 64.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,87.0 90.0,102.0 90.0,72.0 64.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"116.0,87.0 90.0,102.0 90.0,72.0 116.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,42.0 64.0,57.0 38.0,72.0 12.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"12.0,87.0 38.0,102.0 38.0,72.0 12.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,87.0 38.0,102.0 38.0,72.0 64.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,12.0 64.0,27.0 38.0,42.0 12.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"12.0,57.0 38.0,72.0 38.0,42.0 12.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,57.0 38.0,72.0 38.0,42.0 64.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/></svg>",
+          "alt": "ทรงประกอบจากลูกบาศก์ 5 ก้อน · ชั้นที่ 1 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (1, 1), (1, 2), (1, 3), (2, 2) / ชั้นที่ 2 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (1, 3)",
+          "caption": ""
+        },
+        {
+          "id": "fig5",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 128 159\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><polygon points=\"64.0,87.0 90.0,102.0 64.0,117.0 38.0,102.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,132.0 64.0,147.0 64.0,117.0 38.0,102.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,132.0 64.0,147.0 64.0,117.0 90.0,102.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,42.0 64.0,57.0 38.0,72.0 12.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"12.0,87.0 38.0,102.0 38.0,72.0 12.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,87.0 38.0,102.0 38.0,72.0 64.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,12.0 116.0,27.0 90.0,42.0 64.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,57.0 90.0,72.0 90.0,42.0 64.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"116.0,57.0 90.0,72.0 90.0,42.0 116.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,57.0 90.0,72.0 64.0,87.0 38.0,72.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,102.0 64.0,117.0 64.0,87.0 38.0,72.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,102.0 64.0,117.0 64.0,87.0 90.0,72.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,27.0 90.0,42.0 64.0,57.0 38.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,72.0 64.0,87.0 64.0,57.0 38.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,72.0 64.0,87.0 64.0,57.0 90.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/></svg>",
+          "alt": "ทรงประกอบจากลูกบาศก์ 5 ก้อน · ชั้นที่ 1 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (2, 2) / ชั้นที่ 2 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (1, 2), (2, 2) / ชั้นที่ 3 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (2, 1), (2, 2)",
+          "caption": ""
+        },
+        {
+          "id": "fig6",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 102 144\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><polygon points=\"64.0,72.0 90.0,87.0 64.0,102.0 38.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,117.0 64.0,132.0 64.0,102.0 38.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,117.0 64.0,132.0 64.0,102.0 90.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,27.0 64.0,42.0 38.0,57.0 12.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"12.0,72.0 38.0,87.0 38.0,57.0 12.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,72.0 38.0,87.0 38.0,57.0 64.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,42.0 90.0,57.0 64.0,72.0 38.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,87.0 64.0,102.0 64.0,72.0 38.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,87.0 64.0,102.0 64.0,72.0 90.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,12.0 90.0,27.0 64.0,42.0 38.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,57.0 64.0,72.0 64.0,42.0 38.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,57.0 64.0,72.0 64.0,42.0 90.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,27.0 64.0,42.0 38.0,57.0 12.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"12.0,72.0 38.0,87.0 38.0,57.0 12.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,72.0 38.0,87.0 38.0,57.0 64.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/></svg>",
+          "alt": "ทรงประกอบจากลูกบาศก์ 5 ก้อน · ชั้นที่ 1 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (2, 1) / ชั้นที่ 2 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (1, 1), (2, 1) / ชั้นที่ 3 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (2, 1), (2, 2)",
+          "caption": ""
+        }
+      ],
+      "choices": [
+        {
+          "md": "[[fig4]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig5]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig3]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig6]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig2]]",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ทำทีละขั้น: ล้มไปทางขวาก่อน ได้ทรงที่สูงขึ้น",
+          "why_md": "ขั้นที่ 1"
+        },
+        {
+          "do_md": "จากนั้นหมุนรอบแกนตั้ง ซึ่งไม่เปลี่ยนความสูงอีกแล้ว เปลี่ยนแค่ด้านที่หันมาหาเรา",
+          "why_md": "ขั้นที่ 2"
+        }
+      ],
+      "answer_explanation_md": "ตอบภาพที่ได้จากการล้มไปทางขวาก่อน แล้วจึงหมุนรอบแกนตั้งต่ออีก 90 องศา",
+      "hints": [
+        "ทำทีละขั้น อย่ารวบสองขั้นพร้อมกัน",
+        "หลังล้มแล้ว ทรงสูงกี่ชั้น",
+        "การหมุนรอบแกนตั้งในขั้นที่สองเปลี่ยนความสูงไหม"
+      ],
+      "distractor_reasons": {
+        "0": "หมุนรอบแกนตั้งอย่างเดียว ไม่ได้ล้ม",
+        "1": "เป็นภาพสะท้อนของคำตอบ",
+        "2": "ล้มแล้วแต่ยังไม่ได้หมุนรอบแกนตั้งต่อ",
+        "3": "หมุนรอบแกนตั้งผิดทิศหลังล้ม"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.spatial.rotation_3d.horizontal_axis.0006",
+      "topic_ids": [
+        "tgat2.spatial.rotation_3d.horizontal_axis"
+      ],
+      "primary_topic_id": "tgat2.spatial.rotation_3d.horizontal_axis",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 4,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 2,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 80,
+      "stem_md": "ภาพใดคือทรงต้นแบบเมื่อล้มไปทางขวา 90 องศา (หมุนรอบแกนนอน)\n\n[[fig1]]",
+      "figures": [
+        {
+          "id": "fig1",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 128 114\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><polygon points=\"38.0,12.0 64.0,27.0 38.0,42.0 12.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"12.0,57.0 38.0,72.0 38.0,42.0 12.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,57.0 38.0,72.0 38.0,42.0 64.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,27.0 90.0,42.0 64.0,57.0 38.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,72.0 64.0,87.0 64.0,57.0 38.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,72.0 64.0,87.0 64.0,57.0 90.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,42.0 64.0,57.0 38.0,72.0 12.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"12.0,87.0 38.0,102.0 38.0,72.0 12.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,87.0 38.0,102.0 38.0,72.0 64.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,42.0 116.0,57.0 90.0,72.0 64.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,87.0 90.0,102.0 90.0,72.0 64.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"116.0,87.0 90.0,102.0 90.0,72.0 116.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,12.0 116.0,27.0 90.0,42.0 64.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,57.0 90.0,72.0 90.0,42.0 64.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"116.0,57.0 90.0,72.0 90.0,42.0 116.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/></svg>",
+          "alt": "ทรงประกอบจากลูกบาศก์ 5 ก้อน · ชั้นที่ 1 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (1, 1), (2, 1), (2, 2), (3, 1) / ชั้นที่ 2 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (3, 1)",
+          "caption": "ทรงต้นแบบ"
+        },
+        {
+          "id": "fig2",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 128 159\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><polygon points=\"64.0,72.0 90.0,87.0 64.0,102.0 38.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,117.0 64.0,132.0 64.0,102.0 38.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,117.0 64.0,132.0 64.0,102.0 90.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,87.0 116.0,102.0 90.0,117.0 64.0,102.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,132.0 90.0,147.0 90.0,117.0 64.0,102.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"116.0,132.0 90.0,147.0 90.0,117.0 116.0,102.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,42.0 90.0,57.0 64.0,72.0 38.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,87.0 64.0,102.0 64.0,72.0 38.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,87.0 64.0,102.0 64.0,72.0 90.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,12.0 90.0,27.0 64.0,42.0 38.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,57.0 64.0,72.0 64.0,42.0 38.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,57.0 64.0,72.0 64.0,42.0 90.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,57.0 64.0,72.0 38.0,87.0 12.0,72.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"12.0,102.0 38.0,117.0 38.0,87.0 12.0,72.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,102.0 38.0,117.0 38.0,87.0 64.0,72.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/></svg>",
+          "alt": "ทรงประกอบจากลูกบาศก์ 5 ก้อน · ชั้นที่ 1 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (1, 1), (2, 1) / ชั้นที่ 2 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (1, 1), (1, 2) / ชั้นที่ 3 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (1, 1)",
+          "caption": ""
+        },
+        {
+          "id": "fig3",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 102 144\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><polygon points=\"38.0,57.0 64.0,72.0 38.0,87.0 12.0,72.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"12.0,102.0 38.0,117.0 38.0,87.0 12.0,72.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,102.0 38.0,117.0 38.0,87.0 64.0,72.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,72.0 90.0,87.0 64.0,102.0 38.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,117.0 64.0,132.0 64.0,102.0 38.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,117.0 64.0,132.0 64.0,102.0 90.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,42.0 90.0,57.0 64.0,72.0 38.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,87.0 64.0,102.0 64.0,72.0 38.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,87.0 64.0,102.0 64.0,72.0 90.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,12.0 90.0,27.0 64.0,42.0 38.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,57.0 64.0,72.0 64.0,42.0 38.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,57.0 64.0,72.0 64.0,42.0 90.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,57.0 64.0,72.0 38.0,87.0 12.0,72.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"12.0,102.0 38.0,117.0 38.0,87.0 12.0,72.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,102.0 38.0,117.0 38.0,87.0 64.0,72.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/></svg>",
+          "alt": "ทรงประกอบจากลูกบาศก์ 5 ก้อน · ชั้นที่ 1 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (1, 1), (2, 1) / ชั้นที่ 2 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (2, 1), (2, 2) / ชั้นที่ 3 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (2, 1)",
+          "caption": ""
+        },
+        {
+          "id": "fig4",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 102 159\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><polygon points=\"64.0,87.0 90.0,102.0 64.0,117.0 38.0,102.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,132.0 64.0,147.0 64.0,117.0 38.0,102.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,132.0 64.0,147.0 64.0,117.0 90.0,102.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,57.0 90.0,72.0 64.0,87.0 38.0,72.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,102.0 64.0,117.0 64.0,87.0 38.0,72.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,102.0 64.0,117.0 64.0,87.0 90.0,72.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,12.0 64.0,27.0 38.0,42.0 12.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"12.0,57.0 38.0,72.0 38.0,42.0 12.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,57.0 38.0,72.0 38.0,42.0 64.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,27.0 90.0,42.0 64.0,57.0 38.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,72.0 64.0,87.0 64.0,57.0 38.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,72.0 64.0,87.0 64.0,57.0 90.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,72.0 64.0,87.0 38.0,102.0 12.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"12.0,117.0 38.0,132.0 38.0,102.0 12.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,117.0 38.0,132.0 38.0,102.0 64.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/></svg>",
+          "alt": "ทรงประกอบจากลูกบาศก์ 5 ก้อน · ชั้นที่ 1 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (2, 1) / ชั้นที่ 2 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (2, 1), (2, 2) / ชั้นที่ 3 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (1, 1), (2, 1)",
+          "caption": ""
+        },
+        {
+          "id": "fig5",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 128 144\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><polygon points=\"38.0,57.0 64.0,72.0 38.0,87.0 12.0,72.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"12.0,102.0 38.0,117.0 38.0,87.0 12.0,72.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,102.0 38.0,117.0 38.0,87.0 64.0,72.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,27.0 116.0,42.0 90.0,57.0 64.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,72.0 90.0,87.0 90.0,57.0 64.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"116.0,72.0 90.0,87.0 90.0,57.0 116.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,72.0 90.0,87.0 64.0,102.0 38.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,117.0 64.0,132.0 64.0,102.0 38.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,117.0 64.0,132.0 64.0,102.0 90.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,42.0 90.0,57.0 64.0,72.0 38.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,87.0 64.0,102.0 64.0,72.0 38.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,87.0 64.0,102.0 64.0,72.0 90.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,12.0 90.0,27.0 64.0,42.0 38.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,57.0 64.0,72.0 64.0,42.0 38.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,57.0 64.0,72.0 64.0,42.0 90.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/></svg>",
+          "alt": "ทรงประกอบจากลูกบาศก์ 5 ก้อน · ชั้นที่ 1 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (1, 2), (2, 2) / ชั้นที่ 2 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (2, 1), (2, 2) / ชั้นที่ 3 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (2, 2)",
+          "caption": ""
+        },
+        {
+          "id": "fig6",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 128 144\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><polygon points=\"90.0,42.0 116.0,57.0 90.0,72.0 64.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,87.0 90.0,102.0 90.0,72.0 64.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"116.0,87.0 90.0,102.0 90.0,72.0 116.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,57.0 90.0,72.0 64.0,87.0 38.0,72.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,102.0 64.0,117.0 64.0,87.0 38.0,72.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,102.0 64.0,117.0 64.0,87.0 90.0,72.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,12.0 116.0,27.0 90.0,42.0 64.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,57.0 90.0,72.0 90.0,42.0 64.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"116.0,57.0 90.0,72.0 90.0,42.0 116.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,72.0 116.0,87.0 90.0,102.0 64.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,117.0 90.0,132.0 90.0,102.0 64.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"116.0,117.0 90.0,132.0 90.0,102.0 116.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,72.0 64.0,87.0 38.0,102.0 12.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"12.0,117.0 38.0,132.0 38.0,102.0 12.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,117.0 38.0,132.0 38.0,102.0 64.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/></svg>",
+          "alt": "ทรงประกอบจากลูกบาศก์ 5 ก้อน · ชั้นที่ 1 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (1, 1), (1, 2), (1, 3), (2, 2) / ชั้นที่ 2 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (1, 1)",
+          "caption": ""
+        }
+      ],
+      "choices": [
+        {
+          "md": "[[fig2]]",
+          "is_answer": true
+        },
+        {
+          "md": "[[fig3]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig6]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig5]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig4]]",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ทรงนี้มีทั้งก้อนซ้อนและปีก ต้องติดตามทั้งสองอย่าง",
+          "why_md": "จุดสังเกตสองจุด"
+        },
+        {
+          "do_md": "หลังล้มไปทางขวา ก้อนซ้อนไปอยู่ด้านขวา ส่วนปีกยังคงอยู่ด้านเดิมเทียบกับแถวยาว",
+          "why_md": "ตรวจทั้งสองจุด"
+        }
+      ],
+      "answer_explanation_md": "ตอบภาพที่ก้อนซ้อนไปอยู่ด้านขวาและปีกยังอยู่ด้านเดิมของแถวยาว",
+      "hints": [
+        "ล้มไปทางขวาแล้วก้อนซ้อนไปอยู่ด้านใด",
+        "ปีกยังอยู่ด้านเดิมเทียบกับแถวหรือไม่",
+        "ภาพสะท้อนจะสลับด้านของปีก"
+      ],
+      "distractor_reasons": {
+        "1": "เป็นภาพสะท้อนของคำตอบ",
+        "2": "เป็นการหมุนรอบแกนตั้งอย่างเดียว",
+        "3": "ล้มถูกแล้วแต่ถูกหมุนรอบแกนตั้งต่ออีก 180 องศา",
+        "4": "ล้มไปทางซ้าย"
+      },
+      "misconception_tags": [
+        "mirror_as_rotation_3d"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    }
+  ],
+  "generated_from": "content/tgat2/spatial_rotation3d.py"
+}

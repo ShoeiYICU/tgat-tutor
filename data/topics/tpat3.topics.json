@@ -1,0 +1,948 @@
+{
+  "schema_version": "1.0",
+  "subject": "tpat3",
+  "subject_name_th": "TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี วิศวกรรมศาสตร์",
+  "exam_codes": [
+    "TPAT3"
+  ],
+  "source_note": "ยืนยันโครงสอบแล้วจาก mytcas.com/blueprint/tpat3-30/ (ตรวจเมื่อ 20 กันยายน 2569): 70 ข้อ 100 คะแนน 180 นาที ปรนัย 5 ตัวเลือก แบ่ง 2 ส่วน ส่วนที่ 1 การทดสอบความถนัด 45 ข้อ 60 คะแนน มี 3 ด้าน คือ ด้านตัวเลข 15 ข้อ / ด้านมิติสัมพันธ์ 15 ข้อ / ด้านเชิงกลและด้านฟิสิกส์ 15 ข้อ ส่วนที่ 2 การทดสอบความคิดและความสนใจ 25 ข้อ 40 คะแนน มี 2 ด้าน คือ ความคิดเชิงวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ 15 ข้อ / ความสนใจข่าวสารความรู้ทางวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ 10 ข้อ | ผังสอบไม่ได้ระบุ: รายการหัวข้อย่อยของแต่ละด้าน (มีแต่ตัวอย่างข้อสอบ) การหักคะแนนเมื่อตอบผิด และการใช้เครื่องคิดเลข | หัวข้อระดับ leaf ในผังนี้จึงเป็นการอนุมานจากตัวอย่างข้อสอบในผังสอบ ไม่ใช่รายการทางการ — ทุก leaf มีหมายเหตุกำกับไว้ | ด้านตัวเลขและด้านมิติสัมพันธ์ทับกับ tgat2 แทบทั้งหมด จึงไม่สร้าง leaf ซ้ำ แต่ชี้ไปใช้บทเรียนของ tgat2 ผ่าน requires และหมายเหตุของ branch",
+  "topics": [
+    {
+      "id": "tpat3",
+      "name_th": "TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี วิศวกรรมศาสตร์",
+      "name_en": "TPAT3 Science, Technology and Engineering Aptitude",
+      "kind": "subject",
+      "parent": null,
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "TPAT3",
+        "ความถนัดวิทยาศาสตร์",
+        "วิศวกรรม",
+        "aptitude"
+      ],
+      "curriculum_ref": null,
+      "notes": "ส่วนใหญ่เป็นข้อสอบ **ความถนัด** ไม่ใช่วิชาเนื้อหาตามหลักสูตร (45 จาก 70 ข้ออยู่ในส่วนความถนัด) จึงใกล้เคียง TGAT2 มากกว่า A-Level | โครงสอบยืนยันแล้ว: 70 ข้อ 100 คะแนน **180 นาที** ปรนัย 5 ตัวเลือก | ตอนแต่งโจทย์วิชานี้ใช้ format mcq5 (เหมือน TGAT2 ไม่ใช่ mcq4) | เวลาต่อข้อ ~2.6 นาที มากกว่า TGAT ถึงสองเท่าครึ่ง โจทย์จึงยาวและหลายขั้นได้ ไม่ใช่ข้อสอบเร็ว | ด้านตัวเลขและด้านมิติสัมพันธ์ทับกับ tgat2 แทบทั้งหมด ใช้บทเรียนร่วมกัน ผังนี้จึงมี leaf เฉพาะส่วนที่ tgat2 ไม่มี"
+    },
+    {
+      "id": "tpat3.foundation",
+      "name_th": "พื้นฐานก่อนฝึก TPAT3",
+      "name_en": "Foundations for TPAT3",
+      "kind": "branch",
+      "parent": "tpat3",
+      "order": 1,
+      "grade_band": "m_early",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "easy",
+      "keywords": [
+        "พื้นฐาน",
+        "foundation"
+      ],
+      "curriculum_ref": null,
+      "notes": "ไม่ใช่ส่วนทางการ เป็นกลุ่มที่เพิ่มเองสำหรับคนเริ่มจากศูนย์"
+    },
+    {
+      "id": "tpat3.foundation.exam_format_time",
+      "name_th": "รูปแบบข้อสอบและการบริหารเวลา 70 ข้อใน 180 นาที",
+      "name_en": "Exam Format and Time Management",
+      "kind": "leaf",
+      "parent": "tpat3.foundation",
+      "order": 1,
+      "grade_band": "m_early",
+      "requires": [],
+      "est_minutes": 20,
+      "exam_weight": [],
+      "difficulty_band": "easy",
+      "keywords": [
+        "รูปแบบข้อสอบ",
+        "บริหารเวลา",
+        "time management"
+      ],
+      "curriculum_ref": null,
+      "notes": "เวลาเฉลี่ย ~2.6 นาทีต่อข้อ ต่างจาก TGAT ที่ ~1 นาที กลยุทธ์จึงต่างกัน: ที่นี่ควรอ่านให้เข้าใจจริงก่อนตอบ ไม่ใช่กวาดเร็ว | เนื้อหาต้องอ้างผังสอบทางการเท่านั้น ห้ามเดาเกณฑ์เอง"
+    },
+    {
+      "id": "tpat3.foundation.physics_quantities",
+      "name_th": "หน่วยและปริมาณทางฟิสิกส์ที่ต้องรู้",
+      "name_en": "Physical Quantities and Units",
+      "kind": "leaf",
+      "parent": "tpat3.foundation",
+      "order": 2,
+      "grade_band": "m_early",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [],
+      "difficulty_band": "easy",
+      "keywords": [
+        "หน่วย",
+        "ปริมาณฟิสิกส์",
+        "SI unit"
+      ],
+      "curriculum_ref": null,
+      "notes": "ต้องรู้ก่อนทำด้านเชิงกลและฟิสิกส์ เพราะหลายข้อตัดตัวเลือกได้จากหน่วยที่ไม่สมเหตุสมผล"
+    },
+    {
+      "id": "tpat3.foundation.force_vector_basics",
+      "name_th": "แรงและเวกเตอร์เบื้องต้น",
+      "name_en": "Forces and Vectors Basics",
+      "kind": "leaf",
+      "parent": "tpat3.foundation",
+      "order": 3,
+      "grade_band": "m_early",
+      "requires": [
+        "tpat3.foundation.physics_quantities"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [],
+      "difficulty_band": "easy",
+      "keywords": [
+        "แรง",
+        "เวกเตอร์",
+        "ทิศทาง",
+        "force"
+      ],
+      "curriculum_ref": null,
+      "notes": "ฐานรากของทั้งด้านเชิงกล ถ้าบวกแรงเป็นเวกเตอร์ไม่ได้ จะทำข้อสมดุลไม่ได้เลย"
+    },
+    {
+      "id": "tpat3.foundation.read_mechanism_diagram",
+      "name_th": "อ่านแผนภาพกลไกและสัญลักษณ์",
+      "name_en": "Reading Mechanism Diagrams",
+      "kind": "leaf",
+      "parent": "tpat3.foundation",
+      "order": 4,
+      "grade_band": "m_early",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [],
+      "difficulty_band": "easy",
+      "keywords": [
+        "แผนภาพกลไก",
+        "สัญลักษณ์",
+        "diagram"
+      ],
+      "curriculum_ref": null,
+      "notes": "ข้อสอบด้านเชิงกลสื่อด้วยรูปเป็นหลัก ถ้าอ่านรูปไม่ออกก็จบ สอนสัญลักษณ์เฟือง รอก คาน สายพาน และจุดหมุน"
+    },
+    {
+      "id": "tpat3.aptitude",
+      "name_th": "การทดสอบความถนัด",
+      "name_en": "Aptitude Test",
+      "kind": "branch",
+      "parent": "tpat3",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT3",
+          "typical_items": "45 ข้อ 60 คะแนน",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ความถนัด",
+        "aptitude"
+      ],
+      "curriculum_ref": null,
+      "notes": "ส่วนทางการที่ 1 มี 3 ด้านตามผังสอบ ด้านละ 15 ข้อ"
+    },
+    {
+      "id": "tpat3.aptitude.numerical",
+      "name_th": "ด้านตัวเลข",
+      "name_en": "Numerical Reasoning",
+      "kind": "branch",
+      "parent": "tpat3.aptitude",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT3",
+          "typical_items": "15 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ตัวเลข",
+        "numerical reasoning",
+        "อนุกรม"
+      ],
+      "curriculum_ref": null,
+      "notes": "ด้านทางการ | **ทับกับ tgat2.numerical แทบทั้งหมด — ใช้บทเรียนร่วมกัน ไม่ทำซ้ำ** หัวข้อที่ครอบคลุมด้านนี้แล้วคือ tgat2.numerical.series.* (อนุกรมเลข 9 หัวข้อ) tgat2.numerical.foundation.* (เลขคณิต อัตราส่วน ร้อยละ ค่าเฉลี่ย หน่วย) tgat2.numerical.word_problem.* และ tgat2.numerical.quantitative.* | ที่ต่างคือ TPAT3 มีเวลาต่อข้อมากกว่า โจทย์จึงยาวและหลายขั้นได้มากกว่า และมีรูปแบบตารางตัวเลขที่ tgat2 ไม่มี"
+    },
+    {
+      "id": "tpat3.aptitude.numerical.number_grid",
+      "name_th": "ตารางตัวเลขที่ต้องหาค่าที่หายไป",
+      "name_en": "Number Grids and Missing Values",
+      "kind": "leaf",
+      "parent": "tpat3.aptitude.numerical",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat2.numerical.series.constant_difference"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT3",
+          "typical_items": "อยู่ในด้านตัวเลข 15 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ตารางตัวเลข",
+        "หาค่าที่หายไป",
+        "number grid"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อนี้อนุมานจากตัวอย่างข้อสอบในผังสอบ ไม่ใช่รายการหัวข้อทางการ — มาจากตัวอย่าง 'จากตัวเลขในตารางข้างล่าง X แทนจำนวนใด' | ต่างจากอนุกรมแถวเดียวตรงที่ต้องหากฎทั้งแนวนอนและแนวตั้ง แล้วตรวจให้สอดคล้องกัน | หัวข้อนี้ทำแม่แบบได้ดี เพราะสร้างตารางและเฉลยจากโค้ดได้"
+    },
+    {
+      "id": "tpat3.aptitude.numerical.estimation_engineering",
+      "name_th": "ประมาณค่าและตรวจความสมเหตุสมผลเชิงวิศวกรรม",
+      "name_en": "Estimation and Engineering Sanity Checks",
+      "kind": "leaf",
+      "parent": "tpat3.aptitude.numerical",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat2.numerical.foundation.unit_conversion"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT3",
+          "typical_items": "อยู่ในด้านตัวเลข 15 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ประมาณค่า",
+        "สมเหตุสมผล",
+        "estimation",
+        "order of magnitude"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อนี้อนุมานจากตัวอย่างข้อสอบในผังสอบ ไม่ใช่รายการหัวข้อทางการ | ทักษะที่ตัดตัวเลือกได้เร็วที่สุดในข้อคำนวณยาว คือดูอันดับของขนาดและหน่วยก่อนคิดละเอียด"
+    },
+    {
+      "id": "tpat3.aptitude.spatial",
+      "name_th": "ด้านมิติสัมพันธ์",
+      "name_en": "Diagrammatic Reasoning",
+      "kind": "branch",
+      "parent": "tpat3.aptitude",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT3",
+          "typical_items": "15 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "มิติสัมพันธ์",
+        "spatial",
+        "diagrammatic reasoning"
+      ],
+      "curriculum_ref": null,
+      "notes": "ด้านทางการ | **ทับกับ tgat2.spatial เป็นส่วนใหญ่ — ใช้บทเรียนร่วมกัน** หัวข้อที่ครอบคลุมแล้วคือ tgat2.spatial.box_folding.* (พับกล่อง) tgat2.spatial.rotation_3d.* (หมุนภาพสามมิติ) tgat2.spatial.find_difference.* และ tgat2.spatial.assembly.* | ที่ tgat2 ไม่มีคือการพับกระดาษแล้วเจาะรู และเรื่องเงา/ภาพฉาย"
+    },
+    {
+      "id": "tpat3.aptitude.spatial.paper_fold_punch",
+      "name_th": "พับกระดาษแล้วเจาะรู หาตำแหน่งรูเมื่อคลี่ออก",
+      "name_en": "Paper Folding and Hole Punching",
+      "kind": "leaf",
+      "parent": "tpat3.aptitude.spatial",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat2.spatial.foundation.symmetry_reflection"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT3",
+          "typical_items": "อยู่ในด้านมิติสัมพันธ์ 15 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "พับกระดาษ",
+        "เจาะรู",
+        "paper folding",
+        "hole punch"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อนี้อนุมานจากตัวอย่างข้อสอบในผังสอบ ไม่ใช่รายการหัวข้อทางการ — มาจากตัวอย่างพับกระดาษเจาะรูในผังสอบ | หลักคือคลี่ย้อนกลับทีละรอยพับ แต่ละรอยพับสะท้อนรูเพิ่มเป็นสองเท่า | **หัวข้อนี้ควรทำเป็น provider** เพราะตำแหน่งรูหลังคลี่คำนวณจากโค้ดได้ 100% เหมือนที่ cube_net.py ทำกับการพับกล่อง"
+    },
+    {
+      "id": "tpat3.aptitude.spatial.shadow_projection",
+      "name_th": "เงาและภาพฉายของวัตถุสามมิติ",
+      "name_en": "Shadows and Projections of 3D Objects",
+      "kind": "leaf",
+      "parent": "tpat3.aptitude.spatial",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat2.spatial.foundation.orientation_2d"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT3",
+          "typical_items": "อยู่ในด้านมิติสัมพันธ์ 15 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "เงา",
+        "ภาพฉาย",
+        "shadow",
+        "projection"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อนี้อนุมานจากตัวอย่างข้อสอบในผังสอบ ไม่ใช่รายการหัวข้อทางการ — มาจากตัวอย่างหาเงาของวัตถุสามมิติ | ต้องแยกให้ออกว่าเงาจากทิศไหน เพราะวัตถุเดียวให้เงาต่างกันตามทิศแสง"
+    },
+    {
+      "id": "tpat3.aptitude.mechanical",
+      "name_th": "ด้านเชิงกลและด้านฟิสิกส์",
+      "name_en": "Mechanical Reasoning and Physics Aptitude",
+      "kind": "branch",
+      "parent": "tpat3.aptitude",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT3",
+          "typical_items": "15 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "เชิงกล",
+        "ฟิสิกส์",
+        "mechanical reasoning"
+      ],
+      "curriculum_ref": null,
+      "notes": "ด้านทางการ | ด้านเดียวในส่วนที่ 1 ที่ไม่ทับกับวิชาอื่นเลย ต้องทำบทเรียนใหม่ทั้งหมด | วัด 'สัญชาตญาณเชิงกล' ไม่ใช่การแทนสูตร โจทย์ส่วนใหญ่ตอบได้ด้วยการให้เหตุผล"
+    },
+    {
+      "id": "tpat3.aptitude.mechanical.gear_trains",
+      "name_th": "ระบบเฟือง ทิศการหมุนและอัตราทด",
+      "name_en": "Gear Trains, Direction and Ratio",
+      "kind": "leaf",
+      "parent": "tpat3.aptitude.mechanical",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [
+        "tpat3.foundation.read_mechanism_diagram"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT3",
+          "typical_items": "อยู่ในด้านเชิงกลและฟิสิกส์ 15 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "เฟือง",
+        "อัตราทด",
+        "ทิศหมุน",
+        "gear"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อนี้อนุมานจากตัวอย่างข้อสอบในผังสอบ ไม่ใช่รายการหัวข้อทางการ — มาจากตัวอย่าง 'ถ้าเฟือง C หมุนทวนเข็มนาฬิกา' | กฎหลัก: เฟืองที่ขบกันหมุนสวนทางกัน และรอบแปรผกผันกับจำนวนฟัน | **ทำเป็น provider ได้** เพราะทิศหมุนและอัตราทดคำนวณจากโค้ดได้"
+    },
+    {
+      "id": "tpat3.aptitude.mechanical.pulley_systems",
+      "name_th": "ระบบรอกและการได้เปรียบเชิงกล",
+      "name_en": "Pulley Systems and Mechanical Advantage",
+      "kind": "leaf",
+      "parent": "tpat3.aptitude.mechanical",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "tpat3.foundation.force_vector_basics",
+        "tpat3.foundation.read_mechanism_diagram"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT3",
+          "typical_items": "อยู่ในด้านเชิงกลและฟิสิกส์ 15 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "รอก",
+        "การได้เปรียบเชิงกล",
+        "pulley"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อนี้อนุมานจากตัวอย่างข้อสอบในผังสอบ ไม่ใช่รายการหัวข้อทางการ | หลักคือนับจำนวนเส้นเชือกที่รับน้ำหนัก ได้เปรียบแรงเท่าไรก็ต้องดึงเชือกยาวขึ้นเท่านั้น งานเท่าเดิม"
+    },
+    {
+      "id": "tpat3.aptitude.mechanical.lever_moment",
+      "name_th": "คาน โมเมนต์ และจุดหมุน",
+      "name_en": "Levers, Moments and Pivots",
+      "kind": "leaf",
+      "parent": "tpat3.aptitude.mechanical",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "tpat3.foundation.force_vector_basics"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT3",
+          "typical_items": "อยู่ในด้านเชิงกลและฟิสิกส์ 15 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "คาน",
+        "โมเมนต์",
+        "จุดหมุน",
+        "lever",
+        "moment"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อนี้อนุมานจากตัวอย่างข้อสอบในผังสอบ ไม่ใช่รายการหัวข้อทางการ | โมเมนต์ = แรง x ระยะตั้งฉากจากจุดหมุน จุดที่คนพลาดคือใช้ระยะตามแนวคานแทนระยะตั้งฉาก"
+    },
+    {
+      "id": "tpat3.aptitude.mechanical.linkage_transmission",
+      "name_th": "กลไกส่งกำลัง สายพาน และข้อต่อ",
+      "name_en": "Linkages, Belts and Power Transmission",
+      "kind": "leaf",
+      "parent": "tpat3.aptitude.mechanical",
+      "order": 4,
+      "grade_band": "mixed",
+      "requires": [
+        "tpat3.aptitude.mechanical.gear_trains"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT3",
+          "typical_items": "อยู่ในด้านเชิงกลและฟิสิกส์ 15 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "สายพาน",
+        "ข้อต่อ",
+        "ส่งกำลัง",
+        "linkage",
+        "belt"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อนี้อนุมานจากตัวอย่างข้อสอบในผังสอบ ไม่ใช่รายการหัวข้อทางการ | สายพานปกติทำให้หมุนทางเดียวกัน แต่สายพานไขว้ทำให้สวนทาง เป็นกับดักที่ออกบ่อย"
+    },
+    {
+      "id": "tpat3.aptitude.mechanical.force_equilibrium",
+      "name_th": "แรงและสมดุลของวัตถุ",
+      "name_en": "Forces and Equilibrium",
+      "kind": "leaf",
+      "parent": "tpat3.aptitude.mechanical",
+      "order": 5,
+      "grade_band": "mixed",
+      "requires": [
+        "tpat3.foundation.force_vector_basics"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT3",
+          "typical_items": "อยู่ในด้านเชิงกลและฟิสิกส์ 15 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "สมดุล",
+        "แรงลัพธ์",
+        "equilibrium"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อนี้อนุมานจากตัวอย่างข้อสอบในผังสอบ ไม่ใช่รายการหัวข้อทางการ | สมดุลต้องครบสองเงื่อนไข แรงลัพธ์เป็นศูนย์และโมเมนต์ลัพธ์เป็นศูนย์ ข้อที่ดูเหมือนสมดุลแต่ล้มได้ มักติดเงื่อนไขที่สอง"
+    },
+    {
+      "id": "tpat3.aptitude.mechanical.fluid_pressure",
+      "name_th": "ของไหลและความดัน",
+      "name_en": "Fluids and Pressure",
+      "kind": "leaf",
+      "parent": "tpat3.aptitude.mechanical",
+      "order": 6,
+      "grade_band": "mixed",
+      "requires": [
+        "tpat3.foundation.physics_quantities"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT3",
+          "typical_items": "อยู่ในด้านเชิงกลและฟิสิกส์ 15 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ของไหล",
+        "ความดัน",
+        "แรงลอยตัว",
+        "fluid",
+        "pressure"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อนี้อนุมานจากตัวอย่างข้อสอบในผังสอบ ไม่ใช่รายการหัวข้อทางการ | ความดันขึ้นกับความลึก ไม่ขึ้นกับรูปทรงภาชนะ เป็นจุดที่สัญชาตญาณคนมักผิด"
+    },
+    {
+      "id": "tpat3.aptitude.mechanical.energy_intuition",
+      "name_th": "งาน พลังงาน และการอนุรักษ์พลังงานเชิงสังเกต",
+      "name_en": "Work, Energy and Conservation by Reasoning",
+      "kind": "leaf",
+      "parent": "tpat3.aptitude.mechanical",
+      "order": 7,
+      "grade_band": "mixed",
+      "requires": [
+        "tpat3.aptitude.mechanical.pulley_systems",
+        "tpat3.aptitude.mechanical.lever_moment"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT3",
+          "typical_items": "อยู่ในด้านเชิงกลและฟิสิกส์ 15 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "งาน",
+        "พลังงาน",
+        "อนุรักษ์พลังงาน",
+        "energy"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อนี้อนุมานจากตัวอย่างข้อสอบในผังสอบ ไม่ใช่รายการหัวข้อทางการ | หลักที่ตอบได้หลายข้อโดยไม่ต้องคำนวณ: เครื่องกลช่วยลดแรงได้ แต่ไม่ลดงาน จึงไม่มีอะไรได้มาฟรี"
+    },
+    {
+      "id": "tpat3.thinking",
+      "name_th": "การทดสอบความคิดและความสนใจ",
+      "name_en": "Thinking and Interest Assessment",
+      "kind": "branch",
+      "parent": "tpat3",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT3",
+          "typical_items": "25 ข้อ 40 คะแนน",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ความคิด",
+        "ความสนใจ",
+        "วิทยาศาสตร์"
+      ],
+      "curriculum_ref": null,
+      "notes": "ส่วนทางการที่ 2 มี 2 ด้านตามผังสอบ"
+    },
+    {
+      "id": "tpat3.thinking.sci_engineering",
+      "name_th": "ความคิดเชิงวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์",
+      "name_en": "Scientific, Technological and Engineering Thinking",
+      "kind": "branch",
+      "parent": "tpat3.thinking",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT3",
+          "typical_items": "15 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "คิดเชิงวิทยาศาสตร์",
+        "วิศวกรรม",
+        "scientific thinking"
+      ],
+      "curriculum_ref": null,
+      "notes": "ด้านทางการ | เน้นการนำหลักวิทยาศาสตร์ไปใช้กับสถานการณ์ ไม่ใช่การท่องเนื้อหา"
+    },
+    {
+      "id": "tpat3.thinking.sci_engineering.proportional_reasoning",
+      "name_th": "การแปรผันตรงและแปรผันผกผัน",
+      "name_en": "Direct and Inverse Proportion",
+      "kind": "leaf",
+      "parent": "tpat3.thinking.sci_engineering",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat2.numerical.foundation.ratio_proportion"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT3",
+          "typical_items": "อยู่ในด้านความคิด 15 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "แปรผันตรง",
+        "แปรผันผกผัน",
+        "proportion",
+        "inverse square"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อนี้อนุมานจากตัวอย่างข้อสอบในผังสอบ ไม่ใช่รายการหัวข้อทางการ — มาจากตัวอย่าง 'ความเข้มของแสงแปรผกผันกับระยะทาง' | ต้องแยกให้ออกระหว่างผกผันกับระยะ และผกผันกับกำลังสองของระยะ"
+    },
+    {
+      "id": "tpat3.thinking.sci_engineering.work_rate",
+      "name_th": "โจทย์อัตราการทำงานเชิงวิศวกรรม",
+      "name_en": "Work-Rate Problems in Engineering Contexts",
+      "kind": "leaf",
+      "parent": "tpat3.thinking.sci_engineering",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat2.numerical.word_problem.average_rate"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT3",
+          "typical_items": "อยู่ในด้านความคิด 15 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "อัตราการทำงาน",
+        "work rate",
+        "กำลังการผลิต"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อนี้อนุมานจากตัวอย่างข้อสอบในผังสอบ ไม่ใช่รายการหัวข้อทางการ — มาจากตัวอย่างโจทย์อัตราการทำงาน | ต่างจาก tgat2 ตรงที่มักมีหลายเครื่องหลายอัตราทำงานพร้อมกัน"
+    },
+    {
+      "id": "tpat3.thinking.sci_engineering.geometry_measurement",
+      "name_th": "พื้นที่ ปริมาตร และการวัดเชิงประยุกต์",
+      "name_en": "Applied Area, Volume and Measurement",
+      "kind": "leaf",
+      "parent": "tpat3.thinking.sci_engineering",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat2.numerical.foundation.unit_conversion"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT3",
+          "typical_items": "อยู่ในด้านความคิด 15 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "พื้นที่",
+        "ปริมาตร",
+        "การวัด",
+        "geometry"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อนี้อนุมานจากตัวอย่างข้อสอบในผังสอบ ไม่ใช่รายการหัวข้อทางการ — มาจากตัวอย่างการคำนวณพื้นที่ | จุดที่ออกบ่อยคือเมื่อขยายขนาดทุกด้าน พื้นที่โตกำลังสอง ปริมาตรโตกำลังสาม"
+    },
+    {
+      "id": "tpat3.thinking.sci_engineering.experiment_control",
+      "name_th": "ออกแบบการทดลองและตัวแปรควบคุม",
+      "name_en": "Experiment Design and Control Variables",
+      "kind": "leaf",
+      "parent": "tpat3.thinking.sci_engineering",
+      "order": 4,
+      "grade_band": "mixed",
+      "requires": [
+        "tpat3.foundation.physics_quantities"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT3",
+          "typical_items": "อยู่ในด้านความคิด 15 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ออกแบบการทดลอง",
+        "ตัวแปรควบคุม",
+        "experiment design"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อนี้อนุมานจากตัวอย่างข้อสอบในผังสอบ ไม่ใช่รายการหัวข้อทางการ | หลักคือเปลี่ยนตัวแปรเดียวต่อครั้ง ตัวเลือกที่เปลี่ยนสองอย่างพร้อมกันสรุปอะไรไม่ได้"
+    },
+    {
+      "id": "tpat3.thinking.sci_engineering.design_tradeoff",
+      "name_th": "เลือกทางออกเชิงวิศวกรรมเมื่อมีข้อจำกัด",
+      "name_en": "Engineering Trade-offs Under Constraints",
+      "kind": "leaf",
+      "parent": "tpat3.thinking.sci_engineering",
+      "order": 5,
+      "grade_band": "mixed",
+      "requires": [
+        "tpat3.thinking.sci_engineering.experiment_control"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT3",
+          "typical_items": "อยู่ในด้านความคิด 15 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "ข้อจำกัด",
+        "ชั่งน้ำหนัก",
+        "trade-off",
+        "design"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อนี้อนุมานจากตัวอย่างข้อสอบในผังสอบ ไม่ใช่รายการหัวข้อทางการ — มาจากตัวอย่างการเลือกออกแบบระบบอัจฉริยะ | ไม่มีคำตอบที่ดีทุกด้าน ต้องดูว่าโจทย์ให้ความสำคัญกับอะไรก่อน"
+    },
+    {
+      "id": "tpat3.thinking.sci_engineering.sanity_check",
+      "name_th": "ตรวจว่าคำตอบสมเหตุสมผลก่อนตอบ",
+      "name_en": "Checking Whether an Answer Makes Sense",
+      "kind": "leaf",
+      "parent": "tpat3.thinking.sci_engineering",
+      "order": 6,
+      "grade_band": "mixed",
+      "requires": [
+        "tpat3.aptitude.numerical.estimation_engineering"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT3",
+          "typical_items": "อยู่ในด้านความคิด 15 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ตรวจคำตอบ",
+        "สมเหตุสมผล",
+        "sanity check"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อนี้อนุมานจากตัวอย่างข้อสอบในผังสอบ ไม่ใช่รายการหัวข้อทางการ | ใช้ได้กับทุกด้านในวิชานี้ เพราะมีเวลาต่อข้อมากพอจะตรวจซ้ำ"
+    },
+    {
+      "id": "tpat3.thinking.current_awareness",
+      "name_th": "ความสนใจข่าวสารความรู้ทางวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์",
+      "name_en": "Interest in Science and Technology News",
+      "kind": "branch",
+      "parent": "tpat3.thinking",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT3",
+          "typical_items": "10 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ข่าววิทยาศาสตร์",
+        "เทคโนโลยี",
+        "current awareness"
+      ],
+      "curriculum_ref": null,
+      "notes": "ด้านทางการ | **ด้านนี้ต่างจากทุกด้านในโปรเจกต์** เพราะเนื้อหาเก่าเร็วทุกปี และอ้างข้อเท็จจริงภายนอกที่ต้องตรวจ | ทุกไฟล์ในด้านนี้ต้องตั้ง review_status เป็น ai_draft_needs_fact_check และต้องมีคนตรวจข้อเท็จจริงทุกข้อก่อนเผยแพร่ | ห้ามให้ AI นึกข่าวหรือสถิติจากความจำ ต้องมีแหล่งอ้างอิงที่ตรวจได้ใน style_ref.note | ต้องมีรอบทบทวนเนื้อหาอย่างน้อยปีละครั้ง"
+    },
+    {
+      "id": "tpat3.thinking.current_awareness.how_to_follow",
+      "name_th": "วิธีติดตามข่าววิทยาศาสตร์ให้ทันสอบ",
+      "name_en": "How to Follow Science News for This Exam",
+      "kind": "leaf",
+      "parent": "tpat3.thinking.current_awareness",
+      "order": 1,
+      "grade_band": "m_early",
+      "requires": [],
+      "est_minutes": 20,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT3",
+          "typical_items": "อยู่ในด้านความสนใจข่าวสาร 10 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "easy",
+      "keywords": [
+        "ติดตามข่าว",
+        "แหล่งข่าว",
+        "วิธีอ่านข่าว"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อนี้อนุมานจากตัวอย่างข้อสอบในผังสอบ ไม่ใช่รายการหัวข้อทางการ | หัวข้อนี้สอน **วิธี** ไม่ใช่ตัวข่าว จึงไม่เก่าเร็วเหมือนหัวข้ออื่นในด้านนี้ ควรทำก่อนหัวข้ออื่นในกลุ่ม"
+    },
+    {
+      "id": "tpat3.thinking.current_awareness.emerging_tech",
+      "name_th": "เทคโนโลยีที่กำลังมีบทบาท",
+      "name_en": "Emerging Technologies",
+      "kind": "leaf",
+      "parent": "tpat3.thinking.current_awareness",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "tpat3.thinking.current_awareness.how_to_follow"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT3",
+          "typical_items": "อยู่ในด้านความสนใจข่าวสาร 10 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ปัญญาประดิษฐ์",
+        "หุ่นยนต์",
+        "ระบบอัตโนมัติ",
+        "AI"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อนี้อนุมานจากตัวอย่างข้อสอบในผังสอบ ไม่ใช่รายการหัวข้อทางการ — มาจากตัวอย่างเรื่องการใช้งาน AI | เนื้อหาเก่าเร็ว ต้องทบทวนทุกปี และต้องมีแหล่งอ้างอิงทุกข้อ"
+    },
+    {
+      "id": "tpat3.thinking.current_awareness.energy_environment",
+      "name_th": "พลังงานและสิ่งแวดล้อมในข่าว",
+      "name_en": "Energy and Environment in the News",
+      "kind": "leaf",
+      "parent": "tpat3.thinking.current_awareness",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "tpat3.thinking.current_awareness.how_to_follow"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT3",
+          "typical_items": "อยู่ในด้านความสนใจข่าวสาร 10 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "พลังงาน",
+        "สิ่งแวดล้อม",
+        "พลังงานสะอาด"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อนี้อนุมานจากตัวอย่างข้อสอบในผังสอบ ไม่ใช่รายการหัวข้อทางการ | เนื้อหาเก่าเร็ว ต้องทบทวนทุกปี และต้องมีแหล่งอ้างอิงทุกข้อ"
+    },
+    {
+      "id": "tpat3.thinking.current_awareness.bio_health",
+      "name_th": "ชีวการแพทย์และสุขภาพในข่าว",
+      "name_en": "Biomedical and Health Topics in the News",
+      "kind": "leaf",
+      "parent": "tpat3.thinking.current_awareness",
+      "order": 4,
+      "grade_band": "mixed",
+      "requires": [
+        "tpat3.thinking.current_awareness.how_to_follow"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT3",
+          "typical_items": "อยู่ในด้านความสนใจข่าวสาร 10 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ชีวการแพทย์",
+        "สุขภาพ",
+        "โรคระบาด",
+        "วัคซีน"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อนี้อนุมานจากตัวอย่างข้อสอบในผังสอบ ไม่ใช่รายการหัวข้อทางการ — มาจากตัวอย่างเรื่องการกลายพันธุ์ของเชื้อโควิด | ด้านที่อ่อนไหวที่สุด ห้ามเขียนอะไรที่ใช้เป็นคำแนะนำทางการแพทย์ได้ และต้องมีคนตรวจข้อเท็จจริงทุกข้อ"
+    },
+    {
+      "id": "tpat3.thinking.current_awareness.physics_materials",
+      "name_th": "ฟิสิกส์และวัสดุในข่าว",
+      "name_en": "Physics and Materials in the News",
+      "kind": "leaf",
+      "parent": "tpat3.thinking.current_awareness",
+      "order": 5,
+      "grade_band": "mixed",
+      "requires": [
+        "tpat3.thinking.current_awareness.how_to_follow"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT3",
+          "typical_items": "อยู่ในด้านความสนใจข่าวสาร 10 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ฟิสิกส์",
+        "วัสดุ",
+        "รังสี",
+        "แสงซินโครตรอน"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อนี้อนุมานจากตัวอย่างข้อสอบในผังสอบ ไม่ใช่รายการหัวข้อทางการ — มาจากตัวอย่างเรื่องรังสีนิวเคลียร์และแสงซินโครตรอน | เนื้อหาเก่าเร็ว ต้องทบทวนทุกปี และต้องมีแหล่งอ้างอิงทุกข้อ"
+    }
+  ]
+}

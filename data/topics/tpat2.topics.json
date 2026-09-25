@@ -1,0 +1,1189 @@
+{
+  "schema_version": "1.0",
+  "subject": "tpat2",
+  "subject_name_th": "TPAT2 ความถนัดศิลปกรรมศาสตร์",
+  "exam_codes": [
+    "TPAT2"
+  ],
+  "source_note": "ยืนยันโครงสอบแล้วจาก mytcas.com/blueprint/tpat2-20/ (ตรวจเมื่อ 21 กันยายน 2569): 150 ข้อ (3 ส่วน ส่วนละ 50 ข้อ) 100 คะแนน 180 นาที ปรนัย 4 ตัวเลือก แบ่งเป็น TPAT21 ทัศนศิลป์ / TPAT22 ดนตรี / TPAT23 นาฏศิลป์ ส่วนละ 50 ข้อ 100 คะแนน ผังสอบระบุว่า 'หลักในการคิดคะแนนรวม คำนวณจากการเฉลี่ยทั้งสามส่วน เต็ม 100 คะแนน' | **ผังสอบระบุว่าเป็นปรนัยล้วน ไม่มีภาคปฏิบัติหรือการวาดรูป** ซึ่งแก้ความเข้าใจผิดที่เคยเขียนไว้ในสเปคเดิม | ผังสอบไม่ได้ระบุ: ผู้สอบต้องสอบครบทั้งสามส่วนหรือเลือกเฉพาะส่วนที่คณะต้องการ การหักคะแนนเมื่อตอบผิด และจำนวนข้อของแต่ละหัวข้อย่อย | ชื่อหัวข้อระดับ leaf คัดมาจากผังสอบตรงตัว ส่วนชื่อกลุ่มบางกลุ่มตั้งเอง เพราะผังสอบให้แต่เลขกลุ่ม — ระบุไว้ในหมายเหตุของแต่ละ branch",
+  "topics": [
+    {
+      "id": "tpat2",
+      "name_th": "TPAT2 ความถนัดศิลปกรรมศาสตร์",
+      "name_en": "TPAT2 Fine and Applied Arts Aptitude",
+      "kind": "subject",
+      "parent": null,
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "TPAT2",
+        "ศิลปกรรมศาสตร์",
+        "ทัศนศิลป์",
+        "ดนตรี",
+        "นาฏศิลป์"
+      ],
+      "curriculum_ref": null,
+      "notes": "โครงสอบยืนยันแล้ว: 150 ข้อ (3 ส่วน ส่วนละ 50 ข้อ) 100 คะแนน 180 นาที **ปรนัย 4 ตัวเลือก** | **ไม่มีภาคปฏิบัติหรือการวาดรูป** ผังสอบระบุว่าเป็นปรนัยล้วนทั้งสามส่วน | ตอนแต่งโจทย์วิชานี้ใช้ format mcq4 (ต่างจาก TPAT3/TPAT4 ที่เป็น mcq5) | ผังสอบระบุว่า 'หลักในการคิดคะแนนรวม คำนวณจากการเฉลี่ยทั้งสามส่วน เต็ม 100 คะแนน' แต่ **ไม่ได้ระบุ**ว่าผู้สอบต้องสอบครบทั้งสามส่วนหรือเลือกสอบเฉพาะส่วนที่คณะต้องการ ห้ามเดา ให้ผู้ใช้ตรวจกับประกาศรับสมัครของคณะเอง | สามส่วนเป็นคนละศาสตร์กันสิ้นเชิง ผู้เรียนส่วนใหญ่สนใจส่วนเดียว หน้าเว็บควรให้เลือกส่วนก่อน ไม่ใช่ไล่เรียงทั้งวิชา | เนื้อหาศิลปวัฒนธรรมมีชื่อบุคคล ยุคสมัย และผลงาน ต้องตั้ง review_status เป็น ai_draft_needs_fact_check และให้คนตรวจ"
+    },
+    {
+      "id": "tpat2.foundation",
+      "name_th": "พื้นฐานก่อนฝึก TPAT2",
+      "name_en": "Foundations for TPAT2",
+      "kind": "branch",
+      "parent": "tpat2",
+      "order": 1,
+      "grade_band": "m_early",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "easy",
+      "keywords": [
+        "พื้นฐาน",
+        "foundation"
+      ],
+      "curriculum_ref": null,
+      "notes": "ไม่ใช่ส่วนทางการ เป็นกลุ่มที่เพิ่มเองสำหรับคนเริ่มจากศูนย์"
+    },
+    {
+      "id": "tpat2.foundation.choose_section",
+      "name_th": "เลือกว่าต้องสอบส่วนไหนและเตรียมอย่างไร",
+      "name_en": "Choosing Which Section You Need",
+      "kind": "leaf",
+      "parent": "tpat2.foundation",
+      "order": 1,
+      "grade_band": "m_early",
+      "requires": [],
+      "est_minutes": 15,
+      "exam_weight": [],
+      "difficulty_band": "easy",
+      "keywords": [
+        "เลือกส่วน",
+        "ทัศนศิลป์",
+        "ดนตรี",
+        "นาฏศิลป์"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อนี้อนุมานจากชื่อส่วนในผังสอบ ไม่ใช่รายการหัวข้อย่อยทางการ | สามส่วนเป็นคนละศาสตร์ ไม่ต้องเรียนทั้งหมด หัวข้อนี้ช่วยตัดสินใจก่อนลงแรง | ห้ามระบุว่าคณะไหนใช้ส่วนไหน เพราะผังสอบไม่ได้บอก ให้ชี้ไปที่ประกาศรับสมัครของคณะแทน"
+    },
+    {
+      "id": "tpat2.foundation.exam_format_time",
+      "name_th": "รูปแบบข้อสอบและการบริหารเวลา",
+      "name_en": "Exam Format and Time Management",
+      "kind": "leaf",
+      "parent": "tpat2.foundation",
+      "order": 2,
+      "grade_band": "m_early",
+      "requires": [],
+      "est_minutes": 15,
+      "exam_weight": [],
+      "difficulty_band": "easy",
+      "keywords": [
+        "รูปแบบข้อสอบ",
+        "บริหารเวลา"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อนี้อนุมานจากชื่อส่วนในผังสอบ ไม่ใช่รายการหัวข้อย่อยทางการ | ส่วนละ 50 ข้อ ปรนัย 4 ตัวเลือก ไม่มีภาคปฏิบัติ | เนื้อหาต้องอ้างผังสอบทางการเท่านั้น ห้ามเดาเกณฑ์เอง"
+    },
+    {
+      "id": "tpat2.visual",
+      "name_th": "TPAT21 ทัศนศิลป์",
+      "name_en": "TPAT21 Visual Arts",
+      "kind": "branch",
+      "parent": "tpat2",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT2",
+          "typical_items": "50 ข้อ 100 คะแนน",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ทัศนศิลป์",
+        "visual arts",
+        "TPAT21"
+      ],
+      "curriculum_ref": null,
+      "notes": "ส่วนทางการที่ 1 | ผังสอบแบ่งหัวข้อย่อยเป็นกลุ่ม 1.x และ 2.x"
+    },
+    {
+      "id": "tpat2.visual.core",
+      "name_th": "ความรู้และการวิเคราะห์งานทัศนศิลป์",
+      "name_en": "Knowledge and Analysis of Visual Art",
+      "kind": "branch",
+      "parent": "tpat2.visual",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT2",
+          "typical_items": "อยู่ในส่วนทัศนศิลป์ 50 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ทัศนศิลป์",
+        "วิเคราะห์งานศิลป์"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อกลุ่มนี้ตั้งเอง ผังสอบให้เลขกลุ่ม 1.1-1.4 แต่ไม่ได้ตั้งชื่อกลุ่ม | ชื่อ leaf ข้างในคัดมาจากผังสอบตรงตัว"
+    },
+    {
+      "id": "tpat2.visual.core.design_composition",
+      "name_th": "หลักการออกแบบและการจัดองค์ประกอบศิลป์",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "tpat2.visual.core",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT2",
+          "typical_items": "อยู่ในส่วนทัศนศิลป์ 50 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ทัศนศิลป์",
+        "หลักการออกแบบและการจัดองค์ประกอบศิลป์"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อหัวข้อนี้คัดมาจากผังสอบทางการตรงตัว (ข้อ 1.1)"
+    },
+    {
+      "id": "tpat2.visual.core.critique",
+      "name_th": "การวิเคราะห์ วิพากษ์ วิจารณ์งานทัศนศิลป์",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "tpat2.visual.core",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT2",
+          "typical_items": "อยู่ในส่วนทัศนศิลป์ 50 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "ทัศนศิลป์",
+        "การวิเคราะห์"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อหัวข้อนี้คัดมาจากผังสอบทางการตรงตัว (ข้อ 1.2)"
+    },
+    {
+      "id": "tpat2.visual.core.history_culture",
+      "name_th": "ความเข้าใจความสัมพันธ์ระหว่างทัศนศิลป์ ประวัติศาสตร์และวัฒนธรรม",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "tpat2.visual.core",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT2",
+          "typical_items": "อยู่ในส่วนทัศนศิลป์ 50 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ทัศนศิลป์",
+        "ความเข้าใจความสัมพันธ์ระหว่างทัศนศิลป์"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อหัวข้อนี้คัดมาจากผังสอบทางการตรงตัว (ข้อ 1.3) | มีชื่อยุคสมัย ศิลปิน และผลงาน ต้องตั้ง review_status เป็น ai_draft_needs_fact_check"
+    },
+    {
+      "id": "tpat2.visual.core.appreciation",
+      "name_th": "การเห็นคุณค่าและสามารถถ่ายทอดความรู้สึกที่มีต่องานทัศนศิลป์",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "tpat2.visual.core",
+      "order": 4,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT2",
+          "typical_items": "อยู่ในส่วนทัศนศิลป์ 50 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ทัศนศิลป์",
+        "การเห็นคุณค่าและสามารถถ่ายทอดความรู้สึกที่มีต่องานทัศนศิลป์"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อหัวข้อนี้คัดมาจากผังสอบทางการตรงตัว (ข้อ 1.4)"
+    },
+    {
+      "id": "tpat2.visual.applied",
+      "name_th": "การนำทัศนศิลป์ไปใช้",
+      "name_en": "Applying Visual Art",
+      "kind": "branch",
+      "parent": "tpat2.visual",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT2",
+          "typical_items": "อยู่ในส่วนทัศนศิลป์ 50 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ประยุกต์ใช้",
+        "ชีวิตประจำวัน"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อกลุ่มนี้ตั้งเอง ผังสอบให้เลขกลุ่ม 2.1-2.3 แต่ไม่ได้ตั้งชื่อกลุ่ม"
+    },
+    {
+      "id": "tpat2.visual.applied.choose_media",
+      "name_th": "การเลือกใช้อุปกรณ์ที่เหมาะสมในการสร้างสรรค์งานทัศนศิลป์",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "tpat2.visual.applied",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT2",
+          "typical_items": "อยู่ในส่วนทัศนศิลป์ 50 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ทัศนศิลป์",
+        "ประยุกต์ใช้"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อหัวข้อนี้คัดมาจากผังสอบทางการตรงตัว (ข้อ 2.1)"
+    },
+    {
+      "id": "tpat2.visual.applied.local_wisdom",
+      "name_th": "การนำศิลปะ ศิลปวัฒนธรรม ภูมิปัญญาท้องถิ่นมาประยุกต์ใช้ในชีวิตประจำวัน",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "tpat2.visual.applied",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT2",
+          "typical_items": "อยู่ในส่วนทัศนศิลป์ 50 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ทัศนศิลป์",
+        "ประยุกต์ใช้"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อหัวข้อนี้คัดมาจากผังสอบทางการตรงตัว (ข้อ 2.2) | อ้างอิงศิลปวัฒนธรรมไทยและภูมิปัญญาท้องถิ่น ต้องให้คนไทยตรวจ ห้ามเขียนจากความจำของ AI"
+    },
+    {
+      "id": "tpat2.visual.applied.everyday_art",
+      "name_th": "ความรู้รอบตัวเกี่ยวกับทัศนศิลป์ในชีวิตประจำวัน",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "tpat2.visual.applied",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT2",
+          "typical_items": "อยู่ในส่วนทัศนศิลป์ 50 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ทัศนศิลป์",
+        "ประยุกต์ใช้"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อหัวข้อนี้คัดมาจากผังสอบทางการตรงตัว (ข้อ 2.3)"
+    },
+    {
+      "id": "tpat2.music",
+      "name_th": "TPAT22 ดนตรี",
+      "name_en": "TPAT22 Music",
+      "kind": "branch",
+      "parent": "tpat2",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT2",
+          "typical_items": "50 ข้อ 100 คะแนน",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ดนตรี",
+        "music",
+        "TPAT22"
+      ],
+      "curriculum_ref": null,
+      "notes": "ส่วนทางการที่ 2 | ผังสอบแบ่งเป็น 2 กลุ่มพร้อมชื่อกลุ่ม"
+    },
+    {
+      "id": "tpat2.music.elements",
+      "name_th": "องค์ประกอบดนตรี",
+      "name_en": "Elements of Music",
+      "kind": "branch",
+      "parent": "tpat2.music",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT2",
+          "typical_items": "อยู่ในส่วนดนตรี 50 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "องค์ประกอบดนตรี",
+        "elements of music"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อหัวข้อนี้คัดมาจากผังสอบทางการตรงตัว (ชื่อกลุ่มที่ 1)"
+    },
+    {
+      "id": "tpat2.music.elements.rhythm",
+      "name_th": "จังหวะ (Rhythm)",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "tpat2.music.elements",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT2",
+          "typical_items": "อยู่ในส่วนดนตรี 50 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "จังหวะ",
+        "rhythm"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อหัวข้อนี้คัดมาจากผังสอบทางการตรงตัว (ข้อ 1.1)"
+    },
+    {
+      "id": "tpat2.music.elements.melody",
+      "name_th": "ทำนอง (Melody)",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "tpat2.music.elements",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT2",
+          "typical_items": "อยู่ในส่วนดนตรี 50 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ทำนอง",
+        "melody"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อหัวข้อนี้คัดมาจากผังสอบทางการตรงตัว (ข้อ 1.2)"
+    },
+    {
+      "id": "tpat2.music.elements.harmony",
+      "name_th": "เสียงประสาน (Harmony)",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "tpat2.music.elements",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT2",
+          "typical_items": "อยู่ในส่วนดนตรี 50 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "เสียงประสาน",
+        "harmony"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อหัวข้อนี้คัดมาจากผังสอบทางการตรงตัว (ข้อ 1.3)"
+    },
+    {
+      "id": "tpat2.music.elements.texture",
+      "name_th": "รูปพรรณ (Texture)",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "tpat2.music.elements",
+      "order": 4,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT2",
+          "typical_items": "อยู่ในส่วนดนตรี 50 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "รูปพรรณ",
+        "texture"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อหัวข้อนี้คัดมาจากผังสอบทางการตรงตัว (ข้อ 1.4)"
+    },
+    {
+      "id": "tpat2.music.elements.tone_color",
+      "name_th": "สีสันของเสียง (Tone Color)",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "tpat2.music.elements",
+      "order": 5,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT2",
+          "typical_items": "อยู่ในส่วนดนตรี 50 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "สีสันของเสียง",
+        "tone color"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อหัวข้อนี้คัดมาจากผังสอบทางการตรงตัว (ข้อ 1.5)"
+    },
+    {
+      "id": "tpat2.music.elements.sound_quality",
+      "name_th": "ลักษณะของเสียง",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "tpat2.music.elements",
+      "order": 6,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT2",
+          "typical_items": "อยู่ในส่วนดนตรี 50 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ลักษณะของเสียง",
+        "sound"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อหัวข้อนี้คัดมาจากผังสอบทางการตรงตัว (ข้อ 1.6)"
+    },
+    {
+      "id": "tpat2.music.elements.form",
+      "name_th": "รูปแบบ (Form)",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "tpat2.music.elements",
+      "order": 7,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT2",
+          "typical_items": "อยู่ในส่วนดนตรี 50 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "รูปแบบ",
+        "form"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อหัวข้อนี้คัดมาจากผังสอบทางการตรงตัว (ข้อ 1.7)"
+    },
+    {
+      "id": "tpat2.music.context",
+      "name_th": "บริบทที่เกี่ยวข้องทางดนตรี",
+      "name_en": "Musical Context",
+      "kind": "branch",
+      "parent": "tpat2.music",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT2",
+          "typical_items": "อยู่ในส่วนดนตรี 50 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "บริบททางดนตรี",
+        "musical context"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อหัวข้อนี้คัดมาจากผังสอบทางการตรงตัว (ชื่อกลุ่มที่ 2)"
+    },
+    {
+      "id": "tpat2.music.context.history_literature",
+      "name_th": "ประวัติและวรรณคดีดนตรี",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "tpat2.music.context",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT2",
+          "typical_items": "อยู่ในส่วนดนตรี 50 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ดนตรี",
+        "ประวัติและวรรณคดีดนตรี"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อหัวข้อนี้คัดมาจากผังสอบทางการตรงตัว (ข้อ 2.1) | มีชื่อยุคสมัย นักประพันธ์ และผลงาน ต้องตั้ง review_status เป็น ai_draft_needs_fact_check"
+    },
+    {
+      "id": "tpat2.music.context.instruments",
+      "name_th": "เครื่องดนตรีและแหล่งกำเนิดของเสียง",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "tpat2.music.context",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT2",
+          "typical_items": "อยู่ในส่วนดนตรี 50 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ดนตรี",
+        "เครื่องดนตรีและแหล่งกำเนิดของเสียง"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อหัวข้อนี้คัดมาจากผังสอบทางการตรงตัว (ข้อ 2.2)"
+    },
+    {
+      "id": "tpat2.music.context.listening_levels",
+      "name_th": "ระดับของการฟัง",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "tpat2.music.context",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT2",
+          "typical_items": "อยู่ในส่วนดนตรี 50 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ดนตรี",
+        "ระดับของการฟัง"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อหัวข้อนี้คัดมาจากผังสอบทางการตรงตัว (ข้อ 2.3)"
+    },
+    {
+      "id": "tpat2.music.context.practice_principles",
+      "name_th": "หลักในการปฏิบัติทักษะดนตรี",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "tpat2.music.context",
+      "order": 4,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT2",
+          "typical_items": "อยู่ในส่วนดนตรี 50 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ดนตรี",
+        "หลักในการปฏิบัติทักษะดนตรี"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อหัวข้อนี้คัดมาจากผังสอบทางการตรงตัว (ข้อ 2.4)"
+    },
+    {
+      "id": "tpat2.music.context.music_and_society",
+      "name_th": "ความเข้าใจความสัมพันธ์ระหว่างดนตรีกับสังคมและการประยุกต์ใช้ดนตรีในชีวิต",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "tpat2.music.context",
+      "order": 5,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT2",
+          "typical_items": "อยู่ในส่วนดนตรี 50 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ดนตรี",
+        "ความเข้าใจความสัมพันธ์ระหว่างดนตรีกับสังคมและการประยุกต์ใช้ดนตรีในชีวิต"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อหัวข้อนี้คัดมาจากผังสอบทางการตรงตัว (ข้อ 2.5) | ข้อความเต็มของหัวข้อนี้ถูกตัดตอนดึงจากผังสอบ ควรตรวจซ้ำกับผังสอบตัวจริง"
+    },
+    {
+      "id": "tpat2.dance",
+      "name_th": "TPAT23 นาฏศิลป์",
+      "name_en": "TPAT23 Dance",
+      "kind": "branch",
+      "parent": "tpat2",
+      "order": 4,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT2",
+          "typical_items": "50 ข้อ 100 คะแนน",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "นาฏศิลป์",
+        "dance",
+        "TPAT23"
+      ],
+      "curriculum_ref": null,
+      "notes": "ส่วนทางการที่ 3 | ผังสอบแบ่งเป็น 4 กลุ่มพร้อมชื่อกลุ่ม"
+    },
+    {
+      "id": "tpat2.dance.body",
+      "name_th": "พื้นฐานการใช้ร่างกายทางด้านนาฏศิลป์",
+      "name_en": "Physical Foundations for Dance",
+      "kind": "branch",
+      "parent": "tpat2.dance",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT2",
+          "typical_items": "อยู่ในส่วนนาฏศิลป์ 50 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ร่างกาย",
+        "นาฏศิลป์"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อหัวข้อนี้คัดมาจากผังสอบทางการตรงตัว (ชื่อกลุ่มที่ 1)"
+    },
+    {
+      "id": "tpat2.dance.body.preparation",
+      "name_th": "การเตรียมพร้อมร่างกายเพื่อปฏิบัตินาฏศิลป์",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "tpat2.dance.body",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT2",
+          "typical_items": "อยู่ในส่วนนาฏศิลป์ 50 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "easy",
+      "keywords": [
+        "นาฏศิลป์",
+        "ร่างกาย"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อหัวข้อนี้คัดมาจากผังสอบทางการตรงตัว (ข้อ 1.1)"
+    },
+    {
+      "id": "tpat2.dance.body.basic_movement",
+      "name_th": "พื้นฐานการเคลื่อนไหวร่างกาย",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "tpat2.dance.body",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT2",
+          "typical_items": "อยู่ในส่วนนาฏศิลป์ 50 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "easy",
+      "keywords": [
+        "นาฏศิลป์",
+        "ร่างกาย"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อหัวข้อนี้คัดมาจากผังสอบทางการตรงตัว (ข้อ 1.2)"
+    },
+    {
+      "id": "tpat2.dance.gesture",
+      "name_th": "การสื่อสารด้วยท่าทาง",
+      "name_en": "Communicating Through Gesture",
+      "kind": "branch",
+      "parent": "tpat2.dance",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT2",
+          "typical_items": "อยู่ในส่วนนาฏศิลป์ 50 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ท่าทาง",
+        "สื่อสาร",
+        "gesture"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อหัวข้อนี้คัดมาจากผังสอบทางการตรงตัว (ชื่อกลุ่มที่ 2)"
+    },
+    {
+      "id": "tpat2.dance.gesture.positive_emotion",
+      "name_th": "อารมณ์ความรู้สึกเชิงบวก เช่น ดีใจ มีความสุข เบิกบาน",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "tpat2.dance.gesture",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT2",
+          "typical_items": "อยู่ในส่วนนาฏศิลป์ 50 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "นาฏศิลป์",
+        "ท่าทาง",
+        "อารมณ์"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อหัวข้อนี้คัดมาจากผังสอบทางการตรงตัว (ข้อ 2.1)"
+    },
+    {
+      "id": "tpat2.dance.gesture.negative_emotion",
+      "name_th": "อารมณ์ความรู้สึกเชิงลบ เช่น เสียใจ เจ็บปวด สิ้นหวัง",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "tpat2.dance.gesture",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT2",
+          "typical_items": "อยู่ในส่วนนาฏศิลป์ 50 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "นาฏศิลป์",
+        "ท่าทาง",
+        "อารมณ์"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อหัวข้อนี้คัดมาจากผังสอบทางการตรงตัว (ข้อ 2.2)"
+    },
+    {
+      "id": "tpat2.dance.gesture.convey_meaning",
+      "name_th": "การสื่อความหมาย",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "tpat2.dance.gesture",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT2",
+          "typical_items": "อยู่ในส่วนนาฏศิลป์ 50 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "นาฏศิลป์",
+        "ท่าทาง",
+        "อารมณ์"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อหัวข้อนี้คัดมาจากผังสอบทางการตรงตัว (ข้อ 2.3)"
+    },
+    {
+      "id": "tpat2.dance.gesture.facial_expression",
+      "name_th": "การแสดงออกทางสีหน้าแววตา",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "tpat2.dance.gesture",
+      "order": 4,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT2",
+          "typical_items": "อยู่ในส่วนนาฏศิลป์ 50 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "นาฏศิลป์",
+        "ท่าทาง",
+        "อารมณ์"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อหัวข้อนี้คัดมาจากผังสอบทางการตรงตัว (ข้อ 2.4)"
+    },
+    {
+      "id": "tpat2.dance.space",
+      "name_th": "หลักการใช้พื้นที่ทางด้านนาฏศิลป์",
+      "name_en": "Use of Space in Dance",
+      "kind": "branch",
+      "parent": "tpat2.dance",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT2",
+          "typical_items": "อยู่ในส่วนนาฏศิลป์ 50 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "พื้นที่",
+        "นาฏศิลป์"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อหัวข้อนี้คัดมาจากผังสอบทางการตรงตัว (ชื่อกลุ่มที่ 3) | ผังสอบให้รายการย่อยของกลุ่มนี้เป็น ทิศทาง ระดับ ขนาด การใช้พื้นที่ และการเคลื่อนที่และแปรแถว แต่การดึงข้อมูลได้เลขข้อชัดเจนแค่ 3.1 จึงควรตรวจเลขข้อซ้ำกับผังสอบตัวจริง"
+    },
+    {
+      "id": "tpat2.dance.space.direction",
+      "name_th": "ทิศทาง",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "tpat2.dance.space",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat2.spatial.foundation.orientation_2d"
+      ],
+      "est_minutes": 20,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT2",
+          "typical_items": "อยู่ในส่วนนาฏศิลป์ 50 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "นาฏศิลป์",
+        "พื้นที่",
+        "ทิศทาง"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อหัวข้อนี้คัดมาจากผังสอบทางการตรงตัว (อยู่ในกลุ่มที่ 3) | เลขข้อย่อยยังไม่ยืนยัน ควรตรวจกับผังสอบตัวจริง"
+    },
+    {
+      "id": "tpat2.dance.space.level",
+      "name_th": "ระดับ",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "tpat2.dance.space",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 20,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT2",
+          "typical_items": "อยู่ในส่วนนาฏศิลป์ 50 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "นาฏศิลป์",
+        "พื้นที่",
+        "ระดับ"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อหัวข้อนี้คัดมาจากผังสอบทางการตรงตัว (อยู่ในกลุ่มที่ 3) | เลขข้อย่อยยังไม่ยืนยัน ควรตรวจกับผังสอบตัวจริง"
+    },
+    {
+      "id": "tpat2.dance.space.size",
+      "name_th": "ขนาด",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "tpat2.dance.space",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 20,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT2",
+          "typical_items": "อยู่ในส่วนนาฏศิลป์ 50 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "นาฏศิลป์",
+        "พื้นที่",
+        "ขนาด"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อหัวข้อนี้คัดมาจากผังสอบทางการตรงตัว (อยู่ในกลุ่มที่ 3) | เลขข้อย่อยยังไม่ยืนยัน ควรตรวจกับผังสอบตัวจริง"
+    },
+    {
+      "id": "tpat2.dance.space.use_of_space",
+      "name_th": "การใช้พื้นที่",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "tpat2.dance.space",
+      "order": 4,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 20,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT2",
+          "typical_items": "อยู่ในส่วนนาฏศิลป์ 50 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "นาฏศิลป์",
+        "พื้นที่",
+        "การใช้พื้นที่"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อหัวข้อนี้คัดมาจากผังสอบทางการตรงตัว (อยู่ในกลุ่มที่ 3) | เลขข้อย่อยยังไม่ยืนยัน ควรตรวจกับผังสอบตัวจริง"
+    },
+    {
+      "id": "tpat2.dance.space.movement_formation",
+      "name_th": "การเคลื่อนที่และแปรแถว",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "tpat2.dance.space",
+      "order": 5,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 20,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT2",
+          "typical_items": "อยู่ในส่วนนาฏศิลป์ 50 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "นาฏศิลป์",
+        "พื้นที่",
+        "การเคลื่อนที่และแปรแถว"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อหัวข้อนี้คัดมาจากผังสอบทางการตรงตัว (อยู่ในกลุ่มที่ 3) | เลขข้อย่อยยังไม่ยืนยัน ควรตรวจกับผังสอบตัวจริง"
+    },
+    {
+      "id": "tpat2.dance.improvise",
+      "name_th": "ปฏิภาณไหวพริบสำหรับผู้แสดงนาฏศิลป์",
+      "name_en": "Quick Thinking for Performers",
+      "kind": "branch",
+      "parent": "tpat2.dance",
+      "order": 4,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT2",
+          "typical_items": "อยู่ในส่วนนาฏศิลป์ 50 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ปฏิภาณ",
+        "ไหวพริบ",
+        "แก้สถานการณ์"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อหัวข้อนี้คัดมาจากผังสอบทางการตรงตัว (ชื่อกลุ่มที่ 4)"
+    },
+    {
+      "id": "tpat2.dance.improvise.before_show",
+      "name_th": "การแก้ไขสถานการณ์ก่อนการแสดง",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "tpat2.dance.improvise",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat3.foundation.judgement_criteria"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT2",
+          "typical_items": "อยู่ในส่วนนาฏศิลป์ 50 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "ปฏิภาณ",
+        "แก้สถานการณ์",
+        "การแสดง"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อหัวข้อนี้คัดมาจากผังสอบทางการตรงตัว (ข้อ 4.1) | เป็นข้อสอบสถานการณ์ ใช้เกณฑ์ตัดสินแบบเดียวกับ TGAT3 แต่ผังสอบไม่ได้ระบุว่าให้คะแนนลดหลั่น จึงใช้ mcq4"
+    },
+    {
+      "id": "tpat2.dance.improvise.during_show",
+      "name_th": "การแก้ไขสถานการณ์ระหว่างการแสดง",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "tpat2.dance.improvise",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat3.foundation.judgement_criteria"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT2",
+          "typical_items": "อยู่ในส่วนนาฏศิลป์ 50 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "ปฏิภาณ",
+        "แก้สถานการณ์",
+        "การแสดง"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อหัวข้อนี้คัดมาจากผังสอบทางการตรงตัว (ข้อ 4.2) | เป็นข้อสอบสถานการณ์ ใช้เกณฑ์ตัดสินแบบเดียวกับ TGAT3 แต่ผังสอบไม่ได้ระบุว่าให้คะแนนลดหลั่น จึงใช้ mcq4"
+    }
+  ]
+}

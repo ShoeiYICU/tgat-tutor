@@ -1,0 +1,475 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tpat3.thinking.sci_engineering.geometry_measurement",
+  "problems": [
+    {
+      "id": "prob.tpat3.thinking.sci_engineering.geometry_measurement.0001",
+      "topic_ids": [
+        "tpat3.thinking.sci_engineering.geometry_measurement"
+      ],
+      "primary_topic_id": "tpat3.thinking.sci_engineering.geometry_measurement",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 90,
+      "stem_md": "ผนังยาว 8 m สูง 3 m มีหน้าต่าง 2 บาน บานละ 1.5 m² ต้องทาสีกี่ตารางเมตร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "18 m²",
+          "is_answer": false
+        },
+        {
+          "md": "45 m²",
+          "is_answer": false
+        },
+        {
+          "md": "27 m²",
+          "is_answer": false
+        },
+        {
+          "md": "24 m²",
+          "is_answer": false
+        },
+        {
+          "md": "21 m²",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "พื้นที่ผนัง",
+          "why_md": "8×3=24"
+        },
+        {
+          "do_md": "หักหน้าต่าง",
+          "why_md": "24-2×1.5=21"
+        }
+      ],
+      "answer_explanation_md": "ตอบ 21 m²",
+      "hints": [
+        "หาพื้นที่สี่เหลี่ยมก่อน",
+        "หน้าต่างมีสองบาน",
+        "พื้นที่ทาสีต้องน้อยกว่า 24"
+      ],
+      "distractor_reasons": {
+        "0": "หักหน้าต่างรวม 6",
+        "1": "คูณมิติทั้งหมดผิด",
+        "2": "บวกพื้นที่หน้าต่าง",
+        "3": "ไม่หักหน้าต่าง"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.thinking.sci_engineering.geometry_measurement.0002",
+      "topic_ids": [
+        "tpat3.thinking.sci_engineering.geometry_measurement"
+      ],
+      "primary_topic_id": "tpat3.thinking.sci_engineering.geometry_measurement",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 110,
+      "stem_md": "ถังทรงกระบอกรัศมี 0.5 m สูง 2 m มีปริมาตรเท่าไร ใช้ π≈3.14",
+      "figures": [],
+      "choices": [
+        {
+          "md": "6.28 m³",
+          "is_answer": false
+        },
+        {
+          "md": "12.56 m³",
+          "is_answer": false
+        },
+        {
+          "md": "1.57 m³",
+          "is_answer": true
+        },
+        {
+          "md": "0.785 m³",
+          "is_answer": false
+        },
+        {
+          "md": "3.14 m³",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ใช้สูตร",
+          "why_md": "V=πr²h"
+        },
+        {
+          "do_md": "แทนค่า",
+          "why_md": "3.14×0.5²×2=1.57"
+        }
+      ],
+      "answer_explanation_md": "ตอบ 1.57 m³",
+      "hints": [
+        "รัศมีต้องยกกำลังสอง",
+        "ความสูงเท่ากับ 2",
+        "คำตอบควรใกล้ 1.5"
+      ],
+      "distractor_reasons": {
+        "0": "ใช้เส้นผ่านศูนย์กลางแทนรัศมี",
+        "1": "ใช้เส้นผ่านศูนย์กลางแล้วยกกำลัง",
+        "3": "ลืมคูณความสูง",
+        "4": "ไม่ยกกำลังรัศมี"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.thinking.sci_engineering.geometry_measurement.0003",
+      "topic_ids": [
+        "tpat3.thinking.sci_engineering.geometry_measurement"
+      ],
+      "primary_topic_id": "tpat3.thinking.sci_engineering.geometry_measurement",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 5,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": true,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 150,
+      "stem_md": "แผ่นสี่เหลี่ยมวัดได้ 20.0±0.1 cm และ 10.0±0.1 cm ข้อใดเป็นช่วงพื้นที่ที่รับประกันว่าครอบคลุมค่าจริงจากขอบเขตการวัด",
+      "figures": [],
+      "choices": [
+        {
+          "md": "199.9 ถึง 200.1 cm²",
+          "is_answer": false
+        },
+        {
+          "md": "197.01 ถึง 203.01 cm²",
+          "is_answer": true
+        },
+        {
+          "md": "199 ถึง 201 cm²",
+          "is_answer": false
+        },
+        {
+          "md": "190 ถึง 210 cm²",
+          "is_answer": false
+        },
+        {
+          "md": "198 ถึง 202 cm²",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "หาขอบล่าง",
+          "why_md": "19.9×9.9=197.01"
+        },
+        {
+          "do_md": "หาขอบบน",
+          "why_md": "20.1×10.1=203.01"
+        }
+      ],
+      "answer_explanation_md": "ตอบช่วง 197.01–203.01 cm² จากการคูณขอบเขต",
+      "hints": [
+        "ใช้ค่าต่ำสุดของทั้งสองด้าน",
+        "ใช้ค่าสูงสุดของทั้งสองด้าน",
+        "อย่าปัดก่อนคูณ"
+      ],
+      "distractor_reasons": {
+        "0": "บวกความคลาดเคลื่อนโดยไม่คูณขอบเขต",
+        "2": "แคบเกิน",
+        "3": "กว้างเกินจากข้อมูล",
+        "4": "ประมาณเชิงเส้นแต่ไม่ใช่ขอบเขตรับประกัน"
+      },
+      "misconception_tags": [
+        "add_measurement_errors_directly"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.thinking.sci_engineering.geometry_measurement.0004",
+      "topic_ids": [
+        "tpat3.thinking.sci_engineering.geometry_measurement"
+      ],
+      "primary_topic_id": "tpat3.thinking.sci_engineering.geometry_measurement",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 4,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "high"
+      },
+      "est_seconds": 115,
+      "stem_md": "ลูกบาศก์เพิ่มความยาวด้านเป็น 1.5 เท่า อัตราส่วนพื้นที่ผิวใหม่ต่อเดิมเท่าไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "2.25 เท่า",
+          "is_answer": true
+        },
+        {
+          "md": "3 เท่า",
+          "is_answer": false
+        },
+        {
+          "md": "3.375 เท่า",
+          "is_answer": false
+        },
+        {
+          "md": "1.5 เท่า",
+          "is_answer": false
+        },
+        {
+          "md": "6 เท่า",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "พื้นที่ผิวแปรตามด้านกำลังสอง",
+          "why_md": "ใช้ 1.5²"
+        },
+        {
+          "do_md": "คำนวณ",
+          "why_md": "2.25"
+        }
+      ],
+      "answer_explanation_md": "ตอบ 2.25 เท่า",
+      "hints": [
+        "ถามพื้นที่ ไม่ใช่ปริมาตร",
+        "จำนวนหน้าหักล้างในอัตราส่วน",
+        "ยก 1.5 กำลังสอง"
+      ],
+      "distractor_reasons": {
+        "1": "คูณจำนวนมิติผิด",
+        "2": "ใช้สัดส่วนปริมาตร",
+        "3": "คิดเชิงเส้น",
+        "4": "ใช้จำนวนหน้าเป็นตัวคูณ"
+      },
+      "misconception_tags": [
+        "linear_scale_for_area"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.thinking.sci_engineering.geometry_measurement.0005",
+      "topic_ids": [
+        "tpat3.thinking.sci_engineering.geometry_measurement"
+      ],
+      "primary_topic_id": "tpat3.thinking.sci_engineering.geometry_measurement",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 4,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "high"
+      },
+      "est_seconds": 130,
+      "stem_md": "สระ 10×6 m ทำทางเดินกว้าง 1 m รอบนอก พื้นที่ทางเดินเท่าไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "36 m²",
+          "is_answer": true
+        },
+        {
+          "md": "16 m²",
+          "is_answer": false
+        },
+        {
+          "md": "96 m²",
+          "is_answer": false
+        },
+        {
+          "md": "60 m²",
+          "is_answer": false
+        },
+        {
+          "md": "28 m²",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "มิติรอบนอก",
+          "why_md": "(10+2)×(6+2)=12×8=96"
+        },
+        {
+          "do_md": "หักสระ",
+          "why_md": "96-60=36"
+        }
+      ],
+      "answer_explanation_md": "ตอบ 36 m²",
+      "hints": [
+        "ทางเดินอยู่สองด้านของแต่ละมิติ",
+        "หาพื้นที่กรอบนอก",
+        "หักพื้นที่น้ำ"
+      ],
+      "distractor_reasons": {
+        "1": "บวกความยาวกับความกว้าง",
+        "2": "พื้นที่รวมไม่หักสระ",
+        "3": "พื้นที่สระ",
+        "4": "ใช้เส้นรอบรูปเดิมคูณ 1 โดยไม่คิดมุม"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.thinking.sci_engineering.geometry_measurement.0006",
+      "topic_ids": [
+        "tpat3.thinking.sci_engineering.geometry_measurement"
+      ],
+      "primary_topic_id": "tpat3.thinking.sci_engineering.geometry_measurement",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 5,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": true,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 140,
+      "stem_md": "กล่องภายใน 40×30×25 cm ต้องบรรจุน้ำไม่เกิน 80% ของความจุ ปริมาณสูงสุดกี่ลิตร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "2.4 ลิตร",
+          "is_answer": false
+        },
+        {
+          "md": "30 ลิตร",
+          "is_answer": false
+        },
+        {
+          "md": "32 ลิตร",
+          "is_answer": false
+        },
+        {
+          "md": "24 ลิตร",
+          "is_answer": true
+        },
+        {
+          "md": "240 ลิตร",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ปริมาตร",
+          "why_md": "40×30×25=30,000 cm³=30 L"
+        },
+        {
+          "do_md": "ใช้ 80%",
+          "why_md": "30×0.8=24 L"
+        }
+      ],
+      "answer_explanation_md": "ตอบ 24 ลิตร",
+      "hints": [
+        "1,000 cm³ = 1 L",
+        "คำนวณความจุเต็มก่อน",
+        "คำตอบต้องน้อยกว่า 30 L"
+      ],
+      "distractor_reasons": {
+        "0": "แปลง cm³ เป็นลิตรผิดหลัก",
+        "1": "ไม่ใช้ข้อจำกัด 80%",
+        "2": "ใช้ 80% กับมิติเดียวแล้วผิด",
+        "4": "หารหน่วยผิด"
+      },
+      "misconception_tags": [
+        "ignore_capacity_limit"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    }
+  ],
+  "generated_from": "content/tpat3/thinking.py"
+}

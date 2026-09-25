@@ -1,0 +1,483 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tgat2.numerical.quantitative.algebra",
+  "problems": [
+    {
+      "id": "prob.tgat2.numerical.quantitative.algebra.0001",
+      "topic_ids": [
+        "tgat2.numerical.quantitative.algebra"
+      ],
+      "primary_topic_id": "tgat2.numerical.quantitative.algebra",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 30,
+      "stem_md": "กำหนดให้ $x$ เป็นจำนวนจริงใด ๆ\n\n**(ก)** $x + 5$\n\n**(ข)** $x + 3$\n\nข้อใดถูกต้อง",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ปริมาณ (ก) มากกว่า (ข)",
+          "is_answer": true
+        },
+        {
+          "md": "ปริมาณ (ก) น้อยกว่า (ข)",
+          "is_answer": false
+        },
+        {
+          "md": "ปริมาณ (ก) เท่ากับ (ข)",
+          "is_answer": false
+        },
+        {
+          "md": "ปริมาณ (ก) มากกว่าหรือเท่ากับ (ข) แต่บอกไม่ได้ว่าเท่ากันหรือไม่",
+          "is_answer": false
+        },
+        {
+          "md": "สรุปความสัมพันธ์ไม่ได้",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ตัด $x$ ออกจากทั้งสองฝั่ง เหลือ $5$ กับ $3$",
+          "why_md": "ส่วนที่เหมือนกันไม่มีผลต่อการเปรียบเทียบ"
+        },
+        {
+          "do_md": "$5 > 3$ ทุกค่าของ $x$",
+          "why_md": "(ก) มากกว่าเสมอ"
+        }
+      ],
+      "answer_explanation_md": "(ก) มากกว่า (ข) เสมอ เพราะต่างกันแค่ค่าคงที่ 5 กับ 3",
+      "hints": [
+        "ทั้งสองฝั่งมีอะไรเหมือนกัน",
+        "ตัด $x$ ออกได้ไหม",
+        "เทียบค่าคงที่ที่เหลือ"
+      ],
+      "distractor_reasons": {
+        "1": "คำนวณแล้ว (ก) ไม่ได้น้อยกว่า (ข) ในทุกกรณี",
+        "2": "ค่าทั้งสองไม่เท่ากัน",
+        "3": "ใช้ได้เมื่อมีบางกรณีที่เท่ากันและบางกรณีที่มากกว่า ซึ่งไม่ใช่ข้อนี้",
+        "4": "ข้อมูลพอที่จะเปรียบเทียบได้แน่นอน"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.numerical.quantitative.algebra.0002",
+      "topic_ids": [
+        "tgat2.numerical.quantitative.algebra"
+      ],
+      "primary_topic_id": "tgat2.numerical.quantitative.algebra",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 45,
+      "stem_md": "กำหนดให้ $x$ เป็นจำนวนเต็มบวก\n\n**(ก)** $2x$\n\n**(ข)** $x + 2$\n\nข้อใดถูกต้อง",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ปริมาณ (ก) มากกว่า (ข)",
+          "is_answer": false
+        },
+        {
+          "md": "ปริมาณ (ก) น้อยกว่า (ข)",
+          "is_answer": false
+        },
+        {
+          "md": "ปริมาณ (ก) เท่ากับ (ข)",
+          "is_answer": false
+        },
+        {
+          "md": "ปริมาณ (ก) มากกว่าหรือเท่ากับ (ข) แต่บอกไม่ได้ว่าเท่ากันหรือไม่",
+          "is_answer": false
+        },
+        {
+          "md": "สรุปความสัมพันธ์ไม่ได้",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ลอง $x = 1$: $2 < 3$",
+          "why_md": "(ก) น้อยกว่า"
+        },
+        {
+          "do_md": "ลอง $x = 2$: $4 = 4$",
+          "why_md": "เท่ากัน"
+        },
+        {
+          "do_md": "ลอง $x = 3$: $6 > 5$",
+          "why_md": "ผลเปลี่ยนตามค่า จึงสรุปไม่ได้"
+        }
+      ],
+      "answer_explanation_md": "สรุปความสัมพันธ์ไม่ได้ เพราะเมื่อ $x = 1$ (ก) น้อยกว่า แต่เมื่อ $x = 3$ (ก) มากกว่า",
+      "hints": [
+        "ลองค่า $x$ หลายค่าตามเงื่อนไข",
+        "เริ่มจาก $x = 1, 2, 3$",
+        "ผลการเปรียบเทียบเหมือนกันทุกค่าไหม"
+      ],
+      "distractor_reasons": {
+        "0": "ลองแค่ค่าใหญ่ เช่น $x = 3$",
+        "1": "ลองแค่ $x = 1$",
+        "2": "ค่าทั้งสองไม่เท่ากัน",
+        "3": "ไม่ได้ลอง $x = 1$ ซึ่ง (ก) น้อยกว่า"
+      },
+      "misconception_tags": [
+        "test_one_value"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.numerical.quantitative.algebra.0003",
+      "topic_ids": [
+        "tgat2.numerical.quantitative.algebra"
+      ],
+      "primary_topic_id": "tgat2.numerical.quantitative.algebra",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 45,
+      "stem_md": "กำหนดให้ $0 < x < 1$\n\n**(ก)** $x^2$\n\n**(ข)** $x$\n\nข้อใดถูกต้อง",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ปริมาณ (ก) มากกว่า (ข)",
+          "is_answer": false
+        },
+        {
+          "md": "ปริมาณ (ก) น้อยกว่า (ข)",
+          "is_answer": true
+        },
+        {
+          "md": "ปริมาณ (ก) เท่ากับ (ข)",
+          "is_answer": false
+        },
+        {
+          "md": "ปริมาณ (ก) มากกว่าหรือเท่ากับ (ข) แต่บอกไม่ได้ว่าเท่ากันหรือไม่",
+          "is_answer": false
+        },
+        {
+          "md": "สรุปความสัมพันธ์ไม่ได้",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ลอง $x = \\frac{1}{2}$: $\\frac{1}{4} < \\frac{1}{2}$",
+          "why_md": "จำนวนระหว่าง 0 กับ 1 ยกกำลังสองแล้วเล็กลง"
+        },
+        {
+          "do_md": "ใช้ได้ทุกค่าในช่วงนี้",
+          "why_md": "(ก) น้อยกว่าเสมอ"
+        }
+      ],
+      "answer_explanation_md": "(ก) น้อยกว่า (ข) เพราะจำนวนระหว่าง 0 กับ 1 ยกกำลังสองแล้วเล็กลงเสมอ",
+      "hints": [
+        "เงื่อนไขบอกว่า $x$ อยู่ในช่วงไหน",
+        "ลองค่าในช่วง เช่น $\\frac{1}{2}$",
+        "จำนวนระหว่าง 0 กับ 1 เมื่อคูณตัวเองจะใหญ่ขึ้นหรือเล็กลง"
+      ],
+      "distractor_reasons": {
+        "0": "คิดว่ายกกำลังสองแล้วใหญ่ขึ้นเสมอ",
+        "2": "ค่าทั้งสองไม่เท่ากัน",
+        "3": "ใช้ได้เมื่อมีบางกรณีที่เท่ากันและบางกรณีที่มากกว่า ซึ่งไม่ใช่ข้อนี้",
+        "4": "ข้อมูลพอที่จะเปรียบเทียบได้แน่นอน"
+      },
+      "misconception_tags": [
+        "test_one_value"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.numerical.quantitative.algebra.0004",
+      "topic_ids": [
+        "tgat2.numerical.quantitative.algebra"
+      ],
+      "primary_topic_id": "tgat2.numerical.quantitative.algebra",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 4,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 2,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 60,
+      "stem_md": "กำหนดให้ $a$ และ $b$ เป็นจำนวนเต็มบวก และ $ab = 36$\n\n**(ก)** $a + b$\n\n**(ข)** $20$\n\nข้อใดถูกต้อง",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ปริมาณ (ก) มากกว่า (ข)",
+          "is_answer": false
+        },
+        {
+          "md": "ปริมาณ (ก) น้อยกว่า (ข)",
+          "is_answer": false
+        },
+        {
+          "md": "ปริมาณ (ก) เท่ากับ (ข)",
+          "is_answer": false
+        },
+        {
+          "md": "ปริมาณ (ก) มากกว่าหรือเท่ากับ (ข) แต่บอกไม่ได้ว่าเท่ากันหรือไม่",
+          "is_answer": false
+        },
+        {
+          "md": "สรุปความสัมพันธ์ไม่ได้",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "คู่ที่เป็นไปได้: $(1,36), (2,18), (3,12), (4,9), (6,6)$",
+          "why_md": "ไล่คู่ตัวประกอบของ 36"
+        },
+        {
+          "do_md": "ผลบวก: $37, 20, 15, 13, 12$",
+          "why_md": "คำนวณ $a + b$ ทุกคู่"
+        },
+        {
+          "do_md": "มีทั้งมากกว่า เท่ากับ และน้อยกว่า 20",
+          "why_md": "ผลเปลี่ยนตามคู่"
+        }
+      ],
+      "answer_explanation_md": "สรุปความสัมพันธ์ไม่ได้ เพราะผลบวกมีทั้ง 37 (มากกว่า) 20 (เท่ากับ) และ 12 (น้อยกว่า)",
+      "hints": [
+        "ไล่คู่จำนวนเต็มบวกที่คูณกันได้ 36",
+        "คำนวณผลบวกของแต่ละคู่",
+        "ผลบวกมากกว่า เท่ากับ หรือน้อยกว่า 20 เสมอไหม"
+      ],
+      "distractor_reasons": {
+        "0": "คำนวณแล้ว (ก) ไม่ได้มากกว่า (ข) ในทุกกรณี",
+        "1": "คำนวณแล้ว (ก) ไม่ได้น้อยกว่า (ข) ในทุกกรณี",
+        "2": "ค่าทั้งสองไม่เท่ากัน",
+        "3": "ไม่ได้ลองคู่ (6, 6) ที่ให้ผลบวก 12 น้อยกว่า 20"
+      },
+      "misconception_tags": [
+        "test_one_value"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.numerical.quantitative.algebra.0005",
+      "topic_ids": [
+        "tgat2.numerical.quantitative.algebra"
+      ],
+      "primary_topic_id": "tgat2.numerical.quantitative.algebra",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 45,
+      "stem_md": "กำหนดให้ $x$ เป็นจำนวนจริงใด ๆ\n\n**(ก)** $(x - 3)^2$\n\n**(ข)** $0$\n\nข้อใดถูกต้อง",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ปริมาณ (ก) มากกว่า (ข)",
+          "is_answer": false
+        },
+        {
+          "md": "ปริมาณ (ก) น้อยกว่า (ข)",
+          "is_answer": false
+        },
+        {
+          "md": "ปริมาณ (ก) เท่ากับ (ข)",
+          "is_answer": false
+        },
+        {
+          "md": "ปริมาณ (ก) มากกว่าหรือเท่ากับ (ข) แต่บอกไม่ได้ว่าเท่ากันหรือไม่",
+          "is_answer": true
+        },
+        {
+          "md": "สรุปความสัมพันธ์ไม่ได้",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "กำลังสองของจำนวนจริงมากกว่าหรือเท่ากับ 0 เสมอ",
+          "why_md": "สมบัติของกำลังสอง"
+        },
+        {
+          "do_md": "เท่ากับ 0 เมื่อ $x = 3$ มากกว่า 0 เมื่อ $x \\neq 3$",
+          "why_md": "มีทั้งสองกรณี"
+        }
+      ],
+      "answer_explanation_md": "(ก) มากกว่าหรือเท่ากับ (ข) เพราะกำลังสองไม่ติดลบ และเท่ากับ 0 เมื่อ $x = 3$",
+      "hints": [
+        "กำลังสองของจำนวนจริงเป็นลบได้ไหม",
+        "มีค่า $x$ ไหนที่ทำให้ $(x - 3)^2 = 0$",
+        "ค่าอื่นทำให้ผลเป็นอย่างไร"
+      ],
+      "distractor_reasons": {
+        "0": "ไม่ได้คิดกรณี $x = 3$ ที่ทำให้เท่ากัน",
+        "1": "คำนวณแล้ว (ก) ไม่ได้น้อยกว่า (ข) ในทุกกรณี",
+        "2": "ค่าทั้งสองไม่เท่ากัน",
+        "4": "สรุปได้ เพราะกำลังสองไม่เคยติดลบ"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.numerical.quantitative.algebra.0006",
+      "topic_ids": [
+        "tgat2.numerical.quantitative.algebra"
+      ],
+      "primary_topic_id": "tgat2.numerical.quantitative.algebra",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 45,
+      "stem_md": "กำหนดให้ $x > 1$\n\n**(ก)** $\\frac{1}{x}$\n\n**(ข)** $x$\n\nข้อใดถูกต้อง",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ปริมาณ (ก) มากกว่า (ข)",
+          "is_answer": false
+        },
+        {
+          "md": "ปริมาณ (ก) น้อยกว่า (ข)",
+          "is_answer": true
+        },
+        {
+          "md": "ปริมาณ (ก) เท่ากับ (ข)",
+          "is_answer": false
+        },
+        {
+          "md": "ปริมาณ (ก) มากกว่าหรือเท่ากับ (ข) แต่บอกไม่ได้ว่าเท่ากันหรือไม่",
+          "is_answer": false
+        },
+        {
+          "md": "สรุปความสัมพันธ์ไม่ได้",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ลอง $x = 2$: $\\frac{1}{2} < 2$",
+          "why_md": "ส่วนกลับของจำนวนที่มากกว่า 1 จะน้อยกว่า 1"
+        },
+        {
+          "do_md": "$x > 1$ เสมอ แต่ $\\frac{1}{x} < 1$ เสมอ",
+          "why_md": "(ก) น้อยกว่าทุกกรณี"
+        }
+      ],
+      "answer_explanation_md": "(ก) น้อยกว่า (ข) เพราะเมื่อ $x > 1$ ส่วนกลับจะน้อยกว่า 1 เสมอ ขณะที่ $x$ มากกว่า 1",
+      "hints": [
+        "เงื่อนไขคือ $x > 1$",
+        "ส่วนกลับของจำนวนที่มากกว่า 1 มีค่าเท่าไร",
+        "ลอง $x = 2$ และ $x = 10$"
+      ],
+      "distractor_reasons": {
+        "0": "คำนวณแล้ว (ก) ไม่ได้มากกว่า (ข) ในทุกกรณี",
+        "2": "ค่าทั้งสองไม่เท่ากัน",
+        "3": "ใช้ได้เมื่อมีบางกรณีที่เท่ากันและบางกรณีที่มากกว่า ซึ่งไม่ใช่ข้อนี้",
+        "4": "ข้อมูลพอที่จะเปรียบเทียบได้แน่นอน"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    }
+  ],
+  "generated_from": "content/tgat2/numerical_apply.py"
+}

@@ -1,0 +1,544 @@
+{
+  "schema_version": "1.0",
+  "subject": "bal",
+  "subject_name_th": "A-Level ภาษาบาลี",
+  "exam_codes": [
+    "ALEVEL_88"
+  ],
+  "source_note": "ยืนยันโครงสอบแล้วจาก mytcas.com/blueprint/a-level-88-bal/ (ตรวจ 21 กันยายน 2569): 50 ข้อ 100 คะแนน 90 นาที ปรนัย 4 ตัวเลือก | 3 ด้าน คือ 'ความสามารถในการใช้คำศัพท์และสำนวนภาษา' / 'ความสามารถในการอ่าน' / 'ความสามารถในการใช้ไวยากรณ์' **ผังสอบไม่ได้ระบุจำนวนข้อของแต่ละด้าน** | ผังสอบยกตัวอย่างไว้สามข้อ ครอบคลุมการใช้คำศัพท์ (นิบาตแสดงคำถาม) การอ่าน (การหาคำอ้างอิง) และไวยากรณ์ (สังยุตตสระ) | ผังสอบไม่ได้ให้รายการหัวข้อย่อยของแต่ละด้าน ชั้นหัวข้อและ leaf ในผังนี้จึงเป็นการจัดกลุ่มและซอยของเราเอง ไม่ใช่รายการทางการ",
+  "topics": [
+    {
+      "id": "bal",
+      "name_th": "A-Level ภาษาบาลี",
+      "name_en": "",
+      "kind": "subject",
+      "parent": null,
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ALEVEL_88",
+        "ภาษาบาลี"
+      ],
+      "curriculum_ref": null,
+      "notes": "วิชาภาษาที่สาม | โครงสอบยืนยันแล้ว: 50 ข้อ 100 คะแนน 90 นาที **ปรนัย 4 ตัวเลือก** ใช้ format mcq4 | **วิชานี้ template ไม่ได้** ต้องแต่งโจทย์มือ 20 ข้อต่อหัวข้อตามสเปค | เนื้อหาต้องมีเจ้าของภาษาหรือผู้สอนภาษานั้นตรวจ เพราะความถูกต้องทางภาษา และความเหมาะสมทางวัฒนธรรมเครื่องตรวจไม่ได้ ตั้ง review_status เป็น ai_draft_needs_fact_check ทุกไฟล์ | ผังสอบไม่ได้ระบุระดับ CEFR หรือระดับความสามารถอ้างอิง ห้ามอ้างระดับเองในบทเรียน | คนสอบน้อยที่สุดในกลุ่ม A-Level จึงอยู่ท้ายลำดับการผลิต | **ภาษาบาลีต่างจากภาษาอื่นในกลุ่มนี้** เป็นภาษาคลาสสิก ผังสอบจึงไม่มีด้านการสื่อสารหรือสถานการณ์ชีวิตประจำวันเลย วัดแค่คำศัพท์และสำนวน การอ่าน และไวยากรณ์ | **ผังสอบไม่ได้ระบุจำนวนข้อของแต่ละด้าน** | ตัวอย่างที่ผังสอบให้: การใช้คำศัพท์เรื่องนิบาตแสดงคำถาม · การอ่านเรื่องการหาคำอ้างอิง · ไวยากรณ์เรื่องสังยุตตสระ | เนื้อหาอ้างอิงคัมภีร์และหลักไวยากรณ์บาลีที่ต้องถูกต้อง ต้องให้ผู้รู้ภาษาบาลีตรวจทุกไฟล์"
+    },
+    {
+      "id": "bal.vocab",
+      "name_th": "ความสามารถในการใช้คำศัพท์และสำนวนภาษา",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "bal",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_88",
+          "typical_items": "ผังสอบไม่ระบุจำนวนข้อรายด้าน",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ความสามารถในการใช้คำศัพท์และสำนวนภาษา"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (ส่วนทางการ) · ผังสอบระบุ ผังสอบไม่ระบุจำนวนข้อรายด้าน"
+    },
+    {
+      "id": "bal.vocab.word_type",
+      "name_th": "ชนิดของคำในภาษาบาลี",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "bal.vocab",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ชนิดของคำในภาษาบาลี"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชั้นนี้เราจัดกลุ่มเอง เพราะผังสอบให้แต่ชื่อสาระ ไม่ได้ให้ชื่อหัวข้อย่อย"
+    },
+    {
+      "id": "bal.vocab.word_type.noun_verb",
+      "name_th": "นามศัพท์และกิริยาศัพท์",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "bal.vocab.word_type",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_88",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "นามศัพท์",
+        "กิริยาศัพท์"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ | ต้องให้ผู้รู้ภาษาบาลีตรวจ ตั้ง review_status เป็น ai_draft_needs_fact_check"
+    },
+    {
+      "id": "bal.vocab.word_type.nipata",
+      "name_th": "นิบาตและอุปสัค",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "bal.vocab.word_type",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "bal.vocab.word_type.noun_verb"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_88",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "นิบาต",
+        "อุปสัค"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ | ผังสอบยกตัวอย่างเรื่องนิบาตแสดงคำถามไว้ | ต้องให้ผู้รู้ภาษาบาลีตรวจ ตั้ง review_status เป็น ai_draft_needs_fact_check"
+    },
+    {
+      "id": "bal.vocab.meaning",
+      "name_th": "ความหมายและสำนวน",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "bal.vocab",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ความหมายและสำนวน"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชั้นนี้เราจัดกลุ่มเอง เพราะผังสอบให้แต่ชื่อสาระ ไม่ได้ให้ชื่อหัวข้อย่อย"
+    },
+    {
+      "id": "bal.vocab.meaning.core_vocab",
+      "name_th": "คำศัพท์ที่พบบ่อยในคัมภีร์",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "bal.vocab.meaning",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_88",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "คำศัพท์บาลี"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ | ต้องให้ผู้รู้ภาษาบาลีตรวจ ตั้ง review_status เป็น ai_draft_needs_fact_check"
+    },
+    {
+      "id": "bal.vocab.meaning.idiom",
+      "name_th": "สำนวนและคำประสมในภาษาบาลี",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "bal.vocab.meaning",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "bal.vocab.meaning.core_vocab"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_88",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "สำนวนบาลี",
+        "คำประสม"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ | ต้องให้ผู้รู้ภาษาบาลีตรวจ ตั้ง review_status เป็น ai_draft_needs_fact_check"
+    },
+    {
+      "id": "bal.reading",
+      "name_th": "ความสามารถในการอ่าน",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "bal",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_88",
+          "typical_items": "ผังสอบไม่ระบุจำนวนข้อรายด้าน",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ความสามารถในการอ่าน"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (ส่วนทางการ) · ผังสอบระบุ ผังสอบไม่ระบุจำนวนข้อรายด้าน"
+    },
+    {
+      "id": "bal.reading.sentence_read",
+      "name_th": "การอ่านประโยคบาลี",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "bal.reading",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "การอ่านประโยคบาลี"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชั้นนี้เราจัดกลุ่มเอง เพราะผังสอบให้แต่ชื่อสาระ ไม่ได้ให้ชื่อหัวข้อย่อย"
+    },
+    {
+      "id": "bal.reading.sentence_read.parse",
+      "name_th": "แยกส่วนประกอบของประโยคเพื่ออ่านให้เข้าใจ",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "bal.reading.sentence_read",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_88",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "แยกประโยค"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ | ต้องให้ผู้รู้ภาษาบาลีตรวจ ตั้ง review_status เป็น ai_draft_needs_fact_check"
+    },
+    {
+      "id": "bal.reading.sentence_read.reference",
+      "name_th": "การหาคำอ้างอิงในข้อความ",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "bal.reading.sentence_read",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "bal.reading.sentence_read.parse"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_88",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "คำอ้างอิง"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ | ผังสอบยกตัวอย่างเรื่องการหาคำอ้างอิงไว้ | ต้องให้ผู้รู้ภาษาบาลีตรวจ ตั้ง review_status เป็น ai_draft_needs_fact_check"
+    },
+    {
+      "id": "bal.reading.passage_read",
+      "name_th": "การอ่านข้อความและคัมภีร์",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "bal.reading",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "การอ่านข้อความและคัมภีร์"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชั้นนี้เราจัดกลุ่มเอง เพราะผังสอบให้แต่ชื่อสาระ ไม่ได้ให้ชื่อหัวข้อย่อย"
+    },
+    {
+      "id": "bal.reading.passage_read.translate",
+      "name_th": "การแปลข้อความบาลีเป็นไทย",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "bal.reading.passage_read",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_88",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "แปลบาลี"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ | ต้องให้ผู้รู้ภาษาบาลีตรวจ ตั้ง review_status เป็น ai_draft_needs_fact_check"
+    },
+    {
+      "id": "bal.reading.passage_read.meaning_context",
+      "name_th": "การตีความข้อความตามบริบท",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "bal.reading.passage_read",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "bal.reading.passage_read.translate"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_88",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "ตีความ"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ | ต้องให้ผู้รู้ภาษาบาลีตรวจ ตั้ง review_status เป็น ai_draft_needs_fact_check"
+    },
+    {
+      "id": "bal.grammar",
+      "name_th": "ความสามารถในการใช้ไวยากรณ์",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "bal",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_88",
+          "typical_items": "ผังสอบไม่ระบุจำนวนข้อรายด้าน",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ความสามารถในการใช้ไวยากรณ์"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (ส่วนทางการ) · ผังสอบระบุ ผังสอบไม่ระบุจำนวนข้อรายด้าน"
+    },
+    {
+      "id": "bal.grammar.phonology",
+      "name_th": "อักขรวิธีและการสนธิ",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "bal.grammar",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "อักขรวิธีและการสนธิ"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชั้นนี้เราจัดกลุ่มเอง เพราะผังสอบให้แต่ชื่อสาระ ไม่ได้ให้ชื่อหัวข้อย่อย"
+    },
+    {
+      "id": "bal.grammar.phonology.alphabet",
+      "name_th": "อักขระและการออกเสียงภาษาบาลี",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "bal.grammar.phonology",
+      "order": 1,
+      "grade_band": "m_early",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_88",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "อักขระ",
+        "ออกเสียง"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ | ต้องให้ผู้รู้ภาษาบาลีตรวจ ตั้ง review_status เป็น ai_draft_needs_fact_check"
+    },
+    {
+      "id": "bal.grammar.phonology.sandhi",
+      "name_th": "สังยุตตสระและการสนธิ",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "bal.grammar.phonology",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "bal.grammar.phonology.alphabet"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_88",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "สังยุตตสระ",
+        "สนธิ"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ | ผังสอบยกตัวอย่างเรื่องสังยุตตสระไว้ | ต้องให้ผู้รู้ภาษาบาลีตรวจ ตั้ง review_status เป็น ai_draft_needs_fact_check"
+    },
+    {
+      "id": "bal.grammar.inflection",
+      "name_th": "การแจกรูปและการผัน",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "bal.grammar",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "การแจกรูปและการผัน"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชั้นนี้เราจัดกลุ่มเอง เพราะผังสอบให้แต่ชื่อสาระ ไม่ได้ให้ชื่อหัวข้อย่อย"
+    },
+    {
+      "id": "bal.grammar.inflection.noun_decline",
+      "name_th": "การแจกนามศัพท์ตามวิภัตติ",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "bal.grammar.inflection",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_88",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "วิภัตติ",
+        "แจกนาม"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ | ต้องให้ผู้รู้ภาษาบาลีตรวจ ตั้ง review_status เป็น ai_draft_needs_fact_check"
+    },
+    {
+      "id": "bal.grammar.inflection.verb_conjugate",
+      "name_th": "การผันกิริยาตามวิภัตติและกาล",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "bal.grammar.inflection",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "bal.grammar.inflection.noun_decline"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_88",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "ผันกิริยา",
+        "กาล"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ | ต้องให้ผู้รู้ภาษาบาลีตรวจ ตั้ง review_status เป็น ai_draft_needs_fact_check"
+    },
+    {
+      "id": "bal.grammar.inflection.syntax",
+      "name_th": "การเรียงคำและความสัมพันธ์ในประโยค",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "bal.grammar.inflection",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "bal.grammar.inflection.verb_conjugate"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_88",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "เรียงคำ",
+        "ประโยค"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ | ต้องให้ผู้รู้ภาษาบาลีตรวจ ตั้ง review_status เป็น ai_draft_needs_fact_check"
+    }
+  ]
+}

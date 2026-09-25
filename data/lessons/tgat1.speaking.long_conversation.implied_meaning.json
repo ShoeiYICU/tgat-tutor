@@ -1,0 +1,98 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tgat1.speaking.long_conversation.implied_meaning",
+  "title": "ความหมายแฝงและการเลี่ยงตอบตรง ๆ",
+  "subtitle": "คนพูดภาษาอังกฤษมักปฏิเสธหรือบ่นแบบอ้อม ๆ ต้องอ่านความหมายที่แท้จริง ไม่ใช่แค่คำที่พูด",
+  "prereq_topic_ids": [
+    "tgat1.speaking.long_conversation.discourse_marker"
+  ],
+  "objectives": [
+    "ตีความคำตอบอ้อม ๆ ว่าเป็นการตอบรับหรือปฏิเสธ",
+    "รู้วลีที่ใช้ปฏิเสธแบบสุภาพ",
+    "เลือกคำตอบที่เข้ากับความหมายแฝง"
+  ],
+  "est_minutes": 25,
+  "blocks": [
+    {
+      "type": "hook",
+      "body_md": "A: \"Do you want to watch that horror movie?\" B: \"**I'm not really a fan of scary movies.**\" B ไม่ได้พูดคำว่า No แต่ความหมายคือ **ไม่อยากดู**"
+    },
+    {
+      "type": "concept",
+      "heading": "วลีอ้อม ๆ ที่ต้องแปลให้ออก",
+      "body_md": "| พูดว่า | ความหมายจริง |\n|---|---|\n| I'm not really a fan of... | ไม่ชอบ |\n| I'll think about it. | ยังไม่ตอบรับ อาจลังเลหรือต้องการเวลาตัดสินใจ |\n| That's an interesting idea. | อาจไม่เห็นด้วย |\n| It's not the best time. | ตอนนี้ไม่สะดวก |\n| I wish I could. | อยากแต่ทำไม่ได้ (ปฏิเสธ) |\n| You might want to... | ควร... (คำแนะนำอ้อม ๆ) |\n| It's a bit... | มากเกินไป (บ่นสุภาพ) เช่น It's a bit expensive. |"
+    },
+    {
+      "type": "formula",
+      "name": "ถามว่า 'สรุปแล้ว ใช่ หรือ ไม่ใช่'",
+      "formula_tex": "",
+      "variables": [],
+      "use_when": "เมื่อคำตอบในบทสนทนาไม่มีคำว่า yes/no ตรง ๆ",
+      "avoid_when": "อย่าตีความทุกประโยคว่ามีความหมายแฝง ถ้าบริบทตรงไปตรงมา ให้แปลตามตรง",
+      "derivation_md": "แปลงคำพูดอ้อม ๆ ให้เป็น 'ใช่' หรือ 'ไม่ใช่' ก่อน แล้วค่อยเลือกคำตอบที่ตอบสนองต่อความหมายนั้น",
+      "memory_tip": "พูดอ้อม → แปลงเป็นใช่/ไม่ใช่ก่อน"
+    },
+    {
+      "type": "example",
+      "label": "ตัวอย่างที่ 1",
+      "difficulty": 2,
+      "stem_md": "**A:** Do you want to go hiking on Saturday?  \n**B:** I wish I could, but I have to work.  \n**A:** ______",
+      "steps": [
+        {
+          "do_md": "I wish I could, but... = อยากไปแต่ไปไม่ได้",
+          "why_md": "B ปฏิเสธ"
+        },
+        {
+          "do_md": "A ควรตอบรับการปฏิเสธ",
+          "why_md": "\"That's OK. Maybe another time.\""
+        }
+      ],
+      "answer_md": "\"That's OK. Maybe another time.\"",
+      "figures": []
+    },
+    {
+      "type": "pitfall",
+      "title": "ตีความ I'll think about it ว่าตอบรับ",
+      "wrong_md": "A: Will you join the committee? B: I'll think about it. → A: \"Great! See you at the first meeting.\"",
+      "why_wrong_md": "I'll think about it ยังไม่ได้ตอบรับ ผู้พูดอาจลังเลหรือต้องการเวลาตัดสินใจ",
+      "correct_md": "\"Sure, let me know by Friday.\"",
+      "misconception_tag": "miss_implied_refusal"
+    },
+    {
+      "type": "summary",
+      "bullets_md": [
+        "ตีความคำพูดอ้อม ๆ ให้เป็นใช่หรือไม่ก่อน",
+        "I wish I could / I'm not really a fan of = ปฏิเสธ",
+        "It's a bit... = บ่นอย่างสุภาพ",
+        "You might want to... = คำแนะนำ"
+      ]
+    },
+    {
+      "type": "check",
+      "question_md": "**A:** How do you like my new haircut?  \n**B:** Well, it's... different.",
+      "choices": [
+        "B ชอบมาก",
+        "B ไม่ค่อยชอบแต่พูดอ้อม ๆ",
+        "B ไม่ได้สังเกต",
+        "B อยากตัดทรงเดียวกัน"
+      ],
+      "answer_index": 1,
+      "explain_md": "Well... และคำว่า different ที่เว้นจังหวะ เป็นวิธีพูดอ้อม ๆ ว่าไม่ค่อยชอบ"
+    }
+  ],
+  "glossary": [],
+  "common_exam_patterns": [
+    "คำตอบที่ปฏิเสธโดยไม่ใช้ No",
+    "คำบ่นแบบสุภาพ เช่น It's a bit...",
+    "ถามว่าผู้พูดหมายความว่าอย่างไร"
+  ],
+  "next_topic_ids": [
+    "tgat1.speaking.long_conversation.register_formality"
+  ],
+  "sources": [
+    "ผังการสอบ TGAT1 จาก mytcas.com (พาร์ทการพูด)",
+    "บทสนทนาแต่งขึ้นใหม่เพื่อการฝึก"
+  ],
+  "review_status": "ai_draft",
+  "generated_from": "content/tgat1/speaking_conv.py"
+}

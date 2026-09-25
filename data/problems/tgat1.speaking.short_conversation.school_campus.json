@@ -1,0 +1,597 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tgat1.speaking.short_conversation.school_campus",
+  "problems": [
+    {
+      "id": "prob.tgat1.speaking.short_conversation.school_campus.0001",
+      "topic_ids": [
+        "tgat1.speaking.short_conversation.school_campus"
+      ],
+      "primary_topic_id": "tgat1.speaking.short_conversation.school_campus",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 30,
+      "stem_md": "**A:** Did you finish the science assignment?  \n**B:** ______  \n**A:** Me neither. Let's work on it together after school.",
+      "figures": [],
+      "choices": [
+        {
+          "md": "Not yet. I'm stuck on the last question.",
+          "is_answer": true
+        },
+        {
+          "md": "The science teacher gave it to us on Monday.",
+          "is_answer": false
+        },
+        {
+          "md": "Yes, I finished it last night. It was easy.",
+          "is_answer": false
+        },
+        {
+          "md": "I like science more than math.",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "หลังช่อง: Me neither. = ฉันก็ไม่...",
+          "why_md": "B ต้องพูดประโยคปฏิเสธ"
+        },
+        {
+          "do_md": "ตัวเลือกปฏิเสธที่ตอบคำถาม",
+          "why_md": "Not yet. I'm stuck on the last question."
+        }
+      ],
+      "answer_explanation_md": "ตอบ Not yet. I'm stuck on the last question. เพราะ A ตอบว่า Me neither ซึ่งแปลว่า B ต้องบอกว่ายังทำไม่เสร็จ",
+      "hints": [
+        "Me neither ใช้ตอบประโยคแบบไหน",
+        "B ทำงานเสร็จหรือยัง",
+        "หาตัวเลือกที่บอกว่ายังไม่เสร็จ"
+      ],
+      "distractor_reasons": {
+        "1": "บอกว่าได้รับงานเมื่อไร ไม่ได้ตอบว่าทำเสร็จไหม",
+        "2": "บอกว่าทำเสร็จแล้ว แต่ A ตอบว่า Me neither ซึ่งใช้กับประโยคปฏิเสธ",
+        "3": "บอกความชอบ ไม่เกี่ยวกับคำถาม"
+      },
+      "misconception_tags": [
+        "ignore_next_line"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.short_conversation.school_campus.0002",
+      "topic_ids": [
+        "tgat1.speaking.short_conversation.school_campus"
+      ],
+      "primary_topic_id": "tgat1.speaking.short_conversation.school_campus",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 30,
+      "stem_md": "**Student:** Excuse me, where can I sign up for the English camp?  \n**Staff:** ______  \n**Student:** Great. Do I need to bring anything?",
+      "figures": [],
+      "choices": [
+        {
+          "md": "Sorry, I don't know anything about it.",
+          "is_answer": false
+        },
+        {
+          "md": "The camp is for three days in March.",
+          "is_answer": false
+        },
+        {
+          "md": "You can sign up at the student affairs office, room 102.",
+          "is_answer": true
+        },
+        {
+          "md": "You can sign up for the camp, too.",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "คำถาม: where = ที่ไหน",
+          "why_md": "ต้องตอบด้วยสถานที่"
+        },
+        {
+          "do_md": "หลังช่อง: Great. = ได้ข้อมูลที่ต้องการ",
+          "why_md": "You can sign up at the student affairs office, room 102."
+        }
+      ],
+      "answer_explanation_md": "ตอบ You can sign up at the student affairs office, room 102. เพราะนักเรียนถามว่าลงทะเบียนที่ไหน และตอบรับด้วย Great",
+      "hints": [
+        "นักเรียนถามด้วยคำถามอะไร",
+        "นักเรียนตอบว่า Great หลังช่องว่าง แปลว่าได้คำตอบที่ใช้ได้หรือไม่",
+        "หาตัวเลือกที่บอกสถานที่"
+      ],
+      "distractor_reasons": {
+        "0": "ปฏิเสธว่าไม่รู้ แต่นักเรียนตอบว่า Great",
+        "1": "บอกระยะเวลาค่าย ไม่ได้ตอบว่าลงทะเบียนที่ไหน",
+        "3": "ทวนคำว่า sign up แต่ไม่มีข้อมูลสถานที่"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.short_conversation.school_campus.0003",
+      "topic_ids": [
+        "tgat1.speaking.short_conversation.school_campus"
+      ],
+      "primary_topic_id": "tgat1.speaking.short_conversation.school_campus",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 35,
+      "stem_md": "**Student:** Professor Lee, I was sick last week and missed the quiz.  \n**Professor:** ______  \n**Student:** Yes, I have it here.",
+      "figures": [],
+      "choices": [
+        {
+          "md": "The quiz was about chapters three and four.",
+          "is_answer": false
+        },
+        {
+          "md": "I see. Do you have a medical certificate?",
+          "is_answer": true
+        },
+        {
+          "md": "That's OK. You don't need to take it.",
+          "is_answer": false
+        },
+        {
+          "md": "How are you feeling now? Are you better?",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "หลังช่อง: Yes, I have it here. = มีสิ่งของบางอย่างอยู่ตรงนี้",
+          "why_md": "อาจารย์ต้องถามถึงเอกสารหรือสิ่งของ"
+        },
+        {
+          "do_md": "เอกสารที่เกี่ยวกับการป่วย: ใบรับรองแพทย์",
+          "why_md": "Do you have a medical certificate?"
+        }
+      ],
+      "answer_explanation_md": "ตอบ I see. Do you have a medical certificate? เพราะนักเรียนตอบว่ามีอยู่ตรงนี้ แปลว่าอาจารย์ต้องถามถึงเอกสาร",
+      "hints": [
+        "นักเรียนตอบว่า I have it here แปลว่าอาจารย์ถามถึงอะไร",
+        "เมื่อนักเรียนป่วยแล้วพลาดการสอบ มักต้องใช้เอกสารอะไร",
+        "หาตัวเลือกที่ถามถึงสิ่งที่นักเรียนมีติดตัว"
+      ],
+      "distractor_reasons": {
+        "0": "บอกเนื้อหาควิซ ไม่เข้ากับการตอบว่ามีอยู่ตรงนี้",
+        "2": "อนุญาตให้ไม่ต้องสอบ แต่นักเรียนตอบว่า Yes, I have it here ซึ่งต้องตอบเรื่องเอกสาร",
+        "3": "ถามอาการ นักเรียนจะไม่ตอบว่า I have it here"
+      },
+      "misconception_tags": [
+        "ignore_next_line"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.short_conversation.school_campus.0004",
+      "topic_ids": [
+        "tgat1.speaking.short_conversation.school_campus"
+      ],
+      "primary_topic_id": "tgat1.speaking.short_conversation.school_campus",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 40,
+      "stem_md": "**A:** Are you going to the library this afternoon?  \n**B:** Yes, why?  \n**A:** ______  \n**B:** Sure, no problem. Which ones?",
+      "figures": [],
+      "choices": [
+        {
+          "md": "The library closes at six on weekdays.",
+          "is_answer": false
+        },
+        {
+          "md": "Could you return these books for me?",
+          "is_answer": true
+        },
+        {
+          "md": "Why do you always go to the library?",
+          "is_answer": false
+        },
+        {
+          "md": "I'm going to the library, too, at four.",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "หลังช่อง: Sure, no problem. = ตอบรับคำขอ / Which ones? = ถามว่าอันไหน",
+          "why_md": "A ขอให้ช่วยเรื่องของหลายชิ้น"
+        },
+        {
+          "do_md": "คำขอที่เกี่ยวกับห้องสมุดและของหลายชิ้น",
+          "why_md": "Could you return these books for me?"
+        }
+      ],
+      "answer_explanation_md": "ตอบ Could you return these books for me? เพราะ B ตอบรับคำขอและถามว่าเล่มไหน ซึ่งต้องเป็นคำขอเกี่ยวกับหนังสือหลายเล่ม",
+      "hints": [
+        "Sure, no problem ใช้ตอบประโยคแบบไหน",
+        "Which ones? ถามถึงอะไรที่มีหลายชิ้น",
+        "หาตัวเลือกที่เป็นคำขอเกี่ยวกับของหลายชิ้นที่ห้องสมุด"
+      ],
+      "distractor_reasons": {
+        "0": "บอกเวลาปิด ไม่มีสิ่งที่ B จะถามว่าอันไหน",
+        "2": "ถามเหตุผล ไม่เข้ากับ Sure, no problem",
+        "3": "บอกว่าไปด้วย B จะไม่ตอบว่า Sure, no problem. Which ones?"
+      },
+      "misconception_tags": [
+        "ignore_next_line"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.short_conversation.school_campus.0005",
+      "topic_ids": [
+        "tgat1.speaking.short_conversation.school_campus"
+      ],
+      "primary_topic_id": "tgat1.speaking.short_conversation.school_campus",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 35,
+      "stem_md": "**A:** How did you do on the midterm?  \n**B:** ______  \n**A:** Wow, congratulations! You must have studied hard.",
+      "figures": [],
+      "choices": [
+        {
+          "md": "It was on Monday and Tuesday.",
+          "is_answer": false
+        },
+        {
+          "md": "Not so well. I failed the math part.",
+          "is_answer": false
+        },
+        {
+          "md": "I did it with a pencil and an eraser.",
+          "is_answer": false
+        },
+        {
+          "md": "I got the highest score in the class!",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "How did you do? = ทำได้ดีแค่ไหน",
+          "why_md": "ถามผลการสอบ"
+        },
+        {
+          "do_md": "หลังช่อง: congratulations = ผลดี",
+          "why_md": "I got the highest score in the class!"
+        }
+      ],
+      "answer_explanation_md": "ตอบ I got the highest score in the class! เพราะ A แสดงความยินดี แปลว่า B บอกผลสอบที่ดี",
+      "hints": [
+        "How did you do on the exam? ถามอะไร",
+        "A แสดงความยินดี แปลว่าผลเป็นอย่างไร",
+        "หาตัวเลือกที่บอกผลดี"
+      ],
+      "distractor_reasons": {
+        "0": "บอกวันสอบ ไม่ได้บอกผล",
+        "1": "ผลไม่ดี แต่ A แสดงความยินดี",
+        "2": "ตีความ How did you do ตรงตัว"
+      },
+      "misconception_tags": [
+        "literal_translation"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.short_conversation.school_campus.0006",
+      "topic_ids": [
+        "tgat1.speaking.short_conversation.school_campus"
+      ],
+      "primary_topic_id": "tgat1.speaking.short_conversation.school_campus",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 40,
+      "stem_md": "**Student:** Is it OK if I submit the report by email?  \n**Teacher:** ______  \n**Student:** I understand. I'll print it tonight.",
+      "figures": [],
+      "choices": [
+        {
+          "md": "I'm afraid I need a printed copy.",
+          "is_answer": true
+        },
+        {
+          "md": "The report should be about five pages.",
+          "is_answer": false
+        },
+        {
+          "md": "Why didn't you finish it last week?",
+          "is_answer": false
+        },
+        {
+          "md": "Of course. Send it to my school email.",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "หลังช่อง: นักเรียนจะพิมพ์คืนนี้",
+          "why_md": "แปลว่าครูต้องการฉบับพิมพ์"
+        },
+        {
+          "do_md": "I'm afraid = ปฏิเสธอย่างสุภาพ",
+          "why_md": "I'm afraid I need a printed copy."
+        }
+      ],
+      "answer_explanation_md": "ตอบ I'm afraid I need a printed copy. เพราะนักเรียนตอบว่าจะพิมพ์ แปลว่าครูต้องการฉบับพิมพ์และปฏิเสธการส่งทางอีเมล",
+      "hints": [
+        "นักเรียนบอกว่าจะทำอะไรหลังช่องว่าง",
+        "ทำไมนักเรียนต้องพิมพ์ ถ้าครูอนุญาตให้ส่งอีเมล",
+        "หาตัวเลือกที่ครูปฏิเสธการส่งทางอีเมล"
+      ],
+      "distractor_reasons": {
+        "1": "บอกความยาว ไม่ได้ตอบเรื่องวิธีส่ง",
+        "2": "ถามเหตุผล ไม่เข้ากับคำตอบว่าจะพิมพ์",
+        "3": "อนุญาต แต่นักเรียนตอบว่าจะพิมพ์คืนนี้ ซึ่งแปลว่าครูไม่อนุญาต"
+      },
+      "misconception_tags": [
+        "ignore_next_line"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.short_conversation.school_campus.0007",
+      "topic_ids": [
+        "tgat1.speaking.short_conversation.school_campus"
+      ],
+      "primary_topic_id": "tgat1.speaking.short_conversation.school_campus",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 45,
+      "stem_md": "**Student:** Is the lab open this afternoon?  \n**Assistant:** ______  \n**Student:** Then I'll come after class.",
+      "figures": [],
+      "choices": [
+        {
+          "md": "Your class is afternoon.",
+          "is_answer": false
+        },
+        {
+          "md": "The chemistry opens it.",
+          "is_answer": false
+        },
+        {
+          "md": "Yes, but it closes at four thirty.",
+          "is_answer": true
+        },
+        {
+          "md": "I opened my book.",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ติดตามบริบทและผู้พูด",
+          "why_md": "นักเรียนใช้คำตอบวางแผนมา"
+        },
+        {
+          "do_md": "ทดลองเติมแล้วอ่านต่อ",
+          "why_md": "คำตอบต้องทำให้บทสนทนาต่อเนื่อง ไม่ใช่แค่มีคำซ้ำ"
+        }
+      ],
+      "answer_explanation_md": "เวลาเปิด-ปิดตอบคำถามและรองรับการตัดสินใจ",
+      "hints": [
+        "ดูว่าใครพูดกับใครและต้องการอะไร",
+        "ใช้ประโยคก่อนและหลังช่องว่างร่วมกัน",
+        "ตัดตัวเลือกที่มีคำซ้ำแต่ทำหน้าที่ผิด"
+      ],
+      "distractor_reasons": {
+        "0": "ไม่ตอบเวลาเปิด",
+        "1": "ผู้กระทำผิด",
+        "3": "จับ open คนละความหมาย"
+      },
+      "misconception_tags": [
+        "ignore_next_line"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.short_conversation.school_campus.0008",
+      "topic_ids": [
+        "tgat1.speaking.short_conversation.school_campus"
+      ],
+      "primary_topic_id": "tgat1.speaking.short_conversation.school_campus",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 5,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": true,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 60,
+      "stem_md": "**Student:** I missed registration.  \n**Officer:** ______  \n**Student:** I have the chair's approval email.",
+      "figures": [],
+      "choices": [
+        {
+          "md": "The guide is written.",
+          "is_answer": false
+        },
+        {
+          "md": "Choose another department.",
+          "is_answer": false
+        },
+        {
+          "md": "Why did registration miss you?",
+          "is_answer": false
+        },
+        {
+          "md": "Do you have written approval for late registration?",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ติดตามบริบทและผู้พูด",
+          "why_md": "นักเรียนยื่นอีเมลอนุมัติ"
+        },
+        {
+          "do_md": "ทดลองเติมแล้วอ่านต่อ",
+          "why_md": "คำตอบต้องทำให้บทสนทนาต่อเนื่อง ไม่ใช่แค่มีคำซ้ำ"
+        }
+      ],
+      "answer_explanation_md": "เจ้าหน้าที่ต้องถามหลักฐานอนุมัติในช่องว่าง",
+      "hints": [
+        "ดูว่าใครพูดกับใครและต้องการอะไร",
+        "ใช้ประโยคก่อนและหลังช่องว่างร่วมกัน",
+        "ตัดตัวเลือกที่มีคำซ้ำแต่ทำหน้าที่ผิด"
+      ],
+      "distractor_reasons": {
+        "0": "มีคำซ้ำแต่ผิดหน้าที่",
+        "1": "ไม่สัมพันธ์กับหลักฐาน",
+        "2": "สลับผู้กระทำ"
+      },
+      "misconception_tags": [
+        "ignore_next_line"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    }
+  ],
+  "generated_from": "content/tgat1/speaking_conv.py"
+}

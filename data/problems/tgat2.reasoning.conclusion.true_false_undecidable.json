@@ -1,0 +1,479 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tgat2.reasoning.conclusion.true_false_undecidable",
+  "problems": [
+    {
+      "id": "prob.tgat2.reasoning.conclusion.true_false_undecidable.0001",
+      "topic_ids": [
+        "tgat2.reasoning.conclusion.true_false_undecidable"
+      ],
+      "primary_topic_id": "tgat2.reasoning.conclusion.true_false_undecidable",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 50,
+      "stem_md": "ข้อมูล: A อายุมากกว่า B, A อายุมากกว่า C, D อายุน้อยกว่า C\n\nข้อสรุปใดเป็น **ยังสรุปไม่ได้**",
+      "figures": [],
+      "choices": [
+        {
+          "md": "B อายุมากกว่า D",
+          "is_answer": true
+        },
+        {
+          "md": "C อายุมากกว่า D",
+          "is_answer": false
+        },
+        {
+          "md": "B อายุมากกว่า A",
+          "is_answer": false
+        },
+        {
+          "md": "D อายุมากที่สุด",
+          "is_answer": false
+        },
+        {
+          "md": "A อายุมากที่สุด",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "เรียง: A แก่กว่า B และ C ส่วน C แก่กว่า D",
+          "why_md": "B ไม่ได้ถูกเทียบกับ C หรือ D"
+        },
+        {
+          "do_md": "B อาจแก่กว่าหรืออ่อนกว่า D ก็ได้",
+          "why_md": "สร้างได้ทั้งสองสถานการณ์"
+        }
+      ],
+      "answer_explanation_md": "ตอบ B อายุมากกว่า D เพราะข้อมูลไม่ได้เทียบ B กับ D โดยตรงหรือทางอ้อม จึงเป็นได้ทั้งสองแบบ",
+      "hints": [
+        "เขียนความสัมพันธ์เป็นลำดับ",
+        "B ถูกเทียบกับใครบ้าง",
+        "ลองวาง B ให้แก่กว่าและอ่อนกว่า D"
+      ],
+      "distractor_reasons": {
+        "1": "จริงแน่นอน ตามข้อมูลโดยตรง",
+        "2": "เท็จแน่นอน ขัดกับข้อมูล",
+        "3": "เท็จแน่นอน เพราะ C แก่กว่า D",
+        "4": "จริงแน่นอน เพราะ A แก่กว่า B และ C ซึ่ง C แก่กว่า D"
+      },
+      "misconception_tags": [
+        "assume_missing_relation"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.reasoning.conclusion.true_false_undecidable.0002",
+      "topic_ids": [
+        "tgat2.reasoning.conclusion.true_false_undecidable"
+      ],
+      "primary_topic_id": "tgat2.reasoning.conclusion.true_false_undecidable",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 50,
+      "stem_md": "ข้อมูล: สมาชิกชมรมทุกคนเป็นนักเรียน ม.5 นักเรียน ม.5 บางคนเล่นดนตรี\n\nข้อสรุปใดเป็น **ยังสรุปไม่ได้**",
+      "figures": [],
+      "choices": [
+        {
+          "md": "สมาชิกชมรมทุกคนเป็นนักเรียน ม.5",
+          "is_answer": false
+        },
+        {
+          "md": "นักเรียน ม.5 ทุกคนไม่เล่นดนตรี",
+          "is_answer": false
+        },
+        {
+          "md": "สมาชิกชมรมบางคนเล่นดนตรี",
+          "is_answer": true
+        },
+        {
+          "md": "มีสมาชิกชมรมที่ไม่ใช่นักเรียน ม.5",
+          "is_answer": false
+        },
+        {
+          "md": "นักเรียน ม.5 บางคนเล่นดนตรี",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ชมรม ⊂ ม.5 และ ม.5 ซ้อนบางส่วนกับ เล่นดนตรี",
+          "why_md": "วาดวง"
+        },
+        {
+          "do_md": "ส่วนที่เล่นดนตรีอาจอยู่ในหรือนอกวงชมรม",
+          "why_md": "สรุปไม่ได้"
+        }
+      ],
+      "answer_explanation_md": "ตอบ สมาชิกชมรมบางคนเล่นดนตรี เพราะคนที่เล่นดนตรีอาจอยู่นอกชมรมทั้งหมดก็ได้",
+      "hints": [
+        "วาดวงชมรมในวง ม.5",
+        "คนที่เล่นดนตรีอยู่ตรงไหนได้บ้าง",
+        "ลองวาดให้คนเล่นดนตรีอยู่นอกวงชมรมทั้งหมด"
+      ],
+      "distractor_reasons": {
+        "0": "จริงแน่นอน ตามข้อมูล",
+        "1": "เท็จแน่นอน ขัดกับข้อมูล",
+        "3": "เท็จแน่นอน ขัดกับข้อมูล",
+        "4": "จริงแน่นอน ตามข้อมูล"
+      },
+      "misconception_tags": [
+        "chain_some_some"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.reasoning.conclusion.true_false_undecidable.0003",
+      "topic_ids": [
+        "tgat2.reasoning.conclusion.true_false_undecidable"
+      ],
+      "primary_topic_id": "tgat2.reasoning.conclusion.true_false_undecidable",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 4,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 2,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 50,
+      "stem_md": "ข้อมูล: ร้าน X ขายของถูกกว่าร้าน Y ร้าน Z ขายของแพงกว่าร้าน Y\n\nข้อสรุปใดเป็น **ยังสรุปไม่ได้**",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ร้าน Z ขายแพงที่สุด",
+          "is_answer": false
+        },
+        {
+          "md": "ร้าน Y ขายถูกที่สุด",
+          "is_answer": false
+        },
+        {
+          "md": "ร้าน X ขายแพงกว่าร้าน Z",
+          "is_answer": false
+        },
+        {
+          "md": "ไม่มีข้อใดเป็นยังสรุปไม่ได้",
+          "is_answer": true
+        },
+        {
+          "md": "ร้าน X ขายถูกกว่าร้าน Z",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "เรียง: X < Y < Z",
+          "why_md": "ความสัมพันธ์ต่อเป็นเส้นเดียว"
+        },
+        {
+          "do_md": "ทุกตัวเลือกจริงหรือเท็จแน่นอน",
+          "why_md": "จึงไม่มีข้อที่สรุปไม่ได้"
+        }
+      ],
+      "answer_explanation_md": "ตอบ ไม่มีข้อใดเป็นยังสรุปไม่ได้ เพราะเรียงได้ X < Y < Z ครบทุกคู่ ทุกตัวเลือกจึงจริงหรือเท็จแน่นอน",
+      "hints": [
+        "เรียงราคาสามร้านเป็นเส้นเดียว",
+        "ทุกคู่ถูกเทียบกันแล้วหรือยัง",
+        "ตรวจทุกตัวเลือกว่าจริงหรือเท็จแน่นอน"
+      ],
+      "distractor_reasons": {
+        "0": "จริงแน่นอน",
+        "1": "เท็จแน่นอน X ถูกกว่า Y",
+        "2": "เท็จแน่นอน",
+        "4": "จริงแน่นอน X < Y < Z"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.reasoning.conclusion.true_false_undecidable.0004",
+      "topic_ids": [
+        "tgat2.reasoning.conclusion.true_false_undecidable"
+      ],
+      "primary_topic_id": "tgat2.reasoning.conclusion.true_false_undecidable",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 40,
+      "stem_md": "ข้อมูล: ถ้ารถติด ต้นจะมาสาย วันนี้ต้นมาสาย\n\nข้อสรุปใดเป็น **ยังสรุปไม่ได้**",
+      "figures": [],
+      "choices": [
+        {
+          "md": "วันนี้ต้นมาตรงเวลา",
+          "is_answer": false
+        },
+        {
+          "md": "ถ้ารถติด ต้นจะมาสาย",
+          "is_answer": false
+        },
+        {
+          "md": "วันนี้ต้นมาสาย",
+          "is_answer": false
+        },
+        {
+          "md": "ถ้ารถติด ต้นจะมาตรงเวลา",
+          "is_answer": false
+        },
+        {
+          "md": "วันนี้รถติด",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "รถติด ⇒ มาสาย",
+          "why_md": "เงื่อนไข"
+        },
+        {
+          "do_md": "รู้ว่ามาสาย สรุปว่ารถติดไม่ได้",
+          "why_md": "กลับทิศเงื่อนไข อาจสายด้วยเหตุอื่น"
+        }
+      ],
+      "answer_explanation_md": "ตอบ วันนี้รถติด เพราะมาสายอาจเกิดจากเหตุอื่น จึงสรุปไม่ได้ว่ารถติด",
+      "hints": [
+        "เขียนเงื่อนไขเป็นลูกศร",
+        "รู้ส่วนหลังของลูกศร ย้อนไปหาส่วนหน้าได้ไหม",
+        "ต้นอาจมาสายด้วยเหตุอื่นได้ไหม"
+      ],
+      "distractor_reasons": {
+        "0": "เท็จแน่นอน ขัดกับข้อมูล",
+        "1": "จริงแน่นอน เป็นข้อมูล",
+        "2": "จริงแน่นอน เป็นข้อมูล",
+        "3": "เท็จแน่นอน ขัดกับเงื่อนไข"
+      },
+      "misconception_tags": [
+        "affirm_consequent"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.reasoning.conclusion.true_false_undecidable.0005",
+      "topic_ids": [
+        "tgat2.reasoning.conclusion.true_false_undecidable"
+      ],
+      "primary_topic_id": "tgat2.reasoning.conclusion.true_false_undecidable",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 40,
+      "stem_md": "ข้อมูล: นักเรียนห้องนี้ทุกคนสอบผ่านวิชาคณิต มะลิสอบผ่านวิชาคณิต\n\nข้อสรุปใดเป็น **ยังสรุปไม่ได้**",
+      "figures": [],
+      "choices": [
+        {
+          "md": "มะลิเป็นนักเรียนห้องนี้",
+          "is_answer": true
+        },
+        {
+          "md": "มีนักเรียนห้องนี้สอบตกวิชาคณิต",
+          "is_answer": false
+        },
+        {
+          "md": "มะลิสอบตกวิชาคณิต",
+          "is_answer": false
+        },
+        {
+          "md": "นักเรียนห้องนี้ทุกคนสอบผ่านวิชาคณิต",
+          "is_answer": false
+        },
+        {
+          "md": "มะลิสอบผ่านวิชาคณิต",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ห้องนี้ ⊂ สอบผ่าน",
+          "why_md": "วาดวง"
+        },
+        {
+          "do_md": "มะลิอยู่ในวงสอบผ่าน แต่อาจอยู่ในหรือนอกวงห้องนี้",
+          "why_md": "สรุปไม่ได้"
+        }
+      ],
+      "answer_explanation_md": "ตอบ มะลิเป็นนักเรียนห้องนี้ เพราะคนที่สอบผ่านอาจอยู่ห้องอื่นก็ได้",
+      "hints": [
+        "วาดวงห้องนี้ในวงคนที่สอบผ่าน",
+        "มะลิอยู่ในวงไหนแน่นอน",
+        "มะลิจำเป็นต้องอยู่ในวงห้องนี้ไหม"
+      ],
+      "distractor_reasons": {
+        "1": "เท็จแน่นอน",
+        "2": "เท็จแน่นอน",
+        "3": "จริงแน่นอน เป็นข้อมูล",
+        "4": "จริงแน่นอน เป็นข้อมูล"
+      },
+      "misconception_tags": [
+        "reverse_all"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.reasoning.conclusion.true_false_undecidable.0006",
+      "topic_ids": [
+        "tgat2.reasoning.conclusion.true_false_undecidable"
+      ],
+      "primary_topic_id": "tgat2.reasoning.conclusion.true_false_undecidable",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 40,
+      "stem_md": "ข้อมูล: ในการแข่งวิ่ง ปอเข้าเส้นชัยก่อนมิน โอ๊ตเข้าเส้นชัยหลังปอ ไม่มีใครเข้าเส้นชัยพร้อมกัน\n\nข้อสรุปใดเป็น **ยังสรุปไม่ได้**",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ปอเข้าเส้นชัยเป็นคนแรกในสามคนนี้",
+          "is_answer": false
+        },
+        {
+          "md": "มินเข้าเส้นชัยก่อนโอ๊ต",
+          "is_answer": true
+        },
+        {
+          "md": "มินเข้าเส้นชัยก่อนปอ",
+          "is_answer": false
+        },
+        {
+          "md": "ปอเข้าเส้นชัยก่อนโอ๊ต",
+          "is_answer": false
+        },
+        {
+          "md": "โอ๊ตเข้าเส้นชัยก่อนปอ",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ปอ < มิน และ ปอ < โอ๊ต (ลำดับเวลา)",
+          "why_md": "ปอมาก่อนทั้งคู่"
+        },
+        {
+          "do_md": "มินกับโอ๊ตไม่ได้ถูกเทียบกัน",
+          "why_md": "สรุปไม่ได้"
+        }
+      ],
+      "answer_explanation_md": "ตอบ มินเข้าเส้นชัยก่อนโอ๊ต เพราะข้อมูลบอกแค่ว่าปอมาก่อนทั้งคู่ ไม่ได้บอกลำดับระหว่างมินกับโอ๊ต",
+      "hints": [
+        "เขียนลำดับการเข้าเส้นชัย",
+        "มินกับโอ๊ตถูกเทียบกันโดยตรงไหม",
+        "ลองวางมินก่อนโอ๊ต และโอ๊ตก่อนมิน"
+      ],
+      "distractor_reasons": {
+        "0": "จริงแน่นอน ปอก่อนทั้งมินและโอ๊ต",
+        "2": "เท็จแน่นอน",
+        "3": "จริงแน่นอน",
+        "4": "เท็จแน่นอน"
+      },
+      "misconception_tags": [
+        "assume_missing_relation"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    }
+  ],
+  "generated_from": "content/tgat2/reasoning_text.py"
+}

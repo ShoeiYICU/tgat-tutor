@@ -1,0 +1,1240 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tgat2.numerical.series.interleaved",
+  "problems": [
+    {
+      "id": "prob.tgat2.numerical.series.interleaved.0001",
+      "topic_ids": [
+        "tgat2.numerical.series.interleaved"
+      ],
+      "primary_topic_id": "tgat2.numerical.series.interleaved",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 40,
+      "stem_md": "$6, \\; 57, \\; 9, \\; 53, \\; 12, \\; 49, \\; ?$",
+      "figures": [],
+      "choices": [
+        {
+          "md": "$16$",
+          "is_answer": false
+        },
+        {
+          "md": "$14$",
+          "is_answer": false
+        },
+        {
+          "md": "$18$",
+          "is_answer": false
+        },
+        {
+          "md": "$15$",
+          "is_answer": true
+        },
+        {
+          "md": "$45$",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ชุดคี่: $6, 9, 12$ เพิ่มทีละ $3$",
+          "why_md": "แยกตำแหน่งคี่"
+        },
+        {
+          "do_md": "ชุดคู่: $57, 53, 49$ ลดทีละ $4$",
+          "why_md": "แยกตำแหน่งคู่"
+        },
+        {
+          "do_md": "ตำแหน่งที่ 7 เป็นคี่: $12 + 3 = 15$",
+          "why_md": "ใช้ชุดคี่"
+        }
+      ],
+      "answer_explanation_md": "ตอบ $15$ เพราะตำแหน่งที่ 7 อยู่ในชุดคี่ ซึ่งเพิ่มขึ้นทีละ $3$",
+      "hints": [
+        "ลองแยกพจน์ตำแหน่งคี่กับคู่",
+        "ตำแหน่งที่ 7 อยู่ในชุดคี่หรือคู่",
+        "ชุดคี่เพิ่มขึ้นทีละ $3$"
+      ],
+      "distractor_reasons": {
+        "0": "ใช้ผลต่างของชุดคู่",
+        "1": "บวกขาดไปหนึ่ง",
+        "2": "เพิ่มชุดคี่เกินไปหนึ่งช่วง",
+        "4": "ต่อชุดคู่แทนชุดคี่"
+      },
+      "misconception_tags": [
+        "wrong_subsequence"
+      ],
+      "template": {
+        "vars": [
+          {
+            "name": "a",
+            "type": "int",
+            "range": [
+              2,
+              12
+            ],
+            "step": 1
+          },
+          {
+            "name": "d",
+            "type": "int",
+            "range": [
+              3,
+              7
+            ],
+            "step": 1
+          },
+          {
+            "name": "b",
+            "type": "int",
+            "range": [
+              40,
+              70
+            ],
+            "step": 1
+          },
+          {
+            "name": "e",
+            "type": "int",
+            "range": [
+              2,
+              6
+            ],
+            "step": 1
+          }
+        ],
+        "constraints": [
+          "(a + 3*d) > 0",
+          "(b - 3*e) > 0",
+          "(a + 2*d + e) > 0",
+          "(a + 4*d) > 0",
+          "(a + 3*d - 1) > 0",
+          "(a + 3*d) != (b - 3*e)",
+          "(a + 3*d) != (a + 2*d + e)",
+          "(a + 3*d) != (a + 4*d)",
+          "(a + 3*d) != (a + 3*d - 1)",
+          "(b - 3*e) != (a + 2*d + e)",
+          "(b - 3*e) != (a + 4*d)",
+          "(b - 3*e) != (a + 3*d - 1)",
+          "(a + 2*d + e) != (a + 4*d)",
+          "(a + 2*d + e) != (a + 3*d - 1)",
+          "(a + 4*d) != (a + 3*d - 1)",
+          "(b - 3*e) <= 5*(a + 3*d)",
+          "(a + 2*d + e) <= 5*(a + 3*d)",
+          "(a + 4*d) <= 5*(a + 3*d)",
+          "(a + 3*d - 1) <= 5*(a + 3*d)",
+          "5*(b - 3*e) >= (a + 3*d)",
+          "5*(a + 2*d + e) >= (a + 3*d)",
+          "5*(a + 4*d) >= (a + 3*d)",
+          "5*(a + 3*d - 1) >= (a + 3*d)",
+          "(d) != (a + 3*d)"
+        ],
+        "display": {
+          "o1": "a",
+          "e1": "b",
+          "o2": "a + d",
+          "e2": "b - e",
+          "o3": "a + 2*d",
+          "e3": "b - 2*e"
+        },
+        "stem_tpl": "${o1}, \\; {e1}, \\; {o2}, \\; {e2}, \\; {o3}, \\; {e3}, \\; ?$",
+        "answer_expr": "a + 3*d",
+        "answer_round": null,
+        "answer_unit": null,
+        "distractors": [
+          {
+            "expr": "b - 3*e",
+            "reason": "ต่อชุดคู่แทนชุดคี่"
+          },
+          {
+            "expr": "a + 2*d + e",
+            "reason": "ใช้ผลต่างของชุดคู่"
+          },
+          {
+            "expr": "a + 4*d",
+            "reason": "เพิ่มชุดคี่เกินไปหนึ่งช่วง"
+          },
+          {
+            "expr": "a + 3*d - 1",
+            "reason": "บวกขาดไปหนึ่ง"
+          }
+        ],
+        "quality_rules": [
+          "ตัวเลือกทุกตัวต้องเป็นจำนวนบวกและไม่ซ้ำกัน",
+          "คำตอบคำนวณจากนิพจน์ ไม่ได้ใส่มือ"
+        ],
+        "quality_exprs": [
+          "answer > 0"
+        ],
+        "steps_tpl": [
+          {
+            "do_md": "ชุดคี่: ${o1}, {o2}, {o3}$ เพิ่มทีละ ${d}$",
+            "why_md": "แยกตำแหน่งคี่"
+          },
+          {
+            "do_md": "ชุดคู่: ${e1}, {e2}, {e3}$ ลดทีละ ${e}$",
+            "why_md": "แยกตำแหน่งคู่"
+          },
+          {
+            "do_md": "ตำแหน่งที่ 7 เป็นคี่: ${o3} + {d} = {answer}$",
+            "why_md": "ใช้ชุดคี่"
+          }
+        ],
+        "hints_tpl": [
+          "ลองแยกพจน์ตำแหน่งคี่กับคู่",
+          "ตำแหน่งที่ 7 อยู่ในชุดคี่หรือคู่",
+          "ชุดคี่เพิ่มขึ้นทีละ ${d}$"
+        ],
+        "explanation_tpl": "ตอบ ${answer}$ เพราะตำแหน่งที่ 7 อยู่ในชุดคี่ ซึ่งเพิ่มขึ้นทีละ ${d}$"
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.numerical.series.interleaved.0002",
+      "topic_ids": [
+        "tgat2.numerical.series.interleaved"
+      ],
+      "primary_topic_id": "tgat2.numerical.series.interleaved",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 40,
+      "stem_md": "$9, \\; 42, \\; 14, \\; 40, \\; 19, \\; 38, \\; ?$",
+      "figures": [],
+      "choices": [
+        {
+          "md": "$24$",
+          "is_answer": true
+        },
+        {
+          "md": "$29$",
+          "is_answer": false
+        },
+        {
+          "md": "$36$",
+          "is_answer": false
+        },
+        {
+          "md": "$21$",
+          "is_answer": false
+        },
+        {
+          "md": "$23$",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ชุดคี่: $9, 14, 19$ เพิ่มทีละ $5$",
+          "why_md": "แยกตำแหน่งคี่"
+        },
+        {
+          "do_md": "ชุดคู่: $42, 40, 38$ ลดทีละ $2$",
+          "why_md": "แยกตำแหน่งคู่"
+        },
+        {
+          "do_md": "ตำแหน่งที่ 7 เป็นคี่: $19 + 5 = 24$",
+          "why_md": "ใช้ชุดคี่"
+        }
+      ],
+      "answer_explanation_md": "ตอบ $24$ เพราะตำแหน่งที่ 7 อยู่ในชุดคี่ ซึ่งเพิ่มขึ้นทีละ $5$",
+      "hints": [
+        "ลองแยกพจน์ตำแหน่งคี่กับคู่",
+        "ตำแหน่งที่ 7 อยู่ในชุดคี่หรือคู่",
+        "ชุดคี่เพิ่มขึ้นทีละ $5$"
+      ],
+      "distractor_reasons": {
+        "1": "เพิ่มชุดคี่เกินไปหนึ่งช่วง",
+        "2": "ต่อชุดคู่แทนชุดคี่",
+        "3": "ใช้ผลต่างของชุดคู่",
+        "4": "บวกขาดไปหนึ่ง"
+      },
+      "misconception_tags": [
+        "wrong_subsequence"
+      ],
+      "template": {
+        "vars": [
+          {
+            "name": "a",
+            "type": "int",
+            "range": [
+              2,
+              12
+            ],
+            "step": 1
+          },
+          {
+            "name": "d",
+            "type": "int",
+            "range": [
+              3,
+              7
+            ],
+            "step": 1
+          },
+          {
+            "name": "b",
+            "type": "int",
+            "range": [
+              40,
+              70
+            ],
+            "step": 1
+          },
+          {
+            "name": "e",
+            "type": "int",
+            "range": [
+              2,
+              6
+            ],
+            "step": 1
+          }
+        ],
+        "constraints": [
+          "(a + 3*d) > 0",
+          "(b - 3*e) > 0",
+          "(a + 2*d + e) > 0",
+          "(a + 4*d) > 0",
+          "(a + 3*d - 1) > 0",
+          "(a + 3*d) != (b - 3*e)",
+          "(a + 3*d) != (a + 2*d + e)",
+          "(a + 3*d) != (a + 4*d)",
+          "(a + 3*d) != (a + 3*d - 1)",
+          "(b - 3*e) != (a + 2*d + e)",
+          "(b - 3*e) != (a + 4*d)",
+          "(b - 3*e) != (a + 3*d - 1)",
+          "(a + 2*d + e) != (a + 4*d)",
+          "(a + 2*d + e) != (a + 3*d - 1)",
+          "(a + 4*d) != (a + 3*d - 1)",
+          "(b - 3*e) <= 5*(a + 3*d)",
+          "(a + 2*d + e) <= 5*(a + 3*d)",
+          "(a + 4*d) <= 5*(a + 3*d)",
+          "(a + 3*d - 1) <= 5*(a + 3*d)",
+          "5*(b - 3*e) >= (a + 3*d)",
+          "5*(a + 2*d + e) >= (a + 3*d)",
+          "5*(a + 4*d) >= (a + 3*d)",
+          "5*(a + 3*d - 1) >= (a + 3*d)",
+          "(d) != (a + 3*d)"
+        ],
+        "display": {
+          "o1": "a",
+          "e1": "b",
+          "o2": "a + d",
+          "e2": "b - e",
+          "o3": "a + 2*d",
+          "e3": "b - 2*e"
+        },
+        "stem_tpl": "${o1}, \\; {e1}, \\; {o2}, \\; {e2}, \\; {o3}, \\; {e3}, \\; ?$",
+        "answer_expr": "a + 3*d",
+        "answer_round": null,
+        "answer_unit": null,
+        "distractors": [
+          {
+            "expr": "b - 3*e",
+            "reason": "ต่อชุดคู่แทนชุดคี่"
+          },
+          {
+            "expr": "a + 2*d + e",
+            "reason": "ใช้ผลต่างของชุดคู่"
+          },
+          {
+            "expr": "a + 4*d",
+            "reason": "เพิ่มชุดคี่เกินไปหนึ่งช่วง"
+          },
+          {
+            "expr": "a + 3*d - 1",
+            "reason": "บวกขาดไปหนึ่ง"
+          }
+        ],
+        "quality_rules": [
+          "ตัวเลือกทุกตัวต้องเป็นจำนวนบวกและไม่ซ้ำกัน",
+          "คำตอบคำนวณจากนิพจน์ ไม่ได้ใส่มือ"
+        ],
+        "quality_exprs": [
+          "answer > 0"
+        ],
+        "steps_tpl": [
+          {
+            "do_md": "ชุดคี่: ${o1}, {o2}, {o3}$ เพิ่มทีละ ${d}$",
+            "why_md": "แยกตำแหน่งคี่"
+          },
+          {
+            "do_md": "ชุดคู่: ${e1}, {e2}, {e3}$ ลดทีละ ${e}$",
+            "why_md": "แยกตำแหน่งคู่"
+          },
+          {
+            "do_md": "ตำแหน่งที่ 7 เป็นคี่: ${o3} + {d} = {answer}$",
+            "why_md": "ใช้ชุดคี่"
+          }
+        ],
+        "hints_tpl": [
+          "ลองแยกพจน์ตำแหน่งคี่กับคู่",
+          "ตำแหน่งที่ 7 อยู่ในชุดคี่หรือคู่",
+          "ชุดคี่เพิ่มขึ้นทีละ ${d}$"
+        ],
+        "explanation_tpl": "ตอบ ${answer}$ เพราะตำแหน่งที่ 7 อยู่ในชุดคี่ ซึ่งเพิ่มขึ้นทีละ ${d}$"
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.numerical.series.interleaved.0003",
+      "topic_ids": [
+        "tgat2.numerical.series.interleaved"
+      ],
+      "primary_topic_id": "tgat2.numerical.series.interleaved",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 45,
+      "stem_md": "$8, \\; 69, \\; 15, \\; 64, \\; 22, \\; 59, \\; ?$",
+      "figures": [],
+      "choices": [
+        {
+          "md": "$29$",
+          "is_answer": true
+        },
+        {
+          "md": "$54$",
+          "is_answer": false
+        },
+        {
+          "md": "$27$",
+          "is_answer": false
+        },
+        {
+          "md": "$36$",
+          "is_answer": false
+        },
+        {
+          "md": "$28$",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ชุดคี่: $8, 15, 22$ เพิ่มทีละ $7$",
+          "why_md": "แยกตำแหน่งคี่"
+        },
+        {
+          "do_md": "ชุดคู่: $69, 64, 59$ ลดทีละ $5$",
+          "why_md": "แยกตำแหน่งคู่"
+        },
+        {
+          "do_md": "ตำแหน่งที่ 7 เป็นคี่: $22 + 7 = 29$",
+          "why_md": "ใช้ชุดคี่"
+        }
+      ],
+      "answer_explanation_md": "ตอบ $29$ เพราะตำแหน่งที่ 7 อยู่ในชุดคี่ ซึ่งเพิ่มขึ้นทีละ $7$",
+      "hints": [
+        "ลองแยกพจน์ตำแหน่งคี่กับคู่",
+        "ตำแหน่งที่ 7 อยู่ในชุดคี่หรือคู่",
+        "ชุดคี่เพิ่มขึ้นทีละ $7$"
+      ],
+      "distractor_reasons": {
+        "1": "ต่อชุดคู่แทนชุดคี่",
+        "2": "ใช้ผลต่างของชุดคู่",
+        "3": "เพิ่มชุดคี่เกินไปหนึ่งช่วง",
+        "4": "บวกขาดไปหนึ่ง"
+      },
+      "misconception_tags": [
+        "wrong_subsequence"
+      ],
+      "template": {
+        "vars": [
+          {
+            "name": "a",
+            "type": "int",
+            "range": [
+              2,
+              12
+            ],
+            "step": 1
+          },
+          {
+            "name": "d",
+            "type": "int",
+            "range": [
+              3,
+              7
+            ],
+            "step": 1
+          },
+          {
+            "name": "b",
+            "type": "int",
+            "range": [
+              40,
+              70
+            ],
+            "step": 1
+          },
+          {
+            "name": "e",
+            "type": "int",
+            "range": [
+              2,
+              6
+            ],
+            "step": 1
+          }
+        ],
+        "constraints": [
+          "(a + 3*d) > 0",
+          "(b - 3*e) > 0",
+          "(a + 2*d + e) > 0",
+          "(a + 4*d) > 0",
+          "(a + 3*d - 1) > 0",
+          "(a + 3*d) != (b - 3*e)",
+          "(a + 3*d) != (a + 2*d + e)",
+          "(a + 3*d) != (a + 4*d)",
+          "(a + 3*d) != (a + 3*d - 1)",
+          "(b - 3*e) != (a + 2*d + e)",
+          "(b - 3*e) != (a + 4*d)",
+          "(b - 3*e) != (a + 3*d - 1)",
+          "(a + 2*d + e) != (a + 4*d)",
+          "(a + 2*d + e) != (a + 3*d - 1)",
+          "(a + 4*d) != (a + 3*d - 1)",
+          "(b - 3*e) <= 5*(a + 3*d)",
+          "(a + 2*d + e) <= 5*(a + 3*d)",
+          "(a + 4*d) <= 5*(a + 3*d)",
+          "(a + 3*d - 1) <= 5*(a + 3*d)",
+          "5*(b - 3*e) >= (a + 3*d)",
+          "5*(a + 2*d + e) >= (a + 3*d)",
+          "5*(a + 4*d) >= (a + 3*d)",
+          "5*(a + 3*d - 1) >= (a + 3*d)",
+          "(d) != (a + 3*d)"
+        ],
+        "display": {
+          "o1": "a",
+          "e1": "b",
+          "o2": "a + d",
+          "e2": "b - e",
+          "o3": "a + 2*d",
+          "e3": "b - 2*e"
+        },
+        "stem_tpl": "${o1}, \\; {e1}, \\; {o2}, \\; {e2}, \\; {o3}, \\; {e3}, \\; ?$",
+        "answer_expr": "a + 3*d",
+        "answer_round": null,
+        "answer_unit": null,
+        "distractors": [
+          {
+            "expr": "b - 3*e",
+            "reason": "ต่อชุดคู่แทนชุดคี่"
+          },
+          {
+            "expr": "a + 2*d + e",
+            "reason": "ใช้ผลต่างของชุดคู่"
+          },
+          {
+            "expr": "a + 4*d",
+            "reason": "เพิ่มชุดคี่เกินไปหนึ่งช่วง"
+          },
+          {
+            "expr": "a + 3*d - 1",
+            "reason": "บวกขาดไปหนึ่ง"
+          }
+        ],
+        "quality_rules": [
+          "ตัวเลือกทุกตัวต้องเป็นจำนวนบวกและไม่ซ้ำกัน",
+          "คำตอบคำนวณจากนิพจน์ ไม่ได้ใส่มือ"
+        ],
+        "quality_exprs": [
+          "answer > 0"
+        ],
+        "steps_tpl": [
+          {
+            "do_md": "ชุดคี่: ${o1}, {o2}, {o3}$ เพิ่มทีละ ${d}$",
+            "why_md": "แยกตำแหน่งคี่"
+          },
+          {
+            "do_md": "ชุดคู่: ${e1}, {e2}, {e3}$ ลดทีละ ${e}$",
+            "why_md": "แยกตำแหน่งคู่"
+          },
+          {
+            "do_md": "ตำแหน่งที่ 7 เป็นคี่: ${o3} + {d} = {answer}$",
+            "why_md": "ใช้ชุดคี่"
+          }
+        ],
+        "hints_tpl": [
+          "ลองแยกพจน์ตำแหน่งคี่กับคู่",
+          "ตำแหน่งที่ 7 อยู่ในชุดคี่หรือคู่",
+          "ชุดคี่เพิ่มขึ้นทีละ ${d}$"
+        ],
+        "explanation_tpl": "ตอบ ${answer}$ เพราะตำแหน่งที่ 7 อยู่ในชุดคี่ ซึ่งเพิ่มขึ้นทีละ ${d}$"
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.numerical.series.interleaved.0004",
+      "topic_ids": [
+        "tgat2.numerical.series.interleaved"
+      ],
+      "primary_topic_id": "tgat2.numerical.series.interleaved",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 50,
+      "stem_md": "$13, \\; 32, \\; 16, \\; 27, \\; 19, \\; 22, \\; 22, \\; ?$",
+      "figures": [],
+      "choices": [
+        {
+          "md": "$12$",
+          "is_answer": false
+        },
+        {
+          "md": "$20$",
+          "is_answer": false
+        },
+        {
+          "md": "$25$",
+          "is_answer": false
+        },
+        {
+          "md": "$22$",
+          "is_answer": false
+        },
+        {
+          "md": "$17$",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ชุดคี่: $13, 16, 19, 22$ เพิ่มทีละ $3$",
+          "why_md": "แยกตำแหน่งคี่"
+        },
+        {
+          "do_md": "ชุดคู่: $32, 27, 22$ ลดทีละ $5$",
+          "why_md": "แยกตำแหน่งคู่"
+        },
+        {
+          "do_md": "ตำแหน่งที่ 8 เป็นคู่: $22 - 5 = 17$",
+          "why_md": "ใช้ชุดคู่"
+        }
+      ],
+      "answer_explanation_md": "ตอบ $17$ เพราะตำแหน่งที่ 8 อยู่ในชุดคู่ ซึ่งลดลงทีละ $5$",
+      "hints": [
+        "อนุกรมขึ้นลงไม่เป็นระเบียบ ลองแยกพจน์คี่กับคู่",
+        "ตำแหน่งที่ 8 อยู่ในชุดคี่หรือคู่",
+        "ชุดคู่ลดลงทีละ $5$"
+      ],
+      "distractor_reasons": {
+        "0": "ลดชุดคู่เกินไปหนึ่งช่วง",
+        "1": "ใช้ผลต่างผสมของทั้งสองชุด",
+        "2": "ต่อชุดคี่แทนชุดคู่",
+        "3": "ทวนพจน์ก่อนหน้าของชุดคู่"
+      },
+      "misconception_tags": [
+        "wrong_subsequence"
+      ],
+      "template": {
+        "vars": [
+          {
+            "name": "a",
+            "type": "int",
+            "range": [
+              2,
+              15
+            ],
+            "step": 1
+          },
+          {
+            "name": "d",
+            "type": "int",
+            "range": [
+              2,
+              6
+            ],
+            "step": 1
+          },
+          {
+            "name": "b",
+            "type": "int",
+            "range": [
+              30,
+              60
+            ],
+            "step": 1
+          },
+          {
+            "name": "e",
+            "type": "int",
+            "range": [
+              2,
+              5
+            ],
+            "step": 1
+          }
+        ],
+        "constraints": [
+          "(b - 3*e) > 0",
+          "(a + 4*d) > 0",
+          "(b - 2*e) > 0",
+          "(b - 4*e) > 0",
+          "(a + 3*d + d - e) > 0",
+          "(b - 3*e) != (a + 4*d)",
+          "(b - 3*e) != (b - 2*e)",
+          "(b - 3*e) != (b - 4*e)",
+          "(b - 3*e) != (a + 3*d + d - e)",
+          "(a + 4*d) != (b - 2*e)",
+          "(a + 4*d) != (b - 4*e)",
+          "(a + 4*d) != (a + 3*d + d - e)",
+          "(b - 2*e) != (b - 4*e)",
+          "(b - 2*e) != (a + 3*d + d - e)",
+          "(b - 4*e) != (a + 3*d + d - e)",
+          "(a + 4*d) <= 5*(b - 3*e)",
+          "(b - 2*e) <= 5*(b - 3*e)",
+          "(b - 4*e) <= 5*(b - 3*e)",
+          "(a + 3*d + d - e) <= 5*(b - 3*e)",
+          "5*(a + 4*d) >= (b - 3*e)",
+          "5*(b - 2*e) >= (b - 3*e)",
+          "5*(b - 4*e) >= (b - 3*e)",
+          "5*(a + 3*d + d - e) >= (b - 3*e)",
+          "(e) != (b - 3*e)"
+        ],
+        "display": {
+          "o1": "a",
+          "e1": "b",
+          "o2": "a + d",
+          "e2": "b - e",
+          "o3": "a + 2*d",
+          "e3": "b - 2*e",
+          "o4": "a + 3*d"
+        },
+        "stem_tpl": "${o1}, \\; {e1}, \\; {o2}, \\; {e2}, \\; {o3}, \\; {e3}, \\; {o4}, \\; ?$",
+        "answer_expr": "b - 3*e",
+        "answer_round": null,
+        "answer_unit": null,
+        "distractors": [
+          {
+            "expr": "a + 4*d",
+            "reason": "ต่อชุดคี่แทนชุดคู่"
+          },
+          {
+            "expr": "b - 2*e",
+            "reason": "ทวนพจน์ก่อนหน้าของชุดคู่"
+          },
+          {
+            "expr": "b - 4*e",
+            "reason": "ลดชุดคู่เกินไปหนึ่งช่วง"
+          },
+          {
+            "expr": "a + 3*d + d - e",
+            "reason": "ใช้ผลต่างผสมของทั้งสองชุด"
+          }
+        ],
+        "quality_rules": [
+          "ตัวเลือกทุกตัวต้องเป็นจำนวนบวกและไม่ซ้ำกัน",
+          "คำตอบคำนวณจากนิพจน์ ไม่ได้ใส่มือ"
+        ],
+        "quality_exprs": [
+          "answer > 0"
+        ],
+        "steps_tpl": [
+          {
+            "do_md": "ชุดคี่: ${o1}, {o2}, {o3}, {o4}$ เพิ่มทีละ ${d}$",
+            "why_md": "แยกตำแหน่งคี่"
+          },
+          {
+            "do_md": "ชุดคู่: ${e1}, {e2}, {e3}$ ลดทีละ ${e}$",
+            "why_md": "แยกตำแหน่งคู่"
+          },
+          {
+            "do_md": "ตำแหน่งที่ 8 เป็นคู่: ${e3} - {e} = {answer}$",
+            "why_md": "ใช้ชุดคู่"
+          }
+        ],
+        "hints_tpl": [
+          "อนุกรมขึ้นลงไม่เป็นระเบียบ ลองแยกพจน์คี่กับคู่",
+          "ตำแหน่งที่ 8 อยู่ในชุดคี่หรือคู่",
+          "ชุดคู่ลดลงทีละ ${e}$"
+        ],
+        "explanation_tpl": "ตอบ ${answer}$ เพราะตำแหน่งที่ 8 อยู่ในชุดคู่ ซึ่งลดลงทีละ ${e}$"
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.numerical.series.interleaved.0005",
+      "topic_ids": [
+        "tgat2.numerical.series.interleaved"
+      ],
+      "primary_topic_id": "tgat2.numerical.series.interleaved",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 50,
+      "stem_md": "$11, \\; 57, \\; 17, \\; 55, \\; 23, \\; 53, \\; 29, \\; ?$",
+      "figures": [],
+      "choices": [
+        {
+          "md": "$53$",
+          "is_answer": false
+        },
+        {
+          "md": "$33$",
+          "is_answer": false
+        },
+        {
+          "md": "$51$",
+          "is_answer": true
+        },
+        {
+          "md": "$49$",
+          "is_answer": false
+        },
+        {
+          "md": "$35$",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ชุดคี่: $11, 17, 23, 29$ เพิ่มทีละ $6$",
+          "why_md": "แยกตำแหน่งคี่"
+        },
+        {
+          "do_md": "ชุดคู่: $57, 55, 53$ ลดทีละ $2$",
+          "why_md": "แยกตำแหน่งคู่"
+        },
+        {
+          "do_md": "ตำแหน่งที่ 8 เป็นคู่: $53 - 2 = 51$",
+          "why_md": "ใช้ชุดคู่"
+        }
+      ],
+      "answer_explanation_md": "ตอบ $51$ เพราะตำแหน่งที่ 8 อยู่ในชุดคู่ ซึ่งลดลงทีละ $2$",
+      "hints": [
+        "อนุกรมขึ้นลงไม่เป็นระเบียบ ลองแยกพจน์คี่กับคู่",
+        "ตำแหน่งที่ 8 อยู่ในชุดคี่หรือคู่",
+        "ชุดคู่ลดลงทีละ $2$"
+      ],
+      "distractor_reasons": {
+        "0": "ทวนพจน์ก่อนหน้าของชุดคู่",
+        "1": "ใช้ผลต่างผสมของทั้งสองชุด",
+        "3": "ลดชุดคู่เกินไปหนึ่งช่วง",
+        "4": "ต่อชุดคี่แทนชุดคู่"
+      },
+      "misconception_tags": [
+        "wrong_subsequence"
+      ],
+      "template": {
+        "vars": [
+          {
+            "name": "a",
+            "type": "int",
+            "range": [
+              2,
+              15
+            ],
+            "step": 1
+          },
+          {
+            "name": "d",
+            "type": "int",
+            "range": [
+              2,
+              6
+            ],
+            "step": 1
+          },
+          {
+            "name": "b",
+            "type": "int",
+            "range": [
+              30,
+              60
+            ],
+            "step": 1
+          },
+          {
+            "name": "e",
+            "type": "int",
+            "range": [
+              2,
+              5
+            ],
+            "step": 1
+          }
+        ],
+        "constraints": [
+          "(b - 3*e) > 0",
+          "(a + 4*d) > 0",
+          "(b - 2*e) > 0",
+          "(b - 4*e) > 0",
+          "(a + 3*d + d - e) > 0",
+          "(b - 3*e) != (a + 4*d)",
+          "(b - 3*e) != (b - 2*e)",
+          "(b - 3*e) != (b - 4*e)",
+          "(b - 3*e) != (a + 3*d + d - e)",
+          "(a + 4*d) != (b - 2*e)",
+          "(a + 4*d) != (b - 4*e)",
+          "(a + 4*d) != (a + 3*d + d - e)",
+          "(b - 2*e) != (b - 4*e)",
+          "(b - 2*e) != (a + 3*d + d - e)",
+          "(b - 4*e) != (a + 3*d + d - e)",
+          "(a + 4*d) <= 5*(b - 3*e)",
+          "(b - 2*e) <= 5*(b - 3*e)",
+          "(b - 4*e) <= 5*(b - 3*e)",
+          "(a + 3*d + d - e) <= 5*(b - 3*e)",
+          "5*(a + 4*d) >= (b - 3*e)",
+          "5*(b - 2*e) >= (b - 3*e)",
+          "5*(b - 4*e) >= (b - 3*e)",
+          "5*(a + 3*d + d - e) >= (b - 3*e)",
+          "(e) != (b - 3*e)"
+        ],
+        "display": {
+          "o1": "a",
+          "e1": "b",
+          "o2": "a + d",
+          "e2": "b - e",
+          "o3": "a + 2*d",
+          "e3": "b - 2*e",
+          "o4": "a + 3*d"
+        },
+        "stem_tpl": "${o1}, \\; {e1}, \\; {o2}, \\; {e2}, \\; {o3}, \\; {e3}, \\; {o4}, \\; ?$",
+        "answer_expr": "b - 3*e",
+        "answer_round": null,
+        "answer_unit": null,
+        "distractors": [
+          {
+            "expr": "a + 4*d",
+            "reason": "ต่อชุดคี่แทนชุดคู่"
+          },
+          {
+            "expr": "b - 2*e",
+            "reason": "ทวนพจน์ก่อนหน้าของชุดคู่"
+          },
+          {
+            "expr": "b - 4*e",
+            "reason": "ลดชุดคู่เกินไปหนึ่งช่วง"
+          },
+          {
+            "expr": "a + 3*d + d - e",
+            "reason": "ใช้ผลต่างผสมของทั้งสองชุด"
+          }
+        ],
+        "quality_rules": [
+          "ตัวเลือกทุกตัวต้องเป็นจำนวนบวกและไม่ซ้ำกัน",
+          "คำตอบคำนวณจากนิพจน์ ไม่ได้ใส่มือ"
+        ],
+        "quality_exprs": [
+          "answer > 0"
+        ],
+        "steps_tpl": [
+          {
+            "do_md": "ชุดคี่: ${o1}, {o2}, {o3}, {o4}$ เพิ่มทีละ ${d}$",
+            "why_md": "แยกตำแหน่งคี่"
+          },
+          {
+            "do_md": "ชุดคู่: ${e1}, {e2}, {e3}$ ลดทีละ ${e}$",
+            "why_md": "แยกตำแหน่งคู่"
+          },
+          {
+            "do_md": "ตำแหน่งที่ 8 เป็นคู่: ${e3} - {e} = {answer}$",
+            "why_md": "ใช้ชุดคู่"
+          }
+        ],
+        "hints_tpl": [
+          "อนุกรมขึ้นลงไม่เป็นระเบียบ ลองแยกพจน์คี่กับคู่",
+          "ตำแหน่งที่ 8 อยู่ในชุดคี่หรือคู่",
+          "ชุดคู่ลดลงทีละ ${e}$"
+        ],
+        "explanation_tpl": "ตอบ ${answer}$ เพราะตำแหน่งที่ 8 อยู่ในชุดคู่ ซึ่งลดลงทีละ ${e}$"
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.numerical.series.interleaved.0006",
+      "topic_ids": [
+        "tgat2.numerical.series.interleaved"
+      ],
+      "primary_topic_id": "tgat2.numerical.series.interleaved",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 4,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 2,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 55,
+      "stem_md": "$12, \\; 47, \\; 17, \\; 44, \\; 22, \\; 41, \\; 27, \\; ?$",
+      "figures": [],
+      "choices": [
+        {
+          "md": "$41$",
+          "is_answer": false
+        },
+        {
+          "md": "$38$",
+          "is_answer": true
+        },
+        {
+          "md": "$32$",
+          "is_answer": false
+        },
+        {
+          "md": "$35$",
+          "is_answer": false
+        },
+        {
+          "md": "$29$",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ชุดคี่: $12, 17, 22, 27$ เพิ่มทีละ $5$",
+          "why_md": "แยกตำแหน่งคี่"
+        },
+        {
+          "do_md": "ชุดคู่: $47, 44, 41$ ลดทีละ $3$",
+          "why_md": "แยกตำแหน่งคู่"
+        },
+        {
+          "do_md": "ตำแหน่งที่ 8 เป็นคู่: $41 - 3 = 38$",
+          "why_md": "ใช้ชุดคู่"
+        }
+      ],
+      "answer_explanation_md": "ตอบ $38$ เพราะตำแหน่งที่ 8 อยู่ในชุดคู่ ซึ่งลดลงทีละ $3$",
+      "hints": [
+        "อนุกรมขึ้นลงไม่เป็นระเบียบ ลองแยกพจน์คี่กับคู่",
+        "ตำแหน่งที่ 8 อยู่ในชุดคี่หรือคู่",
+        "ชุดคู่ลดลงทีละ $3$"
+      ],
+      "distractor_reasons": {
+        "0": "ทวนพจน์ก่อนหน้าของชุดคู่",
+        "2": "ต่อชุดคี่แทนชุดคู่",
+        "3": "ลดชุดคู่เกินไปหนึ่งช่วง",
+        "4": "ใช้ผลต่างผสมของทั้งสองชุด"
+      },
+      "misconception_tags": [
+        "wrong_subsequence"
+      ],
+      "template": {
+        "vars": [
+          {
+            "name": "a",
+            "type": "int",
+            "range": [
+              2,
+              15
+            ],
+            "step": 1
+          },
+          {
+            "name": "d",
+            "type": "int",
+            "range": [
+              2,
+              6
+            ],
+            "step": 1
+          },
+          {
+            "name": "b",
+            "type": "int",
+            "range": [
+              30,
+              60
+            ],
+            "step": 1
+          },
+          {
+            "name": "e",
+            "type": "int",
+            "range": [
+              2,
+              5
+            ],
+            "step": 1
+          }
+        ],
+        "constraints": [
+          "(b - 3*e) > 0",
+          "(a + 4*d) > 0",
+          "(b - 2*e) > 0",
+          "(b - 4*e) > 0",
+          "(a + 3*d + d - e) > 0",
+          "(b - 3*e) != (a + 4*d)",
+          "(b - 3*e) != (b - 2*e)",
+          "(b - 3*e) != (b - 4*e)",
+          "(b - 3*e) != (a + 3*d + d - e)",
+          "(a + 4*d) != (b - 2*e)",
+          "(a + 4*d) != (b - 4*e)",
+          "(a + 4*d) != (a + 3*d + d - e)",
+          "(b - 2*e) != (b - 4*e)",
+          "(b - 2*e) != (a + 3*d + d - e)",
+          "(b - 4*e) != (a + 3*d + d - e)",
+          "(a + 4*d) <= 5*(b - 3*e)",
+          "(b - 2*e) <= 5*(b - 3*e)",
+          "(b - 4*e) <= 5*(b - 3*e)",
+          "(a + 3*d + d - e) <= 5*(b - 3*e)",
+          "5*(a + 4*d) >= (b - 3*e)",
+          "5*(b - 2*e) >= (b - 3*e)",
+          "5*(b - 4*e) >= (b - 3*e)",
+          "5*(a + 3*d + d - e) >= (b - 3*e)",
+          "(e) != (b - 3*e)"
+        ],
+        "display": {
+          "o1": "a",
+          "e1": "b",
+          "o2": "a + d",
+          "e2": "b - e",
+          "o3": "a + 2*d",
+          "e3": "b - 2*e",
+          "o4": "a + 3*d"
+        },
+        "stem_tpl": "${o1}, \\; {e1}, \\; {o2}, \\; {e2}, \\; {o3}, \\; {e3}, \\; {o4}, \\; ?$",
+        "answer_expr": "b - 3*e",
+        "answer_round": null,
+        "answer_unit": null,
+        "distractors": [
+          {
+            "expr": "a + 4*d",
+            "reason": "ต่อชุดคี่แทนชุดคู่"
+          },
+          {
+            "expr": "b - 2*e",
+            "reason": "ทวนพจน์ก่อนหน้าของชุดคู่"
+          },
+          {
+            "expr": "b - 4*e",
+            "reason": "ลดชุดคู่เกินไปหนึ่งช่วง"
+          },
+          {
+            "expr": "a + 3*d + d - e",
+            "reason": "ใช้ผลต่างผสมของทั้งสองชุด"
+          }
+        ],
+        "quality_rules": [
+          "ตัวเลือกทุกตัวต้องเป็นจำนวนบวกและไม่ซ้ำกัน",
+          "คำตอบคำนวณจากนิพจน์ ไม่ได้ใส่มือ"
+        ],
+        "quality_exprs": [
+          "answer > 0"
+        ],
+        "steps_tpl": [
+          {
+            "do_md": "ชุดคี่: ${o1}, {o2}, {o3}, {o4}$ เพิ่มทีละ ${d}$",
+            "why_md": "แยกตำแหน่งคี่"
+          },
+          {
+            "do_md": "ชุดคู่: ${e1}, {e2}, {e3}$ ลดทีละ ${e}$",
+            "why_md": "แยกตำแหน่งคู่"
+          },
+          {
+            "do_md": "ตำแหน่งที่ 8 เป็นคู่: ${e3} - {e} = {answer}$",
+            "why_md": "ใช้ชุดคู่"
+          }
+        ],
+        "hints_tpl": [
+          "อนุกรมขึ้นลงไม่เป็นระเบียบ ลองแยกพจน์คี่กับคู่",
+          "ตำแหน่งที่ 8 อยู่ในชุดคี่หรือคู่",
+          "ชุดคู่ลดลงทีละ ${e}$"
+        ],
+        "explanation_tpl": "ตอบ ${answer}$ เพราะตำแหน่งที่ 8 อยู่ในชุดคู่ ซึ่งลดลงทีละ ${e}$"
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    }
+  ],
+  "generated_from": "content/tgat2/numerical_series2.py"
+}

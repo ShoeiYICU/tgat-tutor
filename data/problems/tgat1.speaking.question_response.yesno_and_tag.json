@@ -1,0 +1,599 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tgat1.speaking.question_response.yesno_and_tag",
+  "problems": [
+    {
+      "id": "prob.tgat1.speaking.question_response.yesno_and_tag.0001",
+      "topic_ids": [
+        "tgat1.speaking.question_response.yesno_and_tag"
+      ],
+      "primary_topic_id": "tgat1.speaking.question_response.yesno_and_tag",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 25,
+      "stem_md": "**A:** Have you ever been to Phuket?  \n**B:** ______ I went there last summer.",
+      "figures": [],
+      "choices": [
+        {
+          "md": "No, I haven't.",
+          "is_answer": false
+        },
+        {
+          "md": "Yes, I went.",
+          "is_answer": false
+        },
+        {
+          "md": "Yes, I have.",
+          "is_answer": true
+        },
+        {
+          "md": "Yes, I did.",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ข้อเท็จจริง: เคยไปแล้ว",
+          "why_md": "Yes + บอกเล่า"
+        },
+        {
+          "do_md": "กริยาช่วยของคำถาม: have",
+          "why_md": "Yes, I have."
+        }
+      ],
+      "answer_explanation_md": "ตอบ Yes, I have. เพราะ B เคยไปแล้ว และคำถามใช้ have จึงต้องตอบด้วย have",
+      "hints": [
+        "B เคยไปภูเก็ตไหม ดูจากประโยคที่ตามมา",
+        "คำถามใช้กริยาช่วยตัวไหน",
+        "คำตอบสั้นต้องใช้กริยาช่วยตัวเดียวกับคำถาม"
+      ],
+      "distractor_reasons": {
+        "0": "ขัดกับประโยคถัดไปที่บอกว่าไปมาแล้ว",
+        "1": "ไม่ใช่รูปคำตอบสั้นมาตรฐาน",
+        "3": "คำถามใช้ have ต้องตอบด้วย have ไม่ใช่ did"
+      },
+      "misconception_tags": [
+        "auxiliary_mismatch"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.question_response.yesno_and_tag.0002",
+      "topic_ids": [
+        "tgat1.speaking.question_response.yesno_and_tag"
+      ],
+      "primary_topic_id": "tgat1.speaking.question_response.yesno_and_tag",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 30,
+      "stem_md": "**A:** Aren't you hungry?  \n**B:** ______ I just had a big lunch.",
+      "figures": [],
+      "choices": [
+        {
+          "md": "No, I'm not.",
+          "is_answer": true
+        },
+        {
+          "md": "No, I am.",
+          "is_answer": false
+        },
+        {
+          "md": "Yes, I'm not.",
+          "is_answer": false
+        },
+        {
+          "md": "Yes, I am.",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ข้อเท็จจริง: ไม่หิวเพราะเพิ่งกินมา",
+          "why_md": "ข้อเท็จจริงเป็นปฏิเสธ"
+        },
+        {
+          "do_md": "No + ปฏิเสธ",
+          "why_md": "No, I'm not."
+        }
+      ],
+      "answer_explanation_md": "ตอบ No, I'm not. เพราะ B ไม่หิว ข้อเท็จจริงเป็นปฏิเสธ จึงใช้ No ตามด้วยปฏิเสธ",
+      "hints": [
+        "B หิวหรือไม่หิว ดูจากเหตุผลที่ตามมา",
+        "ภาษาอังกฤษตอบ Yes/No ตามอะไร",
+        "No ต้องตามด้วยประโยคแบบไหน"
+      ],
+      "distractor_reasons": {
+        "1": "ผสม No กับประโยคบอกเล่า",
+        "2": "ผสม Yes กับประโยคปฏิเสธ ซึ่งผิดไวยากรณ์",
+        "3": "ขัดกับเหตุผลว่าเพิ่งกินข้าวมาเยอะ"
+      },
+      "misconception_tags": [
+        "thai_style_yes_no"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.question_response.yesno_and_tag.0003",
+      "topic_ids": [
+        "tgat1.speaking.question_response.yesno_and_tag"
+      ],
+      "primary_topic_id": "tgat1.speaking.question_response.yesno_and_tag",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 25,
+      "stem_md": "**A:** It's a beautiful day, isn't it?  \n**B:** ______ Let's go for a walk.",
+      "figures": [],
+      "choices": [
+        {
+          "md": "No, it isn't.",
+          "is_answer": false
+        },
+        {
+          "md": "Yes, it does.",
+          "is_answer": false
+        },
+        {
+          "md": "Yes, it isn't.",
+          "is_answer": false
+        },
+        {
+          "md": "Yes, it is.",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ข้อเท็จจริง: อากาศดีจริง (B ชวนไปเดินเล่น)",
+          "why_md": "Yes + บอกเล่า"
+        },
+        {
+          "do_md": "กริยาช่วยของประโยคหลัก: is",
+          "why_md": "Yes, it is."
+        }
+      ],
+      "answer_explanation_md": "ตอบ Yes, it is. เพราะ B เห็นว่าอากาศดีจริงและชวนไปเดินเล่น ใช้กริยาช่วย is ตามประโยคหลัก",
+      "hints": [
+        "B คิดว่าอากาศดีไหม ดูจากสิ่งที่ B ชวน",
+        "ประโยคหลักใช้กริยาช่วยตัวไหน",
+        "Yes ต้องตามด้วยประโยคแบบไหน"
+      ],
+      "distractor_reasons": {
+        "0": "ขัดกับการชวนออกไปเดินเล่น",
+        "1": "ใช้กริยาช่วยผิด ประโยคหลักใช้ is",
+        "2": "ผสม Yes กับปฏิเสธ"
+      },
+      "misconception_tags": [
+        "auxiliary_mismatch"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.question_response.yesno_and_tag.0004",
+      "topic_ids": [
+        "tgat1.speaking.question_response.yesno_and_tag"
+      ],
+      "primary_topic_id": "tgat1.speaking.question_response.yesno_and_tag",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 4,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 2,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 45,
+      "stem_md": "**A:** You won't forget to bring the tickets, will you?  \n**B:** ______ They're already in my bag.",
+      "figures": [],
+      "choices": [
+        {
+          "md": "No, I don't.",
+          "is_answer": false
+        },
+        {
+          "md": "No, I won't.",
+          "is_answer": true
+        },
+        {
+          "md": "Yes, I won't.",
+          "is_answer": false
+        },
+        {
+          "md": "Yes, I will.",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ข้อเท็จจริง: จะไม่ลืม เพราะตั๋วอยู่ในกระเป๋าแล้ว",
+          "why_md": "ข้อเท็จจริงเป็นปฏิเสธ (won't forget)"
+        },
+        {
+          "do_md": "No + ปฏิเสธ ด้วยกริยาช่วย will",
+          "why_md": "No, I won't."
+        }
+      ],
+      "answer_explanation_md": "ตอบ No, I won't. เพราะ B จะไม่ลืม (ตั๋วอยู่ในกระเป๋าแล้ว) ข้อเท็จจริงเทียบกับ forget เป็นปฏิเสธ จึงใช้ No ตามด้วย won't",
+      "hints": [
+        "คำถามคือ 'จะลืมไหม' B จะลืมหรือไม่ลืม",
+        "ข้อเท็จจริง 'จะไม่ลืม' เป็นบอกเล่าหรือปฏิเสธเมื่อเทียบกับกริยา forget",
+        "คำตอบสั้นต้องใช้กริยาช่วยตัวเดียวกับคำถาม"
+      ],
+      "distractor_reasons": {
+        "0": "ใช้กริยาช่วยผิด ต้องเป็น will",
+        "2": "ผสม Yes กับปฏิเสธ",
+        "3": "แปลว่าจะลืม ขัดกับที่บอกว่าตั๋วอยู่ในกระเป๋าแล้ว"
+      },
+      "misconception_tags": [
+        "thai_style_yes_no"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.question_response.yesno_and_tag.0005",
+      "topic_ids": [
+        "tgat1.speaking.question_response.yesno_and_tag"
+      ],
+      "primary_topic_id": "tgat1.speaking.question_response.yesno_and_tag",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 35,
+      "stem_md": "**A:** Didn't you see my message?  \n**B:** ______ My phone was off all afternoon.",
+      "figures": [],
+      "choices": [
+        {
+          "md": "No, I haven't seen.",
+          "is_answer": false
+        },
+        {
+          "md": "No, I didn't. Sorry about that.",
+          "is_answer": true
+        },
+        {
+          "md": "Yes, I didn't.",
+          "is_answer": false
+        },
+        {
+          "md": "Yes, I did. My phone was off all afternoon, though.",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ข้อเท็จจริง: ไม่เห็นข้อความ เพราะโทรศัพท์ปิด",
+          "why_md": "No + ปฏิเสธ"
+        },
+        {
+          "do_md": "กริยาช่วยของคำถาม: did",
+          "why_md": "No, I didn't."
+        }
+      ],
+      "answer_explanation_md": "ตอบ No, I didn't. Sorry about that. เพราะ B ไม่เห็นข้อความ จึงใช้ No ตามด้วยปฏิเสธด้วยกริยาช่วย did",
+      "hints": [
+        "B เห็นข้อความไหม ดูจากเหตุผลที่ตามมา",
+        "คำถามปฏิเสธ Didn't you... ตอบตามข้อเท็จจริงหรือตามคำถาม",
+        "กริยาช่วยในคำตอบต้องตรงกับคำถาม"
+      ],
+      "distractor_reasons": {
+        "0": "ใช้กริยาช่วยไม่ตรงกับคำถามที่ใช้ did",
+        "2": "ผสม Yes กับปฏิเสธ",
+        "3": "บอกว่าเห็นข้อความ ขัดกับเหตุผลว่าโทรศัพท์ปิด"
+      },
+      "misconception_tags": [
+        "thai_style_yes_no"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.question_response.yesno_and_tag.0006",
+      "topic_ids": [
+        "tgat1.speaking.question_response.yesno_and_tag"
+      ],
+      "primary_topic_id": "tgat1.speaking.question_response.yesno_and_tag",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 30,
+      "stem_md": "**A:** She can speak Japanese, can't she?  \n**B:** ______ She works as a Japanese interpreter.",
+      "figures": [],
+      "choices": [
+        {
+          "md": "Yes, she can.",
+          "is_answer": true
+        },
+        {
+          "md": "Yes, she does.",
+          "is_answer": false
+        },
+        {
+          "md": "No, she can't.",
+          "is_answer": false
+        },
+        {
+          "md": "Yes, she can't.",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ข้อเท็จจริง: พูดภาษาญี่ปุ่นได้ เพราะทำงานเป็นล่ามภาษาญี่ปุ่น",
+          "why_md": "Yes + บอกเล่า"
+        },
+        {
+          "do_md": "กริยาช่วยของประโยคหลัก: can",
+          "why_md": "Yes, she can."
+        }
+      ],
+      "answer_explanation_md": "ตอบ Yes, she can. เพราะอาชีพล่ามภาษาญี่ปุ่นยืนยันว่าเธอพูดภาษาญี่ปุ่นได้ และประโยคหลักใช้ can",
+      "hints": [
+        "เธอพูดภาษาญี่ปุ่นได้ไหม ดูจากอาชีพที่ตามมา",
+        "ประโยคหลักใช้กริยาช่วยตัวไหน",
+        "Yes ต้องตามด้วยบอกเล่า"
+      ],
+      "distractor_reasons": {
+        "1": "ใช้กริยาช่วยผิด ประโยคหลักใช้ can",
+        "2": "ขัดกับข้อมูลว่าเธอทำงานเป็นล่ามภาษาญี่ปุ่น",
+        "3": "ผสม Yes กับปฏิเสธ"
+      },
+      "misconception_tags": [
+        "auxiliary_mismatch"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.question_response.yesno_and_tag.0007",
+      "topic_ids": [
+        "tgat1.speaking.question_response.yesno_and_tag"
+      ],
+      "primary_topic_id": "tgat1.speaking.question_response.yesno_and_tag",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 45,
+      "stem_md": "**A:** Haven't you submitted the form yet?  \n**B:** ______",
+      "figures": [],
+      "choices": [
+        {
+          "md": "Yes, I haven't.",
+          "is_answer": false
+        },
+        {
+          "md": "No, I submitted it yesterday.",
+          "is_answer": false
+        },
+        {
+          "md": "Yes, the form isn't a signature.",
+          "is_answer": false
+        },
+        {
+          "md": "No, not yet. I'm waiting for one signature.",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ระบุหน้าที่ของประโยค",
+          "why_md": "คำถามปฏิเสธต้องตอบตามข้อเท็จจริงว่าส่งหรือยัง"
+        },
+        {
+          "do_md": "ตรวจคำตอบกับบริบทและระดับภาษา",
+          "why_md": "คำตอบต้องทำหน้าที่ต่อบทสนทนา ไม่ใช่แค่มีคำซ้ำ"
+        }
+      ],
+      "answer_explanation_md": "No, not yet สอดคล้องกับการยังรอลายเซ็น",
+      "hints": [
+        "ดูว่าผู้พูดกำลังถาม ขอ เชิญ หรือแสดงความรู้สึก",
+        "ตัดตัวเลือกที่ไวยากรณ์ได้แต่ตอบคนละหน้าที่",
+        "เลือกคำตอบที่ทำให้บทสนทนาดำเนินต่ออย่างเป็นธรรมชาติ"
+      ],
+      "distractor_reasons": {
+        "0": "yes ขัดกับประโยคปฏิเสธที่ตามมา",
+        "1": "no ขัดกับข้อเท็จจริงที่บอกว่าส่งแล้ว",
+        "2": "ไม่ตอบสถานะการส่งและความหมายผิด"
+      },
+      "misconception_tags": [
+        "thai_style_yes_no"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.question_response.yesno_and_tag.0008",
+      "topic_ids": [
+        "tgat1.speaking.question_response.yesno_and_tag"
+      ],
+      "primary_topic_id": "tgat1.speaking.question_response.yesno_and_tag",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 5,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": true,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 55,
+      "stem_md": "**A:** You didn't copy the final file over the draft, did you?  \n**B:** ______",
+      "figures": [],
+      "choices": [
+        {
+          "md": "No, I didn't not copy it.",
+          "is_answer": false
+        },
+        {
+          "md": "The final file did, didn't it?",
+          "is_answer": false
+        },
+        {
+          "md": "I'm afraid I did, but the backup should restore it.",
+          "is_answer": true
+        },
+        {
+          "md": "Yes, I didn't copy the draft.",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ระบุหน้าที่ของประโยค",
+          "why_md": "tag question ใช้ยืนยันเหตุที่ผู้ถามกังวล"
+        },
+        {
+          "do_md": "ตรวจคำตอบกับบริบทและระดับภาษา",
+          "why_md": "คำตอบต้องทำหน้าที่ต่อบทสนทนา ไม่ใช่แค่มีคำซ้ำ"
+        }
+      ],
+      "answer_explanation_md": "I did ยืนยันว่าเผลอเขียนทับจริง แล้วกล่าวถึงทางกู้คืน",
+      "hints": [
+        "ดูว่าผู้พูดกำลังถาม ขอ เชิญ หรือแสดงความรู้สึก",
+        "ตัดตัวเลือกที่ไวยากรณ์ได้แต่ตอบคนละหน้าที่",
+        "เลือกคำตอบที่ทำให้บทสนทนาดำเนินต่ออย่างเป็นธรรมชาติ"
+      ],
+      "distractor_reasons": {
+        "0": "ปฏิเสธซ้อนจนความหมายไม่ชัด",
+        "1": "ให้ไฟล์เป็นผู้กระทำและเลียน tag โดยไม่ตอบ",
+        "3": "yes ขัดกับ didn't และเปลี่ยนกรรม"
+      },
+      "misconception_tags": [
+        "auxiliary_mismatch"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    }
+  ],
+  "generated_from": "content/tgat1/speaking_qr.py"
+}

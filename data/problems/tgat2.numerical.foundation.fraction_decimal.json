@@ -1,0 +1,1107 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tgat2.numerical.foundation.fraction_decimal",
+  "problems": [
+    {
+      "id": "prob.tgat2.numerical.foundation.fraction_decimal.0001",
+      "topic_ids": [
+        "tgat2.numerical.foundation.fraction_decimal"
+      ],
+      "primary_topic_id": "tgat2.numerical.foundation.fraction_decimal",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 30,
+      "stem_md": "$\\frac{5}{7}$ ของ $77$ เท่ากับเท่าไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "$66$",
+          "is_answer": false
+        },
+        {
+          "md": "$55$",
+          "is_answer": true
+        },
+        {
+          "md": "$11$",
+          "is_answer": false
+        },
+        {
+          "md": "$44$",
+          "is_answer": false
+        },
+        {
+          "md": "$22$",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "หารด้วยส่วน: $77 \\div 7 = 11$",
+          "why_md": "หาค่าของหนึ่งส่วน"
+        },
+        {
+          "do_md": "คูณด้วยเศษ: $11 \\times 5 = 55$",
+          "why_md": "ต้องการ $5$ ส่วน"
+        }
+      ],
+      "answer_explanation_md": "ตอบ $55$ เพราะหนึ่งส่วนเท่ากับ $11$ และต้องการ $5$ ส่วน",
+      "hints": [
+        "เริ่มจากหาค่าของหนึ่งส่วนก่อน",
+        "หนึ่งส่วนคือ $77 \\div 7$",
+        "ได้หนึ่งส่วนเท่ากับ $11$ แล้วต้องคูณด้วยอะไร"
+      ],
+      "distractor_reasons": {
+        "0": "คูณด้วยเศษเกินไปหนึ่ง",
+        "2": "หาค่าของหนึ่งส่วนแล้วหยุด ลืมคูณด้วยเศษ",
+        "3": "คูณด้วยเศษขาดไปหนึ่ง",
+        "4": "หาส่วนที่เหลือแทนส่วนที่ถาม"
+      },
+      "misconception_tags": [],
+      "template": {
+        "vars": [
+          {
+            "name": "q",
+            "type": "int",
+            "range": [
+              3,
+              9
+            ],
+            "step": 1
+          },
+          {
+            "name": "p",
+            "type": "int",
+            "range": [
+              2,
+              8
+            ],
+            "step": 1
+          },
+          {
+            "name": "m",
+            "type": "int",
+            "range": [
+              4,
+              15
+            ],
+            "step": 1
+          }
+        ],
+        "constraints": [
+          "p < q",
+          "p != q - p",
+          "p > 2",
+          "(q - p) != (p + 1)",
+          "(q - p) != (p - 1)",
+          "(p*m) > 0",
+          "(m) > 0",
+          "((q - p)*m) > 0",
+          "((p + 1)*m) > 0",
+          "((p - 1)*m) > 0",
+          "(p*m) != (m)",
+          "(p*m) != ((q - p)*m)",
+          "(p*m) != ((p + 1)*m)",
+          "(p*m) != ((p - 1)*m)",
+          "(m) != ((q - p)*m)",
+          "(m) != ((p + 1)*m)",
+          "(m) != ((p - 1)*m)",
+          "((q - p)*m) != ((p + 1)*m)",
+          "((q - p)*m) != ((p - 1)*m)",
+          "((p + 1)*m) != ((p - 1)*m)",
+          "(m) <= 5*(p*m)",
+          "((q - p)*m) <= 5*(p*m)",
+          "((p + 1)*m) <= 5*(p*m)",
+          "((p - 1)*m) <= 5*(p*m)",
+          "5*(m) >= (p*m)",
+          "5*((q - p)*m) >= (p*m)",
+          "5*((p + 1)*m) >= (p*m)",
+          "5*((p - 1)*m) >= (p*m)",
+          "(m) != (p*m)",
+          "(n) != (p*m)",
+          "(q) != (p*m)"
+        ],
+        "display": {
+          "n": "q*m"
+        },
+        "stem_tpl": "$\\frac{{p}}{{q}}$ ของ ${n}$ เท่ากับเท่าไร",
+        "answer_expr": "p*m",
+        "answer_round": null,
+        "answer_unit": null,
+        "distractors": [
+          {
+            "expr": "m",
+            "reason": "หาค่าของหนึ่งส่วนแล้วหยุด ลืมคูณด้วยเศษ"
+          },
+          {
+            "expr": "(q - p)*m",
+            "reason": "หาส่วนที่เหลือแทนส่วนที่ถาม"
+          },
+          {
+            "expr": "(p + 1)*m",
+            "reason": "คูณด้วยเศษเกินไปหนึ่ง"
+          },
+          {
+            "expr": "(p - 1)*m",
+            "reason": "คูณด้วยเศษขาดไปหนึ่ง"
+          }
+        ],
+        "quality_rules": [
+          "ตัวเลือกทุกตัวต้องเป็นจำนวนบวกและไม่ซ้ำกัน",
+          "คำตอบคำนวณจากนิพจน์ ไม่ได้ใส่มือ"
+        ],
+        "quality_exprs": [
+          "answer > 0"
+        ],
+        "steps_tpl": [
+          {
+            "do_md": "หารด้วยส่วน: ${n} \\div {q} = {m}$",
+            "why_md": "หาค่าของหนึ่งส่วน"
+          },
+          {
+            "do_md": "คูณด้วยเศษ: ${m} \\times {p} = {answer}$",
+            "why_md": "ต้องการ ${p}$ ส่วน"
+          }
+        ],
+        "hints_tpl": [
+          "เริ่มจากหาค่าของหนึ่งส่วนก่อน",
+          "หนึ่งส่วนคือ ${n} \\div {q}$",
+          "ได้หนึ่งส่วนเท่ากับ ${m}$ แล้วต้องคูณด้วยอะไร"
+        ],
+        "explanation_tpl": "ตอบ ${answer}$ เพราะหนึ่งส่วนเท่ากับ ${m}$ และต้องการ ${p}$ ส่วน"
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.numerical.foundation.fraction_decimal.0002",
+      "topic_ids": [
+        "tgat2.numerical.foundation.fraction_decimal"
+      ],
+      "primary_topic_id": "tgat2.numerical.foundation.fraction_decimal",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 35,
+      "stem_md": "$\\frac{3}{8}$ ของ $72$ เท่ากับเท่าไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "$27$",
+          "is_answer": true
+        },
+        {
+          "md": "$36$",
+          "is_answer": false
+        },
+        {
+          "md": "$9$",
+          "is_answer": false
+        },
+        {
+          "md": "$18$",
+          "is_answer": false
+        },
+        {
+          "md": "$45$",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "หารด้วยส่วน: $72 \\div 8 = 9$",
+          "why_md": "หาค่าของหนึ่งส่วน"
+        },
+        {
+          "do_md": "คูณด้วยเศษ: $9 \\times 3 = 27$",
+          "why_md": "ต้องการ $3$ ส่วน"
+        }
+      ],
+      "answer_explanation_md": "ตอบ $27$ เพราะหนึ่งส่วนเท่ากับ $9$ และต้องการ $3$ ส่วน",
+      "hints": [
+        "เริ่มจากหาค่าของหนึ่งส่วนก่อน",
+        "หนึ่งส่วนคือ $72 \\div 8$",
+        "ได้หนึ่งส่วนเท่ากับ $9$ แล้วต้องคูณด้วยอะไร"
+      ],
+      "distractor_reasons": {
+        "1": "คูณด้วยเศษเกินไปหนึ่ง",
+        "2": "หาค่าของหนึ่งส่วนแล้วหยุด ลืมคูณด้วยเศษ",
+        "3": "คูณด้วยเศษขาดไปหนึ่ง",
+        "4": "หาส่วนที่เหลือแทนส่วนที่ถาม"
+      },
+      "misconception_tags": [],
+      "template": {
+        "vars": [
+          {
+            "name": "q",
+            "type": "int",
+            "range": [
+              3,
+              9
+            ],
+            "step": 1
+          },
+          {
+            "name": "p",
+            "type": "int",
+            "range": [
+              2,
+              8
+            ],
+            "step": 1
+          },
+          {
+            "name": "m",
+            "type": "int",
+            "range": [
+              4,
+              15
+            ],
+            "step": 1
+          }
+        ],
+        "constraints": [
+          "p < q",
+          "p != q - p",
+          "p > 2",
+          "(q - p) != (p + 1)",
+          "(q - p) != (p - 1)",
+          "(p*m) > 0",
+          "(m) > 0",
+          "((q - p)*m) > 0",
+          "((p + 1)*m) > 0",
+          "((p - 1)*m) > 0",
+          "(p*m) != (m)",
+          "(p*m) != ((q - p)*m)",
+          "(p*m) != ((p + 1)*m)",
+          "(p*m) != ((p - 1)*m)",
+          "(m) != ((q - p)*m)",
+          "(m) != ((p + 1)*m)",
+          "(m) != ((p - 1)*m)",
+          "((q - p)*m) != ((p + 1)*m)",
+          "((q - p)*m) != ((p - 1)*m)",
+          "((p + 1)*m) != ((p - 1)*m)",
+          "(m) <= 5*(p*m)",
+          "((q - p)*m) <= 5*(p*m)",
+          "((p + 1)*m) <= 5*(p*m)",
+          "((p - 1)*m) <= 5*(p*m)",
+          "5*(m) >= (p*m)",
+          "5*((q - p)*m) >= (p*m)",
+          "5*((p + 1)*m) >= (p*m)",
+          "5*((p - 1)*m) >= (p*m)",
+          "(m) != (p*m)",
+          "(n) != (p*m)",
+          "(q) != (p*m)"
+        ],
+        "display": {
+          "n": "q*m"
+        },
+        "stem_tpl": "$\\frac{{p}}{{q}}$ ของ ${n}$ เท่ากับเท่าไร",
+        "answer_expr": "p*m",
+        "answer_round": null,
+        "answer_unit": null,
+        "distractors": [
+          {
+            "expr": "m",
+            "reason": "หาค่าของหนึ่งส่วนแล้วหยุด ลืมคูณด้วยเศษ"
+          },
+          {
+            "expr": "(q - p)*m",
+            "reason": "หาส่วนที่เหลือแทนส่วนที่ถาม"
+          },
+          {
+            "expr": "(p + 1)*m",
+            "reason": "คูณด้วยเศษเกินไปหนึ่ง"
+          },
+          {
+            "expr": "(p - 1)*m",
+            "reason": "คูณด้วยเศษขาดไปหนึ่ง"
+          }
+        ],
+        "quality_rules": [
+          "ตัวเลือกทุกตัวต้องเป็นจำนวนบวกและไม่ซ้ำกัน",
+          "คำตอบคำนวณจากนิพจน์ ไม่ได้ใส่มือ"
+        ],
+        "quality_exprs": [
+          "answer > 0"
+        ],
+        "steps_tpl": [
+          {
+            "do_md": "หารด้วยส่วน: ${n} \\div {q} = {m}$",
+            "why_md": "หาค่าของหนึ่งส่วน"
+          },
+          {
+            "do_md": "คูณด้วยเศษ: ${m} \\times {p} = {answer}$",
+            "why_md": "ต้องการ ${p}$ ส่วน"
+          }
+        ],
+        "hints_tpl": [
+          "เริ่มจากหาค่าของหนึ่งส่วนก่อน",
+          "หนึ่งส่วนคือ ${n} \\div {q}$",
+          "ได้หนึ่งส่วนเท่ากับ ${m}$ แล้วต้องคูณด้วยอะไร"
+        ],
+        "explanation_tpl": "ตอบ ${answer}$ เพราะหนึ่งส่วนเท่ากับ ${m}$ และต้องการ ${p}$ ส่วน"
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.numerical.foundation.fraction_decimal.0003",
+      "topic_ids": [
+        "tgat2.numerical.foundation.fraction_decimal"
+      ],
+      "primary_topic_id": "tgat2.numerical.foundation.fraction_decimal",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 40,
+      "stem_md": "$\\frac{1}{3} + \\frac{1}{5} = \\frac{x}{15}$ ค่าของ $x$ เท่ากับเท่าไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "$3$",
+          "is_answer": false
+        },
+        {
+          "md": "$9$",
+          "is_answer": false
+        },
+        {
+          "md": "$5$",
+          "is_answer": false
+        },
+        {
+          "md": "$8$",
+          "is_answer": true
+        },
+        {
+          "md": "$2$",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ทำส่วนให้เท่ากันเป็น $15$: $\\frac{1}{3} = \\frac{5}{15}$ และ $\\frac{1}{5} = \\frac{3}{15}$",
+          "why_md": "บวกเศษส่วนได้ต่อเมื่อส่วนเท่ากัน"
+        },
+        {
+          "do_md": "บวกเศษ: $5 + 3 = 8$",
+          "why_md": "ส่วนเท่ากันแล้ว บวกเฉพาะเศษ"
+        }
+      ],
+      "answer_explanation_md": "ตอบ $8$ เพราะเมื่อทำส่วนเป็น $15$ จะได้ $5$ กับ $3$ ส่วน รวมเป็น $8$",
+      "hints": [
+        "บวกเศษส่วนต้องทำอะไรกับตัวส่วนก่อน",
+        "แปลงทั้งสองเศษส่วนให้มีส่วนเป็น $15$",
+        "$\\frac{1}{3}$ กลายเป็นกี่ส่วน $15$"
+      ],
+      "distractor_reasons": {
+        "0": "แปลงแค่เศษส่วนตัวหลัง",
+        "1": "บวกเกินไปหนึ่ง",
+        "2": "แปลงแค่เศษส่วนตัวแรก",
+        "4": "บวกเศษกับเศษ โดยไม่ได้ทำส่วนให้เท่ากัน"
+      },
+      "misconception_tags": [
+        "add_denominators"
+      ],
+      "template": {
+        "vars": [
+          {
+            "name": "a",
+            "type": "choice",
+            "options": [
+              2,
+              3,
+              4,
+              5
+            ]
+          },
+          {
+            "name": "b",
+            "type": "choice",
+            "options": [
+              3,
+              5,
+              6,
+              7,
+              9
+            ]
+          }
+        ],
+        "constraints": [
+          "a < b",
+          "b % a != 0",
+          "a*b > 6",
+          "(l//a + l//b) > 0",
+          "(2) > 0",
+          "(l//a) > 0",
+          "(l//b) > 0",
+          "(l//a + l//b + 1) > 0",
+          "(l//a + l//b) != (2)",
+          "(l//a + l//b) != (l//a)",
+          "(l//a + l//b) != (l//b)",
+          "(l//a + l//b) != (l//a + l//b + 1)",
+          "(2) != (l//a)",
+          "(2) != (l//b)",
+          "(2) != (l//a + l//b + 1)",
+          "(l//a) != (l//b)",
+          "(l//a) != (l//a + l//b + 1)",
+          "(l//b) != (l//a + l//b + 1)",
+          "(2) <= 5*(l//a + l//b)",
+          "(l//a) <= 5*(l//a + l//b)",
+          "(l//b) <= 5*(l//a + l//b)",
+          "(l//a + l//b + 1) <= 5*(l//a + l//b)",
+          "5*(2) >= (l//a + l//b)",
+          "5*(l//a) >= (l//a + l//b)",
+          "5*(l//b) >= (l//a + l//b)",
+          "5*(l//a + l//b + 1) >= (l//a + l//b)",
+          "(a) != (l//a + l//b)",
+          "(l) != (l//a + l//b)"
+        ],
+        "display": {
+          "l": "a*b",
+          "ea": "b",
+          "eb": "a"
+        },
+        "stem_tpl": "$\\frac{1}{{a}} + \\frac{1}{{b}} = \\frac{x}{{l}}$ ค่าของ $x$ เท่ากับเท่าไร",
+        "answer_expr": "l//a + l//b",
+        "answer_round": null,
+        "answer_unit": null,
+        "distractors": [
+          {
+            "expr": "2",
+            "reason": "บวกเศษกับเศษ โดยไม่ได้ทำส่วนให้เท่ากัน"
+          },
+          {
+            "expr": "l//a",
+            "reason": "แปลงแค่เศษส่วนตัวแรก"
+          },
+          {
+            "expr": "l//b",
+            "reason": "แปลงแค่เศษส่วนตัวหลัง"
+          },
+          {
+            "expr": "l//a + l//b + 1",
+            "reason": "บวกเกินไปหนึ่ง"
+          }
+        ],
+        "quality_rules": [
+          "ตัวเลือกทุกตัวต้องเป็นจำนวนบวกและไม่ซ้ำกัน",
+          "คำตอบคำนวณจากนิพจน์ ไม่ได้ใส่มือ"
+        ],
+        "quality_exprs": [
+          "answer > 2"
+        ],
+        "steps_tpl": [
+          {
+            "do_md": "ทำส่วนให้เท่ากันเป็น ${l}$: $\\frac{1}{{a}} = \\frac{{ea}}{{l}}$ และ $\\frac{1}{{b}} = \\frac{{eb}}{{l}}$",
+            "why_md": "บวกเศษส่วนได้ต่อเมื่อส่วนเท่ากัน"
+          },
+          {
+            "do_md": "บวกเศษ: ${ea} + {eb} = {answer}$",
+            "why_md": "ส่วนเท่ากันแล้ว บวกเฉพาะเศษ"
+          }
+        ],
+        "hints_tpl": [
+          "บวกเศษส่วนต้องทำอะไรกับตัวส่วนก่อน",
+          "แปลงทั้งสองเศษส่วนให้มีส่วนเป็น ${l}$",
+          "$\\frac{1}{{a}}$ กลายเป็นกี่ส่วน ${l}$"
+        ],
+        "explanation_tpl": "ตอบ ${answer}$ เพราะเมื่อทำส่วนเป็น ${l}$ จะได้ ${ea}$ กับ ${eb}$ ส่วน รวมเป็น ${answer}$"
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.numerical.foundation.fraction_decimal.0004",
+      "topic_ids": [
+        "tgat2.numerical.foundation.fraction_decimal"
+      ],
+      "primary_topic_id": "tgat2.numerical.foundation.fraction_decimal",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 45,
+      "stem_md": "$\\frac{1}{4} + \\frac{1}{6} = \\frac{x}{24}$ ค่าของ $x$ เท่ากับเท่าไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "$10$",
+          "is_answer": true
+        },
+        {
+          "md": "$11$",
+          "is_answer": false
+        },
+        {
+          "md": "$2$",
+          "is_answer": false
+        },
+        {
+          "md": "$6$",
+          "is_answer": false
+        },
+        {
+          "md": "$4$",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ทำส่วนให้เท่ากันเป็น $24$: $\\frac{1}{4} = \\frac{6}{24}$ และ $\\frac{1}{6} = \\frac{4}{24}$",
+          "why_md": "บวกเศษส่วนได้ต่อเมื่อส่วนเท่ากัน"
+        },
+        {
+          "do_md": "บวกเศษ: $6 + 4 = 10$",
+          "why_md": "ส่วนเท่ากันแล้ว บวกเฉพาะเศษ"
+        }
+      ],
+      "answer_explanation_md": "ตอบ $10$ เพราะเมื่อทำส่วนเป็น $24$ จะได้ $6$ กับ $4$ ส่วน รวมเป็น $10$",
+      "hints": [
+        "บวกเศษส่วนต้องทำอะไรกับตัวส่วนก่อน",
+        "แปลงทั้งสองเศษส่วนให้มีส่วนเป็น $24$",
+        "$\\frac{1}{4}$ กลายเป็นกี่ส่วน $24$"
+      ],
+      "distractor_reasons": {
+        "1": "บวกเกินไปหนึ่ง",
+        "2": "บวกเศษกับเศษ โดยไม่ได้ทำส่วนให้เท่ากัน",
+        "3": "แปลงแค่เศษส่วนตัวแรก",
+        "4": "แปลงแค่เศษส่วนตัวหลัง"
+      },
+      "misconception_tags": [
+        "add_denominators"
+      ],
+      "template": {
+        "vars": [
+          {
+            "name": "a",
+            "type": "choice",
+            "options": [
+              2,
+              3,
+              4,
+              5
+            ]
+          },
+          {
+            "name": "b",
+            "type": "choice",
+            "options": [
+              3,
+              5,
+              6,
+              7,
+              9
+            ]
+          }
+        ],
+        "constraints": [
+          "a < b",
+          "b % a != 0",
+          "a*b > 6",
+          "(l//a + l//b) > 0",
+          "(2) > 0",
+          "(l//a) > 0",
+          "(l//b) > 0",
+          "(l//a + l//b + 1) > 0",
+          "(l//a + l//b) != (2)",
+          "(l//a + l//b) != (l//a)",
+          "(l//a + l//b) != (l//b)",
+          "(l//a + l//b) != (l//a + l//b + 1)",
+          "(2) != (l//a)",
+          "(2) != (l//b)",
+          "(2) != (l//a + l//b + 1)",
+          "(l//a) != (l//b)",
+          "(l//a) != (l//a + l//b + 1)",
+          "(l//b) != (l//a + l//b + 1)",
+          "(2) <= 5*(l//a + l//b)",
+          "(l//a) <= 5*(l//a + l//b)",
+          "(l//b) <= 5*(l//a + l//b)",
+          "(l//a + l//b + 1) <= 5*(l//a + l//b)",
+          "5*(2) >= (l//a + l//b)",
+          "5*(l//a) >= (l//a + l//b)",
+          "5*(l//b) >= (l//a + l//b)",
+          "5*(l//a + l//b + 1) >= (l//a + l//b)",
+          "(a) != (l//a + l//b)",
+          "(l) != (l//a + l//b)"
+        ],
+        "display": {
+          "l": "a*b",
+          "ea": "b",
+          "eb": "a"
+        },
+        "stem_tpl": "$\\frac{1}{{a}} + \\frac{1}{{b}} = \\frac{x}{{l}}$ ค่าของ $x$ เท่ากับเท่าไร",
+        "answer_expr": "l//a + l//b",
+        "answer_round": null,
+        "answer_unit": null,
+        "distractors": [
+          {
+            "expr": "2",
+            "reason": "บวกเศษกับเศษ โดยไม่ได้ทำส่วนให้เท่ากัน"
+          },
+          {
+            "expr": "l//a",
+            "reason": "แปลงแค่เศษส่วนตัวแรก"
+          },
+          {
+            "expr": "l//b",
+            "reason": "แปลงแค่เศษส่วนตัวหลัง"
+          },
+          {
+            "expr": "l//a + l//b + 1",
+            "reason": "บวกเกินไปหนึ่ง"
+          }
+        ],
+        "quality_rules": [
+          "ตัวเลือกทุกตัวต้องเป็นจำนวนบวกและไม่ซ้ำกัน",
+          "คำตอบคำนวณจากนิพจน์ ไม่ได้ใส่มือ"
+        ],
+        "quality_exprs": [
+          "answer > 2"
+        ],
+        "steps_tpl": [
+          {
+            "do_md": "ทำส่วนให้เท่ากันเป็น ${l}$: $\\frac{1}{{a}} = \\frac{{ea}}{{l}}$ และ $\\frac{1}{{b}} = \\frac{{eb}}{{l}}$",
+            "why_md": "บวกเศษส่วนได้ต่อเมื่อส่วนเท่ากัน"
+          },
+          {
+            "do_md": "บวกเศษ: ${ea} + {eb} = {answer}$",
+            "why_md": "ส่วนเท่ากันแล้ว บวกเฉพาะเศษ"
+          }
+        ],
+        "hints_tpl": [
+          "บวกเศษส่วนต้องทำอะไรกับตัวส่วนก่อน",
+          "แปลงทั้งสองเศษส่วนให้มีส่วนเป็น ${l}$",
+          "$\\frac{1}{{a}}$ กลายเป็นกี่ส่วน ${l}$"
+        ],
+        "explanation_tpl": "ตอบ ${answer}$ เพราะเมื่อทำส่วนเป็น ${l}$ จะได้ ${ea}$ กับ ${eb}$ ส่วน รวมเป็น ${answer}$"
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.numerical.foundation.fraction_decimal.0005",
+      "topic_ids": [
+        "tgat2.numerical.foundation.fraction_decimal"
+      ],
+      "primary_topic_id": "tgat2.numerical.foundation.fraction_decimal",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 40,
+      "stem_md": "ทศนิยม $0.68$ เขียนเป็นเศษส่วนอย่างต่ำได้ $\\frac{p}{25}$ ค่าของ $p$ เท่ากับเท่าไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "$19$",
+          "is_answer": false
+        },
+        {
+          "md": "$34$",
+          "is_answer": false
+        },
+        {
+          "md": "$17$",
+          "is_answer": true
+        },
+        {
+          "md": "$8$",
+          "is_answer": false
+        },
+        {
+          "md": "$18$",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "เขียนทศนิยมเป็นเศษส่วนที่มีส่วนเป็นกำลังของ 10 แล้วทอนเป็นอย่างต่ำ",
+          "why_md": "ทศนิยม $0.68$ มีค่าเท่ากับ $\\frac{17}{25}$"
+        },
+        {
+          "do_md": "ตรวจ: $17 \\div 25 = 0.68$",
+          "why_md": "ยืนยันว่าเศษส่วนมีค่าเท่ากับทศนิยมเดิม"
+        }
+      ],
+      "answer_explanation_md": "ตอบ $17$ เพราะ $0.68 = \\frac{17}{25}$ ตรวจได้โดยหาร $17 \\div 25$",
+      "hints": [
+        "เริ่มจากเขียนทศนิยมเป็นเศษส่วนที่ส่วนเป็น 100 หรือ 1000",
+        "ทอนเศษและส่วนด้วยตัวหารร่วมมาก",
+        "ส่วนของคำตอบคือ $25$ ลองหาร $25$ ในใจเพื่อตรวจ"
+      ],
+      "distractor_reasons": {
+        "0": "นับตำแหน่งทศนิยมผิด",
+        "1": "ไม่ได้ทอนให้เป็นเศษส่วนอย่างต่ำ",
+        "3": "ใช้ส่วนที่เหลือแทน",
+        "4": "ปัดเศษผิด"
+      },
+      "misconception_tags": [],
+      "template": {
+        "vars": [
+          {
+            "name": "q",
+            "type": "choice",
+            "options": [
+              4,
+              5,
+              8,
+              20,
+              25
+            ]
+          },
+          {
+            "name": "p0",
+            "type": "int",
+            "range": [
+              1,
+              24
+            ],
+            "step": 1
+          }
+        ],
+        "constraints": [
+          "p0 < q",
+          "(p0 % 2 != 0 or q % 2 != 0) and (p0 % 5 != 0 or q % 5 != 0)",
+          "q - p0 != p0 + 1",
+          "q - p0 != p0 + 2",
+          "q - p0 != p0*2",
+          "(p0) > 0",
+          "(p0 + 1) > 0",
+          "(p0*2) > 0",
+          "(q - p0) > 0",
+          "(p0 + 2) > 0",
+          "(p0) != (p0 + 1)",
+          "(p0) != (p0*2)",
+          "(p0) != (q - p0)",
+          "(p0) != (p0 + 2)",
+          "(p0 + 1) != (p0*2)",
+          "(p0 + 1) != (q - p0)",
+          "(p0 + 1) != (p0 + 2)",
+          "(p0*2) != (q - p0)",
+          "(p0*2) != (p0 + 2)",
+          "(q - p0) != (p0 + 2)",
+          "(p0 + 1) <= 5*(p0)",
+          "(p0*2) <= 5*(p0)",
+          "(q - p0) <= 5*(p0)",
+          "(p0 + 2) <= 5*(p0)",
+          "5*(p0 + 1) >= (p0)",
+          "5*(p0*2) >= (p0)",
+          "5*(q - p0) >= (p0)",
+          "5*(p0 + 2) >= (p0)",
+          "(q) != (p0)"
+        ],
+        "display": {
+          "d": "p0 / q"
+        },
+        "stem_tpl": "ทศนิยม ${d}$ เขียนเป็นเศษส่วนอย่างต่ำได้ $\\frac{p}{{q}}$ ค่าของ $p$ เท่ากับเท่าไร",
+        "answer_expr": "p0",
+        "answer_round": null,
+        "answer_unit": null,
+        "distractors": [
+          {
+            "expr": "p0 + 1",
+            "reason": "ปัดเศษผิด"
+          },
+          {
+            "expr": "p0*2",
+            "reason": "ไม่ได้ทอนให้เป็นเศษส่วนอย่างต่ำ"
+          },
+          {
+            "expr": "q - p0",
+            "reason": "ใช้ส่วนที่เหลือแทน"
+          },
+          {
+            "expr": "p0 + 2",
+            "reason": "นับตำแหน่งทศนิยมผิด"
+          }
+        ],
+        "quality_rules": [
+          "ตัวเลือกทุกตัวต้องเป็นจำนวนบวกและไม่ซ้ำกัน",
+          "คำตอบคำนวณจากนิพจน์ ไม่ได้ใส่มือ"
+        ],
+        "quality_exprs": [
+          "answer > 0"
+        ],
+        "steps_tpl": [
+          {
+            "do_md": "เขียนทศนิยมเป็นเศษส่วนที่มีส่วนเป็นกำลังของ 10 แล้วทอนเป็นอย่างต่ำ",
+            "why_md": "ทศนิยม ${d}$ มีค่าเท่ากับ $\\frac{{p0}}{{q}}$"
+          },
+          {
+            "do_md": "ตรวจ: ${p0} \\div {q} = {d}$",
+            "why_md": "ยืนยันว่าเศษส่วนมีค่าเท่ากับทศนิยมเดิม"
+          }
+        ],
+        "hints_tpl": [
+          "เริ่มจากเขียนทศนิยมเป็นเศษส่วนที่ส่วนเป็น 100 หรือ 1000",
+          "ทอนเศษและส่วนด้วยตัวหารร่วมมาก",
+          "ส่วนของคำตอบคือ ${q}$ ลองหาร ${q}$ ในใจเพื่อตรวจ"
+        ],
+        "explanation_tpl": "ตอบ ${answer}$ เพราะ ${d} = \\frac{{answer}}{{q}}$ ตรวจได้โดยหาร ${answer} \\div {q}$"
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.numerical.foundation.fraction_decimal.0006",
+      "topic_ids": [
+        "tgat2.numerical.foundation.fraction_decimal"
+      ],
+      "primary_topic_id": "tgat2.numerical.foundation.fraction_decimal",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 45,
+      "stem_md": "ทศนิยม $0.44$ เขียนเป็นเศษส่วนอย่างต่ำได้ $\\frac{p}{25}$ ค่าของ $p$ เท่ากับเท่าไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "$22$",
+          "is_answer": false
+        },
+        {
+          "md": "$12$",
+          "is_answer": false
+        },
+        {
+          "md": "$14$",
+          "is_answer": false
+        },
+        {
+          "md": "$13$",
+          "is_answer": false
+        },
+        {
+          "md": "$11$",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "เขียนทศนิยมเป็นเศษส่วนที่มีส่วนเป็นกำลังของ 10 แล้วทอนเป็นอย่างต่ำ",
+          "why_md": "ทศนิยม $0.44$ มีค่าเท่ากับ $\\frac{11}{25}$"
+        },
+        {
+          "do_md": "ตรวจ: $11 \\div 25 = 0.44$",
+          "why_md": "ยืนยันว่าเศษส่วนมีค่าเท่ากับทศนิยมเดิม"
+        }
+      ],
+      "answer_explanation_md": "ตอบ $11$ เพราะ $0.44 = \\frac{11}{25}$ ตรวจได้โดยหาร $11 \\div 25$",
+      "hints": [
+        "เริ่มจากเขียนทศนิยมเป็นเศษส่วนที่ส่วนเป็น 100 หรือ 1000",
+        "ทอนเศษและส่วนด้วยตัวหารร่วมมาก",
+        "ส่วนของคำตอบคือ $25$ ลองหาร $25$ ในใจเพื่อตรวจ"
+      ],
+      "distractor_reasons": {
+        "0": "ไม่ได้ทอนให้เป็นเศษส่วนอย่างต่ำ",
+        "1": "ปัดเศษผิด",
+        "2": "ใช้ส่วนที่เหลือแทน",
+        "3": "นับตำแหน่งทศนิยมผิด"
+      },
+      "misconception_tags": [],
+      "template": {
+        "vars": [
+          {
+            "name": "q",
+            "type": "choice",
+            "options": [
+              4,
+              5,
+              8,
+              20,
+              25
+            ]
+          },
+          {
+            "name": "p0",
+            "type": "int",
+            "range": [
+              1,
+              24
+            ],
+            "step": 1
+          }
+        ],
+        "constraints": [
+          "p0 < q",
+          "(p0 % 2 != 0 or q % 2 != 0) and (p0 % 5 != 0 or q % 5 != 0)",
+          "q - p0 != p0 + 1",
+          "q - p0 != p0 + 2",
+          "q - p0 != p0*2",
+          "(p0) > 0",
+          "(p0 + 1) > 0",
+          "(p0*2) > 0",
+          "(q - p0) > 0",
+          "(p0 + 2) > 0",
+          "(p0) != (p0 + 1)",
+          "(p0) != (p0*2)",
+          "(p0) != (q - p0)",
+          "(p0) != (p0 + 2)",
+          "(p0 + 1) != (p0*2)",
+          "(p0 + 1) != (q - p0)",
+          "(p0 + 1) != (p0 + 2)",
+          "(p0*2) != (q - p0)",
+          "(p0*2) != (p0 + 2)",
+          "(q - p0) != (p0 + 2)",
+          "(p0 + 1) <= 5*(p0)",
+          "(p0*2) <= 5*(p0)",
+          "(q - p0) <= 5*(p0)",
+          "(p0 + 2) <= 5*(p0)",
+          "5*(p0 + 1) >= (p0)",
+          "5*(p0*2) >= (p0)",
+          "5*(q - p0) >= (p0)",
+          "5*(p0 + 2) >= (p0)",
+          "(q) != (p0)"
+        ],
+        "display": {
+          "d": "p0 / q"
+        },
+        "stem_tpl": "ทศนิยม ${d}$ เขียนเป็นเศษส่วนอย่างต่ำได้ $\\frac{p}{{q}}$ ค่าของ $p$ เท่ากับเท่าไร",
+        "answer_expr": "p0",
+        "answer_round": null,
+        "answer_unit": null,
+        "distractors": [
+          {
+            "expr": "p0 + 1",
+            "reason": "ปัดเศษผิด"
+          },
+          {
+            "expr": "p0*2",
+            "reason": "ไม่ได้ทอนให้เป็นเศษส่วนอย่างต่ำ"
+          },
+          {
+            "expr": "q - p0",
+            "reason": "ใช้ส่วนที่เหลือแทน"
+          },
+          {
+            "expr": "p0 + 2",
+            "reason": "นับตำแหน่งทศนิยมผิด"
+          }
+        ],
+        "quality_rules": [
+          "ตัวเลือกทุกตัวต้องเป็นจำนวนบวกและไม่ซ้ำกัน",
+          "คำตอบคำนวณจากนิพจน์ ไม่ได้ใส่มือ"
+        ],
+        "quality_exprs": [
+          "answer > 0"
+        ],
+        "steps_tpl": [
+          {
+            "do_md": "เขียนทศนิยมเป็นเศษส่วนที่มีส่วนเป็นกำลังของ 10 แล้วทอนเป็นอย่างต่ำ",
+            "why_md": "ทศนิยม ${d}$ มีค่าเท่ากับ $\\frac{{p0}}{{q}}$"
+          },
+          {
+            "do_md": "ตรวจ: ${p0} \\div {q} = {d}$",
+            "why_md": "ยืนยันว่าเศษส่วนมีค่าเท่ากับทศนิยมเดิม"
+          }
+        ],
+        "hints_tpl": [
+          "เริ่มจากเขียนทศนิยมเป็นเศษส่วนที่ส่วนเป็น 100 หรือ 1000",
+          "ทอนเศษและส่วนด้วยตัวหารร่วมมาก",
+          "ส่วนของคำตอบคือ ${q}$ ลองหาร ${q}$ ในใจเพื่อตรวจ"
+        ],
+        "explanation_tpl": "ตอบ ${answer}$ เพราะ ${d} = \\frac{{answer}}{{q}}$ ตรวจได้โดยหาร ${answer} \\div {q}$"
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    }
+  ],
+  "generated_from": "content/tgat2/numerical_foundation.py"
+}

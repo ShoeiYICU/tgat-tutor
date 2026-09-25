@@ -1,0 +1,477 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tgat2.language.foundation.context_meaning",
+  "problems": [
+    {
+      "id": "prob.tgat2.language.foundation.context_meaning.0001",
+      "topic_ids": [
+        "tgat2.language.foundation.context_meaning"
+      ],
+      "primary_topic_id": "tgat2.language.foundation.context_meaning",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 35,
+      "stem_md": "\"ไก่ข้างบ้านขันตั้งแต่ตีห้า\" คำว่า ขัน ในข้อใดมีความหมายเดียวกับประโยคนี้",
+      "figures": [],
+      "choices": [
+        {
+          "md": "เขาอาสาขันอาสาทำงานแทนเพื่อนที่ป่วย",
+          "is_answer": false
+        },
+        {
+          "md": "ช่างขันน็อตให้แน่น",
+          "is_answer": false
+        },
+        {
+          "md": "นกกางเขนตัวผู้ขันเสียงดังตอนเช้า",
+          "is_answer": true
+        },
+        {
+          "md": "แม่ใช้ขันตักน้ำรดต้นไม้หน้าบ้านทุกเช้า",
+          "is_answer": false
+        },
+        {
+          "md": "เรื่องที่เขาเล่าขันจนทุกคนหัวเราะ",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ขัน ในประโยคโจทย์ = ส่งเสียงร้อง (ของไก่และนกบางชนิด)",
+          "why_md": "ดูว่าใครทำ"
+        },
+        {
+          "do_md": "หาตัวเลือกที่สัตว์ส่งเสียงร้อง",
+          "why_md": "นกกางเขนขัน"
+        }
+      ],
+      "answer_explanation_md": "ตอบ นกกางเขนตัวผู้ขันเสียงดังตอนเช้า เพราะ ขัน ในทั้งสองประโยคหมายถึงการส่งเสียงร้องของสัตว์",
+      "hints": [
+        "ในประโยคโจทย์ ใครเป็นผู้ขัน",
+        "ขัน ของไก่หมายถึงการทำอะไร",
+        "หาตัวเลือกที่มีสัตว์ส่งเสียงร้อง"
+      ],
+      "distractor_reasons": {
+        "0": "ขันอาสา หมายถึงรับทำด้วยความเต็มใจ",
+        "1": "ขัน ในที่นี้หมายถึงหมุนให้แน่น",
+        "3": "ขัน ในที่นี้เป็นภาชนะ",
+        "4": "ขัน ในที่นี้หมายถึงตลก"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.language.foundation.context_meaning.0002",
+      "topic_ids": [
+        "tgat2.language.foundation.context_meaning"
+      ],
+      "primary_topic_id": "tgat2.language.foundation.context_meaning",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 30,
+      "stem_md": "\"บริษัทนี้เสียภาษีตรงเวลาทุกปี\" คำว่า เสีย หมายถึงอะไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "สูญหายไปโดยไม่ตั้งใจ",
+          "is_answer": false
+        },
+        {
+          "md": "เสียเปรียบคู่แข่งในตลาด",
+          "is_answer": false
+        },
+        {
+          "md": "ชำรุด",
+          "is_answer": false
+        },
+        {
+          "md": "จ่ายให้แก่รัฐ",
+          "is_answer": true
+        },
+        {
+          "md": "เสียชีวิต",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ลองแทน จ่าย: บริษัทจ่ายภาษีตรงเวลาทุกปี",
+          "why_md": "อ่านได้ความ"
+        },
+        {
+          "do_md": "ความหมายอื่นแทนแล้วไม่เข้าความ",
+          "why_md": "ตัดทิ้ง"
+        }
+      ],
+      "answer_explanation_md": "ตอบ จ่ายให้แก่รัฐ เพราะ เสียภาษี หมายถึงการจ่ายภาษีให้รัฐ",
+      "hints": [
+        "เสีย มีกี่ความหมาย",
+        "ภาษีเป็นสิ่งที่ต้องทำอะไรกับมัน",
+        "ลองแทนแต่ละความหมายลงในประโยค"
+      ],
+      "distractor_reasons": {
+        "0": "ประโยคบอกว่าทำตรงเวลา เป็นการกระทำตั้งใจ",
+        "1": "ไม่มีการเปรียบเทียบกับใคร",
+        "2": "ภาษีไม่ใช่สิ่งของที่ชำรุดได้",
+        "4": "ไม่เข้ากับบริษัทและภาษี"
+      },
+      "misconception_tags": [
+        "first_meaning"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.language.foundation.context_meaning.0003",
+      "topic_ids": [
+        "tgat2.language.foundation.context_meaning"
+      ],
+      "primary_topic_id": "tgat2.language.foundation.context_meaning",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 35,
+      "stem_md": "\"คำพูดของครูในวันปัจฉิมนิเทศจับใจนักเรียนทุกคน\" คำว่า จับใจ หมายถึงอะไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ประทับใจและซาบซึ้ง",
+          "is_answer": true
+        },
+        {
+          "md": "ทำให้สับสน",
+          "is_answer": false
+        },
+        {
+          "md": "ควบคุมความคิดของนักเรียนไว้",
+          "is_answer": false
+        },
+        {
+          "md": "ทำให้ตกใจกลัวอย่างมาก",
+          "is_answer": false
+        },
+        {
+          "md": "จับมือนักเรียนทีละคน",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "จับใจ เป็นคำเดียว ไม่แยก จับ กับ ใจ",
+          "why_md": "คำประสม"
+        },
+        {
+          "do_md": "บริบทวันอำลา คำพูดของครู ทำให้รู้สึกซาบซึ้ง",
+          "why_md": "ตรวจกับบริบท"
+        }
+      ],
+      "answer_explanation_md": "ตอบ ประทับใจและซาบซึ้ง เพราะ จับใจ เป็นคำประสมที่หมายถึงทำให้ซาบซึ้งประทับใจ",
+      "hints": [
+        "จับใจ เป็นคำเดียวหรือสองคำ",
+        "คำพูดในวันอำลามักทำให้รู้สึกอย่างไร",
+        "แทนความหมายในตัวเลือกลงในประโยค"
+      ],
+      "distractor_reasons": {
+        "1": "ไม่มีบริบทบ่งชี้",
+        "2": "ตีความตามตัวอักษรเกินไป",
+        "3": "ไม่เข้ากับบรรยากาศวันปัจฉิมนิเทศ",
+        "4": "แยกคำ จับ ออกจาก ใจ ผิด"
+      },
+      "misconception_tags": [
+        "first_meaning"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.language.foundation.context_meaning.0004",
+      "topic_ids": [
+        "tgat2.language.foundation.context_meaning"
+      ],
+      "primary_topic_id": "tgat2.language.foundation.context_meaning",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 40,
+      "stem_md": "คำว่า หนัก ในข้อใดหมายถึง รุนแรง",
+      "figures": [],
+      "choices": [
+        {
+          "md": "กล่องใบนี้หนักเกินกว่าเด็กจะยกคนเดียวได้",
+          "is_answer": false
+        },
+        {
+          "md": "คุณตาป่วยหนักจนต้องเข้าโรงพยาบาล",
+          "is_answer": true
+        },
+        {
+          "md": "เขาหนักใจเรื่องค่าใช้จ่าย",
+          "is_answer": false
+        },
+        {
+          "md": "ช่วงสอบกลางภาคงานของนักเรียนหนักมาก",
+          "is_answer": false
+        },
+        {
+          "md": "ฝาหม้อเหล็กหล่อใบนี้หนักกว่าที่คิดไว้มาก",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ป่วยหนัก = ป่วยรุนแรง",
+          "why_md": "ความหมายตรงกับที่ถาม"
+        },
+        {
+          "do_md": "ตัวเลือกอื่นหมายถึงน้ำหนัก ปริมาณงาน หรือความกังวล",
+          "why_md": "ตัดทิ้ง"
+        }
+      ],
+      "answer_explanation_md": "ตอบ คุณตาป่วยหนักจนต้องเข้าโรงพยาบาล เพราะป่วยหนัก หมายถึงป่วยรุนแรง",
+      "hints": [
+        "ลองแทน หนัก ด้วย รุนแรง ในแต่ละตัวเลือก",
+        "ตัวเลือกไหนอ่านได้ความ",
+        "ระวังคำประสมอย่าง หนักใจ"
+      ],
+      "distractor_reasons": {
+        "0": "หนัก = น้ำหนักมาก",
+        "2": "หนักใจ = กังวล",
+        "3": "หนัก = ปริมาณมากและเหนื่อย",
+        "4": "หนัก = น้ำหนักมาก"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.language.foundation.context_meaning.0005",
+      "topic_ids": [
+        "tgat2.language.foundation.context_meaning"
+      ],
+      "primary_topic_id": "tgat2.language.foundation.context_meaning",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 35,
+      "stem_md": "\"ทีมงานต้องจับตาสถานการณ์น้ำในเขื่อนตลอดคืน\" คำว่า จับตา มีความหมายใกล้เคียงกับข้อใดที่สุด",
+      "figures": [],
+      "choices": [
+        {
+          "md": "เฝ้าติดตาม",
+          "is_answer": true
+        },
+        {
+          "md": "จดบันทึกไว้",
+          "is_answer": false
+        },
+        {
+          "md": "สัมผัสดวงตา",
+          "is_answer": false
+        },
+        {
+          "md": "ควบคุมไว้",
+          "is_answer": false
+        },
+        {
+          "md": "คาดการณ์ล่วงหน้าไว้",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "จับตา = เฝ้าดูอย่างใกล้ชิด",
+          "why_md": "คำประสม"
+        },
+        {
+          "do_md": "บริบท ตลอดคืน ยืนยันว่าเป็นการเฝ้าต่อเนื่อง",
+          "why_md": "ตรวจกับบริบท"
+        }
+      ],
+      "answer_explanation_md": "ตอบ เฝ้าติดตาม เพราะจับตาหมายถึงเฝ้าดูอย่างใกล้ชิดและต่อเนื่อง",
+      "hints": [
+        "จับตา เป็นคำเดียวหรือสองคำ",
+        "บริบทบอกว่าทำตลอดคืน สื่อถึงการกระทำแบบไหน",
+        "แทนความหมายในตัวเลือกลงในประโยค"
+      ],
+      "distractor_reasons": {
+        "1": "จับตาไม่จำเป็นต้องจด",
+        "2": "แยกความหมายตามตัวอักษรผิด",
+        "3": "จับตาไม่ได้หมายถึงควบคุม",
+        "4": "จับตาเน้นการดูต่อเนื่อง ไม่ใช่ทำนาย"
+      },
+      "misconception_tags": [
+        "first_meaning"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.language.foundation.context_meaning.0006",
+      "topic_ids": [
+        "tgat2.language.foundation.context_meaning"
+      ],
+      "primary_topic_id": "tgat2.language.foundation.context_meaning",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 35,
+      "stem_md": "คำว่า ตี ในข้อใดหมายถึง ประเมินค่า",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ลมพัดแรงจนกิ่งไม้ตีกระทบหน้าต่าง",
+          "is_answer": false
+        },
+        {
+          "md": "นักเรียนช่วยกันตีความหมายของบทกวีบทนี้",
+          "is_answer": false
+        },
+        {
+          "md": "เขาตีตั๋วรถไฟไปเชียงใหม่ตั้งแต่เมื่อวาน",
+          "is_answer": false
+        },
+        {
+          "md": "พระตีระฆังทุกเช้าตรู่ที่วัดกลางหมู่บ้าน",
+          "is_answer": false
+        },
+        {
+          "md": "ร้านรับซื้อรถตีราคารถคันนี้ไว้สองแสนบาท",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ประเมินค่า หมายถึงกำหนดว่าสิ่งนั้นมีมูลค่าเท่าใด",
+          "why_md": "ความหมายที่ถาม"
+        },
+        {
+          "do_md": "ตีราคา = กำหนดราคา จึงตรงกับความหมายนี้",
+          "why_md": "ตรวจตัวเลือกอื่นแล้วไม่ตรง"
+        }
+      ],
+      "answer_explanation_md": "ตอบ ร้านรับซื้อรถตีราคารถคันนี้ไว้สองแสนบาท เพราะ ตีราคา คือการประเมินมูลค่า",
+      "hints": [
+        "ประเมินค่าหมายถึงอะไร",
+        "ลองแทนคำว่า ประเมินค่า ลงในแต่ละตัวเลือก",
+        "ระวังคำประสมอย่าง ตีความ และ ตีตั๋ว"
+      ],
+      "distractor_reasons": {
+        "0": "ตี ในที่นี้คือกระทบ",
+        "1": "ตีความ คือแปลความหมาย",
+        "2": "ตีตั๋ว คือซื้อตั๋ว",
+        "3": "ตี ในที่นี้คือเคาะให้เกิดเสียง"
+      },
+      "misconception_tags": [
+        "first_meaning"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    }
+  ],
+  "generated_from": "content/tgat2/language_core.py"
+}

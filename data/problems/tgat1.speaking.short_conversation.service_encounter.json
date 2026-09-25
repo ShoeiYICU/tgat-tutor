@@ -1,0 +1,598 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tgat1.speaking.short_conversation.service_encounter",
+  "problems": [
+    {
+      "id": "prob.tgat1.speaking.short_conversation.service_encounter.0001",
+      "topic_ids": [
+        "tgat1.speaking.short_conversation.service_encounter"
+      ],
+      "primary_topic_id": "tgat1.speaking.short_conversation.service_encounter",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 30,
+      "stem_md": "**Waiter:** Would you like something to drink?  \n**Customer:** ______  \n**Waiter:** Hot or iced?",
+      "figures": [],
+      "choices": [
+        {
+          "md": "Yes, a green tea, please.",
+          "is_answer": true
+        },
+        {
+          "md": "No, thanks. Just the check, please.",
+          "is_answer": false
+        },
+        {
+          "md": "I'd like the fried rice with chicken.",
+          "is_answer": false
+        },
+        {
+          "md": "Would you like something to drink?",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "หลังช่อง: Hot or iced? = ถามเรื่องเครื่องดื่ม",
+          "why_md": "ลูกค้าต้องสั่งเครื่องดื่มที่เป็นได้ทั้งร้อนและเย็น"
+        },
+        {
+          "do_md": "ตัวเลือก: สั่งชาเขียว",
+          "why_md": "Yes, a green tea, please."
+        }
+      ],
+      "answer_explanation_md": "ตอบ Yes, a green tea, please. เพราะพนักงานถามต่อว่าร้อนหรือเย็น แปลว่าลูกค้าสั่งเครื่องดื่ม",
+      "hints": [
+        "พนักงานถามอะไรหลังช่องว่าง",
+        "คำถาม Hot or iced? ใช้กับอะไร",
+        "หาตัวเลือกที่ลูกค้าสั่งเครื่องดื่ม"
+      ],
+      "distractor_reasons": {
+        "1": "ปฏิเสธและขอเช็กบิล แต่พนักงานถามต่อว่าร้อนหรือเย็น",
+        "2": "สั่งอาหารจานหลัก แต่ร้อนหรือเย็นเป็นคำถามเรื่องเครื่องดื่ม",
+        "3": "ทวนคำถามของพนักงาน สลับบทบาท"
+      },
+      "misconception_tags": [
+        "speaker_role_swap"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.short_conversation.service_encounter.0002",
+      "topic_ids": [
+        "tgat1.speaking.short_conversation.service_encounter"
+      ],
+      "primary_topic_id": "tgat1.speaking.short_conversation.service_encounter",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 35,
+      "stem_md": "**Customer:** Excuse me, do you have this T-shirt in a medium?  \n**Clerk:** ______  \n**Customer:** That's fine. I'll take it.",
+      "figures": [],
+      "choices": [
+        {
+          "md": "Yes, but only in black. Is that OK?",
+          "is_answer": true
+        },
+        {
+          "md": "The fitting room is over there on your left.",
+          "is_answer": false
+        },
+        {
+          "md": "How would you like to pay?",
+          "is_answer": false
+        },
+        {
+          "md": "Yes, we have it in every color and every size.",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "หลังช่อง: That's fine. = ยอมรับได้",
+          "why_md": "แปลว่าพนักงานบอกข้อจำกัดบางอย่าง"
+        },
+        {
+          "do_md": "ช่องว่าง: มีไซซ์ M แต่มีแค่สีดำ",
+          "why_md": "Yes, but only in black. Is that OK?"
+        }
+      ],
+      "answer_explanation_md": "ตอบ Yes, but only in black. Is that OK? เพราะยืนยันว่ามีไซซ์ที่ถาม พร้อมบอกข้อจำกัดเรื่องสี และลูกค้ายอมรับด้วย That's fine",
+      "hints": [
+        "That's fine ใช้ตอบเมื่อได้สิ่งที่ต้องการครบ หรือยอมรับข้อจำกัด",
+        "ช่องว่างต้องตอบคำถามเรื่องไซซ์ของลูกค้าไหม",
+        "หาตัวเลือกที่บอกว่ามี แต่มีเงื่อนไข"
+      ],
+      "distractor_reasons": {
+        "1": "ให้ข้อมูลห้องลอง ไม่ได้ตอบเรื่องไซซ์",
+        "2": "ข้ามไปขั้นจ่ายเงินทั้งที่ยังไม่ได้ตอบคำถามเรื่องไซซ์",
+        "3": "ตอบว่ามีทุกอย่าง แต่ลูกค้าพูดว่า That's fine ซึ่งใช้ยอมรับข้อจำกัด"
+      },
+      "misconception_tags": [
+        "ignore_next_line"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.short_conversation.service_encounter.0003",
+      "topic_ids": [
+        "tgat1.speaking.short_conversation.service_encounter"
+      ],
+      "primary_topic_id": "tgat1.speaking.short_conversation.service_encounter",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 35,
+      "stem_md": "**Receptionist:** Good evening. How can I help you?  \n**Guest:** ______  \n**Receptionist:** May I have your name, please?",
+      "figures": [],
+      "choices": [
+        {
+          "md": "Could you call me a taxi to the airport?",
+          "is_answer": false
+        },
+        {
+          "md": "Good evening. Here's your key card, sir.",
+          "is_answer": false
+        },
+        {
+          "md": "What time is breakfast served here?",
+          "is_answer": false
+        },
+        {
+          "md": "I have a reservation for two nights.",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "หลังช่อง: พนักงานขอชื่อ",
+          "why_md": "ใช้ตอนตรวจสอบการจอง"
+        },
+        {
+          "do_md": "ช่องว่างของแขก: แจ้งว่าจองไว้",
+          "why_md": "I have a reservation for two nights."
+        }
+      ],
+      "answer_explanation_md": "ตอบ I have a reservation for two nights. เพราะแขกแจ้งว่าจองห้องไว้ พนักงานจึงขอชื่อเพื่อตรวจสอบ",
+      "hints": [
+        "พนักงานขอชื่อเพื่อทำอะไร",
+        "ใครเป็นคนพูดในช่องว่าง",
+        "หาตัวเลือกที่ทำให้พนักงานต้องขอชื่อ"
+      ],
+      "distractor_reasons": {
+        "0": "ขอเรียกแท็กซี่ พนักงานไม่จำเป็นต้องขอชื่อทันที",
+        "1": "เป็นประโยคของพนักงาน สลับบทบาท",
+        "2": "ถามเรื่องอาหารเช้า แต่พนักงานขอชื่อ ซึ่งใช้ตอนตรวจการจอง"
+      },
+      "misconception_tags": [
+        "speaker_role_swap"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.short_conversation.service_encounter.0004",
+      "topic_ids": [
+        "tgat1.speaking.short_conversation.service_encounter"
+      ],
+      "primary_topic_id": "tgat1.speaking.short_conversation.service_encounter",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 30,
+      "stem_md": "**Customer:** Excuse me, I ordered the spaghetti, but this is lasagna.  \n**Waiter:** ______  \n**Customer:** That's OK. Thank you.",
+      "figures": [],
+      "choices": [
+        {
+          "md": "Lasagna is our most popular dish, you know.",
+          "is_answer": false
+        },
+        {
+          "md": "I'm so sorry. I'll change it right away.",
+          "is_answer": true
+        },
+        {
+          "md": "Are you ready to order now?",
+          "is_answer": false
+        },
+        {
+          "md": "That's OK. Enjoy your meal.",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ลูกค้าแจ้งปัญหา อาหารผิด",
+          "why_md": "พนักงานต้องขอโทษและแก้"
+        },
+        {
+          "do_md": "หลังช่อง: That's OK. Thank you. = รับคำขอโทษ",
+          "why_md": "ช่องว่างต้องมีคำขอโทษ"
+        }
+      ],
+      "answer_explanation_md": "ตอบ I'm so sorry. I'll change it right away. เพราะพนักงานต้องขอโทษและแก้ปัญหา ลูกค้าจึงตอบรับด้วย That's OK",
+      "hints": [
+        "ใครเป็นฝ่ายผิดในสถานการณ์นี้",
+        "ลูกค้าตอบว่า That's OK เพื่อรับอะไร",
+        "หาตัวเลือกที่พนักงานขอโทษและแก้ปัญหา"
+      ],
+      "distractor_reasons": {
+        "0": "ไม่ขอโทษและไม่แก้ปัญหา ลูกค้าจะไม่ขอบคุณ",
+        "2": "เป็นคำถามตอนเริ่มสั่งอาหาร ไม่เข้ากับการแจ้งปัญหา",
+        "3": "เป็นคำพูดของคนที่ถูกขอโทษ ไม่ใช่ของฝ่ายที่ผิด"
+      },
+      "misconception_tags": [
+        "speaker_role_swap"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.short_conversation.service_encounter.0005",
+      "topic_ids": [
+        "tgat1.speaking.short_conversation.service_encounter"
+      ],
+      "primary_topic_id": "tgat1.speaking.short_conversation.service_encounter",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 40,
+      "stem_md": "**Clerk:** That'll be 450 baht.  \n**Customer:** ______  \n**Clerk:** I'm sorry, we only accept cash or QR payment.",
+      "figures": [],
+      "choices": [
+        {
+          "md": "That's too expensive. Can you give me a discount?",
+          "is_answer": false
+        },
+        {
+          "md": "Can I pay by credit card?",
+          "is_answer": true
+        },
+        {
+          "md": "Here's 500 baht. Keep the change, please.",
+          "is_answer": false
+        },
+        {
+          "md": "Could I have a receipt with that, please?",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "หลังช่อง: พนักงานปฏิเสธโดยบอกว่ารับแค่เงินสดหรือ QR",
+          "why_md": "ลูกค้าต้องถามถึงวิธีจ่ายแบบอื่น"
+        },
+        {
+          "do_md": "ช่องว่าง: ถามจ่ายด้วยบัตรเครดิต",
+          "why_md": "Can I pay by credit card?"
+        }
+      ],
+      "answer_explanation_md": "ตอบ Can I pay by credit card? เพราะพนักงานตอบว่ารับแค่เงินสดหรือ QR แปลว่าลูกค้าถามวิธีจ่ายแบบอื่น",
+      "hints": [
+        "พนักงานตอบเรื่องอะไรหลังช่องว่าง",
+        "คำว่า I'm sorry, we only accept... แปลว่าลูกค้าขออะไรที่ร้านทำไม่ได้",
+        "หาตัวเลือกที่ถามเรื่องวิธีจ่ายเงิน"
+      ],
+      "distractor_reasons": {
+        "0": "ขอส่วนลด แต่พนักงานตอบเรื่องวิธีจ่าย",
+        "2": "จ่ายเงินสด แต่พนักงานตอบว่ารับแค่เงินสดหรือ QR ซึ่งเป็นการปฏิเสธ",
+        "3": "ขอใบเสร็จ ไม่เกี่ยวกับวิธีจ่าย"
+      },
+      "misconception_tags": [
+        "ignore_next_line"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.short_conversation.service_encounter.0006",
+      "topic_ids": [
+        "tgat1.speaking.short_conversation.service_encounter"
+      ],
+      "primary_topic_id": "tgat1.speaking.short_conversation.service_encounter",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 35,
+      "stem_md": "**Guest:** Excuse me, the air conditioner in my room isn't working.  \n**Receptionist:** ______  \n**Guest:** Thank you. I'm in room 305.",
+      "figures": [],
+      "choices": [
+        {
+          "md": "What time would you like to check out tomorrow?",
+          "is_answer": false
+        },
+        {
+          "md": "The air conditioner is new. It was installed last month.",
+          "is_answer": false
+        },
+        {
+          "md": "I'm sorry. I'll send someone to fix it now.",
+          "is_answer": true
+        },
+        {
+          "md": "Would you like to book a room with a sea view?",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "แขกแจ้งปัญหา",
+          "why_md": "พนักงานต้องขอโทษและแก้ปัญหา"
+        },
+        {
+          "do_md": "หลังช่อง: แขกขอบคุณและบอกเลขห้อง",
+          "why_md": "แปลว่าพนักงานจะส่งคนไปที่ห้อง"
+        }
+      ],
+      "answer_explanation_md": "ตอบ I'm sorry. I'll send someone to fix it now. เพราะพนักงานต้องแก้ปัญหา และแขกบอกเลขห้องเพื่อให้ช่างไปถูกห้อง",
+      "hints": [
+        "แขกบอกเลขห้องหลังช่องว่าง เพราะพนักงานพูดอะไร",
+        "พนักงานควรตอบสนองต่อปัญหาอย่างไร",
+        "หาตัวเลือกที่ต้องใช้เลขห้องของแขก"
+      ],
+      "distractor_reasons": {
+        "0": "เปลี่ยนเรื่อง ไม่ได้แก้ปัญหาแอร์",
+        "1": "โต้แย้งแทนการแก้ปัญหา แขกจะไม่ขอบคุณ",
+        "3": "เสนอขายห้องใหม่ ไม่เกี่ยวกับปัญหา"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.short_conversation.service_encounter.0007",
+      "topic_ids": [
+        "tgat1.speaking.short_conversation.service_encounter"
+      ],
+      "primary_topic_id": "tgat1.speaking.short_conversation.service_encounter",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 45,
+      "stem_md": "**Customer:** Could I exchange this shirt?  \n**Clerk:** ______  \n**Customer:** Great. Here's the receipt.",
+      "figures": [],
+      "choices": [
+        {
+          "md": "Receipts are paper.",
+          "is_answer": false
+        },
+        {
+          "md": "The shirt exchanged me.",
+          "is_answer": false
+        },
+        {
+          "md": "Could you sell me one?",
+          "is_answer": false
+        },
+        {
+          "md": "Certainly. May I see your receipt?",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ติดตามบริบทและผู้พูด",
+          "why_md": "ลูกค้ายื่นใบเสร็จในบรรทัดถัดไป"
+        },
+        {
+          "do_md": "ทดลองเติมแล้วอ่านต่อ",
+          "why_md": "คำตอบต้องทำให้บทสนทนาต่อเนื่อง ไม่ใช่แค่มีคำซ้ำ"
+        }
+      ],
+      "answer_explanation_md": "พนักงานตอบรับและขอหลักฐานได้ตรงลำดับ",
+      "hints": [
+        "ดูว่าใครพูดกับใครและต้องการอะไร",
+        "ใช้ประโยคก่อนและหลังช่องว่างร่วมกัน",
+        "ตัดตัวเลือกที่มีคำซ้ำแต่ทำหน้าที่ผิด"
+      ],
+      "distractor_reasons": {
+        "0": "ไม่ตอบคำขอ",
+        "1": "สลับบทบาท",
+        "2": "พนักงานกลายเป็นลูกค้า"
+      },
+      "misconception_tags": [
+        "speaker_role_swap"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.short_conversation.service_encounter.0008",
+      "topic_ids": [
+        "tgat1.speaking.short_conversation.service_encounter"
+      ],
+      "primary_topic_id": "tgat1.speaking.short_conversation.service_encounter",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 5,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": true,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 60,
+      "stem_md": "**Guest:** The air conditioner is noisy.  \n**Receptionist:** ______  \n**Guest:** Room 508. Should I wait here?",
+      "figures": [],
+      "choices": [
+        {
+          "md": "Would you reserve one?",
+          "is_answer": false
+        },
+        {
+          "md": "The noise checked out.",
+          "is_answer": false
+        },
+        {
+          "md": "I'm sorry. What room are you in?",
+          "is_answer": true
+        },
+        {
+          "md": "Please repair it in 508.",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ติดตามบริบทและผู้พูด",
+          "why_md": "แขกตอบเลขห้อง"
+        },
+        {
+          "do_md": "ทดลองเติมแล้วอ่านต่อ",
+          "why_md": "คำตอบต้องทำให้บทสนทนาต่อเนื่อง ไม่ใช่แค่มีคำซ้ำ"
+        }
+      ],
+      "answer_explanation_md": "พนักงานต้องถามเลขห้องหลังรับทราบปัญหา",
+      "hints": [
+        "ดูว่าใครพูดกับใครและต้องการอะไร",
+        "ใช้ประโยคก่อนและหลังช่องว่างร่วมกัน",
+        "ตัดตัวเลือกที่มีคำซ้ำแต่ทำหน้าที่ผิด"
+      ],
+      "distractor_reasons": {
+        "0": "เสนอจองแทนรับแจ้ง",
+        "1": "ใช้สำนวนผิด",
+        "3": "ผลักงานให้แขกและรู้เลขก่อน"
+      },
+      "misconception_tags": [
+        "speaker_role_swap",
+        "ignore_next_line"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    }
+  ],
+  "generated_from": "content/tgat1/speaking_conv.py"
+}

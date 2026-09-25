@@ -1,0 +1,481 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tgat2.reasoning.statement_analysis.family_relations",
+  "problems": [
+    {
+      "id": "prob.tgat2.reasoning.statement_analysis.family_relations.0001",
+      "topic_ids": [
+        "tgat2.reasoning.statement_analysis.family_relations"
+      ],
+      "primary_topic_id": "tgat2.reasoning.statement_analysis.family_relations",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 30,
+      "stem_md": "ก เป็นพ่อของ ข และ ข เป็นพี่สาวแท้ ๆ ของ ค ก เป็นอะไรกับ ค",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ตา",
+          "is_answer": false
+        },
+        {
+          "md": "พี่ชาย",
+          "is_answer": false
+        },
+        {
+          "md": "พ่อ",
+          "is_answer": true
+        },
+        {
+          "md": "ปู่",
+          "is_answer": false
+        },
+        {
+          "md": "ลุง",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ข กับ ค เป็นพี่น้องแท้ ๆ มีพ่อคนเดียวกัน",
+          "why_md": "พี่น้องแท้"
+        },
+        {
+          "do_md": "ก เป็นพ่อของ ข จึงเป็นพ่อของ ค",
+          "why_md": "สรุป"
+        }
+      ],
+      "answer_explanation_md": "ตอบ พ่อ เพราะ ข กับ ค เป็นพี่น้องแท้ ๆ จึงมีพ่อคนเดียวกันคือ ก",
+      "hints": [
+        "ข กับ ค อยู่รุ่นเดียวกันไหม",
+        "พี่น้องแท้ ๆ มีพ่อคนเดียวกันไหม",
+        "ก อยู่รุ่นไหนเทียบกับ ค"
+      ],
+      "distractor_reasons": {
+        "0": "ตาเป็นพ่อของแม่ อยู่สองรุ่นก่อน",
+        "1": "ก อยู่รุ่นก่อน ค",
+        "3": "ก อยู่รุ่นเดียวกับพ่อแม่ของ ค ไม่ใช่รุ่นปู่",
+        "4": "ก เป็นพ่อของพี่สาวแท้ ๆ จึงเป็นพ่อของ ค ด้วย"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.reasoning.statement_analysis.family_relations.0002",
+      "topic_ids": [
+        "tgat2.reasoning.statement_analysis.family_relations"
+      ],
+      "primary_topic_id": "tgat2.reasoning.statement_analysis.family_relations",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 30,
+      "stem_md": "แม่ของต้นเป็นลูกสาวของยายแก้ว ยายแก้วเป็นอะไรกับต้น",
+      "figures": [],
+      "choices": [
+        {
+          "md": "แม่",
+          "is_answer": false
+        },
+        {
+          "md": "ยาย",
+          "is_answer": true
+        },
+        {
+          "md": "ย่า",
+          "is_answer": false
+        },
+        {
+          "md": "น้า",
+          "is_answer": false
+        },
+        {
+          "md": "ป้า",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ยายแก้ว → แม่ของต้น → ต้น",
+          "why_md": "สองรุ่น"
+        },
+        {
+          "do_md": "แม่ของแม่ = ยาย",
+          "why_md": "ฝั่งแม่"
+        }
+      ],
+      "answer_explanation_md": "ตอบ ยาย เพราะยายแก้วเป็นแม่ของแม่ต้น",
+      "hints": [
+        "ยายแก้วเป็นอะไรกับแม่ของต้น",
+        "แม่ของแม่เรียกว่าอะไร",
+        "ฝั่งแม่ใช้คำว่า ตา ยาย"
+      ],
+      "distractor_reasons": {
+        "0": "ยายแก้วเป็นแม่ของแม่ต้น",
+        "2": "ย่าเป็นแม่ของพ่อ แต่ยายแก้วเป็นแม่ของแม่",
+        "3": "น้าคือน้องของแม่",
+        "4": "ป้าอยู่รุ่นเดียวกับแม่"
+      },
+      "misconception_tags": [
+        "wrong_kin_side"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.reasoning.statement_analysis.family_relations.0003",
+      "topic_ids": [
+        "tgat2.reasoning.statement_analysis.family_relations"
+      ],
+      "primary_topic_id": "tgat2.reasoning.statement_analysis.family_relations",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 35,
+      "stem_md": "ป้อมเป็นพี่ชายของพ่อของนิด ป้อมเป็นอะไรกับนิด",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ปู่",
+          "is_answer": false
+        },
+        {
+          "md": "ตา",
+          "is_answer": false
+        },
+        {
+          "md": "น้า",
+          "is_answer": false
+        },
+        {
+          "md": "ลุง",
+          "is_answer": true
+        },
+        {
+          "md": "อา",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ป้อมอยู่รุ่นเดียวกับพ่อของนิด",
+          "why_md": "พี่น้องของพ่อ"
+        },
+        {
+          "do_md": "พี่ชายของพ่อ = ลุง",
+          "why_md": "ใช้ตาราง"
+        }
+      ],
+      "answer_explanation_md": "ตอบ ลุง เพราะพี่ชายของพ่อหรือแม่เรียกว่าลุง",
+      "hints": [
+        "ป้อมอยู่รุ่นเดียวกับใคร",
+        "ป้อมเป็นพี่หรือน้องของพ่อ",
+        "พี่ชายของพ่อเรียกว่าอะไร"
+      ],
+      "distractor_reasons": {
+        "0": "ปู่คือพ่อของพ่อ",
+        "1": "ตาคือพ่อของแม่",
+        "2": "น้าคือน้องของแม่",
+        "4": "อาคือน้องของพ่อ แต่ป้อมเป็นพี่"
+      },
+      "misconception_tags": [
+        "wrong_kin_side"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.reasoning.statement_analysis.family_relations.0004",
+      "topic_ids": [
+        "tgat2.reasoning.statement_analysis.family_relations"
+      ],
+      "primary_topic_id": "tgat2.reasoning.statement_analysis.family_relations",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 35,
+      "stem_md": "น้องสาวของแม่ของมิว เป็นอะไรกับมิว",
+      "figures": [],
+      "choices": [
+        {
+          "md": "น้า",
+          "is_answer": true
+        },
+        {
+          "md": "ป้า",
+          "is_answer": false
+        },
+        {
+          "md": "ย่า",
+          "is_answer": false
+        },
+        {
+          "md": "อา",
+          "is_answer": false
+        },
+        {
+          "md": "ยาย",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "น้องของแม่อยู่รุ่นเดียวกับแม่",
+          "why_md": "ฝั่งแม่"
+        },
+        {
+          "do_md": "น้องของแม่ = น้า",
+          "why_md": "ใช้ตาราง"
+        }
+      ],
+      "answer_explanation_md": "ตอบ น้า เพราะน้องของแม่เรียกว่าน้า ส่วนน้องของพ่อเรียกว่าอา",
+      "hints": [
+        "คนนี้อยู่รุ่นเดียวกับใคร",
+        "เป็นพี่หรือน้องของแม่",
+        "น้องของแม่ต่างจากน้องของพ่ออย่างไร"
+      ],
+      "distractor_reasons": {
+        "1": "ป้าคือพี่สาวของพ่อหรือแม่",
+        "2": "ย่าคือแม่ของพ่อ",
+        "3": "อาคือน้องของพ่อ",
+        "4": "ยายคือแม่ของแม่"
+      },
+      "misconception_tags": [
+        "wrong_kin_side"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.reasoning.statement_analysis.family_relations.0005",
+      "topic_ids": [
+        "tgat2.reasoning.statement_analysis.family_relations"
+      ],
+      "primary_topic_id": "tgat2.reasoning.statement_analysis.family_relations",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 45,
+      "stem_md": "C เป็นพ่อของ B, D เป็นแม่ของ B และ B เป็นแม่ของ A C เป็นอะไรกับ A",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ตา",
+          "is_answer": true
+        },
+        {
+          "md": "พ่อ",
+          "is_answer": false
+        },
+        {
+          "md": "ยาย",
+          "is_answer": false
+        },
+        {
+          "md": "ลุง",
+          "is_answer": false
+        },
+        {
+          "md": "ปู่",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "C → B → A",
+          "why_md": "C อยู่สองรุ่นก่อน A"
+        },
+        {
+          "do_md": "B เป็นแม่ของ A C จึงเป็นพ่อของแม่ = ตา",
+          "why_md": "ฝั่งแม่"
+        }
+      ],
+      "answer_explanation_md": "ตอบ ตา เพราะ C เป็นพ่อของ B ซึ่งเป็นแม่ของ A",
+      "hints": [
+        "วาดสามรุ่น C D อยู่บน B อยู่กลาง A อยู่ล่าง",
+        "B เป็นพ่อหรือแม่ของ A",
+        "พ่อของแม่เรียกว่าอะไร"
+      ],
+      "distractor_reasons": {
+        "1": "พ่อของ A ไม่ได้ถูกกล่าวถึง",
+        "2": "ยายคือ D ซึ่งเป็นแม่ของแม่",
+        "3": "C อยู่สองรุ่นก่อน A",
+        "4": "ปู่คือพ่อของพ่อ แต่ C เป็นพ่อของแม่"
+      },
+      "misconception_tags": [
+        "wrong_kin_side"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.reasoning.statement_analysis.family_relations.0006",
+      "topic_ids": [
+        "tgat2.reasoning.statement_analysis.family_relations"
+      ],
+      "primary_topic_id": "tgat2.reasoning.statement_analysis.family_relations",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 45,
+      "stem_md": "สมชายมีลูก 2 คนคือ เอ และ บี · เอมีลูก 1 คนคือ ซี · บีมีลูก 2 คนคือ ดี และ อี · ซี กับ ดี เป็นอะไรกัน",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ไม่มีความเกี่ยวข้องกัน",
+          "is_answer": false
+        },
+        {
+          "md": "พี่น้องแท้ ๆ",
+          "is_answer": false
+        },
+        {
+          "md": "หลานกับปู่",
+          "is_answer": false
+        },
+        {
+          "md": "หลานกับน้า",
+          "is_answer": false
+        },
+        {
+          "md": "ลูกพี่ลูกน้อง",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "เอ กับ บี เป็นพี่น้องกัน",
+          "why_md": "รุ่นกลาง"
+        },
+        {
+          "do_md": "ซี เป็นลูกของเอ ดี เป็นลูกของบี",
+          "why_md": "รุ่นล่าง"
+        },
+        {
+          "do_md": "ลูกของพี่น้องสองคน = ลูกพี่ลูกน้อง",
+          "why_md": "สรุป"
+        }
+      ],
+      "answer_explanation_md": "ตอบ ลูกพี่ลูกน้อง เพราะซีเป็นลูกของเอ ดีเป็นลูกของบี และเอกับบีเป็นพี่น้องกัน",
+      "hints": [
+        "วาดสมชายไว้บนสุด เอ บี อยู่แถวกลาง",
+        "ซี กับ ดี เป็นลูกของใคร",
+        "ลูกของพี่น้องสองคนเรียกกันว่าอะไร"
+      ],
+      "distractor_reasons": {
+        "0": "ทั้งคู่เป็นหลานของสมชาย",
+        "1": "ซี กับ ดี มีพ่อหรือแม่คนละคน",
+        "2": "ปู่ของทั้งคู่คือสมชาย",
+        "3": "ซี กับ ดี อยู่รุ่นเดียวกัน"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    }
+  ],
+  "generated_from": "content/tgat2/reasoning_analysis.py"
+}

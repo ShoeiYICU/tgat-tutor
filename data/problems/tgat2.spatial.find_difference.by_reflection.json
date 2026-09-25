@@ -1,0 +1,1602 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tgat2.spatial.find_difference.by_reflection",
+  "problems": [
+    {
+      "id": "prob.tgat2.spatial.find_difference.by_reflection.0001",
+      "topic_ids": [
+        "tgat2.spatial.find_difference.by_reflection"
+      ],
+      "primary_topic_id": "tgat2.spatial.find_difference.by_reflection",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 ด้านมิติสัมพันธ์ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 35,
+      "stem_md": "รูปใดต่างจากพวก",
+      "figures": [
+        {
+          "id": "fig1",
+          "type": "svg",
+          "alt": "รูปบนตาราง 2 x 3 ช่อง · แถวที่ 1 มีช่องที่ 1 / แถวที่ 2 มีช่องที่ 1 / แถวที่ 3 มีช่องที่ 1, 2",
+          "svg": "<svg viewBox=\"0 0 94 94\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"86\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"86\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"86\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"86\"/><line x1=\"8\" y1=\"8\" x2=\"86\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"86\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"86\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"86\" y2=\"86\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"61\" width=\"24\" height=\"24\"/></g></svg>",
+          "caption": null
+        },
+        {
+          "id": "fig2",
+          "type": "svg",
+          "alt": "รูปบนตาราง 3 x 2 ช่อง · แถวที่ 1 มีช่องที่ 1, 2, 3 / แถวที่ 2 มีช่องที่ 1",
+          "svg": "<svg viewBox=\"0 0 94 94\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"86\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"86\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"86\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"86\"/><line x1=\"8\" y1=\"8\" x2=\"86\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"86\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"86\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"86\" y2=\"86\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"9\" width=\"24\" height=\"24\"/></g></svg>",
+          "caption": null
+        },
+        {
+          "id": "fig3",
+          "type": "svg",
+          "alt": "รูปบนตาราง 2 x 3 ช่อง · แถวที่ 1 มีช่องที่ 1, 2 / แถวที่ 2 มีช่องที่ 2 / แถวที่ 3 มีช่องที่ 2",
+          "svg": "<svg viewBox=\"0 0 94 94\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"86\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"86\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"86\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"86\"/><line x1=\"8\" y1=\"8\" x2=\"86\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"86\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"86\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"86\" y2=\"86\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"61\" width=\"24\" height=\"24\"/></g></svg>",
+          "caption": null
+        },
+        {
+          "id": "fig4",
+          "type": "svg",
+          "alt": "รูปบนตาราง 3 x 2 ช่อง · แถวที่ 1 มีช่องที่ 3 / แถวที่ 2 มีช่องที่ 1, 2, 3",
+          "svg": "<svg viewBox=\"0 0 94 94\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"86\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"86\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"86\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"86\"/><line x1=\"8\" y1=\"8\" x2=\"86\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"86\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"86\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"86\" y2=\"86\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"35\" width=\"24\" height=\"24\"/></g></svg>",
+          "caption": null
+        },
+        {
+          "id": "fig5",
+          "type": "svg",
+          "alt": "รูปบนตาราง 3 x 2 ช่อง · แถวที่ 1 มีช่องที่ 1, 2, 3 / แถวที่ 2 มีช่องที่ 3",
+          "svg": "<svg viewBox=\"0 0 94 94\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"86\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"86\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"86\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"86\"/><line x1=\"8\" y1=\"8\" x2=\"86\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"86\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"86\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"86\" y2=\"86\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"35\" width=\"24\" height=\"24\"/></g></svg>",
+          "caption": null
+        }
+      ],
+      "choices": [
+        {
+          "md": "[[fig2]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig3]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig1]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig4]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig5]]",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "นับจำนวนช่องของทุกรูปก่อน ถ้ามีรูปที่จำนวนช่องต่างจากเพื่อน ก็ตอบได้ทันที",
+          "why_md": "เป็นการตัดที่เร็วที่สุดและใช้เวลาไม่ถึงห้าวินาที ถ้าจำนวนเท่ากันหมดจึงค่อยดูรูปร่าง"
+        },
+        {
+          "do_md": "เลือกจุดสังเกตหนึ่งจุด เช่นช่องที่ยื่นออกมาช่องเดียว แล้วดูว่าช่องนั้นอยู่ด้านไหนเมื่อเทียบกับส่วนที่ยาวที่สุด",
+          "why_md": "การหมุนไม่เปลี่ยนความสัมพันธ์ซ้ายขวาของสองส่วนนี้ แต่การสะท้อนเปลี่ยน จึงใช้แยกได้"
+        },
+        {
+          "do_md": "รูปที่ต่างคือรูปที่เป็นภาพ**สะท้อน**ของอีกสี่รูป ไม่ใช่ภาพหมุน จึงหมุนอย่างไรก็ไม่ทับกัน",
+          "why_md": "เมื่อเจอรูปที่ความสัมพันธ์สลับข้างจากเพื่อน ก็สรุปได้เลย"
+        }
+      ],
+      "answer_explanation_md": "สี่รูปในชุดเป็นภาพหมุนของกันและกัน ส่วนรูปที่ตอบเป็นภาพ**สะท้อน**ของอีกสี่รูป ไม่ใช่ภาพหมุน จึงหมุนอย่างไรก็ไม่ทับกัน หลักที่ใช้คือรูปที่ไม่สมมาตรเมื่อสะท้อนแล้วจะหมุนให้ทับรูปเดิมไม่ได้",
+      "hints": [
+        "เริ่มจากนับจำนวนช่องของแต่ละรูป ถ้าเท่ากันหมดค่อยดูรูปร่าง",
+        "เลือกจุดสังเกตจุดเดียว แล้วดูว่ามันอยู่ด้านไหนของส่วนที่ยาวที่สุด",
+        "การหมุนไม่สลับซ้ายขวา แต่การสะท้อนสลับ ใช้ข้อนี้แยกรูปที่ต่างออกมา"
+      ],
+      "distractor_reasons": {
+        "0": "เป็นภาพหมุน 90 องศา ของรูปอื่นในชุด จึงอยู่พวกเดียวกัน ไม่ใช่รูปที่ต่าง",
+        "1": "เป็นภาพหมุน 180 องศา ของรูปอื่นในชุด จึงอยู่พวกเดียวกัน ไม่ใช่รูปที่ต่าง",
+        "2": "เป็นภาพหมุน 0 องศา ของรูปอื่นในชุด จึงอยู่พวกเดียวกัน ไม่ใช่รูปที่ต่าง",
+        "3": "เป็นภาพหมุน 270 องศา ของรูปอื่นในชุด จึงอยู่พวกเดียวกัน ไม่ใช่รูปที่ต่าง"
+      },
+      "misconception_tags": [
+        "same_by_rotation"
+      ],
+      "template": {
+        "provider": "shape2d.odd_one_out",
+        "answer_kind": "text",
+        "params": {
+          "n_cells": 4,
+          "box": 3,
+          "mode": "reflection"
+        },
+        "stem_tpl": "รูปใดต่างจากพวก",
+        "quality_rules": [
+          "ภาพหมุนทั้งสี่รูปคำนวณด้วยโค้ด จึงเป็นพวกเดียวกันแน่นอน",
+          "รูปที่ต่างต้องต่างจริง ตรวจแล้วว่าไม่ใช่ภาพหมุนหรือภาพสะท้อนของรูปอื่นโดยบังเอิญ",
+          "รูปที่ใช้ต้องไม่สมมาตร ไม่งั้นภาพหมุนบางมุมจะซ้ำกันเองจนตัวเลือกเหลือไม่ครบห้า"
+        ]
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.spatial.find_difference.by_reflection.0002",
+      "topic_ids": [
+        "tgat2.spatial.find_difference.by_reflection"
+      ],
+      "primary_topic_id": "tgat2.spatial.find_difference.by_reflection",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 ด้านมิติสัมพันธ์ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 35,
+      "stem_md": "รูปใดต่างจากพวก",
+      "figures": [
+        {
+          "id": "fig1",
+          "type": "svg",
+          "alt": "รูปบนตาราง 2 x 3 ช่อง · แถวที่ 1 มีช่องที่ 1, 2 / แถวที่ 2 มีช่องที่ 1 / แถวที่ 3 มีช่องที่ 1",
+          "svg": "<svg viewBox=\"0 0 94 94\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"86\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"86\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"86\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"86\"/><line x1=\"8\" y1=\"8\" x2=\"86\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"86\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"86\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"86\" y2=\"86\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"9\" width=\"24\" height=\"24\"/></g></svg>",
+          "caption": null
+        },
+        {
+          "id": "fig2",
+          "type": "svg",
+          "alt": "รูปบนตาราง 2 x 3 ช่อง · แถวที่ 1 มีช่องที่ 1, 2 / แถวที่ 2 มีช่องที่ 2 / แถวที่ 3 มีช่องที่ 2",
+          "svg": "<svg viewBox=\"0 0 94 94\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"86\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"86\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"86\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"86\"/><line x1=\"8\" y1=\"8\" x2=\"86\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"86\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"86\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"86\" y2=\"86\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"61\" width=\"24\" height=\"24\"/></g></svg>",
+          "caption": null
+        },
+        {
+          "id": "fig3",
+          "type": "svg",
+          "alt": "รูปบนตาราง 3 x 2 ช่อง · แถวที่ 1 มีช่องที่ 3 / แถวที่ 2 มีช่องที่ 1, 2, 3",
+          "svg": "<svg viewBox=\"0 0 94 94\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"86\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"86\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"86\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"86\"/><line x1=\"8\" y1=\"8\" x2=\"86\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"86\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"86\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"86\" y2=\"86\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"35\" width=\"24\" height=\"24\"/></g></svg>",
+          "caption": null
+        },
+        {
+          "id": "fig4",
+          "type": "svg",
+          "alt": "รูปบนตาราง 2 x 3 ช่อง · แถวที่ 1 มีช่องที่ 1 / แถวที่ 2 มีช่องที่ 1 / แถวที่ 3 มีช่องที่ 1, 2",
+          "svg": "<svg viewBox=\"0 0 94 94\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"86\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"86\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"86\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"86\"/><line x1=\"8\" y1=\"8\" x2=\"86\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"86\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"86\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"86\" y2=\"86\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"61\" width=\"24\" height=\"24\"/></g></svg>",
+          "caption": null
+        },
+        {
+          "id": "fig5",
+          "type": "svg",
+          "alt": "รูปบนตาราง 3 x 2 ช่อง · แถวที่ 1 มีช่องที่ 1, 2, 3 / แถวที่ 2 มีช่องที่ 1",
+          "svg": "<svg viewBox=\"0 0 94 94\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"86\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"86\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"86\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"86\"/><line x1=\"8\" y1=\"8\" x2=\"86\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"86\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"86\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"86\" y2=\"86\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"9\" width=\"24\" height=\"24\"/></g></svg>",
+          "caption": null
+        }
+      ],
+      "choices": [
+        {
+          "md": "[[fig3]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig4]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig5]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig1]]",
+          "is_answer": true
+        },
+        {
+          "md": "[[fig2]]",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "นับจำนวนช่องของทุกรูปก่อน ถ้ามีรูปที่จำนวนช่องต่างจากเพื่อน ก็ตอบได้ทันที",
+          "why_md": "เป็นการตัดที่เร็วที่สุดและใช้เวลาไม่ถึงห้าวินาที ถ้าจำนวนเท่ากันหมดจึงค่อยดูรูปร่าง"
+        },
+        {
+          "do_md": "เลือกจุดสังเกตหนึ่งจุด เช่นช่องที่ยื่นออกมาช่องเดียว แล้วดูว่าช่องนั้นอยู่ด้านไหนเมื่อเทียบกับส่วนที่ยาวที่สุด",
+          "why_md": "การหมุนไม่เปลี่ยนความสัมพันธ์ซ้ายขวาของสองส่วนนี้ แต่การสะท้อนเปลี่ยน จึงใช้แยกได้"
+        },
+        {
+          "do_md": "รูปที่ต่างคือรูปที่เป็นภาพ**สะท้อน**ของอีกสี่รูป ไม่ใช่ภาพหมุน จึงหมุนอย่างไรก็ไม่ทับกัน",
+          "why_md": "เมื่อเจอรูปที่ความสัมพันธ์สลับข้างจากเพื่อน ก็สรุปได้เลย"
+        }
+      ],
+      "answer_explanation_md": "สี่รูปในชุดเป็นภาพหมุนของกันและกัน ส่วนรูปที่ตอบเป็นภาพ**สะท้อน**ของอีกสี่รูป ไม่ใช่ภาพหมุน จึงหมุนอย่างไรก็ไม่ทับกัน หลักที่ใช้คือรูปที่ไม่สมมาตรเมื่อสะท้อนแล้วจะหมุนให้ทับรูปเดิมไม่ได้",
+      "hints": [
+        "เริ่มจากนับจำนวนช่องของแต่ละรูป ถ้าเท่ากันหมดค่อยดูรูปร่าง",
+        "เลือกจุดสังเกตจุดเดียว แล้วดูว่ามันอยู่ด้านไหนของส่วนที่ยาวที่สุด",
+        "การหมุนไม่สลับซ้ายขวา แต่การสะท้อนสลับ ใช้ข้อนี้แยกรูปที่ต่างออกมา"
+      ],
+      "distractor_reasons": {
+        "0": "เป็นภาพหมุน 90 องศา ของรูปอื่นในชุด จึงอยู่พวกเดียวกัน ไม่ใช่รูปที่ต่าง",
+        "1": "เป็นภาพหมุน 180 องศา ของรูปอื่นในชุด จึงอยู่พวกเดียวกัน ไม่ใช่รูปที่ต่าง",
+        "2": "เป็นภาพหมุน 270 องศา ของรูปอื่นในชุด จึงอยู่พวกเดียวกัน ไม่ใช่รูปที่ต่าง",
+        "4": "เป็นภาพหมุน 0 องศา ของรูปอื่นในชุด จึงอยู่พวกเดียวกัน ไม่ใช่รูปที่ต่าง"
+      },
+      "misconception_tags": [
+        "same_by_rotation"
+      ],
+      "template": {
+        "provider": "shape2d.odd_one_out",
+        "answer_kind": "text",
+        "params": {
+          "n_cells": 4,
+          "box": 3,
+          "mode": "reflection"
+        },
+        "stem_tpl": "รูปใดต่างจากพวก",
+        "quality_rules": [
+          "ภาพหมุนทั้งสี่รูปคำนวณด้วยโค้ด จึงเป็นพวกเดียวกันแน่นอน",
+          "รูปที่ต่างต้องต่างจริง ตรวจแล้วว่าไม่ใช่ภาพหมุนหรือภาพสะท้อนของรูปอื่นโดยบังเอิญ",
+          "รูปที่ใช้ต้องไม่สมมาตร ไม่งั้นภาพหมุนบางมุมจะซ้ำกันเองจนตัวเลือกเหลือไม่ครบห้า"
+        ]
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.spatial.find_difference.by_reflection.0003",
+      "topic_ids": [
+        "tgat2.spatial.find_difference.by_reflection"
+      ],
+      "primary_topic_id": "tgat2.spatial.find_difference.by_reflection",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 ด้านมิติสัมพันธ์ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 45,
+      "stem_md": "รูปใดต่างจากพวก",
+      "figures": [
+        {
+          "id": "fig1",
+          "type": "svg",
+          "alt": "รูปบนตาราง 2 x 3 ช่อง · แถวที่ 1 มีช่องที่ 1, 2 / แถวที่ 2 มีช่องที่ 1, 2 / แถวที่ 3 มีช่องที่ 1",
+          "svg": "<svg viewBox=\"0 0 94 94\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"86\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"86\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"86\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"86\"/><line x1=\"8\" y1=\"8\" x2=\"86\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"86\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"86\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"86\" y2=\"86\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/></g></svg>",
+          "caption": null
+        },
+        {
+          "id": "fig2",
+          "type": "svg",
+          "alt": "รูปบนตาราง 2 x 3 ช่อง · แถวที่ 1 มีช่องที่ 1, 2 / แถวที่ 2 มีช่องที่ 1, 2 / แถวที่ 3 มีช่องที่ 2",
+          "svg": "<svg viewBox=\"0 0 94 94\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"86\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"86\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"86\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"86\"/><line x1=\"8\" y1=\"8\" x2=\"86\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"86\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"86\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"86\" y2=\"86\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"61\" width=\"24\" height=\"24\"/></g></svg>",
+          "caption": null
+        },
+        {
+          "id": "fig3",
+          "type": "svg",
+          "alt": "รูปบนตาราง 3 x 2 ช่อง · แถวที่ 1 มีช่องที่ 2, 3 / แถวที่ 2 มีช่องที่ 1, 2, 3",
+          "svg": "<svg viewBox=\"0 0 94 94\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"86\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"86\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"86\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"86\"/><line x1=\"8\" y1=\"8\" x2=\"86\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"86\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"86\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"86\" y2=\"86\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"35\" width=\"24\" height=\"24\"/></g></svg>",
+          "caption": null
+        },
+        {
+          "id": "fig4",
+          "type": "svg",
+          "alt": "รูปบนตาราง 2 x 3 ช่อง · แถวที่ 1 มีช่องที่ 1 / แถวที่ 2 มีช่องที่ 1, 2 / แถวที่ 3 มีช่องที่ 1, 2",
+          "svg": "<svg viewBox=\"0 0 94 94\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"86\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"86\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"86\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"86\"/><line x1=\"8\" y1=\"8\" x2=\"86\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"86\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"86\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"86\" y2=\"86\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"61\" width=\"24\" height=\"24\"/></g></svg>",
+          "caption": null
+        },
+        {
+          "id": "fig5",
+          "type": "svg",
+          "alt": "รูปบนตาราง 3 x 2 ช่อง · แถวที่ 1 มีช่องที่ 1, 2, 3 / แถวที่ 2 มีช่องที่ 1, 2",
+          "svg": "<svg viewBox=\"0 0 94 94\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"86\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"86\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"86\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"86\"/><line x1=\"8\" y1=\"8\" x2=\"86\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"86\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"86\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"86\" y2=\"86\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"9\" width=\"24\" height=\"24\"/></g></svg>",
+          "caption": null
+        }
+      ],
+      "choices": [
+        {
+          "md": "[[fig1]]",
+          "is_answer": true
+        },
+        {
+          "md": "[[fig5]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig4]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig3]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig2]]",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "นับจำนวนช่องของทุกรูปก่อน ถ้ามีรูปที่จำนวนช่องต่างจากเพื่อน ก็ตอบได้ทันที",
+          "why_md": "เป็นการตัดที่เร็วที่สุดและใช้เวลาไม่ถึงห้าวินาที ถ้าจำนวนเท่ากันหมดจึงค่อยดูรูปร่าง"
+        },
+        {
+          "do_md": "เลือกจุดสังเกตหนึ่งจุด เช่นช่องที่ยื่นออกมาช่องเดียว แล้วดูว่าช่องนั้นอยู่ด้านไหนเมื่อเทียบกับส่วนที่ยาวที่สุด",
+          "why_md": "การหมุนไม่เปลี่ยนความสัมพันธ์ซ้ายขวาของสองส่วนนี้ แต่การสะท้อนเปลี่ยน จึงใช้แยกได้"
+        },
+        {
+          "do_md": "รูปที่ต่างคือรูปที่เป็นภาพ**สะท้อน**ของอีกสี่รูป ไม่ใช่ภาพหมุน จึงหมุนอย่างไรก็ไม่ทับกัน",
+          "why_md": "เมื่อเจอรูปที่ความสัมพันธ์สลับข้างจากเพื่อน ก็สรุปได้เลย"
+        }
+      ],
+      "answer_explanation_md": "สี่รูปในชุดเป็นภาพหมุนของกันและกัน ส่วนรูปที่ตอบเป็นภาพ**สะท้อน**ของอีกสี่รูป ไม่ใช่ภาพหมุน จึงหมุนอย่างไรก็ไม่ทับกัน หลักที่ใช้คือรูปที่ไม่สมมาตรเมื่อสะท้อนแล้วจะหมุนให้ทับรูปเดิมไม่ได้",
+      "hints": [
+        "เริ่มจากนับจำนวนช่องของแต่ละรูป ถ้าเท่ากันหมดค่อยดูรูปร่าง",
+        "เลือกจุดสังเกตจุดเดียว แล้วดูว่ามันอยู่ด้านไหนของส่วนที่ยาวที่สุด",
+        "การหมุนไม่สลับซ้ายขวา แต่การสะท้อนสลับ ใช้ข้อนี้แยกรูปที่ต่างออกมา"
+      ],
+      "distractor_reasons": {
+        "1": "เป็นภาพหมุน 270 องศา ของรูปอื่นในชุด จึงอยู่พวกเดียวกัน ไม่ใช่รูปที่ต่าง",
+        "2": "เป็นภาพหมุน 180 องศา ของรูปอื่นในชุด จึงอยู่พวกเดียวกัน ไม่ใช่รูปที่ต่าง",
+        "3": "เป็นภาพหมุน 90 องศา ของรูปอื่นในชุด จึงอยู่พวกเดียวกัน ไม่ใช่รูปที่ต่าง",
+        "4": "เป็นภาพหมุน 0 องศา ของรูปอื่นในชุด จึงอยู่พวกเดียวกัน ไม่ใช่รูปที่ต่าง"
+      },
+      "misconception_tags": [
+        "same_by_rotation"
+      ],
+      "template": {
+        "provider": "shape2d.odd_one_out",
+        "answer_kind": "text",
+        "params": {
+          "n_cells": 5,
+          "box": 3,
+          "mode": "reflection"
+        },
+        "stem_tpl": "รูปใดต่างจากพวก",
+        "quality_rules": [
+          "ภาพหมุนทั้งสี่รูปคำนวณด้วยโค้ด จึงเป็นพวกเดียวกันแน่นอน",
+          "รูปที่ต่างต้องต่างจริง ตรวจแล้วว่าไม่ใช่ภาพหมุนหรือภาพสะท้อนของรูปอื่นโดยบังเอิญ",
+          "รูปที่ใช้ต้องไม่สมมาตร ไม่งั้นภาพหมุนบางมุมจะซ้ำกันเองจนตัวเลือกเหลือไม่ครบห้า"
+        ]
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.spatial.find_difference.by_reflection.0004",
+      "topic_ids": [
+        "tgat2.spatial.find_difference.by_reflection"
+      ],
+      "primary_topic_id": "tgat2.spatial.find_difference.by_reflection",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 ด้านมิติสัมพันธ์ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 45,
+      "stem_md": "รูปใดต่างจากพวก",
+      "figures": [
+        {
+          "id": "fig1",
+          "type": "svg",
+          "alt": "รูปบนตาราง 2 x 3 ช่อง · แถวที่ 1 มีช่องที่ 1, 2 / แถวที่ 2 มีช่องที่ 1, 2 / แถวที่ 3 มีช่องที่ 1",
+          "svg": "<svg viewBox=\"0 0 120 120\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"112\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"112\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"112\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"112\"/><line x1=\"112\" y1=\"8\" x2=\"112\" y2=\"112\"/><line x1=\"8\" y1=\"8\" x2=\"112\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"112\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"112\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"112\" y2=\"86\"/><line x1=\"8\" y1=\"112\" x2=\"112\" y2=\"112\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/></g></svg>",
+          "caption": null
+        },
+        {
+          "id": "fig2",
+          "type": "svg",
+          "alt": "รูปบนตาราง 3 x 2 ช่อง · แถวที่ 1 มีช่องที่ 1, 2, 3 / แถวที่ 2 มีช่องที่ 2, 3",
+          "svg": "<svg viewBox=\"0 0 120 120\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"112\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"112\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"112\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"112\"/><line x1=\"112\" y1=\"8\" x2=\"112\" y2=\"112\"/><line x1=\"8\" y1=\"8\" x2=\"112\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"112\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"112\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"112\" y2=\"86\"/><line x1=\"8\" y1=\"112\" x2=\"112\" y2=\"112\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"35\" width=\"24\" height=\"24\"/></g></svg>",
+          "caption": null
+        },
+        {
+          "id": "fig3",
+          "type": "svg",
+          "alt": "รูปบนตาราง 2 x 3 ช่อง · แถวที่ 1 มีช่องที่ 1, 2 / แถวที่ 2 มีช่องที่ 1, 2 / แถวที่ 3 มีช่องที่ 2",
+          "svg": "<svg viewBox=\"0 0 120 120\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"112\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"112\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"112\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"112\"/><line x1=\"112\" y1=\"8\" x2=\"112\" y2=\"112\"/><line x1=\"8\" y1=\"8\" x2=\"112\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"112\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"112\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"112\" y2=\"86\"/><line x1=\"8\" y1=\"112\" x2=\"112\" y2=\"112\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"61\" width=\"24\" height=\"24\"/></g></svg>",
+          "caption": null
+        },
+        {
+          "id": "fig4",
+          "type": "svg",
+          "alt": "รูปบนตาราง 2 x 3 ช่อง · แถวที่ 1 มีช่องที่ 2 / แถวที่ 2 มีช่องที่ 1, 2 / แถวที่ 3 มีช่องที่ 1, 2",
+          "svg": "<svg viewBox=\"0 0 120 120\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"112\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"112\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"112\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"112\"/><line x1=\"112\" y1=\"8\" x2=\"112\" y2=\"112\"/><line x1=\"8\" y1=\"8\" x2=\"112\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"112\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"112\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"112\" y2=\"86\"/><line x1=\"8\" y1=\"112\" x2=\"112\" y2=\"112\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"61\" width=\"24\" height=\"24\"/></g></svg>",
+          "caption": null
+        },
+        {
+          "id": "fig5",
+          "type": "svg",
+          "alt": "รูปบนตาราง 3 x 2 ช่อง · แถวที่ 1 มีช่องที่ 1, 2 / แถวที่ 2 มีช่องที่ 1, 2, 3",
+          "svg": "<svg viewBox=\"0 0 120 120\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"112\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"112\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"112\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"112\"/><line x1=\"112\" y1=\"8\" x2=\"112\" y2=\"112\"/><line x1=\"8\" y1=\"8\" x2=\"112\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"112\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"112\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"112\" y2=\"86\"/><line x1=\"8\" y1=\"112\" x2=\"112\" y2=\"112\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"35\" width=\"24\" height=\"24\"/></g></svg>",
+          "caption": null
+        }
+      ],
+      "choices": [
+        {
+          "md": "[[fig4]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig5]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig2]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig3]]",
+          "is_answer": true
+        },
+        {
+          "md": "[[fig1]]",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "นับจำนวนช่องของทุกรูปก่อน ถ้ามีรูปที่จำนวนช่องต่างจากเพื่อน ก็ตอบได้ทันที",
+          "why_md": "เป็นการตัดที่เร็วที่สุดและใช้เวลาไม่ถึงห้าวินาที ถ้าจำนวนเท่ากันหมดจึงค่อยดูรูปร่าง"
+        },
+        {
+          "do_md": "เลือกจุดสังเกตหนึ่งจุด เช่นช่องที่ยื่นออกมาช่องเดียว แล้วดูว่าช่องนั้นอยู่ด้านไหนเมื่อเทียบกับส่วนที่ยาวที่สุด",
+          "why_md": "การหมุนไม่เปลี่ยนความสัมพันธ์ซ้ายขวาของสองส่วนนี้ แต่การสะท้อนเปลี่ยน จึงใช้แยกได้"
+        },
+        {
+          "do_md": "รูปที่ต่างคือรูปที่เป็นภาพ**สะท้อน**ของอีกสี่รูป ไม่ใช่ภาพหมุน จึงหมุนอย่างไรก็ไม่ทับกัน",
+          "why_md": "เมื่อเจอรูปที่ความสัมพันธ์สลับข้างจากเพื่อน ก็สรุปได้เลย"
+        }
+      ],
+      "answer_explanation_md": "สี่รูปในชุดเป็นภาพหมุนของกันและกัน ส่วนรูปที่ตอบเป็นภาพ**สะท้อน**ของอีกสี่รูป ไม่ใช่ภาพหมุน จึงหมุนอย่างไรก็ไม่ทับกัน หลักที่ใช้คือรูปที่ไม่สมมาตรเมื่อสะท้อนแล้วจะหมุนให้ทับรูปเดิมไม่ได้",
+      "hints": [
+        "เริ่มจากนับจำนวนช่องของแต่ละรูป ถ้าเท่ากันหมดค่อยดูรูปร่าง",
+        "เลือกจุดสังเกตจุดเดียว แล้วดูว่ามันอยู่ด้านไหนของส่วนที่ยาวที่สุด",
+        "การหมุนไม่สลับซ้ายขวา แต่การสะท้อนสลับ ใช้ข้อนี้แยกรูปที่ต่างออกมา"
+      ],
+      "distractor_reasons": {
+        "0": "เป็นภาพหมุน 180 องศา ของรูปอื่นในชุด จึงอยู่พวกเดียวกัน ไม่ใช่รูปที่ต่าง",
+        "1": "เป็นภาพหมุน 270 องศา ของรูปอื่นในชุด จึงอยู่พวกเดียวกัน ไม่ใช่รูปที่ต่าง",
+        "2": "เป็นภาพหมุน 90 องศา ของรูปอื่นในชุด จึงอยู่พวกเดียวกัน ไม่ใช่รูปที่ต่าง",
+        "4": "เป็นภาพหมุน 0 องศา ของรูปอื่นในชุด จึงอยู่พวกเดียวกัน ไม่ใช่รูปที่ต่าง"
+      },
+      "misconception_tags": [
+        "same_by_rotation"
+      ],
+      "template": {
+        "provider": "shape2d.odd_one_out",
+        "answer_kind": "text",
+        "params": {
+          "n_cells": 5,
+          "box": 4,
+          "mode": "reflection"
+        },
+        "stem_tpl": "รูปใดต่างจากพวก",
+        "quality_rules": [
+          "ภาพหมุนทั้งสี่รูปคำนวณด้วยโค้ด จึงเป็นพวกเดียวกันแน่นอน",
+          "รูปที่ต่างต้องต่างจริง ตรวจแล้วว่าไม่ใช่ภาพหมุนหรือภาพสะท้อนของรูปอื่นโดยบังเอิญ",
+          "รูปที่ใช้ต้องไม่สมมาตร ไม่งั้นภาพหมุนบางมุมจะซ้ำกันเองจนตัวเลือกเหลือไม่ครบห้า"
+        ]
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.spatial.find_difference.by_reflection.0005",
+      "topic_ids": [
+        "tgat2.spatial.find_difference.by_reflection"
+      ],
+      "primary_topic_id": "tgat2.spatial.find_difference.by_reflection",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 ด้านมิติสัมพันธ์ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 50,
+      "stem_md": "รูปใดต่างจากพวก",
+      "figures": [
+        {
+          "id": "fig1",
+          "type": "svg",
+          "alt": "รูปบนตาราง 3 x 2 ช่อง · แถวที่ 1 มีช่องที่ 2, 3 / แถวที่ 2 มีช่องที่ 1, 2, 3",
+          "svg": "<svg viewBox=\"0 0 120 120\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"112\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"112\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"112\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"112\"/><line x1=\"112\" y1=\"8\" x2=\"112\" y2=\"112\"/><line x1=\"8\" y1=\"8\" x2=\"112\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"112\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"112\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"112\" y2=\"86\"/><line x1=\"8\" y1=\"112\" x2=\"112\" y2=\"112\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"35\" width=\"24\" height=\"24\"/></g></svg>",
+          "caption": null
+        },
+        {
+          "id": "fig2",
+          "type": "svg",
+          "alt": "รูปบนตาราง 2 x 3 ช่อง · แถวที่ 1 มีช่องที่ 1 / แถวที่ 2 มีช่องที่ 1, 2 / แถวที่ 3 มีช่องที่ 1, 2",
+          "svg": "<svg viewBox=\"0 0 120 120\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"112\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"112\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"112\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"112\"/><line x1=\"112\" y1=\"8\" x2=\"112\" y2=\"112\"/><line x1=\"8\" y1=\"8\" x2=\"112\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"112\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"112\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"112\" y2=\"86\"/><line x1=\"8\" y1=\"112\" x2=\"112\" y2=\"112\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"61\" width=\"24\" height=\"24\"/></g></svg>",
+          "caption": null
+        },
+        {
+          "id": "fig3",
+          "type": "svg",
+          "alt": "รูปบนตาราง 3 x 2 ช่อง · แถวที่ 1 มีช่องที่ 1, 2, 3 / แถวที่ 2 มีช่องที่ 1, 2",
+          "svg": "<svg viewBox=\"0 0 120 120\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"112\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"112\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"112\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"112\"/><line x1=\"112\" y1=\"8\" x2=\"112\" y2=\"112\"/><line x1=\"8\" y1=\"8\" x2=\"112\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"112\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"112\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"112\" y2=\"86\"/><line x1=\"8\" y1=\"112\" x2=\"112\" y2=\"112\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"9\" width=\"24\" height=\"24\"/></g></svg>",
+          "caption": null
+        },
+        {
+          "id": "fig4",
+          "type": "svg",
+          "alt": "รูปบนตาราง 2 x 3 ช่อง · แถวที่ 1 มีช่องที่ 2 / แถวที่ 2 มีช่องที่ 1, 2 / แถวที่ 3 มีช่องที่ 1, 2",
+          "svg": "<svg viewBox=\"0 0 120 120\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"112\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"112\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"112\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"112\"/><line x1=\"112\" y1=\"8\" x2=\"112\" y2=\"112\"/><line x1=\"8\" y1=\"8\" x2=\"112\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"112\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"112\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"112\" y2=\"86\"/><line x1=\"8\" y1=\"112\" x2=\"112\" y2=\"112\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"61\" width=\"24\" height=\"24\"/></g></svg>",
+          "caption": null
+        },
+        {
+          "id": "fig5",
+          "type": "svg",
+          "alt": "รูปบนตาราง 2 x 3 ช่อง · แถวที่ 1 มีช่องที่ 1, 2 / แถวที่ 2 มีช่องที่ 1, 2 / แถวที่ 3 มีช่องที่ 2",
+          "svg": "<svg viewBox=\"0 0 120 120\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"112\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"112\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"112\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"112\"/><line x1=\"112\" y1=\"8\" x2=\"112\" y2=\"112\"/><line x1=\"8\" y1=\"8\" x2=\"112\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"112\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"112\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"112\" y2=\"86\"/><line x1=\"8\" y1=\"112\" x2=\"112\" y2=\"112\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"61\" width=\"24\" height=\"24\"/></g></svg>",
+          "caption": null
+        }
+      ],
+      "choices": [
+        {
+          "md": "[[fig1]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig3]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig5]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig4]]",
+          "is_answer": true
+        },
+        {
+          "md": "[[fig2]]",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "นับจำนวนช่องของทุกรูปก่อน ถ้ามีรูปที่จำนวนช่องต่างจากเพื่อน ก็ตอบได้ทันที",
+          "why_md": "เป็นการตัดที่เร็วที่สุดและใช้เวลาไม่ถึงห้าวินาที ถ้าจำนวนเท่ากันหมดจึงค่อยดูรูปร่าง"
+        },
+        {
+          "do_md": "เลือกจุดสังเกตหนึ่งจุด เช่นช่องที่ยื่นออกมาช่องเดียว แล้วดูว่าช่องนั้นอยู่ด้านไหนเมื่อเทียบกับส่วนที่ยาวที่สุด",
+          "why_md": "การหมุนไม่เปลี่ยนความสัมพันธ์ซ้ายขวาของสองส่วนนี้ แต่การสะท้อนเปลี่ยน จึงใช้แยกได้"
+        },
+        {
+          "do_md": "รูปที่ต่างคือรูปที่เป็นภาพ**สะท้อน**ของอีกสี่รูป ไม่ใช่ภาพหมุน จึงหมุนอย่างไรก็ไม่ทับกัน",
+          "why_md": "เมื่อเจอรูปที่ความสัมพันธ์สลับข้างจากเพื่อน ก็สรุปได้เลย"
+        }
+      ],
+      "answer_explanation_md": "สี่รูปในชุดเป็นภาพหมุนของกันและกัน ส่วนรูปที่ตอบเป็นภาพ**สะท้อน**ของอีกสี่รูป ไม่ใช่ภาพหมุน จึงหมุนอย่างไรก็ไม่ทับกัน หลักที่ใช้คือรูปที่ไม่สมมาตรเมื่อสะท้อนแล้วจะหมุนให้ทับรูปเดิมไม่ได้",
+      "hints": [
+        "เริ่มจากนับจำนวนช่องของแต่ละรูป ถ้าเท่ากันหมดค่อยดูรูปร่าง",
+        "เลือกจุดสังเกตจุดเดียว แล้วดูว่ามันอยู่ด้านไหนของส่วนที่ยาวที่สุด",
+        "การหมุนไม่สลับซ้ายขวา แต่การสะท้อนสลับ ใช้ข้อนี้แยกรูปที่ต่างออกมา"
+      ],
+      "distractor_reasons": {
+        "0": "เป็นภาพหมุน 0 องศา ของรูปอื่นในชุด จึงอยู่พวกเดียวกัน ไม่ใช่รูปที่ต่าง",
+        "1": "เป็นภาพหมุน 180 องศา ของรูปอื่นในชุด จึงอยู่พวกเดียวกัน ไม่ใช่รูปที่ต่าง",
+        "2": "เป็นภาพหมุน 270 องศา ของรูปอื่นในชุด จึงอยู่พวกเดียวกัน ไม่ใช่รูปที่ต่าง",
+        "4": "เป็นภาพหมุน 90 องศา ของรูปอื่นในชุด จึงอยู่พวกเดียวกัน ไม่ใช่รูปที่ต่าง"
+      },
+      "misconception_tags": [
+        "same_by_rotation"
+      ],
+      "template": {
+        "provider": "shape2d.odd_one_out",
+        "answer_kind": "text",
+        "params": {
+          "n_cells": 5,
+          "box": 4,
+          "mode": "reflection"
+        },
+        "stem_tpl": "รูปใดต่างจากพวก",
+        "quality_rules": [
+          "ภาพหมุนทั้งสี่รูปคำนวณด้วยโค้ด จึงเป็นพวกเดียวกันแน่นอน",
+          "รูปที่ต่างต้องต่างจริง ตรวจแล้วว่าไม่ใช่ภาพหมุนหรือภาพสะท้อนของรูปอื่นโดยบังเอิญ",
+          "รูปที่ใช้ต้องไม่สมมาตร ไม่งั้นภาพหมุนบางมุมจะซ้ำกันเองจนตัวเลือกเหลือไม่ครบห้า"
+        ]
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.spatial.find_difference.by_reflection.0006",
+      "topic_ids": [
+        "tgat2.spatial.find_difference.by_reflection"
+      ],
+      "primary_topic_id": "tgat2.spatial.find_difference.by_reflection",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 ด้านมิติสัมพันธ์ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 55,
+      "stem_md": "รูปใดต่างจากพวก",
+      "figures": [
+        {
+          "id": "fig1",
+          "type": "svg",
+          "alt": "รูปบนตาราง 3 x 4 ช่อง · แถวที่ 1 มีช่องที่ 2 / แถวที่ 2 มีช่องที่ 1, 2 / แถวที่ 3 มีช่องที่ 2, 3 / แถวที่ 4 มีช่องที่ 3",
+          "svg": "<svg viewBox=\"0 0 120 120\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"112\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"112\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"112\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"112\"/><line x1=\"112\" y1=\"8\" x2=\"112\" y2=\"112\"/><line x1=\"8\" y1=\"8\" x2=\"112\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"112\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"112\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"112\" y2=\"86\"/><line x1=\"8\" y1=\"112\" x2=\"112\" y2=\"112\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"87\" width=\"24\" height=\"24\"/></g></svg>",
+          "caption": null
+        },
+        {
+          "id": "fig2",
+          "type": "svg",
+          "alt": "รูปบนตาราง 4 x 3 ช่อง · แถวที่ 1 มีช่องที่ 3 / แถวที่ 2 มีช่องที่ 2, 3, 4 / แถวที่ 3 มีช่องที่ 1, 2",
+          "svg": "<svg viewBox=\"0 0 120 120\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"112\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"112\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"112\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"112\"/><line x1=\"112\" y1=\"8\" x2=\"112\" y2=\"112\"/><line x1=\"8\" y1=\"8\" x2=\"112\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"112\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"112\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"112\" y2=\"86\"/><line x1=\"8\" y1=\"112\" x2=\"112\" y2=\"112\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"87\" y=\"35\" width=\"24\" height=\"24\"/></g></svg>",
+          "caption": null
+        },
+        {
+          "id": "fig3",
+          "type": "svg",
+          "alt": "รูปบนตาราง 3 x 4 ช่อง · แถวที่ 1 มีช่องที่ 1 / แถวที่ 2 มีช่องที่ 1, 2 / แถวที่ 3 มีช่องที่ 2, 3 / แถวที่ 4 มีช่องที่ 2",
+          "svg": "<svg viewBox=\"0 0 120 120\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"112\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"112\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"112\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"112\"/><line x1=\"112\" y1=\"8\" x2=\"112\" y2=\"112\"/><line x1=\"8\" y1=\"8\" x2=\"112\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"112\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"112\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"112\" y2=\"86\"/><line x1=\"8\" y1=\"112\" x2=\"112\" y2=\"112\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"87\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"61\" width=\"24\" height=\"24\"/></g></svg>",
+          "caption": null
+        },
+        {
+          "id": "fig4",
+          "type": "svg",
+          "alt": "รูปบนตาราง 4 x 3 ช่อง · แถวที่ 1 มีช่องที่ 3, 4 / แถวที่ 2 มีช่องที่ 1, 2, 3 / แถวที่ 3 มีช่องที่ 2",
+          "svg": "<svg viewBox=\"0 0 120 120\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"112\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"112\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"112\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"112\"/><line x1=\"112\" y1=\"8\" x2=\"112\" y2=\"112\"/><line x1=\"8\" y1=\"8\" x2=\"112\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"112\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"112\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"112\" y2=\"86\"/><line x1=\"8\" y1=\"112\" x2=\"112\" y2=\"112\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"87\" y=\"9\" width=\"24\" height=\"24\"/></g></svg>",
+          "caption": null
+        },
+        {
+          "id": "fig5",
+          "type": "svg",
+          "alt": "รูปบนตาราง 3 x 4 ช่อง · แถวที่ 1 มีช่องที่ 2 / แถวที่ 2 มีช่องที่ 2, 3 / แถวที่ 3 มีช่องที่ 1, 2 / แถวที่ 4 มีช่องที่ 1",
+          "svg": "<svg viewBox=\"0 0 120 120\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"112\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"112\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"112\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"112\"/><line x1=\"112\" y1=\"8\" x2=\"112\" y2=\"112\"/><line x1=\"8\" y1=\"8\" x2=\"112\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"112\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"112\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"112\" y2=\"86\"/><line x1=\"8\" y1=\"112\" x2=\"112\" y2=\"112\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"87\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"35\" width=\"24\" height=\"24\"/></g></svg>",
+          "caption": null
+        }
+      ],
+      "choices": [
+        {
+          "md": "[[fig5]]",
+          "is_answer": true
+        },
+        {
+          "md": "[[fig2]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig1]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig3]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig4]]",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "นับจำนวนช่องของทุกรูปก่อน ถ้ามีรูปที่จำนวนช่องต่างจากเพื่อน ก็ตอบได้ทันที",
+          "why_md": "เป็นการตัดที่เร็วที่สุดและใช้เวลาไม่ถึงห้าวินาที ถ้าจำนวนเท่ากันหมดจึงค่อยดูรูปร่าง"
+        },
+        {
+          "do_md": "เลือกจุดสังเกตหนึ่งจุด เช่นช่องที่ยื่นออกมาช่องเดียว แล้วดูว่าช่องนั้นอยู่ด้านไหนเมื่อเทียบกับส่วนที่ยาวที่สุด",
+          "why_md": "การหมุนไม่เปลี่ยนความสัมพันธ์ซ้ายขวาของสองส่วนนี้ แต่การสะท้อนเปลี่ยน จึงใช้แยกได้"
+        },
+        {
+          "do_md": "รูปที่ต่างคือรูปที่เป็นภาพ**สะท้อน**ของอีกสี่รูป ไม่ใช่ภาพหมุน จึงหมุนอย่างไรก็ไม่ทับกัน",
+          "why_md": "เมื่อเจอรูปที่ความสัมพันธ์สลับข้างจากเพื่อน ก็สรุปได้เลย"
+        }
+      ],
+      "answer_explanation_md": "สี่รูปในชุดเป็นภาพหมุนของกันและกัน ส่วนรูปที่ตอบเป็นภาพ**สะท้อน**ของอีกสี่รูป ไม่ใช่ภาพหมุน จึงหมุนอย่างไรก็ไม่ทับกัน หลักที่ใช้คือรูปที่ไม่สมมาตรเมื่อสะท้อนแล้วจะหมุนให้ทับรูปเดิมไม่ได้",
+      "hints": [
+        "เริ่มจากนับจำนวนช่องของแต่ละรูป ถ้าเท่ากันหมดค่อยดูรูปร่าง",
+        "เลือกจุดสังเกตจุดเดียว แล้วดูว่ามันอยู่ด้านไหนของส่วนที่ยาวที่สุด",
+        "การหมุนไม่สลับซ้ายขวา แต่การสะท้อนสลับ ใช้ข้อนี้แยกรูปที่ต่างออกมา"
+      ],
+      "distractor_reasons": {
+        "1": "เป็นภาพหมุน 90 องศา ของรูปอื่นในชุด จึงอยู่พวกเดียวกัน ไม่ใช่รูปที่ต่าง",
+        "2": "เป็นภาพหมุน 0 องศา ของรูปอื่นในชุด จึงอยู่พวกเดียวกัน ไม่ใช่รูปที่ต่าง",
+        "3": "เป็นภาพหมุน 180 องศา ของรูปอื่นในชุด จึงอยู่พวกเดียวกัน ไม่ใช่รูปที่ต่าง",
+        "4": "เป็นภาพหมุน 270 องศา ของรูปอื่นในชุด จึงอยู่พวกเดียวกัน ไม่ใช่รูปที่ต่าง"
+      },
+      "misconception_tags": [
+        "same_by_rotation"
+      ],
+      "template": {
+        "provider": "shape2d.odd_one_out",
+        "answer_kind": "text",
+        "params": {
+          "n_cells": 6,
+          "box": 4,
+          "mode": "reflection"
+        },
+        "stem_tpl": "รูปใดต่างจากพวก",
+        "quality_rules": [
+          "ภาพหมุนทั้งสี่รูปคำนวณด้วยโค้ด จึงเป็นพวกเดียวกันแน่นอน",
+          "รูปที่ต่างต้องต่างจริง ตรวจแล้วว่าไม่ใช่ภาพหมุนหรือภาพสะท้อนของรูปอื่นโดยบังเอิญ",
+          "รูปที่ใช้ต้องไม่สมมาตร ไม่งั้นภาพหมุนบางมุมจะซ้ำกันเองจนตัวเลือกเหลือไม่ครบห้า"
+        ]
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.spatial.find_difference.by_reflection.0007",
+      "topic_ids": [
+        "tgat2.spatial.find_difference.by_reflection"
+      ],
+      "primary_topic_id": "tgat2.spatial.find_difference.by_reflection",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 ด้านมิติสัมพันธ์ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 55,
+      "stem_md": "รูปใดต่างจากพวก",
+      "figures": [
+        {
+          "id": "fig1",
+          "type": "svg",
+          "alt": "รูปบนตาราง 3 x 4 ช่อง · แถวที่ 1 มีช่องที่ 1 / แถวที่ 2 มีช่องที่ 1 / แถวที่ 3 มีช่องที่ 1, 2, 3 / แถวที่ 4 มีช่องที่ 1",
+          "svg": "<svg viewBox=\"0 0 120 120\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"112\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"112\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"112\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"112\"/><line x1=\"112\" y1=\"8\" x2=\"112\" y2=\"112\"/><line x1=\"8\" y1=\"8\" x2=\"112\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"112\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"112\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"112\" y2=\"86\"/><line x1=\"8\" y1=\"112\" x2=\"112\" y2=\"112\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"87\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"61\" width=\"24\" height=\"24\"/></g></svg>",
+          "caption": null
+        },
+        {
+          "id": "fig2",
+          "type": "svg",
+          "alt": "รูปบนตาราง 4 x 3 ช่อง · แถวที่ 1 มีช่องที่ 1, 2, 3, 4 / แถวที่ 2 มีช่องที่ 2 / แถวที่ 3 มีช่องที่ 2",
+          "svg": "<svg viewBox=\"0 0 120 120\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"112\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"112\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"112\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"112\"/><line x1=\"112\" y1=\"8\" x2=\"112\" y2=\"112\"/><line x1=\"8\" y1=\"8\" x2=\"112\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"112\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"112\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"112\" y2=\"86\"/><line x1=\"8\" y1=\"112\" x2=\"112\" y2=\"112\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"87\" y=\"9\" width=\"24\" height=\"24\"/></g></svg>",
+          "caption": null
+        },
+        {
+          "id": "fig3",
+          "type": "svg",
+          "alt": "รูปบนตาราง 3 x 4 ช่อง · แถวที่ 1 มีช่องที่ 3 / แถวที่ 2 มีช่องที่ 3 / แถวที่ 3 มีช่องที่ 1, 2, 3 / แถวที่ 4 มีช่องที่ 3",
+          "svg": "<svg viewBox=\"0 0 120 120\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"112\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"112\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"112\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"112\"/><line x1=\"112\" y1=\"8\" x2=\"112\" y2=\"112\"/><line x1=\"8\" y1=\"8\" x2=\"112\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"112\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"112\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"112\" y2=\"86\"/><line x1=\"8\" y1=\"112\" x2=\"112\" y2=\"112\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"87\" width=\"24\" height=\"24\"/></g></svg>",
+          "caption": null
+        },
+        {
+          "id": "fig4",
+          "type": "svg",
+          "alt": "รูปบนตาราง 3 x 4 ช่อง · แถวที่ 1 มีช่องที่ 3 / แถวที่ 2 มีช่องที่ 1, 2, 3 / แถวที่ 3 มีช่องที่ 3 / แถวที่ 4 มีช่องที่ 3",
+          "svg": "<svg viewBox=\"0 0 120 120\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"112\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"112\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"112\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"112\"/><line x1=\"112\" y1=\"8\" x2=\"112\" y2=\"112\"/><line x1=\"8\" y1=\"8\" x2=\"112\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"112\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"112\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"112\" y2=\"86\"/><line x1=\"8\" y1=\"112\" x2=\"112\" y2=\"112\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"87\" width=\"24\" height=\"24\"/></g></svg>",
+          "caption": null
+        },
+        {
+          "id": "fig5",
+          "type": "svg",
+          "alt": "รูปบนตาราง 4 x 3 ช่อง · แถวที่ 1 มีช่องที่ 3 / แถวที่ 2 มีช่องที่ 3 / แถวที่ 3 มีช่องที่ 1, 2, 3, 4",
+          "svg": "<svg viewBox=\"0 0 120 120\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"112\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"112\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"112\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"112\"/><line x1=\"112\" y1=\"8\" x2=\"112\" y2=\"112\"/><line x1=\"8\" y1=\"8\" x2=\"112\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"112\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"112\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"112\" y2=\"86\"/><line x1=\"8\" y1=\"112\" x2=\"112\" y2=\"112\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"87\" y=\"61\" width=\"24\" height=\"24\"/></g></svg>",
+          "caption": null
+        }
+      ],
+      "choices": [
+        {
+          "md": "[[fig1]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig4]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig3]]",
+          "is_answer": true
+        },
+        {
+          "md": "[[fig5]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig2]]",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "นับจำนวนช่องของทุกรูปก่อน ถ้ามีรูปที่จำนวนช่องต่างจากเพื่อน ก็ตอบได้ทันที",
+          "why_md": "เป็นการตัดที่เร็วที่สุดและใช้เวลาไม่ถึงห้าวินาที ถ้าจำนวนเท่ากันหมดจึงค่อยดูรูปร่าง"
+        },
+        {
+          "do_md": "เลือกจุดสังเกตหนึ่งจุด เช่นช่องที่ยื่นออกมาช่องเดียว แล้วดูว่าช่องนั้นอยู่ด้านไหนเมื่อเทียบกับส่วนที่ยาวที่สุด",
+          "why_md": "การหมุนไม่เปลี่ยนความสัมพันธ์ซ้ายขวาของสองส่วนนี้ แต่การสะท้อนเปลี่ยน จึงใช้แยกได้"
+        },
+        {
+          "do_md": "รูปที่ต่างคือรูปที่เป็นภาพ**สะท้อน**ของอีกสี่รูป ไม่ใช่ภาพหมุน จึงหมุนอย่างไรก็ไม่ทับกัน",
+          "why_md": "เมื่อเจอรูปที่ความสัมพันธ์สลับข้างจากเพื่อน ก็สรุปได้เลย"
+        }
+      ],
+      "answer_explanation_md": "สี่รูปในชุดเป็นภาพหมุนของกันและกัน ส่วนรูปที่ตอบเป็นภาพ**สะท้อน**ของอีกสี่รูป ไม่ใช่ภาพหมุน จึงหมุนอย่างไรก็ไม่ทับกัน หลักที่ใช้คือรูปที่ไม่สมมาตรเมื่อสะท้อนแล้วจะหมุนให้ทับรูปเดิมไม่ได้",
+      "hints": [
+        "เริ่มจากนับจำนวนช่องของแต่ละรูป ถ้าเท่ากันหมดค่อยดูรูปร่าง",
+        "เลือกจุดสังเกตจุดเดียว แล้วดูว่ามันอยู่ด้านไหนของส่วนที่ยาวที่สุด",
+        "การหมุนไม่สลับซ้ายขวา แต่การสะท้อนสลับ ใช้ข้อนี้แยกรูปที่ต่างออกมา"
+      ],
+      "distractor_reasons": {
+        "0": "เป็นภาพหมุน 0 องศา ของรูปอื่นในชุด จึงอยู่พวกเดียวกัน ไม่ใช่รูปที่ต่าง",
+        "1": "เป็นภาพหมุน 180 องศา ของรูปอื่นในชุด จึงอยู่พวกเดียวกัน ไม่ใช่รูปที่ต่าง",
+        "3": "เป็นภาพหมุน 270 องศา ของรูปอื่นในชุด จึงอยู่พวกเดียวกัน ไม่ใช่รูปที่ต่าง",
+        "4": "เป็นภาพหมุน 90 องศา ของรูปอื่นในชุด จึงอยู่พวกเดียวกัน ไม่ใช่รูปที่ต่าง"
+      },
+      "misconception_tags": [
+        "same_by_rotation"
+      ],
+      "template": {
+        "provider": "shape2d.odd_one_out",
+        "answer_kind": "text",
+        "params": {
+          "n_cells": 6,
+          "box": 4,
+          "mode": "reflection"
+        },
+        "stem_tpl": "รูปใดต่างจากพวก",
+        "quality_rules": [
+          "ภาพหมุนทั้งสี่รูปคำนวณด้วยโค้ด จึงเป็นพวกเดียวกันแน่นอน",
+          "รูปที่ต่างต้องต่างจริง ตรวจแล้วว่าไม่ใช่ภาพหมุนหรือภาพสะท้อนของรูปอื่นโดยบังเอิญ",
+          "รูปที่ใช้ต้องไม่สมมาตร ไม่งั้นภาพหมุนบางมุมจะซ้ำกันเองจนตัวเลือกเหลือไม่ครบห้า"
+        ]
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.spatial.find_difference.by_reflection.0008",
+      "topic_ids": [
+        "tgat2.spatial.find_difference.by_reflection"
+      ],
+      "primary_topic_id": "tgat2.spatial.find_difference.by_reflection",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 ด้านมิติสัมพันธ์ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 60,
+      "stem_md": "รูปใดต่างจากพวก",
+      "figures": [
+        {
+          "id": "fig1",
+          "type": "svg",
+          "alt": "รูปบนตาราง 3 x 4 ช่อง · แถวที่ 1 มีช่องที่ 1, 2, 3 / แถวที่ 2 มีช่องที่ 3 / แถวที่ 3 มีช่องที่ 3 / แถวที่ 4 มีช่องที่ 3",
+          "svg": "<svg viewBox=\"0 0 146 146\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"138\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"138\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"138\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"138\"/><line x1=\"112\" y1=\"8\" x2=\"112\" y2=\"138\"/><line x1=\"138\" y1=\"8\" x2=\"138\" y2=\"138\"/><line x1=\"8\" y1=\"8\" x2=\"138\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"138\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"138\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"138\" y2=\"86\"/><line x1=\"8\" y1=\"112\" x2=\"138\" y2=\"112\"/><line x1=\"8\" y1=\"138\" x2=\"138\" y2=\"138\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"87\" width=\"24\" height=\"24\"/></g></svg>",
+          "caption": null
+        },
+        {
+          "id": "fig2",
+          "type": "svg",
+          "alt": "รูปบนตาราง 4 x 3 ช่อง · แถวที่ 1 มีช่องที่ 4 / แถวที่ 2 มีช่องที่ 4 / แถวที่ 3 มีช่องที่ 1, 2, 3, 4",
+          "svg": "<svg viewBox=\"0 0 146 146\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"138\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"138\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"138\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"138\"/><line x1=\"112\" y1=\"8\" x2=\"112\" y2=\"138\"/><line x1=\"138\" y1=\"8\" x2=\"138\" y2=\"138\"/><line x1=\"8\" y1=\"8\" x2=\"138\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"138\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"138\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"138\" y2=\"86\"/><line x1=\"8\" y1=\"112\" x2=\"138\" y2=\"112\"/><line x1=\"8\" y1=\"138\" x2=\"138\" y2=\"138\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"87\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"87\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"87\" y=\"61\" width=\"24\" height=\"24\"/></g></svg>",
+          "caption": null
+        },
+        {
+          "id": "fig3",
+          "type": "svg",
+          "alt": "รูปบนตาราง 3 x 4 ช่อง · แถวที่ 1 มีช่องที่ 1 / แถวที่ 2 มีช่องที่ 1 / แถวที่ 3 มีช่องที่ 1 / แถวที่ 4 มีช่องที่ 1, 2, 3",
+          "svg": "<svg viewBox=\"0 0 146 146\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"138\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"138\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"138\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"138\"/><line x1=\"112\" y1=\"8\" x2=\"112\" y2=\"138\"/><line x1=\"138\" y1=\"8\" x2=\"138\" y2=\"138\"/><line x1=\"8\" y1=\"8\" x2=\"138\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"138\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"138\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"138\" y2=\"86\"/><line x1=\"8\" y1=\"112\" x2=\"138\" y2=\"112\"/><line x1=\"8\" y1=\"138\" x2=\"138\" y2=\"138\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"87\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"87\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"87\" width=\"24\" height=\"24\"/></g></svg>",
+          "caption": null
+        },
+        {
+          "id": "fig4",
+          "type": "svg",
+          "alt": "รูปบนตาราง 4 x 3 ช่อง · แถวที่ 1 มีช่องที่ 1, 2, 3, 4 / แถวที่ 2 มีช่องที่ 4 / แถวที่ 3 มีช่องที่ 4",
+          "svg": "<svg viewBox=\"0 0 146 146\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"138\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"138\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"138\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"138\"/><line x1=\"112\" y1=\"8\" x2=\"112\" y2=\"138\"/><line x1=\"138\" y1=\"8\" x2=\"138\" y2=\"138\"/><line x1=\"8\" y1=\"8\" x2=\"138\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"138\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"138\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"138\" y2=\"86\"/><line x1=\"8\" y1=\"112\" x2=\"138\" y2=\"112\"/><line x1=\"8\" y1=\"138\" x2=\"138\" y2=\"138\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"87\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"87\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"87\" y=\"61\" width=\"24\" height=\"24\"/></g></svg>",
+          "caption": null
+        },
+        {
+          "id": "fig5",
+          "type": "svg",
+          "alt": "รูปบนตาราง 4 x 3 ช่อง · แถวที่ 1 มีช่องที่ 1, 2, 3, 4 / แถวที่ 2 มีช่องที่ 1 / แถวที่ 3 มีช่องที่ 1",
+          "svg": "<svg viewBox=\"0 0 146 146\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"138\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"138\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"138\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"138\"/><line x1=\"112\" y1=\"8\" x2=\"112\" y2=\"138\"/><line x1=\"138\" y1=\"8\" x2=\"138\" y2=\"138\"/><line x1=\"8\" y1=\"8\" x2=\"138\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"138\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"138\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"138\" y2=\"86\"/><line x1=\"8\" y1=\"112\" x2=\"138\" y2=\"112\"/><line x1=\"8\" y1=\"138\" x2=\"138\" y2=\"138\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"87\" y=\"9\" width=\"24\" height=\"24\"/></g></svg>",
+          "caption": null
+        }
+      ],
+      "choices": [
+        {
+          "md": "[[fig3]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig5]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig2]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig4]]",
+          "is_answer": true
+        },
+        {
+          "md": "[[fig1]]",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "นับจำนวนช่องของทุกรูปก่อน ถ้ามีรูปที่จำนวนช่องต่างจากเพื่อน ก็ตอบได้ทันที",
+          "why_md": "เป็นการตัดที่เร็วที่สุดและใช้เวลาไม่ถึงห้าวินาที ถ้าจำนวนเท่ากันหมดจึงค่อยดูรูปร่าง"
+        },
+        {
+          "do_md": "เลือกจุดสังเกตหนึ่งจุด เช่นช่องที่ยื่นออกมาช่องเดียว แล้วดูว่าช่องนั้นอยู่ด้านไหนเมื่อเทียบกับส่วนที่ยาวที่สุด",
+          "why_md": "การหมุนไม่เปลี่ยนความสัมพันธ์ซ้ายขวาของสองส่วนนี้ แต่การสะท้อนเปลี่ยน จึงใช้แยกได้"
+        },
+        {
+          "do_md": "รูปที่ต่างคือรูปที่เป็นภาพ**สะท้อน**ของอีกสี่รูป ไม่ใช่ภาพหมุน จึงหมุนอย่างไรก็ไม่ทับกัน",
+          "why_md": "เมื่อเจอรูปที่ความสัมพันธ์สลับข้างจากเพื่อน ก็สรุปได้เลย"
+        }
+      ],
+      "answer_explanation_md": "สี่รูปในชุดเป็นภาพหมุนของกันและกัน ส่วนรูปที่ตอบเป็นภาพ**สะท้อน**ของอีกสี่รูป ไม่ใช่ภาพหมุน จึงหมุนอย่างไรก็ไม่ทับกัน หลักที่ใช้คือรูปที่ไม่สมมาตรเมื่อสะท้อนแล้วจะหมุนให้ทับรูปเดิมไม่ได้",
+      "hints": [
+        "เริ่มจากนับจำนวนช่องของแต่ละรูป ถ้าเท่ากันหมดค่อยดูรูปร่าง",
+        "เลือกจุดสังเกตจุดเดียว แล้วดูว่ามันอยู่ด้านไหนของส่วนที่ยาวที่สุด",
+        "การหมุนไม่สลับซ้ายขวา แต่การสะท้อนสลับ ใช้ข้อนี้แยกรูปที่ต่างออกมา"
+      ],
+      "distractor_reasons": {
+        "0": "เป็นภาพหมุน 180 องศา ของรูปอื่นในชุด จึงอยู่พวกเดียวกัน ไม่ใช่รูปที่ต่าง",
+        "1": "เป็นภาพหมุน 270 องศา ของรูปอื่นในชุด จึงอยู่พวกเดียวกัน ไม่ใช่รูปที่ต่าง",
+        "2": "เป็นภาพหมุน 90 องศา ของรูปอื่นในชุด จึงอยู่พวกเดียวกัน ไม่ใช่รูปที่ต่าง",
+        "4": "เป็นภาพหมุน 0 องศา ของรูปอื่นในชุด จึงอยู่พวกเดียวกัน ไม่ใช่รูปที่ต่าง"
+      },
+      "misconception_tags": [
+        "same_by_rotation"
+      ],
+      "template": {
+        "provider": "shape2d.odd_one_out",
+        "answer_kind": "text",
+        "params": {
+          "n_cells": 6,
+          "box": 5,
+          "mode": "reflection"
+        },
+        "stem_tpl": "รูปใดต่างจากพวก",
+        "quality_rules": [
+          "ภาพหมุนทั้งสี่รูปคำนวณด้วยโค้ด จึงเป็นพวกเดียวกันแน่นอน",
+          "รูปที่ต่างต้องต่างจริง ตรวจแล้วว่าไม่ใช่ภาพหมุนหรือภาพสะท้อนของรูปอื่นโดยบังเอิญ",
+          "รูปที่ใช้ต้องไม่สมมาตร ไม่งั้นภาพหมุนบางมุมจะซ้ำกันเองจนตัวเลือกเหลือไม่ครบห้า"
+        ]
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.spatial.find_difference.by_reflection.0009",
+      "topic_ids": [
+        "tgat2.spatial.find_difference.by_reflection"
+      ],
+      "primary_topic_id": "tgat2.spatial.find_difference.by_reflection",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 ด้านมิติสัมพันธ์ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 60,
+      "stem_md": "รูปใดต่างจากพวก",
+      "figures": [
+        {
+          "id": "fig1",
+          "type": "svg",
+          "alt": "รูปบนตาราง 3 x 3 ช่อง · แถวที่ 1 มีช่องที่ 1, 2, 3 / แถวที่ 2 มีช่องที่ 1, 2 / แถวที่ 3 มีช่องที่ 2",
+          "svg": "<svg viewBox=\"0 0 146 146\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"138\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"138\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"138\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"138\"/><line x1=\"112\" y1=\"8\" x2=\"112\" y2=\"138\"/><line x1=\"138\" y1=\"8\" x2=\"138\" y2=\"138\"/><line x1=\"8\" y1=\"8\" x2=\"138\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"138\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"138\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"138\" y2=\"86\"/><line x1=\"8\" y1=\"112\" x2=\"138\" y2=\"112\"/><line x1=\"8\" y1=\"138\" x2=\"138\" y2=\"138\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"9\" width=\"24\" height=\"24\"/></g></svg>",
+          "caption": null
+        },
+        {
+          "id": "fig2",
+          "type": "svg",
+          "alt": "รูปบนตาราง 3 x 3 ช่อง · แถวที่ 1 มีช่องที่ 2, 3 / แถวที่ 2 มีช่องที่ 1, 2, 3 / แถวที่ 3 มีช่องที่ 3",
+          "svg": "<svg viewBox=\"0 0 146 146\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"138\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"138\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"138\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"138\"/><line x1=\"112\" y1=\"8\" x2=\"112\" y2=\"138\"/><line x1=\"138\" y1=\"8\" x2=\"138\" y2=\"138\"/><line x1=\"8\" y1=\"8\" x2=\"138\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"138\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"138\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"138\" y2=\"86\"/><line x1=\"8\" y1=\"112\" x2=\"138\" y2=\"112\"/><line x1=\"8\" y1=\"138\" x2=\"138\" y2=\"138\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"61\" width=\"24\" height=\"24\"/></g></svg>",
+          "caption": null
+        },
+        {
+          "id": "fig3",
+          "type": "svg",
+          "alt": "รูปบนตาราง 3 x 3 ช่อง · แถวที่ 1 มีช่องที่ 1, 2 / แถวที่ 2 มีช่องที่ 1, 2, 3 / แถวที่ 3 มีช่องที่ 1",
+          "svg": "<svg viewBox=\"0 0 146 146\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"138\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"138\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"138\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"138\"/><line x1=\"112\" y1=\"8\" x2=\"112\" y2=\"138\"/><line x1=\"138\" y1=\"8\" x2=\"138\" y2=\"138\"/><line x1=\"8\" y1=\"8\" x2=\"138\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"138\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"138\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"138\" y2=\"86\"/><line x1=\"8\" y1=\"112\" x2=\"138\" y2=\"112\"/><line x1=\"8\" y1=\"138\" x2=\"138\" y2=\"138\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"35\" width=\"24\" height=\"24\"/></g></svg>",
+          "caption": null
+        },
+        {
+          "id": "fig4",
+          "type": "svg",
+          "alt": "รูปบนตาราง 3 x 3 ช่อง · แถวที่ 1 มีช่องที่ 2 / แถวที่ 2 มีช่องที่ 2, 3 / แถวที่ 3 มีช่องที่ 1, 2, 3",
+          "svg": "<svg viewBox=\"0 0 146 146\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"138\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"138\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"138\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"138\"/><line x1=\"112\" y1=\"8\" x2=\"112\" y2=\"138\"/><line x1=\"138\" y1=\"8\" x2=\"138\" y2=\"138\"/><line x1=\"8\" y1=\"8\" x2=\"138\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"138\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"138\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"138\" y2=\"86\"/><line x1=\"8\" y1=\"112\" x2=\"138\" y2=\"112\"/><line x1=\"8\" y1=\"138\" x2=\"138\" y2=\"138\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"61\" width=\"24\" height=\"24\"/></g></svg>",
+          "caption": null
+        },
+        {
+          "id": "fig5",
+          "type": "svg",
+          "alt": "รูปบนตาราง 3 x 3 ช่อง · แถวที่ 1 มีช่องที่ 1 / แถวที่ 2 มีช่องที่ 1, 2, 3 / แถวที่ 3 มีช่องที่ 1, 2",
+          "svg": "<svg viewBox=\"0 0 146 146\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"138\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"138\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"138\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"138\"/><line x1=\"112\" y1=\"8\" x2=\"112\" y2=\"138\"/><line x1=\"138\" y1=\"8\" x2=\"138\" y2=\"138\"/><line x1=\"8\" y1=\"8\" x2=\"138\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"138\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"138\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"138\" y2=\"86\"/><line x1=\"8\" y1=\"112\" x2=\"138\" y2=\"112\"/><line x1=\"8\" y1=\"138\" x2=\"138\" y2=\"138\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"35\" width=\"24\" height=\"24\"/></g></svg>",
+          "caption": null
+        }
+      ],
+      "choices": [
+        {
+          "md": "[[fig1]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig5]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig4]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig2]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig3]]",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "นับจำนวนช่องของทุกรูปก่อน ถ้ามีรูปที่จำนวนช่องต่างจากเพื่อน ก็ตอบได้ทันที",
+          "why_md": "เป็นการตัดที่เร็วที่สุดและใช้เวลาไม่ถึงห้าวินาที ถ้าจำนวนเท่ากันหมดจึงค่อยดูรูปร่าง"
+        },
+        {
+          "do_md": "เลือกจุดสังเกตหนึ่งจุด เช่นช่องที่ยื่นออกมาช่องเดียว แล้วดูว่าช่องนั้นอยู่ด้านไหนเมื่อเทียบกับส่วนที่ยาวที่สุด",
+          "why_md": "การหมุนไม่เปลี่ยนความสัมพันธ์ซ้ายขวาของสองส่วนนี้ แต่การสะท้อนเปลี่ยน จึงใช้แยกได้"
+        },
+        {
+          "do_md": "รูปที่ต่างคือรูปที่เป็นภาพ**สะท้อน**ของอีกสี่รูป ไม่ใช่ภาพหมุน จึงหมุนอย่างไรก็ไม่ทับกัน",
+          "why_md": "เมื่อเจอรูปที่ความสัมพันธ์สลับข้างจากเพื่อน ก็สรุปได้เลย"
+        }
+      ],
+      "answer_explanation_md": "สี่รูปในชุดเป็นภาพหมุนของกันและกัน ส่วนรูปที่ตอบเป็นภาพ**สะท้อน**ของอีกสี่รูป ไม่ใช่ภาพหมุน จึงหมุนอย่างไรก็ไม่ทับกัน หลักที่ใช้คือรูปที่ไม่สมมาตรเมื่อสะท้อนแล้วจะหมุนให้ทับรูปเดิมไม่ได้",
+      "hints": [
+        "เริ่มจากนับจำนวนช่องของแต่ละรูป ถ้าเท่ากันหมดค่อยดูรูปร่าง",
+        "เลือกจุดสังเกตจุดเดียว แล้วดูว่ามันอยู่ด้านไหนของส่วนที่ยาวที่สุด",
+        "การหมุนไม่สลับซ้ายขวา แต่การสะท้อนสลับ ใช้ข้อนี้แยกรูปที่ต่างออกมา"
+      ],
+      "distractor_reasons": {
+        "0": "เป็นภาพหมุน 0 องศา ของรูปอื่นในชุด จึงอยู่พวกเดียวกัน ไม่ใช่รูปที่ต่าง",
+        "1": "เป็นภาพหมุน 270 องศา ของรูปอื่นในชุด จึงอยู่พวกเดียวกัน ไม่ใช่รูปที่ต่าง",
+        "2": "เป็นภาพหมุน 180 องศา ของรูปอื่นในชุด จึงอยู่พวกเดียวกัน ไม่ใช่รูปที่ต่าง",
+        "3": "เป็นภาพหมุน 90 องศา ของรูปอื่นในชุด จึงอยู่พวกเดียวกัน ไม่ใช่รูปที่ต่าง"
+      },
+      "misconception_tags": [
+        "same_by_rotation"
+      ],
+      "template": {
+        "provider": "shape2d.odd_one_out",
+        "answer_kind": "text",
+        "params": {
+          "n_cells": 6,
+          "box": 5,
+          "mode": "reflection"
+        },
+        "stem_tpl": "รูปใดต่างจากพวก",
+        "quality_rules": [
+          "ภาพหมุนทั้งสี่รูปคำนวณด้วยโค้ด จึงเป็นพวกเดียวกันแน่นอน",
+          "รูปที่ต่างต้องต่างจริง ตรวจแล้วว่าไม่ใช่ภาพหมุนหรือภาพสะท้อนของรูปอื่นโดยบังเอิญ",
+          "รูปที่ใช้ต้องไม่สมมาตร ไม่งั้นภาพหมุนบางมุมจะซ้ำกันเองจนตัวเลือกเหลือไม่ครบห้า"
+        ]
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.spatial.find_difference.by_reflection.0010",
+      "topic_ids": [
+        "tgat2.spatial.find_difference.by_reflection"
+      ],
+      "primary_topic_id": "tgat2.spatial.find_difference.by_reflection",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 ด้านมิติสัมพันธ์ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 4,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 2,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 70,
+      "stem_md": "รูปใดต่างจากพวก",
+      "figures": [
+        {
+          "id": "fig1",
+          "type": "svg",
+          "alt": "รูปบนตาราง 2 x 4 ช่อง · แถวที่ 1 มีช่องที่ 1, 2 / แถวที่ 2 มีช่องที่ 1, 2 / แถวที่ 3 มีช่องที่ 1, 2 / แถวที่ 4 มีช่องที่ 1",
+          "svg": "<svg viewBox=\"0 0 146 146\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"138\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"138\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"138\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"138\"/><line x1=\"112\" y1=\"8\" x2=\"112\" y2=\"138\"/><line x1=\"138\" y1=\"8\" x2=\"138\" y2=\"138\"/><line x1=\"8\" y1=\"8\" x2=\"138\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"138\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"138\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"138\" y2=\"86\"/><line x1=\"8\" y1=\"112\" x2=\"138\" y2=\"112\"/><line x1=\"8\" y1=\"138\" x2=\"138\" y2=\"138\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"87\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"61\" width=\"24\" height=\"24\"/></g></svg>",
+          "caption": null
+        },
+        {
+          "id": "fig2",
+          "type": "svg",
+          "alt": "รูปบนตาราง 4 x 2 ช่อง · แถวที่ 1 มีช่องที่ 2, 3, 4 / แถวที่ 2 มีช่องที่ 1, 2, 3, 4",
+          "svg": "<svg viewBox=\"0 0 146 146\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"138\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"138\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"138\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"138\"/><line x1=\"112\" y1=\"8\" x2=\"112\" y2=\"138\"/><line x1=\"138\" y1=\"8\" x2=\"138\" y2=\"138\"/><line x1=\"8\" y1=\"8\" x2=\"138\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"138\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"138\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"138\" y2=\"86\"/><line x1=\"8\" y1=\"112\" x2=\"138\" y2=\"112\"/><line x1=\"8\" y1=\"138\" x2=\"138\" y2=\"138\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"87\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"87\" y=\"35\" width=\"24\" height=\"24\"/></g></svg>",
+          "caption": null
+        },
+        {
+          "id": "fig3",
+          "type": "svg",
+          "alt": "รูปบนตาราง 2 x 4 ช่อง · แถวที่ 1 มีช่องที่ 1 / แถวที่ 2 มีช่องที่ 1, 2 / แถวที่ 3 มีช่องที่ 1, 2 / แถวที่ 4 มีช่องที่ 1, 2",
+          "svg": "<svg viewBox=\"0 0 146 146\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"138\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"138\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"138\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"138\"/><line x1=\"112\" y1=\"8\" x2=\"112\" y2=\"138\"/><line x1=\"138\" y1=\"8\" x2=\"138\" y2=\"138\"/><line x1=\"8\" y1=\"8\" x2=\"138\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"138\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"138\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"138\" y2=\"86\"/><line x1=\"8\" y1=\"112\" x2=\"138\" y2=\"112\"/><line x1=\"8\" y1=\"138\" x2=\"138\" y2=\"138\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"87\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"87\" width=\"24\" height=\"24\"/></g></svg>",
+          "caption": null
+        },
+        {
+          "id": "fig4",
+          "type": "svg",
+          "alt": "รูปบนตาราง 4 x 2 ช่อง · แถวที่ 1 มีช่องที่ 1, 2, 3, 4 / แถวที่ 2 มีช่องที่ 1, 2, 3",
+          "svg": "<svg viewBox=\"0 0 146 146\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"138\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"138\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"138\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"138\"/><line x1=\"112\" y1=\"8\" x2=\"112\" y2=\"138\"/><line x1=\"138\" y1=\"8\" x2=\"138\" y2=\"138\"/><line x1=\"8\" y1=\"8\" x2=\"138\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"138\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"138\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"138\" y2=\"86\"/><line x1=\"8\" y1=\"112\" x2=\"138\" y2=\"112\"/><line x1=\"8\" y1=\"138\" x2=\"138\" y2=\"138\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"87\" y=\"9\" width=\"24\" height=\"24\"/></g></svg>",
+          "caption": null
+        },
+        {
+          "id": "fig5",
+          "type": "svg",
+          "alt": "รูปบนตาราง 2 x 4 ช่อง · แถวที่ 1 มีช่องที่ 1, 2 / แถวที่ 2 มีช่องที่ 1, 2 / แถวที่ 3 มีช่องที่ 1, 2 / แถวที่ 4 มีช่องที่ 2",
+          "svg": "<svg viewBox=\"0 0 146 146\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"138\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"138\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"138\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"138\"/><line x1=\"112\" y1=\"8\" x2=\"112\" y2=\"138\"/><line x1=\"138\" y1=\"8\" x2=\"138\" y2=\"138\"/><line x1=\"8\" y1=\"8\" x2=\"138\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"138\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"138\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"138\" y2=\"86\"/><line x1=\"8\" y1=\"112\" x2=\"138\" y2=\"112\"/><line x1=\"8\" y1=\"138\" x2=\"138\" y2=\"138\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"87\" width=\"24\" height=\"24\"/></g></svg>",
+          "caption": null
+        }
+      ],
+      "choices": [
+        {
+          "md": "[[fig2]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig5]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig4]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig3]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig1]]",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "นับจำนวนช่องของทุกรูปก่อน ถ้ามีรูปที่จำนวนช่องต่างจากเพื่อน ก็ตอบได้ทันที",
+          "why_md": "เป็นการตัดที่เร็วที่สุดและใช้เวลาไม่ถึงห้าวินาที ถ้าจำนวนเท่ากันหมดจึงค่อยดูรูปร่าง"
+        },
+        {
+          "do_md": "เลือกจุดสังเกตหนึ่งจุด เช่นช่องที่ยื่นออกมาช่องเดียว แล้วดูว่าช่องนั้นอยู่ด้านไหนเมื่อเทียบกับส่วนที่ยาวที่สุด",
+          "why_md": "การหมุนไม่เปลี่ยนความสัมพันธ์ซ้ายขวาของสองส่วนนี้ แต่การสะท้อนเปลี่ยน จึงใช้แยกได้"
+        },
+        {
+          "do_md": "รูปที่ต่างคือรูปที่เป็นภาพ**สะท้อน**ของอีกสี่รูป ไม่ใช่ภาพหมุน จึงหมุนอย่างไรก็ไม่ทับกัน",
+          "why_md": "เมื่อเจอรูปที่ความสัมพันธ์สลับข้างจากเพื่อน ก็สรุปได้เลย"
+        }
+      ],
+      "answer_explanation_md": "สี่รูปในชุดเป็นภาพหมุนของกันและกัน ส่วนรูปที่ตอบเป็นภาพ**สะท้อน**ของอีกสี่รูป ไม่ใช่ภาพหมุน จึงหมุนอย่างไรก็ไม่ทับกัน หลักที่ใช้คือรูปที่ไม่สมมาตรเมื่อสะท้อนแล้วจะหมุนให้ทับรูปเดิมไม่ได้",
+      "hints": [
+        "เริ่มจากนับจำนวนช่องของแต่ละรูป ถ้าเท่ากันหมดค่อยดูรูปร่าง",
+        "เลือกจุดสังเกตจุดเดียว แล้วดูว่ามันอยู่ด้านไหนของส่วนที่ยาวที่สุด",
+        "การหมุนไม่สลับซ้ายขวา แต่การสะท้อนสลับ ใช้ข้อนี้แยกรูปที่ต่างออกมา"
+      ],
+      "distractor_reasons": {
+        "0": "เป็นภาพหมุน 0 องศา ของรูปอื่นในชุด จึงอยู่พวกเดียวกัน ไม่ใช่รูปที่ต่าง",
+        "1": "เป็นภาพหมุน 270 องศา ของรูปอื่นในชุด จึงอยู่พวกเดียวกัน ไม่ใช่รูปที่ต่าง",
+        "2": "เป็นภาพหมุน 180 องศา ของรูปอื่นในชุด จึงอยู่พวกเดียวกัน ไม่ใช่รูปที่ต่าง",
+        "3": "เป็นภาพหมุน 90 องศา ของรูปอื่นในชุด จึงอยู่พวกเดียวกัน ไม่ใช่รูปที่ต่าง"
+      },
+      "misconception_tags": [
+        "same_by_rotation"
+      ],
+      "template": {
+        "provider": "shape2d.odd_one_out",
+        "answer_kind": "text",
+        "params": {
+          "n_cells": 7,
+          "box": 5,
+          "mode": "reflection"
+        },
+        "stem_tpl": "รูปใดต่างจากพวก",
+        "quality_rules": [
+          "ภาพหมุนทั้งสี่รูปคำนวณด้วยโค้ด จึงเป็นพวกเดียวกันแน่นอน",
+          "รูปที่ต่างต้องต่างจริง ตรวจแล้วว่าไม่ใช่ภาพหมุนหรือภาพสะท้อนของรูปอื่นโดยบังเอิญ",
+          "รูปที่ใช้ต้องไม่สมมาตร ไม่งั้นภาพหมุนบางมุมจะซ้ำกันเองจนตัวเลือกเหลือไม่ครบห้า"
+        ]
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.spatial.find_difference.by_reflection.0011",
+      "topic_ids": [
+        "tgat2.spatial.find_difference.by_reflection"
+      ],
+      "primary_topic_id": "tgat2.spatial.find_difference.by_reflection",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 ด้านมิติสัมพันธ์ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 4,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 2,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 70,
+      "stem_md": "รูปใดต่างจากพวก",
+      "figures": [
+        {
+          "id": "fig1",
+          "type": "svg",
+          "alt": "รูปบนตาราง 4 x 2 ช่อง · แถวที่ 1 มีช่องที่ 1, 2, 3 / แถวที่ 2 มีช่องที่ 1, 2, 3, 4",
+          "svg": "<svg viewBox=\"0 0 146 146\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"138\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"138\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"138\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"138\"/><line x1=\"112\" y1=\"8\" x2=\"112\" y2=\"138\"/><line x1=\"138\" y1=\"8\" x2=\"138\" y2=\"138\"/><line x1=\"8\" y1=\"8\" x2=\"138\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"138\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"138\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"138\" y2=\"86\"/><line x1=\"8\" y1=\"112\" x2=\"138\" y2=\"112\"/><line x1=\"8\" y1=\"138\" x2=\"138\" y2=\"138\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"87\" y=\"35\" width=\"24\" height=\"24\"/></g></svg>",
+          "caption": null
+        },
+        {
+          "id": "fig2",
+          "type": "svg",
+          "alt": "รูปบนตาราง 2 x 4 ช่อง · แถวที่ 1 มีช่องที่ 1, 2 / แถวที่ 2 มีช่องที่ 1, 2 / แถวที่ 3 มีช่องที่ 1, 2 / แถวที่ 4 มีช่องที่ 1",
+          "svg": "<svg viewBox=\"0 0 146 146\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"138\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"138\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"138\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"138\"/><line x1=\"112\" y1=\"8\" x2=\"112\" y2=\"138\"/><line x1=\"138\" y1=\"8\" x2=\"138\" y2=\"138\"/><line x1=\"8\" y1=\"8\" x2=\"138\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"138\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"138\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"138\" y2=\"86\"/><line x1=\"8\" y1=\"112\" x2=\"138\" y2=\"112\"/><line x1=\"8\" y1=\"138\" x2=\"138\" y2=\"138\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"87\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"61\" width=\"24\" height=\"24\"/></g></svg>",
+          "caption": null
+        },
+        {
+          "id": "fig3",
+          "type": "svg",
+          "alt": "รูปบนตาราง 4 x 2 ช่อง · แถวที่ 1 มีช่องที่ 1, 2, 3, 4 / แถวที่ 2 มีช่องที่ 2, 3, 4",
+          "svg": "<svg viewBox=\"0 0 146 146\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"138\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"138\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"138\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"138\"/><line x1=\"112\" y1=\"8\" x2=\"112\" y2=\"138\"/><line x1=\"138\" y1=\"8\" x2=\"138\" y2=\"138\"/><line x1=\"8\" y1=\"8\" x2=\"138\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"138\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"138\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"138\" y2=\"86\"/><line x1=\"8\" y1=\"112\" x2=\"138\" y2=\"112\"/><line x1=\"8\" y1=\"138\" x2=\"138\" y2=\"138\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"87\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"87\" y=\"35\" width=\"24\" height=\"24\"/></g></svg>",
+          "caption": null
+        },
+        {
+          "id": "fig4",
+          "type": "svg",
+          "alt": "รูปบนตาราง 2 x 4 ช่อง · แถวที่ 1 มีช่องที่ 2 / แถวที่ 2 มีช่องที่ 1, 2 / แถวที่ 3 มีช่องที่ 1, 2 / แถวที่ 4 มีช่องที่ 1, 2",
+          "svg": "<svg viewBox=\"0 0 146 146\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"138\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"138\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"138\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"138\"/><line x1=\"112\" y1=\"8\" x2=\"112\" y2=\"138\"/><line x1=\"138\" y1=\"8\" x2=\"138\" y2=\"138\"/><line x1=\"8\" y1=\"8\" x2=\"138\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"138\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"138\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"138\" y2=\"86\"/><line x1=\"8\" y1=\"112\" x2=\"138\" y2=\"112\"/><line x1=\"8\" y1=\"138\" x2=\"138\" y2=\"138\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"87\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"87\" width=\"24\" height=\"24\"/></g></svg>",
+          "caption": null
+        },
+        {
+          "id": "fig5",
+          "type": "svg",
+          "alt": "รูปบนตาราง 4 x 2 ช่อง · แถวที่ 1 มีช่องที่ 1, 2, 3, 4 / แถวที่ 2 มีช่องที่ 1, 2, 3",
+          "svg": "<svg viewBox=\"0 0 146 146\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"138\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"138\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"138\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"138\"/><line x1=\"112\" y1=\"8\" x2=\"112\" y2=\"138\"/><line x1=\"138\" y1=\"8\" x2=\"138\" y2=\"138\"/><line x1=\"8\" y1=\"8\" x2=\"138\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"138\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"138\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"138\" y2=\"86\"/><line x1=\"8\" y1=\"112\" x2=\"138\" y2=\"112\"/><line x1=\"8\" y1=\"138\" x2=\"138\" y2=\"138\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"87\" y=\"9\" width=\"24\" height=\"24\"/></g></svg>",
+          "caption": null
+        }
+      ],
+      "choices": [
+        {
+          "md": "[[fig1]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig5]]",
+          "is_answer": true
+        },
+        {
+          "md": "[[fig4]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig3]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig2]]",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "นับจำนวนช่องของทุกรูปก่อน ถ้ามีรูปที่จำนวนช่องต่างจากเพื่อน ก็ตอบได้ทันที",
+          "why_md": "เป็นการตัดที่เร็วที่สุดและใช้เวลาไม่ถึงห้าวินาที ถ้าจำนวนเท่ากันหมดจึงค่อยดูรูปร่าง"
+        },
+        {
+          "do_md": "เลือกจุดสังเกตหนึ่งจุด เช่นช่องที่ยื่นออกมาช่องเดียว แล้วดูว่าช่องนั้นอยู่ด้านไหนเมื่อเทียบกับส่วนที่ยาวที่สุด",
+          "why_md": "การหมุนไม่เปลี่ยนความสัมพันธ์ซ้ายขวาของสองส่วนนี้ แต่การสะท้อนเปลี่ยน จึงใช้แยกได้"
+        },
+        {
+          "do_md": "รูปที่ต่างคือรูปที่เป็นภาพ**สะท้อน**ของอีกสี่รูป ไม่ใช่ภาพหมุน จึงหมุนอย่างไรก็ไม่ทับกัน",
+          "why_md": "เมื่อเจอรูปที่ความสัมพันธ์สลับข้างจากเพื่อน ก็สรุปได้เลย"
+        }
+      ],
+      "answer_explanation_md": "สี่รูปในชุดเป็นภาพหมุนของกันและกัน ส่วนรูปที่ตอบเป็นภาพ**สะท้อน**ของอีกสี่รูป ไม่ใช่ภาพหมุน จึงหมุนอย่างไรก็ไม่ทับกัน หลักที่ใช้คือรูปที่ไม่สมมาตรเมื่อสะท้อนแล้วจะหมุนให้ทับรูปเดิมไม่ได้",
+      "hints": [
+        "เริ่มจากนับจำนวนช่องของแต่ละรูป ถ้าเท่ากันหมดค่อยดูรูปร่าง",
+        "เลือกจุดสังเกตจุดเดียว แล้วดูว่ามันอยู่ด้านไหนของส่วนที่ยาวที่สุด",
+        "การหมุนไม่สลับซ้ายขวา แต่การสะท้อนสลับ ใช้ข้อนี้แยกรูปที่ต่างออกมา"
+      ],
+      "distractor_reasons": {
+        "0": "เป็นภาพหมุน 0 องศา ของรูปอื่นในชุด จึงอยู่พวกเดียวกัน ไม่ใช่รูปที่ต่าง",
+        "2": "เป็นภาพหมุน 270 องศา ของรูปอื่นในชุด จึงอยู่พวกเดียวกัน ไม่ใช่รูปที่ต่าง",
+        "3": "เป็นภาพหมุน 180 องศา ของรูปอื่นในชุด จึงอยู่พวกเดียวกัน ไม่ใช่รูปที่ต่าง",
+        "4": "เป็นภาพหมุน 90 องศา ของรูปอื่นในชุด จึงอยู่พวกเดียวกัน ไม่ใช่รูปที่ต่าง"
+      },
+      "misconception_tags": [
+        "same_by_rotation"
+      ],
+      "template": {
+        "provider": "shape2d.odd_one_out",
+        "answer_kind": "text",
+        "params": {
+          "n_cells": 7,
+          "box": 5,
+          "mode": "reflection"
+        },
+        "stem_tpl": "รูปใดต่างจากพวก",
+        "quality_rules": [
+          "ภาพหมุนทั้งสี่รูปคำนวณด้วยโค้ด จึงเป็นพวกเดียวกันแน่นอน",
+          "รูปที่ต่างต้องต่างจริง ตรวจแล้วว่าไม่ใช่ภาพหมุนหรือภาพสะท้อนของรูปอื่นโดยบังเอิญ",
+          "รูปที่ใช้ต้องไม่สมมาตร ไม่งั้นภาพหมุนบางมุมจะซ้ำกันเองจนตัวเลือกเหลือไม่ครบห้า"
+        ]
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.spatial.find_difference.by_reflection.0012",
+      "topic_ids": [
+        "tgat2.spatial.find_difference.by_reflection"
+      ],
+      "primary_topic_id": "tgat2.spatial.find_difference.by_reflection",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 ด้านมิติสัมพันธ์ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 5,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 2,
+        "needs_insight": true,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 80,
+      "stem_md": "รูปใดต่างจากพวก",
+      "figures": [
+        {
+          "id": "fig1",
+          "type": "svg",
+          "alt": "รูปบนตาราง 2 x 4 ช่อง · แถวที่ 1 มีช่องที่ 1, 2 / แถวที่ 2 มีช่องที่ 1, 2 / แถวที่ 3 มีช่องที่ 1 / แถวที่ 4 มีช่องที่ 1, 2",
+          "svg": "<svg viewBox=\"0 0 146 146\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"138\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"138\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"138\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"138\"/><line x1=\"112\" y1=\"8\" x2=\"112\" y2=\"138\"/><line x1=\"138\" y1=\"8\" x2=\"138\" y2=\"138\"/><line x1=\"8\" y1=\"8\" x2=\"138\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"138\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"138\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"138\" y2=\"86\"/><line x1=\"8\" y1=\"112\" x2=\"138\" y2=\"112\"/><line x1=\"8\" y1=\"138\" x2=\"138\" y2=\"138\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"87\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"87\" width=\"24\" height=\"24\"/></g></svg>",
+          "caption": null
+        },
+        {
+          "id": "fig2",
+          "type": "svg",
+          "alt": "รูปบนตาราง 4 x 2 ช่อง · แถวที่ 1 มีช่องที่ 1, 2, 3, 4 / แถวที่ 2 มีช่องที่ 1, 3, 4",
+          "svg": "<svg viewBox=\"0 0 146 146\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"138\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"138\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"138\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"138\"/><line x1=\"112\" y1=\"8\" x2=\"112\" y2=\"138\"/><line x1=\"138\" y1=\"8\" x2=\"138\" y2=\"138\"/><line x1=\"8\" y1=\"8\" x2=\"138\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"138\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"138\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"138\" y2=\"86\"/><line x1=\"8\" y1=\"112\" x2=\"138\" y2=\"112\"/><line x1=\"8\" y1=\"138\" x2=\"138\" y2=\"138\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"87\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"87\" y=\"35\" width=\"24\" height=\"24\"/></g></svg>",
+          "caption": null
+        },
+        {
+          "id": "fig3",
+          "type": "svg",
+          "alt": "รูปบนตาราง 2 x 4 ช่อง · แถวที่ 1 มีช่องที่ 1, 2 / แถวที่ 2 มีช่องที่ 2 / แถวที่ 3 มีช่องที่ 1, 2 / แถวที่ 4 มีช่องที่ 1, 2",
+          "svg": "<svg viewBox=\"0 0 146 146\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"138\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"138\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"138\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"138\"/><line x1=\"112\" y1=\"8\" x2=\"112\" y2=\"138\"/><line x1=\"138\" y1=\"8\" x2=\"138\" y2=\"138\"/><line x1=\"8\" y1=\"8\" x2=\"138\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"138\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"138\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"138\" y2=\"86\"/><line x1=\"8\" y1=\"112\" x2=\"138\" y2=\"112\"/><line x1=\"8\" y1=\"138\" x2=\"138\" y2=\"138\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"87\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"87\" width=\"24\" height=\"24\"/></g></svg>",
+          "caption": null
+        },
+        {
+          "id": "fig4",
+          "type": "svg",
+          "alt": "รูปบนตาราง 4 x 2 ช่อง · แถวที่ 1 มีช่องที่ 1, 2, 4 / แถวที่ 2 มีช่องที่ 1, 2, 3, 4",
+          "svg": "<svg viewBox=\"0 0 146 146\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"138\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"138\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"138\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"138\"/><line x1=\"112\" y1=\"8\" x2=\"112\" y2=\"138\"/><line x1=\"138\" y1=\"8\" x2=\"138\" y2=\"138\"/><line x1=\"8\" y1=\"8\" x2=\"138\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"138\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"138\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"138\" y2=\"86\"/><line x1=\"8\" y1=\"112\" x2=\"138\" y2=\"112\"/><line x1=\"8\" y1=\"138\" x2=\"138\" y2=\"138\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"87\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"87\" y=\"35\" width=\"24\" height=\"24\"/></g></svg>",
+          "caption": null
+        },
+        {
+          "id": "fig5",
+          "type": "svg",
+          "alt": "รูปบนตาราง 4 x 2 ช่อง · แถวที่ 1 มีช่องที่ 1, 3, 4 / แถวที่ 2 มีช่องที่ 1, 2, 3, 4",
+          "svg": "<svg viewBox=\"0 0 146 146\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"138\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"138\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"138\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"138\"/><line x1=\"112\" y1=\"8\" x2=\"112\" y2=\"138\"/><line x1=\"138\" y1=\"8\" x2=\"138\" y2=\"138\"/><line x1=\"8\" y1=\"8\" x2=\"138\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"138\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"138\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"138\" y2=\"86\"/><line x1=\"8\" y1=\"112\" x2=\"138\" y2=\"112\"/><line x1=\"8\" y1=\"138\" x2=\"138\" y2=\"138\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"87\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"87\" y=\"35\" width=\"24\" height=\"24\"/></g></svg>",
+          "caption": null
+        }
+      ],
+      "choices": [
+        {
+          "md": "[[fig5]]",
+          "is_answer": true
+        },
+        {
+          "md": "[[fig2]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig1]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig4]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig3]]",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "นับจำนวนช่องของทุกรูปก่อน ถ้ามีรูปที่จำนวนช่องต่างจากเพื่อน ก็ตอบได้ทันที",
+          "why_md": "เป็นการตัดที่เร็วที่สุดและใช้เวลาไม่ถึงห้าวินาที ถ้าจำนวนเท่ากันหมดจึงค่อยดูรูปร่าง"
+        },
+        {
+          "do_md": "เลือกจุดสังเกตหนึ่งจุด เช่นช่องที่ยื่นออกมาช่องเดียว แล้วดูว่าช่องนั้นอยู่ด้านไหนเมื่อเทียบกับส่วนที่ยาวที่สุด",
+          "why_md": "การหมุนไม่เปลี่ยนความสัมพันธ์ซ้ายขวาของสองส่วนนี้ แต่การสะท้อนเปลี่ยน จึงใช้แยกได้"
+        },
+        {
+          "do_md": "รูปที่ต่างคือรูปที่เป็นภาพ**สะท้อน**ของอีกสี่รูป ไม่ใช่ภาพหมุน จึงหมุนอย่างไรก็ไม่ทับกัน",
+          "why_md": "เมื่อเจอรูปที่ความสัมพันธ์สลับข้างจากเพื่อน ก็สรุปได้เลย"
+        }
+      ],
+      "answer_explanation_md": "สี่รูปในชุดเป็นภาพหมุนของกันและกัน ส่วนรูปที่ตอบเป็นภาพ**สะท้อน**ของอีกสี่รูป ไม่ใช่ภาพหมุน จึงหมุนอย่างไรก็ไม่ทับกัน หลักที่ใช้คือรูปที่ไม่สมมาตรเมื่อสะท้อนแล้วจะหมุนให้ทับรูปเดิมไม่ได้",
+      "hints": [
+        "เริ่มจากนับจำนวนช่องของแต่ละรูป ถ้าเท่ากันหมดค่อยดูรูปร่าง",
+        "เลือกจุดสังเกตจุดเดียว แล้วดูว่ามันอยู่ด้านไหนของส่วนที่ยาวที่สุด",
+        "การหมุนไม่สลับซ้ายขวา แต่การสะท้อนสลับ ใช้ข้อนี้แยกรูปที่ต่างออกมา"
+      ],
+      "distractor_reasons": {
+        "1": "เป็นภาพหมุน 90 องศา ของรูปอื่นในชุด จึงอยู่พวกเดียวกัน ไม่ใช่รูปที่ต่าง",
+        "2": "เป็นภาพหมุน 0 องศา ของรูปอื่นในชุด จึงอยู่พวกเดียวกัน ไม่ใช่รูปที่ต่าง",
+        "3": "เป็นภาพหมุน 270 องศา ของรูปอื่นในชุด จึงอยู่พวกเดียวกัน ไม่ใช่รูปที่ต่าง",
+        "4": "เป็นภาพหมุน 180 องศา ของรูปอื่นในชุด จึงอยู่พวกเดียวกัน ไม่ใช่รูปที่ต่าง"
+      },
+      "misconception_tags": [
+        "same_by_rotation"
+      ],
+      "template": {
+        "provider": "shape2d.odd_one_out",
+        "answer_kind": "text",
+        "params": {
+          "n_cells": 7,
+          "box": 5,
+          "mode": "reflection"
+        },
+        "stem_tpl": "รูปใดต่างจากพวก",
+        "quality_rules": [
+          "ภาพหมุนทั้งสี่รูปคำนวณด้วยโค้ด จึงเป็นพวกเดียวกันแน่นอน",
+          "รูปที่ต่างต้องต่างจริง ตรวจแล้วว่าไม่ใช่ภาพหมุนหรือภาพสะท้อนของรูปอื่นโดยบังเอิญ",
+          "รูปที่ใช้ต้องไม่สมมาตร ไม่งั้นภาพหมุนบางมุมจะซ้ำกันเองจนตัวเลือกเหลือไม่ครบห้า"
+        ]
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    }
+  ]
+}

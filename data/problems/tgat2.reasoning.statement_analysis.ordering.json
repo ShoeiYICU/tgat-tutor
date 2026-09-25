@@ -1,0 +1,483 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tgat2.reasoning.statement_analysis.ordering",
+  "problems": [
+    {
+      "id": "prob.tgat2.reasoning.statement_analysis.ordering.0001",
+      "topic_ids": [
+        "tgat2.reasoning.statement_analysis.ordering"
+      ],
+      "primary_topic_id": "tgat2.reasoning.statement_analysis.ordering",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 40,
+      "stem_md": "5 คน ก ข ค ง จ ต่อแถวซื้อตั๋ว ตำแหน่ง 1 คือหน้าสุด\n\n- ก อยู่ตำแหน่งที่ 3\n- ค อยู่หน้า ข\n- ข อยู่หน้า ง\n- ง อยู่หน้า จ\n\nใครอยู่หลังสุด",
+      "figures": [],
+      "choices": [
+        {
+          "md": "จ",
+          "is_answer": true
+        },
+        {
+          "md": "ง",
+          "is_answer": false
+        },
+        {
+          "md": "ก",
+          "is_answer": false
+        },
+        {
+          "md": "ค",
+          "is_answer": false
+        },
+        {
+          "md": "ข",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ก = 3 เหลือตำแหน่ง 1, 2, 4, 5",
+          "why_md": "ใส่ข้อมูลแน่นอน"
+        },
+        {
+          "do_md": "โซ่ ค → ข → ง → จ ใส่ลงช่องที่เหลือตามลำดับ",
+          "why_md": "ค1 ข2 ง4 จ5"
+        }
+      ],
+      "answer_explanation_md": "ตอบ จ เพราะเรียงได้ ค ข ก ง จ",
+      "hints": [
+        "ใส่ ก ลงตำแหน่ง 3 ก่อน",
+        "ต่อ ค ข ง จ เป็นโซ่เดียว",
+        "ใส่โซ่ลงช่องว่างที่เหลือตามลำดับ"
+      ],
+      "distractor_reasons": {
+        "1": "ง อยู่หน้า จ",
+        "2": "ก อยู่ตำแหน่ง 3",
+        "3": "ค อยู่หน้าสุด",
+        "4": "ข อยู่ตำแหน่ง 2"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.reasoning.statement_analysis.ordering.0002",
+      "topic_ids": [
+        "tgat2.reasoning.statement_analysis.ordering"
+      ],
+      "primary_topic_id": "tgat2.reasoning.statement_analysis.ordering",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 75,
+      "stem_md": "อาคาร 5 ชั้น มีบริษัท P Q R S T บริษัทละ 1 ชั้น ชั้น 1 อยู่ล่างสุด\n\n- P อยู่เหนือ R ติดกัน\n- S อยู่ชั้น 1\n- T อยู่สูงกว่า Q\n- Q ไม่ได้อยู่ชั้น 2\n\nบริษัทใดอยู่ชั้น 4",
+      "figures": [],
+      "choices": [
+        {
+          "md": "S",
+          "is_answer": false
+        },
+        {
+          "md": "T",
+          "is_answer": false
+        },
+        {
+          "md": "R",
+          "is_answer": false
+        },
+        {
+          "md": "P",
+          "is_answer": false
+        },
+        {
+          "md": "Q",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "S = 1 และบล็อก R-P วางได้ (2,3) (3,4) (4,5)",
+          "why_md": "แตกกรณี"
+        },
+        {
+          "do_md": "(3,4) และ (4,5) ทำให้ Q ต้องสูงกว่า T หรืออยู่ชั้น 2",
+          "why_md": "ตัดทิ้ง"
+        },
+        {
+          "do_md": "เหลือ S R P Q T จากชั้น 1 ถึง 5",
+          "why_md": "กรณีเดียว"
+        }
+      ],
+      "answer_explanation_md": "ตอบ Q เพราะมีเพียงการจัด S R P Q T ที่ผ่านทุกเงื่อนไข",
+      "hints": [
+        "ใส่ S ก่อน",
+        "มอง R กับ P เป็นบล็อกเดียว ลองวางทุกตำแหน่ง",
+        "ตรวจเงื่อนไข T สูงกว่า Q และ Q ไม่อยู่ชั้น 2"
+      ],
+      "distractor_reasons": {
+        "0": "S อยู่ชั้น 1",
+        "1": "T อยู่ชั้น 5",
+        "2": "R อยู่ชั้น 2",
+        "3": "P อยู่ชั้น 3"
+      },
+      "misconception_tags": [
+        "wrong_constraint_order"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.reasoning.statement_analysis.ordering.0003",
+      "topic_ids": [
+        "tgat2.reasoning.statement_analysis.ordering"
+      ],
+      "primary_topic_id": "tgat2.reasoning.statement_analysis.ordering",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 80,
+      "stem_md": "นักวิ่ง 6 คน A B C D E F เข้าเส้นชัยไม่พร้อมกัน\n\n- E เข้าเส้นชัยเป็นอันดับ 2\n- B เข้าเส้นชัยก่อน D และ D เข้าเส้นชัยก่อน F\n- A เข้าเส้นชัยถัดจาก C ทันที\n\nข้อใดถูกต้องแน่นอน",
+      "figures": [],
+      "choices": [
+        {
+          "md": "F เข้าเส้นชัยเป็นอันดับสุดท้าย",
+          "is_answer": false
+        },
+        {
+          "md": "D เข้าเส้นชัยเป็นอันดับ 3",
+          "is_answer": false
+        },
+        {
+          "md": "A เข้าเส้นชัยเป็นอันดับ 4",
+          "is_answer": false
+        },
+        {
+          "md": "B เข้าเส้นชัยเป็นอันดับ 1",
+          "is_answer": true
+        },
+        {
+          "md": "C เข้าเส้นชัยก่อน D",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "บล็อก C-A วางได้ (3,4) (4,5) (5,6) เพราะ E อยู่อันดับ 2",
+          "why_md": "แตกกรณี"
+        },
+        {
+          "do_md": "ทุกกรณีเหลืออันดับ 1 ว่าง และ B ต้องมาก่อน D, F",
+          "why_md": "B จึงได้อันดับ 1 ทุกกรณี"
+        }
+      ],
+      "answer_explanation_md": "ตอบ B เข้าเส้นชัยเป็นอันดับ 1 เพราะในทั้ง 3 กรณีที่เป็นไปได้ B อยู่อันดับ 1 เสมอ",
+      "hints": [
+        "ใส่ E ก่อน แล้วมอง C-A เป็นบล็อก",
+        "ลองวางบล็อก C-A ทุกตำแหน่ง",
+        "ดูว่าใครอยู่ตำแหน่งเดิมในทุกกรณี"
+      ],
+      "distractor_reasons": {
+        "0": "มีกรณี F อันดับ 4",
+        "1": "มีกรณี D อันดับ 5",
+        "2": "A อาจได้อันดับ 5 หรือ 6",
+        "4": "มีกรณี D อันดับ 3 และ C อันดับ 4 หรือ 5"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.reasoning.statement_analysis.ordering.0004",
+      "topic_ids": [
+        "tgat2.reasoning.statement_analysis.ordering"
+      ],
+      "primary_topic_id": "tgat2.reasoning.statement_analysis.ordering",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 4,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 2,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 90,
+      "stem_md": "นักวิ่ง 6 คน A B C D E F เข้าเส้นชัยไม่พร้อมกัน\n\n- E เข้าเส้นชัยเป็นอันดับ 2\n- B เข้าเส้นชัยก่อน D และ D เข้าเส้นชัยก่อน F\n- A เข้าเส้นชัยถัดจาก C ทันที\n- F ไม่ได้เข้าเส้นชัยเป็นอันดับสุดท้าย\n\nใครเข้าเส้นชัยเป็นอันดับ 5",
+      "figures": [],
+      "choices": [
+        {
+          "md": "B",
+          "is_answer": false
+        },
+        {
+          "md": "C",
+          "is_answer": true
+        },
+        {
+          "md": "A",
+          "is_answer": false
+        },
+        {
+          "md": "F",
+          "is_answer": false
+        },
+        {
+          "md": "D",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "กรณีที่เป็นไปได้: C-A อยู่ (3,4) (4,5) (5,6)",
+          "why_md": "จากเงื่อนไขชุดเดิม"
+        },
+        {
+          "do_md": "สองกรณีแรก F ต้องอยู่อันดับ 6 จึงตัดทิ้ง",
+          "why_md": "ใช้เงื่อนไขใหม่"
+        },
+        {
+          "do_md": "เหลือ B E D F C A",
+          "why_md": "กรณีเดียว"
+        }
+      ],
+      "answer_explanation_md": "ตอบ C เพราะเหลือการจัดเดียวคือ B E D F C A",
+      "hints": [
+        "หาทุกกรณีจากเงื่อนไขเดิมก่อน",
+        "กรณีไหนที่ F อยู่อันดับสุดท้าย",
+        "ตัดกรณีนั้นแล้วอ่านคำตอบ"
+      ],
+      "distractor_reasons": {
+        "0": "B อันดับ 1",
+        "2": "A อันดับ 6",
+        "3": "F อันดับ 4",
+        "4": "D อันดับ 3"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.reasoning.statement_analysis.ordering.0005",
+      "topic_ids": [
+        "tgat2.reasoning.statement_analysis.ordering"
+      ],
+      "primary_topic_id": "tgat2.reasoning.statement_analysis.ordering",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 35,
+      "stem_md": "หนังสือ 4 เล่ม วางซ้อนกัน เล่มที่ 1 อยู่ล่างสุด\n\n- คณิตศาสตร์อยู่สูงกว่าภาษาไทย\n- ภาษาอังกฤษอยู่ล่างสุด\n- สังคมศึกษาอยู่ต่ำกว่าภาษาไทย\n\nเล่มใดอยู่บนสุด",
+      "figures": [],
+      "choices": [
+        {
+          "md": "คณิตศาสตร์",
+          "is_answer": true
+        },
+        {
+          "md": "ภาษาไทย",
+          "is_answer": false
+        },
+        {
+          "md": "ภาษาอังกฤษ",
+          "is_answer": false
+        },
+        {
+          "md": "สังคมศึกษา",
+          "is_answer": false
+        },
+        {
+          "md": "สรุปไม่ได้",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ภาษาอังกฤษ = 1",
+          "why_md": "ข้อมูลแน่นอน"
+        },
+        {
+          "do_md": "สังคม < ไทย < คณิต",
+          "why_md": "ต่อเป็นโซ่"
+        },
+        {
+          "do_md": "เรียง อังกฤษ สังคม ไทย คณิต",
+          "why_md": "ใส่โซ่ลงช่อง 2 ถึง 4"
+        }
+      ],
+      "answer_explanation_md": "ตอบ คณิตศาสตร์ เพราะเรียงจากล่างขึ้นบนได้ อังกฤษ สังคม ไทย คณิตศาสตร์",
+      "hints": [
+        "ใส่เล่มที่อยู่ล่างสุดก่อน",
+        "ต่อสามเล่มที่เหลือเป็นโซ่",
+        "ใส่โซ่ลงช่องที่เหลือ"
+      ],
+      "distractor_reasons": {
+        "1": "ภาษาไทยอยู่ต่ำกว่าคณิตศาสตร์",
+        "2": "ภาษาอังกฤษอยู่ล่างสุด",
+        "3": "สังคมศึกษาอยู่ต่ำกว่าภาษาไทย",
+        "4": "เงื่อนไขพอจะเรียงได้ทั้งหมด"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.reasoning.statement_analysis.ordering.0006",
+      "topic_ids": [
+        "tgat2.reasoning.statement_analysis.ordering"
+      ],
+      "primary_topic_id": "tgat2.reasoning.statement_analysis.ordering",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 75,
+      "stem_md": "5 คน ก ข ค ง จ นั่งเก้าอี้แถวเดียว 5 ตัว เลขที่ 1 ถึง 5 จากซ้ายไปขวา\n\n- ก ไม่ได้นั่งริมทั้งสองด้าน\n- ข นั่งติดกับ ค\n- ง นั่งเก้าอี้ตัวที่ 1\n- จ นั่งติดทางขวาของ ก\n\nข้อใดเป็นไปไม่ได้",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ก นั่งติดกับ ง",
+          "is_answer": false
+        },
+        {
+          "md": "จ นั่งริมขวาสุด",
+          "is_answer": false
+        },
+        {
+          "md": "ก นั่งเก้าอี้ตัวที่ 3",
+          "is_answer": true
+        },
+        {
+          "md": "ค นั่งติดกับ ง",
+          "is_answer": false
+        },
+        {
+          "md": "ข นั่งเก้าอี้ตัวที่ 5",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ง = 1 บล็อก ก-จ วางได้ (2,3) (3,4) (4,5)",
+          "why_md": "ก ห้ามนั่งริม"
+        },
+        {
+          "do_md": "ถ้า ก=3 จ=4 เก้าอี้ที่เหลือคือ 2 กับ 5 ซึ่งไม่ติดกัน",
+          "why_md": "ข กับ ค นั่งติดกันไม่ได้"
+        }
+      ],
+      "answer_explanation_md": "ตอบ ก นั่งเก้าอี้ตัวที่ 3 เพราะจะเหลือเก้าอี้ 2 กับ 5 ที่ไม่ติดกัน ข กับ ค จึงนั่งติดกันไม่ได้",
+      "hints": [
+        "ใส่ ง ก่อน แล้วมอง ก-จ เป็นบล็อก",
+        "แต่ละกรณีเหลือเก้าอี้ว่างตัวไหนให้ ข กับ ค",
+        "เก้าอี้ที่เหลือต้องติดกัน"
+      ],
+      "distractor_reasons": {
+        "0": "เป็นไปได้เมื่อ ก=2",
+        "1": "เป็นไปได้เมื่อ ก=4",
+        "3": "เป็นไปได้เมื่อ ก=4 และ ค=2",
+        "4": "เป็นไปได้เมื่อ ก=2 จ=3"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    }
+  ],
+  "generated_from": "content/tgat2/reasoning_analysis.py"
+}

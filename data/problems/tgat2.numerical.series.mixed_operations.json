@@ -1,0 +1,1171 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tgat2.numerical.series.mixed_operations",
+  "problems": [
+    {
+      "id": "prob.tgat2.numerical.series.mixed_operations.0001",
+      "topic_ids": [
+        "tgat2.numerical.series.mixed_operations"
+      ],
+      "primary_topic_id": "tgat2.numerical.series.mixed_operations",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 40,
+      "stem_md": "$3, \\; 13, \\; 43, \\; 133, \\; ?$",
+      "figures": [],
+      "choices": [
+        {
+          "md": "$403$",
+          "is_answer": true
+        },
+        {
+          "md": "$399$",
+          "is_answer": false
+        },
+        {
+          "md": "$223$",
+          "is_answer": false
+        },
+        {
+          "md": "$395$",
+          "is_answer": false
+        },
+        {
+          "md": "$407$",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ลองคูณด้วย $3$: $3 \\times 3 = 9$ ต่างจาก $13$ อยู่ $+4$",
+          "why_md": "อัตราส่วนเกือบเป็น $3$ แต่ไม่ลงตัว"
+        },
+        {
+          "do_md": "ตรวจ: $13 \\times 3 + 4 = 43$ และ $43 \\times 3 + 4 = 133$",
+          "why_md": "รูปแบบ $\\times 3 + 4$ ใช้ได้ทุกคู่"
+        },
+        {
+          "do_md": "พจน์ถัดไป $= 133 \\times 3 + 4 = 403$",
+          "why_md": "ใช้รูปแบบเดิม"
+        }
+      ],
+      "answer_explanation_md": "ตอบ $403$ เพราะทุกพจน์ได้จาก $\\times 3 + 4$",
+      "hints": [
+        "หารพจน์หลังด้วยพจน์หน้า ได้ค่าใกล้กันแต่ไม่ลงตัว",
+        "ลองคูณด้วย $3$ แล้วดูว่าต่างจากพจน์จริงเท่าไร",
+        "รูปแบบคือ $\\times 3$ แล้ว $+4$"
+      ],
+      "distractor_reasons": {
+        "1": "คูณแล้วลืมบวก ${k}$",
+        "2": "ใช้ผลต่างล่าสุดแทนรูปแบบคูณ",
+        "3": "ลบแทนบวก",
+        "4": "บวกซ้ำสองครั้ง"
+      },
+      "misconception_tags": [
+        "forget_second_operation"
+      ],
+      "template": {
+        "vars": [
+          {
+            "name": "t1",
+            "type": "int",
+            "range": [
+              1,
+              6
+            ],
+            "step": 1
+          },
+          {
+            "name": "m",
+            "type": "choice",
+            "options": [
+              2,
+              3
+            ]
+          },
+          {
+            "name": "k",
+            "type": "int",
+            "range": [
+              1,
+              4
+            ],
+            "step": 1
+          }
+        ],
+        "constraints": [
+          "(((t1*m + k)*m + k)*m*m + k*m + k) > 0",
+          "(((t1*m + k)*m + k)*m*m + k*m) > 0",
+          "(((t1*m + k)*m + k)*m + k + (((t1*m + k)*m + k)*m + k - ((t1*m + k)*m + k))) > 0",
+          "(((t1*m + k)*m + k)*m*m + k*m + 2*k) > 0",
+          "(((t1*m + k)*m + k)*m*m + k*m - k) > 0",
+          "(((t1*m + k)*m + k)*m*m + k*m + k) != (((t1*m + k)*m + k)*m*m + k*m)",
+          "(((t1*m + k)*m + k)*m*m + k*m + k) != (((t1*m + k)*m + k)*m + k + (((t1*m + k)*m + k)*m + k - ((t1*m + k)*m + k)))",
+          "(((t1*m + k)*m + k)*m*m + k*m + k) != (((t1*m + k)*m + k)*m*m + k*m + 2*k)",
+          "(((t1*m + k)*m + k)*m*m + k*m + k) != (((t1*m + k)*m + k)*m*m + k*m - k)",
+          "(((t1*m + k)*m + k)*m*m + k*m) != (((t1*m + k)*m + k)*m + k + (((t1*m + k)*m + k)*m + k - ((t1*m + k)*m + k)))",
+          "(((t1*m + k)*m + k)*m*m + k*m) != (((t1*m + k)*m + k)*m*m + k*m + 2*k)",
+          "(((t1*m + k)*m + k)*m*m + k*m) != (((t1*m + k)*m + k)*m*m + k*m - k)",
+          "(((t1*m + k)*m + k)*m + k + (((t1*m + k)*m + k)*m + k - ((t1*m + k)*m + k))) != (((t1*m + k)*m + k)*m*m + k*m + 2*k)",
+          "(((t1*m + k)*m + k)*m + k + (((t1*m + k)*m + k)*m + k - ((t1*m + k)*m + k))) != (((t1*m + k)*m + k)*m*m + k*m - k)",
+          "(((t1*m + k)*m + k)*m*m + k*m + 2*k) != (((t1*m + k)*m + k)*m*m + k*m - k)",
+          "(((t1*m + k)*m + k)*m*m + k*m) <= 5*(((t1*m + k)*m + k)*m*m + k*m + k)",
+          "(((t1*m + k)*m + k)*m + k + (((t1*m + k)*m + k)*m + k - ((t1*m + k)*m + k))) <= 5*(((t1*m + k)*m + k)*m*m + k*m + k)",
+          "(((t1*m + k)*m + k)*m*m + k*m + 2*k) <= 5*(((t1*m + k)*m + k)*m*m + k*m + k)",
+          "(((t1*m + k)*m + k)*m*m + k*m - k) <= 5*(((t1*m + k)*m + k)*m*m + k*m + k)",
+          "5*(((t1*m + k)*m + k)*m*m + k*m) >= (((t1*m + k)*m + k)*m*m + k*m + k)",
+          "5*(((t1*m + k)*m + k)*m + k + (((t1*m + k)*m + k)*m + k - ((t1*m + k)*m + k))) >= (((t1*m + k)*m + k)*m*m + k*m + k)",
+          "5*(((t1*m + k)*m + k)*m*m + k*m + 2*k) >= (((t1*m + k)*m + k)*m*m + k*m + k)",
+          "5*(((t1*m + k)*m + k)*m*m + k*m - k) >= (((t1*m + k)*m + k)*m*m + k*m + k)",
+          "(k) != (((t1*m + k)*m + k)*m*m + k*m + k)",
+          "(m) != (((t1*m + k)*m + k)*m*m + k*m + k)"
+        ],
+        "display": {
+          "t2": "t1*m + k",
+          "t3": "(t1*m + k)*m + k",
+          "t4": "((t1*m + k)*m + k)*m + k",
+          "p1": "t1*m"
+        },
+        "stem_tpl": "${t1}, \\; {t2}, \\; {t3}, \\; {t4}, \\; ?$",
+        "answer_expr": "((t1*m + k)*m + k)*m*m + k*m + k",
+        "answer_round": null,
+        "answer_unit": null,
+        "distractors": [
+          {
+            "expr": "((t1*m + k)*m + k)*m*m + k*m",
+            "reason": "คูณแล้วลืมบวก ${k}$"
+          },
+          {
+            "expr": "((t1*m + k)*m + k)*m + k + (((t1*m + k)*m + k)*m + k - ((t1*m + k)*m + k))",
+            "reason": "ใช้ผลต่างล่าสุดแทนรูปแบบคูณ"
+          },
+          {
+            "expr": "((t1*m + k)*m + k)*m*m + k*m + 2*k",
+            "reason": "บวกซ้ำสองครั้ง"
+          },
+          {
+            "expr": "((t1*m + k)*m + k)*m*m + k*m - k",
+            "reason": "ลบแทนบวก"
+          }
+        ],
+        "quality_rules": [
+          "ตัวเลือกทุกตัวต้องเป็นจำนวนบวกและไม่ซ้ำกัน",
+          "คำตอบคำนวณจากนิพจน์ ไม่ได้ใส่มือ"
+        ],
+        "quality_exprs": [
+          "answer > 0"
+        ],
+        "steps_tpl": [
+          {
+            "do_md": "ลองคูณด้วย ${m}$: ${t1} \\times {m} = {p1}$ ต่างจาก ${t2}$ อยู่ $+{k}$",
+            "why_md": "อัตราส่วนเกือบเป็น ${m}$ แต่ไม่ลงตัว"
+          },
+          {
+            "do_md": "ตรวจ: ${t2} \\times {m} + {k} = {t3}$ และ ${t3} \\times {m} + {k} = {t4}$",
+            "why_md": "รูปแบบ $\\times {m} + {k}$ ใช้ได้ทุกคู่"
+          },
+          {
+            "do_md": "พจน์ถัดไป $= {t4} \\times {m} + {k} = {answer}$",
+            "why_md": "ใช้รูปแบบเดิม"
+          }
+        ],
+        "hints_tpl": [
+          "หารพจน์หลังด้วยพจน์หน้า ได้ค่าใกล้กันแต่ไม่ลงตัว",
+          "ลองคูณด้วย ${m}$ แล้วดูว่าต่างจากพจน์จริงเท่าไร",
+          "รูปแบบคือ $\\times {m}$ แล้ว $+{k}$"
+        ],
+        "explanation_tpl": "ตอบ ${answer}$ เพราะทุกพจน์ได้จาก $\\times {m} + {k}$"
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.numerical.series.mixed_operations.0002",
+      "topic_ids": [
+        "tgat2.numerical.series.mixed_operations"
+      ],
+      "primary_topic_id": "tgat2.numerical.series.mixed_operations",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 40,
+      "stem_md": "$6, \\; 19, \\; 58, \\; 175, \\; ?$",
+      "figures": [],
+      "choices": [
+        {
+          "md": "$292$",
+          "is_answer": false
+        },
+        {
+          "md": "$525$",
+          "is_answer": false
+        },
+        {
+          "md": "$527$",
+          "is_answer": false
+        },
+        {
+          "md": "$526$",
+          "is_answer": true
+        },
+        {
+          "md": "$524$",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ลองคูณด้วย $3$: $6 \\times 3 = 18$ ต่างจาก $19$ อยู่ $+1$",
+          "why_md": "อัตราส่วนเกือบเป็น $3$ แต่ไม่ลงตัว"
+        },
+        {
+          "do_md": "ตรวจ: $19 \\times 3 + 1 = 58$ และ $58 \\times 3 + 1 = 175$",
+          "why_md": "รูปแบบ $\\times 3 + 1$ ใช้ได้ทุกคู่"
+        },
+        {
+          "do_md": "พจน์ถัดไป $= 175 \\times 3 + 1 = 526$",
+          "why_md": "ใช้รูปแบบเดิม"
+        }
+      ],
+      "answer_explanation_md": "ตอบ $526$ เพราะทุกพจน์ได้จาก $\\times 3 + 1$",
+      "hints": [
+        "หารพจน์หลังด้วยพจน์หน้า ได้ค่าใกล้กันแต่ไม่ลงตัว",
+        "ลองคูณด้วย $3$ แล้วดูว่าต่างจากพจน์จริงเท่าไร",
+        "รูปแบบคือ $\\times 3$ แล้ว $+1$"
+      ],
+      "distractor_reasons": {
+        "0": "ใช้ผลต่างล่าสุดแทนรูปแบบคูณ",
+        "1": "คูณแล้วลืมบวก ${k}$",
+        "2": "บวกซ้ำสองครั้ง",
+        "4": "ลบแทนบวก"
+      },
+      "misconception_tags": [
+        "forget_second_operation"
+      ],
+      "template": {
+        "vars": [
+          {
+            "name": "t1",
+            "type": "int",
+            "range": [
+              1,
+              6
+            ],
+            "step": 1
+          },
+          {
+            "name": "m",
+            "type": "choice",
+            "options": [
+              2,
+              3
+            ]
+          },
+          {
+            "name": "k",
+            "type": "int",
+            "range": [
+              1,
+              4
+            ],
+            "step": 1
+          }
+        ],
+        "constraints": [
+          "(((t1*m + k)*m + k)*m*m + k*m + k) > 0",
+          "(((t1*m + k)*m + k)*m*m + k*m) > 0",
+          "(((t1*m + k)*m + k)*m + k + (((t1*m + k)*m + k)*m + k - ((t1*m + k)*m + k))) > 0",
+          "(((t1*m + k)*m + k)*m*m + k*m + 2*k) > 0",
+          "(((t1*m + k)*m + k)*m*m + k*m - k) > 0",
+          "(((t1*m + k)*m + k)*m*m + k*m + k) != (((t1*m + k)*m + k)*m*m + k*m)",
+          "(((t1*m + k)*m + k)*m*m + k*m + k) != (((t1*m + k)*m + k)*m + k + (((t1*m + k)*m + k)*m + k - ((t1*m + k)*m + k)))",
+          "(((t1*m + k)*m + k)*m*m + k*m + k) != (((t1*m + k)*m + k)*m*m + k*m + 2*k)",
+          "(((t1*m + k)*m + k)*m*m + k*m + k) != (((t1*m + k)*m + k)*m*m + k*m - k)",
+          "(((t1*m + k)*m + k)*m*m + k*m) != (((t1*m + k)*m + k)*m + k + (((t1*m + k)*m + k)*m + k - ((t1*m + k)*m + k)))",
+          "(((t1*m + k)*m + k)*m*m + k*m) != (((t1*m + k)*m + k)*m*m + k*m + 2*k)",
+          "(((t1*m + k)*m + k)*m*m + k*m) != (((t1*m + k)*m + k)*m*m + k*m - k)",
+          "(((t1*m + k)*m + k)*m + k + (((t1*m + k)*m + k)*m + k - ((t1*m + k)*m + k))) != (((t1*m + k)*m + k)*m*m + k*m + 2*k)",
+          "(((t1*m + k)*m + k)*m + k + (((t1*m + k)*m + k)*m + k - ((t1*m + k)*m + k))) != (((t1*m + k)*m + k)*m*m + k*m - k)",
+          "(((t1*m + k)*m + k)*m*m + k*m + 2*k) != (((t1*m + k)*m + k)*m*m + k*m - k)",
+          "(((t1*m + k)*m + k)*m*m + k*m) <= 5*(((t1*m + k)*m + k)*m*m + k*m + k)",
+          "(((t1*m + k)*m + k)*m + k + (((t1*m + k)*m + k)*m + k - ((t1*m + k)*m + k))) <= 5*(((t1*m + k)*m + k)*m*m + k*m + k)",
+          "(((t1*m + k)*m + k)*m*m + k*m + 2*k) <= 5*(((t1*m + k)*m + k)*m*m + k*m + k)",
+          "(((t1*m + k)*m + k)*m*m + k*m - k) <= 5*(((t1*m + k)*m + k)*m*m + k*m + k)",
+          "5*(((t1*m + k)*m + k)*m*m + k*m) >= (((t1*m + k)*m + k)*m*m + k*m + k)",
+          "5*(((t1*m + k)*m + k)*m + k + (((t1*m + k)*m + k)*m + k - ((t1*m + k)*m + k))) >= (((t1*m + k)*m + k)*m*m + k*m + k)",
+          "5*(((t1*m + k)*m + k)*m*m + k*m + 2*k) >= (((t1*m + k)*m + k)*m*m + k*m + k)",
+          "5*(((t1*m + k)*m + k)*m*m + k*m - k) >= (((t1*m + k)*m + k)*m*m + k*m + k)",
+          "(k) != (((t1*m + k)*m + k)*m*m + k*m + k)",
+          "(m) != (((t1*m + k)*m + k)*m*m + k*m + k)"
+        ],
+        "display": {
+          "t2": "t1*m + k",
+          "t3": "(t1*m + k)*m + k",
+          "t4": "((t1*m + k)*m + k)*m + k",
+          "p1": "t1*m"
+        },
+        "stem_tpl": "${t1}, \\; {t2}, \\; {t3}, \\; {t4}, \\; ?$",
+        "answer_expr": "((t1*m + k)*m + k)*m*m + k*m + k",
+        "answer_round": null,
+        "answer_unit": null,
+        "distractors": [
+          {
+            "expr": "((t1*m + k)*m + k)*m*m + k*m",
+            "reason": "คูณแล้วลืมบวก ${k}$"
+          },
+          {
+            "expr": "((t1*m + k)*m + k)*m + k + (((t1*m + k)*m + k)*m + k - ((t1*m + k)*m + k))",
+            "reason": "ใช้ผลต่างล่าสุดแทนรูปแบบคูณ"
+          },
+          {
+            "expr": "((t1*m + k)*m + k)*m*m + k*m + 2*k",
+            "reason": "บวกซ้ำสองครั้ง"
+          },
+          {
+            "expr": "((t1*m + k)*m + k)*m*m + k*m - k",
+            "reason": "ลบแทนบวก"
+          }
+        ],
+        "quality_rules": [
+          "ตัวเลือกทุกตัวต้องเป็นจำนวนบวกและไม่ซ้ำกัน",
+          "คำตอบคำนวณจากนิพจน์ ไม่ได้ใส่มือ"
+        ],
+        "quality_exprs": [
+          "answer > 0"
+        ],
+        "steps_tpl": [
+          {
+            "do_md": "ลองคูณด้วย ${m}$: ${t1} \\times {m} = {p1}$ ต่างจาก ${t2}$ อยู่ $+{k}$",
+            "why_md": "อัตราส่วนเกือบเป็น ${m}$ แต่ไม่ลงตัว"
+          },
+          {
+            "do_md": "ตรวจ: ${t2} \\times {m} + {k} = {t3}$ และ ${t3} \\times {m} + {k} = {t4}$",
+            "why_md": "รูปแบบ $\\times {m} + {k}$ ใช้ได้ทุกคู่"
+          },
+          {
+            "do_md": "พจน์ถัดไป $= {t4} \\times {m} + {k} = {answer}$",
+            "why_md": "ใช้รูปแบบเดิม"
+          }
+        ],
+        "hints_tpl": [
+          "หารพจน์หลังด้วยพจน์หน้า ได้ค่าใกล้กันแต่ไม่ลงตัว",
+          "ลองคูณด้วย ${m}$ แล้วดูว่าต่างจากพจน์จริงเท่าไร",
+          "รูปแบบคือ $\\times {m}$ แล้ว $+{k}$"
+        ],
+        "explanation_tpl": "ตอบ ${answer}$ เพราะทุกพจน์ได้จาก $\\times {m} + {k}$"
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.numerical.series.mixed_operations.0003",
+      "topic_ids": [
+        "tgat2.numerical.series.mixed_operations"
+      ],
+      "primary_topic_id": "tgat2.numerical.series.mixed_operations",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 45,
+      "stem_md": "$6, \\; 21, \\; 66, \\; 201, \\; ?$",
+      "figures": [],
+      "choices": [
+        {
+          "md": "$603$",
+          "is_answer": false
+        },
+        {
+          "md": "$600$",
+          "is_answer": false
+        },
+        {
+          "md": "$606$",
+          "is_answer": true
+        },
+        {
+          "md": "$336$",
+          "is_answer": false
+        },
+        {
+          "md": "$609$",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ลองคูณด้วย $3$: $6 \\times 3 = 18$ ต่างจาก $21$ อยู่ $+3$",
+          "why_md": "อัตราส่วนเกือบเป็น $3$ แต่ไม่ลงตัว"
+        },
+        {
+          "do_md": "ตรวจ: $21 \\times 3 + 3 = 66$ และ $66 \\times 3 + 3 = 201$",
+          "why_md": "รูปแบบ $\\times 3 + 3$ ใช้ได้ทุกคู่"
+        },
+        {
+          "do_md": "พจน์ถัดไป $= 201 \\times 3 + 3 = 606$",
+          "why_md": "ใช้รูปแบบเดิม"
+        }
+      ],
+      "answer_explanation_md": "ตอบ $606$ เพราะทุกพจน์ได้จาก $\\times 3 + 3$",
+      "hints": [
+        "หารพจน์หลังด้วยพจน์หน้า ได้ค่าใกล้กันแต่ไม่ลงตัว",
+        "ลองคูณด้วย $3$ แล้วดูว่าต่างจากพจน์จริงเท่าไร",
+        "รูปแบบคือ $\\times 3$ แล้ว $+3$"
+      ],
+      "distractor_reasons": {
+        "0": "คูณแล้วลืมบวก ${k}$",
+        "1": "ลบแทนบวก",
+        "3": "ใช้ผลต่างล่าสุดแทนรูปแบบคูณ",
+        "4": "บวกซ้ำสองครั้ง"
+      },
+      "misconception_tags": [
+        "forget_second_operation"
+      ],
+      "template": {
+        "vars": [
+          {
+            "name": "t1",
+            "type": "int",
+            "range": [
+              1,
+              6
+            ],
+            "step": 1
+          },
+          {
+            "name": "m",
+            "type": "choice",
+            "options": [
+              2,
+              3
+            ]
+          },
+          {
+            "name": "k",
+            "type": "int",
+            "range": [
+              1,
+              4
+            ],
+            "step": 1
+          }
+        ],
+        "constraints": [
+          "(((t1*m + k)*m + k)*m*m + k*m + k) > 0",
+          "(((t1*m + k)*m + k)*m*m + k*m) > 0",
+          "(((t1*m + k)*m + k)*m + k + (((t1*m + k)*m + k)*m + k - ((t1*m + k)*m + k))) > 0",
+          "(((t1*m + k)*m + k)*m*m + k*m + 2*k) > 0",
+          "(((t1*m + k)*m + k)*m*m + k*m - k) > 0",
+          "(((t1*m + k)*m + k)*m*m + k*m + k) != (((t1*m + k)*m + k)*m*m + k*m)",
+          "(((t1*m + k)*m + k)*m*m + k*m + k) != (((t1*m + k)*m + k)*m + k + (((t1*m + k)*m + k)*m + k - ((t1*m + k)*m + k)))",
+          "(((t1*m + k)*m + k)*m*m + k*m + k) != (((t1*m + k)*m + k)*m*m + k*m + 2*k)",
+          "(((t1*m + k)*m + k)*m*m + k*m + k) != (((t1*m + k)*m + k)*m*m + k*m - k)",
+          "(((t1*m + k)*m + k)*m*m + k*m) != (((t1*m + k)*m + k)*m + k + (((t1*m + k)*m + k)*m + k - ((t1*m + k)*m + k)))",
+          "(((t1*m + k)*m + k)*m*m + k*m) != (((t1*m + k)*m + k)*m*m + k*m + 2*k)",
+          "(((t1*m + k)*m + k)*m*m + k*m) != (((t1*m + k)*m + k)*m*m + k*m - k)",
+          "(((t1*m + k)*m + k)*m + k + (((t1*m + k)*m + k)*m + k - ((t1*m + k)*m + k))) != (((t1*m + k)*m + k)*m*m + k*m + 2*k)",
+          "(((t1*m + k)*m + k)*m + k + (((t1*m + k)*m + k)*m + k - ((t1*m + k)*m + k))) != (((t1*m + k)*m + k)*m*m + k*m - k)",
+          "(((t1*m + k)*m + k)*m*m + k*m + 2*k) != (((t1*m + k)*m + k)*m*m + k*m - k)",
+          "(((t1*m + k)*m + k)*m*m + k*m) <= 5*(((t1*m + k)*m + k)*m*m + k*m + k)",
+          "(((t1*m + k)*m + k)*m + k + (((t1*m + k)*m + k)*m + k - ((t1*m + k)*m + k))) <= 5*(((t1*m + k)*m + k)*m*m + k*m + k)",
+          "(((t1*m + k)*m + k)*m*m + k*m + 2*k) <= 5*(((t1*m + k)*m + k)*m*m + k*m + k)",
+          "(((t1*m + k)*m + k)*m*m + k*m - k) <= 5*(((t1*m + k)*m + k)*m*m + k*m + k)",
+          "5*(((t1*m + k)*m + k)*m*m + k*m) >= (((t1*m + k)*m + k)*m*m + k*m + k)",
+          "5*(((t1*m + k)*m + k)*m + k + (((t1*m + k)*m + k)*m + k - ((t1*m + k)*m + k))) >= (((t1*m + k)*m + k)*m*m + k*m + k)",
+          "5*(((t1*m + k)*m + k)*m*m + k*m + 2*k) >= (((t1*m + k)*m + k)*m*m + k*m + k)",
+          "5*(((t1*m + k)*m + k)*m*m + k*m - k) >= (((t1*m + k)*m + k)*m*m + k*m + k)",
+          "(k) != (((t1*m + k)*m + k)*m*m + k*m + k)",
+          "(m) != (((t1*m + k)*m + k)*m*m + k*m + k)"
+        ],
+        "display": {
+          "t2": "t1*m + k",
+          "t3": "(t1*m + k)*m + k",
+          "t4": "((t1*m + k)*m + k)*m + k",
+          "p1": "t1*m"
+        },
+        "stem_tpl": "${t1}, \\; {t2}, \\; {t3}, \\; {t4}, \\; ?$",
+        "answer_expr": "((t1*m + k)*m + k)*m*m + k*m + k",
+        "answer_round": null,
+        "answer_unit": null,
+        "distractors": [
+          {
+            "expr": "((t1*m + k)*m + k)*m*m + k*m",
+            "reason": "คูณแล้วลืมบวก ${k}$"
+          },
+          {
+            "expr": "((t1*m + k)*m + k)*m + k + (((t1*m + k)*m + k)*m + k - ((t1*m + k)*m + k))",
+            "reason": "ใช้ผลต่างล่าสุดแทนรูปแบบคูณ"
+          },
+          {
+            "expr": "((t1*m + k)*m + k)*m*m + k*m + 2*k",
+            "reason": "บวกซ้ำสองครั้ง"
+          },
+          {
+            "expr": "((t1*m + k)*m + k)*m*m + k*m - k",
+            "reason": "ลบแทนบวก"
+          }
+        ],
+        "quality_rules": [
+          "ตัวเลือกทุกตัวต้องเป็นจำนวนบวกและไม่ซ้ำกัน",
+          "คำตอบคำนวณจากนิพจน์ ไม่ได้ใส่มือ"
+        ],
+        "quality_exprs": [
+          "answer > 0"
+        ],
+        "steps_tpl": [
+          {
+            "do_md": "ลองคูณด้วย ${m}$: ${t1} \\times {m} = {p1}$ ต่างจาก ${t2}$ อยู่ $+{k}$",
+            "why_md": "อัตราส่วนเกือบเป็น ${m}$ แต่ไม่ลงตัว"
+          },
+          {
+            "do_md": "ตรวจ: ${t2} \\times {m} + {k} = {t3}$ และ ${t3} \\times {m} + {k} = {t4}$",
+            "why_md": "รูปแบบ $\\times {m} + {k}$ ใช้ได้ทุกคู่"
+          },
+          {
+            "do_md": "พจน์ถัดไป $= {t4} \\times {m} + {k} = {answer}$",
+            "why_md": "ใช้รูปแบบเดิม"
+          }
+        ],
+        "hints_tpl": [
+          "หารพจน์หลังด้วยพจน์หน้า ได้ค่าใกล้กันแต่ไม่ลงตัว",
+          "ลองคูณด้วย ${m}$ แล้วดูว่าต่างจากพจน์จริงเท่าไร",
+          "รูปแบบคือ $\\times {m}$ แล้ว $+{k}$"
+        ],
+        "explanation_tpl": "ตอบ ${answer}$ เพราะทุกพจน์ได้จาก $\\times {m} + {k}$"
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.numerical.series.mixed_operations.0004",
+      "topic_ids": [
+        "tgat2.numerical.series.mixed_operations"
+      ],
+      "primary_topic_id": "tgat2.numerical.series.mixed_operations",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 45,
+      "stem_md": "$2, \\; 5, \\; 11, \\; 23, \\; ?$",
+      "figures": [],
+      "choices": [
+        {
+          "md": "$45$",
+          "is_answer": false
+        },
+        {
+          "md": "$47$",
+          "is_answer": true
+        },
+        {
+          "md": "$48$",
+          "is_answer": false
+        },
+        {
+          "md": "$46$",
+          "is_answer": false
+        },
+        {
+          "md": "$35$",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ลองคูณด้วย $2$: $2 \\times 2 = 4$ ต่างจาก $5$ อยู่ $+1$",
+          "why_md": "อัตราส่วนเกือบเป็น $2$ แต่ไม่ลงตัว"
+        },
+        {
+          "do_md": "ตรวจ: $5 \\times 2 + 1 = 11$ และ $11 \\times 2 + 1 = 23$",
+          "why_md": "รูปแบบ $\\times 2 + 1$ ใช้ได้ทุกคู่"
+        },
+        {
+          "do_md": "พจน์ถัดไป $= 23 \\times 2 + 1 = 47$",
+          "why_md": "ใช้รูปแบบเดิม"
+        }
+      ],
+      "answer_explanation_md": "ตอบ $47$ เพราะทุกพจน์ได้จาก $\\times 2 + 1$",
+      "hints": [
+        "หารพจน์หลังด้วยพจน์หน้า ได้ค่าใกล้กันแต่ไม่ลงตัว",
+        "ลองคูณด้วย $2$ แล้วดูว่าต่างจากพจน์จริงเท่าไร",
+        "รูปแบบคือ $\\times 2$ แล้ว $+1$"
+      ],
+      "distractor_reasons": {
+        "0": "ลบแทนบวก",
+        "2": "บวกซ้ำสองครั้ง",
+        "3": "คูณแล้วลืมบวก ${k}$",
+        "4": "ใช้ผลต่างล่าสุดแทนรูปแบบคูณ"
+      },
+      "misconception_tags": [
+        "forget_second_operation"
+      ],
+      "template": {
+        "vars": [
+          {
+            "name": "t1",
+            "type": "int",
+            "range": [
+              1,
+              6
+            ],
+            "step": 1
+          },
+          {
+            "name": "m",
+            "type": "choice",
+            "options": [
+              2,
+              3
+            ]
+          },
+          {
+            "name": "k",
+            "type": "int",
+            "range": [
+              1,
+              4
+            ],
+            "step": 1
+          }
+        ],
+        "constraints": [
+          "(((t1*m + k)*m + k)*m*m + k*m + k) > 0",
+          "(((t1*m + k)*m + k)*m*m + k*m) > 0",
+          "(((t1*m + k)*m + k)*m + k + (((t1*m + k)*m + k)*m + k - ((t1*m + k)*m + k))) > 0",
+          "(((t1*m + k)*m + k)*m*m + k*m + 2*k) > 0",
+          "(((t1*m + k)*m + k)*m*m + k*m - k) > 0",
+          "(((t1*m + k)*m + k)*m*m + k*m + k) != (((t1*m + k)*m + k)*m*m + k*m)",
+          "(((t1*m + k)*m + k)*m*m + k*m + k) != (((t1*m + k)*m + k)*m + k + (((t1*m + k)*m + k)*m + k - ((t1*m + k)*m + k)))",
+          "(((t1*m + k)*m + k)*m*m + k*m + k) != (((t1*m + k)*m + k)*m*m + k*m + 2*k)",
+          "(((t1*m + k)*m + k)*m*m + k*m + k) != (((t1*m + k)*m + k)*m*m + k*m - k)",
+          "(((t1*m + k)*m + k)*m*m + k*m) != (((t1*m + k)*m + k)*m + k + (((t1*m + k)*m + k)*m + k - ((t1*m + k)*m + k)))",
+          "(((t1*m + k)*m + k)*m*m + k*m) != (((t1*m + k)*m + k)*m*m + k*m + 2*k)",
+          "(((t1*m + k)*m + k)*m*m + k*m) != (((t1*m + k)*m + k)*m*m + k*m - k)",
+          "(((t1*m + k)*m + k)*m + k + (((t1*m + k)*m + k)*m + k - ((t1*m + k)*m + k))) != (((t1*m + k)*m + k)*m*m + k*m + 2*k)",
+          "(((t1*m + k)*m + k)*m + k + (((t1*m + k)*m + k)*m + k - ((t1*m + k)*m + k))) != (((t1*m + k)*m + k)*m*m + k*m - k)",
+          "(((t1*m + k)*m + k)*m*m + k*m + 2*k) != (((t1*m + k)*m + k)*m*m + k*m - k)",
+          "(((t1*m + k)*m + k)*m*m + k*m) <= 5*(((t1*m + k)*m + k)*m*m + k*m + k)",
+          "(((t1*m + k)*m + k)*m + k + (((t1*m + k)*m + k)*m + k - ((t1*m + k)*m + k))) <= 5*(((t1*m + k)*m + k)*m*m + k*m + k)",
+          "(((t1*m + k)*m + k)*m*m + k*m + 2*k) <= 5*(((t1*m + k)*m + k)*m*m + k*m + k)",
+          "(((t1*m + k)*m + k)*m*m + k*m - k) <= 5*(((t1*m + k)*m + k)*m*m + k*m + k)",
+          "5*(((t1*m + k)*m + k)*m*m + k*m) >= (((t1*m + k)*m + k)*m*m + k*m + k)",
+          "5*(((t1*m + k)*m + k)*m + k + (((t1*m + k)*m + k)*m + k - ((t1*m + k)*m + k))) >= (((t1*m + k)*m + k)*m*m + k*m + k)",
+          "5*(((t1*m + k)*m + k)*m*m + k*m + 2*k) >= (((t1*m + k)*m + k)*m*m + k*m + k)",
+          "5*(((t1*m + k)*m + k)*m*m + k*m - k) >= (((t1*m + k)*m + k)*m*m + k*m + k)",
+          "(k) != (((t1*m + k)*m + k)*m*m + k*m + k)",
+          "(m) != (((t1*m + k)*m + k)*m*m + k*m + k)"
+        ],
+        "display": {
+          "t2": "t1*m + k",
+          "t3": "(t1*m + k)*m + k",
+          "t4": "((t1*m + k)*m + k)*m + k",
+          "p1": "t1*m"
+        },
+        "stem_tpl": "${t1}, \\; {t2}, \\; {t3}, \\; {t4}, \\; ?$",
+        "answer_expr": "((t1*m + k)*m + k)*m*m + k*m + k",
+        "answer_round": null,
+        "answer_unit": null,
+        "distractors": [
+          {
+            "expr": "((t1*m + k)*m + k)*m*m + k*m",
+            "reason": "คูณแล้วลืมบวก ${k}$"
+          },
+          {
+            "expr": "((t1*m + k)*m + k)*m + k + (((t1*m + k)*m + k)*m + k - ((t1*m + k)*m + k))",
+            "reason": "ใช้ผลต่างล่าสุดแทนรูปแบบคูณ"
+          },
+          {
+            "expr": "((t1*m + k)*m + k)*m*m + k*m + 2*k",
+            "reason": "บวกซ้ำสองครั้ง"
+          },
+          {
+            "expr": "((t1*m + k)*m + k)*m*m + k*m - k",
+            "reason": "ลบแทนบวก"
+          }
+        ],
+        "quality_rules": [
+          "ตัวเลือกทุกตัวต้องเป็นจำนวนบวกและไม่ซ้ำกัน",
+          "คำตอบคำนวณจากนิพจน์ ไม่ได้ใส่มือ"
+        ],
+        "quality_exprs": [
+          "answer > 0"
+        ],
+        "steps_tpl": [
+          {
+            "do_md": "ลองคูณด้วย ${m}$: ${t1} \\times {m} = {p1}$ ต่างจาก ${t2}$ อยู่ $+{k}$",
+            "why_md": "อัตราส่วนเกือบเป็น ${m}$ แต่ไม่ลงตัว"
+          },
+          {
+            "do_md": "ตรวจ: ${t2} \\times {m} + {k} = {t3}$ และ ${t3} \\times {m} + {k} = {t4}$",
+            "why_md": "รูปแบบ $\\times {m} + {k}$ ใช้ได้ทุกคู่"
+          },
+          {
+            "do_md": "พจน์ถัดไป $= {t4} \\times {m} + {k} = {answer}$",
+            "why_md": "ใช้รูปแบบเดิม"
+          }
+        ],
+        "hints_tpl": [
+          "หารพจน์หลังด้วยพจน์หน้า ได้ค่าใกล้กันแต่ไม่ลงตัว",
+          "ลองคูณด้วย ${m}$ แล้วดูว่าต่างจากพจน์จริงเท่าไร",
+          "รูปแบบคือ $\\times {m}$ แล้ว $+{k}$"
+        ],
+        "explanation_tpl": "ตอบ ${answer}$ เพราะทุกพจน์ได้จาก $\\times {m} + {k}$"
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.numerical.series.mixed_operations.0005",
+      "topic_ids": [
+        "tgat2.numerical.series.mixed_operations"
+      ],
+      "primary_topic_id": "tgat2.numerical.series.mixed_operations",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 45,
+      "stem_md": "$3, \\; 10, \\; 24, \\; 52, \\; ?$",
+      "figures": [],
+      "choices": [
+        {
+          "md": "$100$",
+          "is_answer": false
+        },
+        {
+          "md": "$80$",
+          "is_answer": false
+        },
+        {
+          "md": "$104$",
+          "is_answer": false
+        },
+        {
+          "md": "$112$",
+          "is_answer": false
+        },
+        {
+          "md": "$108$",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ลองคูณด้วย $2$: $3 \\times 2 = 6$ ต่างจาก $10$ อยู่ $+4$",
+          "why_md": "อัตราส่วนเกือบเป็น $2$ แต่ไม่ลงตัว"
+        },
+        {
+          "do_md": "ตรวจ: $10 \\times 2 + 4 = 24$ และ $24 \\times 2 + 4 = 52$",
+          "why_md": "รูปแบบ $\\times 2 + 4$ ใช้ได้ทุกคู่"
+        },
+        {
+          "do_md": "พจน์ถัดไป $= 52 \\times 2 + 4 = 108$",
+          "why_md": "ใช้รูปแบบเดิม"
+        }
+      ],
+      "answer_explanation_md": "ตอบ $108$ เพราะทุกพจน์ได้จาก $\\times 2 + 4$",
+      "hints": [
+        "หารพจน์หลังด้วยพจน์หน้า ได้ค่าใกล้กันแต่ไม่ลงตัว",
+        "ลองคูณด้วย $2$ แล้วดูว่าต่างจากพจน์จริงเท่าไร",
+        "รูปแบบคือ $\\times 2$ แล้ว $+4$"
+      ],
+      "distractor_reasons": {
+        "0": "ลบแทนบวก",
+        "1": "ใช้ผลต่างล่าสุดแทนรูปแบบคูณ",
+        "2": "คูณแล้วลืมบวก ${k}$",
+        "3": "บวกซ้ำสองครั้ง"
+      },
+      "misconception_tags": [
+        "forget_second_operation"
+      ],
+      "template": {
+        "vars": [
+          {
+            "name": "t1",
+            "type": "int",
+            "range": [
+              1,
+              6
+            ],
+            "step": 1
+          },
+          {
+            "name": "m",
+            "type": "choice",
+            "options": [
+              2,
+              3
+            ]
+          },
+          {
+            "name": "k",
+            "type": "int",
+            "range": [
+              1,
+              4
+            ],
+            "step": 1
+          }
+        ],
+        "constraints": [
+          "(((t1*m + k)*m + k)*m*m + k*m + k) > 0",
+          "(((t1*m + k)*m + k)*m*m + k*m) > 0",
+          "(((t1*m + k)*m + k)*m + k + (((t1*m + k)*m + k)*m + k - ((t1*m + k)*m + k))) > 0",
+          "(((t1*m + k)*m + k)*m*m + k*m + 2*k) > 0",
+          "(((t1*m + k)*m + k)*m*m + k*m - k) > 0",
+          "(((t1*m + k)*m + k)*m*m + k*m + k) != (((t1*m + k)*m + k)*m*m + k*m)",
+          "(((t1*m + k)*m + k)*m*m + k*m + k) != (((t1*m + k)*m + k)*m + k + (((t1*m + k)*m + k)*m + k - ((t1*m + k)*m + k)))",
+          "(((t1*m + k)*m + k)*m*m + k*m + k) != (((t1*m + k)*m + k)*m*m + k*m + 2*k)",
+          "(((t1*m + k)*m + k)*m*m + k*m + k) != (((t1*m + k)*m + k)*m*m + k*m - k)",
+          "(((t1*m + k)*m + k)*m*m + k*m) != (((t1*m + k)*m + k)*m + k + (((t1*m + k)*m + k)*m + k - ((t1*m + k)*m + k)))",
+          "(((t1*m + k)*m + k)*m*m + k*m) != (((t1*m + k)*m + k)*m*m + k*m + 2*k)",
+          "(((t1*m + k)*m + k)*m*m + k*m) != (((t1*m + k)*m + k)*m*m + k*m - k)",
+          "(((t1*m + k)*m + k)*m + k + (((t1*m + k)*m + k)*m + k - ((t1*m + k)*m + k))) != (((t1*m + k)*m + k)*m*m + k*m + 2*k)",
+          "(((t1*m + k)*m + k)*m + k + (((t1*m + k)*m + k)*m + k - ((t1*m + k)*m + k))) != (((t1*m + k)*m + k)*m*m + k*m - k)",
+          "(((t1*m + k)*m + k)*m*m + k*m + 2*k) != (((t1*m + k)*m + k)*m*m + k*m - k)",
+          "(((t1*m + k)*m + k)*m*m + k*m) <= 5*(((t1*m + k)*m + k)*m*m + k*m + k)",
+          "(((t1*m + k)*m + k)*m + k + (((t1*m + k)*m + k)*m + k - ((t1*m + k)*m + k))) <= 5*(((t1*m + k)*m + k)*m*m + k*m + k)",
+          "(((t1*m + k)*m + k)*m*m + k*m + 2*k) <= 5*(((t1*m + k)*m + k)*m*m + k*m + k)",
+          "(((t1*m + k)*m + k)*m*m + k*m - k) <= 5*(((t1*m + k)*m + k)*m*m + k*m + k)",
+          "5*(((t1*m + k)*m + k)*m*m + k*m) >= (((t1*m + k)*m + k)*m*m + k*m + k)",
+          "5*(((t1*m + k)*m + k)*m + k + (((t1*m + k)*m + k)*m + k - ((t1*m + k)*m + k))) >= (((t1*m + k)*m + k)*m*m + k*m + k)",
+          "5*(((t1*m + k)*m + k)*m*m + k*m + 2*k) >= (((t1*m + k)*m + k)*m*m + k*m + k)",
+          "5*(((t1*m + k)*m + k)*m*m + k*m - k) >= (((t1*m + k)*m + k)*m*m + k*m + k)",
+          "(k) != (((t1*m + k)*m + k)*m*m + k*m + k)",
+          "(m) != (((t1*m + k)*m + k)*m*m + k*m + k)"
+        ],
+        "display": {
+          "t2": "t1*m + k",
+          "t3": "(t1*m + k)*m + k",
+          "t4": "((t1*m + k)*m + k)*m + k",
+          "p1": "t1*m"
+        },
+        "stem_tpl": "${t1}, \\; {t2}, \\; {t3}, \\; {t4}, \\; ?$",
+        "answer_expr": "((t1*m + k)*m + k)*m*m + k*m + k",
+        "answer_round": null,
+        "answer_unit": null,
+        "distractors": [
+          {
+            "expr": "((t1*m + k)*m + k)*m*m + k*m",
+            "reason": "คูณแล้วลืมบวก ${k}$"
+          },
+          {
+            "expr": "((t1*m + k)*m + k)*m + k + (((t1*m + k)*m + k)*m + k - ((t1*m + k)*m + k))",
+            "reason": "ใช้ผลต่างล่าสุดแทนรูปแบบคูณ"
+          },
+          {
+            "expr": "((t1*m + k)*m + k)*m*m + k*m + 2*k",
+            "reason": "บวกซ้ำสองครั้ง"
+          },
+          {
+            "expr": "((t1*m + k)*m + k)*m*m + k*m - k",
+            "reason": "ลบแทนบวก"
+          }
+        ],
+        "quality_rules": [
+          "ตัวเลือกทุกตัวต้องเป็นจำนวนบวกและไม่ซ้ำกัน",
+          "คำตอบคำนวณจากนิพจน์ ไม่ได้ใส่มือ"
+        ],
+        "quality_exprs": [
+          "answer > 0"
+        ],
+        "steps_tpl": [
+          {
+            "do_md": "ลองคูณด้วย ${m}$: ${t1} \\times {m} = {p1}$ ต่างจาก ${t2}$ อยู่ $+{k}$",
+            "why_md": "อัตราส่วนเกือบเป็น ${m}$ แต่ไม่ลงตัว"
+          },
+          {
+            "do_md": "ตรวจ: ${t2} \\times {m} + {k} = {t3}$ และ ${t3} \\times {m} + {k} = {t4}$",
+            "why_md": "รูปแบบ $\\times {m} + {k}$ ใช้ได้ทุกคู่"
+          },
+          {
+            "do_md": "พจน์ถัดไป $= {t4} \\times {m} + {k} = {answer}$",
+            "why_md": "ใช้รูปแบบเดิม"
+          }
+        ],
+        "hints_tpl": [
+          "หารพจน์หลังด้วยพจน์หน้า ได้ค่าใกล้กันแต่ไม่ลงตัว",
+          "ลองคูณด้วย ${m}$ แล้วดูว่าต่างจากพจน์จริงเท่าไร",
+          "รูปแบบคือ $\\times {m}$ แล้ว $+{k}$"
+        ],
+        "explanation_tpl": "ตอบ ${answer}$ เพราะทุกพจน์ได้จาก $\\times {m} + {k}$"
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.numerical.series.mixed_operations.0006",
+      "topic_ids": [
+        "tgat2.numerical.series.mixed_operations"
+      ],
+      "primary_topic_id": "tgat2.numerical.series.mixed_operations",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 4,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 2,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 50,
+      "stem_md": "$4, \\; 10, \\; 22, \\; 46, \\; ?$",
+      "figures": [],
+      "choices": [
+        {
+          "md": "$94$",
+          "is_answer": true
+        },
+        {
+          "md": "$70$",
+          "is_answer": false
+        },
+        {
+          "md": "$96$",
+          "is_answer": false
+        },
+        {
+          "md": "$92$",
+          "is_answer": false
+        },
+        {
+          "md": "$90$",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ลองคูณด้วย $2$: $4 \\times 2 = 8$ ต่างจาก $10$ อยู่ $+2$",
+          "why_md": "อัตราส่วนเกือบเป็น $2$ แต่ไม่ลงตัว"
+        },
+        {
+          "do_md": "ตรวจ: $10 \\times 2 + 2 = 22$ และ $22 \\times 2 + 2 = 46$",
+          "why_md": "รูปแบบ $\\times 2 + 2$ ใช้ได้ทุกคู่"
+        },
+        {
+          "do_md": "พจน์ถัดไป $= 46 \\times 2 + 2 = 94$",
+          "why_md": "ใช้รูปแบบเดิม"
+        }
+      ],
+      "answer_explanation_md": "ตอบ $94$ เพราะทุกพจน์ได้จาก $\\times 2 + 2$",
+      "hints": [
+        "หารพจน์หลังด้วยพจน์หน้า ได้ค่าใกล้กันแต่ไม่ลงตัว",
+        "ลองคูณด้วย $2$ แล้วดูว่าต่างจากพจน์จริงเท่าไร",
+        "รูปแบบคือ $\\times 2$ แล้ว $+2$"
+      ],
+      "distractor_reasons": {
+        "1": "ใช้ผลต่างล่าสุดแทนรูปแบบคูณ",
+        "2": "บวกซ้ำสองครั้ง",
+        "3": "คูณแล้วลืมบวก ${k}$",
+        "4": "ลบแทนบวก"
+      },
+      "misconception_tags": [
+        "forget_second_operation"
+      ],
+      "template": {
+        "vars": [
+          {
+            "name": "t1",
+            "type": "int",
+            "range": [
+              1,
+              6
+            ],
+            "step": 1
+          },
+          {
+            "name": "m",
+            "type": "choice",
+            "options": [
+              2,
+              3
+            ]
+          },
+          {
+            "name": "k",
+            "type": "int",
+            "range": [
+              1,
+              4
+            ],
+            "step": 1
+          }
+        ],
+        "constraints": [
+          "(((t1*m + k)*m + k)*m*m + k*m + k) > 0",
+          "(((t1*m + k)*m + k)*m*m + k*m) > 0",
+          "(((t1*m + k)*m + k)*m + k + (((t1*m + k)*m + k)*m + k - ((t1*m + k)*m + k))) > 0",
+          "(((t1*m + k)*m + k)*m*m + k*m + 2*k) > 0",
+          "(((t1*m + k)*m + k)*m*m + k*m - k) > 0",
+          "(((t1*m + k)*m + k)*m*m + k*m + k) != (((t1*m + k)*m + k)*m*m + k*m)",
+          "(((t1*m + k)*m + k)*m*m + k*m + k) != (((t1*m + k)*m + k)*m + k + (((t1*m + k)*m + k)*m + k - ((t1*m + k)*m + k)))",
+          "(((t1*m + k)*m + k)*m*m + k*m + k) != (((t1*m + k)*m + k)*m*m + k*m + 2*k)",
+          "(((t1*m + k)*m + k)*m*m + k*m + k) != (((t1*m + k)*m + k)*m*m + k*m - k)",
+          "(((t1*m + k)*m + k)*m*m + k*m) != (((t1*m + k)*m + k)*m + k + (((t1*m + k)*m + k)*m + k - ((t1*m + k)*m + k)))",
+          "(((t1*m + k)*m + k)*m*m + k*m) != (((t1*m + k)*m + k)*m*m + k*m + 2*k)",
+          "(((t1*m + k)*m + k)*m*m + k*m) != (((t1*m + k)*m + k)*m*m + k*m - k)",
+          "(((t1*m + k)*m + k)*m + k + (((t1*m + k)*m + k)*m + k - ((t1*m + k)*m + k))) != (((t1*m + k)*m + k)*m*m + k*m + 2*k)",
+          "(((t1*m + k)*m + k)*m + k + (((t1*m + k)*m + k)*m + k - ((t1*m + k)*m + k))) != (((t1*m + k)*m + k)*m*m + k*m - k)",
+          "(((t1*m + k)*m + k)*m*m + k*m + 2*k) != (((t1*m + k)*m + k)*m*m + k*m - k)",
+          "(((t1*m + k)*m + k)*m*m + k*m) <= 5*(((t1*m + k)*m + k)*m*m + k*m + k)",
+          "(((t1*m + k)*m + k)*m + k + (((t1*m + k)*m + k)*m + k - ((t1*m + k)*m + k))) <= 5*(((t1*m + k)*m + k)*m*m + k*m + k)",
+          "(((t1*m + k)*m + k)*m*m + k*m + 2*k) <= 5*(((t1*m + k)*m + k)*m*m + k*m + k)",
+          "(((t1*m + k)*m + k)*m*m + k*m - k) <= 5*(((t1*m + k)*m + k)*m*m + k*m + k)",
+          "5*(((t1*m + k)*m + k)*m*m + k*m) >= (((t1*m + k)*m + k)*m*m + k*m + k)",
+          "5*(((t1*m + k)*m + k)*m + k + (((t1*m + k)*m + k)*m + k - ((t1*m + k)*m + k))) >= (((t1*m + k)*m + k)*m*m + k*m + k)",
+          "5*(((t1*m + k)*m + k)*m*m + k*m + 2*k) >= (((t1*m + k)*m + k)*m*m + k*m + k)",
+          "5*(((t1*m + k)*m + k)*m*m + k*m - k) >= (((t1*m + k)*m + k)*m*m + k*m + k)",
+          "(k) != (((t1*m + k)*m + k)*m*m + k*m + k)",
+          "(m) != (((t1*m + k)*m + k)*m*m + k*m + k)"
+        ],
+        "display": {
+          "t2": "t1*m + k",
+          "t3": "(t1*m + k)*m + k",
+          "t4": "((t1*m + k)*m + k)*m + k",
+          "p1": "t1*m"
+        },
+        "stem_tpl": "${t1}, \\; {t2}, \\; {t3}, \\; {t4}, \\; ?$",
+        "answer_expr": "((t1*m + k)*m + k)*m*m + k*m + k",
+        "answer_round": null,
+        "answer_unit": null,
+        "distractors": [
+          {
+            "expr": "((t1*m + k)*m + k)*m*m + k*m",
+            "reason": "คูณแล้วลืมบวก ${k}$"
+          },
+          {
+            "expr": "((t1*m + k)*m + k)*m + k + (((t1*m + k)*m + k)*m + k - ((t1*m + k)*m + k))",
+            "reason": "ใช้ผลต่างล่าสุดแทนรูปแบบคูณ"
+          },
+          {
+            "expr": "((t1*m + k)*m + k)*m*m + k*m + 2*k",
+            "reason": "บวกซ้ำสองครั้ง"
+          },
+          {
+            "expr": "((t1*m + k)*m + k)*m*m + k*m - k",
+            "reason": "ลบแทนบวก"
+          }
+        ],
+        "quality_rules": [
+          "ตัวเลือกทุกตัวต้องเป็นจำนวนบวกและไม่ซ้ำกัน",
+          "คำตอบคำนวณจากนิพจน์ ไม่ได้ใส่มือ"
+        ],
+        "quality_exprs": [
+          "answer > 0"
+        ],
+        "steps_tpl": [
+          {
+            "do_md": "ลองคูณด้วย ${m}$: ${t1} \\times {m} = {p1}$ ต่างจาก ${t2}$ อยู่ $+{k}$",
+            "why_md": "อัตราส่วนเกือบเป็น ${m}$ แต่ไม่ลงตัว"
+          },
+          {
+            "do_md": "ตรวจ: ${t2} \\times {m} + {k} = {t3}$ และ ${t3} \\times {m} + {k} = {t4}$",
+            "why_md": "รูปแบบ $\\times {m} + {k}$ ใช้ได้ทุกคู่"
+          },
+          {
+            "do_md": "พจน์ถัดไป $= {t4} \\times {m} + {k} = {answer}$",
+            "why_md": "ใช้รูปแบบเดิม"
+          }
+        ],
+        "hints_tpl": [
+          "หารพจน์หลังด้วยพจน์หน้า ได้ค่าใกล้กันแต่ไม่ลงตัว",
+          "ลองคูณด้วย ${m}$ แล้วดูว่าต่างจากพจน์จริงเท่าไร",
+          "รูปแบบคือ $\\times {m}$ แล้ว $+{k}$"
+        ],
+        "explanation_tpl": "ตอบ ${answer}$ เพราะทุกพจน์ได้จาก $\\times {m} + {k}$"
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    }
+  ],
+  "generated_from": "content/tgat2/numerical_series2.py"
+}

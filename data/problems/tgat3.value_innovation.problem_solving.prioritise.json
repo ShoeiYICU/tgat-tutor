@@ -1,0 +1,657 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tgat3.value_innovation.problem_solving.prioritise",
+  "problems": [
+    {
+      "id": "prob.tgat3.value_innovation.problem_solving.prioritise.0001",
+      "topic_ids": [
+        "tgat3.value_innovation.problem_solving.prioritise"
+      ],
+      "primary_topic_id": "tgat3.value_innovation.problem_solving.prioritise",
+      "exam_code": "TGAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT3 สมรรถนะการทำงาน แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4_tiered",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 60,
+      "stem_md": "คุณเป็นพนักงานพาร์ตไทม์ร้านสะดวกซื้อ ขณะกำลังเติมสินค้าบนชั้นตามที่ผู้จัดการสั่ง มีลูกค้ามายืนรอที่เคาน์เตอร์ 3 คนและไม่มีพนักงานคนอื่นอยู่ คุณควรทำอย่างไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "เติมสินค้าให้เสร็จก่อนเพราะผู้จัดการสั่งไว้",
+          "is_answer": false,
+          "score": 0.25
+        },
+        {
+          "md": "ตะโกนบอกลูกค้าให้รอสักครู่ แล้วเติมสินค้าต่อ",
+          "is_answer": false,
+          "score": 0.5
+        },
+        {
+          "md": "โทรเรียกพนักงานอีกคนที่พักอยู่หลังร้านให้ออกมาช่วยคิดเงิน เพื่อตัวเองจะได้เติมสินค้าตามที่ผู้จัดการสั่งให้เสร็จ",
+          "is_answer": false,
+          "score": 0.75
+        },
+        {
+          "md": "ไปคิดเงินลูกค้าก่อน แล้วกลับมาเติมสินค้าต่อ",
+          "is_answer": true,
+          "score": 1
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "จัดลำดับ: ลูกค้ารอ = เร่งด่วนและสำคัญต่อร้าน",
+          "why_md": "การเติมสินค้าเลื่อนได้ไม่กี่นาทีโดยไม่เสียหาย"
+        },
+        {
+          "do_md": "ทำงานเร่งด่วนก่อน",
+          "why_md": "คิดเงินลูกค้า"
+        },
+        {
+          "do_md": "กลับมาทำงานที่ได้รับมอบหมายต่อ",
+          "why_md": "งานเดิมยังเสร็จตามที่ผู้จัดการต้องการ"
+        }
+      ],
+      "answer_explanation_md": "คิดเงินลูกค้าก่อนแล้วกลับไปเติมสินค้าดีที่สุด เพราะลูกค้าที่รอเร่งด่วนกว่า และงานเติมสินค้ายังเสร็จได้",
+      "hints": [
+        "งานไหนเลื่อนได้โดยไม่เสียหาย และงานไหนเลื่อนไม่ได้",
+        "ลูกค้าที่รออยู่มีผลต่อร้านอย่างไร",
+        "หาตัวเลือกที่ทำงานเร่งด่วนก่อน แล้วยังกลับไปทำงานเดิมให้เสร็จ"
+      ],
+      "distractor_reasons": {
+        "0": "ทำตามคำสั่ง แต่ปล่อยลูกค้ารอทั้งที่การบริการลูกค้าตรงหน้าสำคัญและเร่งด่วนกว่า",
+        "1": "สื่อสารกับลูกค้า แต่ยังให้ลูกค้ารอโดยไม่จำเป็น",
+        "2": "พยายามแก้ แต่ลูกค้าต้องรอระหว่างที่ตามคน ทั้งที่เราไปคิดเงินได้เลย"
+      },
+      "misconception_tags": [
+        "urgent_over_important"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat3.value_innovation.problem_solving.prioritise.0002",
+      "topic_ids": [
+        "tgat3.value_innovation.problem_solving.prioritise"
+      ],
+      "primary_topic_id": "tgat3.value_innovation.problem_solving.prioritise",
+      "exam_code": "TGAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT3 สมรรถนะการทำงาน แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4_tiered",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 60,
+      "stem_md": "คุณรับผิดชอบสามงานในสัปดาห์นี้: ทำสไลด์นำเสนอกลุ่มที่ต้องนำเสนอพรุ่งนี้ ช่วยตกแต่งห้องสำหรับงานวันศุกร์ และตอบแบบสอบถามของชมรมที่ไม่มีกำหนดส่ง คืนนี้คุณมีเวลา 3 ชั่วโมง คุณควรทำอย่างไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "แบ่งเวลาทำทั้งสามงานเท่า ๆ กัน งานละ 1 ชั่วโมง เพื่อให้ทุกงานมีความคืบหน้าและไม่มีงานไหนถูกทิ้งไว้จนนาทีสุดท้าย",
+          "is_answer": false,
+          "score": 0.5
+        },
+        {
+          "md": "ทำแบบสอบถามก่อนเพราะใช้เวลาไม่นาน แล้วค่อยทำสไลด์",
+          "is_answer": false,
+          "score": 0.75
+        },
+        {
+          "md": "ทำสไลด์ก่อน เหลือเวลาค่อยเตรียมของตกแต่ง",
+          "is_answer": true,
+          "score": 1
+        },
+        {
+          "md": "เริ่มตกแต่งห้องก่อนเพราะสนุกกว่า",
+          "is_answer": false,
+          "score": 0.25
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "สไลด์: สำคัญ + เร่งด่วน (พรุ่งนี้)",
+          "why_md": "ต้องทำก่อน"
+        },
+        {
+          "do_md": "ตกแต่งห้อง: สำคัญแต่ยังมีเวลาถึงวันศุกร์",
+          "why_md": "ทำต่อเมื่อสไลด์เสร็จ"
+        },
+        {
+          "do_md": "แบบสอบถาม: ไม่เร่งด่วน",
+          "why_md": "เลื่อนได้"
+        }
+      ],
+      "answer_explanation_md": "ทำสไลด์ก่อนแล้วค่อยเตรียมของตกแต่งดีที่สุด เพราะเรียงตามความเร่งด่วนและความสำคัญ ทำให้งานที่มีเส้นตายใกล้สุดเสร็จแน่นอน",
+      "hints": [
+        "งานไหนมีเส้นตายใกล้ที่สุด",
+        "ถ้าแบ่งเวลาเท่ากัน งานที่ต้องใช้พรุ่งนี้จะเสร็จไหม",
+        "เรียงงานตามความสำคัญและความเร่งด่วน"
+      ],
+      "distractor_reasons": {
+        "0": "ไม่ทิ้งงานใด แต่สไลด์ที่ต้องใช้พรุ่งนี้อาจไม่เสร็จ",
+        "1": "ลำดับยังทำให้สไลด์เสร็จทัน แต่ใช้เวลาช่วงแรกกับงานที่ไม่เร่งด่วน",
+        "3": "เลือกตามความชอบ ทำให้งานที่มีเส้นตายพรุ่งนี้เสี่ยงไม่เสร็จ"
+      },
+      "misconception_tags": [
+        "urgent_over_important"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat3.value_innovation.problem_solving.prioritise.0003",
+      "topic_ids": [
+        "tgat3.value_innovation.problem_solving.prioritise"
+      ],
+      "primary_topic_id": "tgat3.value_innovation.problem_solving.prioritise",
+      "exam_code": "TGAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT3 สมรรถนะการทำงาน แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4_tiered",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 60,
+      "stem_md": "คุณเป็นนักศึกษาฝึกงาน หัวหน้าสองคนสั่งงานด่วนมาพร้อมกัน ทั้งคู่ต้องการภายในวันนี้ และคุณทำได้ทันแค่งานเดียว คุณควรทำอย่างไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "แจ้งหัวหน้าทั้งสองว่างานชนกัน และขอให้ช่วยตัดสินว่างานไหนสำคัญกว่าสำหรับทีม",
+          "is_answer": true,
+          "score": 1
+        },
+        {
+          "md": "ทำงานที่ได้รับก่อนตามลำดับเวลาให้เสร็จ แล้วแจ้งหัวหน้าอีกคนล่วงหน้าอย่างสุภาพว่าจะส่งงานของเขาภายในพรุ่งนี้เช้า",
+          "is_answer": false,
+          "score": 0.75
+        },
+        {
+          "md": "พยายามทำทั้งสองงานให้เสร็จโดยทำครึ่ง ๆ",
+          "is_answer": false,
+          "score": 0.25
+        },
+        {
+          "md": "ทำงานของหัวหน้าที่ตำแหน่งสูงกว่าก่อน โดยไม่บอกอีกคน",
+          "is_answer": false,
+          "score": 0.5
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ปัญหา: งานชนกันและเราไม่รู้ว่างานไหนสำคัญต่อทีมมากกว่า",
+          "why_md": "นักศึกษาฝึกงานไม่มีข้อมูลพอจะตัดสินเอง"
+        },
+        {
+          "do_md": "สื่อสารกับทั้งสองฝ่ายทันที",
+          "why_md": "คนที่เห็นภาพรวมจะตัดสินได้ถูก"
+        },
+        {
+          "do_md": "ทำตามลำดับที่ตกลงกัน",
+          "why_md": "ไม่มีใครถูกทิ้งไว้โดยไม่รู้"
+        }
+      ],
+      "answer_explanation_md": "แจ้งหัวหน้าทั้งสองและขอให้ช่วยตัดสินลำดับดีที่สุด เพราะคนที่เห็นภาพรวมตัดสินได้ถูก และไม่มีใครถูกทิ้งไว้โดยไม่รู้",
+      "hints": [
+        "เรารู้ข้อมูลพอจะตัดสินว่างานไหนสำคัญกว่าหรือไม่",
+        "ถ้าไม่แจ้ง หัวหน้าคนที่งานไม่เสร็จจะรู้ตัวเมื่อไร",
+        "หาตัวเลือกที่สื่อสารกับทั้งสองคนก่อนตัดสิน"
+      ],
+      "distractor_reasons": {
+        "1": "มีการแจ้งล่วงหน้า แต่ใช้ลำดับเวลาที่ได้รับแทนความสำคัญของงาน ซึ่งเราอาจไม่รู้",
+        "2": "ไม่ได้งานที่เสร็จจริงสักชิ้น และไม่มีใครรู้ปัญหา",
+        "3": "เลือกได้เร็ว แต่อีกคนจะไม่รู้ว่างานไม่เสร็จ และอาจไม่ใช่งานที่สำคัญกว่าจริง"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat3.value_innovation.problem_solving.prioritise.0004",
+      "topic_ids": [
+        "tgat3.value_innovation.problem_solving.prioritise"
+      ],
+      "primary_topic_id": "tgat3.value_innovation.problem_solving.prioritise",
+      "exam_code": "TGAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT3 สมรรถนะการทำงาน แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4_tiered",
+      "difficulty": 4,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "high"
+      },
+      "est_seconds": 60,
+      "stem_md": "คุณเป็นหัวหน้าเวรจัดงานวันแม่ของโรงเรียน เหลือเวลา 1 ชั่วโมงก่อนเริ่มงาน เกิดปัญหาพร้อมกัน 3 เรื่อง: ไมโครโฟนบนเวทีไม่ดัง ป้ายชื่องานพิมพ์ผิดหนึ่งตัวอักษร และมีผู้ปกครองสูงอายุคนหนึ่งเป็นลมที่หน้าหอประชุม คุณควรทำอะไรก่อน",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ไปดูแลผู้ปกครองที่เป็นลมด้วยตัวเองจนกว่าจะดีขึ้น และพักเรื่องไมโครโฟนกับป้ายไว้ก่อน เพราะชีวิตคนสำคัญที่สุด",
+          "is_answer": false,
+          "score": 0.75
+        },
+        {
+          "md": "ดูแลผู้ปกครองที่เป็นลมและตามครูพยาบาล แล้วมอบหมายเพื่อนแก้ไมค์",
+          "is_answer": true,
+          "score": 1
+        },
+        {
+          "md": "แก้ไมโครโฟนก่อน เพราะเป็นสิ่งที่ทำให้งานเดินได้",
+          "is_answer": false,
+          "score": 0.25
+        },
+        {
+          "md": "แก้ป้ายชื่อที่พิมพ์ผิดก่อน เพราะแขกจะเห็นเป็นอย่างแรก",
+          "is_answer": false,
+          "score": 0.5
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ความปลอดภัยมาก่อน: ผู้ปกครองเป็นลม",
+          "why_md": "ต้องดูแลทันทีและตามผู้มีความรู้"
+        },
+        {
+          "do_md": "สำคัญ + เร่งด่วน: ไมโครโฟน",
+          "why_md": "มอบหมายคนอื่นทำพร้อมกันได้"
+        },
+        {
+          "do_md": "ไม่สำคัญเท่า: ป้ายผิดหนึ่งตัวอักษร",
+          "why_md": "ทำทีหลังถ้ามีเวลา"
+        }
+      ],
+      "answer_explanation_md": "ดูแลผู้ปกครองก่อนแล้วมอบหมายเพื่อนแก้ไมโครโฟนดีที่สุด เพราะความปลอดภัยมาก่อน และการมอบหมายทำให้งานสำคัญเดินไปพร้อมกัน",
+      "hints": [
+        "เรื่องไหนเกี่ยวกับความปลอดภัยของคน",
+        "ในฐานะหัวหน้าเวร เราต้องทำทุกอย่างเองหรือมอบหมายได้",
+        "หาตัวเลือกที่ดูแลความปลอดภัยก่อนและยังทำให้งานเดินต่อได้"
+      ],
+      "distractor_reasons": {
+        "0": "จัดลำดับถูก แต่ไม่ได้มอบหมายงานอื่นให้ใคร ไมโครโฟนอาจยังไม่ดังตอนเริ่มงาน",
+        "2": "ปล่อยให้คนที่อาจอยู่ในอันตรายรอ ทั้งที่ความปลอดภัยต้องมาก่อน",
+        "3": "ห่วงภาพลักษณ์ของงาน แต่เป็นเรื่องที่สำคัญน้อยที่สุดในสามเรื่อง"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat3.value_innovation.problem_solving.prioritise.0005",
+      "topic_ids": [
+        "tgat3.value_innovation.problem_solving.prioritise"
+      ],
+      "primary_topic_id": "tgat3.value_innovation.problem_solving.prioritise",
+      "exam_code": "TGAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT3 สมรรถนะการทำงาน แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4_tiered",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 60,
+      "stem_md": "คุณเป็นสมาชิกทีมที่ต้องส่งโครงงานวันศุกร์ แต่วันพุธคุณป่วยและรู้ว่าส่วนที่รับผิดชอบจะทำไม่ทัน คุณควรทำอย่างไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ฝืนทำส่วนของตัวเองให้เสร็จทันวันศุกร์ โดยไม่บอกใคร เพราะไม่อยากเป็นภาระของเพื่อนที่ก็มีงานของตัวเองอยู่แล้ว",
+          "is_answer": false,
+          "score": 0.5
+        },
+        {
+          "md": "ส่งเท่าที่ทำได้วันศุกร์ แล้วอธิบายทีหลัง",
+          "is_answer": false,
+          "score": 0.25
+        },
+        {
+          "md": "แจ้งทีมทันทีว่าเสร็จแค่ไหน และขอให้ช่วยแบ่งงาน",
+          "is_answer": true,
+          "score": 1
+        },
+        {
+          "md": "ขอให้เพื่อนสนิทในทีมทำส่วนที่เหลือแทนเงียบ ๆ",
+          "is_answer": false,
+          "score": 0.75
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ปัญหา: ส่วนของเราทำไม่ทัน ทีมทั้งหมดได้รับผลกระทบ",
+          "why_md": "ต้องแจ้งเร็วที่สุด"
+        },
+        {
+          "do_md": "ให้ข้อมูลชัด: เสร็จแค่ไหน เหลืออะไร",
+          "why_md": "ทีมจะแบ่งงานได้ถูก"
+        },
+        {
+          "do_md": "เสนอทางออก: แบ่งงานหรือขอเลื่อน",
+          "why_md": "ไม่ใช่แค่แจ้งปัญหา"
+        }
+      ],
+      "answer_explanation_md": "แจ้งทีมทันทีพร้อมสถานะงานและทางออกดีที่สุด เพราะทีมมีเวลาปรับแผน และงานกลุ่มไม่เสียหายทั้งหมด",
+      "hints": [
+        "ใครได้รับผลกระทบถ้างานส่วนนี้ไม่เสร็จ",
+        "การแจ้งเร็วกับแจ้งช้าต่างกันอย่างไร",
+        "หาตัวเลือกที่แจ้งทั้งทีมพร้อมข้อมูลและทางออก"
+      ],
+      "distractor_reasons": {
+        "0": "รับผิดชอบสูง แต่เสี่ยงทั้งสุขภาพและงานไม่เสร็จ ทีมไม่มีโอกาสช่วย",
+        "1": "ทีมรู้ตัวเมื่อสายเกินจะแก้",
+        "3": "แก้ปัญหาได้ แต่ทีมทั้งหมดไม่รู้สถานะงาน อาจแบ่งงานได้ไม่เหมาะ"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat3.value_innovation.problem_solving.prioritise.0006",
+      "topic_ids": [
+        "tgat3.value_innovation.problem_solving.prioritise"
+      ],
+      "primary_topic_id": "tgat3.value_innovation.problem_solving.prioritise",
+      "exam_code": "TGAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT3 สมรรถนะการทำงาน แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4_tiered",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 60,
+      "stem_md": "คุณทำงานพิเศษช่วยงานร้านของญาติ วันนี้มีงานเข้ามา 4 อย่าง: ลูกค้าประจำโทรมาสั่งของที่ต้องส่งภายในเย็นนี้ ซัพพลายเออร์ขอให้ยืนยันออเดอร์ของเดือนหน้าภายในสัปดาห์นี้ ต้องจัดหน้าร้านใหม่ให้สวยขึ้น และมีบริษัทโทรมาเสนอขายโฆษณา คุณควรจัดลำดับอย่างไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "จัดหน้าร้านก่อน เพราะส่งผลต่อยอดขายระยะยาว",
+          "is_answer": false,
+          "score": 0.5
+        },
+        {
+          "md": "คุยกับบริษัทโฆษณาก่อน เพราะเขาโทรมาตอนนี้",
+          "is_answer": false,
+          "score": 0.25
+        },
+        {
+          "md": "ยืนยันออเดอร์ซัพพลายเออร์ → ส่งของลูกค้า → จัดหน้าร้าน → ตอบบริษัทโฆษณา",
+          "is_answer": false,
+          "score": 0.75
+        },
+        {
+          "md": "ส่งของลูกค้าประจำ → ยืนยันออเดอร์ซัพพลายเออร์ → จัดหน้าร้าน → ตอบบริษัทโฆษณาภายหลัง",
+          "is_answer": true,
+          "score": 1
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ของลูกค้าประจำ: สำคัญ + เร่งด่วน (เย็นนี้)",
+          "why_md": "ทำก่อน"
+        },
+        {
+          "do_md": "ออเดอร์ซัพพลายเออร์: สำคัญ + เร่งด่วนน้อยกว่า (ภายในสัปดาห์)",
+          "why_md": "ทำลำดับถัดมา"
+        },
+        {
+          "do_md": "หน้าร้าน: สำคัญไม่เร่งด่วน / โฆษณา: ไม่สำคัญไม่เร่งด่วน",
+          "why_md": "ทำทีหลัง"
+        }
+      ],
+      "answer_explanation_md": "เรียงจากส่งของลูกค้า ยืนยันออเดอร์ จัดหน้าร้าน แล้วค่อยตอบโฆษณาดีที่สุด เพราะเรียงตามความเร่งด่วนและความสำคัญต่อร้าน",
+      "hints": [
+        "งานไหนมีเส้นตายวันนี้",
+        "งานที่โทรมาตอนนี้จำเป็นต้องทำตอนนี้หรือไม่",
+        "เรียงตามเส้นตายและความสำคัญต่อร้าน"
+      ],
+      "distractor_reasons": {
+        "0": "เห็นความสำคัญระยะยาว แต่ทำให้งานที่มีเส้นตายวันนี้เสี่ยงไม่ทัน",
+        "1": "ทำตามสิ่งที่ดังที่สุด แต่เป็นงานที่ไม่สำคัญและไม่เร่งด่วน",
+        "2": "ลำดับเกือบถูก แต่ออเดอร์ซัพพลายเออร์ยังมีเวลาทั้งสัปดาห์ ขณะที่ของลูกค้าต้องส่งเย็นนี้"
+      },
+      "misconception_tags": [
+        "urgent_over_important"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat3.value_innovation.problem_solving.prioritise.0007",
+      "topic_ids": [
+        "tgat3.value_innovation.problem_solving.prioritise"
+      ],
+      "primary_topic_id": "tgat3.value_innovation.problem_solving.prioritise",
+      "exam_code": "TGAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT3 สมรรถนะการทำงาน แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4_tiered",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 60,
+      "stem_md": "เช้าวันงานมีทั้งไมโครโฟนเสีย ป้ายชื่อพิมพ์ผิดสองใบ และทางลาดถูกกล่องกีดขวาง คุณควรทำอะไรก่อน",
+      "figures": [],
+      "choices": [
+        {
+          "md": "พิมพ์ป้ายชื่อใหม่",
+          "is_answer": false,
+          "score": 0.5
+        },
+        {
+          "md": "ย้ายกล่องออกจากทางลาดและตรวจว่าทางผ่านปลอดภัย",
+          "is_answer": true,
+          "score": 1
+        },
+        {
+          "md": "ซ่อมไมโครโฟนเพราะคนทั้งงานต้องใช้",
+          "is_answer": false,
+          "score": 0.75
+        },
+        {
+          "md": "ประชุมทีมเพื่อจัดลำดับงานทั้งหมด",
+          "is_answer": false,
+          "score": 0.25
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ดูความเร่งด่วน",
+          "why_md": "ทางกีดขวางอาจทำให้เกิดอุบัติเหตุ"
+        },
+        {
+          "do_md": "ดูผู้ได้รับผลกระทบ",
+          "why_md": "ผู้ใช้ทางลาดไม่มีทางเลือกเท่าเทียม"
+        },
+        {
+          "do_md": "ค่อยจัดการงานดำเนินการ",
+          "why_md": "ไมค์และป้ายตามลำดับ"
+        }
+      ],
+      "answer_explanation_md": "เปิดทางลาดก่อนเพราะเกี่ยวกับความปลอดภัยและการเข้าถึง ส่วนงานอื่นยังจัดการต่อได้",
+      "hints": [
+        "ข้อใดเกี่ยวกับความปลอดภัย",
+        "ปัญหาใดรอได้โดยไม่เกิดอันตราย",
+        "มีใครถูกตัดโอกาสเข้าร่วมทันที"
+      ],
+      "distractor_reasons": {
+        "0": "แก้ได้ง่ายแต่ผลกระทบน้อย",
+        "2": "กระทบคนมากแต่ยังไม่เร่งด่วนเท่าความปลอดภัยและการเข้าถึง",
+        "3": "เสียเวลาในขณะที่มีอุปสรรคด้านความปลอดภัย"
+      },
+      "misconception_tags": [
+        "urgent_over_important"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat3.value_innovation.problem_solving.prioritise.0008",
+      "topic_ids": [
+        "tgat3.value_innovation.problem_solving.prioritise"
+      ],
+      "primary_topic_id": "tgat3.value_innovation.problem_solving.prioritise",
+      "exam_code": "TGAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT3 สมรรถนะการทำงาน แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4_tiered",
+      "difficulty": 5,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": true,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 60,
+      "stem_md": "คืนก่อนส่งโครงการ ทีมพบว่าชุดข้อมูลมีชื่อผู้ตอบติดมาด้วย ขณะเดียวกันสไลด์ยังไม่สวยและตัวเลขหน้าหนึ่งคำนวณผิดเล็กน้อย คุณเป็นหัวหน้าทีมควรจัดลำดับอย่างไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "หยุดเผยแพร่ข้อมูลส่วนบุคคล มอบหมายให้ลบและตรวจซ้ำ พร้อมให้อีกคนแก้ตัวเลข แล้วค่อยปรับสไลด์",
+          "is_answer": true,
+          "score": 1
+        },
+        {
+          "md": "ลบชื่อด้วยตนเองทั้งหมดก่อน แล้วค่อยบอกทีมว่าตัวเลขผิด",
+          "is_answer": false,
+          "score": 0.5
+        },
+        {
+          "md": "แต่งสไลด์ให้เสร็จเพื่อรักษากำหนดส่ง",
+          "is_answer": false,
+          "score": 0.25
+        },
+        {
+          "md": "แก้ตัวเลขก่อนเพราะความถูกต้องคือหัวใจของรายงาน",
+          "is_answer": false,
+          "score": 0.75
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "จำแนกความเสียหาย",
+          "why_md": "ข้อมูลส่วนบุคคลรั่วแก้ย้อนหลังยาก"
+        },
+        {
+          "do_md": "ใช้ทรัพยากรทีม",
+          "why_md": "งานสำคัญทำคู่ขนานได้"
+        },
+        {
+          "do_md": "เลื่อนความสวยงาม",
+          "why_md": "ผลกระทบน้อยสุด"
+        }
+      ],
+      "answer_explanation_md": "กันการรั่วไหลก่อนและแบ่งทีมแก้ความถูกต้องพร้อมกัน จัดลำดับทั้งความเสี่ยงและทรัพยากรได้ดีที่สุด",
+      "hints": [
+        "ความเสียหายใดย้อนคืนยาก",
+        "งานใดมอบหมายพร้อมกันได้",
+        "อะไรเป็นเพียงคุณภาพการนำเสนอ"
+      ],
+      "distractor_reasons": {
+        "1": "เลือกความเสี่ยงถูกแต่ไม่ใช้ทีมจัดการงานคู่ขนาน",
+        "2": "ให้ภาพลักษณ์มาก่อนความเสี่ยงและความถูกต้อง",
+        "3": "สำคัญแต่ข้อมูลส่วนบุคคลมีความเสี่ยงเร่งด่วนกว่า"
+      },
+      "misconception_tags": [
+        "urgent_over_important"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    }
+  ],
+  "generated_from": "content/tgat3/value_innovation.py"
+}

@@ -1,0 +1,1206 @@
+{
+  "schema_version": "1.0",
+  "subject": "tgat1",
+  "subject_name_th": "TGAT1 การสื่อสารภาษาอังกฤษ",
+  "exam_codes": [
+    "TGAT1"
+  ],
+  "source_note": "ยืนยันโครงสอบแล้วจาก mytcas.com/blueprint/tgat1-91/ (ตรวจเมื่อ 20 กันยายน 2569): 60 ข้อ 100 คะแนน 60 นาที ปรนัย 4 ตัวเลือก แบ่ง 2 ส่วน ส่วนที่ 1 ทักษะการพูด (Speaking Skill) 30 ข้อ 50 คะแนน มี 3 ส่วนย่อย คือ การถาม-ตอบ 10 ข้อ / เติมบทสนทนาแบบสั้น 10 ข้อ จาก 3 บทสนทนา / เติมบทสนทนาแบบยาว 10 ข้อ จาก 2 บทสนทนา ส่วนที่ 2 ทักษะการอ่าน (Reading Skill) 30 ข้อ 50 คะแนน มี 2 ส่วนย่อย คือ เติมข้อความในเนื้อเรื่องให้สมบูรณ์ 15 ข้อ จาก 2 เรื่อง / อ่านเพื่อจับใจความ 15 ข้อ จาก 3 เรื่อง | ผังสอบไม่ได้ระบุ: การหักคะแนนเมื่อตอบผิด ระดับ CEFR ของภาษาที่ใช้ และการแบ่งเวลาระหว่างสองส่วน | โครงผังจัดเป็น 2 ส่วน x ส่วนย่อยทางการ (รวม 5 ส่วนย่อย) บวกกลุ่ม foundation ต่อส่วนสำหรับทักษะพื้นฐานที่ผังสอบไม่ได้แยกไว้",
+  "topics": [
+    {
+      "id": "tgat1",
+      "name_th": "TGAT1 การสื่อสารภาษาอังกฤษ",
+      "name_en": "TGAT1 English Communication",
+      "kind": "subject",
+      "parent": null,
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "TGAT1",
+        "การสื่อสารภาษาอังกฤษ",
+        "English communication",
+        "TGAT"
+      ],
+      "curriculum_ref": null,
+      "notes": "ข้อสอบวัดสมรรถนะการสื่อสาร ไม่ใช่วิชาไวยากรณ์ตามหลักสูตร leaf จึงเป็นสถานการณ์การสื่อสารหรือรูปแบบโจทย์ที่ฝึกแยกได้ | โครงสอบยืนยันแล้ว: 60 ข้อ 100 คะแนน 60 นาที ปรนัย 4 ตัวเลือก แบ่ง 2 ส่วนคะแนนเท่ากัน พูด 30 ข้อ อ่าน 30 ข้อ | ตอนแต่งโจทย์วิชานี้ใช้ format mcq4 (ต่างจาก TGAT2 ที่เป็น mcq5) | ผังสอบไม่ได้ระบุระดับ CEFR ของภาษาที่ใช้ ห้ามอ้างระดับเองในบทเรียน"
+    },
+    {
+      "id": "tgat1.speaking",
+      "name_th": "ทักษะการพูด",
+      "name_en": "Speaking Skill",
+      "kind": "branch",
+      "parent": "tgat1",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "TGAT1",
+          "typical_items": "30 ข้อ 50 คะแนน",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ทักษะการพูด",
+        "speaking",
+        "บทสนทนา",
+        "conversation"
+      ],
+      "curriculum_ref": null,
+      "notes": "ส่วนทางการที่ 1 ประกอบด้วยส่วนย่อย 3 ตัวตามผังสอบ คือ การถาม-ตอบ เติมบทสนทนาแบบสั้น และเติมบทสนทนาแบบยาว | แม้ชื่อว่า 'การพูด' แต่เป็นข้อสอบอ่านเลือกตอบทั้งหมด ไม่มีการพูดจริง"
+    },
+    {
+      "id": "tgat1.speaking.question_response",
+      "name_th": "การถาม-ตอบ",
+      "name_en": "Question-Response",
+      "kind": "branch",
+      "parent": "tgat1.speaking",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "TGAT1",
+          "typical_items": "10 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ถามตอบ",
+        "question response",
+        "บทสนทนาสั้น"
+      ],
+      "curriculum_ref": null,
+      "notes": "ส่วนย่อยทางการ: ให้ประโยคมา 1 ประโยค เลือกคำตอบที่เหมาะสมที่สุด"
+    },
+    {
+      "id": "tgat1.speaking.question_response.greeting_intro",
+      "name_th": "ทักทาย แนะนำตัว และกล่าวลา",
+      "name_en": "Greetings, Introductions and Farewells",
+      "kind": "leaf",
+      "parent": "tgat1.speaking.question_response",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat1.speaking.foundation.function_bank"
+      ],
+      "est_minutes": 15,
+      "exam_weight": [
+        {
+          "exam_code": "TGAT1",
+          "typical_items": "อยู่ในส่วนย่อย 10 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "easy",
+      "keywords": [
+        "ทักทาย",
+        "แนะนำตัว",
+        "greeting",
+        "introduction"
+      ],
+      "curriculum_ref": null,
+      "notes": "สถานการณ์ที่ออกบ่อยที่สุดและง่ายที่สุด เหมาะเป็นหัวข้อแรกของพาร์ทนี้"
+    },
+    {
+      "id": "tgat1.speaking.question_response.request_offer_permission",
+      "name_th": "ขอร้อง เสนอความช่วยเหลือ และขออนุญาต",
+      "name_en": "Requests, Offers and Permission",
+      "kind": "leaf",
+      "parent": "tgat1.speaking.question_response",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat1.speaking.foundation.function_bank",
+        "tgat1.speaking.foundation.politeness_level"
+      ],
+      "est_minutes": 20,
+      "exam_weight": [
+        {
+          "exam_code": "TGAT1",
+          "typical_items": "อยู่ในส่วนย่อย 10 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ขอร้อง",
+        "ขออนุญาต",
+        "request",
+        "offer",
+        "permission"
+      ],
+      "curriculum_ref": null,
+      "notes": "จุดที่คนพลาดคือเลือกคำตอบที่ความหมายถูกแต่ระดับความสุภาพไม่เข้ากับสถานการณ์"
+    },
+    {
+      "id": "tgat1.speaking.question_response.invitation",
+      "name_th": "ชวน ตอบรับ และปฏิเสธอย่างสุภาพ",
+      "name_en": "Invitations, Accepting and Declining",
+      "kind": "leaf",
+      "parent": "tgat1.speaking.question_response",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat1.speaking.foundation.function_bank",
+        "tgat1.speaking.foundation.politeness_level"
+      ],
+      "est_minutes": 20,
+      "exam_weight": [
+        {
+          "exam_code": "TGAT1",
+          "typical_items": "อยู่ในส่วนย่อย 10 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ชักชวน",
+        "ตอบรับ",
+        "ปฏิเสธ",
+        "invitation",
+        "decline"
+      ],
+      "curriculum_ref": null,
+      "notes": "การปฏิเสธในภาษาอังกฤษมักมีคำขอโทษหรือเหตุผลประกอบ ไม่ใช่ปฏิเสธห้วน ๆ"
+    },
+    {
+      "id": "tgat1.speaking.question_response.apology_thanks",
+      "name_th": "ขอโทษ ขอบคุณ และการตอบกลับ",
+      "name_en": "Apologies, Thanks and Responses",
+      "kind": "leaf",
+      "parent": "tgat1.speaking.question_response",
+      "order": 4,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat1.speaking.foundation.function_bank"
+      ],
+      "est_minutes": 15,
+      "exam_weight": [
+        {
+          "exam_code": "TGAT1",
+          "typical_items": "อยู่ในส่วนย่อย 10 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "easy",
+      "keywords": [
+        "ขอโทษ",
+        "ขอบคุณ",
+        "apology",
+        "thanks",
+        "response"
+      ],
+      "curriculum_ref": null,
+      "notes": "ต้องแยกให้ออกว่าโจทย์ให้ 'คำขอบคุณ' แล้วถามคำตอบ หรือให้เหตุการณ์แล้วถามคำขอบคุณ"
+    },
+    {
+      "id": "tgat1.speaking.question_response.opinion_agreement",
+      "name_th": "ถามความเห็น เห็นด้วย และไม่เห็นด้วย",
+      "name_en": "Opinions, Agreeing and Disagreeing",
+      "kind": "leaf",
+      "parent": "tgat1.speaking.question_response",
+      "order": 5,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat1.speaking.foundation.function_bank"
+      ],
+      "est_minutes": 20,
+      "exam_weight": [
+        {
+          "exam_code": "TGAT1",
+          "typical_items": "อยู่ในส่วนย่อย 10 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ความคิดเห็น",
+        "เห็นด้วย",
+        "opinion",
+        "agree",
+        "disagree"
+      ],
+      "curriculum_ref": null,
+      "notes": "การไม่เห็นด้วยแบบสุภาพมักขึ้นต้นด้วยการยอมรับบางส่วนก่อน"
+    },
+    {
+      "id": "tgat1.speaking.question_response.wh_question_matching",
+      "name_th": "จับคู่คำถาม Wh- กับชนิดข้อมูลที่ต้องตอบ",
+      "name_en": "Matching Wh-Questions to Information Type",
+      "kind": "leaf",
+      "parent": "tgat1.speaking.question_response",
+      "order": 6,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat1.speaking.foundation.question_forms"
+      ],
+      "est_minutes": 20,
+      "exam_weight": [
+        {
+          "exam_code": "TGAT1",
+          "typical_items": "อยู่ในส่วนย่อย 10 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "Wh question",
+        "คำถาม",
+        "ชนิดข้อมูล",
+        "matching"
+      ],
+      "curriculum_ref": null,
+      "notes": "เทคนิคตัดตัวเลือกที่เร็วที่สุดของพาร์ทนี้: ดูคำขึ้นต้นคำถามแล้วรู้ทันที ว่าคำตอบต้องเป็นเวลา สถานที่ เหตุผล หรือวิธีการ"
+    },
+    {
+      "id": "tgat1.speaking.question_response.yesno_and_tag",
+      "name_th": "ตอบคำถาม Yes/No และคำถามท้ายประโยค",
+      "name_en": "Yes/No and Tag Questions",
+      "kind": "leaf",
+      "parent": "tgat1.speaking.question_response",
+      "order": 7,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat1.speaking.foundation.question_forms"
+      ],
+      "est_minutes": 20,
+      "exam_weight": [
+        {
+          "exam_code": "TGAT1",
+          "typical_items": "อยู่ในส่วนย่อย 10 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "yes no question",
+        "tag question",
+        "คำถามท้ายประโยค"
+      ],
+      "curriculum_ref": null,
+      "notes": "คำถามปฏิเสธและ tag question เป็นกับดักที่คนไทยตอบสลับกับภาษาไทยบ่อยที่สุด"
+    },
+    {
+      "id": "tgat1.speaking.short_conversation",
+      "name_th": "เติมบทสนทนาแบบสั้น",
+      "name_en": "Short Conversations",
+      "kind": "branch",
+      "parent": "tgat1.speaking",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "TGAT1",
+          "typical_items": "10 ข้อ จาก 3 บทสนทนา",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "บทสนทนาสั้น",
+        "short conversation",
+        "เติมบทสนทนา"
+      ],
+      "curriculum_ref": null,
+      "notes": "ส่วนย่อยทางการ: ผังสอบระบุว่า 10 ข้อนี้มาจากบทสนทนา 3 บท"
+    },
+    {
+      "id": "tgat1.speaking.short_conversation.turn_taking",
+      "name_th": "อ่านบทก่อนและหลังช่องว่างเพื่อหาคำตอบ",
+      "name_en": "Using Surrounding Turns to Fill a Gap",
+      "kind": "leaf",
+      "parent": "tgat1.speaking.short_conversation",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat1.speaking.foundation.function_bank"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "TGAT1",
+          "typical_items": "อยู่ในส่วนย่อย 10 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "เติมช่องว่าง",
+        "turn taking",
+        "บริบทบทสนทนา"
+      ],
+      "curriculum_ref": null,
+      "notes": "ทักษะแกนของทั้งสองส่วนย่อยบทสนทนา ต้องเรียนก่อนหัวข้ออื่นในกลุ่มนี้ หลักคือคำตอบต้องเข้ากับทั้งบทก่อนหน้าและบทถัดไป ไม่ใช่แค่บทเดียว"
+    },
+    {
+      "id": "tgat1.speaking.short_conversation.service_encounter",
+      "name_th": "บทสนทนาในร้านค้า ร้านอาหาร และโรงแรม",
+      "name_en": "Service Encounters",
+      "kind": "leaf",
+      "parent": "tgat1.speaking.short_conversation",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat1.speaking.short_conversation.turn_taking"
+      ],
+      "est_minutes": 20,
+      "exam_weight": [
+        {
+          "exam_code": "TGAT1",
+          "typical_items": "อยู่ในส่วนย่อย 10 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "easy",
+      "keywords": [
+        "ร้านอาหาร",
+        "โรงแรม",
+        "ซื้อของ",
+        "service encounter"
+      ],
+      "curriculum_ref": null,
+      "notes": "บทสนทนาแบบนี้มีลำดับขั้นตอนตายตัว รู้ลำดับแล้วเดาช่องว่างได้เร็วมาก"
+    },
+    {
+      "id": "tgat1.speaking.short_conversation.school_campus",
+      "name_th": "บทสนทนาในโรงเรียนและมหาวิทยาลัย",
+      "name_en": "School and Campus Conversations",
+      "kind": "leaf",
+      "parent": "tgat1.speaking.short_conversation",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat1.speaking.short_conversation.turn_taking"
+      ],
+      "est_minutes": 20,
+      "exam_weight": [
+        {
+          "exam_code": "TGAT1",
+          "typical_items": "อยู่ในส่วนย่อย 10 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "โรงเรียน",
+        "มหาวิทยาลัย",
+        "ครู",
+        "campus"
+      ],
+      "curriculum_ref": null,
+      "notes": "ศัพท์เฉพาะทางการศึกษา เช่น assignment deadline enroll เป็นตัวชี้คำตอบ"
+    },
+    {
+      "id": "tgat1.speaking.short_conversation.phone_appointment",
+      "name_th": "โทรศัพท์ นัดหมาย และเลื่อนนัด",
+      "name_en": "Phone Calls and Appointments",
+      "kind": "leaf",
+      "parent": "tgat1.speaking.short_conversation",
+      "order": 4,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat1.speaking.short_conversation.turn_taking"
+      ],
+      "est_minutes": 20,
+      "exam_weight": [
+        {
+          "exam_code": "TGAT1",
+          "typical_items": "อยู่ในส่วนย่อย 10 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "โทรศัพท์",
+        "นัดหมาย",
+        "เลื่อนนัด",
+        "appointment"
+      ],
+      "curriculum_ref": null,
+      "notes": "ภาษาโทรศัพท์มีวลีเฉพาะที่ไม่ใช้ที่อื่น เช่น hold on / put you through"
+    },
+    {
+      "id": "tgat1.speaking.short_conversation.directions_transport",
+      "name_th": "ถามทางและการเดินทาง",
+      "name_en": "Directions and Transport",
+      "kind": "leaf",
+      "parent": "tgat1.speaking.short_conversation",
+      "order": 5,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat1.speaking.short_conversation.turn_taking"
+      ],
+      "est_minutes": 20,
+      "exam_weight": [
+        {
+          "exam_code": "TGAT1",
+          "typical_items": "อยู่ในส่วนย่อย 10 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "easy",
+      "keywords": [
+        "ถามทาง",
+        "เดินทาง",
+        "directions",
+        "transport"
+      ],
+      "curriculum_ref": null,
+      "notes": "คำบอกทิศทางและคำบุพบทสถานที่เป็นคำที่ออกซ้ำ ๆ ท่องได้คุ้ม"
+    },
+    {
+      "id": "tgat1.speaking.long_conversation",
+      "name_th": "เติมบทสนทนาแบบยาว",
+      "name_en": "Long Conversations",
+      "kind": "branch",
+      "parent": "tgat1.speaking",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "TGAT1",
+          "typical_items": "10 ข้อ จาก 2 บทสนทนา",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "บทสนทนายาว",
+        "long conversation"
+      ],
+      "curriculum_ref": null,
+      "notes": "ส่วนย่อยทางการ: ผังสอบระบุว่า 10 ข้อนี้มาจากบทสนทนา 2 บท จึงยาวกว่าและต้องติดตามเนื้อความข้ามหลายบทพูด"
+    },
+    {
+      "id": "tgat1.speaking.long_conversation.tracking_speakers",
+      "name_th": "ติดตามว่าใครพูดอะไรและต้องการอะไร",
+      "name_en": "Tracking Speakers and Their Goals",
+      "kind": "leaf",
+      "parent": "tgat1.speaking.long_conversation",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat1.speaking.short_conversation.turn_taking"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "TGAT1",
+          "typical_items": "อยู่ในส่วนย่อย 10 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ติดตามผู้พูด",
+        "จุดประสงค์ผู้พูด",
+        "tracking speakers"
+      ],
+      "curriculum_ref": null,
+      "notes": "บทยาวมีช่องว่างหลายจุดในบทเดียว ถ้าจับไม่ได้ว่าใครต้องการอะไรจะพลาดทั้งชุด"
+    },
+    {
+      "id": "tgat1.speaking.long_conversation.discourse_marker",
+      "name_th": "ตัวเชื่อมในบทสนทนาและหน้าที่ของมัน",
+      "name_en": "Discourse Markers in Conversation",
+      "kind": "leaf",
+      "parent": "tgat1.speaking.long_conversation",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat1.speaking.long_conversation.tracking_speakers"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "TGAT1",
+          "typical_items": "อยู่ในส่วนย่อย 10 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "discourse marker",
+        "ตัวเชื่อม",
+        "well",
+        "actually",
+        "by the way"
+      ],
+      "curriculum_ref": null,
+      "notes": "คำอย่าง well / actually / by the way ไม่ได้แปลตรงตัว แต่บอกว่าประโยคถัดไปจะขัดแย้ง เปลี่ยนเรื่อง หรือขยายความ"
+    },
+    {
+      "id": "tgat1.speaking.long_conversation.implied_meaning",
+      "name_th": "ความหมายแฝงและการเลี่ยงตอบตรง ๆ",
+      "name_en": "Implied Meaning and Indirect Answers",
+      "kind": "leaf",
+      "parent": "tgat1.speaking.long_conversation",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat1.speaking.long_conversation.tracking_speakers"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "TGAT1",
+          "typical_items": "อยู่ในส่วนย่อย 10 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "ความหมายแฝง",
+        "implied meaning",
+        "indirect answer"
+      ],
+      "curriculum_ref": null,
+      "notes": "ข้อยากของพาร์ทนี้: คำตอบที่ถูกมักไม่ตอบคำถามตรง ๆ แต่สื่อคำตอบโดยนัย"
+    },
+    {
+      "id": "tgat1.speaking.long_conversation.register_formality",
+      "name_th": "ระดับความเป็นทางการและความสัมพันธ์ของผู้พูด",
+      "name_en": "Register and Speaker Relationship",
+      "kind": "leaf",
+      "parent": "tgat1.speaking.long_conversation",
+      "order": 4,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat1.speaking.foundation.politeness_level",
+        "tgat1.speaking.long_conversation.tracking_speakers"
+      ],
+      "est_minutes": 20,
+      "exam_weight": [
+        {
+          "exam_code": "TGAT1",
+          "typical_items": "อยู่ในส่วนย่อย 10 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ระดับภาษา",
+        "register",
+        "ความเป็นทางการ",
+        "formality"
+      ],
+      "curriculum_ref": null,
+      "notes": "ใช้ตัดตัวเลือกที่ความหมายถูกแต่ภาษาเป็นทางการเกินหรือกันเองเกินไป"
+    },
+    {
+      "id": "tgat1.speaking.long_conversation.problem_solution",
+      "name_th": "บทสนทนาแก้ปัญหาและการต่อรอง",
+      "name_en": "Problem-Solving and Negotiation Dialogues",
+      "kind": "leaf",
+      "parent": "tgat1.speaking.long_conversation",
+      "order": 5,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat1.speaking.long_conversation.tracking_speakers"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "TGAT1",
+          "typical_items": "อยู่ในส่วนย่อย 10 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "แก้ปัญหา",
+        "ต่อรอง",
+        "problem solving",
+        "negotiation"
+      ],
+      "curriculum_ref": null,
+      "notes": "บทยาวมักเป็นรูปแบบ มีปัญหา เสนอทางออก คัดค้าน แล้วตกลง ใช้เดาช่องว่างได้"
+    },
+    {
+      "id": "tgat1.speaking.foundation",
+      "name_th": "พื้นฐานก่อนฝึกพาร์ทการพูด",
+      "name_en": "Foundations for the Speaking Part",
+      "kind": "branch",
+      "parent": "tgat1.speaking",
+      "order": 4,
+      "grade_band": "m_early",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "easy",
+      "keywords": [
+        "พื้นฐาน",
+        "foundation",
+        "วลีสื่อสาร"
+      ],
+      "curriculum_ref": null,
+      "notes": "ไม่ใช่ส่วนย่อยทางการ เป็นกลุ่มที่เพิ่มเองสำหรับคนเริ่มจากศูนย์ ห้ามนำไปอ้างว่าเป็นโครงสร้างข้อสอบ"
+    },
+    {
+      "id": "tgat1.speaking.foundation.function_bank",
+      "name_th": "คลังวลีสื่อสารที่ออกสอบบ่อย",
+      "name_en": "Bank of Common Communicative Functions",
+      "kind": "leaf",
+      "parent": "tgat1.speaking.foundation",
+      "order": 1,
+      "grade_band": "m_early",
+      "requires": [],
+      "est_minutes": 30,
+      "exam_weight": [],
+      "difficulty_band": "easy",
+      "keywords": [
+        "วลีสื่อสาร",
+        "functional language",
+        "คลังวลี"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อตั้งต้นของทั้งพาร์ท ถ้าไม่มีคลังวลีในหัว เทคนิคอื่นใช้ไม่ได้ผล เพราะไม่รู้ว่าตัวเลือกแต่ละตัวแปลว่าอะไร"
+    },
+    {
+      "id": "tgat1.speaking.foundation.politeness_level",
+      "name_th": "ระดับความสุภาพของภาษาอังกฤษ",
+      "name_en": "Levels of Politeness in English",
+      "kind": "leaf",
+      "parent": "tgat1.speaking.foundation",
+      "order": 2,
+      "grade_band": "m_early",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [],
+      "difficulty_band": "easy",
+      "keywords": [
+        "ความสุภาพ",
+        "politeness",
+        "can could would"
+      ],
+      "curriculum_ref": null,
+      "notes": "อธิบายว่าทำไม Can you / Could you / Would you mind ใช้แทนกันไม่ได้ทุกสถานการณ์"
+    },
+    {
+      "id": "tgat1.speaking.foundation.question_forms",
+      "name_th": "สร้างประโยคคำถามให้ถูกรูป",
+      "name_en": "Forming Questions Correctly",
+      "kind": "leaf",
+      "parent": "tgat1.speaking.foundation",
+      "order": 3,
+      "grade_band": "m_early",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [],
+      "difficulty_band": "easy",
+      "keywords": [
+        "ประโยคคำถาม",
+        "question form",
+        "auxiliary verb"
+      ],
+      "curriculum_ref": null,
+      "notes": "ต้องรู้ก่อนจึงจะจับคู่คำถามกับคำตอบได้ ไม่ใช่การท่องกฎไวยากรณ์เพื่อสอบไวยากรณ์"
+    },
+    {
+      "id": "tgat1.reading",
+      "name_th": "ทักษะการอ่าน",
+      "name_en": "Reading Skill",
+      "kind": "branch",
+      "parent": "tgat1",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "TGAT1",
+          "typical_items": "30 ข้อ 50 คะแนน",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ทักษะการอ่าน",
+        "reading",
+        "บทอ่าน"
+      ],
+      "curriculum_ref": null,
+      "notes": "ส่วนทางการที่ 2 ประกอบด้วยส่วนย่อย 2 ตัวตามผังสอบ คือ เติมข้อความในเนื้อเรื่องให้สมบูรณ์ และอ่านเพื่อจับใจความ"
+    },
+    {
+      "id": "tgat1.reading.text_completion",
+      "name_th": "เติมข้อความในเนื้อเรื่องให้สมบูรณ์",
+      "name_en": "Text Completion",
+      "kind": "branch",
+      "parent": "tgat1.reading",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "TGAT1",
+          "typical_items": "15 ข้อ จาก 2 เรื่อง",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "เติมข้อความ",
+        "text completion",
+        "cloze"
+      ],
+      "curriculum_ref": null,
+      "notes": "ส่วนย่อยทางการ: ผังสอบระบุว่า 15 ข้อนี้มาจากบทอ่าน 2 เรื่อง"
+    },
+    {
+      "id": "tgat1.reading.text_completion.grammar_in_context",
+      "name_th": "เลือกรูปคำให้ถูกไวยากรณ์ตามบริบท",
+      "name_en": "Grammar in Context",
+      "kind": "leaf",
+      "parent": "tgat1.reading.text_completion",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat1.reading.foundation.sentence_core"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "TGAT1",
+          "typical_items": "อยู่ในส่วนย่อย 15 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ไวยากรณ์ตามบริบท",
+        "grammar in context",
+        "รูปคำ"
+      ],
+      "curriculum_ref": null,
+      "notes": "ต่างจากข้อสอบไวยากรณ์ทั่วไปตรงที่ต้องอ่านประโยคข้างเคียงก่อนจึงตัดสินได้"
+    },
+    {
+      "id": "tgat1.reading.text_completion.collocation",
+      "name_th": "คำที่ใช้คู่กันและการเลือกคำให้เข้ากับคำข้างเคียง",
+      "name_en": "Collocation and Word Choice",
+      "kind": "leaf",
+      "parent": "tgat1.reading.text_completion",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat1.reading.foundation.high_frequency_vocab"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "TGAT1",
+          "typical_items": "อยู่ในส่วนย่อย 15 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "collocation",
+        "คำที่ใช้คู่กัน",
+        "เลือกคำ"
+      ],
+      "curriculum_ref": null,
+      "notes": "ตัวเลือกมักแปลคล้ายกันทุกตัว ตัดสินด้วยว่าคำไหนใช้คู่กับคำข้างเคียงได้จริง ไม่ใช่ด้วยความหมายในพจนานุกรม"
+    },
+    {
+      "id": "tgat1.reading.text_completion.connector",
+      "name_th": "ตัวเชื่อมความและความสัมพันธ์ระหว่างประโยค",
+      "name_en": "Connectors and Logical Relations",
+      "kind": "leaf",
+      "parent": "tgat1.reading.text_completion",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat1.reading.foundation.sentence_core"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "TGAT1",
+          "typical_items": "อยู่ในส่วนย่อย 15 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ตัวเชื่อม",
+        "connector",
+        "however",
+        "therefore",
+        "although"
+      ],
+      "curriculum_ref": null,
+      "notes": "วิธีคิดคือดูความสัมพันธ์ของสองประโยคก่อน (ขัดแย้ง เป็นเหตุเป็นผล เสริม) แล้วค่อยเลือกคำ ไม่ใช่ท่องว่าคำไหนแปลว่าอะไร"
+    },
+    {
+      "id": "tgat1.reading.text_completion.reference_word",
+      "name_th": "คำอ้างถึงชี้กลับไปหาอะไร",
+      "name_en": "Reference Words",
+      "kind": "leaf",
+      "parent": "tgat1.reading.text_completion",
+      "order": 4,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat1.reading.foundation.sentence_core"
+      ],
+      "est_minutes": 20,
+      "exam_weight": [
+        {
+          "exam_code": "TGAT1",
+          "typical_items": "อยู่ในส่วนย่อย 15 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "คำอ้างถึง",
+        "reference",
+        "it this they"
+      ],
+      "curriculum_ref": null,
+      "notes": "ทักษะเดียวกันนี้ใช้ในส่วนอ่านจับใจความด้วย จึงคุ้มที่จะฝึกให้แม่น"
+    },
+    {
+      "id": "tgat1.reading.text_completion.tense_consistency",
+      "name_th": "ความสอดคล้องของกาลตลอดเนื้อเรื่อง",
+      "name_en": "Tense Consistency Across a Text",
+      "kind": "leaf",
+      "parent": "tgat1.reading.text_completion",
+      "order": 5,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat1.reading.foundation.sentence_core"
+      ],
+      "est_minutes": 20,
+      "exam_weight": [
+        {
+          "exam_code": "TGAT1",
+          "typical_items": "อยู่ในส่วนย่อย 15 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "tense",
+        "กาล",
+        "ความสอดคล้อง"
+      ],
+      "curriculum_ref": null,
+      "notes": "ดูกาลของประโยคข้างเคียงในเรื่องเดียวกัน ไม่ใช่ตัดสินจากประโยคที่เจาะช่องอย่างเดียว"
+    },
+    {
+      "id": "tgat1.reading.comprehension",
+      "name_th": "อ่านเพื่อจับใจความ",
+      "name_en": "Reading Comprehension",
+      "kind": "branch",
+      "parent": "tgat1.reading",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "TGAT1",
+          "typical_items": "15 ข้อ จาก 3 เรื่อง",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "จับใจความ",
+        "reading comprehension",
+        "บทอ่าน"
+      ],
+      "curriculum_ref": null,
+      "notes": "ส่วนย่อยทางการ: ผังสอบระบุว่า 15 ข้อนี้มาจากบทอ่าน 3 เรื่อง"
+    },
+    {
+      "id": "tgat1.reading.comprehension.main_idea",
+      "name_th": "ใจความหลักและการตั้งชื่อเรื่อง",
+      "name_en": "Main Idea and Title",
+      "kind": "leaf",
+      "parent": "tgat1.reading.comprehension",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat1.reading.foundation.skim_scan"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "TGAT1",
+          "typical_items": "อยู่ในส่วนย่อย 15 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ใจความหลัก",
+        "main idea",
+        "ตั้งชื่อเรื่อง",
+        "title"
+      ],
+      "curriculum_ref": null,
+      "notes": "กับดักคือตัวเลือกที่พูดถึงรายละเอียดจริงในเรื่อง แต่แคบเกินกว่าจะเป็นใจความหลัก"
+    },
+    {
+      "id": "tgat1.reading.comprehension.specific_detail",
+      "name_th": "หาข้อมูลเฉพาะจุดในบทอ่าน",
+      "name_en": "Finding Specific Details",
+      "kind": "leaf",
+      "parent": "tgat1.reading.comprehension",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat1.reading.foundation.skim_scan"
+      ],
+      "est_minutes": 20,
+      "exam_weight": [
+        {
+          "exam_code": "TGAT1",
+          "typical_items": "อยู่ในส่วนย่อย 15 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "easy",
+      "keywords": [
+        "รายละเอียด",
+        "specific detail",
+        "scanning"
+      ],
+      "curriculum_ref": null,
+      "notes": "ข้อที่ได้คะแนนเร็วที่สุด ควรทำก่อนข้ออนุมานเสมอเมื่อเวลาจำกัด"
+    },
+    {
+      "id": "tgat1.reading.comprehension.vocabulary_in_passage",
+      "name_th": "เดาความหมายคำจากบริบทในบทอ่าน",
+      "name_en": "Vocabulary in Context",
+      "kind": "leaf",
+      "parent": "tgat1.reading.comprehension",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat1.reading.foundation.high_frequency_vocab"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "TGAT1",
+          "typical_items": "อยู่ในส่วนย่อย 15 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "เดาศัพท์",
+        "vocabulary in context",
+        "บริบท"
+      ],
+      "curriculum_ref": null,
+      "notes": "ต้องตอบตามความหมายในบริบทนี้ ไม่ใช่ความหมายที่พบบ่อยที่สุดของคำนั้น"
+    },
+    {
+      "id": "tgat1.reading.comprehension.inference",
+      "name_th": "อนุมานจากสิ่งที่ไม่ได้เขียนตรง ๆ",
+      "name_en": "Inference",
+      "kind": "leaf",
+      "parent": "tgat1.reading.comprehension",
+      "order": 4,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat1.reading.comprehension.specific_detail",
+        "tgat1.reading.text_completion.reference_word"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "TGAT1",
+          "typical_items": "อยู่ในส่วนย่อย 15 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "อนุมาน",
+        "inference",
+        "ตีความ"
+      ],
+      "curriculum_ref": null,
+      "notes": "เส้นแบ่งสำคัญ: อนุมานต้องมีหลักฐานในบทอ่านรองรับ ตัวเลือกที่ 'อาจจะจริงในโลกจริง' แต่ไม่มีหลักฐานในเรื่อง คือตัวลวง"
+    },
+    {
+      "id": "tgat1.reading.comprehension.purpose_tone",
+      "name_th": "จุดประสงค์ น้ำเสียง และทัศนคติของผู้เขียน",
+      "name_en": "Purpose, Tone and Attitude",
+      "kind": "leaf",
+      "parent": "tgat1.reading.comprehension",
+      "order": 5,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat1.reading.comprehension.main_idea"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "TGAT1",
+          "typical_items": "อยู่ในส่วนย่อย 15 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "จุดประสงค์",
+        "น้ำเสียง",
+        "ทัศนคติ",
+        "tone",
+        "attitude"
+      ],
+      "curriculum_ref": null,
+      "notes": "ดูคำที่ผู้เขียนเลือกใช้ว่าเป็นกลางหรือมีอารมณ์ เป็นตัวชี้ทัศนคติที่ตรงที่สุด"
+    },
+    {
+      "id": "tgat1.reading.comprehension.text_organization",
+      "name_th": "โครงเรื่องและหน้าที่ของแต่ละย่อหน้า",
+      "name_en": "Text Organization and Paragraph Function",
+      "kind": "leaf",
+      "parent": "tgat1.reading.comprehension",
+      "order": 6,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat1.reading.comprehension.main_idea"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "TGAT1",
+          "typical_items": "อยู่ในส่วนย่อย 15 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "โครงเรื่อง",
+        "text organization",
+        "หน้าที่ย่อหน้า"
+      ],
+      "curriculum_ref": null,
+      "notes": "รู้โครงเรื่องแล้วหาคำตอบข้ออื่นเร็วขึ้น เพราะรู้ว่าข้อมูลแต่ละชนิดอยู่ย่อหน้าไหน"
+    },
+    {
+      "id": "tgat1.reading.foundation",
+      "name_th": "พื้นฐานก่อนฝึกพาร์ทการอ่าน",
+      "name_en": "Foundations for the Reading Part",
+      "kind": "branch",
+      "parent": "tgat1.reading",
+      "order": 3,
+      "grade_band": "m_early",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "easy",
+      "keywords": [
+        "พื้นฐาน",
+        "foundation",
+        "การอ่าน"
+      ],
+      "curriculum_ref": null,
+      "notes": "ไม่ใช่ส่วนย่อยทางการ เป็นกลุ่มที่เพิ่มเองสำหรับคนเริ่มจากศูนย์ ห้ามนำไปอ้างว่าเป็นโครงสร้างข้อสอบ"
+    },
+    {
+      "id": "tgat1.reading.foundation.sentence_core",
+      "name_th": "หาประธานและกริยาในประโยคอังกฤษที่ยาว",
+      "name_en": "Finding Subject and Verb in Long Sentences",
+      "kind": "leaf",
+      "parent": "tgat1.reading.foundation",
+      "order": 1,
+      "grade_band": "m_early",
+      "requires": [],
+      "est_minutes": 30,
+      "exam_weight": [],
+      "difficulty_band": "easy",
+      "keywords": [
+        "ประธาน",
+        "กริยา",
+        "โครงสร้างประโยค",
+        "sentence core"
+      ],
+      "curriculum_ref": null,
+      "notes": "ทักษะที่ปลดล็อกทั้งพาร์ทอ่าน ถ้าแยกแกนประโยคไม่ได้ จะอ่านประโยคยาวไม่ออกแม้รู้ศัพท์ทุกคำ"
+    },
+    {
+      "id": "tgat1.reading.foundation.skim_scan",
+      "name_th": "อ่านแบบกวาดและอ่านแบบเจาะ",
+      "name_en": "Skimming and Scanning",
+      "kind": "leaf",
+      "parent": "tgat1.reading.foundation",
+      "order": 2,
+      "grade_band": "m_early",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [],
+      "difficulty_band": "easy",
+      "keywords": [
+        "skimming",
+        "scanning",
+        "อ่านเร็ว"
+      ],
+      "curriculum_ref": null,
+      "notes": "สองวิธีนี้ใช้คนละตอนกัน กวาดเพื่อจับภาพรวมก่อน แล้วเจาะเมื่อรู้ว่าจะหาอะไร"
+    },
+    {
+      "id": "tgat1.reading.foundation.high_frequency_vocab",
+      "name_th": "คลังศัพท์ที่ออกสอบบ่อย",
+      "name_en": "High-Frequency Exam Vocabulary",
+      "kind": "leaf",
+      "parent": "tgat1.reading.foundation",
+      "order": 3,
+      "grade_band": "m_early",
+      "requires": [],
+      "est_minutes": 30,
+      "exam_weight": [],
+      "difficulty_band": "easy",
+      "keywords": [
+        "คลังศัพท์",
+        "vocabulary",
+        "ศัพท์ออกบ่อย"
+      ],
+      "curriculum_ref": null,
+      "notes": "เน้นศัพท์ที่โผล่ในโจทย์และตัวเลือกซ้ำ ๆ ไม่ใช่การท่องศัพท์ยากที่ไม่ได้ใช้"
+    },
+    {
+      "id": "tgat1.reading.foundation.time_management",
+      "name_th": "บริหารเวลาในพาร์ทการอ่าน",
+      "name_en": "Time Management for the Reading Part",
+      "kind": "leaf",
+      "parent": "tgat1.reading.foundation",
+      "order": 4,
+      "grade_band": "m_early",
+      "requires": [],
+      "est_minutes": 20,
+      "exam_weight": [],
+      "difficulty_band": "easy",
+      "keywords": [
+        "บริหารเวลา",
+        "time management",
+        "กลยุทธ์ทำข้อสอบ"
+      ],
+      "curriculum_ref": null,
+      "notes": "พาร์ทอ่าน 30 ข้อใน 30 นาทีโดยประมาณ (ถ้าแบ่งเวลาเท่ากันสองพาร์ท) หัวข้อนี้สอนลำดับการทำข้อและการตัดใจข้ามข้อ"
+    }
+  ]
+}

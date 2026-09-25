@@ -1,0 +1,1542 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tpat3.aptitude.numerical.number_grid",
+  "problems": [
+    {
+      "id": "prob.tpat3.aptitude.numerical.number_grid.0001",
+      "topic_ids": [
+        "tpat3.aptitude.numerical.number_grid"
+      ],
+      "primary_topic_id": "tpat3.aptitude.numerical.number_grid",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ด้านตัวเลข รูปแบบตารางตัวเลข ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 45,
+      "stem_md": "จากตารางตัวเลขที่กำหนด X แทนจำนวนใด\n\n[[fig1]]",
+      "figures": [
+        {
+          "id": "fig1",
+          "type": "svg",
+          "alt": "ตารางตัวเลข 3 แถว 3 คอลัมน์ · แถวที่ 1 คือ 2, 4, 6 / แถวที่ 2 คือ 5, 7, 9 / แถวที่ 3 คือ 8, X, 12 · ช่อง X อยู่แถวที่ 3 คอลัมน์ที่ 2",
+          "svg": "<svg viewBox=\"0 0 188 140\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"10\" y=\"10\" width=\"56\" height=\"40\"/><rect x=\"66\" y=\"10\" width=\"56\" height=\"40\"/><rect x=\"122\" y=\"10\" width=\"56\" height=\"40\"/><rect x=\"10\" y=\"50\" width=\"56\" height=\"40\"/><rect x=\"66\" y=\"50\" width=\"56\" height=\"40\"/><rect x=\"122\" y=\"50\" width=\"56\" height=\"40\"/><rect x=\"10\" y=\"90\" width=\"56\" height=\"40\"/><rect x=\"66\" y=\"90\" width=\"56\" height=\"40\"/><rect x=\"122\" y=\"90\" width=\"56\" height=\"40\"/></g><g fill=\"currentColor\" font-size=\"18\" text-anchor=\"middle\" font-family=\"system-ui, sans-serif\"><text x=\"38\" y=\"36\">2</text><text x=\"94\" y=\"36\">4</text><text x=\"150\" y=\"36\">6</text><text x=\"38\" y=\"76\">5</text><text x=\"94\" y=\"76\">7</text><text x=\"150\" y=\"76\">9</text><text x=\"38\" y=\"116\">8</text><text x=\"94\" y=\"116\" font-weight=\"bold\">X</text><text x=\"150\" y=\"116\">12</text></g></svg>",
+          "caption": null
+        }
+      ],
+      "choices": [
+        {
+          "md": "10",
+          "is_answer": true
+        },
+        {
+          "md": "7",
+          "is_answer": false
+        },
+        {
+          "md": "11",
+          "is_answer": false
+        },
+        {
+          "md": "13",
+          "is_answer": false
+        },
+        {
+          "md": "9",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": {
+        "value": 10,
+        "unit": null,
+        "tolerance": 0
+      },
+      "solution_steps": [
+        {
+          "do_md": "หากฎของแถวจากแถวที่ไม่มี X เช่นแถวที่ 1 คือ 2, 4, 6 เพิ่มขึ้นทีละ 2",
+          "why_md": "ต้องหากฎจากแถวที่รู้ค่าครบก่อน เพราะแถวที่มี X หาผลต่างตรง ๆ ไม่ได้"
+        },
+        {
+          "do_md": "หากฎของคอลัมน์จากคอลัมน์ที่ไม่มี X เช่นคอลัมน์ที่ 1 คือ 2, 5, 8 เพิ่มขึ้นทีละ 3",
+          "why_md": "ตารางแบบนี้มีสองกฎพร้อมกัน ถ้าดูแค่ทิศเดียวจะได้คำตอบที่ขัดกับอีกทิศ"
+        },
+        {
+          "do_md": "เดินตามแถว: ช่องซ้ายของ X คือ 8 บวกผลต่างของคอลัมน์ ได้ 8 + 2 = 10",
+          "why_md": "เดินจากช่องที่ติดกันทีละช่อง ปลอดภัยกว่าการคูณตำแหน่งแล้วนับพลาด"
+        },
+        {
+          "do_md": "ตรวจจากคอลัมน์: ช่องบนของ X คือ 7 บวกผลต่างของแถว ได้ 7 + 3 = 10",
+          "why_md": "ได้ค่าเดียวกันจากสองทิศ จึงมั่นใจว่าไม่ได้นับช่องพลาด"
+        }
+      ],
+      "answer_explanation_md": "ผลต่างระหว่างคอลัมน์คือ 2 และผลต่างระหว่างแถวคือ 3 ช่อง X อยู่แถวที่ 3 คอลัมน์ที่ 2 จึงมีค่า 2 + 2 x 3 + 1 x 2 = 10 ซึ่งสอดคล้องทั้งแนวแถวและแนวคอลัมน์",
+      "hints": [
+        "ตารางแบบนี้มีกฎสองทิศพร้อมกัน ให้หากฎของแถวและกฎของคอลัมน์แยกกันก่อน",
+        "หากฎจากแถวหรือคอลัมน์ที่ **ไม่มี** ช่อง X อยู่ เช่นแถวที่ 1 หรือคอลัมน์ที่ 1",
+        "ได้กฎแล้วให้เดินจากช่องที่ติดกับ X ทีละช่อง แล้วตรวจอีกทิศให้ได้ค่าเดียวกัน"
+      ],
+      "distractor_reasons": {
+        "1": "บวกผลต่างของแถวกับคอลัมน์เข้าด้วยกันครั้งเดียว ไม่ได้คูณกับจำนวนช่องที่ห่างจากช่องแรก",
+        "2": "ใช้ผลต่างของแถวกับทั้งสองทิศ ไม่ได้สังเกตว่าผลต่างของคอลัมน์เป็นอีกค่า",
+        "3": "นับตำแหน่งแถวเกินไปหนึ่งช่อง เพราะเริ่มนับแถวแรกเป็นหนึ่งแทนที่จะเป็นศูนย์",
+        "4": "สลับแถวกับคอลัมน์ คือเอาผลต่างของแถวไปคูณกับตำแหน่งคอลัมน์"
+      },
+      "misconception_tags": [
+        "added_instead_of_multiplied",
+        "off_by_one_row",
+        "row_col_swapped",
+        "same_difference_both_axes"
+      ],
+      "template": {
+        "provider": "number_grid.missing_value",
+        "answer_kind": "number",
+        "params": {
+          "rows": 3,
+          "cols": 3,
+          "base_range": [
+            2,
+            9
+          ],
+          "dr_range": [
+            2,
+            5
+          ],
+          "dc_range": [
+            2,
+            5
+          ],
+          "hide_inner": false
+        },
+        "stem_tpl": "จากตารางตัวเลขที่กำหนด X แทนจำนวนใด\n\n[[fig1]]",
+        "quality_rules": [
+          "ตัวเลขในตารางและเฉลยคำนวณจากสูตรเชิงเส้นด้วยโค้ด ไม่ใช่การเดา",
+          "ตัวเลือกทุกตัวต้องต่างกันจริง และทุกตัวมาจากกฎที่ใช้ผิดจริง",
+          "ตัวเลขในตารางต้องเป็นจำนวนเต็มบวกทั้งหมด เพื่อไม่ให้โจทย์อ่านยากโดยไม่จำเป็น"
+        ]
+      },
+      "template_note": null,
+      "calculator_allowed": true,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.aptitude.numerical.number_grid.0002",
+      "topic_ids": [
+        "tpat3.aptitude.numerical.number_grid"
+      ],
+      "primary_topic_id": "tpat3.aptitude.numerical.number_grid",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ด้านตัวเลข รูปแบบตารางตัวเลข ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 50,
+      "stem_md": "จากตารางตัวเลขที่กำหนด X แทนจำนวนใด\n\n[[fig1]]",
+      "figures": [
+        {
+          "id": "fig1",
+          "type": "svg",
+          "alt": "ตารางตัวเลข 3 แถว 4 คอลัมน์ · แถวที่ 1 คือ 3, 7, 11, 15 / แถวที่ 2 คือ 8, 12, 16, 20 / แถวที่ 3 คือ 13, X, 21, 25 · ช่อง X อยู่แถวที่ 3 คอลัมน์ที่ 2",
+          "svg": "<svg viewBox=\"0 0 244 140\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"10\" y=\"10\" width=\"56\" height=\"40\"/><rect x=\"66\" y=\"10\" width=\"56\" height=\"40\"/><rect x=\"122\" y=\"10\" width=\"56\" height=\"40\"/><rect x=\"178\" y=\"10\" width=\"56\" height=\"40\"/><rect x=\"10\" y=\"50\" width=\"56\" height=\"40\"/><rect x=\"66\" y=\"50\" width=\"56\" height=\"40\"/><rect x=\"122\" y=\"50\" width=\"56\" height=\"40\"/><rect x=\"178\" y=\"50\" width=\"56\" height=\"40\"/><rect x=\"10\" y=\"90\" width=\"56\" height=\"40\"/><rect x=\"66\" y=\"90\" width=\"56\" height=\"40\"/><rect x=\"122\" y=\"90\" width=\"56\" height=\"40\"/><rect x=\"178\" y=\"90\" width=\"56\" height=\"40\"/></g><g fill=\"currentColor\" font-size=\"18\" text-anchor=\"middle\" font-family=\"system-ui, sans-serif\"><text x=\"38\" y=\"36\">3</text><text x=\"94\" y=\"36\">7</text><text x=\"150\" y=\"36\">11</text><text x=\"206\" y=\"36\">15</text><text x=\"38\" y=\"76\">8</text><text x=\"94\" y=\"76\">12</text><text x=\"150\" y=\"76\">16</text><text x=\"206\" y=\"76\">20</text><text x=\"38\" y=\"116\">13</text><text x=\"94\" y=\"116\" font-weight=\"bold\">X</text><text x=\"150\" y=\"116\">21</text><text x=\"206\" y=\"116\">25</text></g></svg>",
+          "caption": null
+        }
+      ],
+      "choices": [
+        {
+          "md": "18",
+          "is_answer": false
+        },
+        {
+          "md": "16",
+          "is_answer": false
+        },
+        {
+          "md": "17",
+          "is_answer": true
+        },
+        {
+          "md": "22",
+          "is_answer": false
+        },
+        {
+          "md": "12",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": {
+        "value": 17,
+        "unit": null,
+        "tolerance": 0
+      },
+      "solution_steps": [
+        {
+          "do_md": "หากฎของแถวจากแถวที่ไม่มี X เช่นแถวที่ 1 คือ 3, 7, 11, 15 เพิ่มขึ้นทีละ 4",
+          "why_md": "ต้องหากฎจากแถวที่รู้ค่าครบก่อน เพราะแถวที่มี X หาผลต่างตรง ๆ ไม่ได้"
+        },
+        {
+          "do_md": "หากฎของคอลัมน์จากคอลัมน์ที่ไม่มี X เช่นคอลัมน์ที่ 1 คือ 3, 8, 13 เพิ่มขึ้นทีละ 5",
+          "why_md": "ตารางแบบนี้มีสองกฎพร้อมกัน ถ้าดูแค่ทิศเดียวจะได้คำตอบที่ขัดกับอีกทิศ"
+        },
+        {
+          "do_md": "เดินตามแถว: ช่องซ้ายของ X คือ 13 บวกผลต่างของคอลัมน์ ได้ 13 + 4 = 17",
+          "why_md": "เดินจากช่องที่ติดกันทีละช่อง ปลอดภัยกว่าการคูณตำแหน่งแล้วนับพลาด"
+        },
+        {
+          "do_md": "ตรวจจากคอลัมน์: ช่องบนของ X คือ 12 บวกผลต่างของแถว ได้ 12 + 5 = 17",
+          "why_md": "ได้ค่าเดียวกันจากสองทิศ จึงมั่นใจว่าไม่ได้นับช่องพลาด"
+        }
+      ],
+      "answer_explanation_md": "ผลต่างระหว่างคอลัมน์คือ 4 และผลต่างระหว่างแถวคือ 5 ช่อง X อยู่แถวที่ 3 คอลัมน์ที่ 2 จึงมีค่า 3 + 2 x 5 + 1 x 4 = 17 ซึ่งสอดคล้องทั้งแนวแถวและแนวคอลัมน์",
+      "hints": [
+        "ตารางแบบนี้มีกฎสองทิศพร้อมกัน ให้หากฎของแถวและกฎของคอลัมน์แยกกันก่อน",
+        "หากฎจากแถวหรือคอลัมน์ที่ **ไม่มี** ช่อง X อยู่ เช่นแถวที่ 1 หรือคอลัมน์ที่ 1",
+        "ได้กฎแล้วให้เดินจากช่องที่ติดกับ X ทีละช่อง แล้วตรวจอีกทิศให้ได้ค่าเดียวกัน"
+      ],
+      "distractor_reasons": {
+        "0": "ใช้ผลต่างของแถวกับทั้งสองทิศ ไม่ได้สังเกตว่าผลต่างของคอลัมน์เป็นอีกค่า",
+        "1": "สลับแถวกับคอลัมน์ คือเอาผลต่างของแถวไปคูณกับตำแหน่งคอลัมน์",
+        "3": "นับตำแหน่งแถวเกินไปหนึ่งช่อง เพราะเริ่มนับแถวแรกเป็นหนึ่งแทนที่จะเป็นศูนย์",
+        "4": "บวกผลต่างของแถวกับคอลัมน์เข้าด้วยกันครั้งเดียว ไม่ได้คูณกับจำนวนช่องที่ห่างจากช่องแรก"
+      },
+      "misconception_tags": [
+        "added_instead_of_multiplied",
+        "off_by_one_row",
+        "row_col_swapped",
+        "same_difference_both_axes"
+      ],
+      "template": {
+        "provider": "number_grid.missing_value",
+        "answer_kind": "number",
+        "params": {
+          "rows": 3,
+          "cols": 4,
+          "base_range": [
+            2,
+            9
+          ],
+          "dr_range": [
+            2,
+            5
+          ],
+          "dc_range": [
+            2,
+            5
+          ],
+          "hide_inner": false
+        },
+        "stem_tpl": "จากตารางตัวเลขที่กำหนด X แทนจำนวนใด\n\n[[fig1]]",
+        "quality_rules": [
+          "ตัวเลขในตารางและเฉลยคำนวณจากสูตรเชิงเส้นด้วยโค้ด ไม่ใช่การเดา",
+          "ตัวเลือกทุกตัวต้องต่างกันจริง และทุกตัวมาจากกฎที่ใช้ผิดจริง",
+          "ตัวเลขในตารางต้องเป็นจำนวนเต็มบวกทั้งหมด เพื่อไม่ให้โจทย์อ่านยากโดยไม่จำเป็น"
+        ]
+      },
+      "template_note": null,
+      "calculator_allowed": true,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.aptitude.numerical.number_grid.0003",
+      "topic_ids": [
+        "tpat3.aptitude.numerical.number_grid"
+      ],
+      "primary_topic_id": "tpat3.aptitude.numerical.number_grid",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ด้านตัวเลข รูปแบบตารางตัวเลข ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 60,
+      "stem_md": "จากตารางตัวเลขที่กำหนด X แทนจำนวนใด\n\n[[fig1]]",
+      "figures": [
+        {
+          "id": "fig1",
+          "type": "svg",
+          "alt": "ตารางตัวเลข 4 แถว 4 คอลัมน์ · แถวที่ 1 คือ 11, 13, 15, 17 / แถวที่ 2 คือ 17, 19, 21, 23 / แถวที่ 3 คือ 23, X, 27, 29 / แถวที่ 4 คือ 29, 31, 33, 35 · ช่อง X อยู่แถวที่ 3 คอลัมน์ที่ 2",
+          "svg": "<svg viewBox=\"0 0 244 180\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"10\" y=\"10\" width=\"56\" height=\"40\"/><rect x=\"66\" y=\"10\" width=\"56\" height=\"40\"/><rect x=\"122\" y=\"10\" width=\"56\" height=\"40\"/><rect x=\"178\" y=\"10\" width=\"56\" height=\"40\"/><rect x=\"10\" y=\"50\" width=\"56\" height=\"40\"/><rect x=\"66\" y=\"50\" width=\"56\" height=\"40\"/><rect x=\"122\" y=\"50\" width=\"56\" height=\"40\"/><rect x=\"178\" y=\"50\" width=\"56\" height=\"40\"/><rect x=\"10\" y=\"90\" width=\"56\" height=\"40\"/><rect x=\"66\" y=\"90\" width=\"56\" height=\"40\"/><rect x=\"122\" y=\"90\" width=\"56\" height=\"40\"/><rect x=\"178\" y=\"90\" width=\"56\" height=\"40\"/><rect x=\"10\" y=\"130\" width=\"56\" height=\"40\"/><rect x=\"66\" y=\"130\" width=\"56\" height=\"40\"/><rect x=\"122\" y=\"130\" width=\"56\" height=\"40\"/><rect x=\"178\" y=\"130\" width=\"56\" height=\"40\"/></g><g fill=\"currentColor\" font-size=\"18\" text-anchor=\"middle\" font-family=\"system-ui, sans-serif\"><text x=\"38\" y=\"36\">11</text><text x=\"94\" y=\"36\">13</text><text x=\"150\" y=\"36\">15</text><text x=\"206\" y=\"36\">17</text><text x=\"38\" y=\"76\">17</text><text x=\"94\" y=\"76\">19</text><text x=\"150\" y=\"76\">21</text><text x=\"206\" y=\"76\">23</text><text x=\"38\" y=\"116\">23</text><text x=\"94\" y=\"116\" font-weight=\"bold\">X</text><text x=\"150\" y=\"116\">27</text><text x=\"206\" y=\"116\">29</text><text x=\"38\" y=\"156\">29</text><text x=\"94\" y=\"156\">31</text><text x=\"150\" y=\"156\">33</text><text x=\"206\" y=\"156\">35</text></g></svg>",
+          "caption": null
+        }
+      ],
+      "choices": [
+        {
+          "md": "29",
+          "is_answer": false
+        },
+        {
+          "md": "21",
+          "is_answer": false
+        },
+        {
+          "md": "31",
+          "is_answer": false
+        },
+        {
+          "md": "25",
+          "is_answer": true
+        },
+        {
+          "md": "19",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": {
+        "value": 25,
+        "unit": null,
+        "tolerance": 0
+      },
+      "solution_steps": [
+        {
+          "do_md": "หากฎของแถวจากแถวที่ไม่มี X เช่นแถวที่ 1 คือ 11, 13, 15, 17 เพิ่มขึ้นทีละ 2",
+          "why_md": "ต้องหากฎจากแถวที่รู้ค่าครบก่อน เพราะแถวที่มี X หาผลต่างตรง ๆ ไม่ได้"
+        },
+        {
+          "do_md": "หากฎของคอลัมน์จากคอลัมน์ที่ไม่มี X เช่นคอลัมน์ที่ 1 คือ 11, 17, 23, 29 เพิ่มขึ้นทีละ 6",
+          "why_md": "ตารางแบบนี้มีสองกฎพร้อมกัน ถ้าดูแค่ทิศเดียวจะได้คำตอบที่ขัดกับอีกทิศ"
+        },
+        {
+          "do_md": "เดินตามแถว: ช่องซ้ายของ X คือ 23 บวกผลต่างของคอลัมน์ ได้ 23 + 2 = 25",
+          "why_md": "เดินจากช่องที่ติดกันทีละช่อง ปลอดภัยกว่าการคูณตำแหน่งแล้วนับพลาด"
+        },
+        {
+          "do_md": "ตรวจจากคอลัมน์: ช่องบนของ X คือ 19 บวกผลต่างของแถว ได้ 19 + 6 = 25",
+          "why_md": "ได้ค่าเดียวกันจากสองทิศ จึงมั่นใจว่าไม่ได้นับช่องพลาด"
+        }
+      ],
+      "answer_explanation_md": "ผลต่างระหว่างคอลัมน์คือ 2 และผลต่างระหว่างแถวคือ 6 ช่อง X อยู่แถวที่ 3 คอลัมน์ที่ 2 จึงมีค่า 11 + 2 x 6 + 1 x 2 = 25 ซึ่งสอดคล้องทั้งแนวแถวและแนวคอลัมน์",
+      "hints": [
+        "ตารางแบบนี้มีกฎสองทิศพร้อมกัน ให้หากฎของแถวและกฎของคอลัมน์แยกกันก่อน",
+        "หากฎจากแถวหรือคอลัมน์ที่ **ไม่มี** ช่อง X อยู่ เช่นแถวที่ 1 หรือคอลัมน์ที่ 1",
+        "ได้กฎแล้วให้เดินจากช่องที่ติดกับ X ทีละช่อง แล้วตรวจอีกทิศให้ได้ค่าเดียวกัน"
+      ],
+      "distractor_reasons": {
+        "0": "ใช้ผลต่างของแถวกับทั้งสองทิศ ไม่ได้สังเกตว่าผลต่างของคอลัมน์เป็นอีกค่า",
+        "1": "สลับแถวกับคอลัมน์ คือเอาผลต่างของแถวไปคูณกับตำแหน่งคอลัมน์",
+        "2": "นับตำแหน่งแถวเกินไปหนึ่งช่อง เพราะเริ่มนับแถวแรกเป็นหนึ่งแทนที่จะเป็นศูนย์",
+        "4": "บวกผลต่างของแถวกับคอลัมน์เข้าด้วยกันครั้งเดียว ไม่ได้คูณกับจำนวนช่องที่ห่างจากช่องแรก"
+      },
+      "misconception_tags": [
+        "added_instead_of_multiplied",
+        "off_by_one_row",
+        "row_col_swapped",
+        "same_difference_both_axes"
+      ],
+      "template": {
+        "provider": "number_grid.missing_value",
+        "answer_kind": "number",
+        "params": {
+          "rows": 4,
+          "cols": 4,
+          "base_range": [
+            3,
+            12
+          ],
+          "dr_range": [
+            2,
+            6
+          ],
+          "dc_range": [
+            2,
+            6
+          ],
+          "hide_inner": false
+        },
+        "stem_tpl": "จากตารางตัวเลขที่กำหนด X แทนจำนวนใด\n\n[[fig1]]",
+        "quality_rules": [
+          "ตัวเลขในตารางและเฉลยคำนวณจากสูตรเชิงเส้นด้วยโค้ด ไม่ใช่การเดา",
+          "ตัวเลือกทุกตัวต้องต่างกันจริง และทุกตัวมาจากกฎที่ใช้ผิดจริง",
+          "ตัวเลขในตารางต้องเป็นจำนวนเต็มบวกทั้งหมด เพื่อไม่ให้โจทย์อ่านยากโดยไม่จำเป็น"
+        ]
+      },
+      "template_note": null,
+      "calculator_allowed": true,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.aptitude.numerical.number_grid.0004",
+      "topic_ids": [
+        "tpat3.aptitude.numerical.number_grid"
+      ],
+      "primary_topic_id": "tpat3.aptitude.numerical.number_grid",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ด้านตัวเลข รูปแบบตารางตัวเลข ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 65,
+      "stem_md": "จากตารางตัวเลขที่กำหนด X แทนจำนวนใด\n\n[[fig1]]",
+      "figures": [
+        {
+          "id": "fig1",
+          "type": "svg",
+          "alt": "ตารางตัวเลข 4 แถว 4 คอลัมน์ · แถวที่ 1 คือ 7, 9, 11, 13 / แถวที่ 2 คือ 10, 12, 14, 16 / แถวที่ 3 คือ 13, X, 17, 19 / แถวที่ 4 คือ 16, 18, 20, 22 · ช่อง X อยู่แถวที่ 3 คอลัมน์ที่ 2",
+          "svg": "<svg viewBox=\"0 0 244 180\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"10\" y=\"10\" width=\"56\" height=\"40\"/><rect x=\"66\" y=\"10\" width=\"56\" height=\"40\"/><rect x=\"122\" y=\"10\" width=\"56\" height=\"40\"/><rect x=\"178\" y=\"10\" width=\"56\" height=\"40\"/><rect x=\"10\" y=\"50\" width=\"56\" height=\"40\"/><rect x=\"66\" y=\"50\" width=\"56\" height=\"40\"/><rect x=\"122\" y=\"50\" width=\"56\" height=\"40\"/><rect x=\"178\" y=\"50\" width=\"56\" height=\"40\"/><rect x=\"10\" y=\"90\" width=\"56\" height=\"40\"/><rect x=\"66\" y=\"90\" width=\"56\" height=\"40\"/><rect x=\"122\" y=\"90\" width=\"56\" height=\"40\"/><rect x=\"178\" y=\"90\" width=\"56\" height=\"40\"/><rect x=\"10\" y=\"130\" width=\"56\" height=\"40\"/><rect x=\"66\" y=\"130\" width=\"56\" height=\"40\"/><rect x=\"122\" y=\"130\" width=\"56\" height=\"40\"/><rect x=\"178\" y=\"130\" width=\"56\" height=\"40\"/></g><g fill=\"currentColor\" font-size=\"18\" text-anchor=\"middle\" font-family=\"system-ui, sans-serif\"><text x=\"38\" y=\"36\">7</text><text x=\"94\" y=\"36\">9</text><text x=\"150\" y=\"36\">11</text><text x=\"206\" y=\"36\">13</text><text x=\"38\" y=\"76\">10</text><text x=\"94\" y=\"76\">12</text><text x=\"150\" y=\"76\">14</text><text x=\"206\" y=\"76\">16</text><text x=\"38\" y=\"116\">13</text><text x=\"94\" y=\"116\" font-weight=\"bold\">X</text><text x=\"150\" y=\"116\">17</text><text x=\"206\" y=\"116\">19</text><text x=\"38\" y=\"156\">16</text><text x=\"94\" y=\"156\">18</text><text x=\"150\" y=\"156\">20</text><text x=\"206\" y=\"156\">22</text></g></svg>",
+          "caption": null
+        }
+      ],
+      "choices": [
+        {
+          "md": "16",
+          "is_answer": false
+        },
+        {
+          "md": "12",
+          "is_answer": false
+        },
+        {
+          "md": "14",
+          "is_answer": false
+        },
+        {
+          "md": "15",
+          "is_answer": true
+        },
+        {
+          "md": "18",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": {
+        "value": 15,
+        "unit": null,
+        "tolerance": 0
+      },
+      "solution_steps": [
+        {
+          "do_md": "หากฎของแถวจากแถวที่ไม่มี X เช่นแถวที่ 1 คือ 7, 9, 11, 13 เพิ่มขึ้นทีละ 2",
+          "why_md": "ต้องหากฎจากแถวที่รู้ค่าครบก่อน เพราะแถวที่มี X หาผลต่างตรง ๆ ไม่ได้"
+        },
+        {
+          "do_md": "หากฎของคอลัมน์จากคอลัมน์ที่ไม่มี X เช่นคอลัมน์ที่ 1 คือ 7, 10, 13, 16 เพิ่มขึ้นทีละ 3",
+          "why_md": "ตารางแบบนี้มีสองกฎพร้อมกัน ถ้าดูแค่ทิศเดียวจะได้คำตอบที่ขัดกับอีกทิศ"
+        },
+        {
+          "do_md": "เดินตามแถว: ช่องซ้ายของ X คือ 13 บวกผลต่างของคอลัมน์ ได้ 13 + 2 = 15",
+          "why_md": "เดินจากช่องที่ติดกันทีละช่อง ปลอดภัยกว่าการคูณตำแหน่งแล้วนับพลาด"
+        },
+        {
+          "do_md": "ตรวจจากคอลัมน์: ช่องบนของ X คือ 12 บวกผลต่างของแถว ได้ 12 + 3 = 15",
+          "why_md": "ได้ค่าเดียวกันจากสองทิศ จึงมั่นใจว่าไม่ได้นับช่องพลาด"
+        }
+      ],
+      "answer_explanation_md": "ผลต่างระหว่างคอลัมน์คือ 2 และผลต่างระหว่างแถวคือ 3 ช่อง X อยู่แถวที่ 3 คอลัมน์ที่ 2 จึงมีค่า 7 + 2 x 3 + 1 x 2 = 15 ซึ่งสอดคล้องทั้งแนวแถวและแนวคอลัมน์",
+      "hints": [
+        "ตารางแบบนี้มีกฎสองทิศพร้อมกัน ให้หากฎของแถวและกฎของคอลัมน์แยกกันก่อน",
+        "หากฎจากแถวหรือคอลัมน์ที่ **ไม่มี** ช่อง X อยู่ เช่นแถวที่ 1 หรือคอลัมน์ที่ 1",
+        "ได้กฎแล้วให้เดินจากช่องที่ติดกับ X ทีละช่อง แล้วตรวจอีกทิศให้ได้ค่าเดียวกัน"
+      ],
+      "distractor_reasons": {
+        "0": "ใช้ผลต่างของแถวกับทั้งสองทิศ ไม่ได้สังเกตว่าผลต่างของคอลัมน์เป็นอีกค่า",
+        "1": "บวกผลต่างของแถวกับคอลัมน์เข้าด้วยกันครั้งเดียว ไม่ได้คูณกับจำนวนช่องที่ห่างจากช่องแรก",
+        "2": "สลับแถวกับคอลัมน์ คือเอาผลต่างของแถวไปคูณกับตำแหน่งคอลัมน์",
+        "4": "นับตำแหน่งแถวเกินไปหนึ่งช่อง เพราะเริ่มนับแถวแรกเป็นหนึ่งแทนที่จะเป็นศูนย์"
+      },
+      "misconception_tags": [
+        "added_instead_of_multiplied",
+        "off_by_one_row",
+        "row_col_swapped",
+        "same_difference_both_axes"
+      ],
+      "template": {
+        "provider": "number_grid.missing_value",
+        "answer_kind": "number",
+        "params": {
+          "rows": 4,
+          "cols": 4,
+          "base_range": [
+            3,
+            12
+          ],
+          "dr_range": [
+            3,
+            7
+          ],
+          "dc_range": [
+            2,
+            6
+          ],
+          "hide_inner": true
+        },
+        "stem_tpl": "จากตารางตัวเลขที่กำหนด X แทนจำนวนใด\n\n[[fig1]]",
+        "quality_rules": [
+          "ตัวเลขในตารางและเฉลยคำนวณจากสูตรเชิงเส้นด้วยโค้ด ไม่ใช่การเดา",
+          "ตัวเลือกทุกตัวต้องต่างกันจริง และทุกตัวมาจากกฎที่ใช้ผิดจริง",
+          "ตัวเลขในตารางต้องเป็นจำนวนเต็มบวกทั้งหมด เพื่อไม่ให้โจทย์อ่านยากโดยไม่จำเป็น"
+        ]
+      },
+      "template_note": null,
+      "calculator_allowed": true,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.aptitude.numerical.number_grid.0005",
+      "topic_ids": [
+        "tpat3.aptitude.numerical.number_grid"
+      ],
+      "primary_topic_id": "tpat3.aptitude.numerical.number_grid",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ด้านตัวเลข รูปแบบตารางตัวเลข ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 65,
+      "stem_md": "จากตารางตัวเลขที่กำหนด X แทนจำนวนใด\n\n[[fig1]]",
+      "figures": [
+        {
+          "id": "fig1",
+          "type": "svg",
+          "alt": "ตารางตัวเลข 3 แถว 4 คอลัมน์ · แถวที่ 1 คือ 12, 19, 26, 33 / แถวที่ 2 คือ 18, 25, X, 39 / แถวที่ 3 คือ 24, 31, 38, 45 · ช่อง X อยู่แถวที่ 2 คอลัมน์ที่ 3",
+          "svg": "<svg viewBox=\"0 0 244 140\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"10\" y=\"10\" width=\"56\" height=\"40\"/><rect x=\"66\" y=\"10\" width=\"56\" height=\"40\"/><rect x=\"122\" y=\"10\" width=\"56\" height=\"40\"/><rect x=\"178\" y=\"10\" width=\"56\" height=\"40\"/><rect x=\"10\" y=\"50\" width=\"56\" height=\"40\"/><rect x=\"66\" y=\"50\" width=\"56\" height=\"40\"/><rect x=\"122\" y=\"50\" width=\"56\" height=\"40\"/><rect x=\"178\" y=\"50\" width=\"56\" height=\"40\"/><rect x=\"10\" y=\"90\" width=\"56\" height=\"40\"/><rect x=\"66\" y=\"90\" width=\"56\" height=\"40\"/><rect x=\"122\" y=\"90\" width=\"56\" height=\"40\"/><rect x=\"178\" y=\"90\" width=\"56\" height=\"40\"/></g><g fill=\"currentColor\" font-size=\"18\" text-anchor=\"middle\" font-family=\"system-ui, sans-serif\"><text x=\"38\" y=\"36\">12</text><text x=\"94\" y=\"36\">19</text><text x=\"150\" y=\"36\">26</text><text x=\"206\" y=\"36\">33</text><text x=\"38\" y=\"76\">18</text><text x=\"94\" y=\"76\">25</text><text x=\"150\" y=\"76\" font-weight=\"bold\">X</text><text x=\"206\" y=\"76\">39</text><text x=\"38\" y=\"116\">24</text><text x=\"94\" y=\"116\">31</text><text x=\"150\" y=\"116\">38</text><text x=\"206\" y=\"116\">45</text></g></svg>",
+          "caption": null
+        }
+      ],
+      "choices": [
+        {
+          "md": "25",
+          "is_answer": false
+        },
+        {
+          "md": "32",
+          "is_answer": true
+        },
+        {
+          "md": "38",
+          "is_answer": false
+        },
+        {
+          "md": "31",
+          "is_answer": false
+        },
+        {
+          "md": "30",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": {
+        "value": 32,
+        "unit": null,
+        "tolerance": 0
+      },
+      "solution_steps": [
+        {
+          "do_md": "หากฎของแถวจากแถวที่ไม่มี X เช่นแถวที่ 1 คือ 12, 19, 26, 33 เพิ่มขึ้นทีละ 7",
+          "why_md": "ต้องหากฎจากแถวที่รู้ค่าครบก่อน เพราะแถวที่มี X หาผลต่างตรง ๆ ไม่ได้"
+        },
+        {
+          "do_md": "หากฎของคอลัมน์จากคอลัมน์ที่ไม่มี X เช่นคอลัมน์ที่ 1 คือ 12, 18, 24 เพิ่มขึ้นทีละ 6",
+          "why_md": "ตารางแบบนี้มีสองกฎพร้อมกัน ถ้าดูแค่ทิศเดียวจะได้คำตอบที่ขัดกับอีกทิศ"
+        },
+        {
+          "do_md": "เดินตามแถว: ช่องซ้ายของ X คือ 25 บวกผลต่างของคอลัมน์ ได้ 25 + 7 = 32",
+          "why_md": "เดินจากช่องที่ติดกันทีละช่อง ปลอดภัยกว่าการคูณตำแหน่งแล้วนับพลาด"
+        },
+        {
+          "do_md": "ตรวจจากคอลัมน์: ช่องบนของ X คือ 26 บวกผลต่างของแถว ได้ 26 + 6 = 32",
+          "why_md": "ได้ค่าเดียวกันจากสองทิศ จึงมั่นใจว่าไม่ได้นับช่องพลาด"
+        }
+      ],
+      "answer_explanation_md": "ผลต่างระหว่างคอลัมน์คือ 7 และผลต่างระหว่างแถวคือ 6 ช่อง X อยู่แถวที่ 2 คอลัมน์ที่ 3 จึงมีค่า 12 + 1 x 6 + 2 x 7 = 32 ซึ่งสอดคล้องทั้งแนวแถวและแนวคอลัมน์",
+      "hints": [
+        "ตารางแบบนี้มีกฎสองทิศพร้อมกัน ให้หากฎของแถวและกฎของคอลัมน์แยกกันก่อน",
+        "หากฎจากแถวหรือคอลัมน์ที่ **ไม่มี** ช่อง X อยู่ เช่นแถวที่ 1 หรือคอลัมน์ที่ 1",
+        "ได้กฎแล้วให้เดินจากช่องที่ติดกับ X ทีละช่อง แล้วตรวจอีกทิศให้ได้ค่าเดียวกัน"
+      ],
+      "distractor_reasons": {
+        "0": "บวกผลต่างของแถวกับคอลัมน์เข้าด้วยกันครั้งเดียว ไม่ได้คูณกับจำนวนช่องที่ห่างจากช่องแรก",
+        "2": "นับตำแหน่งแถวเกินไปหนึ่งช่อง เพราะเริ่มนับแถวแรกเป็นหนึ่งแทนที่จะเป็นศูนย์",
+        "3": "สลับแถวกับคอลัมน์ คือเอาผลต่างของแถวไปคูณกับตำแหน่งคอลัมน์",
+        "4": "ใช้ผลต่างของแถวกับทั้งสองทิศ ไม่ได้สังเกตว่าผลต่างของคอลัมน์เป็นอีกค่า"
+      },
+      "misconception_tags": [
+        "added_instead_of_multiplied",
+        "off_by_one_row",
+        "row_col_swapped",
+        "same_difference_both_axes"
+      ],
+      "template": {
+        "provider": "number_grid.missing_value",
+        "answer_kind": "number",
+        "params": {
+          "rows": 3,
+          "cols": 4,
+          "base_range": [
+            5,
+            15
+          ],
+          "dr_range": [
+            3,
+            8
+          ],
+          "dc_range": [
+            3,
+            8
+          ],
+          "hide_inner": true
+        },
+        "stem_tpl": "จากตารางตัวเลขที่กำหนด X แทนจำนวนใด\n\n[[fig1]]",
+        "quality_rules": [
+          "ตัวเลขในตารางและเฉลยคำนวณจากสูตรเชิงเส้นด้วยโค้ด ไม่ใช่การเดา",
+          "ตัวเลือกทุกตัวต้องต่างกันจริง และทุกตัวมาจากกฎที่ใช้ผิดจริง",
+          "ตัวเลขในตารางต้องเป็นจำนวนเต็มบวกทั้งหมด เพื่อไม่ให้โจทย์อ่านยากโดยไม่จำเป็น"
+        ]
+      },
+      "template_note": null,
+      "calculator_allowed": true,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.aptitude.numerical.number_grid.0006",
+      "topic_ids": [
+        "tpat3.aptitude.numerical.number_grid"
+      ],
+      "primary_topic_id": "tpat3.aptitude.numerical.number_grid",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ด้านตัวเลข รูปแบบตารางตัวเลข ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 75,
+      "stem_md": "จากตารางตัวเลขที่กำหนด X แทนจำนวนใด\n\n[[fig1]]",
+      "figures": [
+        {
+          "id": "fig1",
+          "type": "svg",
+          "alt": "ตารางตัวเลข 4 แถว 4 คอลัมน์ · แถวที่ 1 คือ 10, 12, 14, 16 / แถวที่ 2 คือ 19, 21, 23, 25 / แถวที่ 3 คือ 28, X, 32, 34 / แถวที่ 4 คือ 37, 39, 41, 43 · ช่อง X อยู่แถวที่ 3 คอลัมน์ที่ 2",
+          "svg": "<svg viewBox=\"0 0 244 180\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"10\" y=\"10\" width=\"56\" height=\"40\"/><rect x=\"66\" y=\"10\" width=\"56\" height=\"40\"/><rect x=\"122\" y=\"10\" width=\"56\" height=\"40\"/><rect x=\"178\" y=\"10\" width=\"56\" height=\"40\"/><rect x=\"10\" y=\"50\" width=\"56\" height=\"40\"/><rect x=\"66\" y=\"50\" width=\"56\" height=\"40\"/><rect x=\"122\" y=\"50\" width=\"56\" height=\"40\"/><rect x=\"178\" y=\"50\" width=\"56\" height=\"40\"/><rect x=\"10\" y=\"90\" width=\"56\" height=\"40\"/><rect x=\"66\" y=\"90\" width=\"56\" height=\"40\"/><rect x=\"122\" y=\"90\" width=\"56\" height=\"40\"/><rect x=\"178\" y=\"90\" width=\"56\" height=\"40\"/><rect x=\"10\" y=\"130\" width=\"56\" height=\"40\"/><rect x=\"66\" y=\"130\" width=\"56\" height=\"40\"/><rect x=\"122\" y=\"130\" width=\"56\" height=\"40\"/><rect x=\"178\" y=\"130\" width=\"56\" height=\"40\"/></g><g fill=\"currentColor\" font-size=\"18\" text-anchor=\"middle\" font-family=\"system-ui, sans-serif\"><text x=\"38\" y=\"36\">10</text><text x=\"94\" y=\"36\">12</text><text x=\"150\" y=\"36\">14</text><text x=\"206\" y=\"36\">16</text><text x=\"38\" y=\"76\">19</text><text x=\"94\" y=\"76\">21</text><text x=\"150\" y=\"76\">23</text><text x=\"206\" y=\"76\">25</text><text x=\"38\" y=\"116\">28</text><text x=\"94\" y=\"116\" font-weight=\"bold\">X</text><text x=\"150\" y=\"116\">32</text><text x=\"206\" y=\"116\">34</text><text x=\"38\" y=\"156\">37</text><text x=\"94\" y=\"156\">39</text><text x=\"150\" y=\"156\">41</text><text x=\"206\" y=\"156\">43</text></g></svg>",
+          "caption": null
+        }
+      ],
+      "choices": [
+        {
+          "md": "21",
+          "is_answer": false
+        },
+        {
+          "md": "39",
+          "is_answer": false
+        },
+        {
+          "md": "23",
+          "is_answer": false
+        },
+        {
+          "md": "30",
+          "is_answer": true
+        },
+        {
+          "md": "37",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": {
+        "value": 30,
+        "unit": null,
+        "tolerance": 0
+      },
+      "solution_steps": [
+        {
+          "do_md": "หากฎของแถวจากแถวที่ไม่มี X เช่นแถวที่ 1 คือ 10, 12, 14, 16 เพิ่มขึ้นทีละ 2",
+          "why_md": "ต้องหากฎจากแถวที่รู้ค่าครบก่อน เพราะแถวที่มี X หาผลต่างตรง ๆ ไม่ได้"
+        },
+        {
+          "do_md": "หากฎของคอลัมน์จากคอลัมน์ที่ไม่มี X เช่นคอลัมน์ที่ 1 คือ 10, 19, 28, 37 เพิ่มขึ้นทีละ 9",
+          "why_md": "ตารางแบบนี้มีสองกฎพร้อมกัน ถ้าดูแค่ทิศเดียวจะได้คำตอบที่ขัดกับอีกทิศ"
+        },
+        {
+          "do_md": "เดินตามแถว: ช่องซ้ายของ X คือ 28 บวกผลต่างของคอลัมน์ ได้ 28 + 2 = 30",
+          "why_md": "เดินจากช่องที่ติดกันทีละช่อง ปลอดภัยกว่าการคูณตำแหน่งแล้วนับพลาด"
+        },
+        {
+          "do_md": "ตรวจจากคอลัมน์: ช่องบนของ X คือ 21 บวกผลต่างของแถว ได้ 21 + 9 = 30",
+          "why_md": "ได้ค่าเดียวกันจากสองทิศ จึงมั่นใจว่าไม่ได้นับช่องพลาด"
+        }
+      ],
+      "answer_explanation_md": "ผลต่างระหว่างคอลัมน์คือ 2 และผลต่างระหว่างแถวคือ 9 ช่อง X อยู่แถวที่ 3 คอลัมน์ที่ 2 จึงมีค่า 10 + 2 x 9 + 1 x 2 = 30 ซึ่งสอดคล้องทั้งแนวแถวและแนวคอลัมน์",
+      "hints": [
+        "ตารางแบบนี้มีกฎสองทิศพร้อมกัน ให้หากฎของแถวและกฎของคอลัมน์แยกกันก่อน",
+        "หากฎจากแถวหรือคอลัมน์ที่ **ไม่มี** ช่อง X อยู่ เช่นแถวที่ 1 หรือคอลัมน์ที่ 1",
+        "ได้กฎแล้วให้เดินจากช่องที่ติดกับ X ทีละช่อง แล้วตรวจอีกทิศให้ได้ค่าเดียวกัน"
+      ],
+      "distractor_reasons": {
+        "0": "บวกผลต่างของแถวกับคอลัมน์เข้าด้วยกันครั้งเดียว ไม่ได้คูณกับจำนวนช่องที่ห่างจากช่องแรก",
+        "1": "นับตำแหน่งแถวเกินไปหนึ่งช่อง เพราะเริ่มนับแถวแรกเป็นหนึ่งแทนที่จะเป็นศูนย์",
+        "2": "สลับแถวกับคอลัมน์ คือเอาผลต่างของแถวไปคูณกับตำแหน่งคอลัมน์",
+        "4": "ใช้ผลต่างของแถวกับทั้งสองทิศ ไม่ได้สังเกตว่าผลต่างของคอลัมน์เป็นอีกค่า"
+      },
+      "misconception_tags": [
+        "added_instead_of_multiplied",
+        "off_by_one_row",
+        "row_col_swapped",
+        "same_difference_both_axes"
+      ],
+      "template": {
+        "provider": "number_grid.missing_value",
+        "answer_kind": "number",
+        "params": {
+          "rows": 4,
+          "cols": 4,
+          "base_range": [
+            4,
+            14
+          ],
+          "dr_range": [
+            3,
+            9
+          ],
+          "dc_range": [
+            2,
+            7
+          ],
+          "hide_inner": true
+        },
+        "stem_tpl": "จากตารางตัวเลขที่กำหนด X แทนจำนวนใด\n\n[[fig1]]",
+        "quality_rules": [
+          "ตัวเลขในตารางและเฉลยคำนวณจากสูตรเชิงเส้นด้วยโค้ด ไม่ใช่การเดา",
+          "ตัวเลือกทุกตัวต้องต่างกันจริง และทุกตัวมาจากกฎที่ใช้ผิดจริง",
+          "ตัวเลขในตารางต้องเป็นจำนวนเต็มบวกทั้งหมด เพื่อไม่ให้โจทย์อ่านยากโดยไม่จำเป็น"
+        ]
+      },
+      "template_note": null,
+      "calculator_allowed": true,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.aptitude.numerical.number_grid.0007",
+      "topic_ids": [
+        "tpat3.aptitude.numerical.number_grid"
+      ],
+      "primary_topic_id": "tpat3.aptitude.numerical.number_grid",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ด้านตัวเลข รูปแบบตารางตัวเลข ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 80,
+      "stem_md": "จากตารางตัวเลขที่กำหนด X แทนจำนวนใด\n\n[[fig1]]",
+      "figures": [
+        {
+          "id": "fig1",
+          "type": "svg",
+          "alt": "ตารางตัวเลข 4 แถว 5 คอลัมน์ · แถวที่ 1 คือ 4, 10, 16, 22, 28 / แถวที่ 2 คือ 13, 19, X, 31, 37 / แถวที่ 3 คือ 22, 28, 34, 40, 46 / แถวที่ 4 คือ 31, 37, 43, 49, 55 · ช่อง X อยู่แถวที่ 2 คอลัมน์ที่ 3",
+          "svg": "<svg viewBox=\"0 0 300 180\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"10\" y=\"10\" width=\"56\" height=\"40\"/><rect x=\"66\" y=\"10\" width=\"56\" height=\"40\"/><rect x=\"122\" y=\"10\" width=\"56\" height=\"40\"/><rect x=\"178\" y=\"10\" width=\"56\" height=\"40\"/><rect x=\"234\" y=\"10\" width=\"56\" height=\"40\"/><rect x=\"10\" y=\"50\" width=\"56\" height=\"40\"/><rect x=\"66\" y=\"50\" width=\"56\" height=\"40\"/><rect x=\"122\" y=\"50\" width=\"56\" height=\"40\"/><rect x=\"178\" y=\"50\" width=\"56\" height=\"40\"/><rect x=\"234\" y=\"50\" width=\"56\" height=\"40\"/><rect x=\"10\" y=\"90\" width=\"56\" height=\"40\"/><rect x=\"66\" y=\"90\" width=\"56\" height=\"40\"/><rect x=\"122\" y=\"90\" width=\"56\" height=\"40\"/><rect x=\"178\" y=\"90\" width=\"56\" height=\"40\"/><rect x=\"234\" y=\"90\" width=\"56\" height=\"40\"/><rect x=\"10\" y=\"130\" width=\"56\" height=\"40\"/><rect x=\"66\" y=\"130\" width=\"56\" height=\"40\"/><rect x=\"122\" y=\"130\" width=\"56\" height=\"40\"/><rect x=\"178\" y=\"130\" width=\"56\" height=\"40\"/><rect x=\"234\" y=\"130\" width=\"56\" height=\"40\"/></g><g fill=\"currentColor\" font-size=\"18\" text-anchor=\"middle\" font-family=\"system-ui, sans-serif\"><text x=\"38\" y=\"36\">4</text><text x=\"94\" y=\"36\">10</text><text x=\"150\" y=\"36\">16</text><text x=\"206\" y=\"36\">22</text><text x=\"262\" y=\"36\">28</text><text x=\"38\" y=\"76\">13</text><text x=\"94\" y=\"76\">19</text><text x=\"150\" y=\"76\" font-weight=\"bold\">X</text><text x=\"206\" y=\"76\">31</text><text x=\"262\" y=\"76\">37</text><text x=\"38\" y=\"116\">22</text><text x=\"94\" y=\"116\">28</text><text x=\"150\" y=\"116\">34</text><text x=\"206\" y=\"116\">40</text><text x=\"262\" y=\"116\">46</text><text x=\"38\" y=\"156\">31</text><text x=\"94\" y=\"156\">37</text><text x=\"150\" y=\"156\">43</text><text x=\"206\" y=\"156\">49</text><text x=\"262\" y=\"156\">55</text></g></svg>",
+          "caption": null
+        }
+      ],
+      "choices": [
+        {
+          "md": "34",
+          "is_answer": false
+        },
+        {
+          "md": "25",
+          "is_answer": true
+        },
+        {
+          "md": "31",
+          "is_answer": false
+        },
+        {
+          "md": "19",
+          "is_answer": false
+        },
+        {
+          "md": "28",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": {
+        "value": 25,
+        "unit": null,
+        "tolerance": 0
+      },
+      "solution_steps": [
+        {
+          "do_md": "หากฎของแถวจากแถวที่ไม่มี X เช่นแถวที่ 1 คือ 4, 10, 16, 22, 28 เพิ่มขึ้นทีละ 6",
+          "why_md": "ต้องหากฎจากแถวที่รู้ค่าครบก่อน เพราะแถวที่มี X หาผลต่างตรง ๆ ไม่ได้"
+        },
+        {
+          "do_md": "หากฎของคอลัมน์จากคอลัมน์ที่ไม่มี X เช่นคอลัมน์ที่ 1 คือ 4, 13, 22, 31 เพิ่มขึ้นทีละ 9",
+          "why_md": "ตารางแบบนี้มีสองกฎพร้อมกัน ถ้าดูแค่ทิศเดียวจะได้คำตอบที่ขัดกับอีกทิศ"
+        },
+        {
+          "do_md": "เดินตามแถว: ช่องซ้ายของ X คือ 19 บวกผลต่างของคอลัมน์ ได้ 19 + 6 = 25",
+          "why_md": "เดินจากช่องที่ติดกันทีละช่อง ปลอดภัยกว่าการคูณตำแหน่งแล้วนับพลาด"
+        },
+        {
+          "do_md": "ตรวจจากคอลัมน์: ช่องบนของ X คือ 16 บวกผลต่างของแถว ได้ 16 + 9 = 25",
+          "why_md": "ได้ค่าเดียวกันจากสองทิศ จึงมั่นใจว่าไม่ได้นับช่องพลาด"
+        }
+      ],
+      "answer_explanation_md": "ผลต่างระหว่างคอลัมน์คือ 6 และผลต่างระหว่างแถวคือ 9 ช่อง X อยู่แถวที่ 2 คอลัมน์ที่ 3 จึงมีค่า 4 + 1 x 9 + 2 x 6 = 25 ซึ่งสอดคล้องทั้งแนวแถวและแนวคอลัมน์",
+      "hints": [
+        "ตารางแบบนี้มีกฎสองทิศพร้อมกัน ให้หากฎของแถวและกฎของคอลัมน์แยกกันก่อน",
+        "หากฎจากแถวหรือคอลัมน์ที่ **ไม่มี** ช่อง X อยู่ เช่นแถวที่ 1 หรือคอลัมน์ที่ 1",
+        "ได้กฎแล้วให้เดินจากช่องที่ติดกับ X ทีละช่อง แล้วตรวจอีกทิศให้ได้ค่าเดียวกัน"
+      ],
+      "distractor_reasons": {
+        "0": "นับตำแหน่งแถวเกินไปหนึ่งช่อง เพราะเริ่มนับแถวแรกเป็นหนึ่งแทนที่จะเป็นศูนย์",
+        "2": "ใช้ผลต่างของแถวกับทั้งสองทิศ ไม่ได้สังเกตว่าผลต่างของคอลัมน์เป็นอีกค่า",
+        "3": "บวกผลต่างของแถวกับคอลัมน์เข้าด้วยกันครั้งเดียว ไม่ได้คูณกับจำนวนช่องที่ห่างจากช่องแรก",
+        "4": "สลับแถวกับคอลัมน์ คือเอาผลต่างของแถวไปคูณกับตำแหน่งคอลัมน์"
+      },
+      "misconception_tags": [
+        "added_instead_of_multiplied",
+        "off_by_one_row",
+        "row_col_swapped",
+        "same_difference_both_axes"
+      ],
+      "template": {
+        "provider": "number_grid.missing_value",
+        "answer_kind": "number",
+        "params": {
+          "rows": 4,
+          "cols": 5,
+          "base_range": [
+            4,
+            14
+          ],
+          "dr_range": [
+            3,
+            9
+          ],
+          "dc_range": [
+            2,
+            7
+          ],
+          "hide_inner": true
+        },
+        "stem_tpl": "จากตารางตัวเลขที่กำหนด X แทนจำนวนใด\n\n[[fig1]]",
+        "quality_rules": [
+          "ตัวเลขในตารางและเฉลยคำนวณจากสูตรเชิงเส้นด้วยโค้ด ไม่ใช่การเดา",
+          "ตัวเลือกทุกตัวต้องต่างกันจริง และทุกตัวมาจากกฎที่ใช้ผิดจริง",
+          "ตัวเลขในตารางต้องเป็นจำนวนเต็มบวกทั้งหมด เพื่อไม่ให้โจทย์อ่านยากโดยไม่จำเป็น"
+        ]
+      },
+      "template_note": null,
+      "calculator_allowed": true,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.aptitude.numerical.number_grid.0008",
+      "topic_ids": [
+        "tpat3.aptitude.numerical.number_grid"
+      ],
+      "primary_topic_id": "tpat3.aptitude.numerical.number_grid",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ด้านตัวเลข รูปแบบตารางตัวเลข ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 80,
+      "stem_md": "จากตารางตัวเลขที่กำหนด X แทนจำนวนใด\n\n[[fig1]]",
+      "figures": [
+        {
+          "id": "fig1",
+          "type": "svg",
+          "alt": "ตารางตัวเลข 5 แถว 4 คอลัมน์ · แถวที่ 1 คือ 10, 13, 16, 19 / แถวที่ 2 คือ 14, 17, 20, 23 / แถวที่ 3 คือ 18, 21, 24, 27 / แถวที่ 4 คือ 22, X, 28, 31 / แถวที่ 5 คือ 26, 29, 32, 35 · ช่อง X อยู่แถวที่ 4 คอลัมน์ที่ 2",
+          "svg": "<svg viewBox=\"0 0 244 220\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"10\" y=\"10\" width=\"56\" height=\"40\"/><rect x=\"66\" y=\"10\" width=\"56\" height=\"40\"/><rect x=\"122\" y=\"10\" width=\"56\" height=\"40\"/><rect x=\"178\" y=\"10\" width=\"56\" height=\"40\"/><rect x=\"10\" y=\"50\" width=\"56\" height=\"40\"/><rect x=\"66\" y=\"50\" width=\"56\" height=\"40\"/><rect x=\"122\" y=\"50\" width=\"56\" height=\"40\"/><rect x=\"178\" y=\"50\" width=\"56\" height=\"40\"/><rect x=\"10\" y=\"90\" width=\"56\" height=\"40\"/><rect x=\"66\" y=\"90\" width=\"56\" height=\"40\"/><rect x=\"122\" y=\"90\" width=\"56\" height=\"40\"/><rect x=\"178\" y=\"90\" width=\"56\" height=\"40\"/><rect x=\"10\" y=\"130\" width=\"56\" height=\"40\"/><rect x=\"66\" y=\"130\" width=\"56\" height=\"40\"/><rect x=\"122\" y=\"130\" width=\"56\" height=\"40\"/><rect x=\"178\" y=\"130\" width=\"56\" height=\"40\"/><rect x=\"10\" y=\"170\" width=\"56\" height=\"40\"/><rect x=\"66\" y=\"170\" width=\"56\" height=\"40\"/><rect x=\"122\" y=\"170\" width=\"56\" height=\"40\"/><rect x=\"178\" y=\"170\" width=\"56\" height=\"40\"/></g><g fill=\"currentColor\" font-size=\"18\" text-anchor=\"middle\" font-family=\"system-ui, sans-serif\"><text x=\"38\" y=\"36\">10</text><text x=\"94\" y=\"36\">13</text><text x=\"150\" y=\"36\">16</text><text x=\"206\" y=\"36\">19</text><text x=\"38\" y=\"76\">14</text><text x=\"94\" y=\"76\">17</text><text x=\"150\" y=\"76\">20</text><text x=\"206\" y=\"76\">23</text><text x=\"38\" y=\"116\">18</text><text x=\"94\" y=\"116\">21</text><text x=\"150\" y=\"116\">24</text><text x=\"206\" y=\"116\">27</text><text x=\"38\" y=\"156\">22</text><text x=\"94\" y=\"156\" font-weight=\"bold\">X</text><text x=\"150\" y=\"156\">28</text><text x=\"206\" y=\"156\">31</text><text x=\"38\" y=\"196\">26</text><text x=\"94\" y=\"196\">29</text><text x=\"150\" y=\"196\">32</text><text x=\"206\" y=\"196\">35</text></g></svg>",
+          "caption": null
+        }
+      ],
+      "choices": [
+        {
+          "md": "26",
+          "is_answer": false
+        },
+        {
+          "md": "25",
+          "is_answer": true
+        },
+        {
+          "md": "17",
+          "is_answer": false
+        },
+        {
+          "md": "23",
+          "is_answer": false
+        },
+        {
+          "md": "29",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": {
+        "value": 25,
+        "unit": null,
+        "tolerance": 0
+      },
+      "solution_steps": [
+        {
+          "do_md": "หากฎของแถวจากแถวที่ไม่มี X เช่นแถวที่ 1 คือ 10, 13, 16, 19 เพิ่มขึ้นทีละ 3",
+          "why_md": "ต้องหากฎจากแถวที่รู้ค่าครบก่อน เพราะแถวที่มี X หาผลต่างตรง ๆ ไม่ได้"
+        },
+        {
+          "do_md": "หากฎของคอลัมน์จากคอลัมน์ที่ไม่มี X เช่นคอลัมน์ที่ 1 คือ 10, 14, 18, 22, 26 เพิ่มขึ้นทีละ 4",
+          "why_md": "ตารางแบบนี้มีสองกฎพร้อมกัน ถ้าดูแค่ทิศเดียวจะได้คำตอบที่ขัดกับอีกทิศ"
+        },
+        {
+          "do_md": "เดินตามแถว: ช่องซ้ายของ X คือ 22 บวกผลต่างของคอลัมน์ ได้ 22 + 3 = 25",
+          "why_md": "เดินจากช่องที่ติดกันทีละช่อง ปลอดภัยกว่าการคูณตำแหน่งแล้วนับพลาด"
+        },
+        {
+          "do_md": "ตรวจจากคอลัมน์: ช่องบนของ X คือ 21 บวกผลต่างของแถว ได้ 21 + 4 = 25",
+          "why_md": "ได้ค่าเดียวกันจากสองทิศ จึงมั่นใจว่าไม่ได้นับช่องพลาด"
+        }
+      ],
+      "answer_explanation_md": "ผลต่างระหว่างคอลัมน์คือ 3 และผลต่างระหว่างแถวคือ 4 ช่อง X อยู่แถวที่ 4 คอลัมน์ที่ 2 จึงมีค่า 10 + 3 x 4 + 1 x 3 = 25 ซึ่งสอดคล้องทั้งแนวแถวและแนวคอลัมน์",
+      "hints": [
+        "ตารางแบบนี้มีกฎสองทิศพร้อมกัน ให้หากฎของแถวและกฎของคอลัมน์แยกกันก่อน",
+        "หากฎจากแถวหรือคอลัมน์ที่ **ไม่มี** ช่อง X อยู่ เช่นแถวที่ 1 หรือคอลัมน์ที่ 1",
+        "ได้กฎแล้วให้เดินจากช่องที่ติดกับ X ทีละช่อง แล้วตรวจอีกทิศให้ได้ค่าเดียวกัน"
+      ],
+      "distractor_reasons": {
+        "0": "ใช้ผลต่างของแถวกับทั้งสองทิศ ไม่ได้สังเกตว่าผลต่างของคอลัมน์เป็นอีกค่า",
+        "2": "บวกผลต่างของแถวกับคอลัมน์เข้าด้วยกันครั้งเดียว ไม่ได้คูณกับจำนวนช่องที่ห่างจากช่องแรก",
+        "3": "สลับแถวกับคอลัมน์ คือเอาผลต่างของแถวไปคูณกับตำแหน่งคอลัมน์",
+        "4": "นับตำแหน่งแถวเกินไปหนึ่งช่อง เพราะเริ่มนับแถวแรกเป็นหนึ่งแทนที่จะเป็นศูนย์"
+      },
+      "misconception_tags": [
+        "added_instead_of_multiplied",
+        "off_by_one_row",
+        "row_col_swapped",
+        "same_difference_both_axes"
+      ],
+      "template": {
+        "provider": "number_grid.missing_value",
+        "answer_kind": "number",
+        "params": {
+          "rows": 5,
+          "cols": 4,
+          "base_range": [
+            4,
+            14
+          ],
+          "dr_range": [
+            2,
+            7
+          ],
+          "dc_range": [
+            3,
+            9
+          ],
+          "hide_inner": true
+        },
+        "stem_tpl": "จากตารางตัวเลขที่กำหนด X แทนจำนวนใด\n\n[[fig1]]",
+        "quality_rules": [
+          "ตัวเลขในตารางและเฉลยคำนวณจากสูตรเชิงเส้นด้วยโค้ด ไม่ใช่การเดา",
+          "ตัวเลือกทุกตัวต้องต่างกันจริง และทุกตัวมาจากกฎที่ใช้ผิดจริง",
+          "ตัวเลขในตารางต้องเป็นจำนวนเต็มบวกทั้งหมด เพื่อไม่ให้โจทย์อ่านยากโดยไม่จำเป็น"
+        ]
+      },
+      "template_note": null,
+      "calculator_allowed": true,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.aptitude.numerical.number_grid.0009",
+      "topic_ids": [
+        "tpat3.aptitude.numerical.number_grid"
+      ],
+      "primary_topic_id": "tpat3.aptitude.numerical.number_grid",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ด้านตัวเลข รูปแบบตารางตัวเลข ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 80,
+      "stem_md": "จากตารางตัวเลขที่กำหนด X แทนจำนวนใด\n\n[[fig1]]",
+      "figures": [
+        {
+          "id": "fig1",
+          "type": "svg",
+          "alt": "ตารางตัวเลข 4 แถว 4 คอลัมน์ · แถวที่ 1 คือ 8, 14, 20, 26 / แถวที่ 2 คือ 12, 18, X, 30 / แถวที่ 3 คือ 16, 22, 28, 34 / แถวที่ 4 คือ 20, 26, 32, 38 · ช่อง X อยู่แถวที่ 2 คอลัมน์ที่ 3",
+          "svg": "<svg viewBox=\"0 0 244 180\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"10\" y=\"10\" width=\"56\" height=\"40\"/><rect x=\"66\" y=\"10\" width=\"56\" height=\"40\"/><rect x=\"122\" y=\"10\" width=\"56\" height=\"40\"/><rect x=\"178\" y=\"10\" width=\"56\" height=\"40\"/><rect x=\"10\" y=\"50\" width=\"56\" height=\"40\"/><rect x=\"66\" y=\"50\" width=\"56\" height=\"40\"/><rect x=\"122\" y=\"50\" width=\"56\" height=\"40\"/><rect x=\"178\" y=\"50\" width=\"56\" height=\"40\"/><rect x=\"10\" y=\"90\" width=\"56\" height=\"40\"/><rect x=\"66\" y=\"90\" width=\"56\" height=\"40\"/><rect x=\"122\" y=\"90\" width=\"56\" height=\"40\"/><rect x=\"178\" y=\"90\" width=\"56\" height=\"40\"/><rect x=\"10\" y=\"130\" width=\"56\" height=\"40\"/><rect x=\"66\" y=\"130\" width=\"56\" height=\"40\"/><rect x=\"122\" y=\"130\" width=\"56\" height=\"40\"/><rect x=\"178\" y=\"130\" width=\"56\" height=\"40\"/></g><g fill=\"currentColor\" font-size=\"18\" text-anchor=\"middle\" font-family=\"system-ui, sans-serif\"><text x=\"38\" y=\"36\">8</text><text x=\"94\" y=\"36\">14</text><text x=\"150\" y=\"36\">20</text><text x=\"206\" y=\"36\">26</text><text x=\"38\" y=\"76\">12</text><text x=\"94\" y=\"76\">18</text><text x=\"150\" y=\"76\" font-weight=\"bold\">X</text><text x=\"206\" y=\"76\">30</text><text x=\"38\" y=\"116\">16</text><text x=\"94\" y=\"116\">22</text><text x=\"150\" y=\"116\">28</text><text x=\"206\" y=\"116\">34</text><text x=\"38\" y=\"156\">20</text><text x=\"94\" y=\"156\">26</text><text x=\"150\" y=\"156\">32</text><text x=\"206\" y=\"156\">38</text></g></svg>",
+          "caption": null
+        }
+      ],
+      "choices": [
+        {
+          "md": "20",
+          "is_answer": false
+        },
+        {
+          "md": "28",
+          "is_answer": false
+        },
+        {
+          "md": "24",
+          "is_answer": true
+        },
+        {
+          "md": "18",
+          "is_answer": false
+        },
+        {
+          "md": "22",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": {
+        "value": 24,
+        "unit": null,
+        "tolerance": 0
+      },
+      "solution_steps": [
+        {
+          "do_md": "หากฎของแถวจากแถวที่ไม่มี X เช่นแถวที่ 1 คือ 8, 14, 20, 26 เพิ่มขึ้นทีละ 6",
+          "why_md": "ต้องหากฎจากแถวที่รู้ค่าครบก่อน เพราะแถวที่มี X หาผลต่างตรง ๆ ไม่ได้"
+        },
+        {
+          "do_md": "หากฎของคอลัมน์จากคอลัมน์ที่ไม่มี X เช่นคอลัมน์ที่ 1 คือ 8, 12, 16, 20 เพิ่มขึ้นทีละ 4",
+          "why_md": "ตารางแบบนี้มีสองกฎพร้อมกัน ถ้าดูแค่ทิศเดียวจะได้คำตอบที่ขัดกับอีกทิศ"
+        },
+        {
+          "do_md": "เดินตามแถว: ช่องซ้ายของ X คือ 18 บวกผลต่างของคอลัมน์ ได้ 18 + 6 = 24",
+          "why_md": "เดินจากช่องที่ติดกันทีละช่อง ปลอดภัยกว่าการคูณตำแหน่งแล้วนับพลาด"
+        },
+        {
+          "do_md": "ตรวจจากคอลัมน์: ช่องบนของ X คือ 20 บวกผลต่างของแถว ได้ 20 + 4 = 24",
+          "why_md": "ได้ค่าเดียวกันจากสองทิศ จึงมั่นใจว่าไม่ได้นับช่องพลาด"
+        }
+      ],
+      "answer_explanation_md": "ผลต่างระหว่างคอลัมน์คือ 6 และผลต่างระหว่างแถวคือ 4 ช่อง X อยู่แถวที่ 2 คอลัมน์ที่ 3 จึงมีค่า 8 + 1 x 4 + 2 x 6 = 24 ซึ่งสอดคล้องทั้งแนวแถวและแนวคอลัมน์",
+      "hints": [
+        "ตารางแบบนี้มีกฎสองทิศพร้อมกัน ให้หากฎของแถวและกฎของคอลัมน์แยกกันก่อน",
+        "หากฎจากแถวหรือคอลัมน์ที่ **ไม่มี** ช่อง X อยู่ เช่นแถวที่ 1 หรือคอลัมน์ที่ 1",
+        "ได้กฎแล้วให้เดินจากช่องที่ติดกับ X ทีละช่อง แล้วตรวจอีกทิศให้ได้ค่าเดียวกัน"
+      ],
+      "distractor_reasons": {
+        "0": "ใช้ผลต่างของแถวกับทั้งสองทิศ ไม่ได้สังเกตว่าผลต่างของคอลัมน์เป็นอีกค่า",
+        "1": "นับตำแหน่งแถวเกินไปหนึ่งช่อง เพราะเริ่มนับแถวแรกเป็นหนึ่งแทนที่จะเป็นศูนย์",
+        "3": "บวกผลต่างของแถวกับคอลัมน์เข้าด้วยกันครั้งเดียว ไม่ได้คูณกับจำนวนช่องที่ห่างจากช่องแรก",
+        "4": "สลับแถวกับคอลัมน์ คือเอาผลต่างของแถวไปคูณกับตำแหน่งคอลัมน์"
+      },
+      "misconception_tags": [
+        "added_instead_of_multiplied",
+        "off_by_one_row",
+        "row_col_swapped",
+        "same_difference_both_axes"
+      ],
+      "template": {
+        "provider": "number_grid.missing_value",
+        "answer_kind": "number",
+        "params": {
+          "rows": 4,
+          "cols": 4,
+          "base_range": [
+            6,
+            20
+          ],
+          "dr_range": [
+            4,
+            11
+          ],
+          "dc_range": [
+            3,
+            9
+          ],
+          "hide_inner": true
+        },
+        "stem_tpl": "จากตารางตัวเลขที่กำหนด X แทนจำนวนใด\n\n[[fig1]]",
+        "quality_rules": [
+          "ตัวเลขในตารางและเฉลยคำนวณจากสูตรเชิงเส้นด้วยโค้ด ไม่ใช่การเดา",
+          "ตัวเลือกทุกตัวต้องต่างกันจริง และทุกตัวมาจากกฎที่ใช้ผิดจริง",
+          "ตัวเลขในตารางต้องเป็นจำนวนเต็มบวกทั้งหมด เพื่อไม่ให้โจทย์อ่านยากโดยไม่จำเป็น"
+        ]
+      },
+      "template_note": null,
+      "calculator_allowed": true,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.aptitude.numerical.number_grid.0010",
+      "topic_ids": [
+        "tpat3.aptitude.numerical.number_grid"
+      ],
+      "primary_topic_id": "tpat3.aptitude.numerical.number_grid",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ด้านตัวเลข รูปแบบตารางตัวเลข ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 4,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 2,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 95,
+      "stem_md": "จากตารางตัวเลขที่กำหนด X แทนจำนวนใด\n\n[[fig1]]",
+      "figures": [
+        {
+          "id": "fig1",
+          "type": "svg",
+          "alt": "ตารางตัวเลข 5 แถว 5 คอลัมน์ · แถวที่ 1 คือ 12, 17, 22, 27, 32 / แถวที่ 2 คือ 18, 23, 28, 33, 38 / แถวที่ 3 คือ 24, 29, 34, X, 44 / แถวที่ 4 คือ 30, 35, 40, 45, 50 / แถวที่ 5 คือ 36, 41, 46, 51, 56 · ช่อง X อยู่แถวที่ 3 คอลัมน์ที่ 4",
+          "svg": "<svg viewBox=\"0 0 300 220\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"10\" y=\"10\" width=\"56\" height=\"40\"/><rect x=\"66\" y=\"10\" width=\"56\" height=\"40\"/><rect x=\"122\" y=\"10\" width=\"56\" height=\"40\"/><rect x=\"178\" y=\"10\" width=\"56\" height=\"40\"/><rect x=\"234\" y=\"10\" width=\"56\" height=\"40\"/><rect x=\"10\" y=\"50\" width=\"56\" height=\"40\"/><rect x=\"66\" y=\"50\" width=\"56\" height=\"40\"/><rect x=\"122\" y=\"50\" width=\"56\" height=\"40\"/><rect x=\"178\" y=\"50\" width=\"56\" height=\"40\"/><rect x=\"234\" y=\"50\" width=\"56\" height=\"40\"/><rect x=\"10\" y=\"90\" width=\"56\" height=\"40\"/><rect x=\"66\" y=\"90\" width=\"56\" height=\"40\"/><rect x=\"122\" y=\"90\" width=\"56\" height=\"40\"/><rect x=\"178\" y=\"90\" width=\"56\" height=\"40\"/><rect x=\"234\" y=\"90\" width=\"56\" height=\"40\"/><rect x=\"10\" y=\"130\" width=\"56\" height=\"40\"/><rect x=\"66\" y=\"130\" width=\"56\" height=\"40\"/><rect x=\"122\" y=\"130\" width=\"56\" height=\"40\"/><rect x=\"178\" y=\"130\" width=\"56\" height=\"40\"/><rect x=\"234\" y=\"130\" width=\"56\" height=\"40\"/><rect x=\"10\" y=\"170\" width=\"56\" height=\"40\"/><rect x=\"66\" y=\"170\" width=\"56\" height=\"40\"/><rect x=\"122\" y=\"170\" width=\"56\" height=\"40\"/><rect x=\"178\" y=\"170\" width=\"56\" height=\"40\"/><rect x=\"234\" y=\"170\" width=\"56\" height=\"40\"/></g><g fill=\"currentColor\" font-size=\"18\" text-anchor=\"middle\" font-family=\"system-ui, sans-serif\"><text x=\"38\" y=\"36\">12</text><text x=\"94\" y=\"36\">17</text><text x=\"150\" y=\"36\">22</text><text x=\"206\" y=\"36\">27</text><text x=\"262\" y=\"36\">32</text><text x=\"38\" y=\"76\">18</text><text x=\"94\" y=\"76\">23</text><text x=\"150\" y=\"76\">28</text><text x=\"206\" y=\"76\">33</text><text x=\"262\" y=\"76\">38</text><text x=\"38\" y=\"116\">24</text><text x=\"94\" y=\"116\">29</text><text x=\"150\" y=\"116\">34</text><text x=\"206\" y=\"116\" font-weight=\"bold\">X</text><text x=\"262\" y=\"116\">44</text><text x=\"38\" y=\"156\">30</text><text x=\"94\" y=\"156\">35</text><text x=\"150\" y=\"156\">40</text><text x=\"206\" y=\"156\">45</text><text x=\"262\" y=\"156\">50</text><text x=\"38\" y=\"196\">36</text><text x=\"94\" y=\"196\">41</text><text x=\"150\" y=\"196\">46</text><text x=\"206\" y=\"196\">51</text><text x=\"262\" y=\"196\">56</text></g></svg>",
+          "caption": null
+        }
+      ],
+      "choices": [
+        {
+          "md": "45",
+          "is_answer": false
+        },
+        {
+          "md": "23",
+          "is_answer": false
+        },
+        {
+          "md": "42",
+          "is_answer": false
+        },
+        {
+          "md": "39",
+          "is_answer": true
+        },
+        {
+          "md": "40",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": {
+        "value": 39,
+        "unit": null,
+        "tolerance": 0
+      },
+      "solution_steps": [
+        {
+          "do_md": "หากฎของแถวจากแถวที่ไม่มี X เช่นแถวที่ 1 คือ 12, 17, 22, 27, 32 เพิ่มขึ้นทีละ 5",
+          "why_md": "ต้องหากฎจากแถวที่รู้ค่าครบก่อน เพราะแถวที่มี X หาผลต่างตรง ๆ ไม่ได้"
+        },
+        {
+          "do_md": "หากฎของคอลัมน์จากคอลัมน์ที่ไม่มี X เช่นคอลัมน์ที่ 1 คือ 12, 18, 24, 30, 36 เพิ่มขึ้นทีละ 6",
+          "why_md": "ตารางแบบนี้มีสองกฎพร้อมกัน ถ้าดูแค่ทิศเดียวจะได้คำตอบที่ขัดกับอีกทิศ"
+        },
+        {
+          "do_md": "เดินตามแถว: ช่องซ้ายของ X คือ 34 บวกผลต่างของคอลัมน์ ได้ 34 + 5 = 39",
+          "why_md": "เดินจากช่องที่ติดกันทีละช่อง ปลอดภัยกว่าการคูณตำแหน่งแล้วนับพลาด"
+        },
+        {
+          "do_md": "ตรวจจากคอลัมน์: ช่องบนของ X คือ 33 บวกผลต่างของแถว ได้ 33 + 6 = 39",
+          "why_md": "ได้ค่าเดียวกันจากสองทิศ จึงมั่นใจว่าไม่ได้นับช่องพลาด"
+        }
+      ],
+      "answer_explanation_md": "ผลต่างระหว่างคอลัมน์คือ 5 และผลต่างระหว่างแถวคือ 6 ช่อง X อยู่แถวที่ 3 คอลัมน์ที่ 4 จึงมีค่า 12 + 2 x 6 + 3 x 5 = 39 ซึ่งสอดคล้องทั้งแนวแถวและแนวคอลัมน์",
+      "hints": [
+        "ตารางแบบนี้มีกฎสองทิศพร้อมกัน ให้หากฎของแถวและกฎของคอลัมน์แยกกันก่อน",
+        "หากฎจากแถวหรือคอลัมน์ที่ **ไม่มี** ช่อง X อยู่ เช่นแถวที่ 1 หรือคอลัมน์ที่ 1",
+        "ได้กฎแล้วให้เดินจากช่องที่ติดกับ X ทีละช่อง แล้วตรวจอีกทิศให้ได้ค่าเดียวกัน"
+      ],
+      "distractor_reasons": {
+        "0": "นับตำแหน่งแถวเกินไปหนึ่งช่อง เพราะเริ่มนับแถวแรกเป็นหนึ่งแทนที่จะเป็นศูนย์",
+        "1": "บวกผลต่างของแถวกับคอลัมน์เข้าด้วยกันครั้งเดียว ไม่ได้คูณกับจำนวนช่องที่ห่างจากช่องแรก",
+        "2": "ใช้ผลต่างของแถวกับทั้งสองทิศ ไม่ได้สังเกตว่าผลต่างของคอลัมน์เป็นอีกค่า",
+        "4": "สลับแถวกับคอลัมน์ คือเอาผลต่างของแถวไปคูณกับตำแหน่งคอลัมน์"
+      },
+      "misconception_tags": [
+        "added_instead_of_multiplied",
+        "off_by_one_row",
+        "row_col_swapped",
+        "same_difference_both_axes"
+      ],
+      "template": {
+        "provider": "number_grid.missing_value",
+        "answer_kind": "number",
+        "params": {
+          "rows": 5,
+          "cols": 5,
+          "base_range": [
+            6,
+            20
+          ],
+          "dr_range": [
+            4,
+            12
+          ],
+          "dc_range": [
+            3,
+            10
+          ],
+          "hide_inner": true
+        },
+        "stem_tpl": "จากตารางตัวเลขที่กำหนด X แทนจำนวนใด\n\n[[fig1]]",
+        "quality_rules": [
+          "ตัวเลขในตารางและเฉลยคำนวณจากสูตรเชิงเส้นด้วยโค้ด ไม่ใช่การเดา",
+          "ตัวเลือกทุกตัวต้องต่างกันจริง และทุกตัวมาจากกฎที่ใช้ผิดจริง",
+          "ตัวเลขในตารางต้องเป็นจำนวนเต็มบวกทั้งหมด เพื่อไม่ให้โจทย์อ่านยากโดยไม่จำเป็น"
+        ]
+      },
+      "template_note": null,
+      "calculator_allowed": true,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.aptitude.numerical.number_grid.0011",
+      "topic_ids": [
+        "tpat3.aptitude.numerical.number_grid"
+      ],
+      "primary_topic_id": "tpat3.aptitude.numerical.number_grid",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ด้านตัวเลข รูปแบบตารางตัวเลข ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 4,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 2,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 95,
+      "stem_md": "จากตารางตัวเลขที่กำหนด X แทนจำนวนใด\n\n[[fig1]]",
+      "figures": [
+        {
+          "id": "fig1",
+          "type": "svg",
+          "alt": "ตารางตัวเลข 5 แถว 5 คอลัมน์ · แถวที่ 1 คือ 19, 23, 27, 31, 35 / แถวที่ 2 คือ 28, 32, 36, 40, 44 / แถวที่ 3 คือ 37, X, 45, 49, 53 / แถวที่ 4 คือ 46, 50, 54, 58, 62 / แถวที่ 5 คือ 55, 59, 63, 67, 71 · ช่อง X อยู่แถวที่ 3 คอลัมน์ที่ 2",
+          "svg": "<svg viewBox=\"0 0 300 220\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"10\" y=\"10\" width=\"56\" height=\"40\"/><rect x=\"66\" y=\"10\" width=\"56\" height=\"40\"/><rect x=\"122\" y=\"10\" width=\"56\" height=\"40\"/><rect x=\"178\" y=\"10\" width=\"56\" height=\"40\"/><rect x=\"234\" y=\"10\" width=\"56\" height=\"40\"/><rect x=\"10\" y=\"50\" width=\"56\" height=\"40\"/><rect x=\"66\" y=\"50\" width=\"56\" height=\"40\"/><rect x=\"122\" y=\"50\" width=\"56\" height=\"40\"/><rect x=\"178\" y=\"50\" width=\"56\" height=\"40\"/><rect x=\"234\" y=\"50\" width=\"56\" height=\"40\"/><rect x=\"10\" y=\"90\" width=\"56\" height=\"40\"/><rect x=\"66\" y=\"90\" width=\"56\" height=\"40\"/><rect x=\"122\" y=\"90\" width=\"56\" height=\"40\"/><rect x=\"178\" y=\"90\" width=\"56\" height=\"40\"/><rect x=\"234\" y=\"90\" width=\"56\" height=\"40\"/><rect x=\"10\" y=\"130\" width=\"56\" height=\"40\"/><rect x=\"66\" y=\"130\" width=\"56\" height=\"40\"/><rect x=\"122\" y=\"130\" width=\"56\" height=\"40\"/><rect x=\"178\" y=\"130\" width=\"56\" height=\"40\"/><rect x=\"234\" y=\"130\" width=\"56\" height=\"40\"/><rect x=\"10\" y=\"170\" width=\"56\" height=\"40\"/><rect x=\"66\" y=\"170\" width=\"56\" height=\"40\"/><rect x=\"122\" y=\"170\" width=\"56\" height=\"40\"/><rect x=\"178\" y=\"170\" width=\"56\" height=\"40\"/><rect x=\"234\" y=\"170\" width=\"56\" height=\"40\"/></g><g fill=\"currentColor\" font-size=\"18\" text-anchor=\"middle\" font-family=\"system-ui, sans-serif\"><text x=\"38\" y=\"36\">19</text><text x=\"94\" y=\"36\">23</text><text x=\"150\" y=\"36\">27</text><text x=\"206\" y=\"36\">31</text><text x=\"262\" y=\"36\">35</text><text x=\"38\" y=\"76\">28</text><text x=\"94\" y=\"76\">32</text><text x=\"150\" y=\"76\">36</text><text x=\"206\" y=\"76\">40</text><text x=\"262\" y=\"76\">44</text><text x=\"38\" y=\"116\">37</text><text x=\"94\" y=\"116\" font-weight=\"bold\">X</text><text x=\"150\" y=\"116\">45</text><text x=\"206\" y=\"116\">49</text><text x=\"262\" y=\"116\">53</text><text x=\"38\" y=\"156\">46</text><text x=\"94\" y=\"156\">50</text><text x=\"150\" y=\"156\">54</text><text x=\"206\" y=\"156\">58</text><text x=\"262\" y=\"156\">62</text><text x=\"38\" y=\"196\">55</text><text x=\"94\" y=\"196\">59</text><text x=\"150\" y=\"196\">63</text><text x=\"206\" y=\"196\">67</text><text x=\"262\" y=\"196\">71</text></g></svg>",
+          "caption": null
+        }
+      ],
+      "choices": [
+        {
+          "md": "41",
+          "is_answer": true
+        },
+        {
+          "md": "36",
+          "is_answer": false
+        },
+        {
+          "md": "46",
+          "is_answer": false
+        },
+        {
+          "md": "32",
+          "is_answer": false
+        },
+        {
+          "md": "50",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": {
+        "value": 41,
+        "unit": null,
+        "tolerance": 0
+      },
+      "solution_steps": [
+        {
+          "do_md": "หากฎของแถวจากแถวที่ไม่มี X เช่นแถวที่ 1 คือ 19, 23, 27, 31, 35 เพิ่มขึ้นทีละ 4",
+          "why_md": "ต้องหากฎจากแถวที่รู้ค่าครบก่อน เพราะแถวที่มี X หาผลต่างตรง ๆ ไม่ได้"
+        },
+        {
+          "do_md": "หากฎของคอลัมน์จากคอลัมน์ที่ไม่มี X เช่นคอลัมน์ที่ 1 คือ 19, 28, 37, 46, 55 เพิ่มขึ้นทีละ 9",
+          "why_md": "ตารางแบบนี้มีสองกฎพร้อมกัน ถ้าดูแค่ทิศเดียวจะได้คำตอบที่ขัดกับอีกทิศ"
+        },
+        {
+          "do_md": "เดินตามแถว: ช่องซ้ายของ X คือ 37 บวกผลต่างของคอลัมน์ ได้ 37 + 4 = 41",
+          "why_md": "เดินจากช่องที่ติดกันทีละช่อง ปลอดภัยกว่าการคูณตำแหน่งแล้วนับพลาด"
+        },
+        {
+          "do_md": "ตรวจจากคอลัมน์: ช่องบนของ X คือ 32 บวกผลต่างของแถว ได้ 32 + 9 = 41",
+          "why_md": "ได้ค่าเดียวกันจากสองทิศ จึงมั่นใจว่าไม่ได้นับช่องพลาด"
+        }
+      ],
+      "answer_explanation_md": "ผลต่างระหว่างคอลัมน์คือ 4 และผลต่างระหว่างแถวคือ 9 ช่อง X อยู่แถวที่ 3 คอลัมน์ที่ 2 จึงมีค่า 19 + 2 x 9 + 1 x 4 = 41 ซึ่งสอดคล้องทั้งแนวแถวและแนวคอลัมน์",
+      "hints": [
+        "ตารางแบบนี้มีกฎสองทิศพร้อมกัน ให้หากฎของแถวและกฎของคอลัมน์แยกกันก่อน",
+        "หากฎจากแถวหรือคอลัมน์ที่ **ไม่มี** ช่อง X อยู่ เช่นแถวที่ 1 หรือคอลัมน์ที่ 1",
+        "ได้กฎแล้วให้เดินจากช่องที่ติดกับ X ทีละช่อง แล้วตรวจอีกทิศให้ได้ค่าเดียวกัน"
+      ],
+      "distractor_reasons": {
+        "1": "สลับแถวกับคอลัมน์ คือเอาผลต่างของแถวไปคูณกับตำแหน่งคอลัมน์",
+        "2": "ใช้ผลต่างของแถวกับทั้งสองทิศ ไม่ได้สังเกตว่าผลต่างของคอลัมน์เป็นอีกค่า",
+        "3": "บวกผลต่างของแถวกับคอลัมน์เข้าด้วยกันครั้งเดียว ไม่ได้คูณกับจำนวนช่องที่ห่างจากช่องแรก",
+        "4": "นับตำแหน่งแถวเกินไปหนึ่งช่อง เพราะเริ่มนับแถวแรกเป็นหนึ่งแทนที่จะเป็นศูนย์"
+      },
+      "misconception_tags": [
+        "added_instead_of_multiplied",
+        "off_by_one_row",
+        "row_col_swapped",
+        "same_difference_both_axes"
+      ],
+      "template": {
+        "provider": "number_grid.missing_value",
+        "answer_kind": "number",
+        "params": {
+          "rows": 5,
+          "cols": 5,
+          "base_range": [
+            8,
+            25
+          ],
+          "dr_range": [
+            5,
+            13
+          ],
+          "dc_range": [
+            4,
+            11
+          ],
+          "hide_inner": true
+        },
+        "stem_tpl": "จากตารางตัวเลขที่กำหนด X แทนจำนวนใด\n\n[[fig1]]",
+        "quality_rules": [
+          "ตัวเลขในตารางและเฉลยคำนวณจากสูตรเชิงเส้นด้วยโค้ด ไม่ใช่การเดา",
+          "ตัวเลือกทุกตัวต้องต่างกันจริง และทุกตัวมาจากกฎที่ใช้ผิดจริง",
+          "ตัวเลขในตารางต้องเป็นจำนวนเต็มบวกทั้งหมด เพื่อไม่ให้โจทย์อ่านยากโดยไม่จำเป็น"
+        ]
+      },
+      "template_note": null,
+      "calculator_allowed": true,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.aptitude.numerical.number_grid.0012",
+      "topic_ids": [
+        "tpat3.aptitude.numerical.number_grid"
+      ],
+      "primary_topic_id": "tpat3.aptitude.numerical.number_grid",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ด้านตัวเลข รูปแบบตารางตัวเลข ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 5,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 2,
+        "needs_insight": true,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 110,
+      "stem_md": "จากตารางตัวเลขที่กำหนด X แทนจำนวนใด\n\n[[fig1]]",
+      "figures": [
+        {
+          "id": "fig1",
+          "type": "svg",
+          "alt": "ตารางตัวเลข 5 แถว 5 คอลัมน์ · แถวที่ 1 คือ 19, 26, 33, 40, 47 / แถวที่ 2 คือ 27, 34, 41, 48, 55 / แถวที่ 3 คือ 35, X, 49, 56, 63 / แถวที่ 4 คือ 43, 50, 57, 64, 71 / แถวที่ 5 คือ 51, 58, 65, 72, 79 · ช่อง X อยู่แถวที่ 3 คอลัมน์ที่ 2",
+          "svg": "<svg viewBox=\"0 0 300 220\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"10\" y=\"10\" width=\"56\" height=\"40\"/><rect x=\"66\" y=\"10\" width=\"56\" height=\"40\"/><rect x=\"122\" y=\"10\" width=\"56\" height=\"40\"/><rect x=\"178\" y=\"10\" width=\"56\" height=\"40\"/><rect x=\"234\" y=\"10\" width=\"56\" height=\"40\"/><rect x=\"10\" y=\"50\" width=\"56\" height=\"40\"/><rect x=\"66\" y=\"50\" width=\"56\" height=\"40\"/><rect x=\"122\" y=\"50\" width=\"56\" height=\"40\"/><rect x=\"178\" y=\"50\" width=\"56\" height=\"40\"/><rect x=\"234\" y=\"50\" width=\"56\" height=\"40\"/><rect x=\"10\" y=\"90\" width=\"56\" height=\"40\"/><rect x=\"66\" y=\"90\" width=\"56\" height=\"40\"/><rect x=\"122\" y=\"90\" width=\"56\" height=\"40\"/><rect x=\"178\" y=\"90\" width=\"56\" height=\"40\"/><rect x=\"234\" y=\"90\" width=\"56\" height=\"40\"/><rect x=\"10\" y=\"130\" width=\"56\" height=\"40\"/><rect x=\"66\" y=\"130\" width=\"56\" height=\"40\"/><rect x=\"122\" y=\"130\" width=\"56\" height=\"40\"/><rect x=\"178\" y=\"130\" width=\"56\" height=\"40\"/><rect x=\"234\" y=\"130\" width=\"56\" height=\"40\"/><rect x=\"10\" y=\"170\" width=\"56\" height=\"40\"/><rect x=\"66\" y=\"170\" width=\"56\" height=\"40\"/><rect x=\"122\" y=\"170\" width=\"56\" height=\"40\"/><rect x=\"178\" y=\"170\" width=\"56\" height=\"40\"/><rect x=\"234\" y=\"170\" width=\"56\" height=\"40\"/></g><g fill=\"currentColor\" font-size=\"18\" text-anchor=\"middle\" font-family=\"system-ui, sans-serif\"><text x=\"38\" y=\"36\">19</text><text x=\"94\" y=\"36\">26</text><text x=\"150\" y=\"36\">33</text><text x=\"206\" y=\"36\">40</text><text x=\"262\" y=\"36\">47</text><text x=\"38\" y=\"76\">27</text><text x=\"94\" y=\"76\">34</text><text x=\"150\" y=\"76\">41</text><text x=\"206\" y=\"76\">48</text><text x=\"262\" y=\"76\">55</text><text x=\"38\" y=\"116\">35</text><text x=\"94\" y=\"116\" font-weight=\"bold\">X</text><text x=\"150\" y=\"116\">49</text><text x=\"206\" y=\"116\">56</text><text x=\"262\" y=\"116\">63</text><text x=\"38\" y=\"156\">43</text><text x=\"94\" y=\"156\">50</text><text x=\"150\" y=\"156\">57</text><text x=\"206\" y=\"156\">64</text><text x=\"262\" y=\"156\">71</text><text x=\"38\" y=\"196\">51</text><text x=\"94\" y=\"196\">58</text><text x=\"150\" y=\"196\">65</text><text x=\"206\" y=\"196\">72</text><text x=\"262\" y=\"196\">79</text></g></svg>",
+          "caption": null
+        }
+      ],
+      "choices": [
+        {
+          "md": "50",
+          "is_answer": false
+        },
+        {
+          "md": "43",
+          "is_answer": false
+        },
+        {
+          "md": "41",
+          "is_answer": false
+        },
+        {
+          "md": "42",
+          "is_answer": true
+        },
+        {
+          "md": "34",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": {
+        "value": 42,
+        "unit": null,
+        "tolerance": 0
+      },
+      "solution_steps": [
+        {
+          "do_md": "หากฎของแถวจากแถวที่ไม่มี X เช่นแถวที่ 1 คือ 19, 26, 33, 40, 47 เพิ่มขึ้นทีละ 7",
+          "why_md": "ต้องหากฎจากแถวที่รู้ค่าครบก่อน เพราะแถวที่มี X หาผลต่างตรง ๆ ไม่ได้"
+        },
+        {
+          "do_md": "หากฎของคอลัมน์จากคอลัมน์ที่ไม่มี X เช่นคอลัมน์ที่ 1 คือ 19, 27, 35, 43, 51 เพิ่มขึ้นทีละ 8",
+          "why_md": "ตารางแบบนี้มีสองกฎพร้อมกัน ถ้าดูแค่ทิศเดียวจะได้คำตอบที่ขัดกับอีกทิศ"
+        },
+        {
+          "do_md": "เดินตามแถว: ช่องซ้ายของ X คือ 35 บวกผลต่างของคอลัมน์ ได้ 35 + 7 = 42",
+          "why_md": "เดินจากช่องที่ติดกันทีละช่อง ปลอดภัยกว่าการคูณตำแหน่งแล้วนับพลาด"
+        },
+        {
+          "do_md": "ตรวจจากคอลัมน์: ช่องบนของ X คือ 34 บวกผลต่างของแถว ได้ 34 + 8 = 42",
+          "why_md": "ได้ค่าเดียวกันจากสองทิศ จึงมั่นใจว่าไม่ได้นับช่องพลาด"
+        }
+      ],
+      "answer_explanation_md": "ผลต่างระหว่างคอลัมน์คือ 7 และผลต่างระหว่างแถวคือ 8 ช่อง X อยู่แถวที่ 3 คอลัมน์ที่ 2 จึงมีค่า 19 + 2 x 8 + 1 x 7 = 42 ซึ่งสอดคล้องทั้งแนวแถวและแนวคอลัมน์",
+      "hints": [
+        "ตารางแบบนี้มีกฎสองทิศพร้อมกัน ให้หากฎของแถวและกฎของคอลัมน์แยกกันก่อน",
+        "หากฎจากแถวหรือคอลัมน์ที่ **ไม่มี** ช่อง X อยู่ เช่นแถวที่ 1 หรือคอลัมน์ที่ 1",
+        "ได้กฎแล้วให้เดินจากช่องที่ติดกับ X ทีละช่อง แล้วตรวจอีกทิศให้ได้ค่าเดียวกัน"
+      ],
+      "distractor_reasons": {
+        "0": "นับตำแหน่งแถวเกินไปหนึ่งช่อง เพราะเริ่มนับแถวแรกเป็นหนึ่งแทนที่จะเป็นศูนย์",
+        "1": "ใช้ผลต่างของแถวกับทั้งสองทิศ ไม่ได้สังเกตว่าผลต่างของคอลัมน์เป็นอีกค่า",
+        "2": "สลับแถวกับคอลัมน์ คือเอาผลต่างของแถวไปคูณกับตำแหน่งคอลัมน์",
+        "4": "บวกผลต่างของแถวกับคอลัมน์เข้าด้วยกันครั้งเดียว ไม่ได้คูณกับจำนวนช่องที่ห่างจากช่องแรก"
+      },
+      "misconception_tags": [
+        "added_instead_of_multiplied",
+        "off_by_one_row",
+        "row_col_swapped",
+        "same_difference_both_axes"
+      ],
+      "template": {
+        "provider": "number_grid.missing_value",
+        "answer_kind": "number",
+        "params": {
+          "rows": 5,
+          "cols": 5,
+          "base_range": [
+            9,
+            30
+          ],
+          "dr_range": [
+            6,
+            15
+          ],
+          "dc_range": [
+            5,
+            13
+          ],
+          "hide_inner": true
+        },
+        "stem_tpl": "จากตารางตัวเลขที่กำหนด X แทนจำนวนใด\n\n[[fig1]]",
+        "quality_rules": [
+          "ตัวเลขในตารางและเฉลยคำนวณจากสูตรเชิงเส้นด้วยโค้ด ไม่ใช่การเดา",
+          "ตัวเลือกทุกตัวต้องต่างกันจริง และทุกตัวมาจากกฎที่ใช้ผิดจริง",
+          "ตัวเลขในตารางต้องเป็นจำนวนเต็มบวกทั้งหมด เพื่อไม่ให้โจทย์อ่านยากโดยไม่จำเป็น"
+        ]
+      },
+      "template_note": null,
+      "calculator_allowed": true,
+      "review_status": "ai_draft"
+    }
+  ]
+}

@@ -1,0 +1,1034 @@
+{
+  "schema_version": "1.0",
+  "subject": "tpat5",
+  "subject_name_th": "TPAT5 ความถนัดครุศาสตร์-ศึกษาศาสตร์",
+  "exam_codes": [
+    "TPAT5"
+  ],
+  "source_note": "ยืนยันโครงสอบแล้วจาก mytcas.com/blueprint/tpat5-50/ (ตรวจเมื่อ 20 กันยายน 2569): 100 ข้อ 100 คะแนน 180 นาที ปรนัย 5 ตัวเลือก แบ่ง 2 ส่วนคะแนนเท่ากัน ส่วนที่ 1 ความสามารถพื้นฐานทางวิชาชีพครู 50 ข้อ 50 คะแนน มี 5 ด้าน ด้านละ 10 ข้อ คือ ความสามารถทางการสื่อสาร / ความสามารถทางการคิดวิเคราะห์ / ความสามารถทางเทคโนโลยีสารสนเทศ / ความสามารถทางการเข้าใจตนเองและผู้อื่น / ความสามารถทางการคิดเพื่อการเรียนรู้ ส่วนที่ 2 คุณลักษณะความเป็นครู 50 ข้อ 50 คะแนน มี 5 ด้าน ด้านละ 10 ข้อ คือ การมีมนุษยสัมพันธ์ / ความรับผิดชอบต่อตนเองและสังคม ซื่อสัตย์ ยุติธรรม / การเข้าใจและยอมรับผู้อื่น / การเป็นผู้เรียนรู้และรักที่จะแบ่งปันความรู้ / การส่งเสริมให้ผู้อื่นมีความคิดสร้างสรรค์และการเป็นผู้นำ | ผังสอบไม่ได้ระบุ: รายการหัวข้อย่อยของแต่ละด้าน การหักคะแนนเมื่อตอบผิด และ **ไม่ได้ระบุว่าให้คะแนนแบบลดหลั่น** (ต่างจาก TGAT3 ที่ระบุไว้ชัด) จึงห้ามใช้ mcq4_tiered กับวิชานี้ | หัวข้อระดับ leaf ในผังนี้จึงเป็นการอนุมานจากชื่อด้าน ไม่ใช่รายการทางการ | ด้านการคิดวิเคราะห์และด้านเข้าใจตนเองและผู้อื่นทับกับ tgat3 ด้านการสื่อสารทับกับ tgat2.language จึงใช้บทเรียนร่วมกันผ่าน requires ไม่สร้างหัวข้อซ้ำ",
+  "topics": [
+    {
+      "id": "tpat5",
+      "name_th": "TPAT5 ความถนัดครุศาสตร์-ศึกษาศาสตร์",
+      "name_en": "TPAT5 Teaching Aptitude",
+      "kind": "subject",
+      "parent": null,
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "TPAT5",
+        "ความถนัดครุศาสตร์",
+        "วิชาชีพครู",
+        "teaching aptitude"
+      ],
+      "curriculum_ref": null,
+      "notes": "ข้อสอบวัดความถนัดและคุณลักษณะ ไม่ใช่วิชาเนื้อหาตามหลักสูตร | โครงสอบยืนยันแล้ว: 100 ข้อ 100 คะแนน **180 นาที** ปรนัย 5 ตัวเลือก 2 ส่วนคะแนนเท่ากัน ส่วนละ 50 ข้อ 5 ด้าน ด้านละ 10 ข้อพอดี | ตอนแต่งโจทย์วิชานี้ใช้ format mcq5 | **ส่วนที่ 2 เป็นข้อสอบเชิงทัศนคติและสถานการณ์** solution_steps ต้องอธิบาย เกณฑ์การตัดสินว่าทำไมตัวเลือกนี้เหมาะกับความเป็นครูมากกว่า ห้ามบอกว่าถูกเพราะถูก | **ผังสอบ TPAT5 ไม่ได้ระบุว่าให้คะแนนแบบลดหลั่น** ต่างจาก TGAT3 ที่ระบุไว้ชัด จึงห้ามใช้ mcq4_tiered หรือสรุปเอาเองว่ามีคะแนนบางส่วน | ส่วนที่ 2 ต้องให้คนตรวจ 100% เพราะเกณฑ์ความเหมาะสมผูกกับบริบทวิชาชีพครูไทย | ผังสอบไม่ได้ให้รายการหัวข้อย่อยของแต่ละด้าน หัวข้อ leaf จึงเป็นการอนุมาน"
+    },
+    {
+      "id": "tpat5.foundation",
+      "name_th": "พื้นฐานก่อนฝึก TPAT5",
+      "name_en": "Foundations for TPAT5",
+      "kind": "branch",
+      "parent": "tpat5",
+      "order": 1,
+      "grade_band": "m_early",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "easy",
+      "keywords": [
+        "พื้นฐาน",
+        "foundation"
+      ],
+      "curriculum_ref": null,
+      "notes": "ไม่ใช่ด้านทางการ เป็นกลุ่มที่เพิ่มเองสำหรับคนเริ่มจากศูนย์"
+    },
+    {
+      "id": "tpat5.foundation.what_exam_looks_for",
+      "name_th": "ข้อสอบนี้มองหาอะไรในตัวครู",
+      "name_en": "What This Exam Looks For in a Teacher",
+      "kind": "leaf",
+      "parent": "tpat5.foundation",
+      "order": 1,
+      "grade_band": "m_early",
+      "requires": [
+        "tgat3.foundation.how_to_read"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [],
+      "difficulty_band": "easy",
+      "keywords": [
+        "ความเป็นครู",
+        "เกณฑ์",
+        "คุณลักษณะ"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อนี้อนุมานจากชื่อด้านในผังสอบ ไม่ใช่รายการหัวข้อย่อยทางการ | หัวข้อตั้งต้นของทั้งวิชา ต้องเข้าใจก่อนว่าโจทย์มองหา ครูที่ยึดประโยชน์ของผู้เรียนเป็นหลัก ไม่ใช่ครูที่สะดวกที่สุดหรือเข้มที่สุด | ห้ามเขียนเกณฑ์ที่ผังสอบไม่ได้ระบุว่าเป็นเกณฑ์ให้คะแนน"
+    },
+    {
+      "id": "tpat5.foundation.judgement_for_teaching",
+      "name_th": "เกณฑ์ตัดสินตัวเลือกในบริบทห้องเรียน",
+      "name_en": "Judging Options in a Classroom Context",
+      "kind": "leaf",
+      "parent": "tpat5.foundation",
+      "order": 2,
+      "grade_band": "m_early",
+      "requires": [
+        "tpat5.foundation.what_exam_looks_for",
+        "tgat3.foundation.judgement_criteria"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "เกณฑ์ตัดสิน",
+        "ห้องเรียน",
+        "judgement"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อนี้อนุมานจากชื่อด้านในผังสอบ ไม่ใช่รายการหัวข้อย่อยทางการ | ต่อยอดจากเกณฑ์ตัดสินของ TGAT3 แต่เพิ่มมุมของครู คือผลต่อการเรียนรู้ของนักเรียน ความเป็นธรรมต่อทุกคนในห้อง และความปลอดภัย"
+    },
+    {
+      "id": "tpat5.foundation.time_management",
+      "name_th": "บริหารเวลา 100 ข้อใน 180 นาที",
+      "name_en": "Time Management for TPAT5",
+      "kind": "leaf",
+      "parent": "tpat5.foundation",
+      "order": 3,
+      "grade_band": "m_early",
+      "requires": [],
+      "est_minutes": 20,
+      "exam_weight": [],
+      "difficulty_band": "easy",
+      "keywords": [
+        "บริหารเวลา",
+        "time management"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อนี้อนุมานจากชื่อด้านในผังสอบ ไม่ใช่รายการหัวข้อย่อยทางการ | เฉลี่ยข้อละ ~1.8 นาที ข้อสอบ 100 ข้อยาวที่สุดในกลุ่ม TPAT ที่ทำผัง ต้องฝึกความทนในการอ่านสถานการณ์ยาวต่อเนื่อง"
+    },
+    {
+      "id": "tpat5.basic",
+      "name_th": "ความสามารถพื้นฐานทางวิชาชีพครู",
+      "name_en": "Basic Teaching Competencies",
+      "kind": "branch",
+      "parent": "tpat5",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT5",
+          "typical_items": "50 ข้อ 50 คะแนน",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ความสามารถพื้นฐาน",
+        "วิชาชีพครู"
+      ],
+      "curriculum_ref": null,
+      "notes": "ส่วนทางการที่ 1 มี 5 ด้านตามผังสอบ ด้านละ 10 ข้อพอดี"
+    },
+    {
+      "id": "tpat5.basic.communication",
+      "name_th": "ความสามารถทางการสื่อสาร",
+      "name_en": "Communication Ability",
+      "kind": "branch",
+      "parent": "tpat5.basic",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT5",
+          "typical_items": "10 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "การสื่อสาร",
+        "communication"
+      ],
+      "curriculum_ref": null,
+      "notes": "ด้านทางการ | ทักษะการอ่านและตีความภาษาไทยทับกับ tgat2.language.foundation ใช้บทเรียนร่วมกันได้ ที่ต่างคือบริบทเป็นการสื่อสารในห้องเรียน"
+    },
+    {
+      "id": "tpat5.basic.communication.explain_to_learner",
+      "name_th": "อธิบายเรื่องยากให้ผู้เรียนเข้าใจ",
+      "name_en": "Explaining Difficult Ideas to a Learner",
+      "kind": "leaf",
+      "parent": "tpat5.basic.communication",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat2.language.foundation.sentence_structure"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT5",
+          "typical_items": "อยู่ในด้านการสื่อสาร 10 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "อธิบาย",
+        "ถ่ายทอด",
+        "ผู้เรียน"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อนี้อนุมานจากชื่อด้านในผังสอบ ไม่ใช่รายการหัวข้อย่อยทางการ | เกณฑ์คือเริ่มจากสิ่งที่ผู้เรียนรู้แล้ว ไม่ใช่เริ่มจากศัพท์เทคนิค และตรวจว่าเข้าใจจริงไหม ไม่ใช่ถามว่าเข้าใจไหม"
+    },
+    {
+      "id": "tpat5.basic.communication.listen_and_clarify",
+      "name_th": "ฟังและถามย้อนให้ชัดก่อนตอบ",
+      "name_en": "Listening and Clarifying",
+      "kind": "leaf",
+      "parent": "tpat5.basic.communication",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat3.emotion.empathy.read_others"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT5",
+          "typical_items": "อยู่ในด้านการสื่อสาร 10 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "การฟัง",
+        "ถามย้อน",
+        "clarify"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อนี้อนุมานจากชื่อด้านในผังสอบ ไม่ใช่รายการหัวข้อย่อยทางการ | ตัวเลือกที่รีบตอบก่อนเข้าใจคำถามจริง มักไม่ใช่คำตอบที่เหมาะสมที่สุด"
+    },
+    {
+      "id": "tpat5.basic.analytical",
+      "name_th": "ความสามารถทางการคิดวิเคราะห์",
+      "name_en": "Analytical Thinking",
+      "kind": "branch",
+      "parent": "tpat5.basic",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT5",
+          "typical_items": "10 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "คิดวิเคราะห์",
+        "analytical thinking"
+      ],
+      "curriculum_ref": null,
+      "notes": "ด้านทางการ | **ทับกับ tgat3.value_innovation.analytical — ใช้บทเรียนร่วมกัน** หัวข้อที่ครอบคลุมแล้วคือ แยกข้อเท็จจริงจากความคิดเห็น หาสาเหตุที่แท้จริง และตัดสินว่าข้อมูลพอไหม | ที่ต่างคือบริบทเป็นปัญหาในห้องเรียนและโรงเรียน"
+    },
+    {
+      "id": "tpat5.basic.analytical.diagnose_learning_problem",
+      "name_th": "วิเคราะห์ว่านักเรียนติดขัดที่จุดไหน",
+      "name_en": "Diagnosing Where a Learner Is Stuck",
+      "kind": "leaf",
+      "parent": "tpat5.basic.analytical",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat3.value_innovation.analytical.root_cause"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT5",
+          "typical_items": "อยู่ในด้านการคิดวิเคราะห์ 10 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "วินิจฉัย",
+        "จุดที่ติดขัด",
+        "การเรียนรู้"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อนี้อนุมานจากชื่อด้านในผังสอบ ไม่ใช่รายการหัวข้อย่อยทางการ | ทักษะเฉพาะของครูที่ tgat3 ไม่มี คือแยกให้ออกว่าปัญหาอยู่ที่ ความรู้พื้นฐานที่ขาด วิธีสอน หรือแรงจูงใจ เพราะแก้คนละทาง"
+    },
+    {
+      "id": "tpat5.basic.analytical.interpret_classroom_data",
+      "name_th": "ตีความข้อมูลผลการเรียนก่อนสรุป",
+      "name_en": "Interpreting Classroom Data",
+      "kind": "leaf",
+      "parent": "tpat5.basic.analytical",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat3.value_innovation.analytical.enough_information"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT5",
+          "typical_items": "อยู่ในด้านการคิดวิเคราะห์ 10 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ข้อมูลผลการเรียน",
+        "ตีความ",
+        "สรุป"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อนี้อนุมานจากชื่อด้านในผังสอบ ไม่ใช่รายการหัวข้อย่อยทางการ | คะแนนที่ตกทั้งห้องบอกเรื่องการสอน ไม่ใช่บอกว่านักเรียนไม่ตั้งใจ"
+    },
+    {
+      "id": "tpat5.basic.infotech",
+      "name_th": "ความสามารถทางเทคโนโลยีสารสนเทศ",
+      "name_en": "Information Technology Ability",
+      "kind": "branch",
+      "parent": "tpat5.basic",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT5",
+          "typical_items": "10 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "เทคโนโลยีสารสนเทศ",
+        "IT",
+        "ดิจิทัล"
+      ],
+      "curriculum_ref": null,
+      "notes": "ด้านทางการ | ด้านเดียวในส่วนที่ 1 ที่ไม่ทับกับวิชาอื่นเลย ต้องทำบทเรียนใหม่ทั้งหมด"
+    },
+    {
+      "id": "tpat5.basic.infotech.choose_tool_for_purpose",
+      "name_th": "เลือกเครื่องมือดิจิทัลให้ตรงกับจุดประสงค์การสอน",
+      "name_en": "Choosing a Digital Tool for a Teaching Purpose",
+      "kind": "leaf",
+      "parent": "tpat5.basic.infotech",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [
+        "tpat5.foundation.judgement_for_teaching"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT5",
+          "typical_items": "อยู่ในด้านเทคโนโลยีสารสนเทศ 10 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "เครื่องมือดิจิทัล",
+        "สื่อการสอน",
+        "เลือกเครื่องมือ"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อนี้อนุมานจากชื่อด้านในผังสอบ ไม่ใช่รายการหัวข้อย่อยทางการ | เกณฑ์คือเครื่องมือต้องรับใช้จุดประสงค์การเรียนรู้ ตัวเลือกที่ใช้เทคโนโลยีเพราะทันสมัยแต่ไม่ช่วยให้เรียนรู้ดีขึ้น มักไม่ใช่คำตอบ"
+    },
+    {
+      "id": "tpat5.basic.infotech.evaluate_information",
+      "name_th": "ประเมินความน่าเชื่อถือของข้อมูลออนไลน์",
+      "name_en": "Evaluating Online Information",
+      "kind": "leaf",
+      "parent": "tpat5.basic.infotech",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat3.value_innovation.analytical.fact_vs_opinion"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT5",
+          "typical_items": "อยู่ในด้านเทคโนโลยีสารสนเทศ 10 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ความน่าเชื่อถือ",
+        "แหล่งข้อมูล",
+        "ข้อมูลออนไลน์"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อนี้อนุมานจากชื่อด้านในผังสอบ ไม่ใช่รายการหัวข้อย่อยทางการ | ทักษะที่ครูต้องมีก่อนสอนให้นักเรียน ดูแหล่งที่มา วันที่ และหลักฐาน"
+    },
+    {
+      "id": "tpat5.basic.infotech.digital_safety_ethics",
+      "name_th": "ความปลอดภัยและจริยธรรมดิจิทัลในห้องเรียน",
+      "name_en": "Digital Safety and Ethics in the Classroom",
+      "kind": "leaf",
+      "parent": "tpat5.basic.infotech",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "tpat5.foundation.judgement_for_teaching"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT5",
+          "typical_items": "อยู่ในด้านเทคโนโลยีสารสนเทศ 10 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ความปลอดภัยดิจิทัล",
+        "จริยธรรม",
+        "ข้อมูลส่วนบุคคล"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อนี้อนุมานจากชื่อด้านในผังสอบ ไม่ใช่รายการหัวข้อย่อยทางการ | ครอบคลุมการดูแลข้อมูลส่วนตัวของนักเรียน การขออนุญาตก่อนเผยแพร่ และการรับมือเมื่อเจอการกลั่นแกล้งออนไลน์ | เนื้อหาอาจอ้างกฎหมายหรือระเบียบ ต้องตั้ง review_status เป็น ai_draft_needs_fact_check และให้คนตรวจ"
+    },
+    {
+      "id": "tpat5.basic.self_others",
+      "name_th": "ความสามารถทางการเข้าใจตนเองและผู้อื่น",
+      "name_en": "Self and Interpersonal Understanding",
+      "kind": "branch",
+      "parent": "tpat5.basic",
+      "order": 4,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT5",
+          "typical_items": "10 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "เข้าใจตนเอง",
+        "เข้าใจผู้อื่น",
+        "empathy"
+      ],
+      "curriculum_ref": null,
+      "notes": "ด้านทางการ | **ทับกับ tgat3.emotion — ใช้บทเรียนร่วมกัน** หัวข้อที่ครอบคลุมแล้วคือ รู้ทันอารมณ์ตนเอง รู้ขีดจำกัด อ่านอารมณ์ผู้อื่น และตอบสนองเมื่อคนอื่นอารมณ์เสีย | ที่ต่างคือบริบทเป็นครูกับนักเรียนและผู้ปกครอง"
+    },
+    {
+      "id": "tpat5.basic.self_others.teacher_self_regulation",
+      "name_th": "จัดการอารมณ์ตนเองเมื่ออยู่หน้าห้อง",
+      "name_en": "Managing Your Own Emotions in Front of a Class",
+      "kind": "leaf",
+      "parent": "tpat5.basic.self_others",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat3.emotion.self_regulation.manage_anger_pressure"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT5",
+          "typical_items": "อยู่ในด้านเข้าใจตนเองและผู้อื่น 10 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "จัดการอารมณ์",
+        "หน้าห้องเรียน",
+        "ความกดดัน"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อนี้อนุมานจากชื่อด้านในผังสอบ ไม่ใช่รายการหัวข้อย่อยทางการ | ต่างจาก tgat3 ตรงที่ครูมีผู้ชมเป็นนักเรียนทั้งห้อง การแสดงอารมณ์จึงส่งผลต่อบรรยากาศการเรียนรู้โดยตรง"
+    },
+    {
+      "id": "tpat5.basic.self_others.understand_learner_difference",
+      "name_th": "เข้าใจความต่างของผู้เรียนแต่ละคน",
+      "name_en": "Understanding Learner Differences",
+      "kind": "leaf",
+      "parent": "tpat5.basic.self_others",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat3.emotion.empathy.read_others"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT5",
+          "typical_items": "อยู่ในด้านเข้าใจตนเองและผู้อื่น 10 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ความต่างของผู้เรียน",
+        "พื้นฐานต่างกัน",
+        "diversity"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อนี้อนุมานจากชื่อด้านในผังสอบ ไม่ใช่รายการหัวข้อย่อยทางการ | เกณฑ์คือปรับวิธีให้เข้ากับผู้เรียน ไม่ใช่คาดหวังให้ผู้เรียน ปรับตัวเข้ากับวิธีเดียวที่ครูถนัด"
+    },
+    {
+      "id": "tpat5.basic.thinking_learning",
+      "name_th": "ความสามารถทางการคิดเพื่อการเรียนรู้",
+      "name_en": "Learning-Focused Thinking",
+      "kind": "branch",
+      "parent": "tpat5.basic",
+      "order": 5,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT5",
+          "typical_items": "10 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "คิดเพื่อการเรียนรู้",
+        "learning"
+      ],
+      "curriculum_ref": null,
+      "notes": "ด้านทางการ | เน้นการออกแบบให้เกิดการเรียนรู้ ไม่ใช่การคิดทั่วไป"
+    },
+    {
+      "id": "tpat5.basic.thinking_learning.set_learning_goal",
+      "name_th": "ตั้งเป้าการเรียนรู้ที่วัดได้",
+      "name_en": "Setting Measurable Learning Goals",
+      "kind": "leaf",
+      "parent": "tpat5.basic.thinking_learning",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat3.complex_problem.evaluate.success_measure"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT5",
+          "typical_items": "อยู่ในด้านคิดเพื่อการเรียนรู้ 10 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "เป้าการเรียนรู้",
+        "วัดได้",
+        "learning goal"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อนี้อนุมานจากชื่อด้านในผังสอบ ไม่ใช่รายการหัวข้อย่อยทางการ | เป้าที่ดีบอกว่าผู้เรียนจะทำอะไรได้ ไม่ใช่บอกว่าครูจะสอนอะไร"
+    },
+    {
+      "id": "tpat5.basic.thinking_learning.design_activity",
+      "name_th": "ออกแบบกิจกรรมให้ตรงกับเป้าการเรียนรู้",
+      "name_en": "Designing Activities That Match the Goal",
+      "kind": "leaf",
+      "parent": "tpat5.basic.thinking_learning",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "tpat5.basic.thinking_learning.set_learning_goal"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT5",
+          "typical_items": "อยู่ในด้านคิดเพื่อการเรียนรู้ 10 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ออกแบบกิจกรรม",
+        "การสอน",
+        "activity design"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อนี้อนุมานจากชื่อด้านในผังสอบ ไม่ใช่รายการหัวข้อย่อยทางการ | กิจกรรมที่สนุกแต่ไม่พาไปถึงเป้า มักไม่ใช่ตัวเลือกที่ดีที่สุด"
+    },
+    {
+      "id": "tpat5.basic.thinking_learning.reflect_and_improve",
+      "name_th": "ทบทวนและปรับการสอนจากผลที่เกิดขึ้น",
+      "name_en": "Reflecting and Improving Your Teaching",
+      "kind": "leaf",
+      "parent": "tpat5.basic.thinking_learning",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat3.complex_problem.evaluate.adjust_after_result"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT5",
+          "typical_items": "อยู่ในด้านคิดเพื่อการเรียนรู้ 10 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ทบทวน",
+        "ปรับปรุง",
+        "reflection"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อนี้อนุมานจากชื่อด้านในผังสอบ ไม่ใช่รายการหัวข้อย่อยทางการ | เกณฑ์คือกลับไปดูว่าอะไรทำให้ไม่ถึงเป้า ไม่ใช่โทษผู้เรียน"
+    },
+    {
+      "id": "tpat5.characteristics",
+      "name_th": "คุณลักษณะความเป็นครู",
+      "name_en": "Teacher Characteristics",
+      "kind": "branch",
+      "parent": "tpat5",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT5",
+          "typical_items": "50 ข้อ 50 คะแนน",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "คุณลักษณะครู",
+        "teacher characteristics"
+      ],
+      "curriculum_ref": null,
+      "notes": "ส่วนทางการที่ 2 มี 5 ด้านตามผังสอบ ด้านละ 10 ข้อพอดี | **เป็นข้อสอบเชิงทัศนคติและสถานการณ์** ไม่ใช่ความรู้ ทุกหัวข้อในส่วนนี้ต้องให้คนตรวจ 100% เพราะเกณฑ์ผูกกับบริบทวิชาชีพครูไทย | ผังสอบไม่ได้ระบุว่าให้คะแนนแบบลดหลั่น จึงใช้ mcq5 ห้ามใช้ mcq4_tiered"
+    },
+    {
+      "id": "tpat5.characteristics.human_relations",
+      "name_th": "การมีมนุษยสัมพันธ์",
+      "name_en": "Human Relations",
+      "kind": "branch",
+      "parent": "tpat5.characteristics",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT5",
+          "typical_items": "10 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "มนุษยสัมพันธ์",
+        "human relations"
+      ],
+      "curriculum_ref": null,
+      "notes": "ด้านทางการ"
+    },
+    {
+      "id": "tpat5.characteristics.human_relations.work_with_colleagues",
+      "name_th": "ทำงานร่วมกับเพื่อนครูและผู้บริหาร",
+      "name_en": "Working with Colleagues and Administrators",
+      "kind": "leaf",
+      "parent": "tpat5.characteristics.human_relations",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [
+        "tpat5.foundation.judgement_for_teaching"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT5",
+          "typical_items": "อยู่ในด้านมนุษยสัมพันธ์ 10 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "เพื่อนร่วมงาน",
+        "ผู้บริหาร",
+        "ทำงานร่วมกัน"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อนี้อนุมานจากชื่อด้านในผังสอบ ไม่ใช่รายการหัวข้อย่อยทางการ | ตัวเลือกที่ข้ามหัวหน้าหรือนินทาลับหลัง มักไม่ใช่คำตอบที่เหมาะสม"
+    },
+    {
+      "id": "tpat5.characteristics.human_relations.work_with_parents",
+      "name_th": "สื่อสารกับผู้ปกครองเมื่อมีเรื่องต้องแจ้ง",
+      "name_en": "Communicating with Parents",
+      "kind": "leaf",
+      "parent": "tpat5.characteristics.human_relations",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "tpat5.basic.communication.listen_and_clarify"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT5",
+          "typical_items": "อยู่ในด้านมนุษยสัมพันธ์ 10 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ผู้ปกครอง",
+        "แจ้งข่าว",
+        "สื่อสาร"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อนี้อนุมานจากชื่อด้านในผังสอบ ไม่ใช่รายการหัวข้อย่อยทางการ | เกณฑ์คือแจ้งด้วยข้อเท็จจริง ไม่ตัดสินตัวเด็ก และเสนอทางร่วมมือ ไม่ใช่โยนปัญหาให้บ้านจัดการ"
+    },
+    {
+      "id": "tpat5.characteristics.responsibility",
+      "name_th": "ความรับผิดชอบต่อตนเองและสังคม ซื่อสัตย์ ยุติธรรม",
+      "name_en": "Responsibility, Honesty and Fairness",
+      "kind": "branch",
+      "parent": "tpat5.characteristics",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT5",
+          "typical_items": "10 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ความรับผิดชอบ",
+        "ซื่อสัตย์",
+        "ยุติธรรม"
+      ],
+      "curriculum_ref": null,
+      "notes": "ด้านทางการ"
+    },
+    {
+      "id": "tpat5.characteristics.responsibility.own_up_to_mistake",
+      "name_th": "ยอมรับความผิดพลาดของตนเองและแก้ไข",
+      "name_en": "Owning and Fixing Your Own Mistakes",
+      "kind": "leaf",
+      "parent": "tpat5.characteristics.responsibility",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat3.emotion.self_awareness.know_limits"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT5",
+          "typical_items": "อยู่ในด้านความรับผิดชอบ 10 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ยอมรับผิด",
+        "แก้ไข",
+        "ความรับผิดชอบ"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อนี้อนุมานจากชื่อด้านในผังสอบ ไม่ใช่รายการหัวข้อย่อยทางการ | ครูสอนเรื่องความซื่อสัตย์ด้วยการทำให้เห็น ไม่ใช่ด้วยการบอก"
+    },
+    {
+      "id": "tpat5.characteristics.responsibility.fair_assessment",
+      "name_th": "ให้คะแนนและตัดสินอย่างเป็นธรรม",
+      "name_en": "Assessing and Judging Fairly",
+      "kind": "leaf",
+      "parent": "tpat5.characteristics.responsibility",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "tpat5.foundation.judgement_for_teaching"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT5",
+          "typical_items": "อยู่ในด้านความรับผิดชอบ 10 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "ความเป็นธรรม",
+        "การให้คะแนน",
+        "fairness"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อนี้อนุมานจากชื่อด้านในผังสอบ ไม่ใช่รายการหัวข้อย่อยทางการ | ข้อยากของส่วนนี้ เพราะความเป็นธรรมกับความเมตตาขัดกันได้ เกณฑ์คือใช้มาตรฐานเดียวกับทุกคน แต่ให้โอกาสแก้ตัวอย่างเท่าเทียม"
+    },
+    {
+      "id": "tpat5.characteristics.accept_others",
+      "name_th": "การเข้าใจและยอมรับผู้อื่น",
+      "name_en": "Understanding and Accepting Others",
+      "kind": "branch",
+      "parent": "tpat5.characteristics",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT5",
+          "typical_items": "10 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ยอมรับผู้อื่น",
+        "เข้าใจผู้อื่น"
+      ],
+      "curriculum_ref": null,
+      "notes": "ด้านทางการ"
+    },
+    {
+      "id": "tpat5.characteristics.accept_others.include_every_learner",
+      "name_th": "ดูแลให้ผู้เรียนทุกคนมีที่ในห้องเรียน",
+      "name_en": "Making Room for Every Learner",
+      "kind": "leaf",
+      "parent": "tpat5.characteristics.accept_others",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [
+        "tpat5.basic.self_others.understand_learner_difference"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT5",
+          "typical_items": "อยู่ในด้านยอมรับผู้อื่น 10 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ผู้เรียนทุกคน",
+        "ไม่ทิ้งใครไว้",
+        "inclusion"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อนี้อนุมานจากชื่อด้านในผังสอบ ไม่ใช่รายการหัวข้อย่อยทางการ | ครอบคลุมผู้เรียนที่เรียนช้า เรียนเร็ว และมีความต้องการพิเศษ"
+    },
+    {
+      "id": "tpat5.characteristics.accept_others.handle_conflict_in_class",
+      "name_th": "จัดการความขัดแย้งระหว่างผู้เรียน",
+      "name_en": "Handling Conflict Between Learners",
+      "kind": "leaf",
+      "parent": "tpat5.characteristics.accept_others",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat3.emotion.empathy.respond_to_upset"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT5",
+          "typical_items": "อยู่ในด้านยอมรับผู้อื่น 10 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "ความขัดแย้ง",
+        "ไกล่เกลี่ย",
+        "conflict"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อนี้อนุมานจากชื่อด้านในผังสอบ ไม่ใช่รายการหัวข้อย่อยทางการ | เกณฑ์คือฟังทุกฝ่ายก่อนตัดสิน และแยกการแก้พฤติกรรม ออกจากการตัดสินคุณค่าของตัวเด็ก"
+    },
+    {
+      "id": "tpat5.characteristics.lifelong_learning",
+      "name_th": "การเป็นผู้เรียนรู้และรักที่จะแบ่งปันความรู้",
+      "name_en": "Lifelong Learning and Knowledge Sharing",
+      "kind": "branch",
+      "parent": "tpat5.characteristics",
+      "order": 4,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT5",
+          "typical_items": "10 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "เรียนรู้ตลอดชีวิต",
+        "แบ่งปันความรู้"
+      ],
+      "curriculum_ref": null,
+      "notes": "ด้านทางการ"
+    },
+    {
+      "id": "tpat5.characteristics.lifelong_learning.keep_learning",
+      "name_th": "พัฒนาตนเองต่อเนื่องหลังเป็นครูแล้ว",
+      "name_en": "Continuing to Learn as a Teacher",
+      "kind": "leaf",
+      "parent": "tpat5.characteristics.lifelong_learning",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat3.emotion.self_awareness.know_limits"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT5",
+          "typical_items": "อยู่ในด้านเรียนรู้และแบ่งปัน 10 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "พัฒนาตนเอง",
+        "เรียนรู้ต่อเนื่อง"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อนี้อนุมานจากชื่อด้านในผังสอบ ไม่ใช่รายการหัวข้อย่อยทางการ | ตัวเลือกที่ยอมรับว่าไม่รู้แล้วไปหาคำตอบ ดีกว่าการเดาให้นักเรียนฟัง"
+    },
+    {
+      "id": "tpat5.characteristics.lifelong_learning.share_with_others",
+      "name_th": "แบ่งปันความรู้และวิธีสอนกับเพื่อนครู",
+      "name_en": "Sharing Knowledge with Fellow Teachers",
+      "kind": "leaf",
+      "parent": "tpat5.characteristics.lifelong_learning",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "tpat5.characteristics.human_relations.work_with_colleagues"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT5",
+          "typical_items": "อยู่ในด้านเรียนรู้และแบ่งปัน 10 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "แบ่งปัน",
+        "เพื่อนครู",
+        "ชุมชนการเรียนรู้"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อนี้อนุมานจากชื่อด้านในผังสอบ ไม่ใช่รายการหัวข้อย่อยทางการ | เกณฑ์คือแบ่งปันเพื่อให้ผู้เรียนได้ประโยชน์ ไม่ใช่เพื่อแสดงว่าตัวเองเก่ง"
+    },
+    {
+      "id": "tpat5.characteristics.creativity_leadership",
+      "name_th": "การส่งเสริมให้ผู้อื่นมีความคิดสร้างสรรค์และการเป็นผู้นำ",
+      "name_en": "Promoting Creativity and Leadership in Others",
+      "kind": "branch",
+      "parent": "tpat5.characteristics",
+      "order": 5,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT5",
+          "typical_items": "10 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ความคิดสร้างสรรค์",
+        "ภาวะผู้นำ",
+        "ส่งเสริม"
+      ],
+      "curriculum_ref": null,
+      "notes": "ด้านทางการ"
+    },
+    {
+      "id": "tpat5.characteristics.creativity_leadership.encourage_creativity",
+      "name_th": "เปิดพื้นที่ให้ผู้เรียนคิดต่างและลองผิด",
+      "name_en": "Making Space for Different Ideas and Mistakes",
+      "kind": "leaf",
+      "parent": "tpat5.characteristics.creativity_leadership",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat3.value_innovation.innovation.opportunity_from_problem"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT5",
+          "typical_items": "อยู่ในด้านส่งเสริมความคิดสร้างสรรค์ 10 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "คิดสร้างสรรค์",
+        "คิดต่าง",
+        "ลองผิดลองถูก"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อนี้อนุมานจากชื่อด้านในผังสอบ ไม่ใช่รายการหัวข้อย่อยทางการ | เกณฑ์สำคัญคือปฏิกิริยาของครูเมื่อนักเรียนตอบผิดหรือตอบนอกกรอบ เป็นตัวกำหนดว่าห้องนั้นจะกล้าคิดต่อไปหรือไม่"
+    },
+    {
+      "id": "tpat5.characteristics.creativity_leadership.grow_student_leaders",
+      "name_th": "ส่งเสริมให้ผู้เรียนได้นำและรับผิดชอบ",
+      "name_en": "Growing Leadership in Learners",
+      "kind": "leaf",
+      "parent": "tpat5.characteristics.creativity_leadership",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "tpat5.characteristics.creativity_leadership.encourage_creativity"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT5",
+          "typical_items": "อยู่ในด้านส่งเสริมความคิดสร้างสรรค์ 10 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ภาวะผู้นำ",
+        "มอบความรับผิดชอบ",
+        "student leader"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อนี้อนุมานจากชื่อด้านในผังสอบ ไม่ใช่รายการหัวข้อย่อยทางการ | เกณฑ์คือให้โอกาสนำแล้วหนุนอยู่ข้างหลัง ไม่ใช่ครูทำแทนทั้งหมดหรือปล่อยให้ล้มเอง"
+    }
+  ]
+}

@@ -1,0 +1,599 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tgat1.speaking.question_response.apology_thanks",
+  "problems": [
+    {
+      "id": "prob.tgat1.speaking.question_response.apology_thanks.0001",
+      "topic_ids": [
+        "tgat1.speaking.question_response.apology_thanks"
+      ],
+      "primary_topic_id": "tgat1.speaking.question_response.apology_thanks",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 25,
+      "stem_md": "**A:** Thanks for lending me your notes.  \n**B:** ______",
+      "figures": [],
+      "choices": [
+        {
+          "md": "That's OK. It wasn't your fault.",
+          "is_answer": false
+        },
+        {
+          "md": "Yes, I lent them.",
+          "is_answer": false
+        },
+        {
+          "md": "Sorry, they are my notes.",
+          "is_answer": false
+        },
+        {
+          "md": "No problem. I hope they help.",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ระบุ: A ขอบคุณ",
+          "why_md": "ต้องตอบคำขอบคุณ"
+        },
+        {
+          "do_md": "No problem. = ด้วยความยินดี แบบไม่ทางการ",
+          "why_md": "เพิ่ม I hope they help. ให้เป็นธรรมชาติ"
+        }
+      ],
+      "answer_explanation_md": "ตอบ No problem. I hope they help. เพราะ A ขอบคุณ คำตอบที่เหมาะคือรับคำขอบคุณ",
+      "hints": [
+        "ประโยคของ A คือขอบคุณหรือขอโทษ",
+        "คำตอบของคำขอบคุณแบบไม่ทางการมีอะไรบ้าง",
+        "ตัดตัวเลือกที่เป็นคำตอบของคำขอโทษ"
+      ],
+      "distractor_reasons": {
+        "0": "เป็นคำตอบของคำขอโทษ ไม่ใช่คำขอบคุณ",
+        "1": "ทวนข้อเท็จจริงแต่ไม่ได้ตอบคำขอบคุณ",
+        "2": "ขอโทษโดยไม่มีเหตุผล"
+      },
+      "misconception_tags": [
+        "welcome_for_sorry"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.question_response.apology_thanks.0002",
+      "topic_ids": [
+        "tgat1.speaking.question_response.apology_thanks"
+      ],
+      "primary_topic_id": "tgat1.speaking.question_response.apology_thanks",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 30,
+      "stem_md": "**A:** I'm sorry I forgot to call you back last night.  \n**B:** ______",
+      "figures": [],
+      "choices": [
+        {
+          "md": "Don't worry about it. We can talk now.",
+          "is_answer": true
+        },
+        {
+          "md": "I'm sorry, too. I forgot.",
+          "is_answer": false
+        },
+        {
+          "md": "You're welcome. You can call me back anytime you like.",
+          "is_answer": false
+        },
+        {
+          "md": "Yes, you forgot last night.",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ระบุ: A ขอโทษ",
+          "why_md": "ต้องรับคำขอโทษ"
+        },
+        {
+          "do_md": "Don't worry about it. + เสนอคุยตอนนี้",
+          "why_md": "รับคำขอโทษและแก้ปัญหาได้ทันที"
+        }
+      ],
+      "answer_explanation_md": "ตอบ Don't worry about it. We can talk now. เพราะรับคำขอโทษอย่างใจกว้างและพาบทสนทนาไปต่อ",
+      "hints": [
+        "A ขอบคุณหรือขอโทษ",
+        "You're welcome ใช้ตอบอะไร",
+        "คำตอบที่ดีรับคำขอโทษและพาบทสนทนาต่อไปได้"
+      ],
+      "distractor_reasons": {
+        "1": "B ไม่ได้ทำผิดอะไร การขอโทษกลับไม่เข้ากับสถานการณ์",
+        "2": "You're welcome ใช้ตอบคำขอบคุณ ไม่ใช่คำขอโทษ",
+        "3": "ทวนความผิดของ A ซ้ำ ไม่ได้รับคำขอโทษ"
+      },
+      "misconception_tags": [
+        "welcome_for_sorry"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.question_response.apology_thanks.0003",
+      "topic_ids": [
+        "tgat1.speaking.question_response.apology_thanks"
+      ],
+      "primary_topic_id": "tgat1.speaking.question_response.apology_thanks",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 40,
+      "stem_md": "**A:** I heard you didn't pass the audition. I'm sorry to hear that.  \n**B:** ______",
+      "figures": [],
+      "choices": [
+        {
+          "md": "You're welcome.",
+          "is_answer": false
+        },
+        {
+          "md": "Yes, you heard it wrong.",
+          "is_answer": false
+        },
+        {
+          "md": "Thanks. I'll try again next year.",
+          "is_answer": true
+        },
+        {
+          "md": "That's OK. It's not your fault that I didn't pass.",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ระบุ: I'm sorry to hear that = แสดงความเห็นใจ",
+          "why_md": "ไม่ใช่การขอโทษ"
+        },
+        {
+          "do_md": "ตอบด้วยการขอบคุณที่เห็นใจ",
+          "why_md": "Thanks. และบอกว่าจะพยายามใหม่"
+        }
+      ],
+      "answer_explanation_md": "ตอบ Thanks. I'll try again next year. เพราะ A แสดงความเห็นใจ ไม่ได้ขอโทษ คำตอบที่เหมาะคือขอบคุณ",
+      "hints": [
+        "A ทำอะไรผิดไหม ทำไมถึงพูดว่า sorry",
+        "sorry to hear that ใช้เพื่อขอโทษหรือเพื่อแสดงความเห็นใจ",
+        "คนที่ได้รับความเห็นใจควรตอบอย่างไร"
+      ],
+      "distractor_reasons": {
+        "0": "เป็นคำตอบของคำขอบคุณ",
+        "1": "ขัดกับข้อเท็จจริงในบทสนทนา",
+        "3": "ตีความ sorry to hear that ว่า A ขอโทษ ทั้งที่ A แสดงความเห็นใจ"
+      },
+      "misconception_tags": [
+        "sorry_to_hear_as_apology"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.question_response.apology_thanks.0004",
+      "topic_ids": [
+        "tgat1.speaking.question_response.apology_thanks"
+      ],
+      "primary_topic_id": "tgat1.speaking.question_response.apology_thanks",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 30,
+      "stem_md": "**A:** I really appreciate you staying late to help me finish the report.  \n**B:** ______",
+      "figures": [],
+      "choices": [
+        {
+          "md": "The report was finished late.",
+          "is_answer": false
+        },
+        {
+          "md": "I'm glad I could help.",
+          "is_answer": true
+        },
+        {
+          "md": "Sorry, I stayed too late.",
+          "is_answer": false
+        },
+        {
+          "md": "I appreciate it, too.",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ระบุ: I really appreciate... = ขอบคุณอย่างจริงใจ",
+          "why_md": "ต้องตอบคำขอบคุณ"
+        },
+        {
+          "do_md": "I'm glad I could help. = ยินดีที่ช่วยได้",
+          "why_md": "เหมาะกับการตอบคำขอบคุณที่จริงจัง"
+        }
+      ],
+      "answer_explanation_md": "ตอบ I'm glad I could help. เพราะ A ขอบคุณอย่างจริงใจ คำตอบที่เหมาะคือบอกว่ายินดีที่ช่วยได้",
+      "hints": [
+        "appreciate มีความหมายใกล้กับคำไหน",
+        "ประโยคของ A คือขอบคุณหรือขอโทษ",
+        "คำตอบของคำขอบคุณที่จริงจังคืออะไร"
+      ],
+      "distractor_reasons": {
+        "0": "บอกข้อเท็จจริงแต่ไม่ได้ตอบคำขอบคุณ",
+        "2": "ขอโทษโดยไม่มีเหตุผล",
+        "3": "ทวนคำว่า appreciate แต่ทำให้ดูเหมือน B ก็ขอบคุณ A"
+      },
+      "misconception_tags": [
+        "word_match_trap"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.question_response.apology_thanks.0005",
+      "topic_ids": [
+        "tgat1.speaking.question_response.apology_thanks"
+      ],
+      "primary_topic_id": "tgat1.speaking.question_response.apology_thanks",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 40,
+      "stem_md": "**A:** Excuse me, I'm afraid you've charged me twice for the same coffee.  \n**B:** ______",
+      "figures": [],
+      "choices": [
+        {
+          "md": "You're welcome. Enjoy your coffee and have a nice day.",
+          "is_answer": false
+        },
+        {
+          "md": "That's OK. It happens.",
+          "is_answer": false
+        },
+        {
+          "md": "I'm so sorry. Let me refund it now.",
+          "is_answer": true
+        },
+        {
+          "md": "I'm afraid, too.",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ระบุ: ลูกค้าแจ้งข้อผิดพลาด (I'm afraid... = แจ้งข่าวไม่ดีอย่างสุภาพ)",
+          "why_md": "ร้านเป็นฝ่ายผิด"
+        },
+        {
+          "do_md": "คำตอบที่ดี: ขอโทษ + แก้ไขทันที",
+          "why_md": "Let me refund it for you right away."
+        }
+      ],
+      "answer_explanation_md": "ตอบ I'm so sorry. Let me refund it now. เพราะร้านเป็นฝ่ายผิด ต้องขอโทษและแก้ไขทันที",
+      "hints": [
+        "ใครเป็นฝ่ายผิดในสถานการณ์นี้",
+        "I'm afraid... ในที่นี้แปลว่ากลัว หรือเป็นการแจ้งเรื่องไม่ดีอย่างสุภาพ",
+        "ฝ่ายผิดควรทำอะไรนอกจากขอโทษ"
+      ],
+      "distractor_reasons": {
+        "0": "ตอบเหมือนลูกค้าขอบคุณ ไม่ได้รับรู้ปัญหา",
+        "1": "เป็นคำพูดของคนที่ถูกขอโทษ แต่ในสถานการณ์นี้ร้านเป็นฝ่ายผิด",
+        "3": "ทวนคำว่า afraid โดยไม่มีความหมาย"
+      },
+      "misconception_tags": [
+        "welcome_for_sorry"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.question_response.apology_thanks.0006",
+      "topic_ids": [
+        "tgat1.speaking.question_response.apology_thanks"
+      ],
+      "primary_topic_id": "tgat1.speaking.question_response.apology_thanks",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 25,
+      "stem_md": "**A:** Oops! Sorry, I spilled some water on your desk.  \n**B:** ______",
+      "figures": [],
+      "choices": [
+        {
+          "md": "It's OK. Let's wipe it up.",
+          "is_answer": true
+        },
+        {
+          "md": "Thank you. That's kind of you.",
+          "is_answer": false
+        },
+        {
+          "md": "Sorry to hear that.",
+          "is_answer": false
+        },
+        {
+          "md": "You're welcome to spill it.",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ระบุ: A ขอโทษที่ทำน้ำหก",
+          "why_md": "ต้องรับคำขอโทษ"
+        },
+        {
+          "do_md": "รับคำขอโทษ + ช่วยกันจัดการปัญหา",
+          "why_md": "It's OK. Let's wipe it up."
+        }
+      ],
+      "answer_explanation_md": "ตอบ It's OK. Let's wipe it up. เพราะรับคำขอโทษและชวนกันจัดการปัญหาที่เกิดขึ้น",
+      "hints": [
+        "A ขอโทษเรื่องอะไร",
+        "คำตอบรับคำขอโทษแบบไม่ถือสาคืออะไร",
+        "คำตอบที่ดีแก้ปัญหาที่เกิดขึ้นด้วยไหม"
+      ],
+      "distractor_reasons": {
+        "1": "ตอบเหมือนได้รับความช่วยเหลือ",
+        "2": "เป็นการแสดงความเห็นใจเรื่องร้ายของคนอื่น ไม่เข้ากับสถานการณ์",
+        "3": "ใช้ You're welcome ผิดความหมายและไม่สมเหตุผล"
+      },
+      "misconception_tags": [
+        "welcome_for_sorry"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.question_response.apology_thanks.0007",
+      "topic_ids": [
+        "tgat1.speaking.question_response.apology_thanks"
+      ],
+      "primary_topic_id": "tgat1.speaking.question_response.apology_thanks",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 45,
+      "stem_md": "**A:** I'm sorry I spilled coffee on your draft.  \n**B:** ______",
+      "figures": [],
+      "choices": [
+        {
+          "md": "I'm sorry to hear your coffee.",
+          "is_answer": false
+        },
+        {
+          "md": "Thanks for the coffee draft.",
+          "is_answer": false
+        },
+        {
+          "md": "You're welcome to spill it.",
+          "is_answer": false
+        },
+        {
+          "md": "It's okay. I saved another copy.",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ระบุหน้าที่ของประโยค",
+          "why_md": "เป็นการขอโทษจากอุบัติเหตุ"
+        },
+        {
+          "do_md": "ตรวจคำตอบกับบริบทและระดับภาษา",
+          "why_md": "คำตอบต้องทำหน้าที่ต่อบทสนทนา ไม่ใช่แค่มีคำซ้ำ"
+        }
+      ],
+      "answer_explanation_md": "ตอบรับคำขอโทษและบอกว่ามีสำเนาสำรอง",
+      "hints": [
+        "ดูว่าผู้พูดกำลังถาม ขอ เชิญ หรือแสดงความรู้สึก",
+        "ตัดตัวเลือกที่ไวยากรณ์ได้แต่ตอบคนละหน้าที่",
+        "เลือกคำตอบที่ทำให้บทสนทนาดำเนินต่ออย่างเป็นธรรมชาติ"
+      ],
+      "distractor_reasons": {
+        "0": "ใช้วลีแสดงความเห็นใจผิดบริบท",
+        "1": "ขอบคุณสิ่งที่สร้างความเสียหาย",
+        "2": "ใช้ You're welcome ผิดกับคำขอโทษ"
+      },
+      "misconception_tags": [
+        "welcome_for_sorry"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.question_response.apology_thanks.0008",
+      "topic_ids": [
+        "tgat1.speaking.question_response.apology_thanks"
+      ],
+      "primary_topic_id": "tgat1.speaking.question_response.apology_thanks",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 5,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": true,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 55,
+      "stem_md": "**A:** Thank you for staying late to fix the figures.  \n**B:** ______",
+      "figures": [],
+      "choices": [
+        {
+          "md": "You're welcome, so you owe me one.",
+          "is_answer": false
+        },
+        {
+          "md": "No problem. I'm glad we caught the error in time.",
+          "is_answer": true
+        },
+        {
+          "md": "I'm sorry to hear that you stayed.",
+          "is_answer": false
+        },
+        {
+          "md": "Never mind; the figures thanked me.",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ระบุหน้าที่ของประโยค",
+          "why_md": "เป็นคำขอบคุณในบริบททำงานร่วมกัน"
+        },
+        {
+          "do_md": "ตรวจคำตอบกับบริบทและระดับภาษา",
+          "why_md": "คำตอบต้องทำหน้าที่ต่อบทสนทนา ไม่ใช่แค่มีคำซ้ำ"
+        }
+      ],
+      "answer_explanation_md": "รับคำขอบคุณและเชื่อมกับผลดีของทีมอย่างเป็นมืออาชีพ",
+      "hints": [
+        "ดูว่าผู้พูดกำลังถาม ขอ เชิญ หรือแสดงความรู้สึก",
+        "ตัดตัวเลือกที่ไวยากรณ์ได้แต่ตอบคนละหน้าที่",
+        "เลือกคำตอบที่ทำให้บทสนทนาดำเนินต่ออย่างเป็นธรรมชาติ"
+      ],
+      "distractor_reasons": {
+        "0": "เริ่มรับคำขอบคุณแต่ลงท้ายกดดันไม่เหมาะกับงาน",
+        "2": "แสดงความเสียใจกับการช่วยเหลือ",
+        "3": "Never mind ไม่รับคำขอบคุณและประธานผิด"
+      },
+      "misconception_tags": [
+        "welcome_for_sorry"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    }
+  ],
+  "generated_from": "content/tgat1/speaking_qr.py"
+}

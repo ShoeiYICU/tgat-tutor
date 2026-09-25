@@ -1,0 +1,1822 @@
+{
+  "schema_version": "1.0",
+  "subject": "math1",
+  "subject_name_th": "A-Level คณิตศาสตร์ประยุกต์ 1",
+  "exam_codes": [
+    "ALEVEL_61"
+  ],
+  "source_note": "ยืนยันโครงสอบแล้วจาก mytcas.com/blueprint/a-level-61-math1/ (ตรวจ 21 กันยายน 2569): 30 ข้อ 100 คะแนน 90 นาที ประเภทข้อสอบ 'ปรนัย 5 ตัวเลือก / ระบายคำตอบที่เป็นตัวเลข' แบ่งเป็น ปรนัย 5 ตัวเลือก 25 ข้อ 75 คะแนน และ ระบายคำตอบที่เป็นตัวเลข 5 ข้อ 25 คะแนน | 4 ส่วน คือ สาระจำนวนและพีชคณิต 15-17 ข้อ / สาระการวัดและเรขาคณิต 3-5 ข้อ / สาระสถิติและความน่าจะเป็น 6-8 ข้อ / สาระแคลคูลัส 2-4 ข้อ | ผังสอบให้ชื่อหัวข้อทางการ 16 หัวข้อ แต่ไม่ได้ซอยย่อยกว่านั้น หัวข้อระดับ leaf จึงเป็นการซอยของเราเอง ไม่ใช่รายการทางการ | ผังสอบไม่ได้ระบุ: จำนวนข้อของแต่ละหัวข้อ และการใช้เครื่องคิดเลข",
+  "topics": [
+    {
+      "id": "math1",
+      "name_th": "A-Level คณิตศาสตร์ประยุกต์ 1",
+      "name_en": "",
+      "kind": "subject",
+      "parent": null,
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ALEVEL_61",
+        "1"
+      ],
+      "curriculum_ref": null,
+      "notes": "วิชาเนื้อหาตามหลักสูตร ต่างจากกลุ่ม TGAT/TPAT ที่วัดสมรรถนะ | โครงสอบยืนยันแล้ว: 30 ข้อ 100 คะแนน 90 นาที | **มี 2 รูปแบบข้อสอบ** ปรนัย 5 ตัวเลือก 25 ข้อ (ใช้ format mcq5) และ ระบายคำตอบที่เป็นตัวเลข 5 ข้อ (ใช้ format numeric) ข้อแบบระบายตัวเลขคิดเป็น 25 คะแนน คือข้อละ 5 คะแนน มากกว่าข้อปรนัยกว่าเท่าตัว | วิชานี้ทำแม่แบบ (template) ได้เกือบทุกหัวข้อ เพราะคำตอบเป็นตัวเลข ควรบังคับให้ทุกข้อมี template | เวลาเฉลี่ย 3 นาทีต่อข้อ โจทย์จึงยาวและหลายขั้นได้"
+    },
+    {
+      "id": "math1.number_algebra",
+      "name_th": "สาระจำนวนและพีชคณิต",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "math1",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_61",
+          "typical_items": "15-17 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "จำนวนและพีชคณิต"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (ส่วนทางการ) · ผังสอบระบุ 15-17 ข้อ · ส่วนที่ใหญ่ที่สุดของวิชา ควรลงแรงมากที่สุด"
+    },
+    {
+      "id": "math1.number_algebra.set",
+      "name_th": "เซต",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "math1.number_algebra",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "เซต"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "math1.number_algebra.set.basics",
+      "name_th": "ความหมาย สัญลักษณ์ และการเขียนแทนเซต",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "math1.number_algebra.set",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 20,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_61",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "easy",
+      "keywords": [
+        "เซต",
+        "สัญลักษณ์"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "math1.number_algebra.set.operations",
+      "name_th": "การดำเนินการของเซตและแผนภาพเวนน์",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "math1.number_algebra.set",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "math1.number_algebra.set.basics"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_61",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "easy",
+      "keywords": [
+        "ยูเนียน",
+        "อินเตอร์เซกชัน"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "math1.number_algebra.set.cardinality",
+      "name_th": "จำนวนสมาชิกของเซตจำกัดและการนับซ้ำ",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "math1.number_algebra.set",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "math1.number_algebra.set.operations"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_61",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "จำนวนสมาชิก",
+        "นับซ้ำ"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "math1.number_algebra.set.word_problem",
+      "name_th": "โจทย์ปัญหาที่ใช้เซตแก้",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "math1.number_algebra.set",
+      "order": 4,
+      "grade_band": "mixed",
+      "requires": [
+        "math1.number_algebra.set.cardinality"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_61",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "โจทย์ปัญหา",
+        "เซต"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "math1.number_algebra.logic",
+      "name_th": "ตรรกศาสตร์",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "math1.number_algebra",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ตรรกศาสตร์"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "math1.number_algebra.logic.proposition",
+      "name_th": "ประพจน์และค่าความจริง",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "math1.number_algebra.logic",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 20,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_61",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "easy",
+      "keywords": [
+        "ประพจน์",
+        "ค่าความจริง"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "math1.number_algebra.logic.connectives",
+      "name_th": "ตัวเชื่อมและตารางค่าความจริง",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "math1.number_algebra.logic",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "math1.number_algebra.logic.proposition"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_61",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ตัวเชื่อม",
+        "ตารางค่าความจริง"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "math1.number_algebra.logic.equivalence",
+      "name_th": "สมมูลและนิเสธ",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "math1.number_algebra.logic",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "math1.number_algebra.logic.connectives"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_61",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "สมมูล",
+        "นิเสธ"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "math1.number_algebra.logic.quantifier",
+      "name_th": "ตัวบ่งปริมาณและการอ้างเหตุผล",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "math1.number_algebra.logic",
+      "order": 4,
+      "grade_band": "mixed",
+      "requires": [
+        "math1.number_algebra.logic.equivalence"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_61",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "ตัวบ่งปริมาณ",
+        "อ้างเหตุผล"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "math1.number_algebra.real_polynomial",
+      "name_th": "จำนวนจริงและพหุนาม",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "math1.number_algebra",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "จำนวนจริงและพหุนาม"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "math1.number_algebra.real_polynomial.properties",
+      "name_th": "สมบัติของจำนวนจริงและการแยกตัวประกอบ",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "math1.number_algebra.real_polynomial",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_61",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "easy",
+      "keywords": [
+        "จำนวนจริง",
+        "แยกตัวประกอบ"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "math1.number_algebra.real_polynomial.equation",
+      "name_th": "สมการพหุนามและทฤษฎีบทเศษเหลือ",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "math1.number_algebra.real_polynomial",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "math1.number_algebra.real_polynomial.properties"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_61",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "สมการพหุนาม",
+        "เศษเหลือ"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "math1.number_algebra.real_polynomial.inequality",
+      "name_th": "อสมการและการแก้อสมการ",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "math1.number_algebra.real_polynomial",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "math1.number_algebra.real_polynomial.equation"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_61",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "อสมการ"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "math1.number_algebra.real_polynomial.absolute",
+      "name_th": "ค่าสัมบูรณ์ในสมการและอสมการ",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "math1.number_algebra.real_polynomial",
+      "order": 4,
+      "grade_band": "mixed",
+      "requires": [
+        "math1.number_algebra.real_polynomial.inequality"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_61",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ค่าสัมบูรณ์"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "math1.number_algebra.function",
+      "name_th": "ฟังก์ชัน",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "math1.number_algebra",
+      "order": 4,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ฟังก์ชัน"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "math1.number_algebra.function.definition",
+      "name_th": "ความหมาย โดเมน และเรนจ์",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "math1.number_algebra.function",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_61",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "easy",
+      "keywords": [
+        "ฟังก์ชัน",
+        "โดเมน",
+        "เรนจ์"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "math1.number_algebra.function.composite",
+      "name_th": "ฟังก์ชันประกอบและฟังก์ชันผกผัน",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "math1.number_algebra.function",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "math1.number_algebra.function.definition"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_61",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ฟังก์ชันประกอบ",
+        "ผกผัน"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "math1.number_algebra.function.graph",
+      "name_th": "กราฟของฟังก์ชันและการเลื่อนกราฟ",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "math1.number_algebra.function",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "math1.number_algebra.function.composite"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_61",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "กราฟ",
+        "เลื่อนกราฟ"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "math1.number_algebra.exp_log",
+      "name_th": "ฟังก์ชันเอกซ์โพเนนเชียลและฟังก์ชันลอการิทึม",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "math1.number_algebra",
+      "order": 5,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ฟังก์ชันเอกซ์โพเนนเชียลและฟังก์ชันลอการิทึม"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "math1.number_algebra.exp_log.exponent_rules",
+      "name_th": "เลขยกกำลังและรากที่ n",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "math1.number_algebra.exp_log",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_61",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "easy",
+      "keywords": [
+        "เลขยกกำลัง",
+        "ราก"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "math1.number_algebra.exp_log.exp_function",
+      "name_th": "ฟังก์ชันเอกซ์โพเนนเชียลและกราฟ",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "math1.number_algebra.exp_log",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "math1.number_algebra.exp_log.exponent_rules"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_61",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "เอกซ์โพเนนเชียล"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "math1.number_algebra.exp_log.log_rules",
+      "name_th": "สมบัติของลอการิทึม",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "math1.number_algebra.exp_log",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "math1.number_algebra.exp_log.exp_function"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_61",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ลอการิทึม",
+        "สมบัติ"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "math1.number_algebra.exp_log.exp_log_equation",
+      "name_th": "สมการและอสมการเอกซ์โพเนนเชียลและลอการิทึม",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "math1.number_algebra.exp_log",
+      "order": 4,
+      "grade_band": "mixed",
+      "requires": [
+        "math1.number_algebra.exp_log.log_rules"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_61",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "สมการลอการิทึม"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "math1.number_algebra.trigonometry",
+      "name_th": "ฟังก์ชันตรีโกณมิติ",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "math1.number_algebra",
+      "order": 6,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ฟังก์ชันตรีโกณมิติ"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "math1.number_algebra.trigonometry.ratio",
+      "name_th": "อัตราส่วนตรีโกณมิติและวงกลมหนึ่งหน่วย",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "math1.number_algebra.trigonometry",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_61",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "easy",
+      "keywords": [
+        "ตรีโกณมิติ",
+        "วงกลมหนึ่งหน่วย"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "math1.number_algebra.trigonometry.identity",
+      "name_th": "เอกลักษณ์และสูตรผลบวกผลต่างมุม",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "math1.number_algebra.trigonometry",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "math1.number_algebra.trigonometry.ratio"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_61",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "เอกลักษณ์",
+        "สูตรมุม"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "math1.number_algebra.trigonometry.equation",
+      "name_th": "สมการตรีโกณมิติ",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "math1.number_algebra.trigonometry",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "math1.number_algebra.trigonometry.identity"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_61",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "สมการตรีโกณมิติ"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "math1.number_algebra.trigonometry.triangle_law",
+      "name_th": "กฎของไซน์ กฎของโคไซน์ และการประยุกต์",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "math1.number_algebra.trigonometry",
+      "order": 4,
+      "grade_band": "mixed",
+      "requires": [
+        "math1.number_algebra.trigonometry.equation"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_61",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "กฎของไซน์",
+        "กฎของโคไซน์"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "math1.number_algebra.complex",
+      "name_th": "จำนวนเชิงซ้อน",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "math1.number_algebra",
+      "order": 7,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "จำนวนเชิงซ้อน"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "math1.number_algebra.complex.basics",
+      "name_th": "รูปทั่วไปและการดำเนินการของจำนวนเชิงซ้อน",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "math1.number_algebra.complex",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_61",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "จำนวนเชิงซ้อน"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "math1.number_algebra.complex.polar",
+      "name_th": "รูปเชิงขั้วและทฤษฎีบทเดอมัวฟ์",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "math1.number_algebra.complex",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "math1.number_algebra.complex.basics"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_61",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "รูปเชิงขั้ว",
+        "เดอมัวฟ์"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "math1.number_algebra.complex.root_equation",
+      "name_th": "รากของสมการที่เป็นจำนวนเชิงซ้อน",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "math1.number_algebra.complex",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "math1.number_algebra.complex.polar"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_61",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "รากสมการ"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "math1.number_algebra.matrix",
+      "name_th": "เมทริกซ์",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "math1.number_algebra",
+      "order": 8,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "เมทริกซ์"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "math1.number_algebra.matrix.operations",
+      "name_th": "การดำเนินการของเมทริกซ์",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "math1.number_algebra.matrix",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_61",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "easy",
+      "keywords": [
+        "เมทริกซ์"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "math1.number_algebra.matrix.determinant",
+      "name_th": "ดีเทอร์มิแนนต์และเมทริกซ์ผกผัน",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "math1.number_algebra.matrix",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "math1.number_algebra.matrix.operations"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_61",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ดีเทอร์มิแนนต์",
+        "ผกผัน"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "math1.number_algebra.matrix.linear_system",
+      "name_th": "การแก้ระบบสมการเชิงเส้นด้วยเมทริกซ์",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "math1.number_algebra.matrix",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "math1.number_algebra.matrix.determinant"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_61",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ระบบสมการเชิงเส้น"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "math1.number_algebra.sequence_series",
+      "name_th": "ลำดับและอนุกรม",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "math1.number_algebra",
+      "order": 9,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ลำดับและอนุกรม"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "math1.number_algebra.sequence_series.arithmetic",
+      "name_th": "ลำดับและอนุกรมเลขคณิต",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "math1.number_algebra.sequence_series",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat2.numerical.series.constant_difference"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_61",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "easy",
+      "keywords": [
+        "ลำดับเลขคณิต",
+        "อนุกรมเลขคณิต"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ | ต่อยอดจากอนุกรมผลต่างคงที่ใน TGAT2 ใช้บทเรียนร่วมกันได้"
+    },
+    {
+      "id": "math1.number_algebra.sequence_series.geometric",
+      "name_th": "ลำดับและอนุกรมเรขาคณิต",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "math1.number_algebra.sequence_series",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "math1.number_algebra.sequence_series.arithmetic"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_61",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ลำดับเรขาคณิต"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "math1.number_algebra.sequence_series.infinite",
+      "name_th": "อนุกรมอนันต์และการลู่เข้า",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "math1.number_algebra.sequence_series",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "math1.number_algebra.sequence_series.geometric"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_61",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "อนุกรมอนันต์",
+        "ลู่เข้า"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "math1.number_algebra.sequence_series.sigma",
+      "name_th": "สัญลักษณ์ซิกมาและผลบวกที่ใช้บ่อย",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "math1.number_algebra.sequence_series",
+      "order": 4,
+      "grade_band": "mixed",
+      "requires": [
+        "math1.number_algebra.sequence_series.infinite"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_61",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ซิกมา",
+        "ผลบวก"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "math1.measure_geometry",
+      "name_th": "สาระการวัดและเรขาคณิต",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "math1",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_61",
+          "typical_items": "3-5 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "การวัดและเรขาคณิต"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (ส่วนทางการ) · ผังสอบระบุ 3-5 ข้อ"
+    },
+    {
+      "id": "math1.measure_geometry.analytic_geometry",
+      "name_th": "เรขาคณิตวิเคราะห์",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "math1.measure_geometry",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "เรขาคณิตวิเคราะห์"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "math1.measure_geometry.analytic_geometry.line_distance",
+      "name_th": "จุด เส้นตรง และระยะทาง",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "math1.measure_geometry.analytic_geometry",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_61",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "easy",
+      "keywords": [
+        "เส้นตรง",
+        "ระยะทาง"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "math1.measure_geometry.analytic_geometry.circle",
+      "name_th": "วงกลมและสมการวงกลม",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "math1.measure_geometry.analytic_geometry",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "math1.measure_geometry.analytic_geometry.line_distance"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_61",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "วงกลม"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "math1.measure_geometry.analytic_geometry.conic",
+      "name_th": "พาราโบลา วงรี และไฮเพอร์โบลา",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "math1.measure_geometry.analytic_geometry",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "math1.measure_geometry.analytic_geometry.circle"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_61",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "ภาคตัดกรวย",
+        "พาราโบลา"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "math1.measure_geometry.vector_3d",
+      "name_th": "เวกเตอร์ในสามมิติ",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "math1.measure_geometry",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "เวกเตอร์ในสามมิติ"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "math1.measure_geometry.vector_3d.basics",
+      "name_th": "เวกเตอร์และการดำเนินการเบื้องต้น",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "math1.measure_geometry.vector_3d",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_61",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "เวกเตอร์"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "math1.measure_geometry.vector_3d.dot_cross",
+      "name_th": "ผลคูณเชิงสเกลาร์และผลคูณเชิงเวกเตอร์",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "math1.measure_geometry.vector_3d",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "math1.measure_geometry.vector_3d.basics"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_61",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "ผลคูณสเกลาร์",
+        "ผลคูณเวกเตอร์"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "math1.measure_geometry.vector_3d.application",
+      "name_th": "การประยุกต์เวกเตอร์กับเรขาคณิต",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "math1.measure_geometry.vector_3d",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "math1.measure_geometry.vector_3d.dot_cross"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_61",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ประยุกต์เวกเตอร์"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "math1.stat_probability",
+      "name_th": "สาระสถิติและความน่าจะเป็น",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "math1",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_61",
+          "typical_items": "6-8 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "สถิติและความน่าจะเป็น"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (ส่วนทางการ) · ผังสอบระบุ 6-8 ข้อ"
+    },
+    {
+      "id": "math1.stat_probability.statistics",
+      "name_th": "สถิติ",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "math1.stat_probability",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "สถิติ"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "math1.stat_probability.statistics.central",
+      "name_th": "ค่ากลางของข้อมูล",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "math1.stat_probability.statistics",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_61",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "easy",
+      "keywords": [
+        "ค่าเฉลี่ย",
+        "มัธยฐาน",
+        "ฐานนิยม"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "math1.stat_probability.statistics.dispersion",
+      "name_th": "การกระจายของข้อมูล",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "math1.stat_probability.statistics",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "math1.stat_probability.statistics.central"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_61",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ส่วนเบี่ยงเบนมาตรฐาน",
+        "การกระจาย"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "math1.stat_probability.statistics.position",
+      "name_th": "ตำแหน่งของข้อมูลและเปอร์เซ็นไทล์",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "math1.stat_probability.statistics",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "math1.stat_probability.statistics.dispersion"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_61",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ควอร์ไทล์",
+        "เปอร์เซ็นไทล์"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "math1.stat_probability.distribution",
+      "name_th": "การแจกแจงความน่าจะเป็นเบื้องต้น",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "math1.stat_probability",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "การแจกแจงความน่าจะเป็นเบื้องต้น"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "math1.stat_probability.distribution.random_variable",
+      "name_th": "ตัวแปรสุ่มและการแจกแจง",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "math1.stat_probability.distribution",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_61",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ตัวแปรสุ่ม"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "math1.stat_probability.distribution.normal",
+      "name_th": "การแจกแจงปกติและการใช้ตารางมาตรฐาน",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "math1.stat_probability.distribution",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "math1.stat_probability.distribution.random_variable"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_61",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "การแจกแจงปกติ",
+        "ค่ามาตรฐาน"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "math1.stat_probability.counting",
+      "name_th": "หลักการนับเบื้องต้น",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "math1.stat_probability",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "หลักการนับเบื้องต้น"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "math1.stat_probability.counting.rule",
+      "name_th": "กฎการบวกและกฎการคูณ",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "math1.stat_probability.counting",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_61",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "easy",
+      "keywords": [
+        "กฎการนับ"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "math1.stat_probability.counting.permutation",
+      "name_th": "การเรียงสับเปลี่ยน",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "math1.stat_probability.counting",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "math1.stat_probability.counting.rule"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_61",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "เรียงสับเปลี่ยน"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "math1.stat_probability.counting.combination",
+      "name_th": "การจัดหมู่",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "math1.stat_probability.counting",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "math1.stat_probability.counting.permutation"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_61",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "จัดหมู่"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "math1.stat_probability.probability",
+      "name_th": "ความน่าจะเป็น",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "math1.stat_probability",
+      "order": 4,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ความน่าจะเป็น"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "math1.stat_probability.probability.basics",
+      "name_th": "ความน่าจะเป็นของเหตุการณ์",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "math1.stat_probability.probability",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_61",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "easy",
+      "keywords": [
+        "ความน่าจะเป็น"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "math1.stat_probability.probability.compound",
+      "name_th": "เหตุการณ์ร่วมและเหตุการณ์ที่ไม่เกิดร่วมกัน",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "math1.stat_probability.probability",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "math1.stat_probability.probability.basics"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_61",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "เหตุการณ์ร่วม"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "math1.stat_probability.probability.conditional",
+      "name_th": "ความน่าจะเป็นแบบมีเงื่อนไข",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "math1.stat_probability.probability",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "math1.stat_probability.probability.compound"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_61",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "ความน่าจะเป็นมีเงื่อนไข"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "math1.calculus",
+      "name_th": "สาระแคลคูลัส",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "math1",
+      "order": 4,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_61",
+          "typical_items": "2-4 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "แคลคูลัส"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (ส่วนทางการ) · ผังสอบระบุ 2-4 ข้อ"
+    },
+    {
+      "id": "math1.calculus.calculus_intro",
+      "name_th": "แคลคูลัสเบื้องต้น",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "math1.calculus",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "แคลคูลัสเบื้องต้น"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "math1.calculus.calculus_intro.limit",
+      "name_th": "ลิมิตและความต่อเนื่อง",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "math1.calculus.calculus_intro",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_61",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ลิมิต",
+        "ความต่อเนื่อง"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "math1.calculus.calculus_intro.derivative",
+      "name_th": "อนุพันธ์และกฎการหาอนุพันธ์",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "math1.calculus.calculus_intro",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "math1.calculus.calculus_intro.limit"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_61",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "อนุพันธ์"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "math1.calculus.calculus_intro.derivative_app",
+      "name_th": "การประยุกต์อนุพันธ์ หาค่าสูงสุดต่ำสุด",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "math1.calculus.calculus_intro",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "math1.calculus.calculus_intro.derivative"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_61",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "ค่าสูงสุดต่ำสุด"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "math1.calculus.calculus_intro.integral",
+      "name_th": "ปริพันธ์และพื้นที่ใต้โค้ง",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "math1.calculus.calculus_intro",
+      "order": 4,
+      "grade_band": "mixed",
+      "requires": [
+        "math1.calculus.calculus_intro.derivative_app"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_61",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "ปริพันธ์",
+        "พื้นที่ใต้โค้ง"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    }
+  ]
+}

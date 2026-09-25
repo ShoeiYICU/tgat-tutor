@@ -1,0 +1,931 @@
+{
+  "schema_version": "1.0",
+  "subject": "thai",
+  "subject_name_th": "A-Level ภาษาไทย",
+  "exam_codes": [
+    "ALEVEL_81"
+  ],
+  "source_note": "ยืนยันโครงสอบแล้วจาก mytcas.com/blueprint/a-level-81-thai/ (ตรวจ 21 กันยายน 2569): 50 ข้อ 100 คะแนน 90 นาที ประเภทข้อสอบ 'ปรนัย (5 ตัวเลือก)' | 4 ส่วน คือ การอ่าน / การเขียน / การพูด การฟัง / หลักการใช้ภาษา | ผังสอบบรรยายขอบเขตของแต่ละส่วนไว้ดังนี้ การอ่าน วัดความเข้าใจ การจับใจความ การตีความ การวิเคราะห์จุดประสงค์ การอนุมาน และการเข้าใจท่าที/อารมณ์ของผู้เขียน · การเขียน ประกอบด้วยการเรียงลำดับข้อความ การเรียงความ การพรรณา การใช้เหตุผล การแสดงทรรศนะ การโต้แย้ง และการโน้มน้าว · การพูด การฟัง วัดการวิเคราะห์จุดประสงค์ การใช้ข้อความถาม-ตอบ และการตีความ/อนุมานสาร · หลักการใช้ภาษา ครอบคลุมการสะกด การใช้คำ ประโยค ระดับภาษา สำนวน ราชาศัพท์ และคำทับศัพท์ | **ผังสอบไม่ได้ระบุจำนวนข้อของแต่ละส่วน** | ชั้นหัวข้อในผังนี้ตั้งจากคำบรรยายขอบเขตในผังสอบ ส่วน leaf เป็นการซอยของเราเอง",
+  "topics": [
+    {
+      "id": "thai",
+      "name_th": "A-Level ภาษาไทย",
+      "name_en": "",
+      "kind": "subject",
+      "parent": null,
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ALEVEL_81",
+        "ภาษาไทย"
+      ],
+      "curriculum_ref": null,
+      "notes": "วิชาเนื้อหาตามหลักสูตร | โครงสอบยืนยันแล้ว: 50 ข้อ 100 คะแนน 90 นาที ปรนัย 5 ตัวเลือก | **ผังสอบไม่ได้ระบุจำนวนข้อของแต่ละส่วน** ห้ามเดาสัดส่วน | **วิชานี้ template ไม่ได้เลย** ทุกหัวข้อต้องแต่งโจทย์มือ 20 ข้อตามสเปค เพราะโจทย์เป็นบทอ่านและการตีความภาษา ไม่มีตัวเลขให้สุ่ม | ภาษาไทยอยู่ในกลุ่มที่ต้องให้คนตรวจ 100% ตามตารางใน spec/07 เพราะโจทย์กำกวมและคำตอบที่ป้องกันได้หลายทางเป็นปัญหาหลักของวิชานี้ | หัวข้อราชาศัพท์และสำนวนมีคำที่ต้องถูกต้องตามราชบัณฑิตยสภา ตั้ง review_status เป็น ai_draft_needs_fact_check"
+    },
+    {
+      "id": "thai.reading",
+      "name_th": "การอ่าน",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "thai",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_81",
+          "typical_items": "ผังสอบไม่ระบุจำนวนข้อรายส่วน",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "การอ่าน"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (ส่วนทางการ) · ผังสอบระบุ ผังสอบไม่ระบุจำนวนข้อรายส่วน"
+    },
+    {
+      "id": "thai.reading.comprehension",
+      "name_th": "ความเข้าใจและการจับใจความ",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "thai.reading",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ความเข้าใจและการจับใจความ"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ) | ชื่อหัวข้อตั้งจากคำบรรยายขอบเขตในผังสอบ"
+    },
+    {
+      "id": "thai.reading.comprehension.main_idea",
+      "name_th": "จับใจความสำคัญและตั้งชื่อเรื่อง",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "thai.reading.comprehension",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat2.language.foundation.sentence_structure"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_81",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ใจความสำคัญ"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "thai.reading.comprehension.detail",
+      "name_th": "หาข้อมูลเฉพาะจุดในบทอ่าน",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "thai.reading.comprehension",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "thai.reading.comprehension.main_idea"
+      ],
+      "est_minutes": 20,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_81",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "easy",
+      "keywords": [
+        "รายละเอียด"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "thai.reading.interpretation",
+      "name_th": "การตีความและการอนุมาน",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "thai.reading",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "การตีความและการอนุมาน"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ) | ชื่อหัวข้อตั้งจากคำบรรยายขอบเขตในผังสอบ"
+    },
+    {
+      "id": "thai.reading.interpretation.interpret",
+      "name_th": "ตีความถ้อยคำและข้อความ",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "thai.reading.interpretation",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_81",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "ตีความ"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "thai.reading.interpretation.infer",
+      "name_th": "อนุมานสิ่งที่ไม่ได้เขียนตรง ๆ",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "thai.reading.interpretation",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "thai.reading.interpretation.interpret"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_81",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "อนุมาน"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "thai.reading.purpose_tone",
+      "name_th": "จุดประสงค์ ท่าที และอารมณ์ของผู้เขียน",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "thai.reading",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "จุดประสงค์ ท่าที และอารมณ์ของผู้เขียน"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ) | ชื่อหัวข้อตั้งจากคำบรรยายขอบเขตในผังสอบ"
+    },
+    {
+      "id": "thai.reading.purpose_tone.purpose",
+      "name_th": "วิเคราะห์จุดประสงค์ของผู้เขียน",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "thai.reading.purpose_tone",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_81",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "จุดประสงค์"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "thai.reading.purpose_tone.tone",
+      "name_th": "ท่าทีและอารมณ์ของผู้เขียน",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "thai.reading.purpose_tone",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "thai.reading.purpose_tone.purpose"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_81",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "ท่าที",
+        "อารมณ์"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "thai.writing",
+      "name_th": "การเขียน",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "thai",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_81",
+          "typical_items": "ผังสอบไม่ระบุจำนวนข้อรายส่วน",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "การเขียน"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (ส่วนทางการ) · ผังสอบระบุ ผังสอบไม่ระบุจำนวนข้อรายส่วน"
+    },
+    {
+      "id": "thai.writing.order_compose",
+      "name_th": "การเรียงลำดับข้อความและการเรียงความ",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "thai.writing",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "การเรียงลำดับข้อความและการเรียงความ"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ) | ชื่อหัวข้อคัดจากคำบรรยายขอบเขตในผังสอบ"
+    },
+    {
+      "id": "thai.writing.order_compose.sentence_order",
+      "name_th": "เรียงลำดับข้อความให้เป็นย่อหน้า",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "thai.writing.order_compose",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_81",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "เรียงลำดับข้อความ"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "thai.writing.order_compose.essay_structure",
+      "name_th": "โครงสร้างเรียงความและการเปิด-ปิดเรื่อง",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "thai.writing.order_compose",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "thai.writing.order_compose.sentence_order"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_81",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "เรียงความ"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "thai.writing.style",
+      "name_th": "การพรรณนาและการใช้เหตุผล",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "thai.writing",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "การพรรณนาและการใช้เหตุผล"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ) | ชื่อหัวข้อคัดจากคำบรรยายขอบเขตในผังสอบ"
+    },
+    {
+      "id": "thai.writing.style.description",
+      "name_th": "การพรรณนาและการเลือกใช้ถ้อยคำ",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "thai.writing.style",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_81",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "พรรณนา"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "thai.writing.style.reasoning",
+      "name_th": "การใช้เหตุผลในงานเขียน",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "thai.writing.style",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "thai.writing.style.description"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_81",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "ใช้เหตุผล"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "thai.writing.persuasion",
+      "name_th": "การแสดงทรรศนะ การโต้แย้ง และการโน้มน้าว",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "thai.writing",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "การแสดงทรรศนะ การโต้แย้ง และการโน้มน้าว"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ) | ชื่อหัวข้อคัดจากคำบรรยายขอบเขตในผังสอบ"
+    },
+    {
+      "id": "thai.writing.persuasion.viewpoint",
+      "name_th": "การแสดงทรรศนะและการสนับสนุนความเห็น",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "thai.writing.persuasion",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_81",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ทรรศนะ"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "thai.writing.persuasion.argument",
+      "name_th": "การโต้แย้งและการหักล้าง",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "thai.writing.persuasion",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "thai.writing.persuasion.viewpoint"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_81",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "โต้แย้ง"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "thai.writing.persuasion.persuade",
+      "name_th": "การโน้มน้าวใจและกลวิธีทางภาษา",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "thai.writing.persuasion",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "thai.writing.persuasion.argument"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_81",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "โน้มน้าว"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "thai.speak_listen",
+      "name_th": "การพูด การฟัง",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "thai",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_81",
+          "typical_items": "ผังสอบไม่ระบุจำนวนข้อรายส่วน",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "การพูด การฟัง"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (ส่วนทางการ) · ผังสอบระบุ ผังสอบไม่ระบุจำนวนข้อรายส่วน"
+    },
+    {
+      "id": "thai.speak_listen.analyse_purpose",
+      "name_th": "การวิเคราะห์จุดประสงค์ของสาร",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "thai.speak_listen",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "การวิเคราะห์จุดประสงค์ของสาร"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ) | ชื่อหัวข้อคัดจากคำบรรยายขอบเขตในผังสอบ"
+    },
+    {
+      "id": "thai.speak_listen.analyse_purpose.speaker_purpose",
+      "name_th": "จุดประสงค์ของผู้พูดและผู้ส่งสาร",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "thai.speak_listen.analyse_purpose",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_81",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "จุดประสงค์ผู้พูด"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "thai.speak_listen.analyse_purpose.infer_message",
+      "name_th": "การตีความและอนุมานสาร",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "thai.speak_listen.analyse_purpose",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "thai.speak_listen.analyse_purpose.speaker_purpose"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_81",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "ตีความสาร",
+        "อนุมาน"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "thai.speak_listen.question_answer",
+      "name_th": "การใช้ข้อความถาม-ตอบ",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "thai.speak_listen",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "การใช้ข้อความถาม-ตอบ"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ) | ชื่อหัวข้อคัดจากคำบรรยายขอบเขตในผังสอบ"
+    },
+    {
+      "id": "thai.speak_listen.question_answer.appropriate",
+      "name_th": "การถามและตอบให้เหมาะกับสถานการณ์",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "thai.speak_listen.question_answer",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_81",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ถามตอบ"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "thai.speak_listen.question_answer.politeness",
+      "name_th": "ระดับความสุภาพในการสนทนา",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "thai.speak_listen.question_answer",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "thai.speak_listen.question_answer.appropriate"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_81",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ความสุภาพ"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "thai.language_use",
+      "name_th": "หลักการใช้ภาษา",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "thai",
+      "order": 4,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_81",
+          "typical_items": "ผังสอบไม่ระบุจำนวนข้อรายส่วน",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "หลักการใช้ภาษา"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (ส่วนทางการ) · ผังสอบระบุ ผังสอบไม่ระบุจำนวนข้อรายส่วน"
+    },
+    {
+      "id": "thai.language_use.spelling_word",
+      "name_th": "การสะกดคำและการใช้คำ",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "thai.language_use",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "การสะกดคำและการใช้คำ"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ) | ชื่อหัวข้อคัดจากคำบรรยายขอบเขตในผังสอบ"
+    },
+    {
+      "id": "thai.language_use.spelling_word.spelling",
+      "name_th": "การสะกดคำที่มักเขียนผิด",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "thai.language_use.spelling_word",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_81",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "easy",
+      "keywords": [
+        "สะกดคำ"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ | ต้องตรงตามพจนานุกรมราชบัณฑิตยสภา ตั้ง ai_draft_needs_fact_check"
+    },
+    {
+      "id": "thai.language_use.spelling_word.word_choice",
+      "name_th": "การใช้คำให้ถูกความหมายและบริบท",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "thai.language_use.spelling_word",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "thai.language_use.spelling_word.spelling"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_81",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ใช้คำ"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "thai.language_use.spelling_word.transliteration",
+      "name_th": "คำทับศัพท์และการเขียนคำยืม",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "thai.language_use.spelling_word",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "thai.language_use.spelling_word.word_choice"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_81",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "คำทับศัพท์"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ | ต้องตรงตามหลักเกณฑ์ราชบัณฑิตยสภา ตั้ง ai_draft_needs_fact_check"
+    },
+    {
+      "id": "thai.language_use.sentence_level",
+      "name_th": "ประโยคและระดับภาษา",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "thai.language_use",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ประโยคและระดับภาษา"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ) | ชื่อหัวข้อคัดจากคำบรรยายขอบเขตในผังสอบ"
+    },
+    {
+      "id": "thai.language_use.sentence_level.sentence",
+      "name_th": "ชนิดของประโยคและการใช้ประโยคให้ถูกต้อง",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "thai.language_use.sentence_level",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_81",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ประโยค"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "thai.language_use.sentence_level.register",
+      "name_th": "ระดับภาษาและการเลือกใช้ให้เหมาะกับโอกาส",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "thai.language_use.sentence_level",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "thai.language_use.sentence_level.sentence"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_81",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ระดับภาษา"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "thai.language_use.idiom_royal",
+      "name_th": "สำนวนและราชาศัพท์",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "thai.language_use",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "สำนวนและราชาศัพท์"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ) | ชื่อหัวข้อคัดจากคำบรรยายขอบเขตในผังสอบ"
+    },
+    {
+      "id": "thai.language_use.idiom_royal.idiom",
+      "name_th": "สำนวน คำพังเพย และสุภาษิต",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "thai.language_use.idiom_royal",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_81",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "สำนวน",
+        "สุภาษิต"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ | ความหมายต้องตรงตามพจนานุกรม ตั้ง ai_draft_needs_fact_check"
+    },
+    {
+      "id": "thai.language_use.idiom_royal.royal",
+      "name_th": "ราชาศัพท์และคำสุภาพ",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "thai.language_use.idiom_royal",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "thai.language_use.idiom_royal.idiom"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_81",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "ราชาศัพท์"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ | **หัวข้อที่ผิดไม่ได้** ต้องตรงตามหลักเกณฑ์ราชบัณฑิตยสภา ตั้ง ai_draft_needs_fact_check และให้คนตรวจทุกข้อ"
+    }
+  ]
+}

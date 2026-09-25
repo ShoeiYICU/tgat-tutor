@@ -1,0 +1,1060 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tgat2.numerical.series.multiply_divide",
+  "problems": [
+    {
+      "id": "prob.tgat2.numerical.series.multiply_divide.0001",
+      "topic_ids": [
+        "tgat2.numerical.series.multiply_divide"
+      ],
+      "primary_topic_id": "tgat2.numerical.series.multiply_divide",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 30,
+      "stem_md": "$4, \\; 8, \\; 16, \\; 32, \\; ?$",
+      "figures": [],
+      "choices": [
+        {
+          "md": "$64$",
+          "is_answer": true
+        },
+        {
+          "md": "$96$",
+          "is_answer": false
+        },
+        {
+          "md": "$34$",
+          "is_answer": false
+        },
+        {
+          "md": "$48$",
+          "is_answer": false
+        },
+        {
+          "md": "$60$",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "อัตราส่วน: $8 \\div 4 = 2$ และ $16 \\div 8 = 2$",
+          "why_md": "หารพจน์หลังด้วยพจน์หน้า ได้ค่าเท่ากันทุกคู่"
+        },
+        {
+          "do_md": "พจน์ถัดไป $= 32 \\times 2 = 64$",
+          "why_md": "คูณด้วยอัตราส่วนเดิม"
+        }
+      ],
+      "answer_explanation_md": "ตอบ $64$ เพราะอนุกรมคูณด้วย $2$ ทุกครั้ง",
+      "hints": [
+        "พจน์โตเร็ว ลองหารพจน์หลังด้วยพจน์หน้า",
+        "ทุกพจน์ได้จากการคูณพจน์ก่อนหน้าด้วย $2$",
+        "นำ $32$ ไปคูณด้วย $2$"
+      ],
+      "distractor_reasons": {
+        "1": "คูณด้วยค่าที่มากเกินไปหนึ่ง",
+        "2": "บวกอัตราส่วนแทนการคูณ",
+        "3": "บวกผลต่างล่าสุดแทนการคูณ",
+        "4": "คูณแล้วลบพจน์แรกออกโดยไม่มีเหตุผล"
+      },
+      "misconception_tags": [
+        "difference_instead_of_ratio"
+      ],
+      "template": {
+        "vars": [
+          {
+            "name": "a",
+            "type": "int",
+            "range": [
+              1,
+              6
+            ],
+            "step": 1
+          },
+          {
+            "name": "r",
+            "type": "choice",
+            "options": [
+              2,
+              3
+            ]
+          }
+        ],
+        "constraints": [
+          "(a*r**4) > 0",
+          "(a*r**3 + (a*r**3 - a*r**2)) > 0",
+          "(a*r**3*(r + 1)) > 0",
+          "(a*r**3 + r) > 0",
+          "(a*r**4 - a) > 0",
+          "(a*r**4) != (a*r**3 + (a*r**3 - a*r**2))",
+          "(a*r**4) != (a*r**3*(r + 1))",
+          "(a*r**4) != (a*r**3 + r)",
+          "(a*r**4) != (a*r**4 - a)",
+          "(a*r**3 + (a*r**3 - a*r**2)) != (a*r**3*(r + 1))",
+          "(a*r**3 + (a*r**3 - a*r**2)) != (a*r**3 + r)",
+          "(a*r**3 + (a*r**3 - a*r**2)) != (a*r**4 - a)",
+          "(a*r**3*(r + 1)) != (a*r**3 + r)",
+          "(a*r**3*(r + 1)) != (a*r**4 - a)",
+          "(a*r**3 + r) != (a*r**4 - a)",
+          "(a*r**3 + (a*r**3 - a*r**2)) <= 5*(a*r**4)",
+          "(a*r**3*(r + 1)) <= 5*(a*r**4)",
+          "(a*r**3 + r) <= 5*(a*r**4)",
+          "(a*r**4 - a) <= 5*(a*r**4)",
+          "5*(a*r**3 + (a*r**3 - a*r**2)) >= (a*r**4)",
+          "5*(a*r**3*(r + 1)) >= (a*r**4)",
+          "5*(a*r**3 + r) >= (a*r**4)",
+          "5*(a*r**4 - a) >= (a*r**4)",
+          "(r) != (a*r**4)",
+          "(t4) != (a*r**4)"
+        ],
+        "display": {
+          "t1": "a",
+          "t2": "a*r",
+          "t3": "a*r**2",
+          "t4": "a*r**3"
+        },
+        "stem_tpl": "${t1}, \\; {t2}, \\; {t3}, \\; {t4}, \\; ?$",
+        "answer_expr": "a*r**4",
+        "answer_round": null,
+        "answer_unit": null,
+        "distractors": [
+          {
+            "expr": "a*r**3 + (a*r**3 - a*r**2)",
+            "reason": "บวกผลต่างล่าสุดแทนการคูณ"
+          },
+          {
+            "expr": "a*r**3*(r + 1)",
+            "reason": "คูณด้วยค่าที่มากเกินไปหนึ่ง"
+          },
+          {
+            "expr": "a*r**3 + r",
+            "reason": "บวกอัตราส่วนแทนการคูณ"
+          },
+          {
+            "expr": "a*r**4 - a",
+            "reason": "คูณแล้วลบพจน์แรกออกโดยไม่มีเหตุผล"
+          }
+        ],
+        "quality_rules": [
+          "ตัวเลือกทุกตัวต้องเป็นจำนวนบวกและไม่ซ้ำกัน",
+          "คำตอบคำนวณจากนิพจน์ ไม่ได้ใส่มือ"
+        ],
+        "quality_exprs": [
+          "answer > 0"
+        ],
+        "steps_tpl": [
+          {
+            "do_md": "อัตราส่วน: ${t2} \\div {t1} = {r}$ และ ${t3} \\div {t2} = {r}$",
+            "why_md": "หารพจน์หลังด้วยพจน์หน้า ได้ค่าเท่ากันทุกคู่"
+          },
+          {
+            "do_md": "พจน์ถัดไป $= {t4} \\times {r} = {answer}$",
+            "why_md": "คูณด้วยอัตราส่วนเดิม"
+          }
+        ],
+        "hints_tpl": [
+          "พจน์โตเร็ว ลองหารพจน์หลังด้วยพจน์หน้า",
+          "ทุกพจน์ได้จากการคูณพจน์ก่อนหน้าด้วย ${r}$",
+          "นำ ${t4}$ ไปคูณด้วย ${r}$"
+        ],
+        "explanation_tpl": "ตอบ ${answer}$ เพราะอนุกรมคูณด้วย ${r}$ ทุกครั้ง"
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.numerical.series.multiply_divide.0002",
+      "topic_ids": [
+        "tgat2.numerical.series.multiply_divide"
+      ],
+      "primary_topic_id": "tgat2.numerical.series.multiply_divide",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 35,
+      "stem_md": "$2, \\; 6, \\; 18, \\; 54, \\; ?$",
+      "figures": [],
+      "choices": [
+        {
+          "md": "$57$",
+          "is_answer": false
+        },
+        {
+          "md": "$162$",
+          "is_answer": true
+        },
+        {
+          "md": "$90$",
+          "is_answer": false
+        },
+        {
+          "md": "$160$",
+          "is_answer": false
+        },
+        {
+          "md": "$216$",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "อัตราส่วน: $6 \\div 2 = 3$ และ $18 \\div 6 = 3$",
+          "why_md": "หารพจน์หลังด้วยพจน์หน้า ได้ค่าเท่ากันทุกคู่"
+        },
+        {
+          "do_md": "พจน์ถัดไป $= 54 \\times 3 = 162$",
+          "why_md": "คูณด้วยอัตราส่วนเดิม"
+        }
+      ],
+      "answer_explanation_md": "ตอบ $162$ เพราะอนุกรมคูณด้วย $3$ ทุกครั้ง",
+      "hints": [
+        "พจน์โตเร็ว ลองหารพจน์หลังด้วยพจน์หน้า",
+        "ทุกพจน์ได้จากการคูณพจน์ก่อนหน้าด้วย $3$",
+        "นำ $54$ ไปคูณด้วย $3$"
+      ],
+      "distractor_reasons": {
+        "0": "บวกอัตราส่วนแทนการคูณ",
+        "2": "บวกผลต่างล่าสุดแทนการคูณ",
+        "3": "คูณแล้วลบพจน์แรกออกโดยไม่มีเหตุผล",
+        "4": "คูณด้วยค่าที่มากเกินไปหนึ่ง"
+      },
+      "misconception_tags": [
+        "difference_instead_of_ratio"
+      ],
+      "template": {
+        "vars": [
+          {
+            "name": "a",
+            "type": "int",
+            "range": [
+              1,
+              6
+            ],
+            "step": 1
+          },
+          {
+            "name": "r",
+            "type": "choice",
+            "options": [
+              2,
+              3
+            ]
+          }
+        ],
+        "constraints": [
+          "(a*r**4) > 0",
+          "(a*r**3 + (a*r**3 - a*r**2)) > 0",
+          "(a*r**3*(r + 1)) > 0",
+          "(a*r**3 + r) > 0",
+          "(a*r**4 - a) > 0",
+          "(a*r**4) != (a*r**3 + (a*r**3 - a*r**2))",
+          "(a*r**4) != (a*r**3*(r + 1))",
+          "(a*r**4) != (a*r**3 + r)",
+          "(a*r**4) != (a*r**4 - a)",
+          "(a*r**3 + (a*r**3 - a*r**2)) != (a*r**3*(r + 1))",
+          "(a*r**3 + (a*r**3 - a*r**2)) != (a*r**3 + r)",
+          "(a*r**3 + (a*r**3 - a*r**2)) != (a*r**4 - a)",
+          "(a*r**3*(r + 1)) != (a*r**3 + r)",
+          "(a*r**3*(r + 1)) != (a*r**4 - a)",
+          "(a*r**3 + r) != (a*r**4 - a)",
+          "(a*r**3 + (a*r**3 - a*r**2)) <= 5*(a*r**4)",
+          "(a*r**3*(r + 1)) <= 5*(a*r**4)",
+          "(a*r**3 + r) <= 5*(a*r**4)",
+          "(a*r**4 - a) <= 5*(a*r**4)",
+          "5*(a*r**3 + (a*r**3 - a*r**2)) >= (a*r**4)",
+          "5*(a*r**3*(r + 1)) >= (a*r**4)",
+          "5*(a*r**3 + r) >= (a*r**4)",
+          "5*(a*r**4 - a) >= (a*r**4)",
+          "(r) != (a*r**4)",
+          "(t4) != (a*r**4)"
+        ],
+        "display": {
+          "t1": "a",
+          "t2": "a*r",
+          "t3": "a*r**2",
+          "t4": "a*r**3"
+        },
+        "stem_tpl": "${t1}, \\; {t2}, \\; {t3}, \\; {t4}, \\; ?$",
+        "answer_expr": "a*r**4",
+        "answer_round": null,
+        "answer_unit": null,
+        "distractors": [
+          {
+            "expr": "a*r**3 + (a*r**3 - a*r**2)",
+            "reason": "บวกผลต่างล่าสุดแทนการคูณ"
+          },
+          {
+            "expr": "a*r**3*(r + 1)",
+            "reason": "คูณด้วยค่าที่มากเกินไปหนึ่ง"
+          },
+          {
+            "expr": "a*r**3 + r",
+            "reason": "บวกอัตราส่วนแทนการคูณ"
+          },
+          {
+            "expr": "a*r**4 - a",
+            "reason": "คูณแล้วลบพจน์แรกออกโดยไม่มีเหตุผล"
+          }
+        ],
+        "quality_rules": [
+          "ตัวเลือกทุกตัวต้องเป็นจำนวนบวกและไม่ซ้ำกัน",
+          "คำตอบคำนวณจากนิพจน์ ไม่ได้ใส่มือ"
+        ],
+        "quality_exprs": [
+          "answer > 0"
+        ],
+        "steps_tpl": [
+          {
+            "do_md": "อัตราส่วน: ${t2} \\div {t1} = {r}$ และ ${t3} \\div {t2} = {r}$",
+            "why_md": "หารพจน์หลังด้วยพจน์หน้า ได้ค่าเท่ากันทุกคู่"
+          },
+          {
+            "do_md": "พจน์ถัดไป $= {t4} \\times {r} = {answer}$",
+            "why_md": "คูณด้วยอัตราส่วนเดิม"
+          }
+        ],
+        "hints_tpl": [
+          "พจน์โตเร็ว ลองหารพจน์หลังด้วยพจน์หน้า",
+          "ทุกพจน์ได้จากการคูณพจน์ก่อนหน้าด้วย ${r}$",
+          "นำ ${t4}$ ไปคูณด้วย ${r}$"
+        ],
+        "explanation_tpl": "ตอบ ${answer}$ เพราะอนุกรมคูณด้วย ${r}$ ทุกครั้ง"
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.numerical.series.multiply_divide.0003",
+      "topic_ids": [
+        "tgat2.numerical.series.multiply_divide"
+      ],
+      "primary_topic_id": "tgat2.numerical.series.multiply_divide",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 35,
+      "stem_md": "$3, \\; 6, \\; 12, \\; 24, \\; ?$",
+      "figures": [],
+      "choices": [
+        {
+          "md": "$72$",
+          "is_answer": false
+        },
+        {
+          "md": "$36$",
+          "is_answer": false
+        },
+        {
+          "md": "$45$",
+          "is_answer": false
+        },
+        {
+          "md": "$48$",
+          "is_answer": true
+        },
+        {
+          "md": "$26$",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "อัตราส่วน: $6 \\div 3 = 2$ และ $12 \\div 6 = 2$",
+          "why_md": "หารพจน์หลังด้วยพจน์หน้า ได้ค่าเท่ากันทุกคู่"
+        },
+        {
+          "do_md": "พจน์ถัดไป $= 24 \\times 2 = 48$",
+          "why_md": "คูณด้วยอัตราส่วนเดิม"
+        }
+      ],
+      "answer_explanation_md": "ตอบ $48$ เพราะอนุกรมคูณด้วย $2$ ทุกครั้ง",
+      "hints": [
+        "พจน์โตเร็ว ลองหารพจน์หลังด้วยพจน์หน้า",
+        "ทุกพจน์ได้จากการคูณพจน์ก่อนหน้าด้วย $2$",
+        "นำ $24$ ไปคูณด้วย $2$"
+      ],
+      "distractor_reasons": {
+        "0": "คูณด้วยค่าที่มากเกินไปหนึ่ง",
+        "1": "บวกผลต่างล่าสุดแทนการคูณ",
+        "2": "คูณแล้วลบพจน์แรกออกโดยไม่มีเหตุผล",
+        "4": "บวกอัตราส่วนแทนการคูณ"
+      },
+      "misconception_tags": [
+        "difference_instead_of_ratio"
+      ],
+      "template": {
+        "vars": [
+          {
+            "name": "a",
+            "type": "int",
+            "range": [
+              1,
+              6
+            ],
+            "step": 1
+          },
+          {
+            "name": "r",
+            "type": "choice",
+            "options": [
+              2,
+              3
+            ]
+          }
+        ],
+        "constraints": [
+          "(a*r**4) > 0",
+          "(a*r**3 + (a*r**3 - a*r**2)) > 0",
+          "(a*r**3*(r + 1)) > 0",
+          "(a*r**3 + r) > 0",
+          "(a*r**4 - a) > 0",
+          "(a*r**4) != (a*r**3 + (a*r**3 - a*r**2))",
+          "(a*r**4) != (a*r**3*(r + 1))",
+          "(a*r**4) != (a*r**3 + r)",
+          "(a*r**4) != (a*r**4 - a)",
+          "(a*r**3 + (a*r**3 - a*r**2)) != (a*r**3*(r + 1))",
+          "(a*r**3 + (a*r**3 - a*r**2)) != (a*r**3 + r)",
+          "(a*r**3 + (a*r**3 - a*r**2)) != (a*r**4 - a)",
+          "(a*r**3*(r + 1)) != (a*r**3 + r)",
+          "(a*r**3*(r + 1)) != (a*r**4 - a)",
+          "(a*r**3 + r) != (a*r**4 - a)",
+          "(a*r**3 + (a*r**3 - a*r**2)) <= 5*(a*r**4)",
+          "(a*r**3*(r + 1)) <= 5*(a*r**4)",
+          "(a*r**3 + r) <= 5*(a*r**4)",
+          "(a*r**4 - a) <= 5*(a*r**4)",
+          "5*(a*r**3 + (a*r**3 - a*r**2)) >= (a*r**4)",
+          "5*(a*r**3*(r + 1)) >= (a*r**4)",
+          "5*(a*r**3 + r) >= (a*r**4)",
+          "5*(a*r**4 - a) >= (a*r**4)",
+          "(r) != (a*r**4)",
+          "(t4) != (a*r**4)"
+        ],
+        "display": {
+          "t1": "a",
+          "t2": "a*r",
+          "t3": "a*r**2",
+          "t4": "a*r**3"
+        },
+        "stem_tpl": "${t1}, \\; {t2}, \\; {t3}, \\; {t4}, \\; ?$",
+        "answer_expr": "a*r**4",
+        "answer_round": null,
+        "answer_unit": null,
+        "distractors": [
+          {
+            "expr": "a*r**3 + (a*r**3 - a*r**2)",
+            "reason": "บวกผลต่างล่าสุดแทนการคูณ"
+          },
+          {
+            "expr": "a*r**3*(r + 1)",
+            "reason": "คูณด้วยค่าที่มากเกินไปหนึ่ง"
+          },
+          {
+            "expr": "a*r**3 + r",
+            "reason": "บวกอัตราส่วนแทนการคูณ"
+          },
+          {
+            "expr": "a*r**4 - a",
+            "reason": "คูณแล้วลบพจน์แรกออกโดยไม่มีเหตุผล"
+          }
+        ],
+        "quality_rules": [
+          "ตัวเลือกทุกตัวต้องเป็นจำนวนบวกและไม่ซ้ำกัน",
+          "คำตอบคำนวณจากนิพจน์ ไม่ได้ใส่มือ"
+        ],
+        "quality_exprs": [
+          "answer > 0"
+        ],
+        "steps_tpl": [
+          {
+            "do_md": "อัตราส่วน: ${t2} \\div {t1} = {r}$ และ ${t3} \\div {t2} = {r}$",
+            "why_md": "หารพจน์หลังด้วยพจน์หน้า ได้ค่าเท่ากันทุกคู่"
+          },
+          {
+            "do_md": "พจน์ถัดไป $= {t4} \\times {r} = {answer}$",
+            "why_md": "คูณด้วยอัตราส่วนเดิม"
+          }
+        ],
+        "hints_tpl": [
+          "พจน์โตเร็ว ลองหารพจน์หลังด้วยพจน์หน้า",
+          "ทุกพจน์ได้จากการคูณพจน์ก่อนหน้าด้วย ${r}$",
+          "นำ ${t4}$ ไปคูณด้วย ${r}$"
+        ],
+        "explanation_tpl": "ตอบ ${answer}$ เพราะอนุกรมคูณด้วย ${r}$ ทุกครั้ง"
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.numerical.series.multiply_divide.0004",
+      "topic_ids": [
+        "tgat2.numerical.series.multiply_divide"
+      ],
+      "primary_topic_id": "tgat2.numerical.series.multiply_divide",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 35,
+      "stem_md": "$96, \\; 48, \\; 24, \\; ?$",
+      "figures": [],
+      "choices": [
+        {
+          "md": "$24$",
+          "is_answer": false
+        },
+        {
+          "md": "$13$",
+          "is_answer": false
+        },
+        {
+          "md": "$18$",
+          "is_answer": false
+        },
+        {
+          "md": "$6$",
+          "is_answer": false
+        },
+        {
+          "md": "$12$",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "อัตราส่วน: $48 \\div 96$ และ $24 \\div 48$ เท่ากับ $\\frac{1}{2}$",
+          "why_md": "พจน์ลดลงเร็ว แต่ละพจน์ได้จากการหาร"
+        },
+        {
+          "do_md": "พจน์ถัดไป $= 24 \\div 2 = 12$",
+          "why_md": "หารด้วยค่าเดิมอีกครั้ง"
+        }
+      ],
+      "answer_explanation_md": "ตอบ $12$ เพราะอนุกรมหารด้วย $2$ ทุกครั้ง",
+      "hints": [
+        "พจน์ลดลงเร็ว ลองดูว่าหารด้วยอะไร",
+        "แต่ละพจน์ได้จากการหารพจน์ก่อนหน้าด้วย $2$",
+        "นำ $24$ ไปหารด้วย $2$"
+      ],
+      "distractor_reasons": {
+        "0": "หารด้วยค่าที่น้อยเกินไป",
+        "1": "หารแล้วบวกหนึ่ง",
+        "2": "ลบด้วยครึ่งหนึ่งของผลต่างแทนการหาร",
+        "3": "หารสองครั้งในขั้นเดียว"
+      },
+      "misconception_tags": [],
+      "template": {
+        "vars": [
+          {
+            "name": "a",
+            "type": "int",
+            "range": [
+              2,
+              9
+            ],
+            "step": 1
+          },
+          {
+            "name": "r",
+            "type": "choice",
+            "options": [
+              2,
+              3
+            ]
+          }
+        ],
+        "constraints": [
+          "(a*r) > 0",
+          "(a*r + (a*r**2 - a*r)//2) > 0",
+          "(a*r*2) > 0",
+          "(a) > 0",
+          "(a*r + 1) > 0",
+          "(a*r) != (a*r + (a*r**2 - a*r)//2)",
+          "(a*r) != (a*r*2)",
+          "(a*r) != (a)",
+          "(a*r) != (a*r + 1)",
+          "(a*r + (a*r**2 - a*r)//2) != (a*r*2)",
+          "(a*r + (a*r**2 - a*r)//2) != (a)",
+          "(a*r + (a*r**2 - a*r)//2) != (a*r + 1)",
+          "(a*r*2) != (a)",
+          "(a*r*2) != (a*r + 1)",
+          "(a) != (a*r + 1)",
+          "(a*r + (a*r**2 - a*r)//2) <= 5*(a*r)",
+          "(a*r*2) <= 5*(a*r)",
+          "(a) <= 5*(a*r)",
+          "(a*r + 1) <= 5*(a*r)",
+          "5*(a*r + (a*r**2 - a*r)//2) >= (a*r)",
+          "5*(a*r*2) >= (a*r)",
+          "5*(a) >= (a*r)",
+          "5*(a*r + 1) >= (a*r)",
+          "(r) != (a*r)",
+          "(t3) != (a*r)"
+        ],
+        "display": {
+          "t1": "a*r**4",
+          "t2": "a*r**3",
+          "t3": "a*r**2"
+        },
+        "stem_tpl": "${t1}, \\; {t2}, \\; {t3}, \\; ?$",
+        "answer_expr": "a*r",
+        "answer_round": null,
+        "answer_unit": null,
+        "distractors": [
+          {
+            "expr": "a*r + (a*r**2 - a*r)//2",
+            "reason": "ลบด้วยครึ่งหนึ่งของผลต่างแทนการหาร"
+          },
+          {
+            "expr": "a*r*2",
+            "reason": "หารด้วยค่าที่น้อยเกินไป"
+          },
+          {
+            "expr": "a",
+            "reason": "หารสองครั้งในขั้นเดียว"
+          },
+          {
+            "expr": "a*r + 1",
+            "reason": "หารแล้วบวกหนึ่ง"
+          }
+        ],
+        "quality_rules": [
+          "ตัวเลือกทุกตัวต้องเป็นจำนวนบวกและไม่ซ้ำกัน",
+          "คำตอบคำนวณจากนิพจน์ ไม่ได้ใส่มือ"
+        ],
+        "quality_exprs": [
+          "answer > 0"
+        ],
+        "steps_tpl": [
+          {
+            "do_md": "อัตราส่วน: ${t2} \\div {t1}$ และ ${t3} \\div {t2}$ เท่ากับ $\\frac{1}{{r}}$",
+            "why_md": "พจน์ลดลงเร็ว แต่ละพจน์ได้จากการหาร"
+          },
+          {
+            "do_md": "พจน์ถัดไป $= {t3} \\div {r} = {answer}$",
+            "why_md": "หารด้วยค่าเดิมอีกครั้ง"
+          }
+        ],
+        "hints_tpl": [
+          "พจน์ลดลงเร็ว ลองดูว่าหารด้วยอะไร",
+          "แต่ละพจน์ได้จากการหารพจน์ก่อนหน้าด้วย ${r}$",
+          "นำ ${t3}$ ไปหารด้วย ${r}$"
+        ],
+        "explanation_tpl": "ตอบ ${answer}$ เพราะอนุกรมหารด้วย ${r}$ ทุกครั้ง"
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.numerical.series.multiply_divide.0005",
+      "topic_ids": [
+        "tgat2.numerical.series.multiply_divide"
+      ],
+      "primary_topic_id": "tgat2.numerical.series.multiply_divide",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 40,
+      "stem_md": "$32, \\; 16, \\; 8, \\; ?$",
+      "figures": [],
+      "choices": [
+        {
+          "md": "$8$",
+          "is_answer": false
+        },
+        {
+          "md": "$2$",
+          "is_answer": false
+        },
+        {
+          "md": "$4$",
+          "is_answer": true
+        },
+        {
+          "md": "$5$",
+          "is_answer": false
+        },
+        {
+          "md": "$6$",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "อัตราส่วน: $16 \\div 32$ และ $8 \\div 16$ เท่ากับ $\\frac{1}{2}$",
+          "why_md": "พจน์ลดลงเร็ว แต่ละพจน์ได้จากการหาร"
+        },
+        {
+          "do_md": "พจน์ถัดไป $= 8 \\div 2 = 4$",
+          "why_md": "หารด้วยค่าเดิมอีกครั้ง"
+        }
+      ],
+      "answer_explanation_md": "ตอบ $4$ เพราะอนุกรมหารด้วย $2$ ทุกครั้ง",
+      "hints": [
+        "พจน์ลดลงเร็ว ลองดูว่าหารด้วยอะไร",
+        "แต่ละพจน์ได้จากการหารพจน์ก่อนหน้าด้วย $2$",
+        "นำ $8$ ไปหารด้วย $2$"
+      ],
+      "distractor_reasons": {
+        "0": "หารด้วยค่าที่น้อยเกินไป",
+        "1": "หารสองครั้งในขั้นเดียว",
+        "3": "หารแล้วบวกหนึ่ง",
+        "4": "ลบด้วยครึ่งหนึ่งของผลต่างแทนการหาร"
+      },
+      "misconception_tags": [],
+      "template": {
+        "vars": [
+          {
+            "name": "a",
+            "type": "int",
+            "range": [
+              2,
+              9
+            ],
+            "step": 1
+          },
+          {
+            "name": "r",
+            "type": "choice",
+            "options": [
+              2,
+              3
+            ]
+          }
+        ],
+        "constraints": [
+          "(a*r) > 0",
+          "(a*r + (a*r**2 - a*r)//2) > 0",
+          "(a*r*2) > 0",
+          "(a) > 0",
+          "(a*r + 1) > 0",
+          "(a*r) != (a*r + (a*r**2 - a*r)//2)",
+          "(a*r) != (a*r*2)",
+          "(a*r) != (a)",
+          "(a*r) != (a*r + 1)",
+          "(a*r + (a*r**2 - a*r)//2) != (a*r*2)",
+          "(a*r + (a*r**2 - a*r)//2) != (a)",
+          "(a*r + (a*r**2 - a*r)//2) != (a*r + 1)",
+          "(a*r*2) != (a)",
+          "(a*r*2) != (a*r + 1)",
+          "(a) != (a*r + 1)",
+          "(a*r + (a*r**2 - a*r)//2) <= 5*(a*r)",
+          "(a*r*2) <= 5*(a*r)",
+          "(a) <= 5*(a*r)",
+          "(a*r + 1) <= 5*(a*r)",
+          "5*(a*r + (a*r**2 - a*r)//2) >= (a*r)",
+          "5*(a*r*2) >= (a*r)",
+          "5*(a) >= (a*r)",
+          "5*(a*r + 1) >= (a*r)",
+          "(r) != (a*r)",
+          "(t3) != (a*r)"
+        ],
+        "display": {
+          "t1": "a*r**4",
+          "t2": "a*r**3",
+          "t3": "a*r**2"
+        },
+        "stem_tpl": "${t1}, \\; {t2}, \\; {t3}, \\; ?$",
+        "answer_expr": "a*r",
+        "answer_round": null,
+        "answer_unit": null,
+        "distractors": [
+          {
+            "expr": "a*r + (a*r**2 - a*r)//2",
+            "reason": "ลบด้วยครึ่งหนึ่งของผลต่างแทนการหาร"
+          },
+          {
+            "expr": "a*r*2",
+            "reason": "หารด้วยค่าที่น้อยเกินไป"
+          },
+          {
+            "expr": "a",
+            "reason": "หารสองครั้งในขั้นเดียว"
+          },
+          {
+            "expr": "a*r + 1",
+            "reason": "หารแล้วบวกหนึ่ง"
+          }
+        ],
+        "quality_rules": [
+          "ตัวเลือกทุกตัวต้องเป็นจำนวนบวกและไม่ซ้ำกัน",
+          "คำตอบคำนวณจากนิพจน์ ไม่ได้ใส่มือ"
+        ],
+        "quality_exprs": [
+          "answer > 0"
+        ],
+        "steps_tpl": [
+          {
+            "do_md": "อัตราส่วน: ${t2} \\div {t1}$ และ ${t3} \\div {t2}$ เท่ากับ $\\frac{1}{{r}}$",
+            "why_md": "พจน์ลดลงเร็ว แต่ละพจน์ได้จากการหาร"
+          },
+          {
+            "do_md": "พจน์ถัดไป $= {t3} \\div {r} = {answer}$",
+            "why_md": "หารด้วยค่าเดิมอีกครั้ง"
+          }
+        ],
+        "hints_tpl": [
+          "พจน์ลดลงเร็ว ลองดูว่าหารด้วยอะไร",
+          "แต่ละพจน์ได้จากการหารพจน์ก่อนหน้าด้วย ${r}$",
+          "นำ ${t3}$ ไปหารด้วย ${r}$"
+        ],
+        "explanation_tpl": "ตอบ ${answer}$ เพราะอนุกรมหารด้วย ${r}$ ทุกครั้ง"
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.numerical.series.multiply_divide.0006",
+      "topic_ids": [
+        "tgat2.numerical.series.multiply_divide"
+      ],
+      "primary_topic_id": "tgat2.numerical.series.multiply_divide",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 40,
+      "stem_md": "$128, \\; 64, \\; 32, \\; ?$",
+      "figures": [],
+      "choices": [
+        {
+          "md": "$16$",
+          "is_answer": true
+        },
+        {
+          "md": "$32$",
+          "is_answer": false
+        },
+        {
+          "md": "$8$",
+          "is_answer": false
+        },
+        {
+          "md": "$24$",
+          "is_answer": false
+        },
+        {
+          "md": "$17$",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "อัตราส่วน: $64 \\div 128$ และ $32 \\div 64$ เท่ากับ $\\frac{1}{2}$",
+          "why_md": "พจน์ลดลงเร็ว แต่ละพจน์ได้จากการหาร"
+        },
+        {
+          "do_md": "พจน์ถัดไป $= 32 \\div 2 = 16$",
+          "why_md": "หารด้วยค่าเดิมอีกครั้ง"
+        }
+      ],
+      "answer_explanation_md": "ตอบ $16$ เพราะอนุกรมหารด้วย $2$ ทุกครั้ง",
+      "hints": [
+        "พจน์ลดลงเร็ว ลองดูว่าหารด้วยอะไร",
+        "แต่ละพจน์ได้จากการหารพจน์ก่อนหน้าด้วย $2$",
+        "นำ $32$ ไปหารด้วย $2$"
+      ],
+      "distractor_reasons": {
+        "1": "หารด้วยค่าที่น้อยเกินไป",
+        "2": "หารสองครั้งในขั้นเดียว",
+        "3": "ลบด้วยครึ่งหนึ่งของผลต่างแทนการหาร",
+        "4": "หารแล้วบวกหนึ่ง"
+      },
+      "misconception_tags": [],
+      "template": {
+        "vars": [
+          {
+            "name": "a",
+            "type": "int",
+            "range": [
+              2,
+              9
+            ],
+            "step": 1
+          },
+          {
+            "name": "r",
+            "type": "choice",
+            "options": [
+              2,
+              3
+            ]
+          }
+        ],
+        "constraints": [
+          "(a*r) > 0",
+          "(a*r + (a*r**2 - a*r)//2) > 0",
+          "(a*r*2) > 0",
+          "(a) > 0",
+          "(a*r + 1) > 0",
+          "(a*r) != (a*r + (a*r**2 - a*r)//2)",
+          "(a*r) != (a*r*2)",
+          "(a*r) != (a)",
+          "(a*r) != (a*r + 1)",
+          "(a*r + (a*r**2 - a*r)//2) != (a*r*2)",
+          "(a*r + (a*r**2 - a*r)//2) != (a)",
+          "(a*r + (a*r**2 - a*r)//2) != (a*r + 1)",
+          "(a*r*2) != (a)",
+          "(a*r*2) != (a*r + 1)",
+          "(a) != (a*r + 1)",
+          "(a*r + (a*r**2 - a*r)//2) <= 5*(a*r)",
+          "(a*r*2) <= 5*(a*r)",
+          "(a) <= 5*(a*r)",
+          "(a*r + 1) <= 5*(a*r)",
+          "5*(a*r + (a*r**2 - a*r)//2) >= (a*r)",
+          "5*(a*r*2) >= (a*r)",
+          "5*(a) >= (a*r)",
+          "5*(a*r + 1) >= (a*r)",
+          "(r) != (a*r)",
+          "(t3) != (a*r)"
+        ],
+        "display": {
+          "t1": "a*r**4",
+          "t2": "a*r**3",
+          "t3": "a*r**2"
+        },
+        "stem_tpl": "${t1}, \\; {t2}, \\; {t3}, \\; ?$",
+        "answer_expr": "a*r",
+        "answer_round": null,
+        "answer_unit": null,
+        "distractors": [
+          {
+            "expr": "a*r + (a*r**2 - a*r)//2",
+            "reason": "ลบด้วยครึ่งหนึ่งของผลต่างแทนการหาร"
+          },
+          {
+            "expr": "a*r*2",
+            "reason": "หารด้วยค่าที่น้อยเกินไป"
+          },
+          {
+            "expr": "a",
+            "reason": "หารสองครั้งในขั้นเดียว"
+          },
+          {
+            "expr": "a*r + 1",
+            "reason": "หารแล้วบวกหนึ่ง"
+          }
+        ],
+        "quality_rules": [
+          "ตัวเลือกทุกตัวต้องเป็นจำนวนบวกและไม่ซ้ำกัน",
+          "คำตอบคำนวณจากนิพจน์ ไม่ได้ใส่มือ"
+        ],
+        "quality_exprs": [
+          "answer > 0"
+        ],
+        "steps_tpl": [
+          {
+            "do_md": "อัตราส่วน: ${t2} \\div {t1}$ และ ${t3} \\div {t2}$ เท่ากับ $\\frac{1}{{r}}$",
+            "why_md": "พจน์ลดลงเร็ว แต่ละพจน์ได้จากการหาร"
+          },
+          {
+            "do_md": "พจน์ถัดไป $= {t3} \\div {r} = {answer}$",
+            "why_md": "หารด้วยค่าเดิมอีกครั้ง"
+          }
+        ],
+        "hints_tpl": [
+          "พจน์ลดลงเร็ว ลองดูว่าหารด้วยอะไร",
+          "แต่ละพจน์ได้จากการหารพจน์ก่อนหน้าด้วย ${r}$",
+          "นำ ${t3}$ ไปหารด้วย ${r}$"
+        ],
+        "explanation_tpl": "ตอบ ${answer}$ เพราะอนุกรมหารด้วย ${r}$ ทุกครั้ง"
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    }
+  ],
+  "generated_from": "content/tgat2/numerical_series2.py"
+}

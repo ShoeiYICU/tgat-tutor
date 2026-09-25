@@ -1,0 +1,1424 @@
+{
+  "schema_version": "1.0",
+  "subject": "chem",
+  "subject_name_th": "A-Level เคมี",
+  "exam_codes": [
+    "ALEVEL_65"
+  ],
+  "source_note": "ยืนยันโครงสอบแล้วจาก mytcas.com/blueprint/a-level-65-chem/ (ตรวจ 21 กันยายน 2569): 35 ข้อ 100 คะแนน 90 นาที แบ่งเป็น ปรนัย 5 ตัวเลือก 30 ข้อ 75 คะแนน และ ระบายคำตอบที่เป็นตัวเลข 5 ข้อ 25 คะแนน | 3 ส่วน คือ สมบัติของธาตุและสารประกอบ 15-17 ข้อ / สมการเคมีและการเปลี่ยนแปลงทางเคมี 15-17 ข้อ / ทักษะในปฏิบัติการเคมีและการคำนวณปริมาณของสาร 2-4 ข้อ | ผังสอบให้ชื่อหัวข้อทางการ 13 หัวข้อ แต่ไม่ได้ซอยย่อยกว่านั้น หัวข้อระดับ leaf จึงเป็นการซอยของเราเอง | ผังสอบไม่ได้ระบุ: จำนวนข้อของแต่ละหัวข้อ และการใช้เครื่องคิดเลข",
+  "topics": [
+    {
+      "id": "chem",
+      "name_th": "A-Level เคมี",
+      "name_en": "",
+      "kind": "subject",
+      "parent": null,
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ALEVEL_65",
+        "เคมี"
+      ],
+      "curriculum_ref": null,
+      "notes": "วิชาเนื้อหาตามหลักสูตร | โครงสอบยืนยันแล้ว: 35 ข้อ 100 คะแนน 90 นาที | **มี 2 รูปแบบข้อสอบ** ปรนัย 5 ตัวเลือก 30 ข้อ (format mcq5) และ ระบายคำตอบที่เป็นตัวเลข 5 ข้อ (format numeric) ข้อแบบหลังข้อละ 5 คะแนน | สองส่วนแรกใหญ่เท่ากัน (15-17 ข้อ) รวมกันเป็น 30-34 จาก 35 ข้อ ส่วนที่ 3 มีแค่ 2-4 ข้อ แต่เป็นฐานการคำนวณของทั้งวิชา (โมล สารละลาย) จึงต้องเรียนก่อน | หัวข้อคำนวณทำแม่แบบได้ดี (ปริมาณสัมพันธ์ โมล สารละลาย อัตราการเกิดปฏิกิริยา สมดุล กรด-เบส) ส่วนหัวข้อเชิงบรรยาย (พันธะเคมี เคมีอินทรีย์ พอลิเมอร์) ส่วนใหญ่ template ได้ยาก"
+    },
+    {
+      "id": "chem.properties",
+      "name_th": "สมบัติของธาตุและสารประกอบ",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "chem",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_65",
+          "typical_items": "15-17 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "สมบัติของธาตุและสารประกอบ"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (ส่วนทางการ) · ผังสอบระบุ 15-17 ข้อ"
+    },
+    {
+      "id": "chem.properties.atom",
+      "name_th": "อะตอมและสมบัติของธาตุ",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "chem.properties",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "อะตอมและสมบัติของธาตุ"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "chem.properties.atom.structure",
+      "name_th": "โครงสร้างอะตอมและอนุภาคมูลฐาน",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "chem.properties.atom",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_65",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "easy",
+      "keywords": [
+        "อะตอม",
+        "โปรตอน",
+        "อิเล็กตรอน"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "chem.properties.atom.config",
+      "name_th": "การจัดเรียงอิเล็กตรอนและระดับพลังงาน",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "chem.properties.atom",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "chem.properties.atom.structure"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_65",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "จัดเรียงอิเล็กตรอน"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "chem.properties.atom.periodic",
+      "name_th": "ตารางธาตุและแนวโน้มตามหมู่และคาบ",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "chem.properties.atom",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "chem.properties.atom.config"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_65",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ตารางธาตุ",
+        "แนวโน้ม"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "chem.properties.atom.isotope",
+      "name_th": "ไอโซโทปและมวลอะตอม",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "chem.properties.atom",
+      "order": 4,
+      "grade_band": "mixed",
+      "requires": [
+        "chem.properties.atom.periodic"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_65",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ไอโซโทป",
+        "มวลอะตอม"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "chem.properties.bonding",
+      "name_th": "พันธะเคมี",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "chem.properties",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "พันธะเคมี"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "chem.properties.bonding.ionic",
+      "name_th": "พันธะไอออนิกและสมบัติของสารประกอบไอออนิก",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "chem.properties.bonding",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_65",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "พันธะไอออนิก"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "chem.properties.bonding.covalent",
+      "name_th": "พันธะโคเวเลนต์และรูปร่างโมเลกุล",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "chem.properties.bonding",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "chem.properties.bonding.ionic"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_65",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "พันธะโคเวเลนต์",
+        "รูปร่างโมเลกุล"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "chem.properties.bonding.metallic",
+      "name_th": "พันธะโลหะและสมบัติของโลหะ",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "chem.properties.bonding",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "chem.properties.bonding.covalent"
+      ],
+      "est_minutes": 20,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_65",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "easy",
+      "keywords": [
+        "พันธะโลหะ"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "chem.properties.bonding.intermolecular",
+      "name_th": "แรงยึดเหนี่ยวระหว่างโมเลกุล",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "chem.properties.bonding",
+      "order": 4,
+      "grade_band": "mixed",
+      "requires": [
+        "chem.properties.bonding.metallic"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_65",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "แรงระหว่างโมเลกุล"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "chem.properties.gas",
+      "name_th": "แก๊ส",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "chem.properties",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "แก๊ส"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "chem.properties.gas.laws",
+      "name_th": "กฎของแก๊สและสมการแก๊สอุดมคติ",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "chem.properties.gas",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_65",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "กฎของแก๊ส",
+        "แก๊สอุดมคติ"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "chem.properties.gas.mixture",
+      "name_th": "ความดันย่อยและแก๊สผสม",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "chem.properties.gas",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "chem.properties.gas.laws"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_65",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ความดันย่อย"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "chem.properties.gas.diffusion",
+      "name_th": "การแพร่และการแพร่ผ่านของแก๊ส",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "chem.properties.gas",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "chem.properties.gas.mixture"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_65",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "การแพร่"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "chem.properties.organic",
+      "name_th": "เคมีอินทรีย์",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "chem.properties",
+      "order": 4,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "เคมีอินทรีย์"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "chem.properties.organic.hydrocarbon",
+      "name_th": "สารประกอบไฮโดรคาร์บอนและการเรียกชื่อ",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "chem.properties.organic",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_65",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ไฮโดรคาร์บอน",
+        "เรียกชื่อ"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "chem.properties.organic.functional_group",
+      "name_th": "หมู่ฟังก์ชันและสมบัติ",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "chem.properties.organic",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "chem.properties.organic.hydrocarbon"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_65",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "หมู่ฟังก์ชัน"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "chem.properties.organic.isomer",
+      "name_th": "ไอโซเมอร์",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "chem.properties.organic",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "chem.properties.organic.functional_group"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_65",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "ไอโซเมอร์"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "chem.properties.organic.reaction",
+      "name_th": "ปฏิกิริยาของสารประกอบอินทรีย์",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "chem.properties.organic",
+      "order": 4,
+      "grade_band": "mixed",
+      "requires": [
+        "chem.properties.organic.isomer"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_65",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "ปฏิกิริยาอินทรีย์"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "chem.properties.polymer",
+      "name_th": "พอลิเมอร์",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "chem.properties",
+      "order": 5,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "พอลิเมอร์"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "chem.properties.polymer.types",
+      "name_th": "ชนิดของพอลิเมอร์และการเกิดพอลิเมอร์",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "chem.properties.polymer",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_65",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "พอลิเมอร์"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "chem.properties.polymer.properties_use",
+      "name_th": "สมบัติ การใช้งาน และผลต่อสิ่งแวดล้อม",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "chem.properties.polymer",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "chem.properties.polymer.types"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_65",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "พลาสติก",
+        "สิ่งแวดล้อม"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "chem.reaction",
+      "name_th": "สมการเคมีและการเปลี่ยนแปลงทางเคมี",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "chem",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_65",
+          "typical_items": "15-17 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "สมการเคมีและการเปลี่ยนแปลงทางเคมี"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (ส่วนทางการ) · ผังสอบระบุ 15-17 ข้อ"
+    },
+    {
+      "id": "chem.reaction.stoichiometry",
+      "name_th": "ปริมาณสัมพันธ์",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "chem.reaction",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ปริมาณสัมพันธ์"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "chem.reaction.stoichiometry.balance",
+      "name_th": "การดุลสมการเคมี",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "chem.reaction.stoichiometry",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_65",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "easy",
+      "keywords": [
+        "ดุลสมการ"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "chem.reaction.stoichiometry.mass_relation",
+      "name_th": "ความสัมพันธ์ของปริมาณสารในปฏิกิริยา",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "chem.reaction.stoichiometry",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "chem.reaction.stoichiometry.balance"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_65",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ปริมาณสัมพันธ์"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "chem.reaction.stoichiometry.limiting",
+      "name_th": "สารกำหนดปริมาณและผลได้ร้อยละ",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "chem.reaction.stoichiometry",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "chem.reaction.stoichiometry.mass_relation"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_65",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "สารกำหนดปริมาณ",
+        "ผลได้ร้อยละ"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "chem.reaction.rate",
+      "name_th": "อัตราการเกิดปฏิกิริยาเคมี",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "chem.reaction",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "อัตราการเกิดปฏิกิริยาเคมี"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "chem.reaction.rate.definition",
+      "name_th": "ความหมายและการวัดอัตราการเกิดปฏิกิริยา",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "chem.reaction.rate",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_65",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "อัตราการเกิดปฏิกิริยา"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "chem.reaction.rate.factors",
+      "name_th": "ปัจจัยที่มีผลต่ออัตราการเกิดปฏิกิริยา",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "chem.reaction.rate",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "chem.reaction.rate.definition"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_65",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ปัจจัย",
+        "ตัวเร่ง"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "chem.reaction.rate.rate_law",
+      "name_th": "กฎอัตราและอันดับของปฏิกิริยา",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "chem.reaction.rate",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "chem.reaction.rate.factors"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_65",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "กฎอัตรา",
+        "อันดับปฏิกิริยา"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "chem.reaction.equilibrium",
+      "name_th": "สมดุลเคมี",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "chem.reaction",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "สมดุลเคมี"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "chem.reaction.equilibrium.concept",
+      "name_th": "ภาวะสมดุลและค่าคงที่สมดุล",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "chem.reaction.equilibrium",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_65",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "สมดุลเคมี",
+        "ค่าคงที่สมดุล"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "chem.reaction.equilibrium.shift",
+      "name_th": "หลักของเลอชาเตอลิเอและการรบกวนสมดุล",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "chem.reaction.equilibrium",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "chem.reaction.equilibrium.concept"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_65",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "เลอชาเตอลิเอ"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "chem.reaction.equilibrium.calculation",
+      "name_th": "การคำนวณที่ภาวะสมดุล",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "chem.reaction.equilibrium",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "chem.reaction.equilibrium.shift"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_65",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "คำนวณสมดุล"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "chem.reaction.acid_base",
+      "name_th": "กรด–เบส",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "chem.reaction",
+      "order": 4,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "กรด–เบส"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "chem.reaction.acid_base.theory",
+      "name_th": "ทฤษฎีกรด-เบสและคู่กรด-เบส",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "chem.reaction.acid_base",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_65",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "กรด",
+        "เบส"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "chem.reaction.acid_base.ph",
+      "name_th": "ค่า pH และการคำนวณความเข้มข้นไอออน",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "chem.reaction.acid_base",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "chem.reaction.acid_base.theory"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_65",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "pH",
+        "ไอออน"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "chem.reaction.acid_base.titration",
+      "name_th": "การไทเทรตและอินดิเคเตอร์",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "chem.reaction.acid_base",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "chem.reaction.acid_base.ph"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_65",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "ไทเทรต",
+        "อินดิเคเตอร์"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "chem.reaction.acid_base.buffer",
+      "name_th": "สารละลายบัฟเฟอร์",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "chem.reaction.acid_base",
+      "order": 4,
+      "grade_band": "mixed",
+      "requires": [
+        "chem.reaction.acid_base.titration"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_65",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "บัฟเฟอร์"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "chem.reaction.electrochem",
+      "name_th": "เคมีไฟฟ้า",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "chem.reaction",
+      "order": 5,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "เคมีไฟฟ้า"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "chem.reaction.electrochem.redox",
+      "name_th": "ปฏิกิริยารีดอกซ์และเลขออกซิเดชัน",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "chem.reaction.electrochem",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_65",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "รีดอกซ์",
+        "เลขออกซิเดชัน"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "chem.reaction.electrochem.cell",
+      "name_th": "เซลล์กัลวานิกและศักย์ไฟฟ้าของเซลล์",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "chem.reaction.electrochem",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "chem.reaction.electrochem.redox"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_65",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "เซลล์กัลวานิก",
+        "ศักย์ไฟฟ้า"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "chem.reaction.electrochem.electrolysis",
+      "name_th": "เซลล์อิเล็กโทรลิติกและการชุบโลหะ",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "chem.reaction.electrochem",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "chem.reaction.electrochem.cell"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_65",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "อิเล็กโทรลิซิส"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "chem.lab_calculation",
+      "name_th": "ทักษะในปฏิบัติการเคมีและการคำนวณปริมาณของสาร",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "chem",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_65",
+          "typical_items": "2-4 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ทักษะในปฏิบัติการเคมีและการคำนวณปริมาณของสาร"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (ส่วนทางการ) · ผังสอบระบุ 2-4 ข้อ · ข้อน้อยแต่เป็นฐานการคำนวณของทั้งวิชา ควรเรียนก่อนส่วนอื่น"
+    },
+    {
+      "id": "chem.lab_calculation.lab_safety",
+      "name_th": "ความปลอดภัยและทักษะในปฏิบัติการเคมี",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "chem.lab_calculation",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ความปลอดภัยและทักษะในปฏิบัติการเคมี"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "chem.lab_calculation.lab_safety.safety",
+      "name_th": "ความปลอดภัยและสัญลักษณ์เตือนภัยในห้องปฏิบัติการ",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "chem.lab_calculation.lab_safety",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 20,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_65",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "easy",
+      "keywords": [
+        "ความปลอดภัย",
+        "สัญลักษณ์"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ | มีสัญลักษณ์และข้อกำหนดที่ต้องตรงตามมาตรฐาน ตั้ง review_status เป็น ai_draft_needs_fact_check"
+    },
+    {
+      "id": "chem.lab_calculation.lab_safety.equipment",
+      "name_th": "อุปกรณ์และเทคนิคพื้นฐาน",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "chem.lab_calculation.lab_safety",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "chem.lab_calculation.lab_safety.safety"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_65",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "easy",
+      "keywords": [
+        "อุปกรณ์",
+        "เทคนิค"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "chem.lab_calculation.lab_safety.significant",
+      "name_th": "เลขนัยสำคัญและการรายงานผลการวัด",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "chem.lab_calculation.lab_safety",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "chem.lab_calculation.lab_safety.equipment"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_65",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "เลขนัยสำคัญ"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "chem.lab_calculation.mole",
+      "name_th": "โมล",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "chem.lab_calculation",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "โมล"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "chem.lab_calculation.mole.concept",
+      "name_th": "มวลอะตอม มวลโมเลกุล และโมล",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "chem.lab_calculation.mole",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_65",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "easy",
+      "keywords": [
+        "โมล",
+        "มวลโมเลกุล"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "chem.lab_calculation.mole.conversion",
+      "name_th": "การแปลงระหว่างมวล โมล และจำนวนอนุภาค",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "chem.lab_calculation.mole",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "chem.lab_calculation.mole.concept"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_65",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "แปลงหน่วย",
+        "โมล"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "chem.lab_calculation.mole.formula",
+      "name_th": "สูตรเอมพิริคัลและสูตรโมเลกุล",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "chem.lab_calculation.mole",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "chem.lab_calculation.mole.conversion"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_65",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "สูตรเอมพิริคัล"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "chem.lab_calculation.solution",
+      "name_th": "สารละลาย",
+      "name_en": "",
+      "kind": "branch",
+      "parent": "chem.lab_calculation",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "สารละลาย"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อนี้คัดมาจากผังสอบทางการตรงตัว (หัวข้อทางการ)"
+    },
+    {
+      "id": "chem.lab_calculation.solution.concentration",
+      "name_th": "หน่วยความเข้มข้นของสารละลาย",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "chem.lab_calculation.solution",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_65",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ความเข้มข้น",
+        "โมลาริตี"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "chem.lab_calculation.solution.dilution",
+      "name_th": "การเตรียมและการเจือจางสารละลาย",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "chem.lab_calculation.solution",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "chem.lab_calculation.solution.concentration"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_65",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "เจือจาง"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    },
+    {
+      "id": "chem.lab_calculation.solution.colligative",
+      "name_th": "สมบัติคอลลิเกทีฟเบื้องต้น",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "chem.lab_calculation.solution",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "chem.lab_calculation.solution.dilution"
+      ],
+      "est_minutes": 25,
+      "exam_weight": [
+        {
+          "exam_code": "ALEVEL_65",
+          "typical_items": "อยู่ในหัวข้อทางการข้างต้น",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "คอลลิเกทีฟ"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อย่อยนี้เราซอยเอง เพราะผังสอบให้แค่ชื่อหัวข้อใหญ่ ไม่ได้ให้รายการย่อย — ไม่ใช่รายการทางการ"
+    }
+  ]
+}

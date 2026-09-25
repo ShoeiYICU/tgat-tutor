@@ -1,0 +1,97 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tgat1.reading.comprehension.inference",
+  "title": "อนุมานจากสิ่งที่ไม่ได้เขียนตรง ๆ",
+  "subtitle": "ข้อสรุปที่ถูกต้องต้องมีหลักฐานในบทอ่านรองรับ แม้ไม่ได้เขียนตรง ๆ ตัวลวงคือข้อที่ 'อาจจริง' แต่บทอ่านไม่ได้สนับสนุน",
+  "prereq_topic_ids": [
+    "tgat1.reading.comprehension.specific_detail"
+  ],
+  "objectives": [
+    "สรุปสิ่งที่บทอ่านบอกเป็นนัยได้",
+    "ระบุหลักฐานที่รองรับข้อสรุป",
+    "แยกข้อสรุปที่มีหลักฐานออกจากข้อที่เดาเกินบท"
+  ],
+  "est_minutes": 30,
+  "blocks": [
+    {
+      "type": "hook",
+      "body_md": "คำถามแบบ \"It can be inferred that...\" หรือ \"The passage suggests...\" คำตอบ **ไม่อยู่ในบทอ่านตรง ๆ** แต่ต้องมีประโยคในบทที่ทำให้สรุปแบบนั้นได้แน่นอน"
+    },
+    {
+      "type": "concept",
+      "heading": "ระดับของข้อสรุป",
+      "body_md": "- **เขียนตรง ๆ** → เป็นข้อรายละเอียด ไม่ใช่การอนุมาน\n- **สรุปได้จากหลักฐาน** → คำตอบของข้ออนุมาน\n- **อาจจริงแต่ไม่มีหลักฐาน** → ตัวลวง\n- **ขัดกับบทอ่าน** → ตัวลวง\n\nข้อสรุปที่ดีมักใช้คำระวัง ๆ เช่น probably, some, may · ตัวลวงมักใช้คำเด็ดขาด เช่น all, never, always"
+    },
+    {
+      "type": "formula",
+      "name": "หาประโยคหลักฐานให้ได้ก่อนเลือก",
+      "formula_tex": "",
+      "variables": [],
+      "use_when": "ข้อ infer / suggest / imply / most likely",
+      "avoid_when": "ถ้าหาหลักฐานไม่เจอ อย่าเลือกเพราะรู้สึกว่าจริงในชีวิตจริง",
+      "derivation_md": "สำหรับแต่ละตัวเลือก ถามว่า \"ประโยคไหนในบทอ่านทำให้เชื่อแบบนี้\" ถ้าชี้ไม่ได้ ตัดทิ้ง",
+      "memory_tip": "ไม่มีหลักฐาน = ไม่ใช่คำตอบ"
+    },
+    {
+      "type": "example",
+      "label": "ตัวอย่างที่ 1",
+      "difficulty": 2,
+      "stem_md": "จาก Community Garden: \"Several other schools in the province have visited to learn how to start similar projects.\"",
+      "steps": [
+        {
+          "do_md": "หลักฐาน: โรงเรียนอื่นมาดูงานเพื่อเริ่มโครงการคล้ายกัน",
+          "why_md": "แปลว่าโครงการถูกมองว่าเป็นตัวอย่างที่ดี"
+        },
+        {
+          "do_md": "ข้อสรุปที่รองรับ",
+          "why_md": "The garden has become a model for other schools."
+        }
+      ],
+      "answer_md": "The garden has become a model for other schools.",
+      "figures": []
+    },
+    {
+      "type": "pitfall",
+      "title": "สรุปเกินหลักฐาน",
+      "wrong_md": "เลือก \"All schools in Thailand will have gardens soon.\"",
+      "why_wrong_md": "บทอ่านพูดถึงแค่บางโรงเรียนในจังหวัด คำว่า all เกินหลักฐาน",
+      "correct_md": "เลือกข้อสรุปที่ขอบเขตเท่ากับหลักฐาน",
+      "misconception_tag": "over_inference"
+    },
+    {
+      "type": "summary",
+      "bullets_md": [
+        "ข้อสรุปที่ถูกต้องต้องมีหลักฐานในบทอ่าน",
+        "ตัวลวง: อาจจริงแต่ไม่มีหลักฐาน หรือใช้คำเด็ดขาด",
+        "หาประโยคหลักฐานก่อนเลือกเสมอ"
+      ]
+    },
+    {
+      "type": "check",
+      "question_md": "\"Maria checked her watch again and tapped her foot while waiting for the bus.\" It can be inferred that Maria...",
+      "choices": [
+        "was very relaxed",
+        "was impatient",
+        "had no watch",
+        "missed the bus yesterday"
+      ],
+      "answer_index": 1,
+      "explain_md": "ดูนาฬิกาซ้ำและเคาะเท้า เป็นหลักฐานของความใจร้อน"
+    }
+  ],
+  "glossary": [],
+  "common_exam_patterns": [
+    "It can be inferred that...",
+    "The passage suggests that...",
+    "What will most likely happen next?"
+  ],
+  "next_topic_ids": [
+    "tgat1.reading.comprehension.purpose_tone"
+  ],
+  "sources": [
+    "ผังการสอบ TGAT1 จาก mytcas.com (พาร์ทการอ่าน)",
+    "บทอ่านแต่งขึ้นใหม่เพื่อการฝึก"
+  ],
+  "review_status": "ai_draft",
+  "generated_from": "content/tgat1/reading.py"
+}

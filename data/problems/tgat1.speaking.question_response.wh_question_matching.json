@@ -1,0 +1,599 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tgat1.speaking.question_response.wh_question_matching",
+  "problems": [
+    {
+      "id": "prob.tgat1.speaking.question_response.wh_question_matching.0001",
+      "topic_ids": [
+        "tgat1.speaking.question_response.wh_question_matching"
+      ],
+      "primary_topic_id": "tgat1.speaking.question_response.wh_question_matching",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 25,
+      "stem_md": "**A:** How often do you visit your grandparents?  \n**B:** ______",
+      "figures": [],
+      "choices": [
+        {
+          "md": "In Chiang Rai.",
+          "is_answer": false
+        },
+        {
+          "md": "By train.",
+          "is_answer": false
+        },
+        {
+          "md": "About once a month.",
+          "is_answer": true
+        },
+        {
+          "md": "For three days, usually during the school holidays.",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "How often = บ่อยแค่ไหน",
+          "why_md": "ต้องการความถี่"
+        },
+        {
+          "do_md": "หาคำตอบที่บอกความถี่",
+          "why_md": "About once a month."
+        }
+      ],
+      "answer_explanation_md": "ตอบ About once a month. เพราะ How often ถามความถี่",
+      "hints": [
+        "How often ถามข้อมูลชนิดไหน",
+        "คำบอกความถี่มีรูปแบบอย่างไร เช่น ...a week",
+        "ตัดตัวเลือกที่ตอบระยะเวลาหรือสถานที่"
+      ],
+      "distractor_reasons": {
+        "0": "ตอบสถานที่ (Where)",
+        "1": "ตอบวิธีเดินทาง (How) ไม่ใช่ความถี่",
+        "3": "ตอบระยะเวลาที่อยู่ ไม่ใช่ความถี่"
+      },
+      "misconception_tags": [
+        "wh_type_mismatch"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.question_response.wh_question_matching.0002",
+      "topic_ids": [
+        "tgat1.speaking.question_response.wh_question_matching"
+      ],
+      "primary_topic_id": "tgat1.speaking.question_response.wh_question_matching",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 25,
+      "stem_md": "**A:** Which bus goes to Riverside Mall?  \n**B:** ______",
+      "figures": [],
+      "choices": [
+        {
+          "md": "Bus number 25.",
+          "is_answer": true
+        },
+        {
+          "md": "Because it's faster.",
+          "is_answer": false
+        },
+        {
+          "md": "Yes, it goes there.",
+          "is_answer": false
+        },
+        {
+          "md": "Every 15 minutes during the morning rush hour.",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "Which = เลือกอันไหน",
+          "why_md": "ต้องบอกว่ารถสายไหน"
+        },
+        {
+          "do_md": "คำตอบระบุสายรถ",
+          "why_md": "Bus number 25."
+        }
+      ],
+      "answer_explanation_md": "ตอบ Bus number 25. เพราะ Which ถามให้ระบุว่ารถสายไหน",
+      "hints": [
+        "Which ถามให้ระบุอะไร",
+        "คำถามนี้ตอบด้วย Yes/No ได้ไหม",
+        "หาตัวเลือกที่บอกว่ารถคันไหน"
+      ],
+      "distractor_reasons": {
+        "1": "ตอบเหตุผล (Why)",
+        "2": "ตอบเหมือนคำถาม yes/no",
+        "3": "ตอบความถี่ของรถ (How often)"
+      },
+      "misconception_tags": [
+        "wh_type_mismatch"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.question_response.wh_question_matching.0003",
+      "topic_ids": [
+        "tgat1.speaking.question_response.wh_question_matching"
+      ],
+      "primary_topic_id": "tgat1.speaking.question_response.wh_question_matching",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 30,
+      "stem_md": "**A:** How long have you been learning the guitar?  \n**B:** ______",
+      "figures": [],
+      "choices": [
+        {
+          "md": "Every Saturday.",
+          "is_answer": false
+        },
+        {
+          "md": "From my teacher.",
+          "is_answer": false
+        },
+        {
+          "md": "It's about one meter long.",
+          "is_answer": false
+        },
+        {
+          "md": "Since I was twelve.",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "How long + have been V-ing = ทำมานานเท่าไรแล้ว",
+          "why_md": "ต้องการระยะเวลาจนถึงปัจจุบัน"
+        },
+        {
+          "do_md": "Since + จุดเริ่มต้น บอกระยะเวลาได้",
+          "why_md": "Since I was twelve."
+        }
+      ],
+      "answer_explanation_md": "ตอบ Since I was twelve. เพราะคำถามถามว่าเรียนมานานเท่าไร Since บอกจุดเริ่มต้นจนถึงปัจจุบัน",
+      "hints": [
+        "How long ในประโยคนี้ถามความยาวหรือระยะเวลา",
+        "have been learning บอกว่ากิจกรรมยังทำอยู่ถึงตอนนี้ไหม",
+        "since ใช้บอกอะไร"
+      ],
+      "distractor_reasons": {
+        "0": "ตอบความถี่ ไม่ใช่ระยะเวลาที่เรียนมา",
+        "1": "ตอบว่าเรียนจากใคร ไม่ใช่นานเท่าไร",
+        "2": "ตีความ long ว่าความยาวของกีตาร์"
+      },
+      "misconception_tags": [
+        "wh_type_mismatch"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.question_response.wh_question_matching.0004",
+      "topic_ids": [
+        "tgat1.speaking.question_response.wh_question_matching"
+      ],
+      "primary_topic_id": "tgat1.speaking.question_response.wh_question_matching",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 35,
+      "stem_md": "**A:** Do you know where the lost-and-found office is?  \n**B:** ______",
+      "figures": [],
+      "choices": [
+        {
+          "md": "It opens at 9 a.m. and closes at 5 p.m. from Monday to Friday.",
+          "is_answer": false
+        },
+        {
+          "md": "On the second floor, by the elevator.",
+          "is_answer": true
+        },
+        {
+          "md": "I lost my wallet.",
+          "is_answer": false
+        },
+        {
+          "md": "Yes, I know.",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "Do you know where...? = คำถามทางอ้อม",
+          "why_md": "จริง ๆ ต้องการรู้ว่าอยู่ที่ไหน"
+        },
+        {
+          "do_md": "ตอบด้วยข้อมูลสถานที่",
+          "why_md": "On the second floor, by the elevator."
+        }
+      ],
+      "answer_explanation_md": "ตอบ On the second floor, by the elevator. เพราะเป็นคำถามทางอ้อมที่ต้องการรู้สถานที่ ตอบแค่ Yes ไม่ได้ช่วย A",
+      "hints": [
+        "A อยากรู้แค่ว่า B รู้หรือไม่ หรืออยากรู้ที่ตั้งจริง ๆ",
+        "คำถามนี้มีคำว่า where อยู่ข้างใน ต้องการข้อมูลชนิดไหน",
+        "การตอบแค่ Yes, I know. ช่วย A ได้ไหม"
+      ],
+      "distractor_reasons": {
+        "0": "ตอบเวลาเปิด ไม่ใช่สถานที่",
+        "2": "ตอบเรื่องที่ตัวเองทำของหาย ไม่ได้บอกที่ตั้ง",
+        "3": "ตอบแค่ว่ารู้ แต่ไม่ได้ให้ข้อมูลที่ A ต้องการจริง"
+      },
+      "misconception_tags": [
+        "wh_type_mismatch"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.question_response.wh_question_matching.0005",
+      "topic_ids": [
+        "tgat1.speaking.question_response.wh_question_matching"
+      ],
+      "primary_topic_id": "tgat1.speaking.question_response.wh_question_matching",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 30,
+      "stem_md": "**A:** Whose laptop is this on the table?  \n**B:** ______",
+      "figures": [],
+      "choices": [
+        {
+          "md": "I think it's Pim's. She was sitting there.",
+          "is_answer": true
+        },
+        {
+          "md": "On the table.",
+          "is_answer": false
+        },
+        {
+          "md": "Who is Pim?",
+          "is_answer": false
+        },
+        {
+          "md": "It's a new laptop. It looks really expensive.",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "Whose = ของใคร",
+          "why_md": "ต้องการเจ้าของ"
+        },
+        {
+          "do_md": "คำตอบระบุเจ้าของพร้อมเหตุผล",
+          "why_md": "I think it's Pim's."
+        }
+      ],
+      "answer_explanation_md": "ตอบ I think it's Pim's. She was sitting there. เพราะ Whose ถามเจ้าของ",
+      "hints": [
+        "Whose ถามอะไร",
+        "รูป 's หลังชื่อหมายถึงอะไร",
+        "ตัดตัวเลือกที่ตอบลักษณะหรือสถานที่"
+      ],
+      "distractor_reasons": {
+        "1": "ตอบสถานที่ซึ่ง A บอกไว้แล้ว",
+        "2": "ถามกลับแทนการตอบ",
+        "3": "บอกลักษณะ ไม่ได้บอกเจ้าของ"
+      },
+      "misconception_tags": [
+        "wh_type_mismatch"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.question_response.wh_question_matching.0006",
+      "topic_ids": [
+        "tgat1.speaking.question_response.wh_question_matching"
+      ],
+      "primary_topic_id": "tgat1.speaking.question_response.wh_question_matching",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 35,
+      "stem_md": "**A:** How much sugar would you like in your tea?  \n**B:** ______",
+      "figures": [],
+      "choices": [
+        {
+          "md": "Two cups, please.",
+          "is_answer": false
+        },
+        {
+          "md": "Just a little, please.",
+          "is_answer": true
+        },
+        {
+          "md": "Very much, thank you.",
+          "is_answer": false
+        },
+        {
+          "md": "It costs 20 baht for a bag of sugar.",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "How much + คำนามนับไม่ได้ = ปริมาณ",
+          "why_md": "ถามปริมาณน้ำตาล ไม่ใช่ราคา"
+        },
+        {
+          "do_md": "ตอบปริมาณ",
+          "why_md": "Just a little, please."
+        }
+      ],
+      "answer_explanation_md": "ตอบ Just a little, please. เพราะ How much sugar ถามปริมาณน้ำตาล ไม่ได้ถามราคา",
+      "hints": [
+        "How much ในประโยคนี้ถามราคาหรือปริมาณ ดูจากคำที่ตามมา",
+        "sugar นับได้หรือนับไม่ได้",
+        "หาตัวเลือกที่บอกปริมาณน้ำตาล"
+      ],
+      "distractor_reasons": {
+        "0": "ตอบจำนวนแก้วชา ไม่ใช่ปริมาณน้ำตาล",
+        "2": "ใช้ very much ในความหมายขอบคุณ ไม่ได้ตอบปริมาณ",
+        "3": "ตีความ How much ว่าถามราคา"
+      },
+      "misconception_tags": [
+        "wh_type_mismatch"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.question_response.wh_question_matching.0007",
+      "topic_ids": [
+        "tgat1.speaking.question_response.wh_question_matching"
+      ],
+      "primary_topic_id": "tgat1.speaking.question_response.wh_question_matching",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 45,
+      "stem_md": "**A:** How often does the shuttle run after six?  \n**B:** ______",
+      "figures": [],
+      "choices": [
+        {
+          "md": "About twenty passengers.",
+          "is_answer": false
+        },
+        {
+          "md": "At the station entrance.",
+          "is_answer": false
+        },
+        {
+          "md": "Because the buses are smaller.",
+          "is_answer": false
+        },
+        {
+          "md": "Every thirty minutes until ten.",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ระบุหน้าที่ของประโยค",
+          "why_md": "How often ต้องการความถี่"
+        },
+        {
+          "do_md": "ตรวจคำตอบกับบริบทและระดับภาษา",
+          "why_md": "คำตอบต้องทำหน้าที่ต่อบทสนทนา ไม่ใช่แค่มีคำซ้ำ"
+        }
+      ],
+      "answer_explanation_md": "Every thirty minutes ตอบความถี่และเพิ่มช่วงเวลาที่เป็นประโยชน์",
+      "hints": [
+        "ดูว่าผู้พูดกำลังถาม ขอ เชิญ หรือแสดงความรู้สึก",
+        "ตัดตัวเลือกที่ไวยากรณ์ได้แต่ตอบคนละหน้าที่",
+        "เลือกคำตอบที่ทำให้บทสนทนาดำเนินต่ออย่างเป็นธรรมชาติ"
+      ],
+      "distractor_reasons": {
+        "0": "ตอบจำนวนคน",
+        "1": "ตอบสถานที่แทนความถี่",
+        "2": "ตอบเหตุผล"
+      },
+      "misconception_tags": [
+        "wh_type_mismatch"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.speaking.question_response.wh_question_matching.0008",
+      "topic_ids": [
+        "tgat1.speaking.question_response.wh_question_matching"
+      ],
+      "primary_topic_id": "tgat1.speaking.question_response.wh_question_matching",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 5,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": true,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 55,
+      "stem_md": "**A:** Which route did Nina say avoids the roadworks?  \n**B:** ______",
+      "figures": [],
+      "choices": [
+        {
+          "md": "At around half past eight.",
+          "is_answer": false
+        },
+        {
+          "md": "Nina said it quite clearly.",
+          "is_answer": false
+        },
+        {
+          "md": "The riverside route, although it takes ten minutes longer.",
+          "is_answer": true
+        },
+        {
+          "md": "Because the main road is closed.",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ระบุหน้าที่ของประโยค",
+          "why_md": "Which route ต้องการชื่อเส้นทาง ไม่ใช่เหตุผลหรือเวลา"
+        },
+        {
+          "do_md": "ตรวจคำตอบกับบริบทและระดับภาษา",
+          "why_md": "คำตอบต้องทำหน้าที่ต่อบทสนทนา ไม่ใช่แค่มีคำซ้ำ"
+        }
+      ],
+      "answer_explanation_md": "ระบุเส้นทางและเงื่อนไขที่ไม่เปลี่ยนคำตอบ",
+      "hints": [
+        "ดูว่าผู้พูดกำลังถาม ขอ เชิญ หรือแสดงความรู้สึก",
+        "ตัดตัวเลือกที่ไวยากรณ์ได้แต่ตอบคนละหน้าที่",
+        "เลือกคำตอบที่ทำให้บทสนทนาดำเนินต่ออย่างเป็นธรรมชาติ"
+      ],
+      "distractor_reasons": {
+        "0": "ตอบเวลาแทนเส้นทาง",
+        "1": "บอกลักษณะการพูดแทนเนื้อหาคำตอบ",
+        "3": "ตอบเหตุผล ไม่ระบุ route"
+      },
+      "misconception_tags": [
+        "wh_type_mismatch"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    }
+  ],
+  "generated_from": "content/tgat1/speaking_qr.py"
+}

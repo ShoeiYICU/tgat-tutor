@@ -1,0 +1,589 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tgat1.reading.foundation.skim_scan",
+  "problems": [
+    {
+      "id": "prob.tgat1.reading.foundation.skim_scan.0001",
+      "topic_ids": [
+        "tgat1.reading.foundation.skim_scan"
+      ],
+      "primary_topic_id": "tgat1.reading.foundation.skim_scan",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 25,
+      "stem_md": "Which question should you answer by **skimming** the passage?",
+      "figures": [],
+      "choices": [
+        {
+          "md": "Who gave the students advice?",
+          "is_answer": false
+        },
+        {
+          "md": "How many people visited the market in 2015?",
+          "is_answer": false
+        },
+        {
+          "md": "When did the writer contact customer service?",
+          "is_answer": false
+        },
+        {
+          "md": "What is the passage mainly about?",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "skim ใช้หาภาพรวมและใจความหลัก",
+          "why_md": "What is the passage mainly about?"
+        },
+        {
+          "do_md": "ตัวอื่นถามข้อมูลเฉพาะ",
+          "why_md": "ต้อง scan"
+        }
+      ],
+      "answer_explanation_md": "ตอบ What is the passage mainly about? เพราะเป็นคำถามภาพรวม ใช้การอ่านกวาด",
+      "hints": [
+        "skim ใช้หาข้อมูลแบบไหน",
+        "คำถามไหนถามภาพรวม",
+        "คำถามที่มี how many / who / when ใช้วิธีไหน"
+      ],
+      "distractor_reasons": {
+        "0": "ถามข้อมูลเฉพาะ ต้อง scan",
+        "1": "ถามตัวเลขเฉพาะ ต้อง scan",
+        "2": "ถามวันที่ ต้อง scan"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.reading.foundation.skim_scan.0002",
+      "topic_ids": [
+        "tgat1.reading.foundation.skim_scan"
+      ],
+      "primary_topic_id": "tgat1.reading.foundation.skim_scan",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 4,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 2,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 25,
+      "stem_md": "You want to find how many families take part in the garden project. What should you look for first?",
+      "figures": [],
+      "choices": [
+        {
+          "md": "Words that show the writer's feelings",
+          "is_answer": false
+        },
+        {
+          "md": "A number in the passage",
+          "is_answer": true
+        },
+        {
+          "md": "The title of the passage",
+          "is_answer": false
+        },
+        {
+          "md": "The first sentence of the passage",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "คำถามถามจำนวน",
+          "why_md": "scan หาตัวเลข"
+        },
+        {
+          "do_md": "หาตัวเลขในบทอ่าน",
+          "why_md": "more than forty families"
+        }
+      ],
+      "answer_explanation_md": "ตอบ A number in the passage เพราะคำถามถามจำนวน ต้อง scan หาตัวเลข",
+      "hints": [
+        "คำถามถามข้อมูลชนิดไหน",
+        "ข้อมูลจำนวนมักปรากฏในรูปแบบไหน",
+        "ควร skim หรือ scan"
+      ],
+      "distractor_reasons": {
+        "0": "ใช้กับคำถามน้ำเสียง",
+        "2": "ชื่อเรื่องไม่มีจำนวนครอบครัว",
+        "3": "ประโยคแรกมักบอกหัวข้อ ไม่ใช่ตัวเลขเฉพาะ"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.reading.foundation.skim_scan.0003",
+      "topic_ids": [
+        "tgat1.reading.foundation.skim_scan"
+      ],
+      "primary_topic_id": "tgat1.reading.foundation.skim_scan",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 30,
+      "stem_md": "Where should you look first to find the main idea when skimming?",
+      "figures": [],
+      "choices": [
+        {
+          "md": "The longest sentence in the passage",
+          "is_answer": false
+        },
+        {
+          "md": "The first and last sentences of the passage",
+          "is_answer": true
+        },
+        {
+          "md": "Every sentence from beginning to end",
+          "is_answer": false
+        },
+        {
+          "md": "Only the numbers and dates",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ใจความหลักมักอยู่ต้นหรือท้ายบท",
+          "why_md": "อ่านประโยคแรกและสุดท้ายก่อน"
+        },
+        {
+          "do_md": "เลือก",
+          "why_md": "The first and last sentences of the passage"
+        }
+      ],
+      "answer_explanation_md": "ตอบ The first and last sentences of the passage เพราะใจความหลักมักอยู่ต้นหรือท้ายบท",
+      "hints": [
+        "skim ต่างจากการอ่านละเอียดอย่างไร",
+        "ใจความหลักมักอยู่ตรงไหนของบท",
+        "ตัวเลขและวันที่ใช้ตอบคำถามแบบไหน"
+      ],
+      "distractor_reasons": {
+        "0": "ความยาวไม่ได้บอกว่าเป็นใจความหลัก",
+        "2": "เป็นการอ่านละเอียด ไม่ใช่ skim",
+        "3": "ใช้กับการ scan"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.reading.foundation.skim_scan.0004",
+      "topic_ids": [
+        "tgat1.reading.foundation.skim_scan"
+      ],
+      "primary_topic_id": "tgat1.reading.foundation.skim_scan",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 30,
+      "stem_md": "What is the best first step when you start a reading passage in the exam?",
+      "figures": [],
+      "choices": [
+        {
+          "md": "Read the questions first",
+          "is_answer": true
+        },
+        {
+          "md": "Answer the hardest question first",
+          "is_answer": false
+        },
+        {
+          "md": "Read every word of the passage carefully",
+          "is_answer": false
+        },
+        {
+          "md": "Translate the passage into Thai",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "อ่านคำถามก่อน",
+          "why_md": "รู้ว่าต้องหาอะไรในบทอ่าน"
+        },
+        {
+          "do_md": "จากนั้นเลือก skim หรือ scan",
+          "why_md": "ประหยัดเวลา"
+        }
+      ],
+      "answer_explanation_md": "ตอบ Read the questions first เพราะทำให้รู้ว่าต้องหาอะไร แล้วเลือกวิธีอ่านให้เหมาะ",
+      "hints": [
+        "การรู้คำถามก่อนช่วยอะไร",
+        "การอ่านทุกคำก่อนดูคำถามเสียอะไร",
+        "ถ้ารู้ว่าต้องหาอะไร จะอ่านเร็วขึ้นไหม"
+      ],
+      "distractor_reasons": {
+        "1": "ยังไม่รู้ว่าข้อไหนยากถ้ายังไม่อ่านคำถาม",
+        "2": "เสียเวลาอ่านส่วนที่ไม่ถูกถาม",
+        "3": "ใช้เวลามากเกินไป"
+      },
+      "misconception_tags": [
+        "read_every_word"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.reading.foundation.skim_scan.0005",
+      "topic_ids": [
+        "tgat1.reading.foundation.skim_scan"
+      ],
+      "primary_topic_id": "tgat1.reading.foundation.skim_scan",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 40,
+      "stem_md": "**Floating Market**\n\nFor more than sixty years, Riverside Floating Market was mainly a place where farmers sold fruit to local families. When a popular travel program featured the market in 2015, everything changed. Within a few months, weekend visitors increased from a few hundred to several thousand. Some vendors were delighted because their income doubled. Others were less happy. They complained that parking spaces were always full and that traditional wooden boats were being replaced by larger, noisier ones. The local council eventually introduced a rule limiting the number of motorboats. Today, the market tries to balance its new popularity with its old way of life.\n\n---\n\nScan the passage. In what year was the market featured on a travel program?",
+      "figures": [],
+      "choices": [
+        {
+          "md": "2015",
+          "is_answer": true
+        },
+        {
+          "md": "60",
+          "is_answer": false
+        },
+        {
+          "md": "1955",
+          "is_answer": false
+        },
+        {
+          "md": "2025",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "scan หาตัวเลขที่เป็นปี",
+          "why_md": "พบ 2015"
+        },
+        {
+          "do_md": "ตรวจประโยค: featured the market in 2015",
+          "why_md": "ตรงกับคำถาม"
+        }
+      ],
+      "answer_explanation_md": "ตอบ 2015 เพราะบทอ่านบอกว่ารายการท่องเที่ยวนำเสนอตลาดในปี 2015",
+      "hints": [
+        "คำถามถามข้อมูลชนิดไหน",
+        "หาตัวเลขที่เป็นปีในบทอ่าน",
+        "ตรวจว่าตัวเลขนั้นอยู่ในประโยคที่พูดถึงรายการท่องเที่ยวไหม"
+      ],
+      "distractor_reasons": {
+        "1": "เป็นจำนวนปีที่ตลาดดำเนินการ ไม่ใช่ปี",
+        "2": "ไม่มีตัวเลขนี้ในบทอ่าน",
+        "3": "ไม่มีตัวเลขนี้ในบทอ่าน"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.reading.foundation.skim_scan.0006",
+      "topic_ids": [
+        "tgat1.reading.foundation.skim_scan"
+      ],
+      "primary_topic_id": "tgat1.reading.foundation.skim_scan",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 35,
+      "stem_md": "A question asks: \"What does the word 'delighted' in paragraph 1 mean?\" Which reading strategy is best?",
+      "figures": [],
+      "choices": [
+        {
+          "md": "Guess without reading the passage",
+          "is_answer": false
+        },
+        {
+          "md": "Only look at the title",
+          "is_answer": false
+        },
+        {
+          "md": "Skim the whole passage quickly",
+          "is_answer": false
+        },
+        {
+          "md": "Scan for the word, then read the sentences around it carefully",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ข้อศัพท์ต้องใช้บริบท",
+          "why_md": "scan หาคำก่อน"
+        },
+        {
+          "do_md": "อ่านละเอียดรอบ ๆ คำนั้น",
+          "why_md": "หาเบาะแสความหมาย"
+        }
+      ],
+      "answer_explanation_md": "ตอบ Scan for the word, then read the sentences around it carefully เพราะข้อศัพท์ต้องหาตำแหน่งก่อนแล้วใช้บริบทรอบ ๆ",
+      "hints": [
+        "ข้อศัพท์ต้องใช้อะไรตอบ",
+        "หาคำในบทอ่านได้เร็วด้วยวิธีไหน",
+        "หลังเจอคำแล้ว ต้องอ่านแบบไหน"
+      ],
+      "distractor_reasons": {
+        "0": "ต้องใช้บริบทในบทอ่าน",
+        "1": "ชื่อเรื่องไม่มีเบาะแสความหมายของคำ",
+        "2": "การกวาดไม่พอสำหรับเดาความหมายคำ"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.reading.foundation.skim_scan.0007",
+      "topic_ids": [
+        "tgat1.reading.foundation.skim_scan"
+      ],
+      "primary_topic_id": "tgat1.reading.foundation.skim_scan",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 55,
+      "stem_md": "You need the application deadline in a two-page notice. What should you do first?",
+      "figures": [],
+      "choices": [
+        {
+          "md": "Read every sentence aloud from the beginning and pause to translate each difficult phrase",
+          "is_answer": false
+        },
+        {
+          "md": "Look up every unfamiliar word",
+          "is_answer": false
+        },
+        {
+          "md": "Scan for dates and words such as deadline or submit",
+          "is_answer": true
+        },
+        {
+          "md": "Summarize each paragraph",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ระบุสิ่งที่โจทย์ถาม",
+          "why_md": "คำถามต้องการรายละเอียดชนิดวันที่"
+        },
+        {
+          "do_md": "ตรวจด้วยบริบทรอบจุดสำคัญ",
+          "why_md": "เลือกคำตอบที่มีหลักฐานรองรับครบ ไม่เติมข้อมูลเอง"
+        }
+      ],
+      "answer_explanation_md": "scan คำสัญญาณและตัวเลขเร็วที่สุด",
+      "hints": [
+        "ขีดเส้นคำหรือประโยคที่เป็นหลักฐาน",
+        "ตัดตัวเลือกที่จริงบางส่วนแต่ตอบคนละคำถาม",
+        "ตรวจว่าคำตอบไม่กว้างหรือแคบเกินข้อความ"
+      ],
+      "distractor_reasons": {
+        "0": "ช้าเกินเป้าหมายเฉพาะ",
+        "1": "ไม่จำเป็นต่อการหาเวลา",
+        "3": "เป็นงานภาพรวม"
+      },
+      "misconception_tags": [
+        "read_every_word"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.reading.foundation.skim_scan.0008",
+      "topic_ids": [
+        "tgat1.reading.foundation.skim_scan"
+      ],
+      "primary_topic_id": "tgat1.reading.foundation.skim_scan",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 5,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": true,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 75,
+      "stem_md": "A passage has headings 'Why wetlands matter', 'Current threats', and 'What residents can do'. To answer its main-purpose question efficiently, you should...",
+      "figures": [],
+      "choices": [
+        {
+          "md": "read the examples first and ignore headings",
+          "is_answer": false
+        },
+        {
+          "md": "translate the threat section word by word",
+          "is_answer": false
+        },
+        {
+          "md": "skim the headings and topic sentences, then check the conclusion",
+          "is_answer": true
+        },
+        {
+          "md": "scan only for the word wetlands",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ระบุสิ่งที่โจทย์ถาม",
+          "why_md": "คำถามภาพรวมต้องใช้โครงสร้างทั้งบท"
+        },
+        {
+          "do_md": "ตรวจด้วยบริบทรอบจุดสำคัญ",
+          "why_md": "เลือกคำตอบที่มีหลักฐานรองรับครบ ไม่เติมข้อมูลเอง"
+        }
+      ],
+      "answer_explanation_md": "หัวข้อ ประโยคแก่น และบทสรุปเผยจุดประสงค์โดยไม่ต้องอ่านทุกคำ",
+      "hints": [
+        "ขีดเส้นคำหรือประโยคที่เป็นหลักฐาน",
+        "ตัดตัวเลือกที่จริงบางส่วนแต่ตอบคนละคำถาม",
+        "ตรวจว่าคำตอบไม่กว้างหรือแคบเกินข้อความ"
+      ],
+      "distractor_reasons": {
+        "0": "รายละเอียดไม่แทนโครงสร้าง",
+        "1": "เน้นส่วนเดียวและช้า",
+        "3": "เห็นคำซ้ำแต่ไม่รู้จุดประสงค์"
+      },
+      "misconception_tags": [
+        "read_every_word"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    }
+  ],
+  "generated_from": "content/tgat1/reading.py"
+}

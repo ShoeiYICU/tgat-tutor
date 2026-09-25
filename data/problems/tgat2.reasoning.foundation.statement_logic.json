@@ -1,0 +1,471 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tgat2.reasoning.foundation.statement_logic",
+  "problems": [
+    {
+      "id": "prob.tgat2.reasoning.foundation.statement_logic.0001",
+      "topic_ids": [
+        "tgat2.reasoning.foundation.statement_logic"
+      ],
+      "primary_topic_id": "tgat2.reasoning.foundation.statement_logic",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 30,
+      "stem_md": "A หนักกว่า B, C หนักกว่า A, D เบากว่า B ใครหนักที่สุด",
+      "figures": [],
+      "choices": [
+        {
+          "md": "C",
+          "is_answer": true
+        },
+        {
+          "md": "B",
+          "is_answer": false
+        },
+        {
+          "md": "A",
+          "is_answer": false
+        },
+        {
+          "md": "D",
+          "is_answer": false
+        },
+        {
+          "md": "สรุปไม่ได้",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "แปลง: A > B, C > A, B > D",
+          "why_md": "เขียนเป็นหนักกว่าทั้งหมด"
+        },
+        {
+          "do_md": "รวม: C > A > B > D",
+          "why_md": "ต่อเป็นเส้นเดียว"
+        }
+      ],
+      "answer_explanation_md": "ตอบ C เพราะเรียงได้ C > A > B > D",
+      "hints": [
+        "เขียนทุกประโยคเป็นหนักกว่าในทิศเดียวกัน",
+        "ใครหนักกว่า A",
+        "ต่อความสัมพันธ์เป็นเส้นเดียว"
+      ],
+      "distractor_reasons": {
+        "1": "B เบากว่าทั้ง A และ C",
+        "2": "A หนักกว่า B แต่ C หนักกว่า A",
+        "3": "D เบาที่สุด",
+        "4": "ความสัมพันธ์ครบพอจะเรียงได้ทั้งหมด"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.reasoning.foundation.statement_logic.0002",
+      "topic_ids": [
+        "tgat2.reasoning.foundation.statement_logic"
+      ],
+      "primary_topic_id": "tgat2.reasoning.foundation.statement_logic",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 35,
+      "stem_md": "\"ไม่มีแมวตัวใดในบ้านนี้ที่มีขนสีดำ\" ข้อใดมีความหมายเดียวกัน",
+      "figures": [],
+      "choices": [
+        {
+          "md": "แมวที่ไม่ได้อยู่บ้านนี้มีขนสีดำ",
+          "is_answer": false
+        },
+        {
+          "md": "แมวบางตัวในบ้านนี้มีขนสีดำ",
+          "is_answer": false
+        },
+        {
+          "md": "แมวทุกตัวในบ้านนี้ไม่มีขนสีดำ",
+          "is_answer": true
+        },
+        {
+          "md": "แมวบางตัวในบ้านนี้ไม่มีขนสีดำ",
+          "is_answer": false
+        },
+        {
+          "md": "สัตว์ขนสีดำในบ้านนี้ไม่ใช่แมวบางตัว",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ไม่มี...ตัวใดที่... = ทุกตัว...ไม่...",
+          "why_md": "เปลี่ยนรูปประโยคโดยความหมายเดิม"
+        },
+        {
+          "do_md": "ตรวจตัวเลือกที่อ่อนกว่า",
+          "why_md": "บางตัวไม่มีขนดำ ยังไม่เท่ากับทุกตัว"
+        }
+      ],
+      "answer_explanation_md": "ตอบ แมวทุกตัวในบ้านนี้ไม่มีขนสีดำ เพราะไม่มีตัวใดที่... มีความหมายเท่ากับทุกตัวไม่...",
+      "hints": [
+        "ไม่มีตัวใด เทียบเท่ากับทุกตัวแบบไหน",
+        "ระวังตัวเลือกที่ใช้คำว่าบาง",
+        "ข้อความเดิมพูดถึงแมวนอกบ้านไหม"
+      ],
+      "distractor_reasons": {
+        "0": "ข้อความเดิมไม่ได้พูดถึงแมวนอกบ้าน",
+        "1": "ขัดกับข้อความโดยตรง",
+        "3": "จริง แต่อ่อนกว่า ข้อความเดิมบอกว่าทุกตัวไม่มี",
+        "4": "เปลี่ยนความหมายเป็นเรื่องสัตว์อื่น"
+      },
+      "misconception_tags": [
+        "assume_missing_relation"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.reasoning.foundation.statement_logic.0003",
+      "topic_ids": [
+        "tgat2.reasoning.foundation.statement_logic"
+      ],
+      "primary_topic_id": "tgat2.reasoning.foundation.statement_logic",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 35,
+      "stem_md": "\"ถ้าฝนตก ถนนจะเปียก\" วันนี้ถนนไม่เปียก ข้อใดสรุปได้",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ถนนเปียกเพราะอย่างอื่น",
+          "is_answer": false
+        },
+        {
+          "md": "พรุ่งนี้ฝนจะตก",
+          "is_answer": false
+        },
+        {
+          "md": "สรุปไม่ได้ว่าฝนตกหรือไม่",
+          "is_answer": false
+        },
+        {
+          "md": "วันนี้ฝนตก",
+          "is_answer": false
+        },
+        {
+          "md": "วันนี้ฝนไม่ตก",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "เงื่อนไข: ฝนตก ⇒ ถนนเปียก",
+          "why_md": "แปลงเป็นสัญลักษณ์"
+        },
+        {
+          "do_md": "ถนนไม่เปียก จึงเป็นไปไม่ได้ที่ฝนตก",
+          "why_md": "ถ้าฝนตก ผลต้องเกิด แต่ผลไม่เกิด"
+        }
+      ],
+      "answer_explanation_md": "ตอบ วันนี้ฝนไม่ตก เพราะถ้าฝนตก ถนนต้องเปียก แต่ถนนไม่เปียก",
+      "hints": [
+        "แปลงประโยคเป็น ถ้า...แล้ว",
+        "ถ้าฝนตกจริง ถนนต้องเป็นอย่างไร",
+        "ถนนไม่เปียก ฝนจะตกได้ไหม"
+      ],
+      "distractor_reasons": {
+        "0": "ขัดกับข้อมูลว่าถนนไม่เปียก",
+        "1": "ไม่มีข้อมูลเกี่ยวกับพรุ่งนี้",
+        "2": "สรุปได้ เพราะถ้าฝนตกถนนต้องเปียก",
+        "3": "ขัดกับเงื่อนไข ถ้าฝนตกถนนต้องเปียก"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.reasoning.foundation.statement_logic.0004",
+      "topic_ids": [
+        "tgat2.reasoning.foundation.statement_logic"
+      ],
+      "primary_topic_id": "tgat2.reasoning.foundation.statement_logic",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 30,
+      "stem_md": "ในห้องมีนักเรียน 30 คน \"มีนักเรียนอย่างน้อย 5 คนที่ใส่แว่น\" ข้อใดเป็นไปไม่ได้",
+      "figures": [],
+      "choices": [
+        {
+          "md": "มีนักเรียนใส่แว่น 30 คน",
+          "is_answer": false
+        },
+        {
+          "md": "มีนักเรียนใส่แว่น 4 คน",
+          "is_answer": true
+        },
+        {
+          "md": "มีนักเรียนไม่ใส่แว่น 25 คน",
+          "is_answer": false
+        },
+        {
+          "md": "มีนักเรียนใส่แว่น 5 คน",
+          "is_answer": false
+        },
+        {
+          "md": "มีนักเรียนใส่แว่น 12 คน",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "อย่างน้อย 5 = 5 ขึ้นไป",
+          "why_md": "รวม 5 ด้วย"
+        },
+        {
+          "do_md": "4 น้อยกว่า 5",
+          "why_md": "จึงเป็นไปไม่ได้"
+        }
+      ],
+      "answer_explanation_md": "ตอบ มีนักเรียนใส่แว่น 4 คน เพราะอย่างน้อย 5 หมายถึง 5 คนขึ้นไป",
+      "hints": [
+        "อย่างน้อย 5 รวม 5 ด้วยหรือไม่",
+        "จำนวนที่เป็นไปได้อยู่ในช่วงไหน",
+        "หาตัวเลือกที่อยู่นอกช่วง"
+      ],
+      "distractor_reasons": {
+        "0": "อย่างน้อย 5 ไม่มีขีดบน",
+        "2": "ใส่แว่น 5 คนพอดี เป็นไปได้",
+        "3": "อย่างน้อย 5 รวม 5 ด้วย",
+        "4": "มากกว่า 5 เป็นไปได้"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.reasoning.foundation.statement_logic.0005",
+      "topic_ids": [
+        "tgat2.reasoning.foundation.statement_logic"
+      ],
+      "primary_topic_id": "tgat2.reasoning.foundation.statement_logic",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 35,
+      "stem_md": "P อยู่ทางซ้ายของ Q, R อยู่ทางขวาของ Q, S อยู่ทางซ้ายของ P ทุกคนยืนเรียงแถวเดียว ใครอยู่ทางขวาสุด",
+      "figures": [],
+      "choices": [
+        {
+          "md": "สรุปไม่ได้",
+          "is_answer": false
+        },
+        {
+          "md": "S",
+          "is_answer": false
+        },
+        {
+          "md": "Q",
+          "is_answer": false
+        },
+        {
+          "md": "R",
+          "is_answer": true
+        },
+        {
+          "md": "P",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "แปลง: P < Q, Q < R, S < P (ซ้ายไปขวา)",
+          "why_md": "ใช้ < แทนอยู่ทางซ้าย"
+        },
+        {
+          "do_md": "รวม: S < P < Q < R",
+          "why_md": "ต่อเป็นเส้นเดียว"
+        }
+      ],
+      "answer_explanation_md": "ตอบ R เพราะเรียงจากซ้ายไปขวาได้ S, P, Q, R",
+      "hints": [
+        "ใช้สัญลักษณ์ < แทนคำว่าอยู่ทางซ้าย",
+        "R อยู่ขวาของใคร",
+        "ต่อทั้งหมดเป็นเส้นเดียว"
+      ],
+      "distractor_reasons": {
+        "0": "ความสัมพันธ์ครบพอจะเรียงได้",
+        "1": "S อยู่ซ้ายของ P จึงอยู่ซ้ายสุด",
+        "2": "R อยู่ทางขวาของ Q",
+        "4": "P อยู่ซ้ายของ Q"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.reasoning.foundation.statement_logic.0006",
+      "topic_ids": [
+        "tgat2.reasoning.foundation.statement_logic"
+      ],
+      "primary_topic_id": "tgat2.reasoning.foundation.statement_logic",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 45,
+      "stem_md": "\"นักกีฬาทุกคนในทีมนี้ซ้อมทุกวัน\" และ \"ต้นซ้อมทุกวัน\" ข้อใดสรุปได้",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ข้อมูลไม่พอจะสรุปว่าต้นเป็นนักกีฬาในทีมนี้",
+          "is_answer": true
+        },
+        {
+          "md": "ต้นเป็นนักกีฬาในทีมนี้",
+          "is_answer": false
+        },
+        {
+          "md": "ต้นไม่ใช่นักกีฬาในทีมนี้",
+          "is_answer": false
+        },
+        {
+          "md": "ทุกคนที่ซ้อมทุกวันอยู่ในทีมนี้",
+          "is_answer": false
+        },
+        {
+          "md": "นักกีฬาในทีมนี้บางคนไม่ได้ซ้อม",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "แปลง: ในทีม ⇒ ซ้อมทุกวัน",
+          "why_md": "เงื่อนไขทิศเดียว"
+        },
+        {
+          "do_md": "ต้นซ้อมทุกวัน ไม่ได้บอกว่าอยู่ในทีม",
+          "why_md": "กลับเงื่อนไขไม่ได้"
+        }
+      ],
+      "answer_explanation_md": "ตอบ ข้อมูลไม่พอจะสรุปว่าต้นเป็นนักกีฬาในทีมนี้ เพราะเงื่อนไขบอกแค่ว่าคนในทีมซ้อมทุกวัน ไม่ได้บอกว่าคนที่ซ้อมทุกวันต้องอยู่ในทีม",
+      "hints": [
+        "แปลงประโยคแรกเป็น ถ้า...แล้ว",
+        "เงื่อนไขนี้กลับทิศได้ไหม",
+        "คนที่ซ้อมทุกวันต้องอยู่ในทีมนี้หรือเปล่า"
+      ],
+      "distractor_reasons": {
+        "1": "คนที่ซ้อมทุกวันอาจไม่ได้อยู่ในทีม กลับเงื่อนไขผิด",
+        "2": "ข้อมูลไม่ได้บอกว่าไม่ใช่",
+        "3": "กลับเงื่อนไข ข้อมูลบอกแค่ทิศเดียว",
+        "4": "ขัดกับข้อมูลว่าทุกคนซ้อม"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    }
+  ],
+  "generated_from": "content/tgat2/reasoning_text.py"
+}

@@ -1,0 +1,113 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tgat1.speaking.foundation.function_bank",
+  "title": "คลังวลีสื่อสารที่ออกสอบบ่อย",
+  "subtitle": "รวมวลีตามหน้าที่การสื่อสาร 10 หมวด ที่ใช้ได้กับทุกข้อในพาร์ทการพูด",
+  "prereq_topic_ids": [],
+  "objectives": [
+    "จำวลีหลักของหน้าที่การสื่อสาร 10 หมวด",
+    "จับคู่วลีกับคำตอบที่เหมาะสม",
+    "ใช้คลังวลีเป็นฐานของทุกหัวข้อในพาร์ทการพูด"
+  ],
+  "est_minutes": 30,
+  "blocks": [
+    {
+      "type": "hook",
+      "body_md": "พาร์ทการพูดของ TGAT1 เน้น **หน้าที่การสื่อสาร** ไม่ได้ดูไวยากรณ์อย่างเดียว ถ้ารู้ว่าแต่ละประโยคทำหน้าที่อะไร และคำตอบคู่กันคืออะไร จะตอบได้เร็วมาก บทนี้คือ **คลังวลี** ที่ใช้ทบทวนก่อนสอบ"
+    },
+    {
+      "type": "concept",
+      "heading": "หน้าที่ 1-5",
+      "body_md": "| หน้าที่ | ประโยค | คำตอบที่คู่กัน |\n|---|---|---|\n| ทักทาย | How's it going? | Pretty good, thanks. |\n| ขอบคุณ | Thanks a lot. | You're welcome. / No problem. |\n| ขอโทษ | Sorry I'm late. | That's OK. / No worries. |\n| ขอร้อง | Could you...? | Sure. / Sorry, I can't. |\n| ขออนุญาต | May I...? | Sure. / Go ahead. |\n| ขออนุญาตแบบถามว่ารังเกียจไหม | Would you mind if I...? | No, not at all. / No, go ahead. |"
+    },
+    {
+      "type": "concept",
+      "heading": "หน้าที่ 6-10",
+      "body_md": "| หน้าที่ | ประโยค | คำตอบที่คู่กัน |\n|---|---|---|\n| เสนอช่วย | Shall I...? / Let me... | Yes, please. / No, thanks. |\n| ชวน | Would you like to...? / How about...? | I'd love to. / I wish I could, but... |\n| ถามความเห็น | What do you think of...? | I think... / In my opinion... |\n| แนะนำ | You should... / Why don't you...? | Good idea. / That makes sense. |\n| แสดงความเห็นใจ | I'm sorry to hear that. | Thanks. |"
+    },
+    {
+      "type": "formula",
+      "name": "ระบุหน้าที่ใน 3 วินาที",
+      "formula_tex": "",
+      "variables": [],
+      "use_when": "ทุกข้อในพาร์ทการพูด",
+      "avoid_when": "ถ้าประโยคมีหลายหน้าที่ในบทสนทนายาว ให้ดูหน้าที่ของประโยคที่อยู่ติดกับช่องว่างก่อน",
+      "derivation_md": "อ่านประโยคแล้วระบุหน้าที่ทันที เช่น \"นี่คือการขออนุญาต\" แล้วนึกคำตอบที่คู่กันจากตาราง ก่อนดูตัวเลือก",
+      "memory_tip": "หน้าที่ → คำตอบคู่ → หาในตัวเลือก"
+    },
+    {
+      "type": "example",
+      "label": "ตัวอย่างที่ 1",
+      "difficulty": 2,
+      "stem_md": "**A:** You look tired. Why don't you take a break?  \n**B:** ______",
+      "steps": [
+        {
+          "do_md": "หน้าที่: แนะนำ (Why don't you...?)",
+          "why_md": "คำตอบคู่: Good idea. / That makes sense."
+        },
+        {
+          "do_md": "เลือกคำตอบรับคำแนะนำ",
+          "why_md": "\"Good idea. I'll get some coffee.\""
+        }
+      ],
+      "answer_md": "\"Good idea. I'll get some coffee.\"",
+      "figures": []
+    },
+    {
+      "type": "pitfall",
+      "title": "ตอบ Why don't you ด้วย Because",
+      "wrong_md": "A: Why don't you take a break? → B: \"Because I'm busy.\"",
+      "why_wrong_md": "Why don't you...? เป็นคำแนะนำ ไม่ได้ถามเหตุผล",
+      "correct_md": "\"Good idea.\" หรือ \"I'd like to, but I have to finish this first.\"",
+      "misconception_tag": "literal_translation"
+    },
+    {
+      "type": "summary",
+      "bullets_md": [
+        "ระบุหน้าที่ของประโยคก่อนดูตัวเลือก",
+        "จำคำตอบที่คู่กับแต่ละหน้าที่",
+        "Would you mind → No, not at all",
+        "Why don't you → คำแนะนำ ไม่ใช่คำถามเหตุผล",
+        "Sorry to hear that → Thanks"
+      ]
+    },
+    {
+      "type": "check",
+      "question_md": "\"Shall I close the window?\" ทำหน้าที่อะไร",
+      "choices": [
+        "ขออนุญาต",
+        "เสนอความช่วยเหลือ",
+        "ถามความเห็น",
+        "ชวน"
+      ],
+      "answer_index": 1,
+      "explain_md": "Shall I...? ผู้พูดจะเป็นคนทำ จึงเป็นการเสนอความช่วยเหลือ"
+    },
+    {
+      "type": "check",
+      "question_md": "คำตอบใดคู่กับ \"I'm sorry to hear about your accident.\"",
+      "choices": [
+        "That's OK.",
+        "Thank you. I'm getting better.",
+        "You're welcome.",
+        "No, not at all."
+      ],
+      "answer_index": 1,
+      "explain_md": "sorry to hear เป็นการแสดงความเห็นใจ คำตอบที่เหมาะคือขอบคุณ"
+    }
+  ],
+  "glossary": [],
+  "common_exam_patterns": [
+    "ทุกข้อในพาร์ทการพูดใช้คลังวลีนี้",
+    "ตัวลวงจับคู่หน้าที่ผิด"
+  ],
+  "next_topic_ids": [
+    "tgat1.speaking.question_response.greeting_intro"
+  ],
+  "sources": [
+    "ผังการสอบ TGAT1 จาก mytcas.com (พาร์ทการพูด)",
+    "บทสนทนาแต่งขึ้นใหม่เพื่อการฝึก"
+  ],
+  "review_status": "ai_draft",
+  "generated_from": "content/tgat1/speaking_conv.py"
+}

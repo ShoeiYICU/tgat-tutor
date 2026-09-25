@@ -1,0 +1,611 @@
+{
+  "schema_version": "1.0",
+  "subject": "tpat4",
+  "subject_name_th": "TPAT4 ความถนัดสถาปัตยกรรมศาสตร์",
+  "exam_codes": [
+    "TPAT4"
+  ],
+  "source_note": "ยืนยันโครงสอบแล้วจาก mytcas.com/blueprint/tpat4-40/ (ตรวจเมื่อ 21 กันยายน 2569): 80 ข้อ 100 คะแนน 180 นาที ปรนัย 5 ตัวเลือก แบ่ง 4 ส่วน คือ ส่วนที่ 1 ความรู้ทั่วไปด้านศิลปะและการออกแบบที่เกี่ยวข้องกับงานสถาปัตยกรรม ภูมิสถาปัตยกรรม และสถาปัตยกรรมภายใน 24 ข้อ 24 คะแนน ส่วนที่ 2 ทฤษฎีสีและทฤษฎีด้านความงามทางศิลปะและงานสถาปัตยกรรม 16 ข้อ 16 คะแนน ส่วนที่ 3 ความรู้พื้นฐานระบบโครงสร้าง ประเภทและลักษณะโครงสร้าง องค์ประกอบของโครงสร้างทางสถาปัตยกรรม และงานระบบพื้นฐาน 24 ข้อ 24 คะแนน ส่วนที่ 4 การวัดการรับรู้ด้านมิติสัมพันธ์และรูปทรง 16 ข้อ 36 คะแนน | **คะแนนต่อข้อไม่เท่ากัน** ส่วนที่ 4 ได้ข้อละ 2.25 คะแนน ส่วนอื่นข้อละ 1 คะแนน | **ผังสอบระบุว่าเป็นปรนัยล้วน ไม่มีภาคปฏิบัติหรือการวาดรูป** ซึ่งแก้ความเข้าใจผิดที่เคยเขียนไว้ในสเปคเดิม | ผังสอบระบุระดับการวัดของแต่ละส่วน (1 ความเข้าใจ / 2 วิเคราะห์ / 3 สังเคราะห์และประยุกต์) แต่ไม่ได้ให้จำนวนข้อรายระดับ | ผังสอบไม่ได้ให้รายการหัวข้อย่อย หัวข้อระดับ leaf จึงเป็นการอนุมาน จากชื่อส่วน ไม่ใช่รายการทางการ",
+  "topics": [
+    {
+      "id": "tpat4",
+      "name_th": "TPAT4 ความถนัดสถาปัตยกรรมศาสตร์",
+      "name_en": "TPAT4 Architecture Aptitude",
+      "kind": "subject",
+      "parent": null,
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "medium",
+      "keywords": [
+        "TPAT4",
+        "สถาปัตยกรรม",
+        "architecture",
+        "ออกแบบ"
+      ],
+      "curriculum_ref": null,
+      "notes": "โครงสอบยืนยันแล้ว: 80 ข้อ 100 คะแนน 180 นาที **ปรนัย 5 ตัวเลือก** | **ไม่มีภาคปฏิบัติหรือการวาดรูป** ผังสอบระบุว่าเป็นปรนัยล้วน ซึ่งแก้ความเข้าใจผิดที่เคยเขียนไว้ในสเปคเดิม | ตอนแต่งโจทย์วิชานี้ใช้ format mcq5 | **คะแนนต่อข้อไม่เท่ากันทุกส่วน** ส่วนที่ 1-3 ข้อละ 1 คะแนน แต่ส่วนที่ 4 มี 16 ข้อ 36 คะแนน คือข้อละ 2.25 คะแนน ส่วนที่ 4 จึงคุ้มค่าที่สุดต่อเวลาที่ลงแรง | ผังสอบระบุระดับการวัดของแต่ละส่วนเป็นระดับ 1 ความเข้าใจ / 2 วิเคราะห์ / 3 สังเคราะห์และประยุกต์ แต่ไม่ได้ให้จำนวนข้อรายระดับ"
+    },
+    {
+      "id": "tpat4.foundation",
+      "name_th": "พื้นฐานก่อนฝึก TPAT4",
+      "name_en": "Foundations for TPAT4",
+      "kind": "branch",
+      "parent": "tpat4",
+      "order": 1,
+      "grade_band": "m_early",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [],
+      "difficulty_band": "easy",
+      "keywords": [
+        "พื้นฐาน",
+        "foundation"
+      ],
+      "curriculum_ref": null,
+      "notes": "ไม่ใช่ส่วนทางการ เป็นกลุ่มที่เพิ่มเองสำหรับคนเริ่มจากศูนย์"
+    },
+    {
+      "id": "tpat4.foundation.vocabulary",
+      "name_th": "ศัพท์และสัญลักษณ์พื้นฐานทางสถาปัตยกรรม",
+      "name_en": "Basic Architectural Vocabulary and Symbols",
+      "kind": "leaf",
+      "parent": "tpat4.foundation",
+      "order": 1,
+      "grade_band": "m_early",
+      "requires": [],
+      "est_minutes": 30,
+      "exam_weight": [],
+      "difficulty_band": "easy",
+      "keywords": [
+        "ศัพท์สถาปัตย์",
+        "สัญลักษณ์",
+        "แบบก่อสร้าง"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อนี้อนุมานจากชื่อส่วนในผังสอบ ไม่ใช่รายการหัวข้อย่อยทางการ | ต้องรู้ก่อนทุกส่วน เพราะโจทย์ใช้ศัพท์เฉพาะและอ่านแบบ ถ้าไม่รู้ศัพท์จะทำไม่ได้แม้มีสามัญสำนึก"
+    },
+    {
+      "id": "tpat4.foundation.exam_priority",
+      "name_th": "รูปแบบข้อสอบและการจัดลำดับความสำคัญ",
+      "name_en": "Exam Format and What to Prioritise",
+      "kind": "leaf",
+      "parent": "tpat4.foundation",
+      "order": 2,
+      "grade_band": "m_early",
+      "requires": [],
+      "est_minutes": 20,
+      "exam_weight": [],
+      "difficulty_band": "easy",
+      "keywords": [
+        "รูปแบบข้อสอบ",
+        "บริหารเวลา",
+        "ลำดับความสำคัญ"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อนี้อนุมานจากชื่อส่วนในผังสอบ ไม่ใช่รายการหัวข้อย่อยทางการ | จุดสำคัญคือส่วนที่ 4 ให้ข้อละ 2.25 คะแนน มากกว่าส่วนอื่นกว่าสองเท่า จึงควรลงแรงกับส่วนนี้ก่อน | เนื้อหาต้องอ้างผังสอบทางการเท่านั้น ห้ามเดาเกณฑ์เอง"
+    },
+    {
+      "id": "tpat4.art_design",
+      "name_th": "ความรู้ทั่วไปด้านศิลปะและการออกแบบที่เกี่ยวข้องกับงานสถาปัตยกรรม",
+      "name_en": "General Knowledge of Art and Design in Architecture",
+      "kind": "branch",
+      "parent": "tpat4",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT4",
+          "typical_items": "24 ข้อ 24 คะแนน",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ศิลปะ",
+        "การออกแบบ",
+        "สถาปัตยกรรม"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อหัวข้อนี้คัดมาจากผังสอบทางการตรงตัว (ย่อจากชื่อเต็มในผังสอบ ซึ่งครอบคลุมงานสถาปัตยกรรม ภูมิสถาปัตยกรรม และสถาปัตยกรรมภายใน)"
+    },
+    {
+      "id": "tpat4.art_design.branches",
+      "name_th": "สถาปัตยกรรม ภูมิสถาปัตยกรรม และสถาปัตยกรรมภายใน ต่างกันอย่างไร",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "tpat4.art_design",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT4",
+          "typical_items": "อยู่ในส่วนที่ 1 รวม 24 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "easy",
+      "keywords": [
+        "สถาปัตยกรรม",
+        "ออกแบบ"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อนี้อนุมานจากชื่อส่วนในผังสอบ ไม่ใช่รายการหัวข้อย่อยทางการ"
+    },
+    {
+      "id": "tpat4.art_design.design_principles",
+      "name_th": "หลักการออกแบบและการจัดองค์ประกอบ",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "tpat4.art_design",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT4",
+          "typical_items": "อยู่ในส่วนที่ 1 รวม 24 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "สถาปัตยกรรม",
+        "ออกแบบ"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อนี้อนุมานจากชื่อส่วนในผังสอบ ไม่ใช่รายการหัวข้อย่อยทางการ"
+    },
+    {
+      "id": "tpat4.art_design.space_function",
+      "name_th": "ความสัมพันธ์ระหว่างพื้นที่ใช้สอยกับการใช้งาน",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "tpat4.art_design",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT4",
+          "typical_items": "อยู่ในส่วนที่ 1 รวม 24 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "สถาปัตยกรรม",
+        "ออกแบบ"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อนี้อนุมานจากชื่อส่วนในผังสอบ ไม่ใช่รายการหัวข้อย่อยทางการ"
+    },
+    {
+      "id": "tpat4.art_design.notable_works",
+      "name_th": "งานสถาปัตยกรรมที่ควรรู้จักและบริบทของยุคสมัย",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "tpat4.art_design",
+      "order": 4,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT4",
+          "typical_items": "อยู่ในส่วนที่ 1 รวม 24 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "สถาปัตยกรรม",
+        "ออกแบบ"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อนี้อนุมานจากชื่อส่วนในผังสอบ ไม่ใช่รายการหัวข้อย่อยทางการ | มีชื่อสถาปนิก ผลงาน และปี ต้องตั้ง review_status เป็น ai_draft_needs_fact_check และให้คนตรวจ"
+    },
+    {
+      "id": "tpat4.color_aesthetics",
+      "name_th": "ทฤษฎีสีและทฤษฎีด้านความงามทางศิลปะและงานสถาปัตยกรรม",
+      "name_en": "Colour Theory and Aesthetics",
+      "kind": "branch",
+      "parent": "tpat4",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT4",
+          "typical_items": "16 ข้อ 16 คะแนน",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "ทฤษฎีสี",
+        "ความงาม",
+        "aesthetics"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อหัวข้อนี้คัดมาจากผังสอบทางการตรงตัว"
+    },
+    {
+      "id": "tpat4.color_aesthetics.color_theory",
+      "name_th": "วงจรสี คู่สี และโทนสี",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "tpat4.color_aesthetics",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT4",
+          "typical_items": "อยู่ในส่วนที่ 2 รวม 16 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "สี",
+        "ความงาม",
+        "สัดส่วน"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อนี้อนุมานจากชื่อส่วนในผังสอบ ไม่ใช่รายการหัวข้อย่อยทางการ"
+    },
+    {
+      "id": "tpat4.color_aesthetics.color_in_architecture",
+      "name_th": "การใช้สีในงานสถาปัตยกรรมและพื้นที่ภายใน",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "tpat4.color_aesthetics",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT4",
+          "typical_items": "อยู่ในส่วนที่ 2 รวม 16 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "สี",
+        "ความงาม",
+        "สัดส่วน"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อนี้อนุมานจากชื่อส่วนในผังสอบ ไม่ใช่รายการหัวข้อย่อยทางการ"
+    },
+    {
+      "id": "tpat4.color_aesthetics.aesthetic_principles",
+      "name_th": "หลักความงาม สัดส่วน จังหวะ และสมดุล",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "tpat4.color_aesthetics",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT4",
+          "typical_items": "อยู่ในส่วนที่ 2 รวม 16 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "สี",
+        "ความงาม",
+        "สัดส่วน"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อนี้อนุมานจากชื่อส่วนในผังสอบ ไม่ใช่รายการหัวข้อย่อยทางการ"
+    },
+    {
+      "id": "tpat4.structure",
+      "name_th": "ความรู้พื้นฐานระบบโครงสร้างและงานระบบในงานสถาปัตยกรรม",
+      "name_en": "Structural Systems and Building Services",
+      "kind": "branch",
+      "parent": "tpat4",
+      "order": 4,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT4",
+          "typical_items": "24 ข้อ 24 คะแนน",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "โครงสร้าง",
+        "งานระบบ",
+        "structure"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อหัวข้อนี้คัดมาจากผังสอบทางการตรงตัว (ย่อจากชื่อเต็ม ซึ่งครอบคลุมประเภทและลักษณะโครงสร้าง องค์ประกอบของโครงสร้าง และงานระบบพื้นฐาน)"
+    },
+    {
+      "id": "tpat4.structure.structure_types",
+      "name_th": "ประเภทและลักษณะของโครงสร้าง",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "tpat4.structure",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT4",
+          "typical_items": "อยู่ในส่วนที่ 3 รวม 24 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "โครงสร้าง",
+        "อาคาร"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อนี้อนุมานจากชื่อส่วนในผังสอบ ไม่ใช่รายการหัวข้อย่อยทางการ"
+    },
+    {
+      "id": "tpat4.structure.structural_elements",
+      "name_th": "องค์ประกอบของโครงสร้าง เสา คาน พื้น และฐานราก",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "tpat4.structure",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT4",
+          "typical_items": "อยู่ในส่วนที่ 3 รวม 24 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "โครงสร้าง",
+        "อาคาร"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อนี้อนุมานจากชื่อส่วนในผังสอบ ไม่ใช่รายการหัวข้อย่อยทางการ"
+    },
+    {
+      "id": "tpat4.structure.load_path",
+      "name_th": "แรงและการถ่ายน้ำหนักลงสู่ฐานราก",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "tpat4.structure",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "tpat3.foundation.force_vector_basics",
+        "tpat3.aptitude.mechanical.force_equilibrium"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT4",
+          "typical_items": "อยู่ในส่วนที่ 3 รวม 24 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "โครงสร้าง",
+        "อาคาร"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อนี้อนุมานจากชื่อส่วนในผังสอบ ไม่ใช่รายการหัวข้อย่อยทางการ | ใช้ความรู้แรงและสมดุลร่วมกับ TPAT3 ด้านเชิงกล ไม่สร้างบทเรียนซ้ำ"
+    },
+    {
+      "id": "tpat4.structure.materials",
+      "name_th": "วัสดุก่อสร้างและคุณสมบัติที่เลือกใช้",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "tpat4.structure",
+      "order": 4,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT4",
+          "typical_items": "อยู่ในส่วนที่ 3 รวม 24 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "โครงสร้าง",
+        "อาคาร"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อนี้อนุมานจากชื่อส่วนในผังสอบ ไม่ใช่รายการหัวข้อย่อยทางการ"
+    },
+    {
+      "id": "tpat4.structure.building_systems",
+      "name_th": "งานระบบพื้นฐาน ไฟฟ้า สุขาภิบาล และการระบายอากาศ",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "tpat4.structure",
+      "order": 5,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT4",
+          "typical_items": "อยู่ในส่วนที่ 3 รวม 24 ข้อ",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "โครงสร้าง",
+        "อาคาร"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อนี้อนุมานจากชื่อส่วนในผังสอบ ไม่ใช่รายการหัวข้อย่อยทางการ"
+    },
+    {
+      "id": "tpat4.spatial",
+      "name_th": "การรับรู้ด้านมิติสัมพันธ์และรูปทรง",
+      "name_en": "Spatial and Form Perception",
+      "kind": "branch",
+      "parent": "tpat4",
+      "order": 5,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 0,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT4",
+          "typical_items": "16 ข้อ **36 คะแนน** — ข้อละ 2.25 คะแนน มากกว่าส่วนอื่นกว่าสองเท่า",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "มิติสัมพันธ์",
+        "รูปทรง",
+        "spatial"
+      ],
+      "curriculum_ref": null,
+      "notes": "ชื่อหัวข้อนี้คัดมาจากผังสอบทางการตรงตัว | **ส่วนที่คุ้มค่าที่สุด** 16 ข้อแต่ได้ 36 คะแนน ควรลงแรงกับส่วนนี้ก่อนส่วนอื่น | ทับกับ tgat2.spatial และ tpat3.aptitude.spatial ใช้บทเรียนร่วมกัน ที่ต่างคือบริบทเป็นงานสถาปัตยกรรมและการอ่านแบบ"
+    },
+    {
+      "id": "tpat4.spatial.orthographic",
+      "name_th": "อ่านแบบผัง รูปด้าน และรูปตัด",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "tpat4.spatial",
+      "order": 1,
+      "grade_band": "mixed",
+      "requires": [
+        "tpat3.aptitude.spatial.shadow_projection"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT4",
+          "typical_items": "อยู่ในส่วนที่ 4 รวม 16 ข้อ 36 คะแนน",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "มิติสัมพันธ์",
+        "รูปทรง",
+        "อ่านแบบ"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อนี้อนุมานจากชื่อส่วนในผังสอบ ไม่ใช่รายการหัวข้อย่อยทางการ | ส่วนนี้ให้คะแนนต่อข้อสูงที่สุดของวิชา | ใช้ทักษะร่วมกับวิชาอื่น ไม่สร้างบทเรียนซ้ำ"
+    },
+    {
+      "id": "tpat4.spatial.build_3d_from_2d",
+      "name_th": "สร้างภาพสามมิติในหัวจากแบบสองมิติ",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "tpat4.spatial",
+      "order": 2,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat2.spatial.rotation_3d.vertical_axis"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT4",
+          "typical_items": "อยู่ในส่วนที่ 4 รวม 16 ข้อ 36 คะแนน",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "hard",
+      "keywords": [
+        "มิติสัมพันธ์",
+        "รูปทรง",
+        "อ่านแบบ"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อนี้อนุมานจากชื่อส่วนในผังสอบ ไม่ใช่รายการหัวข้อย่อยทางการ | ส่วนนี้ให้คะแนนต่อข้อสูงที่สุดของวิชา | ใช้ทักษะร่วมกับวิชาอื่น ไม่สร้างบทเรียนซ้ำ"
+    },
+    {
+      "id": "tpat4.spatial.scale_proportion",
+      "name_th": "มาตราส่วนและสัดส่วนของที่ว่าง",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "tpat4.spatial",
+      "order": 3,
+      "grade_band": "mixed",
+      "requires": [
+        "tgat2.numerical.foundation.ratio_proportion"
+      ],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT4",
+          "typical_items": "อยู่ในส่วนที่ 4 รวม 16 ข้อ 36 คะแนน",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "มิติสัมพันธ์",
+        "รูปทรง",
+        "อ่านแบบ"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อนี้อนุมานจากชื่อส่วนในผังสอบ ไม่ใช่รายการหัวข้อย่อยทางการ | ส่วนนี้ให้คะแนนต่อข้อสูงที่สุดของวิชา | ใช้ทักษะร่วมกับวิชาอื่น ไม่สร้างบทเรียนซ้ำ"
+    },
+    {
+      "id": "tpat4.spatial.volume_form",
+      "name_th": "ปริมาตร รูปทรง และที่ว่างระหว่างมวล",
+      "name_en": "",
+      "kind": "leaf",
+      "parent": "tpat4.spatial",
+      "order": 4,
+      "grade_band": "mixed",
+      "requires": [],
+      "est_minutes": 30,
+      "exam_weight": [
+        {
+          "exam_code": "TPAT4",
+          "typical_items": "อยู่ในส่วนที่ 4 รวม 16 ข้อ 36 คะแนน",
+          "confidence": "high"
+        }
+      ],
+      "difficulty_band": "medium",
+      "keywords": [
+        "มิติสัมพันธ์",
+        "รูปทรง",
+        "อ่านแบบ"
+      ],
+      "curriculum_ref": null,
+      "notes": "หัวข้อนี้อนุมานจากชื่อส่วนในผังสอบ ไม่ใช่รายการหัวข้อย่อยทางการ | ส่วนนี้ให้คะแนนต่อข้อสูงที่สุดของวิชา"
+    }
+  ]
+}

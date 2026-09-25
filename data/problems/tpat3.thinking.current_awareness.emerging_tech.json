@@ -1,0 +1,483 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tpat3.thinking.current_awareness.emerging_tech",
+  "problems": [
+    {
+      "id": "prob.tpat3.thinking.current_awareness.emerging_tech.0001",
+      "topic_ids": [
+        "tpat3.thinking.current_awareness.emerging_tech"
+      ],
+      "primary_topic_id": "tpat3.thinking.current_awareness.emerging_tech",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 110,
+      "stem_md": "ระบบ AI จำแนกภาพฝึกจากรูปกลางวันเกือบทั้งหมด แต่จะใช้กลางคืน ความเสี่ยงหลักคืออะไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "AI ทุกชนิดใช้ได้เฉพาะกลางวัน",
+          "is_answer": false
+        },
+        {
+          "md": "AI จะเปลี่ยนกล้องเป็นกลางวัน",
+          "is_answer": false
+        },
+        {
+          "md": "เกิด distribution shift",
+          "is_answer": true
+        },
+        {
+          "md": "จำนวนภาพมากรับรองผลกลางคืน",
+          "is_answer": false
+        },
+        {
+          "md": "กลางคืนไม่มีข้อมูลภาพ",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "เทียบ training กับ deployment",
+          "why_md": "กลางวันกับกลางคืน"
+        },
+        {
+          "do_md": "ระบุ distribution shift",
+          "why_md": "ลักษณะภาพเปลี่ยน"
+        }
+      ],
+      "answer_explanation_md": "ตอบความต่างของการกระจายข้อมูล",
+      "hints": [
+        "ข้อมูลฝึกครอบคลุมสภาพใช้จริงไหม",
+        "แสงมีผลต่อพิกเซลหรือไม่",
+        "จำนวนมากแต่ไม่หลากหลายพอไหม"
+      ],
+      "distractor_reasons": {
+        "0": "เหมารวม",
+        "1": "ระบบไม่เปลี่ยนสภาพจริง",
+        "3": "ความครอบคลุมสำคัญกว่าจำนวนอย่างเดียว",
+        "4": "ยังมีภาพแต่การกระจายต่าง"
+      },
+      "misconception_tags": [
+        "more_data_always_enough"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.thinking.current_awareness.emerging_tech.0002",
+      "topic_ids": [
+        "tpat3.thinking.current_awareness.emerging_tech"
+      ],
+      "primary_topic_id": "tpat3.thinking.current_awareness.emerging_tech",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 100,
+      "stem_md": "หุ่นยนต์รักษาระยะจากกำแพงโดยวัดระยะ เปรียบเทียบกับค่าที่ต้องการ แล้วปรับความเร็วมอเตอร์ซ้ำ ๆ นี่คือหลักใด",
+      "figures": [],
+      "choices": [
+        {
+          "md": "การเข้ารหัสข้อมูล",
+          "is_answer": false
+        },
+        {
+          "md": "การเพิ่มกำลังเชิงกลอย่างเดียว",
+          "is_answer": false
+        },
+        {
+          "md": "การเก็บพลังงานเคมี",
+          "is_answer": false
+        },
+        {
+          "md": "การควบคุมแบบป้อนกลับ",
+          "is_answer": true
+        },
+        {
+          "md": "การทำงานวงจรเปิด",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ดูว่าผลถูกวัดกลับไหม",
+          "why_md": "วัดระยะซ้ำ"
+        },
+        {
+          "do_md": "ดูการแก้ error",
+          "why_md": "ปรับมอเตอร์"
+        }
+      ],
+      "answer_explanation_md": "ตอบการควบคุมแบบป้อนกลับ",
+      "hints": [
+        "ระบบเปรียบเทียบผลจริงกับเป้าหมายหรือไม่",
+        "มีการปรับซ้ำ",
+        "คำว่า feedback ในงานควบคุมหมายถึงอะไร"
+      ],
+      "distractor_reasons": {
+        "0": "ไม่ใช่หน้าที่หลัก",
+        "1": "มีการวัดและแก้ข้อผิดพลาด",
+        "2": "ไม่เกี่ยวกับการปรับ",
+        "4": "วงจรเปิดไม่ใช้ผลวัดกลับ"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.thinking.current_awareness.emerging_tech.0003",
+      "topic_ids": [
+        "tpat3.thinking.current_awareness.emerging_tech"
+      ],
+      "primary_topic_id": "tpat3.thinking.current_awareness.emerging_tech",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 4,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "high"
+      },
+      "est_seconds": 125,
+      "stem_md": "ชิ้นส่วนพิมพ์สามมิติทำจากชั้นวัสดุเรียงกัน ข้อใดควรทดสอบเป็นพิเศษ",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ความยาวสายไฟของคอมพิวเตอร์",
+          "is_answer": false
+        },
+        {
+          "md": "สีของไฟล์ดิจิทัล",
+          "is_answer": false
+        },
+        {
+          "md": "อุณหภูมิห้องหลังพิมพ์หนึ่งเดือนเท่านั้น",
+          "is_answer": false
+        },
+        {
+          "md": "จำนวนชื่อผู้ใช้เครื่องพิมพ์",
+          "is_answer": false
+        },
+        {
+          "md": "สมบัติตามทิศการวางชั้น",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "เชื่อมกระบวนการกับโครงสร้าง",
+          "why_md": "สร้างเป็นชั้น"
+        },
+        {
+          "do_md": "คาดผลต่อสมบัติ",
+          "why_md": "รอยต่อทำให้ anisotropy"
+        }
+      ],
+      "answer_explanation_md": "ตอบทดสอบความแข็งแรงหลายทิศ",
+      "hints": [
+        "ชิ้นงานเหมือนกันทุกทิศหรือไม่",
+        "แรงขนานกับชั้นและตั้งฉากต่างกันไหม",
+        "กระบวนการผลิตสร้างรอยต่อที่ใด"
+      ],
+      "distractor_reasons": {
+        "0": "ไม่ใช่ปัจจัยหลักของชิ้นส่วน",
+        "1": "ไม่ใช่สมบัติเชิงกล",
+        "2": "แคบและไม่ตรงโครงสร้างชั้น",
+        "3": "ไม่เกี่ยวกับชิ้นงาน"
+      },
+      "misconception_tags": [
+        "assume_isotropic_print"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.thinking.current_awareness.emerging_tech.0004",
+      "topic_ids": [
+        "tpat3.thinking.current_awareness.emerging_tech"
+      ],
+      "primary_topic_id": "tpat3.thinking.current_awareness.emerging_tech",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 5,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": true,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 145,
+      "stem_md": "อุปกรณ์ IoT วัดอุณหภูมิและส่งผ่านเครือข่าย ข้อใดลดความเสี่ยงได้ครอบคลุมที่สุด",
+      "figures": [],
+      "choices": [
+        {
+          "md": "เข้ารหัสข้อมูล ยืนยันตัวตนอุปกรณ์ อัปเดตซอฟต์แวร์ และเก็บข้อมูลเท่าที่จำเป็น",
+          "is_answer": true
+        },
+        {
+          "md": "ปิดการอัปเดตเพื่อให้ระบบคงที่",
+          "is_answer": false
+        },
+        {
+          "md": "ซ่อนชื่อผลิตภัณฑ์จากผู้ใช้",
+          "is_answer": false
+        },
+        {
+          "md": "ตั้งรหัสผ่านสั้นเพื่อจำง่าย",
+          "is_answer": false
+        },
+        {
+          "md": "ส่งข้อมูลทั้งหมดเผื่อใช้ในอนาคต",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ดูเส้นทางข้อมูล",
+          "why_md": "อุปกรณ์ เครือข่าย ที่เก็บ"
+        },
+        {
+          "do_md": "ลดทั้งการเข้าถึงและปริมาณ",
+          "why_md": "security + privacy"
+        }
+      ],
+      "answer_explanation_md": "ตอบใช้มาตรการหลายชั้นและลดข้อมูล",
+      "hints": [
+        "ใครยืนยันว่าอุปกรณ์จริง",
+        "ข้อมูลระหว่างส่งถูกอ่านได้ไหม",
+        "จำเป็นต้องเก็บทุกอย่างหรือไม่"
+      ],
+      "distractor_reasons": {
+        "1": "ช่องโหว่ไม่ได้รับการแก้",
+        "2": "ไม่ใช่มาตรการเทคนิค",
+        "3": "เพิ่มความเสี่ยง",
+        "4": "ขยายผลกระทบด้านความเป็นส่วนตัว"
+      },
+      "misconception_tags": [
+        "one_security_control"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.thinking.current_awareness.emerging_tech.0005",
+      "topic_ids": [
+        "tpat3.thinking.current_awareness.emerging_tech"
+      ],
+      "primary_topic_id": "tpat3.thinking.current_awareness.emerging_tech",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 5,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": true,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 150,
+      "stem_md": "คำกล่าวว่า 'คอมพิวเตอร์ควอนตัมจะทำให้ทุกโปรแกรมเร็วขึ้น' ควรประเมินอย่างไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ผิด เพราะควอนตัมคำนวณอะไรไม่ได้",
+          "is_answer": false
+        },
+        {
+          "md": "กว้างเกินไป เพราะความได้เปรียบขึ้นกับอัลกอริทึม ปัญหา ฮาร์ดแวร์ และการแก้ข้อผิดพลาด",
+          "is_answer": true
+        },
+        {
+          "md": "ถูก เพราะ qubit เก็บคำตอบทุกคำตอบพร้อมกันแล้วอ่านได้ทั้งหมด",
+          "is_answer": false
+        },
+        {
+          "md": "ถูกเมื่อเพิ่ม qubit เพียงหนึ่งตัว",
+          "is_answer": false
+        },
+        {
+          "md": "ตัดสินจากอุณหภูมิห้องได้อย่างเดียว",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ตรวจคำว่า every",
+          "why_md": "เป็นคำเหมารวม"
+        },
+        {
+          "do_md": "ระบุเงื่อนไขความได้เปรียบ",
+          "why_md": "อัลกอริทึมและเครื่องจริง"
+        }
+      ],
+      "answer_explanation_md": "ตอบว่าคำกล่าวกว้างเกินหลักฐาน",
+      "hints": [
+        "ทุกปัญหามีอัลกอริทึมเร่งแบบเดียวกันไหม",
+        "การวัด qubit ให้ข้อมูลทั้งหมดหรือไม่",
+        "ข้อผิดพลาดของฮาร์ดแวร์มีผลไหม"
+      ],
+      "distractor_reasons": {
+        "0": "มีงานบางชนิดที่มีอัลกอริทึมควอนตัม",
+        "2": "การวัดไม่ให้ทุกคำตอบโดยตรง",
+        "3": "ขนาดและคุณภาพต้องมากพอ",
+        "4": "เป็นเพียงข้อจำกัดฮาร์ดแวร์หนึ่งด้าน"
+      },
+      "misconception_tags": [
+        "quantum_speeds_everything"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.thinking.current_awareness.emerging_tech.0006",
+      "topic_ids": [
+        "tpat3.thinking.current_awareness.emerging_tech"
+      ],
+      "primary_topic_id": "tpat3.thinking.current_awareness.emerging_tech",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 5,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": true,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 150,
+      "stem_md": "เซนเซอร์สุขภาพให้สัญญาณเตือนผิดบ่อยเมื่อผู้ใช้วิ่ง ก่อนนำไปใช้ตัดสินใจทางการแพทย์ควรทำอะไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ทดสอบกับกิจกรรมและผู้ใช้หลากหลาย ประเมิน false positive/negative และกำหนดการยืนยันโดยผู้เชี่ยวชาญ",
+          "is_answer": true
+        },
+        {
+          "md": "เพิ่มความไวสูงสุด",
+          "is_answer": false
+        },
+        {
+          "md": "ปิดการเตือนระหว่างวิ่งทุกกรณี",
+          "is_answer": false
+        },
+        {
+          "md": "ให้ผู้ใช้ตีความเองโดยไม่มีคำแนะนำ",
+          "is_answer": false
+        },
+        {
+          "md": "เชื่อค่าทุกครั้งเพราะเซนเซอร์เป็นดิจิทัล",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "วัดข้อผิดพลาดสองแบบ",
+          "why_md": "เตือนเกินและพลาด"
+        },
+        {
+          "do_md": "ทดสอบบริบทจริง",
+          "why_md": "การเคลื่อนไหว"
+        },
+        {
+          "do_md": "เพิ่มมนุษย์กำกับ",
+          "why_md": "ไม่ใช้สัญญาณเดียววินิจฉัย"
+        }
+      ],
+      "answer_explanation_md": "ตอบทดสอบหลายบริบทและมีการยืนยัน",
+      "hints": [
+        "คำเตือนผิดชนิดใดเกิด",
+        "การลดชนิดหนึ่งอาจเพิ่มอีกชนิดไหม",
+        "เครื่องมือวัดเท่ากับการวินิจฉัยหรือไม่"
+      ],
+      "distractor_reasons": {
+        "1": "อาจเพิ่ม false positive",
+        "2": "อาจพลาดเหตุจริง",
+        "3": "ผลักความเสี่ยง",
+        "4": "ดิจิทัลยังมีสัญญาณรบกวน"
+      },
+      "misconception_tags": [
+        "sensor_equals_diagnosis"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    }
+  ],
+  "generated_from": "content/tpat3/thinking.py"
+}

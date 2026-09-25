@@ -1,0 +1,123 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tgat1.speaking.question_response.request_offer_permission",
+  "title": "ขอร้อง เสนอความช่วยเหลือ และขออนุญาต",
+  "subtitle": "Would you mind...? ต้องตอบปฏิเสธถ้าจะยอม — เป็นกับดักที่ออกสอบบ่อยที่สุดในหัวข้อนี้",
+  "prereq_topic_ids": [
+    "tgat1.speaking.foundation.function_bank"
+  ],
+  "objectives": [
+    "แยกประโยคขอร้อง เสนอความช่วยเหลือ และขออนุญาตออกจากกันได้",
+    "ตอบ Would you mind...? ได้ถูกทั้งกรณียอมและไม่ยอม",
+    "ตอบรับหรือปฏิเสธอย่างสุภาพพร้อมเหตุผล"
+  ],
+  "est_minutes": 15,
+  "blocks": [
+    {
+      "type": "hook",
+      "body_md": "\"Would you mind if I sat here?\" ถ้าอยากให้นั่ง ต้องตอบว่า **\"No, not at all.\"** ไม่ใช่ \"Yes\" เพราะคำถามถามว่า **รังเกียจไหม** การตอบ Yes แปลว่ารังเกียจ"
+    },
+    {
+      "type": "concept",
+      "heading": "3 หน้าที่ที่ต้องแยกให้ออก",
+      "body_md": "| หน้าที่ | ตัวอย่าง | ตอบรับ | ปฏิเสธสุภาพ |\n|---|---|---|---|\n| **ขอร้อง** | Could you help me...? / Can you...? | Sure. / Of course. | Sorry, I'm afraid I can't. + เหตุผล |\n| **เสนอช่วย** | Shall I...? / Would you like me to...? / Let me... | Yes, please. That's kind of you. | No, thanks. I can manage. |\n| **ขออนุญาต** | May I...? / Can I...? / Is it OK if I...? | Sure, go ahead. | I'm sorry, but... |"
+    },
+    {
+      "type": "concept",
+      "heading": "กับดัก Would you mind...?",
+      "body_md": "- **Would you mind + V-ing / if I...?** = รังเกียจไหม ถ้า...\n- ยอม → **No, not at all. / Of course not. / No, go ahead.**\n- ไม่ยอม → **Sorry, I'd rather you didn't.** / **I'm afraid...** + เหตุผล\n\nตัวลวงยอดนิยมคือ \"Yes, of course.\" ซึ่งฟังดูสุภาพ แต่ความหมายคือ **ใช่ ฉันรังเกียจแน่นอน**"
+    },
+    {
+      "type": "formula",
+      "name": "ถามว่า 'ใครจะเป็นคนทำ'",
+      "formula_tex": "",
+      "variables": [],
+      "use_when": "เมื่อแยกไม่ออกว่าเป็นการขอร้องหรือเสนอความช่วยเหลือ",
+      "avoid_when": "ใช้กับประโยค Would you mind ไม่ได้ ต้องใช้กฎตอบปฏิเสธเมื่อยอมแทน",
+      "derivation_md": "ถ้าผู้พูดจะทำเอง (Shall I carry it?) = เสนอช่วย ตอบ Yes, please / No, thanks · ถ้าผู้พูดขอให้อีกฝ่ายทำ (Could you carry it?) = ขอร้อง ตอบ Sure / Sorry, I can't",
+      "memory_tip": "Would you mind → ยอม = No"
+    },
+    {
+      "type": "example",
+      "label": "ตัวอย่างที่ 1",
+      "difficulty": 2,
+      "stem_md": "**A:** Would you mind turning down the music? I'm trying to study.  \n**B:** ______",
+      "steps": [
+        {
+          "do_md": "ระบุ: Would you mind + V-ing = ขอร้องแบบสุภาพมาก",
+          "why_md": "ถามว่ารังเกียจไหมที่จะลดเสียง"
+        },
+        {
+          "do_md": "ถ้ายอม ต้องตอบปฏิเสธ",
+          "why_md": "Not at all. Sorry about that."
+        }
+      ],
+      "answer_md": "\"Not at all. Sorry about that.\"",
+      "figures": []
+    },
+    {
+      "type": "pitfall",
+      "title": "ตอบ Yes กับ Would you mind",
+      "wrong_md": "A: Would you mind if I borrowed your pen? → B: \"Yes, sure. Here you are.\"",
+      "why_wrong_md": "Yes แปลว่ารังเกียจ แต่ Here you are คือให้ยืม ข้อความขัดกันเอง",
+      "correct_md": "\"No, not at all. Here you are.\"",
+      "misconception_tag": "would_you_mind_yes"
+    },
+    {
+      "type": "pitfall",
+      "title": "ตอบข้อเสนอด้วย Sure",
+      "wrong_md": "A: Shall I open the window for you? → B: \"Sure, I can.\"",
+      "why_wrong_md": "A จะเป็นคนเปิด ไม่ใช่ B คำว่า I can ผิดหน้าที่",
+      "correct_md": "\"Yes, please. Thank you.\"",
+      "misconception_tag": "offer_request_confusion"
+    },
+    {
+      "type": "summary",
+      "bullets_md": [
+        "ขอร้อง: Could you...? → Sure / Sorry, I can't",
+        "เสนอช่วย: Shall I...? → Yes, please / No, thanks",
+        "ขออนุญาต: May I...? → Sure, go ahead",
+        "Would you mind...? → ยอม = No, not at all"
+      ]
+    },
+    {
+      "type": "check",
+      "question_md": "**A:** Would you mind if I used your phone for a minute?  \n**B:** ______",
+      "choices": [
+        "Yes, I would. Here you are.",
+        "No, not at all. Here you are.",
+        "Yes, I mind your phone.",
+        "No, I don't have a minute."
+      ],
+      "answer_index": 1,
+      "explain_md": "จะให้ยืม ต้องตอบปฏิเสธว่าไม่รังเกียจ No, not at all. ตัวเลือกแรกขัดกันเองระหว่าง Yes I would กับ Here you are"
+    },
+    {
+      "type": "check",
+      "question_md": "**A:** Those boxes look heavy. Shall I give you a hand?  \n**B:** ______",
+      "choices": [
+        "Yes, I can give you.",
+        "That's very kind of you. Thanks!",
+        "No, my hand is fine.",
+        "Sure, I'll help you."
+      ],
+      "answer_index": 1,
+      "explain_md": "A เสนอความช่วยเหลือ B ควรตอบรับและขอบคุณ ไม่ใช่เสนอช่วยกลับ"
+    }
+  ],
+  "glossary": [],
+  "common_exam_patterns": [
+    "Would you mind...? ที่ต้องตอบปฏิเสธเมื่อยอม",
+    "ประโยคเสนอความช่วยเหลือ Shall I...? ที่ต้องตอบ Yes, please",
+    "ปฏิเสธสุภาพพร้อมเหตุผล"
+  ],
+  "next_topic_ids": [
+    "tgat1.speaking.question_response.invitation"
+  ],
+  "sources": [
+    "ผังการสอบ TGAT1 จาก mytcas.com (พาร์ทการพูด ส่วนการถาม-ตอบ)",
+    "ประโยคและบทสนทนาแต่งขึ้นใหม่เพื่อการฝึก"
+  ],
+  "review_status": "ai_draft",
+  "generated_from": "content/tgat1/speaking_qr.py"
+}

@@ -1,0 +1,659 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tgat3.complex_problem.identify.symptom_vs_problem",
+  "problems": [
+    {
+      "id": "prob.tgat3.complex_problem.identify.symptom_vs_problem.0001",
+      "topic_ids": [
+        "tgat3.complex_problem.identify.symptom_vs_problem"
+      ],
+      "primary_topic_id": "tgat3.complex_problem.identify.symptom_vs_problem",
+      "exam_code": "TGAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT3 สมรรถนะการทำงาน แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4_tiered",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 60,
+      "stem_md": "ร้านขายของออนไลน์ที่คุณช่วยงานได้รับรีวิวหนึ่งดาวหลายรายการในเดือนนี้ ส่วนใหญ่เขียนว่า \"ของมาช้า\" เจ้าของร้านถามความเห็นคุณ คุณควรเสนออะไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "แจกโค้ดส่วนลดให้ลูกค้าที่ให้หนึ่งดาว",
+          "is_answer": false,
+          "score": 0.25
+        },
+        {
+          "md": "ตอบรีวิวทุกอันด้วยคำขอโทษอย่างสุภาพ เพื่อรักษาภาพลักษณ์ของร้านในสายตาลูกค้าคนอื่นที่เข้ามาอ่าน",
+          "is_answer": false,
+          "score": 0.5
+        },
+        {
+          "md": "ตรวจเวลาของแต่ละขั้นตอน ตอบลูกค้าว่ากำลังตรวจ และแก้จุดที่ทำให้ของช้า",
+          "is_answer": true,
+          "score": 1
+        },
+        {
+          "md": "เปลี่ยนบริษัทขนส่งทันที เพราะน่าจะเป็นสาเหตุหลักที่ทำให้ลูกค้าได้ของช้ากว่าที่ร้านแจ้งไว้",
+          "is_answer": false,
+          "score": 0.75
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "อาการ: รีวิวหนึ่งดาว / ข้อมูล: ของมาช้า",
+          "why_md": "ต้องรู้ว่าช้าตรงไหน"
+        },
+        {
+          "do_md": "ตัวปัญหาอาจอยู่ที่การแพ็กหรือการขนส่ง",
+          "why_md": "แต่ละอย่างแก้ต่างกัน"
+        },
+        {
+          "do_md": "หาจุดที่ช้าก่อนแก้",
+          "why_md": "จึงแก้ได้ตรงตัวปัญหา"
+        }
+      ],
+      "answer_explanation_md": "ตรวจแต่ละขั้นตอนพร้อมดูแลลูกค้าและแก้จุดที่ช้าดีที่สุด เพราะระบุตัวปัญหาได้ถูก แก้ได้ตรงจุด และไม่ปล่อยคำร้องเรียนไว้โดยไม่มีคำตอบ",
+      "hints": [
+        "รีวิวหนึ่งดาวเป็นอาการหรือตัวปัญหา",
+        "ของมาช้าอาจเกิดจากขั้นตอนไหนได้บ้าง",
+        "หาตัวเลือกที่ระบุตัวปัญหาก่อนลงมือแก้"
+      ],
+      "distractor_reasons": {
+        "0": "กลบอาการด้วยการให้ของ และอาจกลายเป็นแรงจูงใจให้รีวิวแย่",
+        "1": "ดูแลภาพลักษณ์ได้ แต่แก้แค่อาการ ของยังมาช้าเหมือนเดิม",
+        "3": "อาจถูกจุด แต่ยังไม่รู้ว่าช้าที่ขนส่งหรือที่ร้านเอง"
+      },
+      "misconception_tags": [
+        "treat_symptom_only"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat3.complex_problem.identify.symptom_vs_problem.0002",
+      "topic_ids": [
+        "tgat3.complex_problem.identify.symptom_vs_problem"
+      ],
+      "primary_topic_id": "tgat3.complex_problem.identify.symptom_vs_problem",
+      "exam_code": "TGAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT3 สมรรถนะการทำงาน แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4_tiered",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 60,
+      "stem_md": "ในห้องเรียนของคุณ เพื่อนหลายคนลอกการบ้านกันตอนเช้าก่อนเข้าเรียน คุณเป็นหัวหน้าห้องและสังเกตว่าการบ้านวิชานี้มักสั่งวันศุกร์แต่ไม่มีใครเข้าใจวิธีทำ คุณควรทำอย่างไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "จัดกลุ่มติวการบ้านวิชานี้ทุกวันศุกร์หลังเลิกเรียน โดยให้เพื่อนที่เข้าใจอธิบายให้เพื่อนที่ไม่เข้าใจ",
+          "is_answer": false,
+          "score": 0.75
+        },
+        {
+          "md": "รายงานครูว่ามีคนลอกการบ้าน เพื่อให้ครูลงโทษและเพื่อน ๆ จะได้ไม่กล้าทำอีกในอนาคต",
+          "is_answer": false,
+          "score": 0.5
+        },
+        {
+          "md": "ยึดสมุดการบ้านของคนที่ให้ลอกไว้ตอนเช้า",
+          "is_answer": false,
+          "score": 0.25
+        },
+        {
+          "md": "แจ้งครูว่าเพื่อนหลายคนไม่เข้าใจวิธีทำ และขอให้อธิบายก่อนสั่งการบ้าน",
+          "is_answer": true,
+          "score": 1
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "อาการ: ลอกการบ้าน",
+          "why_md": "ตัวปัญหา: ไม่เข้าใจวิธีทำ"
+        },
+        {
+          "do_md": "ถ้าแก้ความไม่เข้าใจ การลอกจะลดลงเอง",
+          "why_md": "จึงต้องแก้ที่ตัวปัญหา"
+        },
+        {
+          "do_md": "ครูคือคนที่แก้เรื่องการสอนได้ตรงที่สุด",
+          "why_md": "การแจ้งครูพร้อมข้อเสนอจึงดีที่สุด"
+        }
+      ],
+      "answer_explanation_md": "แจ้งครูว่าเพื่อนไม่เข้าใจและขอให้อธิบายก่อนดีที่สุด เพราะแก้ที่ตัวปัญหา ซึ่งจะทำให้การลอกลดลงเอง",
+      "hints": [
+        "ทำไมเพื่อนถึงลอกการบ้าน",
+        "ถ้าลงโทษคนลอก เพื่อนจะเข้าใจวิธีทำมากขึ้นไหม",
+        "ใครแก้ปัญหาความไม่เข้าใจได้ตรงที่สุด"
+      ],
+      "distractor_reasons": {
+        "0": "แก้ที่ความไม่เข้าใจได้จริง แต่ครูผู้สอนไม่รู้ว่านักเรียนส่วนใหญ่ไม่เข้าใจ",
+        "1": "หยุดการลอกได้ชั่วคราว แต่ตัวปัญหาคือไม่เข้าใจวิธีทำ ซึ่งยังไม่ได้แก้",
+        "2": "เกินบทบาทหัวหน้าห้อง และแก้แค่อาการ"
+      },
+      "misconception_tags": [
+        "treat_symptom_only"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat3.complex_problem.identify.symptom_vs_problem.0003",
+      "topic_ids": [
+        "tgat3.complex_problem.identify.symptom_vs_problem"
+      ],
+      "primary_topic_id": "tgat3.complex_problem.identify.symptom_vs_problem",
+      "exam_code": "TGAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT3 สมรรถนะการทำงาน แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4_tiered",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 60,
+      "stem_md": "หอพักที่คุณอยู่มีปัญหาเครื่องซักผ้าคิวยาวทุกเย็น ผู้พักหลายคนทะเลาะกันเรื่องแซงคิว คุณเป็นตัวแทนผู้พัก คุณควรเสนออะไรต่อเจ้าของหอ",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ติดป้ายเตือนให้ทุกคนเคารพคิวและไม่แซง",
+          "is_answer": false,
+          "score": 0.5
+        },
+        {
+          "md": "ชวนผู้พักให้เปลี่ยนไปซักตอนเช้าบ้าง เพื่อกระจายการใช้เครื่องออกจากช่วงเย็นที่คนแน่นที่สุด",
+          "is_answer": false,
+          "score": 0.75
+        },
+        {
+          "md": "เสนอระบบจองเวลาใช้เครื่อง และขอดูว่าควรเพิ่มเครื่องหรือไม่",
+          "is_answer": true,
+          "score": 1
+        },
+        {
+          "md": "ขอให้เจ้าของหอติดกล้องวงจรปิดที่ห้องซักผ้า เพื่อหาหลักฐานว่าใครแซงคิวแล้วตักเตือนเป็นรายคน",
+          "is_answer": false,
+          "score": 0.25
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "อาการ: ทะเลาะกันเรื่องแซงคิว",
+          "why_md": "ตัวปัญหา: เครื่องไม่พอในช่วงที่คนใช้พร้อมกัน"
+        },
+        {
+          "do_md": "ทางแก้ที่ตรงตัวปัญหา: กระจายเวลาด้วยระบบจอง และพิจารณาเพิ่มเครื่อง",
+          "why_md": "ถ้าคิวไม่แน่น การแซงคิวจะหายไปเอง"
+        },
+        {
+          "do_md": "ป้ายเตือนหรือกล้องแก้แค่พฤติกรรม",
+          "why_md": "ไม่ได้แก้ต้นเหตุที่คิวยาว"
+        }
+      ],
+      "answer_explanation_md": "เสนอระบบจองเวลาและพิจารณาเพิ่มเครื่องดีที่สุด เพราะแก้ตัวปัญหาที่เครื่องไม่พอ ทำให้การทะเลาะหายไปเอง",
+      "hints": [
+        "การทะเลาะเรื่องแซงคิวเกิดขึ้นเพราะอะไร",
+        "ถ้าคิวไม่ยาว คนจะยังแซงคิวไหม",
+        "หาทางแก้ที่ทำให้คิวสั้นลงจริง"
+      ],
+      "distractor_reasons": {
+        "0": "ลดการทะเลาะได้บ้าง แต่คิวยังยาวเท่าเดิม",
+        "1": "แก้ที่การใช้งานกระจุกได้บางส่วน แต่ไม่มีระบบรองรับ ต้องพึ่งความสมัครใจ",
+        "3": "แก้การแซงคิวซึ่งเป็นอาการ และใช้ต้นทุนสูงโดยคิวยังยาว"
+      },
+      "misconception_tags": [
+        "treat_symptom_only"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat3.complex_problem.identify.symptom_vs_problem.0004",
+      "topic_ids": [
+        "tgat3.complex_problem.identify.symptom_vs_problem"
+      ],
+      "primary_topic_id": "tgat3.complex_problem.identify.symptom_vs_problem",
+      "exam_code": "TGAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT3 สมรรถนะการทำงาน แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4_tiered",
+      "difficulty": 4,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "high"
+      },
+      "est_seconds": 60,
+      "stem_md": "บริษัทที่คุณฝึกงานพบว่าพนักงานใหม่ทำงานผิดพลาดบ่อยในเดือนแรก หัวหน้าเสนอให้หักเงินเดือนคนที่ทำผิดซ้ำ คุณถูกขอให้ช่วยวิเคราะห์ คุณควรเสนออะไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ให้พนักงานเก่าประกบพนักงานใหม่ทุกคนตลอดเดือนแรก",
+          "is_answer": false,
+          "score": 0.75
+        },
+        {
+          "md": "ดูว่าผิดพลาดเรื่องอะไรซ้ำ ๆ แล้วปรับคู่มือหรือการสอนงานตรงจุดนั้น",
+          "is_answer": true,
+          "score": 1
+        },
+        {
+          "md": "ขยายช่วงทดลองงานจาก 3 เดือนเป็น 6 เดือน เพื่อให้มีเวลาประเมินพนักงานใหม่ได้นานขึ้นก่อนบรรจุ",
+          "is_answer": false,
+          "score": 0.5
+        },
+        {
+          "md": "สนับสนุนการหักเงินเดือน เพราะจะทำให้พนักงานระวังมากขึ้นและรับผิดชอบต่องานมากขึ้น",
+          "is_answer": false,
+          "score": 0.25
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "อาการ: พนักงานใหม่ผิดพลาดบ่อย",
+          "why_md": "เมื่อหลายคนผิดคล้ายกัน ตัวปัญหามักอยู่ที่ระบบการสอนงาน"
+        },
+        {
+          "do_md": "หาจุดที่ผิดซ้ำ",
+          "why_md": "ได้ข้อมูลว่าต้องแก้คู่มือหรือการสอนตรงไหน"
+        },
+        {
+          "do_md": "แก้ที่ระบบ",
+          "why_md": "พนักงานใหม่รุ่นต่อไปจะไม่ผิดซ้ำ"
+        }
+      ],
+      "answer_explanation_md": "หาจุดที่ผิดซ้ำแล้วปรับคู่มือหรือการสอนงานดีที่สุด เพราะแก้ตัวปัญหาที่ระบบ ไม่ใช่ลงโทษอาการ",
+      "hints": [
+        "พนักงานใหม่หลายคนผิดพลาดคล้ายกัน บอกอะไรเกี่ยวกับตัวปัญหา",
+        "การหักเงินทำให้พนักงานรู้วิธีทำงานที่ถูกต้องมากขึ้นไหม",
+        "หาทางแก้ที่ทำให้พนักงานรุ่นต่อไปไม่ผิดซ้ำ"
+      ],
+      "distractor_reasons": {
+        "0": "ช่วยลดความผิดพลาดได้จริง แต่ใช้แรงคนมากและยังไม่รู้ว่าผิดเรื่องอะไร",
+        "2": "ให้เวลาประเมินมากขึ้น แต่ไม่ได้ลดความผิดพลาด",
+        "3": "ลงโทษอาการ ถ้าตัวปัญหาคือการสอนงานไม่ชัด พนักงานก็ยังผิดต่อไป"
+      },
+      "misconception_tags": [
+        "treat_symptom_only"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat3.complex_problem.identify.symptom_vs_problem.0005",
+      "topic_ids": [
+        "tgat3.complex_problem.identify.symptom_vs_problem"
+      ],
+      "primary_topic_id": "tgat3.complex_problem.identify.symptom_vs_problem",
+      "exam_code": "TGAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT3 สมรรถนะการทำงาน แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4_tiered",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 60,
+      "stem_md": "นักเรียนในโรงเรียนของคุณมักมาสายในวันฝนตก เพราะถนนหน้าโรงเรียนน้ำท่วมขัง คุณเป็นสภานักเรียน คุณควรทำอย่างไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ประสานโรงเรียนส่งข้อมูลจุดน้ำท่วมให้หน่วยงานท้องถิ่นตรวจสาเหตุ และเสนอผ่อนผันเวลาเข้าเรียนวันฝนตกระหว่างรอแก้",
+          "is_answer": true,
+          "score": 1
+        },
+        {
+          "md": "รณรงค์ให้นักเรียนออกจากบ้านเร็วขึ้นในวันที่ฝนตก เพื่อเผื่อเวลาเดินทางอ้อมถนนที่น้ำท่วม",
+          "is_answer": false,
+          "score": 0.5
+        },
+        {
+          "md": "เสนอให้ยกเว้นโทษมาสายในวันฝนตก",
+          "is_answer": false,
+          "score": 0.75
+        },
+        {
+          "md": "ให้นักเรียนที่มาสายเขียนรายงานเหตุผลทุกครั้ง",
+          "is_answer": false,
+          "score": 0.25
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "อาการ: มาสายวันฝนตก",
+          "why_md": "ตัวปัญหา: ถนนน้ำท่วมขัง"
+        },
+        {
+          "do_md": "ให้ผู้มีอำนาจตรวจสาเหตุและแก้ตัวปัญหา",
+          "why_md": "หน่วยงานท้องถิ่นดูแลถนนและระบบระบายน้ำ"
+        },
+        {
+          "do_md": "บรรเทาอาการระหว่างรอ",
+          "why_md": "ผ่อนผันเวลาเข้าเรียนจึงเป็นธรรมกับนักเรียน"
+        }
+      ],
+      "answer_explanation_md": "ส่งข้อมูลให้หน่วยงานตรวจสาเหตุและผ่อนผันเวลาระหว่างรอดีที่สุด เพราะไม่ด่วนสรุปสาเหตุ แก้ผ่านผู้มีอำนาจ และบรรเทาผลกระทบต่อนักเรียนไปพร้อมกัน",
+      "hints": [
+        "ทำไมนักเรียนถึงมาสายเฉพาะวันฝนตก",
+        "ใครมีอำนาจแก้เรื่องน้ำท่วมขังบนถนน",
+        "ระหว่างรอแก้ ควรดูแลนักเรียนอย่างไร"
+      ],
+      "distractor_reasons": {
+        "1": "ผลักภาระให้นักเรียนโดยไม่แก้ที่ถนน",
+        "2": "บรรเทาผลกระทบได้ แต่ถนนยังท่วม",
+        "3": "เพิ่มภาระและไม่แก้อะไร"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat3.complex_problem.identify.symptom_vs_problem.0006",
+      "topic_ids": [
+        "tgat3.complex_problem.identify.symptom_vs_problem"
+      ],
+      "primary_topic_id": "tgat3.complex_problem.identify.symptom_vs_problem",
+      "exam_code": "TGAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT3 สมรรถนะการทำงาน แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4_tiered",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 60,
+      "stem_md": "ชมรมดนตรีของคุณมีสมาชิกลาออกกลางปีหลายคน ประธานชมรมคิดว่าเป็นเพราะ \"ฝึกหนักเกินไป\" คุณเป็นรองประธาน คุณควรทำอย่างไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "คุยกับสมาชิกที่ลาออกเพื่อถามเหตุผลจริง แล้วสรุปให้ประธาน",
+          "is_answer": true,
+          "score": 1
+        },
+        {
+          "md": "รับสมาชิกใหม่มาแทนให้ครบจำนวน",
+          "is_answer": false,
+          "score": 0.25
+        },
+        {
+          "md": "ทำแบบสอบถามถึงสมาชิกที่ยังอยู่ทุกคน ว่าพอใจกิจกรรมของชมรมมากน้อยแค่ไหนและอยากให้ปรับอะไร",
+          "is_answer": false,
+          "score": 0.75
+        },
+        {
+          "md": "เสนอลดชั่วโมงฝึกซ้อมลงครึ่งหนึ่งตามที่ประธานคิด เพื่อให้สมาชิกที่เหลือไม่รู้สึกเหนื่อยเกินไปจนลาออกตาม",
+          "is_answer": false,
+          "score": 0.5
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "อาการ: สมาชิกลาออก / สมมติฐาน: ฝึกหนัก",
+          "why_md": "ยังไม่ได้ตรวจ"
+        },
+        {
+          "do_md": "ถามคนที่ลาออกโดยตรง",
+          "why_md": "เป็นแหล่งข้อมูลที่ตรงที่สุดเรื่องสาเหตุ"
+        },
+        {
+          "do_md": "สรุปให้ผู้มีอำนาจตัดสินใจ",
+          "why_md": "แก้ได้ตรงตัวปัญหา"
+        }
+      ],
+      "answer_explanation_md": "ถามเหตุผลจากคนที่ลาออกแล้วสรุปให้ประธานดีที่สุด เพราะระบุตัวปัญหาจากข้อมูลจริงก่อนเลือกทางแก้",
+      "hints": [
+        "คำว่า 'ฝึกหนักเกินไป' ได้รับการยืนยันแล้วหรือยัง",
+        "ใครรู้ดีที่สุดว่าทำไมถึงลาออก",
+        "หาตัวเลือกที่ระบุตัวปัญหาให้ถูกก่อน"
+      ],
+      "distractor_reasons": {
+        "1": "เติมจำนวนแต่ไม่แก้ว่าทำไมคนลาออก สมาชิกใหม่อาจลาออกอีก",
+        "2": "ได้ข้อมูลที่มีประโยชน์ แต่ยังไม่ได้ฟังจากคนที่ลาออกจริง",
+        "3": "ลงมือเร็วแต่แก้บนสมมติฐานที่ยังไม่ได้ตรวจ ถ้าสาเหตุคืออย่างอื่นก็ไม่ได้ผล"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat3.complex_problem.identify.symptom_vs_problem.0007",
+      "topic_ids": [
+        "tgat3.complex_problem.identify.symptom_vs_problem"
+      ],
+      "primary_topic_id": "tgat3.complex_problem.identify.symptom_vs_problem",
+      "exam_code": "TGAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT3 สมรรถนะการทำงาน แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4_tiered",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 60,
+      "stem_md": "เครื่องพิมพ์ห้องสมุดกระดาษติดทุกบ่าย นักเรียนจึงต่อคิวยาว คุณควรทำอย่างไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ให้เจ้าหน้าที่ดึงกระดาษออกเร็วขึ้น",
+          "is_answer": false,
+          "score": 0.5
+        },
+        {
+          "md": "เพิ่มเครื่องพิมพ์อีกเครื่องช่วงบ่าย",
+          "is_answer": false,
+          "score": 0.75
+        },
+        {
+          "md": "ตั้งป้ายให้เผื่อเวลาพิมพ์",
+          "is_answer": false,
+          "score": 0.25
+        },
+        {
+          "md": "เก็บเวลาที่ติด ชนิดงาน และสภาพกระดาษ แล้วตรวจสาเหตุที่สัมพันธ์กัน",
+          "is_answer": true,
+          "score": 1
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "แยกคิวจากต้นปัญหา",
+          "why_md": "คิวเป็นผลจากเครื่องติด"
+        },
+        {
+          "do_md": "หาความสม่ำเสมอ",
+          "why_md": "เกิดทุกบ่าย"
+        },
+        {
+          "do_md": "เก็บข้อมูลเพื่อทดสอบสาเหตุ",
+          "why_md": "งาน กระดาษ เวลา"
+        }
+      ],
+      "answer_explanation_md": "ตรวจรูปแบบและสาเหตุของกระดาษติดจึงแก้ปัญหาหลักได้ ไม่ใช่เพียงลดคิว",
+      "hints": [
+        "อะไรคืออาการที่คนเห็น",
+        "รูปแบบเวลาให้เบาะแสอะไร",
+        "ข้อมูลใดช่วยแยกสาเหตุ"
+      ],
+      "distractor_reasons": {
+        "0": "ลดอาการหลังเกิด",
+        "1": "ลดคิวแต่ยังไม่รู้เหตุที่เครื่องติด",
+        "2": "ช่วยปรับความคาดหวังแต่ไม่แก้ปัญหา"
+      },
+      "misconception_tags": [
+        "treat_symptom_only"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat3.complex_problem.identify.symptom_vs_problem.0008",
+      "topic_ids": [
+        "tgat3.complex_problem.identify.symptom_vs_problem"
+      ],
+      "primary_topic_id": "tgat3.complex_problem.identify.symptom_vs_problem",
+      "exam_code": "TGAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT3 สมรรถนะการทำงาน แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4_tiered",
+      "difficulty": 5,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": true,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 60,
+      "stem_md": "ร้านอาหารได้คะแนนช้าลง แม้เพิ่มพนักงานรับออเดอร์แล้ว ข้อมูลพบว่าออเดอร์ค้างเฉพาะเมนูทอดและครัวต้องเปลี่ยนน้ำมันบ่อย คุณควรเสนออะไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "หยุดขายเมนูทอดทั้งหมด",
+          "is_answer": false,
+          "score": 0.5
+        },
+        {
+          "md": "วัดขั้นตอนเมนูทอด ตรวจเหตุที่ต้องเปลี่ยนน้ำมัน และปรับกระบวนการโดยยังคุมความปลอดภัยอาหาร",
+          "is_answer": true,
+          "score": 1
+        },
+        {
+          "md": "เพิ่มพนักงานรับออเดอร์อีกคน",
+          "is_answer": false,
+          "score": 0.25
+        },
+        {
+          "md": "แจ้งลูกค้าว่าเมนูทอดใช้เวลานานกว่าปกติ",
+          "is_answer": false,
+          "score": 0.75
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ใช้หลักฐานหลังการแก้เดิม",
+          "why_md": "เพิ่มคนรับออเดอร์ไม่ช่วย"
+        },
+        {
+          "do_md": "ระบุคอขวด",
+          "why_md": "เมนูทอดและการเปลี่ยนน้ำมัน"
+        },
+        {
+          "do_md": "รักษาข้อจำกัด",
+          "why_md": "ไม่แลกความเร็วกับความปลอดภัย"
+        }
+      ],
+      "answer_explanation_md": "ตรวจและปรับคอขวดในครัวโดยคงความปลอดภัย ตรงปัญหากว่าการเพิ่มคนหน้าร้าน",
+      "hints": [
+        "การแก้เดิมบอกอะไร",
+        "งานค้างอยู่ขั้นไหน",
+        "อะไรห้ามลดเพื่อให้เร็วขึ้น"
+      ],
+      "distractor_reasons": {
+        "0": "ลดปัญหาแต่เสียคุณค่าโดยยังไม่วิเคราะห์",
+        "2": "ขยายจุดที่ไม่ใช่คอขวด",
+        "3": "ดูแลความคาดหวังแต่ไม่แก้คอขวด"
+      },
+      "misconception_tags": [
+        "treat_symptom_only"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    }
+  ],
+  "generated_from": "content/tgat3/complex_problem.py"
+}

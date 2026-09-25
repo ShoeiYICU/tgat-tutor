@@ -1,0 +1,491 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tgat2.reasoning.statement_analysis.grouping",
+  "problems": [
+    {
+      "id": "prob.tgat2.reasoning.statement_analysis.grouping.0001",
+      "topic_ids": [
+        "tgat2.reasoning.statement_analysis.grouping"
+      ],
+      "primary_topic_id": "tgat2.reasoning.statement_analysis.grouping",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 70,
+      "stem_md": "6 คน ก ข ค ง จ ฉ แบ่งเป็นทีมแดงและทีมน้ำเงิน ทีมละ 3 คน\n\n- ก กับ ข อยู่ทีมเดียวกัน\n- ค กับ ง อยู่คนละทีม\n- จ อยู่ทีมแดง\n- ข อยู่ทีมน้ำเงิน\n\nข้อใดถูกต้องแน่นอน",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ฉ อยู่ทีมเดียวกับ ก",
+          "is_answer": false
+        },
+        {
+          "md": "จ อยู่ทีมเดียวกับ ข",
+          "is_answer": false
+        },
+        {
+          "md": "ง อยู่ทีมแดง",
+          "is_answer": false
+        },
+        {
+          "md": "ค อยู่ทีมน้ำเงิน",
+          "is_answer": false
+        },
+        {
+          "md": "ฉ อยู่ทีมแดง",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ก ข อยู่น้ำเงิน",
+          "why_md": "ก้อนเดียวกัน"
+        },
+        {
+          "do_md": "ค ง ใช้ทีมละ 1 ที่ ทีมน้ำเงินจึงเต็ม",
+          "why_md": "คู่แยก"
+        },
+        {
+          "do_md": "ฉ ต้องอยู่แดง",
+          "why_md": "ที่เหลือ"
+        }
+      ],
+      "answer_explanation_md": "ตอบ ฉ อยู่ทีมแดง เพราะทีมน้ำเงินมี ก ข และ ค หรือ ง ครบ 3 คนแล้ว",
+      "hints": [
+        "ใส่ ก และ ข ลงทีมน้ำเงิน",
+        "ค กับ ง ใช้ที่ของทีมน้ำเงินกี่ที่",
+        "ทีมน้ำเงินยังเหลือที่ให้ ฉ ไหม"
+      ],
+      "distractor_reasons": {
+        "0": "ทีมน้ำเงินเต็มแล้ว",
+        "1": "จ อยู่แดง ข อยู่น้ำเงิน",
+        "2": "ง อยู่ทีมน้ำเงินก็ได้",
+        "3": "ค อยู่ทีมแดงก็ได้"
+      },
+      "misconception_tags": [
+        "ignore_group_size"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.reasoning.statement_analysis.grouping.0002",
+      "topic_ids": [
+        "tgat2.reasoning.statement_analysis.grouping"
+      ],
+      "primary_topic_id": "tgat2.reasoning.statement_analysis.grouping",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 60,
+      "stem_md": "6 คน ก ข ค ง จ ฉ แบ่งเป็นทีมแดงและทีมน้ำเงิน ทีมละ 3 คน\n\n- ก กับ ข อยู่ทีมเดียวกัน\n- ค กับ ง อยู่คนละทีม\n- จ อยู่ทีมแดง\n- ข อยู่ทีมน้ำเงิน\n- ง ไม่ได้อยู่ทีมเดียวกับ ก\n\nทีมน้ำเงินประกอบด้วยใครบ้าง",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ข ค จ",
+          "is_answer": false
+        },
+        {
+          "md": "ก ข ง",
+          "is_answer": false
+        },
+        {
+          "md": "ก ข ค",
+          "is_answer": true
+        },
+        {
+          "md": "ก ค ฉ",
+          "is_answer": false
+        },
+        {
+          "md": "ก ข ฉ",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ก ข อยู่น้ำเงิน ง ต้องไม่อยู่กับ ก",
+          "why_md": "ง อยู่แดง"
+        },
+        {
+          "do_md": "ค ต้องอยู่คนละทีมกับ ง",
+          "why_md": "ค อยู่น้ำเงิน"
+        }
+      ],
+      "answer_explanation_md": "ตอบ ก ข ค เพราะ ง ต้องอยู่แดง ค จึงอยู่น้ำเงิน ทีมน้ำเงินครบ 3 คน",
+      "hints": [
+        "ใส่ ก ข ลงทีมน้ำเงินก่อน",
+        "ง อยู่ทีมไหนได้",
+        "ค ต้องอยู่คนละทีมกับ ง"
+      ],
+      "distractor_reasons": {
+        "0": "จ อยู่ทีมแดง",
+        "1": "ง ต้องไม่อยู่ทีมเดียวกับ ก",
+        "3": "ข อยู่ทีมน้ำเงิน",
+        "4": "ค หรือ ง ต้องอยู่ทีมน้ำเงินหนึ่งคน"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.reasoning.statement_analysis.grouping.0003",
+      "topic_ids": [
+        "tgat2.reasoning.statement_analysis.grouping"
+      ],
+      "primary_topic_id": "tgat2.reasoning.statement_analysis.grouping",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 75,
+      "stem_md": "นักเรียน 6 คน ก ข ค ง จ ฉ แบ่งเป็นกลุ่ม 1 2 3 กลุ่มละ 2 คน\n\n- ก กับ ข ไม่อยู่กลุ่มเดียวกัน\n- ค อยู่กลุ่ม 2\n- ง อยู่กลุ่มเดียวกับ ค\n- จ ไม่ได้อยู่กลุ่ม 1\n\nข้อใดถูกต้องแน่นอน",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ฉ อยู่กลุ่ม 1",
+          "is_answer": true
+        },
+        {
+          "md": "ข อยู่กลุ่ม 3",
+          "is_answer": false
+        },
+        {
+          "md": "ง อยู่กลุ่ม 3",
+          "is_answer": false
+        },
+        {
+          "md": "ก อยู่กลุ่ม 1",
+          "is_answer": false
+        },
+        {
+          "md": "จ อยู่กลุ่มเดียวกับ ฉ",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "กลุ่ม 2 = ค ง",
+          "why_md": "เต็มแล้ว"
+        },
+        {
+          "do_md": "จ อยู่กลุ่ม 3",
+          "why_md": "ไม่ใช่กลุ่ม 1 และกลุ่ม 2 เต็ม"
+        },
+        {
+          "do_md": "กลุ่ม 3 เหลือ 1 ที่ ก ข ต้องแยกกัน จึงกินกลุ่ม 1 กับ 3 อย่างละที่",
+          "why_md": "คู่แยก"
+        },
+        {
+          "do_md": "ฉ ต้องอยู่กลุ่ม 1",
+          "why_md": "ที่เหลือ"
+        }
+      ],
+      "answer_explanation_md": "ตอบ ฉ อยู่กลุ่ม 1 เพราะกลุ่ม 3 เหลือที่เดียวซึ่งต้องเป็นของ ก หรือ ข",
+      "hints": [
+        "กลุ่ม 2 มีใครบ้าง",
+        "จ อยู่กลุ่มไหนได้",
+        "ก กับ ข แยกกัน จะเหลือที่ใดให้ ฉ"
+      ],
+      "distractor_reasons": {
+        "1": "ข อยู่กลุ่ม 1 ก็ได้",
+        "2": "ง อยู่กลุ่ม 2 กับ ค",
+        "3": "ก อยู่กลุ่ม 3 ก็ได้",
+        "4": "จ อยู่กลุ่ม 3 ฉ อยู่กลุ่ม 1"
+      },
+      "misconception_tags": [
+        "ignore_group_size"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.reasoning.statement_analysis.grouping.0004",
+      "topic_ids": [
+        "tgat2.reasoning.statement_analysis.grouping"
+      ],
+      "primary_topic_id": "tgat2.reasoning.statement_analysis.grouping",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 55,
+      "stem_md": "6 คน ก ข ค ง จ ฉ แบ่งเป็นทีมแดงและทีมน้ำเงิน ทีมละ 3 คน\n\n- ก กับ ข อยู่ทีมเดียวกัน\n- ค กับ ง อยู่คนละทีม\n- จ อยู่ทีมแดง\n- ข อยู่ทีมน้ำเงิน\n\nข้อใดเป็นไปได้",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ค และ ง อยู่ทีมแดงทั้งคู่",
+          "is_answer": false
+        },
+        {
+          "md": "ฉ อยู่ทีมน้ำเงิน",
+          "is_answer": false
+        },
+        {
+          "md": "ก อยู่ทีมแดง",
+          "is_answer": false
+        },
+        {
+          "md": "ค อยู่ทีมเดียวกับ ข",
+          "is_answer": true
+        },
+        {
+          "md": "จ อยู่ทีมน้ำเงิน",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ก ข อยู่น้ำเงิน จ อยู่แดง ค ง แยกทีมกัน",
+          "why_md": "ข้อมูลแน่นอน"
+        },
+        {
+          "do_md": "กรณี ค อยู่น้ำเงิน: น้ำเงิน ก ข ค · แดง ง จ ฉ",
+          "why_md": "ผ่านทุกเงื่อนไข"
+        }
+      ],
+      "answer_explanation_md": "ตอบ ค อยู่ทีมเดียวกับ ข เกิดได้เมื่อทีมน้ำเงินเป็น ก ข ค",
+      "hints": [
+        "หาทุกวิธีจัดทีม",
+        "ค อยู่ทีมน้ำเงินได้ไหม",
+        "ตรวจตัวเลือกอื่นว่าขัดเงื่อนไขใด"
+      ],
+      "distractor_reasons": {
+        "0": "ค กับ ง ต้องอยู่คนละทีม",
+        "1": "ทีมน้ำเงินเต็มแล้ว",
+        "2": "ก อยู่ทีมเดียวกับ ข ซึ่งอยู่ทีมน้ำเงิน",
+        "4": "จ อยู่ทีมแดง"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.reasoning.statement_analysis.grouping.0005",
+      "topic_ids": [
+        "tgat2.reasoning.statement_analysis.grouping"
+      ],
+      "primary_topic_id": "tgat2.reasoning.statement_analysis.grouping",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 60,
+      "stem_md": "6 คน ก ข ค ง จ ฉ แบ่งเป็นทีมแดงและทีมน้ำเงิน ทีมละ 3 คน\n\n- ก กับ ข อยู่ทีมเดียวกัน\n- ค กับ ง อยู่คนละทีม\n- จ อยู่ทีมแดง\n- ข อยู่ทีมน้ำเงิน\n\nจัดทีมที่ผ่านทุกเงื่อนไขได้ทั้งหมดกี่แบบ",
+      "figures": [],
+      "choices": [
+        {
+          "md": "$2$",
+          "is_answer": true
+        },
+        {
+          "md": "$4$",
+          "is_answer": false
+        },
+        {
+          "md": "$1$",
+          "is_answer": false
+        },
+        {
+          "md": "$6$",
+          "is_answer": false
+        },
+        {
+          "md": "$3$",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ก ข จ ฉ ถูกบังคับทีมทั้งหมด",
+          "why_md": "ข้อมูลแน่นอน"
+        },
+        {
+          "do_md": "ค ง สลับกันได้ 2 แบบ",
+          "why_md": "คู่แยก"
+        }
+      ],
+      "answer_explanation_md": "ตอบ 2 แบบ เพราะมีเพียง ค กับ ง ที่สลับทีมกันได้",
+      "hints": [
+        "ใครบ้างที่ทีมถูกบังคับแล้ว",
+        "ฉ เลือกทีมได้จริงไหม",
+        "นับวิธีวาง ค กับ ง"
+      ],
+      "distractor_reasons": {
+        "1": "นับ ฉ เป็นตัวเลือกอิสระ",
+        "2": "ค กับ ง สลับกันได้",
+        "3": "ไม่ได้ใช้ขนาดทีมตัดกรณี",
+        "4": "ฉ ถูกบังคับให้อยู่แดง จึงไม่เพิ่มแบบ"
+      },
+      "misconception_tags": [
+        "ignore_group_size"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.reasoning.statement_analysis.grouping.0006",
+      "topic_ids": [
+        "tgat2.reasoning.statement_analysis.grouping"
+      ],
+      "primary_topic_id": "tgat2.reasoning.statement_analysis.grouping",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 60,
+      "stem_md": "เลือกกรรมการ 3 คน จาก 5 คน ก ข ค ง จ\n\n- ต้องเลือก จ\n- ถ้าเลือก ก ต้องเลือก ข ด้วย\n- ห้ามเลือก ค กับ ง พร้อมกัน\n\nเลือกได้ทั้งหมดกี่แบบ",
+      "figures": [],
+      "choices": [
+        {
+          "md": "$5$",
+          "is_answer": false
+        },
+        {
+          "md": "$3$",
+          "is_answer": true
+        },
+        {
+          "md": "$6$",
+          "is_answer": false
+        },
+        {
+          "md": "$4$",
+          "is_answer": false
+        },
+        {
+          "md": "$2$",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ต้องมี จ เหลือเลือก 2 จาก ก ข ค ง ได้ 6 คู่",
+          "why_md": "นับทั้งหมด"
+        },
+        {
+          "do_md": "ตัด ก ค, ก ง (ไม่มี ข) และ ค ง (ห้ามคู่กัน)",
+          "why_md": "ใช้เงื่อนไข"
+        },
+        {
+          "do_md": "เหลือ ก ข, ข ค, ข ง",
+          "why_md": "3 แบบ"
+        }
+      ],
+      "answer_explanation_md": "ตอบ 3 แบบ คือ จ กับ ก ข · ข ค · ข ง",
+      "hints": [
+        "จ ต้องอยู่เสมอ เหลือเลือกกี่คน",
+        "เขียนทุกคู่จาก ก ข ค ง",
+        "ตัดคู่ที่ผิดเงื่อนไข"
+      ],
+      "distractor_reasons": {
+        "0": "ลืมเงื่อนไขห้าม ค กับ ง",
+        "2": "นับทุกคู่โดยไม่ใช้เงื่อนไข",
+        "3": "นับคู่ ก ค หรือ ก ง ซึ่งขาด ข",
+        "4": "ลืมคู่ ข ง"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    }
+  ],
+  "generated_from": "content/tgat2/reasoning_analysis.py"
+}

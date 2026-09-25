@@ -1,0 +1,1186 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tgat2.numerical.word_problem.table_graph",
+  "problems": [
+    {
+      "id": "prob.tgat2.numerical.word_problem.table_graph.0001",
+      "topic_ids": [
+        "tgat2.numerical.word_problem.table_graph"
+      ],
+      "primary_topic_id": "tgat2.numerical.word_problem.table_graph",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 45,
+      "stem_md": "| เดือน | ยอดขาย (ชิ้น) |\n|---|---|\n| มกราคม | 45 |\n| กุมภาพันธ์ | 35 |\n| มีนาคม | 47 |\n| เมษายน | 33 |\n\nยอดขายเฉลี่ยต่อเดือนของทั้งสี่เดือนเท่ากับกี่ชิ้น",
+      "figures": [],
+      "choices": [
+        {
+          "md": "$160$",
+          "is_answer": false
+        },
+        {
+          "md": "$37$",
+          "is_answer": false
+        },
+        {
+          "md": "$31$",
+          "is_answer": false
+        },
+        {
+          "md": "$40$",
+          "is_answer": true
+        },
+        {
+          "md": "$45$",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ผลรวม $= 45 + 35 + 47 + 33 = 160$ ชิ้น",
+          "why_md": "รวมทุกเดือนที่ถาม"
+        },
+        {
+          "do_md": "ค่าเฉลี่ย $= 160 \\div 4 = 40$ ชิ้น",
+          "why_md": "หารด้วยจำนวนเดือน"
+        }
+      ],
+      "answer_explanation_md": "ตอบ $40$ ชิ้น เพราะผลรวมทั้งสี่เดือนคือ $160$ ชิ้น",
+      "hints": [
+        "ค่าเฉลี่ยต่อเดือนคำนวณอย่างไร",
+        "รวมยอดขายทั้งสี่เดือนก่อน",
+        "นำผลรวมหารด้วย 4"
+      ],
+      "distractor_reasons": {
+        "0": "ตอบผลรวมแทนค่าเฉลี่ย",
+        "1": "อ่านตัวเลขผิดแถว",
+        "2": "รวมแค่สามเดือนแรกแต่หารด้วยสี่",
+        "4": "ใช้ค่าของเดือนเดียว"
+      },
+      "misconception_tags": [],
+      "template": {
+        "vars": [
+          {
+            "name": "avg",
+            "type": "int",
+            "range": [
+              40,
+              90
+            ],
+            "step": 1
+          },
+          {
+            "name": "a",
+            "type": "int",
+            "range": [
+              5,
+              20
+            ],
+            "step": 1
+          },
+          {
+            "name": "b",
+            "type": "int",
+            "range": [
+              3,
+              15
+            ],
+            "step": 1
+          },
+          {
+            "name": "c",
+            "type": "int",
+            "range": [
+              2,
+              12
+            ],
+            "step": 1
+          }
+        ],
+        "constraints": [
+          "avg - a > 5",
+          "avg - b > 5",
+          "b != c",
+          "(avg) > 0",
+          "((3*avg + b - c)//4) > 0",
+          "(avg*4) > 0",
+          "(avg + a) > 0",
+          "(avg - c) > 0",
+          "(avg) != ((3*avg + b - c)//4)",
+          "(avg) != (avg*4)",
+          "(avg) != (avg + a)",
+          "(avg) != (avg - c)",
+          "((3*avg + b - c)//4) != (avg*4)",
+          "((3*avg + b - c)//4) != (avg + a)",
+          "((3*avg + b - c)//4) != (avg - c)",
+          "(avg*4) != (avg + a)",
+          "(avg*4) != (avg - c)",
+          "(avg + a) != (avg - c)",
+          "((3*avg + b - c)//4) <= 5*(avg)",
+          "(avg*4) <= 5*(avg)",
+          "(avg + a) <= 5*(avg)",
+          "(avg - c) <= 5*(avg)",
+          "5*((3*avg + b - c)//4) >= (avg)",
+          "5*(avg*4) >= (avg)",
+          "5*(avg + a) >= (avg)",
+          "5*(avg - c) >= (avg)"
+        ],
+        "display": {
+          "s1": "avg + a",
+          "s2": "avg - a",
+          "s3": "avg + b - c",
+          "s4": "avg - b + c",
+          "tot": "4*avg"
+        },
+        "stem_tpl": "| เดือน | ยอดขาย (ชิ้น) |\n|---|---|\n| มกราคม | {s1} |\n| กุมภาพันธ์ | {s2} |\n| มีนาคม | {s3} |\n| เมษายน | {s4} |\n\nยอดขายเฉลี่ยต่อเดือนของทั้งสี่เดือนเท่ากับกี่ชิ้น",
+        "answer_expr": "avg",
+        "answer_round": null,
+        "answer_unit": null,
+        "distractors": [
+          {
+            "expr": "(3*avg + b - c)//4",
+            "reason": "รวมแค่สามเดือนแรกแต่หารด้วยสี่"
+          },
+          {
+            "expr": "avg*4",
+            "reason": "ตอบผลรวมแทนค่าเฉลี่ย"
+          },
+          {
+            "expr": "avg + a",
+            "reason": "ใช้ค่าของเดือนเดียว"
+          },
+          {
+            "expr": "avg - c",
+            "reason": "อ่านตัวเลขผิดแถว"
+          }
+        ],
+        "quality_rules": [
+          "ตัวเลือกทุกตัวต้องเป็นจำนวนบวกและไม่ซ้ำกัน",
+          "คำตอบคำนวณจากนิพจน์ ไม่ได้ใส่มือ"
+        ],
+        "quality_exprs": [
+          "answer > 0"
+        ],
+        "steps_tpl": [
+          {
+            "do_md": "ผลรวม $= {s1} + {s2} + {s3} + {s4} = {tot}$ ชิ้น",
+            "why_md": "รวมทุกเดือนที่ถาม"
+          },
+          {
+            "do_md": "ค่าเฉลี่ย $= {tot} \\div 4 = {answer}$ ชิ้น",
+            "why_md": "หารด้วยจำนวนเดือน"
+          }
+        ],
+        "hints_tpl": [
+          "ค่าเฉลี่ยต่อเดือนคำนวณอย่างไร",
+          "รวมยอดขายทั้งสี่เดือนก่อน",
+          "นำผลรวมหารด้วย 4"
+        ],
+        "explanation_tpl": "ตอบ ${answer}$ ชิ้น เพราะผลรวมทั้งสี่เดือนคือ ${tot}$ ชิ้น"
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.numerical.word_problem.table_graph.0002",
+      "topic_ids": [
+        "tgat2.numerical.word_problem.table_graph"
+      ],
+      "primary_topic_id": "tgat2.numerical.word_problem.table_graph",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 45,
+      "stem_md": "| เดือน | ยอดขาย (ชิ้น) |\n|---|---|\n| มกราคม | 96 |\n| กุมภาพันธ์ | 76 |\n| มีนาคม | 89 |\n| เมษายน | 83 |\n\nยอดขายเฉลี่ยต่อเดือนของทั้งสี่เดือนเท่ากับกี่ชิ้น",
+      "figures": [],
+      "choices": [
+        {
+          "md": "$86$",
+          "is_answer": true
+        },
+        {
+          "md": "$83$",
+          "is_answer": false
+        },
+        {
+          "md": "$96$",
+          "is_answer": false
+        },
+        {
+          "md": "$65$",
+          "is_answer": false
+        },
+        {
+          "md": "$344$",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ผลรวม $= 96 + 76 + 89 + 83 = 344$ ชิ้น",
+          "why_md": "รวมทุกเดือนที่ถาม"
+        },
+        {
+          "do_md": "ค่าเฉลี่ย $= 344 \\div 4 = 86$ ชิ้น",
+          "why_md": "หารด้วยจำนวนเดือน"
+        }
+      ],
+      "answer_explanation_md": "ตอบ $86$ ชิ้น เพราะผลรวมทั้งสี่เดือนคือ $344$ ชิ้น",
+      "hints": [
+        "ค่าเฉลี่ยต่อเดือนคำนวณอย่างไร",
+        "รวมยอดขายทั้งสี่เดือนก่อน",
+        "นำผลรวมหารด้วย 4"
+      ],
+      "distractor_reasons": {
+        "1": "อ่านตัวเลขผิดแถว",
+        "2": "ใช้ค่าของเดือนเดียว",
+        "3": "รวมแค่สามเดือนแรกแต่หารด้วยสี่",
+        "4": "ตอบผลรวมแทนค่าเฉลี่ย"
+      },
+      "misconception_tags": [],
+      "template": {
+        "vars": [
+          {
+            "name": "avg",
+            "type": "int",
+            "range": [
+              40,
+              90
+            ],
+            "step": 1
+          },
+          {
+            "name": "a",
+            "type": "int",
+            "range": [
+              5,
+              20
+            ],
+            "step": 1
+          },
+          {
+            "name": "b",
+            "type": "int",
+            "range": [
+              3,
+              15
+            ],
+            "step": 1
+          },
+          {
+            "name": "c",
+            "type": "int",
+            "range": [
+              2,
+              12
+            ],
+            "step": 1
+          }
+        ],
+        "constraints": [
+          "avg - a > 5",
+          "avg - b > 5",
+          "b != c",
+          "(avg) > 0",
+          "((3*avg + b - c)//4) > 0",
+          "(avg*4) > 0",
+          "(avg + a) > 0",
+          "(avg - c) > 0",
+          "(avg) != ((3*avg + b - c)//4)",
+          "(avg) != (avg*4)",
+          "(avg) != (avg + a)",
+          "(avg) != (avg - c)",
+          "((3*avg + b - c)//4) != (avg*4)",
+          "((3*avg + b - c)//4) != (avg + a)",
+          "((3*avg + b - c)//4) != (avg - c)",
+          "(avg*4) != (avg + a)",
+          "(avg*4) != (avg - c)",
+          "(avg + a) != (avg - c)",
+          "((3*avg + b - c)//4) <= 5*(avg)",
+          "(avg*4) <= 5*(avg)",
+          "(avg + a) <= 5*(avg)",
+          "(avg - c) <= 5*(avg)",
+          "5*((3*avg + b - c)//4) >= (avg)",
+          "5*(avg*4) >= (avg)",
+          "5*(avg + a) >= (avg)",
+          "5*(avg - c) >= (avg)"
+        ],
+        "display": {
+          "s1": "avg + a",
+          "s2": "avg - a",
+          "s3": "avg + b - c",
+          "s4": "avg - b + c",
+          "tot": "4*avg"
+        },
+        "stem_tpl": "| เดือน | ยอดขาย (ชิ้น) |\n|---|---|\n| มกราคม | {s1} |\n| กุมภาพันธ์ | {s2} |\n| มีนาคม | {s3} |\n| เมษายน | {s4} |\n\nยอดขายเฉลี่ยต่อเดือนของทั้งสี่เดือนเท่ากับกี่ชิ้น",
+        "answer_expr": "avg",
+        "answer_round": null,
+        "answer_unit": null,
+        "distractors": [
+          {
+            "expr": "(3*avg + b - c)//4",
+            "reason": "รวมแค่สามเดือนแรกแต่หารด้วยสี่"
+          },
+          {
+            "expr": "avg*4",
+            "reason": "ตอบผลรวมแทนค่าเฉลี่ย"
+          },
+          {
+            "expr": "avg + a",
+            "reason": "ใช้ค่าของเดือนเดียว"
+          },
+          {
+            "expr": "avg - c",
+            "reason": "อ่านตัวเลขผิดแถว"
+          }
+        ],
+        "quality_rules": [
+          "ตัวเลือกทุกตัวต้องเป็นจำนวนบวกและไม่ซ้ำกัน",
+          "คำตอบคำนวณจากนิพจน์ ไม่ได้ใส่มือ"
+        ],
+        "quality_exprs": [
+          "answer > 0"
+        ],
+        "steps_tpl": [
+          {
+            "do_md": "ผลรวม $= {s1} + {s2} + {s3} + {s4} = {tot}$ ชิ้น",
+            "why_md": "รวมทุกเดือนที่ถาม"
+          },
+          {
+            "do_md": "ค่าเฉลี่ย $= {tot} \\div 4 = {answer}$ ชิ้น",
+            "why_md": "หารด้วยจำนวนเดือน"
+          }
+        ],
+        "hints_tpl": [
+          "ค่าเฉลี่ยต่อเดือนคำนวณอย่างไร",
+          "รวมยอดขายทั้งสี่เดือนก่อน",
+          "นำผลรวมหารด้วย 4"
+        ],
+        "explanation_tpl": "ตอบ ${answer}$ ชิ้น เพราะผลรวมทั้งสี่เดือนคือ ${tot}$ ชิ้น"
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.numerical.word_problem.table_graph.0003",
+      "topic_ids": [
+        "tgat2.numerical.word_problem.table_graph"
+      ],
+      "primary_topic_id": "tgat2.numerical.word_problem.table_graph",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 50,
+      "stem_md": "| เดือน | ยอดขาย (ชิ้น) |\n|---|---|\n| มกราคม | 140 |\n| กุมภาพันธ์ | 120 |\n| มีนาคม | 180 |\n| เมษายน | 198 |\n\nยอดขายเดือนเมษายนเพิ่มขึ้นจากเดือนมีนาคมกี่เปอร์เซ็นต์",
+      "figures": [],
+      "choices": [
+        {
+          "md": "$15$",
+          "is_answer": false
+        },
+        {
+          "md": "$18$",
+          "is_answer": false
+        },
+        {
+          "md": "$9$",
+          "is_answer": false
+        },
+        {
+          "md": "$5$",
+          "is_answer": false
+        },
+        {
+          "md": "$10$",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "เพิ่มขึ้น $= 198 - 180 = 18$ ชิ้น",
+          "why_md": "หาส่วนที่เปลี่ยน"
+        },
+        {
+          "do_md": "ร้อยละ $= \\frac{18}{180} \\times 100 = 10\\%$",
+          "why_md": "หารด้วยค่าเดิม คือเดือนมีนาคม"
+        }
+      ],
+      "answer_explanation_md": "ตอบ $10\\%$ เพราะเพิ่มขึ้น $18$ ชิ้นจากค่าเดิม $180$ ชิ้น",
+      "hints": [
+        "ร้อยละการเปลี่ยนแปลงหารด้วยค่าเดิมหรือค่าใหม่",
+        "ค่าเดิมคือยอดขายเดือนไหน",
+        "หาส่วนที่เพิ่มแล้วหารด้วย $180$"
+      ],
+      "distractor_reasons": {
+        "0": "คำนวณเกินไป 5",
+        "1": "ตอบส่วนที่เพิ่มเป็นจำนวนชิ้น",
+        "2": "หารด้วยยอดขายเดือนเมษายนแทนเดือนมีนาคม",
+        "3": "คำนวณขาดไป 5"
+      },
+      "misconception_tags": [
+        "divide_by_new"
+      ],
+      "template": {
+        "vars": [
+          {
+            "name": "s3",
+            "type": "int",
+            "range": [
+              40,
+              200
+            ],
+            "step": 20
+          },
+          {
+            "name": "x",
+            "type": "choice",
+            "options": [
+              10,
+              20,
+              25,
+              30,
+              40,
+              50
+            ]
+          },
+          {
+            "name": "s1",
+            "type": "int",
+            "range": [
+              50,
+              150
+            ],
+            "step": 10
+          },
+          {
+            "name": "s2",
+            "type": "int",
+            "range": [
+              60,
+              160
+            ],
+            "step": 10
+          }
+        ],
+        "constraints": [
+          "s3*x % 100 == 0",
+          "(x) > 0",
+          "(x*s3//(s3 + s3*x//100)) > 0",
+          "(s3*x//100) > 0",
+          "(x + 5) > 0",
+          "(x - 5) > 0",
+          "(x) != (x*s3//(s3 + s3*x//100))",
+          "(x) != (s3*x//100)",
+          "(x) != (x + 5)",
+          "(x) != (x - 5)",
+          "(x*s3//(s3 + s3*x//100)) != (s3*x//100)",
+          "(x*s3//(s3 + s3*x//100)) != (x + 5)",
+          "(x*s3//(s3 + s3*x//100)) != (x - 5)",
+          "(s3*x//100) != (x + 5)",
+          "(s3*x//100) != (x - 5)",
+          "(x + 5) != (x - 5)",
+          "(x*s3//(s3 + s3*x//100)) <= 5*(x)",
+          "(s3*x//100) <= 5*(x)",
+          "(x + 5) <= 5*(x)",
+          "(x - 5) <= 5*(x)",
+          "5*(x*s3//(s3 + s3*x//100)) >= (x)",
+          "5*(s3*x//100) >= (x)",
+          "5*(x + 5) >= (x)",
+          "5*(x - 5) >= (x)",
+          "(s3) != (x)"
+        ],
+        "display": {
+          "s4": "s3 + s3*x//100",
+          "dd": "s3*x//100"
+        },
+        "stem_tpl": "| เดือน | ยอดขาย (ชิ้น) |\n|---|---|\n| มกราคม | {s1} |\n| กุมภาพันธ์ | {s2} |\n| มีนาคม | {s3} |\n| เมษายน | {s4} |\n\nยอดขายเดือนเมษายนเพิ่มขึ้นจากเดือนมีนาคมกี่เปอร์เซ็นต์",
+        "answer_expr": "x",
+        "answer_round": null,
+        "answer_unit": null,
+        "distractors": [
+          {
+            "expr": "x*s3//(s3 + s3*x//100)",
+            "reason": "หารด้วยยอดขายเดือนเมษายนแทนเดือนมีนาคม"
+          },
+          {
+            "expr": "s3*x//100",
+            "reason": "ตอบส่วนที่เพิ่มเป็นจำนวนชิ้น"
+          },
+          {
+            "expr": "x + 5",
+            "reason": "คำนวณเกินไป 5"
+          },
+          {
+            "expr": "x - 5",
+            "reason": "คำนวณขาดไป 5"
+          }
+        ],
+        "quality_rules": [
+          "ตัวเลือกทุกตัวต้องเป็นจำนวนบวกและไม่ซ้ำกัน",
+          "คำตอบคำนวณจากนิพจน์ ไม่ได้ใส่มือ"
+        ],
+        "quality_exprs": [
+          "answer > 0"
+        ],
+        "steps_tpl": [
+          {
+            "do_md": "เพิ่มขึ้น $= {s4} - {s3} = {dd}$ ชิ้น",
+            "why_md": "หาส่วนที่เปลี่ยน"
+          },
+          {
+            "do_md": "ร้อยละ $= \\frac{{dd}}{{s3}} \\times 100 = {answer}\\%$",
+            "why_md": "หารด้วยค่าเดิม คือเดือนมีนาคม"
+          }
+        ],
+        "hints_tpl": [
+          "ร้อยละการเปลี่ยนแปลงหารด้วยค่าเดิมหรือค่าใหม่",
+          "ค่าเดิมคือยอดขายเดือนไหน",
+          "หาส่วนที่เพิ่มแล้วหารด้วย ${s3}$"
+        ],
+        "explanation_tpl": "ตอบ ${answer}\\%$ เพราะเพิ่มขึ้น ${dd}$ ชิ้นจากค่าเดิม ${s3}$ ชิ้น"
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.numerical.word_problem.table_graph.0004",
+      "topic_ids": [
+        "tgat2.numerical.word_problem.table_graph"
+      ],
+      "primary_topic_id": "tgat2.numerical.word_problem.table_graph",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 55,
+      "stem_md": "| เดือน | ยอดขาย (ชิ้น) |\n|---|---|\n| มกราคม | 100 |\n| กุมภาพันธ์ | 120 |\n| มีนาคม | 60 |\n| เมษายน | 90 |\n\nยอดขายเดือนเมษายนเพิ่มขึ้นจากเดือนมีนาคมกี่เปอร์เซ็นต์",
+      "figures": [],
+      "choices": [
+        {
+          "md": "$50$",
+          "is_answer": true
+        },
+        {
+          "md": "$45$",
+          "is_answer": false
+        },
+        {
+          "md": "$30$",
+          "is_answer": false
+        },
+        {
+          "md": "$55$",
+          "is_answer": false
+        },
+        {
+          "md": "$33$",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "เพิ่มขึ้น $= 90 - 60 = 30$ ชิ้น",
+          "why_md": "หาส่วนที่เปลี่ยน"
+        },
+        {
+          "do_md": "ร้อยละ $= \\frac{30}{60} \\times 100 = 50\\%$",
+          "why_md": "หารด้วยค่าเดิม คือเดือนมีนาคม"
+        }
+      ],
+      "answer_explanation_md": "ตอบ $50\\%$ เพราะเพิ่มขึ้น $30$ ชิ้นจากค่าเดิม $60$ ชิ้น",
+      "hints": [
+        "ร้อยละการเปลี่ยนแปลงหารด้วยค่าเดิมหรือค่าใหม่",
+        "ค่าเดิมคือยอดขายเดือนไหน",
+        "หาส่วนที่เพิ่มแล้วหารด้วย $60$"
+      ],
+      "distractor_reasons": {
+        "1": "คำนวณขาดไป 5",
+        "2": "ตอบส่วนที่เพิ่มเป็นจำนวนชิ้น",
+        "3": "คำนวณเกินไป 5",
+        "4": "หารด้วยยอดขายเดือนเมษายนแทนเดือนมีนาคม"
+      },
+      "misconception_tags": [
+        "divide_by_new"
+      ],
+      "template": {
+        "vars": [
+          {
+            "name": "s3",
+            "type": "int",
+            "range": [
+              40,
+              200
+            ],
+            "step": 20
+          },
+          {
+            "name": "x",
+            "type": "choice",
+            "options": [
+              10,
+              20,
+              25,
+              30,
+              40,
+              50
+            ]
+          },
+          {
+            "name": "s1",
+            "type": "int",
+            "range": [
+              50,
+              150
+            ],
+            "step": 10
+          },
+          {
+            "name": "s2",
+            "type": "int",
+            "range": [
+              60,
+              160
+            ],
+            "step": 10
+          }
+        ],
+        "constraints": [
+          "s3*x % 100 == 0",
+          "(x) > 0",
+          "(x*s3//(s3 + s3*x//100)) > 0",
+          "(s3*x//100) > 0",
+          "(x + 5) > 0",
+          "(x - 5) > 0",
+          "(x) != (x*s3//(s3 + s3*x//100))",
+          "(x) != (s3*x//100)",
+          "(x) != (x + 5)",
+          "(x) != (x - 5)",
+          "(x*s3//(s3 + s3*x//100)) != (s3*x//100)",
+          "(x*s3//(s3 + s3*x//100)) != (x + 5)",
+          "(x*s3//(s3 + s3*x//100)) != (x - 5)",
+          "(s3*x//100) != (x + 5)",
+          "(s3*x//100) != (x - 5)",
+          "(x + 5) != (x - 5)",
+          "(x*s3//(s3 + s3*x//100)) <= 5*(x)",
+          "(s3*x//100) <= 5*(x)",
+          "(x + 5) <= 5*(x)",
+          "(x - 5) <= 5*(x)",
+          "5*(x*s3//(s3 + s3*x//100)) >= (x)",
+          "5*(s3*x//100) >= (x)",
+          "5*(x + 5) >= (x)",
+          "5*(x - 5) >= (x)",
+          "(s3) != (x)"
+        ],
+        "display": {
+          "s4": "s3 + s3*x//100",
+          "dd": "s3*x//100"
+        },
+        "stem_tpl": "| เดือน | ยอดขาย (ชิ้น) |\n|---|---|\n| มกราคม | {s1} |\n| กุมภาพันธ์ | {s2} |\n| มีนาคม | {s3} |\n| เมษายน | {s4} |\n\nยอดขายเดือนเมษายนเพิ่มขึ้นจากเดือนมีนาคมกี่เปอร์เซ็นต์",
+        "answer_expr": "x",
+        "answer_round": null,
+        "answer_unit": null,
+        "distractors": [
+          {
+            "expr": "x*s3//(s3 + s3*x//100)",
+            "reason": "หารด้วยยอดขายเดือนเมษายนแทนเดือนมีนาคม"
+          },
+          {
+            "expr": "s3*x//100",
+            "reason": "ตอบส่วนที่เพิ่มเป็นจำนวนชิ้น"
+          },
+          {
+            "expr": "x + 5",
+            "reason": "คำนวณเกินไป 5"
+          },
+          {
+            "expr": "x - 5",
+            "reason": "คำนวณขาดไป 5"
+          }
+        ],
+        "quality_rules": [
+          "ตัวเลือกทุกตัวต้องเป็นจำนวนบวกและไม่ซ้ำกัน",
+          "คำตอบคำนวณจากนิพจน์ ไม่ได้ใส่มือ"
+        ],
+        "quality_exprs": [
+          "answer > 0"
+        ],
+        "steps_tpl": [
+          {
+            "do_md": "เพิ่มขึ้น $= {s4} - {s3} = {dd}$ ชิ้น",
+            "why_md": "หาส่วนที่เปลี่ยน"
+          },
+          {
+            "do_md": "ร้อยละ $= \\frac{{dd}}{{s3}} \\times 100 = {answer}\\%$",
+            "why_md": "หารด้วยค่าเดิม คือเดือนมีนาคม"
+          }
+        ],
+        "hints_tpl": [
+          "ร้อยละการเปลี่ยนแปลงหารด้วยค่าเดิมหรือค่าใหม่",
+          "ค่าเดิมคือยอดขายเดือนไหน",
+          "หาส่วนที่เพิ่มแล้วหารด้วย ${s3}$"
+        ],
+        "explanation_tpl": "ตอบ ${answer}\\%$ เพราะเพิ่มขึ้น ${dd}$ ชิ้นจากค่าเดิม ${s3}$ ชิ้น"
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.numerical.word_problem.table_graph.0005",
+      "topic_ids": [
+        "tgat2.numerical.word_problem.table_graph"
+      ],
+      "primary_topic_id": "tgat2.numerical.word_problem.table_graph",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 55,
+      "stem_md": "| เดือน | ยอดขาย (ชิ้น) |\n|---|---|\n| มกราคม | 80 |\n| กุมภาพันธ์ | 140 |\n| มีนาคม | 160 |\n| เมษายน | 192 |\n\nยอดขายเดือนเมษายนเพิ่มขึ้นจากเดือนมีนาคมกี่เปอร์เซ็นต์",
+      "figures": [],
+      "choices": [
+        {
+          "md": "$15$",
+          "is_answer": false
+        },
+        {
+          "md": "$20$",
+          "is_answer": true
+        },
+        {
+          "md": "$25$",
+          "is_answer": false
+        },
+        {
+          "md": "$16$",
+          "is_answer": false
+        },
+        {
+          "md": "$32$",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "เพิ่มขึ้น $= 192 - 160 = 32$ ชิ้น",
+          "why_md": "หาส่วนที่เปลี่ยน"
+        },
+        {
+          "do_md": "ร้อยละ $= \\frac{32}{160} \\times 100 = 20\\%$",
+          "why_md": "หารด้วยค่าเดิม คือเดือนมีนาคม"
+        }
+      ],
+      "answer_explanation_md": "ตอบ $20\\%$ เพราะเพิ่มขึ้น $32$ ชิ้นจากค่าเดิม $160$ ชิ้น",
+      "hints": [
+        "ร้อยละการเปลี่ยนแปลงหารด้วยค่าเดิมหรือค่าใหม่",
+        "ค่าเดิมคือยอดขายเดือนไหน",
+        "หาส่วนที่เพิ่มแล้วหารด้วย $160$"
+      ],
+      "distractor_reasons": {
+        "0": "คำนวณขาดไป 5",
+        "2": "คำนวณเกินไป 5",
+        "3": "หารด้วยยอดขายเดือนเมษายนแทนเดือนมีนาคม",
+        "4": "ตอบส่วนที่เพิ่มเป็นจำนวนชิ้น"
+      },
+      "misconception_tags": [
+        "divide_by_new"
+      ],
+      "template": {
+        "vars": [
+          {
+            "name": "s3",
+            "type": "int",
+            "range": [
+              40,
+              200
+            ],
+            "step": 20
+          },
+          {
+            "name": "x",
+            "type": "choice",
+            "options": [
+              10,
+              20,
+              25,
+              30,
+              40,
+              50
+            ]
+          },
+          {
+            "name": "s1",
+            "type": "int",
+            "range": [
+              50,
+              150
+            ],
+            "step": 10
+          },
+          {
+            "name": "s2",
+            "type": "int",
+            "range": [
+              60,
+              160
+            ],
+            "step": 10
+          }
+        ],
+        "constraints": [
+          "s3*x % 100 == 0",
+          "(x) > 0",
+          "(x*s3//(s3 + s3*x//100)) > 0",
+          "(s3*x//100) > 0",
+          "(x + 5) > 0",
+          "(x - 5) > 0",
+          "(x) != (x*s3//(s3 + s3*x//100))",
+          "(x) != (s3*x//100)",
+          "(x) != (x + 5)",
+          "(x) != (x - 5)",
+          "(x*s3//(s3 + s3*x//100)) != (s3*x//100)",
+          "(x*s3//(s3 + s3*x//100)) != (x + 5)",
+          "(x*s3//(s3 + s3*x//100)) != (x - 5)",
+          "(s3*x//100) != (x + 5)",
+          "(s3*x//100) != (x - 5)",
+          "(x + 5) != (x - 5)",
+          "(x*s3//(s3 + s3*x//100)) <= 5*(x)",
+          "(s3*x//100) <= 5*(x)",
+          "(x + 5) <= 5*(x)",
+          "(x - 5) <= 5*(x)",
+          "5*(x*s3//(s3 + s3*x//100)) >= (x)",
+          "5*(s3*x//100) >= (x)",
+          "5*(x + 5) >= (x)",
+          "5*(x - 5) >= (x)",
+          "(s3) != (x)"
+        ],
+        "display": {
+          "s4": "s3 + s3*x//100",
+          "dd": "s3*x//100"
+        },
+        "stem_tpl": "| เดือน | ยอดขาย (ชิ้น) |\n|---|---|\n| มกราคม | {s1} |\n| กุมภาพันธ์ | {s2} |\n| มีนาคม | {s3} |\n| เมษายน | {s4} |\n\nยอดขายเดือนเมษายนเพิ่มขึ้นจากเดือนมีนาคมกี่เปอร์เซ็นต์",
+        "answer_expr": "x",
+        "answer_round": null,
+        "answer_unit": null,
+        "distractors": [
+          {
+            "expr": "x*s3//(s3 + s3*x//100)",
+            "reason": "หารด้วยยอดขายเดือนเมษายนแทนเดือนมีนาคม"
+          },
+          {
+            "expr": "s3*x//100",
+            "reason": "ตอบส่วนที่เพิ่มเป็นจำนวนชิ้น"
+          },
+          {
+            "expr": "x + 5",
+            "reason": "คำนวณเกินไป 5"
+          },
+          {
+            "expr": "x - 5",
+            "reason": "คำนวณขาดไป 5"
+          }
+        ],
+        "quality_rules": [
+          "ตัวเลือกทุกตัวต้องเป็นจำนวนบวกและไม่ซ้ำกัน",
+          "คำตอบคำนวณจากนิพจน์ ไม่ได้ใส่มือ"
+        ],
+        "quality_exprs": [
+          "answer > 0"
+        ],
+        "steps_tpl": [
+          {
+            "do_md": "เพิ่มขึ้น $= {s4} - {s3} = {dd}$ ชิ้น",
+            "why_md": "หาส่วนที่เปลี่ยน"
+          },
+          {
+            "do_md": "ร้อยละ $= \\frac{{dd}}{{s3}} \\times 100 = {answer}\\%$",
+            "why_md": "หารด้วยค่าเดิม คือเดือนมีนาคม"
+          }
+        ],
+        "hints_tpl": [
+          "ร้อยละการเปลี่ยนแปลงหารด้วยค่าเดิมหรือค่าใหม่",
+          "ค่าเดิมคือยอดขายเดือนไหน",
+          "หาส่วนที่เพิ่มแล้วหารด้วย ${s3}$"
+        ],
+        "explanation_tpl": "ตอบ ${answer}\\%$ เพราะเพิ่มขึ้น ${dd}$ ชิ้นจากค่าเดิม ${s3}$ ชิ้น"
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat2.numerical.word_problem.table_graph.0006",
+      "topic_ids": [
+        "tgat2.numerical.word_problem.table_graph"
+      ],
+      "primary_topic_id": "tgat2.numerical.word_problem.table_graph",
+      "exam_code": "TGAT2",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT2 การคิดอย่างมีเหตุผล แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 45,
+      "stem_md": "| เดือน | ยอดขาย (ชิ้น) |\n|---|---|\n| มกราคม | 71 |\n| กุมภาพันธ์ | 51 |\n| มีนาคม | 64 |\n| เมษายน | 58 |\n\nยอดขายเฉลี่ยต่อเดือนของทั้งสี่เดือนเท่ากับกี่ชิ้น",
+      "figures": [],
+      "choices": [
+        {
+          "md": "$244$",
+          "is_answer": false
+        },
+        {
+          "md": "$59$",
+          "is_answer": false
+        },
+        {
+          "md": "$61$",
+          "is_answer": true
+        },
+        {
+          "md": "$46$",
+          "is_answer": false
+        },
+        {
+          "md": "$71$",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ผลรวม $= 71 + 51 + 64 + 58 = 244$ ชิ้น",
+          "why_md": "รวมทุกเดือนที่ถาม"
+        },
+        {
+          "do_md": "ค่าเฉลี่ย $= 244 \\div 4 = 61$ ชิ้น",
+          "why_md": "หารด้วยจำนวนเดือน"
+        }
+      ],
+      "answer_explanation_md": "ตอบ $61$ ชิ้น เพราะผลรวมทั้งสี่เดือนคือ $244$ ชิ้น",
+      "hints": [
+        "ค่าเฉลี่ยต่อเดือนคำนวณอย่างไร",
+        "รวมยอดขายทั้งสี่เดือนก่อน",
+        "นำผลรวมหารด้วย 4"
+      ],
+      "distractor_reasons": {
+        "0": "ตอบผลรวมแทนค่าเฉลี่ย",
+        "1": "อ่านตัวเลขผิดแถว",
+        "3": "รวมแค่สามเดือนแรกแต่หารด้วยสี่",
+        "4": "ใช้ค่าของเดือนเดียว"
+      },
+      "misconception_tags": [],
+      "template": {
+        "vars": [
+          {
+            "name": "avg",
+            "type": "int",
+            "range": [
+              40,
+              90
+            ],
+            "step": 1
+          },
+          {
+            "name": "a",
+            "type": "int",
+            "range": [
+              5,
+              20
+            ],
+            "step": 1
+          },
+          {
+            "name": "b",
+            "type": "int",
+            "range": [
+              3,
+              15
+            ],
+            "step": 1
+          },
+          {
+            "name": "c",
+            "type": "int",
+            "range": [
+              2,
+              12
+            ],
+            "step": 1
+          }
+        ],
+        "constraints": [
+          "avg - a > 5",
+          "avg - b > 5",
+          "b != c",
+          "(avg) > 0",
+          "((3*avg + b - c)//4) > 0",
+          "(avg*4) > 0",
+          "(avg + a) > 0",
+          "(avg - c) > 0",
+          "(avg) != ((3*avg + b - c)//4)",
+          "(avg) != (avg*4)",
+          "(avg) != (avg + a)",
+          "(avg) != (avg - c)",
+          "((3*avg + b - c)//4) != (avg*4)",
+          "((3*avg + b - c)//4) != (avg + a)",
+          "((3*avg + b - c)//4) != (avg - c)",
+          "(avg*4) != (avg + a)",
+          "(avg*4) != (avg - c)",
+          "(avg + a) != (avg - c)",
+          "((3*avg + b - c)//4) <= 5*(avg)",
+          "(avg*4) <= 5*(avg)",
+          "(avg + a) <= 5*(avg)",
+          "(avg - c) <= 5*(avg)",
+          "5*((3*avg + b - c)//4) >= (avg)",
+          "5*(avg*4) >= (avg)",
+          "5*(avg + a) >= (avg)",
+          "5*(avg - c) >= (avg)"
+        ],
+        "display": {
+          "s1": "avg + a",
+          "s2": "avg - a",
+          "s3": "avg + b - c",
+          "s4": "avg - b + c",
+          "tot": "4*avg"
+        },
+        "stem_tpl": "| เดือน | ยอดขาย (ชิ้น) |\n|---|---|\n| มกราคม | {s1} |\n| กุมภาพันธ์ | {s2} |\n| มีนาคม | {s3} |\n| เมษายน | {s4} |\n\nยอดขายเฉลี่ยต่อเดือนของทั้งสี่เดือนเท่ากับกี่ชิ้น",
+        "answer_expr": "avg",
+        "answer_round": null,
+        "answer_unit": null,
+        "distractors": [
+          {
+            "expr": "(3*avg + b - c)//4",
+            "reason": "รวมแค่สามเดือนแรกแต่หารด้วยสี่"
+          },
+          {
+            "expr": "avg*4",
+            "reason": "ตอบผลรวมแทนค่าเฉลี่ย"
+          },
+          {
+            "expr": "avg + a",
+            "reason": "ใช้ค่าของเดือนเดียว"
+          },
+          {
+            "expr": "avg - c",
+            "reason": "อ่านตัวเลขผิดแถว"
+          }
+        ],
+        "quality_rules": [
+          "ตัวเลือกทุกตัวต้องเป็นจำนวนบวกและไม่ซ้ำกัน",
+          "คำตอบคำนวณจากนิพจน์ ไม่ได้ใส่มือ"
+        ],
+        "quality_exprs": [
+          "answer > 0"
+        ],
+        "steps_tpl": [
+          {
+            "do_md": "ผลรวม $= {s1} + {s2} + {s3} + {s4} = {tot}$ ชิ้น",
+            "why_md": "รวมทุกเดือนที่ถาม"
+          },
+          {
+            "do_md": "ค่าเฉลี่ย $= {tot} \\div 4 = {answer}$ ชิ้น",
+            "why_md": "หารด้วยจำนวนเดือน"
+          }
+        ],
+        "hints_tpl": [
+          "ค่าเฉลี่ยต่อเดือนคำนวณอย่างไร",
+          "รวมยอดขายทั้งสี่เดือนก่อน",
+          "นำผลรวมหารด้วย 4"
+        ],
+        "explanation_tpl": "ตอบ ${answer}$ ชิ้น เพราะผลรวมทั้งสี่เดือนคือ ${tot}$ ชิ้น"
+      },
+      "template_note": null,
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    }
+  ],
+  "generated_from": "content/tgat2/numerical_word.py"
+}
