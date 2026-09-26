@@ -1,0 +1,479 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tpat3.aptitude.mechanical.fluid_pressure",
+  "problems": [
+    {
+      "id": "prob.tpat3.aptitude.mechanical.fluid_pressure.0001",
+      "topic_ids": [
+        "tpat3.aptitude.mechanical.fluid_pressure"
+      ],
+      "primary_topic_id": "tpat3.aptitude.mechanical.fluid_pressure",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 90,
+      "stem_md": "จุดหนึ่งอยู่ลึก 2 m ในน้ำ ใช้ $\\rho =1000$ kg/m³ และ $g=10$ m/s² ความดันเกจเท่าไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "2,000,000 Pa",
+          "is_answer": false
+        },
+        {
+          "md": "2,000 Pa",
+          "is_answer": false
+        },
+        {
+          "md": "500 Pa",
+          "is_answer": false
+        },
+        {
+          "md": "20,000 Pa",
+          "is_answer": true
+        },
+        {
+          "md": "200,000 Pa",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ใช้สูตร",
+          "why_md": "P=ρgh"
+        },
+        {
+          "do_md": "แทนค่า",
+          "why_md": "1000×10×2=20,000 Pa"
+        }
+      ],
+      "answer_explanation_md": "ตอบ 20,000 พาสคัล จาก $1000×10×2$",
+      "hints": [
+        "โจทย์ถามความดันเกจจากคอลัมน์น้ำ",
+        "ความลึกเป็นเมตรอยู่แล้ว",
+        "คูณ 1,000 กับ 10 กับ 2"
+      ],
+      "distractor_reasons": {
+        "0": "มากไปหนึ่งร้อยเท่า",
+        "1": "ขาดตัวคูณ 10 จาก g",
+        "2": "หารด้วยความลึกแทนคูณ",
+        "4": "มากไปสิบเท่า"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.aptitude.mechanical.fluid_pressure.0002",
+      "topic_ids": [
+        "tpat3.aptitude.mechanical.fluid_pressure"
+      ],
+      "primary_topic_id": "tpat3.aptitude.mechanical.fluid_pressure",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 105,
+      "stem_md": "ถัง A แคบและถัง B กว้าง บรรจุน้ำชนิดเดียวกันถึงระดับสูงเท่ากัน จุดก้นถังอยู่ลึก 1.2 m เท่ากัน ใช้ $\\rho =1000$ kg/m³ และ $g=10$ m/s² ข้อใดถูกต้อง",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ถังที่มีพื้นที่ก้นมากกว่ามีความดันน้อยกว่า",
+          "is_answer": false
+        },
+        {
+          "md": "ความดันเกจที่ก้นทั้งสองถังเท่ากัน",
+          "is_answer": true
+        },
+        {
+          "md": "ถัง A มีความดันมากกว่าเพราะน้ำถูกบีบในที่แคบ",
+          "is_answer": false
+        },
+        {
+          "md": "บอกไม่ได้หากไม่รู้รูปทรงด้านข้าง",
+          "is_answer": false
+        },
+        {
+          "md": "ถัง B มีความดันมากกว่าเพราะมีน้ำมากกว่า",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "เทียบตัวแปรในสูตร",
+          "why_md": "ρ, g และ h เท่ากัน"
+        },
+        {
+          "do_md": "สรุป",
+          "why_md": "P=1000×10×1.2 เท่ากันทั้งสองถัง"
+        }
+      ],
+      "answer_explanation_md": "ตอบว่าความดันเท่ากัน เพราะเป็นน้ำและมีความลึกเท่ากัน",
+      "hints": [
+        "ดูว่าความลึกเท่ากันหรือไม่",
+        "แยกความดันออกจากแรงบนก้นถัง",
+        "รูปทรงไม่ปรากฏในสูตร"
+      ],
+      "distractor_reasons": {
+        "0": "พื้นที่มีผลต่อแรงรวม ไม่ใช่ค่า P ที่ความลึกเดียวกัน",
+        "2": "ของเหลวไม่ได้เพิ่มความดันเพราะถังแคบ",
+        "3": "รูปทรงไม่อยู่ใน P=ρgh",
+        "4": "ความดันที่จุดขึ้นกับความลึก ไม่ใช่ปริมาตรรวม"
+      },
+      "misconception_tags": [
+        "container_shape_pressure"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.aptitude.mechanical.fluid_pressure.0003",
+      "topic_ids": [
+        "tpat3.aptitude.mechanical.fluid_pressure"
+      ],
+      "primary_topic_id": "tpat3.aptitude.mechanical.fluid_pressure",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 4,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "high"
+      },
+      "est_seconds": 125,
+      "stem_md": "แผ่นรับแรง 600 N บนพื้นที่ 300 cm² ความดันเท่าไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "20,000 Pa",
+          "is_answer": true
+        },
+        {
+          "md": "200,000 Pa",
+          "is_answer": false
+        },
+        {
+          "md": "200 Pa",
+          "is_answer": false
+        },
+        {
+          "md": "2 Pa",
+          "is_answer": false
+        },
+        {
+          "md": "2,000 Pa",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "แปลงพื้นที่",
+          "why_md": "300 cm²=300/10,000=0.03 m²"
+        },
+        {
+          "do_md": "ใช้ $P=F/A$",
+          "why_md": "600/0.03=20,000 Pa"
+        }
+      ],
+      "answer_explanation_md": "ตอบ 20,000 พาสคัล เพราะพื้นที่ 300 ตารางเซนติเมตรเท่ากับ 0.03 ตารางเมตร",
+      "hints": [
+        "1 m² มี 10,000 cm²",
+        "ความดันคือแรงหารพื้นที่",
+        "พื้นที่น้อยกว่าหนึ่งตารางเมตรมาก"
+      ],
+      "distractor_reasons": {
+        "1": "แปลงพื้นที่เล็กไปสิบเท่า",
+        "2": "แปลงพื้นที่ผิดสองหลัก",
+        "3": "ใช้ตัวเลขพื้นที่โดยไม่แปลงหน่วย",
+        "4": "แปลง 300 cm² เป็น 0.3 m² ผิด"
+      },
+      "misconception_tags": [
+        "linear_conversion_for_area"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.aptitude.mechanical.fluid_pressure.0004",
+      "topic_ids": [
+        "tpat3.aptitude.mechanical.fluid_pressure"
+      ],
+      "primary_topic_id": "tpat3.aptitude.mechanical.fluid_pressure",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 4,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "high"
+      },
+      "est_seconds": 130,
+      "stem_md": "แม่แรงไฮดรอลิกมีลูกสูบเล็ก 5 cm² และลูกสูบใหญ่ 200 cm² ถ้าออกแรง 100 N ที่ลูกสูบเล็ก โดยละเลยการสูญเสีย ลูกสูบใหญ่ให้แรงเท่าไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "4,000 N",
+          "is_answer": true
+        },
+        {
+          "md": "500 N",
+          "is_answer": false
+        },
+        {
+          "md": "250 N",
+          "is_answer": false
+        },
+        {
+          "md": "2,000 N",
+          "is_answer": false
+        },
+        {
+          "md": "40,000 N",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ใช้หลักพาสคัล",
+          "why_md": "F₁/A₁=F₂/A₂"
+        },
+        {
+          "do_md": "หาอัตราส่วนพื้นที่",
+          "why_md": "200/5=40"
+        },
+        {
+          "do_md": "หาแรงออก",
+          "why_md": "100×40=4,000 N"
+        }
+      ],
+      "answer_explanation_md": "ตอบ 4,000 นิวตัน เพราะพื้นที่ลูกสูบใหญ่เป็น 40 เท่าของลูกสูบเล็ก",
+      "hints": [
+        "ความดันที่ส่งผ่านเท่ากัน",
+        "หน่วยพื้นที่เหมือนกันจึงใช้อัตราส่วนได้",
+        "ลูกสูบใหญ่มีพื้นที่ 40 เท่า"
+      ],
+      "distractor_reasons": {
+        "1": "คูณด้วยพื้นที่ลูกสูบเล็ก",
+        "2": "ใช้อัตราส่วนพื้นที่ผิด",
+        "3": "ใช้อัตราส่วนเพียง 20 เท่า",
+        "4": "มากไปสิบเท่า"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.aptitude.mechanical.fluid_pressure.0005",
+      "topic_ids": [
+        "tpat3.aptitude.mechanical.fluid_pressure"
+      ],
+      "primary_topic_id": "tpat3.aptitude.mechanical.fluid_pressure",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 4,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "high"
+      },
+      "est_seconds": 120,
+      "stem_md": "วัตถุจมอยู่ในน้ำและแทนที่น้ำ 0.020 m³ ใช้ความหนาแน่นน้ำ $\\rho=1000$ kg/m³ และ $g=10$ m/s² แรงลอยตัวเท่าไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "2,000 N",
+          "is_answer": false
+        },
+        {
+          "md": "50 N",
+          "is_answer": false
+        },
+        {
+          "md": "20 N",
+          "is_answer": false
+        },
+        {
+          "md": "20,000 N",
+          "is_answer": false
+        },
+        {
+          "md": "200 N",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ใช้แรงลอยตัว",
+          "why_md": "F_b=ρgV"
+        },
+        {
+          "do_md": "แทนค่า",
+          "why_md": "1000×10×0.020=200 N"
+        }
+      ],
+      "answer_explanation_md": "ตอบ 200 นิวตัน จากน้ำที่ถูกแทนที่มีมวล 20 กิโลกรัม",
+      "hints": [
+        "แรงลอยตัวเท่ากับน้ำหนักน้ำที่ถูกแทนที่",
+        "ปริมาตรให้มาเป็น m³ แล้ว",
+        "คูณสามค่าและตรวจหน่วยเป็นนิวตัน"
+      ],
+      "distractor_reasons": {
+        "0": "มากไปสิบเท่า",
+        "1": "กลับอัตราส่วนปริมาตร",
+        "2": "ขาดตัวคูณ g",
+        "3": "ใช้ความหนาแน่นโดยไม่คูณปริมาตรถูกต้อง"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.aptitude.mechanical.fluid_pressure.0006",
+      "topic_ids": [
+        "tpat3.aptitude.mechanical.fluid_pressure"
+      ],
+      "primary_topic_id": "tpat3.aptitude.mechanical.fluid_pressure",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 5,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": true,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 145,
+      "stem_md": "ฝาปิดแนวนอนพื้นที่ 0.25 m² อยู่ลึก 0.80 m ใต้ผิวน้ำ ใช้ $\\rho =1000$ kg/m³ และ $g=10$ m/s² แรงจากความดันเกจบนฝาประมาณเท่าไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "8,000 N",
+          "is_answer": false
+        },
+        {
+          "md": "800 N",
+          "is_answer": false
+        },
+        {
+          "md": "2,000 N",
+          "is_answer": true
+        },
+        {
+          "md": "320 N",
+          "is_answer": false
+        },
+        {
+          "md": "32,000 N",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "หาความดัน",
+          "why_md": "P=1000×10×0.80=8,000 Pa"
+        },
+        {
+          "do_md": "หาแรง",
+          "why_md": "F=PA=8,000×0.25=2,000 N"
+        }
+      ],
+      "answer_explanation_md": "ตอบ 2,000 นิวตัน เพราะความดัน 8,000 พาสคัลกระทำบนพื้นที่ 0.25 ตารางเมตร",
+      "hints": [
+        "โจทย์ถามแรง ไม่ได้ถามเพียงความดัน",
+        "หาความดันที่ความลึกก่อน",
+        "พื้นที่หนึ่งในสี่ตารางเมตรทำให้แรงเป็นหนึ่งในสี่ของ 8,000"
+      ],
+      "distractor_reasons": {
+        "0": "คำนวณได้ความดันแต่ยังไม่คูณพื้นที่",
+        "1": "ขาดตัวคูณความหนาแน่นหรือพื้นที่",
+        "3": "นำพื้นที่ไปหารความลึก",
+        "4": "หารด้วยพื้นที่แทนคูณ"
+      },
+      "misconception_tags": [
+        "pressure_force_confusion"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    }
+  ],
+  "generated_from": "content/tpat3/numeric_fluid_energy.py"
+}
