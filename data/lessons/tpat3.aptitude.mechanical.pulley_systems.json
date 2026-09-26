@@ -1,0 +1,124 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tpat3.aptitude.mechanical.pulley_systems",
+  "title": "ระบบรอกและการได้เปรียบเชิงกล",
+  "subtitle": "รอกไม่ได้ลดงาน มันแลกแรงกับระยะ ถ้าแรงที่ต้องออกลดลงสี่เท่า ระยะที่ต้องดึงเชือกจะเพิ่มขึ้นสี่เท่าเสมอ ข้อสอบชอบถามตรงจุดนี้เพราะคนมักจำแค่ครึ่งเดียว",
+  "prereq_topic_ids": [
+    "tpat3.aptitude.mechanical.lever_moment"
+  ],
+  "objectives": [
+    "นับเส้นเชือกที่รับน้ำหนักเพื่อหาการได้เปรียบเชิงกล",
+    "คำนวณแรงดึงและระยะดึงเชือก",
+    "อธิบายได้ว่ารอกตายตัวกับรอกเคลื่อนที่ต่างกันอย่างไร"
+  ],
+  "est_minutes": 25,
+  "blocks": [
+    {
+      "type": "hook",
+      "body_md": "รอกตายตัวตัวเดียวไม่ได้ทำให้เบาลงเลยสักนิด มันแค่เปลี่ยนทิศให้เราดึงลงแทนที่จะยกขึ้น สิ่งที่ทำให้เบาลงจริงคือรอกที่เคลื่อนที่ไปพร้อมของ"
+    },
+    {
+      "type": "concept",
+      "heading": "นับเส้นเชือกที่ดึงของขึ้น",
+      "body_md": "มองที่ **บล็อกล่าง** ซึ่งเคลื่อนที่ไปพร้อมของ แล้วนับว่ามีเส้นเชือกกี่เส้นที่ดึงมันขึ้น จำนวนนั้นคือการได้เปรียบเชิงกล (MA)\n\n$\\text{แรงดึง} = \\dfrac{\\text{น้ำหนัก}}{MA}$ และ $\\text{ระยะดึงเชือก} = MA \\times \\text{ความสูงที่ยกได้}$\n\nเส้นที่เป็นปลายเชือกสำหรับดึงจะนับก็ต่อเมื่อมันดึงบล็อกล่างขึ้นด้วย\n\n[[fig1]]",
+      "figures": [
+        {
+          "id": "fig1",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 300 263\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><line x1=\"14\" y1=\"22\" x2=\"286\" y2=\"22\" stroke-width=\"3\"/><line x1=\"14\" y1=\"22\" x2=\"21\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"26\" y1=\"22\" x2=\"33\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"38\" y1=\"22\" x2=\"45\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"50\" y1=\"22\" x2=\"57\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"62\" y1=\"22\" x2=\"69\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"74\" y1=\"22\" x2=\"81\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"86\" y1=\"22\" x2=\"93\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"98\" y1=\"22\" x2=\"105\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"110\" y1=\"22\" x2=\"117\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"122\" y1=\"22\" x2=\"129\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"134\" y1=\"22\" x2=\"141\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"146\" y1=\"22\" x2=\"153\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"158\" y1=\"22\" x2=\"165\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"170\" y1=\"22\" x2=\"177\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"182\" y1=\"22\" x2=\"189\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"194\" y1=\"22\" x2=\"201\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"206\" y1=\"22\" x2=\"213\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"218\" y1=\"22\" x2=\"225\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"230\" y1=\"22\" x2=\"237\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"242\" y1=\"22\" x2=\"249\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"254\" y1=\"22\" x2=\"261\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"266\" y1=\"22\" x2=\"273\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"278\" y1=\"22\" x2=\"285\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"149\" y1=\"22\" x2=\"149\" y2=\"41\"/><rect x=\"90\" y=\"41\" width=\"118\" height=\"38\" rx=\"6\"/><rect x=\"92\" y=\"163\" width=\"90\" height=\"38\" rx=\"6\"/><line x1=\"98\" y1=\"79\" x2=\"98\" y2=\"182\" stroke=\"var(--accent, #3b5bdb)\" stroke-width=\"2\"/><circle cx=\"98\" cy=\"79\" r=\"3.5\" fill=\"var(--accent, #3b5bdb)\" stroke=\"none\"/><line x1=\"124\" y1=\"60\" x2=\"124\" y2=\"182\" stroke=\"var(--accent, #3b5bdb)\" stroke-width=\"2\"/><line x1=\"150\" y1=\"60\" x2=\"150\" y2=\"182\" stroke=\"var(--accent, #3b5bdb)\" stroke-width=\"2\"/><line x1=\"176\" y1=\"60\" x2=\"176\" y2=\"182\" stroke=\"var(--accent, #3b5bdb)\" stroke-width=\"2\"/><path d=\"M 98 182 A 13 13 0 0 0 124 182\" stroke=\"var(--accent, #3b5bdb)\" stroke-width=\"2\"/><path d=\"M 150 182 A 13 13 0 0 0 176 182\" stroke=\"var(--accent, #3b5bdb)\" stroke-width=\"2\"/><path d=\"M 124 60 A 13 13 0 0 1 150 60\" stroke=\"var(--accent, #3b5bdb)\" stroke-width=\"2\"/><path d=\"M 176 60 A 13 13 0 0 1 202 60\" stroke=\"var(--accent, #3b5bdb)\" stroke-width=\"2\"/><line x1=\"202\" y1=\"60\" x2=\"202\" y2=\"188\" stroke=\"var(--accent, #3b5bdb)\" stroke-width=\"2\"/><g stroke=\"var(--accent, #3b5bdb)\"><line x1=\"202\" y1=\"188\" x2=\"202\" y2=\"206\"/><polygon points=\"202,214 197,205 207,205\" fill=\"var(--accent, #3b5bdb)\" stroke=\"none\"/></g><text x=\"206\" y=\"228\" font-size=\"12\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\">แรงดึง</text><circle cx=\"137\" cy=\"60\" r=\"13\"/><circle cx=\"137\" cy=\"60\" r=\"2.5\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"189\" cy=\"60\" r=\"13\"/><circle cx=\"189\" cy=\"60\" r=\"2.5\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"111\" cy=\"182\" r=\"13\"/><circle cx=\"111\" cy=\"182\" r=\"2.5\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"163\" cy=\"182\" r=\"13\"/><circle cx=\"163\" cy=\"182\" r=\"2.5\" fill=\"currentColor\" stroke=\"none\"/><line x1=\"137\" y1=\"201\" x2=\"137\" y2=\"215\"/><rect x=\"92\" y=\"215\" width=\"90\" height=\"32\" rx=\"4\"/><text x=\"137\" y=\"236\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">800 N</text></g></svg>",
+          "alt": "ระบบรอกพวง: บล็อกบนยึดเพดานมี 2 ล้อ บล็อกล่างเคลื่อนที่ได้มี 2 ล้อ แขวนของหนัก 800 นิวตัน มีเส้นเชือกพาดระหว่างสองบล็อก 4 เส้น ปลายเชือกอีกด้านเป็นแรงดึงลง",
+          "caption": "รอกพวงที่มีเชือกรับน้ำหนัก 4 เส้น"
+        }
+      ]
+    },
+    {
+      "type": "formula",
+      "name": "ตรวจด้วยงานเสมอ",
+      "formula_tex": "F \\times s = W \\times h",
+      "variables": [],
+      "use_when": "ทุกข้อที่ถามแรงหรือระยะ",
+      "avoid_when": "ถ้าโจทย์บอกว่ามีแรงเสียดทานหรือรอกมีน้ำหนัก งานเข้าจะมากกว่างานออก ต้องคิดประสิทธิภาพเพิ่ม",
+      "derivation_md": "รอกอุดมคติมี งานเข้า $=$ งานออก นั่นคือ $F_{\\text{ดึง}} \\times s = W \\times h$ ถ้าคำนวณแล้วสมการนี้ไม่เป็นจริง แสดงว่าคิดผิดที่ใดที่หนึ่ง",
+      "memory_tip": "แรงลดกี่เท่า ระยะเพิ่มเท่านั้นเท่า"
+    },
+    {
+      "type": "example",
+      "label": "ตัวอย่าง: รอกพวงในรูปด้านบน",
+      "difficulty": 3,
+      "stem_md": "ของหนัก $800$ นิวตัน แขวนกับบล็อกล่างที่มีเชือกรับน้ำหนัก $4$ เส้น ต้องดึงด้วยแรงเท่าไร และถ้ายกของสูง $2$ เมตรต้องดึงเชือกกี่เมตร",
+      "steps": [
+        {
+          "do_md": "นับเส้นเชือกที่ดึงบล็อกล่างขึ้น",
+          "why_md": "ได้ $4$ เส้น จึงมี $MA = 4$"
+        },
+        {
+          "do_md": "หาแรงดึง",
+          "why_md": "$800 \\div 4 = 200$ นิวตัน"
+        },
+        {
+          "do_md": "หาระยะดึงเชือก",
+          "why_md": "$4 \\times 2 = 8$ เมตร"
+        },
+        {
+          "do_md": "ตรวจด้วยงาน",
+          "why_md": "$200 \\times 8 = 1{,}600$ และ $800 \\times 2 = 1{,}600$ เท่ากัน"
+        }
+      ],
+      "answer_md": "ใช้แรง $200$ นิวตัน และต้องดึงเชือก $8$ เมตร",
+      "figures": []
+    },
+    {
+      "type": "pitfall",
+      "title": "นับจำนวนล้อแทนจำนวนเส้นเชือก",
+      "wrong_md": "เห็นรอกสี่ล้อจึงตอบว่าได้เปรียบสี่เท่า",
+      "why_wrong_md": "ล้อที่ยึดอยู่กับเพดานไม่ได้ช่วยรับน้ำหนัก สิ่งที่รับคือเส้นเชือกที่ดึงบล็อกล่างขึ้น",
+      "correct_md": "นับเฉพาะเส้นเชือกที่ต่อกับบล็อกล่างและดึงมันขึ้น",
+      "misconception_tag": "count_wheels_not_ropes"
+    },
+    {
+      "type": "pitfall",
+      "title": "คิดว่ารอกช่วยลดงาน",
+      "wrong_md": "ใช้รอกแล้วงานที่ต้องทำน้อยลง",
+      "why_wrong_md": "งาน $= F \\times s$ เมื่อแรงลดลงครึ่งหนึ่ง ระยะจะเพิ่มเป็นสองเท่า ผลคูณจึงเท่าเดิม",
+      "correct_md": "รอกลดแรง ไม่ได้ลดงาน (ในระบบอุดมคติ)",
+      "misconception_tag": "pulley_reduces_work"
+    },
+    {
+      "type": "summary",
+      "bullets_md": [
+        "MA เท่ากับจำนวนเส้นเชือกที่ดึงบล็อกล่างขึ้น",
+        "แรงดึง $=$ น้ำหนักหาร MA",
+        "ระยะดึงเชือก $=$ MA คูณความสูงที่ยก",
+        "รอกตายตัวเปลี่ยนทิศ แต่ไม่ลดแรง"
+      ]
+    },
+    {
+      "type": "check",
+      "question_md": "รอกระบบหนึ่งมีเชือกรับน้ำหนัก $3$ เส้น ถ้ายกของขึ้นสูง $2$ เมตร ต้องดึงเชือกกี่เมตร",
+      "choices": [
+        "$2$ เมตร",
+        "$3$ เมตร",
+        "$6$ เมตร",
+        "$1.5$ เมตร"
+      ],
+      "answer_index": 2,
+      "explain_md": "ระยะดึงเชือก $= MA \\times h = 3 \\times 2 = 6$ เมตร"
+    }
+  ],
+  "glossary": [],
+  "common_exam_patterns": [
+    "หาแรงดึงจากจำนวนเส้นเชือก",
+    "หาระยะที่ต้องดึงเชือก",
+    "เทียบงานเข้ากับงานออก",
+    "ประสิทธิภาพเมื่อมีแรงเสียดทาน"
+  ],
+  "next_topic_ids": [
+    "tpat3.aptitude.mechanical.linkage_transmission"
+  ],
+  "sources": [
+    "ผังการสอบ TPAT3 จาก mytcas.com/blueprint/tpat3-30/",
+    "หลักกลศาสตร์ระดับมัธยมปลาย"
+  ],
+  "review_status": "ai_draft",
+  "generated_from": "content/tpat3/mechanical_lever_pulley.py"
+}
