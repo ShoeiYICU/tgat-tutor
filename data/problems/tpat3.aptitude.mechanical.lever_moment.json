@@ -46,12 +46,12 @@
           "is_answer": false
         },
         {
-          "md": "เอียงลงทางซ้าย",
-          "is_answer": true
-        },
-        {
           "md": "เอียงลงทางซ้ายเพราะแรงซ้ายมากกว่า",
           "is_answer": false
+        },
+        {
+          "md": "เอียงลงทางซ้าย",
+          "is_answer": true
         },
         {
           "md": "เอียงลงทางขวา",
@@ -82,7 +82,7 @@
       "distractor_reasons": {
         "0": "โมเมนต์สองด้านไม่เท่ากัน คือ $60$ กับ $30$",
         "1": "โจทย์ให้แรงและระยะครบแล้ว คานในโจทย์ความถนัดถือว่าเบามาก",
-        "3": "แรงสองข้างเท่ากันคือ $30$ N เหตุผลนี้จึงผิด แม้ทิศจะบังเอิญถูก",
+        "2": "แรงสองข้างเท่ากันคือ $30$ N เหตุผลนี้จึงผิด แม้ทิศจะบังเอิญถูก",
         "4": "ด้านขวาให้โมเมนต์ $30 \\times 1 = 30$ ซึ่งน้อยกว่าด้านซ้าย"
       },
       "misconception_tags": [
@@ -129,12 +129,12 @@
       ],
       "choices": [
         {
-          "md": "$1$ เมตร",
-          "is_answer": true
-        },
-        {
           "md": "$2.25$ เมตร",
           "is_answer": false
+        },
+        {
+          "md": "$1$ เมตร",
+          "is_answer": true
         },
         {
           "md": "$1.5$ เมตร",
@@ -171,7 +171,7 @@
         "ตั้งสมการให้โมเมนต์สองด้านเท่ากันแล้วแก้หาระยะ"
       ],
       "distractor_reasons": {
-        "1": "ใช้อัตราส่วนกลับด้าน คือคูณ $1.5$ ด้วย $450/300$ แทนที่จะหาร",
+        "0": "ใช้อัตราส่วนกลับด้าน คือคูณ $1.5$ ด้วย $450/300$ แทนที่จะหาร",
         "2": "ระยะเท่ากันทั้งสองข้างจะสมดุลก็ต่อเมื่อน้ำหนักเท่ากัน",
         "3": "ยิ่งไกลยิ่งได้โมเมนต์มาก คนหนักกว่าต้องนั่งใกล้กว่า ไม่ใช่ไกลกว่า",
         "4": "ได้จากการหารด้วย $3$ ซึ่งไม่ใช่อัตราส่วนน้ำหนัก"
@@ -319,12 +319,12 @@
           "is_answer": false
         },
         {
-          "md": "เอียงลงทางซ้ายเพราะมีน้ำหนักสองก้อน",
-          "is_answer": false
-        },
-        {
           "md": "เอียงลงทางขวา",
           "is_answer": true
+        },
+        {
+          "md": "เอียงลงทางซ้ายเพราะมีน้ำหนักสองก้อน",
+          "is_answer": false
         }
       ],
       "answer_numeric": null,
@@ -352,7 +352,7 @@
         "0": "ทิศถูกแต่เหตุผลผิด ต้องเทียบผลรวมโมเมนต์ ไม่ใช่เทียบน้ำหนักก้อนเดียว",
         "1": "ซ้ายรวมได้ $40 \\times 3 + 20 \\times 2 = 160$ N·m ซึ่งน้อยกว่าขวา",
         "2": "ผลรวมสองด้านต่างกัน $20$ N·m",
-        "3": "จำนวนก้อนไม่เกี่ยว สิ่งที่เทียบคือผลรวมโมเมนต์"
+        "4": "จำนวนก้อนไม่เกี่ยว สิ่งที่เทียบคือผลรวมโมเมนต์"
       },
       "misconception_tags": [
         "heavier_always_wins"
@@ -406,12 +406,12 @@
           "is_answer": false
         },
         {
-          "md": "$2{,}700$ นิวตัน",
-          "is_answer": false
-        },
-        {
           "md": "$300$ นิวตัน",
           "is_answer": true
+        },
+        {
+          "md": "$2{,}700$ นิวตัน",
+          "is_answer": false
         },
         {
           "md": "$900$ นิวตัน",
@@ -442,7 +442,7 @@
       "distractor_reasons": {
         "0": "คูณ $900$ ด้วย $0.4$ แล้วหารด้วยความยาวรวม $1$ เมตรที่ไม่มีในโจทย์",
         "1": "คิดว่าคนยกรับครึ่งหนึ่งเสมอ ซึ่งจริงเฉพาะตอนของอยู่กึ่งกลางพอดี",
-        "2": "คูณด้วยอัตราส่วนระยะแทนการหาร",
+        "3": "คูณด้วยอัตราส่วนระยะแทนการหาร",
         "4": "เท่ากับน้ำหนักของทั้งหมด แปลว่าไม่ได้ประโยชน์จากคานเลย"
       },
       "misconception_tags": [],
@@ -533,6 +533,342 @@
         "2": "ใช้ผลต่างโมเมนต์ $60$ N·m มาตอบทั้งที่ยังไม่ได้หารด้วยระยะ",
         "3": "หารผลต่างด้วย $4$ ซึ่งเป็นตำแหน่งจากปลายคาน ไม่ใช่ระยะจากจุดหมุน",
         "4": "เท่ากับน้ำหนักก้อนขวาที่มีอยู่แล้ว ไม่ได้มาจากการคำนวณ"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.aptitude.mechanical.lever_moment.0007",
+      "topic_ids": [
+        "tpat3.aptitude.mechanical.lever_moment"
+      ],
+      "primary_topic_id": "tpat3.aptitude.mechanical.lever_moment",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 60,
+      "stem_md": "เด็กสองคนหนักเท่ากันนั่งกระดานหกคนละฝั่ง กระดานจะสมดุลเมื่อใด",
+      "figures": [],
+      "choices": [
+        {
+          "md": "เมื่อทั้งสองนั่งห่างจุดหมุนเท่ากัน",
+          "is_answer": true
+        },
+        {
+          "md": "เมื่อคนหนึ่งนั่งใกล้จุดหมุนกว่าอีกคน",
+          "is_answer": false
+        },
+        {
+          "md": "เมื่อทั้งสองนั่งที่ปลายกระดานเท่านั้น",
+          "is_answer": false
+        },
+        {
+          "md": "ไม่มีทางสมดุลเพราะกระดานหกต้องเอียงเสมอ",
+          "is_answer": false
+        },
+        {
+          "md": "สมดุลเสมอไม่ว่านั่งตรงไหน เพราะหนักเท่ากัน",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "โมเมนต์ $=$ แรง $\\times$ ระยะจากจุดหมุน",
+          "why_md": "แรงสองข้างเท่ากันแล้ว"
+        },
+        {
+          "do_md": "ให้โมเมนต์เท่ากัน",
+          "why_md": "ระยะจึงต้องเท่ากัน"
+        }
+      ],
+      "answer_explanation_md": "ตอบว่าต้องนั่งห่างจุดหมุนเท่ากัน เพราะน้ำหนักเท่ากันแล้ว โมเมนต์จะเท่ากันเมื่อระยะเท่ากัน",
+      "hints": [
+        "โมเมนต์ขึ้นกับอะไรบ้าง",
+        "ถ้าแรงเท่ากันแล้ว เหลืออะไรที่ต้องเท่ากัน",
+        "ระยะวัดจากจุดไหน"
+      ],
+      "distractor_reasons": {
+        "1": "น้ำหนักเท่ากันแต่ระยะต่างกัน โมเมนต์จะไม่เท่ากัน",
+        "2": "นั่งที่ใดก็ได้ ขอให้ห่างจุดหมุนเท่ากัน ไม่จำเป็นต้องเป็นปลายกระดาน",
+        "3": "กระดานหกสมดุลได้เมื่อโมเมนต์สองข้างเท่ากัน",
+        "4": "โมเมนต์ขึ้นกับระยะด้วย ไม่ใช่น้ำหนักอย่างเดียว"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.aptitude.mechanical.lever_moment.0008",
+      "topic_ids": [
+        "tpat3.aptitude.mechanical.lever_moment"
+      ],
+      "primary_topic_id": "tpat3.aptitude.mechanical.lever_moment",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 60,
+      "stem_md": "แรง $50$ นิวตันกดตั้งฉากกับคานที่ระยะ $2$ เมตรจากจุดหมุนดังรูป โมเมนต์ของแรงนี้รอบจุดหมุนเท่าไร\n\n[[fig1]]",
+      "figures": [
+        {
+          "id": "fig1",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 360 136\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><line x1=\"24\" y1=\"74\" x2=\"336\" y2=\"74\" stroke-width=\"4\"/><polygon points=\"180,77 168,100 192,100\" fill=\"currentColor\" stroke=\"none\"/><line x1=\"158\" y1=\"100\" x2=\"202\" y2=\"100\"/><g stroke=\"currentColor\"><line x1=\"24\" y1=\"34\" x2=\"24\" y2=\"60\"/><polygon points=\"24,68 19,59 29,59\" fill=\"currentColor\" stroke=\"none\"/></g><text x=\"24\" y=\"28\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">F 50 N</text><line x1=\"24\" y1=\"108\" x2=\"180\" y2=\"108\" stroke=\"var(--accent, #3b5bdb)\" stroke-width=\"1.5\"/><text x=\"102\" y=\"124\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">2 m</text></g></svg>",
+          "alt": "คานยาว 4 เมตร จุดหมุนอยู่ห่างจากปลายซ้าย 2 เมตร · F 50 นิวตัน กดลงห่างจากจุดหมุนไปทางซ้าย 2 เมตร",
+          "caption": "แรงหนึ่งแรงบนคาน"
+        }
+      ],
+      "choices": [
+        {
+          "md": "$200$ N·m",
+          "is_answer": false
+        },
+        {
+          "md": "$52$ N·m",
+          "is_answer": false
+        },
+        {
+          "md": "$25$ N·m",
+          "is_answer": false
+        },
+        {
+          "md": "$100$ N",
+          "is_answer": false
+        },
+        {
+          "md": "$100$ N·m",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "โมเมนต์ $=$ แรง $\\times$ ระยะจากจุดหมุน",
+          "why_md": "ระยะคือ $2$ เมตร"
+        },
+        {
+          "do_md": "คำนวณ",
+          "why_md": "$50 \\times 2 = 100$ N·m"
+        }
+      ],
+      "answer_explanation_md": "ตอบ $100$ N·m จาก $50 \\times 2$",
+      "hints": [
+        "โมเมนต์คือแรงคูณอะไร",
+        "ระยะวัดจากจุดหมุน ไม่ใช่จากปลายคาน",
+        "หน่วยของโมเมนต์คืออะไร"
+      ],
+      "distractor_reasons": {
+        "0": "ใช้ความยาวคานทั้งท่อน $4$ เมตรแทนระยะจากจุดหมุน",
+        "1": "บวกแรงกับระยะ ซึ่งบวกปริมาณคนละหน่วยกันไม่ได้",
+        "2": "หารแรงด้วยระยะ แทนที่จะคูณ",
+        "3": "ตัวเลขถูกแต่หน่วยผิด โมเมนต์มีหน่วยนิวตัน-เมตร"
+      },
+      "misconception_tags": [
+        "moment_arm_from_end"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.aptitude.mechanical.lever_moment.0009",
+      "topic_ids": [
+        "tpat3.aptitude.mechanical.lever_moment"
+      ],
+      "primary_topic_id": "tpat3.aptitude.mechanical.lever_moment",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 80,
+      "stem_md": "คานในรูปมีน้ำหนัก $20$ นิวตันและ $30$ นิวตัน เมื่อปล่อยมือคานจะเป็นอย่างไร\n\n[[fig1]]",
+      "figures": [
+        {
+          "id": "fig1",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 360 136\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><line x1=\"24\" y1=\"74\" x2=\"336\" y2=\"74\" stroke-width=\"4\"/><polygon points=\"180,77 168,100 192,100\" fill=\"currentColor\" stroke=\"none\"/><line x1=\"158\" y1=\"100\" x2=\"202\" y2=\"100\"/><g stroke=\"currentColor\"><line x1=\"24\" y1=\"34\" x2=\"24\" y2=\"60\"/><polygon points=\"24,68 19,59 29,59\" fill=\"currentColor\" stroke=\"none\"/></g><text x=\"24\" y=\"28\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">ก 20 N</text><line x1=\"24\" y1=\"108\" x2=\"180\" y2=\"108\" stroke=\"var(--accent, #3b5bdb)\" stroke-width=\"1.5\"/><text x=\"102\" y=\"124\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">3 m</text><g stroke=\"currentColor\"><line x1=\"284\" y1=\"34\" x2=\"284\" y2=\"60\"/><polygon points=\"284,68 279,59 289,59\" fill=\"currentColor\" stroke=\"none\"/></g><text x=\"284\" y=\"28\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">ข 30 N</text><line x1=\"284\" y1=\"108\" x2=\"180\" y2=\"108\" stroke=\"var(--accent, #3b5bdb)\" stroke-width=\"1.5\"/><text x=\"232\" y=\"124\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">2 m</text></g></svg>",
+          "alt": "คานยาว 6 เมตร จุดหมุนอยู่ห่างจากปลายซ้าย 3 เมตร · ก 20 นิวตัน กดลงห่างจากจุดหมุนไปทางซ้าย 3 เมตร · ข 30 นิวตัน กดลงห่างจากจุดหมุนไปทางขวา 2 เมตร",
+          "caption": "คานที่น้ำหนักสองข้างไม่เท่ากัน"
+        }
+      ],
+      "choices": [
+        {
+          "md": "บอกไม่ได้ ต้องรู้ความยาวคานทั้งท่อน",
+          "is_answer": false
+        },
+        {
+          "md": "แกว่งไปมาไม่หยุด",
+          "is_answer": false
+        },
+        {
+          "md": "เอียงลงทางซ้าย เพราะข้างซ้ายอยู่ไกลกว่า",
+          "is_answer": false
+        },
+        {
+          "md": "เอียงลงทางขวา เพราะข้างขวาหนักกว่า",
+          "is_answer": false
+        },
+        {
+          "md": "สมดุล ไม่เอียง",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "โมเมนต์ซ้าย",
+          "why_md": "$20 \\times 3 = 60$ N·m"
+        },
+        {
+          "do_md": "โมเมนต์ขวา",
+          "why_md": "$30 \\times 2 = 60$ N·m"
+        },
+        {
+          "do_md": "เท่ากัน",
+          "why_md": "คานจึงสมดุล"
+        }
+      ],
+      "answer_explanation_md": "ตอบว่าสมดุล เพราะ $20 \\times 3 = 30 \\times 2 = 60$ N·m",
+      "hints": [
+        "อย่าตัดสินจากน้ำหนักอย่างเดียว",
+        "คูณแรงกับระยะของแต่ละข้าง",
+        "ถ้าผลคูณเท่ากันแปลว่าอะไร"
+      ],
+      "distractor_reasons": {
+        "0": "ระยะจากจุดหมุนมีในรูปครบแล้ว ความยาวทั้งท่อนไม่จำเป็น",
+        "1": "คานสมดุลจะอยู่นิ่ง ไม่แกว่ง",
+        "2": "ระยะไกลกว่าแต่แรงน้อยกว่า ผลคูณจึงเท่ากัน",
+        "3": "ข้างขวาหนักกว่าแต่อยู่ใกล้จุดหมุนกว่า โมเมนต์จึงเท่ากันพอดี"
+      },
+      "misconception_tags": [
+        "heavier_always_wins"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.aptitude.mechanical.lever_moment.0010",
+      "topic_ids": [
+        "tpat3.aptitude.mechanical.lever_moment"
+      ],
+      "primary_topic_id": "tpat3.aptitude.mechanical.lever_moment",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 110,
+      "stem_md": "คานยาว $3$ เมตร มีของหนัก $60$ นิวตันที่ปลายซ้าย และ $30$ นิวตันที่ปลายขวา ต้องวางจุดหมุนห่างจากปลายซ้ายกี่เมตรคานจึงจะสมดุล",
+      "figures": [],
+      "choices": [
+        {
+          "md": "$3$ เมตร",
+          "is_answer": false
+        },
+        {
+          "md": "ไม่มีตำแหน่งใดทำให้สมดุล",
+          "is_answer": false
+        },
+        {
+          "md": "$1$ เมตร",
+          "is_answer": true
+        },
+        {
+          "md": "$2$ เมตร",
+          "is_answer": false
+        },
+        {
+          "md": "$1.5$ เมตร",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ให้จุดหมุนห่างปลายซ้าย $x$ เมตร",
+          "why_md": "แขนข้างขวาจึงยาว $3 - x$ เมตร"
+        },
+        {
+          "do_md": "ตั้งสมการโมเมนต์",
+          "why_md": "$60x = 30(3 - x)$"
+        },
+        {
+          "do_md": "แก้สมการ",
+          "why_md": "$90x = 90$ ได้ $x = 1$ เมตร"
+        }
+      ],
+      "answer_explanation_md": "ตอบ $1$ เมตร เพราะ $60 \\times 1 = 30 \\times 2$",
+      "hints": [
+        "จุดหมุนต้องอยู่ใกล้ของหนักหรือของเบา",
+        "ถ้าให้ระยะข้างหนึ่งเป็น $x$ อีกข้างเป็นเท่าไร",
+        "ของหนักกว่าสองเท่าต้องมีแขนสั้นกว่าสองเท่า"
+      ],
+      "distractor_reasons": {
+        "0": "วางที่ปลายขวาใต้ของเบา ของหนักจะไม่มีอะไรถ่วง คานเอียงซ้ายลง",
+        "1": "น้ำหนักต่างกันก็สมดุลได้ ถ้าระยะเหมาะสม",
+        "3": "วางใกล้ของเบา ซึ่งกลับด้าน จุดหมุนต้องอยู่ใกล้ของหนัก",
+        "4": "วางกึ่งกลางคาน ใช้ได้เมื่อน้ำหนักสองข้างเท่ากันเท่านั้น"
       },
       "misconception_tags": [],
       "template": null,

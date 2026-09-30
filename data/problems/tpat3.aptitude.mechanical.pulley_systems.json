@@ -46,12 +46,12 @@
           "is_answer": false
         },
         {
-          "md": "$200$ นิวตัน",
-          "is_answer": true
-        },
-        {
           "md": "$40$ นิวตัน",
           "is_answer": false
+        },
+        {
+          "md": "$200$ นิวตัน",
+          "is_answer": true
         },
         {
           "md": "$100$ นิวตัน",
@@ -78,7 +78,7 @@
       "distractor_reasons": {
         "0": "คูณแทนที่จะหาร",
         "1": "เท่ากับน้ำหนักของ ซึ่งเป็นกรณีของรอกตายตัวตัวเดียวที่ไม่มีรอกเคลื่อนที่",
-        "3": "หารด้วย $10$ ซึ่งเป็นค่า $g$ ไม่ใช่การได้เปรียบเชิงกล",
+        "2": "หารด้วย $10$ ซึ่งเป็นค่า $g$ ไม่ใช่การได้เปรียบเชิงกล",
         "4": "ใช้ $MA = 4$ ทั้งที่ในรูปมีเชือกรับน้ำหนักเพียง $2$ เส้น"
       },
       "misconception_tags": [
@@ -125,16 +125,16 @@
       ],
       "choices": [
         {
-          "md": "$200$ นิวตัน",
-          "is_answer": true
-        },
-        {
           "md": "$400$ นิวตัน",
           "is_answer": false
         },
         {
           "md": "$1{,}200$ นิวตัน",
           "is_answer": false
+        },
+        {
+          "md": "$200$ นิวตัน",
+          "is_answer": true
         },
         {
           "md": "$600$ นิวตัน",
@@ -163,8 +163,8 @@
         "บล็อกล่างมีสามล้อ แต่ละล้อมีเชือกคล้องผ่านสองเส้น"
       ],
       "distractor_reasons": {
-        "1": "ใช้ $MA = 3$ ซึ่งเป็นจำนวนล้อของบล็อกล่าง ไม่ใช่จำนวนเส้นเชือก",
-        "2": "เท่ากับน้ำหนักของ แปลว่าไม่ได้เปรียบเลย",
+        "0": "ใช้ $MA = 3$ ซึ่งเป็นจำนวนล้อของบล็อกล่าง ไม่ใช่จำนวนเส้นเชือก",
+        "1": "เท่ากับน้ำหนักของ แปลว่าไม่ได้เปรียบเลย",
         "3": "ใช้ $MA = 2$ เหมือนรอกเคลื่อนที่ตัวเดียว",
         "4": "หารด้วย $10$ ซึ่งเป็นค่า $g$"
       },
@@ -212,6 +212,10 @@
       ],
       "choices": [
         {
+          "md": "$12$ เมตร",
+          "is_answer": true
+        },
+        {
           "md": "$6$ เมตร",
           "is_answer": false
         },
@@ -226,10 +230,6 @@
         {
           "md": "$3$ เมตร",
           "is_answer": false
-        },
-        {
-          "md": "$12$ เมตร",
-          "is_answer": true
         }
       ],
       "answer_numeric": null,
@@ -254,10 +254,10 @@
         "รวมความยาวที่สั้นลงของทุกเส้นคือระยะที่มือต้องดึง"
       ],
       "distractor_reasons": {
-        "0": "ใช้ $MA = 2$ ทั้งที่โจทย์บอกว่ามีเชือก $4$ เส้น",
-        "1": "หารด้วย MA แทนการคูณ ทำให้ได้ระยะน้อยกว่าความสูงซึ่งเป็นไปไม่ได้",
-        "2": "บวก $4$ กับ $3$ แทนการคูณ",
-        "3": "เท่ากับความสูงที่ยก ซึ่งจริงเฉพาะรอกตายตัวที่ไม่มีการได้เปรียบ"
+        "1": "ใช้ $MA = 2$ ทั้งที่โจทย์บอกว่ามีเชือก $4$ เส้น",
+        "2": "หารด้วย MA แทนการคูณ ทำให้ได้ระยะน้อยกว่าความสูงซึ่งเป็นไปไม่ได้",
+        "3": "บวก $4$ กับ $3$ แทนการคูณ",
+        "4": "เท่ากับความสูงที่ยก ซึ่งจริงเฉพาะรอกตายตัวที่ไม่มีการได้เปรียบ"
       },
       "misconception_tags": [
         "pulley_reduces_work"
@@ -295,10 +295,6 @@
       "figures": [],
       "choices": [
         {
-          "md": "ต้องออกแรงดึง $250$ นิวตัน แต่ดึงลงแทนการยกขึ้น",
-          "is_answer": true
-        },
-        {
           "md": "ไม่ต้องออกแรงเลยเพราะรอกรับน้ำหนักไว้ทั้งหมด",
           "is_answer": false
         },
@@ -313,6 +309,10 @@
         {
           "md": "ต้องออกแรงดึง $125$ นิวตัน เพราะรอกช่วยแบ่งครึ่ง",
           "is_answer": false
+        },
+        {
+          "md": "ต้องออกแรงดึง $250$ นิวตัน แต่ดึงลงแทนการยกขึ้น",
+          "is_answer": true
         }
       ],
       "answer_numeric": null,
@@ -337,10 +337,10 @@
         "ประโยชน์ของรอกตายตัวอยู่ที่ความสะดวก ไม่ใช่ขนาดของแรง"
       ],
       "distractor_reasons": {
-        "1": "เพดานรับน้ำหนักผ่านรอก แต่ฝั่งที่เราถือยังต้องสมดุลกับน้ำหนักของ",
-        "2": "น้ำหนักที่โจทย์ให้เป็นนิวตันอยู่แล้ว ไม่ต้องคูณ $g$ ซ้ำ",
-        "3": "เมื่อไม่ได้เปรียบเชิงกล ระยะดึงเชือกจะเท่ากับความสูงที่ยกพอดี",
-        "4": "รอกตายตัวไม่มีบล็อกที่เคลื่อนที่ จึงไม่มีเส้นเชือกช่วยรับน้ำหนักเพิ่ม"
+        "0": "เพดานรับน้ำหนักผ่านรอก แต่ฝั่งที่เราถือยังต้องสมดุลกับน้ำหนักของ",
+        "1": "น้ำหนักที่โจทย์ให้เป็นนิวตันอยู่แล้ว ไม่ต้องคูณ $g$ ซ้ำ",
+        "2": "เมื่อไม่ได้เปรียบเชิงกล ระยะดึงเชือกจะเท่ากับความสูงที่ยกพอดี",
+        "3": "รอกตายตัวไม่มีบล็อกที่เคลื่อนที่ จึงไม่มีเส้นเชือกช่วยรับน้ำหนักเพิ่ม"
       },
       "misconception_tags": [],
       "template": null,
@@ -384,6 +384,10 @@
       ],
       "choices": [
         {
+          "md": "$1{,}600$ จูล",
+          "is_answer": true
+        },
+        {
           "md": "$6{,}400$ จูล",
           "is_answer": false
         },
@@ -394,10 +398,6 @@
         {
           "md": "$1{,}600$ นิวตัน",
           "is_answer": false
-        },
-        {
-          "md": "$1{,}600$ จูล",
-          "is_answer": true
         },
         {
           "md": "$400$ จูล",
@@ -426,9 +426,9 @@
         "ถ้าคิดจากฝั่งมือ ต้องใช้แรงดึงคู่กับระยะดึงเชือก ไม่ใช่ความสูง"
       ],
       "distractor_reasons": {
-        "0": "คูณแรงดึงด้วยระยะดึงเชือกแล้วคูณ MA ซ้ำอีกครั้ง",
-        "1": "นำแรงดึงมาตอบโดยเปลี่ยนหน่วยเป็นจูล",
-        "2": "ตัวเลขถูกแต่หน่วยผิด งานมีหน่วยเป็นจูลไม่ใช่นิวตัน",
+        "1": "คูณแรงดึงด้วยระยะดึงเชือกแล้วคูณ MA ซ้ำอีกครั้ง",
+        "2": "นำแรงดึงมาตอบโดยเปลี่ยนหน่วยเป็นจูล",
+        "3": "ตัวเลขถูกแต่หน่วยผิด งานมีหน่วยเป็นจูลไม่ใช่นิวตัน",
         "4": "ใช้แรงดึง $200$ นิวตันคูณความสูง $2$ เมตร ซึ่งจับคู่แรงกับระยะผิดคู่"
       },
       "misconception_tags": [
@@ -479,10 +479,6 @@
           "is_answer": false
         },
         {
-          "md": "$80\\%$",
-          "is_answer": true
-        },
-        {
           "md": "$100\\%$",
           "is_answer": false
         },
@@ -493,6 +489,10 @@
         {
           "md": "$25\\%$",
           "is_answer": false
+        },
+        {
+          "md": "$80\\%$",
+          "is_answer": true
         }
       ],
       "answer_numeric": null,
@@ -518,9 +518,349 @@
       ],
       "distractor_reasons": {
         "0": "ได้จาก $200 \\div 400$ ซึ่งไม่มีที่มาจากตัวเลขในโจทย์",
-        "2": "ถ้าประสิทธิภาพเต็มร้อย แรงที่ต้องใช้จะเป็น $200$ นิวตันพอดี",
-        "3": "กลับเศษกับส่วน ประสิทธิภาพของเครื่องกลเกิน $100\\%$ ไม่ได้",
-        "4": "ใช้แรงส่วนเกิน $50$ นิวตันหารด้วย $200$ ซึ่งเป็นสัดส่วนที่สูญเสีย ไม่ใช่ประสิทธิภาพ"
+        "1": "ถ้าประสิทธิภาพเต็มร้อย แรงที่ต้องใช้จะเป็น $200$ นิวตันพอดี",
+        "2": "กลับเศษกับส่วน ประสิทธิภาพของเครื่องกลเกิน $100\\%$ ไม่ได้",
+        "3": "ใช้แรงส่วนเกิน $50$ นิวตันหารด้วย $200$ ซึ่งเป็นสัดส่วนที่สูญเสีย ไม่ใช่ประสิทธิภาพ"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.aptitude.mechanical.pulley_systems.0007",
+      "topic_ids": [
+        "tpat3.aptitude.mechanical.pulley_systems"
+      ],
+      "primary_topic_id": "tpat3.aptitude.mechanical.pulley_systems",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 60,
+      "stem_md": "ระบบรอกในรูปได้เปรียบเชิงกลกี่เท่า\n\n[[fig1]]",
+      "figures": [
+        {
+          "id": "fig1",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 300 263\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><line x1=\"14\" y1=\"22\" x2=\"286\" y2=\"22\" stroke-width=\"3\"/><line x1=\"14\" y1=\"22\" x2=\"21\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"26\" y1=\"22\" x2=\"33\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"38\" y1=\"22\" x2=\"45\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"50\" y1=\"22\" x2=\"57\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"62\" y1=\"22\" x2=\"69\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"74\" y1=\"22\" x2=\"81\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"86\" y1=\"22\" x2=\"93\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"98\" y1=\"22\" x2=\"105\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"110\" y1=\"22\" x2=\"117\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"122\" y1=\"22\" x2=\"129\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"134\" y1=\"22\" x2=\"141\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"146\" y1=\"22\" x2=\"153\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"158\" y1=\"22\" x2=\"165\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"170\" y1=\"22\" x2=\"177\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"182\" y1=\"22\" x2=\"189\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"194\" y1=\"22\" x2=\"201\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"206\" y1=\"22\" x2=\"213\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"218\" y1=\"22\" x2=\"225\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"230\" y1=\"22\" x2=\"237\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"242\" y1=\"22\" x2=\"249\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"254\" y1=\"22\" x2=\"261\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"266\" y1=\"22\" x2=\"273\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"278\" y1=\"22\" x2=\"285\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"149\" y1=\"22\" x2=\"149\" y2=\"41\"/><rect x=\"64\" y=\"41\" width=\"170\" height=\"38\" rx=\"6\"/><rect x=\"66\" y=\"163\" width=\"142\" height=\"38\" rx=\"6\"/><line x1=\"72\" y1=\"79\" x2=\"72\" y2=\"182\" stroke=\"var(--accent, #3b5bdb)\" stroke-width=\"2\"/><circle cx=\"72\" cy=\"79\" r=\"3.5\" fill=\"var(--accent, #3b5bdb)\" stroke=\"none\"/><line x1=\"98\" y1=\"60\" x2=\"98\" y2=\"182\" stroke=\"var(--accent, #3b5bdb)\" stroke-width=\"2\"/><line x1=\"124\" y1=\"60\" x2=\"124\" y2=\"182\" stroke=\"var(--accent, #3b5bdb)\" stroke-width=\"2\"/><line x1=\"150\" y1=\"60\" x2=\"150\" y2=\"182\" stroke=\"var(--accent, #3b5bdb)\" stroke-width=\"2\"/><line x1=\"176\" y1=\"60\" x2=\"176\" y2=\"182\" stroke=\"var(--accent, #3b5bdb)\" stroke-width=\"2\"/><line x1=\"202\" y1=\"60\" x2=\"202\" y2=\"182\" stroke=\"var(--accent, #3b5bdb)\" stroke-width=\"2\"/><path d=\"M 72 182 A 13 13 0 0 0 98 182\" stroke=\"var(--accent, #3b5bdb)\" stroke-width=\"2\"/><path d=\"M 124 182 A 13 13 0 0 0 150 182\" stroke=\"var(--accent, #3b5bdb)\" stroke-width=\"2\"/><path d=\"M 176 182 A 13 13 0 0 0 202 182\" stroke=\"var(--accent, #3b5bdb)\" stroke-width=\"2\"/><path d=\"M 98 60 A 13 13 0 0 1 124 60\" stroke=\"var(--accent, #3b5bdb)\" stroke-width=\"2\"/><path d=\"M 150 60 A 13 13 0 0 1 176 60\" stroke=\"var(--accent, #3b5bdb)\" stroke-width=\"2\"/><path d=\"M 202 60 A 13 13 0 0 1 228 60\" stroke=\"var(--accent, #3b5bdb)\" stroke-width=\"2\"/><line x1=\"228\" y1=\"60\" x2=\"228\" y2=\"188\" stroke=\"var(--accent, #3b5bdb)\" stroke-width=\"2\"/><g stroke=\"var(--accent, #3b5bdb)\"><line x1=\"228\" y1=\"188\" x2=\"228\" y2=\"206\"/><polygon points=\"228,214 223,205 233,205\" fill=\"var(--accent, #3b5bdb)\" stroke=\"none\"/></g><text x=\"232\" y=\"228\" font-size=\"12\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\">แรงดึง</text><circle cx=\"111\" cy=\"60\" r=\"13\"/><circle cx=\"111\" cy=\"60\" r=\"2.5\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"163\" cy=\"60\" r=\"13\"/><circle cx=\"163\" cy=\"60\" r=\"2.5\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"215\" cy=\"60\" r=\"13\"/><circle cx=\"215\" cy=\"60\" r=\"2.5\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"85\" cy=\"182\" r=\"13\"/><circle cx=\"85\" cy=\"182\" r=\"2.5\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"137\" cy=\"182\" r=\"13\"/><circle cx=\"137\" cy=\"182\" r=\"2.5\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"189\" cy=\"182\" r=\"13\"/><circle cx=\"189\" cy=\"182\" r=\"2.5\" fill=\"currentColor\" stroke=\"none\"/><line x1=\"137\" y1=\"201\" x2=\"137\" y2=\"215\"/><rect x=\"66\" y=\"215\" width=\"142\" height=\"32\" rx=\"4\"/><text x=\"137\" y=\"236\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">1200 N</text></g></svg>",
+          "alt": "ระบบรอกพวง: บล็อกบนยึดเพดานมี 3 ล้อ บล็อกล่างเคลื่อนที่ได้มี 3 ล้อ แขวนของหนัก 1200 นิวตัน มีเส้นเชือกพาดระหว่างสองบล็อก 6 เส้น ปลายเชือกอีกด้านเป็นแรงดึงลง",
+          "caption": "ระบบรอกพวง"
+        }
+      ],
+      "choices": [
+        {
+          "md": "$12$ เท่า",
+          "is_answer": false
+        },
+        {
+          "md": "$3$ เท่า",
+          "is_answer": false
+        },
+        {
+          "md": "$6$ เท่า",
+          "is_answer": true
+        },
+        {
+          "md": "$1$ เท่า",
+          "is_answer": false
+        },
+        {
+          "md": "$7$ เท่า",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "นับเส้นเชือกระหว่างบล็อกบนกับบล็อกล่าง",
+          "why_md": "ได้ $6$ เส้น"
+        },
+        {
+          "do_md": "จำนวนเส้นคือการได้เปรียบเชิงกล",
+          "why_md": "ระบบนี้ลดแรงได้ $6$ เท่า"
+        }
+      ],
+      "answer_explanation_md": "ตอบ $6$ เท่า เท่ากับจำนวนเส้นเชือกที่ดึงบล็อกล่างขึ้น",
+      "hints": [
+        "การได้เปรียบเชิงกลของรอกนับจากอะไร",
+        "ดูที่บล็อกล่างซึ่งแขวนของไว้",
+        "ปลายเชือกที่มือดึงนับหรือไม่"
+      ],
+      "distractor_reasons": {
+        "0": "คูณจำนวนล้อทั้งหมดด้วยสอง ทั้งที่ล้อบนไม่ได้รับน้ำหนักเพิ่ม",
+        "1": "นับจำนวนล้อของบล็อกล่าง ไม่ใช่จำนวนเส้นเชือก",
+        "3": "เป็นกรณีของรอกตายตัวตัวเดียว ระบบนี้มีรอกเคลื่อนที่",
+        "4": "นับปลายเชือกที่มือดึงเข้าไปด้วย ซึ่งไม่ได้ดึงบล็อกล่างขึ้น"
+      },
+      "misconception_tags": [
+        "count_wheels_not_ropes"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.aptitude.mechanical.pulley_systems.0008",
+      "topic_ids": [
+        "tpat3.aptitude.mechanical.pulley_systems"
+      ],
+      "primary_topic_id": "tpat3.aptitude.mechanical.pulley_systems",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 60,
+      "stem_md": "ข้อใดอธิบายสิ่งที่ระบบรอกช่วยได้ถูกต้องที่สุด",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ทำให้ของเบาลงจริง",
+          "is_answer": false
+        },
+        {
+          "md": "ช่วยลดแรงที่ต้องใช้ แต่ต้องดึงเชือกเป็นระยะยาวขึ้น",
+          "is_answer": true
+        },
+        {
+          "md": "ช่วยให้ยกได้เร็วขึ้นโดยใช้แรงน้อยลง",
+          "is_answer": false
+        },
+        {
+          "md": "ช่วยลดทั้งแรงและระยะที่ต้องดึง",
+          "is_answer": false
+        },
+        {
+          "md": "ช่วยลดงานที่ต้องทำ",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "รอกแลกแรงกับระยะ",
+          "why_md": "แรงลดลงกี่เท่า ระยะเพิ่มขึ้นเท่านั้น"
+        },
+        {
+          "do_md": "งานจึงเท่าเดิม",
+          "why_md": "ในระบบอุดมคติ งานเข้าเท่ากับงานออก"
+        }
+      ],
+      "answer_explanation_md": "ตอบว่ารอกลดแรง แต่ต้องดึงเชือกยาวขึ้น งานจึงเท่าเดิม",
+      "hints": [
+        "รอกเปลี่ยนงานที่ต้องทำหรือไม่",
+        "ถ้าแรงลดลง อะไรต้องเพิ่มขึ้น",
+        "น้ำหนักของของเปลี่ยนไปหรือไม่"
+      ],
+      "distractor_reasons": {
+        "0": "มวลและน้ำหนักของของไม่เปลี่ยน รอกแค่แบ่งแรงไปหลายเส้นเชือก",
+        "2": "เมื่อต้องดึงเชือกยาวขึ้น ของจึงขึ้นช้ากว่าความเร็วที่มือดึง",
+        "3": "ถ้าลดทั้งสองอย่าง งานจะลดลง ซึ่งขัดกับการอนุรักษ์พลังงาน",
+        "4": "งานเท่ากับแรงคูณระยะ แรงลดลงแต่ระยะเพิ่มขึ้นเท่ากัน งานจึงเท่าเดิม"
+      },
+      "misconception_tags": [
+        "pulley_reduces_work"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.aptitude.mechanical.pulley_systems.0009",
+      "topic_ids": [
+        "tpat3.aptitude.mechanical.pulley_systems"
+      ],
+      "primary_topic_id": "tpat3.aptitude.mechanical.pulley_systems",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 80,
+      "stem_md": "คนหนึ่งออกแรงดึงได้มากที่สุด $150$ นิวตัน ถ้าใช้ระบบรอกในรูป จะยกของได้หนักที่สุดเท่าไร\n\n[[fig1]]",
+      "figures": [
+        {
+          "id": "fig1",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 300 263\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><line x1=\"14\" y1=\"22\" x2=\"286\" y2=\"22\" stroke-width=\"3\"/><line x1=\"14\" y1=\"22\" x2=\"21\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"26\" y1=\"22\" x2=\"33\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"38\" y1=\"22\" x2=\"45\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"50\" y1=\"22\" x2=\"57\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"62\" y1=\"22\" x2=\"69\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"74\" y1=\"22\" x2=\"81\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"86\" y1=\"22\" x2=\"93\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"98\" y1=\"22\" x2=\"105\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"110\" y1=\"22\" x2=\"117\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"122\" y1=\"22\" x2=\"129\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"134\" y1=\"22\" x2=\"141\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"146\" y1=\"22\" x2=\"153\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"158\" y1=\"22\" x2=\"165\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"170\" y1=\"22\" x2=\"177\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"182\" y1=\"22\" x2=\"189\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"194\" y1=\"22\" x2=\"201\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"206\" y1=\"22\" x2=\"213\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"218\" y1=\"22\" x2=\"225\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"230\" y1=\"22\" x2=\"237\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"242\" y1=\"22\" x2=\"249\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"254\" y1=\"22\" x2=\"261\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"266\" y1=\"22\" x2=\"273\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"278\" y1=\"22\" x2=\"285\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"149\" y1=\"22\" x2=\"149\" y2=\"41\"/><rect x=\"90\" y=\"41\" width=\"118\" height=\"38\" rx=\"6\"/><rect x=\"92\" y=\"163\" width=\"90\" height=\"38\" rx=\"6\"/><line x1=\"98\" y1=\"79\" x2=\"98\" y2=\"182\" stroke=\"var(--accent, #3b5bdb)\" stroke-width=\"2\"/><circle cx=\"98\" cy=\"79\" r=\"3.5\" fill=\"var(--accent, #3b5bdb)\" stroke=\"none\"/><line x1=\"124\" y1=\"60\" x2=\"124\" y2=\"182\" stroke=\"var(--accent, #3b5bdb)\" stroke-width=\"2\"/><line x1=\"150\" y1=\"60\" x2=\"150\" y2=\"182\" stroke=\"var(--accent, #3b5bdb)\" stroke-width=\"2\"/><line x1=\"176\" y1=\"60\" x2=\"176\" y2=\"182\" stroke=\"var(--accent, #3b5bdb)\" stroke-width=\"2\"/><path d=\"M 98 182 A 13 13 0 0 0 124 182\" stroke=\"var(--accent, #3b5bdb)\" stroke-width=\"2\"/><path d=\"M 150 182 A 13 13 0 0 0 176 182\" stroke=\"var(--accent, #3b5bdb)\" stroke-width=\"2\"/><path d=\"M 124 60 A 13 13 0 0 1 150 60\" stroke=\"var(--accent, #3b5bdb)\" stroke-width=\"2\"/><path d=\"M 176 60 A 13 13 0 0 1 202 60\" stroke=\"var(--accent, #3b5bdb)\" stroke-width=\"2\"/><line x1=\"202\" y1=\"60\" x2=\"202\" y2=\"188\" stroke=\"var(--accent, #3b5bdb)\" stroke-width=\"2\"/><g stroke=\"var(--accent, #3b5bdb)\"><line x1=\"202\" y1=\"188\" x2=\"202\" y2=\"206\"/><polygon points=\"202,214 197,205 207,205\" fill=\"var(--accent, #3b5bdb)\" stroke=\"none\"/></g><text x=\"206\" y=\"228\" font-size=\"12\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\">แรงดึง</text><circle cx=\"137\" cy=\"60\" r=\"13\"/><circle cx=\"137\" cy=\"60\" r=\"2.5\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"189\" cy=\"60\" r=\"13\"/><circle cx=\"189\" cy=\"60\" r=\"2.5\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"111\" cy=\"182\" r=\"13\"/><circle cx=\"111\" cy=\"182\" r=\"2.5\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"163\" cy=\"182\" r=\"13\"/><circle cx=\"163\" cy=\"182\" r=\"2.5\" fill=\"currentColor\" stroke=\"none\"/><line x1=\"137\" y1=\"201\" x2=\"137\" y2=\"215\"/><rect x=\"92\" y=\"215\" width=\"90\" height=\"32\" rx=\"4\"/><text x=\"137\" y=\"236\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">600 N</text></g></svg>",
+          "alt": "ระบบรอกพวง: บล็อกบนยึดเพดานมี 2 ล้อ บล็อกล่างเคลื่อนที่ได้มี 2 ล้อ แขวนของหนัก 600 นิวตัน มีเส้นเชือกพาดระหว่างสองบล็อก 4 เส้น ปลายเชือกอีกด้านเป็นแรงดึงลง",
+          "caption": "ระบบรอกพวง"
+        }
+      ],
+      "choices": [
+        {
+          "md": "$300$ นิวตัน",
+          "is_answer": false
+        },
+        {
+          "md": "$600$ นิวตัน",
+          "is_answer": true
+        },
+        {
+          "md": "$37.5$ นิวตัน",
+          "is_answer": false
+        },
+        {
+          "md": "$150$ นิวตัน",
+          "is_answer": false
+        },
+        {
+          "md": "$1{,}500$ นิวตัน",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "นับเส้นเชือกที่ดึงบล็อกล่างขึ้น",
+          "why_md": "ได้ $4$ เส้น"
+        },
+        {
+          "do_md": "น้ำหนักของ $=$ แรงดึง $\\times$ MA",
+          "why_md": "$150 \\times 4 = 600$ นิวตัน"
+        }
+      ],
+      "answer_explanation_md": "ตอบ $600$ นิวตัน เพราะ $150 \\times 4$",
+      "hints": [
+        "หาการได้เปรียบเชิงกลจากรูปก่อน",
+        "ถ้าแรงดึงคูณ MA จะได้อะไร",
+        "ผลต้องมากกว่าแรงที่ออกหรือน้อยกว่า"
+      ],
+      "distractor_reasons": {
+        "0": "ใช้ได้เปรียบสองเท่าเหมือนรอกเคลื่อนที่ตัวเดียว",
+        "2": "หารด้วยจำนวนเส้นเชือกแทนการคูณ ได้ของเบากว่าแรงที่ออก ซึ่งขัดกับการใช้รอก",
+        "3": "ใช้แรงดึงเป็นน้ำหนักของ เหมือนไม่มีการได้เปรียบเชิงกล",
+        "4": "คูณด้วย $10$ เหมือนแปลงมวลเป็นน้ำหนัก ทั้งที่แรงเป็นนิวตันอยู่แล้ว"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.aptitude.mechanical.pulley_systems.0010",
+      "topic_ids": [
+        "tpat3.aptitude.mechanical.pulley_systems"
+      ],
+      "primary_topic_id": "tpat3.aptitude.mechanical.pulley_systems",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 85,
+      "stem_md": "ของมวล $80$ กิโลกรัมแขวนกับระบบรอกในรูป ใช้ $g = 10$ m/s² ต้องดึงเชือกด้วยแรงเท่าไร\n\n[[fig1]]",
+      "figures": [
+        {
+          "id": "fig1",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 300 263\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><line x1=\"14\" y1=\"22\" x2=\"286\" y2=\"22\" stroke-width=\"3\"/><line x1=\"14\" y1=\"22\" x2=\"21\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"26\" y1=\"22\" x2=\"33\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"38\" y1=\"22\" x2=\"45\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"50\" y1=\"22\" x2=\"57\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"62\" y1=\"22\" x2=\"69\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"74\" y1=\"22\" x2=\"81\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"86\" y1=\"22\" x2=\"93\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"98\" y1=\"22\" x2=\"105\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"110\" y1=\"22\" x2=\"117\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"122\" y1=\"22\" x2=\"129\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"134\" y1=\"22\" x2=\"141\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"146\" y1=\"22\" x2=\"153\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"158\" y1=\"22\" x2=\"165\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"170\" y1=\"22\" x2=\"177\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"182\" y1=\"22\" x2=\"189\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"194\" y1=\"22\" x2=\"201\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"206\" y1=\"22\" x2=\"213\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"218\" y1=\"22\" x2=\"225\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"230\" y1=\"22\" x2=\"237\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"242\" y1=\"22\" x2=\"249\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"254\" y1=\"22\" x2=\"261\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"266\" y1=\"22\" x2=\"273\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"278\" y1=\"22\" x2=\"285\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"149\" y1=\"22\" x2=\"149\" y2=\"41\"/><rect x=\"90\" y=\"41\" width=\"118\" height=\"38\" rx=\"6\"/><rect x=\"92\" y=\"163\" width=\"90\" height=\"38\" rx=\"6\"/><line x1=\"98\" y1=\"79\" x2=\"98\" y2=\"182\" stroke=\"var(--accent, #3b5bdb)\" stroke-width=\"2\"/><circle cx=\"98\" cy=\"79\" r=\"3.5\" fill=\"var(--accent, #3b5bdb)\" stroke=\"none\"/><line x1=\"124\" y1=\"60\" x2=\"124\" y2=\"182\" stroke=\"var(--accent, #3b5bdb)\" stroke-width=\"2\"/><line x1=\"150\" y1=\"60\" x2=\"150\" y2=\"182\" stroke=\"var(--accent, #3b5bdb)\" stroke-width=\"2\"/><line x1=\"176\" y1=\"60\" x2=\"176\" y2=\"182\" stroke=\"var(--accent, #3b5bdb)\" stroke-width=\"2\"/><path d=\"M 98 182 A 13 13 0 0 0 124 182\" stroke=\"var(--accent, #3b5bdb)\" stroke-width=\"2\"/><path d=\"M 150 182 A 13 13 0 0 0 176 182\" stroke=\"var(--accent, #3b5bdb)\" stroke-width=\"2\"/><path d=\"M 124 60 A 13 13 0 0 1 150 60\" stroke=\"var(--accent, #3b5bdb)\" stroke-width=\"2\"/><path d=\"M 176 60 A 13 13 0 0 1 202 60\" stroke=\"var(--accent, #3b5bdb)\" stroke-width=\"2\"/><line x1=\"202\" y1=\"60\" x2=\"202\" y2=\"188\" stroke=\"var(--accent, #3b5bdb)\" stroke-width=\"2\"/><g stroke=\"var(--accent, #3b5bdb)\"><line x1=\"202\" y1=\"188\" x2=\"202\" y2=\"206\"/><polygon points=\"202,214 197,205 207,205\" fill=\"var(--accent, #3b5bdb)\" stroke=\"none\"/></g><text x=\"206\" y=\"228\" font-size=\"12\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\">แรงดึง</text><circle cx=\"137\" cy=\"60\" r=\"13\"/><circle cx=\"137\" cy=\"60\" r=\"2.5\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"189\" cy=\"60\" r=\"13\"/><circle cx=\"189\" cy=\"60\" r=\"2.5\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"111\" cy=\"182\" r=\"13\"/><circle cx=\"111\" cy=\"182\" r=\"2.5\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"163\" cy=\"182\" r=\"13\"/><circle cx=\"163\" cy=\"182\" r=\"2.5\" fill=\"currentColor\" stroke=\"none\"/><line x1=\"137\" y1=\"201\" x2=\"137\" y2=\"215\"/><rect x=\"92\" y=\"215\" width=\"90\" height=\"32\" rx=\"4\"/><text x=\"137\" y=\"236\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">800 N</text></g></svg>",
+          "alt": "ระบบรอกพวง: บล็อกบนยึดเพดานมี 2 ล้อ บล็อกล่างเคลื่อนที่ได้มี 2 ล้อ แขวนของหนัก 800 นิวตัน มีเส้นเชือกพาดระหว่างสองบล็อก 4 เส้น ปลายเชือกอีกด้านเป็นแรงดึงลง",
+          "caption": "ระบบรอกพวง"
+        }
+      ],
+      "choices": [
+        {
+          "md": "$3{,}200$ นิวตัน",
+          "is_answer": false
+        },
+        {
+          "md": "$400$ นิวตัน",
+          "is_answer": false
+        },
+        {
+          "md": "$20$ นิวตัน",
+          "is_answer": false
+        },
+        {
+          "md": "$200$ นิวตัน",
+          "is_answer": true
+        },
+        {
+          "md": "$800$ นิวตัน",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "แปลงมวลเป็นน้ำหนัก",
+          "why_md": "$80 \\times 10 = 800$ นิวตัน"
+        },
+        {
+          "do_md": "นับเส้นเชือกจากรูป",
+          "why_md": "ได้ $4$ เส้น"
+        },
+        {
+          "do_md": "หาแรงดึง",
+          "why_md": "$800 \\div 4 = 200$ นิวตัน"
+        }
+      ],
+      "answer_explanation_md": "ตอบ $200$ นิวตัน จากน้ำหนัก $800$ นิวตันหารด้วย $4$",
+      "hints": [
+        "โจทย์ให้มวลหรือน้ำหนัก",
+        "ต้องแปลงเป็นนิวตันก่อนหารหรือไม่",
+        "นับเชือกที่ดึงบล็อกล่างขึ้นกี่เส้น"
+      ],
+      "distractor_reasons": {
+        "0": "คูณด้วยการได้เปรียบเชิงกลแทนการหาร",
+        "1": "ใช้ได้เปรียบสองเท่า ทั้งที่ในรูปมีเชือกรับน้ำหนักสี่เส้น",
+        "2": "หารมวล $80$ ด้วย $4$ โดยไม่แปลงมวลเป็นน้ำหนักก่อน",
+        "4": "ได้น้ำหนักของแล้ว แต่ไม่ได้หารด้วยการได้เปรียบเชิงกล"
       },
       "misconception_tags": [],
       "template": null,

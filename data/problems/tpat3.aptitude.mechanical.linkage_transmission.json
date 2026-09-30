@@ -313,10 +313,6 @@
       ],
       "choices": [
         {
-          "md": "$100$ rpm",
-          "is_answer": true
-        },
-        {
           "md": "$16$ rpm",
           "is_answer": false
         },
@@ -331,6 +327,10 @@
         {
           "md": "$250$ rpm",
           "is_answer": false
+        },
+        {
+          "md": "$100$ rpm",
+          "is_answer": true
         }
       ],
       "answer_numeric": null,
@@ -355,10 +355,10 @@
         "เฟืองกลางมีผลกับทิศ แต่มีผลกับความเร็วหรือไม่"
       ],
       "distractor_reasons": {
-        "1": "คูณอัตราทดสองชั้นทั้งที่ชั้นที่สองเป็นการทดกลับ",
-        "2": "หารด้วยสองเพราะคิดว่ามีการทดสองครั้งจึงลดครึ่ง",
-        "3": "ใช้อัตราทดของคู่แรกอย่างเดียว",
-        "4": "คูณด้วยอัตราส่วนของเฟืองกลางแทนที่จะให้มันตัดกัน"
+        "0": "คูณอัตราทดสองชั้นทั้งที่ชั้นที่สองเป็นการทดกลับ",
+        "1": "หารด้วยสองเพราะคิดว่ามีการทดสองครั้งจึงลดครึ่ง",
+        "2": "ใช้อัตราทดของคู่แรกอย่างเดียว",
+        "3": "คูณด้วยอัตราส่วนของเฟืองกลางแทนที่จะให้มันตัดกัน"
       },
       "misconception_tags": [
         "idler_changes_ratio"
@@ -489,16 +489,16 @@
           "is_answer": false
         },
         {
-          "md": "เพิ่มขึ้นประมาณ $4$ เท่า",
-          "is_answer": true
-        },
-        {
           "md": "ขึ้นกับจำนวนเฟืองกลางในระบบ",
           "is_answer": false
         },
         {
           "md": "ลดลงประมาณ $4$ เท่า",
           "is_answer": false
+        },
+        {
+          "md": "เพิ่มขึ้นประมาณ $4$ เท่า",
+          "is_answer": true
         },
         {
           "md": "เท่าเดิม",
@@ -528,9 +528,351 @@
       ],
       "distractor_reasons": {
         "0": "ยกกำลังสองของอัตราทด ซึ่งไม่มีที่มาจากความสัมพันธ์ของกำลัง",
-        "2": "เฟืองกลางไม่เปลี่ยนอัตราทดรวม จึงไม่เปลี่ยนโมเมนต์บิดปลายทาง",
-        "3": "ถ้าทั้งความเร็วและโมเมนต์บิดลดลง กำลังที่ส่งออกจะหายไปเฉย ๆ ซึ่งขัดกับการอนุรักษ์พลังงาน",
+        "1": "เฟืองกลางไม่เปลี่ยนอัตราทดรวม จึงไม่เปลี่ยนโมเมนต์บิดปลายทาง",
+        "2": "ถ้าทั้งความเร็วและโมเมนต์บิดลดลง กำลังที่ส่งออกจะหายไปเฉย ๆ ซึ่งขัดกับการอนุรักษ์พลังงาน",
         "4": "กำลังคือโมเมนต์บิดคูณความเร็วเชิงมุม ถ้าความเร็วลดลงแต่โมเมนต์บิดเท่าเดิม กำลังจะหายไป"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.aptitude.mechanical.linkage_transmission.0007",
+      "topic_ids": [
+        "tpat3.aptitude.mechanical.linkage_transmission"
+      ],
+      "primary_topic_id": "tpat3.aptitude.mechanical.linkage_transmission",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 55,
+      "stem_md": "เฟือง A ขบกับเฟือง B ดังรูป ถ้า A หมุนตามเข็มนาฬิกา B จะหมุนทิศใด\n\n[[fig1]]",
+      "figures": [
+        {
+          "id": "fig1",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 380 146\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"42\" cy=\"80\" r=\"28\"/><circle cx=\"42\" cy=\"80\" r=\"3\" fill=\"currentColor\" stroke=\"none\"/><text x=\"42\" y=\"126\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">A (20)</text><circle cx=\"330\" cy=\"80\" r=\"36\"/><circle cx=\"330\" cy=\"80\" r=\"3\" fill=\"currentColor\" stroke=\"none\"/><text x=\"330\" y=\"134\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">B (30)</text><line x1=\"70\" y1=\"80\" x2=\"294\" y2=\"80\" stroke=\"var(--accent, #3b5bdb)\" stroke-width=\"2\" stroke-dasharray=\"3 3\"/><text x=\"186\" y=\"34\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">ขบกัน</text></g></svg>",
+          "alt": "ระบบส่งกำลังเรียงกัน: A ขนาด 20 · B ขนาด 30 · A กับ B เชื่อมแบบขบกัน",
+          "caption": "เฟืองสองตัวขบกัน"
+        }
+      ],
+      "choices": [
+        {
+          "md": "ไม่หมุน เพราะฟันล็อกกัน",
+          "is_answer": false
+        },
+        {
+          "md": "ทวนเข็มนาฬิกา",
+          "is_answer": true
+        },
+        {
+          "md": "ขึ้นกับจำนวนฟันของ B",
+          "is_answer": false
+        },
+        {
+          "md": "หมุนทิศเดียวกับ A แต่ช้ากว่า",
+          "is_answer": false
+        },
+        {
+          "md": "ตามเข็มนาฬิกา",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ดูชนิดการเชื่อม",
+          "why_md": "เฟืองขบกันตรง ๆ"
+        },
+        {
+          "do_md": "ใช้กฎของเฟืองขบกัน",
+          "why_md": "หมุนสวนทางกันเสมอ"
+        }
+      ],
+      "answer_explanation_md": "ตอบทวนเข็มนาฬิกา เพราะเฟืองที่ขบกันหมุนสวนทางกันเสมอ",
+      "hints": [
+        "เฟืองที่ขบกันหมุนทางเดียวกันหรือสวนทาง",
+        "ลองนึกถึงฟันสองซี่ที่ดันกันตรงจุดสัมผัส",
+        "จำนวนฟันเกี่ยวกับทิศหรือไม่"
+      ],
+      "distractor_reasons": {
+        "0": "เฟืองที่ขบกันส่งกำลังต่อกันได้ตามปกติ",
+        "2": "จำนวนฟันเปลี่ยนความเร็ว แต่ไม่เปลี่ยนทิศ",
+        "3": "ขนาดมีผลกับความเร็ว ไม่ได้ทำให้ทิศเหมือนกัน",
+        "4": "ฟันที่ขบกันดันกันคนละทาง เฟืองสองตัวจึงหมุนสวนทาง"
+      },
+      "misconception_tags": [
+        "belt_vs_mesh"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.aptitude.mechanical.linkage_transmission.0008",
+      "topic_ids": [
+        "tpat3.aptitude.mechanical.linkage_transmission"
+      ],
+      "primary_topic_id": "tpat3.aptitude.mechanical.linkage_transmission",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 55,
+      "stem_md": "ล้อ A และ B ยึดอยู่บนเพลาเดียวกันดังรูป ถ้า A หมุน $120$ รอบต่อนาที B หมุนกี่รอบต่อนาที\n\n[[fig1]]",
+      "figures": [
+        {
+          "id": "fig1",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 380 146\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"50\" cy=\"80\" r=\"36\"/><circle cx=\"50\" cy=\"80\" r=\"3\" fill=\"currentColor\" stroke=\"none\"/><text x=\"50\" y=\"134\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">A (30)</text><circle cx=\"345\" cy=\"80\" r=\"21\"/><circle cx=\"345\" cy=\"80\" r=\"3\" fill=\"currentColor\" stroke=\"none\"/><text x=\"345\" y=\"119\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">B (10)</text><line x1=\"50\" y1=\"80\" x2=\"345\" y2=\"80\" stroke=\"var(--accent, #3b5bdb)\" stroke-width=\"3\"/><text x=\"197\" y=\"34\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">เพลาเดียวกัน</text></g></svg>",
+          "alt": "ระบบส่งกำลังเรียงกัน: A ขนาด 30 · B ขนาด 10 · A กับ B เชื่อมแบบเพลาเดียวกัน",
+          "caption": "สองล้อบนเพลาเดียวกัน"
+        }
+      ],
+      "choices": [
+        {
+          "md": "$120$ รอบต่อนาที",
+          "is_answer": true
+        },
+        {
+          "md": "$360$ รอบต่อนาที",
+          "is_answer": false
+        },
+        {
+          "md": "$40$ รอบต่อนาที",
+          "is_answer": false
+        },
+        {
+          "md": "$240$ รอบต่อนาที",
+          "is_answer": false
+        },
+        {
+          "md": "$0$ รอบต่อนาที",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ล้อบนเพลาเดียวกันหมุนไปพร้อมกัน",
+          "why_md": "เหมือนเป็นชิ้นเดียวกัน"
+        },
+        {
+          "do_md": "ความเร็วจึงเท่ากัน",
+          "why_md": "ไม่ขึ้นกับขนาดล้อ"
+        }
+      ],
+      "answer_explanation_md": "ตอบ $120$ รอบต่อนาที เพราะล้อบนเพลาเดียวกันหมุนเร็วเท่ากันเสมอ",
+      "hints": [
+        "เส้นหนาเชื่อมจุดกลางล้อหมายถึงอะไร",
+        "สองล้อที่ติดเพลาเดียวกันหมุนแยกกันได้หรือไม่",
+        "ขนาดล้อมีผลกับรอบต่อนาทีในกรณีนี้หรือไม่"
+      ],
+      "distractor_reasons": {
+        "1": "ใช้อัตราส่วนขนาดกลับด้าน ทั้งที่ไม่ควรใช้อัตราส่วนเลย",
+        "2": "ใช้อัตราส่วนขนาดเหมือนเฟืองขบกัน แต่ล้อบนเพลาเดียวกันไม่มีการทด",
+        "3": "คูณสองเพราะคิดว่ามีสองล้อ ซึ่งไม่เกี่ยวกับความเร็ว",
+        "4": "เพลาหมุนพาทั้งสองล้อไปด้วยกัน"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.aptitude.mechanical.linkage_transmission.0009",
+      "topic_ids": [
+        "tpat3.aptitude.mechanical.linkage_transmission"
+      ],
+      "primary_topic_id": "tpat3.aptitude.mechanical.linkage_transmission",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 75,
+      "stem_md": "เฟือง A มี $30$ ฟัน หมุน $100$ รอบต่อนาที ขบกับเฟือง B ที่มี $10$ ฟัน B หมุนกี่รอบต่อนาที\n\n[[fig1]]",
+      "figures": [
+        {
+          "id": "fig1",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 380 146\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"50\" cy=\"80\" r=\"36\"/><circle cx=\"50\" cy=\"80\" r=\"3\" fill=\"currentColor\" stroke=\"none\"/><text x=\"50\" y=\"134\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">A (30)</text><circle cx=\"345\" cy=\"80\" r=\"21\"/><circle cx=\"345\" cy=\"80\" r=\"3\" fill=\"currentColor\" stroke=\"none\"/><text x=\"345\" y=\"119\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">B (10)</text><line x1=\"86\" y1=\"80\" x2=\"324\" y2=\"80\" stroke=\"var(--accent, #3b5bdb)\" stroke-width=\"2\" stroke-dasharray=\"3 3\"/><text x=\"197\" y=\"34\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">ขบกัน</text></g></svg>",
+          "alt": "ระบบส่งกำลังเรียงกัน: A ขนาด 30 · B ขนาด 10 · A กับ B เชื่อมแบบขบกัน",
+          "caption": "เฟืองใหญ่ขับเฟืองเล็ก"
+        }
+      ],
+      "choices": [
+        {
+          "md": "$33.3$ รอบต่อนาที",
+          "is_answer": false
+        },
+        {
+          "md": "$300$ รอบต่อนาที",
+          "is_answer": true
+        },
+        {
+          "md": "$100$ รอบต่อนาที",
+          "is_answer": false
+        },
+        {
+          "md": "$3{,}000$ รอบต่อนาที",
+          "is_answer": false
+        },
+        {
+          "md": "$120$ รอบต่อนาที",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ฟันที่ผ่านจุดสัมผัสต่อนาทีต้องเท่ากัน",
+          "why_md": "$30 \\times 100 = 10 \\times n_B$"
+        },
+        {
+          "do_md": "แก้สมการ",
+          "why_md": "$n_B = 300$ รอบต่อนาที"
+        }
+      ],
+      "answer_explanation_md": "ตอบ $300$ รอบต่อนาที เพราะเฟืองเล็กมีฟันน้อยกว่าสามเท่าจึงหมุนเร็วกว่าสามเท่า",
+      "hints": [
+        "เฟืองใหญ่ขับเฟืองเล็ก เฟืองเล็กเร็วขึ้นหรือช้าลง",
+        "ฟันสองเฟืองผ่านจุดสัมผัสด้วยอัตราเท่ากัน",
+        "จำนวนฟันต่างกันกี่เท่า"
+      ],
+      "distractor_reasons": {
+        "0": "ใช้อัตราส่วนกลับด้าน ทำให้เฟืองเล็กหมุนช้ากว่าซึ่งผิด",
+        "2": "ความเร็วเท่ากันเฉพาะเฟืองที่ขนาดเท่ากันหรืออยู่บนเพลาเดียวกัน",
+        "3": "คูณด้วยจำนวนฟันของ A โดยตรงแทนการใช้อัตราส่วน",
+        "4": "บวกผลต่างจำนวนฟัน $20$ เข้าไป ซึ่งไม่ใช่วิธีทด"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.aptitude.mechanical.linkage_transmission.0010",
+      "topic_ids": [
+        "tpat3.aptitude.mechanical.linkage_transmission"
+      ],
+      "primary_topic_id": "tpat3.aptitude.mechanical.linkage_transmission",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 70,
+      "stem_md": "เฟืองสี่ตัวขบกันต่อเป็นแถวดังรูป ถ้าเฟือง A หมุนตามเข็มนาฬิกา เฟือง D หมุนทิศใด\n\n[[fig1]]",
+      "figures": [
+        {
+          "id": "fig1",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 380 146\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"50\" cy=\"80\" r=\"36\"/><circle cx=\"50\" cy=\"80\" r=\"3\" fill=\"currentColor\" stroke=\"none\"/><text x=\"50\" y=\"134\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">A (20)</text><circle cx=\"143\" cy=\"80\" r=\"36\"/><circle cx=\"143\" cy=\"80\" r=\"3\" fill=\"currentColor\" stroke=\"none\"/><text x=\"143\" y=\"134\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">B (20)</text><circle cx=\"236\" cy=\"80\" r=\"36\"/><circle cx=\"236\" cy=\"80\" r=\"3\" fill=\"currentColor\" stroke=\"none\"/><text x=\"236\" y=\"134\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">C (20)</text><circle cx=\"329\" cy=\"80\" r=\"36\"/><circle cx=\"329\" cy=\"80\" r=\"3\" fill=\"currentColor\" stroke=\"none\"/><text x=\"329\" y=\"134\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">D (20)</text><line x1=\"86\" y1=\"80\" x2=\"107\" y2=\"80\" stroke=\"var(--accent, #3b5bdb)\" stroke-width=\"2\" stroke-dasharray=\"3 3\"/><text x=\"96\" y=\"34\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">ขบกัน</text><line x1=\"179\" y1=\"80\" x2=\"200\" y2=\"80\" stroke=\"var(--accent, #3b5bdb)\" stroke-width=\"2\" stroke-dasharray=\"3 3\"/><text x=\"189\" y=\"34\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">ขบกัน</text><line x1=\"272\" y1=\"80\" x2=\"293\" y2=\"80\" stroke=\"var(--accent, #3b5bdb)\" stroke-width=\"2\" stroke-dasharray=\"3 3\"/><text x=\"282\" y=\"34\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">ขบกัน</text></g></svg>",
+          "alt": "ระบบส่งกำลังเรียงกัน: A ขนาด 20 · B ขนาด 20 · C ขนาด 20 · D ขนาด 20 · A กับ B เชื่อมแบบขบกัน · B กับ C เชื่อมแบบขบกัน · C กับ D เชื่อมแบบขบกัน",
+          "caption": "เฟืองสี่ตัวเรียงกัน"
+        }
+      ],
+      "choices": [
+        {
+          "md": "ตามเข็มนาฬิกา",
+          "is_answer": false
+        },
+        {
+          "md": "หมุนทิศเดียวกับ C",
+          "is_answer": false
+        },
+        {
+          "md": "ทวนเข็มนาฬิกา",
+          "is_answer": true
+        },
+        {
+          "md": "บอกไม่ได้ถ้าไม่รู้จำนวนฟัน",
+          "is_answer": false
+        },
+        {
+          "md": "หยุดนิ่ง เพราะเฟืองจำนวนคู่จะล็อกกัน",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ไล่ทีละคู่",
+          "why_md": "A ตามเข็ม → B ทวนเข็ม → C ตามเข็ม → D ทวนเข็ม"
+        },
+        {
+          "do_md": "หรือนับจำนวนการขบ",
+          "why_md": "สามครั้งเป็นเลขคี่ ทิศจึงกลับกับ A"
+        }
+      ],
+      "answer_explanation_md": "ตอบทวนเข็มนาฬิกา เพราะขบกันสามครั้ง ทิศกลับเลขคี่ครั้ง",
+      "hints": [
+        "แต่ละคู่ที่ขบกันทำให้ทิศกลับกี่ครั้ง",
+        "จาก A ถึง D มีการขบกี่คู่",
+        "ทิศกลับเป็นจำนวนคี่ครั้งหรือคู่ครั้ง"
+      ],
+      "distractor_reasons": {
+        "0": "นับการขบได้สามครั้ง ทิศกลับสามครั้งจึงไม่กลับมาเหมือนเดิม",
+        "1": "C หมุนตามเข็มเหมือน A แต่ D ขบกับ C จึงต้องหมุนสวนทางกับ C",
+        "3": "จำนวนฟันเปลี่ยนความเร็ว ไม่เปลี่ยนทิศ",
+        "4": "เฟืองที่เรียงเป็นแถวตรงหมุนได้ตามปกติ การล็อกเกิดเมื่อเฟืองจำนวนคี่ต่อเป็นวงปิด"
       },
       "misconception_tags": [],
       "template": null,

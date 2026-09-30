@@ -42,16 +42,16 @@
           "is_answer": false
         },
         {
+          "md": "$5$ นิวตัน",
+          "is_answer": true
+        },
+        {
           "md": "$12$ นิวตัน",
           "is_answer": false
         },
         {
           "md": "$1$ นิวตัน",
           "is_answer": false
-        },
-        {
-          "md": "$5$ นิวตัน",
-          "is_answer": true
         },
         {
           "md": "$25$ นิวตัน",
@@ -81,8 +81,8 @@
       ],
       "distractor_reasons": {
         "0": "บวกขนาดตรง ๆ ซึ่งใช้ได้เฉพาะแรงที่อยู่ในแนวและทิศเดียวกัน",
-        "1": "คูณขนาดสองแรง ซึ่งไม่ใช่การรวมเวกเตอร์",
-        "2": "ลบขนาดกัน ซึ่งใช้กับแรงที่สวนทางกันในแนวเดียว",
+        "2": "คูณขนาดสองแรง ซึ่งไม่ใช่การรวมเวกเตอร์",
+        "3": "ลบขนาดกัน ซึ่งใช้กับแรงที่สวนทางกันในแนวเดียว",
         "4": "ลืมถอดรากจาก $3^2 + 4^2$"
       },
       "misconception_tags": [
@@ -129,6 +129,10 @@
       ],
       "choices": [
         {
+          "md": "$5$ นิวตัน ในทิศตรงข้ามกับแรงลัพธ์",
+          "is_answer": true
+        },
+        {
           "md": "$7$ นิวตัน ในทิศตรงข้ามกับแรงลัพธ์",
           "is_answer": false
         },
@@ -143,10 +147,6 @@
         {
           "md": "$5$ นิวตัน ในทิศเดียวกับแรงลัพธ์",
           "is_answer": false
-        },
-        {
-          "md": "$5$ นิวตัน ในทิศตรงข้ามกับแรงลัพธ์",
-          "is_answer": true
         }
       ],
       "answer_numeric": null,
@@ -171,10 +171,10 @@
         "ทิศของแรงนั้นต้องเป็นอย่างไร"
       ],
       "distractor_reasons": {
-        "0": "ใช้ผลบวกขนาดตรง ๆ เป็นขนาดของแรงลัพธ์",
-        "1": "ใช้ผลต่างของสองแรงเป็นขนาดของแรงลัพธ์",
-        "2": "แรงตั้งฉากไม่หักล้างกัน ผลรวมของทั้งสองแกนยังไม่เป็นศูนย์",
-        "3": "จะยิ่งทำให้แรงลัพธ์เพิ่มเป็นสองเท่า ไม่ใช่เป็นศูนย์"
+        "1": "ใช้ผลบวกขนาดตรง ๆ เป็นขนาดของแรงลัพธ์",
+        "2": "ใช้ผลต่างของสองแรงเป็นขนาดของแรงลัพธ์",
+        "3": "แรงตั้งฉากไม่หักล้างกัน ผลรวมของทั้งสองแกนยังไม่เป็นศูนย์",
+        "4": "จะยิ่งทำให้แรงลัพธ์เพิ่มเป็นสองเท่า ไม่ใช่เป็นศูนย์"
       },
       "misconception_tags": [],
       "template": null,
@@ -218,16 +218,16 @@
       ],
       "choices": [
         {
-          "md": "เคลื่อนไปทางขวา ด้วยแรงลัพธ์ $40$ นิวตัน",
-          "is_answer": true
-        },
-        {
           "md": "เคลื่อนไปทางขวา ด้วยแรงลัพธ์ $200$ นิวตัน",
           "is_answer": false
         },
         {
           "md": "เคลื่อนไปทางขวา ด้วยแรงลัพธ์ $120$ นิวตัน",
           "is_answer": false
+        },
+        {
+          "md": "เคลื่อนไปทางขวา ด้วยแรงลัพธ์ $40$ นิวตัน",
+          "is_answer": true
         },
         {
           "md": "เคลื่อนไปทางซ้าย ด้วยแรงลัพธ์ $40$ นิวตัน",
@@ -260,8 +260,8 @@
         "ตรวจว่าขนาดที่ได้ต้องน้อยกว่าแรงที่มากที่สุด"
       ],
       "distractor_reasons": {
-        "1": "บวกขนาดทั้งที่สองแรงสวนทางกัน ต้องลบ",
-        "2": "ใช้แรงของทีมขวาเพียงทีมเดียว ไม่ได้หักแรงทีมซ้าย",
+        "0": "บวกขนาดทั้งที่สองแรงสวนทางกัน ต้องลบ",
+        "1": "ใช้แรงของทีมขวาเพียงทีมเดียว ไม่ได้หักแรงทีมซ้าย",
         "3": "ขนาดถูก แต่ทิศต้องไปทางทีมที่ออกแรงมากกว่า",
         "4": "จะหักล้างกันพอดีก็ต่อเมื่อขนาดเท่ากัน"
       },
@@ -311,12 +311,12 @@
           "is_answer": false
         },
         {
-          "md": "อยู่ในสมดุล เพราะแรงลัพธ์เป็นศูนย์",
-          "is_answer": true
-        },
-        {
           "md": "เคลื่อนที่ด้วยแรงลัพธ์ $4$ นิวตัน",
           "is_answer": false
+        },
+        {
+          "md": "อยู่ในสมดุล เพราะแรงลัพธ์เป็นศูนย์",
+          "is_answer": true
         },
         {
           "md": "บอกไม่ได้เพราะไม่รู้มวลของวัตถุ",
@@ -350,7 +350,7 @@
       ],
       "distractor_reasons": {
         "0": "บวกขนาดทั้งสามตรง ๆ โดยไม่คิดทิศ",
-        "2": "ลบขนาดกันแบบสุ่มโดยไม่แยกแกน",
+        "1": "ลบขนาดกันแบบสุ่มโดยไม่แยกแกน",
         "3": "การหาแรงลัพธ์ไม่ต้องใช้มวล มวลจำเป็นเฉพาะตอนหาความเร่ง",
         "4": "แรงที่ใหญ่ที่สุดถูกหักล้างพอดีด้วยผลรวมของอีกสองแรง"
       },
@@ -388,12 +388,12 @@
       "figures": [],
       "choices": [
         {
-          "md": "$200$ นิวตัน",
-          "is_answer": true
-        },
-        {
           "md": "$0$ นิวตัน",
           "is_answer": false
+        },
+        {
+          "md": "$200$ นิวตัน",
+          "is_answer": true
         },
         {
           "md": "$20$ นิวตัน",
@@ -430,7 +430,7 @@
         "แรงจากพื้นต้องหักล้างกับอะไร"
       ],
       "distractor_reasons": {
-        "1": "ถ้าพื้นไม่ดันขึ้นเลย ลังจะตกลงไป",
+        "0": "ถ้าพื้นไม่ดันขึ้นเลย ลังจะตกลงไป",
         "2": "ใช้มวลเป็นแรงโดยไม่คูณ $g$",
         "3": "คูณ $g$ สองครั้ง",
         "4": "หารน้ำหนักด้วยสอง ทั้งที่พื้นรับน้ำหนักทั้งหมด"
@@ -477,12 +477,12 @@
           "is_answer": false
         },
         {
-          "md": "แรงเสียดทานมีขนาด $60$ นิวตัน ทิศตรงข้ามกับการเคลื่อนที่",
-          "is_answer": true
-        },
-        {
           "md": "บอกไม่ได้เพราะไม่รู้สัมประสิทธิ์ความเสียดทาน",
           "is_answer": false
+        },
+        {
+          "md": "แรงเสียดทานมีขนาด $60$ นิวตัน ทิศตรงข้ามกับการเคลื่อนที่",
+          "is_answer": true
         },
         {
           "md": "แรงเสียดทานมากกว่า $60$ นิวตัน ลังจึงไม่เร่งขึ้น",
@@ -513,12 +513,354 @@
       "distractor_reasons": {
         "0": "ถ้าไม่มีแรงเสียดทาน ลังจะเร่งขึ้นเรื่อย ๆ ไม่ใช่ความเร็วคงที่",
         "1": "ถ้าน้อยกว่า จะเหลือแรงลัพธ์ทำให้เกิดความเร่ง",
-        "3": "เงื่อนไขความเร็วคงที่บอกขนาดของแรงเสียดทานได้โดยไม่ต้องรู้สัมประสิทธิ์",
+        "2": "เงื่อนไขความเร็วคงที่บอกขนาดของแรงเสียดทานได้โดยไม่ต้องรู้สัมประสิทธิ์",
         "4": "ถ้ามากกว่า ลังจะช้าลงจนหยุด ไม่ใช่ความเร็วคงที่"
       },
       "misconception_tags": [
         "motion_needs_force"
       ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.aptitude.mechanical.force_equilibrium.0007",
+      "topic_ids": [
+        "tpat3.aptitude.mechanical.force_equilibrium"
+      ],
+      "primary_topic_id": "tpat3.aptitude.mechanical.force_equilibrium",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 55,
+      "stem_md": "คนสองคนช่วยกันดันรถไปทางเดียวกันดังรูป คนหนึ่งออกแรง $30$ นิวตัน อีกคน $20$ นิวตัน แรงลัพธ์เป็นเท่าไร\n\n[[fig1]]",
+      "figures": [
+        {
+          "id": "fig1",
+          "type": "svg",
+          "svg": "<svg viewBox=\"132 132 163 36\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"150\" cy=\"150\" r=\"4\" fill=\"currentColor\" stroke=\"none\"/><g stroke=\"var(--accent, #3b5bdb)\"><line x1=\"150\" y1=\"150\" x2=\"248\" y2=\"150\"/><polygon points=\"258,150 248,155 248,145\" fill=\"var(--accent, #3b5bdb)\" stroke=\"none\"/></g><text x=\"277\" y=\"154\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">30 N</text><g stroke=\"var(--accent, #3b5bdb)\"><line x1=\"150\" y1=\"150\" x2=\"212\" y2=\"150\"/><polygon points=\"222,150 212,155 212,145\" fill=\"var(--accent, #3b5bdb)\" stroke=\"none\"/></g><text x=\"235\" y=\"154\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">20 N</text></g></svg>",
+          "alt": "แรงกระทำที่จุดเดียวกัน: 30 N ขนาด 30 นิวตัน ไปทางขวา · 20 N ขนาด 20 นิวตัน ไปทางขวา",
+          "caption": "แรงสองแรงทิศเดียวกัน"
+        }
+      ],
+      "choices": [
+        {
+          "md": "$50$ นิวตัน",
+          "is_answer": true
+        },
+        {
+          "md": "$600$ นิวตัน",
+          "is_answer": false
+        },
+        {
+          "md": "$36$ นิวตัน",
+          "is_answer": false
+        },
+        {
+          "md": "$10$ นิวตัน",
+          "is_answer": false
+        },
+        {
+          "md": "$25$ นิวตัน",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "แรงอยู่ในแนวเดียวกันและทิศเดียวกัน",
+          "why_md": "จึงบวกกันตรง ๆ"
+        },
+        {
+          "do_md": "คำนวณ",
+          "why_md": "$30 + 20 = 50$ นิวตัน"
+        }
+      ],
+      "answer_explanation_md": "ตอบ $50$ นิวตัน เพราะแรงทิศเดียวกันบวกกันได้ตรง ๆ",
+      "hints": [
+        "สองแรงชี้ไปทางเดียวกันหรือสวนทาง",
+        "แรงทิศเดียวกันรวมกันอย่างไร",
+        "ผลต้องมากกว่าแรงที่มากที่สุดหรือไม่"
+      ],
+      "distractor_reasons": {
+        "1": "คูณสองแรง ซึ่งไม่ใช่การรวมแรง",
+        "2": "ใช้ $\\sqrt{30^2 + 20^2}$ ซึ่งใช้กับแรงที่ตั้งฉากกัน ไม่ใช่ทิศเดียวกัน",
+        "3": "ลบกัน ซึ่งใช้กับแรงที่สวนทางกันเท่านั้น",
+        "4": "หาค่าเฉลี่ยของสองแรง แรงลัพธ์ไม่ใช่ค่าเฉลี่ย"
+      },
+      "misconception_tags": [
+        "add_force_magnitudes"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.aptitude.mechanical.force_equilibrium.0008",
+      "topic_ids": [
+        "tpat3.aptitude.mechanical.force_equilibrium"
+      ],
+      "primary_topic_id": "tpat3.aptitude.mechanical.force_equilibrium",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 50,
+      "stem_md": "หนังสือวางนิ่งอยู่บนโต๊ะ แรงลัพธ์ที่กระทำต่อหนังสือเป็นเท่าไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "เท่ากับน้ำหนักของหนังสือ",
+          "is_answer": false
+        },
+        {
+          "md": "ไม่มีแรงใดกระทำเลย",
+          "is_answer": false
+        },
+        {
+          "md": "เท่ากับสองเท่าของน้ำหนัก",
+          "is_answer": false
+        },
+        {
+          "md": "ศูนย์",
+          "is_answer": true
+        },
+        {
+          "md": "บอกไม่ได้ถ้าไม่รู้มวลของหนังสือ",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "หนังสืออยู่นิ่ง",
+          "why_md": "ความเร่งเป็นศูนย์"
+        },
+        {
+          "do_md": "แรงลัพธ์จึงเป็นศูนย์",
+          "why_md": "น้ำหนักกดลง แรงจากโต๊ะดันขึ้น เท่ากันพอดี"
+        }
+      ],
+      "answer_explanation_md": "ตอบศูนย์ เพราะหนังสืออยู่นิ่ง น้ำหนักถูกหักล้างด้วยแรงที่โต๊ะดันขึ้น",
+      "hints": [
+        "อยู่นิ่งแปลว่าความเร่งเป็นเท่าไร",
+        "มีแรงอะไรกระทำกับหนังสือบ้าง",
+        "สองแรงนั้นมีทิศอย่างไร"
+      ],
+      "distractor_reasons": {
+        "0": "น้ำหนักถูกหักล้างด้วยแรงที่โต๊ะดันขึ้นพอดี",
+        "1": "มีแรงกระทำสองแรงคือน้ำหนักและแรงจากโต๊ะ แต่รวมกันได้ศูนย์",
+        "2": "บวกน้ำหนักกับแรงจากโต๊ะ ทั้งที่สองแรงมีทิศตรงข้ามกัน",
+        "4": "อยู่นิ่งแปลว่าแรงลัพธ์เป็นศูนย์เสมอ ไม่ขึ้นกับมวล"
+      },
+      "misconception_tags": [
+        "motion_needs_force"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.aptitude.mechanical.force_equilibrium.0009",
+      "topic_ids": [
+        "tpat3.aptitude.mechanical.force_equilibrium"
+      ],
+      "primary_topic_id": "tpat3.aptitude.mechanical.force_equilibrium",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 95,
+      "stem_md": "แรงสองแรงในรูปตั้งฉากกัน ขนาด $9$ นิวตันและ $12$ นิวตัน แรงลัพธ์มีขนาดเท่าไร\n\n[[fig1]]",
+      "figures": [
+        {
+          "id": "fig1",
+          "type": "svg",
+          "svg": "<svg viewBox=\"132 5 132 163\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"150\" cy=\"150\" r=\"4\" fill=\"currentColor\" stroke=\"none\"/><g stroke=\"var(--accent, #3b5bdb)\"><line x1=\"150\" y1=\"150\" x2=\"221\" y2=\"150\"/><polygon points=\"231,150 221,155 221,145\" fill=\"var(--accent, #3b5bdb)\" stroke=\"none\"/></g><text x=\"246\" y=\"154\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">9 N</text><g stroke=\"var(--accent, #3b5bdb)\"><line x1=\"150\" y1=\"150\" x2=\"150\" y2=\"52\"/><polygon points=\"150,42 155,52 145,52\" fill=\"var(--accent, #3b5bdb)\" stroke=\"none\"/></g><text x=\"150\" y=\"27\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">12 N</text></g></svg>",
+          "alt": "แรงกระทำที่จุดเดียวกัน: 9 N ขนาด 9 นิวตัน ไปทางขวา · 12 N ขนาด 12 นิวตัน ขึ้น",
+          "caption": "แรงสองแรงตั้งฉากกัน"
+        }
+      ],
+      "choices": [
+        {
+          "md": "$225$ นิวตัน",
+          "is_answer": false
+        },
+        {
+          "md": "$108$ นิวตัน",
+          "is_answer": false
+        },
+        {
+          "md": "$21$ นิวตัน",
+          "is_answer": false
+        },
+        {
+          "md": "$3$ นิวตัน",
+          "is_answer": false
+        },
+        {
+          "md": "$15$ นิวตัน",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "แรงตั้งฉากใช้พีทาโกรัส",
+          "why_md": "$\\sqrt{9^2 + 12^2} = \\sqrt{81 + 144} = \\sqrt{225}$"
+        },
+        {
+          "do_md": "ถอดราก",
+          "why_md": "$15$ นิวตัน · เป็นชุด $3, 4, 5$ ที่คูณด้วย $3$"
+        }
+      ],
+      "answer_explanation_md": "ตอบ $15$ นิวตัน จาก $\\sqrt{9^2 + 12^2}$",
+      "hints": [
+        "แรงตั้งฉากบวกกันตรง ๆ ได้หรือไม่",
+        "ลองหารทั้งสองแรงด้วย $3$ แล้วดูว่าคุ้นไหม",
+        "อย่าลืมถอดรากขั้นสุดท้าย"
+      ],
+      "distractor_reasons": {
+        "0": "ได้ $9^2 + 12^2$ แล้วลืมถอดราก",
+        "1": "คูณสองแรงกัน",
+        "2": "บวกขนาดตรง ๆ ทั้งที่สองแรงตั้งฉากกัน",
+        "3": "ลบขนาดกัน ซึ่งใช้กับแรงที่สวนทางกันในแนวเดียว"
+      },
+      "misconception_tags": [
+        "add_force_magnitudes"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.aptitude.mechanical.force_equilibrium.0010",
+      "topic_ids": [
+        "tpat3.aptitude.mechanical.force_equilibrium"
+      ],
+      "primary_topic_id": "tpat3.aptitude.mechanical.force_equilibrium",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 4,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 2,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 120,
+      "stem_md": "วัตถุอยู่นิ่งภายใต้แรงสามแรง สองแรงเป็นดังรูป คือ ก $5$ นิวตันไปทางขวา และ ข $12$ นิวตันขึ้น แรงที่สามเป็นอย่างไร\n\n[[fig1]]",
+      "figures": [
+        {
+          "id": "fig1",
+          "type": "svg",
+          "svg": "<svg viewBox=\"132 5 89 163\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"150\" cy=\"150\" r=\"4\" fill=\"currentColor\" stroke=\"none\"/><g stroke=\"var(--accent, #3b5bdb)\"><line x1=\"150\" y1=\"150\" x2=\"185\" y2=\"150\"/><polygon points=\"195,150 185,155 185,145\" fill=\"var(--accent, #3b5bdb)\" stroke=\"none\"/></g><text x=\"203\" y=\"154\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">ก = 5 N</text><g stroke=\"var(--accent, #3b5bdb)\"><line x1=\"150\" y1=\"150\" x2=\"150\" y2=\"52\"/><polygon points=\"150,42 155,52 145,52\" fill=\"var(--accent, #3b5bdb)\" stroke=\"none\"/></g><text x=\"150\" y=\"27\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">ข = 12 N</text></g></svg>",
+          "alt": "แรงกระทำที่จุดเดียวกัน: ก = 5 N ขนาด 5 นิวตัน ไปทางขวา · ข = 12 N ขนาด 12 นิวตัน ขึ้น",
+          "caption": "แรงสองในสามแรง"
+        }
+      ],
+      "choices": [
+        {
+          "md": "ขนาด $7$ นิวตัน เฉียงลงไปทางซ้าย",
+          "is_answer": false
+        },
+        {
+          "md": "ขนาด $12$ นิวตัน ชี้ลง",
+          "is_answer": false
+        },
+        {
+          "md": "ขนาด $17$ นิวตัน เฉียงลงไปทางซ้าย",
+          "is_answer": false
+        },
+        {
+          "md": "ขนาด $13$ นิวตัน เฉียงขึ้นไปทางขวา",
+          "is_answer": false
+        },
+        {
+          "md": "ขนาด $13$ นิวตัน เฉียงลงไปทางซ้าย",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "หาแรงลัพธ์ของ ก และ ข",
+          "why_md": "$\\sqrt{5^2 + 12^2} = 13$ นิวตัน เฉียงขึ้นขวา"
+        },
+        {
+          "do_md": "อยู่นิ่งแปลว่าแรงรวมเป็นศูนย์",
+          "why_md": "แรงที่สามต้องหักล้างแรงลัพธ์นี้พอดี"
+        },
+        {
+          "do_md": "สรุป",
+          "why_md": "ขนาด $13$ นิวตัน ทิศตรงข้าม คือเฉียงลงซ้าย"
+        }
+      ],
+      "answer_explanation_md": "ตอบขนาด $13$ นิวตัน เฉียงลงไปทางซ้าย ซึ่งตรงข้ามกับแรงลัพธ์ของ ก และ ข",
+      "hints": [
+        "หาแรงลัพธ์ของสองแรงที่รู้ก่อน",
+        "แรงที่ทำให้สมดุลต้องมีขนาดและทิศอย่างไรเมื่อเทียบกับแรงลัพธ์",
+        "ต้องหักล้างทั้งแนวนอนและแนวตั้งพร้อมกัน"
+      ],
+      "distractor_reasons": {
+        "0": "ลบขนาดของสองแรง ซึ่งไม่ใช่การรวมแรงตั้งฉาก",
+        "1": "หักล้างเฉพาะแรง ข ลืมหักล้างแรง ก",
+        "2": "บวกขนาดของสองแรงตรง ๆ ทั้งที่ตั้งฉากกัน",
+        "3": "ขนาดถูก แต่ทิศนี้จะเสริมแรงเดิม ไม่ใช่หักล้าง"
+      },
+      "misconception_tags": [],
       "template": null,
       "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
       "calculator_allowed": false,

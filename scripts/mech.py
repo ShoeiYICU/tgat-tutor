@@ -538,6 +538,70 @@ def cube_bounds(front, top) -> tuple:
     raise AssertionError("ไม่มีทรงใดให้ภาพทั้งสองนี้")
 
 
+def visibility(cells, n: int = 5) -> dict:
+    """สัดส่วนพื้นผิวที่มองเห็นได้ของลูกบาศก์แต่ละก้อนในภาพไอโซเมตริกของ shape3d
+
+    ภาพของ shape3d มองจากทิศ (1, 1, 1) จึงเห็นหน้าบน หน้า +x และหน้า +y ของแต่ละก้อน
+    สุ่มจุดบนสามหน้านั้นแบบตาราง n×n แล้วยิงรังสีไปหาผู้มอง ถ้าชนก้อนอื่นแปลว่าจุดนั้นถูกบัง
+    คืน {ก้อน: สัดส่วนที่มองเห็น 0..1} ก้อนที่ได้ 0 คือถูกบังมิดในภาพ
+    """
+    cs = [tuple(c) for c in cells]
+    occupied = set(cs)
+
+    def blocked(p, me):
+        # รังสี p + t(1,1,1) ผ่านลูกบาศก์หน่วยใดบ้าง ไล่ตรวจเฉพาะก้อนที่อยู่ "หน้า" ก้อนนี้
+        for c in cs:
+            if c == me:
+                continue
+            lo = [c[i] - p[i] for i in range(3)]
+            hi = [c[i] + 1 - p[i] for i in range(3)]
+            t0, t1 = max(lo), min(hi)
+            if t1 > max(t0, 1e-9) + 1e-9:
+                return True
+        return False
+
+    out = {}
+    for c in cs:
+        x, y, z = c
+        pts = []
+        for i in range(n):
+            for j in range(n):
+                a, b = (i + 0.5) / n, (j + 0.5) / n
+                if (x, y, z + 1) not in occupied:
+                    pts.append((x + a, y + b, z + 1))
+                if (x + 1, y, z) not in occupied:
+                    pts.append((x + 1, y + a, z + b))
+                if (x, y + 1, z) not in occupied:
+                    pts.append((x + a, y + 1, z + b))
+        seen = sum(1 for p in pts if not blocked(p, c))
+        out[c] = seen / (3 * n * n)
+    return out
+
+
+def known_cubes(cells, least: float = 0.08) -> set:
+    """ก้อนที่ผู้ดูภาพรู้ได้ว่ามีอยู่: มองเห็นได้บางส่วน หรืออยู่ใต้ก้อนที่รู้แล้วโดยตรง
+
+    ก้อนที่ถูกทับอยู่ข้างใต้ถือว่ามีอยู่ตามธรรมเนียมของโจทย์ทรงลูกบาศก์ (ไม่มีก้อนลอย)
+    ส่วนก้อนที่ถูกบังมิดและไม่ได้รองรับก้อนอื่น ผู้ดูไม่มีทางรู้ว่ามีอยู่
+    """
+    vis = visibility(cells)
+    known = {c for c, v in vis.items() if v >= least}
+    changed = True
+    while changed:
+        changed = False
+        for x, y, z in list(known):
+            below = (x, y, z - 1)
+            if below in vis and below not in known:
+                known.add(below)
+                changed = True
+    return known
+
+
+def view_determinable(cells, view: str) -> bool:
+    """ภาพฉายด้าน view ที่หาได้จากก้อนที่รู้ ต้องเท่ากับภาพฉายจริง ไม่อย่างนั้นโจทย์ตอบไม่ได้จากรูป"""
+    return raw_views(known_cubes(cells))[view] == raw_views(cells)[view]
+
+
 def iso_view_svg(cells, view: str | None = None) -> str:
     """ภาพสามมิติจาก shape3d พร้อมลูกศรบอกทิศที่มอง
 
@@ -659,6 +723,15 @@ def _selfcheck() -> int:
        "ชั้นเดียวเต็มแผ่นต้องใช้ 4 ก้อนพอดี")
     ok(cube_bounds({(0, 0), (0, 1), (1, 0), (1, 1)}, {(0, 0), (1, 0), (0, 1), (1, 1)}) == (4, 8),
        "หน้าเต็ม 2x2 บนเต็ม 2x2 น้อยสุด 4 มากสุด 8")
+
+    # --- การมองเห็นในภาพไอโซเมตริก
+    hid = {(0, 0, 0), (1, 1, 1), (1, 0, 1), (0, 1, 1), (1, 1, 0)}
+    ok(visibility(hid)[(0, 0, 0)] == 0, "ก้อนที่อยู่หลังก้อนอื่นตามทิศมองต้องถูกบังมิด")
+    ok(visibility({(0, 0, 0)})[(0, 0, 0)] == 1, "ก้อนเดียวต้องมองเห็นทั้งสามหน้า")
+    stack = {(0, 0, 0), (0, 0, 1)}
+    ok(known_cubes(stack) == stack, "ก้อนที่ถูกทับอยู่ข้างใต้ต้องนับว่ารู้ว่ามีอยู่")
+    ok(not view_determinable({(0, 0, 0), (1, 0, 0), (1, 1, 0), (2, 1, 0), (2, 1, 1)}, "top"),
+       "ทรงที่มีก้อนซ่อนอยู่หลังก้อนอื่นต้องถูกจับได้ว่าหาภาพด้านบนจากรูปไม่ได้")
 
     # --- ลูกศรบอกทิศมอง
     for v in ("front", "side"):
