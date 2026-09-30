@@ -337,6 +337,43 @@ def check_gate() -> bool:
     return ok
 
 
+def check_template_engine() -> bool:
+    """กันบั๊กสองตัวที่ Codex พบในการตรวจไขว้รอบ 8 ไม่ให้กลับมาอีก
+
+    1. ตัวลวงที่ใช้ // ต้องหารลงตัวจริง ไม่ปัดลงเงียบ ๆ จนค่าไม่ตรงกับเหตุผล
+    2. เหตุผลของตัวลวงต้องแทนค่าตัวแปรแล้ว ไม่ใช่แสดง {b} ดิบ
+    """
+    print()
+    print("-" * 72)
+    print("  ทดสอบตัวสร้างแม่แบบ (บั๊กที่พบในการตรวจไขว้รอบ 8)")
+    print("-" * 72)
+    sys.path.insert(0, str(HERE))
+    import author as A  # noqa: E402
+
+    # แม่แบบทดลอง: ตัวลวง (a + b)//2 ลงตัวเพียงครึ่งหนึ่งของค่าที่สุ่ม
+    tpl = A.T("${a}$ กับ ${b}$", [A.V("a", 10, 40), A.V("b", 10, 40)], "a + b",
+              [("(a + b)//2", "หาร ${a} + {b}$ ด้วยสอง"), ("a", "ใช้แค่ ${a}$"),
+               ("b", "ใช้แค่ ${b}$"), ("a + b + 1", "บวกเกินหนึ่ง")],
+              [("บวก", "ขั้นหนึ่ง"), ("ตอบ", "ขั้นสอง")], ["ใบ้หนึ่ง", "ใบ้สอง", "ใบ้สาม"], "ตอบ ${answer}$")
+    ok = True
+    has_rule = any("==" in c and "//" in c for c in tpl["constraints"])
+    print(f"  {'ถูกต้อง  ' if has_rule else 'ผิด      '} เพิ่มเงื่อนไขหารลงตัวให้นิพจน์ที่ใช้ // อัตโนมัติ")
+    ok &= has_rule
+
+    exact, rendered = True, True
+    for i in range(40):
+        it = A._from_template(f"selftest.engine.{i:04d}", {"kind": "tpl", "template": tpl, "diff": 2,
+                                                          "sec": None, "tags": [], "reading": "low"})
+        vals = {r: w for w, r in it["wrong"]}
+        half = [w for w, r in it["wrong"] if r.startswith("หาร")][0]
+        a_plus_b = int(it["answer"].strip("$"))
+        exact &= int(half.strip("$")) * 2 == a_plus_b
+        rendered &= not any("{a}" in r or "{b}" in r for r in vals)   # คีย์ของ vals คือข้อความเหตุผล
+    print(f"  {'ถูกต้อง  ' if exact else 'ผิด      '} ตัวลวงที่ใช้ // หารลงตัวทุกครั้งใน 40 ข้อที่สุ่ม")
+    print(f"  {'ถูกต้อง  ' if rendered else 'ผิด      '} เหตุผลตัวลวงแทนค่าตัวแปรครบ ไม่เหลือ {{a}} {{b}} ดิบ")
+    return ok and exact and rendered
+
+
 def main() -> int:
     try:
         sys.stdout.reconfigure(encoding="utf-8")
@@ -393,7 +430,8 @@ def main() -> int:
 
         layer2_ok = check_layer2(src)
         gate_ok = check_gate()
-        if missed or r.returncode != 1 or not clean_ok or not layer2_ok or not gate_ok:
+        engine_ok = check_template_engine()
+        if missed or r.returncode != 1 or not clean_ok or not layer2_ok or not gate_ok or not engine_ok:
             print("\n=> selftest ไม่ผ่าน")
             if missed:
                 print("   validator ตรวจไม่เจอ: " + ", ".join(missed))
