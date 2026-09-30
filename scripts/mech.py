@@ -364,7 +364,8 @@ class Drive:
         s = self.spin()
         return s[i] == s[j]
 
-    def svg(self, width: int = 380) -> str:
+    def svg(self, width: int = 380, labels: bool = True) -> str:
+        """labels=False ซ่อนชื่อชนิดการเชื่อมต่อ ใช้กับโจทย์ที่ถามให้อ่านชนิดการเชื่อมจากรูปเอง"""
         n = len(self.wheels)
         sizes = [float(s) for _, s in self.wheels]
         mx = max(sizes)
@@ -400,8 +401,9 @@ class Drive:
                            f'<line x1="{a}" y1="{cy + ra}" x2="{b}" y2="{cy - rb}" '
                            f'stroke="{ACCENT}" stroke-width="1.6"/>')
                 body.append(top)
-            mid = (a + b) // 2
-            body.append(_label(mid, cy - max(ra, rb) - 10, LINKS[k][1], 11))
+            if labels:
+                mid = (a + b) // 2
+                body.append(_label(mid, cy - max(ra, rb) - 10, LINKS[k][1], 11))
         return _svg(width, cy + max(rs) + 30, "".join(body))
 
     def alt(self) -> str:
@@ -413,8 +415,8 @@ class Drive:
         sz = " · ".join(f"{n} ขนาด {_num(s)}" for n, s in self.wheels)
         return f"ระบบส่งกำลังเรียงกัน: {sz} · " + " · ".join(parts)
 
-    def fig(self, fid: str = "fig1", caption: str = "ระบบส่งกำลัง") -> dict:
-        return {"id": fid, "type": "svg", "svg": self.svg(), "alt": self.alt(), "caption": caption}
+    def fig(self, fid: str = "fig1", caption: str = "ระบบส่งกำลัง", labels: bool = True) -> dict:
+        return {"id": fid, "type": "svg", "svg": self.svg(labels=labels), "alt": self.alt(), "caption": caption}
 
 
 # ============================================================ แรงและสมดุล
@@ -450,14 +452,23 @@ class Forces:
         mx = max(max(abs(float(x)), abs(float(y))) for _, x, y in self.v)
         sc = scale or (width / 2 - 42) / mx
         body = [f'<circle cx="{cx}" cy="{cy}" r="4" fill="currentColor" stroke="none"/>']
+        xs, ys = [cx], [cy]
         for name, x, y in self.v:
             ex = cx + float(x) * sc
             ey = cy - float(y) * sc          # y ในภาพชี้ลง จึงกลับเครื่องหมาย
             body.append(_arrow(cx, cy, int(round(ex)), int(round(ey))))
             lx = cx + float(x) * sc * 1.18
             ly = cy - float(y) * sc * 1.18
-            body.append(_label(int(round(lx)), int(round(ly)) + 4, name, 12))
-        return _svg(width, width, "".join(body))
+            body.append(_label(int(round(lx)), int(round(ly)) + 4, name, 13))
+            xs += [ex, lx]
+            ys += [ey, ly]
+        # ตัดพื้นที่ว่างรอบรูปออก ให้ลูกศรและตัวอักษรใหญ่พอเมื่อย่อลงในหน้าจอ
+        m = 18
+        x0, y0 = min(xs) - m, min(ys) - m
+        w, h = max(xs) - min(xs) + 2 * m, max(ys) - min(ys) + 2 * m
+        return (f'<svg viewBox="{x0:.0f} {y0:.0f} {w:.0f} {h:.0f}" xmlns="http://www.w3.org/2000/svg" role="img">'
+                f'<g fill="none" stroke="currentColor" stroke-width="2" '
+                f'stroke-linecap="round" stroke-linejoin="round">{"".join(body)}</g></svg>')
 
     def alt(self) -> str:
         def d(x, y):
@@ -488,6 +499,89 @@ def projections(cells) -> dict:
     side = {(y, zmax - z) for _, y, z in cs}
     top = {(x, ymax - y) for x, y, _ in cs}
     return {"front": front, "side": side, "top": top}
+
+
+def raw_views(cells) -> dict:
+    """ภาพฉายแบบพิกัดดิบ ไม่พลิกแกน ใช้สำหรับคำนวณ (ภาพที่วาดให้ใช้ projections())"""
+    cs = [tuple(c) for c in cells]
+    return {"front": frozenset((x, z) for x, _, z in cs),
+            "side": frozenset((y, z) for _, y, z in cs),
+            "top": frozenset((x, y) for x, y, _ in cs)}
+
+
+def canon2d(cells) -> tuple:
+    """ตัวแทนของรูปแบนที่ไม่สนการหมุนและการพลิก — รูปที่ได้ค่าเท่ากันคือรูปเดียวกันเมื่อหมุนหรือพลิก"""
+    import shape2d as S2
+    return min(tuple(sorted(o)) for o in S2.rotations(cells) + S2.reflections(cells))
+
+
+def congruent(a, b) -> bool:
+    return canon2d(a) == canon2d(b)
+
+
+def cube_bounds(front, top) -> tuple:
+    """จำนวนลูกบาศก์น้อยที่สุดและมากที่สุด ที่ให้ภาพด้านหน้า (x,z) และภาพด้านบน (x,y) ตามที่กำหนด
+
+    มากที่สุด = ทุกตำแหน่งที่ไม่ขัดกับภาพทั้งสอง
+    น้อยที่สุด = ไล่ชุดย่อยของตำแหน่งเหล่านั้นจากเล็กไปใหญ่จนเจอชุดแรกที่ให้ภาพครบทั้งสอง
+    """
+    from itertools import combinations
+    front, top = frozenset(front), frozenset(top)
+    xs = {x for x, _ in front}
+    assert xs == {x for x, _ in top}, "ภาพด้านหน้ากับด้านบนต้องกว้างเท่ากัน"
+    cand = [(x, y, z) for x, z in front for xx, y in top if xx == x]
+    for k in range(1, len(cand) + 1):
+        for sub in combinations(cand, k):
+            v = raw_views(sub)
+            if v["front"] == front and v["top"] == top:
+                return k, len(cand)
+    raise AssertionError("ไม่มีทรงใดให้ภาพทั้งสองนี้")
+
+
+def iso_view_svg(cells, view: str | None = None) -> str:
+    """ภาพสามมิติจาก shape3d พร้อมลูกศรบอกทิศที่มอง
+
+    view = "side" ลูกศรชี้เข้าหน้าที่แรเงาเข้มที่สุด (มองในทิศ -x เห็นระนาบ y-z)
+    view = "front" ลูกศรชี้เข้าหน้าที่แรเงาอ่อนที่สุด (มองในทิศ -y เห็นระนาบ x-z)
+    """
+    import shape3d as S3
+    cells = S3.normalize(cells)
+    svg = S3.iso_svg(cells)
+    if view is None:
+        return svg
+    pts = [S3._pt(x + dx, y + dy, z + dz) for x, y, z in cells
+           for dx in (0, 1) for dy in (0, 1) for dz in (0, 1)]
+    minx = min(p[0] for p in pts)
+    miny = min(p[1] for p in pts)
+
+    def P(x, y, z):
+        px, py = S3._pt(x, y, z)
+        return px - minx + S3.PAD, py - miny + S3.PAD
+
+    X = max(x for x, _, _ in cells) + 1
+    Y = max(y for _, y, _ in cells) + 1
+    Z = max(z for _, _, z in cells) + 1
+    if view == "side":
+        a, b = P(X + 2.4, Y / 2, Z / 2), P(X + 0.5, Y / 2, Z / 2)
+    elif view == "front":
+        a, b = P(X / 2, Y + 2.4, Z / 2), P(X / 2, Y + 0.5, Z / 2)
+    else:
+        raise ValueError(view)
+    arrow = _arrow(round(a[0]), round(a[1]), round(b[0]), round(b[1]))
+    label = _label(round(a[0]), round(a[1]) + 16, "มองทางนี้", 12)
+    head, rest = svg.split(">", 1)
+    w0, h0 = [float(v) for v in head.split('viewBox="0 0 ')[1].split('"')[0].split()]
+    x0 = min(0, a[0] - 40)
+    y0 = min(0, a[1] - 12)
+    x1 = max(w0, a[0] + 40)
+    y1 = max(h0, a[1] + 24)
+    new_head = head.replace(f'viewBox="0 0 {w0:.0f} {h0:.0f}"',
+                            f'viewBox="{x0:.0f} {y0:.0f} {x1 - x0:.0f} {y1 - y0:.0f}"')
+    assert new_head != head, "แก้ viewBox ไม่สำเร็จ"
+    body = rest[: -len("</svg>")]
+    extra = (f'<g fill="none" stroke-width="2.2" stroke-linecap="round">{arrow}</g>'
+             f'<g>{label}</g>')
+    return new_head + ">" + body + extra + "</svg>"
 
 
 # ============================================================ ตรวจตัวเอง
@@ -553,6 +647,23 @@ def _selfcheck() -> int:
     # ทรงที่หนาขึ้นในแกน y ต้องไม่เปลี่ยนภาพด้านหน้า
     thick = cells + [(0, 1, 0), (1, 1, 0), (2, 1, 0), (0, 1, 1)]
     ok(projections(thick)["front"] == pr["front"], "เพิ่มความหนาในแกน y ไม่ควรเปลี่ยนภาพด้านหน้า")
+
+    # --- รูปแบนเท่ากันเมื่อหมุนหรือพลิก
+    ok(congruent({(0, 0), (1, 0), (2, 0), (0, 1)}, {(0, 0), (0, 1), (0, 2), (1, 2)}), "ตัว L หมุนแล้วต้องเท่ากัน")
+    ok(congruent({(0, 0), (1, 0), (2, 0), (0, 1)}, {(0, 0), (1, 0), (2, 0), (2, 1)}), "ตัว L พลิกแล้วต้องเท่ากัน")
+    ok(not congruent({(0, 0), (1, 0), (2, 0)}, {(0, 0), (1, 0), (0, 1)}), "ตัว I กับตัว L ต้องไม่เท่ากัน")
+
+    # --- จำนวนก้อนน้อยสุดและมากสุดจากสองภาพ
+    # ด้านหน้า 2 คอลัมน์สูง 1 · ด้านบนเต็ม 2x2 → น้อยสุด 2 (ทแยง) มากสุด 4
+    ok(cube_bounds({(0, 0), (1, 0)}, {(0, 0), (1, 0), (0, 1), (1, 1)}) == (4, 4),
+       "ชั้นเดียวเต็มแผ่นต้องใช้ 4 ก้อนพอดี")
+    ok(cube_bounds({(0, 0), (0, 1), (1, 0), (1, 1)}, {(0, 0), (1, 0), (0, 1), (1, 1)}) == (4, 8),
+       "หน้าเต็ม 2x2 บนเต็ม 2x2 น้อยสุด 4 มากสุด 8")
+
+    # --- ลูกศรบอกทิศมอง
+    for v in ("front", "side"):
+        s = iso_view_svg(cells, v)
+        ok(s.startswith("<svg viewBox=") and "มองทางนี้" in s and s.endswith("</svg>"), f"ภาพมีลูกศร {v}")
 
     # --- SVG ต้องสร้างได้และมี viewBox
     for svg in [lv.svg(), Tackle(2, 600).svg(), d.svg(), f.svg()]:

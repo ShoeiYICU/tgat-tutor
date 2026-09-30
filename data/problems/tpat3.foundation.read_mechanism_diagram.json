@@ -1,0 +1,539 @@
+{
+  "schema_version": "1.0",
+  "topic_id": "tpat3.foundation.read_mechanism_diagram",
+  "problems": [
+    {
+      "id": "prob.tpat3.foundation.read_mechanism_diagram.0001",
+      "topic_ids": [
+        "tpat3.foundation.read_mechanism_diagram"
+      ],
+      "primary_topic_id": "tpat3.foundation.read_mechanism_diagram",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 80,
+      "stem_md": "จากรูป มีเส้นเชือกที่ดึงบล็อกล่างขึ้นกี่เส้น\n\n[[fig1]]",
+      "figures": [
+        {
+          "id": "fig1",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 300 263\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><line x1=\"14\" y1=\"22\" x2=\"286\" y2=\"22\" stroke-width=\"3\"/><line x1=\"14\" y1=\"22\" x2=\"21\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"26\" y1=\"22\" x2=\"33\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"38\" y1=\"22\" x2=\"45\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"50\" y1=\"22\" x2=\"57\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"62\" y1=\"22\" x2=\"69\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"74\" y1=\"22\" x2=\"81\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"86\" y1=\"22\" x2=\"93\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"98\" y1=\"22\" x2=\"105\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"110\" y1=\"22\" x2=\"117\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"122\" y1=\"22\" x2=\"129\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"134\" y1=\"22\" x2=\"141\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"146\" y1=\"22\" x2=\"153\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"158\" y1=\"22\" x2=\"165\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"170\" y1=\"22\" x2=\"177\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"182\" y1=\"22\" x2=\"189\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"194\" y1=\"22\" x2=\"201\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"206\" y1=\"22\" x2=\"213\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"218\" y1=\"22\" x2=\"225\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"230\" y1=\"22\" x2=\"237\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"242\" y1=\"22\" x2=\"249\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"254\" y1=\"22\" x2=\"261\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"266\" y1=\"22\" x2=\"273\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"278\" y1=\"22\" x2=\"285\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"149\" y1=\"22\" x2=\"149\" y2=\"41\"/><rect x=\"90\" y=\"41\" width=\"118\" height=\"38\" rx=\"6\"/><rect x=\"92\" y=\"163\" width=\"90\" height=\"38\" rx=\"6\"/><line x1=\"98\" y1=\"79\" x2=\"98\" y2=\"182\" stroke=\"var(--accent, #3b5bdb)\" stroke-width=\"2\"/><circle cx=\"98\" cy=\"79\" r=\"3.5\" fill=\"var(--accent, #3b5bdb)\" stroke=\"none\"/><line x1=\"124\" y1=\"60\" x2=\"124\" y2=\"182\" stroke=\"var(--accent, #3b5bdb)\" stroke-width=\"2\"/><line x1=\"150\" y1=\"60\" x2=\"150\" y2=\"182\" stroke=\"var(--accent, #3b5bdb)\" stroke-width=\"2\"/><line x1=\"176\" y1=\"60\" x2=\"176\" y2=\"182\" stroke=\"var(--accent, #3b5bdb)\" stroke-width=\"2\"/><path d=\"M 98 182 A 13 13 0 0 0 124 182\" stroke=\"var(--accent, #3b5bdb)\" stroke-width=\"2\"/><path d=\"M 150 182 A 13 13 0 0 0 176 182\" stroke=\"var(--accent, #3b5bdb)\" stroke-width=\"2\"/><path d=\"M 124 60 A 13 13 0 0 1 150 60\" stroke=\"var(--accent, #3b5bdb)\" stroke-width=\"2\"/><path d=\"M 176 60 A 13 13 0 0 1 202 60\" stroke=\"var(--accent, #3b5bdb)\" stroke-width=\"2\"/><line x1=\"202\" y1=\"60\" x2=\"202\" y2=\"188\" stroke=\"var(--accent, #3b5bdb)\" stroke-width=\"2\"/><g stroke=\"var(--accent, #3b5bdb)\"><line x1=\"202\" y1=\"188\" x2=\"202\" y2=\"206\"/><polygon points=\"202,214 197,205 207,205\" fill=\"var(--accent, #3b5bdb)\" stroke=\"none\"/></g><text x=\"206\" y=\"228\" font-size=\"12\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\">แรงดึง</text><circle cx=\"137\" cy=\"60\" r=\"13\"/><circle cx=\"137\" cy=\"60\" r=\"2.5\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"189\" cy=\"60\" r=\"13\"/><circle cx=\"189\" cy=\"60\" r=\"2.5\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"111\" cy=\"182\" r=\"13\"/><circle cx=\"111\" cy=\"182\" r=\"2.5\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"163\" cy=\"182\" r=\"13\"/><circle cx=\"163\" cy=\"182\" r=\"2.5\" fill=\"currentColor\" stroke=\"none\"/><line x1=\"137\" y1=\"201\" x2=\"137\" y2=\"215\"/><rect x=\"92\" y=\"215\" width=\"90\" height=\"32\" rx=\"4\"/><text x=\"137\" y=\"236\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">600 N</text></g></svg>",
+          "alt": "ระบบรอกพวง: บล็อกบนยึดเพดานมี 2 ล้อ บล็อกล่างเคลื่อนที่ได้มี 2 ล้อ แขวนของหนัก 600 นิวตัน มีเส้นเชือกพาดระหว่างสองบล็อก 4 เส้น ปลายเชือกอีกด้านเป็นแรงดึงลง",
+          "caption": "ระบบรอกพวง"
+        }
+      ],
+      "choices": [
+        {
+          "md": "$3$ เส้น",
+          "is_answer": false
+        },
+        {
+          "md": "$5$ เส้น",
+          "is_answer": false
+        },
+        {
+          "md": "$4$ เส้น",
+          "is_answer": true
+        },
+        {
+          "md": "$2$ เส้น",
+          "is_answer": false
+        },
+        {
+          "md": "$1$ เส้น",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "หาบล็อกล่าง",
+          "why_md": "คือกรอบที่แขวนของไว้"
+        },
+        {
+          "do_md": "ไล่เส้นแนวตั้งระหว่างสองบล็อก",
+          "why_md": "นับได้ $4$ เส้น รวมเส้นที่ผูกไว้ด้วย"
+        },
+        {
+          "do_md": "ไม่นับปลายเชือกที่มือดึง",
+          "why_md": "เพราะเส้นนั้นลงมาจากบล็อกบนตรงถึงมือ ไม่ได้ต่อกับบล็อกล่าง"
+        }
+      ],
+      "answer_explanation_md": "ตอบ $4$ เส้น นับเฉพาะช่วงเชือกระหว่างบล็อกบนกับบล็อกล่าง",
+      "hints": [
+        "เริ่มจากหาว่ากรอบไหนเคลื่อนที่ไปกับของ",
+        "นับเฉพาะช่วงเชือกที่อยู่ระหว่างสองกรอบ",
+        "ปลายเชือกที่มีลูกศรชี้ลงต่อกับบล็อกใด"
+      ],
+      "distractor_reasons": {
+        "0": "ไม่นับเส้นซ้ายสุดที่ผูกไว้กับบล็อกบน ทั้งที่มันก็ดึงบล็อกล่างขึ้นเช่นกัน",
+        "1": "นับปลายเชือกที่มือดึงด้วย ซึ่งไม่ได้ต่อกับบล็อกล่าง",
+        "3": "นับจำนวนล้อในบล็อกล่าง ไม่ใช่จำนวนเส้นเชือก",
+        "4": "มองเห็นเชือกเป็นเส้นเดียวยาวต่อกัน แต่ส่วนที่รับน้ำหนักคือแต่ละช่วงระหว่างสองบล็อก"
+      },
+      "misconception_tags": [
+        "count_wheels_not_ropes"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.foundation.read_mechanism_diagram.0002",
+      "topic_ids": [
+        "tpat3.foundation.read_mechanism_diagram"
+      ],
+      "primary_topic_id": "tpat3.foundation.read_mechanism_diagram",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 80,
+      "stem_md": "จากรูป ล้อคู่ใดต่อกันด้วยสายพานไขว้\n\n[[fig1]]",
+      "figures": [
+        {
+          "id": "fig1",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 380 146\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"39\" cy=\"80\" r=\"25\"/><circle cx=\"39\" cy=\"80\" r=\"3\" fill=\"currentColor\" stroke=\"none\"/><text x=\"39\" y=\"123\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">A (20)</text><circle cx=\"140\" cy=\"80\" r=\"36\"/><circle cx=\"140\" cy=\"80\" r=\"3\" fill=\"currentColor\" stroke=\"none\"/><text x=\"140\" y=\"134\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">B (40)</text><circle cx=\"241\" cy=\"80\" r=\"25\"/><circle cx=\"241\" cy=\"80\" r=\"3\" fill=\"currentColor\" stroke=\"none\"/><text x=\"241\" y=\"123\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">C (20)</text><circle cx=\"336\" cy=\"80\" r=\"30\"/><circle cx=\"336\" cy=\"80\" r=\"3\" fill=\"currentColor\" stroke=\"none\"/><text x=\"336\" y=\"128\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">D (30)</text><line x1=\"64\" y1=\"80\" x2=\"104\" y2=\"80\" stroke=\"var(--accent, #3b5bdb)\" stroke-width=\"2\" stroke-dasharray=\"3 3\"/><line x1=\"140\" y1=\"44\" x2=\"241\" y2=\"105\" stroke=\"var(--accent, #3b5bdb)\" stroke-width=\"1.6\"/><line x1=\"140\" y1=\"116\" x2=\"241\" y2=\"55\" stroke=\"var(--accent, #3b5bdb)\" stroke-width=\"1.6\"/><line x1=\"241\" y1=\"55\" x2=\"336\" y2=\"50\" stroke=\"var(--accent, #3b5bdb)\" stroke-width=\"1.6\"/><line x1=\"241\" y1=\"105\" x2=\"336\" y2=\"110\" stroke=\"var(--accent, #3b5bdb)\" stroke-width=\"1.6\"/></g></svg>",
+          "alt": "ระบบส่งกำลังเรียงกัน: A ขนาด 20 · B ขนาด 40 · C ขนาด 20 · D ขนาด 30 · A กับ B เชื่อมแบบขบกัน · B กับ C เชื่อมแบบสายพานไขว้ · C กับ D เชื่อมแบบสายพานไม่ไขว้",
+          "caption": "ระบบส่งกำลังสามคู่"
+        }
+      ],
+      "choices": [
+        {
+          "md": "A กับ B",
+          "is_answer": false
+        },
+        {
+          "md": "C กับ D",
+          "is_answer": false
+        },
+        {
+          "md": "A กับ D",
+          "is_answer": false
+        },
+        {
+          "md": "B กับ C",
+          "is_answer": true
+        },
+        {
+          "md": "ไม่มีคู่ใดเลย",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ไล่ทีละคู่จากซ้ายไปขวา",
+          "why_md": "ดูเส้นที่อยู่ระหว่างล้อแต่ละคู่"
+        },
+        {
+          "do_md": "คู่ A กับ B",
+          "why_md": "เส้นประ คือฟันขบกัน"
+        },
+        {
+          "do_md": "คู่ B กับ C",
+          "why_md": "เส้นสองเส้นตัดกัน คือสายพานไขว้"
+        },
+        {
+          "do_md": "คู่ C กับ D",
+          "why_md": "เส้นคู่ขนาน คือสายพานธรรมดา"
+        }
+      ],
+      "answer_explanation_md": "ตอบ B กับ C เพราะเป็นคู่เดียวที่เส้นสายพานตัดกัน",
+      "hints": [
+        "ดูเส้นที่อยู่ระหว่างล้อแต่ละคู่ อย่าดูที่ตัวล้อ",
+        "สายพานไขว้ต่างจากสายพานธรรมดาตรงไหน",
+        "เส้นประระหว่างล้อไม่ใช่สายพาน"
+      ],
+      "distractor_reasons": {
+        "0": "คู่นี้มีเส้นประระหว่างล้อ หมายถึงเฟืองขบกัน",
+        "1": "คู่นี้เป็นเส้นคู่ขนาน หมายถึงสายพานไม่ไขว้",
+        "2": "สองล้อนี้ไม่ได้ต่อกันโดยตรง มีล้ออื่นคั่นอยู่",
+        "4": "มีเส้นสองเส้นที่ตัดกันระหว่างล้อคู่หนึ่ง ซึ่งคือสายพานไขว้"
+      },
+      "misconception_tags": [
+        "belt_vs_mesh"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.foundation.read_mechanism_diagram.0003",
+      "topic_ids": [
+        "tpat3.foundation.read_mechanism_diagram"
+      ],
+      "primary_topic_id": "tpat3.foundation.read_mechanism_diagram",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 75,
+      "stem_md": "จากรูป แขนโมเมนต์ของแรง ข รอบจุดหมุนยาวกี่เมตร\n\n[[fig1]]",
+      "figures": [
+        {
+          "id": "fig1",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 360 136\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><line x1=\"24\" y1=\"74\" x2=\"336\" y2=\"74\" stroke-width=\"4\"/><polygon points=\"149,77 137,100 161,100\" fill=\"currentColor\" stroke=\"none\"/><line x1=\"127\" y1=\"100\" x2=\"171\" y2=\"100\"/><g stroke=\"currentColor\"><line x1=\"24\" y1=\"34\" x2=\"24\" y2=\"60\"/><polygon points=\"24,68 19,59 29,59\" fill=\"currentColor\" stroke=\"none\"/></g><text x=\"24\" y=\"28\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">ก 30 N</text><line x1=\"24\" y1=\"108\" x2=\"149\" y2=\"108\" stroke=\"var(--accent, #3b5bdb)\" stroke-width=\"1.5\"/><text x=\"86\" y=\"124\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">2 m</text><g stroke=\"currentColor\"><line x1=\"336\" y1=\"34\" x2=\"336\" y2=\"60\"/><polygon points=\"336,68 331,59 341,59\" fill=\"currentColor\" stroke=\"none\"/></g><text x=\"336\" y=\"28\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">ข 20 N</text><line x1=\"336\" y1=\"108\" x2=\"149\" y2=\"108\" stroke=\"var(--accent, #3b5bdb)\" stroke-width=\"1.5\"/><text x=\"242\" y=\"124\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">3 m</text></g></svg>",
+          "alt": "คานยาว 5 เมตร จุดหมุนอยู่ห่างจากปลายซ้าย 2 เมตร · ก 30 นิวตัน กดลงห่างจากจุดหมุนไปทางซ้าย 2 เมตร · ข 20 นิวตัน กดลงห่างจากจุดหมุนไปทางขวา 3 เมตร",
+          "caption": "คานและเส้นบอกระยะ"
+        }
+      ],
+      "choices": [
+        {
+          "md": "$3$ เมตร",
+          "is_answer": true
+        },
+        {
+          "md": "$20$ เมตร",
+          "is_answer": false
+        },
+        {
+          "md": "$1.5$ เมตร",
+          "is_answer": false
+        },
+        {
+          "md": "$2$ เมตร",
+          "is_answer": false
+        },
+        {
+          "md": "$5$ เมตร",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "หาเส้นบอกระยะที่เริ่มจากแรง ข",
+          "why_md": "เส้นนั้นลากไปจบที่จุดหมุน"
+        },
+        {
+          "do_md": "อ่านตัวเลขกำกับเส้นนั้น",
+          "why_md": "ได้ $3$ เมตร ซึ่งคือแขนโมเมนต์พอดี"
+        }
+      ],
+      "answer_explanation_md": "ตอบ $3$ เมตร อ่านจากเส้นบอกระยะที่ลากจากแรง ข ถึงจุดหมุน",
+      "hints": [
+        "แขนโมเมนต์วัดจากไหนถึงไหน",
+        "มีเส้นบอกระยะสองเส้น เส้นไหนเป็นของแรง ข",
+        "ตัวเลขที่มีหน่วย N คือแรง ไม่ใช่ระยะ"
+      ],
+      "distractor_reasons": {
+        "1": "อ่านขนาดแรงของ ข ที่เขียนกำกับไว้ แทนระยะ",
+        "2": "ใช้ครึ่งหนึ่งของระยะ เพราะเข้าใจว่าต้องวัดถึงกึ่งกลางแขน",
+        "3": "เป็นระยะของแรง ก ซึ่งอยู่อีกด้านของจุดหมุน",
+        "4": "ใช้ความยาวคานทั้งท่อน ซึ่งวัดจากปลายซ้าย ไม่ใช่จากจุดหมุน"
+      },
+      "misconception_tags": [
+        "moment_arm_from_end"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.foundation.read_mechanism_diagram.0004",
+      "topic_ids": [
+        "tpat3.foundation.read_mechanism_diagram"
+      ],
+      "primary_topic_id": "tpat3.foundation.read_mechanism_diagram",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 60,
+      "stem_md": "ในรูป เส้นหนาที่มีขีดเฉียงเรียงอยู่ด้านบนหมายถึงอะไร\n\n[[fig1]]",
+      "figures": [
+        {
+          "id": "fig1",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 300 263\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><line x1=\"14\" y1=\"22\" x2=\"286\" y2=\"22\" stroke-width=\"3\"/><line x1=\"14\" y1=\"22\" x2=\"21\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"26\" y1=\"22\" x2=\"33\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"38\" y1=\"22\" x2=\"45\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"50\" y1=\"22\" x2=\"57\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"62\" y1=\"22\" x2=\"69\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"74\" y1=\"22\" x2=\"81\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"86\" y1=\"22\" x2=\"93\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"98\" y1=\"22\" x2=\"105\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"110\" y1=\"22\" x2=\"117\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"122\" y1=\"22\" x2=\"129\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"134\" y1=\"22\" x2=\"141\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"146\" y1=\"22\" x2=\"153\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"158\" y1=\"22\" x2=\"165\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"170\" y1=\"22\" x2=\"177\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"182\" y1=\"22\" x2=\"189\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"194\" y1=\"22\" x2=\"201\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"206\" y1=\"22\" x2=\"213\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"218\" y1=\"22\" x2=\"225\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"230\" y1=\"22\" x2=\"237\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"242\" y1=\"22\" x2=\"249\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"254\" y1=\"22\" x2=\"261\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"266\" y1=\"22\" x2=\"273\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"278\" y1=\"22\" x2=\"285\" y2=\"15\" stroke-width=\"1.2\"/><line x1=\"149\" y1=\"22\" x2=\"149\" y2=\"41\"/><rect x=\"90\" y=\"41\" width=\"118\" height=\"38\" rx=\"6\"/><rect x=\"92\" y=\"163\" width=\"90\" height=\"38\" rx=\"6\"/><line x1=\"98\" y1=\"79\" x2=\"98\" y2=\"182\" stroke=\"var(--accent, #3b5bdb)\" stroke-width=\"2\"/><circle cx=\"98\" cy=\"79\" r=\"3.5\" fill=\"var(--accent, #3b5bdb)\" stroke=\"none\"/><line x1=\"124\" y1=\"60\" x2=\"124\" y2=\"182\" stroke=\"var(--accent, #3b5bdb)\" stroke-width=\"2\"/><line x1=\"150\" y1=\"60\" x2=\"150\" y2=\"182\" stroke=\"var(--accent, #3b5bdb)\" stroke-width=\"2\"/><line x1=\"176\" y1=\"60\" x2=\"176\" y2=\"182\" stroke=\"var(--accent, #3b5bdb)\" stroke-width=\"2\"/><path d=\"M 98 182 A 13 13 0 0 0 124 182\" stroke=\"var(--accent, #3b5bdb)\" stroke-width=\"2\"/><path d=\"M 150 182 A 13 13 0 0 0 176 182\" stroke=\"var(--accent, #3b5bdb)\" stroke-width=\"2\"/><path d=\"M 124 60 A 13 13 0 0 1 150 60\" stroke=\"var(--accent, #3b5bdb)\" stroke-width=\"2\"/><path d=\"M 176 60 A 13 13 0 0 1 202 60\" stroke=\"var(--accent, #3b5bdb)\" stroke-width=\"2\"/><line x1=\"202\" y1=\"60\" x2=\"202\" y2=\"188\" stroke=\"var(--accent, #3b5bdb)\" stroke-width=\"2\"/><g stroke=\"var(--accent, #3b5bdb)\"><line x1=\"202\" y1=\"188\" x2=\"202\" y2=\"206\"/><polygon points=\"202,214 197,205 207,205\" fill=\"var(--accent, #3b5bdb)\" stroke=\"none\"/></g><text x=\"206\" y=\"228\" font-size=\"12\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\">แรงดึง</text><circle cx=\"137\" cy=\"60\" r=\"13\"/><circle cx=\"137\" cy=\"60\" r=\"2.5\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"189\" cy=\"60\" r=\"13\"/><circle cx=\"189\" cy=\"60\" r=\"2.5\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"111\" cy=\"182\" r=\"13\"/><circle cx=\"111\" cy=\"182\" r=\"2.5\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"163\" cy=\"182\" r=\"13\"/><circle cx=\"163\" cy=\"182\" r=\"2.5\" fill=\"currentColor\" stroke=\"none\"/><line x1=\"137\" y1=\"201\" x2=\"137\" y2=\"215\"/><rect x=\"92\" y=\"215\" width=\"90\" height=\"32\" rx=\"4\"/><text x=\"137\" y=\"236\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">600 N</text></g></svg>",
+          "alt": "ระบบรอกพวง: บล็อกบนยึดเพดานมี 2 ล้อ บล็อกล่างเคลื่อนที่ได้มี 2 ล้อ แขวนของหนัก 600 นิวตัน มีเส้นเชือกพาดระหว่างสองบล็อก 4 เส้น ปลายเชือกอีกด้านเป็นแรงดึงลง",
+          "caption": "ระบบรอกพวง"
+        }
+      ],
+      "choices": [
+        {
+          "md": "ของที่ถูกยก",
+          "is_answer": false
+        },
+        {
+          "md": "ผิวที่ยึดแน่นกับที่ เช่น เพดาน",
+          "is_answer": true
+        },
+        {
+          "md": "รอกที่เคลื่อนที่ได้",
+          "is_answer": false
+        },
+        {
+          "md": "สปริงที่ยืดหดได้",
+          "is_answer": false
+        },
+        {
+          "md": "เชือกที่ใช้ดึง",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ลายขีดเฉียงเป็นสัญลักษณ์มาตรฐาน",
+          "why_md": "ใช้แทนผิวที่ยึดแน่น เช่น เพดาน ผนัง หรือพื้น"
+        },
+        {
+          "do_md": "บล็อกบนแขวนกับผิวนี้",
+          "why_md": "บล็อกบนจึงเป็นรอกตายตัว ไม่เคลื่อนที่"
+        }
+      ],
+      "answer_explanation_md": "ตอบว่าเป็นผิวที่ยึดแน่น ลายขีดเฉียงใช้บอกว่าส่วนนั้นไม่เคลื่อนที่",
+      "hints": [
+        "ในรูป มีอะไรบ้างที่ไม่ควรเคลื่อนที่เลย",
+        "บล็อกบนแขวนอยู่กับอะไร",
+        "ลายขีดเฉียงมักอยู่ด้านที่ติดกับโครงสร้างอาคาร"
+      ],
+      "distractor_reasons": {
+        "0": "ของวาดเป็นกล่องที่มีตัวเลขน้ำหนัก",
+        "2": "รอกวาดเป็นวงกลมมีจุดตรงกลาง อยู่ในกรอบ",
+        "3": "สปริงมักวาดเป็นเส้นซิกแซก ไม่ใช่เส้นตรงมีขีดเฉียง",
+        "4": "เชือกในรูปวาดเป็นเส้นสีเน้นที่วิ่งขึ้นลง ไม่มีขีดเฉียง"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.foundation.read_mechanism_diagram.0005",
+      "topic_ids": [
+        "tpat3.foundation.read_mechanism_diagram"
+      ],
+      "primary_topic_id": "tpat3.foundation.read_mechanism_diagram",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 75,
+      "stem_md": "แรงสามแรงในรูปวาดตามมาตราส่วนเดียวกัน แรงใดมีขนาดมากที่สุด\n\n[[fig1]]",
+      "figures": [
+        {
+          "id": "fig1",
+          "type": "svg",
+          "svg": "<svg viewBox=\"84 84 211 148\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"150\" cy=\"150\" r=\"4\" fill=\"currentColor\" stroke=\"none\"/><g stroke=\"var(--accent, #3b5bdb)\"><line x1=\"150\" y1=\"150\" x2=\"248\" y2=\"150\"/><polygon points=\"258,150 248,155 248,145\" fill=\"var(--accent, #3b5bdb)\" stroke=\"none\"/></g><text x=\"277\" y=\"154\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">ก</text><g stroke=\"var(--accent, #3b5bdb)\"><line x1=\"150\" y1=\"150\" x2=\"150\" y2=\"120\"/><polygon points=\"150,110 155,120 145,120\" fill=\"var(--accent, #3b5bdb)\" stroke=\"none\"/></g><text x=\"150\" y=\"106\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">ข</text><g stroke=\"var(--accent, #3b5bdb)\"><line x1=\"150\" y1=\"150\" x2=\"116\" y2=\"196\"/><polygon points=\"110,204 112,193 120,199\" fill=\"var(--accent, #3b5bdb)\" stroke=\"none\"/></g><text x=\"102\" y=\"218\" font-size=\"13\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">ค</text></g></svg>",
+          "alt": "แรงกระทำที่จุดเดียวกัน: ก ขนาด 8 นิวตัน ไปทางขวา · ข ขนาด 3 นิวตัน ขึ้น · ค ขนาด 5 นิวตัน เฉียง (-3, -4)",
+          "caption": "แรงสามแรงที่วาดตามมาตราส่วน"
+        }
+      ],
+      "choices": [
+        {
+          "md": "บอกไม่ได้ถ้าไม่มีตัวเลขกำกับ",
+          "is_answer": false
+        },
+        {
+          "md": "แรง ข",
+          "is_answer": false
+        },
+        {
+          "md": "ทุกแรงเท่ากัน",
+          "is_answer": false
+        },
+        {
+          "md": "แรง ค",
+          "is_answer": false
+        },
+        {
+          "md": "แรง ก",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ในรูปที่วาดตามมาตราส่วน",
+          "why_md": "ความยาวลูกศรแทนขนาดของแรง"
+        },
+        {
+          "do_md": "เทียบความยาวจากจุดเริ่มถึงหัวลูกศร",
+          "why_md": "ก ยาวที่สุด รองลงมาคือ ค แล้วจึงเป็น ข"
+        }
+      ],
+      "answer_explanation_md": "ตอบแรง ก เพราะลูกศรยาวที่สุดเมื่อวาดตามมาตราส่วนเดียวกัน",
+      "hints": [
+        "ในรูปที่วาดตามมาตราส่วน ขนาดของแรงดูจากอะไร",
+        "ลูกศรที่เอียงต้องวัดตามแนวเอียง ไม่ใช่ความกว้างหรือความสูง",
+        "เทียบทีละคู่จะง่ายกว่าเทียบทั้งสามพร้อมกัน"
+      ],
+      "distractor_reasons": {
+        "0": "โจทย์บอกว่าวาดตามมาตราส่วน ความยาวลูกศรจึงแทนขนาดได้โดยตรง",
+        "1": "ลูกศร ข สั้นที่สุดในสามเส้น",
+        "2": "ลูกศรทั้งสามยาวไม่เท่ากัน เมื่อวาดตามมาตราส่วนเดียวกันขนาดจึงไม่เท่ากัน",
+        "3": "ลูกศร ค เอียงจึงดูยาว แต่ความยาวจริงยังสั้นกว่า ก"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.foundation.read_mechanism_diagram.0006",
+      "topic_ids": [
+        "tpat3.foundation.read_mechanism_diagram"
+      ],
+      "primary_topic_id": "tpat3.foundation.read_mechanism_diagram",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 90,
+      "stem_md": "จากรูป ล้อใดหมุนด้วยความเร็วเท่ากับล้อ B เสมอ ไม่ว่าล้อ A จะหมุนเร็วเท่าใด\n\n[[fig1]]",
+      "figures": [
+        {
+          "id": "fig1",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 380 146\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"33\" cy=\"80\" r=\"19\"/><circle cx=\"33\" cy=\"80\" r=\"3\" fill=\"currentColor\" stroke=\"none\"/><text x=\"33\" y=\"117\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">A (10)</text><circle cx=\"139\" cy=\"80\" r=\"36\"/><circle cx=\"139\" cy=\"80\" r=\"3\" fill=\"currentColor\" stroke=\"none\"/><text x=\"139\" y=\"134\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">B (40)</text><circle cx=\"251\" cy=\"80\" r=\"25\"/><circle cx=\"251\" cy=\"80\" r=\"3\" fill=\"currentColor\" stroke=\"none\"/><text x=\"251\" y=\"123\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">C (20)</text><circle cx=\"346\" cy=\"80\" r=\"19\"/><circle cx=\"346\" cy=\"80\" r=\"3\" fill=\"currentColor\" stroke=\"none\"/><text x=\"346\" y=\"117\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">D (10)</text><line x1=\"52\" y1=\"80\" x2=\"103\" y2=\"80\" stroke=\"var(--accent, #3b5bdb)\" stroke-width=\"2\" stroke-dasharray=\"3 3\"/><line x1=\"139\" y1=\"80\" x2=\"251\" y2=\"80\" stroke=\"var(--accent, #3b5bdb)\" stroke-width=\"3\"/><line x1=\"251\" y1=\"55\" x2=\"346\" y2=\"61\" stroke=\"var(--accent, #3b5bdb)\" stroke-width=\"1.6\"/><line x1=\"251\" y1=\"105\" x2=\"346\" y2=\"99\" stroke=\"var(--accent, #3b5bdb)\" stroke-width=\"1.6\"/></g></svg>",
+          "alt": "ระบบส่งกำลังเรียงกัน: A ขนาด 10 · B ขนาด 40 · C ขนาด 20 · D ขนาด 10 · A กับ B เชื่อมแบบขบกัน · B กับ C เชื่อมแบบเพลาเดียวกัน · C กับ D เชื่อมแบบสายพานไม่ไขว้",
+          "caption": "ระบบส่งกำลังสี่ล้อ"
+        }
+      ],
+      "choices": [
+        {
+          "md": "ล้อ C",
+          "is_answer": true
+        },
+        {
+          "md": "ล้อ D",
+          "is_answer": false
+        },
+        {
+          "md": "ไม่มีล้อใดเลย",
+          "is_answer": false
+        },
+        {
+          "md": "ทุกล้อเร็วเท่ากัน",
+          "is_answer": false
+        },
+        {
+          "md": "ล้อ A",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "หาเส้นหนาที่เชื่อมจุดกลางล้อ",
+          "why_md": "พบระหว่าง B กับ C"
+        },
+        {
+          "do_md": "เพลาเดียวกันแปลว่าหมุนไปด้วยกัน",
+          "why_md": "C จึงเร็วเท่ากับ B เสมอ"
+        },
+        {
+          "do_md": "คู่อื่นมีการทดตามขนาด",
+          "why_md": "ความเร็วจึงไม่เท่ากับ B"
+        }
+      ],
+      "answer_explanation_md": "ตอบล้อ C เพราะยึดเพลาเดียวกับ B จึงหมุนไปพร้อมกันเสมอ",
+      "hints": [
+        "ความเร็วเท่ากันเสมอเกิดจากการเชื่อมแบบใด",
+        "หาเส้นหนาที่ลากจากจุดกลางล้อหนึ่งไปอีกล้อหนึ่ง",
+        "สายพานและฟันเฟืองทำให้ความเร็วเปลี่ยนตามขนาดล้อ"
+      ],
+      "distractor_reasons": {
+        "1": "D ต่อกับ C ด้วยสายพานและขนาดต่างจาก C ความเร็วจึงถูกทดไปแล้ว",
+        "2": "มีเส้นหนาเชื่อมจุดกลางของ B กับอีกล้อหนึ่ง ซึ่งคือเพลาเดียวกัน",
+        "3": "ล้อที่ขนาดต่างกันและต่อด้วยฟันหรือสายพานจะหมุนเร็วไม่เท่ากัน",
+        "4": "A ขบกับ B และขนาดต่างกัน ความเร็วจึงต่างกัน"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    }
+  ],
+  "generated_from": "content/tpat3/foundation_diagram.py"
+}
