@@ -234,7 +234,7 @@ class Tackle:
         assert self.effort() * s == self.load * h, "งานเข้าไม่เท่างานออก แบบจำลองผิด"
         return s
 
-    def svg(self, width: int = 300) -> str:
+    def svg(self, width: int = 300, load_label: str | None = None) -> str:
         """เส้นเชือกวาดเป็นเส้นตรงแนวตั้งขนานกัน แล้วให้ล้ออยู่ระหว่างเส้นคู่ที่มันคล้องอยู่
 
         เส้นแนวตั้งหนึ่งเส้น = เส้นเชือกที่รับน้ำหนักหนึ่งเส้น จำนวนเส้นในภาพจึงเท่ากับ
@@ -304,16 +304,28 @@ class Tackle:
         y_box = y_bot + r + 20
         body.append(f'<line x1="{lcx}" y1="{y_bot + r + 6}" x2="{lcx}" y2="{y_box}"/>')
         body.append(f'<rect x="{lcx - bw // 2}" y="{y_box}" width="{bw}" height="32" rx="4"/>')
-        body.append(_label(lcx, y_box + 21, f"{_num(self.load)} N"))
+        # load_label ใช้ซ่อนน้ำหนักเมื่อโจทย์ถามหาน้ำหนักนั้นเอง ไม่ให้รูปเฉลยคำตอบ
+        body.append(_label(lcx, y_box + 21, load_label if load_label is not None else f"{_num(self.load)} N"))
         return _svg(width, y_box + 48, "".join(body))
 
-    def alt(self) -> str:
-        return (f"ระบบรอกพวง: บล็อกบนยึดเพดานมี {self.k} ล้อ บล็อกล่างเคลื่อนที่ได้มี {self.k} ล้อ "
-                f"แขวนของหนัก {_num(self.load)} นิวตัน มีเส้นเชือกพาดระหว่างสองบล็อก {self.ma()} เส้น "
-                f"ปลายเชือกอีกด้านเป็นแรงดึงลง")
+    def alt(self, load_label: str | None = None) -> str:
+        """บรรยายเส้นทางเชือกทีละช่วงแบบเดียวกับที่ตาเห็น แต่ไม่สรุปจำนวนเส้นเชือกให้
 
-    def fig(self, fid: str = "fig1", caption: str = "ระบบรอกพวง") -> dict:
-        return {"id": fid, "type": "svg", "svg": self.svg(), "alt": self.alt(), "caption": caption}
+        จำนวนเส้นเชือกคือสิ่งที่โจทย์รอกถามบ่อยที่สุด ถ้า alt บอกไว้ คนที่ใช้โปรแกรมอ่านหน้าจอ
+        จะได้คำตอบโดยไม่ต้องนับ ขณะที่คนดูรูปต้องนับเอง (Codex พบในการตรวจไขว้รอบ 9)
+        """
+        load = load_label if load_label is not None else f"{_num(self.load)} นิวตัน"
+        path = ["เชือกเริ่มจากจุดที่ผูกไว้ใต้บล็อกบน"]
+        for i in range(self.k):
+            path.append(f"ลงไปคล้องใต้ล้อล่างตัวที่ {i + 1}")
+            path.append(f"ขึ้นไปคล้องเหนือล้อบนตัวที่ {i + 1}")
+        path.append("แล้วปลายเชือกห้อยลงมาเป็นแรงดึง")
+        return (f"ระบบรอก: บล็อกบนยึดเพดานมี {self.k} ล้อ บล็อกล่างแขวนของหนัก {load} มี {self.k} ล้อ · "
+                + " ".join(path))
+
+    def fig(self, fid: str = "fig1", caption: str = "ระบบรอกพวง", load_label: str | None = None) -> dict:
+        return {"id": fid, "type": "svg", "svg": self.svg(load_label=load_label),
+                "alt": self.alt(load_label), "caption": caption}
 
 
 # ============================================================ ระบบส่งกำลัง
@@ -406,17 +418,22 @@ class Drive:
                 body.append(_label(mid, cy - max(ra, rb) - 10, LINKS[k][1], 11))
         return _svg(width, cy + max(rs) + 30, "".join(body))
 
-    def alt(self) -> str:
+    def alt(self, labels: bool = True) -> str:
+        """labels=False บรรยายสิ่งที่เห็นในรูปแทนการบอกชื่อกลไก ใช้กับโจทย์ที่ถามให้อ่านชนิดการเชื่อมเอง"""
+        look = {"mesh": "ขอบล้อชิดกันและมีเส้นประคั่นกลาง",
+                "belt": "มีเส้นขนานสองเส้นโอบขอบบนและขอบล่างของทั้งสองล้อ",
+                "cross": "มีเส้นสองเส้นลากจากขอบบนของล้อหนึ่งไปขอบล่างของอีกล้อ ตัดกันตรงกลาง",
+                "shaft": "มีเส้นหนาเชื่อมจุดกลางของทั้งสองล้อ"}
         parts = []
         for i, k in enumerate(self.links):
             n1 = self.wheels[i][0]
             n2 = self.wheels[i + 1][0]
-            parts.append(f"{n1} กับ {n2} เชื่อมแบบ{LINKS[k][1]}")
+            parts.append(f"{n1} กับ {n2} เชื่อมแบบ{LINKS[k][1]}" if labels else f"ระหว่าง {n1} กับ {n2} {look[k]}")
         sz = " · ".join(f"{n} ขนาด {_num(s)}" for n, s in self.wheels)
         return f"ระบบส่งกำลังเรียงกัน: {sz} · " + " · ".join(parts)
 
     def fig(self, fid: str = "fig1", caption: str = "ระบบส่งกำลัง", labels: bool = True) -> dict:
-        return {"id": fid, "type": "svg", "svg": self.svg(labels=labels), "alt": self.alt(), "caption": caption}
+        return {"id": fid, "type": "svg", "svg": self.svg(labels=labels), "alt": self.alt(labels), "caption": caption}
 
 
 # ============================================================ แรงและสมดุล
@@ -480,8 +497,21 @@ class Forces:
         return "แรงกระทำที่จุดเดียวกัน: " + " · ".join(
             f"{n} ขนาด {_num(Forces([(n, x, y)]).magnitude())} นิวตัน {d(x, y)}" for n, x, y in self.v)
 
-    def fig(self, fid: str = "fig1", caption: str = "แรงที่กระทำต่อวัตถุ") -> dict:
-        return {"id": fid, "type": "svg", "svg": self.svg(), "alt": self.alt(), "caption": caption}
+    def alt_components(self) -> str:
+        """บรรยายลูกศรเป็นระยะแนวนอนและแนวตั้งบนตาราง ไม่บอกขนาดตรง ๆ
+
+        ใช้กับโจทย์ที่ให้เทียบความยาวลูกศรในรูป คนดูรูปต้องเทียบเอง คนใช้โปรแกรมอ่านหน้าจอ
+        ก็ควรต้องคำนวณเอง ไม่ใช่ได้ขนาดสำเร็จรูป (Codex พบในการตรวจไขว้รอบ 9)
+        """
+        def part(v, pos, neg):
+            return f"{pos} {_num(v)} ช่อง" if v > 0 else (f"{neg} {_num(-v)} ช่อง" if v < 0 else "")
+        return "ลูกศรทุกเส้นเริ่มที่จุดเดียวกัน วาดตามมาตราส่วนเดียวกัน: " + " · ".join(
+            f"ลูกศร {n} ปลายอยู่ " + " และ ".join(p for p in (part(x, "ขวา", "ซ้าย"), part(y, "ขึ้น", "ลง")) if p)
+            for n, x, y in self.v)
+
+    def fig(self, fid: str = "fig1", caption: str = "แรงที่กระทำต่อวัตถุ", magnitudes: bool = True) -> dict:
+        alt = self.alt() if magnitudes else self.alt_components()
+        return {"id": fid, "type": "svg", "svg": self.svg(), "alt": alt, "caption": caption}
 
 
 # ============================================================ ภาพฉายของทรงสามมิติ
@@ -524,16 +554,26 @@ def cube_bounds(front, top) -> tuple:
 
     มากที่สุด = ทุกตำแหน่งที่ไม่ขัดกับภาพทั้งสอง
     น้อยที่สุด = ไล่ชุดย่อยของตำแหน่งเหล่านั้นจากเล็กไปใหญ่จนเจอชุดแรกที่ให้ภาพครบทั้งสอง
+
+    ทุกชุดต้อง **ไม่มีก้อนลอย** คือก้อนที่อยู่ชั้นบนต้องมีก้อนรองรับอยู่ข้างใต้ในตำแหน่งเดียวกัน
+    ตรงกับกติกาที่เขียนไว้ในบทเรียน (เดิมไม่ได้บังคับข้อนี้ จึงนับก้อนลอยเป็นคำตอบ
+    ได้จำนวนน้อยกว่าความจริง — Codex พบในการตรวจไขว้รอบ 9)
     """
     from itertools import combinations
     front, top = frozenset(front), frozenset(top)
     xs = {x for x, _ in front}
     assert xs == {x for x, _ in top}, "ภาพด้านหน้ากับด้านบนต้องกว้างเท่ากัน"
     cand = [(x, y, z) for x, z in front for xx, y in top if xx == x]
+
+    def supported(sub):
+        s = set(sub)
+        return all(z == 0 or (x, y, z - 1) in s for x, y, z in s)
+
+    assert supported(cand), "ชุดมากที่สุดต้องไม่มีก้อนลอย"
     for k in range(1, len(cand) + 1):
         for sub in combinations(cand, k):
             v = raw_views(sub)
-            if v["front"] == front and v["top"] == top:
+            if v["front"] == front and v["top"] == top and supported(sub):
                 return k, len(cand)
     raise AssertionError("ไม่มีทรงใดให้ภาพทั้งสองนี้")
 
@@ -721,8 +761,11 @@ def _selfcheck() -> int:
     # ด้านหน้า 2 คอลัมน์สูง 1 · ด้านบนเต็ม 2x2 → น้อยสุด 2 (ทแยง) มากสุด 4
     ok(cube_bounds({(0, 0), (1, 0)}, {(0, 0), (1, 0), (0, 1), (1, 1)}) == (4, 4),
        "ชั้นเดียวเต็มแผ่นต้องใช้ 4 ก้อนพอดี")
-    ok(cube_bounds({(0, 0), (0, 1), (1, 0), (1, 1)}, {(0, 0), (1, 0), (0, 1), (1, 1)}) == (4, 8),
-       "หน้าเต็ม 2x2 บนเต็ม 2x2 น้อยสุด 4 มากสุด 8")
+    ok(cube_bounds({(0, 0), (0, 1), (1, 0), (1, 1)}, {(0, 0), (1, 0), (0, 1), (1, 1)}) == (6, 8),
+       "หน้าเต็ม 2x2 บนเต็ม 2x2 ไม่มีก้อนลอย น้อยสุด 6 (ลึก + สูง - 1 ต่อคอลัมน์) มากสุด 8")
+    # กรณีที่ Codex ยกมา: สูง 2,1,3 ลึก 3,1,1 ต้องได้ 4 + 1 + 3 = 8 ไม่ใช่ 7
+    ok(cube_bounds({(0, 0), (0, 1), (1, 0), (2, 0), (2, 1), (2, 2)},
+                   {(0, 0), (0, 1), (0, 2), (1, 0), (2, 0)})[0] == 8, "ห้ามนับก้อนลอยเป็นคำตอบน้อยที่สุด")
 
     # --- การมองเห็นในภาพไอโซเมตริก
     hid = {(0, 0, 0), (1, 1, 1), (1, 0, 1), (0, 1, 1), (1, 1, 0)}
