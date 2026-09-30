@@ -30,16 +30,16 @@
       "figures": [],
       "choices": [
         {
-          "md": "ประมาณ 250 แผ่น",
-          "is_answer": true
-        },
-        {
           "md": "ประมาณ 25 แผ่น",
           "is_answer": false
         },
         {
           "md": "ประมาณ 25,000 แผ่น",
           "is_answer": false
+        },
+        {
+          "md": "ประมาณ 250 แผ่น",
+          "is_answer": true
         },
         {
           "md": "ประมาณ 80 แผ่น",
@@ -72,8 +72,8 @@
         "เผื่อเศษแล้วจำนวนต้องมากกว่า 222"
       ],
       "distractor_reasons": {
-        "1": "น้อยไปสิบเท่าเพราะแปลงพื้นที่แผ่นผิด",
-        "2": "มากไปประมาณร้อยเท่า",
+        "0": "น้อยไปสิบเท่าเพราะแปลงพื้นที่แผ่นผิด",
+        "1": "มากไปประมาณร้อยเท่า",
         "3": "คิดพื้นที่กระเบื้องใหญ่เกินจริง",
         "4": "มากไปสิบเท่า"
       },
@@ -117,12 +117,12 @@
           "is_answer": false
         },
         {
-          "md": "ประมาณ 300 ตัน",
-          "is_answer": false
-        },
-        {
           "md": "ประมาณ 3 ตัน",
           "is_answer": true
+        },
+        {
+          "md": "ประมาณ 300 ตัน",
+          "is_answer": false
         },
         {
           "md": "ประมาณ 0.03 ตัน",
@@ -156,7 +156,7 @@
       ],
       "distractor_reasons": {
         "0": "น้อยไปสิบเท่า",
-        "1": "มากไปหนึ่งร้อยเท่า",
+        "2": "มากไปหนึ่งร้อยเท่า",
         "3": "น้อยไปหนึ่งร้อยเท่า",
         "4": "มากไปสิบเท่า"
       },
@@ -202,16 +202,16 @@
           "is_answer": false
         },
         {
+          "md": "ประมาณ 10 L",
+          "is_answer": true
+        },
+        {
           "md": "ประมาณ 1 L",
           "is_answer": false
         },
         {
           "md": "ประมาณ 100 L",
           "is_answer": false
-        },
-        {
-          "md": "ประมาณ 10 L",
-          "is_answer": true
         }
       ],
       "answer_numeric": null,
@@ -238,8 +238,8 @@
       "distractor_reasons": {
         "0": "คิดเพียงเที่ยวเดียว",
         "1": "มากไปประมาณร้อยเท่า",
-        "2": "ละเลยพื้นที่ส่วนใหญ่ของผนัง",
-        "3": "มากไปประมาณสิบเท่า"
+        "3": "ละเลยพื้นที่ส่วนใหญ่ของผนัง",
+        "4": "มากไปประมาณสิบเท่า"
       },
       "misconception_tags": [
         "ignore_multiple_coats"
@@ -281,10 +281,6 @@
           "is_answer": false
         },
         {
-          "md": "ประมาณ 65 m",
-          "is_answer": true
-        },
-        {
           "md": "ประมาณ 6.5 m",
           "is_answer": false
         },
@@ -295,6 +291,10 @@
         {
           "md": "ประมาณ 6,500 m",
           "is_answer": false
+        },
+        {
+          "md": "ประมาณ 65 m",
+          "is_answer": true
         }
       ],
       "answer_numeric": null,
@@ -320,9 +320,9 @@
       ],
       "distractor_reasons": {
         "0": "คูณจำนวนชั้นกับความสูงรวมซ้ำ",
-        "2": "น้อยไปสิบเท่า",
-        "3": "ใช้จำนวนชั้นเป็นความยาว",
-        "4": "มากไปประมาณร้อยเท่า"
+        "1": "น้อยไปสิบเท่า",
+        "2": "ใช้จำนวนชั้นเป็นความยาว",
+        "3": "มากไปประมาณร้อยเท่า"
       },
       "misconception_tags": [],
       "template": null,
@@ -358,6 +358,10 @@
       "figures": [],
       "choices": [
         {
+          "md": "สับสน W กับ kW แล้วคูณพันซ้ำ",
+          "is_answer": true
+        },
+        {
           "md": "คำตอบ 10,000 kWh สมเหตุผลแล้ว",
           "is_answer": false
         },
@@ -372,10 +376,6 @@
         {
           "md": "ควรหารเวลาด้วยกำลัง",
           "is_answer": false
-        },
-        {
-          "md": "สับสน W กับ kW แล้วคูณพันซ้ำ",
-          "is_answer": true
         }
       ],
       "answer_numeric": null,
@@ -400,10 +400,10 @@
         "ตรวจตัวคูณหนึ่งพัน"
       ],
       "distractor_reasons": {
-        "0": "สูงกว่าค่าที่ควรเป็นหนึ่งพันเท่า",
-        "1": "ใช้ kW กับ h ได้หน่วย kWh โดยตรง",
-        "2": "พลังงานเท่ากับกำลังคูณเวลา",
-        "3": "ไม่ตรงนิยามพลังงาน"
+        "1": "สูงกว่าค่าที่ควรเป็นหนึ่งพันเท่า",
+        "2": "ใช้ kW กับ h ได้หน่วย kWh โดยตรง",
+        "3": "พลังงานเท่ากับกำลังคูณเวลา",
+        "4": "ไม่ตรงนิยามพลังงาน"
       },
       "misconception_tags": [
         "watt_kilowatt_confusion"
@@ -441,10 +441,6 @@
       "figures": [],
       "choices": [
         {
-          "md": "ประมาณ 1,000 คน",
-          "is_answer": true
-        },
-        {
           "md": "ประมาณ 100,000 คน",
           "is_answer": false
         },
@@ -459,6 +455,10 @@
         {
           "md": "ประมาณ 10 คน",
           "is_answer": false
+        },
+        {
+          "md": "ประมาณ 1,000 คน",
+          "is_answer": true
         }
       ],
       "answer_numeric": null,
@@ -483,10 +483,10 @@
         "เลือกตัวเลือกที่ใกล้ 1,200 โดยไม่ต้องตอบเป๊ะ"
       ],
       "distractor_reasons": {
-        "1": "สูงไปประมาณร้อยเท่า",
-        "2": "สูงไปประมาณสิบเท่า",
-        "3": "ต่ำไปประมาณสิบเท่า",
-        "4": "ต่ำเกินกว่าความจุของพื้นที่มาก"
+        "0": "สูงไปประมาณร้อยเท่า",
+        "1": "สูงไปประมาณสิบเท่า",
+        "2": "ต่ำไปประมาณสิบเท่า",
+        "3": "ต่ำเกินกว่าความจุของพื้นที่มาก"
       },
       "misconception_tags": [],
       "template": null,
@@ -530,16 +530,16 @@
           "is_answer": false
         },
         {
-          "md": "ประมาณ 300 L",
-          "is_answer": true
-        },
-        {
           "md": "ประมาณ 3,000 L",
           "is_answer": false
         },
         {
           "md": "ประมาณ 30,000 L",
           "is_answer": false
+        },
+        {
+          "md": "ประมาณ 300 L",
+          "is_answer": true
         }
       ],
       "answer_numeric": null,
@@ -566,8 +566,8 @@
       "distractor_reasons": {
         "0": "ต่ำไปประมาณสิบเท่า",
         "1": "ต่ำไปประมาณร้อยเท่า",
-        "3": "สูงไปประมาณสิบเท่า",
-        "4": "สูงไปประมาณร้อยเท่า"
+        "2": "สูงไปประมาณสิบเท่า",
+        "3": "สูงไปประมาณร้อยเท่า"
       },
       "misconception_tags": [],
       "template": null,
@@ -686,16 +686,16 @@
           "is_answer": false
         },
         {
+          "md": "ประมาณ 1.7 m³",
+          "is_answer": true
+        },
+        {
           "md": "ประมาณ 17 m³",
           "is_answer": false
         },
         {
           "md": "ประมาณ 1.5 m³",
           "is_answer": false
-        },
-        {
-          "md": "ประมาณ 1.7 m³",
-          "is_answer": true
         },
         {
           "md": "ประมาณ 0.17 m³",
@@ -725,8 +725,8 @@
       ],
       "distractor_reasons": {
         "0": "บวกสามมิติแทนคูณ",
-        "1": "สูงไปสิบเท่า",
-        "2": "ไม่รวมส่วนเผื่อสิบเปอร์เซ็นต์",
+        "2": "สูงไปสิบเท่า",
+        "3": "ไม่รวมส่วนเผื่อสิบเปอร์เซ็นต์",
         "4": "ต่ำไปสิบเท่าจากการเลื่อนทศนิยม"
       },
       "misconception_tags": [],
@@ -808,6 +808,814 @@
       },
       "misconception_tags": [
         "kilogram_tonne_confusion"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.aptitude.numerical.estimation_engineering.0011",
+      "topic_ids": [
+        "tpat3.aptitude.numerical.estimation_engineering"
+      ],
+      "primary_topic_id": "tpat3.aptitude.numerical.estimation_engineering",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 50,
+      "stem_md": "จักรยานเคลื่อนที่ 1 km และล้อมีเส้นรอบวงประมาณ 2 m ล้อหมุนประมาณกี่รอบ",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ประมาณ 5,000 รอบ",
+          "is_answer": false
+        },
+        {
+          "md": "ประมาณ 50 รอบ",
+          "is_answer": false
+        },
+        {
+          "md": "ประมาณ 50,000 รอบ",
+          "is_answer": false
+        },
+        {
+          "md": "ประมาณ 500 รอบ",
+          "is_answer": true
+        },
+        {
+          "md": "ประมาณ 5 รอบ",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "แปลงระยะทาง",
+          "why_md": "1 km=1,000 m"
+        },
+        {
+          "do_md": "หารด้วยระยะต่อรอบ",
+          "why_md": "1,000/2=500 รอบ"
+        }
+      ],
+      "answer_explanation_md": "ตอบประมาณ 500 รอบ จากระยะ 1,000 เมตรหารด้วย 2 เมตรต่อรอบ",
+      "hints": [
+        "หนึ่งกิโลเมตรมีกี่เมตร",
+        "หนึ่งรอบพาจักรยานไปประมาณสองเมตร",
+        "นำระยะรวมตั้งแล้วหารด้วยระยะต่อรอบ"
+      ],
+      "distractor_reasons": {
+        "0": "มากไปสิบเท่าจากการใช้เส้นรอบวง 0.2 m",
+        "1": "น้อยไปสิบเท่าจากการใช้ระยะทางเพียง 100 m",
+        "2": "มากไปหนึ่งร้อยเท่าจากการเลื่อนหน่วยสองหลัก",
+        "4": "น้อยไปหนึ่งร้อยเท่าเพราะไม่ได้แปลงกิโลเมตรเป็นเมตร"
+      },
+      "misconception_tags": [
+        "distance_per_revolution"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.aptitude.numerical.estimation_engineering.0012",
+      "topic_ids": [
+        "tpat3.aptitude.numerical.estimation_engineering"
+      ],
+      "primary_topic_id": "tpat3.aptitude.numerical.estimation_engineering",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 45,
+      "stem_md": "เครื่องบันทึกข้อมูลสร้างไฟล์เฉลี่ย 5 MB ต่อนาที หากทำงาน 100 นาที จะใช้พื้นที่เก็บข้อมูลประมาณเท่าไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ประมาณ 5,000 MB",
+          "is_answer": false
+        },
+        {
+          "md": "ประมาณ 50,000 MB",
+          "is_answer": false
+        },
+        {
+          "md": "ประมาณ 5 MB",
+          "is_answer": false
+        },
+        {
+          "md": "ประมาณ 50 MB",
+          "is_answer": false
+        },
+        {
+          "md": "ประมาณ 500 MB",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ระบุอัตรา",
+          "why_md": "แต่ละนาทีสร้างข้อมูล 5 MB"
+        },
+        {
+          "do_md": "คูณเวลา",
+          "why_md": "5×100=500 MB"
+        }
+      ],
+      "answer_explanation_md": "ตอบประมาณ 500 MB เพราะ 5 MB/นาที เป็นเวลา 100 นาที",
+      "hints": [
+        "หน่วยต่อนาทีต้องคูณด้วยจำนวนนาที",
+        "เวลาทำงานมีหนึ่งร้อยช่วง",
+        "คูณห้าด้วยหนึ่งร้อย"
+      ],
+      "distractor_reasons": {
+        "0": "มากไปสิบเท่าจากการใช้เวลา 1,000 นาที",
+        "1": "มากไปหนึ่งร้อยเท่าจากการคูณศูนย์เกินสองตัว",
+        "2": "ใช้ข้อมูลเพียงหนึ่งนาที",
+        "3": "น้อยไปสิบเท่าจากการใช้เวลา 10 นาที"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.aptitude.numerical.estimation_engineering.0013",
+      "topic_ids": [
+        "tpat3.aptitude.numerical.estimation_engineering"
+      ],
+      "primary_topic_id": "tpat3.aptitude.numerical.estimation_engineering",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 80,
+      "stem_md": "สระต้องเติมน้ำ 30,000 L ด้วยสายยางที่ให้น้ำประมาณ 10 L/นาที หากเปิดต่อเนื่องจะใช้เวลาประมาณเท่าไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ประมาณ 500 ชั่วโมง",
+          "is_answer": false
+        },
+        {
+          "md": "ประมาณ 5,000 ชั่วโมง",
+          "is_answer": false
+        },
+        {
+          "md": "ประมาณ 50 ชั่วโมง",
+          "is_answer": true
+        },
+        {
+          "md": "ประมาณ 0.5 ชั่วโมง",
+          "is_answer": false
+        },
+        {
+          "md": "ประมาณ 5 ชั่วโมง",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "หาเวลาเป็นนาที",
+          "why_md": "30,000/10=3,000 นาที"
+        },
+        {
+          "do_md": "แปลงเป็นชั่วโมง",
+          "why_md": "3,000/60=50 ชั่วโมง"
+        }
+      ],
+      "answer_explanation_md": "ตอบประมาณ 50 ชั่วโมง หรือราวสองวัน เพราะต้องใช้ 3,000 นาที",
+      "hints": [
+        "ปริมาตรหารอัตราการไหลได้เวลา",
+        "สามพันนาทีมีหลายสิบชั่วโมง",
+        "หนึ่งชั่วโมงมีหกสิบนาที"
+      ],
+      "distractor_reasons": {
+        "0": "มากไปสิบเท่าจากการหารอัตราการไหลซ้ำ",
+        "1": "มากไปหนึ่งร้อยเท่าจากการใช้ลิตรเป็นนาทีโดยไม่หารอัตรา",
+        "3": "น้อยไปหนึ่งร้อยเท่าจากการแปลงนาทีเป็นชั่วโมงผิด",
+        "4": "น้อยไปสิบเท่าจากการคิดเพียง 3,000 นาทีเป็น 5 ชั่วโมง"
+      },
+      "misconception_tags": [
+        "flow_time_scale"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.aptitude.numerical.estimation_engineering.0014",
+      "topic_ids": [
+        "tpat3.aptitude.numerical.estimation_engineering"
+      ],
+      "primary_topic_id": "tpat3.aptitude.numerical.estimation_engineering",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 90,
+      "stem_md": "เครื่องปรับอากาศใช้กำลังเฉลี่ยประมาณ 1 kW เปิดวันละ 8 ชั่วโมงเป็นเวลา 30 วัน ค่าไฟเฉลี่ย 4 บาท/kWh ค่าไฟใกล้เคียงเท่าไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ประมาณ 1,000 บาท",
+          "is_answer": true
+        },
+        {
+          "md": "ประมาณ 100 บาท",
+          "is_answer": false
+        },
+        {
+          "md": "ประมาณ 100,000 บาท",
+          "is_answer": false
+        },
+        {
+          "md": "ประมาณ 10,000 บาท",
+          "is_answer": false
+        },
+        {
+          "md": "ประมาณ 10 บาท",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "หาพลังงานต่อเดือน",
+          "why_md": "1×8×30=240 kWh"
+        },
+        {
+          "do_md": "คิดค่าใช้จ่าย",
+          "why_md": "240×4=960 บาท จึงใกล้ 1,000 บาท"
+        }
+      ],
+      "answer_explanation_md": "ตอบประมาณ 1,000 บาท เพราะค่าประมาณคือ 960 บาท",
+      "hints": [
+        "กำลังหนึ่งกิโลวัตต์คูณชั่วโมงได้ kWh",
+        "รวมเวลาใช้งานทั้งสามสิบวัน",
+        "ค่าที่คำนวณได้ควรอยู่ใกล้หนึ่งพันบาท"
+      ],
+      "distractor_reasons": {
+        "1": "น้อยไปประมาณสิบเท่าจากการคิดเวลาใช้งานเพียงไม่กี่วัน",
+        "2": "มากไปประมาณร้อยเท่าจากการสับสนวัตต์กับกิโลวัตต์",
+        "3": "มากไปประมาณสิบเท่าจากการคูณชั่วโมงเกินหนึ่งรอบ",
+        "4": "น้อยไปประมาณร้อยเท่าจากการละเลยจำนวนวันและชั่วโมง"
+      },
+      "misconception_tags": [
+        "monthly_energy_cost"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.aptitude.numerical.estimation_engineering.0015",
+      "topic_ids": [
+        "tpat3.aptitude.numerical.estimation_engineering"
+      ],
+      "primary_topic_id": "tpat3.aptitude.numerical.estimation_engineering",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 105,
+      "stem_md": "ห้องเรียนกว้าง 8 m ยาว 6 m สูง 3 m และอากาศมีความหนาแน่นประมาณ 1.2 kg/m³ มวลอากาศในห้องใกล้เคียงเท่าไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ประมาณ 2,000 kg",
+          "is_answer": false
+        },
+        {
+          "md": "ประมาณ 2 kg",
+          "is_answer": false
+        },
+        {
+          "md": "ประมาณ 20 kg",
+          "is_answer": false
+        },
+        {
+          "md": "ประมาณ 200 kg",
+          "is_answer": true
+        },
+        {
+          "md": "ประมาณ 20,000 kg",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "หาปริมาตรห้อง",
+          "why_md": "8×6×3=144 m³"
+        },
+        {
+          "do_md": "คูณความหนาแน่น",
+          "why_md": "144×1.2≈173 kg"
+        },
+        {
+          "do_md": "เลือกค่าประมาณ",
+          "why_md": "173 kg ใกล้ 200 kg"
+        }
+      ],
+      "answer_explanation_md": "ตอบประมาณ 200 กิโลกรัม เพราะค่าคำนวณได้ราว 173 กิโลกรัม",
+      "hints": [
+        "ปริมาตรห้องใช้สามมิติ",
+        "ความหนาแน่นบอกมวลต่อหนึ่งลูกบาศก์เมตร",
+        "หนึ่งร้อยสี่สิบกว่าคูณหนึ่งจุดสองยังอยู่หลักร้อย"
+      ],
+      "distractor_reasons": {
+        "0": "มากไปประมาณสิบเท่าจากการใส่ตัวคูณสิบเกิน",
+        "1": "น้อยไปประมาณร้อยเท่าจากการไม่คิดปริมาตรทั้งห้อง",
+        "2": "น้อยไปประมาณสิบเท่าจากการใช้ความสูงหรือมิติไม่ครบ",
+        "4": "มากไปประมาณร้อยเท่าจากการแปลงลูกบาศก์เมตรผิด"
+      },
+      "misconception_tags": [
+        "air_mass_estimation"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.aptitude.numerical.estimation_engineering.0016",
+      "topic_ids": [
+        "tpat3.aptitude.numerical.estimation_engineering"
+      ],
+      "primary_topic_id": "tpat3.aptitude.numerical.estimation_engineering",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 105,
+      "stem_md": "เห็นฟ้าแลบจากจุดที่อยู่ห่างประมาณ 3 km แล้วจึงได้ยินฟ้าร้อง หากเสียงเดินทางประมาณ 340 m/s ส่วนแสงถือว่ามาถึงทันที เสียงช้ากว่าประมาณกี่วินาที",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ประมาณ 10 วินาที",
+          "is_answer": true
+        },
+        {
+          "md": "ประมาณ 1,000 วินาที",
+          "is_answer": false
+        },
+        {
+          "md": "ประมาณ 1 วินาที",
+          "is_answer": false
+        },
+        {
+          "md": "ประมาณ 0.1 วินาที",
+          "is_answer": false
+        },
+        {
+          "md": "ประมาณ 100 วินาที",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "แปลงระยะทาง",
+          "why_md": "3 km=3,000 m"
+        },
+        {
+          "do_md": "หาเวลาเสียง",
+          "why_md": "3,000/340≈8.8 s"
+        },
+        {
+          "do_md": "ปัดค่า",
+          "why_md": "ใกล้ 10 วินาที"
+        }
+      ],
+      "answer_explanation_md": "ตอบประมาณ 10 วินาที เพราะเสียงใช้เวลาราว 8.8 วินาที",
+      "hints": [
+        "ใช้ระยะทางหน่วยเมตรให้เข้ากับ m/s",
+        "เวลาคือระยะทางหารด้วยความเร็ว",
+        "สามพันหารด้วยประมาณสามร้อยอยู่หลักสิบ"
+      ],
+      "distractor_reasons": {
+        "1": "มากไปประมาณร้อยเท่าจากการสลับหน่วยระยะทาง",
+        "2": "น้อยไปประมาณสิบเท่าจากการใช้ระยะเพียง 340 m",
+        "3": "น้อยไปประมาณร้อยเท่าจากการไม่แปลงกิโลเมตรเป็นเมตร",
+        "4": "มากไปประมาณสิบเท่าจากการหารด้วยความเร็วต่ำเกินจริง"
+      },
+      "misconception_tags": [
+        "sound_delay_estimation"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.aptitude.numerical.estimation_engineering.0017",
+      "topic_ids": [
+        "tpat3.aptitude.numerical.estimation_engineering"
+      ],
+      "primary_topic_id": "tpat3.aptitude.numerical.estimation_engineering",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 100,
+      "stem_md": "กระดาษหนาประมาณ 0.1 mm ต่อแผ่น เมื่อนำ 500 แผ่นมาซ้อนกัน ความสูงของกองใกล้เคียงเท่าไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ประมาณ 5 cm",
+          "is_answer": true
+        },
+        {
+          "md": "ประมาณ 50 cm",
+          "is_answer": false
+        },
+        {
+          "md": "ประมาณ 0.05 cm",
+          "is_answer": false
+        },
+        {
+          "md": "ประมาณ 0.5 cm",
+          "is_answer": false
+        },
+        {
+          "md": "ประมาณ 500 cm",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "หาความหนารวม",
+          "why_md": "0.1×500=50 mm"
+        },
+        {
+          "do_md": "แปลงหน่วย",
+          "why_md": "50 mm=5 cm"
+        }
+      ],
+      "answer_explanation_md": "ตอบประมาณ 5 เซนติเมตร จากความหนารวม 50 มิลลิเมตร",
+      "hints": [
+        "คูณความหนาต่อแผ่นด้วยจำนวนแผ่น",
+        "สิบมิลลิเมตรเท่ากับหนึ่งเซนติเมตร",
+        "ห้าสิบมิลลิเมตรอยู่ในหลักหน่วยเซนติเมตร"
+      ],
+      "distractor_reasons": {
+        "1": "มากไปสิบเท่าจากการถือว่า 1 mm เท่ากับ 1 cm",
+        "2": "น้อยไปหนึ่งร้อยเท่าจากการแปลงมิลลิเมตรเป็นเซนติเมตรผิด",
+        "3": "น้อยไปสิบเท่าจากการใช้เพียง 50 แผ่น",
+        "4": "มากไปหนึ่งร้อยเท่าจากการใช้จำนวนแผ่นเป็นเซนติเมตร"
+      },
+      "misconception_tags": [
+        "stack_thickness"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.aptitude.numerical.estimation_engineering.0018",
+      "topic_ids": [
+        "tpat3.aptitude.numerical.estimation_engineering"
+      ],
+      "primary_topic_id": "tpat3.aptitude.numerical.estimation_engineering",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 4,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "high"
+      },
+      "est_seconds": 135,
+      "stem_md": "มีคนรายงานว่าคนหนึ่งหายใจอากาศเข้า 10,000 m³ ต่อวัน หากหายใจครั้งละประมาณ 0.5 L และ 15 ครั้ง/นาที รายงานนี้สมเหตุสมผลหรือไม่",
+      "figures": [],
+      "choices": [
+        {
+          "md": "สมเหตุสมผล เพราะหนึ่งวันมีมากกว่าหนึ่งพันนาที จึงต้องได้หมื่นลูกบาศก์เมตร",
+          "is_answer": false
+        },
+        {
+          "md": "ไม่สมเหตุสมผล เพราะค่าจริงควรอยู่ราว 0.01 m³/วัน จึงต่ำกว่ารายงานล้านเท่า",
+          "is_answer": false
+        },
+        {
+          "md": "ไม่สมเหตุสมผล ค่าจริงอยู่ราว 10 m³/วัน จึงสูงเกินประมาณพันเท่า",
+          "is_answer": true
+        },
+        {
+          "md": "ตัดสินไม่ได้จนกว่าจะรู้มวลของอากาศแต่ละลมหายใจ",
+          "is_answer": false
+        },
+        {
+          "md": "สมเหตุสมผล หากนับทั้งอากาศเข้าและออกจะได้ 10,000 m³/วันพอดี",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ประมาณจำนวนลมหายใจ",
+          "why_md": "15×1,440≈21,600 ครั้ง/วัน"
+        },
+        {
+          "do_md": "หาปริมาตรเป็นลิตร",
+          "why_md": "21,600×0.5≈10,800 L"
+        },
+        {
+          "do_md": "แปลงเป็นลูกบาศก์เมตร",
+          "why_md": "10,800 L≈10.8 m³ จึงต่างจาก 10,000 m³ ราวพันเท่า"
+        }
+      ],
+      "answer_explanation_md": "ตอบว่าไม่สมเหตุสมผล เพราะค่าประมาณคือ 10.8 ลูกบาศก์เมตรต่อวัน ไม่ใช่ 10,000 ลูกบาศก์เมตร",
+      "hints": [
+        "หนึ่งวันมี 1,440 นาที",
+        "ครึ่งลิตรคูณจำนวนครั้งได้ประมาณหนึ่งหมื่นลิตร",
+        "หนึ่งลูกบาศก์เมตรมีหนึ่งพันลิตร"
+      ],
+      "distractor_reasons": {
+        "0": "ยังต้องคูณปริมาตรเพียงครึ่งลิตรต่อครั้งและแปลง 1,000 L ต่อ m³",
+        "1": "ค่าจริงประมาณหนึ่งหมื่นลิตรหรือสิบลูกบาศก์เมตร ไม่ใช่หนึ่งในร้อยลูกบาศก์เมตร",
+        "3": "โจทย์ถามปริมาตร จึงไม่ต้องใช้ความหนาแน่นหรือมวล",
+        "4": "การนับเข้าและออกเพิ่มเพียงประมาณสองเท่า ไม่ใช่พันเท่า"
+      },
+      "misconception_tags": [
+        "breathing_volume_scale"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.aptitude.numerical.estimation_engineering.0019",
+      "topic_ids": [
+        "tpat3.aptitude.numerical.estimation_engineering"
+      ],
+      "primary_topic_id": "tpat3.aptitude.numerical.estimation_engineering",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 4,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "high"
+      },
+      "est_seconds": 130,
+      "stem_md": "รถเดินทาง 600 km อัตราสิ้นเปลืองประมาณ 15 km/L และน้ำมันราคา 40 บาท/L ค่าน้ำมันใกล้เคียงเท่าไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ประมาณ 20,000 บาท",
+          "is_answer": false
+        },
+        {
+          "md": "ประมาณ 2,000 บาท",
+          "is_answer": true
+        },
+        {
+          "md": "ประมาณ 200,000 บาท",
+          "is_answer": false
+        },
+        {
+          "md": "ประมาณ 20 บาท",
+          "is_answer": false
+        },
+        {
+          "md": "ประมาณ 200 บาท",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "หาปริมาณน้ำมัน",
+          "why_md": "600/15=40 L"
+        },
+        {
+          "do_md": "หาค่าใช้จ่าย",
+          "why_md": "40×40=1,600 บาท"
+        },
+        {
+          "do_md": "เลือกค่าประมาณ",
+          "why_md": "1,600 บาทใกล้ 2,000 บาท"
+        }
+      ],
+      "answer_explanation_md": "ตอบประมาณ 2,000 บาท เพราะคำนวณคร่าว ๆ ได้ 1,600 บาท",
+      "hints": [
+        "ระยะทางหารระยะต่อลิตรได้จำนวนลิตร",
+        "รถใช้เชื้อเพลิงหลายสิบลิตร",
+        "หลายสิบลิตรคูณหลายสิบบาทอยู่หลักพัน"
+      ],
+      "distractor_reasons": {
+        "0": "มากไปประมาณสิบเท่าจากการใช้น้ำมัน 400 L แทน 40 L",
+        "2": "มากไปประมาณร้อยเท่าจากการคูณระยะทางกับราคาตรง ๆ",
+        "3": "น้อยไปประมาณร้อยเท่าจากการละเลยปริมาณน้ำมันที่ใช้",
+        "4": "น้อยไปประมาณสิบเท่าจากการหารหรือคูณราคาไม่ครบ"
+      },
+      "misconception_tags": [
+        "fuel_cost_estimation"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.aptitude.numerical.estimation_engineering.0020",
+      "topic_ids": [
+        "tpat3.aptitude.numerical.estimation_engineering"
+      ],
+      "primary_topic_id": "tpat3.aptitude.numerical.estimation_engineering",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 5,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": true,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 145,
+      "stem_md": "แผงรับแสงมีพื้นที่ 20 m² รับกำลังแสงเฉลี่ยประมาณ 800 W/m² และเปลี่ยนเป็นไฟฟ้าได้ 20% กำลังไฟฟ้าที่ได้ใกล้เคียงเท่าไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ประมาณ 0.3 kW",
+          "is_answer": false
+        },
+        {
+          "md": "ประมาณ 30 kW",
+          "is_answer": false
+        },
+        {
+          "md": "ประมาณ 0.03 kW",
+          "is_answer": false
+        },
+        {
+          "md": "ประมาณ 3 kW",
+          "is_answer": true
+        },
+        {
+          "md": "ประมาณ 0.003 kW",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "หากำลังแสงที่รับ",
+          "why_md": "20×800=16,000 W"
+        },
+        {
+          "do_md": "คิดส่วนที่แปลงได้",
+          "why_md": "16,000×0.20=3,200 W"
+        },
+        {
+          "do_md": "แปลงและปัดค่า",
+          "why_md": "3,200 W=3.2 kW จึงใกล้ 3 kW"
+        }
+      ],
+      "answer_explanation_md": "ตอบประมาณ 3 กิโลวัตต์ เพราะค่าคำนวณได้ราว 3.2 กิโลวัตต์",
+      "hints": [
+        "คูณพื้นที่กับกำลังต่อพื้นที่ก่อน",
+        "ยี่สิบเปอร์เซ็นต์เท่ากับหนึ่งในห้า",
+        "หนึ่งพันวัตต์เท่ากับหนึ่งกิโลวัตต์"
+      ],
+      "distractor_reasons": {
+        "0": "น้อยไปประมาณสิบเท่าจากการใช้ประสิทธิภาพ 2% แทน 20%",
+        "1": "มากไปประมาณสิบเท่าจากการใช้ประสิทธิภาพ 200%",
+        "2": "น้อยไปประมาณร้อยเท่าจากการละเลยพื้นที่ส่วนใหญ่",
+        "4": "น้อยไปประมาณพันเท่าจากการแปลงวัตต์เป็นกิโลวัตต์ซ้ำ"
+      },
+      "misconception_tags": [
+        "area_irradiance_efficiency"
       ],
       "template": null,
       "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
