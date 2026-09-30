@@ -273,12 +273,12 @@
           "is_answer": false
         },
         {
-          "md": "ยังสรุปว่าแรงดันแปรผันตรงกับแรงไม่ได้ เพราะอัตราส่วนไม่เท่ากัน",
-          "is_answer": true
-        },
-        {
           "md": "แปรผันตรงและค่าคงที่คือ 0.15 V/N",
           "is_answer": false
+        },
+        {
+          "md": "ยังสรุปว่าแรงดันแปรผันตรงกับแรงไม่ได้ เพราะอัตราส่วนไม่เท่ากัน",
+          "is_answer": true
         },
         {
           "md": "แปรผันตรงและค่าคงที่คือ 0.20 V/N",
@@ -305,7 +305,7 @@
       "distractor_reasons": {
         "0": "ทั้งสองปริมาณเพิ่ม ไม่ใช่หลักฐานของผกผัน",
         "1": "ค่าต่างกันจึงไม่คงที่",
-        "3": "ใช้ความชันแทนอัตราส่วนจากจุดกำเนิด",
+        "2": "ใช้ความชันแทนอัตราส่วนจากจุดกำเนิด",
         "4": "คู่ที่สองให้อัตราส่วน 0.175"
       },
       "misconception_tags": [
@@ -421,12 +421,12 @@
       "figures": [],
       "choices": [
         {
-          "md": "44%",
-          "is_answer": true
-        },
-        {
           "md": "40%",
           "is_answer": false
+        },
+        {
+          "md": "44%",
+          "is_answer": true
         },
         {
           "md": "120%",
@@ -459,13 +459,343 @@
         "ลบค่าเดิม 100% หลังคำนวณ"
       ],
       "distractor_reasons": {
-        "1": "บวก 20% สองครั้งโดยไม่รวมผลคูณ",
+        "0": "บวก 20% สองครั้งโดยไม่รวมผลคูณ",
         "2": "สับสนค่าปัจจุบันกับเปอร์เซ็นต์ที่เพิ่ม",
         "3": "คิดเชิงเส้น",
         "4": "ใช้กำลังสามทั้งที่ถามพื้นที่"
       },
       "misconception_tags": [
         "linear_scale_for_area"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.thinking.sci_engineering.proportional_reasoning.0007",
+      "topic_ids": [
+        "tpat3.thinking.sci_engineering.proportional_reasoning"
+      ],
+      "primary_topic_id": "tpat3.thinking.sci_engineering.proportional_reasoning",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 55,
+      "stem_md": "การผสมเรซินใช้อัตราส่วนสาร A:B = 3:2 ถ้าต้องการส่วนผสมรวม 25 kg ต้องใช้สาร A เท่าไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "16.7 kg",
+          "is_answer": false
+        },
+        {
+          "md": "37.5 kg",
+          "is_answer": false
+        },
+        {
+          "md": "15 kg",
+          "is_answer": true
+        },
+        {
+          "md": "12.5 kg",
+          "is_answer": false
+        },
+        {
+          "md": "10 kg",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "รวมจำนวนส่วน",
+          "why_md": "3+2=5 ส่วน"
+        },
+        {
+          "do_md": "หามวลต่อส่วน",
+          "why_md": "25/5=5 kg"
+        },
+        {
+          "do_md": "หาสาร A",
+          "why_md": "3×5=15 kg"
+        }
+      ],
+      "answer_explanation_md": "ตอบ 15 kg เพราะสาร A คิดเป็น 3/5 ของส่วนผสม",
+      "hints": [
+        "มวลรวมแทนจำนวนส่วนทั้งหมด",
+        "A มีสามส่วนจากทั้งหมดห้าส่วน",
+        "หามวลหนึ่งส่วนก่อน"
+      ],
+      "distractor_reasons": {
+        "0": "ใช้ 2/3 ของมวลรวมแทน 3/5",
+        "1": "คูณมวลรวมด้วย 3/2",
+        "3": "แบ่งครึ่งโดยไม่ใช้อัตราส่วน",
+        "4": "เลือกส่วนของ B แทน A"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.thinking.sci_engineering.proportional_reasoning.0008",
+      "topic_ids": [
+        "tpat3.thinking.sci_engineering.proportional_reasoning"
+      ],
+      "primary_topic_id": "tpat3.thinking.sci_engineering.proportional_reasoning",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 90,
+      "stem_md": "ท่อกลมสองเส้นมีรูปทรงคล้ายกัน ท่อใหม่มีเส้นผ่านศูนย์กลางเป็น 1.5 เท่า โดยความเร็วของของไหลเท่าเดิม อัตราการไหลเชิงปริมาตรเป็นกี่เท่า",
+      "figures": [],
+      "choices": [
+        {
+          "md": "2 เท่า",
+          "is_answer": false
+        },
+        {
+          "md": "1.5 เท่า",
+          "is_answer": false
+        },
+        {
+          "md": "2.25 เท่า",
+          "is_answer": true
+        },
+        {
+          "md": "3 เท่า",
+          "is_answer": false
+        },
+        {
+          "md": "3.375 เท่า",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "อัตราการไหลเมื่อความเร็วคงที่",
+          "why_md": "แปรตามพื้นที่หน้าตัด"
+        },
+        {
+          "do_md": "พื้นที่วงกลมแปรตามเส้นผ่านศูนย์กลางกำลังสอง",
+          "why_md": "ใช้ 1.5²"
+        },
+        {
+          "do_md": "คำนวณ",
+          "why_md": "1.5²=2.25"
+        }
+      ],
+      "answer_explanation_md": "ตอบ 2.25 เท่า เพราะพื้นที่หน้าตัดเพิ่มตามกำลังสองของเส้นผ่านศูนย์กลาง",
+      "hints": [
+        "ความเร็วถูกกำหนดให้เท่าเดิม",
+        "ท่อใหญ่ขึ้นเปลี่ยนพื้นที่หน้าตัด",
+        "พื้นที่ใช้กำลังสองของความยาว"
+      ],
+      "distractor_reasons": {
+        "0": "ปัดตัวคูณก่อนยกกำลัง",
+        "1": "ใช้สัดส่วนเชิงเส้นกับพื้นที่หน้าตัด",
+        "3": "คูณตัวคูณเส้นผ่านศูนย์กลางด้วยสอง",
+        "4": "ใช้กำลังสามเหมือนปริมาตรวัตถุ"
+      },
+      "misconception_tags": [
+        "linear_scale_for_area"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.thinking.sci_engineering.proportional_reasoning.0009",
+      "topic_ids": [
+        "tpat3.thinking.sci_engineering.proportional_reasoning"
+      ],
+      "primary_topic_id": "tpat3.thinking.sci_engineering.proportional_reasoning",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 120,
+      "stem_md": "มอเตอร์หมุนเพลาที่ 1,200 รอบ/นาทีเมื่อใช้เฟืองตาม 40 ฟัน ถ้าเปลี่ยนเป็นเฟืองตาม 60 ฟันโดยเฟืองขับและเงื่อนไขอื่นคงเดิม เพลาจะหมุนประมาณกี่รอบ/นาที",
+      "figures": [],
+      "choices": [
+        {
+          "md": "800 รอบ/นาที",
+          "is_answer": true
+        },
+        {
+          "md": "400 รอบ/นาที",
+          "is_answer": false
+        },
+        {
+          "md": "1,800 รอบ/นาที",
+          "is_answer": false
+        },
+        {
+          "md": "1,600 รอบ/นาที",
+          "is_answer": false
+        },
+        {
+          "md": "1,000 รอบ/นาที",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "รอบแปรผกผันกับฟันเฟืองตาม",
+          "why_md": "n_1N_1=n_2N_2"
+        },
+        {
+          "do_md": "แทนค่า",
+          "why_md": "1200×40=n_2×60"
+        },
+        {
+          "do_md": "คำนวณ",
+          "why_md": "n_2=800 รอบ/นาที"
+        }
+      ],
+      "answer_explanation_md": "ตอบ 800 รอบ/นาที เพราะจำนวนฟันเพิ่ม 1.5 เท่าจึงมีรอบเหลือ 2/3",
+      "hints": [
+        "เฟืองตามใหญ่ขึ้นควรหมุนช้าลง",
+        "ผลคูณรอบกับจำนวนฟันคงที่",
+        "ใช้อัตราส่วน 40 ต่อ 60"
+      ],
+      "distractor_reasons": {
+        "1": "ลดความเร็วเหลือหนึ่งในสามแทนสองในสาม",
+        "2": "คูณด้วย 60/40 แทน 40/60",
+        "3": "ใช้สัดส่วนตรงกับจำนวนฟันเฟืองตาม",
+        "4": "ลบจำนวนฟันที่เพิ่มออกจากรอบโดยตรง"
+      },
+      "misconception_tags": [
+        "direct_inverse_confusion"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.thinking.sci_engineering.proportional_reasoning.0010",
+      "topic_ids": [
+        "tpat3.thinking.sci_engineering.proportional_reasoning"
+      ],
+      "primary_topic_id": "tpat3.thinking.sci_engineering.proportional_reasoning",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 4,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "high"
+      },
+      "est_seconds": 140,
+      "stem_md": "เซนเซอร์ชนิดหนึ่งให้ค่า 4 V เมื่อแรง 20 N เพียงคู่เดียว ข้อมูลนี้เพียงพอหรือไม่ที่จะยืนยันว่าแรงดันแปรผันตรงกับแรงและทำนายที่ 50 N",
+      "figures": [],
+      "choices": [
+        {
+          "md": "พอ เพราะแรงกับแรงดันมีหน่วยต่างกัน",
+          "is_answer": false
+        },
+        {
+          "md": "พอ และค่าที่ 50 N ต้องเป็น 10 V เสมอ",
+          "is_answer": false
+        },
+        {
+          "md": "ไม่พอ เพราะปริมาณต่างหน่วยกันจึงไม่มีวันแปรผันตรง",
+          "is_answer": false
+        },
+        {
+          "md": "ไม่พอ เพราะต้องมีค่าแรงเท่ากับศูนย์เพียงค่าเดียวก็พอ",
+          "is_answer": false
+        },
+        {
+          "md": "ยังไม่พอ ต้องมีหลายคู่ข้อมูลและตรวจจุดกำเนิด",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "นับข้อมูล",
+          "why_md": "มีเพียงหนึ่งคู่"
+        },
+        {
+          "do_md": "ตรวจเงื่อนไขแปรผันตรง",
+          "why_md": "ต้องเห็นอัตราส่วนคงที่หลายคู่และสอดคล้องกับจุดกำเนิด"
+        },
+        {
+          "do_md": "สรุปขอบเขต",
+          "why_md": "คำนวณ 10 V ได้เพียงภายใต้สมมติฐานที่ยังไม่ยืนยัน"
+        }
+      ],
+      "answer_explanation_md": "ตอบว่ายังไม่พอ เพราะข้อมูลคู่เดียวไม่แยกความสัมพันธ์ตรงออกจากความสัมพันธ์แบบอื่น",
+      "hints": [
+        "เส้นโค้งหลายแบบผ่านจุดเดียวกันได้",
+        "แปรผันตรงต้องมีอัตราส่วนคงที่",
+        "แยกการคำนวณภายใต้สมมติฐานออกจากการยืนยันสมมติฐาน"
+      ],
+      "distractor_reasons": {
+        "0": "หน่วยต่างกันไม่ยืนยันชนิดความสัมพันธ์",
+        "1": "หนึ่งคู่ข้อมูลยังไม่ยืนยันความเป็นเส้นตรงหรือจุดตัดศูนย์",
+        "2": "ปริมาณต่างหน่วยสามารถแปรผันตรงได้",
+        "3": "จุดกำเนิดอย่างเดียวยังไม่ยืนยันความชันคงที่"
+      },
+      "misconception_tags": [
+        "infer_rule_from_one_pair"
       ],
       "template": null,
       "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",

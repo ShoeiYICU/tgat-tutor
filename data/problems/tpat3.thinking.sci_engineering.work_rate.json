@@ -34,16 +34,16 @@
           "is_answer": false
         },
         {
-          "md": "3 ชั่วโมง",
-          "is_answer": true
-        },
-        {
           "md": "2 ชั่วโมง",
           "is_answer": false
         },
         {
           "md": "16 ชั่วโมง",
           "is_answer": false
+        },
+        {
+          "md": "3 ชั่วโมง",
+          "is_answer": true
         },
         {
           "md": "4 ชั่วโมง",
@@ -69,8 +69,8 @@
       ],
       "distractor_reasons": {
         "0": "เฉลี่ยเวลา 4 กับ 12",
-        "2": "เร็วเกินกว่าอัตรารวม",
-        "3": "บวกเวลา",
+        "1": "เร็วเกินกว่าอัตรารวม",
+        "2": "บวกเวลา",
         "4": "ใช้เวลาเครื่องเร็วเพียงเครื่องเดียว"
       },
       "misconception_tags": [
@@ -117,16 +117,16 @@
           "is_answer": false
         },
         {
-          "md": "6 ชั่วโมง 40 นาที",
-          "is_answer": true
-        },
-        {
           "md": "8 ชั่วโมง",
           "is_answer": false
         },
         {
           "md": "5 ชั่วโมง 20 นาที",
           "is_answer": false
+        },
+        {
+          "md": "6 ชั่วโมง 40 นาที",
+          "is_answer": true
         }
       ],
       "answer_numeric": null,
@@ -149,8 +149,8 @@
       "distractor_reasons": {
         "0": "บวกเวลาโดยไม่ใช้ทิศของการไหล",
         "1": "ลบเวลา 5-20 ผิดทิศ",
-        "3": "คำนวณอัตราสุทธิผิด",
-        "4": "นำเวลามาบวกบางส่วน"
+        "2": "คำนวณอัตราสุทธิผิด",
+        "3": "นำเวลามาบวกบางส่วน"
       },
       "misconception_tags": [
         "subtract_times_not_rates"
@@ -188,6 +188,10 @@
       "figures": [],
       "choices": [
         {
+          "md": "24 ชิ้น/ชั่วโมง",
+          "is_answer": true
+        },
+        {
           "md": "30 ชิ้น/ชั่วโมง",
           "is_answer": false
         },
@@ -198,10 +202,6 @@
         {
           "md": "6 ชิ้น/ชั่วโมง",
           "is_answer": false
-        },
-        {
-          "md": "24 ชิ้น/ชั่วโมง",
-          "is_answer": true
         },
         {
           "md": "54 ชิ้น/ชั่วโมง",
@@ -226,9 +226,9 @@
         "หาค่าน้อยของอัตรา"
       ],
       "distractor_reasons": {
-        "0": "ใช้สถานีเร็วกว่า",
-        "1": "เฉลี่ยอัตรา",
-        "2": "หาผลต่าง",
+        "1": "ใช้สถานีเร็วกว่า",
+        "2": "เฉลี่ยอัตรา",
+        "3": "หาผลต่าง",
         "4": "บวกอัตราของสถานีอนุกรม"
       },
       "misconception_tags": [
@@ -267,12 +267,12 @@
       "figures": [],
       "choices": [
         {
-          "md": "320 ชิ้น",
-          "is_answer": true
-        },
-        {
           "md": "80 ชิ้น",
           "is_answer": false
+        },
+        {
+          "md": "320 ชิ้น",
+          "is_answer": true
         },
         {
           "md": "400 ชิ้น",
@@ -305,7 +305,7 @@
         "ผลต้องน้อยกว่า 400"
       ],
       "distractor_reasons": {
-        "1": "คิดเฉพาะเวลาหยุด",
+        "0": "คิดเฉพาะเวลาหยุด",
         "2": "ไม่หักเวลาหยุด",
         "3": "ใช้เวลาทำงาน 90%",
         "4": "หัก 100 ชิ้นจาก 400 ผิด"
@@ -352,16 +352,16 @@
           "is_answer": false
         },
         {
+          "md": "3 วัน",
+          "is_answer": true
+        },
+        {
           "md": "4 วัน",
           "is_answer": false
         },
         {
           "md": "6 วัน",
           "is_answer": false
-        },
-        {
-          "md": "3 วัน",
-          "is_answer": true
         }
       ],
       "answer_numeric": null,
@@ -384,8 +384,8 @@
       "distractor_reasons": {
         "0": "ไม่รวมอัตรา B",
         "1": "ใช้อัตรารวมกับงานเต็มไม่ถูก",
-        "2": "ใช้เวลาเดิมของ A",
-        "3": "ใช้อัตรา B คนเดียว"
+        "3": "ใช้เวลาเดิมของ A",
+        "4": "ใช้อัตรา B คนเดียว"
       },
       "misconception_tags": [
         "use_full_work_after_partial"
@@ -423,10 +423,6 @@
       "figures": [],
       "choices": [
         {
-          "md": "2,400 ลิตร",
-          "is_answer": true
-        },
-        {
           "md": "2,000 ลิตร",
           "is_answer": false
         },
@@ -441,6 +437,10 @@
         {
           "md": "2,600 ลิตร",
           "is_answer": false
+        },
+        {
+          "md": "2,400 ลิตร",
+          "is_answer": true
         }
       ],
       "answer_numeric": null,
@@ -461,13 +461,339 @@
         "บวก 1,200 กับ 1,200"
       ],
       "distractor_reasons": {
-        "1": "คิดเฉพาะ 10 นาทีแรก",
-        "2": "คิดทั้งสองทำ 15 นาที",
-        "3": "บวกเวลาและอัตราผิด",
-        "4": "บวกช่วงท้ายเกินจริง"
+        "0": "คิดเฉพาะ 10 นาทีแรก",
+        "1": "คิดทั้งสองทำ 15 นาที",
+        "2": "บวกเวลาและอัตราผิด",
+        "3": "บวกช่วงท้ายเกินจริง"
       },
       "misconception_tags": [
         "ignore_rate_change"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.thinking.sci_engineering.work_rate.0007",
+      "topic_ids": [
+        "tpat3.thinking.sci_engineering.work_rate"
+      ],
+      "primary_topic_id": "tpat3.thinking.sci_engineering.work_rate",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 55,
+      "stem_md": "เครื่องจักรต้องตั้งเครื่อง 30 นาทีก่อนผลิต จากนั้นผลิต 60 ชิ้น/ชั่วโมง ถ้าต้องการ 120 ชิ้น ใช้เวลารวมเท่าไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "3 ชั่วโมง",
+          "is_answer": false
+        },
+        {
+          "md": "4 ชั่วโมง",
+          "is_answer": false
+        },
+        {
+          "md": "2 ชั่วโมง 30 นาที",
+          "is_answer": true
+        },
+        {
+          "md": "2 ชั่วโมง",
+          "is_answer": false
+        },
+        {
+          "md": "1 ชั่วโมง 30 นาที",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "หาเวลาผลิต",
+          "why_md": "120/60=2 ชั่วโมง"
+        },
+        {
+          "do_md": "รวมเวลาตั้งเครื่อง",
+          "why_md": "2 ชั่วโมง + 30 นาที = 2 ชั่วโมง 30 นาที"
+        }
+      ],
+      "answer_explanation_md": "ตอบ 2 ชั่วโมง 30 นาที เพราะผลิตจริง 2 ชั่วโมงและตั้งเครื่องอีกครึ่งชั่วโมง",
+      "hints": [
+        "เวลาตั้งเครื่องไม่ผลิตชิ้นงาน",
+        "หาเวลาสำหรับ 120 ชิ้นก่อน",
+        "ครึ่งชั่วโมงต้องบวกหลังเวลาเดินเครื่อง"
+      ],
+      "distractor_reasons": {
+        "0": "บวกเวลาตั้งเครื่องเป็นหนึ่งชั่วโมง",
+        "1": "หารอัตราผลิตผิดเป็น 30 ชิ้นต่อชั่วโมง",
+        "3": "ไม่รวมเวลาตั้งเครื่อง",
+        "4": "คิดเวลาผลิตเพียงหนึ่งชั่วโมงแล้วบวกตั้งเครื่อง"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.thinking.sci_engineering.work_rate.0008",
+      "topic_ids": [
+        "tpat3.thinking.sci_engineering.work_rate"
+      ],
+      "primary_topic_id": "tpat3.thinking.sci_engineering.work_rate",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 90,
+      "stem_md": "คนงาน A ตรวจได้ 10 ชิ้น/ชั่วโมง และ B ตรวจได้ 15 ชิ้น/ชั่วโมง ทำพร้อมกัน 3 ชั่วโมง แต่ 20% ของชิ้นที่ตรวจต้องตรวจซ้ำ จำนวนชิ้นที่ผ่านโดยไม่ต้องตรวจซ้ำมีกี่ชิ้น",
+      "figures": [],
+      "choices": [
+        {
+          "md": "15 ชิ้น",
+          "is_answer": false
+        },
+        {
+          "md": "60 ชิ้น",
+          "is_answer": true
+        },
+        {
+          "md": "75 ชิ้น",
+          "is_answer": false
+        },
+        {
+          "md": "25 ชิ้น",
+          "is_answer": false
+        },
+        {
+          "md": "90 ชิ้น",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "รวมอัตรา",
+          "why_md": "10+15=25 ชิ้น/ชั่วโมง"
+        },
+        {
+          "do_md": "จำนวนที่ตรวจ",
+          "why_md": "25×3=75 ชิ้น"
+        },
+        {
+          "do_md": "หาส่วนผ่านรอบแรก",
+          "why_md": "75×0.80=60 ชิ้น"
+        }
+      ],
+      "answer_explanation_md": "ตอบ 60 ชิ้น เพราะตรวจ 75 ชิ้นและ 80% ไม่ต้องตรวจซ้ำ",
+      "hints": [
+        "ทั้งสองทำงานขนานจึงบวกอัตรา",
+        "ทำงานสามชั่วโมง",
+        "ผ่านรอบแรกคิดเป็นแปดสิบเปอร์เซ็นต์"
+      ],
+      "distractor_reasons": {
+        "0": "คิดเฉพาะ 20% ที่ต้องตรวจซ้ำ",
+        "2": "ไม่หักชิ้นที่ต้องตรวจซ้ำ",
+        "3": "ใช้อัตรารวมเป็นจำนวนทั้งหมดโดยไม่คูณเวลา",
+        "4": "บวกอัตราและเวลาผิดเป็น 30 ชิ้นต่อชั่วโมง"
+      },
+      "misconception_tags": [
+        "ignore_rework"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.thinking.sci_engineering.work_rate.0009",
+      "topic_ids": [
+        "tpat3.thinking.sci_engineering.work_rate"
+      ],
+      "primary_topic_id": "tpat3.thinking.sci_engineering.work_rate",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 90,
+      "stem_md": "สายงานอนุกรมมีสถานี X ทำได้ 40 ชิ้น/ชั่วโมง และ Y ทำได้ 50 ชิ้น/ชั่วโมง หลังผ่านทั้งสองสถานีมีชิ้นดี 90% ของทั้งหมด กำลังผลิตชิ้นดีสูงสุดเท่าไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "40 ชิ้น/ชั่วโมง",
+          "is_answer": false
+        },
+        {
+          "md": "45 ชิ้น/ชั่วโมง",
+          "is_answer": false
+        },
+        {
+          "md": "10 ชิ้น/ชั่วโมง",
+          "is_answer": false
+        },
+        {
+          "md": "36 ชิ้น/ชั่วโมง",
+          "is_answer": true
+        },
+        {
+          "md": "81 ชิ้น/ชั่วโมง",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "หาคอขวด",
+          "why_md": "min(40,50)=40 ชิ้น/ชั่วโมง"
+        },
+        {
+          "do_md": "ใช้ผลได้ชิ้นดี",
+          "why_md": "40×0.90=36 ชิ้น/ชั่วโมง"
+        }
+      ],
+      "answer_explanation_md": "ตอบ 36 ชิ้น/ชั่วโมง จากคอขวด 40 ชิ้น/ชั่วโมงและผลได้ 90%",
+      "hints": [
+        "ทุกชิ้นต้องผ่านทั้งสองสถานี",
+        "สถานีช้ากว่ากำหนดการไหล",
+        "ของดีเป็นเก้าสิบเปอร์เซ็นต์ของผลคอขวด"
+      ],
+      "distractor_reasons": {
+        "0": "ใช้คอขวดแต่ไม่หักของเสีย",
+        "1": "ใช้ 90% ของสถานีที่เร็วกว่า",
+        "2": "ใช้ผลต่างอัตราสถานี",
+        "4": "บวกอัตราสองสถานีแล้วคูณ 90%"
+      },
+      "misconception_tags": [
+        "add_rates_in_series"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.thinking.sci_engineering.work_rate.0010",
+      "topic_ids": [
+        "tpat3.thinking.sci_engineering.work_rate"
+      ],
+      "primary_topic_id": "tpat3.thinking.sci_engineering.work_rate",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 120,
+      "stem_md": "เครื่อง A ทำงานหนึ่งชุดใน 10 ชั่วโมง เริ่มทำก่อน 2 ชั่วโมง แล้วเครื่อง B ซึ่งทำงานหนึ่งชุดใน 15 ชั่วโมงจึงเริ่มช่วย ทั้งสองคงอัตราเดิม งานเสร็จหลังเริ่ม A กี่ชั่วโมง",
+      "figures": [],
+      "choices": [
+        {
+          "md": "6 ชั่วโมง 48 นาที",
+          "is_answer": true
+        },
+        {
+          "md": "12 ชั่วโมง 30 นาที",
+          "is_answer": false
+        },
+        {
+          "md": "6 ชั่วโมง",
+          "is_answer": false
+        },
+        {
+          "md": "7 ชั่วโมง 30 นาที",
+          "is_answer": false
+        },
+        {
+          "md": "4 ชั่วโมง",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "งานที่ A ทำก่อน",
+          "why_md": "2×1/10=1/5 งาน"
+        },
+        {
+          "do_md": "งานที่เหลือ",
+          "why_md": "1-1/5=4/5 งาน"
+        },
+        {
+          "do_md": "อัตรารวมหลัง B มา",
+          "why_md": "1/10+1/15=1/6 งาน/ชั่วโมง"
+        },
+        {
+          "do_md": "เวลาช่วงร่วมและเวลารวม",
+          "why_md": "(4/5)/(1/6)=4.8 ชั่วโมง แล้วบวก 2 เป็น 6.8 ชั่วโมง = 6 ชั่วโมง 48 นาที"
+        }
+      ],
+      "answer_explanation_md": "ตอบ 6 ชั่วโมง 48 นาที เพราะช่วงทำร่วมใช้ 4.8 ชั่วโมงหลัง A ทำไปแล้ว 2 ชั่วโมง",
+      "hints": [
+        "แยกช่วงก่อนและหลัง B เริ่ม",
+        "อย่าใช้อัตรารวมกับงานเต็ม",
+        "แปลง 0.8 ชั่วโมงเป็นนาที"
+      ],
+      "distractor_reasons": {
+        "1": "นำเวลาของสองเครื่องมารวมโดยตรง",
+        "2": "ปัดเศษเวลาที่เหลือก่อนคำนวณ",
+        "3": "เฉลี่ยเวลา 10 กับ 15",
+        "4": "ใช้อัตรารวมกับงานเต็มแล้วละเลยช่วงแรก"
+      },
+      "misconception_tags": [
+        "ignore_staggered_start"
       ],
       "template": null,
       "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",

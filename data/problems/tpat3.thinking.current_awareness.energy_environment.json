@@ -34,12 +34,12 @@
           "is_answer": false
         },
         {
-          "md": "ความร้อนเป็นมวล",
-          "is_answer": false
-        },
-        {
           "md": "พลังงานแสงเป็นพลังงานไฟฟ้า",
           "is_answer": true
+        },
+        {
+          "md": "ความร้อนเป็นมวล",
+          "is_answer": false
         },
         {
           "md": "ไฟฟ้าเป็นแสงแล้วเก็บทันที",
@@ -69,7 +69,7 @@
       ],
       "distractor_reasons": {
         "0": "ไม่เกี่ยวข้อง",
-        "1": "ไม่ใช่หลัก photovoltaic",
+        "2": "ไม่ใช่หลัก photovoltaic",
         "3": "ทิศทางกลับ",
         "4": "ไม่ใช่แหล่งเข้า"
       },
@@ -111,16 +111,16 @@
           "is_answer": false
         },
         {
+          "md": "กำลังจริงขึ้นกับความเร็วลม การหยุดซ่อม และข้อจำกัดระบบ",
+          "is_answer": true
+        },
+        {
           "md": "พิกัดเป็นค่าต่ำสุดเสมอ",
           "is_answer": false
         },
         {
           "md": "กังหันผลิตได้เฉพาะกลางวัน",
           "is_answer": false
-        },
-        {
-          "md": "กำลังจริงขึ้นกับความเร็วลม การหยุดซ่อม และข้อจำกัดระบบ",
-          "is_answer": true
         },
         {
           "md": "MW เป็นหน่วยพลังงานต่อปี",
@@ -146,8 +146,8 @@
       ],
       "distractor_reasons": {
         "0": "ใบพัดถ่ายพลังงานไปเครื่องกำเนิด",
-        "1": "เป็นกำลังภายใต้เงื่อนไขกำหนด ไม่ใช่ขั้นต่ำ",
-        "2": "ลมไม่ขึ้นกับแสงโดยตรง",
+        "2": "เป็นกำลังภายใต้เงื่อนไขกำหนด ไม่ใช่ขั้นต่ำ",
+        "3": "ลมไม่ขึ้นกับแสงโดยตรง",
         "4": "MW เป็นกำลัง"
       },
       "misconception_tags": [
@@ -186,16 +186,16 @@
       "figures": [],
       "choices": [
         {
-          "md": "85%",
-          "is_answer": true
-        },
-        {
           "md": "15%",
           "is_answer": false
         },
         {
           "md": "100%",
           "is_answer": false
+        },
+        {
+          "md": "85%",
+          "is_answer": true
         },
         {
           "md": "185%",
@@ -224,8 +224,8 @@
         "ส่วนที่หายคือ 15 kWh"
       ],
       "distractor_reasons": {
-        "1": "คำนวณส่วนสูญเสียแทนประสิทธิภาพ",
-        "2": "ละเลยการสูญเสีย",
+        "0": "คำนวณส่วนสูญเสียแทนประสิทธิภาพ",
+        "1": "ละเลยการสูญเสีย",
         "3": "บวกพลังงานเข้าออก",
         "4": "กลับเศษส่วน"
       },
@@ -328,14 +328,14 @@
         "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
       },
       "format": "mcq5",
-      "difficulty": 5,
+      "difficulty": 4,
       "difficulty_signals": {
         "steps_count": 3,
         "topics_count": 1,
-        "needs_insight": true,
+        "needs_insight": false,
         "heavy_computation": false,
         "trap_present": true,
-        "reading_load": "low"
+        "reading_load": "high"
       },
       "est_seconds": 140,
       "stem_md": "เทคโนโลยีดักจับคาร์บอนจับได้ 90% จากปล่องหนึ่ง ข้อใดสรุปไม่ได้จากข้อมูลนี้",
@@ -425,10 +425,6 @@
           "is_answer": false
         },
         {
-          "md": "ประเมินวงจรชีวิตบนฐานเดียวกัน",
-          "is_answer": true
-        },
-        {
           "md": "เลือก B เพราะรีไซเคิลได้โดยไม่ดูประสิทธิภาพ",
           "is_answer": false
         },
@@ -439,6 +435,10 @@
         {
           "md": "เลือก A จากช่วงใช้งานอย่างเดียว",
           "is_answer": false
+        },
+        {
+          "md": "ประเมินวงจรชีวิตบนฐานเดียวกัน",
+          "is_answer": true
         }
       ],
       "answer_numeric": null,
@@ -464,12 +464,340 @@
       ],
       "distractor_reasons": {
         "0": "ตรวจสอบเหตุผลไม่ได้",
-        "2": "ใช้เกณฑ์เดียว",
-        "3": "น้ำหนักไม่แทนผลกระทบทั้งหมด",
-        "4": "ขอบเขตแคบ"
+        "1": "ใช้เกณฑ์เดียว",
+        "2": "น้ำหนักไม่แทนผลกระทบทั้งหมด",
+        "3": "ขอบเขตแคบ"
       },
       "misconception_tags": [
         "use_phase_only"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.thinking.current_awareness.energy_environment.0007",
+      "topic_ids": [
+        "tpat3.thinking.current_awareness.energy_environment"
+      ],
+      "primary_topic_id": "tpat3.thinking.current_awareness.energy_environment",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 55,
+      "stem_md": "หลังติดอุปกรณ์ประหยัดไฟ ค่าใช้จ่ายต่อชั่วโมงลดลง ผู้ใช้จึงเปิดใช้นานขึ้นจนพลังงานรวมลดน้อยกว่าที่คาด ปรากฏการณ์นี้อธิบายอย่างไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ประสิทธิภาพดีขึ้นแต่พฤติกรรมตอบสนองชดเชยผลประหยัดบางส่วน",
+          "is_answer": true
+        },
+        {
+          "md": "อุปกรณ์สร้างพลังงานขึ้นเอง",
+          "is_answer": false
+        },
+        {
+          "md": "หน่วยพลังงานเปลี่ยนเพราะค่าใช้จ่ายลด",
+          "is_answer": false
+        },
+        {
+          "md": "พิสูจน์ว่าเทคโนโลยีประหยัดไฟไม่มีประโยชน์ทุกกรณี จึงควรถอดอุปกรณ์ออกทันที",
+          "is_answer": false
+        },
+        {
+          "md": "ประสิทธิภาพต้องลดลงเมื่อใช้นานขึ้นเสมอ",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "แยกระดับเครื่อง",
+          "why_md": "ใช้พลังงานต่อชั่วโมงลด"
+        },
+        {
+          "do_md": "ดูระดับระบบ",
+          "why_md": "ชั่วโมงใช้งานเพิ่ม"
+        },
+        {
+          "do_md": "รวมผล",
+          "why_md": "พลังงานรวมจึงลดน้อยกว่าคำนวณจากประสิทธิภาพอย่างเดียว"
+        }
+      ],
+      "answer_explanation_md": "ตอบว่าเป็นผลตอบสนองของการใช้งานที่หักล้างการประหยัดบางส่วน",
+      "hints": [
+        "ต่อชั่วโมงกับยอดรวมเป็นตัวชี้วัดเดียวกันไหม",
+        "ผู้ใช้เปลี่ยนพฤติกรรมหลังต้นทุนลดหรือไม่",
+        "ผลสุทธิยังอาจลดอยู่หรือไม่"
+      ],
+      "distractor_reasons": {
+        "1": "พลังงานรวมยังมาจากแหล่งจ่าย",
+        "2": "หน่วยไม่เปลี่ยนตามราคา",
+        "3": "ผลสะท้อนขึ้นกับพฤติกรรมและยังอาจประหยัดสุทธิ",
+        "4": "อุปกรณ์อาจยังมีประสิทธิภาพเดิมแต่ชั่วโมงใช้เพิ่ม"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.thinking.current_awareness.energy_environment.0008",
+      "topic_ids": [
+        "tpat3.thinking.current_awareness.energy_environment"
+      ],
+      "primary_topic_id": "tpat3.thinking.current_awareness.energy_environment",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 90,
+      "stem_md": "เครื่องทำความร้อนแบบ heat pump มี COP เท่ากับ 3 หมายความว่าอย่างไรจึงไม่ขัดกับการอนุรักษ์พลังงาน",
+      "figures": [],
+      "choices": [
+        {
+          "md": "มีประสิทธิภาพสร้างพลังงาน 300%",
+          "is_answer": false
+        },
+        {
+          "md": "เปลี่ยนไฟหนึ่งส่วนเป็นความร้อนสามส่วนโดยไม่มีพลังงานจากที่อื่นและไม่ดึงความร้อนจากสิ่งแวดล้อม",
+          "is_answer": false
+        },
+        {
+          "md": "ทำงานได้โดยไม่ต้องใช้ไฟเมื่ออากาศมีความร้อน",
+          "is_answer": false
+        },
+        {
+          "md": "ใช้ไฟหนึ่งส่วนและย้ายความร้อนจากสิ่งแวดล้อมมารวมเป็นความร้อนสามส่วน",
+          "is_answer": true
+        },
+        {
+          "md": "ใช้ไฟสามส่วนเพื่อให้ความร้อนหนึ่งส่วน",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "อ่านนิยาม",
+          "why_md": "COP=ความร้อนส่งออก/งานไฟฟ้าเข้า"
+        },
+        {
+          "do_md": "แทนค่าเชิงสัดส่วน",
+          "why_md": "ไฟเข้า 1 หน่วย ให้ความร้อนปลายทาง 3 หน่วย"
+        },
+        {
+          "do_md": "ปิดสมดุล",
+          "why_md": "อีกประมาณ 2 หน่วยถูกย้ายมาจากสิ่งแวดล้อม"
+        }
+      ],
+      "answer_explanation_md": "ตอบว่า heat pump ย้ายความร้อนเดิมจากสิ่งแวดล้อม จึงส่งความร้อนได้มากกว่างานไฟฟ้าที่ใช้",
+      "hints": [
+        "เครื่องสร้างหรือย้ายความร้อน",
+        "COP ต่างจาก efficiency อย่างไร",
+        "พลังงานส่วนที่เกินไฟเข้ามาจากไหน"
+      ],
+      "distractor_reasons": {
+        "0": "COP ไม่ใช่ประสิทธิภาพการสร้างพลังงาน",
+        "1": "ละเลยความร้อนที่ดึงจากสิ่งแวดล้อม",
+        "2": "ยังต้องใช้พลังงานขับคอมเพรสเซอร์",
+        "4": "กลับนิยาม COP"
+      },
+      "misconception_tags": [
+        "cop_as_efficiency"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.thinking.current_awareness.energy_environment.0009",
+      "topic_ids": [
+        "tpat3.thinking.current_awareness.energy_environment"
+      ],
+      "primary_topic_id": "tpat3.thinking.current_awareness.energy_environment",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 120,
+      "stem_md": "รถไฟฟ้าชาร์จเวลาเที่ยงกับเวลาค่ำใช้พลังงานเท่ากัน แต่ส่วนผสมแหล่งผลิตไฟ ณ เวลานั้นต่างกัน ข้อใดเหมาะสมที่สุด",
+      "figures": [],
+      "choices": [
+        {
+          "md": "เวลาเที่ยงสะอาดกว่าเสมอทุกระบบ",
+          "is_answer": false
+        },
+        {
+          "md": "เวลาค่ำสะอาดกว่าเสมอเพราะความต้องการต่ำ",
+          "is_answer": false
+        },
+        {
+          "md": "ดูเฉพาะไอเสียปลายท่อก็เพียงพอ",
+          "is_answer": false
+        },
+        {
+          "md": "ผลกระทบส่วนเพิ่มอาจต่างตามเวลา จึงต้องใช้ข้อมูลระบบไฟตามช่วงเวลา",
+          "is_answer": true
+        },
+        {
+          "md": "ผลกระทบเท่ากันแน่นอนเพราะจำนวน kWh เท่ากัน",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "แยกพลังงานจากผลกระทบ",
+          "why_md": "kWh เท่ากันไม่รับรองการปล่อยเท่ากัน"
+        },
+        {
+          "do_md": "ดูระบบตามเวลา",
+          "why_md": "โรงไฟฟ้าที่เพิ่มหรือลดกำลังอาจต่างกัน"
+        },
+        {
+          "do_md": "กำหนดข้อมูล",
+          "why_md": "ใช้ข้อมูลการผลิตหรือ marginal emissions ตามพื้นที่และเวลา"
+        }
+      ],
+      "answer_explanation_md": "ตอบว่าต้องประเมินข้อมูลระบบไฟตามเวลา เพราะการชาร์จอาจกระตุ้นแหล่งผลิตต่างกัน",
+      "hints": [
+        "หน่วยไฟเท่ากันแต่แหล่งไฟเหมือนกันไหม",
+        "ค่าเฉลี่ยรายปีแทนทุกชั่วโมงได้หรือไม่",
+        "คำว่าเสมอควรถูกระวัง"
+      ],
+      "distractor_reasons": {
+        "0": "ขึ้นกับพื้นที่ ฤดูกาล และข้อจำกัดระบบ",
+        "1": "ความต้องการและแหล่งผลิตไม่เป็นกฎตายตัว",
+        "2": "ละเลยการผลิตไฟฟ้า",
+        "4": "พลังงานเท่ากันแต่แหล่งผลิตส่วนเพิ่มอาจต่าง"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.thinking.current_awareness.energy_environment.0010",
+      "topic_ids": [
+        "tpat3.thinking.current_awareness.energy_environment"
+      ],
+      "primary_topic_id": "tpat3.thinking.current_awareness.energy_environment",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 4,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "high"
+      },
+      "est_seconds": 140,
+      "stem_md": "เชื้อเพลิงชีวภาพชนิดหนึ่งปล่อยคาร์บอนที่ปลายท่อน้อยเมื่อคิดว่าพืชดูดซับไว้แล้ว แต่ยังไม่มีข้อมูลการเปลี่ยนการใช้ที่ดิน ปุ๋ย และการขนส่ง สรุปได้หรือไม่ว่าสะอาดกว่าเชื้อเพลิงเดิม",
+      "figures": [],
+      "choices": [
+        {
+          "md": "สรุปได้ทันทีเพราะคาร์บอนจากพืชเป็นศูนย์เสมอ",
+          "is_answer": false
+        },
+        {
+          "md": "ดูเฉพาะค่าความร้อนของเชื้อเพลิง",
+          "is_answer": false
+        },
+        {
+          "md": "ยังสรุปไม่ได้ ต้องรวมการเปลี่ยนที่ดิน ปัจจัยผลิต และทั้งวงจรชีวิต",
+          "is_answer": true
+        },
+        {
+          "md": "นับเฉพาะคาร์บอนปลายท่อแล้วลบการดูดซับทั้งหมดทันที",
+          "is_answer": false
+        },
+        {
+          "md": "สรุปว่าแย่กว่าเสมอเพราะต้องขนส่ง",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "อ่านขอบเขตเดิม",
+          "why_md": "มีเพียงปลายท่อและสมมติการดูดซับ"
+        },
+        {
+          "do_md": "ระบุส่วนที่ขาด",
+          "why_md": "land-use change ปุ๋ย แปรรูป ขนส่ง และเวลา"
+        },
+        {
+          "do_md": "ตั้งฐานเทียบ",
+          "why_md": "ประเมินต่อบริการพลังงานเท่ากันตลอดวงจรชีวิต"
+        }
+      ],
+      "answer_explanation_md": "ตอบว่ายังเปรียบเทียบไม่ได้จนกว่าจะขยายขอบเขตเป็นวงจรชีวิตและผลจากที่ดิน",
+      "hints": [
+        "พื้นที่เดิมใช้ทำอะไรก่อนปลูก",
+        "การผลิตปุ๋ยและการขนส่งมีผลหรือไม่",
+        "การดูดซับและปล่อยเกิดเวลาเดียวกันไหม"
+      ],
+      "distractor_reasons": {
+        "0": "การปลูกและเปลี่ยนพื้นที่มีการปล่อยและระยะเวลาคืนคาร์บอน",
+        "1": "ค่าความร้อนไม่รวมผลกระทบต้นน้ำ",
+        "3": "ละเลยเวลา การใช้ที่ดิน และการปล่อยจากปัจจัยผลิต",
+        "4": "ยังไม่ทราบระยะทาง วิธีขนส่ง และผลด้านอื่น"
+      },
+      "misconception_tags": [
+        "biogenic_zero_assumption"
       ],
       "template": null,
       "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",

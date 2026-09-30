@@ -34,16 +34,16 @@
           "is_answer": false
         },
         {
+          "md": "20,000 Pa",
+          "is_answer": true
+        },
+        {
           "md": "2,000 Pa",
           "is_answer": false
         },
         {
           "md": "500 Pa",
           "is_answer": false
-        },
-        {
-          "md": "20,000 Pa",
-          "is_answer": true
         },
         {
           "md": "200,000 Pa",
@@ -69,8 +69,8 @@
       ],
       "distractor_reasons": {
         "0": "มากไปหนึ่งร้อยเท่า",
-        "1": "ขาดตัวคูณ 10 จาก g",
-        "2": "หารด้วยความลึกแทนคูณ",
+        "2": "ขาดตัวคูณ 10 จาก g",
+        "3": "หารด้วยความลึกแทนคูณ",
         "4": "มากไปสิบเท่า"
       },
       "misconception_tags": [],
@@ -111,10 +111,6 @@
           "is_answer": false
         },
         {
-          "md": "ความดันเกจที่ก้นทั้งสองถังเท่ากัน",
-          "is_answer": true
-        },
-        {
           "md": "ถัง A มีความดันมากกว่าเพราะน้ำถูกบีบในที่แคบ",
           "is_answer": false
         },
@@ -125,6 +121,10 @@
         {
           "md": "ถัง B มีความดันมากกว่าเพราะมีน้ำมากกว่า",
           "is_answer": false
+        },
+        {
+          "md": "ความดันเกจที่ก้นทั้งสองถังเท่ากัน",
+          "is_answer": true
         }
       ],
       "answer_numeric": null,
@@ -146,9 +146,9 @@
       ],
       "distractor_reasons": {
         "0": "พื้นที่มีผลต่อแรงรวม ไม่ใช่ค่า P ที่ความลึกเดียวกัน",
-        "2": "ของเหลวไม่ได้เพิ่มความดันเพราะถังแคบ",
-        "3": "รูปทรงไม่อยู่ใน P=ρgh",
-        "4": "ความดันที่จุดขึ้นกับความลึก ไม่ใช่ปริมาตรรวม"
+        "1": "ของเหลวไม่ได้เพิ่มความดันเพราะถังแคบ",
+        "2": "รูปทรงไม่อยู่ใน P=ρgh",
+        "3": "ความดันที่จุดขึ้นกับความลึก ไม่ใช่ปริมาตรรวม"
       },
       "misconception_tags": [
         "container_shape_pressure"
@@ -186,10 +186,6 @@
       "figures": [],
       "choices": [
         {
-          "md": "20,000 Pa",
-          "is_answer": true
-        },
-        {
           "md": "200,000 Pa",
           "is_answer": false
         },
@@ -204,6 +200,10 @@
         {
           "md": "2,000 Pa",
           "is_answer": false
+        },
+        {
+          "md": "20,000 Pa",
+          "is_answer": true
         }
       ],
       "answer_numeric": null,
@@ -224,10 +224,10 @@
         "พื้นที่น้อยกว่าหนึ่งตารางเมตรมาก"
       ],
       "distractor_reasons": {
-        "1": "แปลงพื้นที่เล็กไปสิบเท่า",
-        "2": "แปลงพื้นที่ผิดสองหลัก",
-        "3": "ใช้ตัวเลขพื้นที่โดยไม่แปลงหน่วย",
-        "4": "แปลง 300 cm² เป็น 0.3 m² ผิด"
+        "0": "แปลงพื้นที่เล็กไปสิบเท่า",
+        "1": "แปลงพื้นที่ผิดสองหลัก",
+        "2": "ใช้ตัวเลขพื้นที่โดยไม่แปลงหน่วย",
+        "3": "แปลง 300 cm² เป็น 0.3 m² ผิด"
       },
       "misconception_tags": [
         "linear_conversion_for_area"
@@ -358,12 +358,12 @@
           "is_answer": false
         },
         {
-          "md": "20,000 N",
-          "is_answer": false
-        },
-        {
           "md": "200 N",
           "is_answer": true
+        },
+        {
+          "md": "20,000 N",
+          "is_answer": false
         }
       ],
       "answer_numeric": null,
@@ -387,7 +387,7 @@
         "0": "มากไปสิบเท่า",
         "1": "กลับอัตราส่วนปริมาตร",
         "2": "ขาดตัวคูณ g",
-        "3": "ใช้ความหนาแน่นโดยไม่คูณปริมาตรถูกต้อง"
+        "4": "ใช้ความหนาแน่นโดยไม่คูณปริมาตรถูกต้อง"
       },
       "misconception_tags": [],
       "template": null,
@@ -431,12 +431,12 @@
           "is_answer": false
         },
         {
-          "md": "2,000 N",
-          "is_answer": true
-        },
-        {
           "md": "320 N",
           "is_answer": false
+        },
+        {
+          "md": "2,000 N",
+          "is_answer": true
         },
         {
           "md": "32,000 N",
@@ -463,11 +463,331 @@
       "distractor_reasons": {
         "0": "คำนวณได้ความดันแต่ยังไม่คูณพื้นที่",
         "1": "ขาดตัวคูณความหนาแน่นหรือพื้นที่",
-        "3": "นำพื้นที่ไปหารความลึก",
+        "2": "นำพื้นที่ไปหารความลึก",
         "4": "หารด้วยพื้นที่แทนคูณ"
       },
       "misconception_tags": [
         "pressure_force_confusion"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.aptitude.mechanical.fluid_pressure.0007",
+      "topic_ids": [
+        "tpat3.aptitude.mechanical.fluid_pressure"
+      ],
+      "primary_topic_id": "tpat3.aptitude.mechanical.fluid_pressure",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 55,
+      "stem_md": "น้ำมันมีความหนาแน่น $\\rho=800$ kg/m³ จุดหนึ่งลึก 2 m ใช้ $g=10$ m/s² ความดันเกจเท่าไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "20,000 Pa",
+          "is_answer": false
+        },
+        {
+          "md": "4,000 Pa",
+          "is_answer": false
+        },
+        {
+          "md": "16,000 Pa",
+          "is_answer": true
+        },
+        {
+          "md": "160,000 Pa",
+          "is_answer": false
+        },
+        {
+          "md": "1,600 Pa",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ใช้สูตร",
+          "why_md": "P=ρgh"
+        },
+        {
+          "do_md": "แทนค่า",
+          "why_md": "800×10×2=16,000 Pa"
+        }
+      ],
+      "answer_explanation_md": "ตอบ 16,000 พาสคัล จาก $800×10×2$",
+      "hints": [
+        "ใช้ความหนาแน่นของน้ำมันตามโจทย์",
+        "ความลึกเป็นเมตรแล้ว",
+        "คูณสามปริมาณในสูตร"
+      ],
+      "distractor_reasons": {
+        "0": "ใช้ความหนาแน่นน้ำ 1000 แทนน้ำมัน",
+        "1": "หารความหนาแน่นด้วยความลึก",
+        "3": "มากไปสิบเท่า",
+        "4": "ขาดตัวคูณ g"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.aptitude.mechanical.fluid_pressure.0008",
+      "topic_ids": [
+        "tpat3.aptitude.mechanical.fluid_pressure"
+      ],
+      "primary_topic_id": "tpat3.aptitude.mechanical.fluid_pressure",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 90,
+      "stem_md": "จุด A และ B อยู่ในน้ำลึก 0.5 m และ 2.0 m ตามลำดับ ใช้ความหนาแน่นน้ำ $\\rho=1000$ kg/m³ และ $g=10$ m/s² ความดันเกจที่ B มากกว่า A เท่าไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "20,000 Pa",
+          "is_answer": false
+        },
+        {
+          "md": "25,000 Pa",
+          "is_answer": false
+        },
+        {
+          "md": "15,000 Pa",
+          "is_answer": true
+        },
+        {
+          "md": "5,000 Pa",
+          "is_answer": false
+        },
+        {
+          "md": "150,000 Pa",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "หาผลต่างความลึก",
+          "why_md": "2.0-0.5=1.5 m"
+        },
+        {
+          "do_md": "หาผลต่างความดัน",
+          "why_md": "ΔP=ρgΔh=1000×10×1.5=15,000 Pa"
+        }
+      ],
+      "answer_explanation_md": "ตอบ 15,000 พาสคัล เพราะจุดทั้งสองต่างความลึก 1.5 เมตร",
+      "hints": [
+        "ถามความดันที่ต่างกัน ไม่ใช่ความดันที่ B จากผิวน้ำ",
+        "ใช้ผลต่างความลึก",
+        "ของเหลวเป็นชนิดเดียวกัน"
+      ],
+      "distractor_reasons": {
+        "0": "ใช้ความลึก B จากผิวน้ำโดยไม่ลบ A",
+        "1": "บวกความลึก 0.5 กับ 2.0",
+        "3": "ใช้ความลึกของ A เพียงค่าเดียว",
+        "4": "มากไปสิบเท่า"
+      },
+      "misconception_tags": [
+        "use_absolute_depth_for_difference"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.aptitude.mechanical.fluid_pressure.0009",
+      "topic_ids": [
+        "tpat3.aptitude.mechanical.fluid_pressure"
+      ],
+      "primary_topic_id": "tpat3.aptitude.mechanical.fluid_pressure",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 120,
+      "stem_md": "ระบบไฮดรอลิกมีลูกสูบเล็กพื้นที่ 10 cm² เคลื่อนลง 20 cm และลูกสูบใหญ่พื้นที่ 200 cm² โดยของไหลไม่อัดตัว ลูกสูบใหญ่เคลื่อนขึ้นเท่าไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "400 cm",
+          "is_answer": false
+        },
+        {
+          "md": "1 cm",
+          "is_answer": true
+        },
+        {
+          "md": "0.5 cm",
+          "is_answer": false
+        },
+        {
+          "md": "10 cm",
+          "is_answer": false
+        },
+        {
+          "md": "20 cm",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "อนุรักษ์ปริมาตร",
+          "why_md": "A_1s_1=A_2s_2"
+        },
+        {
+          "do_md": "แทนค่า",
+          "why_md": "10×20=200×s_2"
+        },
+        {
+          "do_md": "คำนวณ",
+          "why_md": "s_2=1 cm"
+        }
+      ],
+      "answer_explanation_md": "ตอบ 1 เซนติเมตร เพราะปริมาตรที่ลูกสูบทั้งสองกวาดต้องเท่ากัน",
+      "hints": [
+        "ของไหลที่ถูกดันจากด้านเล็กต้องไปด้านใหญ่",
+        "พื้นที่ใหญ่กว่ายี่สิบเท่า",
+        "ระยะด้านใหญ่จึงสั้นลงยี่สิบเท่า"
+      ],
+      "distractor_reasons": {
+        "0": "คูณระยะด้วยอัตราส่วนพื้นที่แทนหาร",
+        "2": "ใช้อัตราส่วนพื้นที่ 40 เท่าแทน 20 เท่า",
+        "3": "ใช้ครึ่งหนึ่งของระยะโดยไม่อนุรักษ์ปริมาตร",
+        "4": "คิดว่าลูกสูบทั้งสองเคลื่อนเท่ากัน"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.aptitude.mechanical.fluid_pressure.0010",
+      "topic_ids": [
+        "tpat3.aptitude.mechanical.fluid_pressure"
+      ],
+      "primary_topic_id": "tpat3.aptitude.mechanical.fluid_pressure",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 120,
+      "stem_md": "ลูกบาศก์ปริมาตร 0.125 m³ มีมวล 100 kg ลอยนิ่งในน้ำ ใช้ความหนาแน่นน้ำ $\\rho=1000$ kg/m³ และ $g=10$ m/s² ปริมาตรที่จมคิดเป็นกี่เปอร์เซ็นต์ของลูกบาศก์",
+      "figures": [],
+      "choices": [
+        {
+          "md": "80%",
+          "is_answer": true
+        },
+        {
+          "md": "20%",
+          "is_answer": false
+        },
+        {
+          "md": "125%",
+          "is_answer": false
+        },
+        {
+          "md": "50%",
+          "is_answer": false
+        },
+        {
+          "md": "100%",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "สมดุลแนวดิ่ง",
+          "why_md": "แรงลอยตัวเท่ากับน้ำหนัก 100×10=1,000 N"
+        },
+        {
+          "do_md": "หาปริมาตรแทนที่",
+          "why_md": "1000×10×V=1,000 จึง V=0.100 m³"
+        },
+        {
+          "do_md": "หาสัดส่วนจม",
+          "why_md": "0.100/0.125=0.80=80%"
+        }
+      ],
+      "answer_explanation_md": "ตอบ 80% เพราะต้องแทนที่น้ำ 0.100 ลูกบาศก์เมตรเพื่อรับน้ำหนัก 1,000 นิวตัน",
+      "hints": [
+        "วัตถุลอยนิ่งจึงแรงลัพธ์เป็นศูนย์",
+        "แรงลอยตัวใช้เฉพาะปริมาตรที่จม",
+        "เทียบปริมาตรแทนที่กับปริมาตรรวม"
+      ],
+      "distractor_reasons": {
+        "1": "ใช้ส่วนที่พ้นน้ำแทนส่วนที่จม",
+        "2": "นำมวลหารปริมาตรแล้วใช้ตัวเลขโดยไม่เทียบความหนาแน่นน้ำ",
+        "3": "สมมติว่าของลอยต้องจมครึ่งหนึ่ง",
+        "4": "ใช้ปริมาตรทั้งหมดแม้น้ำหนักน้อยกว่าแรงลอยตัวสูงสุด"
+      },
+      "misconception_tags": [
+        "full_volume_for_floating_buoyancy"
       ],
       "template": null,
       "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",

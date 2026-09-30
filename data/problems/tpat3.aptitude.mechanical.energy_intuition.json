@@ -42,12 +42,12 @@
           "is_answer": false
         },
         {
-          "md": "258 J",
-          "is_answer": false
-        },
-        {
           "md": "2,000 J",
           "is_answer": true
+        },
+        {
+          "md": "258 J",
+          "is_answer": false
         }
       ],
       "answer_numeric": null,
@@ -71,7 +71,7 @@
         "0": "หารแรงด้วยระยะ",
         "1": "คูณด้วย 10 m",
         "2": "มากไปสิบเท่า",
-        "3": "บวกแรงกับระยะ"
+        "4": "บวกแรงกับระยะ"
       },
       "misconception_tags": [],
       "template": null,
@@ -107,10 +107,6 @@
       "figures": [],
       "choices": [
         {
-          "md": "600 J",
-          "is_answer": true
-        },
-        {
           "md": "60 J",
           "is_answer": false
         },
@@ -125,6 +121,10 @@
         {
           "md": "6,000 J",
           "is_answer": false
+        },
+        {
+          "md": "600 J",
+          "is_answer": true
         }
       ],
       "answer_numeric": null,
@@ -145,10 +145,10 @@
         "ตรวจเลขศูนย์ก่อนเลือกคำตอบ"
       ],
       "distractor_reasons": {
-        "1": "คูณเพียงมวลกับความสูง",
-        "2": "หารด้วย g แทนคูณ",
-        "3": "ใช้มวลคูณ g แต่ไม่คูณความสูงครบ",
-        "4": "มากไปสิบเท่า"
+        "0": "คูณเพียงมวลกับความสูง",
+        "1": "หารด้วย g แทนคูณ",
+        "2": "ใช้มวลคูณ g แต่ไม่คูณความสูงครบ",
+        "3": "มากไปสิบเท่า"
       },
       "misconception_tags": [],
       "template": null,
@@ -184,16 +184,16 @@
       "figures": [],
       "choices": [
         {
-          "md": "4 เท่า",
-          "is_answer": true
-        },
-        {
           "md": "2 เท่า",
           "is_answer": false
         },
         {
           "md": "เท่ากัน",
           "is_answer": false
+        },
+        {
+          "md": "4 เท่า",
+          "is_answer": true
         },
         {
           "md": "16 เท่า",
@@ -222,8 +222,8 @@
         "สองยกกำลังสองเท่ากับสี่"
       ],
       "distractor_reasons": {
-        "1": "คิดว่าพลังงานจลน์แปรตรงกับความเร็ว",
-        "2": "ละเลยความเร็ว",
+        "0": "คิดว่าพลังงานจลน์แปรตรงกับความเร็ว",
+        "1": "ละเลยความเร็ว",
         "3": "ยกกำลังสองซ้ำ",
         "4": "ยกกำลังสาม"
       },
@@ -267,16 +267,16 @@
           "is_answer": false
         },
         {
-          "md": "8 m",
-          "is_answer": true
-        },
-        {
           "md": "16 m",
           "is_answer": false
         },
         {
           "md": "2 m",
           "is_answer": false
+        },
+        {
+          "md": "8 m",
+          "is_answer": true
         },
         {
           "md": "4 m",
@@ -306,8 +306,8 @@
       ],
       "distractor_reasons": {
         "0": "กลับอัตราส่วนระยะ",
-        "2": "คูณอัตราทดซ้ำ",
-        "3": "คิดว่าระยะดึงเท่าความสูงเสมอ",
+        "1": "คูณอัตราทดซ้ำ",
+        "2": "คิดว่าระยะดึงเท่าความสูงเสมอ",
         "4": "ใช้อัตราทดเพียงสองเท่า"
       },
       "misconception_tags": [
@@ -346,6 +346,10 @@
       "figures": [],
       "choices": [
         {
+          "md": "80%",
+          "is_answer": true
+        },
+        {
           "md": "125%",
           "is_answer": false
         },
@@ -356,10 +360,6 @@
         {
           "md": "20%",
           "is_answer": false
-        },
-        {
-          "md": "80%",
-          "is_answer": true
         },
         {
           "md": "180%",
@@ -384,9 +384,9 @@
         "พลังงานสูญเสีย 500 J คือ 20%"
       ],
       "distractor_reasons": {
-        "0": "กลับเศษส่วนพลังงานเข้าและออก",
-        "1": "ละเลยพลังงานสูญเสีย",
-        "2": "คำนวณสัดส่วนพลังงานสูญเสีย",
+        "1": "กลับเศษส่วนพลังงานเข้าและออก",
+        "2": "ละเลยพลังงานสูญเสีย",
+        "3": "คำนวณสัดส่วนพลังงานสูญเสีย",
         "4": "บวกเปอร์เซ็นต์ผิด"
       },
       "misconception_tags": [
@@ -429,12 +429,12 @@
           "is_answer": false
         },
         {
-          "md": "0.4 m",
-          "is_answer": false
-        },
-        {
           "md": "4 m",
           "is_answer": true
+        },
+        {
+          "md": "0.4 m",
+          "is_answer": false
         },
         {
           "md": "40 m",
@@ -468,11 +468,333 @@
       ],
       "distractor_reasons": {
         "0": "ใช้พลังงานเข้าทั้งหมดโดยไม่คิดประสิทธิภาพ",
-        "1": "หารเกินตัวคูณสิบ",
+        "2": "หารเกินตัวคูณสิบ",
         "3": "ลืมคูณมวลกับ g",
         "4": "ทั้งละเลยประสิทธิภาพและแปลงแรงผิด"
       },
       "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.aptitude.mechanical.energy_intuition.0007",
+      "topic_ids": [
+        "tpat3.aptitude.mechanical.energy_intuition"
+      ],
+      "primary_topic_id": "tpat3.aptitude.mechanical.energy_intuition",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 90,
+      "stem_md": "วัตถุมวลคงที่เพิ่มความเร็วจาก v เป็น 3v พลังงานจลน์เพิ่มเป็นกี่เท่า",
+      "figures": [],
+      "choices": [
+        {
+          "md": "9 เท่า",
+          "is_answer": true
+        },
+        {
+          "md": "3 เท่า",
+          "is_answer": false
+        },
+        {
+          "md": "27 เท่า",
+          "is_answer": false
+        },
+        {
+          "md": "12 เท่า",
+          "is_answer": false
+        },
+        {
+          "md": "6 เท่า",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ใช้ความสัมพันธ์",
+          "why_md": "E_k∝v²"
+        },
+        {
+          "do_md": "หาอัตราส่วน",
+          "why_md": "(3v)²/v²=9"
+        }
+      ],
+      "answer_explanation_md": "ตอบ 9 เท่า เพราะพลังงานจลน์แปรตามกำลังสองของความเร็ว",
+      "hints": [
+        "มวลไม่เปลี่ยน",
+        "ความเร็วอยู่ในสูตรเป็นกำลังสอง",
+        "สามยกกำลังสอง"
+      ],
+      "distractor_reasons": {
+        "1": "คิดว่าพลังงานจลน์แปรตรงกับความเร็ว",
+        "2": "ใช้กำลังสามของความเร็ว",
+        "3": "คูณสามกับเลขชี้กำลังโดยตรง",
+        "4": "คูณตัวคูณความเร็วด้วยสอง"
+      },
+      "misconception_tags": [
+        "kinetic_energy_linear_speed"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.aptitude.mechanical.energy_intuition.0008",
+      "topic_ids": [
+        "tpat3.aptitude.mechanical.energy_intuition"
+      ],
+      "primary_topic_id": "tpat3.aptitude.mechanical.energy_intuition",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 120,
+      "stem_md": "ระบบแปลงพลังงานสองขั้นมีประสิทธิภาพ 80% และ 75% ตามลำดับ หากต้องการพลังงานออก 3,000 J ต้องใช้พลังงานเข้าเท่าไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "4,000 J",
+          "is_answer": false
+        },
+        {
+          "md": "1,800 J",
+          "is_answer": false
+        },
+        {
+          "md": "5,000 J",
+          "is_answer": true
+        },
+        {
+          "md": "3,750 J",
+          "is_answer": false
+        },
+        {
+          "md": "6,000 J",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "หาประสิทธิภาพรวม",
+          "why_md": "0.80×0.75=0.60"
+        },
+        {
+          "do_md": "เชื่อมพลังงานเข้าออก",
+          "why_md": "3000=0.60E_{in}"
+        },
+        {
+          "do_md": "แก้สมการ",
+          "why_md": "E_{in}=5,000 J"
+        }
+      ],
+      "answer_explanation_md": "ตอบ 5,000 จูล เพราะระบบรวมส่งผ่านพลังงานได้ 60%",
+      "hints": [
+        "ประสิทธิภาพหลายขั้นต้องคูณกัน",
+        "พลังงานออกน้อยกว่าพลังงานเข้า",
+        "ใช้สามพันหารด้วยประสิทธิภาพรวม"
+      ],
+      "distractor_reasons": {
+        "0": "หารด้วย 75% เพียงขั้นเดียว",
+        "1": "คูณพลังงานออกด้วยประสิทธิภาพรวมแทนหาร",
+        "3": "หารด้วย 80% เพียงขั้นเดียว",
+        "4": "บวกการสูญเสีย 20% และ 25% เป็น 45% แล้วประมาณผิด"
+      },
+      "misconception_tags": [
+        "add_efficiencies"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.aptitude.mechanical.energy_intuition.0009",
+      "topic_ids": [
+        "tpat3.aptitude.mechanical.energy_intuition"
+      ],
+      "primary_topic_id": "tpat3.aptitude.mechanical.energy_intuition",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 55,
+      "stem_md": "วัตถุมวล 10 kg เริ่มหยุดนิ่งบนที่สูง 5 m แล้วไถลลง โดยเสียพลังงานเป็นความร้อน 100 J ใช้ $g=10$ m/s² พลังงานจลน์ที่ด้านล่างเท่าไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "5,000 J",
+          "is_answer": false
+        },
+        {
+          "md": "400 J",
+          "is_answer": true
+        },
+        {
+          "md": "100 J",
+          "is_answer": false
+        },
+        {
+          "md": "500 J",
+          "is_answer": false
+        },
+        {
+          "md": "600 J",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "หาพลังงานศักย์เริ่มต้น",
+          "why_md": "mgh=10×10×5=500 J"
+        },
+        {
+          "do_md": "ใช้การอนุรักษ์พลังงาน",
+          "why_md": "พลังงานศักย์เปลี่ยนเป็นพลังงานจลน์และความร้อน"
+        },
+        {
+          "do_md": "หาพลังงานจลน์",
+          "why_md": "500-100=400 J"
+        }
+      ],
+      "answer_explanation_md": "ตอบ 400 จูล เพราะพลังงานศักย์ 500 จูลสูญเสียเป็นความร้อน 100 จูล",
+      "hints": [
+        "เริ่มหยุดนิ่งจึงไม่มีพลังงานจลน์ต้น",
+        "ความร้อนเป็นพลังงานที่ออกจากส่วนกล",
+        "ลบการสูญเสียจากพลังงานศักย์"
+      ],
+      "distractor_reasons": {
+        "0": "คูณ g ซ้ำอีกหนึ่งครั้ง",
+        "2": "ตอบเฉพาะพลังงานที่สูญเสีย",
+        "3": "ละเลยพลังงานที่เปลี่ยนเป็นความร้อน",
+        "4": "บวกความร้อนเข้ากับพลังงานศักย์"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.aptitude.mechanical.energy_intuition.0010",
+      "topic_ids": [
+        "tpat3.aptitude.mechanical.energy_intuition"
+      ],
+      "primary_topic_id": "tpat3.aptitude.mechanical.energy_intuition",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 45,
+      "stem_md": "มอเตอร์รับกำลังไฟฟ้า 5 kW และเปลี่ยนเป็นกำลังกลได้ 80% กำลังกลที่ได้เท่าไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "5.8 kW",
+          "is_answer": false
+        },
+        {
+          "md": "4.2 kW",
+          "is_answer": false
+        },
+        {
+          "md": "0.8 kW",
+          "is_answer": false
+        },
+        {
+          "md": "6.25 kW",
+          "is_answer": false
+        },
+        {
+          "md": "4 kW",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "อ่านความหมายประสิทธิภาพ",
+          "why_md": "กำลังออกเท่ากับประสิทธิภาพคูณกำลังเข้า"
+        },
+        {
+          "do_md": "แทนค่า",
+          "why_md": "0.80×5=4 kW"
+        }
+      ],
+      "answer_explanation_md": "ตอบ 4 กิโลวัตต์ เพราะมอเตอร์ให้กำลังกล 80% ของ 5 กิโลวัตต์",
+      "hints": [
+        "กำลังออกต้องไม่เกินกำลังเข้า",
+        "แปดสิบเปอร์เซ็นต์เขียนเป็น 0.80",
+        "คูณห้าด้วยศูนย์จุดแปด"
+      ],
+      "distractor_reasons": {
+        "0": "บวกค่าประสิทธิภาพเข้ากับกำลัง",
+        "1": "นำ 0.8 ไปลบจาก 5 แบบต่างหน่วย",
+        "2": "ใช้ค่าประสิทธิภาพเป็นกำลังโดยตรง",
+        "3": "หารด้วย 0.8 ซึ่งเป็นการหากำลังเข้าจากกำลังออก"
+      },
+      "misconception_tags": [
+        "efficiency_direction"
+      ],
       "template": null,
       "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
       "calculator_allowed": false,

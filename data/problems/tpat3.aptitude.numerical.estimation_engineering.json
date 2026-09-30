@@ -30,16 +30,16 @@
       "figures": [],
       "choices": [
         {
+          "md": "ประมาณ 250 แผ่น",
+          "is_answer": true
+        },
+        {
           "md": "ประมาณ 25 แผ่น",
           "is_answer": false
         },
         {
           "md": "ประมาณ 25,000 แผ่น",
           "is_answer": false
-        },
-        {
-          "md": "ประมาณ 250 แผ่น",
-          "is_answer": true
         },
         {
           "md": "ประมาณ 80 แผ่น",
@@ -72,8 +72,8 @@
         "เผื่อเศษแล้วจำนวนต้องมากกว่า 222"
       ],
       "distractor_reasons": {
-        "0": "น้อยไปสิบเท่าเพราะแปลงพื้นที่แผ่นผิด",
-        "1": "มากไปประมาณร้อยเท่า",
+        "1": "น้อยไปสิบเท่าเพราะแปลงพื้นที่แผ่นผิด",
+        "2": "มากไปประมาณร้อยเท่า",
         "3": "คิดพื้นที่กระเบื้องใหญ่เกินจริง",
         "4": "มากไปสิบเท่า"
       },
@@ -113,16 +113,16 @@
       "figures": [],
       "choices": [
         {
-          "md": "ประมาณ 3 ตัน",
-          "is_answer": true
-        },
-        {
           "md": "ประมาณ 0.3 ตัน",
           "is_answer": false
         },
         {
           "md": "ประมาณ 300 ตัน",
           "is_answer": false
+        },
+        {
+          "md": "ประมาณ 3 ตัน",
+          "is_answer": true
         },
         {
           "md": "ประมาณ 0.03 ตัน",
@@ -155,8 +155,8 @@
         "1 ตันมี 1,000 kg"
       ],
       "distractor_reasons": {
-        "1": "น้อยไปสิบเท่า",
-        "2": "มากไปหนึ่งร้อยเท่า",
+        "0": "น้อยไปสิบเท่า",
+        "1": "มากไปหนึ่งร้อยเท่า",
         "3": "น้อยไปหนึ่งร้อยเท่า",
         "4": "มากไปสิบเท่า"
       },
@@ -206,12 +206,12 @@
           "is_answer": false
         },
         {
-          "md": "ประมาณ 10 L",
-          "is_answer": true
-        },
-        {
           "md": "ประมาณ 100 L",
           "is_answer": false
+        },
+        {
+          "md": "ประมาณ 10 L",
+          "is_answer": true
         }
       ],
       "answer_numeric": null,
@@ -239,7 +239,7 @@
         "0": "คิดเพียงเที่ยวเดียว",
         "1": "มากไปประมาณร้อยเท่า",
         "2": "ละเลยพื้นที่ส่วนใหญ่ของผนัง",
-        "4": "มากไปประมาณสิบเท่า"
+        "3": "มากไปประมาณสิบเท่า"
       },
       "misconception_tags": [
         "ignore_multiple_coats"
@@ -281,6 +281,10 @@
           "is_answer": false
         },
         {
+          "md": "ประมาณ 65 m",
+          "is_answer": true
+        },
+        {
           "md": "ประมาณ 6.5 m",
           "is_answer": false
         },
@@ -291,10 +295,6 @@
         {
           "md": "ประมาณ 6,500 m",
           "is_answer": false
-        },
-        {
-          "md": "ประมาณ 65 m",
-          "is_answer": true
         }
       ],
       "answer_numeric": null,
@@ -320,9 +320,9 @@
       ],
       "distractor_reasons": {
         "0": "คูณจำนวนชั้นกับความสูงรวมซ้ำ",
-        "1": "น้อยไปสิบเท่า",
-        "2": "ใช้จำนวนชั้นเป็นความยาว",
-        "3": "มากไปประมาณร้อยเท่า"
+        "2": "น้อยไปสิบเท่า",
+        "3": "ใช้จำนวนชั้นเป็นความยาว",
+        "4": "มากไปประมาณร้อยเท่า"
       },
       "misconception_tags": [],
       "template": null,
@@ -362,10 +362,6 @@
           "is_answer": false
         },
         {
-          "md": "สับสน W กับ kW แล้วคูณพันซ้ำ",
-          "is_answer": true
-        },
-        {
           "md": "ควรแปลงชั่วโมงเป็นนาทีเสมอ",
           "is_answer": false
         },
@@ -376,6 +372,10 @@
         {
           "md": "ควรหารเวลาด้วยกำลัง",
           "is_answer": false
+        },
+        {
+          "md": "สับสน W กับ kW แล้วคูณพันซ้ำ",
+          "is_answer": true
         }
       ],
       "answer_numeric": null,
@@ -401,9 +401,9 @@
       ],
       "distractor_reasons": {
         "0": "สูงกว่าค่าที่ควรเป็นหนึ่งพันเท่า",
-        "2": "ใช้ kW กับ h ได้หน่วย kWh โดยตรง",
-        "3": "พลังงานเท่ากับกำลังคูณเวลา",
-        "4": "ไม่ตรงนิยามพลังงาน"
+        "1": "ใช้ kW กับ h ได้หน่วย kWh โดยตรง",
+        "2": "พลังงานเท่ากับกำลังคูณเวลา",
+        "3": "ไม่ตรงนิยามพลังงาน"
       },
       "misconception_tags": [
         "watt_kilowatt_confusion"
@@ -489,6 +489,326 @@
         "4": "ต่ำเกินกว่าความจุของพื้นที่มาก"
       },
       "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.aptitude.numerical.estimation_engineering.0007",
+      "topic_ids": [
+        "tpat3.aptitude.numerical.estimation_engineering"
+      ],
+      "primary_topic_id": "tpat3.aptitude.numerical.estimation_engineering",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 90,
+      "stem_md": "ก๊อกน้ำรั่วเฉลี่ย 0.2 L/นาที หากรั่วตลอดหนึ่งวัน ปริมาณน้ำที่เสียใกล้เคียงเท่าไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ประมาณ 30 L",
+          "is_answer": false
+        },
+        {
+          "md": "ประมาณ 3 L",
+          "is_answer": false
+        },
+        {
+          "md": "ประมาณ 300 L",
+          "is_answer": true
+        },
+        {
+          "md": "ประมาณ 3,000 L",
+          "is_answer": false
+        },
+        {
+          "md": "ประมาณ 30,000 L",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "แปลงเวลา",
+          "why_md": "1 วัน=24×60=1,440 นาที"
+        },
+        {
+          "do_md": "คูณอัตรา",
+          "why_md": "0.2×1,440=288 L"
+        },
+        {
+          "do_md": "เลือกค่าประมาณ",
+          "why_md": "ใกล้ 300 L"
+        }
+      ],
+      "answer_explanation_md": "ตอบประมาณ 300 ลิตร เพราะค่าคำนวณได้ 288 ลิตรต่อวัน",
+      "hints": [
+        "หนึ่งวันมีมากกว่าหนึ่งพันนาที",
+        "คูณลิตรต่อนาทีกับจำนวนนาที",
+        "ตัวเลือกห่างกันสิบเท่า"
+      ],
+      "distractor_reasons": {
+        "0": "ต่ำไปประมาณสิบเท่า",
+        "1": "ต่ำไปประมาณร้อยเท่า",
+        "3": "สูงไปประมาณสิบเท่า",
+        "4": "สูงไปประมาณร้อยเท่า"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.aptitude.numerical.estimation_engineering.0008",
+      "topic_ids": [
+        "tpat3.aptitude.numerical.estimation_engineering"
+      ],
+      "primary_topic_id": "tpat3.aptitude.numerical.estimation_engineering",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 50,
+      "stem_md": "แบตเตอรี่มีพลังงานที่ใช้ได้จริง 80 Wh อุปกรณ์กินกำลังคงที่ 8 W จะทำงานได้นานเท่าไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "64 ชั่วโมง",
+          "is_answer": false
+        },
+        {
+          "md": "8 ชั่วโมง",
+          "is_answer": false
+        },
+        {
+          "md": "80 ชั่วโมง",
+          "is_answer": false
+        },
+        {
+          "md": "10 ชั่วโมง",
+          "is_answer": true
+        },
+        {
+          "md": "1 ชั่วโมง",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "เลือกความสัมพันธ์",
+          "why_md": "เวลาเท่ากับพลังงานหารด้วยกำลัง"
+        },
+        {
+          "do_md": "แทนค่า",
+          "why_md": "80 Wh/8 W=10 h"
+        }
+      ],
+      "answer_explanation_md": "ตอบ 10 ชั่วโมง จาก 80 Wh หารด้วย 8 W",
+      "hints": [
+        "Wh หาร W ได้หน่วยใด",
+        "ใช้พลังงานที่โจทย์บอกว่าใช้ได้จริง",
+        "หารแปดสิบด้วยแปด"
+      ],
+      "distractor_reasons": {
+        "0": "คูณ 80×8 แทนการหาร",
+        "1": "ใช้ตัวเลขกำลังเป็นเวลาโดยไม่คำนวณ",
+        "2": "ใช้ค่าพลังงานเป็นเวลาโดยไม่หารกำลัง",
+        "4": "หารพลังงานด้วย 80 แทนกำลัง 8 W"
+      },
+      "misconception_tags": [
+        "energy_as_runtime"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.aptitude.numerical.estimation_engineering.0009",
+      "topic_ids": [
+        "tpat3.aptitude.numerical.estimation_engineering"
+      ],
+      "primary_topic_id": "tpat3.aptitude.numerical.estimation_engineering",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 90,
+      "stem_md": "ฐานคอนกรีตยาว 10 m กว้าง 0.50 m หนา 0.30 m และเผื่อสูญเสีย 10% ควรสั่งคอนกรีตใกล้เคียงเท่าไร",
+      "figures": [],
+      "choices": [
+        {
+          "md": "ประมาณ 5.5 m³",
+          "is_answer": false
+        },
+        {
+          "md": "ประมาณ 17 m³",
+          "is_answer": false
+        },
+        {
+          "md": "ประมาณ 1.5 m³",
+          "is_answer": false
+        },
+        {
+          "md": "ประมาณ 1.7 m³",
+          "is_answer": true
+        },
+        {
+          "md": "ประมาณ 0.17 m³",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "หาปริมาตรฐาน",
+          "why_md": "10×0.50×0.30=1.50 m³"
+        },
+        {
+          "do_md": "รวมส่วนเผื่อ",
+          "why_md": "1.50×1.10=1.65 m³"
+        },
+        {
+          "do_md": "ปัดสำหรับการสั่ง",
+          "why_md": "ประมาณ 1.7 m³"
+        }
+      ],
+      "answer_explanation_md": "ตอบประมาณ 1.7 ลูกบาศก์เมตร จากปริมาตรรวมเผื่อ 1.65 ลูกบาศก์เมตร",
+      "hints": [
+        "ปริมาตรใช้ผลคูณสามมิติ",
+        "ส่วนเผื่อสิบเปอร์เซ็นต์ทำให้ค่ามากกว่า 1.5",
+        "เลือกค่าประมาณที่อยู่ใกล้ 1.65"
+      ],
+      "distractor_reasons": {
+        "0": "บวกสามมิติแทนคูณ",
+        "1": "สูงไปสิบเท่า",
+        "2": "ไม่รวมส่วนเผื่อสิบเปอร์เซ็นต์",
+        "4": "ต่ำไปสิบเท่าจากการเลื่อนทศนิยม"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.aptitude.numerical.estimation_engineering.0010",
+      "topic_ids": [
+        "tpat3.aptitude.numerical.estimation_engineering"
+      ],
+      "primary_topic_id": "tpat3.aptitude.numerical.estimation_engineering",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 45,
+      "stem_md": "สายเคเบิลมวลรวม 500 kg คิดเป็นกี่ตัน เมื่อ 1 ตัน = 1,000 kg",
+      "figures": [],
+      "choices": [
+        {
+          "md": "0.05 ตัน",
+          "is_answer": false
+        },
+        {
+          "md": "0.5 ตัน",
+          "is_answer": true
+        },
+        {
+          "md": "5 ตัน",
+          "is_answer": false
+        },
+        {
+          "md": "500,000 ตัน",
+          "is_answer": false
+        },
+        {
+          "md": "500 ตัน",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ใช้ความสัมพันธ์หน่วย",
+          "why_md": "1 ตันเท่ากับ 1,000 kg"
+        },
+        {
+          "do_md": "แปลงค่า",
+          "why_md": "500/1,000=0.5 ตัน"
+        }
+      ],
+      "answer_explanation_md": "ตอบ 0.5 ตัน เพราะ 500 กิโลกรัมเป็นครึ่งหนึ่งของหนึ่งตัน",
+      "hints": [
+        "ค่าหน่วยตันควรเล็กกว่าค่าหน่วยกิโลกรัม",
+        "ใช้หนึ่งพันกิโลกรัมต่อตัน",
+        "หารห้าร้อยด้วยหนึ่งพัน"
+      ],
+      "distractor_reasons": {
+        "0": "หารด้วย 10,000 มากเกินไปสิบเท่า",
+        "2": "หารด้วย 100 แทน 1,000",
+        "3": "คูณ 1,000 แทนการหาร",
+        "4": "คงตัวเลขเดิมทั้งที่เปลี่ยนหน่วย"
+      },
+      "misconception_tags": [
+        "kilogram_tonne_confusion"
+      ],
       "template": null,
       "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
       "calculator_allowed": false,
