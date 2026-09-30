@@ -197,6 +197,10 @@ def auto_constraints(answer, wrong):
     out = [f"({e}) > 0" for e in exprs]
     out += [f"({a}) != ({b})" for i, a in enumerate(exprs) for b in exprs[i + 1:]]
     out += [f"({e}) <= 5*({answer})" for e, _ in wrong] + [f"5*({e}) >= ({answer})" for e, _ in wrong]
+    # นิพจน์ที่ใช้ // ต้องหารลงตัวจริง ไม่อย่างนั้นค่าที่แสดงถูกปัดลงเงียบ ๆ
+    # และไม่ตรงกับเหตุผลที่เขียนไว้ เช่น "หารด้วยจำนวนเดิม" ควรได้ 50.67 แต่แสดง 50
+    # (Codex พบในการตรวจไขว้รอบ 8) จึงบังคับให้ค่าจาก // เท่ากับค่าจาก / ทุกครั้งที่สุ่ม
+    out += [f"({e}) == ({e.replace('//', '/')})" for e in exprs if "//" in e]
     return out
 
 

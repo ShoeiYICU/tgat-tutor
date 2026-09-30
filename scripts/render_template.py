@@ -132,6 +132,10 @@ def build_one(tpl: dict, vals: dict) -> dict:
     # ไม่อย่างนั้นเฉลยจะเขียน 18 แต่ตัวเลือกเขียน 18.0 ซึ่งดูเหมือนคนละค่า
     scope = dict(vals)
     scope["answer"] = format_value(answer, None, ndigits)
+    # เหตุผลของตัวลวงอ้างตัวแปรได้เหมือนโจทย์ (เช่น "บวก ${b}$ แทนลบ") ต้องแทนค่าด้วย
+    # เดิมส่งข้อความดิบออกไป ผู้เรียนจึงเห็น {b} แทนตัวเลข (Codex พบในการตรวจไขว้รอบ 8)
+    for d in distractors:
+        d["reason"] = S.render_stem(d["reason"], scope)
     return {
         "vars": vals,
         "stem": S.render_stem(tpl["stem_tpl"], vals),
