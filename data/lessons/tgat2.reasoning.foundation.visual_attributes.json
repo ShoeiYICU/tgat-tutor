@@ -37,12 +37,16 @@
       "stem_md": "ภาพใดแตกต่างจากภาพอื่น\n\n[[fig1]]",
       "steps": [
         {
-          "do_md": "รูปร่างต่างกันทุกภาพ จึงไม่ใช่ตัวแยก",
+          "do_md": "รูปร่าง: วงกลม สี่เหลี่ยม สามเหลี่ยม สามเหลี่ยม ไม่มีรูปร่างใดแยกภาพเดียวออกจากอีกสามภาพที่เหมือนกัน",
           "why_md": "ตรวจรูปร่าง"
         },
         {
+          "do_md": "สี: ทึบทุกภาพ",
+          "why_md": "ตรวจสี ไม่ใช่ตัวแยก"
+        },
+        {
           "do_md": "จำนวน: 3, 3, 4, 3",
-          "why_md": "ภาพที่ 3 มีจำนวนต่าง"
+          "why_md": "ภาพที่ 3 มีจำนวนต่าง ส่วนอีกสามภาพเท่ากัน"
         }
       ],
       "answer_md": "ภาพที่ 3",
@@ -50,8 +54,8 @@
         {
           "id": "fig1",
           "type": "svg",
-          "svg": "<svg viewBox=\"0 0 298 64\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/><circle cx=\"16\" cy=\"22\" r=\"6.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"32\" cy=\"22\" r=\"6.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"48\" cy=\"22\" r=\"6.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"79\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/><rect x=\"88.0\" y=\"16.0\" width=\"12\" height=\"12\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"104.0\" y=\"16.0\" width=\"12\" height=\"12\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"120.0\" y=\"16.0\" width=\"12\" height=\"12\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"157\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/><polygon points=\"172,16.0 178.0,28.0 166.0,28.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\"/><polygon points=\"188,16.0 194.0,28.0 182.0,28.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\"/><polygon points=\"204,16.0 210.0,28.0 198.0,28.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\"/><polygon points=\"172,38.0 178.0,50.0 166.0,50.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"235\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/><circle cx=\"250\" cy=\"22\" r=\"6.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"266\" cy=\"22\" r=\"6.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"282\" cy=\"22\" r=\"6.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/></svg>",
-          "alt": "วงกลมทึบ 3 รูป | สี่เหลี่ยมทึบ 3 รูป | สามเหลี่ยมทึบ 4 รูป | วงกลมโปร่ง 3 รูป",
+          "svg": "<svg viewBox=\"0 0 298 64\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/><circle cx=\"16\" cy=\"22\" r=\"6.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"32\" cy=\"22\" r=\"6.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"48\" cy=\"22\" r=\"6.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"79\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/><rect x=\"88.0\" y=\"16.0\" width=\"12\" height=\"12\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"104.0\" y=\"16.0\" width=\"12\" height=\"12\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"120.0\" y=\"16.0\" width=\"12\" height=\"12\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"157\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/><polygon points=\"172,16.0 178.0,28.0 166.0,28.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\"/><polygon points=\"188,16.0 194.0,28.0 182.0,28.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\"/><polygon points=\"204,16.0 210.0,28.0 198.0,28.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\"/><polygon points=\"172,38.0 178.0,50.0 166.0,50.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"235\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/><polygon points=\"250,16.0 256.0,28.0 244.0,28.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\"/><polygon points=\"266,16.0 272.0,28.0 260.0,28.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\"/><polygon points=\"282,16.0 288.0,28.0 276.0,28.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\"/></svg>",
+          "alt": "วงกลมทึบ 3 รูป | สี่เหลี่ยมทึบ 3 รูป | สามเหลี่ยมทึบ 4 รูป | สามเหลี่ยมทึบ 3 รูป",
           "caption": "ภาพที่ 1 ถึง 4"
         }
       ]
