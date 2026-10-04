@@ -268,8 +268,8 @@
         {
           "id": "fig2",
           "type": "svg",
-          "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/><g transform=\"rotate(90 32 32)\" stroke=\"currentColor\" stroke-width=\"3\" fill=\"currentColor\"><line x1=\"32\" y1=\"47\" x2=\"32\" y2=\"24\"/><polygon points=\"32,15 39,26 25,26\" stroke-width=\"1\"/></g><circle cx=\"10\" cy=\"10\" r=\"4.5\" fill=\"currentColor\"/></svg>",
-          "alt": "ลูกศรชี้ขวา · จุดที่มุมซ้ายบน",
+          "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/><g transform=\"rotate(135 32 32)\" stroke=\"currentColor\" stroke-width=\"3\" fill=\"currentColor\"><line x1=\"32\" y1=\"47\" x2=\"32\" y2=\"24\"/><polygon points=\"32,15 39,26 25,26\" stroke-width=\"1\"/></g><circle cx=\"10\" cy=\"10\" r=\"4.5\" fill=\"currentColor\"/></svg>",
+          "alt": "ลูกศรชี้ขวาล่าง · จุดที่มุมซ้ายบน",
           "caption": ""
         },
         {
@@ -319,7 +319,7 @@
       "answer_numeric": null,
       "solution_steps": [
         {
-          "do_md": "ลูกศรชี้ต่างกันทุกภาพ",
+          "do_md": "ลูกศรชี้ต่างกันทุกภาพ และมีทั้งแนวตรงและแนวเฉียงอย่างละหลายภาพ",
           "why_md": "ไม่ใช่ตัวแยก"
         },
         {
@@ -337,7 +337,7 @@
         "0": "ภาพนี้คือลูกศรชี้ลง · จุดที่มุมซ้ายบน · ตำแหน่งจุดตรงกับภาพอื่น จึงไม่ใช่ภาพที่ต่างจากพวก",
         "1": "ภาพนี้คือลูกศรชี้ขึ้น · จุดที่มุมซ้ายบน · ตำแหน่งจุดตรงกับภาพอื่น จึงไม่ใช่ภาพที่ต่างจากพวก",
         "2": "ภาพนี้คือลูกศรชี้ขวาบน · จุดที่มุมซ้ายบน · ตำแหน่งจุดตรงกับภาพอื่น จึงไม่ใช่ภาพที่ต่างจากพวก",
-        "4": "ภาพนี้คือลูกศรชี้ขวา · จุดที่มุมซ้ายบน · ตำแหน่งจุดตรงกับภาพอื่น จึงไม่ใช่ภาพที่ต่างจากพวก"
+        "4": "ภาพนี้คือลูกศรชี้ขวาล่าง · จุดที่มุมซ้ายบน · ตำแหน่งจุดตรงกับภาพอื่น จึงไม่ใช่ภาพที่ต่างจากพวก"
       },
       "misconception_tags": [
         "salient_attribute"

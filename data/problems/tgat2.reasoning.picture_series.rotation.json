@@ -66,8 +66,8 @@
         {
           "id": "fig6",
           "type": "svg",
-          "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/><g transform=\"rotate(45 32 32)\" stroke=\"currentColor\" stroke-width=\"3\" fill=\"currentColor\"><line x1=\"32\" y1=\"47\" x2=\"32\" y2=\"24\"/><polygon points=\"32,15 39,26 25,26\" stroke-width=\"1\"/></g></svg>",
-          "alt": "ลูกศรชี้ขวาบน",
+          "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/><g transform=\"rotate(315 32 32)\" stroke=\"currentColor\" stroke-width=\"3\" fill=\"currentColor\"><line x1=\"32\" y1=\"47\" x2=\"32\" y2=\"24\"/><polygon points=\"32,15 39,26 25,26\" stroke-width=\"1\"/></g></svg>",
+          "alt": "ลูกศรชี้ซ้ายบน",
           "caption": ""
         }
       ],
@@ -241,7 +241,7 @@
         "บวกองศาต่อจากภาพที่ 4"
       ],
       "distractor_reasons": {
-        "0": "หมุนทีละ 90° ผิดกฎ",
+        "0": "หมุนต่ออีก 135° เกินกฎไปสองขั้น",
         "1": "ไม่หมุนต่อ",
         "2": "ไม่ตรงกฎ",
         "3": "หมุนเกินไป 45°"
@@ -316,8 +316,8 @@
         {
           "id": "fig6",
           "type": "svg",
-          "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/><g transform=\"rotate(315 32 32)\" stroke=\"currentColor\" stroke-width=\"3\" fill=\"currentColor\"><line x1=\"32\" y1=\"47\" x2=\"32\" y2=\"24\"/><polygon points=\"32,15 39,26 25,26\" stroke-width=\"1\"/></g></svg>",
-          "alt": "ลูกศรชี้ซ้ายบน",
+          "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/><g transform=\"rotate(45 32 32)\" stroke=\"currentColor\" stroke-width=\"3\" fill=\"currentColor\"><line x1=\"32\" y1=\"47\" x2=\"32\" y2=\"24\"/><polygon points=\"32,15 39,26 25,26\" stroke-width=\"1\"/></g></svg>",
+          "alt": "ลูกศรชี้ขวาบน",
           "caption": ""
         }
       ],

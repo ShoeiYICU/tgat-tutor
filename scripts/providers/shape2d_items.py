@@ -226,11 +226,13 @@ class _OddOneOut:
             if cells == odd:
                 answer_fig = fid
             else:
-                deg = ANGLE[rots.index(cells)]
+                # รูปต้นแบบ (หมุน 0 องศา) ไม่มีรูปอื่นในชุดที่เหมือนกันโดยไม่หมุน จึงบรรยายเป็นสมาชิกของกลุ่มแทน
+                k = rots.index(cells)
+                why = ("เป็นหนึ่งในสี่รูปที่หมุนแล้วทับกันได้พอดี" if k == 0
+                       else f"เป็นภาพหมุน {ANGLE[k]} ของรูปอื่นในชุด")
                 distractors.append({
                     "value": _key(cells),
-                    "reason": f"เป็นภาพหมุน {deg} ของรูปอื่นในชุด จึงอยู่พวกเดียวกัน "
-                              "ไม่ใช่รูปที่ต่าง",
+                    "reason": f"{why} จึงอยู่พวกเดียวกัน ไม่ใช่รูปที่ต่าง",
                     "tag": "same_by_rotation", "fig": fid})
 
         steps = [

@@ -407,43 +407,43 @@
         {
           "id": "fig1",
           "type": "svg",
-          "svg": "<svg viewBox=\"0 0 376 64\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/><circle cx=\"32\" cy=\"33\" r=\"10.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"79\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/><circle cx=\"94\" cy=\"22\" r=\"6.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"110\" cy=\"22\" r=\"6.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"126\" cy=\"22\" r=\"6.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"157\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/><circle cx=\"172\" cy=\"22\" r=\"6.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"188\" cy=\"22\" r=\"6.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"204\" cy=\"22\" r=\"6.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"172\" cy=\"44\" r=\"6.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"188\" cy=\"44\" r=\"6.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"235\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/><circle cx=\"250\" cy=\"22\" r=\"6.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"266\" cy=\"22\" r=\"6.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"282\" cy=\"22\" r=\"6.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"313\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-dasharray=\"4 3\"/><text x=\"344.0\" y=\"40.0\" font-size=\"24\" text-anchor=\"middle\" fill=\"currentColor\">?</text></svg>",
-          "alt": "วงกลมโปร่ง 1 รูป | วงกลมโปร่ง 3 รูป | วงกลมโปร่ง 5 รูป | วงกลมโปร่ง 3 รูป | ช่องที่ต้องหา",
+          "svg": "<svg viewBox=\"0 0 532 64\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/><circle cx=\"32\" cy=\"33\" r=\"10.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"79\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/><circle cx=\"94\" cy=\"22\" r=\"6.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"110\" cy=\"22\" r=\"6.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"126\" cy=\"22\" r=\"6.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"157\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/><circle cx=\"172\" cy=\"22\" r=\"6.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"188\" cy=\"22\" r=\"6.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"204\" cy=\"22\" r=\"6.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"172\" cy=\"44\" r=\"6.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"188\" cy=\"44\" r=\"6.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"235\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/><circle cx=\"250\" cy=\"22\" r=\"6.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"266\" cy=\"22\" r=\"6.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"282\" cy=\"22\" r=\"6.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"313\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/><circle cx=\"344\" cy=\"33\" r=\"10.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"391\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/><circle cx=\"406\" cy=\"22\" r=\"6.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"422\" cy=\"22\" r=\"6.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"438\" cy=\"22\" r=\"6.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"469\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-dasharray=\"4 3\"/><text x=\"500.0\" y=\"40.0\" font-size=\"24\" text-anchor=\"middle\" fill=\"currentColor\">?</text></svg>",
+          "alt": "วงกลมโปร่ง 1 รูป | วงกลมโปร่ง 3 รูป | วงกลมโปร่ง 5 รูป | วงกลมโปร่ง 3 รูป | วงกลมโปร่ง 1 รูป | วงกลมโปร่ง 3 รูป | ช่องที่ต้องหา",
           "caption": "โจทย์"
         },
         {
           "id": "fig2",
-          "type": "svg",
-          "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/><circle cx=\"32\" cy=\"33\" r=\"10.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/></svg>",
-          "alt": "วงกลมโปร่ง 1 รูป",
-          "caption": ""
-        },
-        {
-          "id": "fig3",
           "type": "svg",
           "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/><circle cx=\"16\" cy=\"22\" r=\"6.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"32\" cy=\"22\" r=\"6.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"48\" cy=\"22\" r=\"6.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"16\" cy=\"44\" r=\"6.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"32\" cy=\"44\" r=\"6.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/></svg>",
           "alt": "วงกลมโปร่ง 5 รูป",
           "caption": ""
         },
         {
+          "id": "fig3",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/><circle cx=\"32\" cy=\"33\" r=\"10.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/></svg>",
+          "alt": "วงกลมโปร่ง 1 รูป",
+          "caption": ""
+        },
+        {
           "id": "fig4",
           "type": "svg",
-          "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/><circle cx=\"16\" cy=\"22\" r=\"6.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"32\" cy=\"22\" r=\"6.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/></svg>",
-          "alt": "วงกลมโปร่ง 2 รูป",
+          "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/><circle cx=\"16\" cy=\"22\" r=\"6.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"32\" cy=\"22\" r=\"6.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"48\" cy=\"22\" r=\"6.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"16\" cy=\"44\" r=\"6.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/></svg>",
+          "alt": "วงกลมโปร่ง 4 รูป",
           "caption": ""
         },
         {
           "id": "fig5",
           "type": "svg",
-          "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/><circle cx=\"16\" cy=\"22\" r=\"6.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"32\" cy=\"22\" r=\"6.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"48\" cy=\"22\" r=\"6.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"16\" cy=\"44\" r=\"6.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"32\" cy=\"44\" r=\"6.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"48\" cy=\"44\" r=\"6.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/></svg>",
-          "alt": "วงกลมโปร่ง 6 รูป",
+          "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/><circle cx=\"16\" cy=\"22\" r=\"6.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"32\" cy=\"22\" r=\"6.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"48\" cy=\"22\" r=\"6.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/></svg>",
+          "alt": "วงกลมโปร่ง 3 รูป",
           "caption": ""
         },
         {
           "id": "fig6",
           "type": "svg",
-          "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/><circle cx=\"32\" cy=\"33\" r=\"10.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\"/></svg>",
-          "alt": "วงกลมทึบ 1 รูป",
+          "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"62\" height=\"62\" rx=\"6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" opacity=\"0.5\"/><circle cx=\"16\" cy=\"22\" r=\"6.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"32\" cy=\"22\" r=\"6.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"48\" cy=\"22\" r=\"6.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"16\" cy=\"44\" r=\"6.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"32\" cy=\"44\" r=\"6.0\" fill=\"currentColor\" stroke=\"currentColor\" stroke-width=\"2\"/></svg>",
+          "alt": "วงกลมทึบ 5 รูป",
           "caption": ""
         }
       ],
@@ -476,25 +476,25 @@
           "why_md": "เขียนเป็นตัวเลข"
         },
         {
-          "do_md": "1, 3, 5 ขึ้นทีละ 2 แล้ว 3 ลงทีละ 2",
-          "why_md": "ขึ้นแล้วลงแบบสมมาตร"
+          "do_md": "1, 3, 5, 3, 1, 3 ขึ้นทีละ 2 ถึง 5 แล้วลงทีละ 2 ถึง 1 แล้วเริ่มขึ้นใหม่",
+          "why_md": "ขึ้นแล้วลงสลับกันระหว่าง 1 กับ 5"
         },
         {
-          "do_md": "ภาพถัดไปคือ 3 − 2 = 1",
+          "do_md": "ภาพที่ 6 อยู่ในช่วงขึ้น ภาพถัดไปคือ 3 + 2 = 5",
           "why_md": "สีโปร่งเหมือนเดิม"
         }
       ],
-      "answer_explanation_md": "ตอบ วงกลมโปร่ง 1 รูป เพราะจำนวนขึ้นทีละ 2 ถึง 5 แล้วลดทีละ 2",
+      "answer_explanation_md": "ตอบ วงกลมโปร่ง 5 รูป เพราะจำนวนขึ้นทีละ 2 ถึง 5 แล้วลงทีละ 2 ถึง 1 สลับกัน และภาพล่าสุดอยู่ในช่วงขึ้น",
       "hints": [
         "นับจำนวนรูปในแต่ละภาพ",
         "หาผลต่างทีละคู่",
-        "หลังลดลง ผลต่างเป็นเท่าไร"
+        "ตอนนี้อยู่ในช่วงขึ้นหรือช่วงลง"
       ],
       "distractor_reasons": {
-        "0": "ลดไม่เท่ากับที่ขึ้น",
+        "0": "เพิ่มเพียง 1 ไม่เท่ากับช่วงอื่นที่เปลี่ยนทีละ 2",
         "1": "สีเปลี่ยน",
-        "2": "เพิ่มต่อซึ่งไม่ใช่กฎ",
-        "4": "ต่อแบบวนกลับไปมาก ไม่ตรงกฎขึ้นแล้วลง"
+        "2": "จำนวนไม่เปลี่ยน",
+        "4": "ลดลงอีก ทั้งที่ถึงช่วงขึ้นแล้ว"
       },
       "misconception_tags": [],
       "template": null,
@@ -618,7 +618,7 @@
         "0": "รูปร่างเปลี่ยน",
         "1": "สีเปลี่ยน",
         "3": "ลดต่อเนื่องซึ่งไม่ใช่กฎ",
-        "4": "ใช้ −2 ต่อ ซึ่งผิดจังหวะ"
+        "4": "ลดลง 1 ทั้งที่ถึงรอบของการเพิ่ม 1"
       },
       "misconception_tags": [],
       "template": null,
