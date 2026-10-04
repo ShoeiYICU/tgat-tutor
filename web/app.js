@@ -151,12 +151,14 @@ const store = (() => {
       save();
     },
     lessonDone(id) { s.lessons[id] = Date.now(); save(); },
+    setLast(id, tab) { s.last = { id, tab, at: Date.now() }; save(); },
+    flag(name) { if (!s[name]) { s[name] = Date.now(); save(); } },
     recordExam(row) {
       (s.exams ||= []).unshift(row);
       s.exams = s.exams.slice(0, 20);      // เก็บย้อนหลัง 20 ครั้งพอ
       save();
     },
-    reset() { s = { topics: {}, items: {}, lessons: {}, exams: [] }; save(); },
+    reset() { s = { topics: {}, items: {}, lessons: {}, exams: [], seenGuide: s.seenGuide }; save(); },
   };
 })();
 
@@ -215,52 +217,199 @@ function topicStat(id) {
 
 /* ======================================================== pages */
 
+/* คำอธิบายวิชาสำหรับคนที่เพิ่งเข้ามา: บอกว่าใครต้องสอบและวัดอะไร ไม่ใช้ศัพท์ของผังสอบ */
+const SUBJECT_INTRO = {
+  tgat1: { who: "ทุกคนที่สมัคร TCAS", what: "สนทนาและอ่านภาษาอังกฤษในชีวิตประจำวัน" },
+  tgat2: { who: "ทุกคนที่สมัคร TCAS", what: "คิดเลข จับใจความ ดูรูปทรง และใช้เหตุผล" },
+  tgat3: { who: "ทุกคนที่สมัคร TCAS", what: "เลือกวิธีรับมือสถานการณ์การทำงานและการอยู่ร่วมกัน" },
+  tpat3: { who: "คนที่จะเข้าคณะวิศวะและสายวิทย์-เทคโนโลยี", what: "ตัวเลข มิติสัมพันธ์ กลไก และความคิดเชิงวิทยาศาสตร์" },
+};
+
 async function pageHome() {
   const c = await catalog();
   const s = store.get();
   const tries = Object.values(s.topics).reduce((a, t) => a + t.tries, 0);
-  const totalProblems = c.subjects.reduce((a, x) => a + x.leaves.reduce((b, t) => b + (t.problems || 0), 0), 0);
-  const totalLeaves = c.subjects.reduce((a, x) => a + x.leaves.length, 0);
+  const score = Object.values(s.topics).reduce((a, t) => a + t.score, 0);
+  const st = c.stats || { lessons: 0, problems: 0 };
+  const last = s.last && c.byId[s.last.id] ? c.byId[s.last.id] : null;
+
+  // ปุ่มหลักเปลี่ยนตามผู้ใช้: คนใหม่ไปหน้าสอนใช้งาน · คนที่ดูแล้วไปเลือกวิชา · คนที่ฝึกค้างไว้กลับไปหัวข้อเดิม
+  // ปุ่มเลื่อนไปส่วนเลือกวิชาใช้ data-scroll เพราะ # ในเว็บนี้ใช้กำหนดหน้า ลิงก์ #subjects จะกลายเป็นหน้าไม่พบ
+  const toSubjects = (label, cls) => `<button class="btn big ${cls}" type="button" data-scroll="subjects">${label}</button>`;
+  let primary, secondary;
+  if (last) {
+    primary = `<a class="btn primary big" href="#/t/${last.id}/${s.last.tab || "practice"}">ทำต่อ: ${esc(last.name_th)}</a>`;
+    secondary = `<a class="btn big" href="#/progress">ดูความคืบหน้า</a>`;
+  } else if (s.seenGuide) {
+    primary = toSubjects("เลือกวิชาเริ่มฝึก", "primary");
+    secondary = `<a class="btn big" href="#/guide">ดูวิธีใช้อีกครั้ง</a>`;
+  } else {
+    primary = `<a class="btn primary big" href="#/guide">เริ่มใช้งาน · ลองทำข้อแรก</a>`;
+    secondary = toSubjects("เลือกวิชาเอง", "");
+  }
 
   $app.innerHTML = `
   <section class="hero">
-    <h1>เตรียมสอบ TGAT ตั้งแต่ศูนย์</h1>
-    <p>บทเรียนสั้น ๆ ต่อด้วยโจทย์ฝึกที่มีคำใบ้ 3 ระดับและเฉลยทีละขั้น
-       โจทย์หลายหัวข้อสร้างด้วยโปรแกรม กด "ชุดใหม่" ได้ตัวเลขและรูปใหม่ทุกครั้ง ทำซ้ำได้ไม่มีจำกัด</p>
-    <div class="stats">
-      <div class="stat"><b>${totalLeaves}</b><span>หัวข้อย่อยในผังสอบ</span></div>
-      <div class="stat"><b>${totalProblems}</b><span>โจทย์ต้นแบบ</span></div>
-      <div class="stat"><b>${tries}</b><span>ข้อที่คุณทำไปแล้ว</span></div>
-    </div>
+    <p class="eyebrow">ฟรีทั้งหมด · ไม่ต้องสมัครสมาชิก</p>
+    <h1>ฝึกข้อสอบ TGAT และ TPAT3<br>แบบรู้ว่าตัวเองผิดตรงไหน</h1>
+    <p class="lead">เว็บฝึกข้อสอบเข้ามหาวิทยาลัย (TCAS) ทุกข้อมีคำใบ้ เฉลยทีละขั้น
+      และบอกเหตุผลว่า <b>ทำไมตัวเลือกที่ผิดถึงผิด</b></p>
+    <div class="cta-row">${primary}${secondary}</div>
+    <p class="hero-facts"><span><b>${st.lessons}</b> บทเรียน</span><span><b>${st.problems.toLocaleString("th-TH")}</b> โจทย์</span>
+      <span><b>4</b> วิชา</span><span>ใช้บนมือถือได้</span></p>
   </section>
-  <h2>เลือกวิชา</h2>
-  <div class="grid">
+
+  <h2>ใช้งานอย่างไร</h2>
+  <ol class="howto">
+    <li><span class="n">1</span><b>เรียน</b>
+      <p>บทเรียนสั้น ๆ รายหัวข้อ มีตัวอย่างทีละขั้นและกับดักที่คนมักพลาด</p></li>
+    <li><span class="n">2</span><b>ฝึก</b>
+      <p>ทำโจทย์พร้อมคำใบ้ 3 ระดับ ตอบแล้วเห็นเฉลยและเหตุผลของทุกตัวเลือก</p></li>
+    <li><span class="n">3</span><b>สอบเสมือน</b>
+      <p>จับเวลาตามจำนวนข้อและเวลาของข้อสอบจริง แล้วดูว่าควรกลับไปทบทวนเรื่องไหน</p></li>
+  </ol>
+
+  <h2 id="subjects" tabindex="-1">เลือกวิชา</h2>
+  <div class="subjects">
     ${c.subjects.map((x) => {
       const info = SUBJECT_INFO[x.id];
-      const pct = Math.round((x.ready.length / x.leaves.length) * 100);
+      const intro = SUBJECT_INTRO[x.id] || { who: "", what: info.blurb };
+      const bp = EXAM_BLUEPRINT[x.id];
+      const done = x.ready.filter((t) => s.topics[t.id]).length;
       return `<a class="card subject-card" href="#/s/${x.id}">
         <span class="code">${info.short}</span>
         <span class="name">${esc(x.name_th.replace(info.short + " ", ""))}</span>
-        <span class="muted">${esc(info.blurb)}</span>
-        <span class="muted" style="font-size:.88rem">${esc(info.time)}</span>
-        <div class="bar" title="หัวข้อที่มีเนื้อหาแล้ว"><i style="width:${pct}%"></i></div>
-        <span class="muted" style="font-size:.85rem">มีเนื้อหาแล้ว ${x.ready.length} จาก ${x.leaves.length} หัวข้อ</span>
+        <span class="what">${esc(intro.what)}</span>
+        <span class="meta"><span class="badge acc">${esc(intro.who)}</span>
+          ${bp ? `<span class="badge">${bp.items} ข้อ · ${bp.minutes} นาที</span>` : ""}
+          <span class="badge">${x.ready.length} หัวข้อ</span></span>
+        ${done ? `<span class="muted small">คุณฝึกไปแล้ว ${done} จาก ${x.ready.length} หัวข้อ</span>
+          <div class="bar"><i style="width:${Math.round(done / x.ready.length * 100)}%"></i></div>` : ""}
+        <span class="go">เข้าดูหัวข้อ →</span>
       </a>`;
     }).join("")}
   </div>
-  <h2>เริ่มตรงไหนดี</h2>
-  <div class="grid">
+
+  ${tries ? `<h2>ความคืบหน้าของคุณ</h2>
+  <div class="card you">
+    <div class="stats">
+      <div class="stat"><b>${tries}</b><span>ข้อที่ทำไปแล้ว</span></div>
+      <div class="stat"><b>${Math.round(score / tries * 100)}%</b><span>คะแนนเฉลี่ย</span></div>
+      <div class="stat"><b>${Object.keys(s.topics).length}</b><span>หัวข้อที่เคยฝึก</span></div>
+    </div>
+    <div class="row"><a class="btn" href="#/progress">ดูรายละเอียด</a><a class="btn" href="#/redo">ฝึกข้อที่เคยผิด</a></div>
+  </div>` : `<h2>ยังไม่รู้จะเริ่มตรงไหน</h2>
+  <div class="subjects">
     ${pickStarters(c).map((t) => `<a class="card subject-card" href="#/t/${t.id}">
-        <span class="code">${SUBJECT_INFO[t.subject].short}</span>
+        <span class="code">${SUBJECT_INFO[t.subject].short} · หัวข้อแรกที่แนะนำ</span>
         <span class="name">${esc(t.name_th)}</span>
-        <span class="muted">${t.lesson ? "มีบทเรียน · " : ""}${t.problems ? `โจทย์ ${t.problems} ข้อ` : ""}</span>
+        <span class="muted small">${t.lesson ? "มีบทเรียน · " : ""}${t.problems ? `โจทย์ ${t.problems} ข้อ` : ""}</span>
       </a>`).join("")}
-  </div>`;
+  </div>`}
+
+  <h2>สิ่งที่ควรรู้ก่อนใช้</h2>
+  <ul class="facts">
+    <li><b>โจทย์ทุกข้อแต่งขึ้นใหม่</b> ไม่ใช่ข้อสอบจริง แต่จำนวนข้อและเวลาอ้างตามผังสอบทางการ
+      <a href="#/official">ดูข้อสอบตัวอย่างทางการ</a></li>
+    <li><b>ความคืบหน้าเก็บในเครื่องของคุณ</b> ไม่มีการส่งข้อมูลออก เปลี่ยนเครื่องหรือล้างเบราว์เซอร์แล้วข้อมูลจะหาย</li>
+    <li><b>เนื้อหาเขียนโดยใช้ AI ช่วย</b> ผ่านการตรวจด้วยโปรแกรมและตรวจไขว้แล้ว แต่ยังไม่ได้ตรวจโดยครู
+      <a href="#/how">อ่านเบื้องหลังการสร้าง</a></li>
+  </ul>`;
+  $app.querySelectorAll("[data-scroll]").forEach((el) => el.addEventListener("click", () => {
+    const target = document.getElementById(el.dataset.scroll);
+    if (target) { target.scrollIntoView({ behavior: "smooth", block: "start" }); target.focus?.(); }
+  }));
 }
 
+/* หัวข้อแรกที่แนะนำของแต่ละวิชา: เลือกหัวข้อพื้นฐานที่มีบทเรียนก่อน */
 function pickStarters(c) {
-  const all = c.subjects.flatMap((x) => x.ready);
-  return all.filter((t) => t.lesson).concat(all.filter((t) => !t.lesson)).slice(0, 4);
+  return c.subjects.map((x) => {
+    const ok = x.ready.filter((t) => t.lesson && t.problems);
+    return ok.find((t) => t.id.includes(".foundation.")) || ok[0] || x.ready[0];
+  }).filter(Boolean);
+}
+
+/* หน้าสอนใช้งาน: อธิบายสั้น ๆ แล้วให้ลองทำโจทย์จริงในหน้านี้เลย */
+const GUIDE_DEMO_TOPIC = "tgat2.numerical.foundation.percent";
+
+async function pageGuide() {
+  const c = await catalog();
+  store.flag("seenGuide");
+  const demo = c.byId[GUIDE_DEMO_TOPIC];
+
+  $app.innerHTML = `<h1>วิธีใช้เว็บนี้</h1>
+  <p class="lead">อ่านจบใน 1 นาที แล้วลองทำโจทย์จริงหนึ่งข้อในขั้นที่ 3</p>
+
+  <ol class="guide">
+    <li>
+      <h2><span class="n">1</span>เลือกวิชาและหัวข้อ</h2>
+      <p>เมนูด้านบนมี 4 วิชา กดเข้าไปจะเห็นหัวข้อย่อยเรียงตามผังสอบ ป้ายท้ายแต่ละหัวข้อบอกสถานะ</p>
+      <div class="demo-leaf" aria-hidden="true">
+        <span class="t">ร้อยละและการเปลี่ยนแปลง</span>
+        <span class="badges"><span class="badge acc">บทเรียน</span><span class="badge">โจทย์ 6 ข้อ</span>
+          <span class="badge ok">ได้ 83%</span></span>
+      </div>
+      <p class="muted small">ป้ายสีเขียวคือคะแนนเฉลี่ยของคุณในหัวข้อนั้น จะขึ้นหลังฝึกไปแล้ว</p>
+    </li>
+    <li>
+      <h2><span class="n">2</span>อ่านบทเรียนก่อน ถ้ายังไม่เคยเรียนเรื่องนั้น</h2>
+      <p>แต่ละหัวข้อมีสองแท็บ คือ <b>เรียน</b> กับ <b>ฝึกโจทย์</b> บทเรียนใช้เวลาอ่านราว 10–30 นาที
+        มีตัวอย่างทีละขั้น กับดักที่พบบ่อย และคำถามตรวจความเข้าใจท้ายบท ถ้าเคยเรียนมาแล้วข้ามไปฝึกโจทย์ได้เลย</p>
+    </li>
+    <li>
+      <h2><span class="n">3</span>ฝึกโจทย์ · ลองทำข้อนี้ดู</h2>
+      <ul class="tips">
+        <li>ติดให้กด <b>ขอคำใบ้</b> ได้สามระดับ จากกว้างไปแคบ คำใบ้ไม่บอกคำตอบ</li>
+        <li>เลือกคำตอบแล้วจะเห็น <b>เฉลยทีละขั้น</b> และเหตุผลของตัวเลือกที่คุณเลือก</li>
+        <li>หัวข้อที่เป็นโจทย์ตัวเลขกด <b>ชุดใหม่</b> ได้ ตัวเลขจะเปลี่ยนทุกครั้ง</li>
+      </ul>
+      <div id="guideDemo" class="guide-demo"><p class="muted">กำลังโหลดโจทย์ตัวอย่าง…</p></div>
+    </li>
+    <li>
+      <h2><span class="n">4</span>สอบเสมือนเมื่อพร้อม</h2>
+      <p>จับเวลาตามจำนวนข้อและเวลาของข้อสอบจริง ระหว่างสอบไม่มีคำใบ้ ส่งแล้วจะได้คะแนนแยกรายส่วนและเฉลยทุกข้อ
+        เลือกทำครึ่งชุดได้ถ้ามีเวลาน้อย</p>
+      <div class="row">${c.subjects.map((x) =>
+        `<a class="btn" href="#/exam/${x.id}">สอบเสมือน ${SUBJECT_INFO[x.id].short}</a>`).join("")}</div>
+    </li>
+    <li>
+      <h2><span class="n">5</span>กลับมาดูความคืบหน้า</h2>
+      <p>หน้า <a href="#/progress">ความคืบหน้า</a> แสดงคะแนนรายวิชา ประวัติการสอบ และหัวข้อที่ควรทบทวน
+        ส่วนปุ่ม <a href="#/redo">ฝึกข้อที่เคยผิด</a> จะรวมข้อที่ยังทำไม่เต็มคะแนนมาให้ทำซ้ำ</p>
+    </li>
+  </ol>
+
+  <h2>คำถามที่พบบ่อย</h2>
+  <div class="card faq">
+    <details><summary>ต้องสมัครสมาชิกหรือเสียเงินไหม</summary>
+      <p>ไม่ต้อง ใช้ได้ทันทีและฟรีทั้งหมด</p></details>
+    <details><summary>นี่คือข้อสอบจริงหรือเปล่า</summary>
+      <p>ไม่ใช่ โจทย์ทุกข้อแต่งขึ้นใหม่เพื่อฝึก จำนวนข้อ เวลา และสัดส่วนเนื้อหาอ้างตามผังสอบของ ทปอ.
+        ดูตัวอย่างข้อสอบทางการได้ที่หน้า <a href="#/official">ข้อสอบตัวอย่าง</a></p></details>
+    <details><summary>ความคืบหน้าของฉันเก็บไว้ที่ไหน</summary>
+      <p>ในเบราว์เซอร์ของเครื่องที่คุณใช้อยู่ ไม่มีการส่งออกไปที่ใด ถ้าเปลี่ยนเครื่อง เปลี่ยนเบราว์เซอร์
+        หรือล้างข้อมูลเว็บ ความคืบหน้าจะเริ่มใหม่</p></details>
+    <details><summary>ควรเริ่มจากวิชาไหน</summary>
+      <p>TGAT ทั้งสามพาร์ตทุกคนต้องสอบ แนะนำเริ่มที่ TGAT2 ด้านที่ตัวเองไม่ถนัดที่สุด
+        เพราะฝึกแล้วคะแนนขึ้นเห็นผลเร็ว ส่วน TPAT3 สำหรับคนที่จะยื่นคณะวิศวกรรมศาสตร์หรือสายใกล้เคียง</p></details>
+    <details><summary>เจอข้อที่คิดว่าเฉลยผิด ทำอย่างไร</summary>
+      <p>เนื้อหายังไม่ได้ผ่านการตรวจโดยครู จึงอาจมีจุดผิด ให้เทียบกับตำราหรือถามครู
+        และอ่านที่มาของเนื้อหาได้ที่หน้า <a href="#/how">เบื้องหลังการสร้าง</a></p></details>
+  </div>
+
+  <div class="cta-row" style="margin-top:22px"><a class="btn primary big" href="#/">เลือกวิชาเริ่มฝึก</a></div>`;
+
+  // โจทย์ตัวอย่างใช้ตัวฝึกโจทย์ตัวจริง ผู้ใช้จึงเห็นหน้าตาเดียวกับที่จะเจอ
+  const box = document.getElementById("guideDemo");
+  if (!demo || !demo.problems) { box.innerHTML = ""; return; }
+  try {
+    const data = await getJSON(`data/problems/${GUIDE_DEMO_TOPIC}.json`);
+    const first = data.items.slice().sort((a, b) => a.difficulty - b.difficulty).slice(0, 1)
+      .map((p) => ({ base: p, topic: GUIDE_DEMO_TOPIC }));
+    startSession(box, first, { mode: "learn", title: demo.name_th, onRestart: () => pageGuide() });
+  } catch (e) {
+    box.innerHTML = `<p class="muted">โหลดโจทย์ตัวอย่างไม่ได้ ลองเข้าไปที่ <a href="#/t/${GUIDE_DEMO_TOPIC}/practice">หัวข้อนี้</a> โดยตรง</p>`;
+  }
 }
 
 async function pageSubject(sid, onlyReady) {
@@ -324,6 +473,7 @@ async function pageTopic(id, tab) {
     </nav><div id="tabBody"></div>`;
   $app.innerHTML = head;
   const body = document.getElementById("tabBody");
+  store.setLast(id, tab);
 
   if (tab === "learn") {
     if (!t.lesson) return comingSoon(body, t, "บทเรียน", t.problems ? `<a class="btn primary" href="#/t/${id}/practice">ไปฝึกโจทย์หัวข้อนี้</a>` : "");
@@ -997,6 +1147,7 @@ async function route() {
     else if (a === "redo") await pageRedo();
     else if (a === "official") pageOfficial();
     else if (a === "how") await pageBuild();
+    else if (a === "guide") await pageGuide();
     else if (a === "about") pageAbout();
     else notFound();
   } catch (e) {

@@ -89,9 +89,58 @@ main { padding-top: 8px; padding-bottom: 48px; min-height: 70vh; outline: none; 
 .subject-card:hover { border-color: var(--accent); text-decoration: none; }
 .subject-card .code { font-weight: 700; color: var(--accent); font-size: .9rem; letter-spacing: .02em; }
 .subject-card .name { font-weight: 600; font-size: 1.12rem; }
-.hero { padding: 28px 0 8px; }
-.hero h1 { font-size: 2rem; margin: 0 0 8px; }
-.hero p { margin: 0; color: var(--muted); max-width: 640px; }
+.hero { padding: 34px 0 10px; }
+.hero h1 { font-size: clamp(1.7rem, 4.6vw, 2.35rem); margin: 0 0 12px; text-wrap: balance; }
+.eyebrow { margin: 0 0 10px; color: var(--accent); font-weight: 600; font-size: .92rem; }
+.lead { margin: 0; color: var(--muted); max-width: 620px; font-size: 1.08rem; }
+.lead b { color: var(--text); font-weight: 600; }
+.cta-row { display: flex; gap: 10px; flex-wrap: wrap; margin: 22px 0 16px; }
+.btn.big { padding: 12px 20px; font-size: 1rem; font-weight: 600; }
+.hero-facts { display: flex; gap: 8px 20px; flex-wrap: wrap; margin: 0; color: var(--muted); font-size: .92rem; }
+.hero-facts b { color: var(--text); font-variant-numeric: tabular-nums; }
+.small { font-size: .88rem; }
+
+/* ---------- สามขั้นวิธีใช้ */
+.howto { list-style: none; padding: 0; margin: 0; display: grid; gap: 14px; grid-template-columns: repeat(3, 1fr); }
+.howto li { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 16px 18px; }
+.howto b { font-size: 1.08rem; }
+.howto p { margin: 8px 0 0; color: var(--muted); font-size: .95rem; line-height: 1.6; }
+.n { display: inline-grid; place-items: center; width: 28px; height: 28px; margin-right: 10px; border-radius: 50%;
+  background: var(--accent); color: #fff; font-weight: 700; font-size: .92rem; flex: none; vertical-align: middle; }
+@media (max-width: 720px) { .howto { grid-template-columns: 1fr; } }
+
+/* ---------- การ์ดวิชา สองคอลัมน์ให้สี่ใบเรียงเท่ากัน */
+#subjects { scroll-margin-top: 74px; }   /* แถบบนติดขอบจอ ต้องเผื่อที่เวลาเลื่อนมาหา */
+#subjects:focus { outline: none; }
+.subjects { display: grid; gap: 14px; grid-template-columns: repeat(2, 1fr); }
+@media (max-width: 640px) { .subjects { grid-template-columns: 1fr; } }
+.subject-card .what { color: var(--muted); }
+.subject-card .meta { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 2px; }
+.subject-card .go { margin-top: auto; padding-top: 8px; color: var(--accent); font-weight: 600; font-size: .95rem; }
+.you .stats { margin-top: 0; }
+
+.facts { margin: 0; padding-left: 1.2em; color: var(--muted); }
+.facts li { margin: 6px 0; }
+.facts b { color: var(--text); font-weight: 600; }
+
+/* ---------- หน้าสอนใช้งาน */
+.guide { list-style: none; padding: 0; margin: 18px 0 0; }
+.guide > li { padding: 4px 0 18px 0; border-bottom: 1px solid var(--line); margin-bottom: 18px; }
+.guide > li:last-child { border-bottom: 0; }
+.guide h2 { display: flex; align-items: center; margin: 0 0 8px; font-size: 1.2rem; }
+.guide p { margin: 6px 0; }
+.tips { margin: 6px 0 14px; padding-left: 1.2em; }
+.tips li { margin: 4px 0; }
+.demo-leaf { display: flex; align-items: center; gap: 10px; padding: 11px 14px; border: 1px dashed var(--line);
+  background: var(--surface); border-radius: 12px; margin: 10px 0 6px; max-width: 560px; }
+.demo-leaf .t { flex: 1; }
+.demo-leaf .badges { display: flex; gap: 6px; flex-wrap: wrap; justify-content: flex-end; }
+.guide-demo { border-left: 3px solid var(--accent); padding-left: 14px; }
+.faq details { border-bottom: 1px solid var(--line); padding: 10px 0; }
+.faq details:last-child { border-bottom: 0; }
+.faq summary { cursor: pointer; font-weight: 600; }
+.faq p { margin: 8px 0 2px; color: var(--muted); }
+.foot-links { display: flex; gap: 6px 18px; flex-wrap: wrap; }
 .stats { display: flex; gap: 22px; flex-wrap: wrap; margin: 18px 0 6px; }
 .stat b { display: block; font-size: 1.5rem; }
 .stat span { color: var(--muted); font-size: .88rem; }
