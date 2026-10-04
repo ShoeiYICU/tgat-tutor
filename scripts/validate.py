@@ -276,6 +276,14 @@ SIGNAL_FIELDS = ["steps_count", "topics_count", "needs_insight",
                  "heavy_computation", "trap_present", "reading_load"]
 
 
+def _choice_number(md: str):
+    """ค่าตัวเลขของตัวเลือก ถ้าตัวเลือกเป็นตัวเลขตัวเดียว (มีหน่วยหรือคำว่าประมาณได้) ไม่ใช่ก็คืน None"""
+    if "[[" in md:
+        return None
+    m = re.fullmatch(r"[^\d-]*(-?\d[\d,]*(?:\.\d+)?)\D*", md.replace("$", "").replace("\\,", "").strip())
+    return float(m.group(1).replace(",", "")) if m else None
+
+
 def validate_problems(paths, topics: dict, rep: S.Report) -> dict:
     ids: dict[str, str] = {}
     for path in paths:
@@ -425,6 +433,23 @@ def validate_problems(paths, topics: dict, rep: S.Report) -> dict:
         if counted >= 4 and shortest / counted > 0.5:
             rep.warn(where0, f"คำตอบเป็นตัวเลือกที่สั้นที่สุด {shortest}/{counted} ข้อ "
                              "ผู้สอบเดาได้จากความยาว ควรให้ความยาวคละกัน (ไม่เกินครึ่ง)")
+
+        # คำตอบเป็นค่ากลางของตัวเลือกบ่อยเกินไป = เดาได้ด้วยการเลือกตัวที่อยู่ตรงกลาง
+        # เกิดง่ายเมื่อตัวลวงสร้างแบบสมมาตรรอบคำตอบ เช่น น้อยไปสิบเท่า-มากไปสิบเท่า หรือ คำตอบ±d
+        # ถ้าเดาสุ่ม คำตอบจะเป็นค่ากลางราว 1 ใน 5
+        median = numeric = 0
+        for p in data["problems"]:
+            ch = p.get("choices") or []
+            vals = [_choice_number(c.get("md", "")) for c in ch]
+            if len(ch) != 5 or None in vals or len(set(vals)) < 5:
+                continue
+            numeric += 1
+            ans = [i for i, c in enumerate(ch) if c.get("is_answer")]
+            if ans and sorted(vals).index(vals[ans[0]]) == 2:
+                median += 1
+        if numeric >= 6 and median / numeric > 0.5:
+            rep.warn(where0, f"คำตอบเป็นค่ากลางของตัวเลือก {median}/{numeric} ข้อ "
+                             "ผู้สอบเดาได้โดยเลือกตัวที่อยู่ตรงกลาง ควรให้ตัวลวงอยู่ข้างเดียวกันบ้าง (ไม่เกินครึ่ง)")
 
         # สัดส่วนความยากต่อไฟล์ — ปรับตามจำนวนข้อจริง
         # สเปคกำหนดสัดส่วน 2:3:4:2:1 ต่อชุด 12 ข้อ วิชาที่ทำแม่แบบไม่ได้ใช้ 20 ข้อ
