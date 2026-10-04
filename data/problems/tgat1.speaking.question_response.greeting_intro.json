@@ -472,11 +472,11 @@
       "figures": [],
       "choices": [
         {
-          "md": "The pleasure was yesterday.",
+          "md": "Nice to see you again, Daniel.",
           "is_answer": false
         },
         {
-          "md": "Yes, Daniel is on the design team.",
+          "md": "Yes, I work with Daniel on the design team.",
           "is_answer": false
         },
         {
@@ -506,9 +506,9 @@
         "เลือกคำตอบที่ทำให้บทสนทนาดำเนินต่ออย่างเป็นธรรมชาติ"
       ],
       "distractor_reasons": {
-        "0": "ตีความ pleasure เป็นเหตุการณ์และใช้กาลไม่เหมาะ",
-        "1": "พูดถึง Daniel แบบบุคคลที่สาม ไม่ตอบการแนะนำตัว",
-        "3": "ทวนคำว่า meet แต่พูดถึงนัดหมาย"
+        "0": "สื่อว่าเคยพบกันแล้ว ขัดกับบริบทที่เพิ่งพบกัน",
+        "1": "พูดถึง Daniel แบบบุคคลที่สามและไม่แนะนำตัวเอง",
+        "3": "พูดถึงนัดหมายในอนาคตแทนการแนะนำตัว"
       },
       "misconception_tags": [
         "word_match_trap"
@@ -546,11 +546,11 @@
       "figures": [],
       "choices": [
         {
-          "md": "No, I don't catch anything.",
+          "md": "Sorry, I didn't catch what you said.",
           "is_answer": false
         },
         {
-          "md": "My guests got back an hour ago.",
+          "md": "Thanks. I'll get back to the guests later.",
           "is_answer": false
         },
         {
@@ -580,8 +580,8 @@
         "เลือกคำตอบที่ทำให้บทสนทนาดำเนินต่ออย่างเป็นธรรมชาติ"
       ],
       "distractor_reasons": {
-        "0": "ตีความ catching ตามคำตรงตัว",
-        "1": "จับคำ get back ตามตัวอักษร",
+        "0": "ขอให้พูดซ้ำแทนการรับสัญญาณจบบทสนทนา",
+        "1": "ยังไม่รับสัญญาณว่าควรกลับไปหาแขกตอนนี้",
         "2": "เปลี่ยนเป็นวิจารณ์จำนวนแขก"
       },
       "misconception_tags": [

@@ -249,7 +249,7 @@ P = [
       "ตอบ kept เพราะ keep a promise แปลว่ารักษาสัญญา ซึ่งบริษัทไม่ได้ทำ", diff=3, sec=35, reading="low", tags=["collocation_translation"]),
 ]
 P += [
- N("The committee will ______ a decision after reviewing the safety report.","make",[("do","ไม่ใช้ do a decision"),("take","take a decision พบได้บางสำเนียงแต่บทเรียนใช้คู่คำมาตรฐาน make"),("create","ไม่ใช่ collocation กับ decision ในบริบทนี้")],"หาคู่คำกริยากับ decision","make a decision เป็นคู่คำมาตรฐาน",3,["collocation_translation"]),
+ N("The committee will ______ a decision after reviewing the safety report.","make",[("do","ไม่ใช้ do a decision"),("perform","ไม่ใช้ perform a decision ในความหมายว่าตัดสินใจ"),("create","ไม่ใช่ collocation กับ decision ในบริบทนี้")],"หาคู่คำกริยากับ decision","make a decision เป็นคู่คำมาตรฐาน",3,["collocation_translation"]),
  N("The pilot program fell ______ expectations: participation rose, but costs doubled.","short of",[("down from","ไม่เกิดสำนวนตามด้วย expectations"),("apart with","fall apart ไม่ตามด้วย with expectations"),("behind to","บุพบทผิดและไม่ใช่คู่คำ")],"ประโยคหลังแสดงผลไม่ถึงเป้าหมายโดยรวม","fall short of expectations หมายถึงทำได้ต่ำกว่าที่คาด",5,["collocation_translation"]),
 ]
 save(tid, "TGAT1", "mcq4", P, lesson=L)
@@ -536,7 +536,7 @@ P = [
 ]
 P += [
  N("By the time the inspectors arrived, the workers ______ the leak but had not tested the repair.","had sealed",[("sealed","ไม่แสดงชัดว่าเสร็จก่อน inspectors arrived"),("have sealed","present perfect ใช้กับจุดเวลาอดีตไม่ได้"),("were sealing","สื่อว่ายังทำอยู่ ขัดกับ but had not tested")],"การปิดรอยรั่วเสร็จก่อนอีกเหตุในอดีต","past perfect แสดงเหตุที่เกิดก่อน inspectors arrived",3,["perfect_with_past_time"]),
- N("The archive ______ to the public since 2019, but it closed for repairs last month.","has been open",[("was open","ไม่ครอบคลุมจาก 2019 ถึงปัจจุบันตาม since"),("had opened","ต้องมีจุดอ้างอิงอดีตและความหมายเป็นการกระทำเปิด"),("is opening","สื่อกำลังเปิด ไม่ใช่สถานะต่อเนื่อง")],"since 2019 เชื่อมอดีตถึงปัจจุบัน ส่วน last month เป็นเหตุแทรกชั่วคราว","present perfect ของสถานะเหมาะกับช่วงต่อเนื่อง",5,["perfect_with_past_time"]),
+ N("The archive ______ to the public since 2019, and it now receives over 500 visitors a week.","has been open",[("was open","ไม่ครอบคลุมจาก 2019 ถึงปัจจุบันตาม since"),("had opened","ต้องมีจุดอ้างอิงอดีตและความหมายเป็นการกระทำเปิด"),("is opening","สื่อกำลังเปิด ไม่ใช่สถานะต่อเนื่อง")],"since 2019 เชื่อมอดีตถึงปัจจุบัน และ now ยืนยันว่าสถานะยังต่อเนื่อง","present perfect ของสถานะเหมาะกับช่วงต่อเนื่อง",5,["perfect_with_past_time"]),
 ]
 save(tid, "TGAT1", "mcq4", P, lesson=L)
 
@@ -753,7 +753,7 @@ P = [
 ]
 P += [
  N("The notice says: 'Workshop check-in opens at 8:15. Unclaimed seats will be released at 8:50, ten minutes before the session.' When may a reserved seat be given away?","At 8:50",[("At 8:15","เป็นเวลาเปิด check-in"),("At 9:00","เป็นเวลาเริ่ม session"),("Ten minutes after the session","สลับ before เป็น after")],"scan หาเวลาที่ผูกกับ released","ข้อความระบุ 8:50 โดยตรง",3,["same_words_wrong_meaning"]),
- N("A policy allows remote work on Tuesday and Thursday. New staff may apply after 60 days, but employees handling physical records must remain on site when those records are in use. Who cannot work remotely on a Thursday when archived files are being audited?","A new records clerk hired three months ago who must handle the files",[("A designer hired last year","ผ่านเวลาและไม่แตะเอกสารจริง"),("A records clerk hired yesterday","ห้ามเพราะยังไม่ครบ 60 วัน แต่โจทย์เน้นเงื่อนไขซ้อนและยังเป็นคำตอบได้บางส่วน ไม่เฉพาะที่สุด"),("A manager working from home on Tuesday","คนละวันกับคำถาม")],"ใช้ทั้งวัน สิทธิหลัง 60 วัน และข้อยกเว้นเอกสาร","แม้ทำงานเกิน 60 วัน ผู้ที่ต้องใช้เอกสารจริงยังต้องอยู่หน้างาน",5,["same_words_wrong_meaning"]),
+ N("A policy allows remote work on Tuesday and Thursday. New staff may apply after 60 days, but employees handling physical records must remain on site when those records are in use. Who cannot work remotely on a Thursday when archived files are being audited?","A new records clerk hired three months ago who must handle the files",[("A designer hired last year","ผ่านเวลาและไม่แตะเอกสารจริง"),("A software developer hired four months ago","ผ่านเกณฑ์ 60 วันและไม่ต้องใช้เอกสารจริง"),("A manager working from home on Tuesday","คนละวันกับคำถาม")],"ใช้ทั้งวัน สิทธิหลัง 60 วัน และข้อยกเว้นเอกสาร","แม้ทำงานเกิน 60 วัน ผู้ที่ต้องใช้เอกสารจริงยังต้องอยู่หน้างาน",5,["same_words_wrong_meaning"]),
 ]
 save(tid, "TGAT1", "mcq4", P, lesson=L)
 
@@ -1337,7 +1337,7 @@ P = [
                                    ("Answer the hardest question first", "ยังไม่รู้ว่าข้อไหนยากถ้ายังไม่อ่านคำถาม")],
       [("อ่านคำถามก่อน", "รู้ว่าต้องหาอะไรในบทอ่าน"), ("จากนั้นเลือก skim หรือ scan", "ประหยัดเวลา")],
       ["การรู้คำถามก่อนช่วยอะไร", "การอ่านทุกคำก่อนดูคำถามเสียอะไร", "ถ้ารู้ว่าต้องหาอะไร จะอ่านเร็วขึ้นไหม"],
-      "ตอบ Read the questions first เพราะทำให้รู้ว่าต้องหาอะไร แล้วเลือกวิธีอ่านให้เหมาะ", diff=2, sec=30, reading="low", tags=["read_every_word"]),
+      "ตามวิธีที่บทเรียนนี้แนะนำ ตอบ Read the questions first เพราะทำให้รู้ว่าต้องหาอะไร แล้วเลือกวิธีอ่านให้เหมาะ", diff=2, sec=30, reading="low", tags=["read_every_word"]),
     Q(passage("Floating Market", P_MARKET, "Scan the passage. In what year was the market featured on a travel program?"),
       "2015", [("1955", "ไม่มีตัวเลขนี้ในบทอ่าน"),
                ("60", "เป็นจำนวนปีที่ตลาดดำเนินการ ไม่ใช่ปี"),
@@ -1508,7 +1508,7 @@ P = [
                               ("The question with the longest answer choices", "ความยาวตัวเลือกไม่ได้บอกความง่าย")],
       [("ข้อรายละเอียดทำได้เร็วด้วยการ scan", "ทำก่อน"), ("ข้ออนุมานใช้เวลามากที่สุด", "ทำทีหลัง")],
       ["ข้อไหนหาคำตอบได้ตรง ๆ ในบท", "ข้อไหนต้องเข้าใจบททั้งหมดก่อน", "การทำข้อง่ายก่อนช่วยให้เข้าใจบทไหม"],
-      "ตอบ The detail question เพราะทำได้เร็วด้วยการ scan และช่วยให้เข้าใจบทก่อนทำข้อยาก",
+      "ตามวิธีที่บทเรียนนี้แนะนำ ตอบ The detail question เพราะทำได้เร็วด้วยการ scan และช่วยให้เข้าใจบทก่อนทำข้อยาก",
       diff=2, sec=30, reading="medium"),
     Q("After 30 minutes, you have finished only 20 speaking questions. What should you do?",
       "Speed up and don't get stuck", [("Continue at the same speed", "ถ้าช้าเท่าเดิมจะไม่มีเวลาอ่าน"),

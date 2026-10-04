@@ -165,8 +165,8 @@ P = [
       diff=2, sec=35),
 ]
 P += [
- N(d("A: I don't think we've met. I'm Daniel from the design team.","B: ______"),"I'm Mali. It's a pleasure to meet you.",[("I'm meeting the design team tomorrow.","ทวนคำว่า meet แต่พูดถึงนัดหมาย"),("Yes, Daniel is on the design team.","พูดถึง Daniel แบบบุคคลที่สาม ไม่ตอบการแนะนำตัว"),("The pleasure was yesterday.","ตีความ pleasure เป็นเหตุการณ์และใช้กาลไม่เหมาะ")],"เป็นการแนะนำตัวเมื่อพบกันครั้งแรก","ตอบแนะนำตัวกลับและกล่าวยินดีที่ได้พบจึงเป็นธรรมชาติ",3,["word_match_trap"]),
- N(d("A: Well, I should let you get back to your guests.","B: ______"),"Thanks for coming. It was lovely catching up.",[("My guests got back an hour ago.","จับคำ get back ตามตัวอักษร"),("You should invite more guests next time.","เปลี่ยนเป็นวิจารณ์จำนวนแขก"),("No, I don't catch anything.","ตีความ catching ตามคำตรงตัว")],"ผู้พูดส่งสัญญาณจบบทสนทนาอย่างสุภาพ","คำตอบรับการลาและกล่าวขอบคุณสอดคล้องกับนัยของประโยค",5,["word_match_trap"]),
+ N(d("A: I don't think we've met. I'm Daniel from the design team.","B: ______"),"I'm Mali. It's a pleasure to meet you.",[("I'm meeting the design team tomorrow.","พูดถึงนัดหมายในอนาคตแทนการแนะนำตัว"),("Yes, I work with Daniel on the design team.","พูดถึง Daniel แบบบุคคลที่สามและไม่แนะนำตัวเอง"),("Nice to see you again, Daniel.","สื่อว่าเคยพบกันแล้ว ขัดกับบริบทที่เพิ่งพบกัน")],"เป็นการแนะนำตัวเมื่อพบกันครั้งแรก","ตอบแนะนำตัวกลับและกล่าวยินดีที่ได้พบจึงเป็นธรรมชาติ",3,["word_match_trap"]),
+ N(d("A: Well, I should let you get back to your guests.","B: ______"),"Thanks for coming. It was lovely catching up.",[("Thanks. I'll get back to the guests later.","ยังไม่รับสัญญาณว่าควรกลับไปหาแขกตอนนี้"),("You should invite more guests next time.","เปลี่ยนเป็นวิจารณ์จำนวนแขก"),("Sorry, I didn't catch what you said.","ขอให้พูดซ้ำแทนการรับสัญญาณจบบทสนทนา")],"ผู้พูดส่งสัญญาณจบบทสนทนาอย่างสุภาพ","คำตอบรับการลาและกล่าวขอบคุณสอดคล้องกับนัยของประโยค",5,["word_match_trap"]),
 ]
 save(tid, "TGAT1", "mcq4", P, lesson=L)
 
@@ -304,8 +304,8 @@ P = [
       diff=2, sec=30, tags=["offer_request_confusion"]),
 ]
 P += [
- N(d("A: Could you keep an eye on my bag while I order?","B: ______"),"Of course. I'll watch it for you.",[("Yes, your bag has two eyes.","แปลสำนวน keep an eye on ตรงตัว"),("No, I couldn't order it.","สลับผู้ขอและสิ่งที่ขอ"),("The counter is over there.","บอกทางแต่ไม่ตอบคำขอเฝ้ากระเป๋า")],"เป็นคำขอให้ช่วยดูแลของชั่วคราว","ตอบรับและทวนสิ่งที่จะช่วยได้ตรงหน้าที่",3,["literal_translation"]),
- N(d("A: Would you mind if I moved your notes to this shelf?","B: ______"),"Not at all. I need the desk space too.",[("Yes, I would move them yesterday.","yes ทำให้ความหมายเป็นขัดข้องและกาลผิด"),("No, you wouldn't mind.","ตอบแทนความรู้สึกของผู้ถาม"),("The shelf has already moved.","สลับผู้กระทำและจับคำ move")],"Would you mind if I ... ถามว่าขัดข้องหรือไม่","Not at all แปลว่าไม่ขัดข้องและเหตุผลถัดมาสอดคล้องกัน",5,["would_you_mind_yes"]),
+ N(d("A: Could you keep an eye on my bag while I order?","B: ______"),"Of course. I'll watch it for you.",[("Yes, I need to order first too.","พูดถึงการสั่งอาหารของตนเองแต่ไม่ตอบว่าจะเฝ้ากระเป๋า"),("Sorry, I haven't ordered yet.","ตอบสถานะการสั่งของตนเองแทนคำขอให้ช่วยดูของ"),("The counter is over there.","บอกทางแต่ไม่ตอบคำขอเฝ้ากระเป๋า")],"เป็นคำขอให้ช่วยดูแลของชั่วคราว","ตอบรับและทวนสิ่งที่จะช่วยได้ตรงหน้าที่",3,["literal_translation"]),
+ N(d("A: Would you mind if I moved your notes to this shelf?","B: ______"),"Not at all. I need the desk space too.",[("Yes, of course. Please go ahead.","Yes ตอบ Would you mind แปลว่าขัดข้อง จึงขัดกับ go ahead ที่ตามมา เป็นข้อผิดที่พบบ่อย"),("No, I don't think the shelf will fit.","กล่าวถึงขนาดชั้นวางแทนการอนุญาตให้ย้ายโน้ต"),("The shelf was delivered yesterday.","บอกเวลาที่ได้รับชั้นวางแต่ไม่ตอบว่าอนุญาตให้ย้ายโน้ตหรือไม่")],"Would you mind if I ... ถามว่าขัดข้องหรือไม่","Not at all แปลว่าไม่ขัดข้องและเหตุผลถัดมาสอดคล้องกัน",5,["would_you_mind_yes"]),
 ]
 save(tid, "TGAT1", "mcq4", P, lesson=L)
 
@@ -431,8 +431,8 @@ P = [
       diff=3, sec=45, reading="medium"),
 ]
 P += [
- N(d("A: We're having a board-game night on Friday. Want to join us?","B: ______"),"I'd love to. What time should I come?",[("I joined the board last year.","จับคำ board แต่คนละความหมาย"),("Friday wants to join us.","ทำวันเป็นผู้กระทำ"),("The game is having a night.","เรียงคำจากโจทย์แต่ไม่ตอบคำเชิญ")],"เป็นคำเชิญแบบไม่เป็นทางการ","ตอบรับและถามรายละเอียดต่อเหมาะกับคำเชิญ",3,["word_match_trap"]),
- N(d("A: Would you like to come to the opening? I know it's short notice.","B: ______"),"I wish I could, but I'm covering a shift that evening.",[("Yes, the notice should be shorter.","จับ short notice เป็นความยาวประกาศ"),("I wouldn't like the opening hours.","ใช้ wouldn't like เป็นความไม่ชอบแทนการปฏิเสธคำเชิญ"),("I could come if you hadn't invited me.","เงื่อนไขขัดกับความหมาย")],"ผู้พูดเชิญและยอมรับว่าแจ้งกระชั้น","ปฏิเสธอย่างสุภาพพร้อมเหตุผลที่ชัดและไม่เปิดความหวังผิด",5,["would_like_as_like"]),
+ N(d("A: We're having a board-game night on Friday. Want to join us?","B: ______"),"I'd love to. What time should I come?",[("I joined the board last year.","จับคำ board แต่คนละความหมาย"),("The board meeting is on Friday evening.","พูดถึงการประชุมคณะกรรมการแทนการตอบคำเชิญ"),("Do you know where I can buy that game?","ถามเรื่องซื้อเกมแทนการตอบรับหรือปฏิเสธคำเชิญ")],"เป็นคำเชิญแบบไม่เป็นทางการ","ตอบรับและถามรายละเอียดต่อเหมาะกับคำเชิญ",3,["word_match_trap"]),
+ N(d("A: Would you like to come to the opening? I know it's short notice.","B: ______"),"I wish I could, but I'm covering a shift that evening.",[("Yes, I saw the invitation this morning.","รับทราบคำเชิญแต่ยังไม่ตอบว่าจะมาหรือไม่"),("I don't know what time the store opens.","เข้าใจ opening เป็นเวลาเปิดร้านแทนงานเปิดตัว"),("Yes, the notice arrived this morning.","พูดถึงเวลาที่ได้รับประกาศแต่ไม่ตอบรับหรือปฏิเสธคำเชิญ")],"ผู้พูดเชิญและยอมรับว่าแจ้งกระชั้น","ปฏิเสธอย่างสุภาพพร้อมเหตุผลที่ชัดและไม่เปิดความหวังผิด",5,["would_like_as_like"]),
 ]
 save(tid, "TGAT1", "mcq4", P, lesson=L)
 
@@ -558,8 +558,8 @@ P = [
       diff=1, sec=25, tags=["welcome_for_sorry"]),
 ]
 P += [
- N(d("A: I'm sorry I spilled coffee on your draft.","B: ______"),"It's okay. I saved another copy.",[("You're welcome to spill it.","ใช้ You're welcome ผิดกับคำขอโทษ"),("I'm sorry to hear your coffee.","ใช้วลีแสดงความเห็นใจผิดบริบท"),("Thanks for the coffee draft.","ขอบคุณสิ่งที่สร้างความเสียหาย")],"เป็นการขอโทษจากอุบัติเหตุ","ตอบรับคำขอโทษและบอกว่ามีสำเนาสำรอง",3,["welcome_for_sorry"]),
- N(d("A: Thank you for staying late to fix the figures.","B: ______"),"No problem. I'm glad we caught the error in time.",[("Never mind; the figures thanked me.","Never mind ไม่รับคำขอบคุณและประธานผิด"),("I'm sorry to hear that you stayed.","แสดงความเสียใจกับการช่วยเหลือ"),("You're welcome, so you owe me one.","เริ่มรับคำขอบคุณแต่ลงท้ายกดดันไม่เหมาะกับงาน")],"เป็นคำขอบคุณในบริบททำงานร่วมกัน","รับคำขอบคุณและเชื่อมกับผลดีของทีมอย่างเป็นมืออาชีพ",5,["welcome_for_sorry"]),
+ N(d("A: I'm sorry I spilled coffee on your draft.","B: ______"),"It's okay. I saved another copy.",[("You're welcome. I know it was an accident.","You're welcome ใช้รับคำขอบคุณ ไม่ใช่คำขอโทษ"),("I'm sorry, but I don't drink coffee.","เป็นประโยคธรรมชาติแต่ไม่ตอบรับคำขอโทษเรื่องเอกสารเสียหาย"),("Thanks. I'll finish the draft later.","กล่าวขอบคุณและเปลี่ยนเรื่องแทนการตอบรับคำขอโทษ")],"เป็นการขอโทษจากอุบัติเหตุ","ตอบรับคำขอโทษและบอกว่ามีสำเนาสำรอง",3,["welcome_for_sorry"]),
+ N(d("A: Thank you for staying late to fix the figures.","B: ______"),"No problem. I'm glad we caught the error in time.",[("Never mind. The figures were already correct.","ปฏิเสธว่ามีข้อผิดพลาด ขัดกับบริบทที่เพิ่งแก้ตัวเลข"),("I'm sorry, but I couldn't stay late.","ขัดกับคำขอบคุณที่ระบุว่าอยู่ช่วยจนดึก"),("You're welcome, so you owe me one.","เริ่มรับคำขอบคุณแต่ลงท้ายกดดันไม่เหมาะกับงาน")],"เป็นคำขอบคุณในบริบททำงานร่วมกัน","รับคำขอบคุณและเชื่อมกับผลดีของทีมอย่างเป็นมืออาชีพ",5,["welcome_for_sorry"]),
 ]
 save(tid, "TGAT1", "mcq4", P, lesson=L)
 
@@ -683,8 +683,8 @@ P = [
       diff=1, sec=30, tags=["literal_translation"]),
 ]
 P += [
- N(d("A: I think the workshop should include more practice time.","B: ______"),"I agree. The last activity felt rushed.",[("So do the workshop.","ใช้ so do ผิดโครงสร้างและความหมาย"),("Neither is the practice.","ใช้ neither กับข้อความบอกเล่าเชิงบวก"),("Yes, time includes workshops.","สลับความสัมพันธ์ของคำ")],"เป็นการขอความเห็นต่อข้อเสนอ","แสดงความเห็นด้วยและให้เหตุผลที่ตรงประเด็น",3,["too_neither_confusion"]),
- N(d("A: The new schedule is more efficient, but it leaves no break between labs.","B: ______"),"That's true. It saves time overall, though the lack of a break may be a problem.",[("I completely disagree; efficiency is always bad.","ปฏิเสธสุดโต่งและบิดประเด็น"),("Me too, the schedule left yesterday.","ใช้ me too กับข้อสังเกตและจับ leaves เป็นออกไป"),("Neither do I have a laboratory schedule.","เปลี่ยนเป็นการครอบครองตาราง ไม่ตอบการประเมิน")],"ข้อความมีทั้งข้อดีและข้อกังวล","คำตอบยอมรับสองด้านแทนเลือกเห็นด้วยหรือคัดค้านทั้งหมด",5,["rude_disagreement"]),
+ N(d("A: I think the workshop should include more practice time.","B: ______"),"I agree. The last activity felt rushed.",[("So am I. I need more time to register.","ใช้กริยาช่วยผิด ต้องเป็น So do I ตาม I think และยังเปลี่ยนไปพูดเรื่องเวลาลงทะเบียน"),("Neither do I. I rarely attend workshops.","ใช้ neither ตอบข้อความบอกเล่าเชิงบวกและเปลี่ยนประเด็น"),("Yes, the workshop starts on time.","บอกข้อเท็จจริงเรื่องเวลาเริ่มแทนการแสดงความเห็นต่อข้อเสนอ")],"เป็นการขอความเห็นต่อข้อเสนอ","แสดงความเห็นด้วยและให้เหตุผลที่ตรงประเด็น",3,["too_neither_confusion"]),
+ N(d("A: The new schedule is more efficient, but it leaves no break between labs.","B: ______"),"That's true. It saves time overall, though the lack of a break may be a problem.",[("I completely disagree; efficiency is always bad.","ปฏิเสธสุดโต่งและบิดประเด็น"),("Me too. I haven't received the new schedule.","ตอบเรื่องการได้รับตาราง ไม่ใช่การประเมินข้อดีข้อเสีย"),("Neither do I. My lab schedule is unchanged.","พูดถึงตารางของตนว่าไม่เปลี่ยน ไม่ตอบข้อสังเกตสองด้าน")],"ข้อความมีทั้งข้อดีและข้อกังวล","คำตอบยอมรับสองด้านแทนเลือกเห็นด้วยหรือคัดค้านทั้งหมด",5,["rude_disagreement"]),
 ]
 save(tid, "TGAT1", "mcq4", P, lesson=L)
 
@@ -936,7 +936,7 @@ P = [
       diff=2, sec=30, tags=["auxiliary_mismatch"]),
 ]
 P += [
- N(d("A: Haven't you submitted the form yet?","B: ______"),"No, not yet. I'm waiting for one signature.",[("Yes, I haven't.","yes ขัดกับประโยคปฏิเสธที่ตามมา"),("No, I submitted it yesterday.","no ขัดกับข้อเท็จจริงที่บอกว่าส่งแล้ว"),("Yes, the form isn't a signature.","ไม่ตอบสถานะการส่งและความหมายผิด")],"คำถามปฏิเสธต้องตอบตามข้อเท็จจริงว่าส่งหรือยัง","No, not yet สอดคล้องกับการยังรอลายเซ็น",3,["thai_style_yes_no"]),
- N(d("A: You didn't copy the final file over the draft, did you?","B: ______"),"I'm afraid I did, but the backup should restore it.",[("No, I didn't not copy it.","ปฏิเสธซ้อนจนความหมายไม่ชัด"),("Yes, I didn't copy the draft.","yes ขัดกับ didn't และเปลี่ยนกรรม"),("The final file did, didn't it?","ให้ไฟล์เป็นผู้กระทำและเลียน tag โดยไม่ตอบ")],"tag question ใช้ยืนยันเหตุที่ผู้ถามกังวล","I did ยืนยันว่าเผลอเขียนทับจริง แล้วกล่าวถึงทางกู้คืน",5,["auxiliary_mismatch"]),
+ N(d("A: Haven't you submitted the form yet?","B: ______"),"No, not yet. I'm waiting for one signature.",[("Yes, I haven't.","yes ขัดกับประโยคปฏิเสธที่ตามมา"),("No, I submitted it yesterday.","no ขัดกับข้อเท็จจริงที่บอกว่าส่งแล้ว"),("Yes, the form still needs a signature.","yes สื่อว่าส่งแล้ว แต่ประโยคต่อมาบอกว่ายังขาดลายเซ็น")],"คำถามปฏิเสธต้องตอบตามข้อเท็จจริงว่าส่งหรือยัง","No, not yet สอดคล้องกับการยังรอลายเซ็น",3,["thai_style_yes_no"]),
+ N(d("A: You didn't copy the final file over the draft, did you?","B: ______"),"I'm afraid I did, but the backup should restore it.",[("Yes, I didn't. The draft is still there.","Yes คู่กับ didn't ขัดกันเอง ถ้าไม่ได้ทำต้องตอบ No, I didn't เป็นข้อผิดที่พบบ่อยกับคำถามเชิงปฏิเสธ"),("Yes, I copied the draft into another folder.","กล่าวถึงการย้ายสำเนา ไม่ใช่การเขียนไฟล์ทับฉบับร่าง"),("The final file was copied this morning.","บอกเพียงเวลาที่คัดลอก ไม่ระบุว่าเขียนทับฉบับร่างหรือใครทำ")],"tag question ใช้ยืนยันเหตุที่ผู้ถามกังวล","I did ยืนยันว่าเผลอเขียนทับจริง แล้วกล่าวถึงทางกู้คืน",5,["auxiliary_mismatch"]),
 ]
 save(tid, "TGAT1", "mcq4", P, lesson=L)

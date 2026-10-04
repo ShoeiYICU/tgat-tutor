@@ -472,15 +472,15 @@
       "figures": [],
       "choices": [
         {
-          "md": "Receipts are paper.",
+          "md": "The fitting rooms are near the entrance.",
           "is_answer": false
         },
         {
-          "md": "The shirt exchanged me.",
+          "md": "This shirt is no longer in stock.",
           "is_answer": false
         },
         {
-          "md": "Could you sell me one?",
+          "md": "Would you like to buy another one?",
           "is_answer": false
         },
         {
@@ -506,9 +506,9 @@
         "ตัดตัวเลือกที่มีคำซ้ำแต่ทำหน้าที่ผิด"
       ],
       "distractor_reasons": {
-        "0": "ไม่ตอบคำขอ",
-        "1": "สลับบทบาท",
-        "2": "พนักงานกลายเป็นลูกค้า"
+        "0": "บอกตำแหน่งบริการอื่นที่ไม่เกี่ยวกับคำขอเปลี่ยนสินค้า",
+        "1": "บอกสถานะสินค้าแต่ยังไม่ตอบว่าจะรับเปลี่ยนหรือขอหลักฐาน",
+        "2": "เสนอขายเพิ่มแทนการดำเนินการเปลี่ยนสินค้า"
       },
       "misconception_tags": [
         "speaker_role_swap"
@@ -546,11 +546,11 @@
       "figures": [],
       "choices": [
         {
-          "md": "Would you reserve one?",
+          "md": "Would you like a wake-up call?",
           "is_answer": false
         },
         {
-          "md": "The noise checked out.",
+          "md": "The air conditioner was checked this morning.",
           "is_answer": false
         },
         {
@@ -558,7 +558,7 @@
           "is_answer": true
         },
         {
-          "md": "Please repair it in 508.",
+          "md": "Could you turn it off for the night?",
           "is_answer": false
         }
       ],
@@ -580,9 +580,9 @@
         "ตัดตัวเลือกที่มีคำซ้ำแต่ทำหน้าที่ผิด"
       ],
       "distractor_reasons": {
-        "0": "เสนอจองแทนรับแจ้ง",
-        "1": "ใช้สำนวนผิด",
-        "3": "ผลักงานให้แขกและรู้เลขก่อน"
+        "0": "เสนออีกบริการหนึ่งที่ไม่เกี่ยวกับเครื่องปรับอากาศ",
+        "1": "อ้างการตรวจที่ผ่านมาแต่ไม่รับมือปัญหาปัจจุบัน",
+        "3": "เสนอให้แขกปิดเครื่องแทนการรับแจ้งและไม่ทำให้คำตอบเลขห้องสอดคล้อง"
       },
       "misconception_tags": [
         "speaker_role_swap",

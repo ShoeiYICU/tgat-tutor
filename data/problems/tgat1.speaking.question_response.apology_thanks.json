@@ -474,15 +474,15 @@
       "figures": [],
       "choices": [
         {
-          "md": "I'm sorry to hear your coffee.",
+          "md": "I'm sorry, but I don't drink coffee.",
           "is_answer": false
         },
         {
-          "md": "Thanks for the coffee draft.",
+          "md": "Thanks. I'll finish the draft later.",
           "is_answer": false
         },
         {
-          "md": "You're welcome to spill it.",
+          "md": "You're welcome. I know it was an accident.",
           "is_answer": false
         },
         {
@@ -508,9 +508,9 @@
         "เลือกคำตอบที่ทำให้บทสนทนาดำเนินต่ออย่างเป็นธรรมชาติ"
       ],
       "distractor_reasons": {
-        "0": "ใช้วลีแสดงความเห็นใจผิดบริบท",
-        "1": "ขอบคุณสิ่งที่สร้างความเสียหาย",
-        "2": "ใช้ You're welcome ผิดกับคำขอโทษ"
+        "0": "เป็นประโยคธรรมชาติแต่ไม่ตอบรับคำขอโทษเรื่องเอกสารเสียหาย",
+        "1": "กล่าวขอบคุณและเปลี่ยนเรื่องแทนการตอบรับคำขอโทษ",
+        "2": "You're welcome ใช้รับคำขอบคุณ ไม่ใช่คำขอโทษ"
       },
       "misconception_tags": [
         "welcome_for_sorry"
@@ -556,11 +556,11 @@
           "is_answer": true
         },
         {
-          "md": "I'm sorry to hear that you stayed.",
+          "md": "I'm sorry, but I couldn't stay late.",
           "is_answer": false
         },
         {
-          "md": "Never mind; the figures thanked me.",
+          "md": "Never mind. The figures were already correct.",
           "is_answer": false
         }
       ],
@@ -583,8 +583,8 @@
       ],
       "distractor_reasons": {
         "0": "เริ่มรับคำขอบคุณแต่ลงท้ายกดดันไม่เหมาะกับงาน",
-        "2": "แสดงความเสียใจกับการช่วยเหลือ",
-        "3": "Never mind ไม่รับคำขอบคุณและประธานผิด"
+        "2": "ขัดกับคำขอบคุณที่ระบุว่าอยู่ช่วยจนดึก",
+        "3": "ปฏิเสธว่ามีข้อผิดพลาด ขัดกับบริบทที่เพิ่งแก้ตัวเลข"
       },
       "misconception_tags": [
         "welcome_for_sorry"

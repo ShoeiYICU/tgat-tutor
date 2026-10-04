@@ -472,11 +472,11 @@
       "figures": [],
       "choices": [
         {
-          "md": "Your class is afternoon.",
+          "md": "Your class ends at four.",
           "is_answer": false
         },
         {
-          "md": "The chemistry opens it.",
+          "md": "The chemistry lab opens tomorrow.",
           "is_answer": false
         },
         {
@@ -484,7 +484,7 @@
           "is_answer": true
         },
         {
-          "md": "I opened my book.",
+          "md": "I left my book in the lab.",
           "is_answer": false
         }
       ],
@@ -506,9 +506,9 @@
         "ตัดตัวเลือกที่มีคำซ้ำแต่ทำหน้าที่ผิด"
       ],
       "distractor_reasons": {
-        "0": "ไม่ตอบเวลาเปิด",
-        "1": "ผู้กระทำผิด",
-        "3": "จับ open คนละความหมาย"
+        "0": "บอกเวลาเลิกเรียนแทนเวลาเปิดของห้องปฏิบัติการ",
+        "1": "ตอบเรื่องวันพรุ่งนี้ ไม่ใช่สถานะช่วงบ่ายวันนี้",
+        "3": "พูดถึงของที่ลืมไว้ ไม่ตอบว่าห้องเปิดหรือไม่"
       },
       "misconception_tags": [
         "ignore_next_line"
@@ -546,7 +546,7 @@
       "figures": [],
       "choices": [
         {
-          "md": "The guide is written.",
+          "md": "The registration guide is available online.",
           "is_answer": false
         },
         {
@@ -554,7 +554,7 @@
           "is_answer": false
         },
         {
-          "md": "Why did registration miss you?",
+          "md": "Why didn't you register on time?",
           "is_answer": false
         },
         {
@@ -580,9 +580,9 @@
         "ตัดตัวเลือกที่มีคำซ้ำแต่ทำหน้าที่ผิด"
       ],
       "distractor_reasons": {
-        "0": "มีคำซ้ำแต่ผิดหน้าที่",
+        "0": "บอกแหล่งคู่มือแทนการถามเงื่อนไขลงทะเบียนล่าช้า",
         "1": "ไม่สัมพันธ์กับหลักฐาน",
-        "2": "สลับผู้กระทำ"
+        "2": "ถามสาเหตุ แต่บรรทัดถัดไปยื่นหลักฐานแทนคำอธิบาย"
       },
       "misconception_tags": [
         "ignore_next_line"

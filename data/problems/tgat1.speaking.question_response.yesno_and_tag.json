@@ -482,7 +482,7 @@
           "is_answer": false
         },
         {
-          "md": "Yes, the form isn't a signature.",
+          "md": "Yes, the form still needs a signature.",
           "is_answer": false
         },
         {
@@ -510,7 +510,7 @@
       "distractor_reasons": {
         "0": "yes ขัดกับประโยคปฏิเสธที่ตามมา",
         "1": "no ขัดกับข้อเท็จจริงที่บอกว่าส่งแล้ว",
-        "2": "ไม่ตอบสถานะการส่งและความหมายผิด"
+        "2": "yes สื่อว่าส่งแล้ว แต่ประโยคต่อมาบอกว่ายังขาดลายเซ็น"
       },
       "misconception_tags": [
         "thai_style_yes_no"
@@ -548,11 +548,11 @@
       "figures": [],
       "choices": [
         {
-          "md": "No, I didn't not copy it.",
+          "md": "Yes, I didn't. The draft is still there.",
           "is_answer": false
         },
         {
-          "md": "The final file did, didn't it?",
+          "md": "The final file was copied this morning.",
           "is_answer": false
         },
         {
@@ -560,7 +560,7 @@
           "is_answer": true
         },
         {
-          "md": "Yes, I didn't copy the draft.",
+          "md": "Yes, I copied the draft into another folder.",
           "is_answer": false
         }
       ],
@@ -582,9 +582,9 @@
         "เลือกคำตอบที่ทำให้บทสนทนาดำเนินต่ออย่างเป็นธรรมชาติ"
       ],
       "distractor_reasons": {
-        "0": "ปฏิเสธซ้อนจนความหมายไม่ชัด",
-        "1": "ให้ไฟล์เป็นผู้กระทำและเลียน tag โดยไม่ตอบ",
-        "3": "yes ขัดกับ didn't และเปลี่ยนกรรม"
+        "0": "Yes คู่กับ didn't ขัดกันเอง ถ้าไม่ได้ทำต้องตอบ No, I didn't เป็นข้อผิดที่พบบ่อยกับคำถามเชิงปฏิเสธ",
+        "1": "บอกเพียงเวลาที่คัดลอก ไม่ระบุว่าเขียนทับฉบับร่างหรือใครทำ",
+        "3": "กล่าวถึงการย้ายสำเนา ไม่ใช่การเขียนไฟล์ทับฉบับร่าง"
       },
       "misconception_tags": [
         "auxiliary_mismatch"

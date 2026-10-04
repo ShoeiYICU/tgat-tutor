@@ -32,7 +32,7 @@
           "id": "fig1",
           "type": "svg",
           "svg": "<svg viewBox=\"0 0 196 152\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"54\" y=\"10\" width=\"44\" height=\"44\"/><rect x=\"10\" y=\"54\" width=\"44\" height=\"44\"/><rect x=\"54\" y=\"54\" width=\"44\" height=\"44\"/><rect x=\"98\" y=\"54\" width=\"44\" height=\"44\"/><rect x=\"142\" y=\"54\" width=\"44\" height=\"44\"/><rect x=\"54\" y=\"98\" width=\"44\" height=\"44\"/></g><g fill=\"currentColor\" font-size=\"20\" text-anchor=\"middle\" font-family=\"system-ui, sans-serif\"><text x=\"76\" y=\"39\">ก</text><text x=\"32\" y=\"83\">ข</text><text x=\"64\" y=\"70\" font-size=\"13\">ค</text><text x=\"120\" y=\"83\">ง</text><text x=\"164\" y=\"83\">จ</text><text x=\"76\" y=\"127\">ฉ</text></g><g transform=\"rotate(0 76 76)\" stroke=\"var(--accent, #3b5bdb)\" stroke-width=\"3\" fill=\"var(--accent, #3b5bdb)\"><line x1=\"76\" y1=\"88\" x2=\"76\" y2=\"71\"/><polygon points=\"76,62 82,73 70,73\" stroke-width=\"1\"/></g></svg>",
-          "alt": "แผ่นคลี่ลูกบาศก์ แถวที่ 1 มีช่อง ก / แถวที่ 2 มีช่อง ข, ค, ง, จ / แถวที่ 3 มีช่อง ฉ · หน้า ค มีลูกศรชี้ขึ้น",
+          "alt": "แผ่นคลี่ลูกบาศก์บนตาราง ช่องที่อยู่คอลัมน์เดียวกันในแถวติดกันคือช่องที่ติดกันตามแนวตั้ง · แถวที่ 1: ก อยู่คอลัมน์ 2 / แถวที่ 2: ข อยู่คอลัมน์ 1, ค อยู่คอลัมน์ 2, ง อยู่คอลัมน์ 3, จ อยู่คอลัมน์ 4 / แถวที่ 3: ฉ อยู่คอลัมน์ 2 · หน้า ค มีลูกศรชี้ขึ้น",
           "caption": "แผ่นคลี่ลูกบาศก์"
         }
       ],
@@ -119,7 +119,7 @@
           "id": "fig1",
           "type": "svg",
           "svg": "<svg viewBox=\"0 0 196 152\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"54\" y=\"10\" width=\"44\" height=\"44\"/><rect x=\"10\" y=\"54\" width=\"44\" height=\"44\"/><rect x=\"54\" y=\"54\" width=\"44\" height=\"44\"/><rect x=\"98\" y=\"54\" width=\"44\" height=\"44\"/><rect x=\"142\" y=\"54\" width=\"44\" height=\"44\"/><rect x=\"54\" y=\"98\" width=\"44\" height=\"44\"/></g><g fill=\"currentColor\" font-size=\"20\" text-anchor=\"middle\" font-family=\"system-ui, sans-serif\"><text x=\"76\" y=\"39\">ก</text><text x=\"32\" y=\"83\">ข</text><text x=\"64\" y=\"70\" font-size=\"13\">ค</text><text x=\"120\" y=\"83\">ง</text><text x=\"164\" y=\"83\">จ</text><text x=\"76\" y=\"127\">ฉ</text></g><g transform=\"rotate(90 76 76)\" stroke=\"var(--accent, #3b5bdb)\" stroke-width=\"3\" fill=\"var(--accent, #3b5bdb)\"><line x1=\"76\" y1=\"88\" x2=\"76\" y2=\"71\"/><polygon points=\"76,62 82,73 70,73\" stroke-width=\"1\"/></g></svg>",
-          "alt": "แผ่นคลี่ลูกบาศก์ แถวที่ 1 มีช่อง ก / แถวที่ 2 มีช่อง ข, ค, ง, จ / แถวที่ 3 มีช่อง ฉ · หน้า ค มีลูกศรชี้ขวา",
+          "alt": "แผ่นคลี่ลูกบาศก์บนตาราง ช่องที่อยู่คอลัมน์เดียวกันในแถวติดกันคือช่องที่ติดกันตามแนวตั้ง · แถวที่ 1: ก อยู่คอลัมน์ 2 / แถวที่ 2: ข อยู่คอลัมน์ 1, ค อยู่คอลัมน์ 2, ง อยู่คอลัมน์ 3, จ อยู่คอลัมน์ 4 / แถวที่ 3: ฉ อยู่คอลัมน์ 2 · หน้า ค มีลูกศรชี้ขวา",
           "caption": "แผ่นคลี่ลูกบาศก์"
         }
       ],
@@ -204,7 +204,7 @@
           "id": "fig1",
           "type": "svg",
           "svg": "<svg viewBox=\"0 0 196 152\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"98\" y=\"10\" width=\"44\" height=\"44\"/><rect x=\"10\" y=\"54\" width=\"44\" height=\"44\"/><rect x=\"54\" y=\"54\" width=\"44\" height=\"44\"/><rect x=\"98\" y=\"54\" width=\"44\" height=\"44\"/><rect x=\"142\" y=\"54\" width=\"44\" height=\"44\"/><rect x=\"54\" y=\"98\" width=\"44\" height=\"44\"/></g><g fill=\"currentColor\" font-size=\"20\" text-anchor=\"middle\" font-family=\"system-ui, sans-serif\"><text x=\"108\" y=\"26\" font-size=\"13\">ก</text><text x=\"32\" y=\"83\">ข</text><text x=\"76\" y=\"83\">ค</text><text x=\"120\" y=\"83\">ง</text><text x=\"164\" y=\"83\">จ</text><text x=\"76\" y=\"127\">ฉ</text></g><g transform=\"rotate(180 120 32)\" stroke=\"var(--accent, #3b5bdb)\" stroke-width=\"3\" fill=\"var(--accent, #3b5bdb)\"><line x1=\"120\" y1=\"44\" x2=\"120\" y2=\"27\"/><polygon points=\"120,18 126,29 114,29\" stroke-width=\"1\"/></g></svg>",
-          "alt": "แผ่นคลี่ลูกบาศก์ แถวที่ 1 มีช่อง ก / แถวที่ 2 มีช่อง ข, ค, ง, จ / แถวที่ 3 มีช่อง ฉ · หน้า ก มีลูกศรชี้ลง",
+          "alt": "แผ่นคลี่ลูกบาศก์บนตาราง ช่องที่อยู่คอลัมน์เดียวกันในแถวติดกันคือช่องที่ติดกันตามแนวตั้ง · แถวที่ 1: ก อยู่คอลัมน์ 3 / แถวที่ 2: ข อยู่คอลัมน์ 1, ค อยู่คอลัมน์ 2, ง อยู่คอลัมน์ 3, จ อยู่คอลัมน์ 4 / แถวที่ 3: ฉ อยู่คอลัมน์ 2 · หน้า ก มีลูกศรชี้ลง",
           "caption": "แผ่นคลี่ลูกบาศก์"
         }
       ],
@@ -289,7 +289,7 @@
           "id": "fig1",
           "type": "svg",
           "svg": "<svg viewBox=\"0 0 152 196\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"54\" y=\"10\" width=\"44\" height=\"44\"/><rect x=\"10\" y=\"54\" width=\"44\" height=\"44\"/><rect x=\"54\" y=\"54\" width=\"44\" height=\"44\"/><rect x=\"54\" y=\"98\" width=\"44\" height=\"44\"/><rect x=\"98\" y=\"98\" width=\"44\" height=\"44\"/><rect x=\"54\" y=\"142\" width=\"44\" height=\"44\"/></g><g fill=\"currentColor\" font-size=\"20\" text-anchor=\"middle\" font-family=\"system-ui, sans-serif\"><text x=\"76\" y=\"39\">ก</text><text x=\"32\" y=\"83\">ข</text><text x=\"64\" y=\"70\" font-size=\"13\">ค</text><text x=\"76\" y=\"127\">ง</text><text x=\"120\" y=\"127\">จ</text><text x=\"76\" y=\"171\">ฉ</text></g><g transform=\"rotate(270 76 76)\" stroke=\"var(--accent, #3b5bdb)\" stroke-width=\"3\" fill=\"var(--accent, #3b5bdb)\"><line x1=\"76\" y1=\"88\" x2=\"76\" y2=\"71\"/><polygon points=\"76,62 82,73 70,73\" stroke-width=\"1\"/></g></svg>",
-          "alt": "แผ่นคลี่ลูกบาศก์ แถวที่ 1 มีช่อง ก / แถวที่ 2 มีช่อง ข, ค / แถวที่ 3 มีช่อง ง, จ / แถวที่ 4 มีช่อง ฉ · หน้า ค มีลูกศรชี้ซ้าย",
+          "alt": "แผ่นคลี่ลูกบาศก์บนตาราง ช่องที่อยู่คอลัมน์เดียวกันในแถวติดกันคือช่องที่ติดกันตามแนวตั้ง · แถวที่ 1: ก อยู่คอลัมน์ 2 / แถวที่ 2: ข อยู่คอลัมน์ 1, ค อยู่คอลัมน์ 2 / แถวที่ 3: ง อยู่คอลัมน์ 2, จ อยู่คอลัมน์ 3 / แถวที่ 4: ฉ อยู่คอลัมน์ 2 · หน้า ค มีลูกศรชี้ซ้าย",
           "caption": "แผ่นคลี่ลูกบาศก์"
         }
       ],
@@ -374,7 +374,7 @@
           "id": "fig1",
           "type": "svg",
           "svg": "<svg viewBox=\"0 0 196 152\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"54\" y=\"10\" width=\"44\" height=\"44\"/><rect x=\"10\" y=\"54\" width=\"44\" height=\"44\"/><rect x=\"54\" y=\"54\" width=\"44\" height=\"44\"/><rect x=\"98\" y=\"54\" width=\"44\" height=\"44\"/><rect x=\"142\" y=\"54\" width=\"44\" height=\"44\"/><rect x=\"54\" y=\"98\" width=\"44\" height=\"44\"/></g><g fill=\"currentColor\" font-size=\"20\" text-anchor=\"middle\" font-family=\"system-ui, sans-serif\"><text x=\"76\" y=\"39\">ก</text><text x=\"32\" y=\"83\">ข</text><text x=\"76\" y=\"83\">ค</text><text x=\"120\" y=\"83\">ง</text><text x=\"152\" y=\"70\" font-size=\"13\">จ</text><text x=\"76\" y=\"127\">ฉ</text></g><g transform=\"rotate(90 164 76)\" stroke=\"var(--accent, #3b5bdb)\" stroke-width=\"3\" fill=\"var(--accent, #3b5bdb)\"><line x1=\"164\" y1=\"88\" x2=\"164\" y2=\"71\"/><polygon points=\"164,62 170,73 158,73\" stroke-width=\"1\"/></g></svg>",
-          "alt": "แผ่นคลี่ลูกบาศก์ แถวที่ 1 มีช่อง ก / แถวที่ 2 มีช่อง ข, ค, ง, จ / แถวที่ 3 มีช่อง ฉ · หน้า จ มีลูกศรชี้ขวา",
+          "alt": "แผ่นคลี่ลูกบาศก์บนตาราง ช่องที่อยู่คอลัมน์เดียวกันในแถวติดกันคือช่องที่ติดกันตามแนวตั้ง · แถวที่ 1: ก อยู่คอลัมน์ 2 / แถวที่ 2: ข อยู่คอลัมน์ 1, ค อยู่คอลัมน์ 2, ง อยู่คอลัมน์ 3, จ อยู่คอลัมน์ 4 / แถวที่ 3: ฉ อยู่คอลัมน์ 2 · หน้า จ มีลูกศรชี้ขวา",
           "caption": "แผ่นคลี่ลูกบาศก์"
         }
       ],
@@ -461,7 +461,7 @@
           "id": "fig1",
           "type": "svg",
           "svg": "<svg viewBox=\"0 0 196 152\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"54\" y=\"10\" width=\"44\" height=\"44\"/><rect x=\"10\" y=\"54\" width=\"44\" height=\"44\"/><rect x=\"54\" y=\"54\" width=\"44\" height=\"44\"/><rect x=\"98\" y=\"54\" width=\"44\" height=\"44\"/><rect x=\"142\" y=\"54\" width=\"44\" height=\"44\"/><rect x=\"54\" y=\"98\" width=\"44\" height=\"44\"/></g><g fill=\"currentColor\" font-size=\"20\" text-anchor=\"middle\" font-family=\"system-ui, sans-serif\"><text x=\"76\" y=\"39\">ก</text><text x=\"20\" y=\"70\" font-size=\"13\">ข</text><text x=\"76\" y=\"83\">ค</text><text x=\"120\" y=\"83\">ง</text><text x=\"152\" y=\"70\" font-size=\"13\">จ</text><text x=\"76\" y=\"127\">ฉ</text></g><g transform=\"rotate(0 32 76)\" stroke=\"var(--accent, #3b5bdb)\" stroke-width=\"3\" fill=\"var(--accent, #3b5bdb)\"><line x1=\"32\" y1=\"88\" x2=\"32\" y2=\"71\"/><polygon points=\"32,62 38,73 26,73\" stroke-width=\"1\"/></g><g transform=\"rotate(180 164 76)\" stroke=\"var(--accent, #3b5bdb)\" stroke-width=\"3\" fill=\"var(--accent, #3b5bdb)\"><line x1=\"164\" y1=\"88\" x2=\"164\" y2=\"71\"/><polygon points=\"164,62 170,73 158,73\" stroke-width=\"1\"/></g></svg>",
-          "alt": "แผ่นคลี่ลูกบาศก์ แถวที่ 1 มีช่อง ก / แถวที่ 2 มีช่อง ข, ค, ง, จ / แถวที่ 3 มีช่อง ฉ · หน้า ข มีลูกศรชี้ขึ้น · หน้า จ มีลูกศรชี้ลง",
+          "alt": "แผ่นคลี่ลูกบาศก์บนตาราง ช่องที่อยู่คอลัมน์เดียวกันในแถวติดกันคือช่องที่ติดกันตามแนวตั้ง · แถวที่ 1: ก อยู่คอลัมน์ 2 / แถวที่ 2: ข อยู่คอลัมน์ 1, ค อยู่คอลัมน์ 2, ง อยู่คอลัมน์ 3, จ อยู่คอลัมน์ 4 / แถวที่ 3: ฉ อยู่คอลัมน์ 2 · หน้า ข มีลูกศรชี้ขึ้น · หน้า จ มีลูกศรชี้ลง",
           "caption": "แผ่นคลี่ลูกบาศก์"
         }
       ],

@@ -476,7 +476,7 @@
       "figures": [],
       "choices": [
         {
-          "md": "No, I couldn't order it.",
+          "md": "Sorry, I haven't ordered yet.",
           "is_answer": false
         },
         {
@@ -488,7 +488,7 @@
           "is_answer": true
         },
         {
-          "md": "Yes, your bag has two eyes.",
+          "md": "Yes, I need to order first too.",
           "is_answer": false
         }
       ],
@@ -510,9 +510,9 @@
         "เลือกคำตอบที่ทำให้บทสนทนาดำเนินต่ออย่างเป็นธรรมชาติ"
       ],
       "distractor_reasons": {
-        "0": "สลับผู้ขอและสิ่งที่ขอ",
+        "0": "ตอบสถานะการสั่งของตนเองแทนคำขอให้ช่วยดูของ",
         "1": "บอกทางแต่ไม่ตอบคำขอเฝ้ากระเป๋า",
-        "3": "แปลสำนวน keep an eye on ตรงตัว"
+        "3": "พูดถึงการสั่งอาหารของตนเองแต่ไม่ตอบว่าจะเฝ้ากระเป๋า"
       },
       "misconception_tags": [
         "literal_translation"
@@ -550,15 +550,15 @@
       "figures": [],
       "choices": [
         {
-          "md": "Yes, I would move them yesterday.",
+          "md": "Yes, of course. Please go ahead.",
           "is_answer": false
         },
         {
-          "md": "The shelf has already moved.",
+          "md": "The shelf was delivered yesterday.",
           "is_answer": false
         },
         {
-          "md": "No, you wouldn't mind.",
+          "md": "No, I don't think the shelf will fit.",
           "is_answer": false
         },
         {
@@ -584,9 +584,9 @@
         "เลือกคำตอบที่ทำให้บทสนทนาดำเนินต่ออย่างเป็นธรรมชาติ"
       ],
       "distractor_reasons": {
-        "0": "yes ทำให้ความหมายเป็นขัดข้องและกาลผิด",
-        "1": "สลับผู้กระทำและจับคำ move",
-        "2": "ตอบแทนความรู้สึกของผู้ถาม"
+        "0": "Yes ตอบ Would you mind แปลว่าขัดข้อง จึงขัดกับ go ahead ที่ตามมา เป็นข้อผิดที่พบบ่อย",
+        "1": "บอกเวลาที่ได้รับชั้นวางแต่ไม่ตอบว่าอนุญาตให้ย้ายโน้ตหรือไม่",
+        "2": "กล่าวถึงขนาดชั้นวางแทนการอนุญาตให้ย้ายโน้ต"
       },
       "misconception_tags": [
         "would_you_mind_yes"

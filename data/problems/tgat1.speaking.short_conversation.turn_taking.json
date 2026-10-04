@@ -472,7 +472,7 @@
       "figures": [],
       "choices": [
         {
-          "md": "I was sure yesterday.",
+          "md": "I'm sure the original deadline was Friday.",
           "is_answer": false
         },
         {
@@ -480,11 +480,11 @@
           "is_answer": true
         },
         {
-          "md": "The email has a Monday.",
+          "md": "Did the lecturer move Monday's class too?",
           "is_answer": false
         },
         {
-          "md": "Did Monday move it?",
+          "md": "Who asked for the deadline change?",
           "is_answer": false
         }
       ],
@@ -506,9 +506,9 @@
         "ตัดตัวเลือกที่มีคำซ้ำแต่ทำหน้าที่ผิด"
       ],
       "distractor_reasons": {
-        "0": "ไม่ขอการยืนยัน",
-        "2": "คำซ้ำแต่ความหมายผิด",
-        "3": "ทำวันเป็นผู้กระทำ"
+        "0": "ยืนยันความเชื่อเดิมแทนการขอให้ A ยืนยันข่าวใหม่",
+        "2": "ถามเรื่องตารางเรียนอีกเรื่อง ไม่ใช่กำหนดส่งงาน",
+        "3": "คำตอบ Yes ในบรรทัดถัดไปไม่ตอบคำถามว่าใคร"
       },
       "misconception_tags": [
         "ignore_next_line"
@@ -550,11 +550,11 @@
           "is_answer": true
         },
         {
-          "md": "I can't send an introduction.",
+          "md": "I can send you the introduction tonight.",
           "is_answer": false
         },
         {
-          "md": "The data took my notes.",
+          "md": "I already took notes on the introduction.",
           "is_answer": false
         },
         {
@@ -580,8 +580,8 @@
         "ตัดตัวเลือกที่มีคำซ้ำแต่ทำหน้าที่ผิด"
       ],
       "distractor_reasons": {
-        "1": "ไม่ใช่ข้อเสนอแบ่งงาน",
-        "2": "สลับผู้กระทำ",
+        "1": "เสนอส่งส่วนที่ A ทำได้อยู่แล้ว ไม่ได้แบ่งรับส่วนข้อมูล",
+        "2": "พูดถึงส่วนบทนำแทนการเสนอรับส่วนข้อมูล",
         "3": "ขัดข้อจำกัดของ A"
       },
       "misconception_tags": [

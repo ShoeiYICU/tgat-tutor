@@ -474,7 +474,7 @@
           "is_answer": true
         },
         {
-          "md": "Can the camera borrow me?",
+          "md": "Could the department lend the camera to another intern?",
           "is_answer": false
         },
         {
@@ -504,7 +504,7 @@
         "ตัดตัวเลือกที่มีคำซ้ำแต่ทำหน้าที่ผิด"
       ],
       "distractor_reasons": {
-        "1": "สลับผู้ยืม",
+        "1": "ถามแทนบุคคลอื่น จึงไม่สอดคล้องกับเงื่อนไขให้ผู้พูดนำมาคืน",
         "2": "please ไม่ทำให้คำสั่งสุภาพพอ",
         "3": "บอกความต้องการแต่ไม่ขอ"
       },

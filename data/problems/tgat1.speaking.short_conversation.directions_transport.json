@@ -476,15 +476,15 @@
           "is_answer": true
         },
         {
-          "md": "The museum stops art.",
+          "md": "No, the museum is closed on Mondays.",
           "is_answer": false
         },
         {
-          "md": "Cross the bridge now.",
+          "md": "Cross the bridge and turn left.",
           "is_answer": false
         },
         {
-          "md": "This bus is blue.",
+          "md": "This bus runs every thirty minutes.",
           "is_answer": false
         }
       ],
@@ -506,9 +506,9 @@
         "ตัดตัวเลือกที่มีคำซ้ำแต่ทำหน้าที่ผิด"
       ],
       "distractor_reasons": {
-        "1": "สลับคำผิดความหมาย",
-        "2": "ให้ลงมือผิดบริบท",
-        "3": "ไม่ตอบจุดลง"
+        "1": "ตอบเวลาเปิดพิพิธภัณฑ์แทนเส้นทางรถโดยสาร",
+        "2": "ให้เส้นทางเดินโดยไม่ระบุป้ายรถโดยสาร",
+        "3": "บอกความถี่แต่ไม่ตอบว่าควรลงที่ใด"
       },
       "misconception_tags": [
         "ignore_next_line"
@@ -558,7 +558,7 @@
           "is_answer": false
         },
         {
-          "md": "The train announced you.",
+          "md": "The train has already been announced.",
           "is_answer": false
         }
       ],
@@ -582,7 +582,7 @@
       "distractor_reasons": {
         "0": "ให้เดินโดยไม่ยืนยัน",
         "2": "ทวนแต่ไม่ช่วย",
-        "3": "สลับกรรม"
+        "3": "บอกเพียงว่าประกาศแล้ว แต่ไม่แก้ความขัดแย้งของเลขชานชาลา"
       },
       "misconception_tags": [
         "position_word_confusion"

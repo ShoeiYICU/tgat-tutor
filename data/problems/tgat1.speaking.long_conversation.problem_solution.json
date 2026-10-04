@@ -476,7 +476,7 @@
           "is_answer": false
         },
         {
-          "md": "The tables should dry the room.",
+          "md": "Let's wait outside until the tables dry.",
           "is_answer": false
         },
         {
@@ -506,8 +506,8 @@
         "ตัดตัวเลือกที่มีคำซ้ำแต่ทำหน้าที่ผิด"
       ],
       "distractor_reasons": {
-        "0": "ไม่สมเหตุผล",
-        "1": "สลับผู้กระทำ",
+        "0": "เลื่อนเกินจำเป็นและไม่สอดคล้องกับการตรวจห้องประชุม",
+        "1": "เสนอให้รอข้างนอกแทนการย้ายเข้าห้องตามบรรทัดถัดไป",
         "3": "ถามเหตุ ไม่ใช่ทางแก้"
       },
       "misconception_tags": [
@@ -558,7 +558,7 @@
           "is_answer": false
         },
         {
-          "md": "The report should connect.",
+          "md": "Could we reconnect the printer after nine?",
           "is_answer": false
         }
       ],
@@ -582,7 +582,7 @@
       "distractor_reasons": {
         "0": "ใช้ทางที่ถูกปฏิเสธ",
         "2": "ไม่ทันกำหนด",
-        "3": "สลับผู้กระทำ"
+        "3": "ช้าเกินกำหนดและไม่ทำให้คำตอบเรื่องเครื่องพิมพ์ห้องสมุดสอดคล้อง"
       },
       "misconception_tags": [
         "use_rejected_offer"

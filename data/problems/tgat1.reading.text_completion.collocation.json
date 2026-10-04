@@ -472,7 +472,7 @@
           "is_answer": false
         },
         {
-          "md": "take",
+          "md": "perform",
           "is_answer": false
         },
         {
@@ -503,7 +503,7 @@
       ],
       "distractor_reasons": {
         "0": "ไม่ใช้ do a decision",
-        "1": "take a decision พบได้บางสำเนียงแต่บทเรียนใช้คู่คำมาตรฐาน make",
+        "1": "ไม่ใช้ perform a decision ในความหมายว่าตัดสินใจ",
         "2": "ไม่ใช่ collocation กับ decision ในบริบทนี้"
       },
       "misconception_tags": [

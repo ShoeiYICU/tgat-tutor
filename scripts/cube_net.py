@@ -140,15 +140,21 @@ def net_svg(cells: list[tuple[int, int, str]]) -> str:
 
 
 def describe(cells: list[tuple[int, int, str]]) -> str:
-    """คำบรรยายรูปสำหรับฟิลด์ alt"""
+    """คำบรรยายรูปสำหรับฟิลด์ alt
+
+    ต้องบอกคอลัมน์ของทุกช่องด้วย ไม่ใช่แค่ว่าแถวไหนมีช่องอะไร เพราะช่องเดียวกันในแถวบน
+    จะอยู่เหนือช่องใดของแถวกลางเป็นตัวกำหนดว่าพับแล้วหน้าไหนตรงข้ามกัน
+    (เดิมบอกแค่รายชื่อช่องต่อแถว คนที่อ่านจาก alt อย่างเดียวจึงพับตามไม่ได้ — Codex พบในการตรวจไขว้รอบ 10)
+    """
     by_row: dict[int, list[tuple[int, str]]] = {}
     for c, r, lab in cells:
         by_row.setdefault(r, []).append((c, lab))
     parts = []
     for r in sorted(by_row):
-        items = ", ".join(lab for _, lab in sorted(by_row[r]))
-        parts.append(f"แถวที่ {r + 1} มีช่อง {items}")
-    return "แผ่นคลี่ลูกบาศก์ " + " / ".join(parts)
+        items = ", ".join(f"{lab} อยู่คอลัมน์ {c + 1}" for c, lab in sorted(by_row[r]))
+        parts.append(f"แถวที่ {r + 1}: {items}")
+    return ("แผ่นคลี่ลูกบาศก์บนตาราง ช่องที่อยู่คอลัมน์เดียวกันในแถวติดกันคือช่องที่ติดกันตามแนวตั้ง · "
+            + " / ".join(parts))
 
 
 def skip_one_pairs(cells) -> set:

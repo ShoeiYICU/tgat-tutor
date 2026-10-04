@@ -476,15 +476,15 @@
           "is_answer": true
         },
         {
-          "md": "Could she call a patient?",
+          "md": "Would you like to schedule an appointment instead?",
           "is_answer": false
         },
         {
-          "md": "Please leave now.",
+          "md": "Please call again tomorrow morning.",
           "is_answer": false
         },
         {
-          "md": "Did Sam speak?",
+          "md": "Could you call back after five?",
           "is_answer": false
         }
       ],
@@ -506,9 +506,9 @@
         "ตัดตัวเลือกที่มีคำซ้ำแต่ทำหน้าที่ผิด"
       ],
       "distractor_reasons": {
-        "1": "ผิดเป้าหมาย",
-        "2": "leave คนละความหมาย",
-        "3": "รู้ชื่อก่อนถูกบอก"
+        "1": "เสนอทำนัดหมาย ไม่สอดคล้องกับข้อความที่ผู้โทรฝากต่อมา",
+        "2": "ให้โทรใหม่โดยไม่เปิดโอกาสฝากข้อความ",
+        "3": "ขอให้โทรกลับภายหลัง จึงไม่รองรับคำตอบว่าจะฝากข้อความ"
       },
       "misconception_tags": [
         "phone_phrase_misuse"
@@ -546,7 +546,7 @@
       "figures": [],
       "choices": [
         {
-          "md": "The time moved itself.",
+          "md": "Tuesday is available at a different time.",
           "is_answer": false
         },
         {
@@ -580,7 +580,7 @@
         "ตัดตัวเลือกที่มีคำซ้ำแต่ทำหน้าที่ผิด"
       ],
       "distractor_reasons": {
-        "0": "ผู้กระทำผิด",
+        "0": "เสนอวันอังคารเวลาอื่น แต่ผู้โทรตอบรับวันพฤหัสเวลาเดิม",
         "1": "เปลี่ยนก่อนยินยอม",
         "3": "ขัดคำตอบถัดไป"
       },

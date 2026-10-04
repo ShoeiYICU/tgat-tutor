@@ -478,11 +478,11 @@
       "figures": [],
       "choices": [
         {
-          "md": "Neither is the practice.",
+          "md": "Neither do I. I rarely attend workshops.",
           "is_answer": false
         },
         {
-          "md": "So do the workshop.",
+          "md": "So am I. I need more time to register.",
           "is_answer": false
         },
         {
@@ -490,7 +490,7 @@
           "is_answer": true
         },
         {
-          "md": "Yes, time includes workshops.",
+          "md": "Yes, the workshop starts on time.",
           "is_answer": false
         }
       ],
@@ -512,9 +512,9 @@
         "เลือกคำตอบที่ทำให้บทสนทนาดำเนินต่ออย่างเป็นธรรมชาติ"
       ],
       "distractor_reasons": {
-        "0": "ใช้ neither กับข้อความบอกเล่าเชิงบวก",
-        "1": "ใช้ so do ผิดโครงสร้างและความหมาย",
-        "3": "สลับความสัมพันธ์ของคำ"
+        "0": "ใช้ neither ตอบข้อความบอกเล่าเชิงบวกและเปลี่ยนประเด็น",
+        "1": "ใช้กริยาช่วยผิด ต้องเป็น So do I ตาม I think และยังเปลี่ยนไปพูดเรื่องเวลาลงทะเบียน",
+        "3": "บอกข้อเท็จจริงเรื่องเวลาเริ่มแทนการแสดงความเห็นต่อข้อเสนอ"
       },
       "misconception_tags": [
         "too_neither_confusion"
@@ -552,7 +552,7 @@
       "figures": [],
       "choices": [
         {
-          "md": "Me too, the schedule left yesterday.",
+          "md": "Me too. I haven't received the new schedule.",
           "is_answer": false
         },
         {
@@ -564,7 +564,7 @@
           "is_answer": false
         },
         {
-          "md": "Neither do I have a laboratory schedule.",
+          "md": "Neither do I. My lab schedule is unchanged.",
           "is_answer": false
         }
       ],
@@ -586,9 +586,9 @@
         "เลือกคำตอบที่ทำให้บทสนทนาดำเนินต่ออย่างเป็นธรรมชาติ"
       ],
       "distractor_reasons": {
-        "0": "ใช้ me too กับข้อสังเกตและจับ leaves เป็นออกไป",
+        "0": "ตอบเรื่องการได้รับตาราง ไม่ใช่การประเมินข้อดีข้อเสีย",
         "2": "ปฏิเสธสุดโต่งและบิดประเด็น",
-        "3": "เปลี่ยนเป็นการครอบครองตาราง ไม่ตอบการประเมิน"
+        "3": "พูดถึงตารางของตนว่าไม่เปลี่ยน ไม่ตอบข้อสังเกตสองด้าน"
       },
       "misconception_tags": [
         "rude_disagreement"

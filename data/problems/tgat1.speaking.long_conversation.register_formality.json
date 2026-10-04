@@ -564,7 +564,7 @@
           "is_answer": false
         },
         {
-          "md": "I accuse these totals.",
+          "md": "I insist that the quarterly totals are incorrect.",
           "is_answer": false
         }
       ],
@@ -588,7 +588,7 @@
       "distractor_reasons": {
         "1": "สรุปเกินหลักฐาน",
         "2": "กล่าวหาและไม่เป็นทางการ",
-        "3": "แข็งและประหลาด"
+        "3": "ยืนยันข้อสรุปอย่างแข็งกร้าวทั้งที่ข้อผิดพลาดยังไม่แน่นอน"
       },
       "misconception_tags": [
         "register_mismatch"

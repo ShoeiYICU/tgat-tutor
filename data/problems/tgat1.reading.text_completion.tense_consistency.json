@@ -536,7 +536,7 @@
         "reading_load": "low"
       },
       "est_seconds": 75,
-      "stem_md": "The archive ______ to the public since 2019, but it closed for repairs last month.",
+      "stem_md": "The archive ______ to the public since 2019, and it now receives over 500 visitors a week.",
       "figures": [],
       "choices": [
         {
@@ -560,7 +560,7 @@
       "solution_steps": [
         {
           "do_md": "ระบุสิ่งที่โจทย์ถาม",
-          "why_md": "since 2019 เชื่อมอดีตถึงปัจจุบัน ส่วน last month เป็นเหตุแทรกชั่วคราว"
+          "why_md": "since 2019 เชื่อมอดีตถึงปัจจุบัน และ now ยืนยันว่าสถานะยังต่อเนื่อง"
         },
         {
           "do_md": "ตรวจด้วยบริบทรอบจุดสำคัญ",

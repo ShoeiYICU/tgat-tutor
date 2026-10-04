@@ -32,7 +32,7 @@
           "id": "fig1",
           "type": "svg",
           "svg": "<svg viewBox=\"0 0 196 152\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"54\" y=\"10\" width=\"44\" height=\"44\"/><rect x=\"10\" y=\"54\" width=\"44\" height=\"44\"/><rect x=\"54\" y=\"54\" width=\"44\" height=\"44\"/><rect x=\"98\" y=\"54\" width=\"44\" height=\"44\"/><rect x=\"142\" y=\"54\" width=\"44\" height=\"44\"/><rect x=\"54\" y=\"98\" width=\"44\" height=\"44\"/></g><g fill=\"currentColor\" font-size=\"20\" text-anchor=\"middle\" font-family=\"system-ui, sans-serif\"><text x=\"76\" y=\"39\">ก</text><text x=\"32\" y=\"83\">ข</text><text x=\"76\" y=\"83\">ค</text><text x=\"120\" y=\"83\">ง</text><text x=\"164\" y=\"83\">จ</text><text x=\"76\" y=\"127\">ฉ</text></g></svg>",
-          "alt": "แผ่นคลี่ลูกบาศก์ แถวที่ 1 มีช่อง ก / แถวที่ 2 มีช่อง ข, ค, ง, จ / แถวที่ 3 มีช่อง ฉ",
+          "alt": "แผ่นคลี่ลูกบาศก์บนตาราง ช่องที่อยู่คอลัมน์เดียวกันในแถวติดกันคือช่องที่ติดกันตามแนวตั้ง · แถวที่ 1: ก อยู่คอลัมน์ 2 / แถวที่ 2: ข อยู่คอลัมน์ 1, ค อยู่คอลัมน์ 2, ง อยู่คอลัมน์ 3, จ อยู่คอลัมน์ 4 / แถวที่ 3: ฉ อยู่คอลัมน์ 2",
           "caption": "แผ่นคลี่ลูกบาศก์"
         }
       ],
@@ -119,7 +119,7 @@
           "id": "fig1",
           "type": "svg",
           "svg": "<svg viewBox=\"0 0 196 152\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"10\" y=\"10\" width=\"44\" height=\"44\"/><rect x=\"54\" y=\"10\" width=\"44\" height=\"44\"/><rect x=\"54\" y=\"54\" width=\"44\" height=\"44\"/><rect x=\"98\" y=\"54\" width=\"44\" height=\"44\"/><rect x=\"98\" y=\"98\" width=\"44\" height=\"44\"/><rect x=\"142\" y=\"98\" width=\"44\" height=\"44\"/></g><g fill=\"currentColor\" font-size=\"20\" text-anchor=\"middle\" font-family=\"system-ui, sans-serif\"><text x=\"32\" y=\"39\">ก</text><text x=\"76\" y=\"39\">ข</text><text x=\"76\" y=\"83\">ค</text><text x=\"120\" y=\"83\">ง</text><text x=\"120\" y=\"127\">จ</text><text x=\"164\" y=\"127\">ฉ</text></g></svg>",
-          "alt": "แผ่นคลี่ลูกบาศก์ แถวที่ 1 มีช่อง ก, ข / แถวที่ 2 มีช่อง ค, ง / แถวที่ 3 มีช่อง จ, ฉ",
+          "alt": "แผ่นคลี่ลูกบาศก์บนตาราง ช่องที่อยู่คอลัมน์เดียวกันในแถวติดกันคือช่องที่ติดกันตามแนวตั้ง · แถวที่ 1: ก อยู่คอลัมน์ 1, ข อยู่คอลัมน์ 2 / แถวที่ 2: ค อยู่คอลัมน์ 2, ง อยู่คอลัมน์ 3 / แถวที่ 3: จ อยู่คอลัมน์ 3, ฉ อยู่คอลัมน์ 4",
           "caption": "แผ่นคลี่ลูกบาศก์"
         }
       ],
@@ -204,7 +204,7 @@
           "id": "fig1",
           "type": "svg",
           "svg": "<svg viewBox=\"0 0 152 196\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"10\" y=\"10\" width=\"44\" height=\"44\"/><rect x=\"10\" y=\"54\" width=\"44\" height=\"44\"/><rect x=\"54\" y=\"54\" width=\"44\" height=\"44\"/><rect x=\"54\" y=\"98\" width=\"44\" height=\"44\"/><rect x=\"54\" y=\"142\" width=\"44\" height=\"44\"/><rect x=\"98\" y=\"142\" width=\"44\" height=\"44\"/></g><g fill=\"currentColor\" font-size=\"20\" text-anchor=\"middle\" font-family=\"system-ui, sans-serif\"><text x=\"32\" y=\"39\">ก</text><text x=\"32\" y=\"83\">ข</text><text x=\"76\" y=\"83\">ค</text><text x=\"76\" y=\"127\">ง</text><text x=\"76\" y=\"171\">จ</text><text x=\"120\" y=\"171\">ฉ</text></g></svg>",
-          "alt": "แผ่นคลี่ลูกบาศก์ แถวที่ 1 มีช่อง ก / แถวที่ 2 มีช่อง ข, ค / แถวที่ 3 มีช่อง ง / แถวที่ 4 มีช่อง จ, ฉ",
+          "alt": "แผ่นคลี่ลูกบาศก์บนตาราง ช่องที่อยู่คอลัมน์เดียวกันในแถวติดกันคือช่องที่ติดกันตามแนวตั้ง · แถวที่ 1: ก อยู่คอลัมน์ 1 / แถวที่ 2: ข อยู่คอลัมน์ 1, ค อยู่คอลัมน์ 2 / แถวที่ 3: ง อยู่คอลัมน์ 2 / แถวที่ 4: จ อยู่คอลัมน์ 2, ฉ อยู่คอลัมน์ 3",
           "caption": "แผ่นคลี่ลูกบาศก์"
         }
       ],
@@ -289,7 +289,7 @@
           "id": "fig1",
           "type": "svg",
           "svg": "<svg viewBox=\"0 0 152 196\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"54\" y=\"10\" width=\"44\" height=\"44\"/><rect x=\"10\" y=\"54\" width=\"44\" height=\"44\"/><rect x=\"54\" y=\"54\" width=\"44\" height=\"44\"/><rect x=\"54\" y=\"98\" width=\"44\" height=\"44\"/><rect x=\"98\" y=\"98\" width=\"44\" height=\"44\"/><rect x=\"54\" y=\"142\" width=\"44\" height=\"44\"/></g><g fill=\"currentColor\" font-size=\"20\" text-anchor=\"middle\" font-family=\"system-ui, sans-serif\"><text x=\"76\" y=\"39\">ก</text><text x=\"32\" y=\"83\">ข</text><text x=\"76\" y=\"83\">ค</text><text x=\"76\" y=\"127\">ง</text><text x=\"120\" y=\"127\">จ</text><text x=\"76\" y=\"171\">ฉ</text></g></svg>",
-          "alt": "แผ่นคลี่ลูกบาศก์ แถวที่ 1 มีช่อง ก / แถวที่ 2 มีช่อง ข, ค / แถวที่ 3 มีช่อง ง, จ / แถวที่ 4 มีช่อง ฉ",
+          "alt": "แผ่นคลี่ลูกบาศก์บนตาราง ช่องที่อยู่คอลัมน์เดียวกันในแถวติดกันคือช่องที่ติดกันตามแนวตั้ง · แถวที่ 1: ก อยู่คอลัมน์ 2 / แถวที่ 2: ข อยู่คอลัมน์ 1, ค อยู่คอลัมน์ 2 / แถวที่ 3: ง อยู่คอลัมน์ 2, จ อยู่คอลัมน์ 3 / แถวที่ 4: ฉ อยู่คอลัมน์ 2",
           "caption": "แผ่นคลี่ลูกบาศก์"
         }
       ],
@@ -376,7 +376,7 @@
           "id": "fig1",
           "type": "svg",
           "svg": "<svg viewBox=\"0 0 196 152\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"98\" y=\"10\" width=\"44\" height=\"44\"/><rect x=\"10\" y=\"54\" width=\"44\" height=\"44\"/><rect x=\"54\" y=\"54\" width=\"44\" height=\"44\"/><rect x=\"98\" y=\"54\" width=\"44\" height=\"44\"/><rect x=\"142\" y=\"54\" width=\"44\" height=\"44\"/><rect x=\"54\" y=\"98\" width=\"44\" height=\"44\"/></g><g fill=\"currentColor\" font-size=\"20\" text-anchor=\"middle\" font-family=\"system-ui, sans-serif\"><text x=\"120\" y=\"39\">ก</text><text x=\"32\" y=\"83\">ข</text><text x=\"76\" y=\"83\">ค</text><text x=\"120\" y=\"83\">ง</text><text x=\"164\" y=\"83\">จ</text><text x=\"76\" y=\"127\">ฉ</text></g></svg>",
-          "alt": "แผ่นคลี่ลูกบาศก์ แถวที่ 1 มีช่อง ก / แถวที่ 2 มีช่อง ข, ค, ง, จ / แถวที่ 3 มีช่อง ฉ",
+          "alt": "แผ่นคลี่ลูกบาศก์บนตาราง ช่องที่อยู่คอลัมน์เดียวกันในแถวติดกันคือช่องที่ติดกันตามแนวตั้ง · แถวที่ 1: ก อยู่คอลัมน์ 3 / แถวที่ 2: ข อยู่คอลัมน์ 1, ค อยู่คอลัมน์ 2, ง อยู่คอลัมน์ 3, จ อยู่คอลัมน์ 4 / แถวที่ 3: ฉ อยู่คอลัมน์ 2",
           "caption": "แผ่นคลี่ลูกบาศก์"
         }
       ],
@@ -461,7 +461,7 @@
           "id": "fig1",
           "type": "svg",
           "svg": "<svg viewBox=\"0 0 152 196\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"10\" y=\"10\" width=\"44\" height=\"44\"/><rect x=\"54\" y=\"10\" width=\"44\" height=\"44\"/><rect x=\"54\" y=\"54\" width=\"44\" height=\"44\"/><rect x=\"54\" y=\"98\" width=\"44\" height=\"44\"/><rect x=\"54\" y=\"142\" width=\"44\" height=\"44\"/><rect x=\"98\" y=\"142\" width=\"44\" height=\"44\"/></g><g fill=\"currentColor\" font-size=\"20\" text-anchor=\"middle\" font-family=\"system-ui, sans-serif\"><text x=\"32\" y=\"39\">ก</text><text x=\"76\" y=\"39\">ข</text><text x=\"76\" y=\"83\">ค</text><text x=\"76\" y=\"127\">ง</text><text x=\"76\" y=\"171\">จ</text><text x=\"120\" y=\"171\">ฉ</text></g></svg>",
-          "alt": "แผ่นคลี่ลูกบาศก์ แถวที่ 1 มีช่อง ก, ข / แถวที่ 2 มีช่อง ค / แถวที่ 3 มีช่อง ง / แถวที่ 4 มีช่อง จ, ฉ",
+          "alt": "แผ่นคลี่ลูกบาศก์บนตาราง ช่องที่อยู่คอลัมน์เดียวกันในแถวติดกันคือช่องที่ติดกันตามแนวตั้ง · แถวที่ 1: ก อยู่คอลัมน์ 1, ข อยู่คอลัมน์ 2 / แถวที่ 2: ค อยู่คอลัมน์ 2 / แถวที่ 3: ง อยู่คอลัมน์ 2 / แถวที่ 4: จ อยู่คอลัมน์ 2, ฉ อยู่คอลัมน์ 3",
           "caption": "แผ่นคลี่ลูกบาศก์"
         }
       ],

@@ -472,7 +472,7 @@
       "figures": [],
       "choices": [
         {
-          "md": "Friday wants to join us.",
+          "md": "The board meeting is on Friday evening.",
           "is_answer": false
         },
         {
@@ -484,7 +484,7 @@
           "is_answer": true
         },
         {
-          "md": "The game is having a night.",
+          "md": "Do you know where I can buy that game?",
           "is_answer": false
         }
       ],
@@ -506,9 +506,9 @@
         "เลือกคำตอบที่ทำให้บทสนทนาดำเนินต่ออย่างเป็นธรรมชาติ"
       ],
       "distractor_reasons": {
-        "0": "ทำวันเป็นผู้กระทำ",
+        "0": "พูดถึงการประชุมคณะกรรมการแทนการตอบคำเชิญ",
         "1": "จับคำ board แต่คนละความหมาย",
-        "3": "เรียงคำจากโจทย์แต่ไม่ตอบคำเชิญ"
+        "3": "ถามเรื่องซื้อเกมแทนการตอบรับหรือปฏิเสธคำเชิญ"
       },
       "misconception_tags": [
         "word_match_trap"
@@ -550,15 +550,15 @@
           "is_answer": true
         },
         {
-          "md": "I could come if you hadn't invited me.",
+          "md": "Yes, the notice arrived this morning.",
           "is_answer": false
         },
         {
-          "md": "I wouldn't like the opening hours.",
+          "md": "I don't know what time the store opens.",
           "is_answer": false
         },
         {
-          "md": "Yes, the notice should be shorter.",
+          "md": "Yes, I saw the invitation this morning.",
           "is_answer": false
         }
       ],
@@ -580,9 +580,9 @@
         "เลือกคำตอบที่ทำให้บทสนทนาดำเนินต่ออย่างเป็นธรรมชาติ"
       ],
       "distractor_reasons": {
-        "1": "เงื่อนไขขัดกับความหมาย",
-        "2": "ใช้ wouldn't like เป็นความไม่ชอบแทนการปฏิเสธคำเชิญ",
-        "3": "จับ short notice เป็นความยาวประกาศ"
+        "1": "พูดถึงเวลาที่ได้รับประกาศแต่ไม่ตอบรับหรือปฏิเสธคำเชิญ",
+        "2": "เข้าใจ opening เป็นเวลาเปิดร้านแทนงานเปิดตัว",
+        "3": "รับทราบคำเชิญแต่ยังไม่ตอบว่าจะมาหรือไม่"
       },
       "misconception_tags": [
         "would_like_as_like"
