@@ -110,6 +110,21 @@ def _candidates(v: dict):
     ตัวลวงทุกตัวคือผลของกฎที่ใช้ผิดจริง ไม่ใช่ตัวเลขที่สุ่มมา
     """
     hr, hc, dr, dc, base = v["hr"], v["hc"], v["dr"], v["dc"], v["base"]
+    # นับตำแหน่งพลาดหนึ่งช่องเกิดได้ทั้งนับเกินและนับขาด สลับกันตามค่าที่สุ่มได้
+    # ถ้าใช้แบบนับเกินอย่างเดียว คำตอบจะเป็นค่ากลางของตัวเลือกบ่อยจนเดาได้
+    if (base + hr + hc) % 2:
+        off = (base + (hr + 1) * dr + hc * dc,
+               "นับตำแหน่งแถวเกินไปหนึ่งช่อง เพราะเริ่มนับแถวแรกเป็นหนึ่งแทนที่จะเป็นศูนย์")
+    else:
+        off = (base + hr * dr + (hc - 1) * dc,
+               "นับตำแหน่งคอลัมน์ขาดไปหนึ่งช่อง จึงได้ค่าของช่องทางซ้ายแทน")
+    cands = _candidates_base(v)
+    cands[3] = (off[0], off[1], "off_by_one_row")
+    return cands
+
+
+def _candidates_base(v: dict):
+    hr, hc, dr, dc, base = v["hr"], v["hc"], v["dr"], v["dc"], v["base"]
     return [
         (base + hr * dr + hc * dc, "", ""),
         (base + hc * dr + hr * dc,
