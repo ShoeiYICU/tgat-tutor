@@ -61,3 +61,22 @@
 ## ผลตรวจหลังแก้
 
 `validate.py` ต้องแก้ 0 · `render_template.py --stress` ผ่าน 223/223 · `selftest.py` ผ่าน
+
+## เพิ่มเติมหลังรีวิว — เติมเนื้อหาที่บทเรียนขาด (5 ต.ค.)
+
+รายการ "บทเรียนขาดเนื้อหาที่โจทย์ใช้" ในตารางข้างบน **แก้แล้วทั้ง 9 บท** ด้วยการเพิ่มบล็อกใหม่ และเพิ่มกับดัก 3 ตัว
+
+| บท | บล็อกที่เพิ่ม |
+|---|---|
+| `constant_difference` | concept พจน์กึ่งกลางเท่ากับค่าเฉลี่ย · pitfall `missed_symmetry_shortcut` |
+| `picture_series.rotation` | concept มุมที่หมุนไม่เท่ากันทุกครั้ง และการลบ 360° |
+| `linkage_transmission` | concept รอบลดลง โมเมนต์บิดเพิ่มขึ้น (กำลัง = โมเมนต์บิด × ความเร็วรอบ) |
+| `pulley_systems` | concept รอกจริงกับประสิทธิภาพ (200 ÷ 250 = 80%) |
+| `force_equilibrium` · `force_vector_basics` | concept น้ำหนัก = มวล × g และแรงตั้งฉาก พร้อมเงื่อนไขที่ใช้ไม่ได้ |
+| `physics_quantities` | concept กำลัง = งาน ÷ เวลา · ความดัน = แรง ÷ พื้นที่ |
+| `shadow_projection` | concept จำนวนก้อนน้อยที่สุดและมากที่สุดจากภาพสองด้าน พร้อมตัวอย่าง 8 และ 11 ก้อน |
+| `cube_face_relations` · `net_opposites` | concept แผ่นคลี่แบบบันได (คู่ตรงข้าม 1–4 · 2–5 · 3–6 ยืนยันด้วยตัวพับแล้ว) · pitfall `adjacent_mistaken_for_opposite` · แก้ขั้นที่ 4 ของ `net_opposites` |
+| `read_mechanism_diagram` | pitfall `belt_vs_mesh` |
+
+ยังเหลือ: tag ที่ไม่มีกับดักรองรับอีกราว 22 ชื่อ · ตัวอย่าง 3 บทที่ไม่มีภาพ · ถ้อยคำและตัวแปรในสูตร 6 จุด
+ใบสั่งงานที่ 15 ขอให้คุณตรวจซ้ำบล็อกใหม่ทั้งหมดนี้ด้วย
