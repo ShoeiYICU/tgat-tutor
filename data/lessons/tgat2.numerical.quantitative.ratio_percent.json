@@ -60,6 +60,14 @@
       "misconception_tag": "compare_percent_only"
     },
     {
+      "type": "pitfall",
+      "title": "บวกลบเปอร์เซ็นต์ที่เปลี่ยนต่อกันสองครั้ง",
+      "wrong_md": "ราคา 500 บาท ลด 20% แล้วขึ้น 20% → ลดกับขึ้นหักล้างกัน จึงกลับมา 500 บาท",
+      "why_wrong_md": "เปอร์เซ็นต์ครั้งที่สองคิดจากฐานใหม่ ไม่ใช่ฐานเดิม ลด 20% เหลือ 400 แล้วขึ้น 20% ของ 400 คือ 80",
+      "correct_md": "คูณตัวคูณต่อกัน $500 \\times 0.8 \\times 1.2 = 480$ บาท",
+      "misconception_tag": "add_successive_percents"
+    },
+    {
       "type": "summary",
       "bullets_md": [
         "x% ของ y = y% ของ x",
