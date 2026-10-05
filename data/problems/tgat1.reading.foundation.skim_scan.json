@@ -464,11 +464,11 @@
       "figures": [],
       "choices": [
         {
-          "md": "Read every sentence aloud from the beginning and pause to translate each difficult phrase",
+          "md": "Read the notice aloud from the beginning, pausing to translate difficult phrases",
           "is_answer": false
         },
         {
-          "md": "Look up every unfamiliar word",
+          "md": "Look up unfamiliar vocabulary in the introduction",
           "is_answer": false
         },
         {
@@ -491,15 +491,15 @@
           "why_md": "เลือกคำตอบที่มีหลักฐานรองรับครบ ไม่เติมข้อมูลเอง"
         }
       ],
-      "answer_explanation_md": "scan คำสัญญาณและตัวเลขเร็วที่สุด",
+      "answer_explanation_md": "ตอบ Scan for dates and words such as deadline or submit เพราะscan คำสัญญาณและตัวเลขเร็วที่สุด โดยคำถามต้องการรายละเอียดชนิดวันที่",
       "hints": [
         "ขีดเส้นคำหรือประโยคที่เป็นหลักฐาน",
         "ตัดตัวเลือกที่จริงบางส่วนแต่ตอบคนละคำถาม",
         "ตรวจว่าคำตอบไม่กว้างหรือแคบเกินข้อความ"
       ],
       "distractor_reasons": {
-        "0": "ช้าเกินเป้าหมายเฉพาะ",
-        "1": "ไม่จำเป็นต่อการหาเวลา",
+        "0": "การอ่านออกเสียงและแปลตั้งแต่ต้นไม่ค้นวันที่เฉพาะจุด จึงไม่ใช่ขั้นเริ่มที่มีประสิทธิภาพ",
+        "1": "มุ่งศัพท์ต้นประกาศโดยยังไม่หา deadline จึงไม่ตอบรายละเอียดวันที่ที่ต้องการ",
         "3": "เป็นงานภาพรวม"
       },
       "misconception_tags": [
@@ -565,7 +565,7 @@
           "why_md": "เลือกคำตอบที่มีหลักฐานรองรับครบ ไม่เติมข้อมูลเอง"
         }
       ],
-      "answer_explanation_md": "หัวข้อ ประโยคแก่น และบทสรุปเผยจุดประสงค์โดยไม่ต้องอ่านทุกคำ",
+      "answer_explanation_md": "ตอบ skim the headings and topic sentences, then check the conclusion เพราะหัวข้อ ประโยคแก่น และบทสรุปเผยจุดประสงค์โดยไม่ต้องอ่านทุกคำ โดยคำถามภาพรวมต้องใช้โครงสร้างทั้งบท",
       "hints": [
         "ขีดเส้นคำหรือประโยคที่เป็นหลักฐาน",
         "ตัดตัวเลือกที่จริงบางส่วนแต่ตอบคนละคำถาม",

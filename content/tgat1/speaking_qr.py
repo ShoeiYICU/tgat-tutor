@@ -9,6 +9,27 @@ B = "tgat1.speaking.question_response."
 FOUND = ["tgat1.speaking.foundation.function_bank"]
 
 
+def review_lesson(L):
+    tid = L["topic_id"]
+    extra = {
+        B + "apology_thanks": [pitfall("จับคำซ้ำแทนหน้าที่", "ตอบ I stayed late, too เมื่ออีกฝ่ายขอบคุณที่ช่วย", "พูดถึง stayed late แต่ไม่รับคำขอบคุณ", "ตอบรับคำขอบคุณ เช่น I'm glad I could help", "word_match_trap")],
+        B + "invitation": [
+            pitfall("แปลคำชวนตรงตัว", "Why don't we study together? คือถามว่าทำไมเราไม่เรียน", "ในบริบทเสนอทำร่วมกัน ประโยคนี้ทำหน้าที่ชวน", "ตอบรับหรือปฏิเสธคำชวน ไม่เลือกจาก why คำเดียว", "literal_translation"),
+            pitfall("คำซ้ำแต่คนละความหมาย", "board-game night จึงตอบเรื่อง board meeting", "board game เป็นเกมกระดาน ไม่ใช่ประชุมคณะกรรมการ", "ตอบเรื่องเข้าร่วมกิจกรรมที่ถูกชวน", "word_match_trap"),
+        ],
+        B + "opinion_agreement": [
+            concept("เห็นด้วยกับใจความ ไม่ใช่ดู not คำเดียว", "I can't believe how expensive... สื่อว่าราคาแพงจนน่าประหลาดใจ การตอบ I know ใช้ร่วมความรู้สึกได้ ไม่จำเป็นต้อง Neither can I. I agree ใช้เห็นด้วยได้แม้ประโยคแรกเป็นปฏิเสธ. สำหรับคำตอบย่อ so/neither ต้องเลือกกริยาช่วยให้ตรง เช่น Neither have I. How do you feel about...? ถามความเห็น ไม่ได้ถามอาการทางกายตามตรงในบริบทนี้."),
+            pitfall("แปล feel หรือ believe ทีละคำ", "How do you feel about homework? จึงตอบว่าปวดศีรษะ", "about homework กำหนดว่าถามทัศนะต่อการบ้าน", "ตอบความเห็นต่อประเด็น และตรวจใจความก่อนเลือกคำตอบเห็นด้วย", "literal_translation"),
+        ],
+        B + "request_offer_permission": [
+            concept("คำขอแบบสำนวนและ mind", "keep an eye on my bag คือช่วยเฝ้ากระเป๋า ไม่ใช่เอาตาวางบนของ. การอ่านว่าใครจะลงมือใช้ได้กับ Would you mind ด้วย: mind closing... ขอให้อีกฝ่ายทำ ส่วน mind if I... ผู้พูดขออนุญาตทำ. ตามความหมายตรง mind คือรังเกียจ แต่ Yes, sure อาจใช้รับคำขอในภาษาพูด; อ่านทั้งคำตอบ ไม่ตั้งกฎห้าม yes ทุกบริบท."),
+            pitfall("แปลคำขอแบบสำนวนตรงตัว", "keep an eye on my bag คือถามเรื่องสายตา", "สำนวนนี้หมายถึงช่วยดูแลของชั่วคราว", "ตอบรับหรือปฏิเสธการเฝ้ากระเป๋า", "literal_translation"),
+        ],
+    }.get(tid, [])
+    L["blocks"][-2:-2] = extra
+    return L
+
+
 def d(*lines):
     """จัดบทสนทนาเป็น markdown: d("A: ...", "B: ______")"""
     out = []
@@ -165,10 +186,10 @@ P = [
       diff=2, sec=35),
 ]
 P += [
- N(d("A: I don't think we've met. I'm Daniel from the design team.","B: ______"),"I'm Mali. It's a pleasure to meet you.",[("I'm meeting the design team tomorrow.","พูดถึงนัดหมายในอนาคตแทนการแนะนำตัว"),("Yes, I work with Daniel on the design team.","พูดถึง Daniel แบบบุคคลที่สามและไม่แนะนำตัวเอง"),("Nice to see you again, Daniel.","สื่อว่าเคยพบกันแล้ว ขัดกับบริบทที่เพิ่งพบกัน")],"เป็นการแนะนำตัวเมื่อพบกันครั้งแรก","ตอบแนะนำตัวกลับและกล่าวยินดีที่ได้พบจึงเป็นธรรมชาติ",3,["word_match_trap"]),
- N(d("A: Well, I should let you get back to your guests.","B: ______"),"Thanks for coming. It was lovely catching up.",[("Thanks. I'll get back to the guests later.","ยังไม่รับสัญญาณว่าควรกลับไปหาแขกตอนนี้"),("You should invite more guests next time.","เปลี่ยนเป็นวิจารณ์จำนวนแขก"),("Sorry, I didn't catch what you said.","ขอให้พูดซ้ำแทนการรับสัญญาณจบบทสนทนา")],"ผู้พูดส่งสัญญาณจบบทสนทนาอย่างสุภาพ","คำตอบรับการลาและกล่าวขอบคุณสอดคล้องกับนัยของประโยค",5,["word_match_trap"]),
+ N(d("A: I don't think we've met. I'm Daniel from the design team.","B: ______"),"I'm Mali. It's a pleasure to meet you.",[("I'm meeting the design team tomorrow.","พูดถึงนัดหมายในอนาคตแทนการแนะนำตัว"),("Yes, I work with Daniel on the design team.","พูดถึง Daniel แบบบุคคลที่สามและไม่แนะนำตัวเอง"),("Nice to see you again, Daniel.","สื่อว่าเคยพบกันแล้ว ขัดกับบริบทที่เพิ่งพบกัน")],"เป็นการแนะนำตัวเมื่อพบกันครั้งแรก","ตอบ I'm Mali. It's a pleasure to meet you เพราะตอบแนะนำตัวกลับและกล่าวยินดีที่ได้พบจึงเป็นธรรมชาติ โดยเป็นการแนะนำตัวเมื่อพบกันครั้งแรก",3,["word_match_trap"]),
+ N(d("A: Well, I should let you get back to your guests.","B: ______"),"Thanks for coming. It was lovely catching up.",[("Thanks. I'll get back to the guests later.","ยังไม่รับสัญญาณว่าควรกลับไปหาแขกตอนนี้"),("You should invite more guests next time.","เปลี่ยนเป็นวิจารณ์จำนวนแขก"),("Sorry, I didn't catch what you said.","ขอให้พูดซ้ำแทนการรับสัญญาณจบบทสนทนา")],"ผู้พูดส่งสัญญาณจบบทสนทนาอย่างสุภาพ","ตอบ Thanks for coming. It was lovely catching up เพราะคำตอบรับการลาและกล่าวขอบคุณสอดคล้องกับนัยของประโยค โดยผู้พูดส่งสัญญาณจบบทสนทนาอย่างสุภาพ",5,["word_match_trap"]),
 ]
-save(tid, "TGAT1", "mcq4", P, lesson=L)
+save(tid, "TGAT1", "mcq4", P, lesson=review_lesson(L))
 
 # ============================================================ request_offer_permission
 tid = B + "request_offer_permission"
@@ -180,7 +201,7 @@ L = lesson(tid, "ขอร้อง เสนอความช่วยเห�
     prereq=FOUND, nxt=[B + "invitation"],
     blocks=[
         hook("\"Would you mind if I sat here?\" ถ้าอยากให้นั่ง ต้องตอบว่า **\"No, not at all.\"** ไม่ใช่ \"Yes\" "
-             "เพราะคำถามถามว่า **รังเกียจไหม** การตอบ Yes แปลว่ารังเกียจ"),
+             "เพราะคำถามถามว่า **รังเกียจไหม** Yes ตามความหมายตรงของ mind คือรังเกียจ แต่ภาษาพูดอาจตอบรับคำขอด้วย yes; ต้องดูคำตอบเต็มและบริบท"),
         concept("3 หน้าที่ที่ต้องแยกให้ออก",
                 "| หน้าที่ | ตัวอย่าง | ตอบรับ | ปฏิเสธสุภาพ |\n|---|---|---|---|\n"
                 "| **ขอร้อง** | Could you help me...? / Can you...? | Sure. / Of course. | Sorry, I'm afraid I can't. + เหตุผล |\n"
@@ -190,24 +211,24 @@ L = lesson(tid, "ขอร้อง เสนอความช่วยเห�
                 "- **Would you mind + V-ing / if I...?** = รังเกียจไหม ถ้า...\n"
                 "- ยอม → **No, not at all. / Of course not. / No, go ahead.**\n"
                 "- ไม่ยอม → **Sorry, I'd rather you didn't.** / **I'm afraid...** + เหตุผล\n\n"
-                "ตัวลวงยอดนิยมคือ \"Yes, of course.\" ซึ่งฟังดูสุภาพ แต่ความหมายคือ **ใช่ ฉันรังเกียจแน่นอน**"),
+                "ตัวลวงยอดนิยมคือ \"Yes, of course.\" ซึ่งฟังดูสุภาพ แต่ความหมายตามตรงคือ **ใช่ ฉันรังเกียจ** แต่ในภาษาพูดอาจเป็นการตอบรับ จึงไม่ควรตัดสินจาก yes คำเดียว"),
         technique("ถามว่า 'ใครจะเป็นคนทำ'",
                   "เมื่อแยกไม่ออกว่าเป็นการขอร้องหรือเสนอความช่วยเหลือ",
-                  "ใช้กับประโยค Would you mind ไม่ได้ ต้องใช้กฎตอบปฏิเสธเมื่อยอมแทน",
+                  "กับ Would you mind ยังแยกผู้ทำได้ แต่ต้องตรวจความหมาย mind และคำตอบเต็มร่วมด้วย",
                   "ถ้าผู้พูดจะทำเอง (Shall I carry it?) = เสนอช่วย ตอบ Yes, please / No, thanks · "
                   "ถ้าผู้พูดขอให้อีกฝ่ายทำ (Could you carry it?) = ขอร้อง ตอบ Sure / Sorry, I can't",
                   tip="Would you mind → ยอม = No"),
         example("ตัวอย่างที่ 1",
                 d("A: Would you mind turning down the music? I'm trying to study.", "B: ______"),
                 [("ระบุ: Would you mind + V-ing = ขอร้องแบบสุภาพมาก", "ถามว่ารังเกียจไหมที่จะลดเสียง"),
-                 ("ถ้ายอม ต้องตอบปฏิเสธ", "Not at all. Sorry about that.")],
+                 ("ถ้ายอม ใช้คำตอบที่บอกว่าไม่รังเกียจเพื่อให้ชัด", "Not at all. Sorry about that.")],
                 "\"Not at all. Sorry about that.\""),
-        pitfall("ตอบ Yes กับ Would you mind",
+        pitfall("ตอบตามความหมายตรงของ mind ให้สอดคล้อง",
                 "A: Would you mind if I borrowed your pen? → B: \"Yes, sure. Here you are.\"",
-                "Yes แปลว่ารังเกียจ แต่ Here you are คือให้ยืม ข้อความขัดกันเอง",
+                "ตามความหมายตรงของ mind, Yes คือรังเกียจ แต่ Here you are คือให้ยืม; ภาษาพูดอาจใช้ Yes ตอบรับคำขอได้ จึงควรใช้ No, not at all ให้ชัดในแบบฝึก",
                 "\"No, not at all. Here you are.\"",
                 "would_you_mind_yes"),
-        pitfall("ตอบข้อเสนอด้วย Sure",
+        pitfall("สลับผู้ทำในการตอบข้อเสนอ",
                 "A: Shall I open the window for you? → B: \"Sure, I can.\"",
                 "A จะเป็นคนเปิด ไม่ใช่ B คำว่า I can ผิดหน้าที่",
                 "\"Yes, please. Thank you.\"",
@@ -277,13 +298,13 @@ P = [
        "การปฏิเสธที่สุภาพควรมีส่วนประกอบอะไรบ้าง"],
       "ตอบ Sorry, I can't. I'm away that day. เพราะเป็นการปฏิเสธคำขอร้องอย่างสุภาพพร้อมเหตุผล",
       diff=3, sec=40),
-    q(d("A: Would you mind if I opened the window?", "B: ______"),
+    q("The window is closed at the moment.\n\n**A:** Would you mind if I opened the window?  \n**B:** ______",
       "Actually, I'd rather you didn't. I have a cold.",
-      [("Yes, please open it.", "Yes ในที่นี้แปลว่ารังเกียจ แต่ต่อด้วยให้เปิด ข้อความขัดกัน"),
+      [("Yes, please keep it closed. The window is open now.", "ตัวเลือกว่าหน้าต่างเปิดอยู่ขัดกับเงื่อนไขในโจทย์ที่ระบุว่าปิดอยู่ จึงผิดจากข้อมูล ไม่ใช้กฎว่า Yes ผิดทุกกรณี"),
        ("No, I would mind it.", "No แปลว่าไม่รังเกียจ แต่ต่อด้วย I would mind ขัดกันเอง"),
        ("Not at all. But I'd rather you didn't, because I have a cold.", "Not at all คือยอม แต่ I'd rather you didn't คือไม่ยอม ขัดกันเอง")],
       [("ระบุ: ขออนุญาตแบบ Would you mind if...", "ถามว่ารังเกียจไหม"),
-       ("ตรวจความสอดคล้องของทุกตัวเลือก", "สามตัวเลือกขัดกันเองระหว่างคำตอบกับการกระทำ"),
+       ("ตรวจความสอดคล้องของทุกตัวเลือก", "สองตัวเลือกขัดกันเอง ส่วนอีกตัวบอกว่าหน้าต่างเปิดอยู่ ขัดกับข้อมูลว่าปิดอยู่"),
        ("ปฏิเสธสุภาพ: I'd rather you didn't + เหตุผล", "เป็นคำตอบเดียวที่สอดคล้องตลอดประโยค")],
       ["Would you mind if I opened... ถามว่าอะไร",
        "ตรวจว่าแต่ละตัวเลือกความหมายช่วงแรกกับช่วงหลังไปทางเดียวกันไหม",
@@ -304,10 +325,10 @@ P = [
       diff=2, sec=30, tags=["offer_request_confusion"]),
 ]
 P += [
- N(d("A: Could you keep an eye on my bag while I order?","B: ______"),"Of course. I'll watch it for you.",[("Yes, I need to order first too.","พูดถึงการสั่งอาหารของตนเองแต่ไม่ตอบว่าจะเฝ้ากระเป๋า"),("Sorry, I haven't ordered yet.","ตอบสถานะการสั่งของตนเองแทนคำขอให้ช่วยดูของ"),("The counter is over there.","บอกทางแต่ไม่ตอบคำขอเฝ้ากระเป๋า")],"เป็นคำขอให้ช่วยดูแลของชั่วคราว","ตอบรับและทวนสิ่งที่จะช่วยได้ตรงหน้าที่",3,["literal_translation"]),
- N(d("A: Would you mind if I moved your notes to this shelf?","B: ______"),"Not at all. I need the desk space too.",[("Yes, of course. Please go ahead.","Yes ตอบ Would you mind แปลว่าขัดข้อง จึงขัดกับ go ahead ที่ตามมา เป็นข้อผิดที่พบบ่อย"),("No, I don't think the shelf will fit.","กล่าวถึงขนาดชั้นวางแทนการอนุญาตให้ย้ายโน้ต"),("The shelf was delivered yesterday.","บอกเวลาที่ได้รับชั้นวางแต่ไม่ตอบว่าอนุญาตให้ย้ายโน้ตหรือไม่")],"Would you mind if I ... ถามว่าขัดข้องหรือไม่","Not at all แปลว่าไม่ขัดข้องและเหตุผลถัดมาสอดคล้องกัน",5,["would_you_mind_yes"]),
+ N(d("A: Could you keep an eye on my bag while I order?","B: ______"),"Of course. I'll watch it for you.",[("Yes, I need to order first too.","พูดถึงการสั่งอาหารของตนเองแต่ไม่ตอบว่าจะเฝ้ากระเป๋า"),("Sorry, I haven't ordered yet.","ตอบสถานะการสั่งของตนเองแทนคำขอให้ช่วยดูของ"),("The counter is over there.","บอกทางแต่ไม่ตอบคำขอเฝ้ากระเป๋า")],"เป็นคำขอให้ช่วยดูแลของชั่วคราว","ตอบ Of course. I'll watch it for you เพราะตอบรับและทวนสิ่งที่จะช่วยได้ตรงหน้าที่ โดยเป็นคำขอให้ช่วยดูแลของชั่วคราว",3,["literal_translation"]),
+ N("B needs the desk cleared but wants to keep the notes for later use.\n\n**A:** Would you mind if I moved your notes to this shelf?  \n**B:** ______","Not at all. I need the desk space too.",[("Yes, of course. Please throw the notes away.","ชวนทิ้งโน้ตขัดกับข้อมูลที่ระบุว่า B ต้องการเก็บไว้ใช้ภายหลัง ไม่ใช่ผิดเพราะขึ้นต้น Yes"),("No, I don't think the shelf will fit.","กล่าวถึงขนาดชั้นวางแทนการอนุญาตให้ย้ายโน้ต"),("The shelf was delivered yesterday.","บอกเวลาที่ได้รับชั้นวางแต่ไม่ตอบว่าอนุญาตให้ย้ายโน้ตหรือไม่")],"Would you mind if I ... ถามว่าขัดข้องหรือไม่","ตอบ Not at all. I need the desk space too เพราะNot at all แปลว่าไม่ขัดข้องและเหตุผลถัดมาสอดคล้องกัน โดยWould you mind if I ... ถามว่าขัดข้องหรือไม่",5,["would_you_mind_yes"]),
 ]
-save(tid, "TGAT1", "mcq4", P, lesson=L)
+save(tid, "TGAT1", "mcq4", P, lesson=review_lesson(L))
 
 # ============================================================ invitation
 tid = B + "invitation"
@@ -341,7 +362,7 @@ L = lesson(tid, "ชวน ตอบรับ และปฏิเสธอย�
                 "\"Thank you, I'd love to, but I already have plans on Friday.\""),
         pitfall("ตอบรับด้วย Yes, I like.",
                 "A: Would you like to come? → B: \"Yes, I like.\"",
-                "Would you like เป็นคำชวน ไม่ได้ถามว่าชอบไหม และ like ต้องมีกรรม",
+                "Would you like เป็นคำชวน ไม่ได้ถามว่าชอบไหม และ Yes, I like ไม่ใช่คำตอบรับคำชวนที่เป็นธรรมชาติในบริบทนี้",
                 "\"Yes, I'd love to.\"",
                 "would_like_as_like"),
         summary("รูปชวน: Would you like to / Do you want to / How about V-ing / Why don't we / Let's",
@@ -368,10 +389,10 @@ P = [
        "คำตอบรับที่ดีมักถามรายละเอียดต่อ เช่น เวลาหรือสถานที่"],
       "ตอบ Sure! Where shall we meet? เพราะตอบรับคำชวนและถามรายละเอียดต่ออย่างเป็นธรรมชาติ",
       diff=1, sec=25),
-    q(d("A: We're having a small party for Nat's birthday on Saturday. Would you like to come?", "B: ______"),
+    q("Choose a polite refusal that explains a scheduling conflict.\n\n**A:** We're having a small party for Nat's birthday on Saturday. Would you like to come?  \n**B:** ______",
       "Thanks for inviting me, but I'll be away that weekend.",
       [("No, I don't like parties.", "ปฏิเสธโดยบอกว่าไม่ชอบ ซึ่งไม่สุภาพกับคนที่ชวน"),
-       ("Yes, I really like Nat's birthday parties every year.", "ตีความ Would you like ว่าชอบไหม"),
+       ("Yes, I really like Nat's birthday parties every year.", "แสดงว่าชอบงานและไม่ได้ปฏิเสธพร้อมเหตุเรื่องตารางเวลา ตามคำสั่งที่โจทย์ถาม"),
        ("I can't. Saturday.", "ปฏิเสธห้วนเกินไป ไม่มีขอบคุณหรือเหตุผลที่ชัด")],
       [("ระบุ: คำชวนไปงานวันเกิด", "ตอบรับหรือปฏิเสธก็ได้ แต่ต้องสุภาพ"),
        ("ตรวจตัวเลือกปฏิเสธ", "ตัวที่มีขอบคุณและเหตุผลสุภาพที่สุด")],
@@ -431,10 +452,10 @@ P = [
       diff=3, sec=45, reading="medium"),
 ]
 P += [
- N(d("A: We're having a board-game night on Friday. Want to join us?","B: ______"),"I'd love to. What time should I come?",[("I joined the board last year.","จับคำ board แต่คนละความหมาย"),("The board meeting is on Friday evening.","พูดถึงการประชุมคณะกรรมการแทนการตอบคำเชิญ"),("Do you know where I can buy that game?","ถามเรื่องซื้อเกมแทนการตอบรับหรือปฏิเสธคำเชิญ")],"เป็นคำเชิญแบบไม่เป็นทางการ","ตอบรับและถามรายละเอียดต่อเหมาะกับคำเชิญ",3,["word_match_trap"]),
- N(d("A: Would you like to come to the opening? I know it's short notice.","B: ______"),"I wish I could, but I'm covering a shift that evening.",[("Yes, I saw the invitation this morning.","รับทราบคำเชิญแต่ยังไม่ตอบว่าจะมาหรือไม่"),("I don't know what time the store opens.","เข้าใจ opening เป็นเวลาเปิดร้านแทนงานเปิดตัว"),("Yes, the notice arrived this morning.","พูดถึงเวลาที่ได้รับประกาศแต่ไม่ตอบรับหรือปฏิเสธคำเชิญ")],"ผู้พูดเชิญและยอมรับว่าแจ้งกระชั้น","ปฏิเสธอย่างสุภาพพร้อมเหตุผลที่ชัดและไม่เปิดความหวังผิด",5,["would_like_as_like"]),
+ N(d("A: We're having a board-game night on Friday. Want to join us?","B: ______"),"I'd love to. What time should I come?",[("I joined the board last year.","จับคำ board แต่คนละความหมาย"),("The board meeting is on Friday evening.","พูดถึงการประชุมคณะกรรมการแทนการตอบคำเชิญ"),("Do you know where I can buy that game?","ถามเรื่องซื้อเกมแทนการตอบรับหรือปฏิเสธคำเชิญ")],"เป็นคำเชิญแบบไม่เป็นทางการ","ตอบ I'd love to. What time should I come? เพราะตอบรับและถามรายละเอียดต่อเหมาะกับคำเชิญ โดยเป็นคำเชิญแบบไม่เป็นทางการ",3,["word_match_trap"]),
+ N(d("A: Would you like to come to the opening? I know it's short notice.","B: ______"),"I wish I could, but I'm covering a shift that evening.",[("Yes, I saw the invitation this morning.","รับทราบคำเชิญแต่ยังไม่ตอบว่าจะมาหรือไม่"),("I don't know what time the store opens.","เข้าใจ opening เป็นเวลาเปิดร้านแทนงานเปิดตัว"),("Yes, the notice arrived this morning.","พูดถึงเวลาที่ได้รับประกาศแต่ไม่ตอบรับหรือปฏิเสธคำเชิญ")],"ผู้พูดเชิญและยอมรับว่าแจ้งกระชั้น","ตอบ I wish I could, but I'm covering a shift that evening เพราะปฏิเสธอย่างสุภาพพร้อมเหตุผลที่ชัดและไม่เปิดความหวังผิด โดยผู้พูดเชิญและยอมรับว่าแจ้งกระชั้น",5,["would_like_as_like"]),
 ]
-save(tid, "TGAT1", "mcq4", P, lesson=L)
+save(tid, "TGAT1", "mcq4", P, lesson=review_lesson(L))
 
 # ============================================================ apology_thanks
 tid = B + "apology_thanks"
@@ -558,10 +579,10 @@ P = [
       diff=1, sec=25, tags=["welcome_for_sorry"]),
 ]
 P += [
- N(d("A: I'm sorry I spilled coffee on your draft.","B: ______"),"It's okay. I saved another copy.",[("You're welcome. I know it was an accident.","You're welcome ใช้รับคำขอบคุณ ไม่ใช่คำขอโทษ"),("I'm sorry, but I don't drink coffee.","เป็นประโยคธรรมชาติแต่ไม่ตอบรับคำขอโทษเรื่องเอกสารเสียหาย"),("Thanks. I'll finish the draft later.","กล่าวขอบคุณและเปลี่ยนเรื่องแทนการตอบรับคำขอโทษ")],"เป็นการขอโทษจากอุบัติเหตุ","ตอบรับคำขอโทษและบอกว่ามีสำเนาสำรอง",3,["welcome_for_sorry"]),
- N(d("A: Thank you for staying late to fix the figures.","B: ______"),"No problem. I'm glad we caught the error in time.",[("Never mind. The figures were already correct.","ปฏิเสธว่ามีข้อผิดพลาด ขัดกับบริบทที่เพิ่งแก้ตัวเลข"),("I'm sorry, but I couldn't stay late.","ขัดกับคำขอบคุณที่ระบุว่าอยู่ช่วยจนดึก"),("You're welcome, so you owe me one.","เริ่มรับคำขอบคุณแต่ลงท้ายกดดันไม่เหมาะกับงาน")],"เป็นคำขอบคุณในบริบททำงานร่วมกัน","รับคำขอบคุณและเชื่อมกับผลดีของทีมอย่างเป็นมืออาชีพ",5,["welcome_for_sorry"]),
+ N(d("A: I'm sorry I spilled coffee on your draft.","B: ______"),"It's okay. I saved another copy.",[("You're welcome. I know it was an accident.","You're welcome ใช้รับคำขอบคุณ ไม่ใช่คำขอโทษ"),("I'm sorry, but I don't drink coffee.","เป็นประโยคธรรมชาติแต่ไม่ตอบรับคำขอโทษเรื่องเอกสารเสียหาย"),("Thanks. I'll finish the draft later.","กล่าวขอบคุณและเปลี่ยนเรื่องแทนการตอบรับคำขอโทษ")],"เป็นการขอโทษจากอุบัติเหตุ","ตอบ It's okay. I saved another copy เพราะตอบรับคำขอโทษและบอกว่ามีสำเนาสำรอง โดยเป็นการขอโทษจากอุบัติเหตุ",3,["welcome_for_sorry"]),
+ N(d("A: Thank you for staying late to fix the figures.","B: ______"),"No problem. I'm glad we caught the error in time.",[("Never mind. The figures were already correct.","ปฏิเสธว่ามีข้อผิดพลาด ขัดกับบริบทที่เพิ่งแก้ตัวเลข"),("I'm sorry, but I couldn't stay late.","ขัดกับคำขอบคุณที่ระบุว่าอยู่ช่วยจนดึก"),("You're welcome, so you owe me one.","เริ่มรับคำขอบคุณแต่ลงท้ายกดดันไม่เหมาะกับงาน")],"เป็นคำขอบคุณในบริบททำงานร่วมกัน","ตอบ No problem. I'm glad we caught the error in time เพราะรับคำขอบคุณและเชื่อมกับผลดีของทีมอย่างเป็นมืออาชีพ โดยเป็นคำขอบคุณในบริบททำงานร่วมกัน",5,["welcome_for_sorry"]),
 ]
-save(tid, "TGAT1", "mcq4", P, lesson=L)
+save(tid, "TGAT1", "mcq4", P, lesson=review_lesson(L))
 
 # ============================================================ opinion_agreement
 tid = B + "opinion_agreement"
@@ -570,7 +591,7 @@ L = lesson(tid, "ถามความเห็น เห็นด้วย แ�
     objectives=["ถามความเห็นได้หลายรูปแบบ", "เห็นด้วยกับประโยคบอกเล่าและปฏิเสธได้ถูก", "ไม่เห็นด้วยอย่างสุภาพ"],
     prereq=FOUND, nxt=[B + "wh_question_matching"],
     blocks=[
-        hook("\"I don't like horror movies.\" ถ้าเห็นด้วย ต้องตอบ **\"Me neither.\"** ไม่ใช่ \"Me too.\" "
+        hook("\"I don't like horror movies.\" ถ้าเห็นด้วย ตอบย่อได้ว่า **\"Me neither.\"** ไม่ใช่ \"Me too.\" "
              "กับดักนี้ออกบ่อยมากเพราะภาษาไทยใช้ \"ฉันด้วย\" ได้ทั้งสองแบบ"),
         concept("ถามความเห็น เห็นด้วย ไม่เห็นด้วย",
                 "**ถามความเห็น:** What do you think of/about...? / How do you feel about...? / What's your opinion on...?\n\n"
@@ -579,7 +600,7 @@ L = lesson(tid, "ถามความเห็น เห็นด้วย แ�
         technique("ดูว่าประโยคแรกบอกเล่าหรือปฏิเสธ",
                   "ทุกข้อที่ให้เลือกคำตอบแสดงการเห็นด้วย",
                   "ถ้าผู้พูดถามความเห็น ไม่ได้บอกความเห็น ให้ตอบด้วยความเห็นของเรา ไม่ใช่ Me too",
-                  "มี not / don't / never อยู่ในประโยคแรกไหม ถ้ามี คำตอบเห็นด้วยต้องเป็น neither / either",
+                  "มี not / don't / never อยู่ในประโยคแรกไหม ถ้ามี คำตอบย่อแบบเติมความเหมือนใช้ neither / either และกริยาช่วยที่ตรงกัน; แต่ I agree หรือการพูดซ้ำความเห็นก็เห็นด้วยได้",
                   tip="บอกเล่า → too/so · ปฏิเสธ → neither/either"),
         example("ตัวอย่างที่ 1",
                 d("A: I can't stand waiting in long lines.", "B: ______ They're so annoying."),
@@ -683,10 +704,10 @@ P = [
       diff=1, sec=30, tags=["literal_translation"]),
 ]
 P += [
- N(d("A: I think the workshop should include more practice time.","B: ______"),"I agree. The last activity felt rushed.",[("So am I. I need more time to register.","ใช้กริยาช่วยผิด ต้องเป็น So do I ตาม I think และยังเปลี่ยนไปพูดเรื่องเวลาลงทะเบียน"),("Neither do I. I rarely attend workshops.","ใช้ neither ตอบข้อความบอกเล่าเชิงบวกและเปลี่ยนประเด็น"),("Yes, the workshop starts on time.","บอกข้อเท็จจริงเรื่องเวลาเริ่มแทนการแสดงความเห็นต่อข้อเสนอ")],"เป็นการขอความเห็นต่อข้อเสนอ","แสดงความเห็นด้วยและให้เหตุผลที่ตรงประเด็น",3,["too_neither_confusion"]),
- N(d("A: The new schedule is more efficient, but it leaves no break between labs.","B: ______"),"That's true. It saves time overall, though the lack of a break may be a problem.",[("I completely disagree; efficiency is always bad.","ปฏิเสธสุดโต่งและบิดประเด็น"),("Me too. I haven't received the new schedule.","ตอบเรื่องการได้รับตาราง ไม่ใช่การประเมินข้อดีข้อเสีย"),("Neither do I. My lab schedule is unchanged.","พูดถึงตารางของตนว่าไม่เปลี่ยน ไม่ตอบข้อสังเกตสองด้าน")],"ข้อความมีทั้งข้อดีและข้อกังวล","คำตอบยอมรับสองด้านแทนเลือกเห็นด้วยหรือคัดค้านทั้งหมด",5,["rude_disagreement"]),
+ N(d("A: I think the workshop should include more practice time.","B: ______"),"I agree. The last activity felt rushed.",[("So am I. I need more time to register.","ใช้กริยาช่วยผิด ต้องเป็น So do I ตาม I think และยังเปลี่ยนไปพูดเรื่องเวลาลงทะเบียน"),("Neither do I. I rarely attend workshops.","ใช้ neither ตอบข้อความบอกเล่าเชิงบวกและเปลี่ยนประเด็น"),("Yes, the workshop starts on time.","บอกข้อเท็จจริงเรื่องเวลาเริ่มแทนการแสดงความเห็นต่อข้อเสนอ")],"เป็นการขอความเห็นต่อข้อเสนอ","ตอบ I agree. The last activity felt rushed เพราะแสดงความเห็นด้วยและให้เหตุผลที่ตรงประเด็น โดยเป็นการขอความเห็นต่อข้อเสนอ",3,["too_neither_confusion"]),
+ N(d("A: The new schedule is more efficient, but it leaves no break between labs.","B: ______"),"That's true. It saves time overall, though the lack of a break may be a problem.",[("I disagree; the new schedule gives us longer breaks.","ประโยคแรกระบุว่าไม่มี break ระหว่าง lab จึงกล่าวข้อเท็จจริงตรงข้าม ไม่ใช่เพียงไม่เห็นด้วย"),("Me too. I haven't received the new schedule.","ตอบเรื่องการได้รับตาราง ไม่ใช่การประเมินข้อดีข้อเสีย"),("Neither do I. My lab schedule is unchanged.","พูดถึงตารางของตนว่าไม่เปลี่ยน ไม่ตอบข้อสังเกตสองด้าน")],"ข้อความมีทั้งข้อดีและข้อกังวล","ตอบ That's true. It saves time overall, though the lack of a break may be a problem เพราะคำตอบยอมรับสองด้านแทนเลือกเห็นด้วยหรือคัดค้านทั้งหมด โดยข้อความมีทั้งข้อดีและข้อกังวล",5,["rude_disagreement"]),
 ]
-save(tid, "TGAT1", "mcq4", P, lesson=L)
+save(tid, "TGAT1", "mcq4", P, lesson=review_lesson(L))
 
 # ============================================================ wh_question_matching
 tid = B + "wh_question_matching"
@@ -805,10 +826,10 @@ P = [
       diff=3, sec=35, tags=["wh_type_mismatch"]),
 ]
 P += [
- N(d("A: How often does the shuttle run after six?","B: ______"),"Every thirty minutes until ten.",[("At the station entrance.","ตอบสถานที่แทนความถี่"),("About twenty passengers.","ตอบจำนวนคน"),("Because the buses are smaller.","ตอบเหตุผล")],"How often ต้องการความถี่","Every thirty minutes ตอบความถี่และเพิ่มช่วงเวลาที่เป็นประโยชน์",3,["wh_type_mismatch"]),
- N(d("A: Which route did Nina say avoids the roadworks?","B: ______"),"The riverside route, although it takes ten minutes longer.",[("At around half past eight.","ตอบเวลาแทนเส้นทาง"),("Because the main road is closed.","ตอบเหตุผล ไม่ระบุ route"),("Nina said it quite clearly.","บอกลักษณะการพูดแทนเนื้อหาคำตอบ")],"Which route ต้องการชื่อเส้นทาง ไม่ใช่เหตุผลหรือเวลา","ระบุเส้นทางและเงื่อนไขที่ไม่เปลี่ยนคำตอบ",5,["wh_type_mismatch"]),
+ N(d("A: How often does the shuttle run after six?","B: ______"),"Every thirty minutes until ten.",[("At the station entrance.","ตอบสถานที่แทนความถี่"),("About twenty passengers.","ตอบจำนวนคน"),("Because the buses are smaller.","ตอบเหตุผล")],"How often ต้องการความถี่","ตอบ Every thirty minutes until ten เพราะEvery thirty minutes ตอบความถี่และเพิ่มช่วงเวลาที่เป็นประโยชน์ โดยHow often ต้องการความถี่",3,["wh_type_mismatch"]),
+ N(d("A: Which route did Nina say avoids the roadworks?","B: ______"),"The riverside route, although it takes ten minutes longer.",[("At around half past eight.","ตอบเวลาแทนเส้นทาง"),("Because the main road is closed.","ตอบเหตุผล ไม่ระบุ route"),("Nina said it quite clearly.","บอกลักษณะการพูดแทนเนื้อหาคำตอบ")],"Which route ต้องการชื่อเส้นทาง ไม่ใช่เหตุผลหรือเวลา","ตอบ The riverside route, although it takes ten minutes longer เพราะระบุเส้นทางและเงื่อนไขที่ไม่เปลี่ยนคำตอบ โดยWhich route ต้องการชื่อเส้นทาง ไม่ใช่เหตุผลหรือเวลา",5,["wh_type_mismatch"]),
 ]
-save(tid, "TGAT1", "mcq4", P, lesson=L)
+save(tid, "TGAT1", "mcq4", P, lesson=review_lesson(L))
 
 # ============================================================ yesno_and_tag
 tid = B + "yesno_and_tag"
@@ -833,7 +854,7 @@ L = lesson(tid, "ตอบคำถาม Yes/No และคำถามท้�
                   "คำถามปฏิเสธ (Don't you / Isn't it) และ tag question ทุกข้อ",
                   "อย่าแปลเป็นไทยว่า 'ใช่หรือไม่ใช่' เพราะจะกลับด้าน",
                   "ถามตัวเองว่าข้อเท็จจริงคืออะไร เช่น \"ฉันไปไหม\" ถ้าไป → Yes + บอกเล่า ถ้าไม่ไป → No + ปฏิเสธ "
-                  "Yes ต้องตามด้วยบอกเล่าเสมอ No ต้องตามด้วยปฏิเสธเสมอ",
+                  "ในคำตอบสั้นที่ยืนยันข้อเท็จจริงเดียวกัน ใช้ Yes กับรูปบอกเล่า และ No กับรูปปฏิเสธ; คำอธิบายต่ออาจใช้รูปอื่นได้ เช่น Yes, I did, but I didn't finish",
                   tip="Yes + บอกเล่า · No + ปฏิเสธ · ห้ามผสม"),
         example("ตัวอย่างที่ 1",
                 d("A: You didn't finish the project, did you?", "B: ______ I still need to write the conclusion."),
@@ -842,7 +863,7 @@ L = lesson(tid, "ตอบคำถาม Yes/No และคำถามท้�
                 "\"No, I didn't.\""),
         pitfall("ตอบแบบไทย",
                 "A: Isn't it raining? (ฝนไม่ตกเหรอ) ฝนไม่ตกจริง → B: \"Yes, it isn't.\"",
-                "Yes ต้องตามด้วยบอกเล่าเสมอ การผสม Yes กับ isn't ผิดไวยากรณ์",
+                "ในคำตอบสั้นที่บอกว่าฝนไม่ตก Yes, it isn't ไม่สอดคล้องกับระบบตอบข้อเท็จจริงมาตรฐาน ไม่ใช่กฎห้ามมีประโยคปฏิเสธหลัง Yes ทุกบริบท",
                 "\"No, it isn't.\"",
                 "thai_style_yes_no"),
         pitfall("ใช้กริยาช่วยไม่ตรงกับคำถาม",
@@ -852,7 +873,7 @@ L = lesson(tid, "ตอบคำถาม Yes/No และคำถามท้�
                 "auxiliary_mismatch"),
         summary("Yes = ข้อเท็จจริงบอกเล่า · No = ข้อเท็จจริงปฏิเสธ",
                 "ไม่สนว่าคำถามเป็นบอกเล่าหรือปฏิเสธ",
-                "Yes + บอกเล่า · No + ปฏิเสธ ห้ามผสม",
+                "คำตอบสั้นยืนยันข้อเท็จจริงเดียวกัน: Yes + บอกเล่า · No + ปฏิเสธ ไม่เหมารวมคำอธิบายต่อ",
                 "ใช้กริยาช่วยตัวเดียวกับคำถาม"),
         check(d("A: You don't eat meat, do you?", "B: ______ I'm vegetarian."),
               ["Yes, I do.", "Yes, I don't.", "No, I don't.", "No, I do."], 2,
@@ -910,11 +931,11 @@ P = [
        "คำตอบสั้นต้องใช้กริยาช่วยตัวเดียวกับคำถาม"],
       "ตอบ No, I won't. เพราะ B จะไม่ลืม (ตั๋วอยู่ในกระเป๋าแล้ว) ข้อเท็จจริงเทียบกับ forget เป็นปฏิเสธ จึงใช้ No ตามด้วย won't",
       diff=4, sec=45, tags=["thai_style_yes_no"]),
-    q(d("A: Didn't you see my message?", "B: ______ My phone was off all afternoon."),
+    q("A sent the message this afternoon, while B's phone was off. B has not switched it on since then.\n\n**A:** Didn't you see my message?  \n**B:** ______ My phone was off all afternoon.",
       "No, I didn't. Sorry about that.",
       [("Yes, I didn't.", "ผสม Yes กับปฏิเสธ"),
-       ("Yes, I did. My phone was off all afternoon, though.", "บอกว่าเห็นข้อความ ขัดกับเหตุผลว่าโทรศัพท์ปิด"),
-       ("No, I haven't seen.", "ใช้กริยาช่วยไม่ตรงกับคำถามที่ใช้ did")],
+       ("Yes, I did. It arrived while my phone was switched on this afternoon.", "โจทย์เพิ่มว่าข้อความเพิ่งส่งระหว่างช่วงบ่ายที่โทรศัพท์ปิดอยู่ จึงยังไม่ได้เห็น ไม่ใช่แค่สันนิษฐานว่าเปิดเครื่องไม่ได้ตลอดวัน"),
+       ("No, I haven't seen.", "ในคำตอบนี้ seen ที่หมายถึงเห็นข้อความขาดกรรม เช่น it; present perfect ไม่ได้ผิดเพียงเพราะคำถามใช้ did")],
       [("ข้อเท็จจริง: ไม่เห็นข้อความ เพราะโทรศัพท์ปิด", "No + ปฏิเสธ"),
        ("กริยาช่วยของคำถาม: did", "No, I didn't.")],
       ["B เห็นข้อความไหม ดูจากเหตุผลที่ตามมา",
@@ -936,7 +957,7 @@ P = [
       diff=2, sec=30, tags=["auxiliary_mismatch"]),
 ]
 P += [
- N(d("A: Haven't you submitted the form yet?","B: ______"),"No, not yet. I'm waiting for one signature.",[("Yes, I haven't.","yes ขัดกับประโยคปฏิเสธที่ตามมา"),("No, I submitted it yesterday.","no ขัดกับข้อเท็จจริงที่บอกว่าส่งแล้ว"),("Yes, the form still needs a signature.","yes สื่อว่าส่งแล้ว แต่ประโยคต่อมาบอกว่ายังขาดลายเซ็น")],"คำถามปฏิเสธต้องตอบตามข้อเท็จจริงว่าส่งหรือยัง","No, not yet สอดคล้องกับการยังรอลายเซ็น",3,["thai_style_yes_no"]),
- N(d("A: You didn't copy the final file over the draft, did you?","B: ______"),"I'm afraid I did, but the backup should restore it.",[("Yes, I didn't. The draft is still there.","Yes คู่กับ didn't ขัดกันเอง ถ้าไม่ได้ทำต้องตอบ No, I didn't เป็นข้อผิดที่พบบ่อยกับคำถามเชิงปฏิเสธ"),("Yes, I copied the draft into another folder.","กล่าวถึงการย้ายสำเนา ไม่ใช่การเขียนไฟล์ทับฉบับร่าง"),("The final file was copied this morning.","บอกเพียงเวลาที่คัดลอก ไม่ระบุว่าเขียนทับฉบับร่างหรือใครทำ")],"tag question ใช้ยืนยันเหตุที่ผู้ถามกังวล","I did ยืนยันว่าเผลอเขียนทับจริง แล้วกล่าวถึงทางกู้คืน",5,["auxiliary_mismatch"]),
+ N(d("A: Haven't you submitted the form yet?","B: ______"),"No, not yet. I'm waiting for one signature.",[("Yes, I haven't.","yes ขัดกับประโยคปฏิเสธที่ตามมา"),("No, I submitted it yesterday.","no ขัดกับข้อเท็จจริงที่บอกว่าส่งแล้ว"),("Yes, the form still needs a signature.","yes สื่อว่าส่งแล้ว แต่ประโยคต่อมาบอกว่ายังขาดลายเซ็น")],"คำถามปฏิเสธต้องตอบตามข้อเท็จจริงว่าส่งหรือยัง","ตอบ No, not yet. I'm waiting for one signature เพราะNo, not yet สอดคล้องกับการยังรอลายเซ็น โดยคำถามปฏิเสธต้องตอบตามข้อเท็จจริงว่าส่งหรือยัง",3,["thai_style_yes_no"]),
+ N(d("A: You didn't copy the final file over the draft, did you?","B: ______"),"I'm afraid I did, but the backup should restore it.",[("Yes, I didn't. The draft is still there.","Yes คู่กับ didn't ขัดกันเอง ถ้าไม่ได้ทำต้องตอบ No, I didn't เป็นข้อผิดที่พบบ่อยกับคำถามเชิงปฏิเสธ"),("Yes, I copied the draft into another folder.","กล่าวถึงการย้ายสำเนา ไม่ใช่การเขียนไฟล์ทับฉบับร่าง"),("The final file was copied this morning.","บอกเพียงเวลาที่คัดลอก ไม่ระบุว่าเขียนทับฉบับร่างหรือใครทำ")],"tag question ใช้ยืนยันเหตุที่ผู้ถามกังวล","ตอบ I'm afraid I did, but the backup should restore it เพราะI did ยืนยันว่าเผลอเขียนทับจริง แล้วกล่าวถึงทางกู้คืน โดยtag question ใช้ยืนยันเหตุที่ผู้ถามกังวล",5,["auxiliary_mismatch"]),
 ]
-save(tid, "TGAT1", "mcq4", P, lesson=L)
+save(tid, "TGAT1", "mcq4", P, lesson=review_lesson(L))

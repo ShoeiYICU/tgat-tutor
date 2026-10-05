@@ -59,6 +59,27 @@
       "misconception_tag": "register_mismatch"
     },
     {
+      "type": "pitfall",
+      "title": "ไม่อ่านประโยคหลังช่องว่าง",
+      "wrong_md": "เลือกคำตอบที่เข้ากับประโยคก่อนหน้าแต่ขัดกับคำตอบถัดไป",
+      "why_wrong_md": "บรรทัดถัดไปบอกว่าคู่สนทนารับ เข้าใจ หรือถามต่อเรื่องใด",
+      "correct_md": "เติมทุกตัวเลือกแล้วอ่านต่อทั้งสองฝั่ง",
+      "misconception_tag": "ignore_next_line"
+    },
+    {
+      "type": "concept",
+      "heading": "How did you do on...?",
+      "body_md": "How did you do on the midterm? ถามผลสอบ ไม่ใช่ถามวิธีลงมือทำ และ congratulations ในบรรทัดถัดไปชี้ว่าผลดี."
+    },
+    {
+      "type": "pitfall",
+      "title": "แปล do ตรงตัว",
+      "wrong_md": "ตอบวิธีทำเมื่อถาม How did you do on the exam?",
+      "why_wrong_md": "do on an exam ถามผลการทำข้อสอบในบริบทนี้",
+      "correct_md": "ตอบคะแนนหรือผลและตรวจปฏิกิริยาบรรทัดถัดไป",
+      "misconception_tag": "literal_translation"
+    },
+    {
       "type": "summary",
       "bullets_md": [
         "คำศัพท์: assignment, deadline, submit, extension, office hours",

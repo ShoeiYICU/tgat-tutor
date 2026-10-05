@@ -64,6 +64,14 @@
       "misconception_tag": "position_word_confusion"
     },
     {
+      "type": "pitfall",
+      "title": "ไม่อ่านประโยคหลังช่องว่าง",
+      "wrong_md": "เลือกคำตอบที่เข้ากับประโยคก่อนหน้าแต่ขัดกับคำตอบถัดไป",
+      "why_wrong_md": "บรรทัดถัดไปบอกว่าคู่สนทนารับ เข้าใจ หรือถามต่อเรื่องใด",
+      "correct_md": "เติมทุกตัวเลือกแล้วอ่านต่อทั้งสองฝั่ง",
+      "misconception_tag": "ignore_next_line"
+    },
+    {
       "type": "summary",
       "bullets_md": [
         "ทิศทาง: go straight, turn left/right",

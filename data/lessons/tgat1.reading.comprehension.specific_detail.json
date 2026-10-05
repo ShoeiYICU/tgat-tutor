@@ -36,7 +36,7 @@
       "type": "example",
       "label": "ตัวอย่างที่ 1",
       "difficulty": 2,
-      "stem_md": "According to the sleep passage, which group remembered more words?",
+      "stem_md": "อ่านข้อความ: Two groups learned the same words. One slept before the test; the other stayed awake. The sleeping group remembered more words. Which group remembered more words?",
       "steps": [
         {
           "do_md": "คำสำคัญ: remembered more words",
@@ -68,7 +68,7 @@
     },
     {
       "type": "check",
-      "question_md": "ในบทอ่าน Community Garden ใครเป็นคนเริ่มโครงการ",
+      "question_md": "อ่านข้อความ: The idea for the community garden came from a group of Grade 10 students. A local farmer later gave advice. ใครเป็นคนเริ่มโครงการ",
       "choices": [
         "A local farmer",
         "A group of Grade 10 students",

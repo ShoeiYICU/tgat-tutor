@@ -62,6 +62,19 @@
       "misconception_tag": "affect_effect"
     },
     {
+      "type": "concept",
+      "heading": "ดูความหมายในบริบท",
+      "body_md": "affordable คือราคาเอื้อมถึง ส่วน available คือมีให้ใช้ ไม่บอกว่าถูก; economical คือประหยัด ต่างจาก economic ที่เกี่ยวกับเศรษฐกิจ. affect โดยทั่วไปเป็นกริยาส่งผลต่อ และ effect เป็นนามผลกระทบ แต่ effect ก็เป็นกริยาแปลว่าทำให้เกิดขึ้นได้ เช่น effect a change จึงต้องดูความหมายและโครงสร้าง ไม่ท่องว่า effect เป็นกริยาไม่ได้."
+    },
+    {
+      "type": "pitfall",
+      "title": "เลือกคำคุ้นเคยแต่ผิดประเด็น",
+      "wrong_md": "ราคาเพื่อช่วยผู้มีรายได้น้อยจึงเติม available แทน affordable",
+      "why_wrong_md": "available บอกว่ามีให้ใช้ แต่ไม่บอกว่าจ่ายไหว",
+      "correct_md": "ใช้ affordable เมื่อหลักฐานชี้ประเด็นราคา",
+      "misconception_tag": "common_meaning_trap"
+    },
+    {
       "type": "summary",
       "bullets_md": [
         "จำศัพท์เป็นกลุ่มความหมาย",

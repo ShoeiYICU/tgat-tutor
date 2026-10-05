@@ -68,7 +68,7 @@
     },
     {
       "type": "check",
-      "question_md": "**A:** I'm vegetarian, by the way.  \n**B:** OK. What would you like to order?  \n**A:** ______",
+      "question_md": "เมนู vegetable curry ไม่มีส่วนผสมจากสัตว์ ส่วนอีกสามเมนูมีเนื้อสัตว์\n\n**A:** I'm vegetarian, by the way.  \n**B:** OK. What would you like to order?  \n**A:** ______",
       "choices": [
         "The grilled chicken, please.",
         "The vegetable curry, please.",

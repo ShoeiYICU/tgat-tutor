@@ -55,10 +55,10 @@
     },
     {
       "type": "pitfall",
-      "title": "ตอบ Why don't you ด้วย Because",
-      "wrong_md": "A: Why don't you take a break? → B: \"Because I'm busy.\"",
-      "why_wrong_md": "Why don't you...? เป็นคำแนะนำ ไม่ได้ถามเหตุผล",
-      "correct_md": "\"Good idea.\" หรือ \"I'd like to, but I have to finish this first.\"",
+      "title": "ตัดสินหน้าที่จาก Why อย่างเดียว",
+      "wrong_md": "เห็น Why don't you...? แล้วถือว่าถามเหตุผลทุกครั้งโดยไม่อ่านบริบท",
+      "why_wrong_md": "Why don't you...? อาจเป็นคำแนะนำหรือถามเหตุผลจริงตามบริบท; การตอบ Because I'm busy อาจเป็นการปฏิเสธที่ใช้ได้",
+      "correct_md": "แยกคำแนะนำจากคำถามเหตุผล; การตอบ Because I'm busy อาจเป็นการปฏิเสธที่เหมาะได้",
       "misconception_tag": "literal_translation"
     },
     {
@@ -66,10 +66,39 @@
       "bullets_md": [
         "ระบุหน้าที่ของประโยคก่อนดูตัวเลือก",
         "จำคำตอบที่คู่กับแต่ละหน้าที่",
-        "Would you mind → No, not at all",
-        "Why don't you → คำแนะนำ ไม่ใช่คำถามเหตุผล",
+        "Would you mind → ยอมได้ด้วย No, not at all; อ่านทั้งคำตอบ ไม่ใช้ yes/no คำเดียวตัดสิน",
+        "Why don't you → อาจแนะนำหรือถามเหตุผล ดูบริบท",
         "Sorry to hear that → Thanks"
       ]
+    },
+    {
+      "type": "concept",
+      "heading": "หน้าที่เพิ่มและคำตอบเต็ม",
+      "body_md": "ข่าวดี เช่น I got the scholarship! ตอบ Congratulations! เพื่อแสดงความยินดี. I'm afraid ในการปฏิเสธสุภาพไม่ได้แปลว่ากลัวเสมอ. Would you mind + V-ing ขอให้อีกฝ่ายทำ ส่วน if I... ขออนุญาตผู้พูดทำ; ตามความหมายตรง ยอมได้ด้วย No, not at all แต่ต้องอ่านคำตอบเต็มเพราะภาษาพูดอาจใช้ yes ตอบรับคำขอ. Why don't you...? ใช้ทั้งแนะนำและถามเหตุผลจริง ต้องดูบริบท; Because I'm busy อาจเป็นการปฏิเสธคำแนะนำที่ใช้ได้ ไม่ควรตัดคำตอบที่ขึ้นต้น Because อัตโนมัติ."
+    },
+    {
+      "type": "pitfall",
+      "title": "สลับผู้ให้กับผู้ขอ",
+      "wrong_md": "Shall I give you a hand? คือขอให้คุณช่วยฉัน",
+      "why_wrong_md": "I เป็นผู้เสนอทำให้ you",
+      "correct_md": "แยกผู้พูดและผู้ลงมือ: Shall I...? เสนอช่วย; Could you...? ขอร้อง",
+      "misconception_tag": "offer_request_confusion"
+    },
+    {
+      "type": "pitfall",
+      "title": "เห็นใจไม่ใช่รับผิด",
+      "wrong_md": "I'm sorry to hear you've been sick เป็นขอโทษที่ทำให้ป่วย",
+      "why_wrong_md": "sorry to hear แสดงความเห็นใจ ไม่ยืนยันว่าผู้พูดเป็นสาเหตุ",
+      "correct_md": "ตอบขอบคุณหรือเล่าอาการตามบริบท",
+      "misconception_tag": "sorry_to_hear_as_apology"
+    },
+    {
+      "type": "pitfall",
+      "title": "ตอบ mind โดยอ่าน yes/no คำเดียว",
+      "wrong_md": "เห็น Yes แล้วตัดสินทั้งประโยคว่าไม่ยอม",
+      "why_wrong_md": "ภาษาพูดอาจใช้ Yes ตอบรับคำขอ ต้องดูเนื้อหาต่อและการกระทำ",
+      "correct_md": "ในแบบฝึกใช้ No, not at all เพื่อยอมอย่างชัดเจน และตรวจความสอดคล้องของคำตอบเต็ม",
+      "misconception_tag": "would_you_mind_yes"
     },
     {
       "type": "check",
@@ -85,7 +114,7 @@
     },
     {
       "type": "check",
-      "question_md": "คำตอบใดคู่กับ \"I'm sorry to hear about your accident.\"",
+      "question_md": "คำตอบใดเหมาะที่สุดในการตอบความเห็นใจของ \"I'm sorry to hear about your accident.\"",
       "choices": [
         "That's OK.",
         "Thank you. I'm getting better.",

@@ -59,9 +59,25 @@
       "type": "pitfall",
       "title": "ตอบรับด้วย Yes, I like.",
       "wrong_md": "A: Would you like to come? → B: \"Yes, I like.\"",
-      "why_wrong_md": "Would you like เป็นคำชวน ไม่ได้ถามว่าชอบไหม และ like ต้องมีกรรม",
+      "why_wrong_md": "Would you like เป็นคำชวน ไม่ได้ถามว่าชอบไหม และ Yes, I like ไม่ใช่คำตอบรับคำชวนที่เป็นธรรมชาติในบริบทนี้",
       "correct_md": "\"Yes, I'd love to.\"",
       "misconception_tag": "would_like_as_like"
+    },
+    {
+      "type": "pitfall",
+      "title": "แปลคำชวนตรงตัว",
+      "wrong_md": "Why don't we study together? คือถามว่าทำไมเราไม่เรียน",
+      "why_wrong_md": "ในบริบทเสนอทำร่วมกัน ประโยคนี้ทำหน้าที่ชวน",
+      "correct_md": "ตอบรับหรือปฏิเสธคำชวน ไม่เลือกจาก why คำเดียว",
+      "misconception_tag": "literal_translation"
+    },
+    {
+      "type": "pitfall",
+      "title": "คำซ้ำแต่คนละความหมาย",
+      "wrong_md": "board-game night จึงตอบเรื่อง board meeting",
+      "why_wrong_md": "board game เป็นเกมกระดาน ไม่ใช่ประชุมคณะกรรมการ",
+      "correct_md": "ตอบเรื่องเข้าร่วมกิจกรรมที่ถูกชวน",
+      "misconception_tag": "word_match_trap"
     },
     {
       "type": "summary",

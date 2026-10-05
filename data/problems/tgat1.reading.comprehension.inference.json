@@ -322,11 +322,11 @@
       "figures": [],
       "choices": [
         {
-          "md": "prefer talking to robots rather than to any human being at all",
+          "md": "prefer working alone instead of attending language classes",
           "is_answer": false
         },
         {
-          "md": "never make mistakes",
+          "md": "perform well in English tests",
           "is_answer": false
         },
         {
@@ -356,8 +356,8 @@
         "ตัดตัวที่ใช้คำเด็ดขาดหรือขัดกับบท"
       ],
       "distractor_reasons": {
-        "0": "เกินหลักฐาน บทอ่านพูดแค่การฝึกภาษา",
-        "1": "ขัดกับบทอ่านที่บอกว่ากลัวทำผิด",
+        "0": "บทอ่านกล่าวว่าฝึกภาษาได้สบายใจกับหุ่นยนต์ ไม่ได้บอกว่าต้องการเลี่ยงชั้นเรียน",
+        "1": "บทอ่านบอกความมั่นใจในการฝึก แต่ไม่มีผลการสอบยืนยันความสามารถ",
         "2": "ไม่มีหลักฐาน พวกเขายังฝึกกับหุ่นยนต์"
       },
       "misconception_tags": [
@@ -404,7 +404,7 @@
           "is_answer": false
         },
         {
-          "md": "The school had a rule that every student project must be checked by a farmer.",
+          "md": "The farmer had offered to pay for the school's gardening equipment.",
           "is_answer": false
         },
         {
@@ -432,7 +432,7 @@
       "distractor_reasons": {
         "0": "ไม่มีข้อมูลในบทอ่าน",
         "1": "ไม่มีข้อมูลในบทอ่าน",
-        "2": "ไม่มีข้อมูลในบทอ่าน"
+        "2": "บทอ่านบอกว่าขอคำแนะนำ ไม่ได้บอกว่าชาวนาจะออกเงินซื้ออุปกรณ์"
       },
       "misconception_tags": [],
       "template": null,
@@ -468,7 +468,7 @@
       "figures": [],
       "choices": [
         {
-          "md": "Every customer preferred silence.",
+          "md": "Customers began visiting the café mainly to work on laptops.",
           "is_answer": false
         },
         {
@@ -495,14 +495,14 @@
           "why_md": "เลือกคำตอบที่มีหลักฐานรองรับครบ ไม่เติมข้อมูลเอง"
         }
       ],
-      "answer_explanation_md": "บอกได้เพียงว่ายอดมื้อกลางวันไม่ลดในช่วงที่รายงาน",
+      "answer_explanation_md": "ตอบ The quiet-hours policy did not reduce lunch sales during the period described เพราะบอกได้เพียงว่ายอดมื้อกลางวันไม่ลดในช่วงที่รายงาน โดยอนุมานเฉพาะสิ่งที่ยอดขาย stable รองรับ",
       "hints": [
         "ขีดเส้นคำหรือประโยคที่เป็นหลักฐาน",
         "ตัดตัวเลือกที่จริงบางส่วนแต่ตอบคนละคำถาม",
         "ตรวจว่าคำตอบไม่กว้างหรือแคบเกินข้อความ"
       ],
       "distractor_reasons": {
-        "0": "ไม่มีข้อมูลทุกคน",
+        "0": "การอยู่นานขึ้นของผู้ใช้ laptop ไม่บอกเหตุที่ลูกค้าเริ่มเข้าร้าน",
         "1": "การอยู่นานไม่ยืนยันการซื้อ",
         "3": "ไม่มีข้อมูลอนาคต"
       },
@@ -554,7 +554,7 @@
           "is_answer": false
         },
         {
-          "md": "All former bus passengers now cycle.",
+          "md": "Former bus passengers made up most bike-share users.",
           "is_answer": false
         }
       ],
@@ -569,7 +569,7 @@
           "why_md": "เลือกคำตอบที่มีหลักฐานรองรับครบ ไม่เติมข้อมูลเอง"
         }
       ],
-      "answer_explanation_md": "some และ may สอดคล้องกับหลักฐานเชิงสัมพันธ์โดยไม่สรุปเกิน",
+      "answer_explanation_md": "ตอบ Some weekday riders may be using bikes when late buses are unavailable เพราะsome และ may สอดคล้องกับหลักฐานเชิงสัมพันธ์โดยไม่สรุปเกิน โดยเชื่อมการเพิ่มกับเวลารถหยุด แต่คงถ้อยคำไม่แน่นอน",
       "hints": [
         "ขีดเส้นคำหรือประโยคที่เป็นหลักฐาน",
         "ตัดตัวเลือกที่จริงบางส่วนแต่ตอบคนละคำถาม",
@@ -578,7 +578,7 @@
       "distractor_reasons": {
         "0": "weekend unchanged ไม่ได้บอกกลุ่มผู้ใช้",
         "2": "สลับเหตุและผล",
-        "3": "all เกินหลักฐาน"
+        "3": "ไม่มีสัดส่วนผู้ใช้ที่เคยนั่งรถโดยสาร แม้เหตุการณ์สองอย่างเกิดสัมพันธ์กัน"
       },
       "misconception_tags": [
         "over_inference"

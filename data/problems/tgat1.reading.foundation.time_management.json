@@ -392,15 +392,15 @@
       "figures": [],
       "choices": [
         {
-          "md": "Read the whole passage carefully twice so you understand every detail",
+          "md": "Read the passage twice to form a detailed summary before attempting the questions",
           "is_answer": false
         },
         {
-          "md": "Answer only the first question carefully",
+          "md": "Spend the remaining time polishing your answer to the first question",
           "is_answer": false
         },
         {
-          "md": "Guess all 5 answers without reading",
+          "md": "Choose answers by comparing their wording, without consulting the passage",
           "is_answer": false
         },
         {
@@ -426,9 +426,9 @@
         "การอ่านละเอียดสองรอบทันไหม"
       ],
       "distractor_reasons": {
-        "0": "ใช้เวลามากเกินไปสำหรับ 8 นาที",
-        "1": "ทิ้งอีก 4 ข้อ",
-        "2": "เสียโอกาสได้คะแนนจากข้อที่หาได้เร็ว"
+        "0": "เหลือแปดนาที ต้องใช้คำถามชี้ตำแหน่ง การอ่านซ้ำเพื่อสรุปก่อนทำข้อใช้เวลาที่จำกัด",
+        "1": "ทุ่มเวลาข้อแรกโดยยังไม่เก็บข้ออื่นที่อาจหาได้เร็ว",
+        "2": "ละเลยหลักฐานในบทอ่านทั้งที่ยังมีเวลาให้ค้นรายละเอียด"
       },
       "misconception_tags": [],
       "template": null,
@@ -468,7 +468,7 @@
           "is_answer": false
         },
         {
-          "md": "Change every earlier answer before starting them",
+          "md": "Revise earlier answers that sound less natural before attempting the unanswered questions",
           "is_answer": false
         },
         {
@@ -476,7 +476,7 @@
           "is_answer": true
         },
         {
-          "md": "Leave all three blank to avoid guessing",
+          "md": "Leave the unanswered items blank so that you can review the completed passage",
           "is_answer": false
         }
       ],
@@ -491,7 +491,7 @@
           "why_md": "เลือกคำตอบที่มีหลักฐานรองรับครบ ไม่เติมข้อมูลเอง"
         }
       ],
-      "answer_explanation_md": "การ scan รายละเอียดใช้เวลาคุ้มกว่าการอ่านใหม่ทั้งบท",
+      "answer_explanation_md": "ตอบ Answer the detail questions by scanning, then use the remaining time to check marked items เพราะการ scan รายละเอียดใช้เวลาคุ้มกว่าการอ่านใหม่ทั้งบท โดยเก็บข้อที่หาเฉพาะจุดได้เร็วและเผื่อตรวจ",
       "hints": [
         "ขีดเส้นคำหรือประโยคที่เป็นหลักฐาน",
         "ตัดตัวเลือกที่จริงบางส่วนแต่ตอบคนละคำถาม",
@@ -499,8 +499,8 @@
       ],
       "distractor_reasons": {
         "0": "เสี่ยงหมดเวลากับงานเดียว",
-        "1": "เปลี่ยนโดยไม่มีหลักฐานและไม่ทำข้อค้าง",
-        "3": "เสียโอกาสคะแนน"
+        "1": "เปลี่ยนคำตอบจากความรู้สึกเรื่องถ้อยคำโดยยังไม่เก็บข้อที่ค้างและไม่มีหลักฐานใหม่",
+        "3": "ทิ้งโอกาสคะแนนของข้อที่ค้างทั้งที่ยังมีเวลาค้นรายละเอียด"
       },
       "misconception_tags": [
         "stuck_on_one"
@@ -565,7 +565,7 @@
           "why_md": "เลือกคำตอบที่มีหลักฐานรองรับครบ ไม่เติมข้อมูลเอง"
         }
       ],
-      "answer_explanation_md": "inference ควรไม่แรงกว่าข้อความและใช้หลักฐานหลายจุด",
+      "answer_explanation_md": "ตอบ Choose the cautious claim supported by both details, unless the passage states certainty เพราะinference ควรไม่แรงกว่าข้อความและใช้หลักฐานหลายจุด โดยเทียบระดับความแน่นอนกับจำนวนหลักฐาน",
       "hints": [
         "ขีดเส้นคำหรือประโยคที่เป็นหลักฐาน",
         "ตัดตัวเลือกที่จริงบางส่วนแต่ตอบคนละคำถาม",

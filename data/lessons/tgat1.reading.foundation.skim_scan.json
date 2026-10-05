@@ -34,7 +34,7 @@
       "type": "example",
       "label": "ตัวอย่างที่ 1",
       "difficulty": 2,
-      "stem_md": "คำถาม: \"In what year did the travel program feature the market?\"",
+      "stem_md": "อ่านข้อความ: A travel program featured the market in 2015. คำถาม: \"In what year did the travel program feature the market?\"",
       "steps": [
         {
           "do_md": "ชนิดคำถาม: ข้อมูลเฉพาะ (ปี)",

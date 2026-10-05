@@ -174,7 +174,7 @@
         "reading_load": "low"
       },
       "est_seconds": 40,
-      "stem_md": "**A:** Good morning, Green Travel. How may I help you?  \n**B:** Hi, could I speak to Ms. Parn?  \n**A:** ______  \n**B:** Yes, please ask her to call me back. My number is 081-234-5678.",
+      "stem_md": "**A:** Good morning, Green Travel. How may I help you?  \n**B:** Hi, could I speak to Ms. Parn?  \n**A:** ______  \n**B:** Yes, please ask her to call me back. You can use the callback number in my booking record.",
       "figures": [],
       "choices": [
         {
@@ -499,7 +499,7 @@
           "why_md": "คำตอบต้องทำให้บทสนทนาต่อเนื่อง ไม่ใช่แค่มีคำซ้ำ"
         }
       ],
-      "answer_explanation_md": "คำเสนอรับข้อความตรงบทบาทผู้ช่วย",
+      "answer_explanation_md": "ตอบ Would you like to leave a message? เพราะคำเสนอรับข้อความตรงบทบาทผู้ช่วย โดยผู้โทรฝากข้อความในบรรทัดถัดไป",
       "hints": [
         "ดูว่าใครพูดกับใครและต้องการอะไร",
         "ใช้ประโยคก่อนและหลังช่องว่างร่วมกัน",
@@ -573,7 +573,7 @@
           "why_md": "คำตอบต้องทำให้บทสนทนาต่อเนื่อง ไม่ใช่แค่มีคำซ้ำ"
         }
       ],
-      "answer_explanation_md": "พนักงานแจ้งข้อจำกัดและเสนอทางเลือกโดยยังไม่เปลี่ยนนัด",
+      "answer_explanation_md": "ตอบ Tuesday is full. Would Thursday at the same time work? เพราะพนักงานแจ้งข้อจำกัดและเสนอทางเลือกโดยยังไม่เปลี่ยนนัด โดยผู้โทรตอบรับ Thursday เวลาเดิม",
       "hints": [
         "ดูว่าใครพูดกับใครและต้องการอะไร",
         "ใช้ประโยคก่อนและหลังช่องว่างร่วมกัน",

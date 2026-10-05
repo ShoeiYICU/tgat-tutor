@@ -15,12 +15,12 @@
   "blocks": [
     {
       "type": "hook",
-      "body_md": "ข้อเติมข้อความ ตัวเลือกมักเป็น **คำเดียวกันคนละรูป** เช่น decide / decision / decisive / decisively ไม่ต้องรู้ความหมายของทั้งย่อหน้า แค่ดูคำรอบ ๆ ช่องว่างก็ตอบได้"
+      "body_md": "ข้อเติมข้อความ ตัวเลือกมักเป็น **คำเดียวกันคนละรูป** เช่น decide / decision / decisive / decisively เริ่มดูคำรอบช่องว่างเพื่อหาชนิดคำ แต่ยังต้องตรวจความหมายและโครงสร้างทั้งประโยค"
     },
     {
       "type": "concept",
-      "heading": "ตำแหน่งบอกชนิดคำ",
-      "body_md": "| ตำแหน่ง | ต้องการ | ตัวอย่าง |\n|---|---|---|\n| หลัง a/an/the/his/their | คำนาม | the **decision** |\n| หน้าคำนาม | คุณศัพท์ | a **careful** plan |\n| หลัง is/are/become/seem | คุณศัพท์ | It seems **difficult**. |\n| ขยายกริยา | กริยาวิเศษณ์ | work **carefully** |\n| หลังคำบุพบท (in, of, by, without) | V-ing หรือคำนาม | without **asking** |\n| หลัง to (infinitive) | กริยาช่อง 1 | decided to **go** |"
+      "heading": "ตำแหน่งช่วยจำแนกชนิดคำ ไม่ใช่กฎแทนคำได้ทันที",
+      "body_md": "| ตำแหน่ง | ต้องการ | ตัวอย่าง |\n|---|---|---|\n| ท้ายกลุ่มนามหลัง a/an/the/his/their | คำนาม แต่มีคุณศัพท์คั่นได้ | the **decision** |\n| หน้าคำนาม | มักเป็นคุณศัพท์ หรือคำนามขยายนาม | a **careful** plan |\n| หลัง linking verb ในประโยคบอกสมบัติ | คุณศัพท์ (be อาจตามด้วยนาม V-ing หรือ V3 ในโครงสร้างอื่น) | It seems **difficult**. |\n| ขยายกริยา | กริยาวิเศษณ์ | work **carefully** |\n| หลังคำบุพบท (in, of, by, without) | V-ing หรือคำนาม | without **asking** |\n| หลัง to (infinitive) | กริยาช่อง 1 | decided to **go** |"
     },
     {
       "type": "concept",
@@ -64,11 +64,24 @@
       "misconception_tag": "to_preposition_confusion"
     },
     {
+      "type": "concept",
+      "heading": "โครงสร้างที่ต้องดูทั้งประโยค",
+      "body_md": "keep + กรรม + V-ing บอกให้สิ่งนั้นดำเนินต่อ; have + กรรม + V3 เช่น had the books repaired คือให้ผู้อื่นทำกับสิ่งนั้น ไม่ใช่ present perfect. V-ing ขยายนามอาจย่อจาก relative clause แบบ active ส่วน V3 อาจย่อแบบ passive. เมื่อ Not until + เหตุการณ์ขึ้นต้น ให้สลับกริยาช่วยกับประธานในประโยคหลัก: Not until the lights went out did the staff realize... ไม่สลับอนุประโยคหลัง until. ในเหตุการณ์เล่าอดีตใช้ did + V1 ไม่ใช้ had เพื่อเปลี่ยนลำดับเป็นรู้ก่อน."
+    },
+    {
+      "type": "pitfall",
+      "title": "แปลลำดับคำแบบไทย",
+      "wrong_md": "Not until the lights went out the staff realized...",
+      "why_wrong_md": "เมื่อ Not until นำหน้า ต้องมี inversion ในประโยคหลัก ไม่ใช่เรียงแบบบอกเล่า",
+      "correct_md": "Not until the lights went out did the staff realize...",
+      "misconception_tag": "literal_translation"
+    },
+    {
       "type": "summary",
       "bullets_md": [
-        "หลังคำนำหน้านาม → คำนาม · หน้าคำนาม → คุณศัพท์",
-        "หลัง is/seem → คุณศัพท์ · ขยายกริยา → -ly",
-        "หลังบุพบท → V-ing",
+        "ดูทั้งกลุ่มนาม: คำนำหน้านาม + (คำขยาย) + นามหลัก",
+        "บอกสมบัติหลัง linking verb มักใช้คุณศัพท์ · ขยายกริยาใช้ adverb ซึ่งไม่จำเป็นต้องลงท้าย -ly",
+        "หลังบุพบทใช้กลุ่มนามหรือ V-ing ได้ตามโครงสร้าง",
         "look forward to + V-ing"
       ]
     },

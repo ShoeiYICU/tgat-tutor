@@ -38,7 +38,7 @@
           "is_answer": false
         },
         {
-          "md": "All schools in Thailand should start community gardens.",
+          "md": "School gardening should become part of the national curriculum.",
           "is_answer": false
         },
         {
@@ -64,8 +64,8 @@
         "ตัวเลือกไหนพูดเกินกว่าที่บทอ่านพูด"
       ],
       "distractor_reasons": {
-        "1": "จริง แต่เป็นรายละเอียดเดียว แคบเกินไป",
-        "2": "กว้างเกินไป บทอ่านไม่ได้แนะนำทุกโรงเรียน",
+        "1": "กล่าวถึงวิธีหาเงินเพียงรายละเอียด ไม่ครอบคลุมผลต่อชุมชน และบทอ่านไม่ได้ระบุว่าขายทุกสัปดาห์",
+        "2": "เป็นข้อเสนอระดับประเทศที่บทอ่านเรื่องสวนชุมชนแห่งเดียวไม่ได้เสนอ",
         "3": "เป็นรายละเอียดตอนต้น และพูดเกินกว่าบทอ่าน"
       },
       "misconception_tags": [
@@ -332,7 +332,7 @@
           "is_answer": false
         },
         {
-          "md": "All schools should replace human teachers with robots.",
+          "md": "Human teachers should focus on replacing their lessons with robot practice.",
           "is_answer": false
         },
         {
@@ -360,7 +360,7 @@
       "distractor_reasons": {
         "0": "จริง แต่เป็นรายละเอียดของฝ่ายสนับสนุน แคบเกินไป",
         "1": "ขัดกับข้อสรุปท้ายบท",
-        "2": "กว้างเกินไปและขัดกับข้อสรุปของบทอ่าน"
+        "2": "ขัดกับบทสรุปที่ให้หุ่นยนต์เป็นส่วนเสริม ไม่ใช่แทนการสอนของครู"
       },
       "misconception_tags": [
         "detail_as_main_idea"
@@ -476,11 +476,11 @@
           "is_answer": false
         },
         {
-          "md": "Membership always rises when rules disappear.",
+          "md": "A rise in membership led staff to remove late fees.",
           "is_answer": false
         },
         {
-          "md": "Popular books should never leave libraries.",
+          "md": "Popular titles required longer borrowing periods than other books.",
           "is_answer": false
         },
         {
@@ -499,7 +499,7 @@
           "why_md": "เลือกคำตอบที่มีหลักฐานรองรับครบ ไม่เติมข้อมูลเอง"
         }
       ],
-      "answer_explanation_md": "คำตอบครอบคลุมการเข้าถึงและผลต่อการคืนหนังสือ",
+      "answer_explanation_md": "ตอบ Removing fines improved access without seriously harming returns เพราะคำตอบครอบคลุมการเข้าถึงและผลต่อการคืนหนังสือ โดยสรุปผลดีและข้อกังวลหลักของนโยบาย",
       "hints": [
         "ขีดเส้นคำหรือประโยคที่เป็นหลักฐาน",
         "ตัดตัวเลือกที่จริงบางส่วนแต่ตอบคนละคำถาม",
@@ -507,8 +507,8 @@
       ],
       "distractor_reasons": {
         "0": "ไม่มีข้อมูล daily phone calls",
-        "1": "เหมารวมเกินบท",
-        "2": "สุดโต่งและไม่ใช่ประเด็นรวม"
+        "1": "สลับลำดับนโยบายกับผลที่รายงาน สมาชิกเพิ่มหลังเลิกค่าปรับ",
+        "2": "บทอ่านกล่าวถึงการเตือนคืน ไม่ได้เปรียบเทียบระยะยืมของหนังสือแต่ละชนิด"
       },
       "misconception_tags": [
         "detail_as_main_idea"

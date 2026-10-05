@@ -34,7 +34,7 @@
       "type": "example",
       "label": "ตัวอย่างที่ 1",
       "difficulty": 2,
-      "stem_md": "เรียงจากสุภาพน้อยไปมาก: (ก) Give me a pen. (ข) Could you lend me a pen, please? (ค) Can you lend me a pen?",
+      "stem_md": "เรียงจากสุภาพน้อยไปมาก: (ก) Give me a pen. (ข) Could you lend me a pen, please? (ค) Can you lend me a pen? สมมติว่าน้ำเสียงเป็นกลางและพูดกับคนที่ไม่สนิทในสถานการณ์เดียวกัน",
       "steps": [
         {
           "do_md": "(ก) เป็นคำสั่ง",
@@ -61,17 +61,25 @@
       "misconception_tag": "please_is_enough"
     },
     {
+      "type": "pitfall",
+      "title": "ระดับภาษาไม่เข้าบริบท",
+      "wrong_md": "ใช้ถ้อยคำห้วนในคำขอทางการ หรือซ้อนคำสุภาพจนเยิ่นเย้อ",
+      "why_wrong_md": "ความสุภาพไม่ได้วัดจากจำนวนคำหรือ modal คำเดียว",
+      "correct_md": "เทียบความสัมพันธ์ น้ำเสียง และความชัดเจน",
+      "misconception_tag": "register_mismatch"
+    },
+    {
       "type": "summary",
       "bullets_md": [
         "ความสุภาพมาจากโครงสร้าง ไม่ใช่แค่คำว่า please",
-        "could/would สุภาพกว่า can/will",
+        "could/would มักฟังอ้อมกว่า can/will แต่ต้องดูน้ำเสียงและบริบท",
         "I was wondering if... / Would you mind... สุภาพมาก",
         "บริบทกับเพื่อนไม่ต้องสุภาพสูงสุด"
       ]
     },
     {
       "type": "check",
-      "question_md": "ประโยคใด **สุภาพที่สุด**",
+      "question_md": "ประโยคใด **สุภาพที่สุด** ในคำขอกับคนที่ไม่รู้จัก โดยสมมติน้ำเสียงเป็นกลางเท่ากัน",
       "choices": [
         "Tell me the time.",
         "What time is it?",

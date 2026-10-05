@@ -18,7 +18,7 @@
     {
       "type": "concept",
       "heading": "3 แบบของคำถาม",
-      "body_md": "**1. คำถาม Yes/No:** กริยาช่วย + ประธาน + กริยา\n- Do you like coffee? · Is she a doctor? · Have they arrived?\n\n**2. คำถาม Wh-:** Wh- + กริยาช่วย + ประธาน + กริยา\n- Where do you live? · What did she say? · Why is he late?\n- ยกเว้น Wh- เป็นประธานเอง: **Who called** you? (ไม่ใช่ Who did call)\n\n**3. คำถามทางอ้อม:** Do you know / Could you tell me + Wh- + **ประธาน + กริยา** (ไม่สลับ)\n- Could you tell me where **the bank is**? · Do you know what time **the show starts**?"
+      "body_md": "**1. คำถาม Yes/No:** กริยาช่วย + ประธาน + กริยา\n- Do you like coffee? · Is she a doctor? · Have they arrived?\n\n**2. คำถาม Wh-:** Wh- + กริยาช่วย + ประธาน + กริยา\n- Where do you live? · What did she say? · Why is he late?\n- ยกเว้น Wh- เป็นประธานเอง: **Who called** you? (คำถามปกติไม่ต้องมี did; Who did call? ใช้เน้นได้ในบริบทเฉพาะ)\n\n**3. คำถามทางอ้อม:** Do you know / Could you tell me + Wh- + **ประธาน + กริยา** (ไม่สลับ)\n- Could you tell me where **the bank is**? · Do you know what time **the show starts**?"
     },
     {
       "type": "formula",
@@ -27,7 +27,7 @@
       "variables": [],
       "use_when": "ข้อที่ให้เลือกประโยคคำถามที่ถูกไวยากรณ์",
       "avoid_when": "คำถามทางอ้อมห้ามสลับ ถ้ามี Do you know / Could you tell me / I wonder อยู่ข้างหน้า",
-      "derivation_md": "คำถามตรง: กริยาช่วยต้องมาก่อนประธาน · คำถามทางอ้อม: ประธานต้องมาก่อนกริยา และไม่มี do/does/did",
+      "derivation_md": "คำถามตรงทั่วไปที่ Wh ไม่ใช่ประธานสลับกริยาช่วยกับประธาน ส่วนอนุประโยคคำถามทางอ้อมไม่สลับและไม่เติม do/does/did เพื่อสร้างคำถาม แต่ do ที่เป็นกริยาหลักหรือใช้เน้นยังมีได้",
       "memory_tip": "ตรง = สลับ · อ้อม = ไม่สลับ"
     },
     {
@@ -60,8 +60,8 @@
       "type": "summary",
       "bullets_md": [
         "คำถามตรง: กริยาช่วยก่อนประธาน",
-        "Wh- เป็นประธาน: ไม่ใช้ do (Who called?)",
-        "คำถามทางอ้อม: ประธานก่อนกริยา ไม่ใช้ do/does/did"
+        "Wh- เป็นประธาน: คำถามปกติไม่เติม do แต่ใช้เน้นได้",
+        "คำถามทางอ้อม: ไม่สลับแบบคำถาม และไม่เติม do เพื่อสร้างคำถาม; do เป็นกริยาหลักได้"
       ]
     },
     {

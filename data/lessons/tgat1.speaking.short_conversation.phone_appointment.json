@@ -59,6 +59,14 @@
       "misconception_tag": "phone_phrase_misuse"
     },
     {
+      "type": "pitfall",
+      "title": "ไม่อ่านประโยคหลังช่องว่าง",
+      "wrong_md": "เลือกคำตอบที่เข้ากับประโยคก่อนหน้าแต่ขัดกับคำตอบถัดไป",
+      "why_wrong_md": "บรรทัดถัดไปบอกว่าคู่สนทนารับ เข้าใจ หรือถามต่อเรื่องใด",
+      "correct_md": "เติมทุกตัวเลือกแล้วอ่านต่อทั้งสองฝั่ง",
+      "misconception_tag": "ignore_next_line"
+    },
+    {
       "type": "summary",
       "bullets_md": [
         "Speaking = ฉันเองคือคนที่คุณขอสาย",
@@ -69,7 +77,7 @@
     },
     {
       "type": "check",
-      "question_md": "**A:** Hello, is this 02-555-1234?  \n**B:** No, it's 02-555-1243.  \n**A:** ______",
+      "question_md": "**A:** Hello, is this Lakeside Library?  \n**B:** No, this is Mountain Bookshop.  \n**A:** ______",
       "choices": [
         "Speaking.",
         "Oh, sorry. I must have the wrong number.",

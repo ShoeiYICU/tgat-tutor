@@ -322,7 +322,7 @@
         "reading_load": "low"
       },
       "est_seconds": 35,
-      "stem_md": "**A:** Didn't you see my message?  \n**B:** ______ My phone was off all afternoon.",
+      "stem_md": "A sent the message this afternoon, while B's phone was off. B has not switched it on since then.\n\n**A:** Didn't you see my message?  \n**B:** ______ My phone was off all afternoon.",
       "figures": [],
       "choices": [
         {
@@ -338,7 +338,7 @@
           "is_answer": false
         },
         {
-          "md": "Yes, I did. My phone was off all afternoon, though.",
+          "md": "Yes, I did. It arrived while my phone was switched on this afternoon.",
           "is_answer": false
         }
       ],
@@ -360,9 +360,9 @@
         "กริยาช่วยในคำตอบต้องตรงกับคำถาม"
       ],
       "distractor_reasons": {
-        "0": "ใช้กริยาช่วยไม่ตรงกับคำถามที่ใช้ did",
+        "0": "ในคำตอบนี้ seen ที่หมายถึงเห็นข้อความขาดกรรม เช่น it; present perfect ไม่ได้ผิดเพียงเพราะคำถามใช้ did",
         "2": "ผสม Yes กับปฏิเสธ",
-        "3": "บอกว่าเห็นข้อความ ขัดกับเหตุผลว่าโทรศัพท์ปิด"
+        "3": "โจทย์เพิ่มว่าข้อความเพิ่งส่งระหว่างช่วงบ่ายที่โทรศัพท์ปิดอยู่ จึงยังไม่ได้เห็น ไม่ใช่แค่สันนิษฐานว่าเปิดเครื่องไม่ได้ตลอดวัน"
       },
       "misconception_tags": [
         "thai_style_yes_no"
@@ -501,7 +501,7 @@
           "why_md": "คำตอบต้องทำหน้าที่ต่อบทสนทนา ไม่ใช่แค่มีคำซ้ำ"
         }
       ],
-      "answer_explanation_md": "No, not yet สอดคล้องกับการยังรอลายเซ็น",
+      "answer_explanation_md": "ตอบ No, not yet. I'm waiting for one signature เพราะNo, not yet สอดคล้องกับการยังรอลายเซ็น โดยคำถามปฏิเสธต้องตอบตามข้อเท็จจริงว่าส่งหรือยัง",
       "hints": [
         "ดูว่าผู้พูดกำลังถาม ขอ เชิญ หรือแสดงความรู้สึก",
         "ตัดตัวเลือกที่ไวยากรณ์ได้แต่ตอบคนละหน้าที่",
@@ -575,7 +575,7 @@
           "why_md": "คำตอบต้องทำหน้าที่ต่อบทสนทนา ไม่ใช่แค่มีคำซ้ำ"
         }
       ],
-      "answer_explanation_md": "I did ยืนยันว่าเผลอเขียนทับจริง แล้วกล่าวถึงทางกู้คืน",
+      "answer_explanation_md": "ตอบ I'm afraid I did, but the backup should restore it เพราะI did ยืนยันว่าเผลอเขียนทับจริง แล้วกล่าวถึงทางกู้คืน โดยtag question ใช้ยืนยันเหตุที่ผู้ถามกังวล",
       "hints": [
         "ดูว่าผู้พูดกำลังถาม ขอ เชิญ หรือแสดงความรู้สึก",
         "ตัดตัวเลือกที่ไวยากรณ์ได้แต่ตอบคนละหน้าที่",

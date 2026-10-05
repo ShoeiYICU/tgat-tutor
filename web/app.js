@@ -528,7 +528,7 @@ function renderLesson(el, L, c, t) {
       case "pitfall":
         return `<div class="block pitfall"><div class="tag">จุดที่คนพลาดบ่อย</div>
           <h3 style="margin-top:0">${mdi(b.title, figs)}</h3>
-          <div class="box-wrong"><b>คิดผิด:</b> ${md(b.wrong_md, figs)}</div>
+          ${b.wrong_md.trim() === b.title.trim() ? "" : `<div class="box-wrong"><b>คิดผิด:</b> ${md(b.wrong_md, figs)}</div>`}
           ${md(b.why_wrong_md, figs)}
           <div class="box-right"><b>ที่ถูก:</b> ${md(b.correct_md, figs)}</div></div>`;
       case "summary":
@@ -801,13 +801,32 @@ async function pageExam(sid, size) {
   const bank = await getJSON(`data/exam/${sid}.json`);
   const entries = [];
   const short = [];
-  for (const sec of secs) {
-    const pool = shuffle(bank.items.filter((p) => p.topic.startsWith(sec.id + "."))
-      .map((p) => ({ base: p, topic: p.topic })));
-    const want = Math.max(1, Math.round(sec.n * frac));
-    if (pool.length < want) short.push(`${sec.name} (มี ${pool.length} จาก ${want} ข้อ)`);
-    entries.push(...pool.slice(0, want));
-  }
+  // แบ่งจำนวนข้อให้แต่ละส่วนแบบเศษมากได้ก่อน ผลรวมจึงตรงกับจำนวนที่ปุ่มประกาศเสมอ
+  // (ปัดแยกทีละส่วนทำให้ครึ่งชุดและชุดสั้นได้ข้อเกินมา 1-2 ข้อ)
+  const total = size === "full" ? secs.reduce((a, x) => a + x.n, 0) : Math.round(bp.items * frac);
+  const exact = secs.map((x) => x.n * frac);
+  const quota = exact.map((v) => Math.max(1, Math.floor(v)));
+  const order = exact.map((v, i) => [v - Math.floor(v), i]).sort((a, b) => b[0] - a[0]);
+  for (let k = 0; quota.reduce((a, v) => a + v, 0) < total; k++) quota[order[k % order.length][1]]++;
+  // ข้อที่ใช้บทอ่านเดียวกันไม่ออกพร้อมกันในชุดเดียว เพราะตัวเลือกของข้อหนึ่งอาจบอกคำตอบของอีกข้อ
+  // ใช้กับ TGAT1 และ TGAT2 ที่มีบทอ่านหรือสถานการณ์ร่วมจริง วิชาอื่นโจทย์ยาวเพราะคำสั่ง ไม่ใช่เพราะใช้เรื่องเดียวกัน
+  const sharesPassage = sid === "tgat1" || sid === "tgat2";
+  const passageKey = (p) => (sharesPassage && p.stem_md && p.stem_md.length > 200 ? p.stem_md.slice(0, 80) : null);
+  const usedPassage = new Set();
+  secs.forEach((sec, si) => {
+    const pool = shuffle(bank.items.filter((p) => p.topic.startsWith(sec.id + ".")));
+    const want = quota[si];
+    const picked = [];
+    for (const p of pool) {
+      if (picked.length >= want) break;
+      const key = passageKey(p);
+      if (key && usedPassage.has(key)) continue;
+      if (key) usedPassage.add(key);
+      picked.push({ base: p, topic: p.topic });
+    }
+    if (picked.length < want) short.push(`${sec.name} (มี ${picked.length} จาก ${want} ข้อ)`);
+    entries.push(...picked);
+  });
   const items = shuffle(entries).sort((a, b) => a.base.difficulty - b.base.difficulty);
   const limitSec = Math.round(bp.minutes * 60 * frac);
 

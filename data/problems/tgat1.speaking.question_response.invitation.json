@@ -98,7 +98,7 @@
         "reading_load": "low"
       },
       "est_seconds": 35,
-      "stem_md": "**A:** We're having a small party for Nat's birthday on Saturday. Would you like to come?  \n**B:** ______",
+      "stem_md": "Choose a polite refusal that explains a scheduling conflict.\n\n**A:** We're having a small party for Nat's birthday on Saturday. Would you like to come?  \n**B:** ______",
       "figures": [],
       "choices": [
         {
@@ -137,7 +137,7 @@
       ],
       "distractor_reasons": {
         "0": "ปฏิเสธโดยบอกว่าไม่ชอบ ซึ่งไม่สุภาพกับคนที่ชวน",
-        "2": "ตีความ Would you like ว่าชอบไหม",
+        "2": "แสดงว่าชอบงานและไม่ได้ปฏิเสธพร้อมเหตุเรื่องตารางเวลา ตามคำสั่งที่โจทย์ถาม",
         "3": "ปฏิเสธห้วนเกินไป ไม่มีขอบคุณหรือเหตุผลที่ชัด"
       },
       "misconception_tags": [
@@ -499,7 +499,7 @@
           "why_md": "คำตอบต้องทำหน้าที่ต่อบทสนทนา ไม่ใช่แค่มีคำซ้ำ"
         }
       ],
-      "answer_explanation_md": "ตอบรับและถามรายละเอียดต่อเหมาะกับคำเชิญ",
+      "answer_explanation_md": "ตอบ I'd love to. What time should I come? เพราะตอบรับและถามรายละเอียดต่อเหมาะกับคำเชิญ โดยเป็นคำเชิญแบบไม่เป็นทางการ",
       "hints": [
         "ดูว่าผู้พูดกำลังถาม ขอ เชิญ หรือแสดงความรู้สึก",
         "ตัดตัวเลือกที่ไวยากรณ์ได้แต่ตอบคนละหน้าที่",
@@ -573,7 +573,7 @@
           "why_md": "คำตอบต้องทำหน้าที่ต่อบทสนทนา ไม่ใช่แค่มีคำซ้ำ"
         }
       ],
-      "answer_explanation_md": "ปฏิเสธอย่างสุภาพพร้อมเหตุผลที่ชัดและไม่เปิดความหวังผิด",
+      "answer_explanation_md": "ตอบ I wish I could, but I'm covering a shift that evening เพราะปฏิเสธอย่างสุภาพพร้อมเหตุผลที่ชัดและไม่เปิดความหวังผิด โดยผู้พูดเชิญและยอมรับว่าแจ้งกระชั้น",
       "hints": [
         "ดูว่าผู้พูดกำลังถาม ขอ เชิญ หรือแสดงความรู้สึก",
         "ตัดตัวเลือกที่ไวยากรณ์ได้แต่ตอบคนละหน้าที่",

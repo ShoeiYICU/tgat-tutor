@@ -15,7 +15,7 @@
   "blocks": [
     {
       "type": "hook",
-      "body_md": "\"Would you mind if I sat here?\" ถ้าอยากให้นั่ง ต้องตอบว่า **\"No, not at all.\"** ไม่ใช่ \"Yes\" เพราะคำถามถามว่า **รังเกียจไหม** การตอบ Yes แปลว่ารังเกียจ"
+      "body_md": "\"Would you mind if I sat here?\" ถ้าอยากให้นั่ง ต้องตอบว่า **\"No, not at all.\"** ไม่ใช่ \"Yes\" เพราะคำถามถามว่า **รังเกียจไหม** Yes ตามความหมายตรงของ mind คือรังเกียจ แต่ภาษาพูดอาจตอบรับคำขอด้วย yes; ต้องดูคำตอบเต็มและบริบท"
     },
     {
       "type": "concept",
@@ -25,7 +25,7 @@
     {
       "type": "concept",
       "heading": "กับดัก Would you mind...?",
-      "body_md": "- **Would you mind + V-ing / if I...?** = รังเกียจไหม ถ้า...\n- ยอม → **No, not at all. / Of course not. / No, go ahead.**\n- ไม่ยอม → **Sorry, I'd rather you didn't.** / **I'm afraid...** + เหตุผล\n\nตัวลวงยอดนิยมคือ \"Yes, of course.\" ซึ่งฟังดูสุภาพ แต่ความหมายคือ **ใช่ ฉันรังเกียจแน่นอน**"
+      "body_md": "- **Would you mind + V-ing / if I...?** = รังเกียจไหม ถ้า...\n- ยอม → **No, not at all. / Of course not. / No, go ahead.**\n- ไม่ยอม → **Sorry, I'd rather you didn't.** / **I'm afraid...** + เหตุผล\n\nตัวลวงยอดนิยมคือ \"Yes, of course.\" ซึ่งฟังดูสุภาพ แต่ความหมายตามตรงคือ **ใช่ ฉันรังเกียจ** แต่ในภาษาพูดอาจเป็นการตอบรับ จึงไม่ควรตัดสินจาก yes คำเดียว"
     },
     {
       "type": "formula",
@@ -33,7 +33,7 @@
       "formula_tex": "",
       "variables": [],
       "use_when": "เมื่อแยกไม่ออกว่าเป็นการขอร้องหรือเสนอความช่วยเหลือ",
-      "avoid_when": "ใช้กับประโยค Would you mind ไม่ได้ ต้องใช้กฎตอบปฏิเสธเมื่อยอมแทน",
+      "avoid_when": "กับ Would you mind ยังแยกผู้ทำได้ แต่ต้องตรวจความหมาย mind และคำตอบเต็มร่วมด้วย",
       "derivation_md": "ถ้าผู้พูดจะทำเอง (Shall I carry it?) = เสนอช่วย ตอบ Yes, please / No, thanks · ถ้าผู้พูดขอให้อีกฝ่ายทำ (Could you carry it?) = ขอร้อง ตอบ Sure / Sorry, I can't",
       "memory_tip": "Would you mind → ยอม = No"
     },
@@ -48,7 +48,7 @@
           "why_md": "ถามว่ารังเกียจไหมที่จะลดเสียง"
         },
         {
-          "do_md": "ถ้ายอม ต้องตอบปฏิเสธ",
+          "do_md": "ถ้ายอม ใช้คำตอบที่บอกว่าไม่รังเกียจเพื่อให้ชัด",
           "why_md": "Not at all. Sorry about that."
         }
       ],
@@ -57,15 +57,15 @@
     },
     {
       "type": "pitfall",
-      "title": "ตอบ Yes กับ Would you mind",
+      "title": "ตอบตามความหมายตรงของ mind ให้สอดคล้อง",
       "wrong_md": "A: Would you mind if I borrowed your pen? → B: \"Yes, sure. Here you are.\"",
-      "why_wrong_md": "Yes แปลว่ารังเกียจ แต่ Here you are คือให้ยืม ข้อความขัดกันเอง",
+      "why_wrong_md": "ตามความหมายตรงของ mind, Yes คือรังเกียจ แต่ Here you are คือให้ยืม; ภาษาพูดอาจใช้ Yes ตอบรับคำขอได้ จึงควรใช้ No, not at all ให้ชัดในแบบฝึก",
       "correct_md": "\"No, not at all. Here you are.\"",
       "misconception_tag": "would_you_mind_yes"
     },
     {
       "type": "pitfall",
-      "title": "ตอบข้อเสนอด้วย Sure",
+      "title": "สลับผู้ทำในการตอบข้อเสนอ",
       "wrong_md": "A: Shall I open the window for you? → B: \"Sure, I can.\"",
       "why_wrong_md": "A จะเป็นคนเปิด ไม่ใช่ B คำว่า I can ผิดหน้าที่",
       "correct_md": "\"Yes, please. Thank you.\"",
@@ -79,6 +79,19 @@
         "ขออนุญาต: May I...? → Sure, go ahead",
         "Would you mind...? → ยอม = No, not at all"
       ]
+    },
+    {
+      "type": "concept",
+      "heading": "คำขอแบบสำนวนและ mind",
+      "body_md": "keep an eye on my bag คือช่วยเฝ้ากระเป๋า ไม่ใช่เอาตาวางบนของ. การอ่านว่าใครจะลงมือใช้ได้กับ Would you mind ด้วย: mind closing... ขอให้อีกฝ่ายทำ ส่วน mind if I... ผู้พูดขออนุญาตทำ. ตามความหมายตรง mind คือรังเกียจ แต่ Yes, sure อาจใช้รับคำขอในภาษาพูด; อ่านทั้งคำตอบ ไม่ตั้งกฎห้าม yes ทุกบริบท."
+    },
+    {
+      "type": "pitfall",
+      "title": "แปลคำขอแบบสำนวนตรงตัว",
+      "wrong_md": "keep an eye on my bag คือถามเรื่องสายตา",
+      "why_wrong_md": "สำนวนนี้หมายถึงช่วยดูแลของชั่วคราว",
+      "correct_md": "ตอบรับหรือปฏิเสธการเฝ้ากระเป๋า",
+      "misconception_tag": "literal_translation"
     },
     {
       "type": "check",

@@ -67,6 +67,14 @@
       "misconception_tag": "sorry_to_hear_as_apology"
     },
     {
+      "type": "pitfall",
+      "title": "จับคำซ้ำแทนหน้าที่",
+      "wrong_md": "ตอบ I stayed late, too เมื่ออีกฝ่ายขอบคุณที่ช่วย",
+      "why_wrong_md": "พูดถึง stayed late แต่ไม่รับคำขอบคุณ",
+      "correct_md": "ตอบรับคำขอบคุณ เช่น I'm glad I could help",
+      "misconception_tag": "word_match_trap"
+    },
+    {
       "type": "summary",
       "bullets_md": [
         "ขอบคุณ → You're welcome / No problem / My pleasure",

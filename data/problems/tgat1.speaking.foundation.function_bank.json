@@ -26,7 +26,7 @@
         "reading_load": "low"
       },
       "est_seconds": 25,
-      "stem_md": "**A:** You look pale. Why don't you see a doctor?  \n**B:** ______",
+      "stem_md": "B has not seen a doctor yet and still feels unwell.\n\n**A:** You look pale. Why don't you see a doctor?  \n**B:** ______",
       "figures": [],
       "choices": [
         {
@@ -34,7 +34,7 @@
           "is_answer": false
         },
         {
-          "md": "Because the doctor is very busy.",
+          "md": "I saw a doctor yesterday and felt much better afterward.",
           "is_answer": false
         },
         {
@@ -65,7 +65,7 @@
       ],
       "distractor_reasons": {
         "0": "เป็นคำตอบของ Would you mind",
-        "1": "ตอบด้วย Because เหมือนถูกถามเหตุผล ทั้งที่เป็นคำแนะนำ",
+        "1": "คำตอบกล่าวว่าอาการดีขึ้นแล้ว ขัดกับบทที่ต้องเพิ่มข้อมูลว่ายังไม่ได้พบแพทย์",
         "2": "ตีความ Why don't you ว่าถามเหตุผล"
       },
       "misconception_tags": [
@@ -108,7 +108,7 @@
           "is_answer": true
         },
         {
-          "md": "Yes, of course. Go ahead.",
+          "md": "No, I won't be leaving early.",
           "is_answer": false
         },
         {
@@ -131,14 +131,14 @@
           "why_md": "No, that's fine."
         }
       ],
-      "answer_explanation_md": "ตอบ No, that's fine. เพราะ Would you mind ถ้ายอมต้องตอบปฏิเสธว่าไม่รังเกียจ",
+      "answer_explanation_md": "ตอบ No, that's fine. เพราะ No ปฏิเสธว่าขัดข้อง และ that's fine ยืนยันว่าอนุญาตให้ A กลับก่อน ข้อความทั้งสองส่วนสอดคล้องกัน",
       "hints": [
         "ประโยคนี้ทำหน้าที่อะไร",
         "Would you mind ถามว่ารังเกียจไหม ถ้ายอมต้องตอบอย่างไร",
         "ระวังตัวเลือกที่ขึ้นต้นด้วย Yes"
       ],
       "distractor_reasons": {
-        "1": "Yes แปลว่ารังเกียจ ขัดกับ Go ahead",
+        "1": "บอกว่าจะไม่กลับก่อนเอง ไม่ตอบว่าอนุญาตให้ A กลับก่อนหรือไม่ จึงสลับผู้ทำ",
         "2": "ตอบเหมือนได้รับความช่วยเหลือ",
         "3": "ตีความว่าชวนกลับด้วยกัน"
       },
@@ -499,7 +499,7 @@
           "why_md": "คำตอบต้องทำให้บทสนทนาต่อเนื่อง ไม่ใช่แค่มีคำซ้ำ"
         }
       ],
-      "answer_explanation_md": "B เสนอช่วย A",
+      "answer_explanation_md": "ตอบ Offering help เพราะB เสนอช่วย A โดยShall I และ give you a hand",
       "hints": [
         "ดูว่าใครพูดกับใครและต้องการอะไร",
         "ใช้ประโยคก่อนและหลังช่องว่างร่วมกัน",
@@ -573,7 +573,7 @@
           "why_md": "คำตอบต้องทำให้บทสนทนาต่อเนื่อง ไม่ใช่แค่มีคำซ้ำ"
         }
       ],
-      "answer_explanation_md": "Would it be possible เป็นคำขอ และ I'm afraid นำการปฏิเสธ",
+      "answer_explanation_md": "ตอบ A requests politely; B refuses politely with a reason เพราะWould it be possible เป็นคำขอ และ I'm afraid นำการปฏิเสธ โดยวิเคราะห์หน้าที่ทีละบรรทัด",
       "hints": [
         "ดูว่าใครพูดกับใครและต้องการอะไร",
         "ใช้ประโยคก่อนและหลังช่องว่างร่วมกัน",

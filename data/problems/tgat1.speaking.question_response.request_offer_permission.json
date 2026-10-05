@@ -320,7 +320,7 @@
         "reading_load": "low"
       },
       "est_seconds": 50,
-      "stem_md": "**A:** Would you mind if I opened the window?  \n**B:** ______",
+      "stem_md": "The window is closed at the moment.\n\n**A:** Would you mind if I opened the window?  \n**B:** ______",
       "figures": [],
       "choices": [
         {
@@ -332,7 +332,7 @@
           "is_answer": false
         },
         {
-          "md": "Yes, please open it.",
+          "md": "Yes, please keep it closed. The window is open now.",
           "is_answer": false
         },
         {
@@ -348,7 +348,7 @@
         },
         {
           "do_md": "ตรวจความสอดคล้องของทุกตัวเลือก",
-          "why_md": "สามตัวเลือกขัดกันเองระหว่างคำตอบกับการกระทำ"
+          "why_md": "สองตัวเลือกขัดกันเอง ส่วนอีกตัวบอกว่าหน้าต่างเปิดอยู่ ขัดกับข้อมูลว่าปิดอยู่"
         },
         {
           "do_md": "ปฏิเสธสุภาพ: I'd rather you didn't + เหตุผล",
@@ -364,7 +364,7 @@
       "distractor_reasons": {
         "0": "Not at all คือยอม แต่ I'd rather you didn't คือไม่ยอม ขัดกันเอง",
         "1": "No แปลว่าไม่รังเกียจ แต่ต่อด้วย I would mind ขัดกันเอง",
-        "2": "Yes ในที่นี้แปลว่ารังเกียจ แต่ต่อด้วยให้เปิด ข้อความขัดกัน"
+        "2": "ตัวเลือกว่าหน้าต่างเปิดอยู่ขัดกับเงื่อนไขในโจทย์ที่ระบุว่าปิดอยู่ จึงผิดจากข้อมูล ไม่ใช้กฎว่า Yes ผิดทุกกรณี"
       },
       "misconception_tags": [
         "would_you_mind_yes"
@@ -503,7 +503,7 @@
           "why_md": "คำตอบต้องทำหน้าที่ต่อบทสนทนา ไม่ใช่แค่มีคำซ้ำ"
         }
       ],
-      "answer_explanation_md": "ตอบรับและทวนสิ่งที่จะช่วยได้ตรงหน้าที่",
+      "answer_explanation_md": "ตอบ Of course. I'll watch it for you เพราะตอบรับและทวนสิ่งที่จะช่วยได้ตรงหน้าที่ โดยเป็นคำขอให้ช่วยดูแลของชั่วคราว",
       "hints": [
         "ดูว่าผู้พูดกำลังถาม ขอ เชิญ หรือแสดงความรู้สึก",
         "ตัดตัวเลือกที่ไวยากรณ์ได้แต่ตอบคนละหน้าที่",
@@ -546,11 +546,11 @@
         "reading_load": "low"
       },
       "est_seconds": 55,
-      "stem_md": "**A:** Would you mind if I moved your notes to this shelf?  \n**B:** ______",
+      "stem_md": "B needs the desk cleared but wants to keep the notes for later use.\n\n**A:** Would you mind if I moved your notes to this shelf?  \n**B:** ______",
       "figures": [],
       "choices": [
         {
-          "md": "Yes, of course. Please go ahead.",
+          "md": "Yes, of course. Please throw the notes away.",
           "is_answer": false
         },
         {
@@ -577,14 +577,14 @@
           "why_md": "คำตอบต้องทำหน้าที่ต่อบทสนทนา ไม่ใช่แค่มีคำซ้ำ"
         }
       ],
-      "answer_explanation_md": "Not at all แปลว่าไม่ขัดข้องและเหตุผลถัดมาสอดคล้องกัน",
+      "answer_explanation_md": "ตอบ Not at all. I need the desk space too เพราะNot at all แปลว่าไม่ขัดข้องและเหตุผลถัดมาสอดคล้องกัน โดยWould you mind if I ... ถามว่าขัดข้องหรือไม่",
       "hints": [
         "ดูว่าผู้พูดกำลังถาม ขอ เชิญ หรือแสดงความรู้สึก",
         "ตัดตัวเลือกที่ไวยากรณ์ได้แต่ตอบคนละหน้าที่",
         "เลือกคำตอบที่ทำให้บทสนทนาดำเนินต่ออย่างเป็นธรรมชาติ"
       ],
       "distractor_reasons": {
-        "0": "Yes ตอบ Would you mind แปลว่าขัดข้อง จึงขัดกับ go ahead ที่ตามมา เป็นข้อผิดที่พบบ่อย",
+        "0": "ชวนทิ้งโน้ตขัดกับข้อมูลที่ระบุว่า B ต้องการเก็บไว้ใช้ภายหลัง ไม่ใช่ผิดเพราะขึ้นต้น Yes",
         "1": "บอกเวลาที่ได้รับชั้นวางแต่ไม่ตอบว่าอนุญาตให้ย้ายโน้ตหรือไม่",
         "2": "กล่าวถึงขนาดชั้นวางแทนการอนุญาตให้ย้ายโน้ต"
       },

@@ -54,9 +54,14 @@
       "type": "pitfall",
       "title": "เลือกคำนามที่ใกล้ที่สุด",
       "wrong_md": "\"The council introduced a rule for the boats. **It** was strongly supported by residents.\" → เลือก the boats",
-      "why_wrong_md": "the boats เป็นพหูพจน์ ไม่ตรงกับ it และเรือไม่ได้รับการสนับสนุน",
+      "why_wrong_md": "the boats เป็นพหูพจน์ ไม่ตรงกับ it; ต้องตรวจรูปและบริบท ไม่ใช่อ้างว่าเรือรับการสนับสนุนไม่ได้",
       "correct_md": "It = the rule",
       "misconception_tag": "nearest_noun_trap"
+    },
+    {
+      "type": "concept",
+      "heading": "คำอ้างถึงไม่ใช่แค่ it/they",
+      "body_md": "the former หมายถึงรายการแรกจากสองรายการ ส่วน the latter คือรายการหลัง. hers/his เป็นคำแสดงความเป็นเจ้าของที่แทนกลุ่มนาม ต้องดูว่าของใครจากบริบท ไม่เลือกผู้หญิงที่ใกล้ที่สุดอัตโนมัติ. this อาจหมายถึงหลายเหตุการณ์รวมกัน และ it ใน It is raining เป็นประธานรูปแบบ ไม่ได้แทนคำนามก่อนหน้า."
     },
     {
       "type": "summary",

@@ -495,7 +495,7 @@
           "why_md": "เลือกคำตอบที่มีหลักฐานรองรับครบ ไม่เติมข้อมูลเอง"
         }
       ],
-      "answer_explanation_md": "is agrees with list และสร้าง passive is posted",
+      "answer_explanation_md": "ตอบ is เพราะis agrees with list และสร้าง passive is posted โดยประธานแก่นคือ The list เอกพจน์",
       "hints": [
         "ขีดเส้นคำหรือประโยคที่เป็นหลักฐาน",
         "ตัดตัวเลือกที่จริงบางส่วนแต่ตอบคนละคำถาม",
@@ -569,7 +569,7 @@
           "why_md": "เลือกคำตอบที่มีหลักฐานรองรับครบ ไม่เติมข้อมูลเอง"
         }
       ],
-      "answer_explanation_md": "เหลือประธาน The reports กับกริยาหลัก were approved",
+      "answer_explanation_md": "ตอบ The reports were approved เพราะเหลือประธาน The reports กับกริยาหลัก were approved โดยตัด relative clauses that... และ who... ออก",
       "hints": [
         "ขีดเส้นคำหรือประโยคที่เป็นหลักฐาน",
         "ตัดตัวเลือกที่จริงบางส่วนแต่ตอบคนละคำถาม",

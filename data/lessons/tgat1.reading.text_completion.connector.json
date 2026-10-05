@@ -64,6 +64,11 @@
       "misconception_tag": "connector_grammar"
     },
     {
+      "type": "concept",
+      "heading": "รูปประโยคและเครื่องหมาย",
+      "body_md": "however/therefore ใช้ได้หลายตำแหน่ง ไม่ใช่เฉพาะต้นประโยค แต่ห้ามใช้ comma อย่างเดียวเชื่อมสองประโยคอิสระในรูปแบบมาตรฐาน. ตัวอย่าง: She was tired; nevertheless, she finished the work. คำ although/because นำอนุประโยค และ despite ใช้กลุ่มนามหรือ V-ing; despite the fact that + ประโยคก็ใช้ได้ เพราะมี the fact เป็นนาม."
+    },
+    {
       "type": "summary",
       "bullets_md": [
         "เพิ่ม: moreover · แย้ง: however · เหตุ: because · ผล: therefore",

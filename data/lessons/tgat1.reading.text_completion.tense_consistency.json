@@ -36,7 +36,7 @@
       "type": "example",
       "label": "ตัวอย่างที่ 1",
       "difficulty": 2,
-      "stem_md": "Three years ago, the land was full of rubbish. Today, it ______ a community garden.\n\n(was / is / has been / will be)",
+      "stem_md": "Three years ago, the land was full of rubbish. Today, it ______ a community garden. เลือกกริยา present simple เพื่อกล่าวถึงสภาพปัจจุบัน\n\n(was / is / has been / will be)",
       "steps": [
         {
           "do_md": "คำบอกเวลา: Today",
@@ -59,12 +59,17 @@
       "misconception_tag": "perfect_with_past_time"
     },
     {
+      "type": "concept",
+      "heading": "คำบอกเวลาไม่ใช่ตัวสั่งกาลตายตัว",
+      "body_md": "already ใช้กับ past simple หรือ past perfect ได้ เช่น I already knew และ had already left; since อาจอยู่ในประโยคเล่าอดีตที่ใช้ past perfect. now/tomorrow ก็มีรูปกาลได้หลายแบบตามหน้าที่. Present perfect passive ใช้ has/have been + V3 เช่น has been open ไม่ใช่ passive เมื่อ open เป็นคุณศัพท์. ตรวจทั้งโครงสร้างและความสัมพันธ์ก่อน–หลัง ไม่เลือกจากคำบอกเวลาอย่างเดียว."
+    },
+    {
       "type": "summary",
       "bullets_md": [
         "ago / last / in 2015 → past simple",
-        "since / already / so far → present perfect",
+        "since / so far อาจชี้ perfect เมื่อถึงปัจจุบัน; already ใช้กับกาลอื่นได้ด้วย",
         "now / today → present",
-        "ไม่มีคำบอกเวลา ใช้กาลของประโยครอบ ๆ"
+        "ไม่มีคำบอกเวลา ให้ดูความสัมพันธ์ของเหตุการณ์ ไม่คัดลอกกาลเดิมอัตโนมัติ"
       ]
     },
     {

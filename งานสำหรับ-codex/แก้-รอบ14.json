@@ -1,0 +1,937 @@
+[
+  {
+    "id": "prob.tgat1.reading.comprehension.inference.0005",
+    "old": "prefer talking to robots rather than to any human being at all",
+    "new": "prefer working alone instead of attending language classes",
+    "oldReason": "เกินหลักฐาน บทอ่านพูดแค่การฝึกภาษา",
+    "reason": "บทอ่านกล่าวว่าฝึกภาษาได้สบายใจกับหุ่นยนต์ ไม่ได้บอกว่าต้องการเลี่ยงชั้นเรียน"
+  },
+  {
+    "id": "prob.tgat1.reading.comprehension.inference.0005",
+    "old": "never make mistakes",
+    "new": "perform well in English tests",
+    "oldReason": "ขัดกับบทอ่านที่บอกว่ากลัวทำผิด",
+    "reason": "บทอ่านบอกความมั่นใจในการฝึก แต่ไม่มีผลการสอบยืนยันความสามารถ"
+  },
+  {
+    "id": "prob.tgat1.reading.comprehension.inference.0006",
+    "old": "The school had a rule that every student project must be checked by a farmer.",
+    "new": "The farmer had offered to pay for the school's gardening equipment.",
+    "oldReason": "ไม่มีข้อมูลในบทอ่าน",
+    "reason": "บทอ่านบอกว่าขอคำแนะนำ ไม่ได้บอกว่าชาวนาจะออกเงินซื้ออุปกรณ์"
+  },
+  {
+    "id": "prob.tgat1.reading.comprehension.inference.0007",
+    "old": "Every customer preferred silence.",
+    "new": "Customers began visiting the café mainly to work on laptops.",
+    "oldReason": "ไม่มีข้อมูลทุกคน",
+    "reason": "การอยู่นานขึ้นของผู้ใช้ laptop ไม่บอกเหตุที่ลูกค้าเริ่มเข้าร้าน"
+  },
+  {
+    "id": "prob.tgat1.reading.comprehension.inference.0008",
+    "old": "All former bus passengers now cycle.",
+    "new": "Former bus passengers made up most bike-share users.",
+    "oldReason": "all เกินหลักฐาน",
+    "reason": "ไม่มีสัดส่วนผู้ใช้ที่เคยนั่งรถโดยสาร แม้เหตุการณ์สองอย่างเกิดสัมพันธ์กัน"
+  },
+  {
+    "id": "prob.tgat1.reading.comprehension.main_idea.0001",
+    "old": "All schools in Thailand should start community gardens.",
+    "new": "School gardening should become part of the national curriculum.",
+    "oldReason": "กว้างเกินไป บทอ่านไม่ได้แนะนำทุกโรงเรียน",
+    "reason": "เป็นข้อเสนอระดับประเทศที่บทอ่านเรื่องสวนชุมชนแห่งเดียวไม่ได้เสนอ"
+  },
+  {
+    "id": "prob.tgat1.reading.comprehension.main_idea.0007",
+    "old": "Membership always rises when rules disappear.",
+    "new": "A rise in membership led staff to remove late fees.",
+    "oldReason": "เหมารวมเกินบท",
+    "reason": "สลับลำดับนโยบายกับผลที่รายงาน สมาชิกเพิ่มหลังเลิกค่าปรับ"
+  },
+  {
+    "id": "prob.tgat1.reading.comprehension.main_idea.0007",
+    "old": "Popular books should never leave libraries.",
+    "new": "Popular titles required longer borrowing periods than other books.",
+    "oldReason": "สุดโต่งและไม่ใช่ประเด็นรวม",
+    "reason": "บทอ่านกล่าวถึงการเตือนคืน ไม่ได้เปรียบเทียบระยะยืมของหนังสือแต่ละชนิด"
+  },
+  {
+    "id": "prob.tgat1.reading.comprehension.main_idea.0005",
+    "old": "All schools should replace human teachers with robots.",
+    "new": "Human teachers should focus on replacing their lessons with robot practice.",
+    "oldReason": "กว้างเกินไปและขัดกับข้อสรุปของบทอ่าน",
+    "reason": "ขัดกับบทสรุปที่ให้หุ่นยนต์เป็นส่วนเสริม ไม่ใช่แทนการสอนของครู"
+  },
+  {
+    "id": "prob.tgat1.reading.foundation.skim_scan.0007",
+    "old": "Read every sentence aloud from the beginning and pause to translate each difficult phrase",
+    "new": "Read the notice aloud from the beginning, pausing to translate difficult phrases",
+    "oldReason": "ช้าเกินเป้าหมายเฉพาะ",
+    "reason": "การอ่านออกเสียงและแปลตั้งแต่ต้นไม่ค้นวันที่เฉพาะจุด จึงไม่ใช่ขั้นเริ่มที่มีประสิทธิภาพ"
+  },
+  {
+    "id": "prob.tgat1.reading.foundation.skim_scan.0007",
+    "old": "Look up every unfamiliar word",
+    "new": "Look up unfamiliar vocabulary in the introduction",
+    "oldReason": "ไม่จำเป็นต่อการหาเวลา",
+    "reason": "มุ่งศัพท์ต้นประกาศโดยยังไม่หา deadline จึงไม่ตอบรายละเอียดวันที่ที่ต้องการ"
+  },
+  {
+    "id": "prob.tgat1.reading.foundation.time_management.0006",
+    "old": "Read the whole passage carefully twice so you understand every detail",
+    "new": "Read the passage twice to form a detailed summary before attempting the questions",
+    "oldReason": "ใช้เวลามากเกินไปสำหรับ 8 นาที",
+    "reason": "เหลือแปดนาที ต้องใช้คำถามชี้ตำแหน่ง การอ่านซ้ำเพื่อสรุปก่อนทำข้อใช้เวลาที่จำกัด"
+  },
+  {
+    "id": "prob.tgat1.reading.foundation.time_management.0006",
+    "old": "Answer only the first question carefully",
+    "new": "Spend the remaining time polishing your answer to the first question",
+    "oldReason": "ทิ้งอีก 4 ข้อ",
+    "reason": "ทุ่มเวลาข้อแรกโดยยังไม่เก็บข้ออื่นที่อาจหาได้เร็ว"
+  },
+  {
+    "id": "prob.tgat1.reading.foundation.time_management.0006",
+    "old": "Guess all 5 answers without reading",
+    "new": "Choose answers by comparing their wording, without consulting the passage",
+    "oldReason": "เสียโอกาสได้คะแนนจากข้อที่หาได้เร็ว",
+    "reason": "ละเลยหลักฐานในบทอ่านทั้งที่ยังมีเวลาให้ค้นรายละเอียด"
+  },
+  {
+    "id": "prob.tgat1.reading.foundation.time_management.0007",
+    "old": "Change every earlier answer before starting them",
+    "new": "Revise earlier answers that sound less natural before attempting the unanswered questions",
+    "oldReason": "เปลี่ยนโดยไม่มีหลักฐานและไม่ทำข้อค้าง",
+    "reason": "เปลี่ยนคำตอบจากความรู้สึกเรื่องถ้อยคำโดยยังไม่เก็บข้อที่ค้างและไม่มีหลักฐานใหม่"
+  },
+  {
+    "id": "prob.tgat1.reading.foundation.time_management.0007",
+    "old": "Leave all three blank to avoid guessing",
+    "new": "Leave the unanswered items blank so that you can review the completed passage",
+    "oldReason": "เสียโอกาสคะแนน",
+    "reason": "ทิ้งโอกาสคะแนนของข้อที่ค้างทั้งที่ยังมีเวลาค้นรายละเอียด"
+  },
+  {
+    "id": "prob.tgat1.speaking.long_conversation.discourse_marker.0005",
+    "old": "No, not at all. I hate everything.",
+    "new": "No, not really. The pay is poor.",
+    "oldReason": "ตอบด้านแย่อย่างเดียว ขัดกับที่บอกว่าเงินดี",
+    "reason": "ขัดกับประโยคถัดไปที่บอกว่า The pay is good ไม่ใช่ผิดเพราะประเมินงานในทางลบ"
+  },
+  {
+    "id": "prob.tgat1.speaking.long_conversation.discourse_marker.0005",
+    "old": "Absolutely! It's perfect in every way.",
+    "new": "Yes, I love it. The hours are short.",
+    "oldReason": "ตอบด้านดีอย่างเดียว แต่ประโยคต่อมามีทั้งด้านดีและด้านไม่ดี",
+    "reason": "ขัดกับข้อมูล The hours are really long ในประโยคที่ตามมา"
+  },
+  {
+    "id": "prob.tgat1.speaking.question_response.opinion_agreement.0008",
+    "old": "I completely disagree; efficiency is always bad.",
+    "new": "I disagree; the new schedule gives us longer breaks.",
+    "oldReason": "ปฏิเสธสุดโต่งและบิดประเด็น",
+    "reason": "ประโยคแรกระบุว่าไม่มี break ระหว่าง lab จึงกล่าวข้อเท็จจริงตรงข้าม ไม่ใช่เพียงไม่เห็นด้วย"
+  },
+  {
+    "id": "prob.tgat1.speaking.short_conversation.service_encounter.0002",
+    "old": "Yes, we have it in every color and every size.",
+    "new": "Yes, the large size comes in several colors.",
+    "oldReason": "ตอบว่ามีทุกอย่าง แต่ลูกค้าพูดว่า That's fine ซึ่งใช้ยอมรับข้อจำกัด",
+    "reason": "ลูกค้าถาม medium แต่พนักงานตอบ large จึงยังไม่ตอบเรื่องไซซ์ที่ต้องการ"
+  },
+  {
+    "id": "prob.tgat1.speaking.foundation.function_bank.0001",
+    "old": "Because the doctor is very busy.",
+    "new": "I saw a doctor yesterday and felt much better afterward.",
+    "oldReason": "ตอบด้วย Because เหมือนถูกถามเหตุผล ทั้งที่เป็นคำแนะนำ",
+    "reason": "คำตอบกล่าวว่าอาการดีขึ้นแล้ว ขัดกับบทที่ต้องเพิ่มข้อมูลว่ายังไม่ได้พบแพทย์"
+  },
+  {
+    "id": "prob.tgat1.speaking.question_response.request_offer_permission.0005",
+    "old": "Yes, please open it.",
+    "new": "Yes, please keep it closed. The window is open now.",
+    "oldReason": "Yes ในที่นี้แปลว่ารังเกียจ แต่ต่อด้วยให้เปิด ข้อความขัดกัน",
+    "reason": "ตัวเลือกว่าหน้าต่างเปิดอยู่ขัดกับเงื่อนไขในโจทย์ที่ระบุว่าปิดอยู่ จึงผิดจากข้อมูล ไม่ใช้กฎว่า Yes ผิดทุกกรณี"
+  },
+  {
+    "id": "prob.tgat1.speaking.question_response.yesno_and_tag.0005",
+    "old": "Yes, I did. My phone was off all afternoon, though.",
+    "new": "Yes, I did. It arrived while my phone was switched on this afternoon.",
+    "oldReason": "บอกว่าเห็นข้อความ ขัดกับเหตุผลว่าโทรศัพท์ปิด",
+    "reason": "โจทย์เพิ่มว่าข้อความเพิ่งส่งระหว่างช่วงบ่ายที่โทรศัพท์ปิดอยู่ จึงยังไม่ได้เห็น ไม่ใช่แค่สันนิษฐานว่าเปิดเครื่องไม่ได้ตลอดวัน"
+  },
+  {
+    "id": "prob.tgat3.civic.environment.decide_with_impact.0001",
+    "old": "สั่งคนละ 2 ตัวตามที่เสนอ เพราะถ้าสั่งเยอะจะได้ราคาถูกลงต่อตัว และทุกคนจะมีไว้เปลี่ยนใส่",
+    "new": "สั่งคนละ 2 ตัวตามข้อเสนอ เพื่อให้ราคาต่อตัวลดลงและมีตัวสำรองไว้เปลี่ยน",
+    "oldReason": "ได้ราคาดี แต่อาจเกิดเสื้อที่ไม่ได้ใช้ ซึ่งสิ้นเปลืองทั้งเงินและทรัพยากร",
+    "reason": "เน้นส่วนลดกับตัวสำรองโดยยังไม่สำรวจจำนวนที่แต่ละคนใช้จริง อาจเหลือเสื้อที่ไม่ได้ใช้ จึงด้อยกว่ากำหนดหนึ่งตัวเพื่อลดการใช้และด้อยกว่าตามความต้องการ"
+  },
+  {
+    "id": "prob.tgat3.civic.environment.decide_with_impact.0003",
+    "old": "พิมพ์ต่อไปเหมือนเดิม เพราะเป็นวิธีที่ทุกคนคุ้นเคย",
+    "new": "พิมพ์รูปแบบเดิมต่อไปเพื่อให้ค้นหน้าเอกสารระหว่างประชุมได้สะดวก",
+    "oldReason": "ไม่ได้คิดถึงผลต่อสิ่งแวดล้อมและต้นทุน",
+    "reason": "ให้ความสะดวกในการค้นหน้าโดยไม่ลดเอกสารที่ถูกทิ้ง ไม่จัดการต้นทุนหรือผลสิ่งแวดล้อม จึงได้ต่ำกว่าวิธีลดการพิมพ์"
+  },
+  {
+    "id": "prob.tgat3.civic.environment.decide_with_impact.0003",
+    "old": "หยุดพิมพ์เอกสารทั้งหมดตั้งแต่สัปดาห์หน้า แล้วแจ้งให้ทุกคนอ่านจากหน้าจอแทนโดยไม่มีข้อยกเว้น",
+    "new": "เริ่มใช้ไฟล์บนหน้าจอแทนเอกสารพิมพ์ในรอบประชุมหน้า เพื่อทดลองลดกระดาษก่อนสอบถามความต้องการใช้กระดาษ",
+    "oldReason": "ลดกระดาษได้มาก แต่บังคับทุกคน บางคนอาจจำเป็นต้องใช้กระดาษ",
+    "reason": "ลดกระดาษแต่ตัดช่องทางกระดาษก่อนรู้ข้อจำกัดผู้ใช้ จึงด้อยกว่าพิมพ์สองหน้าที่คงการเข้าถึง และด้อยกว่าพิมพ์ตามคำขอ"
+  },
+  {
+    "id": "prob.tgat3.civic.environment.decide_with_impact.0005",
+    "old": "คัดค้านหญ้าเทียมทุกกรณีเพราะเป็นพลาสติก",
+    "new": "เสนอคงสนามหญ้าจริงโดยพิจารณาขยะพลาสติกเป็นเกณฑ์หลัก",
+    "oldReason": "ยึดด้านสิ่งแวดล้อมเพียงด้านเดียวและปฏิเสธก่อนเปรียบเทียบการใช้งาน ต้นทุน และทางเลือกอื่น",
+    "reason": "เห็นปัญหาขยะแต่ไม่เทียบต้นทุน การใช้งาน ความร้อน และการระบายน้ำ จึงแคบกว่าตัวเลือกที่สำรวจผู้ใช้หรือพิจารณาหลายเกณฑ์"
+  },
+  {
+    "id": "prob.tgat3.civic.environment.tradeoff_economy.0003",
+    "old": "บอกพ่อให้หยุดใช้สารเคมีทั้งหมดทันที เพราะอันตรายต่อสิ่งแวดล้อมและสุขภาพของคนในครอบครัวด้วย",
+    "new": "ชวนพ่อเปลี่ยนทั้งสวนเป็นวิธีไม่ใช้สารเคมีในฤดูหน้า เพื่อดูแลสุขภาพและสิ่งแวดล้อม",
+    "oldReason": "ห่วงสิ่งแวดล้อมและสุขภาพ แต่ไม่ได้คิดถึงความเสี่ยงต่อรายได้ของครอบครัว",
+    "reason": "เปลี่ยนทั้งสวนก่อนตรวจวิธีที่เหมาะและผลต่อรายได้ จึงเสี่ยงกว่าปรึกษาผู้เชี่ยวชาญ และกว่าทดลองแปลงเล็ก"
+  },
+  {
+    "id": "prob.tgat3.civic.environment.tradeoff_economy.0007",
+    "old": "ห้ามแจกถุงทุกชนิดทันที",
+    "new": "กำหนดให้ร้านค้าคิดค่าถุงจากลูกค้า โดยยังใช้ราคาถุงทางเลือกของแต่ละร้าน",
+    "oldReason": "ผลักภาระโดยไม่รองรับร้านและลูกค้า",
+    "reason": "ผลักต้นทุนเดิมให้ลูกค้าโดยไม่ช่วยลดราคาจัดซื้อหรือรองรับผู้ไม่มีถุง จึงต่ำกว่าวิธีขอร่วมมือและกว่าทดลองรวมซื้อ"
+  },
+  {
+    "id": "prob.tgat3.civic.service.help_without_harm.0002",
+    "old": "ห้ามสมาชิกถ่ายรูปหรือวิดีโอทุกกรณี",
+    "new": "กำหนดให้งานรอบนี้สื่อสารผ่านข้อความแทนภาพผู้รับบริการ",
+    "oldReason": "ปกป้องความเป็นส่วนตัว แต่เสียโอกาสชวนคนมาช่วย ทั้งที่ทำได้ถ้ามีการยินยอม",
+    "reason": "ปกป้องความเป็นส่วนตัว แต่ตัดโอกาสภาพที่ผู้รับยินยอมโดยยังไม่หารือ จึงด้อยกว่าช่องทางขออนุญาตที่รักษาทั้งสิทธิและการระดมความช่วยเหลือ"
+  },
+  {
+    "id": "prob.tgat3.civic.service.help_without_harm.0006",
+    "old": "แจกหน้าวัดแบบใครมาก่อนได้ก่อนตามที่เสนอ เพราะแจกได้เร็วที่สุด และผู้ประสบภัยทุกคนต้องการของเหมือนกัน",
+    "new": "แจกหน้าวัดตามลำดับที่มาถึง เพื่อใช้ทีมที่มีอยู่แจกของให้ได้เร็ว",
+    "oldReason": "เร็วแต่ไม่เป็นธรรม กลุ่มที่เปราะบางที่สุดจะไม่ได้รับของ",
+    "reason": "มุ่งความเร็ว ณ จุดแจกแต่ผู้สูงอายุและผู้ป่วยติดเตียงมาเองไม่ได้ จึงเข้าถึงความช่วยเหลือน้อยกว่าทางที่เตรียมส่งถึงกลุ่มนี้"
+  },
+  {
+    "id": "prob.tgat3.complex_problem.identify.stakeholders.0005",
+    "old": "เสนอให้เปลี่ยนสถานที่จัดงานเป็นโรงเรียน เพื่อให้ไม่ต้องเก็บเงินเลย ทุกคนจะได้มาร่วมงานได้อย่างเท่าเทียม",
+    "new": "เสนอเปลี่ยนสถานที่เป็นโรงเรียนและลดการเก็บเงิน เพื่อให้เพื่อนที่จ่ายไม่ไหวมาร่วมได้",
+    "oldReason": "ดูแลทุกคน แต่ไม่ได้ฟังความต้องการของเสียงส่วนใหญ่เลย",
+    "reason": "แก้ข้อจำกัดเงินโดยเปลี่ยนสถานที่ของส่วนใหญ่ก่อนหารืออีกครั้ง จึงได้ต่ำกว่าวิธีลดค่าใช้จ่ายหรือทุนส่วนตัวที่ไม่เปิดเผยผู้ขอ"
+  },
+  {
+    "id": "prob.tgat3.complex_problem.identify.stakeholders.0007",
+    "old": "ผู้ขายกับผู้จัดงานเท่านั้น",
+    "new": "ผู้ขายกับผู้จัดงาน เพื่อประเมินจำนวนแผงและรายรับ",
+    "oldReason": "ขาดผู้รับผลกระทบ",
+    "reason": "เก็บมุมดำเนินงานตลาดแต่ขาดผู้พักอาศัย ผู้ใช้สวน และฝ่ายความปลอดภัย จึงน้อยกว่าตัวเลือกที่รวมกลุ่มผู้ใช้และผู้รับผลกระทบ"
+  },
+  {
+    "id": "prob.tgat3.complex_problem.identify.stakeholders.0007",
+    "old": "ผู้พักอาศัยใกล้สวนเท่านั้น",
+    "new": "ผู้พักอาศัยใกล้สวน เพื่อประเมินเสียงรบกวนในช่วงเย็น",
+    "oldReason": "เห็นเพียงผลกระทบด้านเสียง",
+    "reason": "เก็บเพียงผลเสียง ไม่รวมผู้ขาย ผู้ใช้สวน หรือฝ่ายปฏิบัติจึงแคบที่สุด"
+  },
+  {
+    "id": "prob.tgat3.complex_problem.implement.action_sequence.0001",
+    "old": "ซื้อเค้กล่วงหน้าเพื่อให้ได้ร้านที่อร่อยและทันแน่นอน แล้วค่อยเก็บเงินเพื่อนมาคืนทีหลัง",
+    "new": "ซื้อเค้กล่วงหน้าเพื่อจองร้านที่ต้องการ แล้วเก็บเงินเพื่อนมาคืนภายหลัง",
+    "oldReason": "ลงเงินก่อนรู้ว่าจัดได้หรือไม่และได้เงินเท่าไร",
+    "reason": "ผูกมัดค่าใช้จ่ายก่อนรู้สิทธิใช้ห้องและงบ จึงต่ำกว่านัดคนหรือรวบรวมเงินและด้อยกว่าขออนุญาตก่อน"
+  },
+  {
+    "id": "prob.tgat3.complex_problem.implement.handle_obstacle.0003",
+    "old": "ยกเลิกงานและคืนเงินผู้ลงทะเบียนทุกคน เพื่อรักษาความน่าเชื่อถือของบริษัทไว้ ไม่ให้ใครรู้สึกว่าถูกหลอก",
+    "new": "เสนอเลื่อนงานและเตรียมคืนเงินให้ผู้ที่ไม่สะดวก เพื่อรักษาความน่าเชื่อถือ",
+    "oldReason": "รับผิดชอบต่อผู้ลงทะเบียน แต่ยังไม่ได้ลองหาทางอ้อมที่รักษางานไว้",
+    "reason": "รับผิดชอบผู้สมัครแต่เลื่อนทั้งงานก่อนประเมินวิทยากรทดแทน จึงยังด้อยกว่าหาทางรักษางานพร้อมแจ้งล่วงหน้าและเปิดทางเลือก"
+  },
+  {
+    "id": "prob.tgat3.emotion.empathy.respond_to_upset.0002",
+    "old": "ขอโทษลูกค้าหลายครั้งแล้วรีบเปลี่ยนสินค้าใหม่ให้ทันทีโดยไม่ต้องตรวจสอบอะไร เพื่อให้เรื่องจบเร็ว",
+    "new": "ขอโทษและเปลี่ยนสินค้าใหม่ให้ลูกค้า เพื่อแก้ปัญหาที่รายงานโดยยังไม่ตรวจสินค้าที่นำมา",
+    "oldReason": "ตอบสนองเร็วและใส่ใจ แต่ข้ามการตรวจสอบตามขั้นตอนซึ่งร้านอาจต้องใช้",
+    "reason": "ดูแลเร็วแต่ยังข้ามการตรวจตามนโยบาย จึงต่ำกว่าการฟังและตรวจแล้วแก้ ไม่เปลี่ยนคะแนนเป็น 1"
+  },
+  {
+    "id": "prob.tgat3.foundation.attractive_wrong.0001",
+    "old": "ให้กำลังใจว่าครั้งหน้าต้องทำได้ดีขึ้นแน่นอน",
+    "new": "ให้กำลังใจว่าคะแนนครั้งนี้ไม่กำหนดความสามารถ และชวนเพื่อนมองโอกาสครั้งหน้า",
+    "oldReason": "เป็นคำพูดสวยที่ไม่มีการกระทำ ปัญหาไม่เข้าใจเนื้อหายังอยู่",
+    "reason": "ปลอบอย่างสมเหตุผลแต่ยังไม่ช่วยเนื้อหาที่เพื่อนบอกว่าไม่เข้าใจ จึงได้เพียงบางส่วน"
+  },
+  {
+    "id": "prob.tgat3.foundation.attractive_wrong.0007",
+    "old": "รับคัดขยะเองทั้งหมดเพราะเห็นผลแน่นอน",
+    "new": "รับคัดขยะเองหลังเลิกเรียนเพื่อให้ห้องมีขยะที่แยกถูก",
+    "oldReason": "ดูเสียสละแต่แบกงานเกินบทบาทและไม่ยั่งยืน",
+    "reason": "รับภาระคนเดียวและไม่แก้ระบบที่ทำให้เพื่อนแยกผิด จึงด้อยกว่าการร่วมปรับและทดลองระบบ"
+  },
+  {
+    "id": "prob.tgat3.foundation.judgement_criteria.0006",
+    "old": "จัดประชุมสมาชิกทั้งหมดเพื่อให้ทุกคนเสนอความเห็น แล้วโหวตตามเสียงข้างมากว่าจะทำอย่างไรกับแปลงผักต่อไป",
+    "new": "ประชุมสมาชิกให้เสนอทางฟื้นแปลง แล้วโหวตเลือกแนวทางที่มีผู้สนับสนุนมาก",
+    "oldReason": "ให้ทุกคนมีส่วนร่วม แต่ถ้ายังไม่รู้สาเหตุ การโหวตอาจเลือกทางแก้ที่ไม่ตรงปัญหา",
+    "reason": "มีส่วนร่วมแต่ยังไม่มีข้อมูลว่าผักตายจากอะไร จึงต่ำกว่าตรวจสาเหตุและแก้ตรงจุด"
+  },
+  {
+    "id": "prob.tgat3.value_innovation.analytical.enough_information.0002",
+    "old": "รอให้ทุกคนตอบครบก่อนจึงจอง",
+    "new": "รอคำตอบจากเพื่อนที่ยังไม่ยืนยันให้ครบก่อนจอง เพื่อให้จำนวนแน่นอน",
+    "oldReason": "รอข้อมูลที่ไม่จำเป็นต่อการจอง เพราะแก้จำนวนได้ภายหลัง แต่เสียราคาพิเศษไป",
+    "reason": "ไม่ใช้ความยืดหยุ่นที่แก้จำนวนได้ภายหลัง ทำให้พลาดราคาพิเศษ จึงต่ำกว่าวิธีจองพร้อมตรวจข้อมูลตามกำหนด"
+  },
+  {
+    "id": "prob.tgat3.value_innovation.analytical.enough_information.0006",
+    "old": "ปฏิเสธการเซ็นทุกกรณี",
+    "new": "ปฏิเสธการรับรองและบอกให้เพื่อนหาผู้รับรองคนอื่น",
+    "oldReason": "ไม่รับรองเกินจริง แต่ไม่ได้ช่วยเพื่อนเลยทั้งที่ช่วยได้อย่างซื่อสัตย์",
+    "reason": "ไม่รับรองเกินจริง แต่ไม่เสนอรับรองเฉพาะงานวัดที่พบเห็น จึงช่วยได้น้อยกว่าวิธีซื่อสัตย์ที่ใช้ข้อมูลจริง"
+  },
+  {
+    "id": "prob.tgat3.value_innovation.innovation.evaluate_new_idea.0001",
+    "old": "จัดประชุมให้สมาชิกทุกคนโหวตว่าจะเปลี่ยนมาใช้แอปหรือไม่ แล้วทำตามเสียงข้างมาก เพื่อให้เป็นประชาธิปไตย",
+    "new": "จัดประชุมสมาชิกโหวตเปลี่ยนมาใช้แอปจากข้อมูลที่มี แล้วทำตามมติ",
+    "oldReason": "ให้ทุกคนมีส่วนร่วม แต่สมาชิกยังไม่มีข้อมูลว่าใช้จริงแล้วเป็นอย่างไร",
+    "reason": "รับฟังสมาชิกแต่ยังไม่มีผลทดลองให้ประเมินการใช้งานจริง จึงด้อยกว่าทดลองพร้อมสอนและรับฟัง"
+  },
+  {
+    "id": "prob.tgat3.value_innovation.innovation.evaluate_new_idea.0005",
+    "old": "เสนอให้เปิดใช้กับลูกค้าทุกคนทันที เพราะเร็วกว่าและลูกค้าจะพอใจ",
+    "new": "เปิดระบบใหม่แทนระบบเดิมกับลูกค้าที่สมัครใช้บริการ เพื่อให้จ่ายได้เร็วขึ้น",
+    "oldReason": "ความเสี่ยงเกี่ยวกับข้อมูลบัตรเครดิตของลูกค้ารุนแรงและแก้กลับยาก",
+    "reason": "นำข้อมูลบัตรจริงเข้าระบบที่ยังไม่ตรวจความปลอดภัยในวงกว้าง จึงเสี่ยงกว่าการทดลองเล็กและด้อยกว่าข้อมูลจำลอง"
+  },
+  {
+    "id": "prob.tgat3.value_innovation.innovation.evaluate_new_idea.0005",
+    "old": "เสนอให้ทดลองกับกลุ่มลูกค้าเล็ก ๆ ทันที",
+    "new": "เลือกกลุ่มลูกค้าสมัครใจขนาดเล็กให้ทดลองจ่ายด้วยบัตรจริง แล้วเก็บปัญหาที่พบ",
+    "oldReason": "ลดขนาดความเสี่ยงได้ แต่ยังนำข้อมูลบัตรเครดิตจริงไปเสี่ยงโดยข้ามการตรวจความปลอดภัย",
+    "reason": "ลดขนาดความเสี่ยงแต่ยังนำข้อมูลบัตรจริงเสี่ยงก่อนตรวจความปลอดภัย จึงด้อยกว่าตรวจโดยไอทีก่อน และด้อยกว่าตรวจพร้อมทดลองและมีระบบสำรอง"
+  },
+  {
+    "id": "prob.tgat1.reading.comprehension.inference.0007",
+    "old": "บอกได้เพียงว่ายอดมื้อกลางวันไม่ลดในช่วงที่รายงาน",
+    "new": "ตอบ The quiet-hours policy did not reduce lunch sales during the period described เพราะบอกได้เพียงว่ายอดมื้อกลางวันไม่ลดในช่วงที่รายงาน โดยอนุมานเฉพาะสิ่งที่ยอดขาย stable รองรับ"
+  },
+  {
+    "id": "prob.tgat1.reading.comprehension.inference.0008",
+    "old": "some และ may สอดคล้องกับหลักฐานเชิงสัมพันธ์โดยไม่สรุปเกิน",
+    "new": "ตอบ Some weekday riders may be using bikes when late buses are unavailable เพราะsome และ may สอดคล้องกับหลักฐานเชิงสัมพันธ์โดยไม่สรุปเกิน โดยเชื่อมการเพิ่มกับเวลารถหยุด แต่คงถ้อยคำไม่แน่นอน"
+  },
+  {
+    "id": "prob.tgat1.reading.comprehension.main_idea.0007",
+    "old": "คำตอบครอบคลุมการเข้าถึงและผลต่อการคืนหนังสือ",
+    "new": "ตอบ Removing fines improved access without seriously harming returns เพราะคำตอบครอบคลุมการเข้าถึงและผลต่อการคืนหนังสือ โดยสรุปผลดีและข้อกังวลหลักของนโยบาย"
+  },
+  {
+    "id": "prob.tgat1.reading.comprehension.purpose_tone.0007",
+    "old": "ข้อความชักชวนให้พกขวดใช้ซ้ำ",
+    "new": "ตอบ To encourage visitors to reduce disposable bottle use เพราะข้อความชักชวนให้พกขวดใช้ซ้ำ โดยดูคำสั่ง Bring และข้อมูลสนับสนุน"
+  },
+  {
+    "id": "prob.tgat1.reading.comprehension.purpose_tone.0008",
+    "old": "น้ำเสียงวิจารณ์อย่างระวัง ไม่ปฏิเสธทั้งหมด",
+    "new": "ตอบ cautiously critical เพราะน้ำเสียงวิจารณ์อย่างระวัง ไม่ปฏิเสธทั้งหมด โดยผู้เขียนยอมรับเป้าหมายก่อนชี้ข้อจำกัด"
+  },
+  {
+    "id": "prob.tgat1.reading.comprehension.specific_detail.0007",
+    "old": "ข้อความระบุ 8:50 โดยตรง",
+    "new": "ตอบ At 8:50 เพราะข้อความระบุ 8:50 โดยตรง โดยscan หาเวลาที่ผูกกับ released"
+  },
+  {
+    "id": "prob.tgat1.reading.comprehension.specific_detail.0008",
+    "old": "แม้ทำงานเกิน 60 วัน ผู้ที่ต้องใช้เอกสารจริงยังต้องอยู่หน้างาน",
+    "new": "ตอบ A new records clerk hired three months ago who must handle the files เพราะแม้ทำงานเกิน 60 วัน ผู้ที่ต้องใช้เอกสารจริงยังต้องอยู่หน้างาน โดยใช้ทั้งวัน สิทธิหลัง 60 วัน และข้อยกเว้นเอกสาร"
+  },
+  {
+    "id": "prob.tgat1.reading.comprehension.text_organization.0007",
+    "old": "การลิสต์แหล่งมลพิษทำหน้าที่อธิบายสาเหตุ",
+    "new": "ตอบ To explain the causes of the problem เพราะการลิสต์แหล่งมลพิษทำหน้าที่อธิบายสาเหตุ โดยถามหน้าที่ ไม่ใช่เพียงหัวข้อ"
+  },
+  {
+    "id": "prob.tgat1.reading.comprehension.text_organization.0008",
+    "old": "โครงสร้างเริ่มข้ออ้าง ตามด้วยหลักฐานสวน และจบด้วยข้อเสนอให้ตรวจเพิ่ม",
+    "new": "ตอบ claim, counterevidence, recommendation for further investigation เพราะโครงสร้างเริ่มข้ออ้าง ตามด้วยหลักฐานสวน และจบด้วยข้อเสนอให้ตรวจเพิ่ม โดยติดตามว่าหลักฐานสนับสนุนหรือหักล้าง claim"
+  },
+  {
+    "id": "prob.tgat1.reading.comprehension.vocabulary_in_passage.0007",
+    "old": "trim ในบริบทงานเขียนหมายถึงตัดให้สั้น",
+    "new": "ตอบ shorten เพราะtrim ในบริบทงานเขียนหมายถึงตัดให้สั้น โดยผลที่ต้องการคือถึงประเด็นเร็วขึ้น"
+  },
+  {
+    "id": "prob.tgat1.reading.comprehension.vocabulary_in_passage.0008",
+    "old": "provisional คือชั่วคราวและอาจเปลี่ยน",
+    "new": "ตอบ temporary and subject to change เพราะprovisional คือชั่วคราวและอาจเปลี่ยน โดยประโยคหลังนิยามด้วยระยะทดลองและการทบทวน"
+  },
+  {
+    "id": "prob.tgat1.reading.foundation.high_frequency_vocab.0007",
+    "old": "affordable หมายถึงราคาเอื้อมถึง",
+    "new": "ตอบ affordable เพราะaffordable หมายถึงราคาเอื้อมถึง โดยflexible prices มีเป้าหมายช่วยครอบครัวรายได้น้อย"
+  },
+  {
+    "id": "prob.tgat1.reading.foundation.high_frequency_vocab.0008",
+    "old": "affect เป็นกริยา และ effect เป็นคำนาม",
+    "new": "ตอบ affect; effect เพราะaffect เป็นกริยา และ effect เป็นคำนาม โดยหลัง may ใช้กริยา ส่วนหลัง its long-term ใช้คำนาม"
+  },
+  {
+    "id": "prob.tgat1.reading.foundation.sentence_core.0007",
+    "old": "is agrees with list และสร้าง passive is posted",
+    "new": "ตอบ is เพราะis agrees with list และสร้าง passive is posted โดยประธานแก่นคือ The list เอกพจน์"
+  },
+  {
+    "id": "prob.tgat1.reading.foundation.sentence_core.0008",
+    "old": "เหลือประธาน The reports กับกริยาหลัก were approved",
+    "new": "ตอบ The reports were approved เพราะเหลือประธาน The reports กับกริยาหลัก were approved โดยตัด relative clauses that... และ who... ออก"
+  },
+  {
+    "id": "prob.tgat1.reading.foundation.skim_scan.0007",
+    "old": "scan คำสัญญาณและตัวเลขเร็วที่สุด",
+    "new": "ตอบ Scan for dates and words such as deadline or submit เพราะscan คำสัญญาณและตัวเลขเร็วที่สุด โดยคำถามต้องการรายละเอียดชนิดวันที่"
+  },
+  {
+    "id": "prob.tgat1.reading.foundation.skim_scan.0008",
+    "old": "หัวข้อ ประโยคแก่น และบทสรุปเผยจุดประสงค์โดยไม่ต้องอ่านทุกคำ",
+    "new": "ตอบ skim the headings and topic sentences, then check the conclusion เพราะหัวข้อ ประโยคแก่น และบทสรุปเผยจุดประสงค์โดยไม่ต้องอ่านทุกคำ โดยคำถามภาพรวมต้องใช้โครงสร้างทั้งบท"
+  },
+  {
+    "id": "prob.tgat1.reading.foundation.time_management.0007",
+    "old": "การ scan รายละเอียดใช้เวลาคุ้มกว่าการอ่านใหม่ทั้งบท",
+    "new": "ตอบ Answer the detail questions by scanning, then use the remaining time to check marked items เพราะการ scan รายละเอียดใช้เวลาคุ้มกว่าการอ่านใหม่ทั้งบท โดยเก็บข้อที่หาเฉพาะจุดได้เร็วและเผื่อตรวจ"
+  },
+  {
+    "id": "prob.tgat1.reading.foundation.time_management.0008",
+    "old": "inference ควรไม่แรงกว่าข้อความและใช้หลักฐานหลายจุด",
+    "new": "ตอบ Choose the cautious claim supported by both details, unless the passage states certainty เพราะinference ควรไม่แรงกว่าข้อความและใช้หลักฐานหลายจุด โดยเทียบระดับความแน่นอนกับจำนวนหลักฐาน"
+  },
+  {
+    "id": "prob.tgat1.reading.text_completion.collocation.0007",
+    "old": "make a decision เป็นคู่คำมาตรฐาน",
+    "new": "ตอบ make เพราะmake a decision เป็นคู่คำมาตรฐาน โดยหาคู่คำกริยากับ decision"
+  },
+  {
+    "id": "prob.tgat1.reading.text_completion.collocation.0008",
+    "old": "fall short of expectations หมายถึงทำได้ต่ำกว่าที่คาด",
+    "new": "ตอบ short of เพราะfall short of expectations หมายถึงทำได้ต่ำกว่าที่คาด โดยประโยคหลังแสดงผลไม่ถึงเป้าหมายโดยรวม"
+  },
+  {
+    "id": "prob.tgat1.reading.text_completion.connector.0007",
+    "old": "nevertheless เชื่อมความแย้ง",
+    "new": "ตอบ nevertheless เพราะnevertheless เชื่อมความแย้ง โดยความชันทำให้คาดว่าจะช้า แต่ผลกลับถึงก่อน"
+  },
+  {
+    "id": "prob.tgat1.reading.text_completion.connector.0008",
+    "old": "Although แสดงความแย้งและนำอนุประโยคได้",
+    "new": "ตอบ Although เพราะAlthough แสดงความแย้งและนำอนุประโยคได้ โดยสองอนุประโยคขัดกันและช่องตามด้วยประธาน+กริยา"
+  },
+  {
+    "id": "prob.tgat1.reading.text_completion.grammar_in_context.0007",
+    "old": "repaired แสดงว่าหนังสือได้รับการซ่อม",
+    "new": "ตอบ repaired เพราะrepaired แสดงว่าหนังสือได้รับการซ่อม โดยโครงสร้าง have + object + past participle"
+  },
+  {
+    "id": "prob.tgat1.reading.text_completion.grammar_in_context.0008",
+    "old": "did + subject + V1 ถูกทั้ง inversion และลำดับเหตุการณ์",
+    "new": "ตอบ did the staff realize เพราะdid + subject + V1 ถูกทั้ง inversion และลำดับเหตุการณ์ โดยNot until ขึ้นต้นทำให้อนุประโยคหลักกลับกริยาช่วย"
+  },
+  {
+    "id": "prob.tgat1.reading.text_completion.reference_word.0007",
+    "old": "แท็บเล็ตของ Maya เสียจึงต้องยืมของ Lena",
+    "new": "ตอบ Maya's tablet เพราะแท็บเล็ตของ Maya เสียจึงต้องยืมของ Lena โดยhers แทนแท็บเล็ตที่เสียของ Maya ไม่ใช่แท็บเล็ตของ Lena ที่ยังใช้ได้"
+  },
+  {
+    "id": "prob.tgat1.reading.text_completion.reference_word.0008",
+    "old": "สิ่งไม่คาดคิดคือการปฏิบัติต่อสองแผนต่างกันทั้งที่ผ่านเกณฑ์เหมือนกัน",
+    "new": "ตอบ The council's different treatment of the two plans เพราะสิ่งไม่คาดคิดคือการปฏิบัติต่อสองแผนต่างกันทั้งที่ผ่านเกณฑ์เหมือนกัน โดยThis สรุปเหตุการณ์ทั้งประโยคก่อน ไม่จำเป็นต้องแทนนามใกล้สุด"
+  },
+  {
+    "id": "prob.tgat1.reading.text_completion.tense_consistency.0007",
+    "old": "past perfect แสดงเหตุที่เกิดก่อน inspectors arrived",
+    "new": "ตอบ had sealed เพราะpast perfect แสดงเหตุที่เกิดก่อน inspectors arrived โดยการปิดรอยรั่วเสร็จก่อนอีกเหตุในอดีต"
+  },
+  {
+    "id": "prob.tgat1.reading.text_completion.tense_consistency.0008",
+    "old": "present perfect ของสถานะเหมาะกับช่วงต่อเนื่อง",
+    "new": "ตอบ has been open เพราะpresent perfect ของสถานะเหมาะกับช่วงต่อเนื่อง โดยsince 2019 เชื่อมอดีตถึงปัจจุบัน และ now ยืนยันว่าสถานะยังต่อเนื่อง"
+  },
+  {
+    "id": "prob.tgat1.speaking.foundation.function_bank.0007",
+    "old": "B เสนอช่วย A",
+    "new": "ตอบ Offering help เพราะB เสนอช่วย A โดยShall I และ give you a hand"
+  },
+  {
+    "id": "prob.tgat1.speaking.foundation.function_bank.0008",
+    "old": "Would it be possible เป็นคำขอ และ I'm afraid นำการปฏิเสธ",
+    "new": "ตอบ A requests politely; B refuses politely with a reason เพราะWould it be possible เป็นคำขอ และ I'm afraid นำการปฏิเสธ โดยวิเคราะห์หน้าที่ทีละบรรทัด"
+  },
+  {
+    "id": "prob.tgat1.speaking.foundation.politeness_level.0007",
+    "old": "Could I borrow สุภาพและตรงกับเงื่อนไขคืน",
+    "new": "ตอบ Could I borrow the department camera for an hour? เพราะCould I borrow สุภาพและตรงกับเงื่อนไขคืน โดยผู้ฝึกงานขอใช้ของหน่วยงาน"
+  },
+  {
+    "id": "prob.tgat1.speaking.foundation.politeness_level.0008",
+    "old": "คำถามอ้อมสุภาพและระบุช่วงเวลาที่ต้องการ",
+    "new": "ตอบ Could you tell me whether the drilling will continue after six? เพราะคำถามอ้อมสุภาพและระบุช่วงเวลาที่ต้องการ โดยประชาชนขอข้อมูลเฉพาะจากเจ้าหน้าที่"
+  },
+  {
+    "id": "prob.tgat1.speaking.foundation.question_forms.0007",
+    "old": "where the nearest pharmacy is ถูกลำดับ",
+    "new": "ตอบ Could you tell me where the nearest pharmacy is? เพราะwhere the nearest pharmacy is ถูกลำดับ โดยหลังวลีเปิดใช้ลำดับประโยคบอกเล่า"
+  },
+  {
+    "id": "prob.tgat1.speaking.foundation.question_forms.0008",
+    "old": "คำถามอ้อมใช้ statement order และ passive ถูกต้อง",
+    "new": "ตอบ Do you happen to know when the original building was completed? เพราะคำถามอ้อมใช้ statement order และ passive ถูกต้อง โดยคำตอบให้ปีที่อาคารเดิมสร้างเสร็จ"
+  },
+  {
+    "id": "prob.tgat1.speaking.long_conversation.discourse_marker.0007",
+    "old": "However แสดงความขัดแย้ง",
+    "new": "ตอบ A contrast between cost and accessibility เพราะHowever แสดงความขัดแย้ง โดยหน้าและหลังมีทิศตรงข้าม"
+  },
+  {
+    "id": "prob.tgat1.speaking.long_conversation.discourse_marker.0008",
+    "old": "Even so แสดงว่าผลยังสำคัญแม้มีข้อจำกัด",
+    "new": "ตอบ It presents a meaningful finding despite a limitation เพราะEven so แสดงว่าผลยังสำคัญแม้มีข้อจำกัด โดยข้อจำกัดตามด้วยสิ่งที่ยังจริง"
+  },
+  {
+    "id": "prob.tgat1.speaking.long_conversation.implied_meaning.0007",
+    "old": "เหตุผลเป็นการปฏิเสธโดยอ้อม",
+    "new": "ตอบ B probably will not join the lunch เพราะเหตุผลเป็นการปฏิเสธโดยอ้อม โดยงานทำให้ B อยู่ที่เดิม"
+  },
+  {
+    "id": "prob.tgat1.speaking.long_conversation.implied_meaning.0008",
+    "old": "A เข้าใจนัยปฏิเสธของ B",
+    "new": "ตอบ A understands that B is unlikely to review it เพราะA เข้าใจนัยปฏิเสธของ B โดยA เปลี่ยนคนหลังได้ยินข้อจำกัด"
+  },
+  {
+    "id": "prob.tgat1.speaking.long_conversation.problem_solution.0007",
+    "old": "ข้อเสนอย้ายเข้าอาคารนำไปสู่บรรทัดถัดไป",
+    "new": "ตอบ Why don't we move indoors? เพราะข้อเสนอย้ายเข้าอาคารนำไปสู่บรรทัดถัดไป โดยA จะตรวจห้องประชุม"
+  },
+  {
+    "id": "prob.tgat1.speaking.long_conversation.problem_solution.0008",
+    "old": "B ต้องเสนอทางใหม่ที่ใช้ USB และห้องสมุด",
+    "new": "ตอบ Could we save it to USB and print at the library? เพราะB ต้องเสนอทางใหม่ที่ใช้ USB และห้องสมุด โดยคำตอบ A ยืนยัน USB ที่ห้องสมุด"
+  },
+  {
+    "id": "prob.tgat1.speaking.long_conversation.register_formality.0007",
+    "old": "Would you be willing สุภาพและเปิดทางปฏิเสธ",
+    "new": "ตอบ Would you be willing to give me feedback on my draft? เพราะWould you be willing สุภาพและเปิดทางปฏิเสธ โดยนักศึกษาขอความช่วยเหลืออาจารย์"
+  },
+  {
+    "id": "prob.tgat1.speaking.long_conversation.register_formality.0008",
+    "old": "flag a possible error ชัด สุภาพ และไม่กล่าวหา",
+    "new": "ตอบ I wanted to flag a possible error in the quarterly totals เพราะflag a possible error ชัด สุภาพ และไม่กล่าวหา โดยลูกน้องแจ้งข้อผิดพลาดที่ยังไม่ยืนยัน"
+  },
+  {
+    "id": "prob.tgat1.speaking.long_conversation.tracking_speakers.0007",
+    "old": "Sara ต้องรอ Leo ก่อนส่งคำเชิญ",
+    "new": "ตอบ Wait for Leo's confirmation เพราะSara ต้องรอ Leo ก่อนส่งคำเชิญ โดยติดตามผู้พูดและ after"
+  },
+  {
+    "id": "prob.tgat1.speaking.long_conversation.tracking_speakers.0008",
+    "old": "Pim รอทั้งงบและร่าง ไม่ใช่เพียงชิ้นเดียว",
+    "new": "ตอบ The budget and draft order must both be ready เพราะPim รอทั้งงบและร่าง ไม่ใช่เพียงชิ้นเดียว โดยonce both อ้างงานสองชิ้น"
+  },
+  {
+    "id": "prob.tgat1.speaking.question_response.apology_thanks.0007",
+    "old": "ตอบรับคำขอโทษและบอกว่ามีสำเนาสำรอง",
+    "new": "ตอบ It's okay. I saved another copy เพราะตอบรับคำขอโทษและบอกว่ามีสำเนาสำรอง โดยเป็นการขอโทษจากอุบัติเหตุ"
+  },
+  {
+    "id": "prob.tgat1.speaking.question_response.apology_thanks.0008",
+    "old": "รับคำขอบคุณและเชื่อมกับผลดีของทีมอย่างเป็นมืออาชีพ",
+    "new": "ตอบ No problem. I'm glad we caught the error in time เพราะรับคำขอบคุณและเชื่อมกับผลดีของทีมอย่างเป็นมืออาชีพ โดยเป็นคำขอบคุณในบริบททำงานร่วมกัน"
+  },
+  {
+    "id": "prob.tgat1.speaking.question_response.greeting_intro.0007",
+    "old": "ตอบแนะนำตัวกลับและกล่าวยินดีที่ได้พบจึงเป็นธรรมชาติ",
+    "new": "ตอบ I'm Mali. It's a pleasure to meet you เพราะตอบแนะนำตัวกลับและกล่าวยินดีที่ได้พบจึงเป็นธรรมชาติ โดยเป็นการแนะนำตัวเมื่อพบกันครั้งแรก"
+  },
+  {
+    "id": "prob.tgat1.speaking.question_response.greeting_intro.0008",
+    "old": "คำตอบรับการลาและกล่าวขอบคุณสอดคล้องกับนัยของประโยค",
+    "new": "ตอบ Thanks for coming. It was lovely catching up เพราะคำตอบรับการลาและกล่าวขอบคุณสอดคล้องกับนัยของประโยค โดยผู้พูดส่งสัญญาณจบบทสนทนาอย่างสุภาพ"
+  },
+  {
+    "id": "prob.tgat1.speaking.question_response.invitation.0007",
+    "old": "ตอบรับและถามรายละเอียดต่อเหมาะกับคำเชิญ",
+    "new": "ตอบ I'd love to. What time should I come? เพราะตอบรับและถามรายละเอียดต่อเหมาะกับคำเชิญ โดยเป็นคำเชิญแบบไม่เป็นทางการ"
+  },
+  {
+    "id": "prob.tgat1.speaking.question_response.invitation.0008",
+    "old": "ปฏิเสธอย่างสุภาพพร้อมเหตุผลที่ชัดและไม่เปิดความหวังผิด",
+    "new": "ตอบ I wish I could, but I'm covering a shift that evening เพราะปฏิเสธอย่างสุภาพพร้อมเหตุผลที่ชัดและไม่เปิดความหวังผิด โดยผู้พูดเชิญและยอมรับว่าแจ้งกระชั้น"
+  },
+  {
+    "id": "prob.tgat1.speaking.question_response.opinion_agreement.0007",
+    "old": "แสดงความเห็นด้วยและให้เหตุผลที่ตรงประเด็น",
+    "new": "ตอบ I agree. The last activity felt rushed เพราะแสดงความเห็นด้วยและให้เหตุผลที่ตรงประเด็น โดยเป็นการขอความเห็นต่อข้อเสนอ"
+  },
+  {
+    "id": "prob.tgat1.speaking.question_response.opinion_agreement.0008",
+    "old": "คำตอบยอมรับสองด้านแทนเลือกเห็นด้วยหรือคัดค้านทั้งหมด",
+    "new": "ตอบ That's true. It saves time overall, though the lack of a break may be a problem เพราะคำตอบยอมรับสองด้านแทนเลือกเห็นด้วยหรือคัดค้านทั้งหมด โดยข้อความมีทั้งข้อดีและข้อกังวล"
+  },
+  {
+    "id": "prob.tgat1.speaking.question_response.request_offer_permission.0007",
+    "old": "ตอบรับและทวนสิ่งที่จะช่วยได้ตรงหน้าที่",
+    "new": "ตอบ Of course. I'll watch it for you เพราะตอบรับและทวนสิ่งที่จะช่วยได้ตรงหน้าที่ โดยเป็นคำขอให้ช่วยดูแลของชั่วคราว"
+  },
+  {
+    "id": "prob.tgat1.speaking.question_response.request_offer_permission.0008",
+    "old": "Not at all แปลว่าไม่ขัดข้องและเหตุผลถัดมาสอดคล้องกัน",
+    "new": "ตอบ Not at all. I need the desk space too เพราะNot at all แปลว่าไม่ขัดข้องและเหตุผลถัดมาสอดคล้องกัน โดยWould you mind if I ... ถามว่าขัดข้องหรือไม่"
+  },
+  {
+    "id": "prob.tgat1.speaking.question_response.wh_question_matching.0007",
+    "old": "Every thirty minutes ตอบความถี่และเพิ่มช่วงเวลาที่เป็นประโยชน์",
+    "new": "ตอบ Every thirty minutes until ten เพราะEvery thirty minutes ตอบความถี่และเพิ่มช่วงเวลาที่เป็นประโยชน์ โดยHow often ต้องการความถี่"
+  },
+  {
+    "id": "prob.tgat1.speaking.question_response.wh_question_matching.0008",
+    "old": "ระบุเส้นทางและเงื่อนไขที่ไม่เปลี่ยนคำตอบ",
+    "new": "ตอบ The riverside route, although it takes ten minutes longer เพราะระบุเส้นทางและเงื่อนไขที่ไม่เปลี่ยนคำตอบ โดยWhich route ต้องการชื่อเส้นทาง ไม่ใช่เหตุผลหรือเวลา"
+  },
+  {
+    "id": "prob.tgat1.speaking.question_response.yesno_and_tag.0007",
+    "old": "No, not yet สอดคล้องกับการยังรอลายเซ็น",
+    "new": "ตอบ No, not yet. I'm waiting for one signature เพราะNo, not yet สอดคล้องกับการยังรอลายเซ็น โดยคำถามปฏิเสธต้องตอบตามข้อเท็จจริงว่าส่งหรือยัง"
+  },
+  {
+    "id": "prob.tgat1.speaking.question_response.yesno_and_tag.0008",
+    "old": "I did ยืนยันว่าเผลอเขียนทับจริง แล้วกล่าวถึงทางกู้คืน",
+    "new": "ตอบ I'm afraid I did, but the backup should restore it เพราะI did ยืนยันว่าเผลอเขียนทับจริง แล้วกล่าวถึงทางกู้คืน โดยtag question ใช้ยืนยันเหตุที่ผู้ถามกังวล"
+  },
+  {
+    "id": "prob.tgat1.speaking.short_conversation.directions_transport.0007",
+    "old": "คำตอบให้ลำดับป้ายและจุดสังเกต",
+    "new": "ตอบ Yes. It's the third stop after the bridge เพราะคำตอบให้ลำดับป้ายและจุดสังเกต โดยนักท่องเที่ยวต้องรู้จุดลง"
+  },
+  {
+    "id": "prob.tgat1.speaking.short_conversation.directions_transport.0008",
+    "old": "พนักงานต้องอธิบายความไม่แน่นอนและแนะนำให้รอ",
+    "new": "ตอบ The platform may change, so wait for the final announcement เพราะพนักงานต้องอธิบายความไม่แน่นอนและแนะนำให้รอ โดยผู้โดยสารตัดสินใจรอประกาศ"
+  },
+  {
+    "id": "prob.tgat1.speaking.short_conversation.phone_appointment.0007",
+    "old": "คำเสนอรับข้อความตรงบทบาทผู้ช่วย",
+    "new": "ตอบ Would you like to leave a message? เพราะคำเสนอรับข้อความตรงบทบาทผู้ช่วย โดยผู้โทรฝากข้อความในบรรทัดถัดไป"
+  },
+  {
+    "id": "prob.tgat1.speaking.short_conversation.phone_appointment.0008",
+    "old": "พนักงานแจ้งข้อจำกัดและเสนอทางเลือกโดยยังไม่เปลี่ยนนัด",
+    "new": "ตอบ Tuesday is full. Would Thursday at the same time work? เพราะพนักงานแจ้งข้อจำกัดและเสนอทางเลือกโดยยังไม่เปลี่ยนนัด โดยผู้โทรตอบรับ Thursday เวลาเดิม"
+  },
+  {
+    "id": "prob.tgat1.speaking.short_conversation.school_campus.0007",
+    "old": "เวลาเปิด-ปิดตอบคำถามและรองรับการตัดสินใจ",
+    "new": "ตอบ Yes, but it closes at four thirty เพราะเวลาเปิด-ปิดตอบคำถามและรองรับการตัดสินใจ โดยนักเรียนใช้คำตอบวางแผนมา"
+  },
+  {
+    "id": "prob.tgat1.speaking.short_conversation.school_campus.0008",
+    "old": "เจ้าหน้าที่ต้องถามหลักฐานอนุมัติในช่องว่าง",
+    "new": "ตอบ Do you have written approval for late registration? เพราะเจ้าหน้าที่ต้องถามหลักฐานอนุมัติในช่องว่าง โดยนักเรียนยื่นอีเมลอนุมัติ"
+  },
+  {
+    "id": "prob.tgat1.speaking.short_conversation.service_encounter.0007",
+    "old": "พนักงานตอบรับและขอหลักฐานได้ตรงลำดับ",
+    "new": "ตอบ Certainly. May I see your receipt? เพราะพนักงานตอบรับและขอหลักฐานได้ตรงลำดับ โดยลูกค้ายื่นใบเสร็จในบรรทัดถัดไป"
+  },
+  {
+    "id": "prob.tgat1.speaking.short_conversation.service_encounter.0008",
+    "old": "พนักงานต้องถามเลขห้องหลังรับทราบปัญหา",
+    "new": "ตอบ I'm sorry. What room are you in? เพราะพนักงานต้องถามเลขห้องหลังรับทราบปัญหา โดยแขกตอบเลขห้อง"
+  },
+  {
+    "id": "prob.tgat1.speaking.short_conversation.turn_taking.0007",
+    "old": "คำถามยืนยันทำให้ Yes ในบรรทัดถัดไปสมเหตุผล",
+    "new": "ตอบ Are you sure about that? เพราะคำถามยืนยันทำให้ Yes ในบรรทัดถัดไปสมเหตุผล โดยบรรทัดหลังยืนยันแหล่งข่าว"
+  },
+  {
+    "id": "prob.tgat1.speaking.short_conversation.turn_taking.0008",
+    "old": "B ต้องเสนอรับส่วนข้อมูลจึงเชื่อมทั้งสองบรรทัด",
+    "new": "ตอบ How about I take the data section? เพราะB ต้องเสนอรับส่วนข้อมูลจึงเชื่อมทั้งสองบรรทัด โดยA ตอบรับและจะส่งโน้ต"
+  },
+  {
+    "id": "prob.tgat3.civic.environment.decide_with_impact.0007",
+    "old": "ทดลองระบบใช้ซ้ำพร้อมวัดพฤติกรรมและขยะ ลดผลกระทบโดยไม่ผลักภาระ",
+    "new": "ตอบ วัดจุดที่ใช้มาก ทดลองแก้วคืนได้ในกิจกรรมหนึ่ง และติดตามอัตราคืนกับขยะ เพราะทดลองระบบใช้ซ้ำพร้อมวัดพฤติกรรมและขยะ ลดผลกระทบโดยไม่ผลักภาระ โดยวัดการใช้"
+  },
+  {
+    "id": "prob.tgat3.civic.environment.decide_with_impact.0008",
+    "old": "ระบบรวบรวมและตลาดปุ๋ยทดลองแก้ทั้งควันและต้นทุน จึงมีโอกาสยั่งยืน",
+    "new": "ตอบ ทดลองจุดรวบรวมใกล้แปลง แบ่งค่าขน และหาผู้ใช้ปุ๋ย พร้อมวัดต้นทุนกับควัน เพราะระบบรวบรวมและตลาดปุ๋ยทดลองแก้ทั้งควันและต้นทุน จึงมีโอกาสยั่งยืน โดยค่าขน"
+  },
+  {
+    "id": "prob.tgat3.civic.environment.tradeoff_economy.0007",
+    "old": "รวมซื้อและจูงใจพร้อมวัดต้นทุน-ขยะ สร้างสมดุลที่ทดลองได้",
+    "new": "ตอบ ทดลองรวมสั่งซื้อถุงทางเลือก ให้ส่วนลดคนพกถุง และวัดต้นทุนกับจำนวนถุง เพราะรวมซื้อและจูงใจพร้อมวัดต้นทุน-ขยะ สร้างสมดุลที่ทดลองได้ โดยถุงกับต้นทุน"
+  },
+  {
+    "id": "prob.tgat3.civic.environment.tradeoff_economy.0008",
+    "old": "มาตรฐานชัดพร้อมการช่วยปรับและแผนแรงงาน ไม่แลกสุขภาพกับงานและไม่ละเลยการเปลี่ยนผ่าน",
+    "new": "ตอบ กำหนดมาตรฐานและเส้นตายเป็นช่วง ช่วยเข้าถึงเทคโนโลยี ตรวจน้ำอิสระ และมีมาตรการแรงงานหากปรับไม่สำเร็จ เพราะมาตรฐานชัดพร้อมการช่วยปรับและแผนแรงงาน ไม่แลกสุขภาพกับงานและไม่ละเลยการเปลี่ยนผ่าน โดยมาตรฐานและตรวจอิสระ"
+  },
+  {
+    "id": "prob.tgat3.civic.local.participation.0007",
+    "old": "ความเห็นที่ผ่านการฟังหลายกลุ่มและมีเหตุผลช่วยการตัดสินใจมากกว่าจำนวนเสียงอย่างเดียว",
+    "new": "ตอบ อ่านข้อเสนอ ถามครอบครัวและเด็กหลายกลุ่ม แล้วส่งความเห็นพร้อมเหตุผลและข้อจำกัด เพราะความเห็นที่ผ่านการฟังหลายกลุ่มและมีเหตุผลช่วยการตัดสินใจมากกว่าจำนวนเสียงอย่างเดียว โดยอ่านข้อเสนอ"
+  },
+  {
+    "id": "prob.tgat3.civic.local.participation.0008",
+    "old": "ขอเงื่อนไขให้มีส่วนร่วมจริง รวบรวมเสียง และติดตาม ทำให้ตัวแทนไม่เป็นเพียงพิธี",
+    "new": "ตอบ ขอเวลาอ่านและช่องเสนอแก้ รวบรวมความเห็นห้องด้วยวิธีเข้าถึงได้ แล้วส่งกลับพร้อมติดตามผล เพราะขอเงื่อนไขให้มีส่วนร่วมจริง รวบรวมเสียง และติดตาม ทำให้ตัวแทนไม่เป็นเพียงพิธี โดยต้องมีข้อมูลและช่องแก้"
+  },
+  {
+    "id": "prob.tgat3.civic.local.understand_context.0007",
+    "old": "ฟังตัวแทนหลายวัยก่อน ช่วยให้ออกแบบตามบริบทแทนการคัดลอกวิธีเดิม",
+    "new": "ตอบ คุยกับตัวแทนหลายวัยเรื่องเวลา ภาษา และวิธีเข้าร่วมก่อนออกแบบ เพราะฟังตัวแทนหลายวัยก่อน ช่วยให้ออกแบบตามบริบทแทนการคัดลอกวิธีเดิม โดยต่างวัย"
+  },
+  {
+    "id": "prob.tgat3.civic.local.understand_context.0008",
+    "old": "ระบบหลายช่องทางที่ทดสอบกับผู้ใช้จริงทนต่อข้อจำกัดพื้นที่และเข้าถึงคนหลากหลาย",
+    "new": "ตอบ ทำแผนผู้ใช้และสัญญาณ ทดลองหลายช่องทาง เช่น เสียง ธง วิทยุ และแอป พร้อมซ้อมกับทุกกลุ่ม เพราะระบบหลายช่องทางที่ทดสอบกับผู้ใช้จริงทนต่อข้อจำกัดพื้นที่และเข้าถึงคนหลากหลาย โดยสัญญาณไม่ทั่ว"
+  },
+  {
+    "id": "prob.tgat3.civic.service.help_without_harm.0007",
+    "old": "ถาม คัด และนัดหมาย ทำให้ความช่วยเหลือตรงความต้องการโดยไม่เพิ่มภาระ",
+    "new": "ตอบ ถามรายการที่ต้องการ คัดของสะอาดพร้อมใช้ แล้วนัดส่งตามระบบ เพราะถาม คัด และนัดหมาย ทำให้ความช่วยเหลือตรงความต้องการโดยไม่เพิ่มภาระ โดยความต้องการจริง"
+  },
+  {
+    "id": "prob.tgat3.civic.service.sustainable_volunteering.0007",
+    "old": "เวรที่ทำได้จริงพร้อมสำรองและส่งต่อ ทำให้บริการต่อเนื่องโดยไม่พึ่งความเสียสละเกินกำลัง",
+    "new": "ตอบ สำรวจเวลาที่ทำได้ จัดเวรสั้นสำรองกัน และมีคู่มือส่งต่องาน เพราะเวรที่ทำได้จริงพร้อมสำรองและส่งต่อ ทำให้บริการต่อเนื่องโดยไม่พึ่งความเสียสละเกินกำลัง โดยเวลาของอาสา"
+  },
+  {
+    "id": "prob.tgat3.civic.service.sustainable_volunteering.0008",
+    "old": "จัดลำดับตามความเสี่ยง ส่งต่อเฉพาะทาง และใช้ช่องทางยืดหยุ่น รักษาคุณภาพโดยไม่เผาอาสา",
+    "new": "ตอบ แยกความต้องการตามความเสี่ยง ประสานวิชาชีพเรื่องยา และจัดรอบโทรหรือเยี่ยมตามกำลังพร้อมติดตาม เพราะจัดลำดับตามความเสี่ยง ส่งต่อเฉพาะทาง และใช้ช่องทางยืดหยุ่น รักษาคุณภาพโดยไม่เผาอาสา โดยความเสี่ยงไม่เท่ากัน"
+  },
+  {
+    "id": "prob.tgat3.complex_problem.evaluate.adjust_after_result.0008",
+    "old": "ปรับเฉพาะโรงอาหารด้วยข้อมูลที่ช่วยทิ้งถูกและวัดซ้ำ รักษาผลดีพร้อมแก้จุดอ่อน",
+    "new": "ตอบ คงระบบที่ส่วนอื่น เพิ่มป้ายตัวอย่างและจุดเทเศษอาหารที่โรงอาหาร แล้ววัดการปนเปื้อนรอบถัดไป เพราะปรับเฉพาะโรงอาหารด้วยข้อมูลที่ช่วยทิ้งถูกและวัดซ้ำ รักษาผลดีพร้อมแก้จุดอ่อน โดยอัตราแยกเพิ่มและจุดอื่นดี"
+  },
+  {
+    "id": "prob.tgat3.complex_problem.evaluate.success_measure.0007",
+    "old": "ผลก่อน-หลังแยกกลุ่มแสดงการเรียนรู้จริงและตรวจว่าโครงการช่วยคนเป้าหมาย",
+    "new": "ตอบ ใช้แบบทดสอบก่อน-หลังและดูว่ากลุ่มที่เริ่มอ่อนพัฒนาหรือไม่ เพราะคะแนนวัดทักษะก่อน–หลังที่แยกกลุ่มเป้าหมายแสดงผลทักษะและการเปลี่ยน ไม่ใช่เพียงจำนวนครั้งที่จัดติว และยังไม่ยืนยันเหตุจากโครงการเพียงอย่างเดียว โดยความเข้าใจ"
+  },
+  {
+    "id": "prob.tgat3.complex_problem.evaluate.success_measure.0008",
+    "old": "วัดรูปแบบเดินทางและความปลอดภัยก่อน-หลังในช่วงเทียบเคียง ตอบครบทั้งเป้าหมายและเงื่อนไข",
+    "new": "ตอบ สัดส่วนรูปแบบการเดินทางก่อน-หลัง จำนวนและความรุนแรงของเหตุ พร้อมข้อมูลช่วงเวลาเทียบเคียง เพราะวัดรูปแบบเดินทางและความปลอดภัยก่อน-หลังในช่วงเทียบเคียง ตอบครบทั้งเป้าหมายและเงื่อนไข โดยลดรถและไม่เพิ่มอุบัติเหตุ"
+  },
+  {
+    "id": "prob.tgat3.complex_problem.generate.compare_criteria.0008",
+    "old": "ทดสอบทั้งการเข้าถึงและข้อมูลติดตามกับกลุ่มเสี่ยง จึงเทียบทางเลือกตามเป้าหมายจริง",
+    "new": "ตอบ ให้น้ำหนักการเข้าถึงและข้อมูลที่ใช้ติดตามจริง ทดสอบทั้งสองกับกลุ่มเสี่ยง แล้วเทียบต้นทุนรวม เพราะทดสอบทั้งการเข้าถึงและข้อมูลติดตามกับกลุ่มเสี่ยง จึงเทียบทางเลือกตามเป้าหมายจริง โดยช่วยกลุ่มเสี่ยงหลุด"
+  },
+  {
+    "id": "prob.tgat3.complex_problem.generate.multiple_options.0007",
+    "old": "สร้างและทดลองหลายทางช่วยหาสมดุลโดยไม่ทิ้งผู้ใช้กลุ่มใด",
+    "new": "ตอบ คิดหลายแบบ เช่น แบ่งโซน จองห้องกลุ่ม และกำหนดช่วงเวลา แล้วทดลองเทียบผล เพราะสร้างและทดลองหลายทางช่วยหาสมดุลโดยไม่ทิ้งผู้ใช้กลุ่มใด โดยเงียบและทำงานกลุ่ม"
+  },
+  {
+    "id": "prob.tgat3.complex_problem.identify.stakeholders.0007",
+    "old": "การรวมทั้งผู้ใช้ ผู้ได้รับผล และฝ่ายปฏิบัติทำให้กำหนดตลาดได้รอบด้าน",
+    "new": "ตอบ ผู้ขาย ผู้พักอาศัยใกล้สวน ผู้ใช้สวน เจ้าหน้าที่ความปลอดภัย และพนักงานเก็บขยะ เพราะการรวมทั้งผู้ใช้ ผู้ได้รับผล และฝ่ายปฏิบัติทำให้กำหนดตลาดได้รอบด้าน โดยผู้ขายและผู้ใช้"
+  },
+  {
+    "id": "prob.tgat3.complex_problem.identify.stakeholders.0008",
+    "old": "การมีส่วนร่วมครบและตรวจสิทธิข้อมูลพร้อมทางเลือก ครบกว่าตรวจเทคนิคอย่างเดียว",
+    "new": "ตอบ รับฟังนักเรียน ผู้ปกครอง ครู ฝ่ายข้อมูล และผู้ที่ใช้ไม่ได้ พร้อมตรวจการยินยอม การเก็บ และทางเลือกอื่น เพราะการมีส่วนร่วมครบและตรวจสิทธิข้อมูลพร้อมทางเลือก ครบกว่าตรวจเทคนิคอย่างเดียว โดยผู้ปกครองและผู้ดูแลข้อมูล"
+  },
+  {
+    "id": "prob.tgat3.complex_problem.identify.symptom_vs_problem.0007",
+    "old": "ตรวจรูปแบบและสาเหตุของกระดาษติดจึงแก้ปัญหาหลักได้ ไม่ใช่เพียงลดคิว",
+    "new": "ตอบ เก็บเวลาที่ติด ชนิดงาน และสภาพกระดาษ แล้วตรวจสาเหตุที่สัมพันธ์กัน เพราะตรวจรูปแบบและสาเหตุของกระดาษติดจึงแก้ปัญหาหลักได้ ไม่ใช่เพียงลดคิว โดยคิวเป็นผลจากเครื่องติด"
+  },
+  {
+    "id": "prob.tgat3.complex_problem.identify.symptom_vs_problem.0008",
+    "old": "ตรวจและปรับคอขวดในครัวโดยคงความปลอดภัย ตรงปัญหากว่าการเพิ่มคนหน้าร้าน",
+    "new": "ตอบ วัดขั้นตอนเมนูทอด ตรวจเหตุที่ต้องเปลี่ยนน้ำมัน และปรับกระบวนการโดยยังคุมความปลอดภัยอาหาร เพราะตรวจและปรับคอขวดในครัวโดยคงความปลอดภัย ตรงปัญหากว่าการเพิ่มคนหน้าร้าน โดยเพิ่มคนรับออเดอร์ไม่ช่วย"
+  },
+  {
+    "id": "prob.tgat3.complex_problem.implement.action_sequence.0008",
+    "old": "ลำดับที่กำหนดสิทธิ สำรอง ทดลอง ตรวจ และมีแผนย้อนกลับ ควบคุมความเสี่ยงได้ครบ",
+    "new": "ตอบ กำหนดผู้รับผิดชอบและสิทธิ สำรองข้อมูล ทดลองย้ายชุดเล็กตรวจความครบ แล้วจึงย้ายจริงพร้อมแผนย้อนกลับ เพราะลำดับที่กำหนดสิทธิ สำรอง ทดลอง ตรวจ และมีแผนย้อนกลับ ควบคุมความเสี่ยงได้ครบ โดยข้อมูลส่วนบุคคล"
+  },
+  {
+    "id": "prob.tgat3.complex_problem.implement.handle_obstacle.0007",
+    "old": "ใช้แผนสำรองพร้อมสื่อสารและมอบหมาย ช่วยให้งานเดินต่ออย่างปลอดภัย",
+    "new": "ตอบ ใช้แผนสำรองในร่ม แจ้งผู้เข้าร่วมและแบ่งทีมย้ายอุปกรณ์ตามความปลอดภัย เพราะใช้แผนสำรองพร้อมสื่อสารและมอบหมาย ช่วยให้งานเดินต่ออย่างปลอดภัย โดยฝนกระทบสถานที่"
+  },
+  {
+    "id": "prob.tgat3.emotion.empathy.read_others.0007",
+    "old": "ถามอย่างเป็นส่วนตัวและให้เจ้าตัวบอกความต้องการ แสดงความใส่ใจโดยไม่คาดเดา",
+    "new": "ตอบ ถามเป็นการส่วนตัวว่าเขาโอเคไหมและอยากให้ช่วยแบบใด เพราะถามอย่างเป็นส่วนตัวและให้เจ้าตัวบอกความต้องการ แสดงความใส่ใจโดยไม่คาดเดา โดยเงียบหลังประกาศผล"
+  },
+  {
+    "id": "prob.tgat3.emotion.empathy.respond_to_upset.0007",
+    "old": "ฟังและให้เพื่อนกำหนดรูปแบบการสนับสนุน ตรงกับความต้องการมากที่สุด",
+    "new": "ตอบ ฟังโดยไม่ตัดสิน ถามว่าอยากเล่าหรืออยากให้คุณอยู่เป็นเพื่อน และเคารพคำตอบ เพราะฟังและให้เพื่อนกำหนดรูปแบบการสนับสนุน ตรงกับความต้องการมากที่สุด โดยยังไม่ต้องการคำแนะนำ"
+  },
+  {
+    "id": "prob.tgat3.emotion.self_awareness.know_limits.0007",
+    "old": "บอกข้อจำกัดและเสนอส่วนที่รับไหว รักษาทั้งตนเองและความรับผิดชอบต่อทีม",
+    "new": "ตอบ บอกภาระที่มี ปฏิเสธงานเต็มชิ้น และเสนอช่วยส่วนเล็กที่กำหนดเวลาได้ เพราะบอกข้อจำกัดและเสนอส่วนที่รับไหว รักษาทั้งตนเองและความรับผิดชอบต่อทีม โดยมีสอบและงานค้าง"
+  },
+  {
+    "id": "prob.tgat3.emotion.self_awareness.know_limits.0008",
+    "old": "ทำหน้าที่ที่ถนัดอย่างตรงไปตรงมาและส่งต่อส่วนเฉพาะทาง ปลอดภัยกว่าฝืนหรือถอนตัว",
+    "new": "ตอบ บอกขอบเขตความรู้ แปลข้อมูลตามตรง และช่วยติดต่อผู้เชี่ยวชาญโดยไม่ตีความแทน เพราะทำหน้าที่ที่ถนัดอย่างตรงไปตรงมาและส่งต่อส่วนเฉพาะทาง ปลอดภัยกว่าฝืนหรือถอนตัว โดยแปลภาษา"
+  },
+  {
+    "id": "prob.tgat3.emotion.self_awareness.notice_own_emotion.0007",
+    "old": "รู้ทันความกังวล จัดการ และรับผิดชอบคำพูด ครบกว่าการสงบคนเดียว",
+    "new": "ตอบ ยอมรับว่ากังวล หายใจช้า ๆ แล้วขอโทษเพื่อนก่อนทบทวนประเด็นหลัก เพราะรู้ทันความกังวล จัดการ และรับผิดชอบคำพูด ครบกว่าการสงบคนเดียว โดยใจเต้นเร็ว"
+  },
+  {
+    "id": "prob.tgat3.emotion.self_awareness.notice_own_emotion.0008",
+    "old": "สื่อสารสภาพตน ขอพัก และนัดกลับมา ช่วยทั้งการกำกับอารมณ์และความรับผิดชอบ",
+    "new": "ตอบ บอกเพื่อนอย่างสุภาพว่าตอนนี้ล้า ขอพักสั้น ๆ แล้วนัดอธิบายเมื่อพร้อม เพราะสื่อสารสภาพตน ขอพัก และนัดกลับมา ช่วยทั้งการกำกับอารมณ์และความรับผิดชอบ โดยคำถามกระตุ้น แต่ความล้าเพิ่มอารมณ์"
+  },
+  {
+    "id": "prob.tgat3.emotion.self_regulation.manage_anger_pressure.0007",
+    "old": "สงบอารมณ์ กู้ปัญหา และนัดทบทวนสาเหตุ ช่วยทั้งงานและความสัมพันธ์",
+    "new": "ตอบ หยุดสั้น ๆ ตรวจไฟล์ที่ถูก แล้วคุยเฉพาะวิธีแก้ก่อนทบทวนระบบส่งไฟล์ภายหลัง เพราะสงบอารมณ์ กู้ปัญหา และนัดทบทวนสาเหตุ ช่วยทั้งงานและความสัมพันธ์ โดยลดคำพูดทำร้าย"
+  },
+  {
+    "id": "prob.tgat3.emotion.self_regulation.manage_anger_pressure.0008",
+    "old": "การขอคำวิจารณ์เฉพาะงานพร้อมขอบเขตและทางส่งต่อ คุมอารมณ์โดยไม่ยอมรับการดูหมิ่น",
+    "new": "ตอบ ขอให้กลับมาที่ข้อเสนอ ขอคำวิจารณ์ที่เจาะจง และหากยังดูหมิ่นให้พักการสนทนาแล้วคุยผ่านผู้รับผิดชอบ เพราะการขอคำวิจารณ์เฉพาะงานพร้อมขอบเขตและทางส่งต่อ คุมอารมณ์โดยไม่ยอมรับการดูหมิ่น โดยโกรธและอับอาย"
+  },
+  {
+    "id": "prob.tgat3.emotion.self_regulation.respond_to_criticism.0007",
+    "old": "ขอตัวอย่างและยืนยันแผนแก้ ทำให้ใช้คำวิจารณ์ได้ตรงจุด",
+    "new": "ตอบ ขอตัวอย่างจุดที่สับสน สรุปสิ่งที่จะปรับ แล้วแก้โครงสร้างก่อนรายละเอียด เพราะขอตัวอย่างและยืนยันแผนแก้ ทำให้ใช้คำวิจารณ์ได้ตรงจุด โดยฟังสาระ"
+  },
+  {
+    "id": "prob.tgat3.emotion.self_regulation.respond_to_criticism.0008",
+    "old": "แยกบริบท ตรวจส่วนที่ควบคุมได้ และตกลงเกณฑ์ร่วม เปลี่ยนคำวิจารณ์กว้างให้เป็นการปรับที่ปลอดภัย",
+    "new": "ตอบ ขอแยกตัวอย่างตามชนิดงาน ตรวจเวลาที่ควบคุมได้ แล้วตกลงเกณฑ์ว่าเมื่อใดควรเร็วหรือรออนุมัติ เพราะแยกบริบท ตรวจส่วนที่ควบคุมได้ และตกลงเกณฑ์ร่วม เปลี่ยนคำวิจารณ์กว้างให้เป็นการปรับที่ปลอดภัย โดยคำวิจารณ์มีตัวอย่างต่างชนิด"
+  },
+  {
+    "id": "prob.tgat3.foundation.attractive_wrong.0007",
+    "old": "แก้จุดที่ทำให้แยกผิดและทดลองระบบร่วมกัน จึงแก้ต้นเหตุโดยไม่โยนภาระให้คนเดียว",
+    "new": "ตอบ หาจุดที่คนแยกผิด ทำป้ายให้ชัด และแบ่งเวรตรวจช่วงทดลอง เพราะแก้จุดที่ทำให้แยกผิดและทดลองระบบร่วมกัน จึงแก้ต้นเหตุโดยไม่โยนภาระให้คนเดียว โดยทำแทนทุกคนไม่ทำให้ระบบดีขึ้น"
+  },
+  {
+    "id": "prob.tgat3.foundation.attractive_wrong.0008",
+    "old": "หยุดความเสี่ยง เก็บหลักฐาน แจ้งตามระบบ และดูแลลูกค้า ครบกว่าการชดเชยเฉพาะหน้า",
+    "new": "ตอบ หยุดเสิร์ฟเมนูชุดเดียวกัน เก็บหลักฐาน แจ้งผู้รับผิดชอบตามช่องทาง และดูแลลูกค้าตามอำนาจที่มี เพราะหยุดความเสี่ยง เก็บหลักฐาน แจ้งตามระบบ และดูแลลูกค้า ครบกว่าการชดเชยเฉพาะหน้า โดยต้องกันอาหารที่อาจมีปัญหา"
+  },
+  {
+    "id": "prob.tgat3.foundation.formats_and_scoring.0005",
+    "old": "พิจารณาความเร่งด่วนและผลกระทบต่อผู้เกี่ยวข้องร่วมกัน จะได้คำตอบที่เหมาะกับบริบทมากกว่าการเลือกความเร็วหรือการพูดคุยเพียงอย่างเดียว (หมายเหตุ: เกณฑ์การให้คะแนนย่อยในเว็บนี้เป็นเกณฑ์ที่เรากำหนดขึ้นเพื่อฝึก ไม่ใช่เกณฑ์ทางการ)",
+    "new": "ตอบ ดูว่าปัญหาเร่งด่วนแค่ไหนและการข้ามการพูดคุยจะกระทบใคร แล้วเลือกทางที่ทันเวลาโดยดูแลผู้เกี่ยวข้อง เพราะพิจารณาความเร่งด่วนและผลกระทบต่อผู้เกี่ยวข้องร่วมกัน จะได้คำตอบที่เหมาะกับบริบทมากกว่าการเลือกความเร็วหรือการพูดคุยเพียงอย่างเดียว โดยถ้ามีอันตรายเฉพาะหน้าต้องหยุดความเสียหายก่อน แต่ถ้าไม่เร่งด่วนควรคุยกับผู้เกี่ยวข้อง (หมายเหตุ: คะแนนย่อยในเว็บเป็นเกณฑ์แต่งเพื่อฝึก ไม่ใช่เกณฑ์ทางการ)"
+  },
+  {
+    "id": "prob.tgat3.foundation.formats_and_scoring.0007",
+    "old": "ต้องชั่งประโยชน์ของการสอบถามกับความเร่งด่วน ไม่ใช้กฎว่าหลายขั้นหรือเร็วที่สุดดีกว่าเสมอ",
+    "new": "ตอบ ดูว่าการสอบถามทำให้แก้ตรงความต้องการและยังทันต่อเหตุการณ์หรือไม่ เพราะต้องชั่งประโยชน์ของการสอบถามกับความเร่งด่วน ไม่ใช้กฎว่าหลายขั้นหรือเร็วที่สุดดีกว่าเสมอ โดยการฟังผู้เกี่ยวข้องอาจเพิ่มความเหมาะสม"
+  },
+  {
+    "id": "prob.tgat3.foundation.formats_and_scoring.0008",
+    "old": "การเปรียบเทียบผลเสียของส่วนที่ขาดตามบริบทแม่นกว่าการใช้กฎตายตัว",
+    "new": "ตอบ ระบุผลเสียของสิ่งที่แต่ละตัวขาด แล้วดูว่าข้อใดกระทบเป้าหมายและผู้คนมากกว่าในบริบทนั้น เพราะการเปรียบเทียบผลเสียของส่วนที่ขาดตามบริบทแม่นกว่าการใช้กฎตายตัว โดยโจทย์วัดการเรียงลำดับ"
+  },
+  {
+    "id": "prob.tgat3.foundation.judgement_criteria.0007",
+    "old": "ปฏิเสธการปลอมชื่อและช่วยใช้ระบบลา เป็นทั้งความถูกต้อง ความเป็นธรรม และการดูแลคน",
+    "new": "ตอบ ปฏิเสธการลงชื่อแทน และช่วยเพื่อนแจ้งอาจารย์พร้อมหลักฐานเพื่อขอลาตามระบบ เพราะปฏิเสธการปลอมชื่อและช่วยใช้ระบบลา เป็นทั้งความถูกต้อง ความเป็นธรรม และการดูแลคน โดยเหตุผลดีไม่ทำให้การปลอมชื่อถูก"
+  },
+  {
+    "id": "prob.tgat3.foundation.time_management.0007",
+    "old": "เก็บข้อสั้นก่อนแล้วแบ่งเวลาข้อยาวพร้อมเผื่อตรวจ ทำให้โอกาสได้คะแนนรวมสูงกว่า",
+    "new": "ตอบ ทำข้อสั้นที่มั่นใจก่อน กำหนดเวลาสำหรับข้อยาว แล้วกลับมาตรวจทุกข้อว่าตอบครบ เพราะเก็บข้อสั้นก่อนแล้วแบ่งเวลาข้อยาวพร้อมเผื่อตรวจ ทำให้โอกาสได้คะแนนรวมสูงกว่า โดยข้อสั้นเก็บคะแนนได้เร็ว"
+  },
+  {
+    "id": "prob.tgat3.foundation.time_management.0008",
+    "old": "ทบทวนเฉพาะตัวเลือกที่เหลือด้วยรายละเอียดสำคัญ และเปลี่ยนเมื่อมีเหตุผลชัด เป็นการตรวจอย่างมีวินัย",
+    "new": "ตอบ กลับไปเทียบสองตัวเลือกกับรายละเอียดเรื่องเกิดซ้ำ แล้วเปลี่ยนเฉพาะเมื่อเหตุผลใหม่ชัดกว่า เพราะทบทวนเฉพาะตัวเลือกที่เหลือด้วยรายละเอียดสำคัญ และเปลี่ยนเมื่อมีเหตุผลชัด เป็นการตรวจอย่างมีวินัย โดยคำว่าเกิดซ้ำเป็นข้อมูลใหม่ที่มีผล"
+  },
+  {
+    "id": "prob.tgat3.value_innovation.analytical.enough_information.0007",
+    "old": "ข้อมูลรายช่วงและผลต่อผู้มีคาบเช้าพอสำหรับชั่งประโยชน์กับผลเสีย",
+    "new": "ตอบ จำนวนผู้ใช้รายช่วงเวลาและผลกระทบต่อผู้ที่มีคาบเช้า เพราะข้อมูลรายช่วงและผลต่อผู้มีคาบเช้าพอสำหรับชั่งประโยชน์กับผลเสีย โดยจะเปลี่ยนเวลาเปิด"
+  },
+  {
+    "id": "prob.tgat3.value_innovation.analytical.fact_vs_opinion.0007",
+    "old": "ข้อมูลก่อน-หลังหลายวันตรวจสอบได้และตอบตรงว่าตลาดทำให้การจราจรเปลี่ยนหรือไม่",
+    "new": "ตอบ เทียบเวลาเดินทางและปริมาณรถหลายวันก่อน-หลังเปิดตลาด เพราะมีฐานก่อน–หลังหลายวันและช่วงเวลาที่เทียบกันได้เพื่อดูการเปลี่ยนของการจราจร แต่ยังไม่ยืนยันว่าตลาดเป็นสาเหตุเดียว โดย'กว่าเดิมมาก' ต้องมีฐานเทียบ"
+  },
+  {
+    "id": "prob.tgat3.value_innovation.analytical.root_cause.0007",
+    "old": "ตรวจระบบยืมคืนก่อนช่วยระบุสาเหตุราก แทนการซื้อของหรือกล่าวโทษ",
+    "new": "ตอบ ตรวจเส้นทางการยืมคืนและหาจุดที่ไม่มีผู้รับผิดชอบหรือหลักฐาน เพราะตรวจระบบยืมคืนก่อนช่วยระบุสาเหตุราก แทนการซื้อของหรือกล่าวโทษ โดยของไม่พอเป็นผลจากของหาย"
+  },
+  {
+    "id": "prob.tgat3.value_innovation.innovation.evaluate_new_idea.0008",
+    "old": "ปรับการใช้ให้สนับสนุนการคิด พร้อมสอนตรวจและวัดผลรอบด้าน ดีกว่ายอมรับหรือปฏิเสธทั้งระบบ",
+    "new": "ตอบ จำกัดให้ AI ชี้ประเด็นไม่เขียนแทน สอนตรวจคำแนะนำ และทดลองต่อพร้อมวัดคุณภาพงานกับการพึ่งพา เพราะปรับการใช้ให้สนับสนุนการคิด พร้อมสอนตรวจและวัดผลรอบด้าน ดีกว่ายอมรับหรือปฏิเสธทั้งระบบ โดยเร็วขึ้นแต่คุณภาพกับพฤติกรรมมีปัญหา"
+  },
+  {
+    "id": "prob.tgat3.value_innovation.innovation.opportunity_from_problem.0007",
+    "old": "สำรวจและทดลองบริการรับนอกเวลาเปลี่ยนปัญหาเป็นคุณค่าใหม่โดยควบคุมความเสี่ยง",
+    "new": "ตอบ สำรวจช่วงเวลาที่ต้องการ แล้วทดลองตู้รับพัสดุหรือเวรรับช่วงเย็นกับกลุ่มเล็ก เพราะสำรวจและทดลองบริการรับนอกเวลาเปลี่ยนปัญหาเป็นคุณค่าใหม่โดยควบคุมความเสี่ยง โดยเวลาใดเป็นช่องว่าง"
+  },
+  {
+    "id": "prob.tgat3.value_innovation.innovation.opportunity_from_problem.0008",
+    "old": "ใช้ข้อมูลลดการผลิตเกินและส่งต่อเฉพาะอาหารปลอดภัย สร้างคุณค่าครบกว่าแก้ปลายทางอย่างเดียว",
+    "new": "ตอบ ใช้ยอดขายช่วยร้านปรับปริมาณ พร้อมติดเวลาปรุงและทดลองส่งส่วนเกินที่ผ่านเกณฑ์ให้องค์กร เพราะใช้ข้อมูลลดการผลิตเกินและส่งต่อเฉพาะอาหารปลอดภัย สร้างคุณค่าครบกว่าแก้ปลายทางอย่างเดียว โดยผลิตเกินและการใช้ส่วนเกิน"
+  },
+  {
+    "id": "prob.tgat3.value_innovation.problem_solving.communicate_solution.0007",
+    "old": "การแจ้งครบและขอการยืนยันลดความคลาดเคลื่อนโดยเปิดโอกาสให้ถาม",
+    "new": "ตอบ แจ้งเหตุผล เวลาเริ่มใช้ ช่องทางถาม และขอให้สมาชิกยืนยันว่าเห็นข้อความ เพราะการแจ้งครบและขอการยืนยันลดความคลาดเคลื่อนโดยเปิดโอกาสให้ถาม โดยสมาชิกทุกคน"
+  },
+  {
+    "id": "prob.tgat3.value_innovation.problem_solving.communicate_solution.0008",
+    "old": "เปิดเผยปัญหาและเสนอทางสำรองพร้อมแผนแก้ ทำให้การเปลี่ยนผ่านเดินต่ออย่างรับผิดชอบ",
+    "new": "ตอบ รายงานผลทดสอบและกลุ่มที่ได้รับผล เสนอช่องทางสำรองชั่วคราวพร้อมกำหนดแก้ แล้วประกาศทั้งวิธีหลักและสำรอง เพราะเปิดเผยปัญหาและเสนอทางสำรองพร้อมแผนแก้ ทำให้การเปลี่ยนผ่านเดินต่ออย่างรับผิดชอบ โดยผู้ตัดสินใจต้องรู้ผลทดสอบ"
+  },
+  {
+    "id": "prob.tgat3.value_innovation.problem_solving.feasible_solution.0007",
+    "old": "การปรับการไหลเวียนและทดลองวัดผลอยู่ในข้อจำกัดและปรับต่อได้",
+    "new": "ตอบ ทดลองจัดโต๊ะให้ลมผ่าน ใช้พัดลมเคลื่อนที่ และวัดอุณหภูมิก่อน-หลัง เพราะการปรับการไหลเวียนและทดลองวัดผลอยู่ในข้อจำกัดและปรับต่อได้ โดยงบน้อยและห้ามติดตั้งถาวร"
+  },
+  {
+    "id": "prob.tgat3.value_innovation.problem_solving.feasible_solution.0008",
+    "old": "แบ่งงานสนับสนุนให้ผู้ช่วยโดยคงการคัดกรองกับพยาบาล ใช้งบได้จริงและไม่ทิ้งผู้สูงอายุ",
+    "new": "ตอบ ให้ผู้ช่วยช่วยกรอกข้อมูลและจัดคิว แล้วให้พยาบาลคัดกรองตามเดิม พร้อมทดลองช่วงคนหนาแน่น เพราะแบ่งงานสนับสนุนให้ผู้ช่วยโดยคงการคัดกรองกับพยาบาล ใช้งบได้จริงและไม่ทิ้งผู้สูงอายุ โดยการคัดกรองต้องเป็นพยาบาล"
+  },
+  {
+    "id": "prob.tgat3.value_innovation.problem_solving.prioritise.0008",
+    "old": "กันการรั่วไหลก่อนและแบ่งทีมแก้ความถูกต้องพร้อมกัน จัดลำดับทั้งความเสี่ยงและทรัพยากรได้ดีที่สุด",
+    "new": "ตอบ หยุดเผยแพร่ข้อมูลส่วนบุคคล มอบหมายให้ลบและตรวจซ้ำ พร้อมให้อีกคนแก้ตัวเลข แล้วค่อยปรับสไลด์ เพราะกันการรั่วไหลก่อนและแบ่งทีมแก้ความถูกต้องพร้อมกัน จัดลำดับทั้งความเสี่ยงและทรัพยากรได้ดีที่สุด โดยข้อมูลส่วนบุคคลรั่วแก้ย้อนหลังยาก"
+  },
+  {
+    "id": "prob.tgat1.speaking.foundation.function_bank.0001",
+    "old": "**A:** You look pale. Why don't you see a doctor?  \n**B:** ______",
+    "new": "B has not seen a doctor yet and still feels unwell.\n\n**A:** You look pale. Why don't you see a doctor?  \n**B:** ______"
+  },
+  {
+    "id": "prob.tgat1.speaking.question_response.request_offer_permission.0005",
+    "old": "**A:** Would you mind if I opened the window?  \n**B:** ______",
+    "new": "The window is closed at the moment.\n\n**A:** Would you mind if I opened the window?  \n**B:** ______"
+  },
+  {
+    "id": "prob.tgat1.speaking.question_response.yesno_and_tag.0005",
+    "old": "**A:** Didn't you see my message?  \n**B:** ______ My phone was off all afternoon.",
+    "new": "A sent the message this afternoon, while B's phone was off. B has not switched it on since then.\n\n**A:** Didn't you see my message?  \n**B:** ______ My phone was off all afternoon."
+  },
+  {
+    "id": "prob.tgat1.speaking.question_response.invitation.0002",
+    "old": "**A:** We're having a small party for Nat's birthday on Saturday. Would you like to come?  \n**B:** ______",
+    "new": "Choose a polite refusal that explains a scheduling conflict.\n\n**A:** We're having a small party for Nat's birthday on Saturday. Would you like to come?  \n**B:** ______"
+  }
+]

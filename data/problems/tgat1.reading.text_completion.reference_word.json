@@ -464,7 +464,7 @@
         "reading_load": "medium"
       },
       "est_seconds": 55,
-      "stem_md": "Lena lent Maya her tablet because hers had stopped working. What does 'hers' refer to?",
+      "stem_md": "Maya's tablet had stopped working, but Lena's still worked. Lena lent Maya a tablet to replace hers. What does 'hers' refer to?",
       "figures": [],
       "choices": [
         {
@@ -488,21 +488,21 @@
       "solution_steps": [
         {
           "do_md": "ระบุสิ่งที่โจทย์ถาม",
-          "why_md": "ใช้เหตุผลของการให้ยืมและรูป possessive"
+          "why_md": "hers แทนแท็บเล็ตที่เสียของ Maya ไม่ใช่แท็บเล็ตของ Lena ที่ยังใช้ได้"
         },
         {
           "do_md": "ตรวจด้วยบริบทรอบจุดสำคัญ",
           "why_md": "เลือกคำตอบที่มีหลักฐานรองรับครบ ไม่เติมข้อมูลเอง"
         }
       ],
-      "answer_explanation_md": "แท็บเล็ตของ Maya เสียจึงต้องยืมของ Lena",
+      "answer_explanation_md": "ตอบ Maya's tablet เพราะแท็บเล็ตของ Maya เสียจึงต้องยืมของ Lena โดยhers แทนแท็บเล็ตที่เสียของ Maya ไม่ใช่แท็บเล็ตของ Lena ที่ยังใช้ได้",
       "hints": [
         "ขีดเส้นคำหรือประโยคที่เป็นหลักฐาน",
         "ตัดตัวเลือกที่จริงบางส่วนแต่ตอบคนละคำถาม",
         "ตรวจว่าคำตอบไม่กว้างหรือแคบเกินข้อความ"
       ],
       "distractor_reasons": {
-        "0": "ถ้าเป็นของ Lena ก็ไม่อธิบายเหตุที่ยืมให้ Maya",
+        "0": "ของ Lena ยังใช้ได้ จึงไม่ใช่เครื่องที่ต้องแทน",
         "2": "hers เป็น possessive pronoun แทนสิ่งของ",
         "3": "ไม่มีคำนามนี้ให้แทน"
       },
@@ -569,7 +569,7 @@
           "why_md": "เลือกคำตอบที่มีหลักฐานรองรับครบ ไม่เติมข้อมูลเอง"
         }
       ],
-      "answer_explanation_md": "สิ่งไม่คาดคิดคือการปฏิบัติต่อสองแผนต่างกันทั้งที่ผ่านเกณฑ์เหมือนกัน",
+      "answer_explanation_md": "ตอบ The council's different treatment of the two plans เพราะสิ่งไม่คาดคิดคือการปฏิบัติต่อสองแผนต่างกันทั้งที่ผ่านเกณฑ์เหมือนกัน โดยThis สรุปเหตุการณ์ทั้งประโยคก่อน ไม่จำเป็นต้องแทนนามใกล้สุด",
       "hints": [
         "ขีดเส้นคำหรือประโยคที่เป็นหลักฐาน",
         "ตัดตัวเลือกที่จริงบางส่วนแต่ตอบคนละคำถาม",

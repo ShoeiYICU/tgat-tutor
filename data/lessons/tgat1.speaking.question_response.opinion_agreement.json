@@ -15,7 +15,7 @@
   "blocks": [
     {
       "type": "hook",
-      "body_md": "\"I don't like horror movies.\" ถ้าเห็นด้วย ต้องตอบ **\"Me neither.\"** ไม่ใช่ \"Me too.\" กับดักนี้ออกบ่อยมากเพราะภาษาไทยใช้ \"ฉันด้วย\" ได้ทั้งสองแบบ"
+      "body_md": "\"I don't like horror movies.\" ถ้าเห็นด้วย ตอบย่อได้ว่า **\"Me neither.\"** ไม่ใช่ \"Me too.\" กับดักนี้ออกบ่อยมากเพราะภาษาไทยใช้ \"ฉันด้วย\" ได้ทั้งสองแบบ"
     },
     {
       "type": "concept",
@@ -29,7 +29,7 @@
       "variables": [],
       "use_when": "ทุกข้อที่ให้เลือกคำตอบแสดงการเห็นด้วย",
       "avoid_when": "ถ้าผู้พูดถามความเห็น ไม่ได้บอกความเห็น ให้ตอบด้วยความเห็นของเรา ไม่ใช่ Me too",
-      "derivation_md": "มี not / don't / never อยู่ในประโยคแรกไหม ถ้ามี คำตอบเห็นด้วยต้องเป็น neither / either",
+      "derivation_md": "มี not / don't / never อยู่ในประโยคแรกไหม ถ้ามี คำตอบย่อแบบเติมความเหมือนใช้ neither / either และกริยาช่วยที่ตรงกัน; แต่ I agree หรือการพูดซ้ำความเห็นก็เห็นด้วยได้",
       "memory_tip": "บอกเล่า → too/so · ปฏิเสธ → neither/either"
     },
     {
@@ -65,6 +65,19 @@
       "why_wrong_md": "ความหมายถูก แต่ไม่สุภาพ ข้อสอบมักถือว่าไม่เหมาะสม",
       "correct_md": "\"I see your point, but I learn better in a classroom.\"",
       "misconception_tag": "rude_disagreement"
+    },
+    {
+      "type": "concept",
+      "heading": "เห็นด้วยกับใจความ ไม่ใช่ดู not คำเดียว",
+      "body_md": "I can't believe how expensive... สื่อว่าราคาแพงจนน่าประหลาดใจ การตอบ I know ใช้ร่วมความรู้สึกได้ ไม่จำเป็นต้อง Neither can I. I agree ใช้เห็นด้วยได้แม้ประโยคแรกเป็นปฏิเสธ. สำหรับคำตอบย่อ so/neither ต้องเลือกกริยาช่วยให้ตรง เช่น Neither have I. How do you feel about...? ถามความเห็น ไม่ได้ถามอาการทางกายตามตรงในบริบทนี้."
+    },
+    {
+      "type": "pitfall",
+      "title": "แปล feel หรือ believe ทีละคำ",
+      "wrong_md": "How do you feel about homework? จึงตอบว่าปวดศีรษะ",
+      "why_wrong_md": "about homework กำหนดว่าถามทัศนะต่อการบ้าน",
+      "correct_md": "ตอบความเห็นต่อประเด็น และตรวจใจความก่อนเลือกคำตอบเห็นด้วย",
+      "misconception_tag": "literal_translation"
     },
     {
       "type": "summary",
