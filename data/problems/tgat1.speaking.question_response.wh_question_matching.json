@@ -501,7 +501,7 @@
           "why_md": "คำตอบต้องทำหน้าที่ต่อบทสนทนา ไม่ใช่แค่มีคำซ้ำ"
         }
       ],
-      "answer_explanation_md": "ตอบ Every thirty minutes until ten เพราะEvery thirty minutes ตอบความถี่และเพิ่มช่วงเวลาที่เป็นประโยชน์ โดยHow often ต้องการความถี่",
+      "answer_explanation_md": "ตอบ Every thirty minutes until ten เพราะ Every thirty minutes ตอบความถี่และเพิ่มช่วงเวลาที่เป็นประโยชน์ โดย How often ต้องการความถี่",
       "hints": [
         "ดูว่าผู้พูดกำลังถาม ขอ เชิญ หรือแสดงความรู้สึก",
         "ตัดตัวเลือกที่ไวยากรณ์ได้แต่ตอบคนละหน้าที่",
@@ -575,7 +575,7 @@
           "why_md": "คำตอบต้องทำหน้าที่ต่อบทสนทนา ไม่ใช่แค่มีคำซ้ำ"
         }
       ],
-      "answer_explanation_md": "ตอบ The riverside route, although it takes ten minutes longer เพราะระบุเส้นทางและเงื่อนไขที่ไม่เปลี่ยนคำตอบ โดยWhich route ต้องการชื่อเส้นทาง ไม่ใช่เหตุผลหรือเวลา",
+      "answer_explanation_md": "ตอบ The riverside route, although it takes ten minutes longer เพราะระบุเส้นทางและเงื่อนไขที่ไม่เปลี่ยนคำตอบ โดย Which route ต้องการชื่อเส้นทาง ไม่ใช่เหตุผลหรือเวลา",
       "hints": [
         "ดูว่าผู้พูดกำลังถาม ขอ เชิญ หรือแสดงความรู้สึก",
         "ตัดตัวเลือกที่ไวยากรณ์ได้แต่ตอบคนละหน้าที่",

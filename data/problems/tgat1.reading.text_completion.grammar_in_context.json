@@ -493,7 +493,7 @@
           "why_md": "เลือกคำตอบที่มีหลักฐานรองรับครบ ไม่เติมข้อมูลเอง"
         }
       ],
-      "answer_explanation_md": "ตอบ repaired เพราะrepaired แสดงว่าหนังสือได้รับการซ่อม โดยโครงสร้าง have + object + past participle",
+      "answer_explanation_md": "ตอบ repaired เพราะ repaired แสดงว่าหนังสือได้รับการซ่อม โดยโครงสร้าง have + object + past participle",
       "hints": [
         "ขีดเส้นคำหรือประโยคที่เป็นหลักฐาน",
         "ตัดตัวเลือกที่จริงบางส่วนแต่ตอบคนละคำถาม",
@@ -567,7 +567,7 @@
           "why_md": "เลือกคำตอบที่มีหลักฐานรองรับครบ ไม่เติมข้อมูลเอง"
         }
       ],
-      "answer_explanation_md": "ตอบ did the staff realize เพราะdid + subject + V1 ถูกทั้ง inversion และลำดับเหตุการณ์ โดยNot until ขึ้นต้นทำให้อนุประโยคหลักกลับกริยาช่วย",
+      "answer_explanation_md": "ตอบ did the staff realize เพราะ did + subject + V1 ถูกทั้ง inversion และลำดับเหตุการณ์ โดย Not until ขึ้นต้นทำให้อนุประโยคหลักกลับกริยาช่วย",
       "hints": [
         "ขีดเส้นคำหรือประโยคที่เป็นหลักฐาน",
         "ตัดตัวเลือกที่จริงบางส่วนแต่ตอบคนละคำถาม",

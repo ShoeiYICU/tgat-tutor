@@ -178,8 +178,8 @@ P = [
       "ตอบ limiting เพราะเป็นกฎที่ทำหน้าที่จำกัดจำนวนเรือ V-ing ขยายนามแบบกระทำ (= which limits)", diff=4, sec=45),
 ]
 P += [
- N("The volunteers had the damaged books ______ before returning them to the shelves.","repaired",[("repair","หลัง have + กรรม ใช้ past participle เมื่อให้สิ่งนั้นถูกทำ"),("repairing","สื่อว่าหนังสือเป็นผู้ซ่อม"),("to repair","ไม่ใช่โครงสร้าง causative นี้")],"โครงสร้าง have + object + past participle","ตอบ repaired เพราะrepaired แสดงว่าหนังสือได้รับการซ่อม โดยโครงสร้าง have + object + past participle",3,["to_preposition_confusion"]),
- N("Not until the lights went out ______ that the backup battery had failed.","did the staff realize",[("the staff realized","หลัง Not until นำหน้าต้อง inversion"),("had the staff realized","กาลและลำดับไม่ตรง จุดรู้เกิดหลังไฟดับ"),("the staff had realized","ไม่ inversion และสื่อว่ารู้ก่อน")],"Not until ขึ้นต้นทำให้อนุประโยคหลักกลับกริยาช่วย","ตอบ did the staff realize เพราะdid + subject + V1 ถูกทั้ง inversion และลำดับเหตุการณ์ โดยNot until ขึ้นต้นทำให้อนุประโยคหลักกลับกริยาช่วย",5,["literal_translation"]),
+ N("The volunteers had the damaged books ______ before returning them to the shelves.","repaired",[("repair","หลัง have + กรรม ใช้ past participle เมื่อให้สิ่งนั้นถูกทำ"),("repairing","สื่อว่าหนังสือเป็นผู้ซ่อม"),("to repair","ไม่ใช่โครงสร้าง causative นี้")],"โครงสร้าง have + object + past participle","ตอบ repaired เพราะ repaired แสดงว่าหนังสือได้รับการซ่อม โดยโครงสร้าง have + object + past participle",3,["to_preposition_confusion"]),
+ N("Not until the lights went out ______ that the backup battery had failed.","did the staff realize",[("the staff realized","หลัง Not until นำหน้าต้อง inversion"),("had the staff realized","กาลและลำดับไม่ตรง จุดรู้เกิดหลังไฟดับ"),("the staff had realized","ไม่ inversion และสื่อว่ารู้ก่อน")],"Not until ขึ้นต้นทำให้อนุประโยคหลักกลับกริยาช่วย","ตอบ did the staff realize เพราะ did + subject + V1 ถูกทั้ง inversion และลำดับเหตุการณ์ โดย Not until ขึ้นต้นทำให้อนุประโยคหลักกลับกริยาช่วย",5,["literal_translation"]),
 ]
 save(tid, "TGAT1", "mcq4", P, lesson=review_lesson(L))
 
@@ -271,8 +271,8 @@ P = [
       "ตอบ kept เพราะ keep a promise แปลว่ารักษาสัญญา ซึ่งบริษัทไม่ได้ทำ", diff=3, sec=35, reading="low", tags=["collocation_translation"]),
 ]
 P += [
- N("The committee will ______ a decision after reviewing the safety report.","make",[("do","ไม่ใช้ do a decision"),("perform","ไม่ใช้ perform a decision ในความหมายว่าตัดสินใจ"),("create","ไม่ใช่ collocation กับ decision ในบริบทนี้")],"หาคู่คำกริยากับ decision","ตอบ make เพราะmake a decision เป็นคู่คำมาตรฐาน โดยหาคู่คำกริยากับ decision",3,["collocation_translation"]),
- N("The pilot program fell ______ expectations: participation rose, but costs doubled.","short of",[("down from","ไม่เกิดสำนวนตามด้วย expectations"),("apart with","fall apart ไม่ตามด้วย with expectations"),("behind to","บุพบทผิดและไม่ใช่คู่คำ")],"ประโยคหลังแสดงผลไม่ถึงเป้าหมายโดยรวม","ตอบ short of เพราะfall short of expectations หมายถึงทำได้ต่ำกว่าที่คาด โดยประโยคหลังแสดงผลไม่ถึงเป้าหมายโดยรวม",5,["collocation_translation"]),
+ N("The committee will ______ a decision after reviewing the safety report.","make",[("do","ไม่ใช้ do a decision"),("perform","ไม่ใช้ perform a decision ในความหมายว่าตัดสินใจ"),("create","ไม่ใช่ collocation กับ decision ในบริบทนี้")],"หาคู่คำกริยากับ decision","ตอบ make เพราะ make a decision เป็นคู่คำมาตรฐาน โดยหาคู่คำกริยากับ decision",3,["collocation_translation"]),
+ N("The pilot program fell ______ expectations: participation rose, but costs doubled.","short of",[("down from","ไม่เกิดสำนวนตามด้วย expectations"),("apart with","fall apart ไม่ตามด้วย with expectations"),("behind to","บุพบทผิดและไม่ใช่คู่คำ")],"ประโยคหลังแสดงผลไม่ถึงเป้าหมายโดยรวม","ตอบ short of เพราะ fall short of expectations หมายถึงทำได้ต่ำกว่าที่คาด โดยประโยคหลังแสดงผลไม่ถึงเป้าหมายโดยรวม",5,["collocation_translation"]),
 ]
 save(tid, "TGAT1", "mcq4", P, lesson=review_lesson(L))
 
@@ -369,8 +369,8 @@ P = [
       "ตอบ Although เพราะเป็นความสัมพันธ์แบบแย้ง และตามด้วยประโยค", diff=4, sec=40, reading="low", tags=["connector_grammar"]),
 ]
 P += [
- N("The path was steep; ______, the youngest hikers reached the camp first.","nevertheless",[("therefore","บอกผล แต่การถึงก่อนขัดความคาดหมาย"),("for example","ไม่ได้ยกตัวอย่างของความชัน"),("in addition","ไม่ใช่เพียงข้อมูลทิศเดียวกัน")],"ความชันทำให้คาดว่าจะช้า แต่ผลกลับถึงก่อน","ตอบ nevertheless เพราะnevertheless เชื่อมความแย้ง โดยความชันทำให้คาดว่าจะช้า แต่ผลกลับถึงก่อน",3,["connector_grammar"]),
- N("______ the app records fewer errors, the trial is too small to prove that it works better.","Although",[("Despite","ต้องตามด้วยคำนามหรือ V-ing ไม่ใช่ประโยค"),("Because","ทำให้เหตุผลไม่ตรงกับข้อจำกัดหลัง comma"),("Therefore","เป็น adverb และเชื่อมโครงสร้างนี้ไม่ได้")],"สองอนุประโยคขัดกันและช่องตามด้วยประธาน+กริยา","ตอบ Although เพราะAlthough แสดงความแย้งและนำอนุประโยคได้ โดยสองอนุประโยคขัดกันและช่องตามด้วยประธาน+กริยา",5,["connector_grammar"]),
+ N("The path was steep; ______, the youngest hikers reached the camp first.","nevertheless",[("therefore","บอกผล แต่การถึงก่อนขัดความคาดหมาย"),("for example","ไม่ได้ยกตัวอย่างของความชัน"),("in addition","ไม่ใช่เพียงข้อมูลทิศเดียวกัน")],"ความชันทำให้คาดว่าจะช้า แต่ผลกลับถึงก่อน","ตอบ nevertheless เพราะ nevertheless เชื่อมความแย้ง โดยความชันทำให้คาดว่าจะช้า แต่ผลกลับถึงก่อน",3,["connector_grammar"]),
+ N("______ the app records fewer errors, the trial is too small to prove that it works better.","Although",[("Despite","ต้องตามด้วยคำนามหรือ V-ing ไม่ใช่ประโยค"),("Because","ทำให้เหตุผลไม่ตรงกับข้อจำกัดหลัง comma"),("Therefore","เป็น adverb และเชื่อมโครงสร้างนี้ไม่ได้")],"สองอนุประโยคขัดกันและช่องตามด้วยประธาน+กริยา","ตอบ Although เพราะ Although แสดงความแย้งและนำอนุประโยคได้ โดยสองอนุประโยคขัดกันและช่องตามด้วยประธาน+กริยา",5,["connector_grammar"]),
 ]
 save(tid, "TGAT1", "mcq4", P, lesson=review_lesson(L))
 
@@ -468,8 +468,8 @@ P = [
       "ตอบ the group that slept eight hours เพราะ the former หมายถึงสิ่งแรกในสองสิ่งที่กล่าวถึง", diff=2, sec=35, reading="medium"),
 ]
 P += [
- N("Maya's tablet had stopped working, but Lena's still worked. Lena lent Maya a tablet to replace hers. What does 'hers' refer to?","Maya's tablet",[("Lena's tablet","ของ Lena ยังใช้ได้ จึงไม่ใช่เครื่องที่ต้องแทน"),("Maya herself","hers เป็น possessive pronoun แทนสิ่งของ"),("the loan","ไม่มีคำนามนี้ให้แทน")],"hers แทนแท็บเล็ตที่เสียของ Maya ไม่ใช่แท็บเล็ตของ Lena ที่ยังใช้ได้","ตอบ Maya's tablet เพราะแท็บเล็ตของ Maya เสียจึงต้องยืมของ Lena โดยhers แทนแท็บเล็ตที่เสียของ Maya ไม่ใช่แท็บเล็ตของ Lena ที่ยังใช้ได้",3,["nearest_noun_trap"]),
- N("The council rejected the first plan and revised the second. This was unexpected because both had met the published criteria. What does 'This' refer to?","The council's different treatment of the two plans",[("The publication of the criteria","เป็นข้อมูลพื้นหลัง ไม่ใช่เหตุการณ์ไม่คาดคิด"),("The revision of both plans","มีเพียงแผนที่สองถูกแก้"),("The plans meeting the criteria","เป็นเหตุผลที่ทำให้ผลต่างกันน่าประหลาด ไม่ใช่ผลนั้นเอง")],"This สรุปเหตุการณ์ทั้งประโยคก่อน ไม่จำเป็นต้องแทนนามใกล้สุด","ตอบ The council's different treatment of the two plans เพราะสิ่งไม่คาดคิดคือการปฏิบัติต่อสองแผนต่างกันทั้งที่ผ่านเกณฑ์เหมือนกัน โดยThis สรุปเหตุการณ์ทั้งประโยคก่อน ไม่จำเป็นต้องแทนนามใกล้สุด",5,["nearest_noun_trap"]),
+ N("Maya's tablet had stopped working, but Ben's still worked. Ben lent Maya a spare tablet to replace hers. What does 'hers' refer to?","Maya's tablet",[("Ben's tablet","Ben เป็นผู้ชาย จึงใช้ his ไม่ใช่ hers"),("Maya herself","hers เป็น possessive pronoun แทนสิ่งของ"),("the loan","ไม่มีคำนามนี้ให้แทน")],"hers เป็นรูปแสดงความเป็นเจ้าของของผู้หญิงเพียงคนเดียวในบริบท คือ Maya","ตอบ Maya's tablet เพราะ hers ต้องอ้างถึงเจ้าของที่เป็นผู้หญิง และในบริบทนี้มีเพียง Maya โดยแทนคำว่า Maya's tablet",3,["nearest_noun_trap"]),
+ N("The council rejected the first plan and revised the second. This was unexpected because both had met the published criteria. What does 'This' refer to?","The council's different treatment of the two plans",[("The publication of the criteria","เป็นข้อมูลพื้นหลัง ไม่ใช่เหตุการณ์ไม่คาดคิด"),("The revision of both plans","มีเพียงแผนที่สองถูกแก้"),("The plans meeting the criteria","เป็นเหตุผลที่ทำให้ผลต่างกันน่าประหลาด ไม่ใช่ผลนั้นเอง")],"This สรุปเหตุการณ์ทั้งประโยคก่อน ไม่จำเป็นต้องแทนนามใกล้สุด","ตอบ The council's different treatment of the two plans เพราะสิ่งไม่คาดคิดคือการปฏิบัติต่อสองแผนต่างกันทั้งที่ผ่านเกณฑ์เหมือนกัน โดย This สรุปเหตุการณ์ทั้งประโยคก่อน ไม่จำเป็นต้องแทนนามใกล้สุด",5,["nearest_noun_trap"]),
 ]
 save(tid, "TGAT1", "mcq4", P, lesson=review_lesson(L))
 
@@ -557,8 +557,8 @@ P = [
       "ตอบ told เพราะเหตุการณ์เกิดในวันที่ระบุในอดีต (3 March) จึงใช้ past simple", diff=3, sec=35, reading="low", tags=["perfect_with_past_time"]),
 ]
 P += [
- N("By the time the inspectors arrived, the workers ______ the leak but had not tested the repair.","had sealed",[("sealed","ไม่แสดงชัดว่าเสร็จก่อน inspectors arrived"),("have sealed","present perfect ใช้กับจุดเวลาอดีตไม่ได้"),("were sealing","สื่อว่ายังทำอยู่ ขัดกับ but had not tested")],"การปิดรอยรั่วเสร็จก่อนอีกเหตุในอดีต","ตอบ had sealed เพราะpast perfect แสดงเหตุที่เกิดก่อน inspectors arrived โดยการปิดรอยรั่วเสร็จก่อนอีกเหตุในอดีต",3,["perfect_with_past_time"]),
- N("The archive ______ to the public since 2019, and it now receives over 500 visitors a week.","has been open",[("was open","ไม่ครอบคลุมจาก 2019 ถึงปัจจุบันตาม since"),("had opened","ต้องมีจุดอ้างอิงอดีตและความหมายเป็นการกระทำเปิด"),("is opening","สื่อกำลังเปิด ไม่ใช่สถานะต่อเนื่อง")],"since 2019 เชื่อมอดีตถึงปัจจุบัน และ now ยืนยันว่าสถานะยังต่อเนื่อง","ตอบ has been open เพราะpresent perfect ของสถานะเหมาะกับช่วงต่อเนื่อง โดยsince 2019 เชื่อมอดีตถึงปัจจุบัน และ now ยืนยันว่าสถานะยังต่อเนื่อง",5,["perfect_with_past_time"]),
+ N("By the time the inspectors arrived, the workers ______ the leak but had not tested the repair.","had sealed",[("sealed","ไม่แสดงชัดว่าเสร็จก่อน inspectors arrived"),("have sealed","present perfect ใช้กับจุดเวลาอดีตไม่ได้"),("were sealing","สื่อว่ายังทำอยู่ ขัดกับ but had not tested")],"การปิดรอยรั่วเสร็จก่อนอีกเหตุในอดีต","ตอบ had sealed เพราะ past perfect แสดงเหตุที่เกิดก่อน inspectors arrived โดยการปิดรอยรั่วเสร็จก่อนอีกเหตุในอดีต",3,["perfect_with_past_time"]),
+ N("The archive ______ to the public since 2019, and it now receives over 500 visitors a week.","has been open",[("was open","ไม่ครอบคลุมจาก 2019 ถึงปัจจุบันตาม since"),("had opened","ต้องมีจุดอ้างอิงอดีตและความหมายเป็นการกระทำเปิด"),("is opening","สื่อกำลังเปิด ไม่ใช่สถานะต่อเนื่อง")],"since 2019 เชื่อมอดีตถึงปัจจุบัน และ now ยืนยันว่าสถานะยังต่อเนื่อง","ตอบ has been open เพราะ present perfect ของสถานะเหมาะกับช่วงต่อเนื่อง โดย since 2019 เชื่อมอดีตถึงปัจจุบัน และ now ยืนยันว่าสถานะยังต่อเนื่อง",5,["perfect_with_past_time"]),
 ]
 save(tid, "TGAT1", "mcq4", P, lesson=review_lesson(L))
 
@@ -774,7 +774,7 @@ P = [
       diff=1, sec=45, reading="high"),
 ]
 P += [
- N("The notice says: 'Workshop check-in opens at 8:15. Unclaimed seats will be released at 8:50, ten minutes before the session.' When may a reserved seat be given away?","At 8:50",[("At 8:15","เป็นเวลาเปิด check-in"),("At 9:00","เป็นเวลาเริ่ม session"),("Ten minutes after the session","สลับ before เป็น after")],"scan หาเวลาที่ผูกกับ released","ตอบ At 8:50 เพราะข้อความระบุ 8:50 โดยตรง โดยscan หาเวลาที่ผูกกับ released",3,["same_words_wrong_meaning"]),
+ N("The notice says: 'Workshop check-in opens at 8:15. Unclaimed seats will be released at 8:50, ten minutes before the session.' When may a reserved seat be given away?","At 8:50",[("At 8:15","เป็นเวลาเปิด check-in"),("At 9:00","เป็นเวลาเริ่ม session"),("Ten minutes after the session","สลับ before เป็น after")],"scan หาเวลาที่ผูกกับ released","ตอบ At 8:50 เพราะข้อความระบุ 8:50 โดยตรง โดย scan หาเวลาที่ผูกกับ released",3,["same_words_wrong_meaning"]),
  N("A policy allows remote work on Tuesday and Thursday. New staff may apply after 60 days, but employees handling physical records must remain on site when those records are in use. Who cannot work remotely on a Thursday when archived files are being audited?","A new records clerk hired three months ago who must handle the files",[("A designer hired last year","ผ่านเวลาและไม่แตะเอกสารจริง"),("A software developer hired four months ago","ผ่านเกณฑ์ 60 วันและไม่ต้องใช้เอกสารจริง"),("A manager working from home on Tuesday","คนละวันกับคำถาม")],"ใช้ทั้งวัน สิทธิหลัง 60 วัน และข้อยกเว้นเอกสาร","ตอบ A new records clerk hired three months ago who must handle the files เพราะแม้ทำงานเกิน 60 วัน ผู้ที่ต้องใช้เอกสารจริงยังต้องอยู่หน้างาน โดยใช้ทั้งวัน สิทธิหลัง 60 วัน และข้อยกเว้นเอกสาร",5,["same_words_wrong_meaning"]),
 ]
 save(tid, "TGAT1", "mcq4", P, lesson=review_lesson(L))
@@ -878,8 +878,8 @@ P = [
       diff=4, sec=55, reading="high"),
 ]
 P += [
- N("The editor asked the writer to trim the introduction so readers could reach the main argument sooner. 'trim' most nearly means...","shorten",[("decorate","ไม่ช่วยให้ถึงประเด็นเร็ว"),("remove completely","แรงเกิน trim"),("move to the end","ไม่ได้กล่าวถึงตำแหน่ง")],"ผลที่ต้องการคือถึงประเด็นเร็วขึ้น","ตอบ shorten เพราะtrim ในบริบทงานเขียนหมายถึงตัดให้สั้น โดยผลที่ต้องการคือถึงประเด็นเร็วขึ้น",3,["common_meaning_trap"]),
- N("The agreement is described as 'provisional': it will operate for three months and become permanent only after a review. 'provisional' means...","temporary and subject to change",[("secret and legally invalid","ไม่มีเรื่องความลับหรือโมฆะ"),("complete and permanent","ตรงข้ามกับ review ก่อนถาวร"),("informal but unchanged","คำว่า unchanged ขัดเงื่อนไข")],"ประโยคหลังนิยามด้วยระยะทดลองและการทบทวน","ตอบ temporary and subject to change เพราะprovisional คือชั่วคราวและอาจเปลี่ยน โดยประโยคหลังนิยามด้วยระยะทดลองและการทบทวน",5,["common_meaning_trap"]),
+ N("The editor asked the writer to trim the introduction so readers could reach the main argument sooner. 'trim' most nearly means...","shorten",[("decorate","ไม่ช่วยให้ถึงประเด็นเร็ว"),("remove completely","แรงเกิน trim"),("move to the end","ไม่ได้กล่าวถึงตำแหน่ง")],"ผลที่ต้องการคือถึงประเด็นเร็วขึ้น","ตอบ shorten เพราะ trim ในบริบทงานเขียนหมายถึงตัดให้สั้น โดยผลที่ต้องการคือถึงประเด็นเร็วขึ้น",3,["common_meaning_trap"]),
+ N("The agreement is described as 'provisional': it will operate for three months and become permanent only after a review. 'provisional' means...","temporary and subject to change",[("secret and legally invalid","ไม่มีเรื่องความลับหรือโมฆะ"),("complete and permanent","ตรงข้ามกับ review ก่อนถาวร"),("informal but unchanged","คำว่า unchanged ขัดเงื่อนไข")],"ประโยคหลังนิยามด้วยระยะทดลองและการทบทวน","ตอบ temporary and subject to change เพราะ provisional คือชั่วคราวและอาจเปลี่ยน โดยประโยคหลังนิยามด้วยระยะทดลองและการทบทวน",5,["common_meaning_trap"]),
 ]
 save(tid, "TGAT1", "mcq4", P, lesson=review_lesson(L))
 
@@ -953,14 +953,14 @@ P = [
       "ตอบ was quieter and mostly used by local people เพราะบทอ่านบอกว่าเป็นที่ขายผลไม้ให้ครอบครัวในพื้นที่ และมีคนมาไม่กี่ร้อยคน",
       diff=2, sec=70, reading="high"),
     Q(passage("Complaint Letter", P_APP, "What will Mr. Hansen's company most likely do next if it wants to keep this customer?"),
-      "Apologize and fix it or refund her",
+      "Apologize and either fix the service or issue her a refund",
       [("Send her a new advertisement", "ไม่ได้แก้ปัญหาที่ร้องเรียน"),
        ("Ask her to wait another two weeks while the team continues to work on it", "เธอรอมานานแล้วและขอคำตอบด่วน"),
        ("Increase the subscription fee", "จะทำให้ลูกค้าไม่พอใจมากขึ้น")],
       [("ลูกค้าไม่พอใจและขอคืนเงิน", "ถ้าบริษัทต้องการรักษาลูกค้า ต้องแก้ปัญหาหรือคืนเงิน"),
-       ("ตัวเลือกที่สมเหตุผลตามบท", "Apologize and fix it or refund her")],
+       ("ตัวเลือกที่สมเหตุผลตามบท", "Apologize and either fix the service or issue her a refund")],
       ["ลูกค้าต้องการอะไร", "บริษัทที่อยากรักษาลูกค้าควรตอบสนองอย่างไร", "ตัดตัวที่ทำให้ลูกค้าไม่พอใจมากขึ้น"],
-      "ตอบ Apologize and fix it or refund her เพราะเป็นตัวเลือกเดียวที่ตอบสนองต่อปัญหาและคำขอคืนเงินของลูกค้า",
+      "ตอบ Apologize and either fix the service or issue her a refund เพราะเป็นตัวเลือกเดียวที่ตอบสนองต่อปัญหาและคำขอคืนเงินของลูกค้า",
       diff=3, sec=65, reading="high"),
     Q(passage("Robot Teachers?",
                "A pilot program at Riverdale School has started using robots in English classes. "
@@ -988,7 +988,7 @@ P = [
 ]
 P += [
  N("After the café added quiet hours, laptop users stayed longer while lunch sales remained stable. Which inference is best supported?","The quiet-hours policy did not reduce lunch sales during the period described.",[("Customers began visiting the café mainly to work on laptops.","การอยู่นานขึ้นของผู้ใช้ laptop ไม่บอกเหตุที่ลูกค้าเริ่มเข้าร้าน"),("Laptop users bought more food.","การอยู่นานไม่ยืนยันการซื้อ"),("The café will expand next month.","ไม่มีข้อมูลอนาคต")],"อนุมานเฉพาะสิ่งที่ยอดขาย stable รองรับ","ตอบ The quiet-hours policy did not reduce lunch sales during the period described เพราะบอกได้เพียงว่ายอดมื้อกลางวันไม่ลดในช่วงที่รายงาน โดยอนุมานเฉพาะสิ่งที่ยอดขาย stable รองรับ",3,["over_inference"]),
- N("A town's bike-share use rose after buses stopped earlier, but weekend use stayed unchanged. What can reasonably be inferred?","Some weekday riders may be using bikes when late buses are unavailable.",[("The bike-share caused the bus cuts.","สลับเหตุและผล"),("Tourists stopped cycling on weekends.","weekend unchanged ไม่ได้บอกกลุ่มผู้ใช้"),("Former bus passengers made up most bike-share users.","ไม่มีสัดส่วนผู้ใช้ที่เคยนั่งรถโดยสาร แม้เหตุการณ์สองอย่างเกิดสัมพันธ์กัน")],"เชื่อมการเพิ่มกับเวลารถหยุด แต่คงถ้อยคำไม่แน่นอน","ตอบ Some weekday riders may be using bikes when late buses are unavailable เพราะsome และ may สอดคล้องกับหลักฐานเชิงสัมพันธ์โดยไม่สรุปเกิน โดยเชื่อมการเพิ่มกับเวลารถหยุด แต่คงถ้อยคำไม่แน่นอน",5,["over_inference"]),
+ N("A town's bike-share use rose after buses stopped earlier, but weekend use stayed unchanged. What can reasonably be inferred?","Some weekday riders may be using bikes when late buses are unavailable.",[("The bike-share caused the bus cuts.","สลับเหตุและผล"),("Tourists stopped cycling on weekends.","weekend unchanged ไม่ได้บอกกลุ่มผู้ใช้"),("Former bus passengers made up most bike-share users.","ไม่มีสัดส่วนผู้ใช้ที่เคยนั่งรถโดยสาร แม้เหตุการณ์สองอย่างเกิดสัมพันธ์กัน")],"เชื่อมการเพิ่มกับเวลารถหยุด แต่คงถ้อยคำไม่แน่นอน","ตอบ Some weekday riders may be using bikes when late buses are unavailable เพราะ some และ may สอดคล้องกับหลักฐานเชิงสัมพันธ์โดยไม่สรุปเกิน โดยเชื่อมการเพิ่มกับเวลารถหยุด แต่คงถ้อยคำไม่แน่นอน",5,["over_inference"]),
 ]
 save(tid, "TGAT1", "mcq4", P, lesson=review_lesson(L))
 
@@ -1291,7 +1291,7 @@ P = [
       "ตอบ The garden has become a place for sharing knowledge. เพราะเป็นแก่นประโยคหลังตัดอนุประโยค which ออก", diff=2, sec=40, reading="medium"),
 ]
 P += [
- N("The list of items requested by the shelters ______ posted every Monday.","is",[("are","หลงตาม items/shelters ที่อยู่ในวลี"),("were","ไม่มีสัญญาณอดีต"),("have","ไม่เข้ากับ posted แบบ passive")],"ประธานแก่นคือ The list เอกพจน์","ตอบ is เพราะis agrees with list และสร้าง passive is posted โดยประธานแก่นคือ The list เอกพจน์",3,["nearest_noun_subject"]),
+ N("The list of items requested by the shelters ______ posted every Monday.","is",[("are","หลงตาม items/shelters ที่อยู่ในวลี"),("were","ไม่มีสัญญาณอดีต"),("have","ไม่เข้ากับ posted แบบ passive")],"ประธานแก่นคือ The list เอกพจน์","ตอบ is เพราะ is agrees with list และสร้าง passive is posted โดยประธานแก่นคือ The list เอกพจน์",3,["nearest_noun_subject"]),
  N("What is the sentence core of: 'The reports that the interns who joined in June prepared were approved yesterday'?","The reports were approved.",[("The interns joined in June.","เป็นข้อมูลในอนุประโยค ไม่ใช่แก่นหลัก"),("The interns prepared yesterday.","yesterday ขยายการอนุมัติและ prepared ต้องมีกรรม"),("The reports prepared the interns.","สลับประธานกรรม")],"ตัด relative clauses that... และ who... ออก","ตอบ The reports were approved เพราะเหลือประธาน The reports กับกริยาหลัก were approved โดยตัด relative clauses that... และ who... ออก",5,["nearest_noun_subject"]),
 ]
 save(tid, "TGAT1", "mcq4", P, lesson=review_lesson(L))
@@ -1376,7 +1376,7 @@ P = [
       "ตอบ Scan for the word, then read the sentences around it carefully เพราะข้อศัพท์ต้องหาตำแหน่งก่อนแล้วใช้บริบทรอบ ๆ", diff=3, sec=35, reading="low"),
 ]
 P += [
- N("You need the application deadline in a two-page notice. What should you do first?","Scan for dates and words such as deadline or submit",[("Read the notice aloud from the beginning, pausing to translate difficult phrases","การอ่านออกเสียงและแปลตั้งแต่ต้นไม่ค้นวันที่เฉพาะจุด จึงไม่ใช่ขั้นเริ่มที่มีประสิทธิภาพ"),("Summarize each paragraph","เป็นงานภาพรวม"),("Look up unfamiliar vocabulary in the introduction","มุ่งศัพท์ต้นประกาศโดยยังไม่หา deadline จึงไม่ตอบรายละเอียดวันที่ที่ต้องการ")],"คำถามต้องการรายละเอียดชนิดวันที่","ตอบ Scan for dates and words such as deadline or submit เพราะscan คำสัญญาณและตัวเลขเร็วที่สุด โดยคำถามต้องการรายละเอียดชนิดวันที่",3,["read_every_word"]),
+ N("You need the application deadline in a two-page notice. What should you do first?","Scan for dates and words such as deadline or submit",[("Read the notice aloud from the beginning, pausing to translate difficult phrases","การอ่านออกเสียงและแปลตั้งแต่ต้นไม่ค้นวันที่เฉพาะจุด จึงไม่ใช่ขั้นเริ่มที่มีประสิทธิภาพ"),("Summarize each paragraph","เป็นงานภาพรวม"),("Look up unfamiliar vocabulary in the introduction","มุ่งศัพท์ต้นประกาศโดยยังไม่หา deadline จึงไม่ตอบรายละเอียดวันที่ที่ต้องการ")],"คำถามต้องการรายละเอียดชนิดวันที่","ตอบ Scan for dates and words such as deadline or submit เพราะ scan คำสัญญาณและตัวเลขเร็วที่สุด โดยคำถามต้องการรายละเอียดชนิดวันที่",3,["read_every_word"]),
  N("A passage has headings 'Why wetlands matter', 'Current threats', and 'What residents can do'. To answer its main-purpose question efficiently, you should...","skim the headings and topic sentences, then check the conclusion",[("scan only for the word wetlands","เห็นคำซ้ำแต่ไม่รู้จุดประสงค์"),("translate the threat section word by word","เน้นส่วนเดียวและช้า"),("read the examples first and ignore headings","รายละเอียดไม่แทนโครงสร้าง")],"คำถามภาพรวมต้องใช้โครงสร้างทั้งบท","ตอบ skim the headings and topic sentences, then check the conclusion เพราะหัวข้อ ประโยคแก่น และบทสรุปเผยจุดประสงค์โดยไม่ต้องอ่านทุกคำ โดยคำถามภาพรวมต้องใช้โครงสร้างทั้งบท",5,["read_every_word"]),
 ]
 save(tid, "TGAT1", "mcq4", P, lesson=review_lesson(L))
@@ -1457,7 +1457,7 @@ P = [
       ["ประโยคถัดไปบอกอะไร", "คำกลุ่มนี้ต่างกันที่ชนิดของคำและความหมาย ลองแยกว่าคำใดเป็นคำนาม", "ช่องว่างต้องการคุณศัพท์ที่แปลว่าอะไร"],
       "ตอบ economical เพราะประโยคถัดไปบอกว่าประหยัดเงิน และ economical แปลว่าประหยัด", diff=3, sec=30, reading="low"),
     Q("The school **encourages** students to join at least one club. *encourages* is closest in meaning to...",
-      "supports and motivates", [("forces with punishment", "encourage ไม่ใช่การบังคับด้วยการลงโทษ"),
+      "supports and motivates", [("forces them by threatening punishment", "encourage ไม่ใช่การบังคับด้วยการขู่ว่าจะลงโทษ"),
                                  ("does not allow", "ตรงข้ามความหมาย"),
                                  ("pays for", "ไม่ใช่ความหมายของ encourage")],
       [("encourage = สนับสนุน ส่งเสริม", "supports and motivates"), ("ตัดตัวที่บังคับหรือห้าม", "ไม่ตรงความหมาย")],
@@ -1465,8 +1465,8 @@ P = [
       "ตอบ supports and motivates เพราะ encourage แปลว่าส่งเสริมและสนับสนุนให้ทำ", diff=1, sec=25, reading="low"),
 ]
 P += [
- N("The museum introduced flexible ticket prices to make visits more ______ for low-income families.","affordable",[("available","แปลว่ามีให้ใช้ ไม่เน้นราคา"),("economic","เกี่ยวกับเศรษฐกิจโดยรวม ไม่แปลว่าราคาเอื้อมถึง"),("effective","แปลว่าได้ผล ไม่ใช่ราคาพอจ่าย")],"flexible prices มีเป้าหมายช่วยครอบครัวรายได้น้อย","ตอบ affordable เพราะaffordable หมายถึงราคาเอื้อมถึง โดยflexible prices มีเป้าหมายช่วยครอบครัวรายได้น้อย",3,["common_meaning_trap"]),
- N("The new rule may ______ small vendors, but its long-term ______ is still uncertain.","affect; effect",[("effect; affect","สลับชนิดคำ: ช่องแรกต้องกริยา ช่องสองคำนาม"),("affect; affect","ช่องหลัง long-term ต้องคำนาม"),("effect; effect","ช่องแรก after may ต้องกริยาความหมายกระทบ")],"หลัง may ใช้กริยา ส่วนหลัง its long-term ใช้คำนาม","ตอบ affect; effect เพราะaffect เป็นกริยา และ effect เป็นคำนาม โดยหลัง may ใช้กริยา ส่วนหลัง its long-term ใช้คำนาม",5,["affect_effect"]),
+ N("The museum introduced flexible ticket prices to make visits more ______ for low-income families.","affordable",[("available","แปลว่ามีให้ใช้ ไม่เน้นราคา"),("economic","เกี่ยวกับเศรษฐกิจโดยรวม ไม่แปลว่าราคาเอื้อมถึง"),("effective","แปลว่าได้ผล ไม่ใช่ราคาพอจ่าย")],"flexible prices มีเป้าหมายช่วยครอบครัวรายได้น้อย","ตอบ affordable เพราะ affordable หมายถึงราคาเอื้อมถึง โดย flexible prices มีเป้าหมายช่วยครอบครัวรายได้น้อย",3,["common_meaning_trap"]),
+ N("The new rule may ______ small vendors, but its long-term ______ is still uncertain.","affect; effect",[("effect; affect","สลับชนิดคำ: ช่องแรกต้องกริยา ช่องสองคำนาม"),("affect; affect","ช่องหลัง long-term ต้องคำนาม"),("effect; effect","ช่องแรก after may ต้องกริยาความหมายกระทบ")],"หลัง may ใช้กริยา ส่วนหลัง its long-term ใช้คำนาม","ตอบ affect; effect เพราะ affect เป็นกริยา และ effect เป็นคำนาม โดยหลัง may ใช้กริยา ส่วนหลัง its long-term ใช้คำนาม",5,["affect_effect"]),
 ]
 save(tid, "TGAT1", "mcq4", P, lesson=review_lesson(L))
 
@@ -1559,6 +1559,6 @@ P = [
 ]
 P += [
  N("With eight minutes left, you have two unanswered detail questions and one long passage unchecked. What is best?","Answer the detail questions by scanning, then use the remaining time to check marked items.",[("Reread the long passage from the beginning","เสี่ยงหมดเวลากับงานเดียว"),("Leave the unanswered items blank so that you can review the completed passage","ทิ้งโอกาสคะแนนของข้อที่ค้างทั้งที่ยังมีเวลาค้นรายละเอียด"),("Revise earlier answers that sound less natural before attempting the unanswered questions","เปลี่ยนคำตอบจากความรู้สึกเรื่องถ้อยคำโดยยังไม่เก็บข้อที่ค้างและไม่มีหลักฐานใหม่")],"เก็บข้อที่หาเฉพาะจุดได้เร็วและเผื่อตรวจ","ตอบ Answer the detail questions by scanning, then use the remaining time to check marked items เพราะการ scan รายละเอียดใช้เวลาคุ้มกว่าการอ่านใหม่ทั้งบท โดยเก็บข้อที่หาเฉพาะจุดได้เร็วและเผื่อตรวจ",3,["stuck_on_one"]),
- N("You are stuck between two inference choices. One says 'may indicate' and cites two details; the other says 'proves' and relies on one detail. What should you do?","Choose the cautious claim supported by both details, unless the passage states certainty.",[("Choose 'proves' because it sounds decisive","น้ำเสียงมั่นใจไม่แทนหลักฐาน"),("Spend unlimited time finding a third option","ไม่มีการคุมเวลา"),("Skip the item without marking a choice","เสียคะแนนทั้งที่ตัดเหลือสอง")],"เทียบระดับความแน่นอนกับจำนวนหลักฐาน","ตอบ Choose the cautious claim supported by both details, unless the passage states certainty เพราะinference ควรไม่แรงกว่าข้อความและใช้หลักฐานหลายจุด โดยเทียบระดับความแน่นอนกับจำนวนหลักฐาน",5,["stuck_on_one"]),
+ N("You are stuck between two inference choices. One says 'may indicate' and cites two details; the other says 'proves' and relies on one detail. What should you do?","Choose the cautious claim supported by both details, unless the passage states certainty.",[("Choose 'proves' because it sounds decisive","น้ำเสียงมั่นใจไม่แทนหลักฐาน"),("Spend unlimited time finding a third option","ไม่มีการคุมเวลา"),("Skip the item without marking a choice","เสียคะแนนทั้งที่ตัดเหลือสอง")],"เทียบระดับความแน่นอนกับจำนวนหลักฐาน","ตอบ Choose the cautious claim supported by both details, unless the passage states certainty เพราะ inference ควรไม่แรงกว่าข้อความและใช้หลักฐานหลายจุด โดยเทียบระดับความแน่นอนกับจำนวนหลักฐาน",5,["stuck_on_one"]),
 ]
 save(tid, "TGAT1", "mcq4", P, lesson=review_lesson(L))

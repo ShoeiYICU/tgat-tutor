@@ -240,6 +240,7 @@ def main() -> int:
     if len(dup_title) > 40:
         detail.append(f"  … และอีก {len(dup_title) - 40} ตัว")
     detail += [f"  สูตรไม่มี variables: {x}" for x in no_vars] + [f"  คำถามท้ายบท: {x}" for x in bad_check]
+    detail += [f"  tag ไม่มีกับดักรองรับ (ข้อมูล): {x}" for x in tag_gap]
 
     # ---------- พิมพ์ผล
     print(f"ตัวตรวจงานตัวเองของ Codex · เทียบกับ {args.base} · หัวข้อในขอบเขต {len(owned)} · โจทย์ {n_items} ข้อ\n")

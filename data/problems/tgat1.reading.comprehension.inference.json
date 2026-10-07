@@ -250,7 +250,7 @@
       "figures": [],
       "choices": [
         {
-          "md": "Apologize and fix it or refund her",
+          "md": "Apologize and either fix the service or issue her a refund",
           "is_answer": true
         },
         {
@@ -274,10 +274,10 @@
         },
         {
           "do_md": "ตัวเลือกที่สมเหตุผลตามบท",
-          "why_md": "Apologize and fix it or refund her"
+          "why_md": "Apologize and either fix the service or issue her a refund"
         }
       ],
-      "answer_explanation_md": "ตอบ Apologize and fix it or refund her เพราะเป็นตัวเลือกเดียวที่ตอบสนองต่อปัญหาและคำขอคืนเงินของลูกค้า",
+      "answer_explanation_md": "ตอบ Apologize and either fix the service or issue her a refund เพราะเป็นตัวเลือกเดียวที่ตอบสนองต่อปัญหาและคำขอคืนเงินของลูกค้า",
       "hints": [
         "ลูกค้าต้องการอะไร",
         "บริษัทที่อยากรักษาลูกค้าควรตอบสนองอย่างไร",
@@ -569,7 +569,7 @@
           "why_md": "เลือกคำตอบที่มีหลักฐานรองรับครบ ไม่เติมข้อมูลเอง"
         }
       ],
-      "answer_explanation_md": "ตอบ Some weekday riders may be using bikes when late buses are unavailable เพราะsome และ may สอดคล้องกับหลักฐานเชิงสัมพันธ์โดยไม่สรุปเกิน โดยเชื่อมการเพิ่มกับเวลารถหยุด แต่คงถ้อยคำไม่แน่นอน",
+      "answer_explanation_md": "ตอบ Some weekday riders may be using bikes when late buses are unavailable เพราะ some และ may สอดคล้องกับหลักฐานเชิงสัมพันธ์โดยไม่สรุปเกิน โดยเชื่อมการเพิ่มกับเวลารถหยุด แต่คงถ้อยคำไม่แน่นอน",
       "hints": [
         "ขีดเส้นคำหรือประโยคที่เป็นหลักฐาน",
         "ตัดตัวเลือกที่จริงบางส่วนแต่ตอบคนละคำถาม",

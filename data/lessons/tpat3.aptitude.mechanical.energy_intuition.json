@@ -94,14 +94,6 @@
       "misconception_tag": "add_efficiencies"
     },
     {
-      "type": "pitfall",
-      "title": "หากำลังออกด้วยการหาร",
-      "wrong_md": "กำลังเข้า 5 kW ประสิทธิภาพ 80% จึงออก 5/0.8",
-      "why_wrong_md": "การหารใช้ย้อนหากำลังเข้า ไม่ใช่หากำลังออก",
-      "correct_md": "กำลังออก 0.8×5=4 kW",
-      "misconception_tag": "efficiency_direction"
-    },
-    {
       "type": "summary",
       "bullets_md": [
         "ระบุปริมาณที่ถามและหน่วย",

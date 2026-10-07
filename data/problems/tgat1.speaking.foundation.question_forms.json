@@ -495,7 +495,7 @@
           "why_md": "คำตอบต้องทำให้บทสนทนาต่อเนื่อง ไม่ใช่แค่มีคำซ้ำ"
         }
       ],
-      "answer_explanation_md": "ตอบ Could you tell me where the nearest pharmacy is? เพราะwhere the nearest pharmacy is ถูกลำดับ โดยหลังวลีเปิดใช้ลำดับประโยคบอกเล่า",
+      "answer_explanation_md": "ตอบ Could you tell me where the nearest pharmacy is? เพราะ where the nearest pharmacy is ถูกลำดับ โดยหลังวลีเปิดใช้ลำดับประโยคบอกเล่า",
       "hints": [
         "ดูว่าใครพูดกับใครและต้องการอะไร",
         "ใช้ประโยคก่อนและหลังช่องว่างร่วมกัน",

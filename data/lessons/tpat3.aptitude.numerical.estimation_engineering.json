@@ -65,115 +65,27 @@
     },
     {
       "type": "pitfall",
-      "title": "แปลง cm² เป็น m² ด้วยตัวคูณความยาว",
-      "wrong_md": "แปลง cm² เป็น m² ด้วยตัวคูณความยาว",
-      "why_wrong_md": "พื้นที่ต้องยกกำลังสองตัวคูณหน่วย",
-      "correct_md": "30×30 cm เท่ากับ 0.3×0.3=0.09 m²",
+      "title": "ลืมยกกำลังตัวคูณหน่วย",
+      "wrong_md": "กระเบื้อง 30×30 cm มีพื้นที่ 30×30=900 m²",
+      "why_wrong_md": "ตัวเลข 30 ยังเป็นเซนติเมตร จึงใช้เป็นเมตรในสูตรพื้นที่ไม่ได้ และพื้นที่ต้องแปลงทั้งสองมิติ",
+      "correct_md": "แปลงด้านเป็น 0.3 m ก่อน จึงได้ 0.3×0.3=0.09 m²",
       "misconception_tag": "linear_unit_for_area"
     },
     {
       "type": "pitfall",
-      "title": "นับสีสำหรับหนึ่งเที่ยวทั้งที่ทาสองเที่ยว",
-      "wrong_md": "นับสีสำหรับหนึ่งเที่ยวทั้งที่ทาสองเที่ยว",
-      "why_wrong_md": "พื้นที่ที่สีต้องครอบคลุมรวมทุกเที่ยว",
-      "correct_md": "ลิตรสี=พื้นที่×จำนวนเที่ยว/พื้นที่ที่ทาได้ต่อลิตร",
-      "misconception_tag": "ignore_multiple_coats"
-    },
-    {
-      "type": "pitfall",
-      "title": "ใช้กำลังเป็น W แต่เขียนผลเป็น kWh",
-      "wrong_md": "ใช้กำลังเป็น W แต่เขียนผลเป็น kWh",
-      "why_wrong_md": "W×h ได้ Wh ไม่ใช่ kWh",
-      "correct_md": "แปลง 1,000 Wh=1 kWh หรือใช้ kW×h ตั้งแต่ต้น",
+      "title": "ปะปน W กับ kW",
+      "wrong_md": "หลอดไฟ 500 W เปิด 4 ชั่วโมง แล้วตอบว่าใช้พลังงาน 2,000 kWh",
+      "why_wrong_md": "W×h ให้หน่วย Wh; ถ้าจะตอบ kWh ต้องหาร 1,000 หรือเปลี่ยนกำลังเป็น kW ก่อน",
+      "correct_md": "500 W×4 h=2,000 Wh=2 kWh",
       "misconception_tag": "watt_kilowatt_confusion"
     },
     {
       "type": "pitfall",
-      "title": "ตอบ 80 Wh ว่าใช้ได้ 80 ชั่วโมง",
-      "wrong_md": "ตอบ 80 Wh ว่าใช้ได้ 80 ชั่วโมง",
-      "why_wrong_md": "พลังงานกับเวลาเป็นคนละปริมาณ",
-      "correct_md": "เวลา=พลังงานใช้ได้/กำลังคงที่; Wh/W ได้ h",
-      "misconception_tag": "energy_as_runtime"
-    },
-    {
-      "type": "pitfall",
-      "title": "เขียนมวลเป็นตันโดยไม่หาร 1,000",
-      "wrong_md": "เขียนมวลเป็นตันโดยไม่หาร 1,000",
-      "why_wrong_md": "1 ตัน=1,000 kg",
-      "correct_md": "คำนวณมวล ρV เป็น kg ก่อนแปลงเป็นตัน",
-      "misconception_tag": "kilogram_tonne_confusion"
-    },
-    {
-      "type": "pitfall",
-      "title": "ใช้รัศมีเป็นระยะเคลื่อนต่อรอบ",
-      "wrong_md": "ใช้รัศมีเป็นระยะเคลื่อนต่อรอบ",
-      "why_wrong_md": "หนึ่งรอบวิ่งระยะเท่ากับเส้นรอบวงเมื่อไม่ไถล",
-      "correct_md": "ระยะ=2πr×จำนวนรอบ หรือ πd×จำนวนรอบ",
-      "misconception_tag": "distance_per_revolution"
-    },
-    {
-      "type": "pitfall",
-      "title": "เอาปริมาตรคูณอัตราการไหลเพื่อหาเวลา",
-      "wrong_md": "เอาปริมาตรคูณอัตราการไหลเพื่อหาเวลา",
-      "why_wrong_md": "L/(L/นาที) จึงได้หน่วยนาที",
-      "correct_md": "เวลา=ปริมาตร/อัตราการไหล แล้วแปลงนาทีเป็นชั่วโมง",
-      "misconception_tag": "flow_time_scale"
-    },
-    {
-      "type": "pitfall",
-      "title": "ใช้ค่าไฟรายวันตอบเป็นรายเดือน",
-      "wrong_md": "ใช้ค่าไฟรายวันตอบเป็นรายเดือน",
-      "why_wrong_md": "ต้องรวมชั่วโมงทุกวันก่อนคิดเงิน",
-      "correct_md": "พลังงาน kWh=กำลังเฉลี่ย kW×ชั่วโมงต่อวัน×วัน; คูณบาท/kWh",
-      "misconception_tag": "monthly_energy_cost"
-    },
-    {
-      "type": "pitfall",
-      "title": "ใช้พื้นที่ห้องหามวลอากาศ",
-      "wrong_md": "ใช้พื้นที่ห้องหามวลอากาศ",
-      "why_wrong_md": "ความหนาแน่น kg/m³ ต้องคูณปริมาตร m³",
-      "correct_md": "มวล=ความหนาแน่น×กว้าง×ยาว×สูง",
-      "misconception_tag": "air_mass_estimation"
-    },
-    {
-      "type": "pitfall",
-      "title": "ใช้ระยะ 3 km เป็น 3 m",
-      "wrong_md": "ใช้ระยะ 3 km เป็น 3 m",
-      "why_wrong_md": "ความเร็วเสียงให้เป็น m/s จึงต้องใช้ระยะเป็น m",
-      "correct_md": "เวลา≈3,000/340 s เมื่อเวลาเดินทางของแสงเล็กจนละเลยได้",
-      "misconception_tag": "sound_delay_estimation"
-    },
-    {
-      "type": "pitfall",
-      "title": "เปลี่ยน mm เป็น cm โดยไม่หารสิบ",
-      "wrong_md": "เปลี่ยน mm เป็น cm โดยไม่หารสิบ",
-      "why_wrong_md": "1 cm=10 mm",
-      "correct_md": "ความสูง=ความหนาต่อแผ่น×จำนวนแผ่น แล้วแปลงหน่วย",
-      "misconception_tag": "stack_thickness"
-    },
-    {
-      "type": "pitfall",
-      "title": "ลืมแปลงลิตรเป็นลูกบาศก์เมตร",
-      "wrong_md": "ลืมแปลงลิตรเป็นลูกบาศก์เมตร",
-      "why_wrong_md": "1 m³=1,000 L และหนึ่งวันมี 1,440 นาที",
-      "correct_md": "ปริมาตรต่อวัน=ลิตรต่อครั้ง×ครั้งต่อนาที×1,440 แล้วหาร 1,000",
-      "misconception_tag": "breathing_volume_scale"
-    },
-    {
-      "type": "pitfall",
-      "title": "คูณระยะทางด้วย km/L",
-      "wrong_md": "คูณระยะทางด้วย km/L",
-      "why_wrong_md": "ต้องหาร km ด้วย km/L จึงได้ L",
-      "correct_md": "ค่าใช้จ่าย=ระยะ/ระยะต่อหนึ่งลิตร×ราคาต่อลิตร",
+      "title": "คูณอัตราสิ้นเปลืองผิดทิศ",
+      "wrong_md": "รถวิ่ง 600 km ได้ 15 km/L จึงคูณ 600×15 เพื่อหาน้ำมัน",
+      "why_wrong_md": "หน่วย km หารด้วย km/L จึงเหลือ L ส่วนการคูณจะได้หน่วยที่ไม่ใช่ปริมาตรน้ำมัน",
+      "correct_md": "ใช้น้ำมัน 600÷15=40 L แล้วคูณราคาต่อลิตร",
       "misconception_tag": "fuel_cost_estimation"
-    },
-    {
-      "type": "pitfall",
-      "title": "ใช้กำลังแสงทั้งหมดเป็นกำลังไฟฟ้า",
-      "wrong_md": "ใช้กำลังแสงทั้งหมดเป็นกำลังไฟฟ้า",
-      "why_wrong_md": "ประสิทธิภาพ 20% ส่งออกเพียง 0.2 ของกำลังแสงเข้า",
-      "correct_md": "กำลังไฟฟ้า=พื้นที่ m²×กำลังแสง W/m²×ประสิทธิภาพ",
-      "misconception_tag": "area_irradiance_efficiency"
     },
     {
       "type": "summary",

@@ -151,7 +151,7 @@
         "3": "ความดันที่จุดขึ้นกับความลึก ไม่ใช่ปริมาตรรวม"
       },
       "misconception_tags": [
-        "container_shape_pressure"
+        "pressure_force_confusion"
       ],
       "template": null,
       "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",

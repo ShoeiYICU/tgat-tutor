@@ -577,7 +577,7 @@
           "why_md": "คำตอบต้องทำหน้าที่ต่อบทสนทนา ไม่ใช่แค่มีคำซ้ำ"
         }
       ],
-      "answer_explanation_md": "ตอบ Not at all. I need the desk space too เพราะNot at all แปลว่าไม่ขัดข้องและเหตุผลถัดมาสอดคล้องกัน โดยWould you mind if I ... ถามว่าขัดข้องหรือไม่",
+      "answer_explanation_md": "ตอบ Not at all. I need the desk space too เพราะ Not at all แปลว่าไม่ขัดข้องและเหตุผลถัดมาสอดคล้องกัน โดย Would you mind if I ... ถามว่าขัดข้องหรือไม่",
       "hints": [
         "ดูว่าผู้พูดกำลังถาม ขอ เชิญ หรือแสดงความรู้สึก",
         "ตัดตัวเลือกที่ไวยากรณ์ได้แต่ตอบคนละหน้าที่",

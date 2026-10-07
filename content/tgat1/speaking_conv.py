@@ -185,7 +185,7 @@ P = [
 ]
 P += [
  N(d("A: The deadline was moved to Monday.","B: Really? ______","A: Yes, the lecturer emailed us."),"Are you sure about that?",[("Who asked for the deadline change?","คำตอบ Yes ในบรรทัดถัดไปไม่ตอบคำถามว่าใคร"),("I'm sure the original deadline was Friday.","ยืนยันความเชื่อเดิมแทนการขอให้ A ยืนยันข่าวใหม่"),("Did the lecturer move Monday's class too?","ถามเรื่องตารางเรียนอีกเรื่อง ไม่ใช่กำหนดส่งงาน")],"บรรทัดหลังยืนยันแหล่งข่าว","ตอบ Are you sure about that? เพราะคำถามยืนยันทำให้ Yes ในบรรทัดถัดไปสมเหตุผล โดยบรรทัดหลังยืนยันแหล่งข่าว",3,["ignore_next_line"]),
- N(d("A: I can introduce the topic, but not the data.","B: ______","A: Perfect. I'll send you my notes."),"How about I take the data section?",[("Why not present everything?","ขัดข้อจำกัดของ A"),("I already took notes on the introduction.","พูดถึงส่วนบทนำแทนการเสนอรับส่วนข้อมูล"),("I can send you the introduction tonight.","เสนอส่งส่วนที่ A ทำได้อยู่แล้ว ไม่ได้แบ่งรับส่วนข้อมูล")],"A ตอบรับและจะส่งโน้ต","ตอบ How about I take the data section? เพราะB ต้องเสนอรับส่วนข้อมูลจึงเชื่อมทั้งสองบรรทัด โดยA ตอบรับและจะส่งโน้ต",5,["ignore_next_line"]),
+ N(d("A: I can introduce the topic, but not the data.","B: ______","A: Perfect. I'll send you my notes."),"How about I take the data section?",[("Why not present everything?","ขัดข้อจำกัดของ A"),("I already took notes on the introduction.","พูดถึงส่วนบทนำแทนการเสนอรับส่วนข้อมูล"),("I can send you the introduction tonight.","เสนอส่งส่วนที่ A ทำได้อยู่แล้ว ไม่ได้แบ่งรับส่วนข้อมูล")],"A ตอบรับและจะส่งโน้ต","ตอบ How about I take the data section? เพราะ B ต้องเสนอรับส่วนข้อมูลจึงเชื่อมทั้งสองบรรทัด โดย A ตอบรับและจะส่งโน้ต",5,["ignore_next_line"]),
 ]
 save(tid, "TGAT1", "mcq4", P, lesson=review_lesson(L))
 
@@ -791,8 +791,8 @@ P = [
       diff=4, sec=55, reading="high", tags=["forget_earlier_info"]),
 ]
 P += [
- N(d("Mia: I'll book the room.","Leo: I'll confirm the projector.","Sara: I'll invite people after Leo reports back.","What will Sara do first?"),"Wait for Leo's confirmation",[("Book the room","เป็นงาน Mia"),("Call the media office","เป็นงาน Leo"),("Repair the projector","ไม่มีข้อมูล")],"ติดตามผู้พูดและ after","ตอบ Wait for Leo's confirmation เพราะSara ต้องรอ Leo ก่อนส่งคำเชิญ โดยติดตามผู้พูดและ after",3,["forget_earlier_info"]),
- N(d("Nora: I'll update the budget.","Ken: I'll draft the order; don't send it yet.","Pim: Once both are ready, I'll seek approval.","What must happen before Pim acts?"),"The budget and draft order must both be ready.",[("The goods must arrive.","ยังไม่มีการส่งของ"),("Ken must send the order.","ถูกห้ามส่ง"),("The director updates the budget.","สลับหน้าที่")],"once both อ้างงานสองชิ้น","ตอบ The budget and draft order must both be ready เพราะPim รอทั้งงบและร่าง ไม่ใช่เพียงชิ้นเดียว โดยonce both อ้างงานสองชิ้น",5,["forget_earlier_info"]),
+ N(d("Mia: I'll book the room.","Leo: I'll confirm the projector.","Sara: I'll invite people after Leo reports back.","What will Sara do first?"),"Wait for Leo's confirmation",[("Book the room","เป็นงาน Mia"),("Call the media office","เป็นงาน Leo"),("Repair the projector","ไม่มีข้อมูล")],"ติดตามผู้พูดและ after","ตอบ Wait for Leo's confirmation เพราะ Sara ต้องรอ Leo ก่อนส่งคำเชิญ โดยติดตามผู้พูดและ after",3,["forget_earlier_info"]),
+ N(d("Nora: I'll update the budget.","Ken: I'll draft the order; don't send it yet.","Pim: Once both are ready, I'll seek approval.","What must happen before Pim acts?"),"The budget and draft order must both be ready.",[("The goods must arrive.","ยังไม่มีการส่งของ"),("Ken must send the order.","ถูกห้ามส่ง"),("The director updates the budget.","สลับหน้าที่")],"once both อ้างงานสองชิ้น","ตอบ The budget and draft order must both be ready เพราะ Pim รอทั้งงบและร่าง ไม่ใช่เพียงชิ้นเดียว โดย once both อ้างงานสองชิ้น",5,["forget_earlier_info"]),
 ]
 save(tid, "TGAT1", "mcq4", P, lesson=review_lesson(L))
 
@@ -909,8 +909,8 @@ P = [
       diff=4, sec=40, tags=["discourse_marker_function"]),
 ]
 P += [
- N(d("A: The venue is cheaper. However, it is far from transit.","What does However signal?"),"A contrast between cost and accessibility",[("The cause of the price","ไม่บอกเหตุ"),("An example of transit","ไม่ยกตัวอย่าง"),("Two advantages","ประโยคหลังเป็นข้อเสีย")],"หน้าและหลังมีทิศตรงข้าม","ตอบ A contrast between cost and accessibility เพราะHowever แสดงความขัดแย้ง โดยหน้าและหลังมีทิศตรงข้าม",3,["discourse_marker_function"]),
- N(d("A: Only forty people replied. Even so, every group raised the same concern.","What does Even so do?"),"It presents a meaningful finding despite a limitation.",[("It explains the small sample.","ไม่ให้สาเหตุ"),("It adds another limitation.","หลังเป็นผลที่ยังมีน้ำหนัก"),("It corrects forty.","ไม่แก้ตัวเลข")],"ข้อจำกัดตามด้วยสิ่งที่ยังจริง","ตอบ It presents a meaningful finding despite a limitation เพราะEven so แสดงว่าผลยังสำคัญแม้มีข้อจำกัด โดยข้อจำกัดตามด้วยสิ่งที่ยังจริง",5,["discourse_marker_function"]),
+ N(d("A: The venue is cheaper. However, it is far from transit.","What does However signal?"),"A contrast between cost and accessibility",[("The cause of the price","ไม่บอกเหตุ"),("An example of transit","ไม่ยกตัวอย่าง"),("Two advantages","ประโยคหลังเป็นข้อเสีย")],"หน้าและหลังมีทิศตรงข้าม","ตอบ A contrast between cost and accessibility เพราะ However แสดงความขัดแย้ง โดยหน้าและหลังมีทิศตรงข้าม",3,["discourse_marker_function"]),
+ N(d("A: Only forty people replied. Even so, every group raised the same concern.","What does Even so do?"),"It presents a meaningful finding despite a limitation.",[("It explains the small sample.","ไม่ให้สาเหตุ"),("It adds another limitation.","หลังเป็นผลที่ยังมีน้ำหนัก"),("It corrects forty.","ไม่แก้ตัวเลข")],"ข้อจำกัดตามด้วยสิ่งที่ยังจริง","ตอบ It presents a meaningful finding despite a limitation เพราะ Even so แสดงว่าผลยังสำคัญแม้มีข้อจำกัด โดยข้อจำกัดตามด้วยสิ่งที่ยังจริง",5,["discourse_marker_function"]),
 ]
 save(tid, "TGAT1", "mcq4", P, lesson=review_lesson(L))
 
@@ -1031,7 +1031,7 @@ P = [
 ]
 P += [
  N(d("A: Joining us for lunch?","B: I brought enough work for the whole afternoon.","What does B imply?"),"B probably will not join the lunch.",[("B wants lunch at work.","ไม่ได้ชวน"),("B finished the work.","ขัดกับงานทั้งบ่าย"),("B brought lunch.","กรรมคือ work")],"งานทำให้ B อยู่ที่เดิม","ตอบ B probably will not join the lunch เพราะเหตุผลเป็นการปฏิเสธโดยอ้อม โดยงานทำให้ B อยู่ที่เดิม",3,["miss_implied_refusal"]),
- N(d("A: Can you review this tonight?","B: I have an early flight, and the airport is two hours away.","A: I'll ask Priya instead.","Why?"),"A understands that B is unlikely to review it.",[("Priya drives B.","ไม่มีข้อมูล"),("B recommended Priya.","B ไม่เอ่ยชื่อ"),("Priya books flights.","ผิดงาน")],"A เปลี่ยนคนหลังได้ยินข้อจำกัด","ตอบ A understands that B is unlikely to review it เพราะA เข้าใจนัยปฏิเสธของ B โดยA เปลี่ยนคนหลังได้ยินข้อจำกัด",5,["miss_implied_refusal"]),
+ N(d("A: Can you review this tonight?","B: I have an early flight, and the airport is two hours away.","A: I'll ask Priya instead.","Why?"),"A understands that B is unlikely to review it.",[("Priya drives B.","ไม่มีข้อมูล"),("B recommended Priya.","B ไม่เอ่ยชื่อ"),("Priya books flights.","ผิดงาน")],"A เปลี่ยนคนหลังได้ยินข้อจำกัด","ตอบ A understands that B is unlikely to review it เพราะ A เข้าใจนัยปฏิเสธของ B โดย A เปลี่ยนคนหลังได้ยินข้อจำกัด",5,["miss_implied_refusal"]),
 ]
 save(tid, "TGAT1", "mcq4", P, lesson=review_lesson(L))
 
@@ -1149,8 +1149,8 @@ P = [
       diff=2, sec=35, tags=["register_mismatch"]),
 ]
 P += [
- N(d("Student: ______","Professor: Certainly. Send the draft by Friday."),"Would you be willing to give me feedback on my draft?",[("Check this for me, okay?","ตรงเกินกับอาจารย์"),("You will read it, won't you?","กดดัน"),("Hey, wanna see this thing?","ไม่เป็นทางการ")],"นักศึกษาขอความช่วยเหลืออาจารย์","ตอบ Would you be willing to give me feedback on my draft? เพราะWould you be willing สุภาพและเปิดทางปฏิเสธ โดยนักศึกษาขอความช่วยเหลืออาจารย์",3,["register_mismatch"]),
- N(d("Employee: ______","Director: Thanks. I'll check the figures."),"I wanted to flag a possible error in the quarterly totals.",[("Your numbers are messed up.","กล่าวหาและไม่เป็นทางการ"),("I insist that the quarterly totals are incorrect.","ยืนยันข้อสรุปอย่างแข็งกร้าวทั้งที่ข้อผิดพลาดยังไม่แน่นอน"),("Those figures are totally wrong.","สรุปเกินหลักฐาน")],"ลูกน้องแจ้งข้อผิดพลาดที่ยังไม่ยืนยัน","ตอบ I wanted to flag a possible error in the quarterly totals เพราะflag a possible error ชัด สุภาพ และไม่กล่าวหา โดยลูกน้องแจ้งข้อผิดพลาดที่ยังไม่ยืนยัน",5,["register_mismatch"]),
+ N(d("Student: ______","Professor: Certainly. Send the draft by Friday."),"Would you be willing to give me feedback on my draft?",[("Check this for me, okay?","ตรงเกินกับอาจารย์"),("You will read it, won't you?","กดดัน"),("Hey, wanna see this thing?","ไม่เป็นทางการ")],"นักศึกษาขอความช่วยเหลืออาจารย์","ตอบ Would you be willing to give me feedback on my draft? เพราะ Would you be willing สุภาพและเปิดทางปฏิเสธ โดยนักศึกษาขอความช่วยเหลืออาจารย์",3,["register_mismatch"]),
+ N(d("Employee: ______","Director: Thanks. I'll check the figures."),"I wanted to flag a possible error in the quarterly totals.",[("Your numbers are messed up.","กล่าวหาและไม่เป็นทางการ"),("I insist that the quarterly totals are incorrect.","ยืนยันข้อสรุปอย่างแข็งกร้าวทั้งที่ข้อผิดพลาดยังไม่แน่นอน"),("Those figures are totally wrong.","สรุปเกินหลักฐาน")],"ลูกน้องแจ้งข้อผิดพลาดที่ยังไม่ยืนยัน","ตอบ I wanted to flag a possible error in the quarterly totals เพราะ flag a possible error ชัด สุภาพ และไม่กล่าวหา โดยลูกน้องแจ้งข้อผิดพลาดที่ยังไม่ยืนยัน",5,["register_mismatch"]),
 ]
 save(tid, "TGAT1", "mcq4", P, lesson=review_lesson(L))
 
@@ -1266,8 +1266,8 @@ P = [
       diff=2, sec=35, reading="high"),
 ]
 P += [
- N(d("A: The outdoor tables are wet.","B: ______","A: I'll see if the meeting room is free."),"Why don't we move indoors?",[("Who made them wet?","ถามเหตุ ไม่ใช่ทางแก้"),("Let's cancel next month.","เลื่อนเกินจำเป็นและไม่สอดคล้องกับการตรวจห้องประชุม"),("Let's wait outside until the tables dry.","เสนอให้รอข้างนอกแทนการย้ายเข้าห้องตามบรรทัดถัดไป")],"A จะตรวจห้องประชุม","ตอบ Why don't we move indoors? เพราะข้อเสนอย้ายเข้าอาคารนำไปสู่บรรทัดถัดไป โดยA จะตรวจห้องประชุม",3,["use_rejected_offer"]),
- N(d("A: The printer won't connect; the report is due soon.","B: Email the copy shop?","A: It opens at nine.","B: ______","A: Yes, the library printer takes USB drives."),"Could we save it to USB and print at the library?",[("Email the shop again.","ใช้ทางที่ถูกปฏิเสธ"),("Wait until nine.","ไม่ทันกำหนด"),("Could we reconnect the printer after nine?","ช้าเกินกำหนดและไม่ทำให้คำตอบเรื่องเครื่องพิมพ์ห้องสมุดสอดคล้อง")],"คำตอบ A ยืนยัน USB ที่ห้องสมุด","ตอบ Could we save it to USB and print at the library? เพราะB ต้องเสนอทางใหม่ที่ใช้ USB และห้องสมุด โดยคำตอบ A ยืนยัน USB ที่ห้องสมุด",5,["use_rejected_offer"]),
+ N(d("A: The outdoor tables are wet.","B: ______","A: I'll see if the meeting room is free."),"Why don't we move indoors?",[("Who made them wet?","ถามเหตุ ไม่ใช่ทางแก้"),("Let's cancel next month.","เลื่อนเกินจำเป็นและไม่สอดคล้องกับการตรวจห้องประชุม"),("Let's wait outside until the tables dry.","เสนอให้รอข้างนอกแทนการย้ายเข้าห้องตามบรรทัดถัดไป")],"A จะตรวจห้องประชุม","ตอบ Why don't we move indoors? เพราะข้อเสนอย้ายเข้าอาคารนำไปสู่บรรทัดถัดไป โดย A จะตรวจห้องประชุม",3,["use_rejected_offer"]),
+ N(d("A: The printer won't connect; the report is due soon.","B: Email the copy shop?","A: It opens at nine.","B: ______","A: Yes, the library printer takes USB drives."),"Could we save it to a USB drive and print at the library?",[("Email the shop again.","ใช้ทางที่ถูกปฏิเสธ"),("Wait until nine.","ไม่ทันกำหนด"),("Could we reconnect the printer after nine?","ช้าเกินกำหนดและไม่ทำให้คำตอบเรื่องเครื่องพิมพ์ห้องสมุดสอดคล้อง")],"คำตอบ A ยืนยัน USB drive ที่ห้องสมุด","ตอบ Could we save it to a USB drive and print at the library? เพราะ B ต้องเสนอทางใหม่ที่ใช้ USB drive และห้องสมุด โดยคำตอบ A ยืนยันว่าเครื่องพิมพ์ห้องสมุดอ่าน USB drive ได้",5,["use_rejected_offer"]),
 ]
 save(tid, "TGAT1", "mcq4", P, lesson=review_lesson(L))
 
@@ -1395,8 +1395,8 @@ P = [
       diff=3, sec=35, tags=["sorry_to_hear_as_apology"]),
 ]
 P += [
- N(d("A: This box is heavy.","B: Shall I give you a hand?","What is B doing?"),"Offering help",[("Asking to leave","ไม่มีเรื่องออก"),("Requesting help from A","สลับผู้ให้"),("Warning about an injury","แปล hand ตรงตัว")],"Shall I และ give you a hand","ตอบ Offering help เพราะB เสนอช่วย A โดยShall I และ give you a hand",3,["literal_translation"]),
- N(d("A: Would it be possible to extend the deadline?","B: I'm afraid the system closes tonight.","What are their functions?"),"A requests politely; B refuses politely with a reason.",[("A offers to finish the work; B accepts and adds an unrelated closing comment.","สลับหน้าที่"),("A asks permission; B changes topic.","B ตอบตรงข้อจำกัด"),("A complains; B apologizes.","ไม่ใช่การร้องเรียนหรือขอโทษ")],"วิเคราะห์หน้าที่ทีละบรรทัด","ตอบ A requests politely; B refuses politely with a reason เพราะWould it be possible เป็นคำขอ และ I'm afraid นำการปฏิเสธ โดยวิเคราะห์หน้าที่ทีละบรรทัด",5,["offer_request_confusion"]),
+ N(d("A: This box is heavy.","B: Shall I give you a hand?","What is B doing?"),"Offering help",[("Asking to leave","ไม่มีเรื่องออก"),("Requesting help from A","สลับผู้ให้"),("Warning about an injury","แปล hand ตรงตัว")],"Shall I และ give you a hand","ตอบ Offering help เพราะ B เสนอช่วย A โดย Shall I และ give you a hand",3,["literal_translation"]),
+ N(d("A: Would it be possible to extend the deadline?","B: I'm afraid the system closes tonight.","What are their functions?"),"A requests politely; B refuses politely with a reason.",[("A offers to finish the work; B accepts and adds an unrelated closing comment.","สลับหน้าที่"),("A asks permission; B changes topic.","B ตอบตรงข้อจำกัด"),("A complains; B apologizes.","ไม่ใช่การร้องเรียนหรือขอโทษ")],"วิเคราะห์หน้าที่ทีละบรรทัด","ตอบ A requests politely; B refuses politely with a reason เพราะ Would it be possible เป็นคำขอ และ I'm afraid นำการปฏิเสธ โดยวิเคราะห์หน้าที่ทีละบรรทัด",5,["offer_request_confusion"]),
 ]
 save(tid, "TGAT1", "mcq4", P, lesson=review_lesson(L))
 
@@ -1516,7 +1516,7 @@ P[2] = Q(d("A: Hey, pass me the salt.", "B: Sure, here you go.") + "\n\nThe rela
          "ตอบ Family members at dinner. เพราะภาษาไม่ทางการแบบนี้ใช้ได้กับคนใกล้ชิด ตัวเลือกอื่นเป็นความสัมพันธ์ที่ต้องใช้ภาษาสุภาพ",
          diff=2, sec=30, tags=["register_mismatch"])
 P += [
- N(d("Intern: ______","Manager: Sure, but return it before lunch."),"Could I borrow the department camera for an hour?",[("Give me the camera now, please.","please ไม่ทำให้คำสั่งสุภาพพอ"),("I want your camera.","บอกความต้องการแต่ไม่ขอ"),("Could the department lend the camera to another intern?","ถามแทนบุคคลอื่น จึงไม่สอดคล้องกับเงื่อนไขให้ผู้พูดนำมาคืน")],"ผู้ฝึกงานขอใช้ของหน่วยงาน","ตอบ Could I borrow the department camera for an hour? เพราะCould I borrow สุภาพและตรงกับเงื่อนไขคืน โดยผู้ฝึกงานขอใช้ของหน่วยงาน",3,["please_is_enough"]),
+ N(d("Intern: ______","Manager: Sure, but return it before lunch."),"Could I borrow the department camera for an hour?",[("Give me the camera now, please.","please ไม่ทำให้คำสั่งสุภาพพอ"),("I want your camera.","บอกความต้องการแต่ไม่ขอ"),("Could the department lend the camera to another intern?","ถามแทนบุคคลอื่น จึงไม่สอดคล้องกับเงื่อนไขให้ผู้พูดนำมาคืน")],"ผู้ฝึกงานขอใช้ของหน่วยงาน","ตอบ Could I borrow the department camera for an hour? เพราะ Could I borrow สุภาพและตรงกับเงื่อนไขคืน โดยผู้ฝึกงานขอใช้ของหน่วยงาน",3,["please_is_enough"]),
  N(d("Resident: ______","Officer: I'll check the construction schedule."),"Could you tell me whether the drilling will continue after six?",[("Tell me when that noise stops.","เป็นคำสั่ง"),("Do you know will it continue?","กลับคำในคำถามอ้อม"),("Why are you people always noisy?","เหมารวมและกล่าวหา")],"ประชาชนขอข้อมูลเฉพาะจากเจ้าหน้าที่","ตอบ Could you tell me whether the drilling will continue after six? เพราะคำถามอ้อมสุภาพและระบุช่วงเวลาที่ต้องการ โดยประชาชนขอข้อมูลเฉพาะจากเจ้าหน้าที่",5,["register_mismatch"]),
 ]
 save(tid, "TGAT1", "mcq4", P, lesson=review_lesson(L))
@@ -1634,7 +1634,7 @@ P = [
       diff=3, sec=35, tags=["indirect_question_inversion"]),
 ]
 P += [
- N("Which is the correct indirect question?","Could you tell me where the nearest pharmacy is?",[("Could you tell me where is the nearest pharmacy?","กลับคำแบบคำถามตรง"),("Could you tell me where the nearest pharmacy?","ขาด is"),("Could you tell me is where the nearest pharmacy?","วาง is ผิดตำแหน่ง")],"หลังวลีเปิดใช้ลำดับประโยคบอกเล่า","ตอบ Could you tell me where the nearest pharmacy is? เพราะwhere the nearest pharmacy is ถูกลำดับ โดยหลังวลีเปิดใช้ลำดับประโยคบอกเล่า",3,["indirect_question_inversion"]),
+ N("Which is the correct indirect question?","Could you tell me where the nearest pharmacy is?",[("Could you tell me where is the nearest pharmacy?","กลับคำแบบคำถามตรง"),("Could you tell me where the nearest pharmacy?","ขาด is"),("Could you tell me is where the nearest pharmacy?","วาง is ผิดตำแหน่ง")],"หลังวลีเปิดใช้ลำดับประโยคบอกเล่า","ตอบ Could you tell me where the nearest pharmacy is? เพราะ where the nearest pharmacy is ถูกลำดับ โดยหลังวลีเปิดใช้ลำดับประโยคบอกเล่า",3,["indirect_question_inversion"]),
  N(d("Visitor: ______","Guide: It was completed in 1892; the east wing came later."),"Do you happen to know when the original building was completed?",[("Do you know when was completed the building?","กลับคำและวางประธานผิด"),("Can you tell me when did they complete it?","ใช้ did ในคำถามอ้อม"),("When the building completed, do you know?","ขาด was ใน passive")],"คำตอบให้ปีที่อาคารเดิมสร้างเสร็จ","ตอบ Do you happen to know when the original building was completed? เพราะคำถามอ้อมใช้ statement order และ passive ถูกต้อง โดยคำตอบให้ปีที่อาคารเดิมสร้างเสร็จ",5,["indirect_question_inversion"]),
 ]
 save(tid, "TGAT1", "mcq4", P, lesson=review_lesson(L))

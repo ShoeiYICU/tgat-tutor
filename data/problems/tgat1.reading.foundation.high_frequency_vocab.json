@@ -402,7 +402,7 @@
           "is_answer": false
         },
         {
-          "md": "forces with punishment",
+          "md": "forces them by threatening punishment",
           "is_answer": false
         },
         {
@@ -430,7 +430,7 @@
       "distractor_reasons": {
         "0": "ตรงข้ามความหมาย",
         "1": "ไม่ใช่ความหมายของ encourage",
-        "2": "encourage ไม่ใช่การบังคับด้วยการลงโทษ"
+        "2": "encourage ไม่ใช่การบังคับด้วยการขู่ว่าจะลงโทษ"
       },
       "misconception_tags": [],
       "template": null,
@@ -493,7 +493,7 @@
           "why_md": "เลือกคำตอบที่มีหลักฐานรองรับครบ ไม่เติมข้อมูลเอง"
         }
       ],
-      "answer_explanation_md": "ตอบ affordable เพราะaffordable หมายถึงราคาเอื้อมถึง โดยflexible prices มีเป้าหมายช่วยครอบครัวรายได้น้อย",
+      "answer_explanation_md": "ตอบ affordable เพราะ affordable หมายถึงราคาเอื้อมถึง โดย flexible prices มีเป้าหมายช่วยครอบครัวรายได้น้อย",
       "hints": [
         "ขีดเส้นคำหรือประโยคที่เป็นหลักฐาน",
         "ตัดตัวเลือกที่จริงบางส่วนแต่ตอบคนละคำถาม",
@@ -567,7 +567,7 @@
           "why_md": "เลือกคำตอบที่มีหลักฐานรองรับครบ ไม่เติมข้อมูลเอง"
         }
       ],
-      "answer_explanation_md": "ตอบ affect; effect เพราะaffect เป็นกริยา และ effect เป็นคำนาม โดยหลัง may ใช้กริยา ส่วนหลัง its long-term ใช้คำนาม",
+      "answer_explanation_md": "ตอบ affect; effect เพราะ affect เป็นกริยา และ effect เป็นคำนาม โดยหลัง may ใช้กริยา ส่วนหลัง its long-term ใช้คำนาม",
       "hints": [
         "ขีดเส้นคำหรือประโยคที่เป็นหลักฐาน",
         "ตัดตัวเลือกที่จริงบางส่วนแต่ตอบคนละคำถาม",

@@ -565,7 +565,7 @@
           "why_md": "เลือกคำตอบที่มีหลักฐานรองรับครบ ไม่เติมข้อมูลเอง"
         }
       ],
-      "answer_explanation_md": "ตอบ Choose the cautious claim supported by both details, unless the passage states certainty เพราะinference ควรไม่แรงกว่าข้อความและใช้หลักฐานหลายจุด โดยเทียบระดับความแน่นอนกับจำนวนหลักฐาน",
+      "answer_explanation_md": "ตอบ Choose the cautious claim supported by both details, unless the passage states certainty เพราะ inference ควรไม่แรงกว่าข้อความและใช้หลักฐานหลายจุด โดยเทียบระดับความแน่นอนกับจำนวนหลักฐาน",
       "hints": [
         "ขีดเส้นคำหรือประโยคที่เป็นหลักฐาน",
         "ตัดตัวเลือกที่จริงบางส่วนแต่ตอบคนละคำถาม",

@@ -491,7 +491,7 @@
           "why_md": "เลือกคำตอบที่มีหลักฐานรองรับครบ ไม่เติมข้อมูลเอง"
         }
       ],
-      "answer_explanation_md": "ตอบ Scan for dates and words such as deadline or submit เพราะscan คำสัญญาณและตัวเลขเร็วที่สุด โดยคำถามต้องการรายละเอียดชนิดวันที่",
+      "answer_explanation_md": "ตอบ Scan for dates and words such as deadline or submit เพราะ scan คำสัญญาณและตัวเลขเร็วที่สุด โดยคำถามต้องการรายละเอียดชนิดวันที่",
       "hints": [
         "ขีดเส้นคำหรือประโยคที่เป็นหลักฐาน",
         "ตัดตัวเลือกที่จริงบางส่วนแต่ตอบคนละคำถาม",
