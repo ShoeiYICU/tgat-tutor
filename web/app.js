@@ -741,7 +741,7 @@ function startSession(el, entries, opts) {
         <p>${pct >= 80 ? "ยอดเยี่ยม พร้อมไปหัวข้อถัดไป" : pct >= 50 ? "ใช้ได้ ลองทำชุดใหม่อีกรอบเพื่อให้แม่นขึ้น" : "ลองอ่านบทเรียนอีกครั้ง แล้วกลับมาทำชุดใหม่"}
           ${S.used ? ` · ใช้เวลา ${fmtT(S.used)}` : ""}</p>
         <div class="row" style="justify-content:center">
-          <button class="btn primary" id="again">ทำชุดใหม่ (ตัวเลข/รูปใหม่)</button>
+          <button class="btn primary" id="again">${opts.mode === "exam" ? "ทำชุดใหม่ (สุ่มข้อใหม่)" : "ทำชุดใหม่ (ตัวเลข/รูปใหม่)"}</button>
           <button class="btn" id="review">ดูเฉลยทีละข้อ</button>
         </div></div>
       ${secTable}
