@@ -236,9 +236,9 @@ def concept(heading, body, figures=None):
     return b
 
 
-def technique(name, use_when, avoid_when, how_md="", tip=None, tex=""):
+def technique(name, use_when, avoid_when, how_md="", tip=None, tex="", variables=None):
     """บล็อก formula สำหรับวิชาที่ไม่มีสูตร: ใช้เป็น 'หลักการ/เทคนิค' """
-    b = {"type": "formula", "name": name, "formula_tex": tex, "variables": [],
+    b = {"type": "formula", "name": name, "formula_tex": tex, "variables": variables or [],
          "use_when": use_when, "avoid_when": avoid_when}
     if how_md:
         b["derivation_md"] = how_md

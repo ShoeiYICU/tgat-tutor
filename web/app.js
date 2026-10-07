@@ -19,7 +19,14 @@ const DIFF_TXT = ["", "ง่ายมาก", "ง่าย", "ปานกล�
 const EXAM_BLUEPRINT = {
   tgat1: {
     items: 60, minutes: 60,
-    sections: [{ id: "tgat1.speaking", n: 30 }, { id: "tgat1.reading", n: 30 }],
+    // แบ่งส่วนย่อยตามผังสอบ และไม่ดึงหัวข้อพื้นฐาน (foundation) ซึ่งเป็นบทปูพื้น ไม่ใช่รูปแบบข้อสอบ
+    sections: [
+      { id: "tgat1.speaking.question_response", n: 10, name: "พูด · ถาม-ตอบ" },
+      { id: "tgat1.speaking.short_conversation", n: 10, name: "พูด · บทสนทนาสั้น" },
+      { id: "tgat1.speaking.long_conversation", n: 10, name: "พูด · บทสนทนายาว" },
+      { id: "tgat1.reading.text_completion", n: 15, name: "อ่าน · เติมข้อความ" },
+      { id: "tgat1.reading.comprehension", n: 15, name: "อ่าน · จับใจความ" },
+    ],
   },
   tgat2: {
     items: 80, minutes: 60,
@@ -763,7 +770,7 @@ function scrollTop() { window.scrollTo({ top: 0, behavior: "smooth" }); }
 
 /* ---------- สอบเสมือน (เต็มฉบับหรือครึ่งฉบับ ตามสัดส่วนของผังสอบ) */
 function examSections(c, sid) {
-  return EXAM_BLUEPRINT[sid].sections.map((sec) => ({ ...sec, name: c.byId[sec.id].name_th }));
+  return EXAM_BLUEPRINT[sid].sections.map((sec) => ({ ...sec, name: sec.name || (c.byId[sec.id] || {}).name_th || sec.id }));
 }
 
 async function pageExam(sid, size) {
