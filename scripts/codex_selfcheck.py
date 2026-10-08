@@ -33,9 +33,9 @@ import subprocess
 import sys
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
-CODEX_SOURCES = ("content/tgat1/", "content/tgat3/", "content/tpat3/thinking.py",
+CODEX_SOURCES = ("content/tgat1/", "content/tgat3/", "content/eng/", "content/tpat3/thinking.py",
                  "content/tpat3/numeric_fluid_energy.py", "content/tpat3/aptitude_lessons.py")
-CODEX_GENERATED_FROM = ("content/tgat1/", "content/tgat3/", "thinking.py", "numeric_fluid_energy.py", "aptitude_lessons.py")
+CODEX_GENERATED_FROM = ("content/tgat1/", "content/tgat3/", "content/eng/", "thinking.py", "numeric_fluid_energy.py", "aptitude_lessons.py")
 REPORT_DIR = "งานสำหรับ-codex/"
 
 ABSOLUTE = re.compile(r"เสมอ|แน่นอน|ทันที|ทุกคน|ทุกกรณี|ทุกชนิด|ทุกตัว|เท่านั้น|อย่างเดียว"

@@ -81,12 +81,12 @@
           "is_answer": false
         },
         {
-          "md": "[[fig2]]",
-          "is_answer": true
-        },
-        {
           "md": "[[fig4]]",
           "is_answer": false
+        },
+        {
+          "md": "[[fig2]]",
+          "is_answer": true
         },
         {
           "md": "[[fig6]]",
@@ -117,7 +117,7 @@
       "distractor_reasons": {
         "0": "เป็นภาพเมื่อมองจากด้านหน้า ไม่ใช่จากด้านบน",
         "1": "มีช่องยื่นออกไปนอกขอบของทรง ซึ่งไม่มีลูกบาศก์อยู่เลย",
-        "3": "เป็นภาพเมื่อมองจากด้านข้าง ไม่ใช่จากด้านบน",
+        "2": "เป็นภาพเมื่อมองจากด้านข้าง ไม่ใช่จากด้านบน",
         "4": "มีช่องเกินมาหนึ่งช่องตรงแนวที่ไม่มีลูกบาศก์ก้อนใดอยู่"
       },
       "misconception_tags": [
@@ -203,12 +203,12 @@
           "is_answer": false
         },
         {
-          "md": "[[fig4]]",
-          "is_answer": false
-        },
-        {
           "md": "[[fig2]]",
           "is_answer": true
+        },
+        {
+          "md": "[[fig4]]",
+          "is_answer": false
         },
         {
           "md": "[[fig5]]",
@@ -242,7 +242,7 @@
       ],
       "distractor_reasons": {
         "0": "เป็นภาพเมื่อมองจากด้านข้าง ไม่ใช่จากด้านหน้า",
-        "1": "เป็นภาพเมื่อมองจากด้านบน ไม่ใช่จากด้านหน้า",
+        "2": "เป็นภาพเมื่อมองจากด้านบน ไม่ใช่จากด้านหน้า",
         "3": "เห็นเฉพาะชั้นล่าง ลืมก้อนที่ซ้อนอยู่ข้างบน",
         "4": "ขาดช่องแถวที่ 3 คอลัมน์ที่ 1 ไป ทั้งที่แนวนั้นมีลูกบาศก์อยู่"
       },
@@ -689,16 +689,16 @@
           "is_answer": false
         },
         {
+          "md": "[[fig3]]",
+          "is_answer": true
+        },
+        {
           "md": "[[fig5]]",
           "is_answer": false
         },
         {
           "md": "[[fig7]]",
           "is_answer": false
-        },
-        {
-          "md": "[[fig3]]",
-          "is_answer": true
         }
       ],
       "answer_numeric": null,
@@ -725,8 +725,8 @@
       "distractor_reasons": {
         "0": "ภาพด้านบนของทรงนี้มี 3 ช่อง แต่ภาพที่กำหนดมี 4 ช่อง",
         "1": "ภาพด้านบนของทรงนี้มี 5 ช่อง แต่ภาพที่กำหนดมี 4 ช่อง",
-        "2": "ภาพด้านหน้าของทรงนี้มีความสูงคอลัมน์ 1 3 2 ชั้น ไม่ตรงกับ 1 2 3",
-        "3": "ภาพด้านบนของทรงนี้มีจำนวนช่องเท่ากันแต่เรียงเป็นรูปร่างอื่น"
+        "3": "ภาพด้านหน้าของทรงนี้มีความสูงคอลัมน์ 1 3 2 ชั้น ไม่ตรงกับ 1 2 3",
+        "4": "ภาพด้านบนของทรงนี้มีจำนวนช่องเท่ากันแต่เรียงเป็นรูปร่างอื่น"
       },
       "misconception_tags": [],
       "template": null,
@@ -805,10 +805,6 @@
       ],
       "choices": [
         {
-          "md": "[[fig2]]",
-          "is_answer": true
-        },
-        {
           "md": "[[fig4]]",
           "is_answer": false
         },
@@ -819,6 +815,10 @@
         {
           "md": "[[fig5]]",
           "is_answer": false
+        },
+        {
+          "md": "[[fig2]]",
+          "is_answer": true
         },
         {
           "md": "[[fig6]]",
@@ -843,9 +843,9 @@
         "นับช่องบนพื้นก่อน แล้วตัดตัวเลือกที่จำนวนช่องไม่ตรง"
       ],
       "distractor_reasons": {
-        "1": "เป็นภาพเมื่อมองจากด้านข้าง ไม่ใช่จากด้านบน",
-        "2": "เป็นภาพเมื่อมองจากด้านหน้า ไม่ใช่จากด้านบน",
-        "3": "มีช่องเกินมาหนึ่งช่องตรงแนวที่ไม่มีลูกบาศก์ก้อนใดอยู่",
+        "0": "เป็นภาพเมื่อมองจากด้านข้าง ไม่ใช่จากด้านบน",
+        "1": "เป็นภาพเมื่อมองจากด้านหน้า ไม่ใช่จากด้านบน",
+        "2": "มีช่องเกินมาหนึ่งช่องตรงแนวที่ไม่มีลูกบาศก์ก้อนใดอยู่",
         "4": "มีช่องยื่นออกไปนอกขอบของทรง ซึ่งไม่มีลูกบาศก์อยู่เลย"
       },
       "misconception_tags": [
@@ -1049,6 +1049,10 @@
       ],
       "choices": [
         {
+          "md": "[[fig2]]",
+          "is_answer": true
+        },
+        {
           "md": "[[fig3]]",
           "is_answer": false
         },
@@ -1063,10 +1067,6 @@
         {
           "md": "[[fig6]]",
           "is_answer": false
-        },
-        {
-          "md": "[[fig2]]",
-          "is_answer": true
         }
       ],
       "answer_numeric": null,
@@ -1087,10 +1087,10 @@
         "ภาพที่ได้ต้องมีกี่ช่องเมื่อรวมทุกคอลัมน์"
       ],
       "distractor_reasons": {
-        "0": "เป็นภาพเมื่อมองจากด้านข้าง ไม่ใช่จากด้านหน้า",
-        "1": "เห็นเฉพาะชั้นล่าง ลืมก้อนที่ซ้อนอยู่ข้างบน",
-        "2": "เป็นภาพเมื่อมองจากด้านบน ไม่ใช่จากด้านหน้า",
-        "3": "มีช่องเกินมาหนึ่งช่องตรงแนวที่ไม่มีลูกบาศก์ก้อนใดอยู่"
+        "1": "เป็นภาพเมื่อมองจากด้านข้าง ไม่ใช่จากด้านหน้า",
+        "2": "เห็นเฉพาะชั้นล่าง ลืมก้อนที่ซ้อนอยู่ข้างบน",
+        "3": "เป็นภาพเมื่อมองจากด้านบน ไม่ใช่จากด้านหน้า",
+        "4": "มีช่องเกินมาหนึ่งช่องตรงแนวที่ไม่มีลูกบาศก์ก้อนใดอยู่"
       },
       "misconception_tags": [
         "count_hidden_cubes"
@@ -1175,10 +1175,6 @@
           "is_answer": false
         },
         {
-          "md": "[[fig2]]",
-          "is_answer": true
-        },
-        {
           "md": "[[fig5]]",
           "is_answer": false
         },
@@ -1189,6 +1185,10 @@
         {
           "md": "[[fig4]]",
           "is_answer": false
+        },
+        {
+          "md": "[[fig2]]",
+          "is_answer": true
         }
       ],
       "answer_numeric": null,
@@ -1214,9 +1214,9 @@
       ],
       "distractor_reasons": {
         "0": "เป็นภาพเมื่อมองจากด้านข้าง ไม่ใช่จากด้านหน้า",
-        "2": "ดูเฉพาะแถวหน้า ลืมว่าก้อนด้านหลังบังช่องใต้สะพาน แสงจึงผ่านไปไม่ได้",
-        "3": "เห็นเฉพาะชั้นล่าง ลืมก้อนที่ซ้อนอยู่ข้างบน",
-        "4": "เป็นภาพเมื่อมองจากด้านบน ไม่ใช่จากด้านหน้า"
+        "1": "ดูเฉพาะแถวหน้า ลืมว่าก้อนด้านหลังบังช่องใต้สะพาน แสงจึงผ่านไปไม่ได้",
+        "2": "เห็นเฉพาะชั้นล่าง ลืมก้อนที่ซ้อนอยู่ข้างบน",
+        "3": "เป็นภาพเมื่อมองจากด้านบน ไม่ใช่จากด้านหน้า"
       },
       "misconception_tags": [
         "count_hidden_cubes"
@@ -1439,6 +1439,1470 @@
         "4": "นับเฉพาะช่องของภาพด้านหน้า ลืมว่าคอลัมน์กลางและขวาลึกสองแถว"
       },
       "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.aptitude.spatial.shadow_projection.0013",
+      "topic_ids": [
+        "tpat3.aptitude.spatial.shadow_projection"
+      ],
+      "primary_topic_id": "tpat3.aptitude.spatial.shadow_projection",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 70,
+      "stem_md": "มองทรงในรูปจากด้านบนลงมาตรง ๆ จะเห็นภาพใด\n\n[[fig1]]",
+      "figures": [
+        {
+          "id": "fig1",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 154 129\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><polygon points=\"38.0,27.0 64.0,42.0 38.0,57.0 12.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"12.0,72.0 38.0,87.0 38.0,57.0 12.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,72.0 38.0,87.0 38.0,57.0 64.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,42.0 90.0,57.0 64.0,72.0 38.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,87.0 64.0,102.0 64.0,72.0 38.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,87.0 64.0,102.0 64.0,72.0 90.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"116.0,42.0 142.0,57.0 116.0,72.0 90.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,87.0 116.0,102.0 116.0,72.0 90.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"142.0,87.0 116.0,102.0 116.0,72.0 142.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,57.0 116.0,72.0 90.0,87.0 64.0,72.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,102.0 90.0,117.0 90.0,87.0 64.0,72.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"116.0,102.0 90.0,117.0 90.0,87.0 116.0,72.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,12.0 90.0,27.0 64.0,42.0 38.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,57.0 64.0,72.0 64.0,42.0 38.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,57.0 64.0,72.0 64.0,42.0 90.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,27.0 116.0,42.0 90.0,57.0 64.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,72.0 90.0,87.0 90.0,57.0 64.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"116.0,72.0 90.0,87.0 90.0,57.0 116.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/></svg>",
+          "alt": "ทรงประกอบจากลูกบาศก์ 6 ก้อน · ชั้นที่ 1 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (1, 2), (2, 2), (3, 1), (3, 2) / ชั้นที่ 2 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (2, 2), (3, 2)",
+          "caption": "ทรงที่ประกอบจากลูกบาศก์"
+        },
+        {
+          "id": "fig2",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 94 68\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"60\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"60\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"60\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"60\"/><line x1=\"8\" y1=\"8\" x2=\"86\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"86\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"86\" y2=\"60\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"35\" width=\"24\" height=\"24\"/></g></svg>",
+          "alt": "รูปบนตาราง 3 x 2 ช่อง · แถวที่ 1 มีช่องที่ 3 / แถวที่ 2 มีช่องที่ 1, 2, 3",
+          "caption": ""
+        },
+        {
+          "id": "fig3",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 94 68\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"60\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"60\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"60\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"60\"/><line x1=\"8\" y1=\"8\" x2=\"86\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"86\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"86\" y2=\"60\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"35\" width=\"24\" height=\"24\"/></g></svg>",
+          "alt": "รูปบนตาราง 3 x 2 ช่อง · แถวที่ 1 มีช่องที่ 2, 3 / แถวที่ 2 มีช่องที่ 1, 2, 3",
+          "caption": ""
+        },
+        {
+          "id": "fig4",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 68 68\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"60\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"60\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"60\"/><line x1=\"8\" y1=\"8\" x2=\"60\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"60\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"60\" y2=\"60\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/></g></svg>",
+          "alt": "รูปบนตาราง 2 x 2 ช่อง · แถวที่ 1 มีช่องที่ 2 / แถวที่ 2 มีช่องที่ 1, 2",
+          "caption": ""
+        },
+        {
+          "id": "fig5",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 94 42\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"34\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"34\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"34\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"34\"/><line x1=\"8\" y1=\"8\" x2=\"86\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"86\" y2=\"34\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"9\" width=\"24\" height=\"24\"/></g></svg>",
+          "alt": "รูปบนตาราง 3 x 1 ช่อง · แถวที่ 1 มีช่องที่ 1, 2, 3",
+          "caption": ""
+        },
+        {
+          "id": "fig6",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 94 94\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"86\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"86\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"86\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"86\"/><line x1=\"8\" y1=\"8\" x2=\"86\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"86\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"86\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"86\" y2=\"86\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"35\" width=\"24\" height=\"24\"/></g></svg>",
+          "alt": "รูปบนตาราง 3 x 3 ช่อง · แถวที่ 1 มีช่องที่ 3 / แถวที่ 2 มีช่องที่ 1, 2, 3 / แถวที่ 3 มีช่องที่ 1",
+          "caption": ""
+        }
+      ],
+      "choices": [
+        {
+          "md": "[[fig6]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig5]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig3]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig4]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig2]]",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "หาตำแหน่งบนพื้นที่มีลูกบาศก์อย่างน้อยหนึ่งก้อน",
+          "why_md": "ความสูงไม่มีผลกับภาพด้านบน"
+        },
+        {
+          "do_md": "ก้อนที่ซ้อนอยู่ข้างบนทับลงช่องเดิม",
+          "why_md": "จึงไม่เพิ่มช่องใหม่"
+        }
+      ],
+      "answer_explanation_md": "ภาพด้านบนคือรอยของลูกบาศก์บนพื้น ก้อนที่ซ้อนอยู่ไม่เพิ่มช่อง",
+      "hints": [
+        "มองลงมาจากเพดานตรง ๆ เห็นอะไรบ้าง",
+        "ก้อนที่ซ้อนกันทำให้เห็นช่องเพิ่มหรือไม่",
+        "นับช่องบนพื้นก่อน แล้วตัดตัวเลือกที่จำนวนช่องไม่ตรง"
+      ],
+      "distractor_reasons": {
+        "0": "มีช่องเกินมาหนึ่งช่องตรงแนวที่ไม่มีลูกบาศก์ก้อนใดอยู่",
+        "1": "ขาดช่องแถวที่ 1 คอลัมน์ที่ 3 ไป ทั้งที่แนวนั้นมีลูกบาศก์อยู่",
+        "2": "เป็นภาพเมื่อมองจากด้านหน้า ไม่ใช่จากด้านบน",
+        "3": "เป็นภาพเมื่อมองจากด้านข้าง ไม่ใช่จากด้านบน"
+      },
+      "misconception_tags": [
+        "count_hidden_cubes"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.aptitude.spatial.shadow_projection.0014",
+      "topic_ids": [
+        "tpat3.aptitude.spatial.shadow_projection"
+      ],
+      "primary_topic_id": "tpat3.aptitude.spatial.shadow_projection",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 90,
+      "stem_md": "มองทรงในรูปตามทิศของลูกศรในแนวราบตรง ๆ จะเห็นภาพใด\n\n[[fig1]]",
+      "figures": [
+        {
+          "id": "fig1",
+          "type": "svg",
+          "svg": "<svg viewBox=\"-51 0 205 129\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><polygon points=\"38.0,27.0 64.0,42.0 38.0,57.0 12.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"12.0,72.0 38.0,87.0 38.0,57.0 12.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,72.0 38.0,87.0 38.0,57.0 64.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,42.0 90.0,57.0 64.0,72.0 38.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,87.0 64.0,102.0 64.0,72.0 38.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,87.0 64.0,102.0 64.0,72.0 90.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"116.0,42.0 142.0,57.0 116.0,72.0 90.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,87.0 116.0,102.0 116.0,72.0 90.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"142.0,87.0 116.0,102.0 116.0,72.0 142.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,57.0 116.0,72.0 90.0,87.0 64.0,72.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,102.0 90.0,117.0 90.0,87.0 64.0,72.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"116.0,102.0 90.0,117.0 90.0,87.0 116.0,72.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,12.0 90.0,27.0 64.0,42.0 38.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,57.0 64.0,72.0 64.0,42.0 38.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,57.0 64.0,72.0 64.0,42.0 90.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,27.0 116.0,42.0 90.0,57.0 64.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,72.0 90.0,87.0 90.0,57.0 64.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"116.0,72.0 90.0,87.0 90.0,57.0 116.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><g fill=\"none\" stroke-width=\"2.2\" stroke-linecap=\"round\"><g stroke=\"var(--accent, #3b5bdb)\"><line x1=\"-11\" y1=\"100\" x2=\"29\" y2=\"77\"/><polygon points=\"38,72 32,81 27,73\" fill=\"var(--accent, #3b5bdb)\" stroke=\"none\"/></g></g><g><text x=\"-11\" y=\"116\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">มองทางนี้</text></g></svg>",
+          "alt": "ทรงประกอบจากลูกบาศก์ 6 ก้อน · ชั้นที่ 1 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (1, 2), (2, 2), (3, 1), (3, 2) / ชั้นที่ 2 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (2, 2), (3, 2) · มีลูกศรบอกให้มองจากด้านหน้า",
+          "caption": "ทรงที่ประกอบจากลูกบาศก์"
+        },
+        {
+          "id": "fig2",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 94 68\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"60\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"60\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"60\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"60\"/><line x1=\"8\" y1=\"8\" x2=\"86\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"86\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"86\" y2=\"60\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"35\" width=\"24\" height=\"24\"/></g></svg>",
+          "alt": "รูปบนตาราง 3 x 2 ช่อง · แถวที่ 1 มีช่องที่ 2, 3 / แถวที่ 2 มีช่องที่ 1, 2, 3",
+          "caption": ""
+        },
+        {
+          "id": "fig3",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 68 68\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"60\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"60\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"60\"/><line x1=\"8\" y1=\"8\" x2=\"60\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"60\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"60\" y2=\"60\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/></g></svg>",
+          "alt": "รูปบนตาราง 2 x 2 ช่อง · แถวที่ 1 มีช่องที่ 1 / แถวที่ 2 มีช่องที่ 1, 2",
+          "caption": ""
+        },
+        {
+          "id": "fig4",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 94 68\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"60\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"60\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"60\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"60\"/><line x1=\"8\" y1=\"8\" x2=\"86\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"86\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"86\" y2=\"60\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"35\" width=\"24\" height=\"24\"/></g></svg>",
+          "alt": "รูปบนตาราง 3 x 2 ช่อง · แถวที่ 1 มีช่องที่ 3 / แถวที่ 2 มีช่องที่ 1, 2, 3",
+          "caption": ""
+        },
+        {
+          "id": "fig5",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 94 42\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"34\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"34\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"34\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"34\"/><line x1=\"8\" y1=\"8\" x2=\"86\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"86\" y2=\"34\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"9\" width=\"24\" height=\"24\"/></g></svg>",
+          "alt": "รูปบนตาราง 3 x 1 ช่อง · แถวที่ 1 มีช่องที่ 1, 2, 3",
+          "caption": ""
+        },
+        {
+          "id": "fig6",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 68 68\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"60\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"60\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"60\"/><line x1=\"8\" y1=\"8\" x2=\"60\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"60\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"60\" y2=\"60\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/></g></svg>",
+          "alt": "รูปบนตาราง 2 x 2 ช่อง · แถวที่ 1 มีช่องที่ 1, 2 / แถวที่ 2 มีช่องที่ 1, 2",
+          "caption": ""
+        }
+      ],
+      "choices": [
+        {
+          "md": "[[fig2]]",
+          "is_answer": true
+        },
+        {
+          "md": "[[fig3]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig5]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig6]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig4]]",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "นับว่ามองตามลูกศรแล้วภาพกว้างกี่คอลัมน์",
+          "why_md": "ก้อนที่อยู่ลึกเข้าไปในแนวลูกศรทับกับก้อนข้างหน้า จึงไม่เพิ่มคอลัมน์"
+        },
+        {
+          "do_md": "หาความสูงของก้อนที่สูงที่สุดในแต่ละคอลัมน์",
+          "why_md": "ภาพฉายแสดงความสูงสูงสุดของแต่ละแนว ไม่ใช่จำนวนก้อนทั้งหมด"
+        }
+      ],
+      "answer_explanation_md": "ภาพจากทิศลูกศรกว้างเท่าจำนวนแนวที่มองเห็น และแต่ละคอลัมน์สูงเท่าก้อนที่สูงที่สุดในแนวนั้น ก้อนที่อยู่ลึกเข้าไปถูกทับ",
+      "hints": [
+        "ลูกศรชี้เข้าหาหน้าใดของทรง",
+        "มองตามลูกศรแล้วเห็นกี่คอลัมน์ และแต่ละคอลัมน์สูงกี่ชั้น",
+        "ตัดตัวเลือกที่ความกว้างหรือความสูงรวมไม่ตรงก่อน"
+      ],
+      "distractor_reasons": {
+        "1": "เป็นภาพเมื่อมองจากด้านข้าง ไม่ใช่จากด้านหน้า",
+        "2": "เห็นเฉพาะชั้นล่าง ลืมก้อนที่ซ้อนอยู่ข้างบน",
+        "3": "ขาดช่องแถวที่ 2 คอลัมน์ที่ 1 ไป ทั้งที่แนวนั้นมีลูกบาศก์อยู่",
+        "4": "เป็นภาพเมื่อมองจากด้านบน ไม่ใช่จากด้านหน้า"
+      },
+      "misconception_tags": [
+        "iso_face_as_view"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.aptitude.spatial.shadow_projection.0015",
+      "topic_ids": [
+        "tpat3.aptitude.spatial.shadow_projection"
+      ],
+      "primary_topic_id": "tpat3.aptitude.spatial.shadow_projection",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 110,
+      "stem_md": "มองทรงในรูปตามทิศของลูกศรในแนวราบตรง ๆ จะเห็นภาพใด\n\n[[fig1]]",
+      "figures": [
+        {
+          "id": "fig1",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 218 132\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><polygon points=\"38.0,27.0 64.0,42.0 38.0,57.0 12.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"12.0,72.0 38.0,87.0 38.0,57.0 12.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,72.0 38.0,87.0 38.0,57.0 64.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,42.0 90.0,57.0 64.0,72.0 38.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,87.0 64.0,102.0 64.0,72.0 38.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,87.0 64.0,102.0 64.0,72.0 90.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"116.0,42.0 142.0,57.0 116.0,72.0 90.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,87.0 116.0,102.0 116.0,72.0 90.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"142.0,87.0 116.0,102.0 116.0,72.0 142.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,57.0 116.0,72.0 90.0,87.0 64.0,72.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,102.0 90.0,117.0 90.0,87.0 64.0,72.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"116.0,102.0 90.0,117.0 90.0,87.0 116.0,72.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,12.0 90.0,27.0 64.0,42.0 38.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,57.0 64.0,72.0 64.0,42.0 38.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,57.0 64.0,72.0 64.0,42.0 90.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,27.0 116.0,42.0 90.0,57.0 64.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,72.0 90.0,87.0 90.0,57.0 64.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"116.0,72.0 90.0,87.0 90.0,57.0 116.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><g fill=\"none\" stroke-width=\"2.2\" stroke-linecap=\"round\"><g stroke=\"var(--accent, #3b5bdb)\"><line x1=\"178\" y1=\"108\" x2=\"138\" y2=\"85\"/><polygon points=\"129,80 140,81 135,89\" fill=\"var(--accent, #3b5bdb)\" stroke=\"none\"/></g></g><g><text x=\"178\" y=\"124\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">มองทางนี้</text></g></svg>",
+          "alt": "ทรงประกอบจากลูกบาศก์ 6 ก้อน · ชั้นที่ 1 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (1, 2), (2, 2), (3, 1), (3, 2) / ชั้นที่ 2 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (2, 2), (3, 2) · มีลูกศรบอกให้มองจากด้านข้าง",
+          "caption": "ทรงที่ประกอบจากลูกบาศก์"
+        },
+        {
+          "id": "fig2",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 68 68\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"60\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"60\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"60\"/><line x1=\"8\" y1=\"8\" x2=\"60\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"60\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"60\" y2=\"60\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/></g></svg>",
+          "alt": "รูปบนตาราง 2 x 2 ช่อง · แถวที่ 1 มีช่องที่ 1 / แถวที่ 2 มีช่องที่ 1, 2",
+          "caption": ""
+        },
+        {
+          "id": "fig3",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 94 68\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"60\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"60\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"60\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"60\"/><line x1=\"8\" y1=\"8\" x2=\"86\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"86\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"86\" y2=\"60\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"35\" width=\"24\" height=\"24\"/></g></svg>",
+          "alt": "รูปบนตาราง 3 x 2 ช่อง · แถวที่ 1 มีช่องที่ 2, 3 / แถวที่ 2 มีช่องที่ 1, 2, 3",
+          "caption": ""
+        },
+        {
+          "id": "fig4",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 94 68\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"60\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"60\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"60\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"60\"/><line x1=\"8\" y1=\"8\" x2=\"86\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"86\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"86\" y2=\"60\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"35\" width=\"24\" height=\"24\"/></g></svg>",
+          "alt": "รูปบนตาราง 3 x 2 ช่อง · แถวที่ 1 มีช่องที่ 3 / แถวที่ 2 มีช่องที่ 1, 2, 3",
+          "caption": ""
+        },
+        {
+          "id": "fig5",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 68 42\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"34\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"34\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"34\"/><line x1=\"8\" y1=\"8\" x2=\"60\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"60\" y2=\"34\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"9\" width=\"24\" height=\"24\"/></g></svg>",
+          "alt": "รูปบนตาราง 2 x 1 ช่อง · แถวที่ 1 มีช่องที่ 1, 2",
+          "caption": ""
+        },
+        {
+          "id": "fig6",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 68 68\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"60\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"60\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"60\"/><line x1=\"8\" y1=\"8\" x2=\"60\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"60\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"60\" y2=\"60\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/></g></svg>",
+          "alt": "รูปบนตาราง 2 x 2 ช่อง · แถวที่ 1 มีช่องที่ 1, 2 / แถวที่ 2 มีช่องที่ 1, 2",
+          "caption": ""
+        }
+      ],
+      "choices": [
+        {
+          "md": "[[fig4]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig3]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig2]]",
+          "is_answer": true
+        },
+        {
+          "md": "[[fig6]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig5]]",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "นับว่ามองตามลูกศรแล้วภาพกว้างกี่คอลัมน์",
+          "why_md": "ก้อนที่อยู่ลึกเข้าไปในแนวลูกศรทับกับก้อนข้างหน้า จึงไม่เพิ่มคอลัมน์"
+        },
+        {
+          "do_md": "หาความสูงของก้อนที่สูงที่สุดในแต่ละคอลัมน์",
+          "why_md": "ภาพฉายแสดงความสูงสูงสุดของแต่ละแนว ไม่ใช่จำนวนก้อนทั้งหมด"
+        }
+      ],
+      "answer_explanation_md": "ภาพจากทิศลูกศรกว้างเท่าจำนวนแนวที่มองเห็น และแต่ละคอลัมน์สูงเท่าก้อนที่สูงที่สุดในแนวนั้น ก้อนที่อยู่ลึกเข้าไปถูกทับ",
+      "hints": [
+        "ลูกศรชี้เข้าหาหน้าใดของทรง",
+        "มองตามลูกศรแล้วเห็นกี่คอลัมน์ และแต่ละคอลัมน์สูงกี่ชั้น",
+        "ตัดตัวเลือกที่ความกว้างหรือความสูงรวมไม่ตรงก่อน"
+      ],
+      "distractor_reasons": {
+        "0": "เป็นภาพเมื่อมองจากด้านบน ไม่ใช่จากด้านข้าง",
+        "1": "เป็นภาพเมื่อมองจากด้านหน้า ไม่ใช่จากด้านข้าง",
+        "3": "มีช่องเกินมาหนึ่งช่องตรงแนวที่ไม่มีลูกบาศก์ก้อนใดอยู่",
+        "4": "เห็นเฉพาะชั้นล่าง ลืมก้อนที่ซ้อนอยู่ข้างบน"
+      },
+      "misconception_tags": [
+        "iso_face_as_view"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.aptitude.spatial.shadow_projection.0016",
+      "topic_ids": [
+        "tpat3.aptitude.spatial.shadow_projection"
+      ],
+      "primary_topic_id": "tpat3.aptitude.spatial.shadow_projection",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 80,
+      "stem_md": "มองทรงในรูปจากด้านบนลงมาตรง ๆ จะเห็นภาพใด\n\n[[fig1]]",
+      "figures": [
+        {
+          "id": "fig1",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 128 144\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><polygon points=\"90.0,42.0 116.0,57.0 90.0,72.0 64.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,87.0 90.0,102.0 90.0,72.0 64.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"116.0,87.0 90.0,102.0 90.0,72.0 116.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,57.0 90.0,72.0 64.0,87.0 38.0,72.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,102.0 64.0,117.0 64.0,87.0 38.0,72.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,102.0 64.0,117.0 64.0,87.0 90.0,72.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,12.0 116.0,27.0 90.0,42.0 64.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,57.0 90.0,72.0 90.0,42.0 64.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"116.0,57.0 90.0,72.0 90.0,42.0 116.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,72.0 116.0,87.0 90.0,102.0 64.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,117.0 90.0,132.0 90.0,102.0 64.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"116.0,117.0 90.0,132.0 90.0,102.0 116.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,72.0 64.0,87.0 38.0,102.0 12.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"12.0,117.0 38.0,132.0 38.0,102.0 12.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,117.0 38.0,132.0 38.0,102.0 64.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,27.0 90.0,42.0 64.0,57.0 38.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,72.0 64.0,87.0 64.0,57.0 38.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,72.0 64.0,87.0 64.0,57.0 90.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/></svg>",
+          "alt": "ทรงประกอบจากลูกบาศก์ 6 ก้อน · ชั้นที่ 1 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (1, 1), (1, 2), (1, 3), (2, 2) / ชั้นที่ 2 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (1, 1), (1, 2)",
+          "caption": "ทรงที่ประกอบจากลูกบาศก์"
+        },
+        {
+          "id": "fig2",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 68 94\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"86\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"86\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"86\"/><line x1=\"8\" y1=\"8\" x2=\"60\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"60\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"60\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"60\" y2=\"86\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/></g></svg>",
+          "alt": "รูปบนตาราง 2 x 3 ช่อง · แถวที่ 1 มีช่องที่ 1 / แถวที่ 2 มีช่องที่ 1, 2 / แถวที่ 3 มีช่องที่ 1",
+          "caption": ""
+        },
+        {
+          "id": "fig3",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 68 68\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"60\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"60\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"60\"/><line x1=\"8\" y1=\"8\" x2=\"60\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"60\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"60\" y2=\"60\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/></g></svg>",
+          "alt": "รูปบนตาราง 2 x 2 ช่อง · แถวที่ 1 มีช่องที่ 1 / แถวที่ 2 มีช่องที่ 1, 2",
+          "caption": ""
+        },
+        {
+          "id": "fig4",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 94 68\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"60\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"60\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"60\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"60\"/><line x1=\"8\" y1=\"8\" x2=\"86\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"86\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"86\" y2=\"60\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"35\" width=\"24\" height=\"24\"/></g></svg>",
+          "alt": "รูปบนตาราง 3 x 2 ช่อง · แถวที่ 1 มีช่องที่ 1, 2 / แถวที่ 2 มีช่องที่ 1, 2, 3",
+          "caption": ""
+        },
+        {
+          "id": "fig5",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 42 94\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"86\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"86\"/><line x1=\"8\" y1=\"8\" x2=\"34\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"34\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"34\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"34\" y2=\"86\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"61\" width=\"24\" height=\"24\"/></g></svg>",
+          "alt": "รูปบนตาราง 1 x 3 ช่อง · แถวที่ 1 มีช่องที่ 1 / แถวที่ 2 มีช่องที่ 1 / แถวที่ 3 มีช่องที่ 1",
+          "caption": ""
+        },
+        {
+          "id": "fig6",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 94 94\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"86\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"86\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"86\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"86\"/><line x1=\"8\" y1=\"8\" x2=\"86\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"86\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"86\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"86\" y2=\"86\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"35\" width=\"24\" height=\"24\"/></g></svg>",
+          "alt": "รูปบนตาราง 3 x 3 ช่อง · แถวที่ 1 มีช่องที่ 1, 2 / แถวที่ 2 มีช่องที่ 2, 3 / แถวที่ 3 มีช่องที่ 2",
+          "caption": ""
+        }
+      ],
+      "choices": [
+        {
+          "md": "[[fig3]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig4]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig5]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig6]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig2]]",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "หาตำแหน่งบนพื้นที่มีลูกบาศก์อย่างน้อยหนึ่งก้อน",
+          "why_md": "ความสูงไม่มีผลกับภาพด้านบน"
+        },
+        {
+          "do_md": "ก้อนที่ซ้อนอยู่ข้างบนทับลงช่องเดิม",
+          "why_md": "จึงไม่เพิ่มช่องใหม่"
+        }
+      ],
+      "answer_explanation_md": "ภาพด้านบนคือรอยของลูกบาศก์บนพื้น ก้อนที่ซ้อนอยู่ไม่เพิ่มช่อง",
+      "hints": [
+        "มองลงมาจากเพดานตรง ๆ เห็นอะไรบ้าง",
+        "ก้อนที่ซ้อนกันทำให้เห็นช่องเพิ่มหรือไม่",
+        "นับช่องบนพื้นก่อน แล้วตัดตัวเลือกที่จำนวนช่องไม่ตรง"
+      ],
+      "distractor_reasons": {
+        "0": "เป็นภาพเมื่อมองจากด้านหน้า ไม่ใช่จากด้านบน",
+        "1": "เป็นภาพเมื่อมองจากด้านข้าง ไม่ใช่จากด้านบน",
+        "2": "ขาดช่องแถวที่ 2 คอลัมน์ที่ 2 ไป ทั้งที่แนวนั้นมีลูกบาศก์อยู่",
+        "3": "มีช่องยื่นออกไปนอกขอบของทรง ซึ่งไม่มีลูกบาศก์อยู่เลย"
+      },
+      "misconception_tags": [
+        "count_hidden_cubes"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.aptitude.spatial.shadow_projection.0017",
+      "topic_ids": [
+        "tpat3.aptitude.spatial.shadow_projection"
+      ],
+      "primary_topic_id": "tpat3.aptitude.spatial.shadow_projection",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 100,
+      "stem_md": "มองทรงในรูปตามทิศของลูกศรในแนวราบตรง ๆ จะเห็นภาพใด\n\n[[fig1]]",
+      "figures": [
+        {
+          "id": "fig1",
+          "type": "svg",
+          "svg": "<svg viewBox=\"-64 0 192 162\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><polygon points=\"90.0,42.0 116.0,57.0 90.0,72.0 64.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,87.0 90.0,102.0 90.0,72.0 64.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"116.0,87.0 90.0,102.0 90.0,72.0 116.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,57.0 90.0,72.0 64.0,87.0 38.0,72.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,102.0 64.0,117.0 64.0,87.0 38.0,72.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,102.0 64.0,117.0 64.0,87.0 90.0,72.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,12.0 116.0,27.0 90.0,42.0 64.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,57.0 90.0,72.0 90.0,42.0 64.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"116.0,57.0 90.0,72.0 90.0,42.0 116.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,72.0 116.0,87.0 90.0,102.0 64.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,117.0 90.0,132.0 90.0,102.0 64.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"116.0,117.0 90.0,132.0 90.0,102.0 116.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,72.0 64.0,87.0 38.0,102.0 12.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"12.0,117.0 38.0,132.0 38.0,102.0 12.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,117.0 38.0,132.0 38.0,102.0 64.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,27.0 90.0,42.0 64.0,57.0 38.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,72.0 64.0,87.0 64.0,57.0 38.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,72.0 64.0,87.0 64.0,57.0 90.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><g fill=\"none\" stroke-width=\"2.2\" stroke-linecap=\"round\"><g stroke=\"var(--accent, #3b5bdb)\"><line x1=\"-24\" y1=\"138\" x2=\"16\" y2=\"115\"/><polygon points=\"25,110 19,119 14,111\" fill=\"var(--accent, #3b5bdb)\" stroke=\"none\"/></g></g><g><text x=\"-24\" y=\"154\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">มองทางนี้</text></g></svg>",
+          "alt": "ทรงประกอบจากลูกบาศก์ 6 ก้อน · ชั้นที่ 1 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (1, 1), (1, 2), (1, 3), (2, 2) / ชั้นที่ 2 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (1, 1), (1, 2) · มีลูกศรบอกให้มองจากด้านหน้า",
+          "caption": "ทรงที่ประกอบจากลูกบาศก์"
+        },
+        {
+          "id": "fig2",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 68 68\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"60\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"60\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"60\"/><line x1=\"8\" y1=\"8\" x2=\"60\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"60\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"60\" y2=\"60\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/></g></svg>",
+          "alt": "รูปบนตาราง 2 x 2 ช่อง · แถวที่ 1 มีช่องที่ 1 / แถวที่ 2 มีช่องที่ 1, 2",
+          "caption": ""
+        },
+        {
+          "id": "fig3",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 94 68\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"60\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"60\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"60\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"60\"/><line x1=\"8\" y1=\"8\" x2=\"86\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"86\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"86\" y2=\"60\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"35\" width=\"24\" height=\"24\"/></g></svg>",
+          "alt": "รูปบนตาราง 3 x 2 ช่อง · แถวที่ 1 มีช่องที่ 2, 3 / แถวที่ 2 มีช่องที่ 1, 2, 3",
+          "caption": ""
+        },
+        {
+          "id": "fig4",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 68 94\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"86\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"86\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"86\"/><line x1=\"8\" y1=\"8\" x2=\"60\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"60\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"60\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"60\" y2=\"86\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/></g></svg>",
+          "alt": "รูปบนตาราง 2 x 3 ช่อง · แถวที่ 1 มีช่องที่ 1 / แถวที่ 2 มีช่องที่ 1, 2 / แถวที่ 3 มีช่องที่ 1",
+          "caption": ""
+        },
+        {
+          "id": "fig5",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 68 42\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"34\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"34\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"34\"/><line x1=\"8\" y1=\"8\" x2=\"60\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"60\" y2=\"34\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"9\" width=\"24\" height=\"24\"/></g></svg>",
+          "alt": "รูปบนตาราง 2 x 1 ช่อง · แถวที่ 1 มีช่องที่ 1, 2",
+          "caption": ""
+        },
+        {
+          "id": "fig6",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 68 68\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"60\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"60\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"60\"/><line x1=\"8\" y1=\"8\" x2=\"60\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"60\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"60\" y2=\"60\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/></g></svg>",
+          "alt": "รูปบนตาราง 2 x 2 ช่อง · แถวที่ 1 มีช่องที่ 1, 2 / แถวที่ 2 มีช่องที่ 1, 2",
+          "caption": ""
+        }
+      ],
+      "choices": [
+        {
+          "md": "[[fig4]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig2]]",
+          "is_answer": true
+        },
+        {
+          "md": "[[fig5]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig6]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig3]]",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "นับว่ามองตามลูกศรแล้วภาพกว้างกี่คอลัมน์",
+          "why_md": "ก้อนที่อยู่ลึกเข้าไปในแนวลูกศรทับกับก้อนข้างหน้า จึงไม่เพิ่มคอลัมน์"
+        },
+        {
+          "do_md": "หาความสูงของก้อนที่สูงที่สุดในแต่ละคอลัมน์",
+          "why_md": "ภาพฉายแสดงความสูงสูงสุดของแต่ละแนว ไม่ใช่จำนวนก้อนทั้งหมด"
+        }
+      ],
+      "answer_explanation_md": "ภาพจากทิศลูกศรกว้างเท่าจำนวนแนวที่มองเห็น และแต่ละคอลัมน์สูงเท่าก้อนที่สูงที่สุดในแนวนั้น ก้อนที่อยู่ลึกเข้าไปถูกทับ",
+      "hints": [
+        "ลูกศรชี้เข้าหาหน้าใดของทรง",
+        "มองตามลูกศรแล้วเห็นกี่คอลัมน์ และแต่ละคอลัมน์สูงกี่ชั้น",
+        "ตัดตัวเลือกที่ความกว้างหรือความสูงรวมไม่ตรงก่อน"
+      ],
+      "distractor_reasons": {
+        "0": "เป็นภาพเมื่อมองจากด้านบน ไม่ใช่จากด้านหน้า",
+        "2": "เห็นเฉพาะชั้นล่าง ลืมก้อนที่ซ้อนอยู่ข้างบน",
+        "3": "มีช่องเกินมาหนึ่งช่องตรงแนวที่ไม่มีลูกบาศก์ก้อนใดอยู่",
+        "4": "เป็นภาพเมื่อมองจากด้านข้าง ไม่ใช่จากด้านหน้า"
+      },
+      "misconception_tags": [
+        "iso_face_as_view"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.aptitude.spatial.shadow_projection.0018",
+      "topic_ids": [
+        "tpat3.aptitude.spatial.shadow_projection"
+      ],
+      "primary_topic_id": "tpat3.aptitude.spatial.shadow_projection",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 110,
+      "stem_md": "มองทรงในรูปตามทิศของลูกศรในแนวราบตรง ๆ จะเห็นภาพใด\n\n[[fig1]]",
+      "figures": [
+        {
+          "id": "fig1",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 205 154\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><polygon points=\"90.0,42.0 116.0,57.0 90.0,72.0 64.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,87.0 90.0,102.0 90.0,72.0 64.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"116.0,87.0 90.0,102.0 90.0,72.0 116.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,57.0 90.0,72.0 64.0,87.0 38.0,72.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,102.0 64.0,117.0 64.0,87.0 38.0,72.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,102.0 64.0,117.0 64.0,87.0 90.0,72.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,12.0 116.0,27.0 90.0,42.0 64.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,57.0 90.0,72.0 90.0,42.0 64.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"116.0,57.0 90.0,72.0 90.0,42.0 116.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,72.0 116.0,87.0 90.0,102.0 64.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,117.0 90.0,132.0 90.0,102.0 64.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"116.0,117.0 90.0,132.0 90.0,102.0 116.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,72.0 64.0,87.0 38.0,102.0 12.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"12.0,117.0 38.0,132.0 38.0,102.0 12.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,117.0 38.0,132.0 38.0,102.0 64.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,27.0 90.0,42.0 64.0,57.0 38.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,72.0 64.0,87.0 64.0,57.0 38.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,72.0 64.0,87.0 64.0,57.0 90.0,42.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><g fill=\"none\" stroke-width=\"2.2\" stroke-linecap=\"round\"><g stroke=\"var(--accent, #3b5bdb)\"><line x1=\"165\" y1=\"130\" x2=\"125\" y2=\"107\"/><polygon points=\"116,102 127,103 122,111\" fill=\"var(--accent, #3b5bdb)\" stroke=\"none\"/></g></g><g><text x=\"165\" y=\"146\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">มองทางนี้</text></g></svg>",
+          "alt": "ทรงประกอบจากลูกบาศก์ 6 ก้อน · ชั้นที่ 1 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (1, 1), (1, 2), (1, 3), (2, 2) / ชั้นที่ 2 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (1, 1), (1, 2) · มีลูกศรบอกให้มองจากด้านข้าง",
+          "caption": "ทรงที่ประกอบจากลูกบาศก์"
+        },
+        {
+          "id": "fig2",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 94 68\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"60\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"60\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"60\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"60\"/><line x1=\"8\" y1=\"8\" x2=\"86\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"86\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"86\" y2=\"60\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"35\" width=\"24\" height=\"24\"/></g></svg>",
+          "alt": "รูปบนตาราง 3 x 2 ช่อง · แถวที่ 1 มีช่องที่ 2, 3 / แถวที่ 2 มีช่องที่ 1, 2, 3",
+          "caption": ""
+        },
+        {
+          "id": "fig3",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 68 68\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"60\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"60\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"60\"/><line x1=\"8\" y1=\"8\" x2=\"60\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"60\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"60\" y2=\"60\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/></g></svg>",
+          "alt": "รูปบนตาราง 2 x 2 ช่อง · แถวที่ 1 มีช่องที่ 1 / แถวที่ 2 มีช่องที่ 1, 2",
+          "caption": ""
+        },
+        {
+          "id": "fig4",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 68 94\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"86\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"86\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"86\"/><line x1=\"8\" y1=\"8\" x2=\"60\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"60\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"60\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"60\" y2=\"86\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/></g></svg>",
+          "alt": "รูปบนตาราง 2 x 3 ช่อง · แถวที่ 1 มีช่องที่ 1 / แถวที่ 2 มีช่องที่ 1, 2 / แถวที่ 3 มีช่องที่ 1",
+          "caption": ""
+        },
+        {
+          "id": "fig5",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 94 42\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"34\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"34\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"34\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"34\"/><line x1=\"8\" y1=\"8\" x2=\"86\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"86\" y2=\"34\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"9\" width=\"24\" height=\"24\"/></g></svg>",
+          "alt": "รูปบนตาราง 3 x 1 ช่อง · แถวที่ 1 มีช่องที่ 1, 2, 3",
+          "caption": ""
+        },
+        {
+          "id": "fig6",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 68 68\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"60\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"60\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"60\"/><line x1=\"8\" y1=\"8\" x2=\"60\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"60\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"60\" y2=\"60\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/></g></svg>",
+          "alt": "รูปบนตาราง 2 x 2 ช่อง · แถวที่ 1 มีช่องที่ 1, 2 / แถวที่ 2 มีช่องที่ 1, 2",
+          "caption": ""
+        }
+      ],
+      "choices": [
+        {
+          "md": "[[fig5]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig2]]",
+          "is_answer": true
+        },
+        {
+          "md": "[[fig3]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig4]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig6]]",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "นับว่ามองตามลูกศรแล้วภาพกว้างกี่คอลัมน์",
+          "why_md": "ก้อนที่อยู่ลึกเข้าไปในแนวลูกศรทับกับก้อนข้างหน้า จึงไม่เพิ่มคอลัมน์"
+        },
+        {
+          "do_md": "หาความสูงของก้อนที่สูงที่สุดในแต่ละคอลัมน์",
+          "why_md": "ภาพฉายแสดงความสูงสูงสุดของแต่ละแนว ไม่ใช่จำนวนก้อนทั้งหมด"
+        }
+      ],
+      "answer_explanation_md": "ภาพจากทิศลูกศรกว้างเท่าจำนวนแนวที่มองเห็น และแต่ละคอลัมน์สูงเท่าก้อนที่สูงที่สุดในแนวนั้น ก้อนที่อยู่ลึกเข้าไปถูกทับ",
+      "hints": [
+        "ลูกศรชี้เข้าหาหน้าใดของทรง",
+        "มองตามลูกศรแล้วเห็นกี่คอลัมน์ และแต่ละคอลัมน์สูงกี่ชั้น",
+        "ตัดตัวเลือกที่ความกว้างหรือความสูงรวมไม่ตรงก่อน"
+      ],
+      "distractor_reasons": {
+        "0": "เห็นเฉพาะชั้นล่าง ลืมก้อนที่ซ้อนอยู่ข้างบน",
+        "2": "เป็นภาพเมื่อมองจากด้านหน้า ไม่ใช่จากด้านข้าง",
+        "3": "เป็นภาพเมื่อมองจากด้านบน ไม่ใช่จากด้านข้าง",
+        "4": "ขาดช่องแถวที่ 2 คอลัมน์ที่ 1 ไป ทั้งที่แนวนั้นมีลูกบาศก์อยู่"
+      },
+      "misconception_tags": [
+        "iso_face_as_view"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.aptitude.spatial.shadow_projection.0019",
+      "topic_ids": [
+        "tpat3.aptitude.spatial.shadow_projection"
+      ],
+      "primary_topic_id": "tpat3.aptitude.spatial.shadow_projection",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 80,
+      "stem_md": "มองทรงในรูปจากด้านบนลงมาตรง ๆ จะเห็นภาพใด\n\n[[fig1]]",
+      "figures": [
+        {
+          "id": "fig1",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 102 189\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><polygon points=\"64.0,72.0 90.0,87.0 64.0,102.0 38.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,117.0 64.0,132.0 64.0,102.0 38.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,117.0 64.0,132.0 64.0,102.0 90.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,87.0 64.0,102.0 38.0,117.0 12.0,102.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"12.0,132.0 38.0,147.0 38.0,117.0 12.0,102.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,132.0 38.0,147.0 38.0,117.0 64.0,102.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,42.0 90.0,57.0 64.0,72.0 38.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,87.0 64.0,102.0 64.0,72.0 38.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,87.0 64.0,102.0 64.0,72.0 90.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,102.0 90.0,117.0 64.0,132.0 38.0,117.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,147.0 64.0,162.0 64.0,132.0 38.0,117.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,147.0 64.0,162.0 64.0,132.0 90.0,117.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,12.0 90.0,27.0 64.0,42.0 38.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,57.0 64.0,72.0 64.0,42.0 38.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,57.0 64.0,72.0 64.0,42.0 90.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,117.0 64.0,132.0 38.0,147.0 12.0,132.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"12.0,162.0 38.0,177.0 38.0,147.0 12.0,132.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,162.0 38.0,177.0 38.0,147.0 64.0,132.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,72.0 90.0,87.0 64.0,102.0 38.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,117.0 64.0,132.0 64.0,102.0 38.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,117.0 64.0,132.0 64.0,102.0 90.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/></svg>",
+          "alt": "ทรงประกอบจากลูกบาศก์ 7 ก้อน · ชั้นที่ 1 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (1, 1), (1, 2), (2, 2), (2, 3) / ชั้นที่ 2 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (1, 1), (2, 2) / ชั้นที่ 3 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (1, 1)",
+          "caption": "ทรงที่ประกอบจากลูกบาศก์"
+        },
+        {
+          "id": "fig2",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 68 94\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"86\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"86\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"86\"/><line x1=\"8\" y1=\"8\" x2=\"60\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"60\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"60\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"60\" y2=\"86\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"61\" width=\"24\" height=\"24\"/></g></svg>",
+          "alt": "รูปบนตาราง 2 x 3 ช่อง · แถวที่ 1 มีช่องที่ 1 / แถวที่ 2 มีช่องที่ 1, 2 / แถวที่ 3 มีช่องที่ 2",
+          "caption": ""
+        },
+        {
+          "id": "fig3",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 68 94\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"86\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"86\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"86\"/><line x1=\"8\" y1=\"8\" x2=\"60\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"60\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"60\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"60\" y2=\"86\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"61\" width=\"24\" height=\"24\"/></g></svg>",
+          "alt": "รูปบนตาราง 2 x 3 ช่อง · แถวที่ 1 มีช่องที่ 1 / แถวที่ 2 มีช่องที่ 1, 2 / แถวที่ 3 มีช่องที่ 1, 2",
+          "caption": ""
+        },
+        {
+          "id": "fig4",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 94 94\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"86\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"86\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"86\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"86\"/><line x1=\"8\" y1=\"8\" x2=\"86\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"86\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"86\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"86\" y2=\"86\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"61\" width=\"24\" height=\"24\"/></g></svg>",
+          "alt": "รูปบนตาราง 3 x 3 ช่อง · แถวที่ 1 มีช่องที่ 1 / แถวที่ 2 มีช่องที่ 1, 2 / แถวที่ 3 มีช่องที่ 1, 2, 3",
+          "caption": ""
+        },
+        {
+          "id": "fig5",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 68 68\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"60\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"60\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"60\"/><line x1=\"8\" y1=\"8\" x2=\"60\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"60\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"60\" y2=\"60\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/></g></svg>",
+          "alt": "รูปบนตาราง 2 x 2 ช่อง · แถวที่ 1 มีช่องที่ 1, 2 / แถวที่ 2 มีช่องที่ 2",
+          "caption": ""
+        },
+        {
+          "id": "fig6",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 94 94\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"86\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"86\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"86\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"86\"/><line x1=\"8\" y1=\"8\" x2=\"86\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"86\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"86\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"86\" y2=\"86\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"61\" width=\"24\" height=\"24\"/></g></svg>",
+          "alt": "รูปบนตาราง 3 x 3 ช่อง · แถวที่ 1 มีช่องที่ 1, 2 / แถวที่ 2 มีช่องที่ 2, 3 / แถวที่ 3 มีช่องที่ 3",
+          "caption": ""
+        }
+      ],
+      "choices": [
+        {
+          "md": "[[fig2]]",
+          "is_answer": true
+        },
+        {
+          "md": "[[fig6]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig4]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig5]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig3]]",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "หาตำแหน่งบนพื้นที่มีลูกบาศก์อย่างน้อยหนึ่งก้อน",
+          "why_md": "ความสูงไม่มีผลกับภาพด้านบน"
+        },
+        {
+          "do_md": "ก้อนที่ซ้อนอยู่ข้างบนทับลงช่องเดิม",
+          "why_md": "จึงไม่เพิ่มช่องใหม่"
+        }
+      ],
+      "answer_explanation_md": "ภาพด้านบนคือรอยของลูกบาศก์บนพื้น ก้อนที่ซ้อนอยู่ไม่เพิ่มช่อง",
+      "hints": [
+        "มองลงมาจากเพดานตรง ๆ เห็นอะไรบ้าง",
+        "ก้อนที่ซ้อนกันทำให้เห็นช่องเพิ่มหรือไม่",
+        "นับช่องบนพื้นก่อน แล้วตัดตัวเลือกที่จำนวนช่องไม่ตรง"
+      ],
+      "distractor_reasons": {
+        "1": "มีช่องยื่นออกไปนอกขอบของทรง ซึ่งไม่มีลูกบาศก์อยู่เลย",
+        "2": "เป็นภาพเมื่อมองจากด้านข้าง ไม่ใช่จากด้านบน",
+        "3": "ขาดช่องแถวที่ 1 คอลัมน์ที่ 1 ไป ทั้งที่แนวนั้นมีลูกบาศก์อยู่",
+        "4": "เป็นภาพเมื่อมองจากด้านหน้า ไม่ใช่จากด้านบน"
+      },
+      "misconception_tags": [
+        "count_hidden_cubes"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.aptitude.spatial.shadow_projection.0020",
+      "topic_ids": [
+        "tpat3.aptitude.spatial.shadow_projection"
+      ],
+      "primary_topic_id": "tpat3.aptitude.spatial.shadow_projection",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 100,
+      "stem_md": "มองทรงในรูปตามทิศของลูกศรในแนวราบตรง ๆ จะเห็นภาพใด\n\n[[fig1]]",
+      "figures": [
+        {
+          "id": "fig1",
+          "type": "svg",
+          "svg": "<svg viewBox=\"-90 0 192 189\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><polygon points=\"64.0,72.0 90.0,87.0 64.0,102.0 38.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,117.0 64.0,132.0 64.0,102.0 38.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,117.0 64.0,132.0 64.0,102.0 90.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,87.0 64.0,102.0 38.0,117.0 12.0,102.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"12.0,132.0 38.0,147.0 38.0,117.0 12.0,102.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,132.0 38.0,147.0 38.0,117.0 64.0,102.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,42.0 90.0,57.0 64.0,72.0 38.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,87.0 64.0,102.0 64.0,72.0 38.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,87.0 64.0,102.0 64.0,72.0 90.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,102.0 90.0,117.0 64.0,132.0 38.0,117.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,147.0 64.0,162.0 64.0,132.0 38.0,117.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,147.0 64.0,162.0 64.0,132.0 90.0,117.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,12.0 90.0,27.0 64.0,42.0 38.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,57.0 64.0,72.0 64.0,42.0 38.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,57.0 64.0,72.0 64.0,42.0 90.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,117.0 64.0,132.0 38.0,147.0 12.0,132.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"12.0,162.0 38.0,177.0 38.0,147.0 12.0,132.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,162.0 38.0,177.0 38.0,147.0 64.0,132.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,72.0 90.0,87.0 64.0,102.0 38.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,117.0 64.0,132.0 64.0,102.0 38.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,117.0 64.0,132.0 64.0,102.0 90.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><g fill=\"none\" stroke-width=\"2.2\" stroke-linecap=\"round\"><g stroke=\"var(--accent, #3b5bdb)\"><line x1=\"-50\" y1=\"153\" x2=\"-10\" y2=\"129\"/><polygon points=\"-1,124 -7,133 -12,125\" fill=\"var(--accent, #3b5bdb)\" stroke=\"none\"/></g></g><g><text x=\"-50\" y=\"169\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">มองทางนี้</text></g></svg>",
+          "alt": "ทรงประกอบจากลูกบาศก์ 7 ก้อน · ชั้นที่ 1 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (1, 1), (1, 2), (2, 2), (2, 3) / ชั้นที่ 2 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (1, 1), (2, 2) / ชั้นที่ 3 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (1, 1) · มีลูกศรบอกให้มองจากด้านหน้า",
+          "caption": "ทรงที่ประกอบจากลูกบาศก์"
+        },
+        {
+          "id": "fig2",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 68 94\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"86\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"86\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"86\"/><line x1=\"8\" y1=\"8\" x2=\"60\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"60\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"60\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"60\" y2=\"86\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"61\" width=\"24\" height=\"24\"/></g></svg>",
+          "alt": "รูปบนตาราง 2 x 3 ช่อง · แถวที่ 1 มีช่องที่ 1 / แถวที่ 2 มีช่องที่ 1, 2 / แถวที่ 3 มีช่องที่ 1, 2",
+          "caption": ""
+        },
+        {
+          "id": "fig3",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 94 94\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"86\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"86\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"86\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"86\"/><line x1=\"8\" y1=\"8\" x2=\"86\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"86\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"86\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"86\" y2=\"86\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"61\" width=\"24\" height=\"24\"/></g></svg>",
+          "alt": "รูปบนตาราง 3 x 3 ช่อง · แถวที่ 1 มีช่องที่ 3 / แถวที่ 2 มีช่องที่ 2, 3 / แถวที่ 3 มีช่องที่ 1, 2, 3",
+          "caption": ""
+        },
+        {
+          "id": "fig4",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 68 94\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"86\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"86\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"86\"/><line x1=\"8\" y1=\"8\" x2=\"60\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"60\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"60\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"60\" y2=\"86\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"61\" width=\"24\" height=\"24\"/></g></svg>",
+          "alt": "รูปบนตาราง 2 x 3 ช่อง · แถวที่ 1 มีช่องที่ 1 / แถวที่ 2 มีช่องที่ 1, 2 / แถวที่ 3 มีช่องที่ 2",
+          "caption": ""
+        },
+        {
+          "id": "fig5",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 68 42\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"34\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"34\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"34\"/><line x1=\"8\" y1=\"8\" x2=\"60\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"60\" y2=\"34\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"9\" width=\"24\" height=\"24\"/></g></svg>",
+          "alt": "รูปบนตาราง 2 x 1 ช่อง · แถวที่ 1 มีช่องที่ 1, 2",
+          "caption": ""
+        },
+        {
+          "id": "fig6",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 68 68\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"60\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"60\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"60\"/><line x1=\"8\" y1=\"8\" x2=\"60\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"60\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"60\" y2=\"60\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/></g></svg>",
+          "alt": "รูปบนตาราง 2 x 2 ช่อง · แถวที่ 1 มีช่องที่ 1, 2 / แถวที่ 2 มีช่องที่ 1, 2",
+          "caption": ""
+        }
+      ],
+      "choices": [
+        {
+          "md": "[[fig4]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig6]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig5]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig2]]",
+          "is_answer": true
+        },
+        {
+          "md": "[[fig3]]",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "นับว่ามองตามลูกศรแล้วภาพกว้างกี่คอลัมน์",
+          "why_md": "ก้อนที่อยู่ลึกเข้าไปในแนวลูกศรทับกับก้อนข้างหน้า จึงไม่เพิ่มคอลัมน์"
+        },
+        {
+          "do_md": "หาความสูงของก้อนที่สูงที่สุดในแต่ละคอลัมน์",
+          "why_md": "ภาพฉายแสดงความสูงสูงสุดของแต่ละแนว ไม่ใช่จำนวนก้อนทั้งหมด"
+        }
+      ],
+      "answer_explanation_md": "ภาพจากทิศลูกศรกว้างเท่าจำนวนแนวที่มองเห็น และแต่ละคอลัมน์สูงเท่าก้อนที่สูงที่สุดในแนวนั้น ก้อนที่อยู่ลึกเข้าไปถูกทับ",
+      "hints": [
+        "ลูกศรชี้เข้าหาหน้าใดของทรง",
+        "มองตามลูกศรแล้วเห็นกี่คอลัมน์ และแต่ละคอลัมน์สูงกี่ชั้น",
+        "ตัดตัวเลือกที่ความกว้างหรือความสูงรวมไม่ตรงก่อน"
+      ],
+      "distractor_reasons": {
+        "0": "เป็นภาพเมื่อมองจากด้านบน ไม่ใช่จากด้านหน้า",
+        "1": "ขาดช่องแถวที่ 1 คอลัมน์ที่ 1 ไป ทั้งที่แนวนั้นมีลูกบาศก์อยู่",
+        "2": "เห็นเฉพาะชั้นล่าง ลืมก้อนที่ซ้อนอยู่ข้างบน",
+        "4": "เป็นภาพเมื่อมองจากด้านข้าง ไม่ใช่จากด้านหน้า"
+      },
+      "misconception_tags": [
+        "iso_face_as_view"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.aptitude.spatial.shadow_projection.0021",
+      "topic_ids": [
+        "tpat3.aptitude.spatial.shadow_projection"
+      ],
+      "primary_topic_id": "tpat3.aptitude.spatial.shadow_projection",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 4,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 2,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 120,
+      "stem_md": "มองทรงในรูปตามทิศของลูกศรในแนวราบตรง ๆ จะเห็นภาพใด\n\n[[fig1]]",
+      "figures": [
+        {
+          "id": "fig1",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 179 189\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><polygon points=\"64.0,72.0 90.0,87.0 64.0,102.0 38.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,117.0 64.0,132.0 64.0,102.0 38.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,117.0 64.0,132.0 64.0,102.0 90.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,87.0 64.0,102.0 38.0,117.0 12.0,102.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"12.0,132.0 38.0,147.0 38.0,117.0 12.0,102.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,132.0 38.0,147.0 38.0,117.0 64.0,102.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,42.0 90.0,57.0 64.0,72.0 38.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,87.0 64.0,102.0 64.0,72.0 38.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,87.0 64.0,102.0 64.0,72.0 90.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,102.0 90.0,117.0 64.0,132.0 38.0,117.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,147.0 64.0,162.0 64.0,132.0 38.0,117.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,147.0 64.0,162.0 64.0,132.0 90.0,117.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,12.0 90.0,27.0 64.0,42.0 38.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,57.0 64.0,72.0 64.0,42.0 38.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,57.0 64.0,72.0 64.0,42.0 90.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,117.0 64.0,132.0 38.0,147.0 12.0,132.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"12.0,162.0 38.0,177.0 38.0,147.0 12.0,132.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,162.0 38.0,177.0 38.0,147.0 64.0,132.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,72.0 90.0,87.0 64.0,102.0 38.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,117.0 64.0,132.0 64.0,102.0 38.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,117.0 64.0,132.0 64.0,102.0 90.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><g fill=\"none\" stroke-width=\"2.2\" stroke-linecap=\"round\"><g stroke=\"var(--accent, #3b5bdb)\"><line x1=\"139\" y1=\"146\" x2=\"99\" y2=\"122\"/><polygon points=\"90,117 101,118 96,126\" fill=\"var(--accent, #3b5bdb)\" stroke=\"none\"/></g></g><g><text x=\"139\" y=\"162\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">มองทางนี้</text></g></svg>",
+          "alt": "ทรงประกอบจากลูกบาศก์ 7 ก้อน · ชั้นที่ 1 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (1, 1), (1, 2), (2, 2), (2, 3) / ชั้นที่ 2 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (1, 1), (2, 2) / ชั้นที่ 3 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (1, 1) · มีลูกศรบอกให้มองจากด้านข้าง",
+          "caption": "ทรงที่ประกอบจากลูกบาศก์"
+        },
+        {
+          "id": "fig2",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 94 94\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"86\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"86\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"86\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"86\"/><line x1=\"8\" y1=\"8\" x2=\"86\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"86\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"86\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"86\" y2=\"86\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"61\" width=\"24\" height=\"24\"/></g></svg>",
+          "alt": "รูปบนตาราง 3 x 3 ช่อง · แถวที่ 1 มีช่องที่ 3 / แถวที่ 2 มีช่องที่ 2, 3 / แถวที่ 3 มีช่องที่ 1, 2, 3",
+          "caption": ""
+        },
+        {
+          "id": "fig3",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 68 94\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"86\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"86\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"86\"/><line x1=\"8\" y1=\"8\" x2=\"60\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"60\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"60\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"60\" y2=\"86\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"61\" width=\"24\" height=\"24\"/></g></svg>",
+          "alt": "รูปบนตาราง 2 x 3 ช่อง · แถวที่ 1 มีช่องที่ 1 / แถวที่ 2 มีช่องที่ 1, 2 / แถวที่ 3 มีช่องที่ 1, 2",
+          "caption": ""
+        },
+        {
+          "id": "fig4",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 68 94\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"86\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"86\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"86\"/><line x1=\"8\" y1=\"8\" x2=\"60\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"60\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"60\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"60\" y2=\"86\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"61\" width=\"24\" height=\"24\"/></g></svg>",
+          "alt": "รูปบนตาราง 2 x 3 ช่อง · แถวที่ 1 มีช่องที่ 1 / แถวที่ 2 มีช่องที่ 1, 2 / แถวที่ 3 มีช่องที่ 2",
+          "caption": ""
+        },
+        {
+          "id": "fig5",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 94 42\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"34\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"34\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"34\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"34\"/><line x1=\"8\" y1=\"8\" x2=\"86\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"86\" y2=\"34\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"9\" width=\"24\" height=\"24\"/></g></svg>",
+          "alt": "รูปบนตาราง 3 x 1 ช่อง · แถวที่ 1 มีช่องที่ 1, 2, 3",
+          "caption": ""
+        },
+        {
+          "id": "fig6",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 94 94\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"86\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"86\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"86\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"86\"/><line x1=\"8\" y1=\"8\" x2=\"86\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"86\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"86\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"86\" y2=\"86\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"61\" width=\"24\" height=\"24\"/></g></svg>",
+          "alt": "รูปบนตาราง 3 x 3 ช่อง · แถวที่ 1 มีช่องที่ 3 / แถวที่ 2 มีช่องที่ 3 / แถวที่ 3 มีช่องที่ 1, 2, 3",
+          "caption": ""
+        }
+      ],
+      "choices": [
+        {
+          "md": "[[fig6]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig3]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig5]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig4]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig2]]",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "นับว่ามองตามลูกศรแล้วภาพกว้างกี่คอลัมน์",
+          "why_md": "ก้อนที่อยู่ลึกเข้าไปในแนวลูกศรทับกับก้อนข้างหน้า จึงไม่เพิ่มคอลัมน์"
+        },
+        {
+          "do_md": "หาความสูงของก้อนที่สูงที่สุดในแต่ละคอลัมน์",
+          "why_md": "ภาพฉายแสดงความสูงสูงสุดของแต่ละแนว ไม่ใช่จำนวนก้อนทั้งหมด"
+        }
+      ],
+      "answer_explanation_md": "ภาพจากทิศลูกศรกว้างเท่าจำนวนแนวที่มองเห็น และแต่ละคอลัมน์สูงเท่าก้อนที่สูงที่สุดในแนวนั้น ก้อนที่อยู่ลึกเข้าไปถูกทับ",
+      "hints": [
+        "ลูกศรชี้เข้าหาหน้าใดของทรง",
+        "มองตามลูกศรแล้วเห็นกี่คอลัมน์ และแต่ละคอลัมน์สูงกี่ชั้น",
+        "ตัดตัวเลือกที่ความกว้างหรือความสูงรวมไม่ตรงก่อน"
+      ],
+      "distractor_reasons": {
+        "0": "ขาดช่องแถวที่ 2 คอลัมน์ที่ 2 ไป ทั้งที่แนวนั้นมีลูกบาศก์อยู่",
+        "1": "เป็นภาพเมื่อมองจากด้านหน้า ไม่ใช่จากด้านข้าง",
+        "2": "เห็นเฉพาะชั้นล่าง ลืมก้อนที่ซ้อนอยู่ข้างบน",
+        "3": "เป็นภาพเมื่อมองจากด้านบน ไม่ใช่จากด้านข้าง"
+      },
+      "misconception_tags": [
+        "iso_face_as_view"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.aptitude.spatial.shadow_projection.0022",
+      "topic_ids": [
+        "tpat3.aptitude.spatial.shadow_projection"
+      ],
+      "primary_topic_id": "tpat3.aptitude.spatial.shadow_projection",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 80,
+      "stem_md": "มองทรงในรูปจากด้านบนลงมาตรง ๆ จะเห็นภาพใด\n\n[[fig1]]",
+      "figures": [
+        {
+          "id": "fig1",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 128 174\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><polygon points=\"38.0,72.0 64.0,87.0 38.0,102.0 12.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"12.0,117.0 38.0,132.0 38.0,102.0 12.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,117.0 38.0,132.0 38.0,102.0 64.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,72.0 116.0,87.0 90.0,102.0 64.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,117.0 90.0,132.0 90.0,102.0 64.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"116.0,117.0 90.0,132.0 90.0,102.0 116.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,42.0 116.0,57.0 90.0,72.0 64.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,87.0 90.0,102.0 90.0,72.0 64.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"116.0,87.0 90.0,102.0 90.0,72.0 116.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,87.0 90.0,102.0 64.0,117.0 38.0,102.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,132.0 64.0,147.0 64.0,117.0 38.0,102.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,132.0 64.0,147.0 64.0,117.0 90.0,102.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,102.0 64.0,117.0 38.0,132.0 12.0,117.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"12.0,147.0 38.0,162.0 38.0,132.0 12.0,117.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,147.0 38.0,162.0 38.0,132.0 64.0,117.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,12.0 116.0,27.0 90.0,42.0 64.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,57.0 90.0,72.0 90.0,42.0 64.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"116.0,57.0 90.0,72.0 90.0,42.0 116.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,57.0 90.0,72.0 64.0,87.0 38.0,72.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,102.0 64.0,117.0 64.0,87.0 38.0,72.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,102.0 64.0,117.0 64.0,87.0 90.0,72.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/></svg>",
+          "alt": "ทรงประกอบจากลูกบาศก์ 7 ก้อน · ชั้นที่ 1 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (1, 2), (2, 1), (2, 2), (2, 3) / ชั้นที่ 2 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (2, 1), (2, 2) / ชั้นที่ 3 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (2, 1)",
+          "caption": "ทรงที่ประกอบจากลูกบาศก์"
+        },
+        {
+          "id": "fig2",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 68 94\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"86\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"86\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"86\"/><line x1=\"8\" y1=\"8\" x2=\"60\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"60\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"60\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"60\" y2=\"86\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"61\" width=\"24\" height=\"24\"/></g></svg>",
+          "alt": "รูปบนตาราง 2 x 3 ช่อง · แถวที่ 1 มีช่องที่ 2 / แถวที่ 2 มีช่องที่ 1, 2 / แถวที่ 3 มีช่องที่ 2",
+          "caption": ""
+        },
+        {
+          "id": "fig3",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 68 94\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"86\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"86\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"86\"/><line x1=\"8\" y1=\"8\" x2=\"60\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"60\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"60\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"60\" y2=\"86\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"61\" width=\"24\" height=\"24\"/></g></svg>",
+          "alt": "รูปบนตาราง 2 x 3 ช่อง · แถวที่ 1 มีช่องที่ 2 / แถวที่ 2 มีช่องที่ 2 / แถวที่ 3 มีช่องที่ 1, 2",
+          "caption": ""
+        },
+        {
+          "id": "fig4",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 94 94\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"86\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"86\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"86\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"86\"/><line x1=\"8\" y1=\"8\" x2=\"86\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"86\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"86\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"86\" y2=\"86\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"61\" width=\"24\" height=\"24\"/></g></svg>",
+          "alt": "รูปบนตาราง 3 x 3 ช่อง · แถวที่ 1 มีช่องที่ 1 / แถวที่ 2 มีช่องที่ 1, 2 / แถวที่ 3 มีช่องที่ 1, 2, 3",
+          "caption": ""
+        },
+        {
+          "id": "fig5",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 42 94\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"86\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"86\"/><line x1=\"8\" y1=\"8\" x2=\"34\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"34\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"34\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"34\" y2=\"86\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"61\" width=\"24\" height=\"24\"/></g></svg>",
+          "alt": "รูปบนตาราง 1 x 3 ช่อง · แถวที่ 1 มีช่องที่ 1 / แถวที่ 2 มีช่องที่ 1 / แถวที่ 3 มีช่องที่ 1",
+          "caption": ""
+        },
+        {
+          "id": "fig6",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 68 68\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"60\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"60\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"60\"/><line x1=\"8\" y1=\"8\" x2=\"60\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"60\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"60\" y2=\"60\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/></g></svg>",
+          "alt": "รูปบนตาราง 2 x 2 ช่อง · แถวที่ 1 มีช่องที่ 1, 2 / แถวที่ 2 มีช่องที่ 2",
+          "caption": ""
+        }
+      ],
+      "choices": [
+        {
+          "md": "[[fig5]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig6]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig2]]",
+          "is_answer": true
+        },
+        {
+          "md": "[[fig3]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig4]]",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "หาตำแหน่งบนพื้นที่มีลูกบาศก์อย่างน้อยหนึ่งก้อน",
+          "why_md": "ความสูงไม่มีผลกับภาพด้านบน"
+        },
+        {
+          "do_md": "ก้อนที่ซ้อนอยู่ข้างบนทับลงช่องเดิม",
+          "why_md": "จึงไม่เพิ่มช่องใหม่"
+        }
+      ],
+      "answer_explanation_md": "ภาพด้านบนคือรอยของลูกบาศก์บนพื้น ก้อนที่ซ้อนอยู่ไม่เพิ่มช่อง",
+      "hints": [
+        "มองลงมาจากเพดานตรง ๆ เห็นอะไรบ้าง",
+        "ก้อนที่ซ้อนกันทำให้เห็นช่องเพิ่มหรือไม่",
+        "นับช่องบนพื้นก่อน แล้วตัดตัวเลือกที่จำนวนช่องไม่ตรง"
+      ],
+      "distractor_reasons": {
+        "0": "ขาดช่องแถวที่ 2 คอลัมน์ที่ 1 ไป ทั้งที่แนวนั้นมีลูกบาศก์อยู่",
+        "1": "ขาดช่องแถวที่ 1 คอลัมน์ที่ 2 ไป ทั้งที่แนวนั้นมีลูกบาศก์อยู่",
+        "3": "เป็นภาพเมื่อมองจากด้านหน้า ไม่ใช่จากด้านบน",
+        "4": "เป็นภาพเมื่อมองจากด้านข้าง ไม่ใช่จากด้านบน"
+      },
+      "misconception_tags": [
+        "count_hidden_cubes"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.aptitude.spatial.shadow_projection.0023",
+      "topic_ids": [
+        "tpat3.aptitude.spatial.shadow_projection"
+      ],
+      "primary_topic_id": "tpat3.aptitude.spatial.shadow_projection",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 4,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 2,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 120,
+      "stem_md": "มองทรงในรูปตามทิศของลูกศรในแนวราบตรง ๆ จะเห็นภาพใด\n\n[[fig1]]",
+      "figures": [
+        {
+          "id": "fig1",
+          "type": "svg",
+          "svg": "<svg viewBox=\"-90 0 218 174\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><polygon points=\"38.0,72.0 64.0,87.0 38.0,102.0 12.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"12.0,117.0 38.0,132.0 38.0,102.0 12.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,117.0 38.0,132.0 38.0,102.0 64.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,72.0 116.0,87.0 90.0,102.0 64.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,117.0 90.0,132.0 90.0,102.0 64.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"116.0,117.0 90.0,132.0 90.0,102.0 116.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,42.0 116.0,57.0 90.0,72.0 64.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,87.0 90.0,102.0 90.0,72.0 64.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"116.0,87.0 90.0,102.0 90.0,72.0 116.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,87.0 90.0,102.0 64.0,117.0 38.0,102.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,132.0 64.0,147.0 64.0,117.0 38.0,102.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,132.0 64.0,147.0 64.0,117.0 90.0,102.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,102.0 64.0,117.0 38.0,132.0 12.0,117.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"12.0,147.0 38.0,162.0 38.0,132.0 12.0,117.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,147.0 38.0,162.0 38.0,132.0 64.0,117.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,12.0 116.0,27.0 90.0,42.0 64.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,57.0 90.0,72.0 90.0,42.0 64.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"116.0,57.0 90.0,72.0 90.0,42.0 116.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,57.0 90.0,72.0 64.0,87.0 38.0,72.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,102.0 64.0,117.0 64.0,87.0 38.0,72.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,102.0 64.0,117.0 64.0,87.0 90.0,72.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><g fill=\"none\" stroke-width=\"2.2\" stroke-linecap=\"round\"><g stroke=\"var(--accent, #3b5bdb)\"><line x1=\"-50\" y1=\"138\" x2=\"-10\" y2=\"115\"/><polygon points=\"-1,110 -7,119 -12,111\" fill=\"var(--accent, #3b5bdb)\" stroke=\"none\"/></g></g><g><text x=\"-50\" y=\"154\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">มองทางนี้</text></g></svg>",
+          "alt": "ทรงประกอบจากลูกบาศก์ 7 ก้อน · ชั้นที่ 1 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (1, 2), (2, 1), (2, 2), (2, 3) / ชั้นที่ 2 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (2, 1), (2, 2) / ชั้นที่ 3 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (2, 1) · มีลูกศรบอกให้มองจากด้านหน้า",
+          "caption": "ทรงที่ประกอบจากลูกบาศก์"
+        },
+        {
+          "id": "fig2",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 68 94\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"86\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"86\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"86\"/><line x1=\"8\" y1=\"8\" x2=\"60\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"60\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"60\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"60\" y2=\"86\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"61\" width=\"24\" height=\"24\"/></g></svg>",
+          "alt": "รูปบนตาราง 2 x 3 ช่อง · แถวที่ 1 มีช่องที่ 2 / แถวที่ 2 มีช่องที่ 2 / แถวที่ 3 มีช่องที่ 1, 2",
+          "caption": ""
+        },
+        {
+          "id": "fig3",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 94 94\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"86\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"86\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"86\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"86\"/><line x1=\"8\" y1=\"8\" x2=\"86\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"86\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"86\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"86\" y2=\"86\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"61\" width=\"24\" height=\"24\"/></g></svg>",
+          "alt": "รูปบนตาราง 3 x 3 ช่อง · แถวที่ 1 มีช่องที่ 3 / แถวที่ 2 มีช่องที่ 2, 3 / แถวที่ 3 มีช่องที่ 1, 2, 3",
+          "caption": ""
+        },
+        {
+          "id": "fig4",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 68 94\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"86\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"86\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"86\"/><line x1=\"8\" y1=\"8\" x2=\"60\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"60\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"60\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"60\" y2=\"86\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"61\" width=\"24\" height=\"24\"/></g></svg>",
+          "alt": "รูปบนตาราง 2 x 3 ช่อง · แถวที่ 1 มีช่องที่ 2 / แถวที่ 2 มีช่องที่ 1, 2 / แถวที่ 3 มีช่องที่ 2",
+          "caption": ""
+        },
+        {
+          "id": "fig5",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 68 42\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"34\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"34\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"34\"/><line x1=\"8\" y1=\"8\" x2=\"60\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"60\" y2=\"34\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"9\" width=\"24\" height=\"24\"/></g></svg>",
+          "alt": "รูปบนตาราง 2 x 1 ช่อง · แถวที่ 1 มีช่องที่ 1, 2",
+          "caption": ""
+        },
+        {
+          "id": "fig6",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 42 94\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"86\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"86\"/><line x1=\"8\" y1=\"8\" x2=\"34\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"34\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"34\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"34\" y2=\"86\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"61\" width=\"24\" height=\"24\"/></g></svg>",
+          "alt": "รูปบนตาราง 1 x 3 ช่อง · แถวที่ 1 มีช่องที่ 1 / แถวที่ 2 มีช่องที่ 1 / แถวที่ 3 มีช่องที่ 1",
+          "caption": ""
+        }
+      ],
+      "choices": [
+        {
+          "md": "[[fig6]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig4]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig2]]",
+          "is_answer": true
+        },
+        {
+          "md": "[[fig5]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig3]]",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "นับว่ามองตามลูกศรแล้วภาพกว้างกี่คอลัมน์",
+          "why_md": "ก้อนที่อยู่ลึกเข้าไปในแนวลูกศรทับกับก้อนข้างหน้า จึงไม่เพิ่มคอลัมน์"
+        },
+        {
+          "do_md": "หาความสูงของก้อนที่สูงที่สุดในแต่ละคอลัมน์",
+          "why_md": "ภาพฉายแสดงความสูงสูงสุดของแต่ละแนว ไม่ใช่จำนวนก้อนทั้งหมด"
+        }
+      ],
+      "answer_explanation_md": "ภาพจากทิศลูกศรกว้างเท่าจำนวนแนวที่มองเห็น และแต่ละคอลัมน์สูงเท่าก้อนที่สูงที่สุดในแนวนั้น ก้อนที่อยู่ลึกเข้าไปถูกทับ",
+      "hints": [
+        "ลูกศรชี้เข้าหาหน้าใดของทรง",
+        "มองตามลูกศรแล้วเห็นกี่คอลัมน์ และแต่ละคอลัมน์สูงกี่ชั้น",
+        "ตัดตัวเลือกที่ความกว้างหรือความสูงรวมไม่ตรงก่อน"
+      ],
+      "distractor_reasons": {
+        "0": "ขาดช่องแถวที่ 3 คอลัมน์ที่ 1 ไป ทั้งที่แนวนั้นมีลูกบาศก์อยู่",
+        "1": "เป็นภาพเมื่อมองจากด้านบน ไม่ใช่จากด้านหน้า",
+        "3": "เห็นเฉพาะชั้นล่าง ลืมก้อนที่ซ้อนอยู่ข้างบน",
+        "4": "เป็นภาพเมื่อมองจากด้านข้าง ไม่ใช่จากด้านหน้า"
+      },
+      "misconception_tags": [
+        "iso_face_as_view"
+      ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tpat3.aptitude.spatial.shadow_projection.0024",
+      "topic_ids": [
+        "tpat3.aptitude.spatial.shadow_projection"
+      ],
+      "primary_topic_id": "tpat3.aptitude.spatial.shadow_projection",
+      "exam_code": "TPAT3",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TPAT3 ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq5",
+      "difficulty": 4,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 2,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 120,
+      "stem_md": "มองทรงในรูปตามทิศของลูกศรในแนวราบตรง ๆ จะเห็นภาพใด\n\n[[fig1]]",
+      "figures": [
+        {
+          "id": "fig1",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 179 174\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><polygon points=\"38.0,72.0 64.0,87.0 38.0,102.0 12.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"12.0,117.0 38.0,132.0 38.0,102.0 12.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,117.0 38.0,132.0 38.0,102.0 64.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,72.0 116.0,87.0 90.0,102.0 64.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,117.0 90.0,132.0 90.0,102.0 64.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"116.0,117.0 90.0,132.0 90.0,102.0 116.0,87.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,42.0 116.0,57.0 90.0,72.0 64.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,87.0 90.0,102.0 90.0,72.0 64.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"116.0,87.0 90.0,102.0 90.0,72.0 116.0,57.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,87.0 90.0,102.0 64.0,117.0 38.0,102.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,132.0 64.0,147.0 64.0,117.0 38.0,102.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,132.0 64.0,147.0 64.0,117.0 90.0,102.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,102.0 64.0,117.0 38.0,132.0 12.0,117.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"12.0,147.0 38.0,162.0 38.0,132.0 12.0,117.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,147.0 38.0,162.0 38.0,132.0 64.0,117.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,12.0 116.0,27.0 90.0,42.0 64.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,57.0 90.0,72.0 90.0,42.0 64.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"116.0,57.0 90.0,72.0 90.0,42.0 116.0,27.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"64.0,57.0 90.0,72.0 64.0,87.0 38.0,72.0\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"38.0,102.0 64.0,117.0 64.0,87.0 38.0,72.0\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"90.0,102.0 64.0,117.0 64.0,87.0 90.0,72.0\" fill=\"currentColor\" fill-opacity=\"0.34\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><g fill=\"none\" stroke-width=\"2.2\" stroke-linecap=\"round\"><g stroke=\"var(--accent, #3b5bdb)\"><line x1=\"139\" y1=\"130\" x2=\"99\" y2=\"107\"/><polygon points=\"90,102 101,103 96,111\" fill=\"var(--accent, #3b5bdb)\" stroke=\"none\"/></g></g><g><text x=\"139\" y=\"146\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">มองทางนี้</text></g></svg>",
+          "alt": "ทรงประกอบจากลูกบาศก์ 7 ก้อน · ชั้นที่ 1 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (1, 2), (2, 1), (2, 2), (2, 3) / ชั้นที่ 2 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (2, 1), (2, 2) / ชั้นที่ 3 มีลูกบาศก์ที่ตำแหน่ง (แถว, คอลัมน์) (2, 1) · มีลูกศรบอกให้มองจากด้านข้าง",
+          "caption": "ทรงที่ประกอบจากลูกบาศก์"
+        },
+        {
+          "id": "fig2",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 94 94\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"86\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"86\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"86\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"86\"/><line x1=\"8\" y1=\"8\" x2=\"86\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"86\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"86\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"86\" y2=\"86\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"61\" width=\"24\" height=\"24\"/></g></svg>",
+          "alt": "รูปบนตาราง 3 x 3 ช่อง · แถวที่ 1 มีช่องที่ 3 / แถวที่ 2 มีช่องที่ 2, 3 / แถวที่ 3 มีช่องที่ 1, 2, 3",
+          "caption": ""
+        },
+        {
+          "id": "fig3",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 68 94\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"86\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"86\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"86\"/><line x1=\"8\" y1=\"8\" x2=\"60\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"60\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"60\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"60\" y2=\"86\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"61\" width=\"24\" height=\"24\"/></g></svg>",
+          "alt": "รูปบนตาราง 2 x 3 ช่อง · แถวที่ 1 มีช่องที่ 2 / แถวที่ 2 มีช่องที่ 2 / แถวที่ 3 มีช่องที่ 1, 2",
+          "caption": ""
+        },
+        {
+          "id": "fig4",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 68 94\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"86\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"86\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"86\"/><line x1=\"8\" y1=\"8\" x2=\"60\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"60\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"60\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"60\" y2=\"86\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"61\" width=\"24\" height=\"24\"/></g></svg>",
+          "alt": "รูปบนตาราง 2 x 3 ช่อง · แถวที่ 1 มีช่องที่ 2 / แถวที่ 2 มีช่องที่ 1, 2 / แถวที่ 3 มีช่องที่ 2",
+          "caption": ""
+        },
+        {
+          "id": "fig5",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 94 42\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"34\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"34\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"34\"/><line x1=\"86\" y1=\"8\" x2=\"86\" y2=\"34\"/><line x1=\"8\" y1=\"8\" x2=\"86\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"86\" y2=\"34\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"61\" y=\"9\" width=\"24\" height=\"24\"/></g></svg>",
+          "alt": "รูปบนตาราง 3 x 1 ช่อง · แถวที่ 1 มีช่องที่ 1, 2, 3",
+          "caption": ""
+        },
+        {
+          "id": "fig6",
+          "type": "svg",
+          "svg": "<svg viewBox=\"0 0 68 94\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1\" opacity=\"0.35\"><line x1=\"8\" y1=\"8\" x2=\"8\" y2=\"86\"/><line x1=\"34\" y1=\"8\" x2=\"34\" y2=\"86\"/><line x1=\"60\" y1=\"8\" x2=\"60\" y2=\"86\"/><line x1=\"8\" y1=\"8\" x2=\"60\" y2=\"8\"/><line x1=\"8\" y1=\"34\" x2=\"60\" y2=\"34\"/><line x1=\"8\" y1=\"60\" x2=\"60\" y2=\"60\"/><line x1=\"8\" y1=\"86\" x2=\"60\" y2=\"86\"/></g><g fill=\"currentColor\"><rect x=\"9\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"9\" y=\"61\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"9\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"35\" width=\"24\" height=\"24\"/><rect x=\"35\" y=\"61\" width=\"24\" height=\"24\"/></g></svg>",
+          "alt": "รูปบนตาราง 2 x 3 ช่อง · แถวที่ 1 มีช่องที่ 2 / แถวที่ 2 มีช่องที่ 1, 2 / แถวที่ 3 มีช่องที่ 1, 2",
+          "caption": ""
+        }
+      ],
+      "choices": [
+        {
+          "md": "[[fig3]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig6]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig2]]",
+          "is_answer": true
+        },
+        {
+          "md": "[[fig4]]",
+          "is_answer": false
+        },
+        {
+          "md": "[[fig5]]",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "นับว่ามองตามลูกศรแล้วภาพกว้างกี่คอลัมน์",
+          "why_md": "ก้อนที่อยู่ลึกเข้าไปในแนวลูกศรทับกับก้อนข้างหน้า จึงไม่เพิ่มคอลัมน์"
+        },
+        {
+          "do_md": "หาความสูงของก้อนที่สูงที่สุดในแต่ละคอลัมน์",
+          "why_md": "ภาพฉายแสดงความสูงสูงสุดของแต่ละแนว ไม่ใช่จำนวนก้อนทั้งหมด"
+        }
+      ],
+      "answer_explanation_md": "ภาพจากทิศลูกศรกว้างเท่าจำนวนแนวที่มองเห็น และแต่ละคอลัมน์สูงเท่าก้อนที่สูงที่สุดในแนวนั้น ก้อนที่อยู่ลึกเข้าไปถูกทับ",
+      "hints": [
+        "ลูกศรชี้เข้าหาหน้าใดของทรง",
+        "มองตามลูกศรแล้วเห็นกี่คอลัมน์ และแต่ละคอลัมน์สูงกี่ชั้น",
+        "ตัดตัวเลือกที่ความกว้างหรือความสูงรวมไม่ตรงก่อน"
+      ],
+      "distractor_reasons": {
+        "0": "เป็นภาพเมื่อมองจากด้านหน้า ไม่ใช่จากด้านข้าง",
+        "1": "ขาดช่องแถวที่ 3 คอลัมน์ที่ 1 ไป ทั้งที่แนวนั้นมีลูกบาศก์อยู่",
+        "3": "เป็นภาพเมื่อมองจากด้านบน ไม่ใช่จากด้านข้าง",
+        "4": "เห็นเฉพาะชั้นล่าง ลืมก้อนที่ซ้อนอยู่ข้างบน"
+      },
+      "misconception_tags": [
+        "iso_face_as_view"
+      ],
       "template": null,
       "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
       "calculator_allowed": false,
