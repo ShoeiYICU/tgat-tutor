@@ -818,7 +818,9 @@ async function pageExam(sid, size) {
   // ข้อที่ใช้บทอ่านเดียวกันไม่ออกพร้อมกันในชุดเดียว เพราะตัวเลือกของข้อหนึ่งอาจบอกคำตอบของอีกข้อ
   // ใช้กับ TGAT1 และ TGAT2 ที่มีบทอ่านหรือสถานการณ์ร่วมจริง วิชาอื่นโจทย์ยาวเพราะคำสั่ง ไม่ใช่เพราะใช้เรื่องเดียวกัน
   const sharesPassage = sid === "tgat1" || sid === "tgat2";
-  const passageKey = (p) => (sharesPassage && p.stem_md && p.stem_md.length > 200 ? p.stem_md.slice(0, 80) : null);
+  // ใช้กลุ่มที่จัดไว้ในข้อมูลก่อน (ครอบคลุมข้อสั้นและข้อเรียงประโยคที่ข้อความขึ้นต้นต่างกัน) ถ้าไม่มีจึงเดาจากข้อความขึ้นต้น
+  const passageKey = (p) => p.group
+    || (sharesPassage && p.stem_md && p.stem_md.length > 200 ? p.stem_md.slice(0, 80) : null);
   const usedPassage = new Set();
   secs.forEach((sec, si) => {
     const pool = shuffle(bank.items.filter((p) => p.topic.startsWith(sec.id + ".")));

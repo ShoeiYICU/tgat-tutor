@@ -1,0 +1,208 @@
+{
+  "version": 1,
+  "groups": [
+    {
+      "id": "tgat1.community_garden",
+      "kind": "passage",
+      "note": "บทอ่านโครงการสวนชุมชนบนที่ดินว่าง",
+      "ids": [
+        "prob.tgat1.reading.comprehension.inference.0001",
+        "prob.tgat1.reading.comprehension.inference.0006",
+        "prob.tgat1.reading.comprehension.main_idea.0001",
+        "prob.tgat1.reading.comprehension.specific_detail.0001",
+        "prob.tgat1.reading.comprehension.specific_detail.0005",
+        "prob.tgat1.reading.comprehension.text_organization.0004",
+        "prob.tgat1.reading.comprehension.vocabulary_in_passage.0002",
+        "prob.tgat1.reading.text_completion.reference_word.0001"
+      ],
+      "leaks": "ได้เปรียบจากการอ่านบทเดิมซ้ำ และบางข้อชี้รายละเอียดที่ข้ออื่นถาม"
+    },
+    {
+      "id": "tgat1.sleep_and_learning",
+      "kind": "passage",
+      "note": "บทอ่านความสัมพันธ์ระหว่างการนอนกับการเรียนรู้ รวมประโยคที่ยกไปถามหาแก่น",
+      "ids": [
+        "prob.tgat1.reading.comprehension.inference.0002",
+        "prob.tgat1.reading.comprehension.main_idea.0002",
+        "prob.tgat1.reading.comprehension.purpose_tone.0003",
+        "prob.tgat1.reading.comprehension.specific_detail.0002",
+        "prob.tgat1.reading.comprehension.specific_detail.0006",
+        "prob.tgat1.reading.comprehension.text_organization.0001",
+        "prob.tgat1.reading.comprehension.text_organization.0002",
+        "prob.tgat1.reading.comprehension.vocabulary_in_passage.0005",
+        "prob.tgat1.reading.text_completion.reference_word.0002",
+        "prob.tgat1.reading.foundation.sentence_core.0003"
+      ],
+      "leaks": "ได้เปรียบจากการอ่านซ้ำ และบทเต็มช่วยตอบประโยคย่อยที่แยกไปใช้"
+    },
+    {
+      "id": "tgat1.floating_market",
+      "kind": "passage",
+      "note": "บทอ่านการเปลี่ยนแปลงของ Riverside Floating Market หลังปี 2015",
+      "ids": [
+        "prob.tgat1.reading.comprehension.inference.0003",
+        "prob.tgat1.reading.comprehension.main_idea.0003",
+        "prob.tgat1.reading.comprehension.purpose_tone.0004",
+        "prob.tgat1.reading.comprehension.specific_detail.0003",
+        "prob.tgat1.reading.comprehension.text_organization.0003",
+        "prob.tgat1.reading.comprehension.vocabulary_in_passage.0001",
+        "prob.tgat1.reading.comprehension.vocabulary_in_passage.0003",
+        "prob.tgat1.reading.foundation.skim_scan.0005",
+        "prob.tgat1.reading.text_completion.grammar_in_context.0005",
+        "prob.tgat1.reading.text_completion.reference_word.0003",
+        "prob.tgat1.reading.text_completion.reference_word.0004"
+      ],
+      "leaks": "บทเต็มบอกบริบทของช่วงที่ตัดไปเติมคำ และการอ่านซ้ำช่วยตอบรายละเอียด"
+    },
+    {
+      "id": "tgat1.complaint_letter",
+      "kind": "passage",
+      "note": "จดหมายร้องเรียนแอปออกกำลังกายถึง Mr. Hansen",
+      "ids": [
+        "prob.tgat1.reading.comprehension.inference.0004",
+        "prob.tgat1.reading.comprehension.main_idea.0004",
+        "prob.tgat1.reading.comprehension.purpose_tone.0001",
+        "prob.tgat1.reading.comprehension.specific_detail.0004",
+        "prob.tgat1.reading.comprehension.text_organization.0006",
+        "prob.tgat1.reading.comprehension.vocabulary_in_passage.0004",
+        "prob.tgat1.reading.text_completion.reference_word.0005"
+      ],
+      "leaks": "ข้อเจตนา น้ำเสียง รายละเอียด และคำอ้างถึงใช้จดหมายฉบับเดียวกัน"
+    },
+    {
+      "id": "tgat1.robot_teachers",
+      "kind": "passage",
+      "note": "บทอ่านการใช้หุ่นยนต์ช่วยสอนภาษา",
+      "ids": [
+        "prob.tgat1.reading.comprehension.inference.0005",
+        "prob.tgat1.reading.comprehension.main_idea.0005",
+        "prob.tgat1.reading.comprehension.purpose_tone.0002"
+      ],
+      "leaks": "ได้เปรียบจากการอ่านบทเดิมซ้ำและตัวเลือกสรุปอาจชี้คำตอบกัน"
+    },
+    {
+      "id": "tgat1.two_minute_rule",
+      "kind": "passage",
+      "note": "บทอ่านกฎสองนาทีในการจัดการงาน",
+      "ids": [
+        "prob.tgat1.reading.comprehension.main_idea.0006",
+        "prob.tgat1.reading.comprehension.purpose_tone.0006",
+        "prob.tgat1.reading.comprehension.vocabulary_in_passage.0006"
+      ],
+      "leaks": "ได้เปรียบจากการอ่านบทเดิมซ้ำและคำตอบใจความช่วยตีความคำศัพท์"
+    },
+    {
+      "id": "tgat2.tea_shop",
+      "kind": "passage",
+      "note": "บทอ่านร้านชานมติดป้ายปริมาณน้ำตาล",
+      "ids": [
+        "prob.tgat2.language.reading.main_idea.0002",
+        "prob.tgat2.language.reading.inference.0001",
+        "prob.tgat2.language.reading.purpose_summary.0004",
+        "prob.tgat2.language.reading.paragraph_order.0001"
+      ],
+      "leaks": "บทอ่านเต็มและข้อเรียงประโยคบอกลำดับกับข้อสรุปของกันและกัน"
+    },
+    {
+      "id": "tgat2.short_nap",
+      "kind": "passage",
+      "note": "บทอ่านผลของการงีบสั้นและการงีบนาน",
+      "ids": [
+        "prob.tgat2.language.reading.main_idea.0001",
+        "prob.tgat2.language.reading.inference.0003",
+        "prob.tgat2.language.reading.paragraph_order.0002"
+      ],
+      "leaks": "บทอ่านเต็มและข้อเรียงประโยคบอกใจความและลำดับเหตุผลของกันและกัน"
+    },
+    {
+      "id": "tgat2.bike_lane",
+      "kind": "passage",
+      "note": "บทอ่านผลดีและผลเสียของเลนจักรยานในเมือง",
+      "ids": [
+        "prob.tgat2.language.reading.main_idea.0003",
+        "prob.tgat2.language.reading.inference.0002",
+        "prob.tgat2.language.reading.purpose_summary.0001",
+        "prob.tgat2.language.reading.paragraph_order.0003"
+      ],
+      "leaks": "บทอ่านเต็มและข้อเรียงประโยคชี้ผลที่เกิดขึ้นและโครงเรื่องเดียวกัน"
+    },
+    {
+      "id": "tgat2.exam_week",
+      "kind": "scenario",
+      "note": "ตารางสอบห้าวิชาตั้งแต่วันจันทร์ถึงวันศุกร์",
+      "ids": [
+        "prob.tgat2.reasoning.statement_analysis.scheduling.0001",
+        "prob.tgat2.reasoning.statement_analysis.scheduling.0002",
+        "prob.tgat2.reasoning.statement_analysis.scheduling.0003"
+      ],
+      "leaks": "ใช้ฐานเงื่อนไขเดียวกัน การแก้ข้อหนึ่งลดงานอนุมานของข้ออื่น"
+    },
+    {
+      "id": "tgat2.meeting_abcd",
+      "kind": "scenario",
+      "note": "จัดลำดับประชุมเรื่อง A B C D สี่ช่วง",
+      "ids": [
+        "prob.tgat2.reasoning.statement_analysis.scheduling.0004",
+        "prob.tgat2.reasoning.statement_analysis.scheduling.0005"
+      ],
+      "leaks": "ใช้เงื่อนไขชุดเดียวกัน คำตอบของข้อหนึ่งช่วยตัดลำดับในอีกข้อ"
+    },
+    {
+      "id": "tgat2.runners_abcdef",
+      "kind": "scenario",
+      "note": "ลำดับเข้าเส้นชัยของนักวิ่ง A–F",
+      "ids": [
+        "prob.tgat2.reasoning.statement_analysis.ordering.0003",
+        "prob.tgat2.reasoning.statement_analysis.ordering.0004",
+        "prob.tgat2.reasoning.statement_analysis.possible_necessary.0001",
+        "prob.tgat2.reasoning.statement_analysis.possible_necessary.0002",
+        "prob.tgat2.reasoning.statement_analysis.possible_necessary.0003"
+      ],
+      "leaks": "ใช้ฐานลำดับเดียวกันและเงื่อนไขเพิ่มต่อยอด คำตอบบอกตำแหน่งกันได้"
+    },
+    {
+      "id": "tgat2.red_blue_teams",
+      "kind": "scenario",
+      "note": "แบ่ง ก–ฉ เป็นทีมแดงและทีมน้ำเงินทีมละสามคน",
+      "ids": [
+        "prob.tgat2.reasoning.statement_analysis.grouping.0001",
+        "prob.tgat2.reasoning.statement_analysis.grouping.0002",
+        "prob.tgat2.reasoning.statement_analysis.grouping.0004",
+        "prob.tgat2.reasoning.statement_analysis.grouping.0005",
+        "prob.tgat2.reasoning.statement_analysis.possible_necessary.0006"
+      ],
+      "leaks": "คำตอบรายชื่อทีมและจำนวนวิธีบอกผลของฐานเงื่อนไขเดียวกัน"
+    },
+    {
+      "id": "tgat2.five_seats",
+      "kind": "scenario",
+      "note": "จัดที่นั่ง ก ข ค ง จ บนเก้าอี้ห้าตัว",
+      "ids": [
+        "prob.tgat2.reasoning.statement_analysis.ordering.0006",
+        "prob.tgat2.reasoning.statement_analysis.possible_necessary.0004",
+        "prob.tgat2.reasoning.statement_analysis.possible_necessary.0005"
+      ],
+      "leaks": "ใช้ผังที่นั่งชุดเดียวกัน คำตอบตำแหน่งช่วยตัดตัวเลือกของข้ออื่น"
+    },
+    {
+      "id": "tgat2.four_professions",
+      "kind": "scenario",
+      "note": "จับคู่อาชีพของ เอ บี ซี ดี",
+      "ids": [
+        "prob.tgat2.reasoning.statement_analysis.matching.0002",
+        "prob.tgat2.reasoning.statement_analysis.matching.0006"
+      ],
+      "leaks": "ใช้เงื่อนไขชุดเดียวกัน ข้อที่ถามสิ่งแน่นอนช่วยตอบข้อที่ถามสิ่งเป็นไปไม่ได้"
+    },
+    {
+      "id": "tgat2.houses_and_drinks",
+      "kind": "scenario",
+      "note": "จับคู่ แก้ว ขิม คิม กับสีบ้านและเครื่องดื่ม",
+      "ids": [
+        "prob.tgat2.reasoning.statement_analysis.matching.0003",
+        "prob.tgat2.reasoning.statement_analysis.matching.0004"
+      ],
+      "leaks": "ข้อหลังเพิ่มเงื่อนไขจากฐานเดิม คำตอบหนึ่งช่วยเติมตารางของอีกข้อ"
+    }
+  ]
+}

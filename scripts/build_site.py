@@ -154,6 +154,22 @@ def dump(path: pathlib.Path, obj) -> None:
                     encoding="utf-8")
 
 
+def _exam_groups() -> dict:
+    """id ข้อ → ชื่อกลุ่ม จากไฟล์จัดกลุ่มที่ผู้ตรวจอีกฝ่ายทำไว้ (ไม่มีไฟล์ก็ไม่จัดกลุ่ม)"""
+    path = DATA / "exam_groups.json"
+    if not path.exists():
+        return {}
+    out = {}
+    for g in json.loads(path.read_text(encoding="utf-8"))["groups"]:
+        for pid in g["ids"]:
+            assert pid not in out, f"exam_groups.json: {pid} อยู่มากกว่าหนึ่งกลุ่ม"
+            out[pid] = g["id"]
+    return out
+
+
+EXAM_GROUP = _exam_groups()
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--variants", type=int, default=12)
@@ -199,8 +215,11 @@ def main() -> int:
                 entry["templated"] = sum(1 for p in items if p["variants"])
                 n_prob += len(items)
                 # เก็บไว้ทำไฟล์รวมสำหรับโหมดสอบเสมือน (ไม่มีแบบสุ่ม จึงเล็กกว่ามาก)
+                # group = ข้อที่ใช้บทอ่านหรือสถานการณ์เดียวกัน (data/exam_groups.json) ชุดสอบจะสุ่มกลุ่มละไม่เกินหนึ่งข้อ
                 exam_pool.extend({**{k: v for k, v in it.items() if k != "variants"},
-                                  "topic": tid} for it in items)
+                                  "topic": tid,
+                                  **({"group": EXAM_GROUP[it["id"]]} if it["id"] in EXAM_GROUP else {})}
+                                 for it in items)
             topics.append(entry)
 
         # โหมดสอบเสมือนดึงไฟล์เดียวแทนการดึงไฟล์รายหัวข้อหลายสิบไฟล์

@@ -230,7 +230,7 @@
         "4": "ยังวัดอาการล้าตาได้"
       },
       "misconception_tags": [
-        "confounding_variable"
+        "incomplete_controls"
       ],
       "template": null,
       "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
@@ -635,7 +635,7 @@
         "3": "ไม่มีการทำซ้ำและประเมินความแปรปรวนไม่ได้"
       },
       "misconception_tags": [
-        "spatial_confound"
+        "incomplete_controls"
       ],
       "template": null,
       "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",

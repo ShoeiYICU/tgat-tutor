@@ -146,7 +146,7 @@ P = [
       ["How do you do? ใช้ในสถานการณ์แบบไหน",
        "ถ้ามีคนแนะนำตัวพร้อมชื่อแผนก เราควรตอบด้วยข้อมูลแบบเดียวกันไหม",
        "คำตอบมาตรฐานของ How do you do? คือทวนประโยคเดิม"],
-      "ตอบ How do you do? I'm Nida from finance. เพราะเป็นการทักทายทางการตอนพบครั้งแรก ต้องทักทายตอบและแนะนำตัวกลับ",
+      "ตอบ How do you do? I'm Nida from finance. เพราะเป็นการทักทายทางการตอนพบครั้งแรก ต้องทักทายตอบและแนะนำตัวกลับ สำนวน How do you do? ใช้ในโอกาสทางการมากและพบน้อยในบทสนทนาทั่วไป ซึ่งมักใช้ Nice to meet you.",
       diff=2, sec=35, tags=["literal_translation"]),
     q(d("A: Well, it's getting late. I'd better get going.", "B: ______"),
       "OK. Take care!",

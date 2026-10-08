@@ -388,7 +388,7 @@
         "4": "ใช้อัตรา B คนเดียว"
       },
       "misconception_tags": [
-        "use_full_work_after_partial"
+        "ignore_rate_change"
       ],
       "template": null,
       "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
@@ -793,7 +793,7 @@
         "4": "ใช้อัตรารวมกับงานเต็มแล้วละเลยช่วงแรก"
       },
       "misconception_tags": [
-        "ignore_staggered_start"
+        "ignore_rate_change"
       ],
       "template": null,
       "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
