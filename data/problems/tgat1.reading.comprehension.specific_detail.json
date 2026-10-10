@@ -38,12 +38,12 @@
           "is_answer": false
         },
         {
-          "md": "Visiting other schools in the province",
-          "is_answer": false
-        },
-        {
           "md": "Buying seeds and tools",
           "is_answer": true
+        },
+        {
+          "md": "Visiting other schools in the province",
+          "is_answer": false
         }
       ],
       "answer_numeric": null,
@@ -66,7 +66,7 @@
       "distractor_reasons": {
         "0": "บทอ่านบอกว่าขอคำแนะนำจากเกษตรกร แต่ไม่ได้บอกว่าจ่ายเงิน",
         "1": "เป็นปัญหาตอนต้นเรื่อง ไม่ใช่สิ่งที่ใช้เงินซื้อ",
-        "2": "โรงเรียนอื่นมาเยี่ยม ไม่ใช่นักเรียนไป"
+        "3": "โรงเรียนอื่นมาเยี่ยม ไม่ใช่นักเรียนไป"
       },
       "misconception_tags": [
         "same_words_wrong_meaning"
@@ -108,16 +108,16 @@
           "is_answer": false
         },
         {
-          "md": "Eight to ten hours",
-          "is_answer": true
-        },
-        {
           "md": "Exactly eight hours",
           "is_answer": false
         },
         {
           "md": "Less than six hours",
           "is_answer": false
+        },
+        {
+          "md": "Eight to ten hours",
+          "is_answer": true
         }
       ],
       "answer_numeric": null,
@@ -139,8 +139,8 @@
       ],
       "distractor_reasons": {
         "0": "เป็นเวลาที่ควรงดใช้โทรศัพท์ก่อนนอน ไม่ใช่เวลานอน",
-        "2": "บทอ่านบอกเป็นช่วง 8-10 ชั่วโมง ไม่ใช่ 8 ชั่วโมงพอดี",
-        "3": "เป็นจำนวนชั่วโมงที่ทำให้สมาธิแย่ ไม่ใช่คำแนะนำ"
+        "1": "บทอ่านบอกเป็นช่วง 8-10 ชั่วโมง ไม่ใช่ 8 ชั่วโมงพอดี",
+        "2": "เป็นจำนวนชั่วโมงที่ทำให้สมาธิแย่ ไม่ใช่คำแนะนำ"
       },
       "misconception_tags": [
         "same_words_wrong_meaning"
@@ -252,10 +252,6 @@
       "figures": [],
       "choices": [
         {
-          "md": "Two weeks",
-          "is_answer": true
-        },
-        {
           "md": "Two days",
           "is_answer": false
         },
@@ -266,6 +262,10 @@
         {
           "md": "Three days",
           "is_answer": false
+        },
+        {
+          "md": "Two weeks",
+          "is_answer": true
         }
       ],
       "answer_numeric": null,
@@ -286,9 +286,9 @@
         "แยกเวลาที่สัญญาไว้กับเวลาที่รอจริง"
       ],
       "distractor_reasons": {
-        "1": "เป็นเวลาที่บริษัทสัญญาว่าจะแก้ ไม่ใช่เวลาที่รอ",
-        "2": "เป็นเวลาที่สมัครสมาชิก ไม่ใช่เวลาที่รอหลังติดต่อ",
-        "3": "ไม่มีตัวเลขนี้ในบทอ่าน"
+        "0": "เป็นเวลาที่บริษัทสัญญาว่าจะแก้ ไม่ใช่เวลาที่รอ",
+        "1": "เป็นเวลาที่สมัครสมาชิก ไม่ใช่เวลาที่รอหลังติดต่อ",
+        "2": "ไม่มีตัวเลขนี้ในบทอ่าน"
       },
       "misconception_tags": [
         "same_words_wrong_meaning"
@@ -470,6 +470,10 @@
       "figures": [],
       "choices": [
         {
+          "md": "At 8:50",
+          "is_answer": true
+        },
+        {
           "md": "At 8:15",
           "is_answer": false
         },
@@ -480,10 +484,6 @@
         {
           "md": "At 9:00",
           "is_answer": false
-        },
-        {
-          "md": "At 8:50",
-          "is_answer": true
         }
       ],
       "answer_numeric": null,
@@ -504,9 +504,9 @@
         "ตรวจว่าคำตอบไม่กว้างหรือแคบเกินข้อความ"
       ],
       "distractor_reasons": {
-        "0": "เป็นเวลาเปิด check-in",
-        "1": "สลับ before เป็น after",
-        "2": "เป็นเวลาเริ่ม session"
+        "1": "เป็นเวลาเปิด check-in",
+        "2": "สลับ before เป็น after",
+        "3": "เป็นเวลาเริ่ม session"
       },
       "misconception_tags": [
         "same_words_wrong_meaning"
@@ -552,12 +552,12 @@
           "is_answer": false
         },
         {
-          "md": "A new records clerk hired three months ago who must handle the files",
-          "is_answer": true
-        },
-        {
           "md": "A designer hired last year",
           "is_answer": false
+        },
+        {
+          "md": "A new records clerk hired three months ago who must handle the files",
+          "is_answer": true
         }
       ],
       "answer_numeric": null,
@@ -580,11 +580,731 @@
       "distractor_reasons": {
         "0": "ผ่านเกณฑ์ 60 วันและไม่ต้องใช้เอกสารจริง",
         "1": "คนละวันกับคำถาม",
-        "3": "ผ่านเวลาและไม่แตะเอกสารจริง"
+        "2": "ผ่านเวลาและไม่แตะเอกสารจริง"
       },
       "misconception_tags": [
         "same_words_wrong_meaning"
       ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.reading.comprehension.specific_detail.0009",
+      "topic_ids": [
+        "tgat1.reading.comprehension.specific_detail"
+      ],
+      "primary_topic_id": "tgat1.reading.comprehension.specific_detail",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 75,
+      "stem_md": "**Saturday Repair Café**\n\nThe school library will host a repair café on Saturday from 9 a.m. to noon. Students may bring one broken household item, such as a lamp, fan, or small radio. Volunteer technicians will first check whether the item is safe to open. They will then show its owner how to identify the fault and, when possible, replace a simple part. The service is free, but owners must pay the exact cost of any new part they choose to use. Items with swollen batteries, leaking liquid, or damaged gas containers will not be accepted. The event is meant to teach repair skills and reduce waste, not to provide a guaranteed repair service. Places are limited to thirty items, so visitors should collect a numbered card at the library entrance.\n\n---\n\nWhat must owners pay for?",
+      "figures": [],
+      "choices": [
+        {
+          "md": "Any replacement part they decide to use",
+          "is_answer": true
+        },
+        {
+          "md": "A numbered entrance card",
+          "is_answer": false
+        },
+        {
+          "md": "A safety inspection of the item",
+          "is_answer": false
+        },
+        {
+          "md": "The technicians' working time",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ขีดคำสำคัญในคำถาม",
+          "why_md": "ใช้ scan กลับไปยังประโยคที่มีข้อมูลตรง"
+        },
+        {
+          "do_md": "เทียบตัวเลขหรือเงื่อนไขกับตัวเลือก",
+          "why_md": "ตัดค่าที่มาจากคนละหน้าที่ในบท"
+        }
+      ],
+      "answer_explanation_md": "ตอบ Any replacement part they decide to use เพราะประกาศระบุให้จ่ายเฉพาะราคาอะไหล่ใหม่ที่เจ้าของเลือกใช้",
+      "hints": [
+        "ขีดคำนามหรือตัวเลขที่คำถามถาม",
+        "scan หาคำเดียวกันหรือคำพ้อง",
+        "อ่านหนึ่งประโยคก่อนและหลังตำแหน่งนั้น"
+      ],
+      "distractor_reasons": {
+        "1": "บัตรใช้จัดคิว ไม่ได้ระบุว่าขาย",
+        "2": "การตรวจความปลอดภัยเป็นส่วนแรกของบริการฟรี",
+        "3": "ประกาศระบุว่าบริการฟรี"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.reading.comprehension.specific_detail.0010",
+      "topic_ids": [
+        "tgat1.reading.comprehension.specific_detail"
+      ],
+      "primary_topic_id": "tgat1.reading.comprehension.specific_detail",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 75,
+      "stem_md": "**Refill Station Trial**\n\nA four-week trial of water refill stations has ended at North Hall School. Before the trial, the canteen sold about 420 single-use water bottles each week. During the final week, sales fell to 250 bottles, while the two refill stations recorded 610 uses. The environmental club had expected bottle sales to fall below 200, so the result did not meet its original target. A short survey suggested one reason: the station near the gym often had a queue after sports practice. The school will keep both stations for another month, add clearer signs, and move the gym station closer to the main corridor. It will review bottle sales again before deciding whether to install a third station.\n\n---\n\nHow many single-use bottles were sold during the final week?",
+      "figures": [],
+      "choices": [
+        {
+          "md": "About 250",
+          "is_answer": true
+        },
+        {
+          "md": "About 170",
+          "is_answer": false
+        },
+        {
+          "md": "About 610",
+          "is_answer": false
+        },
+        {
+          "md": "About 420",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ขีดคำสำคัญในคำถาม",
+          "why_md": "ใช้ scan กลับไปยังประโยคที่มีข้อมูลตรง"
+        },
+        {
+          "do_md": "เทียบตัวเลขหรือเงื่อนไขกับตัวเลือก",
+          "why_md": "ตัดค่าที่มาจากคนละหน้าที่ในบท"
+        }
+      ],
+      "answer_explanation_md": "ตอบ About 250 เพราะตัวเลข 250 ระบุเป็นยอดขายขวดในสัปดาห์สุดท้ายโดยตรง",
+      "hints": [
+        "ขีดคำนามหรือตัวเลขที่คำถามถาม",
+        "scan หาคำเดียวกันหรือคำพ้อง",
+        "อ่านหนึ่งประโยคก่อนและหลังตำแหน่งนั้น"
+      ],
+      "distractor_reasons": {
+        "1": "เป็นส่วนต่าง 420 ลบ 250 ไม่ใช่ยอดขาย",
+        "2": "เป็นจำนวนการใช้จุดเติมน้ำ",
+        "3": "เป็นยอดก่อนเริ่มทดลอง"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.reading.comprehension.specific_detail.0011",
+      "topic_ids": [
+        "tgat1.reading.comprehension.specific_detail"
+      ],
+      "primary_topic_id": "tgat1.reading.comprehension.specific_detail",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 75,
+      "stem_md": "**A Safer Trail Map**\n\nTo: Student Activity Leaders\nSubject: Updated forest trail map\n\nDuring last month's practice walk, several groups missed the turn beside the old storage shed. The painted arrow was partly covered by vines, and the printed map showed the shed on the wrong side of the path. We have now corrected the map and added a photo of the turn. Before Friday, please download the new version and delete any earlier copies from your group folder. On the walk, each group should carry one printed map even if members also use a phone. The phone signal is weak beyond the first bridge, so an online map may not load there. We will clear the vines before the next walk, but leaders should still point out the turn when their group reaches the shed.\n\n---\n\nWhat should leaders delete before Friday?",
+      "figures": [],
+      "choices": [
+        {
+          "md": "The online map application",
+          "is_answer": false
+        },
+        {
+          "md": "Earlier copies of the trail map",
+          "is_answer": true
+        },
+        {
+          "md": "Their group folders",
+          "is_answer": false
+        },
+        {
+          "md": "The photo of the turn",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ขีดคำสำคัญในคำถาม",
+          "why_md": "ใช้ scan กลับไปยังประโยคที่มีข้อมูลตรง"
+        },
+        {
+          "do_md": "เทียบตัวเลขหรือเงื่อนไขกับตัวเลือก",
+          "why_md": "ตัดค่าที่มาจากคนละหน้าที่ในบท"
+        }
+      ],
+      "answer_explanation_md": "ตอบ Earlier copies of the trail map เพราะอีเมลสั่งให้ดาวน์โหลดฉบับใหม่และลบสำเนาเก่า",
+      "hints": [
+        "ขีดคำนามหรือตัวเลขที่คำถามถาม",
+        "scan หาคำเดียวกันหรือคำพ้อง",
+        "อ่านหนึ่งประโยคก่อนและหลังตำแหน่งนั้น"
+      ],
+      "distractor_reasons": {
+        "0": "ไม่ได้สั่งลบแอป",
+        "2": "ให้ลบสำเนาเก่าออกจากโฟลเดอร์ ไม่ใช่ลบโฟลเดอร์",
+        "3": "ภาพอยู่ในฉบับใหม่เพื่อช่วยนำทาง"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.reading.comprehension.specific_detail.0012",
+      "topic_ids": [
+        "tgat1.reading.comprehension.specific_detail"
+      ],
+      "primary_topic_id": "tgat1.reading.comprehension.specific_detail",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 75,
+      "stem_md": "**Trying the Quiet Carriage**\n\nI tried the new quiet carriage on the town's electric bus during my trip home. The sign at the door asks passengers to silence phones and keep conversations brief, but it does not ban all sound. At first, the carriage was calm enough for me to finish two chapters of a book. Halfway through the trip, however, a recorded stop announcement became unusually loud. The driver later explained that the volume had been raised temporarily because the rear speaker was not working. I still found the service useful, especially for reading, although calling it “quiet” may create expectations that the operator cannot always meet. A better name might be “low-conversation carriage,” along with a notice that safety announcements will remain audible.\n\n---\n\nWhy was the recorded announcement unusually loud?",
+      "figures": [],
+      "choices": [
+        {
+          "md": "The operator wanted to test the quiet rule",
+          "is_answer": false
+        },
+        {
+          "md": "The reviewer requested a louder message",
+          "is_answer": false
+        },
+        {
+          "md": "A rear speaker was not working",
+          "is_answer": true
+        },
+        {
+          "md": "Passengers had ignored every stop announcement",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ขีดคำสำคัญในคำถาม",
+          "why_md": "ใช้ scan กลับไปยังประโยคที่มีข้อมูลตรง"
+        },
+        {
+          "do_md": "เทียบตัวเลขหรือเงื่อนไขกับตัวเลือก",
+          "why_md": "ตัดค่าที่มาจากคนละหน้าที่ในบท"
+        }
+      ],
+      "answer_explanation_md": "ตอบ A rear speaker was not working เพราะคนขับระบุว่าเพิ่มเสียงชั่วคราวเพราะลำโพงด้านหลังเสีย",
+      "hints": [
+        "ขีดคำนามหรือตัวเลขที่คำถามถาม",
+        "scan หาคำเดียวกันหรือคำพ้อง",
+        "อ่านหนึ่งประโยคก่อนและหลังตำแหน่งนั้น"
+      ],
+      "distractor_reasons": {
+        "0": "คนขับอธิบายว่าเป็นการแก้ปัญหาลำโพง",
+        "1": "ผู้เขียนไม่ได้ร้องขอ",
+        "3": "ไม่มีข้อมูลว่าผู้โดยสารไม่ฟัง"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.reading.comprehension.specific_detail.0013",
+      "topic_ids": [
+        "tgat1.reading.comprehension.specific_detail"
+      ],
+      "primary_topic_id": "tgat1.reading.comprehension.specific_detail",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 75,
+      "stem_md": "**How to Use the Seed Exchange**\n\nThe seed exchange cabinet lets students share seeds from vegetables, herbs, and flowers. To contribute, place dry seeds in a paper envelope and write the plant name, the month collected, and basic growing conditions on the front. Do not use a sealed plastic bag, because moisture trapped inside can cause mold. Put the envelope in the “New Seeds” tray rather than directly in a drawer. A garden club member checks new envelopes every Wednesday and then files them by plant type. To take seeds, choose one envelope and record its code in the notebook beside the cabinet. You may take only part of the contents; leave enough for another person and close the envelope. Seeds with no label or signs of mold will be removed.\n\n---\n\nWhen are new envelopes checked?",
+      "figures": [],
+      "choices": [
+        {
+          "md": "At the end of each month",
+          "is_answer": false
+        },
+        {
+          "md": "Every Wednesday",
+          "is_answer": true
+        },
+        {
+          "md": "Only when every drawer is full",
+          "is_answer": false
+        },
+        {
+          "md": "Every morning",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ขีดคำสำคัญในคำถาม",
+          "why_md": "ใช้ scan กลับไปยังประโยคที่มีข้อมูลตรง"
+        },
+        {
+          "do_md": "เทียบตัวเลขหรือเงื่อนไขกับตัวเลือก",
+          "why_md": "ตัดค่าที่มาจากคนละหน้าที่ในบท"
+        }
+      ],
+      "answer_explanation_md": "ตอบ Every Wednesday เพราะบทระบุว่าคนในชมรมตรวจถาด New Seeds ทุกวันพุธ",
+      "hints": [
+        "ขีดคำนามหรือตัวเลขที่คำถามถาม",
+        "scan หาคำเดียวกันหรือคำพ้อง",
+        "อ่านหนึ่งประโยคก่อนและหลังตำแหน่งนั้น"
+      ],
+      "distractor_reasons": {
+        "0": "เดือนใช้เขียนวันที่เก็บ ไม่ใช่รอบตรวจ",
+        "2": "ไม่ได้ผูกกับความเต็มของตู้",
+        "3": "ไม่มีข้อมูลตรวจทุกเช้า"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.reading.comprehension.specific_detail.0014",
+      "topic_ids": [
+        "tgat1.reading.comprehension.specific_detail"
+      ],
+      "primary_topic_id": "tgat1.reading.comprehension.specific_detail",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 75,
+      "stem_md": "**Why the Afternoon Bus Runs Late**\n\nThe student council reviewed thirty days of arrival records for the afternoon activity bus. The bus reached the final stop more than ten minutes late on twelve days. At first, students blamed heavy traffic near the market. The records showed a different pattern: on nine of those twelve days, departure from school had already been delayed because clubs submitted passenger lists after the 4 p.m. deadline. Traffic added time on some days, but it was not the main repeated cause. Starting next week, club leaders must submit names by 3:45 p.m., and the driver will receive one combined list at 4 p.m. The council will compare the next thirty days with the earlier records before deciding whether the new deadline works.\n\n---\n\nOn how many late days had departure already been delayed at school?",
+      "figures": [],
+      "choices": [
+        {
+          "md": "Nine days",
+          "is_answer": true
+        },
+        {
+          "md": "Twelve days",
+          "is_answer": false
+        },
+        {
+          "md": "Three days",
+          "is_answer": false
+        },
+        {
+          "md": "Thirty days",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ขีดคำสำคัญในคำถาม",
+          "why_md": "ใช้ scan กลับไปยังประโยคที่มีข้อมูลตรง"
+        },
+        {
+          "do_md": "เทียบตัวเลขหรือเงื่อนไขกับตัวเลือก",
+          "why_md": "ตัดค่าที่มาจากคนละหน้าที่ในบท"
+        }
+      ],
+      "answer_explanation_md": "ตอบ Nine days เพราะรายงานระบุเก้าวันจากสิบสองวันที่ออกจากโรงเรียนช้าอยู่แล้ว",
+      "hints": [
+        "ขีดคำนามหรือตัวเลขที่คำถามถาม",
+        "scan หาคำเดียวกันหรือคำพ้อง",
+        "อ่านหนึ่งประโยคก่อนและหลังตำแหน่งนั้น"
+      ],
+      "distractor_reasons": {
+        "1": "เป็นจำนวนวันที่ถึงปลายทางสายทั้งหมด",
+        "2": "เป็นส่วนต่างจาก 12 ลบ 9 ไม่ใช่จำนวนที่ระบุ",
+        "3": "เป็นช่วงข้อมูลทั้งหมด"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.reading.comprehension.specific_detail.0015",
+      "topic_ids": [
+        "tgat1.reading.comprehension.specific_detail"
+      ],
+      "primary_topic_id": "tgat1.reading.comprehension.specific_detail",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 75,
+      "stem_md": "**Rooftop Garden Watering Notice**\n\nThe rooftop garden team measured the soil at 4 p.m. for four days.\n\n| Day | Soil reading | Rain since noon | Action |\n|---|---:|---:|---|\n| Monday | 28% | 0 mm | Watered |\n| Tuesday | 46% | 7 mm | Not watered |\n| Wednesday | 31% | 0 mm | Watered |\n| Thursday | 43% | 2 mm | Not watered |\n\nFor this trial, the team waters only when the reading is below 35%. Rainfall is recorded to help explain the reading, but rain alone does not decide the action. Next week, the team will move one sensor away from the wall because water dripping from the roof may make that spot wetter than the rest of the bed. Until then, volunteers should follow the soil reading shown on the shared display rather than judge by touching the top layer.\n\n---\n\nOn which two days was the garden watered?",
+      "figures": [],
+      "choices": [
+        {
+          "md": "Tuesday and Thursday",
+          "is_answer": false
+        },
+        {
+          "md": "Monday and Wednesday",
+          "is_answer": true
+        },
+        {
+          "md": "Monday and Tuesday",
+          "is_answer": false
+        },
+        {
+          "md": "Wednesday and Thursday",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ขีดคำสำคัญในคำถาม",
+          "why_md": "ใช้ scan กลับไปยังประโยคที่มีข้อมูลตรง"
+        },
+        {
+          "do_md": "เทียบตัวเลขหรือเงื่อนไขกับตัวเลือก",
+          "why_md": "ตัดค่าที่มาจากคนละหน้าที่ในบท"
+        }
+      ],
+      "answer_explanation_md": "ตอบ Monday and Wednesday เพราะตารางระบุ Watered ในวันจันทร์และวันพุธ",
+      "hints": [
+        "ขีดคำนามหรือตัวเลขที่คำถามถาม",
+        "scan หาคำเดียวกันหรือคำพ้อง",
+        "อ่านหนึ่งประโยคก่อนและหลังตำแหน่งนั้น"
+      ],
+      "distractor_reasons": {
+        "0": "ทั้งสองวันระบุ Not watered",
+        "2": "Tuesday อ่าน 46% จึงไม่รด",
+        "3": "Thursday อ่าน 43% จึงไม่รด"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.reading.comprehension.specific_detail.0016",
+      "topic_ids": [
+        "tgat1.reading.comprehension.specific_detail"
+      ],
+      "primary_topic_id": "tgat1.reading.comprehension.specific_detail",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 4,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "high"
+      },
+      "est_seconds": 90,
+      "stem_md": "**A Second Life for Stage Costumes**\n\nSchool plays often require costumes that are worn only once. This term, the drama club opened a shared costume closet to give those clothes a second life. Before an item enters the closet, two students check that it is clean, label its size, and photograph any existing damage. Borrowers reserve items in a notebook and return them within three school days after a performance. In the first six weeks, forty-two items were borrowed, and only one came back late. The closet has saved money, but its less obvious benefit is creative: students have begun adapting old pieces instead of copying costumes they see online. The club plans to add a small repair table, although it will not accept items that cannot be washed safely.\n\n---\n\nHow soon should borrowers return an item after a performance?",
+      "figures": [],
+      "choices": [
+        {
+          "md": "On the same evening",
+          "is_answer": false
+        },
+        {
+          "md": "Only after the next school play",
+          "is_answer": false
+        },
+        {
+          "md": "Within six weeks",
+          "is_answer": false
+        },
+        {
+          "md": "Within three school days",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ขีดคำสำคัญในคำถาม",
+          "why_md": "ใช้ scan กลับไปยังประโยคที่มีข้อมูลตรง"
+        },
+        {
+          "do_md": "เทียบตัวเลขหรือเงื่อนไขกับตัวเลือก",
+          "why_md": "ตัดค่าที่มาจากคนละหน้าที่ในบท"
+        }
+      ],
+      "answer_explanation_md": "ตอบ Within three school days เพราะข้อความกำหนดให้คืนภายในสามวันเรียนหลังการแสดง",
+      "hints": [
+        "ขีดคำนามหรือตัวเลขที่คำถามถาม",
+        "scan หาคำเดียวกันหรือคำพ้อง",
+        "อ่านหนึ่งประโยคก่อนและหลังตำแหน่งนั้น"
+      ],
+      "distractor_reasons": {
+        "0": "ไม่ได้กำหนดคืนทันที",
+        "1": "มีเส้นตายสามวันเรียน",
+        "2": "หกสัปดาห์คือช่วงเก็บผล"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.reading.comprehension.specific_detail.0017",
+      "topic_ids": [
+        "tgat1.reading.comprehension.specific_detail"
+      ],
+      "primary_topic_id": "tgat1.reading.comprehension.specific_detail",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 4,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "high"
+      },
+      "est_seconds": 90,
+      "stem_md": "**Museum Audio Tour Update**\n\nThe town museum has revised its self-guided audio tour after visitors reported that the old version moved too quickly. The new tour contains twelve short tracks instead of one continuous recording. Each track begins beside a numbered blue label, so visitors can pause, skip an object, or change the order. Four tracks include optional descriptions of colors and shapes for visitors who cannot see the displays clearly. Printed transcripts are available at the front desk, but they follow the standard order and do not include the optional descriptions. The museum recommends headphones, although a small number can be borrowed with an identification card. The tour is free with admission and takes about thirty-five minutes if every track is played.\n\n---\n\nHow many tracks include optional descriptions of colors and shapes?",
+      "figures": [],
+      "choices": [
+        {
+          "md": "Twelve",
+          "is_answer": false
+        },
+        {
+          "md": "One",
+          "is_answer": false
+        },
+        {
+          "md": "Four",
+          "is_answer": true
+        },
+        {
+          "md": "Thirty-five",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ขีดคำสำคัญในคำถาม",
+          "why_md": "ใช้ scan กลับไปยังประโยคที่มีข้อมูลตรง"
+        },
+        {
+          "do_md": "เทียบตัวเลขหรือเงื่อนไขกับตัวเลือก",
+          "why_md": "ตัดค่าที่มาจากคนละหน้าที่ในบท"
+        }
+      ],
+      "answer_explanation_md": "ตอบ Four เพราะประกาศระบุชัดว่า four tracks มีคำบรรยายเสริม",
+      "hints": [
+        "ขีดคำนามหรือตัวเลขที่คำถามถาม",
+        "scan หาคำเดียวกันหรือคำพ้อง",
+        "อ่านหนึ่งประโยคก่อนและหลังตำแหน่งนั้น"
+      ],
+      "distractor_reasons": {
+        "0": "เป็นจำนวนแทร็กทั้งหมด",
+        "1": "ฉบับเก่าเป็นเสียงต่อเนื่องหนึ่งไฟล์ ไม่ใช่จำนวนแทร็กเสริม",
+        "3": "เป็นจำนวนนาทีโดยประมาณ"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.reading.comprehension.specific_detail.0018",
+      "topic_ids": [
+        "tgat1.reading.comprehension.specific_detail"
+      ],
+      "primary_topic_id": "tgat1.reading.comprehension.specific_detail",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 5,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": true,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 90,
+      "stem_md": "**Students Monitor the Creek**\n\nA science class has begun monitoring the creek behind the sports field after students noticed that the water sometimes turned cloudy following rain. Every Monday morning, teams measure temperature and clarity at three marked points. They also photograph the banks, but they do not enter the water or collect animals. After five weeks, the class found that clarity usually dropped at the point below a bare patch of soil, while the two upstream points changed less. This pattern does not prove that the soil caused the cloudy water, so the students will place straw on half of the bare patch and compare the next five weeks of readings. If clarity improves only below the covered half, they will have stronger evidence before proposing a permanent solution.\n\n---\n\nWhen do the teams take measurements?",
+      "figures": [],
+      "choices": [
+        {
+          "md": "After every rainfall",
+          "is_answer": false
+        },
+        {
+          "md": "Every Monday morning",
+          "is_answer": true
+        },
+        {
+          "md": "Every afternoon for three weeks",
+          "is_answer": false
+        },
+        {
+          "md": "Only when the water looks clear",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "ขีดคำสำคัญในคำถาม",
+          "why_md": "ใช้ scan กลับไปยังประโยคที่มีข้อมูลตรง"
+        },
+        {
+          "do_md": "เทียบตัวเลขหรือเงื่อนไขกับตัวเลือก",
+          "why_md": "ตัดค่าที่มาจากคนละหน้าที่ในบท"
+        }
+      ],
+      "answer_explanation_md": "ตอบ Every Monday morning เพราะบทระบุวันและเวลาวัดอย่างชัดเจนในประโยคที่สอง",
+      "hints": [
+        "ขีดคำนามหรือตัวเลขที่คำถามถาม",
+        "scan หาคำเดียวกันหรือคำพ้อง",
+        "อ่านหนึ่งประโยคก่อนและหลังตำแหน่งนั้น"
+      ],
+      "distractor_reasons": {
+        "0": "สังเกตความขุ่นหลังฝนแต่กำหนดวัดทุกเช้าวันจันทร์",
+        "2": "เวลาและช่วงไม่ตรง",
+        "3": "วัดเป็นประจำ ไม่ขึ้นกับการมอง"
+      },
+      "misconception_tags": [],
       "template": null,
       "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
       "calculator_allowed": false,

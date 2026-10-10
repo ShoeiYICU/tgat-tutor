@@ -34,12 +34,12 @@
           "is_answer": false
         },
         {
-          "md": "To give evidence that sleep helps memory",
-          "is_answer": true
-        },
-        {
           "md": "To show that learning a long list of new English words is difficult for most students",
           "is_answer": false
+        },
+        {
+          "md": "To give evidence that sleep helps memory",
+          "is_answer": true
         },
         {
           "md": "To prove that phones are harmful",
@@ -65,7 +65,7 @@
       ],
       "distractor_reasons": {
         "0": "บทอ่านไม่ได้สอนวิธีจำคำศัพท์",
-        "2": "เป็นเนื้อหาของกิจกรรม ไม่ใช่หน้าที่ในบทอ่าน",
+        "1": "เป็นเนื้อหาของกิจกรรม ไม่ใช่หน้าที่ในบทอ่าน",
         "3": "กิจกรรมไม่ได้เกี่ยวกับโทรศัพท์"
       },
       "misconception_tags": [
@@ -248,6 +248,10 @@
       "figures": [],
       "choices": [
         {
+          "md": "It shows a difficulty the students had to overcome.",
+          "is_answer": true
+        },
+        {
           "md": "It explains how to grow vegetables.",
           "is_answer": false
         },
@@ -258,10 +262,6 @@
         {
           "md": "It gives the main idea of the passage.",
           "is_answer": false
-        },
-        {
-          "md": "It shows a difficulty the students had to overcome.",
-          "is_answer": true
         }
       ],
       "answer_numeric": null,
@@ -282,9 +282,9 @@
         "ถ้าลบประโยคนี้ออก เรื่องเสียอะไรไป"
       ],
       "distractor_reasons": {
-        "0": "ไม่ได้อธิบายการปลูกผัก",
-        "1": "ผลของโครงการอยู่ท้ายบท",
-        "2": "เป็นรายละเอียดของอุปสรรค ไม่ใช่ใจความหลัก"
+        "1": "ไม่ได้อธิบายการปลูกผัก",
+        "2": "ผลของโครงการอยู่ท้ายบท",
+        "3": "เป็นรายละเอียดของอุปสรรค ไม่ใช่ใจความหลัก"
       },
       "misconception_tags": [
         "content_not_function"
@@ -322,12 +322,12 @@
       "figures": [],
       "choices": [
         {
-          "md": "After sentence (B)",
-          "is_answer": true
-        },
-        {
           "md": "After sentence (D)",
           "is_answer": false
+        },
+        {
+          "md": "After sentence (B)",
+          "is_answer": true
         },
         {
           "md": "After sentence (C)",
@@ -356,7 +356,7 @@
         "เดินห้านาทีเป็นกิจกรรมสั้นหรือยาว"
       ],
       "distractor_reasons": {
-        "1": "D สรุปแล้ว การใส่ตัวอย่างต่อท้ายไม่ต่อเนื่อง",
+        "0": "D สรุปแล้ว การใส่ตัวอย่างต่อท้ายไม่ต่อเนื่อง",
         "2": "ตัวอย่างการเดินห้านาทีขัดกับความคิดว่าต้องออกกำลังหนึ่งชั่วโมง ไม่ได้สนับสนุน C",
         "3": "ตัวอย่างต้องมาหลังข้อความที่มันสนับสนุน"
       },
@@ -398,12 +398,12 @@
           "is_answer": false
         },
         {
-          "md": "To show how long she has waited",
-          "is_answer": true
-        },
-        {
           "md": "To tell Mr. Hansen when she joined the app",
           "is_answer": false
+        },
+        {
+          "md": "To show how long she has waited",
+          "is_answer": true
         },
         {
           "md": "To ask for a meeting on that date",
@@ -429,7 +429,7 @@
       ],
       "distractor_reasons": {
         "0": "ไม่เกี่ยวกับโฆษณา",
-        "2": "เธอสมัครเมื่อเดือนก่อน วันที่ 3 มีนาคมคือวันที่ติดต่อ",
+        "1": "เธอสมัครเมื่อเดือนก่อน วันที่ 3 มีนาคมคือวันที่ติดต่อ",
         "3": "ไม่มีการนัดพบ"
       },
       "misconception_tags": [
@@ -468,12 +468,12 @@
       "figures": [],
       "choices": [
         {
-          "md": "To explain the causes of the problem",
-          "is_answer": true
-        },
-        {
           "md": "To introduce the winning plan",
           "is_answer": false
+        },
+        {
+          "md": "To explain the causes of the problem",
+          "is_answer": true
         },
         {
           "md": "To summarize the whole article",
@@ -502,7 +502,7 @@
         "ตรวจว่าคำตอบไม่กว้างหรือแคบเกินข้อความ"
       ],
       "distractor_reasons": {
-        "1": "ยังไม่เปรียบเทียบแผน",
+        "0": "ยังไม่เปรียบเทียบแผน",
         "2": "เป็นเพียงแหล่งมลพิษ",
         "3": "ยังไม่มีผล"
       },
@@ -546,12 +546,12 @@
           "is_answer": false
         },
         {
-          "md": "problem, chronological history, final solution",
-          "is_answer": false
-        },
-        {
           "md": "claim, counterevidence, recommendation for further investigation",
           "is_answer": true
+        },
+        {
+          "md": "problem, chronological history, final solution",
+          "is_answer": false
         },
         {
           "md": "definition, example, repetition",
@@ -577,12 +577,732 @@
       ],
       "distractor_reasons": {
         "0": "ตอนท้ายมีข้อเสนอชัด",
-        "1": "ไม่มีลำดับเวลาและยังไม่ให้ทางแก้",
+        "2": "ไม่มีลำดับเวลาและยังไม่ให้ทางแก้",
         "3": "ประโยคกลางหักล้าง ไม่ใช่ตัวอย่างสนับสนุน"
       },
       "misconception_tags": [
         "content_not_function"
       ],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.reading.comprehension.text_organization.0009",
+      "topic_ids": [
+        "tgat1.reading.comprehension.text_organization"
+      ],
+      "primary_topic_id": "tgat1.reading.comprehension.text_organization",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 1,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 75,
+      "stem_md": "**Saturday Repair Café**\n\nThe school library will host a repair café on Saturday from 9 a.m. to noon. Students may bring one broken household item, such as a lamp, fan, or small radio. Volunteer technicians will first check whether the item is safe to open. They will then show its owner how to identify the fault and, when possible, replace a simple part. The service is free, but owners must pay the exact cost of any new part they choose to use. Items with swollen batteries, leaking liquid, or damaged gas containers will not be accepted. The event is meant to teach repair skills and reduce waste, not to provide a guaranteed repair service. Places are limited to thirty items, so visitors should collect a numbered card at the library entrance.\n\n---\n\nHow is the announcement organized?",
+      "figures": [],
+      "choices": [
+        {
+          "md": "It gives event details, explains the process, and ends with limits and entry instructions.",
+          "is_answer": true
+        },
+        {
+          "md": "It tells the history of a broken item in time order.",
+          "is_answer": false
+        },
+        {
+          "md": "It compares two repair shops, their safety checks, their prices, and the services each one recommends.",
+          "is_answer": false
+        },
+        {
+          "md": "It lists technical causes of battery failure.",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "แบ่งบทเป็นช่วงตามหน้าที่",
+          "why_md": "เช่น ปัญหา หลักฐาน การแก้ หรือขั้นตอน"
+        },
+        {
+          "do_md": "ตามคำเชื่อมและลำดับข้อมูล",
+          "why_md": "เลือกโครงสร้างที่อธิบายครบทั้งบท"
+        }
+      ],
+      "answer_explanation_md": "ตอบ It gives event details, explains the process, and ends with limits and entry instructions. เพราะย่อหน้าเดินจากข้อมูลกิจกรรมไปขั้นตอน เงื่อนไขความปลอดภัย เป้าหมาย และวิธีรับคิว",
+      "hints": [
+        "สรุปหน้าที่แต่ละช่วงด้วยคำสั้น ๆ",
+        "มองหาการเปลี่ยนจากปัญหาไปผลหรือแผน",
+        "ตัวเลือกต้องอธิบายทั้งต้นและท้าย"
+      ],
+      "distractor_reasons": {
+        "1": "ไม่ได้เล่าเรื่องของชิ้นใดชิ้นหนึ่ง",
+        "2": "ไม่มีร้านสองแห่งให้เปรียบเทียบ",
+        "3": "กล่าวถึงแบตเตอรี่เพียงเป็นข้อห้าม"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.reading.comprehension.text_organization.0010",
+      "topic_ids": [
+        "tgat1.reading.comprehension.text_organization"
+      ],
+      "primary_topic_id": "tgat1.reading.comprehension.text_organization",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 75,
+      "stem_md": "**Refill Station Trial**\n\nA four-week trial of water refill stations has ended at North Hall School. Before the trial, the canteen sold about 420 single-use water bottles each week. During the final week, sales fell to 250 bottles, while the two refill stations recorded 610 uses. The environmental club had expected bottle sales to fall below 200, so the result did not meet its original target. A short survey suggested one reason: the station near the gym often had a queue after sports practice. The school will keep both stations for another month, add clearer signs, and move the gym station closer to the main corridor. It will review bottle sales again before deciding whether to install a third station.\n\n---\n\nHow does the report develop its information?",
+      "figures": [],
+      "choices": [
+        {
+          "md": "It compares results with a target, identifies a problem, and describes a follow-up plan.",
+          "is_answer": true
+        },
+        {
+          "md": "It begins with the final decision and hides the evidence.",
+          "is_answer": false
+        },
+        {
+          "md": "It gives detailed construction instructions for two stations and then tests whether the reader remembers every step.",
+          "is_answer": false
+        },
+        {
+          "md": "It presents two schools with opposite policies.",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "แบ่งบทเป็นช่วงตามหน้าที่",
+          "why_md": "เช่น ปัญหา หลักฐาน การแก้ หรือขั้นตอน"
+        },
+        {
+          "do_md": "ตามคำเชื่อมและลำดับข้อมูล",
+          "why_md": "เลือกโครงสร้างที่อธิบายครบทั้งบท"
+        }
+      ],
+      "answer_explanation_md": "ตอบ It compares results with a target, identifies a problem, and describes a follow-up plan. เพราะโครงสร้างเริ่มผลเชิงตัวเลข เทียบเป้าหมาย อธิบายคิว และจบด้วยแผนทดสอบต่อ",
+      "hints": [
+        "สรุปหน้าที่แต่ละช่วงด้วยคำสั้น ๆ",
+        "มองหาการเปลี่ยนจากปัญหาไปผลหรือแผน",
+        "ตัวเลือกต้องอธิบายทั้งต้นและท้าย"
+      ],
+      "distractor_reasons": {
+        "1": "ยังไม่มีการตัดสินใจขั้นสุดท้ายและแสดงตัวเลขชัด",
+        "2": "ไม่มีคำสั่งหรือแบบทดสอบ",
+        "3": "กล่าวถึงโรงเรียนเดียว"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.reading.comprehension.text_organization.0011",
+      "topic_ids": [
+        "tgat1.reading.comprehension.text_organization"
+      ],
+      "primary_topic_id": "tgat1.reading.comprehension.text_organization",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 2,
+      "difficulty_signals": {
+        "steps_count": 2,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "low"
+      },
+      "est_seconds": 75,
+      "stem_md": "**A Safer Trail Map**\n\nTo: Student Activity Leaders\nSubject: Updated forest trail map\n\nDuring last month's practice walk, several groups missed the turn beside the old storage shed. The painted arrow was partly covered by vines, and the printed map showed the shed on the wrong side of the path. We have now corrected the map and added a photo of the turn. Before Friday, please download the new version and delete any earlier copies from your group folder. On the walk, each group should carry one printed map even if members also use a phone. The phone signal is weak beyond the first bridge, so an online map may not load there. We will clear the vines before the next walk, but leaders should still point out the turn when their group reaches the shed.\n\n---\n\nHow is the email organized?",
+      "figures": [],
+      "choices": [
+        {
+          "md": "It compares phone brands before recommending one.",
+          "is_answer": false
+        },
+        {
+          "md": "It describes a past navigation problem, gives corrections, and adds instructions for the next walk.",
+          "is_answer": true
+        },
+        {
+          "md": "It tells a fictional adventure and ends with a surprise.",
+          "is_answer": false
+        },
+        {
+          "md": "It lists forest animals from the most common species to the rarest species seen beyond the bridge.",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "แบ่งบทเป็นช่วงตามหน้าที่",
+          "why_md": "เช่น ปัญหา หลักฐาน การแก้ หรือขั้นตอน"
+        },
+        {
+          "do_md": "ตามคำเชื่อมและลำดับข้อมูล",
+          "why_md": "เลือกโครงสร้างที่อธิบายครบทั้งบท"
+        }
+      ],
+      "answer_explanation_md": "ตอบ It describes a past navigation problem, gives corrections, and adds instructions for the next walk. เพราะเริ่มจากเหตุการณ์เดือนก่อน ต่อด้วยสิ่งที่แก้แล้ว และจบด้วยสิ่งที่ผู้นำต้องทำ",
+      "hints": [
+        "สรุปหน้าที่แต่ละช่วงด้วยคำสั้น ๆ",
+        "มองหาการเปลี่ยนจากปัญหาไปผลหรือแผน",
+        "ตัวเลือกต้องอธิบายทั้งต้นและท้าย"
+      ],
+      "distractor_reasons": {
+        "0": "กล่าวถึงข้อจำกัดของสัญญาณ ไม่ใช่ยี่ห้อ",
+        "2": "เป็นอีเมลปฏิบัติงานตรงไปตรงมา",
+        "3": "ไม่มีข้อมูลสัตว์"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.reading.comprehension.text_organization.0012",
+      "topic_ids": [
+        "tgat1.reading.comprehension.text_organization"
+      ],
+      "primary_topic_id": "tgat1.reading.comprehension.text_organization",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 75,
+      "stem_md": "**Trying the Quiet Carriage**\n\nI tried the new quiet carriage on the town's electric bus during my trip home. The sign at the door asks passengers to silence phones and keep conversations brief, but it does not ban all sound. At first, the carriage was calm enough for me to finish two chapters of a book. Halfway through the trip, however, a recorded stop announcement became unusually loud. The driver later explained that the volume had been raised temporarily because the rear speaker was not working. I still found the service useful, especially for reading, although calling it “quiet” may create expectations that the operator cannot always meet. A better name might be “low-conversation carriage,” along with a notice that safety announcements will remain audible.\n\n---\n\nHow is the review mainly organized?",
+      "figures": [],
+      "choices": [
+        {
+          "md": "It compares fares on three bus routes.",
+          "is_answer": false
+        },
+        {
+          "md": "It gives a technical history of electric buses and explains how rear speakers developed over several decades.",
+          "is_answer": false
+        },
+        {
+          "md": "It describes the experience in time order and then gives a balanced judgment.",
+          "is_answer": true
+        },
+        {
+          "md": "It lists rules without describing a journey.",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "แบ่งบทเป็นช่วงตามหน้าที่",
+          "why_md": "เช่น ปัญหา หลักฐาน การแก้ หรือขั้นตอน"
+        },
+        {
+          "do_md": "ตามคำเชื่อมและลำดับข้อมูล",
+          "why_md": "เลือกโครงสร้างที่อธิบายครบทั้งบท"
+        }
+      ],
+      "answer_explanation_md": "ตอบ It describes the experience in time order and then gives a balanced judgment. เพราะผู้เขียนเล่าตั้งแต่ขึ้นรถจนเกิดประกาศ แล้วสรุปข้อดีและข้อเสนอ",
+      "hints": [
+        "สรุปหน้าที่แต่ละช่วงด้วยคำสั้น ๆ",
+        "มองหาการเปลี่ยนจากปัญหาไปผลหรือแผน",
+        "ตัวเลือกต้องอธิบายทั้งต้นและท้าย"
+      ],
+      "distractor_reasons": {
+        "0": "ไม่มีราคาและไม่มีสามเส้นทาง",
+        "1": "ไม่มีประวัติเทคโนโลยี",
+        "3": "มีประสบการณ์ตั้งแต่ต้นถึงกลางทาง"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.reading.comprehension.text_organization.0013",
+      "topic_ids": [
+        "tgat1.reading.comprehension.text_organization"
+      ],
+      "primary_topic_id": "tgat1.reading.comprehension.text_organization",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 75,
+      "stem_md": "**How to Use the Seed Exchange**\n\nThe seed exchange cabinet lets students share seeds from vegetables, herbs, and flowers. To contribute, place dry seeds in a paper envelope and write the plant name, the month collected, and basic growing conditions on the front. Do not use a sealed plastic bag, because moisture trapped inside can cause mold. Put the envelope in the “New Seeds” tray rather than directly in a drawer. A garden club member checks new envelopes every Wednesday and then files them by plant type. To take seeds, choose one envelope and record its code in the notebook beside the cabinet. You may take only part of the contents; leave enough for another person and close the envelope. Seeds with no label or signs of mold will be removed.\n\n---\n\nHow is the guide organized?",
+      "figures": [],
+      "choices": [
+        {
+          "md": "It moves from the oldest plant to the newest plant and explains the complete growing history of each species.",
+          "is_answer": false
+        },
+        {
+          "md": "It presents a problem but offers no action.",
+          "is_answer": false
+        },
+        {
+          "md": "It compares paper and plastic factories.",
+          "is_answer": false
+        },
+        {
+          "md": "It explains how to give seeds, how they are checked, and how to take them.",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "แบ่งบทเป็นช่วงตามหน้าที่",
+          "why_md": "เช่น ปัญหา หลักฐาน การแก้ หรือขั้นตอน"
+        },
+        {
+          "do_md": "ตามคำเชื่อมและลำดับข้อมูล",
+          "why_md": "เลือกโครงสร้างที่อธิบายครบทั้งบท"
+        }
+      ],
+      "answer_explanation_md": "ตอบ It explains how to give seeds, how they are checked, and how to take them. เพราะลำดับข้อมูลตามกระบวนการใช้งานจริงตั้งแต่ฝาก ตรวจ และรับเมล็ด",
+      "hints": [
+        "สรุปหน้าที่แต่ละช่วงด้วยคำสั้น ๆ",
+        "มองหาการเปลี่ยนจากปัญหาไปผลหรือแผน",
+        "ตัวเลือกต้องอธิบายทั้งต้นและท้าย"
+      ],
+      "distractor_reasons": {
+        "0": "ไม่มีประวัติพืช",
+        "1": "มีขั้นตอนปฏิบัติหลายข้อ",
+        "2": "กล่าวถึงวัสดุเพียงเพื่อควบคุมความชื้น"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.reading.comprehension.text_organization.0014",
+      "topic_ids": [
+        "tgat1.reading.comprehension.text_organization"
+      ],
+      "primary_topic_id": "tgat1.reading.comprehension.text_organization",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 75,
+      "stem_md": "**Why the Afternoon Bus Runs Late**\n\nThe student council reviewed thirty days of arrival records for the afternoon activity bus. The bus reached the final stop more than ten minutes late on twelve days. At first, students blamed heavy traffic near the market. The records showed a different pattern: on nine of those twelve days, departure from school had already been delayed because clubs submitted passenger lists after the 4 p.m. deadline. Traffic added time on some days, but it was not the main repeated cause. Starting next week, club leaders must submit names by 3:45 p.m., and the driver will receive one combined list at 4 p.m. The council will compare the next thirty days with the earlier records before deciding whether the new deadline works.\n\n---\n\nHow is the report organized?",
+      "figures": [],
+      "choices": [
+        {
+          "md": "It states the delay pattern, tests a common explanation, and proposes a measured change.",
+          "is_answer": true
+        },
+        {
+          "md": "It lists bus models from cheapest to most expensive.",
+          "is_answer": false
+        },
+        {
+          "md": "It tells one student's journey as a personal story.",
+          "is_answer": false
+        },
+        {
+          "md": "It gives directions from the school to the market.",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "แบ่งบทเป็นช่วงตามหน้าที่",
+          "why_md": "เช่น ปัญหา หลักฐาน การแก้ หรือขั้นตอน"
+        },
+        {
+          "do_md": "ตามคำเชื่อมและลำดับข้อมูล",
+          "why_md": "เลือกโครงสร้างที่อธิบายครบทั้งบท"
+        }
+      ],
+      "answer_explanation_md": "ตอบ It states the delay pattern, tests a common explanation, and proposes a measured change. เพราะข้อความเริ่มด้วยข้อมูลปัญหา หักล้างสาเหตุที่คาด แล้วเสนอเส้นตายพร้อมการวัดซ้ำ",
+      "hints": [
+        "สรุปหน้าที่แต่ละช่วงด้วยคำสั้น ๆ",
+        "มองหาการเปลี่ยนจากปัญหาไปผลหรือแผน",
+        "ตัวเลือกต้องอธิบายทั้งต้นและท้าย"
+      ],
+      "distractor_reasons": {
+        "1": "ไม่มีรุ่นหรือราคา",
+        "2": "ใช้ข้อมูลสามสิบวัน ไม่ใช่เรื่องบุคคล",
+        "3": "ไม่มีเส้นทางเลี้ยว"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.reading.comprehension.text_organization.0015",
+      "topic_ids": [
+        "tgat1.reading.comprehension.text_organization"
+      ],
+      "primary_topic_id": "tgat1.reading.comprehension.text_organization",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 3,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": false,
+        "reading_load": "medium"
+      },
+      "est_seconds": 75,
+      "stem_md": "**Rooftop Garden Watering Notice**\n\nThe rooftop garden team measured the soil at 4 p.m. for four days.\n\n| Day | Soil reading | Rain since noon | Action |\n|---|---:|---:|---|\n| Monday | 28% | 0 mm | Watered |\n| Tuesday | 46% | 7 mm | Not watered |\n| Wednesday | 31% | 0 mm | Watered |\n| Thursday | 43% | 2 mm | Not watered |\n\nFor this trial, the team waters only when the reading is below 35%. Rainfall is recorded to help explain the reading, but rain alone does not decide the action. Next week, the team will move one sensor away from the wall because water dripping from the roof may make that spot wetter than the rest of the bed. Until then, volunteers should follow the soil reading shown on the shared display rather than judge by touching the top layer.\n\n---\n\nHow is the notice organized?",
+      "figures": [],
+      "choices": [
+        {
+          "md": "It tells the history of rooftop farming by year.",
+          "is_answer": false
+        },
+        {
+          "md": "It gives a recipe followed by customer reviews.",
+          "is_answer": false
+        },
+        {
+          "md": "It compares two schools' gardens.",
+          "is_answer": false
+        },
+        {
+          "md": "It presents observations in a table, explains the decision rule, and notes a possible measurement problem.",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "แบ่งบทเป็นช่วงตามหน้าที่",
+          "why_md": "เช่น ปัญหา หลักฐาน การแก้ หรือขั้นตอน"
+        },
+        {
+          "do_md": "ตามคำเชื่อมและลำดับข้อมูล",
+          "why_md": "เลือกโครงสร้างที่อธิบายครบทั้งบท"
+        }
+      ],
+      "answer_explanation_md": "ตอบ It presents observations in a table, explains the decision rule, and notes a possible measurement problem. เพราะตารางมาก่อน จากนั้นอธิบายเกณฑ์ และจบด้วยข้อจำกัดของตำแหน่งเซนเซอร์",
+      "hints": [
+        "สรุปหน้าที่แต่ละช่วงด้วยคำสั้น ๆ",
+        "มองหาการเปลี่ยนจากปัญหาไปผลหรือแผน",
+        "ตัวเลือกต้องอธิบายทั้งต้นและท้าย"
+      ],
+      "distractor_reasons": {
+        "0": "ข้อมูลมีเพียงสี่วันทดลอง",
+        "1": "ไม่มีอาหารหรือรีวิว",
+        "2": "กล่าวถึงสวนเดียว"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.reading.comprehension.text_organization.0016",
+      "topic_ids": [
+        "tgat1.reading.comprehension.text_organization"
+      ],
+      "primary_topic_id": "tgat1.reading.comprehension.text_organization",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 4,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "high"
+      },
+      "est_seconds": 90,
+      "stem_md": "**A Second Life for Stage Costumes**\n\nSchool plays often require costumes that are worn only once. This term, the drama club opened a shared costume closet to give those clothes a second life. Before an item enters the closet, two students check that it is clean, label its size, and photograph any existing damage. Borrowers reserve items in a notebook and return them within three school days after a performance. In the first six weeks, forty-two items were borrowed, and only one came back late. The closet has saved money, but its less obvious benefit is creative: students have begun adapting old pieces instead of copying costumes they see online. The club plans to add a small repair table, although it will not accept items that cannot be washed safely.\n\n---\n\nHow does the article develop its main idea?",
+      "figures": [],
+      "choices": [
+        {
+          "md": "It gives cleaning instructions without describing the closet.",
+          "is_answer": false
+        },
+        {
+          "md": "It lists plays in order of ticket sales.",
+          "is_answer": false
+        },
+        {
+          "md": "It argues against reuse and then withdraws the claim.",
+          "is_answer": false
+        },
+        {
+          "md": "It introduces a waste problem, explains the sharing process, and reports early results.",
+          "is_answer": true
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "แบ่งบทเป็นช่วงตามหน้าที่",
+          "why_md": "เช่น ปัญหา หลักฐาน การแก้ หรือขั้นตอน"
+        },
+        {
+          "do_md": "ตามคำเชื่อมและลำดับข้อมูล",
+          "why_md": "เลือกโครงสร้างที่อธิบายครบทั้งบท"
+        }
+      ],
+      "answer_explanation_md": "ตอบ It introduces a waste problem, explains the sharing process, and reports early results. เพราะเริ่มจากชุดใช้ครั้งเดียว ต่อด้วยระบบตรวจและยืม แล้วสรุปผลหกสัปดาห์",
+      "hints": [
+        "สรุปหน้าที่แต่ละช่วงด้วยคำสั้น ๆ",
+        "มองหาการเปลี่ยนจากปัญหาไปผลหรือแผน",
+        "ตัวเลือกต้องอธิบายทั้งต้นและท้าย"
+      ],
+      "distractor_reasons": {
+        "0": "กระบวนการตู้เป็นแกนหลัก",
+        "1": "ไม่มีชื่อการแสดงหรือยอดบัตร",
+        "2": "สนับสนุนการใช้ซ้ำตลอด"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.reading.comprehension.text_organization.0017",
+      "topic_ids": [
+        "tgat1.reading.comprehension.text_organization"
+      ],
+      "primary_topic_id": "tgat1.reading.comprehension.text_organization",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 4,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": false,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "high"
+      },
+      "est_seconds": 90,
+      "stem_md": "**Museum Audio Tour Update**\n\nThe town museum has revised its self-guided audio tour after visitors reported that the old version moved too quickly. The new tour contains twelve short tracks instead of one continuous recording. Each track begins beside a numbered blue label, so visitors can pause, skip an object, or change the order. Four tracks include optional descriptions of colors and shapes for visitors who cannot see the displays clearly. Printed transcripts are available at the front desk, but they follow the standard order and do not include the optional descriptions. The museum recommends headphones, although a small number can be borrowed with an identification card. The tour is free with admission and takes about thirty-five minutes if every track is played.\n\n---\n\nHow is the announcement mainly organized?",
+      "figures": [],
+      "choices": [
+        {
+          "md": "It compares ticket prices at several museums.",
+          "is_answer": false
+        },
+        {
+          "md": "It gives the reason for a revision, lists new features, and ends with practical details.",
+          "is_answer": true
+        },
+        {
+          "md": "It presents a mystery and reveals the answer at the end.",
+          "is_answer": false
+        },
+        {
+          "md": "It tells the life story of an artist.",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "แบ่งบทเป็นช่วงตามหน้าที่",
+          "why_md": "เช่น ปัญหา หลักฐาน การแก้ หรือขั้นตอน"
+        },
+        {
+          "do_md": "ตามคำเชื่อมและลำดับข้อมูล",
+          "why_md": "เลือกโครงสร้างที่อธิบายครบทั้งบท"
+        }
+      ],
+      "answer_explanation_md": "ตอบ It gives the reason for a revision, lists new features, and ends with practical details. เพราะเริ่มจากข้อร้องเรียนต่อฉบับเก่า ต่อด้วยคุณสมบัติใหม่ และจบด้วยหูฟัง ราคา และเวลา",
+      "hints": [
+        "สรุปหน้าที่แต่ละช่วงด้วยคำสั้น ๆ",
+        "มองหาการเปลี่ยนจากปัญหาไปผลหรือแผน",
+        "ตัวเลือกต้องอธิบายทั้งต้นและท้าย"
+      ],
+      "distractor_reasons": {
+        "0": "มีพิพิธภัณฑ์เดียวและไม่เปรียบเทียบราคา",
+        "2": "เป็นประกาศข้อมูลตรงไปตรงมา",
+        "3": "ไม่มีศิลปิน"
+      },
+      "misconception_tags": [],
+      "template": null,
+      "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
+      "calculator_allowed": false,
+      "review_status": "ai_draft"
+    },
+    {
+      "id": "prob.tgat1.reading.comprehension.text_organization.0018",
+      "topic_ids": [
+        "tgat1.reading.comprehension.text_organization"
+      ],
+      "primary_topic_id": "tgat1.reading.comprehension.text_organization",
+      "exam_code": "TGAT1",
+      "origin": "original",
+      "style_ref": {
+        "year": null,
+        "item_no": null,
+        "note": "แนวข้อสอบ TGAT1 การสื่อสารภาษาอังกฤษ แต่งใหม่ ไม่ใช่ข้อสอบจริง"
+      },
+      "format": "mcq4",
+      "difficulty": 5,
+      "difficulty_signals": {
+        "steps_count": 3,
+        "topics_count": 1,
+        "needs_insight": true,
+        "heavy_computation": false,
+        "trap_present": true,
+        "reading_load": "low"
+      },
+      "est_seconds": 90,
+      "stem_md": "**Students Monitor the Creek**\n\nA science class has begun monitoring the creek behind the sports field after students noticed that the water sometimes turned cloudy following rain. Every Monday morning, teams measure temperature and clarity at three marked points. They also photograph the banks, but they do not enter the water or collect animals. After five weeks, the class found that clarity usually dropped at the point below a bare patch of soil, while the two upstream points changed less. This pattern does not prove that the soil caused the cloudy water, so the students will place straw on half of the bare patch and compare the next five weeks of readings. If clarity improves only below the covered half, they will have stronger evidence before proposing a permanent solution.\n\n---\n\nHow is the passage organized?",
+      "figures": [],
+      "choices": [
+        {
+          "md": "It introduces an observation, reports a pattern, and describes a controlled follow-up test.",
+          "is_answer": true
+        },
+        {
+          "md": "It gives safety rules without any findings.",
+          "is_answer": false
+        },
+        {
+          "md": "It presents a final solution before describing the problem.",
+          "is_answer": false
+        },
+        {
+          "md": "It compares three unrelated school subjects.",
+          "is_answer": false
+        }
+      ],
+      "answer_numeric": null,
+      "solution_steps": [
+        {
+          "do_md": "แบ่งบทเป็นช่วงตามหน้าที่",
+          "why_md": "เช่น ปัญหา หลักฐาน การแก้ หรือขั้นตอน"
+        },
+        {
+          "do_md": "ตามคำเชื่อมและลำดับข้อมูล",
+          "why_md": "เลือกโครงสร้างที่อธิบายครบทั้งบท"
+        }
+      ],
+      "answer_explanation_md": "ตอบ It introduces an observation, reports a pattern, and describes a controlled follow-up test. เพราะลำดับจากน้ำขุ่น วิธีวัด รูปแบบที่พบ ข้อจำกัดของข้อสรุป และการทดลองครึ่งพื้นที่",
+      "hints": [
+        "สรุปหน้าที่แต่ละช่วงด้วยคำสั้น ๆ",
+        "มองหาการเปลี่ยนจากปัญหาไปผลหรือแผน",
+        "ตัวเลือกต้องอธิบายทั้งต้นและท้าย"
+      ],
+      "distractor_reasons": {
+        "1": "มีผลความใสห้าสัปดาห์",
+        "2": "ยังไม่มีทางแก้ถาวร",
+        "3": "ทุกส่วนอยู่ในโครงการลำธารเดียว"
+      },
+      "misconception_tags": [],
       "template": null,
       "template_note": "โจทย์เชิงภาษา/สถานการณ์/ตรรกะ คำตอบขึ้นกับความหมาย สุ่มด้วยนิพจน์คำนวณไม่ได้ จึงแต่งเป็นข้อ ๆ",
       "calculator_allowed": false,

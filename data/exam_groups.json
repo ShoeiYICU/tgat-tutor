@@ -203,6 +203,146 @@
         "prob.tgat2.reasoning.statement_analysis.matching.0004"
       ],
       "leaks": "ข้อหลังเพิ่มเงื่อนไขจากฐานเดิม คำตอบหนึ่งช่วยเติมตารางของอีกข้อ"
+    },
+    {
+      "id": "tgat1.repair_cafe",
+      "kind": "passage",
+      "note": "ประกาศกิจกรรม Saturday Repair Café",
+      "ids": [
+        "prob.tgat1.reading.comprehension.main_idea.0009",
+        "prob.tgat1.reading.comprehension.specific_detail.0009",
+        "prob.tgat1.reading.comprehension.inference.0009",
+        "prob.tgat1.reading.comprehension.purpose_tone.0009",
+        "prob.tgat1.reading.comprehension.vocabulary_in_passage.0009",
+        "prob.tgat1.reading.comprehension.text_organization.0009"
+      ],
+      "leaks": "ใช้ประกาศเดียวกัน คำตอบและตัวเลือกจากข้อหนึ่งอาจเผยเงื่อนไขของอีกข้อ"
+    },
+    {
+      "id": "tgat1.refill_trial",
+      "kind": "passage",
+      "note": "ข่าวโรงเรียนผลทดลองจุดเติมน้ำ",
+      "ids": [
+        "prob.tgat1.reading.comprehension.main_idea.0010",
+        "prob.tgat1.reading.comprehension.specific_detail.0010",
+        "prob.tgat1.reading.comprehension.inference.0010",
+        "prob.tgat1.reading.comprehension.purpose_tone.0010",
+        "prob.tgat1.reading.comprehension.vocabulary_in_passage.0010",
+        "prob.tgat1.reading.comprehension.text_organization.0010"
+      ],
+      "leaks": "ใช้รายงานและตัวเลขชุดเดียวกัน ต้องไม่สุ่มร่วมกันในชุดสอบ"
+    },
+    {
+      "id": "tgat1.trail_email",
+      "kind": "passage",
+      "note": "อีเมลแจ้งแก้แผนที่เส้นทางเดินป่า",
+      "ids": [
+        "prob.tgat1.reading.comprehension.main_idea.0011",
+        "prob.tgat1.reading.comprehension.specific_detail.0011",
+        "prob.tgat1.reading.comprehension.inference.0011",
+        "prob.tgat1.reading.comprehension.purpose_tone.0011",
+        "prob.tgat1.reading.comprehension.vocabulary_in_passage.0011",
+        "prob.tgat1.reading.comprehension.text_organization.0011"
+      ],
+      "leaks": "ใช้อีเมลฉบับเดียวกันและอ้างเหตุผลเรื่องสัญญาณกับแผนที่ร่วมกัน"
+    },
+    {
+      "id": "tgat1.quiet_carriage",
+      "kind": "passage",
+      "note": "รีวิวบริการตู้โดยสารลดการสนทนา",
+      "ids": [
+        "prob.tgat1.reading.comprehension.main_idea.0012",
+        "prob.tgat1.reading.comprehension.specific_detail.0012",
+        "prob.tgat1.reading.comprehension.inference.0012",
+        "prob.tgat1.reading.comprehension.purpose_tone.0012",
+        "prob.tgat1.reading.comprehension.vocabulary_in_passage.0012",
+        "prob.tgat1.reading.comprehension.text_organization.0012"
+      ],
+      "leaks": "ข้อประเมินภาพรวม รายละเอียด และข้อเสนอใช้รีวิวการเดินทางเดียวกัน"
+    },
+    {
+      "id": "tgat1.seed_exchange",
+      "kind": "passage",
+      "note": "คำแนะนำการใช้ตู้แลกเปลี่ยนเมล็ด",
+      "ids": [
+        "prob.tgat1.reading.comprehension.main_idea.0013",
+        "prob.tgat1.reading.comprehension.specific_detail.0013",
+        "prob.tgat1.reading.comprehension.inference.0013",
+        "prob.tgat1.reading.comprehension.purpose_tone.0013",
+        "prob.tgat1.reading.comprehension.vocabulary_in_passage.0013",
+        "prob.tgat1.reading.comprehension.text_organization.0013"
+      ],
+      "leaks": "ใช้ขั้นตอนฝาก ตรวจ และรับเมล็ดชุดเดียวกัน"
+    },
+    {
+      "id": "tgat1.late_bus",
+      "kind": "passage",
+      "note": "รายงานสาเหตุรถกิจกรรมช่วงบ่ายล่าช้า",
+      "ids": [
+        "prob.tgat1.reading.comprehension.main_idea.0014",
+        "prob.tgat1.reading.comprehension.specific_detail.0014",
+        "prob.tgat1.reading.comprehension.inference.0014",
+        "prob.tgat1.reading.comprehension.purpose_tone.0014",
+        "prob.tgat1.reading.comprehension.vocabulary_in_passage.0014",
+        "prob.tgat1.reading.comprehension.text_organization.0014"
+      ],
+      "leaks": "ใช้ข้อมูล 30 วันและมาตรการกำหนดเส้นตายเดียวกัน"
+    },
+    {
+      "id": "tgat1.weather_table",
+      "kind": "passage",
+      "note": "ตารางข้อมูลและประกาศการรดน้ำสวนดาดฟ้า",
+      "ids": [
+        "prob.tgat1.reading.comprehension.main_idea.0015",
+        "prob.tgat1.reading.comprehension.specific_detail.0015",
+        "prob.tgat1.reading.comprehension.inference.0015",
+        "prob.tgat1.reading.comprehension.purpose_tone.0015",
+        "prob.tgat1.reading.comprehension.vocabulary_in_passage.0015",
+        "prob.tgat1.reading.comprehension.text_organization.0015"
+      ],
+      "leaks": "ใช้ตารางสี่วัน เกณฑ์ 35% และข้อจำกัดเซนเซอร์ร่วมกัน"
+    },
+    {
+      "id": "tgat1.costume_closet",
+      "kind": "passage",
+      "note": "บทความตู้แบ่งปันชุดการแสดง",
+      "ids": [
+        "prob.tgat1.reading.comprehension.main_idea.0016",
+        "prob.tgat1.reading.comprehension.specific_detail.0016",
+        "prob.tgat1.reading.comprehension.inference.0016",
+        "prob.tgat1.reading.comprehension.purpose_tone.0016",
+        "prob.tgat1.reading.comprehension.vocabulary_in_passage.0016",
+        "prob.tgat1.reading.comprehension.text_organization.0016"
+      ],
+      "leaks": "ใช้ระบบตรวจสภาพ ยืมคืน และผลหกสัปดาห์เดียวกัน"
+    },
+    {
+      "id": "tgat1.audio_tour",
+      "kind": "passage",
+      "note": "ประกาศปรับปรุง audio tour ของพิพิธภัณฑ์",
+      "ids": [
+        "prob.tgat1.reading.comprehension.main_idea.0017",
+        "prob.tgat1.reading.comprehension.specific_detail.0017",
+        "prob.tgat1.reading.comprehension.inference.0017",
+        "prob.tgat1.reading.comprehension.purpose_tone.0017",
+        "prob.tgat1.reading.comprehension.vocabulary_in_passage.0017",
+        "prob.tgat1.reading.comprehension.text_organization.0017"
+      ],
+      "leaks": "ใช้คุณสมบัติ 12 tracks คำบรรยายเสริม และรายละเอียดการใช้งานชุดเดียวกัน"
+    },
+    {
+      "id": "tgat1.creek_sensor",
+      "kind": "passage",
+      "note": "ข่าวโรงเรียนโครงการติดตามความใสของลำธาร",
+      "ids": [
+        "prob.tgat1.reading.comprehension.main_idea.0018",
+        "prob.tgat1.reading.comprehension.specific_detail.0018",
+        "prob.tgat1.reading.comprehension.inference.0018",
+        "prob.tgat1.reading.comprehension.purpose_tone.0018",
+        "prob.tgat1.reading.comprehension.vocabulary_in_passage.0018",
+        "prob.tgat1.reading.comprehension.text_organization.0018"
+      ],
+      "leaks": "ใช้ผลห้าสัปดาห์และการทดลองคลุมดินครึ่งพื้นที่เดียวกัน"
     }
   ]
 }

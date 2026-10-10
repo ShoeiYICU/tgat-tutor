@@ -85,6 +85,201 @@ P_APP = ("Dear Mr. Hansen,\n\n"
          "Yours sincerely,\nPimchanok S.")
 
 
+# บทอ่านใหม่รอบ 23: แต่ละเรื่องใช้คำถามหกทักษะ โดยเก็บข้อความไว้จุดเดียว
+# เพื่อป้องกันชื่อ ตัวเลข และลำดับเวลาไม่ตรงกันระหว่างหัวข้อ
+NEW_READING = [
+    {
+        "key": "repair_cafe", "title": "Saturday Repair Café", "kind": "ประกาศ",
+        "text": ("The school library will host a repair café on Saturday from 9 a.m. to noon. Students may bring one broken household item, such as a lamp, fan, or small radio. Volunteer technicians will first check whether the item is safe to open. They will then show its owner how to identify the fault and, when possible, replace a simple part. The service is free, but owners must pay the exact cost of any new part they choose to use. Items with swollen batteries, leaking liquid, or damaged gas containers will not be accepted. The event is meant to teach repair skills and reduce waste, not to provide a guaranteed repair service. Places are limited to thirty items, so visitors should collect a numbered card at the library entrance."),
+        "main": ("What is the announcement mainly about?", "A supervised event that teaches people to repair suitable items",
+                 [("A free shop where technicians replace every broken appliance and guarantee that each item works again", "บางชิ้นอาจซ่อมไม่ได้และผู้เข้าร่วมจ่ายค่าอะไหล่"), ("A lesson on building radios from new parts", "รับของใช้หลายชนิดและเน้นซ่อมของเดิม"), ("A collection point for dangerous batteries", "ของแบตเตอรี่บวมไม่รับเข้างาน")], "ครอบคลุมทั้งรูปแบบการสอนซ่อม เงื่อนไขความปลอดภัย และเป้าหมายลดขยะ"),
+        "detail": ("What must owners pay for?", "Any replacement part they decide to use",
+                   [("The technicians' working time", "ประกาศระบุว่าบริการฟรี"), ("A numbered entrance card", "บัตรใช้จัดคิว ไม่ได้ระบุว่าขาย"), ("A safety inspection of the item", "การตรวจความปลอดภัยเป็นส่วนแรกของบริการฟรี")], "ประกาศระบุให้จ่ายเฉพาะราคาอะไหล่ใหม่ที่เจ้าของเลือกใช้"),
+        "infer": ("Why are numbered cards used?", "To keep the limited number of items organized",
+                  [("To record the final cost before owners decide whether to use replacement parts", "ค่าใช้จ่ายมีเฉพาะอะไหล่และบัตรไม่ได้ใช้บันทึกราคา"), ("To prove that an item is safe", "ช่างเป็นผู้ตรวจความปลอดภัยภายหลัง"), ("To reserve a particular technician", "ไม่ได้ระบุการเลือกช่าง")], "งานรับได้เพียงสามสิบชิ้นและให้รับบัตรที่ทางเข้า จึงรองรับข้อสรุปเรื่องจัดจำนวนและลำดับ"),
+        "purpose": ("What is the main purpose of the announcement?", "To explain who can join and how the repair event will work",
+                    [("To promise that all items will be repaired", "ย้ำชัดว่าไม่รับประกันการซ่อม"), ("To advertise a new electronics store", "เป็นกิจกรรมของห้องสมุด ไม่ใช่ร้านค้า"), ("To warn students never to use batteries", "ห้ามเฉพาะแบตเตอรี่บวมในงาน")], "ข้อความให้เวลา สิ่งที่นำมาได้ ขั้นตอน ค่าใช้จ่าย และข้อจำกัดของกิจกรรม"),
+        "vocab": ("The word **host** in the first sentence is closest in meaning to...", "organize and provide a place for",
+                  [("invite as a private overnight guest", "บริบทเป็นกิจกรรมสาธารณะสามชั่วโมง"), ("speak during a radio program", "ไม่ได้กล่าวถึงรายการวิทยุ"), ("repair without assistance", "ผู้จัดสถานที่ไม่ใช่ความหมายของการซ่อม")], "ในบริบท library will host an event คำว่า host หมายถึงจัดและเป็นสถานที่ให้กิจกรรม"),
+        "organization": ("How is the announcement organized?", "It gives event details, explains the process, and ends with limits and entry instructions.",
+                         [("It compares two repair shops, their safety checks, their prices, and the services each one recommends.", "ไม่มีร้านสองแห่งให้เปรียบเทียบ"), ("It tells the history of a broken item in time order.", "ไม่ได้เล่าเรื่องของชิ้นใดชิ้นหนึ่ง"), ("It lists technical causes of battery failure.", "กล่าวถึงแบตเตอรี่เพียงเป็นข้อห้าม")], "ย่อหน้าเดินจากข้อมูลกิจกรรมไปขั้นตอน เงื่อนไขความปลอดภัย เป้าหมาย และวิธีรับคิว"),
+    },
+    {
+        "key": "refill_trial", "title": "Refill Station Trial", "kind": "ข่าวโรงเรียน",
+        "text": ("A four-week trial of water refill stations has ended at North Hall School. Before the trial, the canteen sold about 420 single-use water bottles each week. During the final week, sales fell to 250 bottles, while the two refill stations recorded 610 uses. The environmental club had expected bottle sales to fall below 200, so the result did not meet its original target. A short survey suggested one reason: the station near the gym often had a queue after sports practice. The school will keep both stations for another month, add clearer signs, and move the gym station closer to the main corridor. It will review bottle sales again before deciding whether to install a third station."),
+        "main": ("What is the main idea of the report?", "The refill trial reduced bottle sales but needs adjustment before expansion",
+                 [("The school has decided to ban bottled water immediately", "ยังขายขวดและกำลังทดลองต่อ"), ("The environmental club reached every target it set", "ยอดขายยังสูงกว่าเป้าหมายต่ำกว่า 200"), ("A third station has already been installed near the gym", "ยังไม่ได้ตัดสินใจติดตั้งสถานีที่สาม")], "สรุปทั้งผลที่ดีขึ้น ข้อจำกัดจากคิว และแผนปรับก่อนตัดสินใจ"),
+        "detail": ("How many single-use bottles were sold during the final week?", "About 250",
+                   [("About 170", "เป็นส่วนต่าง 420 ลบ 250 ไม่ใช่ยอดขาย"), ("About 420", "เป็นยอดก่อนเริ่มทดลอง"), ("About 610", "เป็นจำนวนการใช้จุดเติมน้ำ")], "ตัวเลข 250 ระบุเป็นยอดขายขวดในสัปดาห์สุดท้ายโดยตรง"),
+        "infer": ("What problem is the school trying to reduce by moving the gym station?", "Crowding at the station after sports practice",
+                  [("Complaints that the water tastes different after sports practice", "แบบสำรวจไม่ได้กล่าวถึงรสชาติ"), ("The price of bottled water", "ไม่มีการเปลี่ยนราคา"), ("The number of signs in the canteen", "ป้ายจะทำให้ชัดขึ้น แต่เหตุผลของการย้ายเชื่อมกับคิว")], "บทบอกว่าสถานีใกล้โรงยิมมีคิวหลังซ้อมกีฬา แล้วจึงเสนอให้ย้ายเข้าสู่ทางเดินหลัก"),
+        "purpose": ("Why was this report written?", "To summarize trial results and explain the next test",
+                    [("To celebrate that the target was fully achieved", "รายงานบอกว่าไม่ถึงเป้าหมายเดิม"), ("To teach students how to build a refill station", "ไม่มีขั้นตอนก่อสร้าง"), ("To persuade the canteen to stop selling all drinks", "กล่าวเฉพาะน้ำขวดและยังไม่สั่งหยุดขาย")], "รายงานให้ข้อมูลก่อนและหลัง อธิบายปัญหา และระบุการทดลองต่อหนึ่งเดือน"),
+        "vocab": ("The word **recorded** in “recorded 610 uses” is closest in meaning to...", "counted and stored as data",
+                  [("made an audio performance", "บริบทเป็นจำนวนการใช้งาน ไม่ใช่เสียง"), ("broke an earlier sports result", "ไม่มีการแข่งขัน"), ("wrote the number on each bottle", "ไม่ได้ติดตัวเลขบนขวด")], "สถานีบันทึกจำนวนครั้งที่ถูกใช้เป็นข้อมูลสำหรับประเมินผล"),
+        "organization": ("How does the report develop its information?", "It compares results with a target, identifies a problem, and describes a follow-up plan.",
+                         [("It gives detailed construction instructions for two stations and then tests whether the reader remembers every step.", "ไม่มีคำสั่งหรือแบบทดสอบ"), ("It presents two schools with opposite policies.", "กล่าวถึงโรงเรียนเดียว"), ("It begins with the final decision and hides the evidence.", "ยังไม่มีการตัดสินใจขั้นสุดท้ายและแสดงตัวเลขชัด")], "โครงสร้างเริ่มผลเชิงตัวเลข เทียบเป้าหมาย อธิบายคิว และจบด้วยแผนทดสอบต่อ"),
+    },
+    {
+        "key": "trail_email", "title": "A Safer Trail Map", "kind": "อีเมล",
+        "text": ("To: Student Activity Leaders\nSubject: Updated forest trail map\n\nDuring last month's practice walk, several groups missed the turn beside the old storage shed. The painted arrow was partly covered by vines, and the printed map showed the shed on the wrong side of the path. We have now corrected the map and added a photo of the turn. Before Friday, please download the new version and delete any earlier copies from your group folder. On the walk, each group should carry one printed map even if members also use a phone. The phone signal is weak beyond the first bridge, so an online map may not load there. We will clear the vines before the next walk, but leaders should still point out the turn when their group reaches the shed."),
+        "main": ("What is the email mainly about?", "Using a corrected map and extra precautions at a confusing turn",
+                 [("Replacing the forest walk with an indoor activity", "ยังมีการเดินครั้งถัดไป"), ("Teaching leaders to take better photographs", "ภาพใช้ช่วยระบุตำแหน่ง ไม่ใช่บทเรียนถ่ายภาพ"), ("Repairing the phone signal beyond the bridge", "ไม่ได้วางแผนซ่อมสัญญาณ")], "ใจความครอบคลุมสาเหตุที่หลง แผนที่ฉบับแก้ และมาตรการพกฉบับพิมพ์กับชี้ทาง"),
+        "detail": ("What should leaders delete before Friday?", "Earlier copies of the trail map",
+                   [("The photo of the turn", "ภาพอยู่ในฉบับใหม่เพื่อช่วยนำทาง"), ("Their group folders", "ให้ลบสำเนาเก่าออกจากโฟลเดอร์ ไม่ใช่ลบโฟลเดอร์"), ("The online map application", "ไม่ได้สั่งลบแอป")], "อีเมลสั่งให้ดาวน์โหลดฉบับใหม่และลบสำเนาเก่า"),
+        "infer": ("Why is a printed map required even when students have phones?", "It remains available where the signal is weak",
+                  [("Phones are forbidden in the forest", "ข้อความยอมให้ใช้โทรศัพท์"), ("The printed map includes a secret route", "ไม่มีเส้นทางลับ"), ("A paper map can clear vines from the sign", "การเคลียร์เถาวัลย์เป็นงานของผู้จัด")], "บทระบุว่าสัญญาณอ่อนหลังสะพานและแผนที่ออนไลน์อาจโหลดไม่ได้"),
+        "purpose": ("What is the writer's main purpose?", "To prevent groups from missing the same turn again",
+                    [("To blame one group for getting lost", "ระบุปัญหาของหลายกลุ่มและเสนอการแก้ ไม่ได้ตำหนิ"), ("To cancel the next walk because the trail is unsafe", "มีคำแนะนำสำหรับการเดินครั้งถัดไป"), ("To ask leaders to design a completely new route", "เส้นทางเดิมยังใช้ เพียงแก้แผนที่และป้าย")], "ทุกคำสั่งมุ่งแก้จุดเลี้ยวที่ทำให้หลายกลุ่มพลาดในการฝึกครั้งก่อน"),
+        "vocab": ("The word **copies** refers to...", "versions of the map kept in the folder",
+                  [("students who copy another group's work", "บริบทเป็นไฟล์ในโฟลเดอร์"), ("photocopiers used at school", "ไม่ได้กล่าวถึงเครื่องถ่ายเอกสาร"), ("notes copied from a phone signal", "สัญญาณไม่ใช่สิ่งที่ถูกคัดลอก")], "คำว่า earlier copies ตามหลังคำสั่งดาวน์โหลด new version จึงหมายถึงไฟล์หรือฉบับเก่าของแผนที่"),
+        "organization": ("How is the email organized?", "It describes a past navigation problem, gives corrections, and adds instructions for the next walk.",
+                         [("It lists forest animals from the most common species to the rarest species seen beyond the bridge.", "ไม่มีข้อมูลสัตว์"), ("It compares phone brands before recommending one.", "กล่าวถึงข้อจำกัดของสัญญาณ ไม่ใช่ยี่ห้อ"), ("It tells a fictional adventure and ends with a surprise.", "เป็นอีเมลปฏิบัติงานตรงไปตรงมา")], "เริ่มจากเหตุการณ์เดือนก่อน ต่อด้วยสิ่งที่แก้แล้ว และจบด้วยสิ่งที่ผู้นำต้องทำ"),
+    },
+    {
+        "key": "quiet_carriage", "title": "Trying the Quiet Carriage", "kind": "รีวิว",
+        "text": ("I tried the new quiet carriage on the town's electric bus during my trip home. The sign at the door asks passengers to silence phones and keep conversations brief, but it does not ban all sound. At first, the carriage was calm enough for me to finish two chapters of a book. Halfway through the trip, however, a recorded stop announcement became unusually loud. The driver later explained that the volume had been raised temporarily because the rear speaker was not working. I still found the service useful, especially for reading, although calling it “quiet” may create expectations that the operator cannot always meet. A better name might be “low-conversation carriage,” along with a notice that safety announcements will remain audible."),
+        "main": ("What is the reviewer's overall view?", "The carriage is useful, but its name may promise more quiet than it can deliver",
+                 [("The service should be removed because announcements are unsafe", "ผู้เขียนเห็นว่ามีประโยชน์และต้องคงประกาศความปลอดภัย"), ("The carriage was completely silent for the whole trip", "มีประกาศเสียงดังช่วงกลางทาง"), ("Passengers should be allowed to make long phone calls", "ป้ายขอให้ปิดเสียงและคุยสั้น")], "คำตอบรวมทั้งประสบการณ์เชิงบวกและข้อสงวนเรื่องชื่อบริการ"),
+        "detail": ("Why was the recorded announcement unusually loud?", "A rear speaker was not working",
+                   [("Passengers had ignored every stop announcement", "ไม่มีข้อมูลว่าผู้โดยสารไม่ฟัง"), ("The reviewer requested a louder message", "ผู้เขียนไม่ได้ร้องขอ"), ("The operator wanted to test the quiet rule", "คนขับอธิบายว่าเป็นการแก้ปัญหาลำโพง")], "คนขับระบุว่าเพิ่มเสียงชั่วคราวเพราะลำโพงด้านหลังเสีย"),
+        "infer": ("Which change would the reviewer most likely support?", "A clearer description of what kind of noise will still occur",
+                  [("Removing all safety announcements", "ผู้เขียนเสนอให้ประกาศยังได้ยิน"), ("Fining anyone who turns a page", "ผู้เขียนอ่านหนังสือและไม่ได้ต้องการความเงียบสมบูรณ์"), ("Allowing unrestricted conversations", "ขัดกับแนวคิด low-conversation")], "ข้อเสนอเปลี่ยนชื่อและติดแจ้งเตือนเรื่องประกาศแสดงว่าต้องการตั้งความคาดหวังให้ชัด"),
+        "purpose": ("Why did the writer write this review?", "To evaluate the service and suggest how to describe it more accurately",
+                    [("To report a dangerous bus crash", "ไม่มีอุบัติเหตุ"), ("To provide the complete bus timetable", "ไม่มีตารางเวลา"), ("To prove that electric buses make no sound", "บทพูดถึงกติกาการสนทนา ไม่ใช่เสียงเครื่องยนต์")], "ผู้เขียนเล่าประสบการณ์ ประเมินข้อดี และเสนอชื่อที่แม่นกว่า"),
+        "vocab": ("The word **brief** in “keep conversations brief” is closest in meaning to...", "short in length",
+                  [("written as an official summary", "เป็นบทสนทนาของผู้โดยสาร ไม่ใช่เอกสาร"), ("spoken in a rude manner", "ไม่ได้บอกให้พูดหยาบ"), ("secret from other passengers", "ไม่ได้เน้นความลับ")], "ในกติกาบนรถ brief ขยาย conversations และหมายถึงให้คุยสั้น"),
+        "organization": ("How is the review mainly organized?", "It describes the experience in time order and then gives a balanced judgment.",
+                         [("It gives a technical history of electric buses and explains how rear speakers developed over several decades.", "ไม่มีประวัติเทคโนโลยี"), ("It lists rules without describing a journey.", "มีประสบการณ์ตั้งแต่ต้นถึงกลางทาง"), ("It compares fares on three bus routes.", "ไม่มีราคาและไม่มีสามเส้นทาง")], "ผู้เขียนเล่าตั้งแต่ขึ้นรถจนเกิดประกาศ แล้วสรุปข้อดีและข้อเสนอ"),
+    },
+    {
+        "key": "seed_exchange", "title": "How to Use the Seed Exchange", "kind": "คำแนะนำการใช้งาน",
+        "text": ("The seed exchange cabinet lets students share seeds from vegetables, herbs, and flowers. To contribute, place dry seeds in a paper envelope and write the plant name, the month collected, and basic growing conditions on the front. Do not use a sealed plastic bag, because moisture trapped inside can cause mold. Put the envelope in the “New Seeds” tray rather than directly in a drawer. A garden club member checks new envelopes every Wednesday and then files them by plant type. To take seeds, choose one envelope and record its code in the notebook beside the cabinet. You may take only part of the contents; leave enough for another person and close the envelope. Seeds with no label or signs of mold will be removed."),
+        "main": ("What is the guide mainly about?", "How to contribute and take seeds safely and fairly",
+                 [("How to grow every kind of vegetable in the cabinet", "ให้ข้อมูลการใช้ตู้ ไม่ได้สอนปลูกทุกชนิด"), ("Why plastic bags are always better than paper", "บทห้ามถุงพลาสติกปิดสนิท"), ("How the garden club sells rare seeds", "เป็นการแบ่งปันและไม่มีการขาย")], "ครอบคลุมทั้งการเตรียมเมล็ด การตรวจ การบันทึก และการเหลือให้ผู้อื่น"),
+        "detail": ("When are new envelopes checked?", "Every Wednesday",
+                   [("Every morning", "ไม่มีข้อมูลตรวจทุกเช้า"), ("At the end of each month", "เดือนใช้เขียนวันที่เก็บ ไม่ใช่รอบตรวจ"), ("Only when every drawer is full", "ไม่ได้ผูกกับความเต็มของตู้")], "บทระบุว่าคนในชมรมตรวจถาด New Seeds ทุกวันพุธ"),
+        "infer": ("Why should contributors write the growing conditions on the envelope?", "So another student can judge where the seeds may grow well",
+                  [("So the club can charge different prices", "ไม่มีการขาย"), ("So moisture cannot enter the envelope", "การใช้ซองกระดาษและเมล็ดแห้งจัดการความชื้น"), ("So the seeds will grow inside the cabinet", "ตู้ใช้เก็บ ไม่ใช่ปลูก")], "ข้อมูลสภาพการปลูกติดไปกับเมล็ดเพื่อช่วยผู้รับนำไปใช้เหมาะสม"),
+        "purpose": ("What is the purpose of this text?", "To give rules for using a shared seed cabinet",
+                    [("To review the flavor of several herbs", "ไม่ได้ประเมินรสชาติ"), ("To announce a competition for the largest flower", "ไม่มีการแข่งขัน"), ("To argue that all seeds should be thrown away", "ตู้มีไว้แบ่งปันเมล็ดที่ใช้ได้")], "ข้อความใช้คำสั่งต่อเนื่องสำหรับผู้ให้และผู้รับเมล็ด"),
+        "vocab": ("The word **files** in “files them by plant type” is closest in meaning to...", "sorts and stores",
+                  [("submits a legal complaint", "บริบทเป็นการจัดซองในตู้"), ("uses a metal tool to smooth them", "ไม่ได้ขัดเมล็ดหรือซอง"), ("sends digital documents online", "เป็นซองกระดาษในตู้จริง")], "หลังตรวจซอง สมาชิกจัดเก็บแยกตามชนิดพืช จึงหมายถึง sorts and stores"),
+        "organization": ("How is the guide organized?", "It explains how to give seeds, how they are checked, and how to take them.",
+                         [("It moves from the oldest plant to the newest plant and explains the complete growing history of each species.", "ไม่มีประวัติพืช"), ("It compares paper and plastic factories.", "กล่าวถึงวัสดุเพียงเพื่อควบคุมความชื้น"), ("It presents a problem but offers no action.", "มีขั้นตอนปฏิบัติหลายข้อ")], "ลำดับข้อมูลตามกระบวนการใช้งานจริงตั้งแต่ฝาก ตรวจ และรับเมล็ด"),
+    },
+    {
+        "key": "late_bus", "title": "Why the Afternoon Bus Runs Late", "kind": "รายงานสั้น",
+        "text": ("The student council reviewed thirty days of arrival records for the afternoon activity bus. The bus reached the final stop more than ten minutes late on twelve days. At first, students blamed heavy traffic near the market. The records showed a different pattern: on nine of those twelve days, departure from school had already been delayed because clubs submitted passenger lists after the 4 p.m. deadline. Traffic added time on some days, but it was not the main repeated cause. Starting next week, club leaders must submit names by 3:45 p.m., and the driver will receive one combined list at 4 p.m. The council will compare the next thirty days with the earlier records before deciding whether the new deadline works."),
+        "main": ("What is the report mainly about?", "Records identified late passenger lists as the main repeated cause of bus delays",
+                 [("The market will close so the bus can travel faster", "ไม่มีแผนปิดตลาด"), ("The bus was late every day for a month", "สายเกินสิบนาที 12 จาก 30 วัน"), ("The driver refused to carry club members", "ปัญหาอยู่ที่เวลาส่งรายชื่อ")], "สรุปการใช้ข้อมูลหาสาเหตุและมาตรการกำหนดเส้นตายใหม่"),
+        "detail": ("On how many late days had departure already been delayed at school?", "Nine days",
+                   [("Three days", "เป็นส่วนต่างจาก 12 ลบ 9 ไม่ใช่จำนวนที่ระบุ"), ("Twelve days", "เป็นจำนวนวันที่ถึงปลายทางสายทั้งหมด"), ("Thirty days", "เป็นช่วงข้อมูลทั้งหมด")], "รายงานระบุเก้าวันจากสิบสองวันที่ออกจากโรงเรียนช้าอยู่แล้ว"),
+        "infer": ("Why will the council collect another thirty days of records?", "To compare results before and after the deadline change",
+                  [("To replace the driver immediately", "ยังไม่มีการตัดสินเรื่องคนขับ"), ("To count how many clubs exist", "ข้อมูลมุ่งเวลารถ ไม่ใช่จำนวนชมรม"), ("To prove traffic never affects travel", "รายงานยอมรับว่ารถติดเพิ่มเวลาในบางวัน")], "ประโยคท้ายบอกว่าจะเทียบช่วงใหม่กับข้อมูลเดิมก่อนตัดสินว่านโยบายได้ผลหรือไม่"),
+        "purpose": ("What is the main purpose of the report?", "To use arrival data to explain a delay and test a response",
+                    [("To complain that students should stop joining clubs", "ไม่ได้ต่อต้านกิจกรรมชมรม"), ("To advertise faster buses for sale", "ไม่มีการขายรถ"), ("To describe the market's busiest shops", "ตลาดเป็นเพียงสาเหตุที่คนเคยคาด")], "รายงานตรวจสมมติฐานด้วยสถิติและวางแผนวัดผลมาตรการใหม่"),
+        "vocab": ("The word **runs** in the title is closest in meaning to...", "operates or travels",
+                  [("moves quickly on foot", "ประธานเป็นรถโดยสาร"), ("manages the student council", "สภานักเรียนเป็นผู้วิเคราะห์ ไม่ใช่สิ่งที่รถบริหาร"), ("continues without stopping", "บทกล่าวถึงการออกและถึงช้า ไม่ได้วิ่งต่อเนื่อง")], "เมื่อใช้กับบริการรถ runs หมายถึงให้บริการหรือเดินรถ"),
+        "organization": ("How is the report organized?", "It states the delay pattern, tests a common explanation, and proposes a measured change.",
+                         [("It gives directions from the school to the market.", "ไม่มีเส้นทางเลี้ยว"), ("It tells one student's journey as a personal story.", "ใช้ข้อมูลสามสิบวัน ไม่ใช่เรื่องบุคคล"), ("It lists bus models from cheapest to most expensive.", "ไม่มีรุ่นหรือราคา")], "ข้อความเริ่มด้วยข้อมูลปัญหา หักล้างสาเหตุที่คาด แล้วเสนอเส้นตายพร้อมการวัดซ้ำ"),
+    },
+    {
+        "key": "weather_table", "title": "Rooftop Garden Watering Notice", "kind": "ตารางข้อมูลพร้อมประกาศ",
+        "text": ("The rooftop garden team measured the soil at 4 p.m. for four days.\n\n| Day | Soil reading | Rain since noon | Action |\n|---|---:|---:|---|\n| Monday | 28% | 0 mm | Watered |\n| Tuesday | 46% | 7 mm | Not watered |\n| Wednesday | 31% | 0 mm | Watered |\n| Thursday | 43% | 2 mm | Not watered |\n\nFor this trial, the team waters only when the reading is below 35%. Rainfall is recorded to help explain the reading, but rain alone does not decide the action. Next week, the team will move one sensor away from the wall because water dripping from the roof may make that spot wetter than the rest of the bed. Until then, volunteers should follow the soil reading shown on the shared display rather than judge by touching the top layer."),
+        "main": ("What is the notice mainly about?", "Using soil readings to guide watering and improve the trial",
+                 [("Watering the garden whenever any rain is recorded", "เกณฑ์ใช้ค่าดินต่ำกว่า 35% ไม่ใช่ฝน"), ("Proving that the roof never affects the sensor", "กำลังจะย้ายเซนเซอร์เพราะหลังคาอาจมีผล"), ("Replacing all volunteers with an automatic machine", "ยังให้ volunteers ทำตามหน้าจอ")], "ครอบคลุมเกณฑ์รดน้ำ ผลสี่วัน และการปรับตำแหน่งเซนเซอร์"),
+        "detail": ("On which two days was the garden watered?", "Monday and Wednesday",
+                   [("Monday and Tuesday", "Tuesday อ่าน 46% จึงไม่รด"), ("Tuesday and Thursday", "ทั้งสองวันระบุ Not watered"), ("Wednesday and Thursday", "Thursday อ่าน 43% จึงไม่รด")], "ตารางระบุ Watered ในวันจันทร์และวันพุธ"),
+        "infer": ("Why might the sensor near the wall give an unrepresentative reading?", "Roof drips may wet that spot more than the rest of the bed",
+                  [("The wall blocks the shared display", "ไม่ได้กล่าวถึงการมองหน้าจอ"), ("Volunteers water only the wall", "ไม่มีข้อมูลว่ารดเฉพาะผนัง"), ("The sensor measures rainfall instead of soil", "เซนเซอร์วัดดิน ส่วนฝนบันทึกแยก")], "บทระบุว่าน้ำหยดจากหลังคาอาจทำให้จุดนั้นชื้นกว่าส่วนอื่น"),
+        "purpose": ("Why does the notice include the four-day table?", "To show how the watering rule was applied",
+                    [("To rank volunteers by speed", "ไม่มีชื่อหรือเวลาของอาสาสมัคร"), ("To advertise a brand of soil sensor", "ไม่มีแบรนด์หรือการขาย"), ("To prove that rainfall always controls watering", "ข้อความย้ำว่าฝนอย่างเดียวไม่ตัดสิน")], "ตารางเชื่อมค่าดินและการกระทำในแต่ละวันให้เห็นเกณฑ์ต่ำกว่า 35%"),
+        "vocab": ("The word **reading** in “soil reading” refers to...", "a measured value shown by an instrument",
+                  [("the act of studying a book", "บริบทเป็นเปอร์เซ็นต์จากเซนเซอร์"), ("an opinion written by a volunteer", "ค่าเป็นการวัด ไม่ใช่ความเห็น"), ("a weather story read aloud", "ไม่มีการอ่านข่าว")], "คำว่า reading อยู่กับค่าเปอร์เซ็นต์และ sensor จึงหมายถึงค่าที่เครื่องวัดแสดง"),
+        "organization": ("How is the notice organized?", "It presents observations in a table, explains the decision rule, and notes a possible measurement problem.",
+                         [("It tells the history of rooftop farming by year.", "ข้อมูลมีเพียงสี่วันทดลอง"), ("It compares two schools' gardens.", "กล่าวถึงสวนเดียว"), ("It gives a recipe followed by customer reviews.", "ไม่มีอาหารหรือรีวิว")], "ตารางมาก่อน จากนั้นอธิบายเกณฑ์ และจบด้วยข้อจำกัดของตำแหน่งเซนเซอร์"),
+    },
+    {
+        "key": "costume_closet", "title": "A Second Life for Stage Costumes", "kind": "บทความสั้น",
+        "text": ("School plays often require costumes that are worn only once. This term, the drama club opened a shared costume closet to give those clothes a second life. Before an item enters the closet, two students check that it is clean, label its size, and photograph any existing damage. Borrowers reserve items in a notebook and return them within three school days after a performance. In the first six weeks, forty-two items were borrowed, and only one came back late. The closet has saved money, but its less obvious benefit is creative: students have begun adapting old pieces instead of copying costumes they see online. The club plans to add a small repair table, although it will not accept items that cannot be washed safely."),
+        "main": ("What is the article mainly about?", "A sharing system that saves resources and encourages creative reuse",
+                 [("A rule requiring every play to use the same costume", "ยืมและดัดแปลงได้หลายชิ้น ไม่ได้บังคับชุดเดียว"), ("A photography class about damaged clothes", "ภาพใช้บันทึกสภาพก่อนยืม"), ("A shop that rents unsafe clothing for profit", "เป็นตู้แบ่งปันและไม่รับของซักไม่ปลอดภัย")], "ครอบคลุมการยืมใช้ซ้ำ ผลด้านค่าใช้จ่าย และประโยชน์เชิงสร้างสรรค์"),
+        "detail": ("How soon should borrowers return an item after a performance?", "Within three school days",
+                   [("On the same evening", "ไม่ได้กำหนดคืนทันที"), ("Within six weeks", "หกสัปดาห์คือช่วงเก็บผล"), ("Only after the next school play", "มีเส้นตายสามวันเรียน")], "ข้อความกำหนดให้คืนภายในสามวันเรียนหลังการแสดง"),
+        "infer": ("Why are items photographed before they enter the closet?", "To record damage that was already present",
+                  [("To advertise each item for sale", "ไม่มีการขาย"), ("To decide which actor looks best", "ถ่ายสภาพสิ่งของ ไม่ใช่นักแสดง"), ("To prove the item has never been worn", "ชุดจำนวนมากเคยใช้แล้ว")], "บทกล่าวว่าถ่าย any existing damage จึงใช้แยกความเสียหายเดิมจากที่เกิดระหว่างยืม"),
+        "purpose": ("What is the writer's main purpose?", "To describe how the closet works and what benefits it has produced",
+                    [("To criticize students for performing plays", "น้ำเสียงสนับสนุนโครงการ"), ("To teach readers how to wash every fabric", "ไม่มีวิธีซัก"), ("To request that all old costumes be thrown away", "เป้าหมายคือให้ชีวิตครั้งที่สอง")], "บทอธิบายขั้นตอนยืม ตัวเลขการใช้ และประโยชน์ที่เกิดขึ้น"),
+        "vocab": ("The word **reserve** is closest in meaning to...", "arrange to use later",
+                  [("keep silent and avoid other people", "ความหมายบุคลิก reserved ไม่เข้ากับการบันทึกยืม"), ("save money in a bank account", "สิ่งที่จองคือชุด"), ("repair an item before borrowing it", "การซ่อมเป็นแผนแยกต่างหาก")], "ผู้ยืมเขียนลงสมุดเพื่อกันชิ้นนั้นไว้ใช้ภายหลัง"),
+        "organization": ("How does the article develop its main idea?", "It introduces a waste problem, explains the sharing process, and reports early results.",
+                         [("It lists plays in order of ticket sales.", "ไม่มีชื่อการแสดงหรือยอดบัตร"), ("It argues against reuse and then withdraws the claim.", "สนับสนุนการใช้ซ้ำตลอด"), ("It gives cleaning instructions without describing the closet.", "กระบวนการตู้เป็นแกนหลัก")], "เริ่มจากชุดใช้ครั้งเดียว ต่อด้วยระบบตรวจและยืม แล้วสรุปผลหกสัปดาห์"),
+    },
+    {
+        "key": "audio_tour", "title": "Museum Audio Tour Update", "kind": "ประกาศสำหรับผู้เข้าชม",
+        "text": ("The town museum has revised its self-guided audio tour after visitors reported that the old version moved too quickly. The new tour contains twelve short tracks instead of one continuous recording. Each track begins beside a numbered blue label, so visitors can pause, skip an object, or change the order. Four tracks include optional descriptions of colors and shapes for visitors who cannot see the displays clearly. Printed transcripts are available at the front desk, but they follow the standard order and do not include the optional descriptions. The museum recommends headphones, although a small number can be borrowed with an identification card. The tour is free with admission and takes about thirty-five minutes if every track is played."),
+        "main": ("What is the announcement mainly about?", "A more flexible and accessible version of the museum's audio tour",
+                 [("A rule that visitors must follow one fixed route", "ผู้ใช้หยุด ข้าม หรือเปลี่ยนลำดับได้"), ("A new fee for listening to museum recordings", "ทัวร์ฟรีเมื่อเข้าชม"), ("The removal of all printed information", "ยังมี transcripts ที่เคาน์เตอร์")], "สรุปการแบ่งแทร็ก ความยืดหยุ่น และคำบรรยายเสริมเพื่อการเข้าถึง"),
+        "detail": ("How many tracks include optional descriptions of colors and shapes?", "Four",
+                   [("One", "ฉบับเก่าเป็นเสียงต่อเนื่องหนึ่งไฟล์ ไม่ใช่จำนวนแทร็กเสริม"), ("Twelve", "เป็นจำนวนแทร็กทั้งหมด"), ("Thirty-five", "เป็นจำนวนนาทีโดยประมาณ")], "ประกาศระบุชัดว่า four tracks มีคำบรรยายเสริม"),
+        "infer": ("Who would benefit most directly from the optional descriptions?", "A visitor who has difficulty seeing the displays",
+                  [("A visitor who wants to finish in exactly ten minutes", "คำบรรยายเสริมอาจเพิ่มเวลาและไม่ได้รับประกันสิบนาที"), ("A visitor who has forgotten an identification card", "บัตรเกี่ยวกับการยืมหูฟัง"), ("A visitor who wants a printed standard-order transcript", "transcript ไม่มีคำบรรยายเสริม")], "บทระบุว่าคำบรรยายสีและรูปทรงทำไว้สำหรับผู้ที่เห็นสิ่งจัดแสดงไม่ชัด"),
+        "purpose": ("Why was this announcement written?", "To explain the features and use of the revised tour",
+                    [("To apologize for closing the museum permanently", "พิพิธภัณฑ์ยังเปิดและให้บริการ"), ("To sell personal headphones at the front desk", "ให้ยืมบางส่วน ไม่ได้ขาย"), ("To review one visitor's favorite object", "เป็นข้อมูลบริการ ไม่ใช่รีวิวส่วนตัว")], "ข้อความอธิบายเหตุผลที่แก้ รูปแบบใหม่ ตัวเลือกการเข้าถึง และการยืมหูฟัง"),
+        "vocab": ("The word **tracks** is closest in meaning to...", "separate audio recordings",
+                  [("paths marked on the floor", "แต่ละ track เป็นสิ่งที่ played และฟัง"), ("marks left by museum carts", "ไม่มีรถเข็น"), ("events in a sports competition", "บริบทพิพิธภัณฑ์และเสียง")], "one continuous recording ถูกแบ่งเป็น twelve short tracks จึงหมายถึงไฟล์เสียงแยกส่วน"),
+        "organization": ("How is the announcement mainly organized?", "It gives the reason for a revision, lists new features, and ends with practical details.",
+                         [("It compares ticket prices at several museums.", "มีพิพิธภัณฑ์เดียวและไม่เปรียบเทียบราคา"), ("It tells the life story of an artist.", "ไม่มีศิลปิน"), ("It presents a mystery and reveals the answer at the end.", "เป็นประกาศข้อมูลตรงไปตรงมา")], "เริ่มจากข้อร้องเรียนต่อฉบับเก่า ต่อด้วยคุณสมบัติใหม่ และจบด้วยหูฟัง ราคา และเวลา"),
+    },
+    {
+        "key": "creek_sensor", "title": "Students Monitor the Creek", "kind": "ข่าวโรงเรียน",
+        "text": ("A science class has begun monitoring the creek behind the sports field after students noticed that the water sometimes turned cloudy following rain. Every Monday morning, teams measure temperature and clarity at three marked points. They also photograph the banks, but they do not enter the water or collect animals. After five weeks, the class found that clarity usually dropped at the point below a bare patch of soil, while the two upstream points changed less. This pattern does not prove that the soil caused the cloudy water, so the students will place straw on half of the bare patch and compare the next five weeks of readings. If clarity improves only below the covered half, they will have stronger evidence before proposing a permanent solution."),
+        "main": ("What is the passage mainly about?", "Students are collecting and testing evidence about cloudy creek water",
+                 [("Students have already proved who polluted the creek", "ยังไม่พิสูจน์สาเหตุและไม่มีผู้ก่อมลพิษ"), ("The class is learning to catch animals in the water", "ระบุว่าไม่เก็บสัตว์และไม่ลงน้ำ"), ("The school has permanently covered the entire bank with straw", "จะทดลองเพียงครึ่งพื้นที่ก่อน")], "ครอบคลุมการวัดรูปแบบที่พบ ความระมัดระวังเรื่องเหตุผล และการทดลองถัดไป"),
+        "detail": ("When do the teams take measurements?", "Every Monday morning",
+                   [("After every rainfall", "สังเกตความขุ่นหลังฝนแต่กำหนดวัดทุกเช้าวันจันทร์"), ("Every afternoon for three weeks", "เวลาและช่วงไม่ตรง"), ("Only when the water looks clear", "วัดเป็นประจำ ไม่ขึ้นกับการมอง")], "บทระบุวันและเวลาวัดอย่างชัดเจนในประโยคที่สอง"),
+        "infer": ("Why will straw be placed on only half of the bare patch?", "To create a comparison between covered and uncovered soil",
+                  [("The class has enough straw for only one photograph", "ไม่มีข้อมูลข้อจำกัดจำนวนฟาง"), ("The upstream points are unsafe to visit", "ไม่ได้ระบุว่าไม่ปลอดภัย"), ("Animals need the other half as food", "ไม่กล่าวถึงการให้อาหารสัตว์")], "การคลุมครึ่งเดียวทำให้เทียบผลด้านล่างส่วนที่คลุมกับส่วนที่ไม่คลุมได้"),
+        "purpose": ("What is the main purpose of the passage?", "To report an investigation and the cautious next step",
+                    [("To accuse a nearby farmer of causing pollution", "ไม่มีการกล่าวหาบุคคล"), ("To persuade students to swim in the creek", "ทีมไม่ลงน้ำ"), ("To announce that the experiment has proved its cause", "ข้อความย้ำว่ายังไม่พิสูจน์")], "น้ำเสียงรายงานหลักฐานและแผนทดลองโดยไม่สรุปสาเหตุก่อนข้อมูลพอ"),
+        "vocab": ("The word **monitoring** is closest in meaning to...", "checking repeatedly over time",
+                  [("watching one event for entertainment", "มีการวัดซ้ำหลายสัปดาห์"), ("displaying information on a computer screen", "ไม่ได้หมายถึงจอ monitor"), ("controlling all changes in the creek", "นักเรียนสังเกตและทดลอง ไม่ได้ควบคุมลำธารทั้งหมด")], "กิจกรรมวัดทุกสัปดาห์ต่อเนื่องเพื่อดูการเปลี่ยนแปลง จึงหมายถึงตรวจติดตาม"),
+        "organization": ("How is the passage organized?", "It introduces an observation, reports a pattern, and describes a controlled follow-up test.",
+                         [("It gives safety rules without any findings.", "มีผลความใสห้าสัปดาห์"), ("It compares three unrelated school subjects.", "ทุกส่วนอยู่ในโครงการลำธารเดียว"), ("It presents a final solution before describing the problem.", "ยังไม่มีทางแก้ถาวร")], "ลำดับจากน้ำขุ่น วิธีวัด รูปแบบที่พบ ข้อจำกัดของข้อสรุป และการทดลองครึ่งพื้นที่"),
+    },
+]
+
+
+def new_reading_questions(skill):
+    steps = {
+        "main": [("หาประเด็นที่ครอบคลุมทั้งบท", "ไม่เลือกเพียงตัวเลขหรือรายละเอียดเดียว"), ("ทดสอบตัวเลือกกับตอนต้น กลาง และท้าย", "คำตอบต้องไม่เติมสิ่งที่บทไม่ได้กล่าว")],
+        "detail": [("ขีดคำสำคัญในคำถาม", "ใช้ scan กลับไปยังประโยคที่มีข้อมูลตรง"), ("เทียบตัวเลขหรือเงื่อนไขกับตัวเลือก", "ตัดค่าที่มาจากคนละหน้าที่ในบท")],
+        "infer": [("รวมหลักฐานอย่างน้อยสองจุดหรือเหตุผลที่เชื่อมกัน", "ข้อสรุปต้องตามจากบท ไม่ใช่ความรู้โลก"), ("ลดระดับความแน่นอนให้พอดี", "ไม่เปลี่ยนแนวโน้มเป็นข้อพิสูจน์")],
+        "purpose": [("ระบุชนิดและผู้อ่านของข้อความ", "ประกาศ รีวิว รายงาน และคำแนะนำมีหน้าที่ต่างกัน"), ("ดูว่ารายละเอียดทั้งหมดรับใช้เป้าหมายใด", "ตัดตัวเลือกที่พูดเพียงหัวข้อแต่ไม่ใช่จุดประสงค์")],
+        "vocab": [("อ่านประโยคที่มีคำเป้าหมาย", "ดูหน้าที่และคำที่อยู่รอบกัน"), ("แทนความหมายของแต่ละตัวเลือกกลับเข้าไป", "เลือกคำที่ทำให้ประโยคเดิมยังสมเหตุผล")],
+        "organization": [("แบ่งบทเป็นช่วงตามหน้าที่", "เช่น ปัญหา หลักฐาน การแก้ หรือขั้นตอน"), ("ตามคำเชื่อมและลำดับข้อมูล", "เลือกโครงสร้างที่อธิบายครบทั้งบท")],
+    }
+    hints = {
+        "main": ["อ่านประโยคแรกและสุดท้าย", "ตัวเลือกใดครอบคลุมผลและข้อจำกัด", "ตัดรายละเอียดเดียวและข้อความที่กว้างเกินบท"],
+        "detail": ["ขีดคำนามหรือตัวเลขที่คำถามถาม", "scan หาคำเดียวกันหรือคำพ้อง", "อ่านหนึ่งประโยคก่อนและหลังตำแหน่งนั้น"],
+        "infer": ["คำตอบต้องมีร่องรอยในบท", "ลองอธิบายหลักฐานโดยไม่ใช้ความรู้ภายนอก", "ตัดคำกล่าวที่แรงกว่าหลักฐาน"],
+        "purpose": ["ข้อความนี้เขียนให้ใคร", "ผู้เขียนต้องการให้ผู้อ่านรู้อะไรหรือทำอะไร", "ตัวเลือกใดอธิบายบทบาทของรายละเอียดส่วนใหญ่"],
+        "vocab": ["อย่าเลือกจากความหมายที่คุ้นที่สุดทันที", "ดูว่าคำนี้ทำหน้าที่อะไรในประโยค", "แทนคำตอบกลับแล้วอ่านใหม่"],
+        "organization": ["สรุปหน้าที่แต่ละช่วงด้วยคำสั้น ๆ", "มองหาการเปลี่ยนจากปัญหาไปผลหรือแผน", "ตัวเลือกต้องอธิบายทั้งต้นและท้าย"],
+    }
+    result = []
+    difficulties = [1, 2, 2, 3, 3, 3, 3, 4, 4, 5]
+    for item, diff in zip(NEW_READING, difficulties):
+        question, answer, wrong, reason = item[skill]
+        result.append(Q(
+            passage(item["title"], item["text"], question), answer, wrong,
+            steps[skill], hints[skill], f"ตอบ {answer} เพราะ{reason}",
+            diff=diff, sec=75 if diff < 4 else 90, reading="high",
+        ))
+    return result
+
+
 # ============================================================ TC.grammar_in_context
 tid = TC + "grammar_in_context"
 L = lesson(tid, "เลือกรูปคำให้ถูกไวยากรณ์ตามบริบท",
@@ -676,6 +871,7 @@ P += [
  N("A neighborhood library removed late fees. Returns were briefly slower, but membership rose and most books still came back within a month. Staff kept reminders for popular titles. What is the main idea?","Removing fines improved access without seriously harming returns.",[("Popular titles required longer borrowing periods than other books.","บทอ่านกล่าวถึงการเตือนคืน ไม่ได้เปรียบเทียบระยะยืมของหนังสือแต่ละชนิด"),("A rise in membership led staff to remove late fees.","สลับลำดับนโยบายกับผลที่รายงาน สมาชิกเพิ่มหลังเลิกค่าปรับ"),("Staff replaced fees with daily phone calls.","ไม่มีข้อมูล daily phone calls")],"สรุปผลดีและข้อกังวลหลักของนโยบาย","ตอบ Removing fines improved access without seriously harming returns เพราะคำตอบครอบคลุมการเข้าถึงและผลต่อการคืนหนังสือ โดยสรุปผลดีและข้อกังวลหลักของนโยบาย",3,["detail_as_main_idea"]),
  N("A school planted shade trees to cool classrooms. Temperatures fell only slightly in year one because the trees were young. The project also created outdoor science lessons, and planners expect greater cooling later. What is the main idea?","The tree project has limited immediate cooling but offers present and future benefits.",[("The school chose the wrong trees.","ไม่มีหลักฐานว่าเลือกผิด"),("Outdoor lessons matter more than classroom heat.","บทไม่ได้จัดอันดับ"),("Young trees cannot reduce temperature.","บทบอกลดเล็กน้อย ไม่ใช่ไม่ได้เลย")],"รวมผลปัจจุบัน ข้อจำกัด และผลอนาคต","คำตอบที่ถูกไม่ตัดสินโครงการจากผลปีแรกด้านเดียว",5,["detail_as_main_idea"]),
 ]
+P += new_reading_questions("main")
 save(tid, "TGAT1", "mcq4", P, lesson=review_lesson(L))
 
 # ============================================================ RC.specific_detail
@@ -777,6 +973,7 @@ P += [
  N("The notice says: 'Workshop check-in opens at 8:15. Unclaimed seats will be released at 8:50, ten minutes before the session.' When may a reserved seat be given away?","At 8:50",[("At 8:15","เป็นเวลาเปิด check-in"),("At 9:00","เป็นเวลาเริ่ม session"),("Ten minutes after the session","สลับ before เป็น after")],"scan หาเวลาที่ผูกกับ released","ตอบ At 8:50 เพราะข้อความระบุ 8:50 โดยตรง โดย scan หาเวลาที่ผูกกับ released",3,["same_words_wrong_meaning"]),
  N("A policy allows remote work on Tuesday and Thursday. New staff may apply after 60 days, but employees handling physical records must remain on site when those records are in use. Who cannot work remotely on a Thursday when archived files are being audited?","A new records clerk hired three months ago who must handle the files",[("A designer hired last year","ผ่านเวลาและไม่แตะเอกสารจริง"),("A software developer hired four months ago","ผ่านเกณฑ์ 60 วันและไม่ต้องใช้เอกสารจริง"),("A manager working from home on Tuesday","คนละวันกับคำถาม")],"ใช้ทั้งวัน สิทธิหลัง 60 วัน และข้อยกเว้นเอกสาร","ตอบ A new records clerk hired three months ago who must handle the files เพราะแม้ทำงานเกิน 60 วัน ผู้ที่ต้องใช้เอกสารจริงยังต้องอยู่หน้างาน โดยใช้ทั้งวัน สิทธิหลัง 60 วัน และข้อยกเว้นเอกสาร",5,["same_words_wrong_meaning"]),
 ]
+P += new_reading_questions("detail")
 save(tid, "TGAT1", "mcq4", P, lesson=review_lesson(L))
 
 # ============================================================ RC.vocabulary_in_passage
@@ -881,6 +1078,7 @@ P += [
  N("The editor asked the writer to trim the introduction so readers could reach the main argument sooner. 'trim' most nearly means...","shorten",[("decorate","ไม่ช่วยให้ถึงประเด็นเร็ว"),("remove completely","แรงเกิน trim"),("move to the end","ไม่ได้กล่าวถึงตำแหน่ง")],"ผลที่ต้องการคือถึงประเด็นเร็วขึ้น","ตอบ shorten เพราะ trim ในบริบทงานเขียนหมายถึงตัดให้สั้น โดยผลที่ต้องการคือถึงประเด็นเร็วขึ้น",3,["common_meaning_trap"]),
  N("The agreement is described as 'provisional': it will operate for three months and become permanent only after a review. 'provisional' means...","temporary and subject to change",[("secret and legally invalid","ไม่มีเรื่องความลับหรือโมฆะ"),("complete and permanent","ตรงข้ามกับ review ก่อนถาวร"),("informal but unchanged","คำว่า unchanged ขัดเงื่อนไข")],"ประโยคหลังนิยามด้วยระยะทดลองและการทบทวน","ตอบ temporary and subject to change เพราะ provisional คือชั่วคราวและอาจเปลี่ยน โดยประโยคหลังนิยามด้วยระยะทดลองและการทบทวน",5,["common_meaning_trap"]),
 ]
+P += new_reading_questions("vocab")
 save(tid, "TGAT1", "mcq4", P, lesson=review_lesson(L))
 
 # ============================================================ RC.inference
@@ -990,6 +1188,7 @@ P += [
  N("After the café added quiet hours, laptop users stayed longer while lunch sales remained stable. Which inference is best supported?","The quiet-hours policy did not reduce lunch sales during the period described.",[("Customers began visiting the café mainly to work on laptops.","การอยู่นานขึ้นของผู้ใช้ laptop ไม่บอกเหตุที่ลูกค้าเริ่มเข้าร้าน"),("Laptop users bought more food.","การอยู่นานไม่ยืนยันการซื้อ"),("The café will expand next month.","ไม่มีข้อมูลอนาคต")],"อนุมานเฉพาะสิ่งที่ยอดขาย stable รองรับ","ตอบ The quiet-hours policy did not reduce lunch sales during the period described เพราะบอกได้เพียงว่ายอดมื้อกลางวันไม่ลดในช่วงที่รายงาน โดยอนุมานเฉพาะสิ่งที่ยอดขาย stable รองรับ",3,["over_inference"]),
  N("A town's bike-share use rose after buses stopped earlier, but weekend use stayed unchanged. What can reasonably be inferred?","Some weekday riders may be using bikes when late buses are unavailable.",[("The bike-share caused the bus cuts.","สลับเหตุและผล"),("Tourists stopped cycling on weekends.","weekend unchanged ไม่ได้บอกกลุ่มผู้ใช้"),("Former bus passengers made up most bike-share users.","ไม่มีสัดส่วนผู้ใช้ที่เคยนั่งรถโดยสาร แม้เหตุการณ์สองอย่างเกิดสัมพันธ์กัน")],"เชื่อมการเพิ่มกับเวลารถหยุด แต่คงถ้อยคำไม่แน่นอน","ตอบ Some weekday riders may be using bikes when late buses are unavailable เพราะ some และ may สอดคล้องกับหลักฐานเชิงสัมพันธ์โดยไม่สรุปเกิน โดยเชื่อมการเพิ่มกับเวลารถหยุด แต่คงถ้อยคำไม่แน่นอน",5,["over_inference"]),
 ]
+P += new_reading_questions("infer")
 save(tid, "TGAT1", "mcq4", P, lesson=review_lesson(L))
 
 # ============================================================ RC.purpose_tone
@@ -1097,6 +1296,7 @@ P += [
  N("'Bring a reusable bottle on Saturday. Refill stations will be available throughout the park.' What is the writer's main purpose?","To encourage visitors to reduce disposable bottle use",[("To complain about park visitors","น้ำเสียงไม่ตำหนิ"),("To advertise bottled water","เสนอเติมน้ำ ไม่ขายขวด"),("To explain how stations are built","ไม่มีขั้นตอนก่อสร้าง")],"ดูคำสั่ง Bring และข้อมูลสนับสนุน","ตอบ To encourage visitors to reduce disposable bottle use เพราะข้อความชักชวนให้พกขวดใช้ซ้ำ โดยดูคำสั่ง Bring และข้อมูลสนับสนุน",3,["quoted_opinion_as_author"]),
  N("'The proposal promises faster travel, a welcome goal. Yet its cost estimates omit maintenance, and the ridership forecast relies on a survey of only 80 people.' The tone is...","cautiously critical",[("enthusiastically supportive","ผู้เขียนชี้ข้อบกพร่องสำคัญ"),("angrily dismissive","ยอมรับเป้าหมายและไม่ใช้อารมณ์"),("completely neutral","มีการประเมินข้อดีและวิจารณ์หลักฐาน")],"ผู้เขียนยอมรับเป้าหมายก่อนชี้ข้อจำกัด","ตอบ cautiously critical เพราะน้ำเสียงวิจารณ์อย่างระวัง ไม่ปฏิเสธทั้งหมด โดยผู้เขียนยอมรับเป้าหมายก่อนชี้ข้อจำกัด",5,["quoted_opinion_as_author"]),
 ]
+P += new_reading_questions("purpose")
 save(tid, "TGAT1", "mcq4", P, lesson=review_lesson(L))
 
 # ============================================================ RC.text_organization
@@ -1202,6 +1402,7 @@ P += [
  N("Paragraph 1 describes a river's pollution. Paragraph 2 lists three sources. Paragraph 3 compares two cleanup plans. What is paragraph 2's function?","To explain the causes of the problem",[("To introduce the winning plan","ยังไม่เปรียบเทียบแผน"),("To summarize the whole article","เป็นเพียงแหล่งมลพิษ"),("To show the cleanup results","ยังไม่มีผล")],"ถามหน้าที่ ไม่ใช่เพียงหัวข้อ","ตอบ To explain the causes of the problem เพราะการลิสต์แหล่งมลพิษทำหน้าที่อธิบายสาเหตุ โดยถามหน้าที่ ไม่ใช่เพียงหัวข้อ",3,["content_not_function"]),
  N("A paragraph begins with a claim that home delivery cuts traffic, then presents a study showing delivery vans increased congestion, and ends by calling for local data. Its organization is...","claim, counterevidence, recommendation for further investigation",[("problem, chronological history, final solution","ไม่มีลำดับเวลาและยังไม่ให้ทางแก้"),("definition, example, repetition","ประโยคกลางหักล้าง ไม่ใช่ตัวอย่างสนับสนุน"),("two equal opinions with no conclusion","ตอนท้ายมีข้อเสนอชัด")],"ติดตามว่าหลักฐานสนับสนุนหรือหักล้าง claim","ตอบ claim, counterevidence, recommendation for further investigation เพราะโครงสร้างเริ่มข้ออ้าง ตามด้วยหลักฐานสวน และจบด้วยข้อเสนอให้ตรวจเพิ่ม โดยติดตามว่าหลักฐานสนับสนุนหรือหักล้าง claim",5,["content_not_function"]),
 ]
+P += new_reading_questions("organization")
 save(tid, "TGAT1", "mcq4", P, lesson=review_lesson(L))
 
 # ============================================================ F.sentence_core
