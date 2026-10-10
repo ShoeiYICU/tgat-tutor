@@ -760,7 +760,7 @@
       "figures": [],
       "choices": [
         {
-          "md": "Phones are forbidden in the forest",
+          "md": "It shows the shed on the old side of the path",
           "is_answer": false
         },
         {
@@ -768,11 +768,11 @@
           "is_answer": true
         },
         {
-          "md": "A paper map can clear vines from the sign",
+          "md": "It replaces the need for leaders to point out the turn",
           "is_answer": false
         },
         {
-          "md": "The printed map includes a secret route",
+          "md": "It is the only version that includes a photo of the turn",
           "is_answer": false
         }
       ],
@@ -794,9 +794,9 @@
         "ตัดคำกล่าวที่แรงกว่าหลักฐาน"
       ],
       "distractor_reasons": {
-        "0": "ข้อความยอมให้ใช้โทรศัพท์",
-        "2": "การเคลียร์เถาวัลย์เป็นงานของผู้จัด",
-        "3": "ไม่มีเส้นทางลับ"
+        "0": "ฉบับใหม่แก้ตำแหน่งโรงเก็บของแล้ว ส่วนฉบับเก่าต่างหากที่วางผิดด้าน",
+        "2": "อีเมลยังกำชับให้ผู้นำชี้จุดเลี้ยวเมื่อถึงโรงเก็บของ",
+        "3": "ภาพถูกเพิ่มในแผนที่ฉบับใหม่ ไม่ได้ระบุว่ามีเฉพาะฉบับพิมพ์"
       },
       "misconception_tags": [],
       "template": null,
@@ -832,15 +832,15 @@
       "figures": [],
       "choices": [
         {
-          "md": "Removing all safety announcements",
+          "md": "Lowering every safety announcement until it cannot be heard",
           "is_answer": false
         },
         {
-          "md": "Allowing unrestricted conversations",
+          "md": "Keeping the name without a notice because the loud announcement was temporary",
           "is_answer": false
         },
         {
-          "md": "Fining anyone who turns a page",
+          "md": "Banning conversations rather than asking passengers to keep them brief",
           "is_answer": false
         },
         {
@@ -866,9 +866,9 @@
         "ตัดคำกล่าวที่แรงกว่าหลักฐาน"
       ],
       "distractor_reasons": {
-        "0": "ผู้เขียนเสนอให้ประกาศยังได้ยิน",
-        "1": "ขัดกับแนวคิด low-conversation",
-        "2": "ผู้เขียนอ่านหนังสือและไม่ได้ต้องการความเงียบสมบูรณ์"
+        "0": "ผู้เขียนเสนอให้ประกาศความปลอดภัยยังคงได้ยิน",
+        "1": "ผู้เขียนเห็นว่าชื่อ quiet สร้างความคาดหวังเกินจริงและเสนอทั้งชื่อกับป้ายที่ชัดกว่า",
+        "2": "ผู้เขียนยอมรับแนวคิด low-conversation ไม่ได้เรียกร้องความเงียบสมบูรณ์"
       },
       "misconception_tags": [],
       "template": null,
@@ -904,7 +904,7 @@
       "figures": [],
       "choices": [
         {
-          "md": "So the seeds will grow inside the cabinet",
+          "md": "So the notebook can replace the code on the envelope",
           "is_answer": false
         },
         {
@@ -912,11 +912,11 @@
           "is_answer": true
         },
         {
-          "md": "So moisture cannot enter the envelope",
+          "md": "So the envelope can keep moisture away from the seeds",
           "is_answer": false
         },
         {
-          "md": "So the club can charge different prices",
+          "md": "So the club member knows which Wednesday the envelope was checked",
           "is_answer": false
         }
       ],
@@ -938,9 +938,9 @@
         "ตัดคำกล่าวที่แรงกว่าหลักฐาน"
       ],
       "distractor_reasons": {
-        "0": "ตู้ใช้เก็บ ไม่ใช่ปลูก",
-        "2": "การใช้ซองกระดาษและเมล็ดแห้งจัดการความชื้น",
-        "3": "ไม่มีการขาย"
+        "0": "สมุดใช้บันทึกรหัสเมื่อรับเมล็ด และฉลากยังต้องมีข้อมูลการปลูก",
+        "2": "วัสดุซองและความแห้งควบคุมความชื้น ไม่ใช่ข้อความบนฉลาก",
+        "3": "รอบตรวจถูกกำหนดไว้แล้วและเดือนที่เก็บเป็นข้อมูลคนละอย่าง"
       },
       "misconception_tags": [],
       "template": null,
@@ -976,15 +976,15 @@
       "figures": [],
       "choices": [
         {
-          "md": "To replace the driver immediately",
+          "md": "To decide whether the driver should receive separate lists from each club",
           "is_answer": false
         },
         {
-          "md": "To prove traffic never affects travel",
+          "md": "To show that traffic had no effect on any of the late days",
           "is_answer": false
         },
         {
-          "md": "To count how many clubs exist",
+          "md": "To check whether moving the market changes the arrival time",
           "is_answer": false
         },
         {
@@ -1010,9 +1010,9 @@
         "ตัดคำกล่าวที่แรงกว่าหลักฐาน"
       ],
       "distractor_reasons": {
-        "0": "ยังไม่มีการตัดสินเรื่องคนขับ",
-        "1": "รายงานยอมรับว่ารถติดเพิ่มเวลาในบางวัน",
-        "2": "ข้อมูลมุ่งเวลารถ ไม่ใช่จำนวนชมรม"
+        "0": "มาตรการใหม่ให้คนขับรับรายชื่อรวมหนึ่งชุด ไม่ได้ทดสอบการแยกรายชื่อ",
+        "1": "รายงานยอมรับว่ารถติดเพิ่มเวลาในบางวัน และการเก็บรอบใหม่ทดสอบเส้นตาย",
+        "2": "ไม่มีแผนย้ายตลาด ตัวแปรที่เปลี่ยนคือเส้นตายส่งรายชื่อ"
       },
       "misconception_tags": [],
       "template": null,
@@ -1264,11 +1264,11 @@
       "figures": [],
       "choices": [
         {
-          "md": "The class has enough straw for only one photograph",
+          "md": "To make the lower point clearer while leaving both upstream points unchanged",
           "is_answer": false
         },
         {
-          "md": "The upstream points are unsafe to visit",
+          "md": "To prove the bare soil caused the cloudiness before collecting the next readings",
           "is_answer": false
         },
         {
@@ -1276,7 +1276,7 @@
           "is_answer": true
         },
         {
-          "md": "Animals need the other half as food",
+          "md": "To compare photographs of the two halves without measuring water clarity",
           "is_answer": false
         }
       ],
@@ -1298,9 +1298,9 @@
         "ตัดคำกล่าวที่แรงกว่าหลักฐาน"
       ],
       "distractor_reasons": {
-        "0": "ไม่มีข้อมูลข้อจำกัดจำนวนฟาง",
-        "1": "ไม่ได้ระบุว่าไม่ปลอดภัย",
-        "3": "ไม่กล่าวถึงการให้อาหารสัตว์"
+        "0": "ครึ่งที่คลุมและไม่คลุมอยู่บนรอยดินเดียวกันเพื่อสร้างการเปรียบเทียบ ไม่ได้แบ่งตามจุดวัด",
+        "1": "การคลุมเป็นการทดสอบหาหลักฐานเพิ่ม ยังไม่ใช่ข้อพิสูจน์ล่วงหน้า",
+        "3": "แผนระบุว่าจะเปรียบเทียบค่าความใสอีกห้าสัปดาห์ ไม่ได้ใช้ภาพแทนการวัด"
       },
       "misconception_tags": [],
       "template": null,

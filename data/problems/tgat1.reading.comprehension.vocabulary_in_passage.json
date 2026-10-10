@@ -620,15 +620,15 @@
           "is_answer": true
         },
         {
-          "md": "repair without assistance",
+          "md": "pay for every replacement part",
           "is_answer": false
         },
         {
-          "md": "speak during a radio program",
+          "md": "inspect each item for safety",
           "is_answer": false
         },
         {
-          "md": "invite as a private overnight guest",
+          "md": "attend as one of the item owners",
           "is_answer": false
         }
       ],
@@ -650,9 +650,9 @@
         "แทนคำตอบกลับแล้วอ่านใหม่"
       ],
       "distractor_reasons": {
-        "1": "ผู้จัดสถานที่ไม่ใช่ความหมายของการซ่อม",
-        "2": "ไม่ได้กล่าวถึงรายการวิทยุ",
-        "3": "บริบทเป็นกิจกรรมสาธารณะสามชั่วโมง"
+        "1": "เจ้าของเป็นผู้จ่ายค่าอะไหล่ที่เลือกใช้ ไม่ใช่หน้าที่ที่คำว่า host ระบุ",
+        "2": "ผู้ตรวจความปลอดภัยคือ volunteer technicians ไม่ใช่ความหมายของ host",
+        "3": "library เป็นผู้จัดสถานที่ ไม่ใช่ผู้เข้าร่วมที่นำของมาซ่อม"
       },
       "misconception_tags": [],
       "template": null,
@@ -688,11 +688,11 @@
       "figures": [],
       "choices": [
         {
-          "md": "made an audio performance",
+          "md": "estimated without measuring",
           "is_answer": false
         },
         {
-          "md": "broke an earlier sports result",
+          "md": "set as the club's target",
           "is_answer": false
         },
         {
@@ -700,7 +700,7 @@
           "is_answer": true
         },
         {
-          "md": "wrote the number on each bottle",
+          "md": "printed separately on each bottle",
           "is_answer": false
         }
       ],
@@ -722,9 +722,9 @@
         "แทนคำตอบกลับแล้วอ่านใหม่"
       ],
       "distractor_reasons": {
-        "0": "บริบทเป็นจำนวนการใช้งาน ไม่ใช่เสียง",
-        "1": "ไม่มีการแข่งขัน",
-        "3": "ไม่ได้ติดตัวเลขบนขวด"
+        "0": "610 เป็นข้อมูลการใช้งานที่สถานีบันทึก ไม่ใช่ค่าคาดเดา",
+        "1": "เป้าหมายกล่าวถึงยอดขายต่ำกว่า 200 ไม่ใช่การใช้ 610 ครั้ง",
+        "3": "ตัวเลขเป็นยอดรวมการใช้สถานี ไม่ใช่หมายเลขบนขวด"
       },
       "misconception_tags": [],
       "template": null,
@@ -760,11 +760,11 @@
       "figures": [],
       "choices": [
         {
-          "md": "notes copied from a phone signal",
+          "md": "online maps that fail to load beyond the bridge",
           "is_answer": false
         },
         {
-          "md": "students who copy another group's work",
+          "md": "photos of the turn added to the corrected map",
           "is_answer": false
         },
         {
@@ -772,7 +772,7 @@
           "is_answer": true
         },
         {
-          "md": "photocopiers used at school",
+          "md": "the corrected map",
           "is_answer": false
         }
       ],
@@ -794,9 +794,9 @@
         "แทนคำตอบกลับแล้วอ่านใหม่"
       ],
       "distractor_reasons": {
-        "0": "สัญญาณไม่ใช่สิ่งที่ถูกคัดลอก",
-        "1": "บริบทเป็นไฟล์ในโฟลเดอร์",
-        "3": "ไม่ได้กล่าวถึงเครื่องถ่ายเอกสาร"
+        "0": "ปัญหาการโหลดเป็นเหตุให้พกฉบับพิมพ์ แต่ copies หมายถึงฉบับเก่าในโฟลเดอร์",
+        "1": "คำสั่งให้ลบ copies เก่า ไม่ใช่ลบภาพที่เพิ่มในฉบับใหม่",
+        "3": "คำว่า earlier ชี้ไปที่ฉบับก่อนแก้ ไม่ใช่ฉบับใหม่"
       },
       "misconception_tags": [],
       "template": null,
@@ -832,11 +832,11 @@
       "figures": [],
       "choices": [
         {
-          "md": "spoken in a rude manner",
+          "md": "limited to safety information",
           "is_answer": false
         },
         {
-          "md": "written as an official summary",
+          "md": "quiet",
           "is_answer": false
         },
         {
@@ -844,7 +844,7 @@
           "is_answer": true
         },
         {
-          "md": "secret from other passengers",
+          "md": "held only before the trip begins",
           "is_answer": false
         }
       ],
@@ -866,9 +866,9 @@
         "แทนคำตอบกลับแล้วอ่านใหม่"
       ],
       "distractor_reasons": {
-        "0": "ไม่ได้บอกให้พูดหยาบ",
-        "1": "เป็นบทสนทนาของผู้โดยสาร ไม่ใช่เอกสาร",
-        "3": "ไม่ได้เน้นความลับ"
+        "0": "ป้ายขอให้คุยสั้น แต่ไม่ได้จำกัดหัวข้อที่คุย",
+        "1": "brief บอกระยะเวลาของการสนทนา ไม่ใช่ระดับเสียง",
+        "3": "กติกาใช้ในตู้โดยสารและไม่ได้จำกัดการคุยไว้ก่อนออกเดินทาง"
       },
       "misconception_tags": [],
       "template": null,
@@ -904,11 +904,11 @@
       "figures": [],
       "choices": [
         {
-          "md": "uses a metal tool to smooth them",
+          "md": "labels each seed with its notebook code",
           "is_answer": false
         },
         {
-          "md": "sends digital documents online",
+          "md": "places the envelopes together without separating plant types",
           "is_answer": false
         },
         {
@@ -916,7 +916,7 @@
           "is_answer": true
         },
         {
-          "md": "submits a legal complaint",
+          "md": "checks",
           "is_answer": false
         }
       ],
@@ -938,9 +938,9 @@
         "แทนคำตอบกลับแล้วอ่านใหม่"
       ],
       "distractor_reasons": {
-        "0": "ไม่ได้ขัดเมล็ดหรือซอง",
-        "1": "เป็นซองกระดาษในตู้จริง",
-        "3": "บริบทเป็นการจัดซองในตู้"
+        "0": "ผู้ฝากเขียนข้อมูลบนซองและผู้รับจดรหัส ไม่ได้ติดฉลากเมล็ดทีละเมล็ด",
+        "1": "ข้อความระบุว่าจัดตามชนิดพืช จึงไม่ใช่เก็บรวมกัน",
+        "3": "การตรวจเกิดก่อนขั้น files ซึ่งหมายถึงการจัดเก็บซองที่ผ่านแล้ว"
       },
       "misconception_tags": [],
       "template": null,
@@ -1048,7 +1048,7 @@
       "figures": [],
       "choices": [
         {
-          "md": "the act of studying a book",
+          "md": "the amount of rain recorded since noon",
           "is_answer": false
         },
         {
@@ -1056,11 +1056,11 @@
           "is_answer": true
         },
         {
-          "md": "an opinion written by a volunteer",
+          "md": "the watering action chosen by a volunteer",
           "is_answer": false
         },
         {
-          "md": "a weather story read aloud",
+          "md": "the location where the sensor is placed",
           "is_answer": false
         }
       ],
@@ -1082,9 +1082,9 @@
         "แทนคำตอบกลับแล้วอ่านใหม่"
       ],
       "distractor_reasons": {
-        "0": "บริบทเป็นเปอร์เซ็นต์จากเซนเซอร์",
-        "2": "ค่าเป็นการวัด ไม่ใช่ความเห็น",
-        "3": "ไม่มีการอ่านข่าว"
+        "0": "rainfall เป็นคอลัมน์แยก ส่วน soil reading เป็นค่าจากเซนเซอร์ดิน",
+        "2": "action เป็นผลจากการเทียบค่า ไม่ใช่ตัวค่า reading",
+        "3": "ตำแหน่งอาจกระทบค่า แต่ reading หมายถึงค่าร้อยละที่วัดได้"
       },
       "misconception_tags": [],
       "template": null,
@@ -1124,7 +1124,7 @@
           "is_answer": true
         },
         {
-          "md": "keep silent and avoid other people",
+          "md": "return after use",
           "is_answer": false
         },
         {
@@ -1154,7 +1154,7 @@
         "แทนคำตอบกลับแล้วอ่านใหม่"
       ],
       "distractor_reasons": {
-        "1": "ความหมายบุคลิก reserved ไม่เข้ากับการบันทึกยืม",
+        "1": "การคืนเกิดหลังการแสดง ส่วน reserve คือกันของไว้ก่อนใช้",
         "2": "การซ่อมเป็นแผนแยกต่างหาก",
         "3": "สิ่งที่จองคือชุด"
       },
@@ -1192,15 +1192,15 @@
       "figures": [],
       "choices": [
         {
-          "md": "events in a sports competition",
+          "md": "printed sections in the standard-order transcript",
           "is_answer": false
         },
         {
-          "md": "marks left by museum carts",
+          "md": "objects that visitors may choose to skip",
           "is_answer": false
         },
         {
-          "md": "paths marked on the floor",
+          "md": "display labels",
           "is_answer": false
         },
         {
@@ -1226,9 +1226,9 @@
         "แทนคำตอบกลับแล้วอ่านใหม่"
       ],
       "distractor_reasons": {
-        "0": "บริบทพิพิธภัณฑ์และเสียง",
-        "1": "ไม่มีรถเข็น",
-        "2": "แต่ละ track เป็นสิ่งที่ played และฟัง"
+        "0": "transcript เป็นสื่อแยกและไม่รวมคุณสมบัติบางอย่างของเสียง",
+        "1": "วัตถุสัมพันธ์กับแต่ละช่วง แต่สิ่งที่ play คือเสียง",
+        "2": "ป้ายเป็นจุดเริ่มของแต่ละ track แต่ไม่ใช่ไฟล์เสียงนั้น"
       },
       "misconception_tags": [],
       "template": null,
@@ -1264,15 +1264,15 @@
       "figures": [],
       "choices": [
         {
-          "md": "displaying information on a computer screen",
+          "md": "changing the water until its clarity stays constant",
           "is_answer": false
         },
         {
-          "md": "controlling all changes in the creek",
+          "md": "comparing only the final reading at the three points",
           "is_answer": false
         },
         {
-          "md": "watching one event for entertainment",
+          "md": "one final check",
           "is_answer": false
         },
         {
@@ -1298,9 +1298,9 @@
         "แทนคำตอบกลับแล้วอ่านใหม่"
       ],
       "distractor_reasons": {
-        "0": "ไม่ได้หมายถึงจอ monitor",
-        "1": "นักเรียนสังเกตและทดลอง ไม่ได้ควบคุมลำธารทั้งหมด",
-        "2": "มีการวัดซ้ำหลายสัปดาห์"
+        "0": "ช่วงแรกเป็นการสังเกตซ้ำ ไม่ใช่ควบคุมน้ำให้คงที่",
+        "1": "monitoring ครอบคลุมการติดตามหลายสัปดาห์ ไม่ใช่เฉพาะค่าครั้งสุดท้าย",
+        "2": "monitoring ครอบคลุมการวัดซ้ำหลายสัปดาห์ ไม่ใช่การตรวจครั้งสุดท้ายครั้งเดียว"
       },
       "misconception_tags": [],
       "template": null,

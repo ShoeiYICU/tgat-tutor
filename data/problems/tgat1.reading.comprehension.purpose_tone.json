@@ -618,15 +618,15 @@
           "is_answer": true
         },
         {
-          "md": "To promise that all items will be repaired",
+          "md": "To guarantee repairs for the suitable items that technicians agree to open",
           "is_answer": false
         },
         {
-          "md": "To advertise a new electronics store",
+          "md": "To explain how owners can leave an item for technicians to repair without taking part",
           "is_answer": false
         },
         {
-          "md": "To warn students never to use batteries",
+          "md": "To explain repair fees only",
           "is_answer": false
         }
       ],
@@ -648,9 +648,9 @@
         "ตัวเลือกใดอธิบายบทบาทของรายละเอียดส่วนใหญ่"
       ],
       "distractor_reasons": {
-        "1": "ย้ำชัดว่าไม่รับประกันการซ่อม",
-        "2": "เป็นกิจกรรมของห้องสมุด ไม่ใช่ร้านค้า",
-        "3": "ห้ามเฉพาะแบตเตอรี่บวมในงาน"
+        "1": "บทระบุชัดว่าไม่รับประกันว่าจะซ่อมสำเร็จแม้เป็นของที่รับเข้างาน",
+        "2": "เจ้าของจะได้เรียนรู้การหาจุดเสีย ไม่ใช่ฝากช่างซ่อมแทน",
+        "3": "ค่าอะไหล่เป็นเพียงรายละเอียดหนึ่ง ข้อความยังอธิบายผู้เข้าร่วม ขั้นตอน ความปลอดภัย และคิว"
       },
       "misconception_tags": [],
       "template": null,
@@ -686,7 +686,7 @@
       "figures": [],
       "choices": [
         {
-          "md": "To teach students how to build a refill station",
+          "md": "To recommend installing a third station before examining the queue problem",
           "is_answer": false
         },
         {
@@ -694,11 +694,11 @@
           "is_answer": true
         },
         {
-          "md": "To celebrate that the target was fully achieved",
+          "md": "To announce that the trial reached its bottle-sales target and needs no further changes",
           "is_answer": false
         },
         {
-          "md": "To persuade the canteen to stop selling all drinks",
+          "md": "To report refill counts only",
           "is_answer": false
         }
       ],
@@ -720,9 +720,9 @@
         "ตัวเลือกใดอธิบายบทบาทของรายละเอียดส่วนใหญ่"
       ],
       "distractor_reasons": {
-        "0": "ไม่มีขั้นตอนก่อสร้าง",
-        "2": "รายงานบอกว่าไม่ถึงเป้าหมายเดิม",
-        "3": "กล่าวเฉพาะน้ำขวดและยังไม่สั่งหยุดขาย"
+        "0": "โรงเรียนจะย้ายจุดเดิมและตรวจผลก่อนตัดสินใจเรื่องจุดที่สาม",
+        "2": "ยอดขาย 250 ยังไม่ต่ำกว่าเป้าหมาย 200 และโรงเรียนจะทดลองต่อ",
+        "3": "ตัวเลขการใช้เป็นเพียงส่วนหนึ่ง รายงานยังเทียบเป้าหมาย อธิบายคิว และวางแผนทดสอบต่อ"
       },
       "misconception_tags": [],
       "template": null,
@@ -758,7 +758,7 @@
       "figures": [],
       "choices": [
         {
-          "md": "To ask leaders to design a completely new route",
+          "md": "To announce the corrected map",
           "is_answer": false
         },
         {
@@ -766,11 +766,11 @@
           "is_answer": true
         },
         {
-          "md": "To cancel the next walk because the trail is unsafe",
+          "md": "To replace the printed map with an online version beyond the first bridge",
           "is_answer": false
         },
         {
-          "md": "To blame one group for getting lost",
+          "md": "To tell leaders that the corrected map makes extra precautions unnecessary",
           "is_answer": false
         }
       ],
@@ -792,9 +792,9 @@
         "ตัวเลือกใดอธิบายบทบาทของรายละเอียดส่วนใหญ่"
       ],
       "distractor_reasons": {
-        "0": "เส้นทางเดิมยังใช้ เพียงแก้แผนที่และป้าย",
-        "2": "มีคำแนะนำสำหรับการเดินครั้งถัดไป",
-        "3": "ระบุปัญหาของหลายกลุ่มและเสนอการแก้ ไม่ได้ตำหนิ"
+        "0": "อีเมลยังอธิบายสาเหตุเดิมและกำหนดมาตรการพกฉบับพิมพ์กับชี้ทาง",
+        "2": "สัญญาณบริเวณนั้นอ่อน จึงกำหนดให้พกแผนที่พิมพ์",
+        "3": "ยังต้องพกแผนที่พิมพ์และชี้จุดเลี้ยว แม้แก้แผนที่แล้ว"
       },
       "misconception_tags": [],
       "template": null,
@@ -830,7 +830,7 @@
       "figures": [],
       "choices": [
         {
-          "md": "To report a dangerous bus crash",
+          "md": "To argue that the carriage failed because one announcement was louder than expected",
           "is_answer": false
         },
         {
@@ -838,11 +838,11 @@
           "is_answer": true
         },
         {
-          "md": "To prove that electric buses make no sound",
+          "md": "To describe one loud announcement",
           "is_answer": false
         },
         {
-          "md": "To provide the complete bus timetable",
+          "md": "To persuade the operator to remove recorded stop announcements from the quiet carriage",
           "is_answer": false
         }
       ],
@@ -864,9 +864,9 @@
         "ตัวเลือกใดอธิบายบทบาทของรายละเอียดส่วนใหญ่"
       ],
       "distractor_reasons": {
-        "0": "ไม่มีอุบัติเหตุ",
-        "2": "บทพูดถึงกติกาการสนทนา ไม่ใช่เสียงเครื่องยนต์",
-        "3": "ไม่มีตารางเวลา"
+        "0": "ผู้เขียนยังเห็นว่าบริการมีประโยชน์และเสนอให้สื่อสารขอบเขตให้ชัด",
+        "2": "เหตุการณ์เสียงดังเป็นหลักฐานประกอบการประเมินและข้อเสนอ ไม่ใช่จุดประสงค์ทั้งหมด",
+        "3": "ผู้เขียนเสนอให้ประกาศความปลอดภัยยังคงได้ยิน"
       },
       "misconception_tags": [],
       "template": null,
@@ -906,15 +906,15 @@
           "is_answer": true
         },
         {
-          "md": "To argue that all seeds should be thrown away",
+          "md": "To explain envelope labels",
           "is_answer": false
         },
         {
-          "md": "To review the flavor of several herbs",
+          "md": "To explain how the club grows the seeds before placing plants in the cabinet",
           "is_answer": false
         },
         {
-          "md": "To announce a competition for the largest flower",
+          "md": "To ask contributors to choose a drawer and file new envelopes themselves",
           "is_answer": false
         }
       ],
@@ -936,9 +936,9 @@
         "ตัวเลือกใดอธิบายบทบาทของรายละเอียดส่วนใหญ่"
       ],
       "distractor_reasons": {
-        "1": "ตู้มีไว้แบ่งปันเมล็ดที่ใช้ได้",
-        "2": "ไม่ได้ประเมินรสชาติ",
-        "3": "ไม่มีการแข่งขัน"
+        "1": "ฉลากเป็นเพียงขั้นหนึ่ง ข้อความครอบคลุมการฝาก ตรวจ รับ และแบ่งเมล็ดด้วย",
+        "2": "ผู้ใช้ฝากเมล็ดแห้งในซอง และไม่มีการปลูกพืชในตู้",
+        "3": "ซองใหม่ต้องใส่ถาด แล้วสมาชิกชมรมจึงตรวจและจัดเข้าลิ้นชัก"
       },
       "misconception_tags": [],
       "template": null,
@@ -974,7 +974,7 @@
       "figures": [],
       "choices": [
         {
-          "md": "To complain that students should stop joining clubs",
+          "md": "To use arrival data to confirm traffic as the main cause and change the bus route",
           "is_answer": false
         },
         {
@@ -982,11 +982,11 @@
           "is_answer": true
         },
         {
-          "md": "To describe the market's busiest shops",
+          "md": "To report traffic delays only",
           "is_answer": false
         },
         {
-          "md": "To advertise faster buses for sale",
+          "md": "To show that the new 3:45 deadline has already solved the delay",
           "is_answer": false
         }
       ],
@@ -1008,9 +1008,9 @@
         "ตัวเลือกใดอธิบายบทบาทของรายละเอียดส่วนใหญ่"
       ],
       "distractor_reasons": {
-        "0": "ไม่ได้ต่อต้านกิจกรรมชมรม",
-        "2": "ตลาดเป็นเพียงสาเหตุที่คนเคยคาด",
-        "3": "ไม่มีการขายรถ"
+        "0": "ข้อมูลไม่ยืนยันรถติดเป็นสาเหตุหลักและไม่มีการเปลี่ยนเส้นทาง",
+        "2": "รายงานใช้ข้อมูลแยกสาเหตุและเสนอการทดลองเส้นตายใหม่ด้วย",
+        "3": "กำหนดเวลาใหม่ยังไม่เริ่มและต้องเก็บข้อมูลอีกสามสิบวัน"
       },
       "misconception_tags": [],
       "template": null,
@@ -1050,15 +1050,15 @@
           "is_answer": true
         },
         {
-          "md": "To rank volunteers by speed",
+          "md": "To show that rainfall amount determined the action on each day",
           "is_answer": false
         },
         {
-          "md": "To advertise a brand of soil sensor",
+          "md": "To compare the wall sensor with a second sensor in the rest of the bed",
           "is_answer": false
         },
         {
-          "md": "To prove that rainfall always controls watering",
+          "md": "To list four soil readings",
           "is_answer": false
         }
       ],
@@ -1080,9 +1080,9 @@
         "ตัวเลือกใดอธิบายบทบาทของรายละเอียดส่วนใหญ่"
       ],
       "distractor_reasons": {
-        "1": "ไม่มีชื่อหรือเวลาของอาสาสมัคร",
-        "2": "ไม่มีแบรนด์หรือการขาย",
-        "3": "ข้อความย้ำว่าฝนอย่างเดียวไม่ตัดสิน"
+        "1": "การกระทำตรงกับเกณฑ์ค่าดิน และข้อความย้ำว่าฝนอย่างเดียวไม่ตัดสิน",
+        "2": "ตารางมีค่าดินรายวันเพียงค่าเดียว การเปรียบเทียบตำแหน่งจะเริ่มหลังย้ายเซนเซอร์",
+        "3": "ตารางยังเชื่อมค่าแต่ละวันกับการรดน้ำเพื่อแสดงการใช้กฎ"
       },
       "misconception_tags": [],
       "template": null,
@@ -1118,11 +1118,11 @@
       "figures": [],
       "choices": [
         {
-          "md": "To teach readers how to wash every fabric",
+          "md": "To instruct borrowers to repair damaged items before recording their condition",
           "is_answer": false
         },
         {
-          "md": "To request that all old costumes be thrown away",
+          "md": "To report borrowing totals only",
           "is_answer": false
         },
         {
@@ -1130,7 +1130,7 @@
           "is_answer": true
         },
         {
-          "md": "To criticize students for performing plays",
+          "md": "To argue that borrowing costumes creates more waste than wearing each item once",
           "is_answer": false
         }
       ],
@@ -1152,9 +1152,9 @@
         "ตัวเลือกใดอธิบายบทบาทของรายละเอียดส่วนใหญ่"
       ],
       "distractor_reasons": {
-        "0": "ไม่มีวิธีซัก",
-        "1": "เป้าหมายคือให้ชีวิตครั้งที่สอง",
-        "3": "น้ำเสียงสนับสนุนโครงการ"
+        "0": "ชมรมถ่ายความเสียหายเดิมก่อนเก็บ และโต๊ะซ่อมยังเป็นแผนอนาคต",
+        "1": "ยอดยืมเป็นเพียงผลช่วงแรก บทยังอธิบายระบบและประโยชน์ด้านความคิดสร้างสรรค์",
+        "3": "โครงการมีเป้าหมายลดการใช้ครั้งเดียวและรายงานประโยชน์ของการใช้ซ้ำ"
       },
       "misconception_tags": [],
       "template": null,
@@ -1190,15 +1190,15 @@
       "figures": [],
       "choices": [
         {
-          "md": "To sell personal headphones at the front desk",
+          "md": "To explain why printed transcripts now contain the optional descriptions",
           "is_answer": false
         },
         {
-          "md": "To apologize for closing the museum permanently",
+          "md": "To require visitors to play the twelve tracks in the standard order",
           "is_answer": false
         },
         {
-          "md": "To review one visitor's favorite object",
+          "md": "To describe borrowed headphones",
           "is_answer": false
         },
         {
@@ -1224,9 +1224,9 @@
         "ตัวเลือกใดอธิบายบทบาทของรายละเอียดส่วนใหญ่"
       ],
       "distractor_reasons": {
-        "0": "ให้ยืมบางส่วน ไม่ได้ขาย",
-        "1": "พิพิธภัณฑ์ยังเปิดและให้บริการ",
-        "2": "เป็นข้อมูลบริการ ไม่ใช่รีวิวส่วนตัว"
+        "0": "transcripts ไม่รวมคำบรรยายเสริม",
+        "1": "ผู้ใช้หยุด ข้ามวัตถุ หรือเปลี่ยนลำดับได้",
+        "2": "การยืมหูฟังเป็นรายละเอียดท้ายประกาศ ไม่ใช่จุดประสงค์หลัก"
       },
       "misconception_tags": [],
       "template": null,
@@ -1262,15 +1262,15 @@
       "figures": [],
       "choices": [
         {
-          "md": "To accuse a nearby farmer of causing pollution",
+          "md": "To report that the five-week pattern proves bare soil caused the cloudy water",
           "is_answer": false
         },
         {
-          "md": "To announce that the experiment has proved its cause",
+          "md": "To report five weeks of readings",
           "is_answer": false
         },
         {
-          "md": "To persuade students to swim in the creek",
+          "md": "To recommend covering the whole bank permanently before testing the straw",
           "is_answer": false
         },
         {
@@ -1296,9 +1296,9 @@
         "ตัวเลือกใดอธิบายบทบาทของรายละเอียดส่วนใหญ่"
       ],
       "distractor_reasons": {
-        "0": "ไม่มีการกล่าวหาบุคคล",
-        "1": "ข้อความย้ำว่ายังไม่พิสูจน์",
-        "2": "ทีมไม่ลงน้ำ"
+        "0": "ข้อความย้ำว่ารูปแบบยังไม่พิสูจน์สาเหตุ",
+        "1": "ผลช่วงแรกเป็นเพียงส่วนหนึ่ง บทยังอธิบายข้อจำกัดและการทดลองถัดไป",
+        "2": "แผนคือคลุมเพียงครึ่งเพื่อทดลองก่อนเสนอวิธีถาวร"
       },
       "misconception_tags": [],
       "template": null,

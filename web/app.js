@@ -144,6 +144,21 @@ function figHTML(f) {
 
 /* ---------- ความคืบหน้า (เก็บในเบราว์เซอร์) */
 const STORE_KEY = "tgat-tutor.v1";
+/* วันที่ตามเวลาของเครื่องผู้ใช้ รูป YYYY-MM-DD */
+function dayKey(d) {
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
+}
+
+/* จำนวนวันที่ฝึกติดต่อกันจนถึงวันนี้ (ถ้าวันนี้ยังไม่ได้ทำ นับถึงเมื่อวาน เพื่อไม่ให้ตัวเลขหายก่อนหมดวัน) */
+function streakInfo(days) {
+  const d = new Date();
+  const today = (days || {})[dayKey(d)] || 0;
+  if (!today) d.setDate(d.getDate() - 1);
+  let n = 0;
+  while ((days || {})[dayKey(d)]) { n += 1; d.setDate(d.getDate() - 1); }
+  return { streak: n, today };
+}
+
 const store = (() => {
   let s = { topics: {}, items: {}, lessons: {}, exams: [] };
   try { const raw = localStorage.getItem(STORE_KEY); if (raw) s = { ...s, ...JSON.parse(raw) }; } catch { /* โหมดส่วนตัว */ }
@@ -155,6 +170,8 @@ const store = (() => {
       t.tries += 1; t.score += score;
       const it = (s.items[baseId] ||= { tries: 0, best: 0 });
       it.tries += 1; it.best = Math.max(it.best, score);
+      const day = dayKey(new Date());
+      (s.days ||= {})[day] = (s.days[day] || 0) + 1;
       save();
     },
     lessonDone(id) { s.lessons[id] = Date.now(); save(); },
@@ -262,6 +279,12 @@ async function pageHome() {
     <p class="lead">เว็บฝึกข้อสอบเข้ามหาวิทยาลัย (TCAS) ทุกข้อมีคำใบ้ เฉลยทีละขั้น
       และบอกเหตุผลว่า <b>ทำไมตัวเลือกที่ผิดถึงผิด</b></p>
     <div class="cta-row">${primary}${secondary}</div>
+    ${(() => {
+      const k = streakInfo(s.days);
+      if (!k.streak && !k.today) return "";
+      return `<p class="streak" role="status"><b>ฝึกต่อเนื่อง ${k.streak} วัน</b> · ${k.today
+        ? `วันนี้ทำแล้ว ${k.today} ข้อ` : "วันนี้ยังไม่ได้ทำ ทำสักข้อเพื่อไม่ให้ขาดช่วง"}</p>`;
+    })()}
     <p class="hero-facts"><span><b>${st.lessons}</b> บทเรียน</span><span><b>${st.problems.toLocaleString("th-TH")}</b> โจทย์</span>
       <span><b>4</b> วิชา</span><span>ใช้บนมือถือได้</span></p>
   </section>
@@ -275,6 +298,12 @@ async function pageHome() {
     <li><span class="n">3</span><b>สอบเสมือน</b>
       <p>จับเวลาตามจำนวนข้อและเวลาของข้อสอบจริง แล้วดูว่าควรกลับไปทบทวนเรื่องไหน</p></li>
   </ol>
+
+  <a class="card duel-card" href="#/duel">
+    <span class="code">ท้าเพื่อน</span>
+    <span class="name">ทำโจทย์ชุดเดียวกัน 10 ข้อ แล้วเทียบคะแนนกัน</span>
+    <span class="what">สร้างลิงก์ส่งให้เพื่อน ทุกคนที่เปิดลิงก์ได้โจทย์ชุดเดียวกัน จับเวลา 10 นาที ทำเสร็จแล้วดูเฉลยด้วยกันได้</span>
+  </a>
 
   <h2 id="subjects" tabindex="-1">เลือกวิชา</h2>
   <div class="subjects">
@@ -751,11 +780,13 @@ function startSession(el, entries, opts) {
           <button class="btn primary" id="again">${opts.mode === "exam" ? "ทำชุดใหม่ (สุ่มข้อใหม่)" : "ทำชุดใหม่ (ตัวเลข/รูปใหม่)"}</button>
           <button class="btn" id="review">ดูเฉลยทีละข้อ</button>
         </div></div>
+      ${opts.extraSummary ? opts.extraSummary({ total, n, used: S.used || 0 }) : ""}
       ${secTable}
       ${weak.length && opts.showTopics ? `<h3>หัวข้อที่ควรทบทวน</h3>${weak.map(([id]) =>
         `<a class="leaf" href="#/t/${id}"><span class="t">${esc(CATALOG.byId[id].name_th)}</span><span class="badge warn">ได้ ${Math.round(byTopic[id][0] / byTopic[id][1] * 100)}%</span></a>`).join("")}` : ""}`;
     document.getElementById("again").addEventListener("click", () => opts.onRestart());
     document.getElementById("review").addEventListener("click", () => { S.done = true; S.i = 0; render(); });
+    if (opts.bindSummary) opts.bindSummary({ total, n, used: S.used || 0 });
     scrollTop();
   }
 
@@ -849,6 +880,117 @@ async function pageExam(sid, size) {
     document.getElementById("tabBody").insertAdjacentHTML("beforebegin",
       `<div class="note">ส่วนที่โจทย์ยังไม่พอจึงได้น้อยกว่าสัดส่วนจริง: ${esc(short.join(" · "))}</div>`);
   }
+}
+
+/* ---------- ท้าเพื่อน
+ * ไม่มีเซิร์ฟเวอร์: ลิงก์เก็บรหัสชุด (วิชา + เลขสุ่ม) ทุกเครื่องที่เปิดลิงก์เดียวกันสุ่มด้วยเลขเดียวกันจึงได้โจทย์ชุดเดียวกัน
+ * คะแนนของคนท้าแนบไปในลิงก์เป็นตัวเลขธรรมดา (คะแนน-วินาที) ไม่มีการยืนยันตัวตน เป็นเกมระหว่างเพื่อน ไม่ใช่การสอบ */
+const DUEL_N = 10;
+const DUEL_MIN = 10;
+
+function seededRandom(seed) {          // mulberry32
+  let a = seed >>> 0;
+  return () => {
+    a = (a + 0x6D2B79F5) >>> 0;
+    let t = a;
+    t = Math.imul(t ^ (t >>> 15), t | 1);
+    t ^= t + Math.imul(t ^ (t >>> 7), t | 61);
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+  };
+}
+
+function duelLink(sid, seed, result) {
+  const base = location.href.split("#")[0];
+  return `${base}#/duel/${sid}/${seed}${result ? "/" + result : ""}`;
+}
+
+async function pageDuel(sid, seedText, rival) {
+  const c = await catalog();
+  const subjects = c.subjects.filter((x) => EXAM_BLUEPRINT[x.id]);
+
+  if (!sid || !seedText) {
+    $app.innerHTML = `<h1>ท้าเพื่อน</h1>
+      <p class="lead">เลือกวิชา แล้วจะได้ลิงก์ของโจทย์ ${DUEL_N} ข้อ ส่งลิงก์ให้เพื่อน ทุกคนที่เปิดจะได้โจทย์ชุดเดียวกัน
+        จับเวลา ${DUEL_MIN} นาที ไม่มีคำใบ้ระหว่างทำ ส่งแล้วเห็นคะแนนและเฉลยทุกข้อ</p>
+      <div class="subjects">${subjects.map((x) => `<button class="card subject-card duel-pick" data-sid="${x.id}">
+        <span class="code">${SUBJECT_INFO[x.id].short}</span>
+        <span class="name">${esc(x.name_th.replace(SUBJECT_INFO[x.id].short + " ", ""))}</span>
+        <span class="what">สร้างชุดใหม่ของวิชานี้</span></button>`).join("")}</div>
+      <div class="note">คะแนนเก็บในเครื่องของแต่ละคน เว็บไม่มีระบบสมาชิก การเทียบคะแนนทำโดยส่งลิงก์ผลให้กัน
+        ชุดเดียวกันทำซ้ำได้ แต่ครั้งที่สองจะจำคำตอบได้ ถ้าจะแข่งใหม่ให้สร้างชุดใหม่</div>`;
+    $app.querySelectorAll(".duel-pick").forEach((b) => b.addEventListener("click", () => {
+      location.hash = `#/duel/${b.dataset.sid}/${Math.floor(Math.random() * 900000) + 100000}`;
+    }));
+    return;
+  }
+
+  const seed = parseInt(seedText, 10);
+  if (!EXAM_BLUEPRINT[sid] || !Number.isFinite(seed)) return notFound();
+  const secs = examSections(c, sid);
+  const m = /^(\d+(?:\.\d+)?)-(\d+)$/.exec(rival || "");
+  const rivalScore = m ? Math.min(DUEL_N, parseFloat(m[1])) : null;
+  const rivalSec = m ? parseInt(m[2], 10) : null;
+  const fmt = (t) => `${Math.floor(t / 60)}:${String(t % 60).padStart(2, "0")}`;
+
+  $app.innerHTML = `${crumbs(c, sid)}<h1>ท้าเพื่อน · ${SUBJECT_INFO[sid].short} · ชุด ${seed}</h1>
+    ${rivalScore != null ? `<div class="note"><b>เพื่อนทำได้ ${rivalScore} / ${DUEL_N} ใช้เวลา ${fmt(rivalSec)}</b> ลองทำชุดเดียวกันดู</div>` : ""}
+    <div id="tabBody"><p class="muted">กำลังเตรียมโจทย์…</p></div>`;
+
+  // เลือกโจทย์ด้วยเลขสุ่มของชุด: เรียงคลังตาม id ก่อน เพื่อให้ทุกเครื่องเริ่มจากลำดับเดียวกัน แล้วเวียนเลือกทีละส่วน
+  const bank = await getJSON(`data/exam/${sid}.json`);
+  const rnd = seededRandom(seed);
+  const pools = secs.map((sec) => shuffle(bank.items.filter((p) => p.topic.startsWith(sec.id + "."))
+    .sort((a, b) => (a.id < b.id ? -1 : 1)), rnd));
+  const used = new Set();
+  const picked = [];
+  for (let k = 0; picked.length < DUEL_N && k < DUEL_N * 20; k++) {
+    const pool = pools[k % pools.length];
+    const p = pool.shift();
+    if (!p) continue;
+    const key = p.group || p.id;
+    if (used.has(key)) continue;
+    used.add(key);
+    picked.push({ base: p, topic: p.topic });
+  }
+  const items = picked.sort((a, b) => a.base.difficulty - b.base.difficulty || (a.base.id < b.base.id ? -1 : 1));
+
+  startSession(document.getElementById("tabBody"), items, {
+    mode: "exam", fresh: false, limitSec: DUEL_MIN * 60, showTopics: true,
+    title: `ท้าเพื่อน ${SUBJECT_INFO[sid].short} ชุด ${seed} · ${items.length} ข้อ`,
+    onRestart: () => { location.hash = "#/duel"; },
+    extraSummary: ({ total, n, used: sec }) => {
+      const mine = Number.isInteger(total) ? total : total.toFixed(2);
+      let verdict = "";
+      if (rivalScore != null) {
+        verdict = total > rivalScore || (total === rivalScore && sec < rivalSec)
+          ? `<p><b>คุณชนะ</b> เพื่อนได้ ${rivalScore} / ${n} ใช้ ${fmt(rivalSec)}</p>`
+          : total === rivalScore && sec === rivalSec
+            ? `<p><b>เสมอกัน</b> เพื่อนได้ ${rivalScore} / ${n} ใช้ ${fmt(rivalSec)}</p>`
+            : `<p><b>เพื่อนยังนำอยู่</b> เพื่อนได้ ${rivalScore} / ${n} ใช้ ${fmt(rivalSec)} ดูเฉลยข้อที่พลาดแล้วสร้างชุดใหม่ไปท้ากลับ</p>`;
+      }
+      return `<div class="card duel-share">
+        ${verdict}
+        <p style="margin:0 0 8px"><b>ส่งผลให้เพื่อน</b> เพื่อนเปิดลิงก์นี้จะได้โจทย์ชุดเดียวกัน และเห็นคะแนนของคุณเป็นเป้า</p>
+        <textarea id="duelText" readonly rows="3" aria-label="ข้อความสำหรับส่งให้เพื่อน">ฉันได้ ${mine}/${n} ใช้เวลา ${fmt(sec)} ในชุด ${SUBJECT_INFO[sid].short} ลองทำชุดเดียวกันดู ${duelLink(sid, seed, `${mine}-${sec}`)}</textarea>
+        <div class="row" style="justify-content:center;margin-top:8px">
+          <button class="btn" id="duelCopy">คัดลอกข้อความ</button>
+          <a class="btn" href="#/duel">สร้างชุดใหม่</a>
+        </div>
+        <p class="muted" id="duelCopied" role="status" style="margin:6px 0 0"></p></div>`;
+    },
+    bindSummary: () => {
+      const btn = document.getElementById("duelCopy");
+      const again = document.getElementById("again");
+      if (again) again.textContent = "สร้างชุดใหม่";
+      if (!btn) return;
+      btn.addEventListener("click", async () => {
+        const ta = document.getElementById("duelText");
+        const note = document.getElementById("duelCopied");
+        try { await navigator.clipboard.writeText(ta.value); note.textContent = "คัดลอกแล้ว นำไปวางในแชตได้เลย"; }
+        catch { ta.focus(); ta.select(); note.textContent = "คัดลอกอัตโนมัติไม่ได้ เลือกข้อความในกล่องแล้วคัดลอกเอง"; }
+      });
+    },
+  });
 }
 
 /* ---------- ความคืบหน้า */
@@ -1171,6 +1313,7 @@ async function route() {
     else if (a === "t") await pageTopic(decodeURIComponent(b), c2);
     else if (a === "exam") await pageExam(b, c2 || "");
     else if (a === "mix") location.hash = `#/exam/${b}`;   // เส้นทางเดิม ให้ไปหน้าใหม่แทน
+    else if (a === "duel") await pageDuel(b, c2, h.split("/")[3]);
     else if (a === "progress") await pageProgress();
     else if (a === "redo") await pageRedo();
     else if (a === "official") pageOfficial();

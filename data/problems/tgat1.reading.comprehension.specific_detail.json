@@ -906,7 +906,7 @@
       "figures": [],
       "choices": [
         {
-          "md": "At the end of each month",
+          "md": "At the end of the collection month written on the envelope",
           "is_answer": false
         },
         {
@@ -914,11 +914,11 @@
           "is_answer": true
         },
         {
-          "md": "Only when every drawer is full",
+          "md": "When the New Seeds tray becomes full",
           "is_answer": false
         },
         {
-          "md": "Every morning",
+          "md": "The morning after an envelope is added",
           "is_answer": false
         }
       ],
@@ -940,9 +940,9 @@
         "อ่านหนึ่งประโยคก่อนและหลังตำแหน่งนั้น"
       ],
       "distractor_reasons": {
-        "0": "เดือนใช้เขียนวันที่เก็บ ไม่ใช่รอบตรวจ",
-        "2": "ไม่ได้ผูกกับความเต็มของตู้",
-        "3": "ไม่มีข้อมูลตรวจทุกเช้า"
+        "0": "เดือนใช้บอกว่าเก็บเมล็ดเมื่อไร ไม่ใช่กำหนดรอบตรวจ",
+        "2": "การตรวจเกิดทุกวันพุธ ไม่ได้รอให้ถาดเต็ม",
+        "3": "บทกำหนดตรวจตามวันพุธ ไม่ได้ตรวจเช้าวันถัดไปทุกซอง"
       },
       "misconception_tags": [],
       "template": null,
@@ -1266,7 +1266,7 @@
       "figures": [],
       "choices": [
         {
-          "md": "After every rainfall",
+          "md": "On the morning after rainfall",
           "is_answer": false
         },
         {
@@ -1274,11 +1274,11 @@
           "is_answer": true
         },
         {
-          "md": "Every afternoon for three weeks",
+          "md": "On Monday afternoons during the first three weeks",
           "is_answer": false
         },
         {
-          "md": "Only when the water looks clear",
+          "md": "When the water at the lower point appears cloudy",
           "is_answer": false
         }
       ],
@@ -1300,9 +1300,9 @@
         "อ่านหนึ่งประโยคก่อนและหลังตำแหน่งนั้น"
       ],
       "distractor_reasons": {
-        "0": "สังเกตความขุ่นหลังฝนแต่กำหนดวัดทุกเช้าวันจันทร์",
-        "2": "เวลาและช่วงไม่ตรง",
-        "3": "วัดเป็นประจำ ไม่ขึ้นกับการมอง"
+        "0": "ฝนเป็นสิ่งที่สัมพันธ์กับความขุ่น แต่กำหนดวัดคือเช้าวันจันทร์",
+        "2": "บทระบุ morning และติดตามอย่างน้อยห้าสัปดาห์",
+        "3": "ทีมวัดตามตารางที่ทั้งสามจุด ไม่ได้รอให้เห็นความขุ่นก่อน"
       },
       "misconception_tags": [],
       "template": null,

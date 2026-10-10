@@ -620,15 +620,15 @@
           "is_answer": true
         },
         {
-          "md": "It tells the history of a broken item in time order.",
+          "md": "It explains the repair process, accepts items with damaged batteries, and ends by assigning each visitor a technician.",
           "is_answer": false
         },
         {
-          "md": "It compares two repair shops, their safety checks, their prices, and the services each one recommends.",
+          "md": "It gives event details, guarantees that accepted items will be repaired, and ends by waiving the cost of new parts.",
           "is_answer": false
         },
         {
-          "md": "It lists technical causes of battery failure.",
+          "md": "It lists suitable items only.",
           "is_answer": false
         }
       ],
@@ -650,9 +650,9 @@
         "ตัวเลือกต้องอธิบายทั้งต้นและท้าย"
       ],
       "distractor_reasons": {
-        "1": "ไม่ได้เล่าเรื่องของชิ้นใดชิ้นหนึ่ง",
-        "2": "ไม่มีร้านสองแห่งให้เปรียบเทียบ",
-        "3": "กล่าวถึงแบตเตอรี่เพียงเป็นข้อห้าม"
+        "1": "ของที่มีแบตเตอรี่บวมไม่รับ และบัตรใช้จำกัดจำนวน ไม่ได้จองช่าง",
+        "2": "ช่วงกลางย้ำว่าไม่รับประกันการซ่อม และเจ้าของต้องจ่ายค่าอะไหล่",
+        "3": "บทไปต่อถึงขั้นตอน ค่าใช้จ่าย ข้อห้าม เป้าหมาย และวิธีรับคิว"
       },
       "misconception_tags": [],
       "template": null,
@@ -692,15 +692,15 @@
           "is_answer": true
         },
         {
-          "md": "It begins with the final decision and hides the evidence.",
+          "md": "It reports the final-week numbers only.",
           "is_answer": false
         },
         {
-          "md": "It gives detailed construction instructions for two stations and then tests whether the reader remembers every step.",
+          "md": "It compares results with the target, declares the trial complete, and announces a third station as the final decision.",
           "is_answer": false
         },
         {
-          "md": "It presents two schools with opposite policies.",
+          "md": "It reports the queue problem, removes the gym station, and ends by banning single-use bottles.",
           "is_answer": false
         }
       ],
@@ -722,9 +722,9 @@
         "ตัวเลือกต้องอธิบายทั้งต้นและท้าย"
       ],
       "distractor_reasons": {
-        "1": "ยังไม่มีการตัดสินใจขั้นสุดท้ายและแสดงตัวเลขชัด",
-        "2": "ไม่มีคำสั่งหรือแบบทดสอบ",
-        "3": "กล่าวถึงโรงเรียนเดียว"
+        "1": "บทเทียบเป้าหมาย อธิบายสาเหตุ และเสนอแผนติดตามด้วย",
+        "2": "ผลยังไม่ถึงเป้าและเรื่องสถานีที่สามยังรอการทดสอบอีกเดือน",
+        "3": "แผนคือย้ายสถานี ไม่ได้ถอดออกหรือห้ามขายขวด"
       },
       "misconception_tags": [],
       "template": null,
@@ -760,7 +760,7 @@
       "figures": [],
       "choices": [
         {
-          "md": "It compares phone brands before recommending one.",
+          "md": "It gives instructions for the next walk, reports that the vines have already been cleared, and ends with last month's mistake.",
           "is_answer": false
         },
         {
@@ -768,11 +768,11 @@
           "is_answer": true
         },
         {
-          "md": "It tells a fictional adventure and ends with a surprise.",
+          "md": "It gives map-download instructions only.",
           "is_answer": false
         },
         {
-          "md": "It lists forest animals from the most common species to the rarest species seen beyond the bridge.",
+          "md": "It describes a past navigation problem, keeps the incorrect map, and tells leaders to rely on phones after the bridge.",
           "is_answer": false
         }
       ],
@@ -794,9 +794,9 @@
         "ตัวเลือกต้องอธิบายทั้งต้นและท้าย"
       ],
       "distractor_reasons": {
-        "0": "กล่าวถึงข้อจำกัดของสัญญาณ ไม่ใช่ยี่ห้อ",
-        "2": "เป็นอีเมลปฏิบัติงานตรงไปตรงมา",
-        "3": "ไม่มีข้อมูลสัตว์"
+        "0": "ลำดับจริงเริ่มจากความผิดพลาด และเถาวัลย์จะถูกเคลียร์ในอนาคต",
+        "2": "ข้อความยังอธิบายเหตุที่หลง ข้อจำกัดสัญญาณ และหน้าที่ผู้นำระหว่างเดิน",
+        "3": "อีเมลให้ลบแผนที่เก่าและพกฉบับพิมพ์เพราะสัญญาณอ่อน"
       },
       "misconception_tags": [],
       "template": null,
@@ -832,11 +832,11 @@
       "figures": [],
       "choices": [
         {
-          "md": "It compares fares on three bus routes.",
+          "md": "It lists carriage rules only.",
           "is_answer": false
         },
         {
-          "md": "It gives a technical history of electric buses and explains how rear speakers developed over several decades.",
+          "md": "It lists the carriage rules, reports that they produced complete silence, and ends by praising the current name.",
           "is_answer": false
         },
         {
@@ -844,7 +844,7 @@
           "is_answer": true
         },
         {
-          "md": "It lists rules without describing a journey.",
+          "md": "It gives the final recommendation first, describes the loud announcement, and ends with the calm start of the trip.",
           "is_answer": false
         }
       ],
@@ -866,9 +866,9 @@
         "ตัวเลือกต้องอธิบายทั้งต้นและท้าย"
       ],
       "distractor_reasons": {
-        "0": "ไม่มีราคาและไม่มีสามเส้นทาง",
-        "1": "ไม่มีประวัติเทคโนโลยี",
-        "3": "มีประสบการณ์ตั้งแต่ต้นถึงกลางทาง"
+        "0": "บทเล่าประสบการณ์ตามเวลาและจบด้วยการประเมินพร้อมข้อเสนอ",
+        "1": "มีประกาศดังและผู้เขียนเห็นว่าชื่อ quiet คาดหวังเกินจริง",
+        "3": "ข้อความเล่าตามเวลาแล้วจึงให้ข้อเสนอ ไม่ได้เรียงย้อนกลับ"
       },
       "misconception_tags": [],
       "template": null,
@@ -904,15 +904,15 @@
       "figures": [],
       "choices": [
         {
-          "md": "It moves from the oldest plant to the newest plant and explains the complete growing history of each species.",
+          "md": "It explains how to take seeds, how to grow them in the cabinet, and how to label them after use.",
           "is_answer": false
         },
         {
-          "md": "It presents a problem but offers no action.",
+          "md": "It lists envelope-labeling rules only.",
           "is_answer": false
         },
         {
-          "md": "It compares paper and plastic factories.",
+          "md": "It explains how to give seeds, tells contributors to file them directly, and lets takers empty an envelope.",
           "is_answer": false
         },
         {
@@ -938,9 +938,9 @@
         "ตัวเลือกต้องอธิบายทั้งต้นและท้าย"
       ],
       "distractor_reasons": {
-        "0": "ไม่มีประวัติพืช",
-        "1": "มีขั้นตอนปฏิบัติหลายข้อ",
-        "2": "กล่าวถึงวัสดุเพียงเพื่อควบคุมความชื้น"
+        "0": "ข้อความเริ่มจากการฝาก ตู้ไม่ได้ใช้ปลูก และฉลากต้องเขียนก่อนฝาก",
+        "1": "บทดำเนินต่อถึงการตรวจ จัดเก็บ รับเมล็ด และกำจัดซองที่ใช้ไม่ได้",
+        "2": "ซองใหม่ต้องผ่านถาดตรวจ และผู้รับต้องเหลือเมล็ดให้คนอื่น"
       },
       "misconception_tags": [],
       "template": null,
@@ -980,15 +980,15 @@
           "is_answer": true
         },
         {
-          "md": "It lists bus models from cheapest to most expensive.",
+          "md": "It lists arrival records only.",
           "is_answer": false
         },
         {
-          "md": "It tells one student's journey as a personal story.",
+          "md": "It proposes a new deadline, reports that it worked, and then describes the original delays.",
           "is_answer": false
         },
         {
-          "md": "It gives directions from the school to the market.",
+          "md": "It states the delay pattern, confirms traffic as the main cause, and proposes a new route around the market.",
           "is_answer": false
         }
       ],
@@ -1010,9 +1010,9 @@
         "ตัวเลือกต้องอธิบายทั้งต้นและท้าย"
       ],
       "distractor_reasons": {
-        "1": "ไม่มีรุ่นหรือราคา",
-        "2": "ใช้ข้อมูลสามสิบวัน ไม่ใช่เรื่องบุคคล",
-        "3": "ไม่มีเส้นทางเลี้ยว"
+        "1": "บทใช้ข้อมูลทดสอบสาเหตุและเสนอการเปลี่ยนเส้นตายพร้อมแผนวัดผล",
+        "2": "ข้อความเริ่มจากข้อมูลเดิมและยังไม่มีผลหลังใช้เส้นตายใหม่",
+        "3": "ข้อมูลชี้ไปที่รายชื่อช้าและมาตรการคือเปลี่ยนเส้นตาย ไม่ใช่เส้นทาง"
       },
       "misconception_tags": [],
       "template": null,
@@ -1048,15 +1048,15 @@
       "figures": [],
       "choices": [
         {
-          "md": "It tells the history of rooftop farming by year.",
+          "md": "It presents observations in a table, uses rainfall as the decision rule, and confirms that the wall sensor has no bias.",
           "is_answer": false
         },
         {
-          "md": "It gives a recipe followed by customer reviews.",
+          "md": "It presents the four-day table only.",
           "is_answer": false
         },
         {
-          "md": "It compares two schools' gardens.",
+          "md": "It explains the decision rule, gives the four-day observations, and ends by replacing the shared display with touch tests.",
           "is_answer": false
         },
         {
@@ -1082,9 +1082,9 @@
         "ตัวเลือกต้องอธิบายทั้งต้นและท้าย"
       ],
       "distractor_reasons": {
-        "0": "ข้อมูลมีเพียงสี่วันทดลอง",
-        "1": "ไม่มีอาหารหรือรีวิว",
-        "2": "กล่าวถึงสวนเดียว"
+        "0": "เกณฑ์ใช้ค่าดินและข้อความเตือนว่าตำแหน่งข้างผนังอาจทำให้ค่าเพี้ยน",
+        "1": "ประกาศยังอธิบายกฎ ข้อจำกัดเซนเซอร์ และคำสั่งแก่อาสาสมัคร",
+        "2": "ตารางมาก่อนกฎ และประกาศให้เชื่อจอแทนการสัมผัส"
       },
       "misconception_tags": [],
       "template": null,
@@ -1120,15 +1120,15 @@
       "figures": [],
       "choices": [
         {
-          "md": "It gives cleaning instructions without describing the closet.",
+          "md": "It reports borrowing results only.",
           "is_answer": false
         },
         {
-          "md": "It lists plays in order of ticket sales.",
+          "md": "It introduces the sharing process, reports the six-week results first, and ends by explaining why the closet was opened.",
           "is_answer": false
         },
         {
-          "md": "It argues against reuse and then withdraws the claim.",
+          "md": "It introduces a waste problem, explains how borrowers photograph new damage, and reports that late returns were common.",
           "is_answer": false
         },
         {
@@ -1154,9 +1154,9 @@
         "ตัวเลือกต้องอธิบายทั้งต้นและท้าย"
       ],
       "distractor_reasons": {
-        "0": "กระบวนการตู้เป็นแกนหลัก",
-        "1": "ไม่มีชื่อการแสดงหรือยอดบัตร",
-        "2": "สนับสนุนการใช้ซ้ำตลอด"
+        "0": "บทเริ่มจากปัญหาและอธิบายกระบวนการก่อนรายงานผลพร้อมแผนต่อไป",
+        "1": "บทเริ่มจากปัญหาชุดใช้ครั้งเดียว แล้วอธิบายระบบก่อนรายงานผล",
+        "2": "ภาพบันทึกความเสียหายเดิม และมีของคืนช้าเพียงหนึ่งชิ้น"
       },
       "misconception_tags": [],
       "template": null,
@@ -1192,7 +1192,7 @@
       "figures": [],
       "choices": [
         {
-          "md": "It compares ticket prices at several museums.",
+          "md": "It gives the reason for a revision, keeps one continuous recording, and ends by requiring visitors to buy headphones.",
           "is_answer": false
         },
         {
@@ -1200,11 +1200,11 @@
           "is_answer": true
         },
         {
-          "md": "It presents a mystery and reveals the answer at the end.",
+          "md": "It lists the twelve tracks only.",
           "is_answer": false
         },
         {
-          "md": "It tells the life story of an artist.",
+          "md": "It lists practical details first, compares the optional descriptions with transcripts, and ends with the complaint about the old tour.",
           "is_answer": false
         }
       ],
@@ -1226,9 +1226,9 @@
         "ตัวเลือกต้องอธิบายทั้งต้นและท้าย"
       ],
       "distractor_reasons": {
-        "0": "มีพิพิธภัณฑ์เดียวและไม่เปรียบเทียบราคา",
-        "2": "เป็นประกาศข้อมูลตรงไปตรงมา",
-        "3": "ไม่มีศิลปิน"
+        "0": "ฉบับใหม่แบ่งเป็นสิบสองแทร็กและหูฟังเป็นเพียงคำแนะนำพร้อมมีให้ยืม",
+        "2": "บทเริ่มด้วยเหตุที่แก้และจบด้วยรายละเอียดการใช้ ราคา และเวลา",
+        "3": "ข้อความเริ่มจากปัญหาฉบับเก่าแล้วจึงอธิบายคุณสมบัติและรายละเอียดใช้จริง"
       },
       "misconception_tags": [],
       "template": null,
@@ -1268,15 +1268,15 @@
           "is_answer": true
         },
         {
-          "md": "It gives safety rules without any findings.",
+          "md": "It introduces an observation, treats the first pattern as proof, and proposes covering the whole bank permanently.",
           "is_answer": false
         },
         {
-          "md": "It presents a final solution before describing the problem.",
+          "md": "It reports the five-week pattern only.",
           "is_answer": false
         },
         {
-          "md": "It compares three unrelated school subjects.",
+          "md": "It lists safety limits, reports that the upstream points changed most, and ends without a follow-up test.",
           "is_answer": false
         }
       ],
@@ -1298,9 +1298,9 @@
         "ตัวเลือกต้องอธิบายทั้งต้นและท้าย"
       ],
       "distractor_reasons": {
-        "1": "มีผลความใสห้าสัปดาห์",
-        "2": "ยังไม่มีทางแก้ถาวร",
-        "3": "ทุกส่วนอยู่ในโครงการลำธารเดียว"
+        "1": "บทเตือนว่ายังไม่พิสูจน์และเสนอทดลองเพียงครึ่งพื้นที่ก่อน",
+        "2": "บทเริ่มจากการสังเกตและจบด้วยข้อจำกัดพร้อมการทดลองต่อ",
+        "3": "จุดใต้ดินเปลือยเปลี่ยนมากกว่าและมีแผนทดลองฟางต่อ"
       },
       "misconception_tags": [],
       "template": null,

@@ -624,15 +624,15 @@
           "is_answer": true
         },
         {
-          "md": "A lesson on building radios from new parts",
+          "md": "A workshop that guarantees suitable household items will work after a free repair",
           "is_answer": false
         },
         {
-          "md": "A collection point for dangerous batteries",
+          "md": "A safety check that accepts damaged batteries before deciding whether to repair them",
           "is_answer": false
         },
         {
-          "md": "A free shop where technicians replace every broken appliance and guarantee that each item works again",
+          "md": "A repair service where technicians fix accepted items while owners wait without participating",
           "is_answer": false
         }
       ],
@@ -654,9 +654,9 @@
         "ตัดรายละเอียดเดียวและข้อความที่กว้างเกินบท"
       ],
       "distractor_reasons": {
-        "1": "รับของใช้หลายชนิดและเน้นซ่อมของเดิม",
-        "2": "ของแบตเตอรี่บวมไม่รับเข้างาน",
-        "3": "บางชิ้นอาจซ่อมไม่ได้และผู้เข้าร่วมจ่ายค่าอะไหล่"
+        "1": "ประกาศไม่รับประกันผลและเจ้าของต้องจ่ายค่าอะไหล่ที่เลือกใช้",
+        "2": "ของที่มีแบตเตอรี่บวมไม่รับเข้างานตั้งแต่ต้น",
+        "3": "กิจกรรมเน้นให้ช่างสอนเจ้าของหาจุดเสียและเปลี่ยนอะไหล่ ไม่ใช่ซ่อมแทนทั้งหมด"
       },
       "misconception_tags": [],
       "template": null,
@@ -764,11 +764,11 @@
       "figures": [],
       "choices": [
         {
-          "md": "Replacing the forest walk with an indoor activity",
+          "md": "Using the earlier map while leaders check which side of the path shows the shed correctly",
           "is_answer": false
         },
         {
-          "md": "Teaching leaders to take better photographs",
+          "md": "Relying on the online map after the first bridge because the printed map may not load",
           "is_answer": false
         },
         {
@@ -776,7 +776,7 @@
           "is_answer": true
         },
         {
-          "md": "Repairing the phone signal beyond the bridge",
+          "md": "Clearing the vines so that leaders no longer need to point out the confusing turn",
           "is_answer": false
         }
       ],
@@ -798,9 +798,9 @@
         "ตัดรายละเอียดเดียวและข้อความที่กว้างเกินบท"
       ],
       "distractor_reasons": {
-        "0": "ยังมีการเดินครั้งถัดไป",
-        "1": "ภาพใช้ช่วยระบุตำแหน่ง ไม่ใช่บทเรียนถ่ายภาพ",
-        "3": "ไม่ได้วางแผนซ่อมสัญญาณ"
+        "0": "ให้ลบสำเนาเก่าและใช้แผนที่ฉบับแก้ ไม่ได้ให้ตรวจจากฉบับผิด",
+        "1": "สิ่งที่อาจโหลดไม่ได้คือแผนที่ออนไลน์เพราะสัญญาณอ่อน จึงต้องพกฉบับพิมพ์",
+        "3": "แม้จะเคลียร์เถาวัลย์ ผู้นำยังต้องชี้จุดเลี้ยว"
       },
       "misconception_tags": [],
       "template": null,
@@ -840,15 +840,15 @@
           "is_answer": true
         },
         {
-          "md": "The carriage was completely silent for the whole trip",
+          "md": "The current name is accurate because the carriage stayed quiet throughout the trip",
           "is_answer": false
         },
         {
-          "md": "The service should be removed because announcements are unsafe",
+          "md": "The carriage is useful only if recorded safety announcements are removed",
           "is_answer": false
         },
         {
-          "md": "Passengers should be allowed to make long phone calls",
+          "md": "The service should keep its name but allow longer conversations instead of announcements",
           "is_answer": false
         }
       ],
@@ -870,9 +870,9 @@
         "ตัดรายละเอียดเดียวและข้อความที่กว้างเกินบท"
       ],
       "distractor_reasons": {
-        "1": "มีประกาศเสียงดังช่วงกลางทาง",
-        "2": "ผู้เขียนเห็นว่ามีประโยชน์และต้องคงประกาศความปลอดภัย",
-        "3": "ป้ายขอให้ปิดเสียงและคุยสั้น"
+        "1": "มีประกาศดังช่วงกลางทางและผู้เขียนเสนอชื่อที่ลดความคาดหวัง",
+        "2": "ผู้เขียนต้องการให้ประกาศความปลอดภัยยังได้ยิน",
+        "3": "ผู้เขียนสนับสนุนการคุยสั้นและเสนอให้สื่อสารเรื่องประกาศให้ชัด"
       },
       "misconception_tags": [],
       "template": null,
@@ -908,15 +908,15 @@
       "figures": [],
       "choices": [
         {
-          "md": "How the garden club sells rare seeds",
+          "md": "How club members choose which seeds students may buy",
           "is_answer": false
         },
         {
-          "md": "Why plastic bags are always better than paper",
+          "md": "Why sealed plastic bags protect seeds better than paper envelopes",
           "is_answer": false
         },
         {
-          "md": "How to grow every kind of vegetable in the cabinet",
+          "md": "How to grow vegetables inside the exchange cabinet",
           "is_answer": false
         },
         {
@@ -942,9 +942,9 @@
         "ตัดรายละเอียดเดียวและข้อความที่กว้างเกินบท"
       ],
       "distractor_reasons": {
-        "0": "เป็นการแบ่งปันและไม่มีการขาย",
-        "1": "บทห้ามถุงพลาสติกปิดสนิท",
-        "2": "ให้ข้อมูลการใช้ตู้ ไม่ได้สอนปลูกทุกชนิด"
+        "0": "ระบบเป็นการแบ่งปันและผู้ใช้เลือกซองเอง ไม่มีการขาย",
+        "1": "บทห้ามถุงปิดสนิทเพราะความชื้นทำให้เกิดรา",
+        "2": "ตู้ใช้เก็บซองเมล็ด ไม่ใช่เป็นที่ปลูกพืช"
       },
       "misconception_tags": [],
       "template": null,
@@ -980,7 +980,7 @@
       "figures": [],
       "choices": [
         {
-          "md": "The driver refused to carry club members",
+          "md": "The driver delayed departure while checking a list submitted on time",
           "is_answer": false
         },
         {
@@ -988,11 +988,11 @@
           "is_answer": true
         },
         {
-          "md": "The bus was late every day for a month",
+          "md": "The bus was more than ten minutes late on most of the thirty days",
           "is_answer": false
         },
         {
-          "md": "The market will close so the bus can travel faster",
+          "md": "Traffic near the market caused each recorded delay",
           "is_answer": false
         }
       ],
@@ -1014,9 +1014,9 @@
         "ตัดรายละเอียดเดียวและข้อความที่กว้างเกินบท"
       ],
       "distractor_reasons": {
-        "0": "ปัญหาอยู่ที่เวลาส่งรายชื่อ",
-        "2": "สายเกินสิบนาที 12 จาก 30 วัน",
-        "3": "ไม่มีแผนปิดตลาด"
+        "0": "ชมรมส่งรายชื่อหลังเส้นตาย ไม่ใช่คนขับช้ากับรายชื่อที่มาตรงเวลา",
+        "2": "สายเกินสิบนาที 12 จาก 30 วัน ซึ่งไม่ใช่ส่วนใหญ่",
+        "3": "ข้อมูลชี้ว่าการส่งรายชื่อช้าเป็นสาเหตุซ้ำหลัก และรถติดเพิ่มเวลาเพียงบางวัน"
       },
       "misconception_tags": [],
       "template": null,
@@ -1052,11 +1052,11 @@
       "figures": [],
       "choices": [
         {
-          "md": "Watering the garden whenever any rain is recorded",
+          "md": "Using rainfall records alone to decide whether the garden needs water",
           "is_answer": false
         },
         {
-          "md": "Proving that the roof never affects the sensor",
+          "md": "Confirming that the sensor beside the wall represents the whole bed accurately",
           "is_answer": false
         },
         {
@@ -1064,7 +1064,7 @@
           "is_answer": true
         },
         {
-          "md": "Replacing all volunteers with an automatic machine",
+          "md": "Letting volunteers replace measured readings with a touch test",
           "is_answer": false
         }
       ],
@@ -1086,9 +1086,9 @@
         "ตัดรายละเอียดเดียวและข้อความที่กว้างเกินบท"
       ],
       "distractor_reasons": {
-        "0": "เกณฑ์ใช้ค่าดินต่ำกว่า 35% ไม่ใช่ฝน",
-        "1": "กำลังจะย้ายเซนเซอร์เพราะหลังคาอาจมีผล",
-        "3": "ยังให้ volunteers ทำตามหน้าจอ"
+        "0": "การตัดสินใช้ค่าดินต่ำกว่า 35% ส่วนฝนช่วยอธิบายค่าเท่านั้น",
+        "1": "ทีมสงสัยว่าน้ำจากหลังคาทำให้จุดนั้นชื้นกว่าส่วนอื่นและจะย้ายเซนเซอร์",
+        "3": "ประกาศให้ทำตามค่าบนจอแทนการสัมผัสหน้าดิน"
       },
       "misconception_tags": [],
       "template": null,
@@ -1124,7 +1124,7 @@
       "figures": [],
       "choices": [
         {
-          "md": "A photography class about damaged clothes",
+          "md": "A costume closet that photographs damage only after an item is returned late",
           "is_answer": false
         },
         {
@@ -1132,11 +1132,11 @@
           "is_answer": true
         },
         {
-          "md": "A shop that rents unsafe clothing for profit",
+          "md": "A rental service that accepts hard-to-wash costumes and charges for a repair table",
           "is_answer": false
         },
         {
-          "md": "A rule requiring every play to use the same costume",
+          "md": "A sharing system that saves money by asking borrowers to copy costumes they find online",
           "is_answer": false
         }
       ],
@@ -1158,9 +1158,9 @@
         "ตัดรายละเอียดเดียวและข้อความที่กว้างเกินบท"
       ],
       "distractor_reasons": {
-        "0": "ภาพใช้บันทึกสภาพก่อนยืม",
-        "2": "เป็นตู้แบ่งปันและไม่รับของซักไม่ปลอดภัย",
-        "3": "ยืมและดัดแปลงได้หลายชิ้น ไม่ได้บังคับชุดเดียว"
+        "0": "ถ่ายความเสียหายเดิมก่อนนำของเข้าตู้ ไม่ได้ผูกกับการคืนช้า",
+        "2": "เป็นระบบแบ่งปัน และจะไม่รับของที่ซักอย่างปลอดภัยไม่ได้",
+        "3": "ผลสร้างสรรค์คือการดัดแปลงของเก่าแทนการลอกแบบออนไลน์"
       },
       "misconception_tags": [],
       "template": null,
@@ -1196,7 +1196,7 @@
       "figures": [],
       "choices": [
         {
-          "md": "A new fee for listening to museum recordings",
+          "md": "A revised audio tour that adds a separate listening fee and requires personal headphones",
           "is_answer": false
         },
         {
@@ -1204,11 +1204,11 @@
           "is_answer": true
         },
         {
-          "md": "A rule that visitors must follow one fixed route",
+          "md": "A revised audio tour that requires visitors to play its tracks in one fixed order",
           "is_answer": false
         },
         {
-          "md": "The removal of all printed information",
+          "md": "A revised audio tour whose printed transcript contains more descriptions than the recordings",
           "is_answer": false
         }
       ],
@@ -1230,9 +1230,9 @@
         "ตัดรายละเอียดเดียวและข้อความที่กว้างเกินบท"
       ],
       "distractor_reasons": {
-        "0": "ทัวร์ฟรีเมื่อเข้าชม",
-        "2": "ผู้ใช้หยุด ข้าม หรือเปลี่ยนลำดับได้",
-        "3": "ยังมี transcripts ที่เคาน์เตอร์"
+        "0": "ทัวร์ฟรีเมื่อเข้าชมและมีหูฟังจำนวนหนึ่งให้ยืม",
+        "2": "ผู้เข้าชมหยุด ข้ามวัตถุ หรือเปลี่ยนลำดับได้",
+        "3": "คำบรรยายเสริมอยู่ในเสียงสี่แทร็กและไม่อยู่ใน transcript"
       },
       "misconception_tags": [],
       "template": null,
