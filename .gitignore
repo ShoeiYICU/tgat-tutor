@@ -1,0 +1,11 @@
+# เก็บใน repo เฉพาะตัวเว็บ ไฟล์อื่นอยู่ในเครื่องเท่านั้น
+/*
+!/web/
+!/vercel.json
+!/README.md
+!/.gitignore
+*.pdf
+*.PDF
+*.tmp
+.DS_Store
+Thumbs.db
