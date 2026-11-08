@@ -623,6 +623,22 @@ function pickVersion(base, fresh) {
   return pool[Math.floor(Math.random() * pool.length)];
 }
 
+/* ---------- พับแผ่นคลี่แบบ 3 มิติในเฉลย (เฉพาะโจทย์แผ่นคลี่ลูกบาศก์) */
+function foldSlot(q, p) {
+  if (!window.Fold3D || !(/box_folding/.test(q.topic) || /แผ่นคลี่/.test(p.stem_md || ""))) return "";
+  const ids = [...(p.stem_md || "").matchAll(/\[\[(fig\d+)\]\]/g)].map((m) => m[1]);
+  const ans = /^\[\[(fig\d+)\]\]$/.exec((p.choices[p.answer_index] || "").trim());
+  if (ans) ids.push(ans[1]);
+  return ids.length ? `<details class="reveal fold3d-box" open><summary>ดูการพับแบบ 3 มิติ</summary>
+    <div class="fold3d" data-figs="${ids.join(",")}"></div></details>` : "";
+}
+function mountFold(el, figs) {
+  el.querySelectorAll(".fold3d").forEach((slot) => {
+    const ok = slot.dataset.figs.split(",").some((id) => figs[id] && figs[id].svg && Fold3D.mount(slot, figs[id].svg));
+    if (!ok) slot.closest(".fold3d-box").remove();
+  });
+}
+
 function startSession(el, entries, opts) {
   const S = {
     q: entries.map((e) => ({ ...e, p: pickVersion(e.base, opts.fresh), picked: null, hints: 0 })),
@@ -665,10 +681,11 @@ function startSession(el, entries, opts) {
         <div class="solution">
           ${md(p.explanation_md, figs)}
           <details class="reveal"${sc < 1 ? " open" : ""}><summary>วิธีคิดทีละขั้น</summary>${stepsHTML(p.steps, figs)}</details>
+          ${foldSlot(q, p)}
         </div>`;
     } else if (reveal && !answered) {
       fb = `<div class="feedback bad" role="status"><b>ไม่ได้ตอบ</b> คำตอบคือข้อ ${LETTERS[p.answer_index]}</div>
-        <div class="solution">${md(p.explanation_md, figs)}${stepsHTML(p.steps, figs)}</div>`;
+        <div class="solution">${md(p.explanation_md, figs)}${stepsHTML(p.steps, figs)}${foldSlot(q, p)}</div>`;
     }
 
     const hintBox = S.mode === "learn" && q.hints > 0
@@ -708,6 +725,8 @@ function startSession(el, entries, opts) {
         return `<button class="dot ${k === S.i ? "cur" : ""} ${c}" data-k="${k}" aria-label="ข้อ ${k + 1}">${k + 1}</button>`;
       }).join("")}</div>`;
     tick();
+    mountFold(el, figs);
+    if (window.Scratch) Scratch.setKey(`q:${p.id || q.base.id}`);
 
     el.querySelectorAll(".choice").forEach((b) => b.addEventListener("click", () => {
       if (reveal) return;
@@ -1185,6 +1204,7 @@ async function route() {
 
   };
   markNav();
+  if (window.Scratch) Scratch.setKey("global", false);   // ปุ่มกระดาษทดแสดงเฉพาะหน้าที่มีโจทย์
   try {
     if (!a) await pageHome();
     else if (a === "s") await pageSubject(b, c2 === "ready");

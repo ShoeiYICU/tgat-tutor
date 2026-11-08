@@ -275,3 +275,43 @@ main { padding-top: 8px; padding-bottom: 48px; min-height: 70vh; outline: none; 
 button.duel-pick { font: inherit; text-align: left; cursor: pointer; width: 100%; }
 .duel-share { margin-top: 16px; text-align: center; }
 .duel-share textarea { width: 100%; font: inherit; font-size: .9rem; padding: 10px; border-radius: 10px; border: 1px solid currentColor; background: transparent; color: inherit; opacity: .9; resize: vertical; box-sizing: border-box; }
+
+/* ---------- พับแผ่นคลี่ 3 มิติ */
+.fold3d { margin-top: 6px; }
+.f3-stage { position: relative; perspective: 900px; perspective-origin: 50% 40%; overflow: hidden; border: 1px solid var(--line); border-radius: 12px; background: var(--surface-2); touch-action: none; cursor: grab; user-select: none; }
+.f3-stage:active { cursor: grabbing; }
+.f3-world { position: absolute; width: 0; height: 0; transform-style: preserve-3d; }
+.f3-face { position: absolute; left: 0; top: 0; transform-style: preserve-3d; backface-visibility: visible; color: var(--text); background: color-mix(in srgb, var(--surface) 88%, transparent); box-shadow: inset 0 0 0 1px var(--line); }
+.f3-face.base { background: color-mix(in srgb, var(--accent-soft) 85%, transparent); }
+.f3-face > svg { position: absolute; inset: 0; display: block; pointer-events: none; }
+.f3-ctrl { display: flex; gap: 10px; align-items: center; margin-top: 8px; flex-wrap: wrap; }
+.f3-range { flex: 1; min-width: 120px; }
+.f3-note { font-size: .85rem; margin: 6px 0 0; }
+
+/* ---------- กระดาษทด */
+.sc-fab { position: fixed; right: 16px; bottom: 16px; z-index: 40; display: flex; align-items: center; gap: 6px; padding: 10px 14px; border-radius: 99px; border: 1px solid var(--line); background: var(--surface); color: var(--text); box-shadow: var(--shadow); font: inherit; cursor: pointer; }
+.sc-fab span:first-child { font-size: 1.15rem; }
+.sc-fab.has::after { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--accent); }
+html.scratch-open .sc-fab { display: none; }
+html.scratch-open, html.scratch-open body { overflow: hidden; overscroll-behavior: none; }
+.scratch { --sc-paper: #fffdf8; --sc-rule: #d9dee8; position: fixed; inset: 0; z-index: 50; display: none; }
+:root[data-theme="dark"] .scratch { --sc-paper: #1b1f2a; --sc-rule: #343b4f; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .scratch { --sc-paper: #1b1f2a; --sc-rule: #343b4f; } }
+.scratch.open { display: block; }
+.scratch canvas { position: absolute; inset: 0; width: 100%; height: 100%; }
+.scratch .sc-ink { touch-action: none; cursor: crosshair; }
+.scratch.clear .sc-bgc { background: color-mix(in srgb, var(--bg) 8%, transparent); }
+.sc-bar { position: absolute; left: 0; right: 0; margin-inline: auto; width: max-content; bottom: max(12px, env(safe-area-inset-bottom)); display: flex; flex-wrap: wrap; justify-content: center; gap: 6px; max-width: calc(100vw - 16px); padding: 6px 8px; border-radius: 16px; background: var(--surface); border: 1px solid var(--line); box-shadow: 0 8px 28px rgb(0 0 0 / .18); }
+.sc-grp { display: flex; align-items: center; gap: 2px; padding: 0 4px; border-right: 1px solid var(--line); }
+.sc-grp:last-of-type { border-right: 0; }
+.sc-b, .sc-c, .sc-s { width: 38px; height: 38px; border: 0; border-radius: 10px; background: none; color: var(--text); font-size: 1.05rem; cursor: pointer; display: grid; place-items: center; }
+.sc-b.on, .sc-s.on { background: var(--accent-soft); color: var(--accent); }
+.sc-b:disabled { opacity: .35; cursor: default; }
+.sc-c::before { content: ""; width: 20px; height: 20px; border-radius: 50%; background: var(--c); box-shadow: 0 0 0 2px var(--surface), 0 0 0 3px var(--line); }
+.sc-c.on::before { box-shadow: 0 0 0 2px var(--surface), 0 0 0 4px var(--accent); }
+.sc-s i { width: var(--d); height: var(--d); border-radius: 50%; background: currentColor; }
+.sc-page { min-width: 34px; text-align: center; font-size: .85rem; color: var(--muted); }
+.sc-bg { font: inherit; font-size: .85rem; padding: 6px; border-radius: 8px; border: 1px solid var(--line); background: var(--surface); color: var(--text); }
+.sc-po { display: flex; align-items: center; gap: 4px; font-size: .82rem; color: var(--muted); white-space: nowrap; }
+.sc-close { background: var(--surface-2); }
+@media (max-width: 640px) { .sc-b, .sc-c, .sc-s { width: 34px; height: 34px; } .sc-fab-t { display: none; } }
