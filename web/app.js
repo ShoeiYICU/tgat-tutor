@@ -11,6 +11,7 @@ const SUBJECT_INFO = {
   tgat2: { short: "TGAT2", blurb: "ภาษา ตัวเลข มิติสัมพันธ์ และเหตุผล", time: "4 ส่วน · 100 คะแนน" },
   tgat3: { short: "TGAT3", blurb: "โจทย์สถานการณ์การทำงาน ให้คะแนนแบบขั้นบันได", time: "60 ข้อ · 60 นาที" },
   tpat3: { short: "TPAT3", blurb: "ความถนัดวิทยาศาสตร์ เทคโนโลยี และวิศวกรรมศาสตร์", time: "70 ข้อ · 180 นาที" },
+  math1: { short: "คณิต 1", blurb: "A-Level คณิตศาสตร์ประยุกต์ 1 · มีข้อเติมคำตอบเป็นตัวเลข", time: "30 ข้อ · 90 นาที" },
 };
 const DIFF_TXT = ["", "ง่ายมาก", "ง่าย", "ปานกลาง", "ยาก", "ยากมาก"];
 
@@ -44,6 +45,12 @@ const EXAM_BLUEPRINT = {
       { id: "tpat3.aptitude.mechanical", n: 15 }, { id: "tpat3.thinking.sci_engineering", n: 15 },
       { id: "tpat3.thinking.current_awareness", n: 10 }],
   },
+  // ผังสอบ ALEVEL_61: จำนวนและพีชคณิต 15–17 · การวัดและเรขาคณิต 3–5 · สถิติและความน่าจะเป็น 6–8 · แคลคูลัส 2–4
+  math1: {
+    items: 30, minutes: 90,
+    sections: [{ id: "math1.number_algebra", n: 16 }, { id: "math1.measure_geometry", n: 4 },
+      { id: "math1.stat_probability", n: 7 }, { id: "math1.calculus", n: 3 }],
+  },
 };
 
 /* ======================================================== utilities */
@@ -63,7 +70,8 @@ function shuffle(a, rnd = Math.random) {
 const cache = new Map();
 async function getJSON(path) {
   if (!cache.has(path)) {
-    cache.set(path, fetch(path).then((r) => {
+    // ถามเซิร์ฟเวอร์ทุกครั้งว่าไฟล์เปลี่ยนไหม (ได้ 304 ถ้าไม่เปลี่ยน) เพื่อให้เห็นวิชาและโจทย์ใหม่ทันทีหลังอัปเดตเว็บ
+    cache.set(path, fetch(path, { cache: "no-cache" }).then((r) => {
       if (!r.ok) throw new Error(`${r.status} ${path}`);
       return r.json();
     }).catch((e) => { cache.delete(path); throw e; }));
@@ -246,6 +254,7 @@ const SUBJECT_INTRO = {
   tgat1: { who: "ทุกคนที่สมัคร TCAS", what: "สนทนาและอ่านภาษาอังกฤษในชีวิตประจำวัน" },
   tgat2: { who: "ทุกคนที่สมัคร TCAS", what: "คิดเลข จับใจความ ดูรูปทรง และใช้เหตุผล" },
   tgat3: { who: "ทุกคนที่สมัคร TCAS", what: "เลือกวิธีรับมือสถานการณ์การทำงานและการอยู่ร่วมกัน" },
+  math1: { who: "คนที่ยื่นคณะสายวิทย์ วิศวะ แพทย์ และบริหารที่ใช้คะแนนคณิต 1", what: "เซต ตรรกศาสตร์ ฟังก์ชัน ลำดับ สถิติ ความน่าจะเป็น และแคลคูลัสเบื้องต้น" },
   tpat3: { who: "คนที่จะเข้าคณะวิศวะและสายวิทย์-เทคโนโลยี", what: "ตัวเลข มิติสัมพันธ์ กลไก และความคิดเชิงวิทยาศาสตร์" },
 };
 
@@ -623,6 +632,24 @@ function pickVersion(base, fresh) {
   return pool[Math.floor(Math.random() * pool.length)];
 }
 
+/* ---------- คำตอบที่เป็นตัวเลข (ข้อระบายตัวเลขของ A-Level) */
+function parseNum(s) {
+  const t = String(s || "").trim().replace(/,/g, "").replace(/−/g, "-");
+  if (!t) return null;
+  const f = /^(-?\d+(?:\.\d+)?)\s*\/\s*(\d+(?:\.\d+)?)$/.exec(t);
+  const v = f ? +f[1] / +f[2] : /^-?(\d+\.?\d*|\.\d+)$/.test(t) ? +t : NaN;
+  return Number.isFinite(v) ? v : null;
+}
+function numKey(v) {   // ต้องตรงกับ num_key ใน scripts/author.py
+  const r = Math.round(+v * 1e6) / 1e6;
+  return Number.isInteger(r) ? String(r) : String(r);
+}
+function fmtNum(v) { const r = Math.round(+v * 1e6) / 1e6; return String(r); }
+function numRight(p, v) {
+  const a = p.answer_numeric || {};
+  return Math.abs(+v - +a.value) <= (+a.tolerance || 0) + 1e-9;
+}
+
 /* ---------- พับแผ่นคลี่แบบ 3 มิติในเฉลย (เฉพาะโจทย์แผ่นคลี่ลูกบาศก์) */
 function foldSlot(q, p) {
   if (!window.Fold3D || !(/box_folding/.test(q.topic) || /แผ่นคลี่/.test(p.stem_md || ""))) return "";
@@ -645,7 +672,9 @@ function startSession(el, entries, opts) {
     i: 0, mode: opts.mode, done: false, t0: Date.now(), limit: opts.limitSec || 0, timer: null,
   };
   const figsOf = (p) => Object.fromEntries((p.figures || []).map((f) => [f.id, f]));
-  const scoreOf = (q) => q.picked == null ? 0 : q.p.scores ? q.p.scores[q.picked] : (q.picked === q.p.answer_index ? 1 : 0);
+  const scoreOf = (q) => q.picked == null ? 0
+    : q.p.format === "numeric" ? (numRight(q.p, q.picked) ? 1 : 0)
+    : q.p.scores ? q.p.scores[q.picked] : (q.picked === q.p.answer_index ? 1 : 0);
   const fmtT = (s) => `${Math.floor(s / 60)}:${String(s % 60).padStart(2, "0")}`;
 
   function tick() {
@@ -665,7 +694,9 @@ function startSession(el, entries, opts) {
     const figs = figsOf(p);
     const answered = q.picked != null;
     const reveal = S.mode === "learn" ? answered : S.done;
-    const picsOnly = p.choices.every((ch) => /^\[\[fig\d+\]\]$/.test(ch.trim()));
+    const isNum = p.format === "numeric";
+    const picsOnly = !isNum && p.choices.every((ch) => /^\[\[fig\d+\]\]$/.test(ch.trim()));
+    const ansTxt = isNum ? `${fmtNum(p.answer_numeric.value)}${p.answer_numeric.unit ? " " + p.answer_numeric.unit : ""}` : `ข้อ ${LETTERS[p.answer_index]}`;
     const n = S.q.length;
 
     let fb = "";
@@ -673,8 +704,9 @@ function startSession(el, entries, opts) {
       const sc = scoreOf(q);
       const cls = sc === 1 ? "good" : sc > 0 ? "mid" : "bad";
       const head = p.scores ? (sc === 1 ? "ดีที่สุด ได้เต็ม" : `ได้ ${sc} คะแนน จาก 1`)
-        : (sc === 1 ? "ถูกต้อง" : `ยังไม่ถูก คำตอบคือข้อ ${LETTERS[p.answer_index]}`);
-      const why = sc < 1 && p.why_wrong[String(q.picked)] ? `<p><b>ทำไมข้อ ${LETTERS[q.picked]} ไม่ใช่:</b> ${mdi(p.why_wrong[String(q.picked)], figs)}</p>` : "";
+        : (sc === 1 ? "ถูกต้อง" : `ยังไม่ถูก คำตอบคือ${isNum ? " " : ""}${ansTxt}`);
+      const wkey = isNum ? numKey(q.picked) : String(q.picked);
+      const why = sc < 1 && p.why_wrong[wkey] ? `<p><b>${isNum ? `ทำไมได้ ${fmtNum(q.picked)}:` : `ทำไมข้อ ${LETTERS[q.picked]} ไม่ใช่:`}</b> ${mdi(p.why_wrong[wkey], figs)}</p>` : "";
       const allWhy = p.scores ? `<ul>${p.choices.map((_, j) => p.why_wrong[String(j)] && j !== q.picked
         ? `<li><b>${LETTERS[j]} (${p.scores[j]}):</b> ${mdi(p.why_wrong[String(j)], figs)}</li>` : "").join("")}</ul>` : "";
       fb = `<div class="feedback ${cls}" role="status"><b>${head}</b>${why}${allWhy ? `<details class="reveal"><summary>ทำไมตัวเลือกอื่นได้คะแนนน้อยกว่า</summary>${allWhy}</details>` : ""}</div>
@@ -684,7 +716,7 @@ function startSession(el, entries, opts) {
           ${foldSlot(q, p)}
         </div>`;
     } else if (reveal && !answered) {
-      fb = `<div class="feedback bad" role="status"><b>ไม่ได้ตอบ</b> คำตอบคือข้อ ${LETTERS[p.answer_index]}</div>
+      fb = `<div class="feedback bad" role="status"><b>ไม่ได้ตอบ</b> คำตอบคือ${isNum ? " " : ""}${ansTxt}</div>
         <div class="solution">${md(p.explanation_md, figs)}${stepsHTML(p.steps, figs)}${foldSlot(q, p)}</div>`;
     }
 
@@ -698,7 +730,15 @@ function startSession(el, entries, opts) {
       </div>
       <div class="qcard">
         <div class="stem">${md(p.stem_md, figs)}</div>
-        <div class="choices${picsOnly ? " pics" : ""}">
+        ${isNum ? `<div class="numans">
+          <label for="numIn">คำตอบ (ตัวเลข)</label>
+          <input id="numIn" inputmode="decimal" autocomplete="off" value="${q.picked != null ? esc(fmtNum(q.picked)) : ""}" ${reveal ? "disabled" : ""}
+            class="${reveal && answered ? (scoreOf(q) === 1 ? "right" : "wrong") : ""}" placeholder="เช่น 12 หรือ 0.25">
+          ${p.answer_numeric.unit ? `<span class="muted">${esc(p.answer_numeric.unit)}</span>` : ""}
+          ${reveal ? "" : `<button class="btn primary" id="numBtn">${S.mode === "learn" ? "ตรวจคำตอบ" : answered ? "แก้คำตอบ" : "บันทึกคำตอบ"}</button>`}
+          <p class="muted numhint" id="numMsg">${!reveal && answered ? `บันทึกแล้ว: ${esc(fmtNum(q.picked))}` : "พิมพ์เป็นจำนวนเต็มหรือทศนิยม ใช้เศษส่วน เช่น 3/4 ก็ได้"}</p>
+        </div>` : ""}
+        <div class="choices${picsOnly ? " pics" : ""}"${isNum ? " hidden" : ""}>
           ${p.choices.map((ch, j) => {
             let cls = "";
             if (reveal) { if (j === p.answer_index) cls = "right"; else if (j === q.picked) cls = "wrong"; }
@@ -735,6 +775,16 @@ function startSession(el, entries, opts) {
       render();
     }));
     const on = (id, fn) => { const x = document.getElementById(id); if (x) x.addEventListener("click", fn); };
+    const numIn = document.getElementById("numIn");
+    const submitNum = () => {
+      const v = parseNum(numIn.value);
+      if (v == null) { document.getElementById("numMsg").textContent = "อ่านตัวเลขไม่ได้ ลองพิมพ์ใหม่ เช่น 12, -3.5 หรือ 3/4"; return; }
+      q.picked = v;
+      if (S.mode === "learn") store.record(q.topic, q.base.id, scoreOf(q));
+      render();
+    };
+    on("numBtn", submitNum);
+    if (numIn) numIn.addEventListener("keydown", (e) => { if (e.key === "Enter") submitNum(); });
     on("hintBtn", () => { q.hints += 1; render(); });
     on("prevBtn", () => { S.i -= 1; render(); scrollTop(); });
     on("nextBtn", () => { S.i += 1; render(); scrollTop(); });

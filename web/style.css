@@ -315,3 +315,11 @@ html.scratch-open, html.scratch-open body { overflow: hidden; overscroll-behavio
 .sc-po { display: flex; align-items: center; gap: 4px; font-size: .82rem; color: var(--muted); white-space: nowrap; }
 .sc-close { background: var(--surface-2); }
 @media (max-width: 640px) { .sc-b, .sc-c, .sc-s { width: 34px; height: 34px; } .sc-fab-t { display: none; } }
+
+/* ---------- คำตอบที่เป็นตัวเลข */
+.numans { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin: 14px 0 6px; }
+.numans label { font-weight: 600; }
+.numans input { font: inherit; font-size: 1.1rem; width: 12em; max-width: 100%; padding: 9px 12px; border-radius: 10px; border: 1px solid var(--line); background: var(--surface); color: var(--text); }
+.numans input.right { border-color: var(--good); box-shadow: 0 0 0 2px var(--good-soft); }
+.numans input.wrong { border-color: var(--bad, #d64545); }
+.numans .numhint { flex-basis: 100%; margin: 0; font-size: .85rem; }
