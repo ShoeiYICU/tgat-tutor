@@ -356,3 +356,33 @@ html.scratch-open, html.scratch-open body { overflow: hidden; overscroll-behavio
 .exam-dates input { font: inherit; padding: 6px 8px; border-radius: 8px; border: 1px solid var(--line); background: var(--surface); color: var(--text); }
 
 [hidden] { display: none !important; }
+
+/* ภาพสามมิติแบบเส้นรอบรูป: พื้นหน้าทึบเพื่อให้ก้อนหน้าบังเส้นของก้อนหลัง */
+.iso-bg { fill: var(--surface); }
+.stem .fig > svg.iso-lines { width: 100%; max-width: min(100%, 600px); }
+.choice .fig svg.iso-lines { max-width: 130px; }
+
+/* ---------- บท (กลุ่มหัวข้อย่อย) */
+.chapter { border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); margin: 10px 0; }
+.chapter > summary { list-style: none; cursor: pointer; padding: 14px 16px; display: grid; grid-template-columns: 1fr auto; gap: 4px 12px; align-items: center; }
+.chapter > summary::-webkit-details-marker { display: none; }
+.chapter > summary::after { content: "›"; grid-column: 2; grid-row: 1 / span 2; font-size: 1.4rem; color: var(--muted); transition: transform .15s; }
+.chapter[open] > summary::after { transform: rotate(90deg); }
+.chapter .ch-name { font-weight: 700; font-size: 1.05rem; }
+.chapter .ch-meta { color: var(--muted); font-size: .88rem; grid-column: 1; }
+.chapter .bar { grid-column: 1; display: block; }
+.chapter .ch-body { padding: 0 16px 14px; }
+.chapter .ch-body .row { margin: 0 0 8px; }
+
+/* ---------- ค้นหา */
+.search-btn { display: grid; place-items: center; text-decoration: none; font-size: 1.2rem; line-height: 1; }
+.search-box input { width: 100%; font: inherit; font-size: 1.05rem; padding: 12px 14px; border-radius: 12px; border: 1px solid var(--line); background: var(--surface); color: var(--text); }
+.sgroup h2 { font-size: 1.05rem; margin: 22px 0 6px; }
+.sgroup .leaf { flex-wrap: wrap; }
+.sgroup .spath { flex-basis: 100%; }
+.sgroup .more { margin-top: 6px; }
+mark { background: color-mix(in srgb, var(--accent) 28%, transparent); color: inherit; border-radius: 3px; padding: 0 1px; }
+
+/* ---------- ออฟไลน์ */
+.offline-bar { position: sticky; top: 0; z-index: 30; background: var(--warn-soft); color: var(--warn); text-align: center; padding: 6px 12px; font-size: .88rem; }
+.offline-bar a { color: inherit; text-decoration: underline; }

@@ -484,14 +484,29 @@ async function pageSubject(sid, onlyReady) {
       <span class="t">${esc(t.name_th)}</span><span class="badges">${badges}</span></a>`;
   };
 
-  const section = (b, depth) => {
+  // บท = กลุ่มของหัวข้อย่อยที่อยู่ใต้หัวข้อเดียวกัน แสดงเป็นการ์ดพับได้ เพื่อไม่ให้หน้ายาวเป็นรายการหัวข้อย่อยหลายสิบรายการ
+  const st = store.get();
+  const chapter = (b) => {
     const leaves = kids(b.id).filter((t) => t.kind === "leaf" && (!onlyReady || t.lesson || t.problems));
+    if (!leaves.length) return "";
+    const ready = leaves.filter((t) => t.lesson || t.problems);
+    const done = ready.filter((t) => st.topics[t.id]).length;
+    const nprob = leaves.reduce((a, t) => a + (t.problems || 0), 0);
+    return `<details class="chapter" id="ch-${b.id.replace(/\./g, "-")}">
+      <summary><span class="ch-name">${esc(b.name_th)}</span>
+        <span class="ch-meta">${ready.length < leaves.length ? `พร้อม ${ready.length} จาก ${leaves.length} หัวข้อ` : `${leaves.length} หัวข้อ`}${nprob ? ` · โจทย์ ${nprob} ข้อ` : ""}${done ? ` · ฝึกแล้ว ${done}` : ""}</span>
+        ${ready.length ? `<span class="bar"><i style="width:${Math.round(done / ready.length * 100)}%"></i></span>` : ""}</summary>
+      <div class="ch-body">
+        ${nprob ? `<div class="row"><a class="btn primary" href="#/c/${b.id}">ฝึกรวมทั้งบท</a><span class="muted small">สุ่มโจทย์จากทุกหัวข้อในบทนี้</span></div>` : ""}
+        ${leaves.map(leafRow).join("")}</div></details>`;
+  };
+  const section = (b, depth) => {
     const subs = kids(b.id).filter((t) => t.kind !== "leaf").map((x) => section(x, depth + 1)).join("");
-    if (!leaves.length && !subs) return "";
-    const H = depth === 0 ? "h2" : "h3";
-    return `<section class="${depth === 0 ? "branch" : "group"}">
-      <${H}>${esc(b.name_th)}${b.weight ? ` <span class="badge">${esc(b.weight)}</span>` : ""}</${H}>
-      ${leaves.map(leafRow).join("")}${subs}</section>`;
+    const own = chapter(b);
+    if (!own && !subs) return "";
+    if (depth > 0) return own + subs;
+    return `<section class="branch"><h2>${esc(b.name_th)}${b.weight ? ` <span class="badge">${esc(b.weight)}</span>` : ""}</h2>
+      ${own}${subs}</section>`;
   };
 
   const hasMix = s.leaves.some((t) => t.problems);
@@ -508,6 +523,29 @@ async function pageSubject(sid, onlyReady) {
     </div>
     ${kids(sid).map((b) => b.kind === "leaf" ? leafRow(b) : section(b, 0)).join("") ||
       `<div class="empty card">ยังไม่มีหัวข้อที่มีเนื้อหาในวิชานี้ กำลังทยอยเพิ่ม</div>`}`;
+}
+
+/* ---------- ฝึกรวมทั้งบท: สุ่มโจทย์จากทุกหัวข้อย่อยในบท วนทีละหัวข้อให้ได้ครบทุกเรื่อง */
+async function pageChapter(id) {
+  const c = await catalog();
+  const b = c.byId[id];
+  if (!b || b.kind === "leaf") return notFound();
+  const s = c.subjects.find((x) => x.id === b.subject);
+  const leaves = (s.children[id] || []).filter((t) => t.kind === "leaf" && t.problems);
+  if (!leaves.length) return notFound();
+  $app.innerHTML = `${crumbs(c, id)}<h1>ฝึกรวมบท ${esc(b.name_th)}</h1>
+    <p class="muted">สุ่มโจทย์จาก ${leaves.length} หัวข้อในบทนี้ ครั้งละไม่เกิน 15 ข้อ · มีคำใบ้และเฉลยทุกข้อ</p>
+    <div id="tabBody"><p class="muted">กำลังเตรียมโจทย์…</p></div>`;
+  const files = await Promise.all(leaves.map((t) => getJSON(`data/problems/${t.id}.json`).catch(() => null)));
+  const pools = files.filter(Boolean).map((f) => shuffle(f.items.map((p) => ({ base: p, topic: f.topic_id }))));
+  const picked = [];
+  for (let k = 0; picked.length < 15 && pools.some((p) => p.length); k = (k + 1) % pools.length) {
+    if (pools[k].length) picked.push(pools[k].pop());
+  }
+  startSession(document.getElementById("tabBody"), shuffle(picked), {
+    mode: "learn", fresh: true, showTopics: true,
+    title: `ฝึกรวมบท ${b.name_th}`, onRestart: () => pageChapter(id),
+  });
 }
 
 async function pageTopic(id, tab) {
@@ -1280,12 +1318,15 @@ async function route() {
     if (!a) await pageHome();
     else if (a === "s") await pageSubject(b, c2 === "ready");
     else if (a === "t") await pageTopic(decodeURIComponent(b), c2);
+    else if (a === "c") await pageChapter(decodeURIComponent(b));
     else if (a === "exam") await pageExam(b, c2 || "");
     else if (a === "mix") location.hash = `#/exam/${b}`;   // เส้นทางเดิม ให้ไปหน้าใหม่แทน
     else if (a === "duel") await pageDuel(b, c2, h.split("/")[3]);
     else if (a === "progress") await pageProgress();
     else if (a === "redo") await pageRedo();
     else if (a === "review") await pageReview();
+    else if (a === "search") await pageSearch(h.split("/").slice(1).join("/"));
+    else if (a === "offline") await pageOffline();
     else if (a === "vocab") await pageVocab(b);
     else if (a === "timer") await pageTimer();
     else if (a === "official") pageOfficial();
