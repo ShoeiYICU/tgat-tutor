@@ -157,6 +157,11 @@ function dayKey(d) {
   return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
 }
 
+/* ลำดับวันตามเวลาเครื่องผู้ใช้ ใช้คำนวณวันครบกำหนดทบทวน */
+function dayNum(d = new Date()) { return Math.floor((d.getTime() - d.getTimezoneOffset() * 60000) / 86400000); }
+/* ทวนซ้ำตามช่วงเวลา: ตอบผิดแล้วกลับมาพรุ่งนี้ ถ้าถูกต่อเนื่องจะห่างออกไป 3 7 14 30 วัน แล้วถือว่าจำได้ */
+const REVIEW_GAPS = [0, 1, 3, 7, 14, 30];
+
 /* จำนวนวันที่ฝึกติดต่อกันจนถึงวันนี้ (ถ้าวันนี้ยังไม่ได้ทำ นับถึงเมื่อวาน เพื่อไม่ให้ตัวเลขหายก่อนหมดวัน) */
 function streakInfo(days) {
   const d = new Date();
@@ -178,6 +183,13 @@ const store = (() => {
       t.tries += 1; t.score += score;
       const it = (s.items[baseId] ||= { tries: 0, best: 0 });
       it.tries += 1; it.best = Math.max(it.best, score);
+      const today = dayNum();
+      if (score < 1) { it.box = 1; it.due = today + REVIEW_GAPS[1]; }
+      else if (it.box) {
+        it.box += 1;
+        if (it.box >= REVIEW_GAPS.length) { it.box = 0; it.due = null; it.mastered = today; }
+        else it.due = today + REVIEW_GAPS[it.box];
+      }
       const day = dayKey(new Date());
       (s.days ||= {})[day] = (s.days[day] || 0) + 1;
       save();
@@ -190,7 +202,8 @@ const store = (() => {
       s.exams = s.exams.slice(0, 20);      // เก็บย้อนหลัง 20 ครั้งพอ
       save();
     },
-    reset() { s = { topics: {}, items: {}, lessons: {}, exams: [], seenGuide: s.seenGuide }; save(); },
+    update(fn) { fn(s); save(); },
+    reset() { s = { topics: {}, items: {}, lessons: {}, exams: [], seenGuide: s.seenGuide, examDates: s.examDates }; save(); },
   };
 })();
 
@@ -284,7 +297,7 @@ async function pageHome() {
   $app.innerHTML = `
   <section class="hero">
     <p class="eyebrow">ฟรีทั้งหมด · ไม่ต้องสมัครสมาชิก</p>
-    <h1>ฝึกข้อสอบ TGAT และ TPAT3<br>แบบรู้ว่าตัวเองผิดตรงไหน</h1>
+    <h1>ฝึกข้อสอบ TGAT TPAT3 และคณิต A-Level<br>แบบรู้ว่าตัวเองผิดตรงไหน</h1>
     <p class="lead">เว็บฝึกข้อสอบเข้ามหาวิทยาลัย (TCAS) ทุกข้อมีคำใบ้ เฉลยทีละขั้น
       และบอกเหตุผลว่า <b>ทำไมตัวเลือกที่ผิดถึงผิด</b></p>
     <div class="cta-row">${primary}${secondary}</div>
@@ -294,8 +307,9 @@ async function pageHome() {
       return `<p class="streak" role="status"><b>ฝึกต่อเนื่อง ${k.streak} วัน</b> · ${k.today
         ? `วันนี้ทำแล้ว ${k.today} ข้อ` : "วันนี้ยังไม่ได้ทำ ทำสักข้อเพื่อไม่ให้ขาดช่วง"}</p>`;
     })()}
+    <div id="todayBox"></div>
     <p class="hero-facts"><span><b>${st.lessons}</b> บทเรียน</span><span><b>${st.problems.toLocaleString("th-TH")}</b> โจทย์</span>
-      <span><b>4</b> วิชา</span><span>ใช้บนมือถือได้</span></p>
+      <span><b>${c.subjects.length}</b> วิชา</span><span>ใช้บนมือถือได้</span></p>
   </section>
 
   <h2>ใช้งานอย่างไร</h2>
@@ -355,6 +369,9 @@ async function pageHome() {
     const target = document.getElementById(el.dataset.scroll);
     if (target) { target.scrollIntoView({ behavior: "smooth", block: "start" }); target.focus?.(); }
   }));
+  if (typeof todayCardHTML === "function") {
+    todayCardHTML().then((h) => { const box = document.getElementById("todayBox"); if (box) box.innerHTML = h; });
+  }
 }
 
 /* หัวข้อแรกที่แนะนำของแต่ละวิชา: เลือกหัวข้อพื้นฐานที่มีบทเรียนก่อน */
@@ -766,6 +783,7 @@ function startSession(el, entries, opts) {
       }).join("")}</div>`;
     tick();
     mountFold(el, figs);
+    if (typeof StudyClock !== "undefined") StudyClock.set(q.topic.split(".")[0]);
     if (window.Scratch) Scratch.setKey(`q:${p.id || q.base.id}`);
 
     el.querySelectorAll(".choice").forEach((b) => b.addEventListener("click", () => {
@@ -1083,6 +1101,7 @@ async function pageProgress() {
     }).join("");
     return `<section class="branch"><h2>${esc(x.name_th)}</h2>${list || `<p class="muted">ยังไม่ได้เริ่ม</p>`}</section>`;
   }).join("");
+  const studyChart = typeof studyChartHTML === "function" ? studyChartHTML() : "";
   const exams = (s.exams || []).slice(0, 8);
   const examRows = exams.length ? `<h2>ประวัติสอบเสมือน</h2>
     <table><thead><tr><th scope="col">เมื่อ</th><th scope="col">ชุด</th><th scope="col">คะแนน</th><th scope="col">เวลาที่ใช้</th></tr></thead><tbody>
@@ -1111,6 +1130,7 @@ async function pageProgress() {
   $app.innerHTML = `<h1>ความคืบหน้าของฉัน</h1>
     <p class="muted">ข้อมูลเก็บในเบราว์เซอร์นี้เท่านั้น ไม่ได้ส่งไปที่ไหน ถ้าล้างข้อมูลเว็บหรือเปลี่ยนเครื่อง ความคืบหน้าจะหายไป</p>
     ${missed ? `<p><a class="btn primary" href="#/redo">ฝึกเฉพาะข้อที่เคยผิด (${missed} ข้อ)</a></p>` : ""}
+    ${studyChart}
     ${chart}
     ${examRows}
     ${rows}
@@ -1254,7 +1274,8 @@ async function route() {
 
   };
   markNav();
-  if (window.Scratch) Scratch.setKey("global", false);   // ปุ่มกระดาษทดแสดงเฉพาะหน้าที่มีโจทย์
+  if (window.Scratch) Scratch.setKey("global", false);
+  if (typeof StudyClock !== "undefined") StudyClock.set(studyContextFromHash(location.hash));   // ปุ่มกระดาษทดแสดงเฉพาะหน้าที่มีโจทย์
   try {
     if (!a) await pageHome();
     else if (a === "s") await pageSubject(b, c2 === "ready");
@@ -1264,6 +1285,9 @@ async function route() {
     else if (a === "duel") await pageDuel(b, c2, h.split("/")[3]);
     else if (a === "progress") await pageProgress();
     else if (a === "redo") await pageRedo();
+    else if (a === "review") await pageReview();
+    else if (a === "vocab") await pageVocab(b);
+    else if (a === "timer") await pageTimer();
     else if (a === "official") pageOfficial();
     else if (a === "guide") await pageGuide();
     else if (a === "about") pageAbout();
