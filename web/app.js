@@ -322,6 +322,16 @@ async function pageHome() {
       <p>จับเวลาตามจำนวนข้อและเวลาของข้อสอบจริง แล้วดูว่าควรกลับไปทบทวนเรื่องไหน</p></li>
   </ol>
 
+  <a class="card duel-card" href="#/race">
+    <span class="code">แข่งกับเพื่อน</span>
+    <span class="name">สร้างห้อง ใส่เลขห้อง แล้วแข่งพร้อมกันได้ถึง 10 คน</span>
+    <span class="what">ทุกคนได้โจทย์ชุดเดียวกัน ตอบถูกและตอบเร็วได้คะแนนมาก ดูอันดับสดระหว่างแข่ง</span>
+  </a>
+  <a class="card duel-card" href="#/custom">
+    <span class="code">จัดชุดสอบเอง</span>
+    <span class="name">เลือกบทที่อยากสอบ กำหนดจำนวนข้อและเวลาเอง</span>
+    <span class="what">เหมาะกับการเก็บเฉพาะบทที่ยังไม่แม่น หรือสอบย่อยหลังอ่านจบ</span>
+  </a>
   <a class="card duel-card" href="#/duel">
     <span class="code">ท้าเพื่อน</span>
     <span class="name">ทำโจทย์ชุดเดียวกัน 10 ข้อ แล้วเทียบคะแนนกัน</span>
@@ -514,7 +524,8 @@ async function pageSubject(sid, onlyReady) {
     <h1>${esc(s.name_th)}</h1>
     <p class="muted">${esc(info.blurb)} · ${esc(info.time)}</p>
     <div class="row">
-      ${hasMix ? `<a class="btn primary" href="#/exam/${sid}">สอบเสมือน (จับเวลา)</a>` : ""}
+      ${hasMix ? `<a class="btn primary" href="#/exam/${sid}">สอบเสมือน (จับเวลา)</a>
+        <a class="btn" href="#/custom/${sid}">จัดชุดสอบเอง</a>` : ""}
       <span class="muted">มีเนื้อหาแล้ว ${s.ready.length} จาก ${s.leaves.length} หัวข้อ</span>
     </div>
     <div class="filter">
@@ -997,6 +1008,132 @@ async function pageExam(sid, size) {
   }
 }
 
+/* ---------- จัดชุดสอบเอง: เลือกบทที่ต้องการ จำนวนข้อ และเวลา */
+const CUSTOM_KEY = "tgat-tutor.custom";
+
+async function pageCustom(sid) {
+  const c = await catalog();
+  const subjects = c.subjects.filter((x) => EXAM_BLUEPRINT[x.id] && x.leaves.some((t) => t.problems));
+  if (!sid || !subjects.some((x) => x.id === sid)) {
+    $app.innerHTML = `<h1>จัดชุดสอบเอง</h1>
+      <p class="lead">เลือกวิชา แล้วเลือกบทที่อยากให้ออกในข้อสอบชุดนี้</p>
+      <div class="subjects">${subjects.map((x) => `<a class="card subject-card" href="#/custom/${x.id}">
+        <span class="code">${SUBJECT_INFO[x.id].short}</span>
+        <span class="name">${esc(x.name_th.replace(SUBJECT_INFO[x.id].short + " ", ""))}</span>
+        <span class="what">โจทย์ ${x.leaves.reduce((a, t) => a + (t.problems || 0), 0)} ข้อ</span></a>`).join("")}</div>`;
+    return;
+  }
+  const s = c.subjects.find((x) => x.id === sid);
+  const bp = EXAM_BLUEPRINT[sid];
+  // บท = หัวข้อที่มีหัวข้อย่อยซึ่งมีโจทย์อยู่ข้างใต้โดยตรง จัดกลุ่มตามส่วนของวิชา
+  const chapters = s.topics.filter((t) => t.kind !== "leaf" && (s.children[t.id] || []).some((k) => k.kind === "leaf" && k.problems));
+  const countOf = (ch) => s.children[ch.id].reduce((a, k) => a + (k.kind === "leaf" ? k.problems || 0 : 0), 0);
+  const groups = new Map();
+  for (const ch of chapters) {
+    const par = c.byId[ch.parent];
+    const g = par && par.kind !== "subject" ? par.name_th : "";
+    if (!groups.has(g)) groups.set(g, []);
+    groups.get(g).push(ch);
+  }
+  let saved = {};
+  try { saved = (JSON.parse(localStorage.getItem(CUSTOM_KEY)) || {})[sid] || {}; } catch { /* */ }
+  const picked = new Set((saved.ch || []).filter((id) => chapters.some((x) => x.id === id)));
+  const secPer = Math.round(bp.minutes * 60 / bp.items);
+  const stat = (ch) => {
+    const kids = s.children[ch.id].filter((k) => k.kind === "leaf" && k.problems);
+    const vals = kids.map((k) => topicStat(k.id)).filter((v) => v != null);
+    if (!vals.length) return "";
+    const v = Math.round(vals.reduce((a, x) => a + x, 0) / vals.length);
+    return ` <span class="badge ${v >= 70 ? "ok" : v >= 50 ? "acc" : "warn"}">เคยได้ ${v}%</span>`;
+  };
+
+  $app.innerHTML = `${crumbs(c, sid)}<h1>จัดชุดสอบเอง · ${SUBJECT_INFO[sid].short}</h1>
+    <div id="tabBody">
+    <p class="muted">ติ๊กบทที่อยากให้ออก โจทย์จะสุ่มจากบทที่เลือกในจำนวนใกล้เคียงกันทุกบท ระหว่างทำไม่มีคำใบ้ ส่งแล้วเห็นคะแนนและเฉลยทุกข้อ</p>
+    <div class="row"><button class="btn" id="cuAll">เลือกทั้งหมด</button><button class="btn" id="cuNone">ล้างที่เลือก</button>
+      <button class="btn" id="cuWeak">เลือกบทที่เคยได้ต่ำกว่า 70%</button></div>
+    ${[...groups].map(([g, list]) => `${g ? `<h3>${esc(g)}</h3>` : ""}<div class="custom-list">
+      ${list.map((ch) => `<label class="custom-item"><input type="checkbox" value="${ch.id}"${picked.has(ch.id) ? " checked" : ""}>
+        <span>${esc(ch.name_th)}${stat(ch)}</span><span class="muted">${countOf(ch)} ข้อ</span></label>`).join("")}</div>`).join("")}
+    <div class="card custom-opts">
+      <label>จำนวนข้อ <select id="cuN">${[5, 10, 15, 20, 30, 40, 60].map((v) => `<option value="${v}"${v === (saved.n || 20) ? " selected" : ""}>${v} ข้อ</option>`).join("")}</select></label>
+      <label>เวลา <select id="cuT">
+        <option value="auto"${(saved.t || "auto") === "auto" ? " selected" : ""}>ตามข้อสอบจริง (ราว ${secPer} วินาทีต่อข้อ)</option>
+        <option value="x15"${saved.t === "x15" ? " selected" : ""}>ผ่อนกว่าจริง 1.5 เท่า</option>
+        <option value="none"${saved.t === "none" ? " selected" : ""}>ไม่จำกัดเวลา</option></select></label>
+      <label>ระดับความยาก <select id="cuD">
+        <option value="all"${(saved.d || "all") === "all" ? " selected" : ""}>ทุกระดับ</option>
+        <option value="easy"${saved.d === "easy" ? " selected" : ""}>ง่ายถึงปานกลาง</option>
+        <option value="hard"${saved.d === "hard" ? " selected" : ""}>ปานกลางถึงยากมาก</option></select></label>
+      <button class="btn primary" id="cuGo">เริ่มสอบ</button>
+      <p class="muted" id="cuMsg" role="status" style="margin:0"></p>
+    </div></div>`;
+
+  const boxes = [...$app.querySelectorAll(".custom-item input")];
+  const msg = document.getElementById("cuMsg");
+  const sum = () => {
+    const ids = boxes.filter((b) => b.checked).map((b) => b.value);
+    const total = chapters.filter((x) => ids.includes(x.id)).reduce((a, x) => a + countOf(x), 0);
+    msg.textContent = ids.length ? `เลือก ${ids.length} บท มีโจทย์ให้สุ่ม ${total} ข้อ` : "ยังไม่ได้เลือกบท";
+    return ids;
+  };
+  boxes.forEach((b) => b.addEventListener("change", sum));
+  document.getElementById("cuAll").addEventListener("click", () => { boxes.forEach((b) => { b.checked = true; }); sum(); });
+  document.getElementById("cuNone").addEventListener("click", () => { boxes.forEach((b) => { b.checked = false; }); sum(); });
+  document.getElementById("cuWeak").addEventListener("click", () => {
+    let any = false;
+    boxes.forEach((b) => {
+      const kids = s.children[b.value].filter((k) => k.kind === "leaf" && k.problems);
+      const vals = kids.map((k) => topicStat(k.id)).filter((v) => v != null);
+      b.checked = vals.length > 0 && vals.reduce((a, x) => a + x, 0) / vals.length < 70;
+      any = any || b.checked;
+    });
+    const ids = sum();
+    if (!any && !ids.length) msg.textContent = "ยังไม่มีบทที่เคยทำแล้วได้ต่ำกว่า 70%";
+  });
+  sum();
+
+  document.getElementById("cuGo").addEventListener("click", async () => {
+    const ids = sum();
+    if (!ids.length) { msg.textContent = "เลือกอย่างน้อย 1 บทก่อน"; return; }
+    const want = +document.getElementById("cuN").value;
+    const tMode = document.getElementById("cuT").value, dMode = document.getElementById("cuD").value;
+    try {
+      const all = JSON.parse(localStorage.getItem(CUSTOM_KEY)) || {};
+      all[sid] = { ch: ids, n: want, t: tMode, d: dMode };
+      localStorage.setItem(CUSTOM_KEY, JSON.stringify(all));
+    } catch { /* เก็บค่าที่เลือกไม่ได้ก็สอบได้ตามปกติ */ }
+    const bank = await getJSON(`data/exam/${sid}.json`);
+    const okDiff = (p) => dMode === "all" || (dMode === "easy" ? p.difficulty <= 3 : p.difficulty >= 3);
+    const pools = ids.map((id) => shuffle(bank.items.filter((p) => p.topic.startsWith(id + ".") && okDiff(p))));
+    const used = new Set(); const entries = [];
+    // เวียนหยิบทีละบท จึงได้จำนวนข้อใกล้เคียงกันทุกบท บทที่โจทย์หมดก่อนก็ข้ามไป
+    for (let guard = 0; entries.length < want && pools.some((x) => x.length) && guard < 5000; guard++) {
+      const pool = pools[guard % pools.length];
+      const p = pool.shift();
+      if (!p) continue;
+      const key = p.group || ((sid === "tgat1" || sid === "tgat2") && p.stem_md.length > 200 ? p.stem_md.slice(0, 80) : null);
+      if (key && used.has(key) && pools.some((x) => x.length > 0) && guard < 2500) { continue; }
+      if (key) used.add(key);
+      entries.push({ base: p, topic: p.topic });
+    }
+    if (!entries.length) { msg.textContent = "ไม่มีโจทย์ตรงกับระดับความยากที่เลือก ลองเปลี่ยนเป็นทุกระดับ"; return; }
+    const items = shuffle(entries).sort((a, b) => a.base.difficulty - b.base.difficulty);
+    const limitSec = tMode === "none" ? 0 : Math.round(items.length * secPer * (tMode === "x15" ? 1.5 : 1));
+    const body = document.getElementById("tabBody");
+    body.innerHTML = "";
+    if (items.length < want) body.insertAdjacentHTML("beforebegin", `<div class="note">บทที่เลือกมีโจทย์ตรงเงื่อนไข ${items.length} ข้อ จึงได้น้อยกว่าที่ตั้งไว้ ${want} ข้อ</div>`);
+    const secs = ids.map((id) => ({ id, name: c.byId[id].name_th }));
+    startSession(body, items, {
+      mode: "exam", fresh: true, limitSec, showTopics: true, sections: secs,
+      title: `ชุดสอบที่จัดเอง ${SUBJECT_INFO[sid].short} ${items.length} ข้อ`,
+      examMeta: { subject: sid, size: "custom", label: `จัดเอง ${ids.length} บท` },
+      onRestart: () => pageCustom(sid),
+    });
+    scrollTop();
+  });
+}
+
 /* ---------- ท้าเพื่อน
  * ไม่มีเซิร์ฟเวอร์: ลิงก์เก็บรหัสชุด (วิชา + เลขสุ่ม) ทุกเครื่องที่เปิดลิงก์เดียวกันสุ่มด้วยเลขเดียวกันจึงได้โจทย์ชุดเดียวกัน
  * คะแนนของคนท้าแนบไปในลิงก์เป็นตัวเลขธรรมดา (คะแนน-วินาที) ไม่มีการยืนยันตัวตน เป็นเกมระหว่างเพื่อน ไม่ใช่การสอบ */
@@ -1322,6 +1459,8 @@ async function route() {
     else if (a === "exam") await pageExam(b, c2 || "");
     else if (a === "mix") location.hash = `#/exam/${b}`;   // เส้นทางเดิม ให้ไปหน้าใหม่แทน
     else if (a === "duel") await pageDuel(b, c2, h.split("/")[3]);
+    else if (a === "race") await pageRace(b);
+    else if (a === "custom") await pageCustom(b);
     else if (a === "progress") await pageProgress();
     else if (a === "redo") await pageRedo();
     else if (a === "review") await pageReview();

@@ -13,7 +13,7 @@
 
   const st = {
     open: false, key: "global", tool: "pen", color: COLORS[0], size: 1, bg: "clear", penOnly: false,
-    pages: null, page: 0, undo: [], redo: [], cur: null, penSeen: false,
+    pages: null, page: 0, undo: [], redo: [], cur: null, penAt: 0, peek: false,
   };
   let root, cv, ctx, bgcv, bgctx, dpr = 1;
 
@@ -78,9 +78,12 @@
     }
     c.restore();
   }
+  // เขียนทับโจทย์: เส้นผูกกับตำแหน่งบนหน้าเว็บ เลื่อนหน้าแล้วเส้นเลื่อนตาม · กระดาษแบบอื่นอยู่กับจอ
+  function off() { return st.bg === "clear" ? (window.scrollY || 0) : 0; }
   function redraw() {
-    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    ctx.setTransform(1, 0, 0, 1, 0, 0);
     ctx.clearRect(0, 0, cv.width, cv.height);
+    ctx.setTransform(dpr, 0, 0, dpr, 0, -off() * dpr);
     for (const s of st.pages[st.page]) drawStroke(ctx, s);
     if (st.cur && st.cur.t !== "erase" && st.cur.t !== "cut") drawStroke(ctx, st.cur);
     pageLabel();
@@ -155,11 +158,20 @@
   function pos(ev) {
     const r = cv.getBoundingClientRect();
     const pr = ev.pointerType === "pen" ? (ev.pressure || 0.5) : 0.5;
-    return [ev.clientX - r.left, ev.clientY - r.top, pr];
+    return [ev.clientX - r.left, ev.clientY - r.top + off(), pr];
   }
   function down(ev) {
-    if (ev.pointerType === "pen") st.penSeen = true;
-    if (st.penOnly && ev.pointerType === "touch") return;          // กันมือวางบนจอ
+    if (!st.open) return;
+    const now = Date.now();
+    if (ev.pointerType === "pen") {
+      st.penAt = now;
+      // ฝ่ามือแตะจอก่อนปลายปากกา: ทิ้งเส้นจากฝ่ามือแล้วเริ่มเส้นปากกา
+      if (st.cur && st.cur.touch) { if (st.cur.before) st.pages[st.page] = st.cur.before; st.cur = null; }
+    } else if (ev.pointerType === "touch") {
+      if (st.penOnly) return;                       // ผู้ใช้เลือกให้นิ้วไม่ขีดเส้น
+      if (now - st.penAt < 600) return;             // เพิ่งใช้ปากกา: ถือว่าเป็นฝ่ามือ พอวางปากกาแล้วนิ้วเขียนได้ตามปกติ
+    }
+    if (st.cur) return;                             // มีเส้นที่กำลังเขียนอยู่แล้ว ไม่ให้นิ้วที่สองมาแทน
     if (ev.button > 0 && ev.pointerType === "mouse") return;
     ev.preventDefault();
     try { cv.setPointerCapture(ev.pointerId); } catch { /* บางเบราว์เซอร์ไม่ยอม ไม่เป็นไร */ }
@@ -167,11 +179,11 @@
     const eraserBtn = ev.pointerType === "pen" && (ev.buttons & 32);   // ปุ่มยางลบของปากกาบางรุ่น
     const tool = eraserBtn ? "erase" : st.tool;
     if (tool === "erase" || tool === "cut") {
-      st.cur = { t: tool, before: st.pages[st.page].slice(), id: ev.pointerId, r: SIZES.erase[st.size] / 2 };
+      st.cur = { t: tool, before: st.pages[st.page].slice(), id: ev.pointerId, r: SIZES.erase[st.size] / 2, touch: ev.pointerType === "touch" };
       st.cur.last = [x, y];
       eraseAt(x, y);
     } else {
-      st.cur = { t: tool, c: st.color, w: SIZES[tool][st.size], p: [[x, y, pr]], id: ev.pointerId };
+      st.cur = { t: tool, c: st.color, w: SIZES[tool][st.size], p: [[x, y, pr]], id: ev.pointerId, touch: ev.pointerType === "touch" };
       redraw();
     }
   }
@@ -186,6 +198,7 @@
     }
   }
   function move(ev) {
+    if (ev.pointerType === "pen") st.penAt = Date.now();
     if (!st.cur || ev.pointerId !== st.cur.id) return;
     ev.preventDefault();
     const evs = ev.getCoalescedEvents ? ev.getCoalescedEvents() : [ev];
@@ -212,7 +225,7 @@
         st.undo.push({ page: st.page, before: c.before, after: st.pages[st.page].slice() }); st.redo = [];
       }
     } else {
-      delete c.id;
+      delete c.id; delete c.touch;
       const before = st.pages[st.page].slice();
       st.pages[st.page].push(c);
       st.undo.push({ page: st.page, before, after: st.pages[st.page].slice() }); st.redo = [];
@@ -281,7 +294,7 @@
             <option value="clear">เขียนทับโจทย์</option><option value="plain">กระดาษเปล่า</option>
             <option value="grid">ตาราง</option><option value="lines">เส้นบรรทัด</option><option value="dots">จุด</option>
           </select>
-          <label class="sc-po" title="ให้วาดได้เฉพาะปากกา นิ้วและฝ่ามือจะไม่ขีดเส้น"><input type="checkbox" class="sc-penonly"> ปากกาเท่านั้น</label>
+          <label class="sc-po" title="เปิดไว้: เขียนได้เฉพาะปากกา นิ้วจะไม่ขีดเส้น · ปิดไว้: เขียนได้ทั้งนิ้วและปากกา"><input type="checkbox" class="sc-penonly"> ปิดการเขียนด้วยนิ้ว</label>
         </div>
         ${icon("close", "ปิดกระดาษทด", "sc-close")}
       </div>`;
@@ -306,9 +319,15 @@
       }
       tools(); persist();
     });
-    root.querySelector(".sc-bg").addEventListener("change", (e) => { st.bg = e.target.value; drawBg(); persist(); });
+    root.querySelector(".sc-bg").addEventListener("change", (e) => { st.bg = e.target.value; drawBg(); redraw(); persist(); });
     root.querySelector(".sc-penonly").addEventListener("change", (e) => { st.penOnly = e.target.checked; persist(); });
-    window.addEventListener("resize", () => { if (st.open) resize(); });
+    window.addEventListener("resize", () => { if (st.open || st.peek) resize(); });
+    let ticking = false;
+    window.addEventListener("scroll", () => {
+      if (!st.peek || ticking) return;
+      ticking = true;
+      requestAnimationFrame(() => { ticking = false; if (st.peek) redraw(); });
+    }, { passive: true });
     document.addEventListener("keydown", (e) => {
       if (!st.open) return;
       const k = e.key.toLowerCase();
@@ -318,9 +337,19 @@
     });
   }
 
+  /* ปิดโหมดเขียนแล้วลายมือที่เขียนทับโจทย์ยังแสดงอยู่ (แตะทะลุได้ เลื่อนหน้าได้) */
+  function setPeek() {
+    const want = !st.open && st.key !== "global" && st.bg === "clear" && hasNotes(st.key);
+    if (want && !root) build();
+    if (!root) return;
+    st.peek = want;
+    root.classList.toggle("peek", want);
+    if (want) { if (!st.pages || st.peekKey !== st.key) { loadKey(); st.peekKey = st.key; } st.page = 0; resize(); }
+  }
   function open() {
     if (!root) build();
-    loadKey();
+    loadKey(); st.peekKey = st.key;
+    st.peek = false; root.classList.remove("peek");
     st.open = true;
     root.classList.add("open");
     document.documentElement.classList.add("scratch-open");
@@ -332,7 +361,8 @@
     st.open = false;
     root.classList.remove("open");
     document.documentElement.classList.remove("scratch-open");
-    tools();
+    st.cur = null;
+    tools(); setPeek();
   }
   function hasNotes(key) {
     const n = (loadAll().notes || {})[key];
@@ -359,6 +389,7 @@
       else st.key = key || "global";
       fab.hidden = !show;
       tools();
+      if (!st.open) setPeek();
     },
     open, close,
   };

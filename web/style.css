@@ -386,3 +386,25 @@ mark { background: color-mix(in srgb, var(--accent) 28%, transparent); color: in
 /* ---------- ออฟไลน์ */
 .offline-bar { position: sticky; top: 0; z-index: 30; background: var(--warn-soft); color: var(--warn); text-align: center; padding: 6px 12px; font-size: .88rem; }
 .offline-bar a { color: inherit; text-decoration: underline; }
+.scratch.peek { display: block; pointer-events: none; z-index: 30; }
+.scratch.peek .sc-bar, .scratch.peek .sc-bgc { display: none; }
+.custom-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 8px; margin-bottom: 8px; }
+.custom-item { display: flex; align-items: center; gap: 10px; padding: 10px 12px; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); cursor: pointer; }
+.custom-item span:first-of-type { flex: 1; }
+.custom-item input { width: 18px; height: 18px; flex: none; }
+.custom-item:has(input:checked) { border-color: var(--accent); background: var(--accent-soft); }
+.custom-opts, .race-form { display: flex; flex-wrap: wrap; align-items: end; gap: 12px; margin-top: 16px; }
+.custom-opts label, .race-form label { display: grid; gap: 4px; font-size: .9rem; color: var(--muted); }
+.custom-opts select, .race-form select, .race-form input { font: inherit; padding: 8px 10px; border-radius: 10px; border: 1px solid var(--line); background: var(--surface); color: var(--text); min-width: 0; }
+.race-form h2 { flex-basis: 100%; margin: 0; font-size: 1.05rem; }
+.race-two { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 12px; align-items: start; }
+.race-code { letter-spacing: .12em; }
+.race-players { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 12px; }
+.race-play { display: grid; grid-template-columns: minmax(0, 1fr) 300px; gap: 16px; align-items: start; }
+.race-play aside h3 { margin-top: 0; }
+@media (max-width: 860px) { .race-play { grid-template-columns: 1fr; } }
+.race-board { width: 100%; font-size: .92rem; }
+.race-board tr.me td { background: var(--accent-soft); font-weight: 600; }
+.race-fb { min-height: 1.5em; font-weight: 600; margin: 12px 0 0; }
+.race-fb.good { color: var(--good); } .race-fb.bad { color: var(--bad); } .race-fb.mid { color: var(--accent); }
+.race-rev summary { cursor: pointer; }
