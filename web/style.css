@@ -408,3 +408,6 @@ mark { background: color-mix(in srgb, var(--accent) 28%, transparent); color: in
 .race-fb { min-height: 1.5em; font-weight: 600; margin: 12px 0 0; }
 .race-fb.good { color: var(--good); } .race-fb.bad { color: var(--bad); } .race-fb.mid { color: var(--accent); }
 .race-rev summary { cursor: pointer; }
+.race-chaps { flex-basis: 100%; display: grid; gap: 6px; }
+.race-chaps .custom-list { max-height: 240px; overflow: auto; margin: 0; }
+.custom-opts input { font: inherit; padding: 8px 10px; border-radius: 10px; border: 1px solid var(--line); background: var(--surface); color: var(--text); min-width: 0; }

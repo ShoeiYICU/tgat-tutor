@@ -59,6 +59,36 @@ const racePid = (code) => {
 const raceName = () => { try { return localStorage.getItem(RACE.nameKey) || ""; } catch { return ""; } };
 const raceFmt = (ms) => { const s = Math.round(ms / 1000); return `${Math.floor(s / 60)}:${String(s % 60).padStart(2, "0")}`; };
 
+/* สร้างห้องจากบทที่เลือก (หลายบทได้) แล้วพาไปหน้าห้อง · chaps ว่าง = ทุกบทของวิชา
+ * โจทย์เวียนหยิบทีละบท จึงได้จำนวนข้อใกล้เคียงกันทุกบท */
+async function raceCreate({ sid, chaps, n, per, max, diff }) {
+  const bank = await getJSON(`data/exam/${sid}.json`);
+  const okDiff = (p) => !diff || diff === "all" || (diff === "easy" ? p.difficulty <= 3 : p.difficulty >= 3);
+  const groups = chaps && chaps.length ? chaps : [sid];
+  const pools = groups.map((id) => shuffle(bank.items.filter((p) => p.topic.startsWith(id + ".") && okDiff(p))));
+  const used = new Set(); const ids = [];
+  for (let g = 0; ids.length < n && pools.some((x) => x.length) && g < 5000; g++) {
+    const p = pools[g % pools.length].shift();
+    if (!p) continue;
+    const key = p.group || p.id;
+    if (used.has(key)) continue;
+    used.add(key); ids.push(p.id);
+  }
+  if (ids.length < 1) throw new Error("บทที่เลือกยังไม่มีโจทย์ตรงเงื่อนไข");
+  // ลองตัวกลางทีละตัว ตัวแรกที่ต่อได้เป็นตัวที่ห้องนี้ใช้
+  let cl = null, bi = 0;
+  for (; bi < RACE.brokers.length; bi++) { try { cl = await raceConnect(bi); break; } catch { /* ลองตัวถัดไป */ } }
+  if (!cl) throw new Error("เชื่อมต่อไม่สำเร็จ ตรวจอินเทอร์เน็ตแล้วลองใหม่ (เครือข่ายบางแห่งปิดกั้นการเชื่อมต่อแบบนี้)");
+  const code = String(bi + 1) + String(Math.floor(Math.random() * 100000)).padStart(5, "0");
+  const me = racePid(code); me.host = true;
+  try { sessionStorage.setItem(`tgat-tutor.race.${code}`, JSON.stringify(me)); } catch { /* */ }
+  const cfg = { v: 1, host: me.pid, sid, chaps: chaps || [], ids, per, max, state: "lobby", at: Date.now() };
+  await new Promise((ok) => cl.publish(`tgattutor/v1/${code}/cfg`, JSON.stringify(cfg),
+    { qos: 1, retain: true, properties: { messageExpiryInterval: RACE.ttl } }, ok));
+  cl.end(true);
+  location.hash = `#/race/${code}`;
+}
+
 /* ---------- หน้าเริ่ม: สร้างห้อง หรือ ใส่เลขห้อง */
 async function pageRace(code) {
   raceLeave();
@@ -80,7 +110,8 @@ async function pageRace(code) {
       <div class="card race-form">
         <h2>สร้างห้องใหม่</h2>
         <label>วิชา <select id="rcSid">${subjects.map((x) => `<option value="${x.id}">${esc(SUBJECT_INFO[x.id].short)}</option>`).join("")}</select></label>
-        <label>บทที่ใช้ <select id="rcChap"><option value="">ทุกบทของวิชา</option></select></label>
+        <div class="race-chaps"><span class="muted">บทที่ใช้ (เลือกได้หลายบท ไม่ติ๊กเลย = ทุกบทของวิชา)</span>
+          <div class="custom-list" id="rcChaps"></div></div>
         <label>จำนวนข้อ <select id="rcN">${opt([5, 10, 15, 20], 10, (v) => `${v} ข้อ`)}</select></label>
         <label>เวลาต่อข้อ <select id="rcPer">${opt([30, 45, 60, 90, 120], 60, (v) => `${v} วินาที`)}</select></label>
         <label>จำนวนผู้เล่นสูงสุด <select id="rcMax">${opt([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 10, (v) => `${v} คน`)}</select></label>
@@ -95,7 +126,7 @@ async function pageRace(code) {
   const fillChap = () => {
     const s = c.subjects.find((x) => x.id === $("rcSid").value);
     const chaps = s.topics.filter((t) => t.kind !== "leaf" && (s.children[t.id] || []).some((k) => k.kind === "leaf" && k.problems));
-    $("rcChap").innerHTML = `<option value="">ทุกบทของวิชา</option>` + chaps.map((t) => `<option value="${t.id}">${esc(t.name_th)}</option>`).join("");
+    $("rcChaps").innerHTML = chaps.map((t) => `<label class="custom-item"><input type="checkbox" value="${t.id}"><span>${esc(t.name_th)}</span></label>`).join("");
   };
   $("rcSid").addEventListener("change", fillChap); fillChap();
   const keepName = () => {
@@ -113,32 +144,11 @@ async function pageRace(code) {
   $("rcCode").addEventListener("keydown", (e) => { if (e.key === "Enter") $("rcJoin").click(); });
   $("rcCreate").addEventListener("click", async () => {
     if (!keepName()) return;
-    const sid = $("rcSid").value, chap = $("rcChap").value, n = +$("rcN").value;
+    const sid = $("rcSid").value, n = +$("rcN").value;
+    const chaps = [...$("rcChaps").querySelectorAll("input:checked")].map((b) => b.value);
     $("rcCreate").disabled = true; msg("กำลังสร้างห้อง…");
-    try {
-      const bank = await getJSON(`data/exam/${sid}.json`);
-      let pool = bank.items.filter((p) => !chap || p.topic.startsWith(chap + "."));
-      const used = new Set(); const ids = [];
-      for (const p of shuffle(pool)) {
-        const key = p.group || p.id;
-        if (used.has(key)) continue;
-        used.add(key); ids.push(p.id);
-        if (ids.length >= n) break;
-      }
-      if (ids.length < 1) throw new Error("บทนี้ยังไม่มีโจทย์");
-      // ลองตัวกลางทีละตัว ตัวแรกที่ต่อได้เป็นตัวที่ห้องนี้ใช้
-      let cl = null, bi = 0;
-      for (; bi < RACE.brokers.length; bi++) { try { cl = await raceConnect(bi); break; } catch { /* ลองตัวถัดไป */ } }
-      if (!cl) throw new Error("เชื่อมต่อไม่สำเร็จ ตรวจอินเทอร์เน็ตแล้วลองใหม่ (เครือข่ายบางแห่งปิดกั้นการเชื่อมต่อแบบนี้)");
-      const code = String(bi + 1) + String(Math.floor(Math.random() * 100000)).padStart(5, "0");
-      const me = racePid(code); me.host = true;
-      try { sessionStorage.setItem(`tgat-tutor.race.${code}`, JSON.stringify(me)); } catch { /* */ }
-      const cfg = { v: 1, host: me.pid, sid, chap, ids, per: +$("rcPer").value, max: +$("rcMax").value, state: "lobby", at: Date.now() };
-      await new Promise((ok) => cl.publish(`tgattutor/v1/${code}/cfg`, JSON.stringify(cfg),
-        { qos: 1, retain: true, properties: { messageExpiryInterval: RACE.ttl } }, ok));
-      cl.end(true);
-      location.hash = `#/race/${code}`;
-    } catch (e) { msg(e.message); $("rcCreate").disabled = false; }
+    try { await raceCreate({ sid, chaps, n, per: +$("rcPer").value, max: +$("rcMax").value }); }
+    catch (e) { msg(e.message); $("rcCreate").disabled = false; }
   });
 }
 
@@ -176,7 +186,8 @@ async function raceRoom(code) {
   function lobby() {
     const list = Object.entries(R.players).map(([pid, p]) => ({ pid, ...p })).sort((a, b) => a.joined - b.joined);
     const isHost = R.cfg.host === me.pid;
-    const chapName = R.cfg.chap && CATALOG.byId[R.cfg.chap] ? ` · ${CATALOG.byId[R.cfg.chap].name_th}` : "";
+    const cn = (R.cfg.chaps || (R.cfg.chap ? [R.cfg.chap] : [])).map((id) => (CATALOG.byId[id] || {}).name_th).filter(Boolean);
+    const chapName = !cn.length ? " · ทุกบท" : cn.length <= 3 ? ` · ${cn.join(" + ")}` : ` · ${cn.length} บท (${cn.slice(0, 2).join(", ")} และอื่น ๆ)`;
     body.innerHTML = `<div class="card" style="text-align:center">
         <p class="muted" style="margin:0">บอกเลขห้องนี้ให้เพื่อน</p>
         <div class="result-big race-code">${code}</div>

@@ -328,9 +328,9 @@ async function pageHome() {
     <span class="what">ทุกคนได้โจทย์ชุดเดียวกัน ตอบถูกและตอบเร็วได้คะแนนมาก ดูอันดับสดระหว่างแข่ง</span>
   </a>
   <a class="card duel-card" href="#/custom">
-    <span class="code">จัดชุดสอบเอง</span>
-    <span class="name">เลือกบทที่อยากสอบ กำหนดจำนวนข้อและเวลาเอง</span>
-    <span class="what">เหมาะกับการเก็บเฉพาะบทที่ยังไม่แม่น หรือสอบย่อยหลังอ่านจบ</span>
+    <span class="code">ทดลองสอบแบบเลือกบทเอง</span>
+    <span class="name">เลือกหลายบทรวมกันในวิชาเดียว สอบคนเดียวหรือเปิดห้องแข่งกับเพื่อนก็ได้</span>
+    <span class="what">กำหนดจำนวนข้อ เวลา และระดับความยากเอง เหมาะกับการเก็บเฉพาะบทที่ยังไม่แม่น</span>
   </a>
   <a class="card duel-card" href="#/duel">
     <span class="code">ท้าเพื่อน</span>
@@ -525,7 +525,7 @@ async function pageSubject(sid, onlyReady) {
     <p class="muted">${esc(info.blurb)} · ${esc(info.time)}</p>
     <div class="row">
       ${hasMix ? `<a class="btn primary" href="#/exam/${sid}">สอบเสมือน (จับเวลา)</a>
-        <a class="btn" href="#/custom/${sid}">จัดชุดสอบเอง</a>` : ""}
+        <a class="btn" href="#/custom/${sid}">เลือกบทสอบเอง</a>` : ""}
       <span class="muted">มีเนื้อหาแล้ว ${s.ready.length} จาก ${s.leaves.length} หัวข้อ</span>
     </div>
     <div class="filter">
@@ -1015,7 +1015,7 @@ async function pageCustom(sid) {
   const c = await catalog();
   const subjects = c.subjects.filter((x) => EXAM_BLUEPRINT[x.id] && x.leaves.some((t) => t.problems));
   if (!sid || !subjects.some((x) => x.id === sid)) {
-    $app.innerHTML = `<h1>จัดชุดสอบเอง</h1>
+    $app.innerHTML = `<h1>ทดลองสอบแบบเลือกบทเอง</h1>
       <p class="lead">เลือกวิชา แล้วเลือกบทที่อยากให้ออกในข้อสอบชุดนี้</p>
       <div class="subjects">${subjects.map((x) => `<a class="card subject-card" href="#/custom/${x.id}">
         <span class="code">${SUBJECT_INFO[x.id].short}</span>
@@ -1047,9 +1047,9 @@ async function pageCustom(sid) {
     return ` <span class="badge ${v >= 70 ? "ok" : v >= 50 ? "acc" : "warn"}">เคยได้ ${v}%</span>`;
   };
 
-  $app.innerHTML = `${crumbs(c, sid)}<h1>จัดชุดสอบเอง · ${SUBJECT_INFO[sid].short}</h1>
+  $app.innerHTML = `${crumbs(c, sid)}<h1>ทดลองสอบแบบเลือกบทเอง · ${SUBJECT_INFO[sid].short}</h1>
     <div id="tabBody">
-    <p class="muted">ติ๊กบทที่อยากให้ออก โจทย์จะสุ่มจากบทที่เลือกในจำนวนใกล้เคียงกันทุกบท ระหว่างทำไม่มีคำใบ้ ส่งแล้วเห็นคะแนนและเฉลยทุกข้อ</p>
+    <p class="muted">ติ๊กบทที่อยากให้ออก เลือกรวมกันได้หลายบท โจทย์จะสุ่มจากบทที่เลือกในจำนวนใกล้เคียงกันทุกบท แล้วเลือกว่าจะสอบคนเดียวหรือเปิดห้องแข่งกับเพื่อน</p>
     <div class="row"><button class="btn" id="cuAll">เลือกทั้งหมด</button><button class="btn" id="cuNone">ล้างที่เลือก</button>
       <button class="btn" id="cuWeak">เลือกบทที่เคยได้ต่ำกว่า 70%</button></div>
     ${[...groups].map(([g, list]) => `${g ? `<h3>${esc(g)}</h3>` : ""}<div class="custom-list">
@@ -1065,8 +1065,22 @@ async function pageCustom(sid) {
         <option value="all"${(saved.d || "all") === "all" ? " selected" : ""}>ทุกระดับ</option>
         <option value="easy"${saved.d === "easy" ? " selected" : ""}>ง่ายถึงปานกลาง</option>
         <option value="hard"${saved.d === "hard" ? " selected" : ""}>ปานกลางถึงยากมาก</option></select></label>
-      <button class="btn primary" id="cuGo">เริ่มสอบ</button>
-      <p class="muted" id="cuMsg" role="status" style="margin:0"></p>
+      <p class="muted" id="cuMsg" role="status" style="margin:0;flex-basis:100%"></p>
+    </div>
+    <div class="race-two">
+      <div class="card custom-opts" style="margin-top:12px">
+        <h2 style="flex-basis:100%;margin:0;font-size:1.05rem">สอบคนเดียว</h2>
+        <p class="muted" style="flex-basis:100%;margin:0">จับเวลารวมทั้งชุด ย้อนแก้คำตอบได้ ส่งแล้วเห็นคะแนนรายบทและเฉลยทุกข้อ</p>
+        <button class="btn primary" id="cuGo">เริ่มสอบคนเดียว</button>
+      </div>
+      <div class="card custom-opts" style="margin-top:12px">
+        <h2 style="flex-basis:100%;margin:0;font-size:1.05rem">แข่งกับเพื่อน</h2>
+        <label>ชื่อที่ใช้ในห้อง <input id="cuName" maxlength="16" placeholder="ชื่อเล่น" autocomplete="off" value="${esc(typeof raceName === "function" ? raceName() : "")}"></label>
+        <label>เวลาต่อข้อ <select id="cuPer">${[30, 45, 60, 90, 120, 180].map((v) => `<option value="${v}"${v === (saved.per || 60) ? " selected" : ""}>${v} วินาที</option>`).join("")}</select></label>
+        <label>ผู้เล่นสูงสุด <select id="cuMax">${[2, 3, 4, 5, 6, 7, 8, 9, 10].map((v) => `<option value="${v}"${v === (saved.max || 10) ? " selected" : ""}>${v} คน</option>`).join("")}</select></label>
+        <button class="btn primary" id="cuRace">สร้างห้องแข่ง</button>
+        <p class="muted" style="flex-basis:100%;margin:0">ได้เลขห้อง 6 หลักไว้บอกเพื่อน ทุกคนได้โจทย์ชุดเดียวกันจากบทที่เลือก คะแนนคิดจากความถูกต้องและความเร็ว (ห้องแข่งรับได้สูงสุด 20 ข้อ)</p>
+      </div>
     </div></div>`;
 
   const boxes = [...$app.querySelectorAll(".custom-item input")];
@@ -1093,16 +1107,33 @@ async function pageCustom(sid) {
   });
   sum();
 
+  const keep = (ids) => {
+    const o = { ch: ids, n: +document.getElementById("cuN").value, t: document.getElementById("cuT").value, d: document.getElementById("cuD").value,
+      per: +document.getElementById("cuPer").value, max: +document.getElementById("cuMax").value };
+    try {
+      const all = JSON.parse(localStorage.getItem(CUSTOM_KEY)) || {};
+      all[sid] = o;
+      localStorage.setItem(CUSTOM_KEY, JSON.stringify(all));
+    } catch { /* เก็บค่าที่เลือกไม่ได้ก็สอบได้ตามปกติ */ }
+    return o;
+  };
+
+  document.getElementById("cuRace").addEventListener("click", async (ev) => {
+    const ids = sum();
+    if (!ids.length) { msg.textContent = "เลือกอย่างน้อย 1 บทก่อน"; return; }
+    const name = document.getElementById("cuName").value.trim().slice(0, 16);
+    if (!name) { msg.textContent = "พิมพ์ชื่อที่ใช้ในห้องก่อนสร้างห้องแข่ง"; document.getElementById("cuName").focus(); return; }
+    try { localStorage.setItem(RACE.nameKey, name); } catch { /* */ }
+    const o = keep(ids);
+    ev.target.disabled = true; msg.textContent = "กำลังสร้างห้อง…";
+    try { await raceCreate({ sid, chaps: ids, n: Math.min(o.n, 20), per: o.per, max: o.max, diff: o.d }); }
+    catch (e) { msg.textContent = e.message; ev.target.disabled = false; }
+  });
+
   document.getElementById("cuGo").addEventListener("click", async () => {
     const ids = sum();
     if (!ids.length) { msg.textContent = "เลือกอย่างน้อย 1 บทก่อน"; return; }
-    const want = +document.getElementById("cuN").value;
-    const tMode = document.getElementById("cuT").value, dMode = document.getElementById("cuD").value;
-    try {
-      const all = JSON.parse(localStorage.getItem(CUSTOM_KEY)) || {};
-      all[sid] = { ch: ids, n: want, t: tMode, d: dMode };
-      localStorage.setItem(CUSTOM_KEY, JSON.stringify(all));
-    } catch { /* เก็บค่าที่เลือกไม่ได้ก็สอบได้ตามปกติ */ }
+    const { n: want, t: tMode, d: dMode } = keep(ids);
     const bank = await getJSON(`data/exam/${sid}.json`);
     const okDiff = (p) => dMode === "all" || (dMode === "easy" ? p.difficulty <= 3 : p.difficulty >= 3);
     const pools = ids.map((id) => shuffle(bank.items.filter((p) => p.topic.startsWith(id + ".") && okDiff(p))));
